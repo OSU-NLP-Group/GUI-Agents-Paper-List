@@ -747,7 +747,7 @@
 
 - [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)
     - Xing Han Lu, Zdeněk Kasner, Siva Reddy
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Mila, McGill University
     - 📅 Date: February 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -756,20 +756,20 @@
 
 - [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://arxiv.org/abs/2402.17553)
     - Raghav Kapoor, Yash Parag Butala, Melisa Russak, Jing Yu Koh, Kiran Kamble, Waseem Alshikh, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU
     - 📅 Date: February 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [dataset], [benchmark], [multimodal agent], [UI grounding], [autonomous desktop and web tasks]
+    - 💻 Env: [Desktop],[Web]
+    - 🔑 Key: [dataset], [benchmark]
     - 📖 TLDR: OmniACT introduces a dataset and benchmark to train and evaluate multimodal agents capable of autonomously performing diverse tasks across desktop and web environments. Using annotated UI elements across applications, it combines visual grounding with natural language instructions, providing 9,802 data points for developing agents that integrate high-level reasoning with UI interactions. The study highlights the limited proficiency of current models, with baselines like GPT-4 only achieving 15% of human performance on executable scripts, emphasizing OmniACT's potential as a testbed for advancing multimodal AI.
 
 - [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://arxiv.org/abs/2401.16158)
     - Junyang Wang, Haiyang Xu, Jiabo Ye, Ming Yan, Weizhou Shen, Ji Zhang, Fei Huang, Jitao Sang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Beijing Jiaotong University, Alibaba
     - 📅 Date: January 29, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [benchmark], [multi-modal agent], [mobile device interaction]
+    - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: This paper presents Mobile-Agent, an autonomous multi-modal agent designed for mobile device interaction. The system integrates visual perception, natural language processing, and action prediction to navigate and operate mobile applications. The authors introduce a new dataset and benchmark for evaluating mobile agents, demonstrating Mobile-Agent's superior performance in task completion and generalization across various apps compared to existing methods.
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
@@ -783,21 +783,21 @@
 
 - [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://arxiv.org/abs/2401.13919)
     - Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, Dong Yu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ZJU, Tencent AI Lab, Westlake University
     - 📅 Date: January 24, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [multimodal web agent], [end-to-end interaction]
+    - 🔑 Key: [benchmark], [evaluation]
     - 📖 TLDR: This paper introduces WebVoyager, an innovative web agent powered by Large Multimodal Models (LMMs) that can complete user instructions end-to-end by interacting with real-world websites. The authors establish a new benchmark with tasks from 15 popular websites and propose an automatic evaluation protocol using GPT-4V. WebVoyager achieves a 59.1% task success rate, significantly outperforming GPT-4 (All Tools) and text-only setups. The study demonstrates the effectiveness of multimodal approaches in web automation and provides insights into developing more intelligent web interaction solutions.
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935)
-    - Yifan Wang, Bohao Li, Haoran Luo, Deng Cai, Yichong Xu, Wai Lam, Hao Zhou
-    - 🏛️ Institutions: Unknown
+    - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
+    - 🏛️ Institutions: NJU, Shanghai AI Lab
     - 📅 Date: January 19, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [GUI grounding], [visual GUI agents]
-    - 📖 TLDR: This paper introduces SeeClick, a novel framework for visual GUI agents that enhances their ability to interact with graphical user interfaces. The approach uses a two-stage process: first, it grounds natural language instructions to specific GUI elements, then it selects the most appropriate action. SeeClick demonstrates significant improvements in task completion rates across various GUI environments, outperforming existing methods and showing potential for more intuitive and efficient human-computer interactions.
+    - 🔑 Key: [model], [benchmark], [GUI grounding], [visual grounding]
+    - 📖 TLDR: TBD.
 
 - [AgentBench: Evaluating LLMs as Agents](https://llmbench.ai/agent)
     - Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang
@@ -1050,6 +1050,25 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [benchmark], [e-commerce web interaction], [language grounding]
     - 📖 TLDR: This paper introduces **WebShop**, a simulated web-based shopping environment with over 1 million real-world products and 12,087 annotated instructions. It allows language agents to navigate, search, and make purchases based on natural language commands. The study explores how agents handle compositional instructions and noisy web data, providing a robust environment for reinforcement learning and imitation learning. The best models show effective sim-to-real transfer on websites like Amazon, illustrating WebShop’s potential for training grounded agents.
+
+- [Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements](https://arxiv.org/abs/2010.04295)
+    - Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, Zhiwei Guan
+    - 🏛️ Institutions: Google Research
+    - 📅 Date: November 2020
+    - 📑 Publisher: EMNLP 2020
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [dataset], [benchmark], [model], [accessibility], [natural language generation]
+    - 📖 TLDR: This paper introduces the task of *widget captioning*, which aims to automatically generate natural language descriptions for UI elements in mobile apps to enhance accessibility. Using both visual and structural data from UI components, the study presents a novel dataset of 162,859 captions across 61,285 UI elements. Multiple deep learning models were tested on this dataset, with findings suggesting the potential for improving screen reader usability for visually impaired users by generating descriptive captions of UI elements.
+
+- [UIBert: Learning Generic Multimodal Representations for UI Understanding](https://www.ijcai.org/proceedings/2021/235)
+    - Chongyang Bai, Xiaoxue Zang, Ying Xu, Srinivas Sunkara, Abhinav Rastogi, Jindong Chen, Blaise Agüera y Arcas
+    - 🏛️ Institutions: Google Research
+    - 📅 Date: July 29, 2021
+    - 📑 Publisher: IJCAI 2021
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [model], [dataset], [multimodal representation learning], [UI understanding]
+    - 📖 TLDR: This paper presents *UIBert*, a multimodal model aimed at understanding user interfaces (UIs) by combining visual, textual, and structural metadata. UIBert is designed for tasks such as component retrieval and expression resolution, using a transformer-based joint image-text model. The authors introduce five novel pre-training tasks to leverage UI-specific features, enhancing accessibility and task completion in mobile applications. UIBert demonstrates superior performance on nine downstream UI tasks, highlighting the potential of multimodal pre-training in UI understanding.
+
 
 - [META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI](https://arxiv.org/abs/2205.11029)
     - Liangtai Sun, Xingyu Chen, Lu Chen, Tianle Dai, Zichen Zhu, Kai Yu
