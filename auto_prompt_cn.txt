@@ -56,5 +56,6 @@ Keywords 通常包含：
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
 你需要查找的论文标题：
-Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
+AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
+OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning
 把所有结果写到一个代码块里。

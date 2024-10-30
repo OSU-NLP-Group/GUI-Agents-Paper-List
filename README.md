@@ -792,7 +792,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: June 20, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [GUI action captioning], [multimodal LLM]
+    - 🔑 Key: [framework], [dataset], [benchmark], [GUI action captioning]
     - 📖 TLDR: This paper introduces a novel framework called GUI Narrator for captioning actions in GUI videos. The authors create a new benchmark dataset, Act2Cap, with 4,189 diverse video captioning samples. The approach uses a cursor detector as a visual prompt to enhance the interpretation of high-resolution screenshots. A multimodal LLM model with mechanisms for selecting keyframes and key regions generates the captions. The framework demonstrates improved performance in GUI action understanding compared to existing methods, even for advanced models like GPT-4V.
 
 - [E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion](https://arxiv.org/abs/2406.16034)
@@ -819,7 +819,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: June 27, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [layout-aware screen reading], [multimodal grounding], [accessible technology]
+    - 🔑 Key: [framework], [dataset], [benchmark], [layout-aware screen reading], [grounding], [accessible technology]
     - 📖 TLDR: This paper presents the Tree-of-Lens (ToL) agent, a multimodal grounding approach for GUI screen reading using large language models. The ToL agent generates natural language descriptions of screen areas indicated by a user, relying on a novel hierarchical layout tree structure that interprets GUI layouts into multiple lens-like views for enhanced comprehension. The paper introduces a specialized dataset, Android Screen Hierarchical Layout (ASHL), and a benchmark, ScreenPR, which demonstrate the ToL agent’s adaptability across platforms, enhancing accessibility for visually impaired users by improving GUI screen-reading efficiency.
 
 - [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.17744)
@@ -863,7 +863,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 🏛️ Institutions: Unknown
     - 📅 Date: July 1, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI (Android, Ubuntu)]
+    - 💻 Env: [GUI] (Android, Ubuntu)
     - 🔑 Key: [benchmark], [cross-environment], [graph evaluator], [sub-task decomposition]
     - 📖 TLDR: CRAB offers a comprehensive benchmark for evaluating multimodal language model (MLM) agents across Android and Ubuntu environments using CRAB Benchmark-v0. This framework introduces a unique graph-based evaluation, breaking down tasks into sub-goals that represent essential steps in complex interactions. CRAB’s dynamic task generation, with 100 varied tasks, supports cross-platform evaluations, highlighting agent adaptability and performance in executing real-world tasks through structured environments, enabling agents to seamlessly interact across device types and systems.
 
@@ -873,7 +873,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: July 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [framework], [multimodal LLM], [mobile GUI agent]
+    - 🔑 Key: [model], [framework]
     - 📖 TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
 
 - [Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model](https://arxiv.org/abs/2407.03037)
@@ -882,7 +882,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [benchmark], [automated GUI testing], [multimodal LLM]
+    - 🔑 Key: [framework], [dataset], [benchmark], [automated GUI testing]
     - 📖 TLDR: This paper presents VisionDroid, a vision-driven approach for automated mobile GUI testing using multimodal large language models. The system aims to detect non-crash functional bugs by understanding visual semantics and operational logic of GUI transitions. VisionDroid employs a function-aware explorer for deeper GUI exploration and a logic-aware bug detector for identifying issues. Evaluated on three datasets, it outperforms 10 baselines and successfully identifies 29 new bugs in real-world apps from Google Play.
 
 - [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://arxiv.org/abs/2407.17490)
@@ -1040,12 +1040,31 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
 
 - [AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?](https://arxiv.org/abs/2407.15711)
     - Ori Yoran, Samuel Joseph Amouyal, Chaitanya Malaviya, Ben Bogin, Ofir Press, Jonathan Berant
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tel Aviv University
     - 📅 Date: October 21, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [planning and reasoning]
     - 📖 TLDR: AssistantBench is a benchmark designed to test the abilities of web agents in completing time-intensive, realistic web-based tasks. Covering 214 tasks across various domains, the benchmark introduces the SPA (See-Plan-Act) framework to handle multi-step planning and memory retention. AssistantBench emphasizes realistic task completion, showing that current agents achieve only modest success, with significant improvements needed for complex information synthesis and execution across multiple web domains.
+
+- [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603)
+    - Chengyou Jia, Minnan Luo, Zhuohang Dang, Qiushi Sun, Fangzhi Xu, Junlin Hu, Tianbao Xie, Zhiyong Wu
+    - 🏛️ Institutions: XJTU, Shanghai AI Lab, HKU
+    - 📅 Date: October 24, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [multi-agent systems], [specialized generalist agent], [OSWorld benchmark]
+    - 📖 TLDR: AgentStore introduces a scalable platform to integrate and manage heterogeneous agents, designed to enhance generalist assistant capabilities for diverse computer tasks. Using a MetaAgent and AgentToken strategy, AgentStore shows improved generalization on the OSWorld benchmark.
+
+- [OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning](https://arxiv.org/abs/2410.18963)
+    - Xiaoqiang Wang, Bang Liu
+    - 🏛️ Institutions: Université de Montréal, Mila
+    - 📅 Date: October 24, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [autonomous agent], [state-aware planning], [GUI navigation], [error-handling]
+    - 📖 TLDR: OSCAR presents an autonomous agent capable of operating systems navigation by interpreting screen states. Utilizing a state machine for task adaptation and error management, OSCAR translates commands into executable code, significantly improving automation across desktop and mobile applications.
+
 
 ## Project & Software
 
