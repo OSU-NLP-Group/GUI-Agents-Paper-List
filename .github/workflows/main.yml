@@ -17,9 +17,9 @@ jobs:
       - name: Update README.md
         run: |
           # 将目标文件内容插入到README.md中的特定位置
-          CONTENT=$(cat papers.md)
+          CONTENT=$(cat source-file.md)
           # 替换README.md中的占位符，例如{{insert_content_here}}
-          sed -i '/{{insert_content_here}}/c\'"$CONTENT" README.md
+          sed -i 's|{{insert_content_here}}|'"$CONTENT"'|' README.md
 
       - name: Commit changes
         run: |
