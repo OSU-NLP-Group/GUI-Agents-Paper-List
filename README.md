@@ -35,7 +35,7 @@ Regarding the 🔑 Key:
 - dataset: If a new dataset is created and published. 
 - benchmark: If a new benchmark is established (add "dataset" if there's a new training set).
 - primary Innovation: List the main focus or innovation in the study. 
-- Common Abbreviations: Include commonly used abbreviations associated with the paper if not already in the title or TLDR.
+- Common Abbreviations: Include commonly used abbreviations associated with the paper. (e.g., seeact)
 
 For missing information, use "Unknown."
 
@@ -370,7 +370,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: January 1, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [generalist web agent], [grounding]
+    - 🔑 Key: [framework], [dataset], [benchmark], [generalist web agent], [grounding],[multimodal-mind2web]
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935)
@@ -1218,7 +1218,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: June 9, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [benchmark], [generalist web agent], [complex task navigation], [HTML element processing]
+    - 🔑 Key: [dataset], [benchmark],[mindact],[mind2web]
     - 📖 TLDR: *Mind2Web* presents a dataset and benchmark specifically crafted for generalist web agents capable of performing language-guided tasks across varied websites. Featuring over 2,000 tasks from 137 sites, it spans 31 domains and emphasizes open-ended, realistic tasks in authentic, unsimplified web settings. The study proposes the *MindAct* framework, which optimizes LLMs for handling complex HTML elements by using small LMs to rank elements before full processing, thereby enhancing the efficiency and versatility of web agents in diverse contexts.
 
 - [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://arxiv.org/abs/2306.07863)
