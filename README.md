@@ -1970,6 +1970,16 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 🔑 Key: [framework], [multimodal agent], [mobile interactions], [flexible action space]
     - 📖 TLDR: This paper introduces AppAgent v2, an advanced multimodal agent framework for mobile devices. The system emulates human-like interactions and constructs a flexible action space that enhances adaptability across various applications. It operates in two phases: exploration (documenting UI element functionalities) and deployment (using RAG technology for efficient knowledge retrieval). AppAgent v2 demonstrates superior performance in handling complex, multi-step operations across various applications, showing its effectiveness in real-world scenarios.
 
+- [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://github.com/QwenLM/Qwen2-VL)
+    - Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Yang Fan, Kai Dang, Mengfei Du, Xuancheng Ren, Rui Men, Dayiheng Liu, Chang Zhou, Jingren Zhou, Junyang Lin
+    - 🏛️ Institutions: Alibaba Cloud
+    - 📅 Date: September 18, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General]
+    - 🔑 Key: [model], [framework], [multimodal integration], [vision-language model], [scaling laws], [dynamic resolution]
+    - 📖 TLDR: The Qwen2-VL series significantly advances vision-language models with its dynamic resolution capability, enabling adaptive processing of images and videos across various resolutions. The model leverages Multimodal Rotary Position Embedding (M-RoPE) to unify positional information for text, images, and videos, supporting better multimodal understanding. The 72B parameter Qwen2-VL variant achieves competitive results against leading models like GPT-4o and Claude3.5-Sonnet on multiple multimodal benchmarks, demonstrating enhanced visual perception and adaptability for complex visual-linguistic tasks.
+
+
 - [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://arxiv.org/abs/2409.xxxxx)
     - [Author information not available]
     - 🏛️ Institutions: Unknown
