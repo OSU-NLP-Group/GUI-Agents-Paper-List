@@ -1,11 +1,12 @@
-name: Update README with Content from Papers
+name: Update README with Sorted Papers Content
 
 on:
   push:
     paths:
-      - 'papers.md'  # 监听 papers.md 的更新
+      - 'papers.md'         # 监听 papers.md 文件的更新
+      - 'sort_by_date.py'   # 监听 sort_by_date.py 脚本的更新
   schedule:
-    - cron: '0 0 * * *'  # 可选，每天定时运行（此处为每天0点）
+    - cron: '0 0 * * *'     # 每天定时运行（0点）
 
 jobs:
   update-readme:
@@ -14,9 +15,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update README.md
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # 使用最新的 Python 版本
+
+      - name: Install dependencies
         run: |
-          # 读取 papers.md 的内容
+          pip install pandas
+
+      - name: Run sort_by_date.py
+        run: |
+          python sort_by_date.py
+
+      - name: Update README.md with sorted papers content
+        run: |
+          # 读取更新后的 papers.md 内容
           CONTENT=$(cat papers.md)
           # 使用 EOF 将 papers.md 的内容插入到 README.md 的占位符位置
           sed -i '/{{insert_content_here}}/{
@@ -26,10 +40,10 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.email "geminigby@gmail.com"
-          git config --global user.name "Boyu Gou"
-          git add README.md
-          git commit -m "Update README with content from papers.md"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md papers.md
+          git commit -m "Update README with sorted content from papers.md"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
