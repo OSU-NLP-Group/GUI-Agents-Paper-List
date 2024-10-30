@@ -12,7 +12,11 @@ A variety of papers related to GUI Agents, including but not limited to:
 
 ## How to Add a Paper
 
+TODO: Move the details to the bottom later. Also add a ToC.
+
 ### format example:
+
+```
 - [title](paper link)
     - List authors directly without a "key" identifier (e.g., author1, author2)
     - 🏛️ Institutions: List the institutions concisely, using abbreviations (e.g., university names, like OSU).
@@ -21,6 +25,9 @@ A variety of papers related to GUI Agents, including but not limited to:
     - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [General] if it is researching on general domains.
     - 🔑 Key: Label each keyword within brackets, e.g., [model], [framework],[dataset],[benchmark].
     - 📖 TLDR: Brief summary of the paper.
+```
+
+
 
 Regarding the 🔑 Key: 
 - model: Indicates a newly trained model (not existing ones like GPT-4). Confirm by reading the abstract or paper details. 
