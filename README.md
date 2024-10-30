@@ -1011,3 +1011,15 @@ You can simply leave the paper name or the full formatted results in an issue.
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [planning and reasoning], [web task automation]
     - 📖 TLDR: AssistantBench is a benchmark designed to test the abilities of web agents in completing time-intensive, realistic web-based tasks. Covering 214 tasks across various domains, the benchmark introduces the SPA (See-Plan-Act) framework to handle multi-step planning and memory retention. AssistantBench emphasizes realistic task completion, showing that current agents achieve only modest success, with significant improvements needed for complex information synthesis and execution across multiple web domains.
+
+
+
+
+
+## Related Repositories
+
+- [awesome-llm-powered-agent](https://github.com/hyp1231/awesome-llm-powered-agent)
+- [Awesome-LLM-based-Web-Agent-and-Tools](https://github.com/albzni/Awesome-LLM-based-Web-Agent-and-Tools)
+- [Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent)
+- [computer-control-agent-knowledge-base](https://github.com/James4Ever0/computer_control_agent_knowledge_base)
+- [awesome-ui-agent](https://github.com/boyugou/awesome-ui-agents)
