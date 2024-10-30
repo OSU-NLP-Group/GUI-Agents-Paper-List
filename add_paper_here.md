@@ -681,6 +681,16 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [dataset], [UI understanding], [infographics understanding], [vision-language model]
     - 📖 TLDR: This paper introduces ScreenAI, a vision-language model specializing in UI and infographics understanding. The model combines the PaLI architecture with the flexible patching strategy of pix2struct and is trained on a unique mixture of datasets. ScreenAI achieves state-of-the-art results on several UI and infographics-based tasks, outperforming larger models. The authors also release three new datasets for screen annotation and question answering tasks.
+    - 
+- [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://www.catalyzex.com/paper/a-trembling-house-of-cards-mapping)
+    - Lingbo Mo, Zeyi Liao, Boyuan Zheng, Yu Su, Chaowei Xiao, Huan Sun
+    - 🏛️ Institutions: OSU, UWM
+    - 📅 Date: February 15, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General]
+    - 🔑 Key: [framework], [adversarial attacks], [security risks], [language agents], [Perception-Brain-Action]
+    - 📖 TLDR: This paper introduces a conceptual framework to assess and understand adversarial vulnerabilities in language agents, dividing the agent structure into three components—Perception, Brain, and Action. It discusses 12 specific adversarial attack types that exploit these components, ranging from input manipulation to complex backdoor and jailbreak attacks. The framework provides a basis for identifying and mitigating risks before the widespread deployment of these agents in real-world applications.
+
 
 - [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476)
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
