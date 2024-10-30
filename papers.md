@@ -934,8 +934,6 @@
     - 🔑 Key: [model], [vision-language model], [UI understanding], [mobile interfaces]
     - 📖 TLDR: This paper presents MobileVLM, a vision-language model specifically designed for understanding mobile user interfaces. The model improves both intra-UI understanding (relationships between elements within a single screen) and inter-UI understanding (connections across different screens or app states). MobileVLM demonstrates enhanced performance in tasks such as UI element classification, layout analysis, and task planning across mobile applications, potentially advancing the development of more intelligent mobile assistants and automated testing tools.
 
-
-
 - [Agent Workflow Memory](https://arxiv.org/abs/2409.07429)
     - Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
     - 🏛️ Institutions: Unknown
@@ -944,8 +942,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [workflow induction], [memory]
     - 📖 TLDR: This paper introduces Agent Workflow Memory (AWM), a method for inducing and utilizing reusable task workflows to improve agent performance on complex web navigation tasks. AWM works in both offline and online scenarios, inducing workflows from training examples or on-the-fly from test queries. Experiments on Mind2Web and WebArena benchmarks show substantial improvements in success rates (24.6% and 51.1% relative increases) and efficiency. AWM demonstrates robust generalization across tasks, websites, and domains, outperforming baselines by 8.9 to 14.0 absolute points as task distribution gaps widen.
-
-
 
 - [Windows Agent Arena](https://github.com/microsoft/WindowsAgentArena)
     - Rogerio Bonatti, Michael Nuñez, and others
@@ -1009,13 +1005,3 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [multi-agent systems], [specialized generalist agent], [OSWorld benchmark]
     - 📖 TLDR: AgentStore introduces a scalable platform to integrate and manage heterogeneous agents, designed to enhance generalist assistant capabilities for diverse computer tasks. Using a MetaAgent and AgentToken strategy, AgentStore shows improved generalization on the OSWorld benchmark.
-
-
-- [OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning](https://arxiv.org/abs/2410.18963)
-    - Xiaoqiang Wang, Bang Liu
-    - 🏛️ Institutions: Université de Montréal, Mila
-    - 📅 Date: October 24, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [autonomous agent], [state-aware planning], [GUI navigation], [error-handling]
-    - 📖 TLDR: OSCAR presents an autonomous agent capable of operating systems navigation by interpreting screen states. Utilizing a state machine for task adaptation and error management, OSCAR translates commands into executable code, significantly improving automation across desktop and mobile applications.
