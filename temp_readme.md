@@ -41,7 +41,7 @@ For missing information, use "Unknown."
 
 You can contribute by providing either the paper title or a fully formatted entry in [Paper Collection](https://github.com/boyugou/GUI-Agents-Paper-List/issues/1). You’re also welcome to open a new PR with your submission.
 
-For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help format your entry automatically.
+For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help search your paper and format the entry automatically.
 
 
 
