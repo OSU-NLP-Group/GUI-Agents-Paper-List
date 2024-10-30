@@ -7,7 +7,7 @@
 
 ```
 format:
-- [title](paper link)（只需要给出一个链接即可，如果项目有大主页（包含了论文链接），则优先使用项目链接。如果没有，优先arxiv的链接。）
+- [title](paper link)（只需要给出一个链接即可，如果项目有总的主页（homepage/project page）（包含了论文链接），则优先使用项目的主页链接。如果没有，优先arxiv的链接。）
     - author1, author2, and author3... （不需要key名，直接列出）
     - 🏛️ Institutions: Institution1, Institution2, etc. （尽量使用简写，例如对于学校名）
     - 📅 Date: Oct 30, 2024 （不需要key名，直接给出。并且如果有精确的时间（年月日），则给出精确到日的）（不需要加上更新的时间，只需要给出第一次发布的时间）
