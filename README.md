@@ -27,13 +27,11 @@ TODO: Move the details to the bottom later. Also add a ToC.
     - 📖 TLDR: Brief summary of the paper.
 ```
 
-
-
 Regarding the 🔑 Key: 
-- model: Indicates a newly trained model (not existing ones like GPT-4). Confirm by reading the abstract or paper details. 
+- model: Indicates a newly trained model.
 - framework: If the paper proposes a new framework. 
-- dataset: If a new dataset is created and published (use of existing datasets does not count). 
-- benchmark: If a new benchmark is established (add "dataset" if there's a new training set involved). Confirm by reading the abstract or more details to understand whether a new benchmark was created. 
+- dataset: If a new dataset is created and published. 
+- benchmark: If a new benchmark is established (add "dataset" if there's a new training set).
 - primary Innovation: List the main focus or innovation in the study. 
 - Common Abbreviations: Include commonly used abbreviations associated with the paper if not already in the title or TLDR.
 
