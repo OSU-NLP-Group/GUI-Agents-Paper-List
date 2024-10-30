@@ -864,7 +864,7 @@
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Aditya Vempaty, [Other authors not provided in the search results]
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Emergence AI
     - 📅 Date: July 17, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
