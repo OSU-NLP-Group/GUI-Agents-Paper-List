@@ -46,7 +46,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
 
 
 
-## Papers
+## Papers (from most recent to oldest)
 
 {{insert_content_here}}
 
