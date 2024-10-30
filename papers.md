@@ -935,6 +935,7 @@
     - 📖 TLDR: This paper presents MobileVLM, a vision-language model specifically designed for understanding mobile user interfaces. The model improves both intra-UI understanding (relationships between elements within a single screen) and inter-UI understanding (connections across different screens or app states). MobileVLM demonstrates enhanced performance in tasks such as UI element classification, layout analysis, and task planning across mobile applications, potentially advancing the development of more intelligent mobile assistants and automated testing tools.
 
 
+
 - [Agent Workflow Memory](https://arxiv.org/abs/2409.07429)
     - Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
     - 🏛️ Institutions: Unknown
