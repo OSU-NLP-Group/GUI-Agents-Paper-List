@@ -1051,7 +1051,7 @@ for match in new_format_pattern.findall(sample_input):
 # Convert to DataFrame and sort
 papers_df = pd.DataFrame(parsed_entries, columns=[
     'Title', 'Link', 'Authors', 'Institutions', 'Original Date', 'Parsed Date', 'Publisher', 'Env', 'Keywords', 'TLDR'
-])
+]).drop_duplicates(subset='Title', keep='first')
 papers_df.sort_values(by='Parsed Date', inplace=True)
 
 # Format output to new specified Markdown structure
@@ -1070,4 +1070,6 @@ for _, row in papers_df.iterrows():
 # Combine into final output
 final_output = "\n".join(sorted_markdown)
 
-print(final_output)
+print((final_output))
+
+print(papers_df)
