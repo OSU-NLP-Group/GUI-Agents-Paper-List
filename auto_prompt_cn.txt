@@ -5,7 +5,6 @@
 最后，根据你找到的内容，帮我总结成下面的markdown格式：
 
 
-```
 format:
 - [title](paper link)（只需要给出一个链接即可，如果项目有总的主页（homepage/project page）（包含了论文链接），则优先使用项目的主页链接。如果没有，优先arxiv的链接。）
     - author1, author2, and author3... （不需要key名，直接列出）
@@ -15,7 +14,7 @@ format:
     - 💻 Env: [environment, e.g., Web, Mobile] （记得给加上"[]",例如 [Web]）
     - 🔑 Key: [key1], [key2], [key3], etc. 记得给每个都加上"[]",例如 [Web]）
     - 📖 TLDR: Brief summary of the paper.
-```
+
 
 对于没有找到的内容，请写Unknown即可
 
@@ -29,7 +28,7 @@ Keywords 通常包含：
 3. 是否是有新创造的dataset，如果有，加上dataset （注意，请认真阅读文章的abstract或者更多内容，理解是否build并发布了新的数据集，只是使用现有数据集则不算）
 4. 是否有新的benchmark，如果有，加上benchmark（如果明确有训练集，则也加上dataset的keyword），（注意，请认真阅读文章的abstract或者更多内容，理解是否build了新的benchmark，只是使用现有benchmarks则不算）
 5. 论文的主要创新点或者研究重点
-6. 没有在标题和TLDR里提及的该论文常用的指代缩写
+6. 提及的该论文时常用的指代缩写（例如模型名、framework名、数据集名）
 
 
 
@@ -42,7 +41,7 @@ Keywords 通常包含：
     - 📅 Date: August 2017
     - 📑 Publisher: ICML 2017
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [reinforcement learning], [web-based tasks], [open-domain]
+    - 🔑 Key: [framework], [dataset], [reinforcement learning],[WoB]
     - 📖 TLDR: This paper introduces *World of Bits (WoB)*, a platform enabling agents to perform complex web-based tasks using low-level keyboard and mouse actions, addressing the lack of open-domain realism in existing reinforcement learning environments. WoB leverages a novel framework where crowdworkers create tasks with structured rewards and reproducibility by caching web interactions, forming a stable training environment. The authors validate WoB by training agents via behavioral cloning and reinforcement learning to accomplish various real-world tasks, showcasing its potential as an effective platform for reinforcement learning on web tasks.
 
 
@@ -52,10 +51,10 @@ Keywords 通常包含：
     - 📅 Date: January 1, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [generalist web agent], [grounding]
+    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2Web]
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
-你需要查找的论文标题：
-AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
-OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning
+
 把所有结果写到一个代码块里。
+
+你需要查找的论文标题：
