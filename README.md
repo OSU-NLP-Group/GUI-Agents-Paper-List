@@ -1,4 +1,4 @@
-# Awesome GUI Agent Paper List
+# Awesome GUI Agent Paper List (Work-In-Progress)
 
 The current entries have been mostly auto-generated using GPT or Perplexity AI (via the repo's prompt). This may lead to inaccuracies, particularly with links, author names, dates, or keywords. Contributions for corrections are welcome!
 
@@ -462,14 +462,14 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [framework], [multi-agent system], [mobile device operation], [task navigation]
     - 📖 TLDR: This paper presents Mobile-Agent-v2, an advanced multi-agent architecture for mobile device operation assistance. The system comprises three specialized agents: a planning agent for task progress navigation, a decision agent for focus content navigation, and a reflection agent for error correction. Experimental results show that Mobile-Agent-v2 achieves over a 30% improvement in task completion rates compared to its single-agent predecessor, demonstrating effective navigation and management of complex mobile device operations.
 
-- [WebSuite: Systematically Evaluating Why Web Agents Fail](https://arxiv.org/abs/2406.01623)
-    - Eric Li, Jim Waldo
-    - 🏛️ Institutions: Harvard
-    - 📅 Date: June 1, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [framework], [web agents], [failure analysis], [analysis], [task disaggregation]
-    - 📖 TLDR: This paper introduces *WebSuite*, a diagnostic benchmark to investigate the causes of web agent failures. By categorizing agent tasks using a taxonomy of operational, informational, and navigational actions, WebSuite offers granular insights into the specific actions where agents struggle, like filtering or form completion. It enables detailed comparison across agents, identifying areas for architectural and UX adaptation to improve agent reliability and task success on the web.
+- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9)
+    - Yijun Qian, Yujie Lu, Alexander G. Hauptmann, Oriana Riva
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: June 2024
+    - 📑 Publisher: NAACL 2024 (Industry Track)
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [dataset], [benchmark], [visual grounding], [layout-guided contrastive learning]
+    - 📖 TLDR: This paper presents LVG (Layout-guided Visual Grounding), a model designed to address the challenges of grounding natural language commands to GUI elements in user interfaces without relying on developer-provided metadata like UI trees. LVG combines UI element detection with grounding in a single model by using layout-guided contrastive learning to understand the spatial organization of UI elements. It leverages synthetic data and multi-context learning due to the scarcity of UI datasets. LVG outperforms existing models, achieving higher top-1 accuracy on GUI tasks by 4.9 points, showing its effectiveness in both detection and grounding of visual elements.
 
 - [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://arxiv.org/abs/2406.10227)
     - Kevin Qinghong Lin, Linjie Li, Difei Gao, Qinchen Wu, Mingyi Yan, Zhengyuan Yang, Lijuan Wang, Mike Z. Shou
@@ -480,14 +480,14 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [benchmark], [instructional videos], [visual planning], [hierarchical task decomposition], [complex software interaction]
     - 📖 TLDR: VideoGUI presents a benchmark for evaluating GUI automation on tasks derived from instructional videos, focusing on visually intensive applications like Adobe Photoshop and video editing software. The benchmark includes 178 tasks, with a hierarchical evaluation method distinguishing high-level planning, mid-level procedural steps, and precise action execution. VideoGUI reveals current model limitations in complex visual tasks, marking a significant step toward improved visual planning in GUI automation.
 
-- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9)
-    - Yijun Qian, Yujie Lu, Alexander G. Hauptmann, Oriana Riva
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 2024
-    - 📑 Publisher: NAACL 2024 (Industry Track)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [visual grounding], [layout-guided contrastive learning]
-    - 📖 TLDR: This paper presents LVG (Layout-guided Visual Grounding), a model designed to address the challenges of grounding natural language commands to GUI elements in user interfaces without relying on developer-provided metadata like UI trees. LVG combines UI element detection with grounding in a single model by using layout-guided contrastive learning to understand the spatial organization of UI elements. It leverages synthetic data and multi-context learning due to the scarcity of UI datasets. LVG outperforms existing models, achieving higher top-1 accuracy on GUI tasks by 4.9 points, showing its effectiveness in both detection and grounding of visual elements.
+- [WebSuite: Systematically Evaluating Why Web Agents Fail](https://arxiv.org/abs/2406.01623)
+    - Eric Li, Jim Waldo
+    - 🏛️ Institutions: Harvard
+    - 📅 Date: June 1, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [framework], [web agents], [failure analysis], [analysis], [task disaggregation]
+    - 📖 TLDR: This paper introduces *WebSuite*, a diagnostic benchmark to investigate the causes of web agent failures. By categorizing agent tasks using a taxonomy of operational, informational, and navigational actions, WebSuite offers granular insights into the specific actions where agents struggle, like filtering or form completion. It enables detailed comparison across agents, identifying areas for architectural and UX adaptation to improve agent reliability and task success on the web.
 
 - [AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents](https://arxiv.org/abs/2405.14573)
     - Christopher Rawles, Sarah Clinckemaillie, Yifan Chang, Jonathan Waltz, Gabrielle Lau, Marybeth Fair, Alice Li, William Bishop, Wei Li, Folawiyo Campbell-Ajala, Daniel Toyama, Robert Berry, Divya Tyamagundlu, Timothy Lillicrap, Oriana Riva
@@ -597,15 +597,6 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [model], [framework], [dataset], [benchmark], [mobile UI understanding]
     - 📖 TLDR: This paper presents **Ferret-UI**, a multimodal large language model (MLLM) designed to understand and interact with mobile user interfaces. The model incorporates advanced capabilities for referring, grounding, and reasoning about UI elements. By training on a variety of UI tasks, Ferret-UI achieves high performance in tasks such as icon recognition and text extraction. The authors introduce a unique architecture that allows for improved visual feature extraction from mobile screens, paving the way for applications in accessibility and user interaction.
 
-- [Octopus: On-device language model for function calling of software APIs](https://arxiv.org/abs/2404.01549)
-    - Wei Chen, Zhiyuan Li, Mingyuan Ma
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 2, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [dataset], [benchmark], [API function calling], [conditional masking], [on-device LLMs]
-    - 📖 TLDR: This paper introduces *Octopus*, an on-device language model fine-tuned to perform software API function calls with improved accuracy over cloud-based models like GPT-4. By compiling a dataset from 20,000 API documents and utilizing conditional masking techniques, the model enhances API interactions while maintaining quick inference speeds. Octopus also introduces a new benchmark for evaluating API call accuracy, addressing challenges in automated software development and API integration, particularly for edge devices.
-
 - [Octopus v2: On-device language model for super agent](https://arxiv.org/abs/2404.01744)
     - Wei Chen, Zhiyuan Li
     - 🏛️ Institutions: Unknown
@@ -614,6 +605,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [framework], [on-device language model], [function calling], [super agent]
     - 📖 TLDR: This paper introduces Octopus v2, an innovative on-device language model designed for efficient function calling in AI agents. The 2-billion parameter model outperforms GPT-4 in both accuracy and latency, while reducing context length by 95%. Octopus v2 uses a novel method of encoding functions into specialized tokens, significantly improving performance and enabling deployment across various edge devices. The model demonstrates a 35-fold latency improvement over Llama-7B with RAG-based function calling, making it suitable for real-world applications on resource-constrained devices.
+
+- [Octopus: On-device language model for function calling of software APIs](https://arxiv.org/abs/2404.01549)
+    - Wei Chen, Zhiyuan Li, Mingyuan Ma
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: April 2, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [dataset], [benchmark], [API function calling], [conditional masking], [on-device LLMs]
+    - 📖 TLDR: This paper introduces *Octopus*, an on-device language model fine-tuned to perform software API function calls with improved accuracy over cloud-based models like GPT-4. By compiling a dataset from 20,000 API documents and utilizing conditional masking techniques, the model enhances API interactions while maintaining quick inference speeds. Octopus also introduces a new benchmark for evaluating API call accuracy, addressing challenges in automated software development and API integration, particularly for edge devices.
 
 - [Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking](https://arxiv.org/abs/2404.08860)
     - Zhen Yang, Weiling Zheng, Jiayi Chen, Peter Qian
@@ -702,7 +702,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 📅 Date: February 15, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
-    - 🔑 Key: [framework], [adversarial attacks], [security risks], [language agents], [Perception-Brain-Action]
+    - 🔑 Key: [safety], [adversarial attacks], [security risks], [language agents], [Perception-Brain-Action]
     - 📖 TLDR: This paper introduces a conceptual framework to assess and understand adversarial vulnerabilities in language agents, dividing the agent structure into three components—Perception, Brain, and Action. It discusses 12 specific adversarial attack types that exploit these components, ranging from input manipulation to complex backdoor and jailbreak attacks. The framework provides a basis for identifying and mitigating risks before the widespread deployment of these agents in real-world applications.
 
 - [ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model](https://arxiv.org/abs/2402.07945)
