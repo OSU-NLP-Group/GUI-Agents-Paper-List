@@ -165,6 +165,24 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [framework], [autonomous GUI interaction], [experience-augmented hierarchical planning]
     - 📖 TLDR: This paper introduces Agent S, an open agentic framework that enables autonomous interaction with computers through a Graphical User Interface (GUI). The system addresses key challenges in automating computer tasks through experience-augmented hierarchical planning and an Agent-Computer Interface (ACI). Agent S demonstrates significant improvements over baselines on the OSWorld benchmark, achieving a 20.58% success rate (83.6% relative improvement). The framework shows generalizability across different operating systems and provides insights for developing more effective GUI agents.
 
+- [ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents](https://arxiv.org/abs/2410.11872)
+    - Jakub Hoscilowicz, Bartosz Maj, Bartosz Kozakiewicz, Oleksii Tymoschuk, Artur Janicki
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 9, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [model], [SeeClick], [AITW benchmark]
+    - 📖 TLDR: The paper introduces *ClickAgent*, a framework that enhances autonomous agents' interaction with mobile UIs by improving their ability to locate interface elements accurately. This is achieved through a dual-component system where an MLLM performs reasoning and action planning, while a dedicated UI location model (e.g., SeeClick) handles element identification. ClickAgent, evaluated on the AITW benchmark and tested on both emulators and real Android devices, surpasses other agents like CogAgent and AppAgent in task success rate, advancing automation reliability on mobile platforms.
+
+- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://arxiv.org/abs/2410.11871)
+    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Marcin Skorupa, Adam Wiacek, Sebastien Postansque, Jakub Hoscilowicz
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 9, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [Vision-Language Model], [Screenspot], [OmniAct]
+    - 📖 TLDR: TinyClick is a compact, single-turn agent designed to automate GUI tasks by precisely locating screen elements via the Vision-Language Model Florence-2-Base. Trained with multi-task strategies and MLLM-based data augmentation, TinyClick achieves high accuracy on Screenspot and OmniAct, outperforming specialized GUI interaction models and general MLLMs like GPT-4V. The model's lightweight design (0.27B parameters) ensures fast processing and minimal latency, making it efficient for real-world applications on multiple platforms.
+
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://osu-nlp-group.github.io/UGround/)
     - Boyu Gou, Ruochen Wang, Boyuan Zheng, Yucheng Xie, Cheng Chang, Yiheng Shu, Haotian Sun, Yu Su
     - 🏛️ Institutions: OSU, Orby AI
@@ -191,6 +209,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 💻 Env: [Web]
     - 🔑 Key: [safty], [black-box attack], [adversarial prompter model], [Direct Policy Optimization]
     - 📖 TLDR: This paper presents AdvWeb, a black-box attack framework that exploits vulnerabilities in vision-language model (VLM)-powered web agents by injecting adversarial prompts directly into web pages. Using Direct Policy Optimization (DPO), AdvWeb trains an adversarial prompter model that can mislead agents into executing harmful actions, such as unauthorized financial transactions, while maintaining high stealth and control. Extensive evaluations reveal that AdvWeb achieves high success rates across multiple real-world tasks, emphasizing the need for stronger security measures in web agent deployments.
+
+- [Turn Every Application into an Agent: Towards Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents](https://arxiv.org/abs/2409.17140)
+    - Junting Lu, Zhiyang Zhang, Fangkai Yang, Jue Zhang, Lu Wang, Chao Du, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
+    - 🏛️ Institutions: PKU, Microsoft
+    - 📅 Date: September 26, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [API interaction], [HACI], [Agent OS]
+    - 📖 TLDR: This paper proposes an API-centered framework called **AXIS**, enhancing the efficiency and reliability of LLM-based agents by prioritizing API interactions over UI-based actions. This approach aims to reduce the high latency and error rates of traditional UI-interaction models. AXIS not only supports the rapid creation and extension of APIs through automated application exploration but also contributes to a new **Human-Agent-Computer Interaction (HACI)** framework. The paper outlines the development of an agent-centric operating system (Agent OS), which improves task completion times by up to 70% and reduces cognitive load on users while maintaining high accuracy across complex multi-application tasks.
 
 - [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://qwenlm.github.io/blog/qwen2-vl/)
     - Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Yang Fan, Kai Dang, Mengfei Du, Xuancheng Ren, Rui Men, Dayiheng Liu, Chang Zhou, Jingren Zhou, Junyang Lin
@@ -264,6 +291,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [benchmark], [dataset], [multimodal models], [visual foundation agents]
     - 📖 TLDR: This paper introduces VisualAgentBench (VAB), a comprehensive benchmark for developing and evaluating large multimodal models as visual foundation agents. VAB includes five distinct environments across three types of tasks: Embodied (OmniGibson, Minecraft), GUI (Mobile, WebArena-Lite), and Visual Design (CSS). The authors provide a trajectory training set for behavior cloning and evaluate nine proprietary LMM APIs and eight open models. Results show significant improvements in open LMMs through finetuning on VAB, approaching the performance of top proprietary models.
 
+- [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
+    - [Author information not available]
+    - 🏛️ Institutions: MultiOn, Stanford
+    - 📅 Date: August 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: TBD
+
 - [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
     - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
     - 🏛️ Institutions: SJTU, Meta
@@ -291,14 +327,14 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [model], [framework], [benchmark]
     - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
 
-- [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
-    - [Author information not available]
-    - 🏛️ Institutions: MultiOn, Stanford
-    - 📅 Date: August 2024
+- [OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation](https://arxiv.org/abs/2407.19056)
+    - Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, Jingbo Shang
+    - 🏛️ Institutions: UCLA, Amazon, USC, Shanghai Jiao Tong University
+    - 📅 Date: July 26, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [General]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: TBD
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [multi-application], [office automation]
+    - 📖 TLDR: OfficeBench introduces a benchmark that evaluates language models' ability to automate office tasks across a range of applications like Word, Excel, and email. The benchmark tests agents’ skills in task-switching, planning, and decision-making by simulating realistic office workflows. Current models, including GPT-4, demonstrate significant gaps in task accuracy and efficiency, revealing areas for improvement in managing complex, multi-application tasks in office environments.
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Aditya Vempaty, [Other authors not provided in the search results]
@@ -471,15 +507,6 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [dataset], [cross-app navigation], [Android], [multi-task]
     - 📖 TLDR: GUI Odyssey introduces a large-scale dataset with 7,735 cross-app navigation episodes, collected across six mobile devices and spanning 201 apps. The dataset facilitates GUI agents in learning to complete complex, multi-app tasks on Android, including settings management, media sharing, and information retrieval. This benchmark enables training and testing in mobile environments and supports advancements in navigation-based GUI automation.
 
-- [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
-    - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 12, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [mobile LLM agents], [task automation], [real-device evaluation], [GUI interaction]
-    - 📖 TLDR: MobileAgentBench is a comprehensive benchmark that evaluates mobile-based large language model (LLM) agents on real Android devices across 100 tasks in 10 apps with varying difficulty levels. Unlike previous benchmarks relying on static screenshots, this setup supports dynamic interaction on real devices, assessing agents’ ability to complete tasks efficiently. This framework emphasizes final UI states over action sequences to judge task success, using Android Accessibility Service for real-time monitoring, thus enabling both academic and industrial research advancements in mobile agent performance.
-
 - [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340)
     - Shengcheng Yu, Chunrong Fang, Mingzhe Du, Zimin Ding, Zhenyu Chen, Zhendong Su
     - 🏛️ Institutions: Unknown
@@ -488,6 +515,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI understanding], [event knowledge graph], [automated testing], [scenario-based testing]
     - 📖 TLDR: This paper presents ScenTest, a novel approach for scenario-based mobile app testing that leverages event knowledge graphs (EKGs) created through GUI image understanding. ScenTest automates the testing process by incorporating domain knowledge from human testers, addressing the gap between automated testing execution and the app's business logic. It successfully generates tests that cover complex scenarios, revealing over 80 distinct real-world bugs during evaluation, showcasing its effectiveness compared to traditional automated testing methods.
+
+- [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
+    - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: June 12, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [mobile LLM agents], [task automation], [real-device evaluation], [GUI interaction]
+    - 📖 TLDR: MobileAgentBench is a comprehensive benchmark that evaluates mobile-based large language model (LLM) agents on real Android devices across 100 tasks in 10 apps with varying difficulty levels. Unlike previous benchmarks relying on static screenshots, this setup supports dynamic interaction on real devices, assessing agents’ ability to complete tasks efficiently. This framework emphasizes final UI states over action sequences to judge task success, using Android Accessibility Service for real-time monitoring, thus enabling both academic and industrial research advancements in mobile agent performance.
 
 - [DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2401.05068)
     - Cheng-Yu Hsieh, Chun-Liang Li, Tomas Pfister
@@ -633,15 +669,6 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [benchmark], [dataset], [GUI grounding], [real computer tasks]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 
-- [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
-    - Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, Alane Suhr
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 9, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web, Desktop]
-    - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
-    - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
-
 - [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
     - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
     - 🏛️ Institutions: CMU
@@ -650,6 +677,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [web page understanding], [grounding]
     - 📖 TLDR: VisualWebBench introduces a comprehensive benchmark for evaluating multimodal large language models (MLLMs) on web-based tasks. It includes 1.5K human-curated instances across 139 websites in 87 sub-domains. The benchmark spans seven tasks—such as OCR, grounding, and web-based QA—aiming to test MLLMs' capabilities in fine-grained web page understanding. Results reveal significant performance gaps, particularly in grounding tasks, highlighting the need for advancement in MLLM web understanding.
+
+- [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
+    - Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, Alane Suhr
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: April 9, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web, Desktop]
+    - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
+    - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
 
 - [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://machinelearning.apple.com/research/ferretui-mobile)
     - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeffrey Nichols, Yinfei Yang, Zhe Gan
