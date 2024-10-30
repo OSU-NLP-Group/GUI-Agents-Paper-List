@@ -240,7 +240,7 @@ sample_input = """- [From One Tree to a Forest: a Unified Solution for Structure
 
 - [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436)
     - Zhuosheng Zhang, Aston Zhang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: SJTU
     - 📅 Date: September 20, 2023
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [GUI]
@@ -418,14 +418,15 @@ sample_input = """- [From One Tree to a Forest: a Unified Solution for Structure
     - 🔑 Key: [framework], [visual language model], [computer control agent]
     - 📖 TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
 
-- [Comprehensive Cognitive LLM Agent for Smartphone GUI Automation](https://arxiv.org/abs/2402.14286)
-    - Jiaxin Zhang, Zheng Chen, Chaoyun Zhang, Xiangqun Chen, Zhi Jin
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 22, 2024
-    - 📑 Publisher: arXiv
+- [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
+    - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: SJTU
+    - 📅 Date: August 2024
+    - 📑 Publisher: ACL 2024
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [smartphone GUI automation], [cognitive agent], [multi-modal interaction]
-    - 📖 TLDR: This paper presents a comprehensive cognitive LLM agent framework for smartphone GUI automation. The framework integrates visual perception, cognitive reasoning, and action execution to enable natural language-driven interactions with mobile applications. It features a novel multi-modal prompting strategy and a hierarchical planning approach to break down complex tasks. The system demonstrates superior performance in task completion and generalization across various mobile apps, outperforming existing methods in both seen and unseen scenarios. The research contributes to advancing human-smartphone interaction and automated mobile testing.
+    - 🔑 Key: [model], [framework], [benchmark], [GUI automation]
+    - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
+
 
 - [Improving Language Understanding from Screenshots](https://arxiv.org/abs/2402.14073)
     - Tianyu Gao, Zirui Wang, Adithya Bhaskar, Danqi Chen
@@ -958,6 +959,17 @@ sample_input = """- [From One Tree to a Forest: a Unified Solution for Structure
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [multimodal agents], [OS interaction], [cloud-based parallelization], [Windows applications]
     - 📖 TLDR: Windows Agent Arena is a benchmarking platform for AI agents operating within the Windows OS, testing their capabilities on over 150 tasks across applications like Notepad, Edge, and File Explorer. This environment utilizes Azure cloud infrastructure to parallelize task evaluation, dramatically reducing testing time to minutes. In trials, Microsoft’s agent "Navi" achieved a 19.5% success rate, highlighting ongoing challenges for multimodal agents in replicating human task performance in OS environments. This platform advances agent capabilities in realistic, desktop-based scenarios, supporting broader developments in productivity-focused AI tools.
+
+- [Dynamic Planning for LLM-based Graphical User Interface Automation](https://arxiv.org/abs/2410.00467)
+    - Shaoqing Zhang, Zhuosheng Zhang, Kehai Chen, Xinbei Ma, Muyun Yang, Tiejun Zhao, Min Zhang
+    - 🏛️ Institutions: SJTU
+    - 📅 Date: October 1, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [dynamic planning], [GUI automation], [LLM agents]
+    - 📖 TLDR: This paper introduces a novel method called Dynamic Planning of Thoughts (D-PoT) aimed at enhancing LLM-based agents for GUI tasks. It addresses the challenges of task execution by dynamically adjusting planning based on environmental feedback and action history, outperforming existing methods such as ReAct by improving accuracy significantly in navigating GUI environments. The study emphasizes the importance of integrating execution history and contextual cues to optimize decision-making processes for autonomous agents.
+
+
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://arxiv.org/abs/2410.05243)
     - Boyu Gou, Ruochen Wang, Boyuan Zheng, Yucheng Xie, Cheng Chang, Yiheng Shu, Haotian Sun, Yu Su
