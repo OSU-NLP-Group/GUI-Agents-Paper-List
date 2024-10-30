@@ -1059,3 +1059,12 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [structured web extraction], [minimal human labeling], [cross-vertical extraction]
     - 📖 TLDR: This paper presents a scalable solution to structured web data extraction across diverse website domains (e.g., books, restaurants) by leveraging limited labeled data per vertical. The approach uses generalized features to characterize each vertical and adapts these to new sites by unsupervised constraints. The solution's robustness is validated on 80 sites across 8 categories, demonstrating that minimal site-specific training is needed to generalize extraction capabilities.
+
+- [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://openreview.net/forum?id=UERcQuXlwy)
+    - Kenton Lee, Mandar Joshi, Iulia Raluca Turc, Hexiang Hu, Fangyu Liu, Julian Martin Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova
+    - 🏛️ Institutions: Google
+    - 📅 Date: February 1, 2023
+    - 📑 Publisher: ICML 2023
+    - 💻 Env: [Web], [Doc]
+    - 🔑 Key: [model], [framework], [benchmark], [visual language understanding], [screenshot parsing], [image-to-text]
+    - 📖 TLDR: This paper introduces Pix2Struct, a model pre-trained to parse masked screenshots into simplified HTML for tasks requiring visual language understanding. By leveraging the structure of HTML and diverse web page elements, Pix2Struct captures pretraining signals like OCR and image captioning, achieving state-of-the-art performance across tasks in domains including documents, user interfaces, and illustrations.
