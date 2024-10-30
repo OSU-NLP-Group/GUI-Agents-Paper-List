@@ -466,14 +466,6 @@
     - 🔑 Key: [framework], [graph of language models], [multi-model integration], [functional tokens]
     - 📖 TLDR: Octopus v4 introduces a novel approach to integrating multiple open-source language models, each optimized for specific tasks, using a graph structure. The paper presents a method for coordinating these models using functional tokens, enabling more efficient and flexible task execution. This approach allows for the combination of specialized models to tackle complex tasks while maintaining the efficiency needed for on-device deployment. Octopus v4 demonstrates improved performance and versatility compared to single-model approaches, particularly in handling diverse and multi-step tasks.
 
-- [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2403.13281)
-    - Yilun Huang, Jian Yang, Zhihao Zhu, Hongsheng Li, Qiang Liu, Xiaogang Wang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 19, 2024
-    - 📑 Publisher: KDD 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [web navigation agent], [reinforcement learning], [self-improvement]
-    - 📖 TLDR: This paper presents AutoWebGLM, a novel framework for developing a self-improving web navigation agent based on large language models. The approach combines bootstrapping and reinforcement learning techniques to enable the agent to learn from its own experiences and improve its performance over time. AutoWebGLM demonstrates superior performance in complex web navigation tasks compared to existing methods, showcasing its ability to adapt to diverse web environments and complete multi-step tasks efficiently. The research contributes to advancing autonomous web interaction and provides insights into developing more capable AI assistants for web-based tasks.
 
 - [Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning](https://arxiv.org/abs/2404.10887)
     - Moghis Fereidouni, A.B. Siddique
@@ -547,14 +539,15 @@
     - 🔑 Key: [model], [framework], [dataset], [benchmark], [mobile UI understanding]
     - 📖 TLDR: This paper presents **Ferret-UI**, a multimodal large language model (MLLM) designed to understand and interact with mobile user interfaces. The model incorporates advanced capabilities for referring, grounding, and reasoning about UI elements. By training on a variety of UI tasks, Ferret-UI achieves high performance in tasks such as icon recognition and text extraction. The authors introduce a unique architecture that allows for improved visual feature extraction from mobile screens, paving the way for applications in accessibility and user interaction.
 
-- [AutoWebGLM: Bootstrap and Reinforce a Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648)
-    - Haotian Luo, Yongqi Li, Xiao Liu, Yansong Feng, Dongyan Zhao
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 4, 2024
-    - 📑 Publisher: KDD 2024
+- [AutoWebGLM: A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648)
+    - Hanyu Lai, Xiao Liu, Iat Long Iong, Shuntian Yao, Yuxuan Chen, Pengbo Shen, Hao Yu, Hanchen Zhang, Xiaohan Zhang, Yuxiao Dong, Jie Tang
+    - 🏛️ Institutions: THU, OSU
+    - 📅 Date: October 12, 2024
+    - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [web navigation agent], [reinforcement learning], [HTML simplification]
-    - 📖 TLDR: This paper introduces AutoWebGLM, an advanced web navigation agent based on ChatGLM3-6B that outperforms GPT-4 in real-world web tasks. The framework includes an HTML simplification algorithm, a hybrid human-AI method for dataset creation, and a bootstrapping process using reinforcement learning and rejection sampling. AutoWebGLM demonstrates improved performance in webpage comprehension, browser operations, and task decomposition across various web navigation benchmarks.
+    - 🔑 Key: [framework], [dataset], [benchmark], [reinforcement learning], [web-based tasks]
+    - 📖 TLDR: AutoWebGLM introduces a web navigation agent based on ChatGLM3-6B, designed to autonomously navigate and interact with webpages for complex tasks. The paper highlights a two-phase data construction approach using a hybrid human-AI methodology for diverse, curriculum-based web task training. It also presents AutoWebBench, a benchmark for evaluating agent performance in web tasks, and uses reinforcement learning to fine-tune operations, addressing complex webpage interaction and grounding.
+
 
 - [Octopus: On-device language model for function calling of software APIs](https://arxiv.org/abs/2404.01549)
     - Wei Chen, Zhiyuan Li, Mingyuan Ma
@@ -800,8 +793,8 @@
     - 📖 TLDR: GAIA is a benchmark developed for evaluating general-purpose AI assistants. It aims to test assistant models across multiple modalities and complex reasoning tasks in real-world settings, including scenarios that require tool usage and open-ended question answering. With a dataset comprising 466 questions across various domains, GAIA highlights gaps between current AI performance and human capability, presenting a significant challenge for large language models such as GPT-4.
 
 - [GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation](https://arxiv.org/abs/2311.07562)
-    - Liuyi Yao, Kaizhi Zheng, Yifan Wang, Xiao Han, Boyu Gou, Jiayi Zhang, Rui Zhao, Xin Zhou, Lifan Yuan, Yizhi Li, Junlin Zhang, Chenghu Zhou, Yida Wang, Huan Sun, Yu Su
-    - 🏛️ Institutions: Unknown
+    - An Yan, Zhengyuan Yang, Wanrong Zhu, Kevin Lin, Linjie Li, Jianfeng Wang, Jianwei Yang, Yiwu Zhong, Julian McAuley, Jianfeng Gao, Zicheng Liu, Lijuan Wang
+    - 🏛️ Institutions: UCSD, Microsoft, UCSB, UWM
     - 📅 Date: November 13, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
