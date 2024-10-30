@@ -1129,7 +1129,7 @@
     - 📅 Date: November 2020
     - 📑 Publisher: EMNLP 2020
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [benchmark], [model], [accessibility], [natural language generation]
+    - 🔑 Key: [dataset], [benchmark], [model], [accessibility], [natural language generation],[WidgetCaption]
     - 📖 TLDR: This paper introduces the task of *widget captioning*, which aims to automatically generate natural language descriptions for UI elements in mobile apps to enhance accessibility. Using both visual and structural data from UI components, the study presents a novel dataset of 162,859 captions across 61,285 UI elements. Multiple deep learning models were tested on this dataset, with findings suggesting the potential for improving screen reader usability for visually impaired users by generating descriptive captions of UI elements.
 
 - [Mapping Natural Language Instructions to Mobile UI Action Sequences](https://aclanthology.org/2020.acl-main.729)
@@ -1138,7 +1138,7 @@
     - 📅 Date: July 2020
     - 📑 Publisher: ACL 2020
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [mobile UI automation], [natural language instructions], [action grounding]
+    - 🔑 Key: [framework], [dataset], [mobile UI automation], [natural language instructions], [action grounding],[RicoSCA]
     - 📖 TLDR: This paper introduces a method for grounding natural language instructions to mobile UI actions, aiming to automate mobile task execution through user interface manipulation. It introduces three key datasets: **PixelHelp** for task instruction-performance mappings on a Pixel emulator, **AndroidHowTo** for detailed phrase extraction, and **RicoSCA** for synthetic UI command training. The system utilizes a Transformer model to extract action phrase tuples, aligning them to UI elements with contextual screen positioning. Achieving over 70% accuracy in task completion, this approach is foundational for natural language-driven mobile UI automation.
 
 - [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://arxiv.org/abs/1802.08802)
@@ -1152,11 +1152,11 @@
 
 - [Rico: A Mobile App Dataset for Building Data-Driven Design Applications](https://dl.acm.org/doi/10.1145/3126594.3126651)
     - Genevieve Patterson, Joseph Gonzalez, Jeffrey Heer, Daniel H. Haim, Keyur Govani, Andrew Hertzmann, Noah Snavely, Neel Joshi
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UIUC, Northwestern University, Google
     - 📅 Date: October 20, 2017
     - 📑 Publisher: UIST 2017
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [mobile UI], [UI design analysis], [interaction mining]
+    - 🔑 Key: [dataset], [mobile UI], [UI design analysis], [interaction mining],[RICO]
     - 📖 TLDR: This paper introduces *Rico*, a large-scale dataset comprising UI screens and view hierarchies from over 9,000 Android apps, designed to aid in understanding mobile app design. Rico supports a variety of tasks, including UI design analysis and interaction mining, by providing labeled UI components, screenshots, and interaction traces.
 
 - [World of Bits: An Open-Domain Platform for Web-Based Agents](https://proceedings.mlr.press/v70/shi17a.html)
