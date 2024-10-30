@@ -93,6 +93,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [framework], [multi-agent systems], [specialized generalist agent], [OSWorld benchmark]
     - 📖 TLDR: AgentStore introduces a scalable platform to integrate and manage heterogeneous agents, designed to enhance generalist assistant capabilities for diverse computer tasks. Using a MetaAgent and AgentToken strategy, AgentStore shows improved generalization on the OSWorld benchmark.
 
+- [MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control](https://arxiv.org/abs/2410.17520)
+    - Juyong Lee, Dongyoon Hahm, June Suk Choi, W. Bradley Knox, Kimin Lee
+    - 🏛️ Institutions: KAIST, UT at Austin
+    - 📅 Date: October 23, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [safety], [evaluation], [Android emulator]
+    - 📖 TLDR: *MobileSafetyBench* introduces a benchmark for evaluating the safety of large language model (LLM)-based autonomous agents in mobile device control. Using Android emulators, the benchmark simulates real-world tasks in apps such as messaging and banking to assess agents' safety and helpfulness. The safety-focused tasks test for privacy risk management and robustness against adversarial prompt injections. Experiments show agents perform well in helpful tasks but struggle with safety-related challenges, underscoring the need for continued advancements in mobile safety mechanisms for autonomous agents.
+
 - [Lightweight Neural App Control](https://arxiv.org/abs/2410.17883)
     - Filippos Christianos, Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
     - 🏛️ Institutions: Huawei Noah's Ark Lab, UCL
@@ -255,23 +264,14 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [benchmark], [dataset], [multimodal models], [visual foundation agents]
     - 📖 TLDR: This paper introduces VisualAgentBench (VAB), a comprehensive benchmark for developing and evaluating large multimodal models as visual foundation agents. VAB includes five distinct environments across three types of tasks: Embodied (OmniGibson, Minecraft), GUI (Mobile, WebArena-Lite), and Visual Design (CSS). The authors provide a trajectory training set for behavior cloning and evaluate nine proprietary LMM APIs and eight open models. Results show significant improvements in open LMMs through finetuning on VAB, approaching the performance of top proprietary models.
 
-- [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
-    - [Author information not available]
-    - 🏛️ Institutions: MultiOn, Stanford
+- [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
+    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: SJTU, Meta
     - 📅 Date: August 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: TBD
-
-- [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
-    - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: SJTU
-    - 📅 Date: August 2024
-    - 📑 Publisher: ACL 2024
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [framework], [benchmark]
-    - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
+    - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
+    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
 - [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
     - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
@@ -282,14 +282,23 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [framework], [benchmark], [multimodal agent], [screen parsing]
     - 📖 TLDR: This paper presents OmniParser, a method for parsing user interface screenshots into structured elements to enhance the performance of vision-language models like GPT-4V. The approach includes the development of an interactable icon detection dataset and a model that accurately identifies actionable regions in UI screenshots. OmniParser significantly improves the capability of agents to generate contextually grounded actions in user interfaces, outperforming existing benchmarks such as Mind2Web and AITW.
 
-- [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
-    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: SJTU, Meta
+- [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
+    - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: SJTU
+    - 📅 Date: August 2024
+    - 📑 Publisher: ACL 2024
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [framework], [benchmark]
+    - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
+
+- [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
+    - [Author information not available]
+    - 🏛️ Institutions: MultiOn, Stanford
     - 📅 Date: August 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
-    - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
-    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
+    - 🔑 Key: [framework]
+    - 📖 TLDR: TBD
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Aditya Vempaty, [Other authors not provided in the search results]
@@ -336,6 +345,24 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [framework], [dataset], [benchmark], [automated GUI testing]
     - 📖 TLDR: This paper presents VisionDroid, a vision-driven approach for automated mobile GUI testing using multimodal large language models. The system aims to detect non-crash functional bugs by understanding visual semantics and operational logic of GUI transitions. VisionDroid employs a function-aware explorer for deeper GUI exploration and a logic-aware bug detector for identifying issues. Evaluated on three datasets, it outperforms 10 baselines and successfully identifies 29 new bugs in real-world apps from Google Play.
 
+- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
+    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: July 2024
+    - 📑 Publisher: NeurIPS 2024
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
+    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
+
+- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
+    - [Author information not available]
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: July 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
+    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
+
 - [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
     - [Author information not available]
     - 🏛️ Institutions: Unknown
@@ -362,24 +389,6 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [framework]
     - 📖 TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
-
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
-    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
-    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
-
-- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
-    - [Author information not available]
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
-    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
 
 - [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.17744)
     - Jiawei Li, Zhengyuan Yang, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
