@@ -1,13 +1,3 @@
-- [WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics](https://arxiv.org/abs/2301.13280)
-    - Jason Wu, Siyan Wang, Siman Shen, Yi-Hao Peng, Jeffrey Nichols, Jeffrey P. Bigham
-    - 🏛️ Institutions: CMU, Wellesley College, Grinnell College, Snooty Bird LLC
-    - 📅 Date: January 30, 2023
-    - 📑 Publisher: CHI 2023
-    - 💻 Env: [Web], [Mobile]
-    - 🔑 Key: [dataset], [element detection], [screen classification], [screen similarity], [UI modeling]
-    - 📖 TLDR: The WebUI dataset includes 400,000 web UIs captured to enhance UI modeling by integrating visual UI metadata. This dataset supports tasks such as element detection, screen classification, and screen similarity, especially for accessibility, app automation, and testing applications. Through transfer learning and semi-supervised methods, WebUI addresses the challenge of training robust models with limited labeled mobile data, proving effective in tasks beyond web contexts, such as mobile UIs.
-
-
 - [EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data](https://doi.org/10.48550/arXiv.2410.19461)
     - Xuetian Chen, Hangcheng Li, Jiaqing Liang, Sihang Jiang, Deqing Yang
     - 🏛️ Institutions: Fudan University
@@ -206,15 +196,6 @@
     - 🔑 Key: [benchmark], [dataset], [multimodal models], [visual foundation agents]
     - 📖 TLDR: This paper introduces VisualAgentBench (VAB), a comprehensive benchmark for developing and evaluating large multimodal models as visual foundation agents. VAB includes five distinct environments across three types of tasks: Embodied (OmniGibson, Minecraft), GUI (Mobile, WebArena-Lite), and Visual Design (CSS). The authors provide a trajectory training set for behavior cloning and evaluate nine proprietary LMM APIs and eight open models. Results show significant improvements in open LMMs through finetuning on VAB, approaching the performance of top proprietary models.
 
-- [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
-    - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: SJTU
-    - 📅 Date: August 2024
-    - 📑 Publisher: ACL 2024
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [framework], [benchmark]
-    - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
-
 - [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
     - [Author information not available]
     - 🏛️ Institutions: MultiOn, Stanford
@@ -223,6 +204,15 @@
     - 💻 Env: [General]
     - 🔑 Key: [framework]
     - 📖 TLDR: TBD
+
+- [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
+    - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: SJTU
+    - 📅 Date: August 2024
+    - 📑 Publisher: ACL 2024
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [framework], [benchmark]
+    - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
 
 - [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
     - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
@@ -287,23 +277,14 @@
     - 🔑 Key: [framework], [dataset], [benchmark], [automated GUI testing]
     - 📖 TLDR: This paper presents VisionDroid, a vision-driven approach for automated mobile GUI testing using multimodal large language models. The system aims to detect non-crash functional bugs by understanding visual semantics and operational logic of GUI transitions. VisionDroid employs a function-aware explorer for deeper GUI exploration and a logic-aware bug detector for identifying issues. Evaluated on three datasets, it outperforms 10 baselines and successfully identifies 29 new bugs in real-world apps from Google Play.
 
-- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
+- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
     - [Author information not available]
     - 🏛️ Institutions: Unknown
     - 📅 Date: July 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
-    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
-
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
-    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
-    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [multi-agent system], [mobile devices], [tool-enabled agents]
+    - 📖 TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://arxiv.org/abs/2407.01511)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Philip Torr, Bernard Ghanem, Guohao Li
@@ -323,14 +304,23 @@
     - 🔑 Key: [model], [framework]
     - 📖 TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
 
-- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
+- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
     - [Author information not available]
     - 🏛️ Institutions: Unknown
     - 📅 Date: July 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [multi-agent system], [mobile devices], [tool-enabled agents]
-    - 📖 TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
+    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
+
+- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
+    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: July 2024
+    - 📑 Publisher: NeurIPS 2024
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
+    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
 
 - [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.17744)
     - Jiawei Li, Zhengyuan Yang, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
@@ -413,15 +403,6 @@
     - 🔑 Key: [dataset], [cross-app navigation], [Android], [multi-task]
     - 📖 TLDR: GUI Odyssey introduces a large-scale dataset with 7,735 cross-app navigation episodes, collected across six mobile devices and spanning 201 apps. The dataset facilitates GUI agents in learning to complete complex, multi-app tasks on Android, including settings management, media sharing, and information retrieval. This benchmark enables training and testing in mobile environments and supports advancements in navigation-based GUI automation.
 
-- [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340)
-    - Shengcheng Yu, Chunrong Fang, Mingzhe Du, Zimin Ding, Zhenyu Chen, Zhendong Su
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 12, 2024
-    - 📑 Publisher: IEEE Transactions on Software Engineering
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI understanding], [event knowledge graph], [automated testing], [scenario-based testing]
-    - 📖 TLDR: This paper presents ScenTest, a novel approach for scenario-based mobile app testing that leverages event knowledge graphs (EKGs) created through GUI image understanding. ScenTest automates the testing process by incorporating domain knowledge from human testers, addressing the gap between automated testing execution and the app's business logic. It successfully generates tests that cover complex scenarios, revealing over 80 distinct real-world bugs during evaluation, showcasing its effectiveness compared to traditional automated testing methods.
-
 - [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
     - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
     - 🏛️ Institutions: Unknown
@@ -430,6 +411,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [mobile LLM agents], [task automation], [real-device evaluation], [GUI interaction]
     - 📖 TLDR: MobileAgentBench is a comprehensive benchmark that evaluates mobile-based large language model (LLM) agents on real Android devices across 100 tasks in 10 apps with varying difficulty levels. Unlike previous benchmarks relying on static screenshots, this setup supports dynamic interaction on real devices, assessing agents’ ability to complete tasks efficiently. This framework emphasizes final UI states over action sequences to judge task success, using Android Accessibility Service for real-time monitoring, thus enabling both academic and industrial research advancements in mobile agent performance.
+
+- [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340)
+    - Shengcheng Yu, Chunrong Fang, Mingzhe Du, Zimin Ding, Zhenyu Chen, Zhendong Su
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: June 12, 2024
+    - 📑 Publisher: IEEE Transactions on Software Engineering
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [GUI understanding], [event knowledge graph], [automated testing], [scenario-based testing]
+    - 📖 TLDR: This paper presents ScenTest, a novel approach for scenario-based mobile app testing that leverages event knowledge graphs (EKGs) created through GUI image understanding. ScenTest automates the testing process by incorporating domain knowledge from human testers, addressing the gap between automated testing execution and the app's business logic. It successfully generates tests that cover complex scenarios, revealing over 80 distinct real-world bugs during evaluation, showcasing its effectiveness compared to traditional automated testing methods.
 
 - [DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2401.05068)
     - Cheng-Yu Hsieh, Chun-Liang Li, Tomas Pfister
@@ -575,15 +565,6 @@
     - 🔑 Key: [benchmark], [dataset], [GUI grounding], [real computer tasks]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 
-- [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
-    - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
-    - 🏛️ Institutions: CMU
-    - 📅 Date: April 9, 2024
-    - 📑 Publisher: COLM 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dataset], [web page understanding], [grounding]
-    - 📖 TLDR: VisualWebBench introduces a comprehensive benchmark for evaluating multimodal large language models (MLLMs) on web-based tasks. It includes 1.5K human-curated instances across 139 websites in 87 sub-domains. The benchmark spans seven tasks—such as OCR, grounding, and web-based QA—aiming to test MLLMs' capabilities in fine-grained web page understanding. Results reveal significant performance gaps, particularly in grounding tasks, highlighting the need for advancement in MLLM web understanding.
-
 - [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
     - Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, Alane Suhr
     - 🏛️ Institutions: Unknown
@@ -592,6 +573,15 @@
     - 💻 Env: [Web, Desktop]
     - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
     - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
+
+- [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
+    - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
+    - 🏛️ Institutions: CMU
+    - 📅 Date: April 9, 2024
+    - 📑 Publisher: COLM 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [web page understanding], [grounding]
+    - 📖 TLDR: VisualWebBench introduces a comprehensive benchmark for evaluating multimodal large language models (MLLMs) on web-based tasks. It includes 1.5K human-curated instances across 139 websites in 87 sub-domains. The benchmark spans seven tasks—such as OCR, grounding, and web-based QA—aiming to test MLLMs' capabilities in fine-grained web page understanding. Results reveal significant performance gaps, particularly in grounding tasks, highlighting the need for advancement in MLLM web understanding.
 
 - [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://machinelearning.apple.com/research/ferretui-mobile)
     - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeffrey Nichols, Yinfei Yang, Zhe Gan
@@ -809,15 +799,6 @@
     - 🔑 Key: [model], [benchmark], [GUI grounding], [visual grounding]
     - 📖 TLDR: TBD.
 
-- [AgentBench: Evaluating LLMs as Agents](https://llmbench.ai/agent)
-    - Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: THU, OSU, ByteDance
-    - 📅 Date: January 1, 2024
-    - 📑 Publisher: ICLR 2024
-    - 💻 Env: [GUI], [General]
-    - 🔑 Key: [benchmark], [evaluation]
-    - 📖 TLDR: AgentBench provides a comprehensive benchmark for evaluating LLMs as autonomous agents in various environments. It includes eight distinct scenarios, testing the LLMs' reasoning and decision-making capabilities in tasks such as OS interaction, database querying, knowledge graph traversal, and more. This benchmark compares the effectiveness of multiple commercial and open-source LLMs, revealing areas of improvement in instruction-following and long-term reasoning, essential for practical agent development.
-
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://huggingface.co/papers/2305.11854)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
     - 🏛️ Institutions: Univ. of Tokyo, Google DeepMind
@@ -835,6 +816,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [seeact], [multimodal-mind2web]
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
+
+- [AgentBench: Evaluating LLMs as Agents](https://llmbench.ai/agent)
+    - Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang
+    - 🏛️ Institutions: THU, OSU, ByteDance
+    - 📅 Date: January 1, 2024
+    - 📑 Publisher: ICLR 2024
+    - 💻 Env: [GUI], [General]
+    - 🔑 Key: [benchmark], [evaluation]
+    - 📖 TLDR: AgentBench provides a comprehensive benchmark for evaluating LLMs as autonomous agents in various environments. It includes eight distinct scenarios, testing the LLMs' reasoning and decision-making capabilities in tasks such as OS interaction, database querying, knowledge graph traversal, and more. This benchmark compares the effectiveness of multiple commercial and open-source LLMs, revealing areas of improvement in instruction-following and long-term reasoning, essential for practical agent development.
 
 - [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
     - Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
@@ -1042,6 +1032,15 @@
     - 💻 Env: [Web], [Doc]
     - 🔑 Key: [model], [framework], [vision encoder], [visual language understanding], [screenshot parsing], [image-to-text]
     - 📖 TLDR: This paper introduces Pix2Struct, a model pre-trained to parse masked screenshots into simplified HTML for tasks requiring visual language understanding. By leveraging the structure of HTML and diverse web page elements, Pix2Struct captures pretraining signals like OCR and image captioning, achieving state-of-the-art performance across tasks in domains including documents, user interfaces, and illustrations.
+
+- [WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics](https://arxiv.org/abs/2301.13280)
+    - Jason Wu, Siyan Wang, Siman Shen, Yi-Hao Peng, Jeffrey Nichols, Jeffrey P. Bigham
+    - 🏛️ Institutions: CMU, Wellesley College, Grinnell College, Snooty Bird LLC
+    - 📅 Date: January 30, 2023
+    - 📑 Publisher: CHI 2023
+    - 💻 Env: [Web], [Mobile]
+    - 🔑 Key: [dataset], [element detection], [screen classification], [screen similarity], [UI modeling]
+    - 📖 TLDR: The WebUI dataset includes 400,000 web UIs captured to enhance UI modeling by integrating visual UI metadata. This dataset supports tasks such as element detection, screen classification, and screen similarity, especially for accessibility, app automation, and testing applications. Through transfer learning and semi-supervised methods, WebUI addresses the challenge of training robust models with limited labeled mobile data, proving effective in tasks beyond web contexts, such as mobile UIs.
 
 - [Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus](https://arxiv.org/abs/2209.14927)
     - Gang Li, Yang Li
