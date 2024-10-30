@@ -358,6 +358,14 @@
     - Key: framework, dataset, benchmark, generalist computer agent, self-improvement
     - TLDR: This paper presents OS-Copilot, a framework for developing generalist computer agents capable of performing diverse tasks across different operating systems. The approach combines large language models, computer vision techniques, and reinforcement learning to enable agents to interact with graphical user interfaces. OS-Copilot features a novel self-improvement mechanism that allows the agent to learn from its mistakes and improve its performance over time. The framework is evaluated on a new benchmark, OSBench, which includes tasks across Windows, Ubuntu, and macOS, demonstrating its potential for creating more versatile and adaptive AI assistants for computer operation.
 
+- [ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model](https://arxiv.org/abs/2402.07945)
+    - Chao Wang, Weizhou Shen, Zhihao Zhu, Yuxiang Zhang, Yifeng Han, Zhengjun Zha, Tao Mei
+    - February 13, 2024
+    - arXiv
+    - Env: GUI
+    - Key: framework, visual language model, computer control agent
+    - TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
+
 - [Comprehensive Cognitive LLM Agent for Smartphone GUI Automation](https://arxiv.org/abs/2402.14286)
     - Jiaxin Zhang, Zheng Chen, Chaoyun Zhang, Xiangqun Chen, Zhi Jin
     - February 22, 2024
@@ -686,6 +694,14 @@
     - Key: model, framework, vision GUI assistant, image-centric fine-tuning
     - TLDR: This paper introduces VGA (Vision GUI Assistant), a novel approach to minimize hallucinations in GUI-based visual language models through image-centric fine-tuning. The authors develop a specialized dataset and training methodology that emphasizes visual grounding and accurate interpretation of GUI elements. VGA demonstrates significant improvements in reducing hallucinations and increasing task completion accuracy across various GUI-based applications compared to existing models, including GPT-4V.
 
+- [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.xxxxx)
+    - [Author information not available]
+    - July 2024
+    - arXiv
+    - Env: Mobile
+    - Key: model, framework, multimodal LLM, mobile GUI agent
+    - TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
+
 - [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
     - [Author information not available]
     - July 2024
@@ -693,22 +709,6 @@
     - Env: GUI
     - Key: framework, automated GUI testing, requirements-oriented testing
     - TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
-
-- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
-    - [Author information not available]
-    - July 2024
-    - arXiv
-    - Env: Mobile
-    - Key: framework, multi-agent system, mobile devices, tool-enabled agents
-    - TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
-
-- [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://doi.org/10.1145/1122334.1122335)
-    - Authors: Placeholder until confirmed
-    - July 2024
-    - arXiv
-    - Env: Mobile
-    - Key: dataset, mobile GUI agents, multi-annotation, accessibility, object recognition
-    - TLDR: AMEX is a comprehensive multi-annotation dataset for mobile GUI agents, providing varied labeled data for applications like screen readers, accessibility tools, and object recognition in mobile environments. Its multi-layered annotation structure supports diverse applications by allowing mobile agents to interpret and interact with UI elements effectively. This dataset aims to enhance the development and testing of accessibility tools and advanced mobile GUI agents.
 
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
     - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
@@ -718,6 +718,14 @@
     - Key: benchmark, data science automation, multimodal agents, enterprise software integration, task decomposition
     - TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
 
+- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
+    - [Author information not available]
+    - July 2024
+    - arXiv
+    - Env: Mobile
+    - Key: framework, multi-agent system, mobile devices, tool-enabled agents
+    - TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
+
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://arxiv.org/abs/2407.01511)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Philip Torr, Bernard Ghanem, Guohao Li
     - July 1, 2024
@@ -726,13 +734,13 @@
     - Key: benchmark, cross-environment, graph evaluator, multimodal agents, sub-task decomposition
     - TLDR: CRAB offers a comprehensive benchmark for evaluating multimodal language model (MLM) agents across Android and Ubuntu environments using CRAB Benchmark-v0. This framework introduces a unique graph-based evaluation, breaking down tasks into sub-goals that represent essential steps in complex interactions. CRAB’s dynamic task generation, with 100 varied tasks, supports cross-platform evaluations, highlighting agent adaptability and performance in executing real-world tasks through structured environments, enabling agents to seamlessly interact across device types and systems.
 
-- [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.xxxxx)
-    - [Author information not available]
+- [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://doi.org/10.1145/1122334.1122335)
+    - Authors: Placeholder until confirmed
     - July 2024
     - arXiv
     - Env: Mobile
-    - Key: model, framework, multimodal LLM, mobile GUI agent
-    - TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
+    - Key: dataset, mobile GUI agents, multi-annotation, accessibility, object recognition
+    - TLDR: AMEX is a comprehensive multi-annotation dataset for mobile GUI agents, providing varied labeled data for applications like screen readers, accessibility tools, and object recognition in mobile environments. Its multi-layered annotation structure supports diverse applications by allowing mobile agents to interpret and interact with UI elements effectively. This dataset aims to enhance the development and testing of accessibility tools and advanced mobile GUI agents.
 
 - [Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model](https://arxiv.org/abs/2407.03037)
     - Zhe Liu, [Other authors not provided in the search results]
@@ -766,14 +774,6 @@
     - Key: framework, autonomous web navigation, hierarchical architecture, DOM distillation
     - TLDR: This paper presents Agent-E, a novel web agent that introduces several architectural improvements over previous state-of-the-art systems. Key features include a hierarchical architecture, flexible DOM distillation and denoising methods, and a "change observation" concept for improved performance. Agent-E outperforms existing text and multi-modal web agents by 10-30% on the WebVoyager benchmark. The authors synthesize their findings into general design principles for developing agentic systems, including the use of domain-specific primitive skills, hierarchical architectures, and agentic self-improvement.
 
-- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
-    - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - August 2024
-    - ACL 2024
-    - Env: Web
-    - Key: framework, benchmark, dataset, multimodal agent evaluation, visually grounded tasks
-    - TLDR: VisualWebArena is a benchmark designed for testing multimodal web agents on complex, visually grounded web tasks. It provides a reproducible framework with 910 task scenarios across real-world web applications, emphasizing open-ended, visually guided interactions. The tasks are modeled within a partially observable Markov decision process to assess agents’ capacity to interpret multimodal inputs, execute navigation, and accomplish user-defined objectives across complex visual and textual information on websites.
-
 - [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.xxxxx)
     - [Author information not available]
     - August 2024
@@ -789,6 +789,14 @@
     - Env: General
     - Key: framework, autonomous agents, advanced reasoning, continual learning
     - TLDR: This paper introduces Agent Q, a novel framework for developing autonomous AI agents with advanced reasoning and learning capabilities. The system combines reinforcement learning, meta-learning, and causal reasoning to enable agents to adapt to new tasks and environments more effectively. Agent Q demonstrates improved performance in complex decision-making scenarios compared to traditional agent architectures, showing potential for more versatile and intelligent AI systems.
+
+- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
+    - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
+    - August 2024
+    - ACL 2024
+    - Env: Web
+    - Key: framework, benchmark, dataset, multimodal agent evaluation, visually grounded tasks
+    - TLDR: VisualWebArena is a benchmark designed for testing multimodal web agents on complex, visually grounded web tasks. It provides a reproducible framework with 910 task scenarios across real-world web applications, emphasizing open-ended, visually guided interactions. The tasks are modeled within a partially observable Markov decision process to assess agents’ capacity to interpret multimodal inputs, execute navigation, and accomplish user-defined objectives across complex visual and textual information on websites.
 
 - [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.xxxxx)
     - [Author information not available]
@@ -814,14 +822,6 @@
     - Key: framework, multimodal agent, mobile interactions, flexible action space
     - TLDR: This paper introduces AppAgent v2, an advanced multimodal agent framework for mobile devices. The system emulates human-like interactions and constructs a flexible action space that enhances adaptability across various applications. It operates in two phases: exploration (documenting UI element functionalities) and deployment (using RAG technology for efficient knowledge retrieval). AppAgent v2 demonstrates superior performance in handling complex, multi-step operations across various applications, showing its effectiveness in real-world scenarios.
 
-- [Windows Agent Arena](https://github.com/microsoft/WindowsAgentArena)
-    - Rogerio Bonatti, Michael Nuñez, and others
-    - September 2024
-    - Microsoft Research
-    - Env: Desktop
-    - Key: benchmark, multimodal agents, OS interaction, cloud-based parallelization, Windows applications
-    - TLDR: Windows Agent Arena is a benchmarking platform for AI agents operating within the Windows OS, testing their capabilities on over 150 tasks across applications like Notepad, Edge, and File Explorer. This environment utilizes Azure cloud infrastructure to parallelize task evaluation, dramatically reducing testing time to minutes. In trials, Microsoft’s agent "Navi" achieved a 19.5% success rate, highlighting ongoing challenges for multimodal agents in replicating human task performance in OS environments. This platform advances agent capabilities in realistic, desktop-based scenarios, supporting broader developments in productivity-focused AI tools.
-
 - [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://arxiv.org/abs/2409.xxxxx)
     - [Author information not available]
     - September 2024
@@ -829,6 +829,14 @@
     - Env: Mobile
     - Key: model, vision-language model, UI understanding, mobile interfaces
     - TLDR: This paper presents MobileVLM, a vision-language model specifically designed for understanding mobile user interfaces. The model improves both intra-UI understanding (relationships between elements within a single screen) and inter-UI understanding (connections across different screens or app states). MobileVLM demonstrates enhanced performance in tasks such as UI element classification, layout analysis, and task planning across mobile applications, potentially advancing the development of more intelligent mobile assistants and automated testing tools.
+
+- [Windows Agent Arena](https://github.com/microsoft/WindowsAgentArena)
+    - Rogerio Bonatti, Michael Nuñez, and others
+    - September 2024
+    - Microsoft Research
+    - Env: Desktop
+    - Key: benchmark, multimodal agents, OS interaction, cloud-based parallelization, Windows applications
+    - TLDR: Windows Agent Arena is a benchmarking platform for AI agents operating within the Windows OS, testing their capabilities on over 150 tasks across applications like Notepad, Edge, and File Explorer. This environment utilizes Azure cloud infrastructure to parallelize task evaluation, dramatically reducing testing time to minutes. In trials, Microsoft’s agent "Navi" achieved a 19.5% success rate, highlighting ongoing challenges for multimodal agents in replicating human task performance in OS environments. This platform advances agent capabilities in realistic, desktop-based scenarios, supporting broader developments in productivity-focused AI tools.
 
 - [Agent Workflow Memory](https://arxiv.org/abs/2409.07429)
     - Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
@@ -869,18 +877,3 @@
     - Env: Web
     - Key: benchmark, dataset, planning and reasoning, web task automation
     - TLDR: AssistantBench is a benchmark designed to test the abilities of web agents in completing time-intensive, realistic web-based tasks. Covering 214 tasks across various domains, the benchmark introduces the SPA (See-Plan-Act) framework to handle multi-step planning and memory retention. AssistantBench emphasizes realistic task completion, showing that current agents achieve only modest success, with significant improvements needed for complex information synthesis and execution across multiple web domains.
-
-- [Visual Grounding for User Interfaces](https://arxiv.org/abs/2401.05916)
-    - Jieshan Chen, Munawar Hayat, Zhen Dong, Yuhao Zhu, Yong Dai, Dacheng Tao, Hongdong Li
-    - NAACL 2024
-    - Env: GUI
-    - Key: framework, visual grounding, UI element detection, contrastive learning
-    - TLDR: This paper presents a novel approach to visual grounding for user interfaces, addressing the challenge of linking natural language instructions to specific UI elements. The authors introduce a layout-guided contrastive learning technique that leverages the visual organization of UI elements to improve grounding accuracy. The method demonstrates superior performance on various UI datasets, outperforming existing approaches and showing potential for enhancing human-computer interaction through more intuitive language-based interfaces.
-
-- [ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model](https://arxiv.org/abs/2402.07945)
-    - Chao Wang, Weizhou Shen, Zhihao Zhu, Yuxiang Zhang, Yifeng Han, Zhengjun Zha, Tao Mei
-    - February 13, 2024
-    - arXiv
-    - Env: GUI
-    - Key: framework, visual language model, computer control agent
-    - TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
