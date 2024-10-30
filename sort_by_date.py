@@ -53,7 +53,7 @@ for match in new_format_pattern.findall(sample_input):
 papers_df = pd.DataFrame(parsed_entries, columns=[
     'Title', 'Link', 'Authors', 'Institutions', 'Original Date', 'Parsed Date', 'Publisher', 'Env', 'Keywords', 'TLDR'
 ]).drop_duplicates(subset='Title', keep='first')
-papers_df.sort_values(by='Parsed Date', inplace=True)
+papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
 
 # Format output to new specified Markdown structure
 sorted_markdown = []
