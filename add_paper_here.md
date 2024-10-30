@@ -277,14 +277,23 @@
     - 🔑 Key: [framework], [dataset], [benchmark], [automated GUI testing]
     - 📖 TLDR: This paper presents VisionDroid, a vision-driven approach for automated mobile GUI testing using multimodal large language models. The system aims to detect non-crash functional bugs by understanding visual semantics and operational logic of GUI transitions. VisionDroid employs a function-aware explorer for deeper GUI exploration and a logic-aware bug detector for identifying issues. Evaluated on three datasets, it outperforms 10 baselines and successfully identifies 29 new bugs in real-world apps from Google Play.
 
-- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
+- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
+    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: July 2024
+    - 📑 Publisher: NeurIPS 2024
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
+    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
+
+- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
     - [Author information not available]
     - 🏛️ Institutions: Unknown
     - 📅 Date: July 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
-    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [multi-agent system], [mobile devices], [tool-enabled agents]
+    - 📖 TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://arxiv.org/abs/2407.01511)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Philip Torr, Bernard Ghanem, Guohao Li
@@ -304,23 +313,14 @@
     - 🔑 Key: [model], [framework]
     - 📖 TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
 
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
-    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
-    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
-
-- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
+- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
     - [Author information not available]
     - 🏛️ Institutions: Unknown
     - 📅 Date: July 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [multi-agent system], [mobile devices], [tool-enabled agents]
-    - 📖 TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
+    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
 
 - [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.17744)
     - Jiawei Li, Zhengyuan Yang, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
