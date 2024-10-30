@@ -1,0 +1,32 @@
+name: Update README
+
+on:
+  push:
+    paths:
+      - 'papers.md'  # 指定监听的文件
+  schedule:
+    - cron: '0 0 * * *'  # 可选，设置每天定时运行
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README.md
+        run: |
+          # 将目标文件内容插入到README.md中的特定位置
+          CONTENT=$(cat papers.md)
+          # 替换README.md中的占位符，例如{{insert_content_here}}
+          sed -i '/{{insert_content_here}}/c\'"$CONTENT" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update README with content from source-file.md"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
