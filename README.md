@@ -2053,6 +2053,10 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📖 TLDR: AssistantBench is a benchmark designed to test the abilities of web agents in completing time-intensive, realistic web-based tasks. Covering 214 tasks across various domains, the benchmark introduces the SPA (See-Plan-Act) framework to handle multi-step planning and memory retention. AssistantBench emphasizes realistic task completion, showing that current agents achieve only modest success, with significant improvements needed for complex information synthesis and execution across multiple web domains.
 
 
+## Project & Software
+
+
+## Company
 
 
 
