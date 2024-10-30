@@ -35,7 +35,7 @@ Regarding the 🔑 Key:
 - dataset: If a new dataset is created and published. 
 - benchmark: If a new benchmark is established (add "dataset" if there's a new training set).
 - primary Innovation: List the main focus or innovation in the study. 
-- Common Abbreviations: Include commonly used abbreviations associated with the paper. (e.g., seeact)
+- Common Abbreviations: Include commonly used abbreviations associated with the paper. (model names, framework names, etc.)
 
 For missing information, use "Unknown."
 
