@@ -26,6 +26,8 @@ jobs:
 
       - name: Commit changes
         run: |
+          git config --global user.email "geminigby@gmail.com"
+          git config --global user.name "Boyu Gou"
           git commit -m "Update README with content from papers.md"
           git push
         env:
