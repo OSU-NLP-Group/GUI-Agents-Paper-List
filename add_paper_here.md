@@ -981,11 +981,11 @@
 
 - [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070)
     - Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, Yu Su
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: OSU
     - 📅 Date: June 9, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [benchmark], [generalist web agent], [complex task navigation], [HTML element processing]
+    - 🔑 Key: [dataset], [benchmark], [model], [mind2web], [mindact]
     - 📖 TLDR: *Mind2Web* presents a dataset and benchmark specifically crafted for generalist web agents capable of performing language-guided tasks across varied websites. Featuring over 2,000 tasks from 137 sites, it spans 31 domains and emphasizes open-ended, realistic tasks in authentic, unsimplified web settings. The study proposes the *MindAct* framework, which optimizes LLMs for handling complex HTML elements by using small LMs to rank elements before full processing, thereby enhancing the efficiency and versatility of web agents in diverse contexts.
 
 - [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308)
