@@ -1,0 +1,56 @@
+name: Update README with Sorted Papers Content
+
+on:
+  push:
+    paths:
+      - 'papers.md'         # 监听 papers.md 文件的更新
+      - 'sort_by_date.py'   # 监听 sort_by_date.py 脚本的更新
+      - '.github/workflows/temp_readme.md'   # 监听 sort_by_date.py 脚本的更新
+  schedule:
+    - cron: '0 0 * * *'     # 每天定时运行（0点）
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'  # 使用最新的 Python 版本
+
+      - name: Install dependencies
+        run: |
+          pip install pandas
+
+      - name: Run sort_by_date.py
+        run: |
+          python sort_by_date.py
+
+      - name: Update temp_readme.md with sorted papers content
+        run: |
+          # 读取更新后的 papers.md 内容
+          CONTENT=$(cat papers.md)
+          
+          # 使用 sed 插入 content 到 temp_readme.md 的占位符位置
+          sed -i '/{{insert_content_here}}/{
+            r /dev/stdin
+            d
+          }' .github/workflows/temp_readme.md <<< "$CONTENT"
+
+      - name: Overwrite README.md with updated temp_readme.md
+        run: |
+          # 覆盖 README.md
+          cp .github/workflows/temp_readme.md README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md papers.md
+          git commit -m "Update README with sorted content from papers.md"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
