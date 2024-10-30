@@ -1,4 +1,3 @@
-/Users/geminigby/miniconda3/envs/OpenDevin/bin/python /var/folders/dx/h64w0vys5j750kpd9x58fhpw0000gn/T/filtered_words_mobile.json9518645738795777988/main.py 
 - [From One Tree to a Forest: a Unified Solution for Structured Web Data Extraction](https://dl.acm.org/doi/10.1145/2009916.2010036)
     - Qiang Hao, Rui Cai, Yanwei Pang, Lei Zhang
     - 📅 Date: July 24, 2011
