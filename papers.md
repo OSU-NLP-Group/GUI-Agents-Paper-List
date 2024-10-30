@@ -1006,6 +1006,7 @@
     - 🔑 Key: [framework], [multi-agent systems], [specialized generalist agent], [OSWorld benchmark]
     - 📖 TLDR: AgentStore introduces a scalable platform to integrate and manage heterogeneous agents, designed to enhance generalist assistant capabilities for diverse computer tasks. Using a MetaAgent and AgentToken strategy, AgentStore shows improved generalization on the OSWorld benchmark.
 
+
 - [OSCAR: Operating System Control via State-Aware Reasoning and Re-Planning](https://arxiv.org/abs/2410.18963)
     - Xiaoqiang Wang, Bang Liu
     - 🏛️ Institutions: Université de Montréal, Mila
