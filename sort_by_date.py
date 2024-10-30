@@ -6,7 +6,7 @@ import re
 
 
 # 读取文件内容
-with open("papers_add_paper_here.md", "r", encoding="utf-8") as file:
+with open("add_paper_here.md", "r", encoding="utf-8") as file:
     sample_input = file.read()
 
 
@@ -75,6 +75,6 @@ final_output = "\n".join(sorted_markdown)
 
 print(papers_df)
 
-with open("papers_add_paper_here.md", "w", encoding="utf-8") as file:
+with open("add_paper_here.md", "w", encoding="utf-8") as file:
     file.write(final_output)
 
