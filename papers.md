@@ -944,6 +944,7 @@
     - 📖 TLDR: This paper introduces Agent Workflow Memory (AWM), a method for inducing and utilizing reusable task workflows to improve agent performance on complex web navigation tasks. AWM works in both offline and online scenarios, inducing workflows from training examples or on-the-fly from test queries. Experiments on Mind2Web and WebArena benchmarks show substantial improvements in success rates (24.6% and 51.1% relative increases) and efficiency. AWM demonstrates robust generalization across tasks, websites, and domains, outperforming baselines by 8.9 to 14.0 absolute points as task distribution gaps widen.
 
 
+
 - [Windows Agent Arena](https://github.com/microsoft/WindowsAgentArena)
     - Rogerio Bonatti, Michael Nuñez, and others
     - 🏛️ Institutions: Unknown
