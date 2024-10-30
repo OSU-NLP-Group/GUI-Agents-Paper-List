@@ -65,3 +65,9 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
 - [Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent)
 - [computer-control-agent-knowledge-base](https://github.com/James4Ever0/computer_control_agent_knowledge_base)
 - [awesome-ui-agent](https://github.com/boyugou/awesome-ui-agents) (this repository is based on it to some extent)
+
+## Contributors
+
+<a href="https://github.com/boyugou/GUI-Agents-Paper-List/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=boyugou/GUI-Agents-Paper-List" />
+</a>

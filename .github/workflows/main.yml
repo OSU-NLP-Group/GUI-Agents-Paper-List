@@ -3,7 +3,7 @@ name: Update README with Sorted Papers Content
 on:
   push:
     paths:
-      - 'papers.md'         # 监听 papers.md 文件的更新
+      - 'papers_add_paper_here.md'         # 监听 papers_add_paper_here.md 文件的更新
       - 'sort_by_date.py'   # 监听 sort_by_date.py 脚本的更新
       - '.github/workflows/temp_readme.md'   # 监听 sort_by_date.py 脚本的更新
   schedule:
@@ -31,8 +31,8 @@ jobs:
 
       - name: Update temp_readme.md with sorted papers content
         run: |
-          # 读取更新后的 papers.md 内容
-          CONTENT=$(cat papers.md)
+          # 读取更新后的 papers_add_paper_here.md 内容
+          CONTENT=$(cat papers_add_paper_here.md)
           
           # 使用 sed 插入 content 到 temp_readme.md 的占位符位置
           sed -i '/{{insert_content_here}}/{
@@ -49,8 +49,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md papers.md
-          git commit -m "Update README with sorted content from papers.md"
+          git add README.md papers_add_paper_here.md
+          git commit -m "Update README with sorted content from papers_add_paper_here.md"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
