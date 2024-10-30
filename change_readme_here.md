@@ -1,4 +1,4 @@
-# Awesome GUI Agent Paper List
+# Awesome GUI Agent Paper List (Work-In-Progress)
 
 The current entries have been mostly auto-generated using GPT or Perplexity AI (via the repo's prompt). This may lead to inaccuracies, particularly with links, author names, dates, or keywords. Contributions for corrections are welcome!
 
