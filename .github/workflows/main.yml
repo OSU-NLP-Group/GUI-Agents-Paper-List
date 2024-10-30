@@ -5,7 +5,7 @@ on:
     paths:
       - 'papers_add_paper_here.md'         # 监听 papers_add_paper_here.md 文件的更新
       - 'sort_by_date.py'   # 监听 sort_by_date.py 脚本的更新
-      - '.github/workflows/temp_readme.md'   # 监听 sort_by_date.py 脚本的更新
+      - 'change_readme_here.md'   # 监听 sort_by_date.py 脚本的更新
   schedule:
     - cron: '0 0 * * *'     # 每天定时运行（0点）
 
@@ -38,12 +38,12 @@ jobs:
           sed -i '/{{insert_content_here}}/{
             r /dev/stdin
             d
-          }' .github/workflows/temp_readme.md <<< "$CONTENT"
+          }' change_readme_here.md <<< "$CONTENT"
 
       - name: Overwrite README.md with updated temp_readme.md
         run: |
           # 覆盖 README.md
-          cp .github/workflows/temp_readme.md README.md
+          cp change_readme_here.md README.md
 
       - name: Commit changes
         run: |
