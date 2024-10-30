@@ -1,0 +1,60 @@
+请所有回答都使用英文，尽管我在使用中文提问。
+
+我现在想要整理一个关于gui agent（例如web android mobile等平台的）的github论文repo。因此我会给你一个或者多个论文标题，请你帮我从互联网上找到它（它们），并搜索它的具体内容和相关信息。主要关注并搜索：作者列表，精确的初次发布时间，主要的研究机构，是否有arxiv的版本，是否被哪个conference或者journal接收了，论文的abstract，主要的研究内容。
+
+最后，根据你找到的内容，帮我总结成下面的markdown格式：
+
+
+```
+format:
+- [title](paper link)（只需要给出一个链接即可，如果项目有大主页（包含了论文链接），则优先使用项目链接。如果没有，优先arxiv的链接。）
+    - author1, author2, and author3... （不需要key名，直接列出）
+    - 🏛️ Institutions: Institution1, Institution2, etc. （尽量使用简写，例如对于学校名）
+    - 📅 Date: Oct 30, 2024 （不需要key名，直接给出。并且如果有精确的时间（年月日），则给出精确到日的）（不需要加上更新的时间，只需要给出第一次发布的时间）
+    - 📑 Publisher: ICLR 2025 (没有的话写Unknown）（例如conference，并且请用缩写，例如ICML 2024。如果明确没有被conference收录，但有arXiv的发布，则写arXiv)
+    - 💻 Env: [environment, e.g., Web, Mobile] （记得给加上"[]",例如 [Web]）
+    - 🔑 Key: [key1], [key2], [key3], etc. 记得给每个都加上"[]",例如 [Web]）
+    - 📖 TLDR: Brief summary of the paper.
+```
+
+对于没有找到的内容，请写Unknown即可
+
+
+Env指：在哪个环境运行（进行研究），通常归类为desktop（例如computer use，无论是windows上还是mac或linux），mobile（安卓、ios），和web。如果全部都包含则写GUI
+
+
+Keywords 通常包含：
+1. 是否是有新训练的模型具体模型（而不是使用现有的模型，例如gpt），如果有，则加上model（注意，请认真阅读文章的abstract或者更多内容，理解是否train了新的模型。只是使用最新的例如GPT4v、gpt4o模型不算有新model）
+2. 是否有新propose的framewrok，如果有，加上framework
+3. 是否是有新创造的dataset，如果有，加上dataset （注意，请认真阅读文章的abstract或者更多内容，理解是否build并发布了新的数据集，只是使用现有数据集则不算）
+4. 是否有新的benchmark，如果有，加上benchmark（如果明确有训练集，则也加上dataset的keyword），（注意，请认真阅读文章的abstract或者更多内容，理解是否build了新的benchmark，只是使用现有benchmarks则不算）
+5. 论文的主要创新点或者研究重点
+6. 没有在标题和TLDR里提及的该论文常用的指代缩写
+
+
+
+给你一些例子作为参考：
+
+
+- [World of Bits: An Open-Domain Platform for Web-Based Agents](https://proceedings.mlr.press/v70/shi17a.html)
+    - Tianlin Shi, Andrej Karpathy, Linxi Fan, Jonathan Hernandez, Percy Liang
+    - 🏛️ Institutions: Stanford, OpenAI
+    - 📅 Date: August 2017
+    - 📑 Publisher: ICML 2017
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [dataset], [reinforcement learning], [web-based tasks], [open-domain]
+    - 📖 TLDR: This paper introduces *World of Bits (WoB)*, a platform enabling agents to perform complex web-based tasks using low-level keyboard and mouse actions, addressing the lack of open-domain realism in existing reinforcement learning environments. WoB leverages a novel framework where crowdworkers create tasks with structured rewards and reproducibility by caching web interactions, forming a stable training environment. The authors validate WoB by training agents via behavioral cloning and reinforcement learning to accomplish various real-world tasks, showcasing its potential as an effective platform for reinforcement learning on web tasks.
+
+
+- [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://arxiv.org/abs/2401.01614)
+    - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
+    - 🏛️ Institutions: OSU
+    - 📅 Date: January 1, 2024
+    - 📑 Publisher: ICML 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [dataset], [benchmark], [generalist web agent], [grounding]
+    - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
+
+你需要查找的论文标题：
+Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
+把所有结果写到一个代码块里。
