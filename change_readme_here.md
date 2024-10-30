@@ -43,10 +43,10 @@ You can contribute by providing either the paper title or a fully formatted entr
 
 For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help search your paper and format the entry automatically.
 
+## TODO: Add subgroups here (benchmark, datasets, models, learning, safety, framework, etc.
 
 
-
-## Papers (from most recent to oldest)
+## All Papers (from most recent to oldest)
 
 {{insert_content_here}}
 
