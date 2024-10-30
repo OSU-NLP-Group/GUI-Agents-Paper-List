@@ -66,6 +66,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [framework], [learning], [imitation learning], [exploration], [AI feedback]
     - 📖 TLDR: The paper presents **OpenWebVoyager**, an open-source framework for training web agents that explore real-world online environments autonomously. The framework employs a cycle of exploration, feedback, and optimization, enhancing agent capabilities through multimodal perception and iterative learning. Initial skills are acquired through imitation learning, followed by real-world exploration, where the agent’s performance is evaluated and refined through feedback loops.
 
+- [Beyond Browsing: API-Based Web Agents](https://arxiv.org/pdf/2410.16464)
+    - Yueqi Song, Frank Xu, Shuyan Zhou, Graham Neubig
+    - 🏛️ Institutions: CMU
+    - 📅 Date: October 24, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [API-based agent], [hybrid agent], [benchmark], [WebArena], [SOTA performance]
+    - 📖 TLDR: This paper introduces API-based and hybrid agents designed to execute online tasks by accessing both APIs and traditional web browsing interfaces. In evaluations using WebArena, a benchmark for web navigation, the API-based agent achieves higher performance than browser-based agents, and the hybrid model achieves a success rate of 35.8%, setting a new state-of-the-art (SOTA) in task-agnostic web navigation. The findings highlight the efficiency and reliability gains of API interactions for web agents.
+
 - [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603)
     - Chengyou Jia, Minnan Luo, Zhuohang Dang, Qiushi Sun, Fangzhi Xu, Junlin Hu, Tianbao Xie, Zhiyong Wu
     - 🏛️ Institutions: XJTU, Shanghai AI Lab, HKU
@@ -101,6 +110,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [planning and reasoning]
     - 📖 TLDR: AssistantBench is a benchmark designed to test the abilities of web agents in completing time-intensive, realistic web-based tasks. Covering 214 tasks across various domains, the benchmark introduces the SPA (See-Plan-Act) framework to handle multi-step planning and memory retention. AssistantBench emphasizes realistic task completion, showing that current agents achieve only modest success, with significant improvements needed for complex information synthesis and execution across multiple web domains.
+
+- [SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation](https://ar5iv.org/abs/2410.15164)
+    - Jingxuan Chen, Derek Yuen, Bin Xie, Yuhao Yang, Gongwei Chen, Zhihao Wu, Li Yixing, Xurui Zhou, Weiwen Liu, Shuai Wang, Rui Shao, Liqiang Nie, Yasheng Wang, Jianye Hao, Jun Wang, Kun Shao
+    - 🏛️ Institutions: Huawei Noah’s Ark Lab, Harbin Institute of Technology, Shenzhen, UCL
+    - 📅 Date: October 19, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [AI agent], [smartphone control], [framework]
+    - 📖 TLDR: SPA-Bench is introduced as a benchmark designed to evaluate multimodal large language model (MLLM)-based smartphone agents, offering a task set that spans common smartphone functionalities across system and third-party applications. It includes a plug-and-play framework for real-time agent interactions on Android, integrating over ten agents with an adaptable evaluation pipeline measuring success across diverse metrics. Through this, the benchmark exposes challenges such as UI interpretation, action grounding, and memory retention in mobile environments, advancing research in smartphone-based agent applications.
 
 - [Harnessing Webpage UIs for Text-Rich Visual Understanding](https://arxiv.org/abs/2410.13824)
     - Junpeng Liu, Tianyue Ou, Yifan Song, Yuxiao Qu, Wai Lam, Chenyan Xiong, Wenhu Chen, Graham Neubig, Xiang Yue
@@ -146,6 +164,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dynamic planning]
     - 📖 TLDR: This paper introduces a novel method called Dynamic Planning of Thoughts (D-PoT) aimed at enhancing LLM-based agents for GUI tasks. It addresses the challenges of task execution by dynamically adjusting planning based on environmental feedback and action history, outperforming existing methods such as ReAct by improving accuracy significantly in navigating GUI environments. The study emphasizes the importance of integrating execution history and contextual cues to optimize decision-making processes for autonomous agents.
+
+- [AdvWeb: Controllable Black-box Attacks on VLM-powered Web Agents](https://ai-secure.github.io/AdvWeb/)
+    - Chejian Xu, Mintong Kang, Jiawei Zhang, Zeyi Liao, Lingbo Mo, Mengqi Yuan, Huan Sun, Bo Li
+    - 🏛️ Institutions: UIUC, OSU
+    - 📅 Date: September 27, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [safty], [black-box attack], [adversarial prompter model], [Direct Policy Optimization]
+    - 📖 TLDR: This paper presents AdvWeb, a black-box attack framework that exploits vulnerabilities in vision-language model (VLM)-powered web agents by injecting adversarial prompts directly into web pages. Using Direct Policy Optimization (DPO), AdvWeb trains an adversarial prompter model that can mislead agents into executing harmful actions, such as unauthorized financial transactions, while maintaining high stealth and control. Extensive evaluations reveal that AdvWeb achieves high success rates across multiple real-world tasks, emphasizing the need for stronger security measures in web agent deployments.
 
 - [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://qwenlm.github.io/blog/qwen2-vl/)
     - Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Yang Fan, Kai Dang, Mengfei Du, Xuancheng Ren, Rui Men, Dayiheng Liu, Chang Zhou, Jingren Zhou, Junyang Lin
@@ -219,24 +246,6 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [benchmark], [dataset], [multimodal models], [visual foundation agents]
     - 📖 TLDR: This paper introduces VisualAgentBench (VAB), a comprehensive benchmark for developing and evaluating large multimodal models as visual foundation agents. VAB includes five distinct environments across three types of tasks: Embodied (OmniGibson, Minecraft), GUI (Mobile, WebArena-Lite), and Visual Design (CSS). The authors provide a trajectory training set for behavior cloning and evaluate nine proprietary LMM APIs and eight open models. Results show significant improvements in open LMMs through finetuning on VAB, approaching the performance of top proprietary models.
 
-- [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
-    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: SJTU, Meta
-    - 📅 Date: August 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General]
-    - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
-    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
-
-- [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
-    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: August 1, 2024
-    - 📑 Publisher: ICLR 2025
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [benchmark], [multimodal agent], [screen parsing]
-    - 📖 TLDR: This paper presents OmniParser, a method for parsing user interface screenshots into structured elements to enhance the performance of vision-language models like GPT-4V. The approach includes the development of an interactable icon detection dataset and a model that accurately identifies actionable regions in UI screenshots. OmniParser significantly improves the capability of agents to generate contextually grounded actions in user interfaces, outperforming existing benchmarks such as Mind2Web and AITW.
-
 - [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
     - [Author information not available]
     - 🏛️ Institutions: MultiOn, Stanford
@@ -254,6 +263,24 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [framework], [benchmark]
     - 📖 TLDR: This paper presents CoCo-Agent, a multimodal large language model (MLLM) designed for smartphone GUI automation. It introduces two novel approaches: Comprehensive Environment Perception (CEP) for enhanced GUI understanding, and Conditional Action Prediction (CAP) to improve action response accuracy. The proposed agent achieves state-of-the-art performance on GUI automation benchmarks such as AITW and META-GUI, showcasing its capabilities in realistic scenarios&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
+
+- [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
+    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: August 1, 2024
+    - 📑 Publisher: ICLR 2025
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [benchmark], [multimodal agent], [screen parsing]
+    - 📖 TLDR: This paper presents OmniParser, a method for parsing user interface screenshots into structured elements to enhance the performance of vision-language models like GPT-4V. The approach includes the development of an interactable icon detection dataset and a model that accurately identifies actionable regions in UI screenshots. OmniParser significantly improves the capability of agents to generate contextually grounded actions in user interfaces, outperforming existing benchmarks such as Mind2Web and AITW.
+
+- [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
+    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: SJTU, Meta
+    - 📅 Date: August 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General]
+    - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
+    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Aditya Vempaty, [Other authors not provided in the search results]
@@ -381,15 +408,6 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [dataset], [benchmark], [GUI navigation], [efficient data collection]
     - 📖 TLDR: This paper introduces E-ANT, a large-scale dataset for efficient automatic GUI navigation. The dataset contains over 100,000 GUI navigation trajectories across 200 diverse Android applications. The authors propose a novel data collection pipeline that combines automated exploration with human verification to ensure data quality and diversity. E-ANT aims to facilitate research in GUI navigation, task planning, and multimodal interaction for mobile devices.
 
-- [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
-    - Zhengyuan Yang, Jiawei Li, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 20, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [GUI action captioning]
-    - 📖 TLDR: This paper introduces a novel framework called GUI Narrator for captioning actions in GUI videos. The authors create a new benchmark dataset, Act2Cap, with 4,189 diverse video captioning samples. The approach uses a cursor detector as a visual prompt to enhance the interpretation of high-resolution screenshots. A multimodal LLM model with mechanisms for selecting keyframes and key regions generates the captions. The framework demonstrates improved performance in GUI action understanding compared to existing methods, even for advanced models like GPT-4V.
-
 - [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314)
     - Omri Berkovitch, Sapir Caduri, Noam Kahlon, Anatoly Efros, Avi Caciularu, Ido Dagan
     - 🏛️ Institutions: Unknown
@@ -398,6 +416,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [Mobile, Web]
     - 🔑 Key: [framework], [dataset], [benchmark], [goal identification], [UI automation]
     - 📖 TLDR: This paper addresses the task of inferring user goals from their interactions within graphical user interfaces (GUIs) by analyzing UI trajectories. It introduces a new evaluation metric to assess whether task descriptions are paraphrases within a specific UI context. Utilizing datasets like Mind2Web and Android in the Wild (AitW), the study compares the performance of advanced models, specifically GPT-4 and Gemini-1.5 Pro. Results indicate that while Gemini performs better than GPT-4, both models still lag behind human evaluators, highlighting areas for further improvement.
+
+- [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
+    - Zhengyuan Yang, Jiawei Li, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: June 20, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [dataset], [benchmark], [GUI action captioning]
+    - 📖 TLDR: This paper introduces a novel framework called GUI Narrator for captioning actions in GUI videos. The authors create a new benchmark dataset, Act2Cap, with 4,189 diverse video captioning samples. The approach uses a cursor detector as a visual prompt to enhance the interpretation of high-resolution screenshots. A multimodal LLM model with mechanisms for selecting keyframes and key regions generates the captions. The framework demonstrates improved performance in GUI action understanding compared to existing methods, even for advanced models like GPT-4V.
 
 - [WebCanvas: Benchmarking Web Agents in Online Environments](https://arxiv.org/abs/2406.12373)
     - Yichen Pan, Dehan Kong, Sida Zhou, Cheng Cui, Yifei Leng, Bing Jiang, Hangyu Liu, Yanyi Shang, Shuyan Zhou, Tongshuang Wu, Zhengyang Wu
@@ -615,15 +642,6 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [model], [framework], [dataset], [benchmark], [mobile UI understanding]
     - 📖 TLDR: This paper presents **Ferret-UI**, a multimodal large language model (MLLM) designed to understand and interact with mobile user interfaces. The model incorporates advanced capabilities for referring, grounding, and reasoning about UI elements. By training on a variety of UI tasks, Ferret-UI achieves high performance in tasks such as icon recognition and text extraction. The authors introduce a unique architecture that allows for improved visual feature extraction from mobile screens, paving the way for applications in accessibility and user interaction.
 
-- [Octopus: On-device language model for function calling of software APIs](https://arxiv.org/abs/2404.01549)
-    - Wei Chen, Zhiyuan Li, Mingyuan Ma
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 2, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [dataset], [benchmark], [API function calling], [conditional masking], [on-device LLMs]
-    - 📖 TLDR: This paper introduces *Octopus*, an on-device language model fine-tuned to perform software API function calls with improved accuracy over cloud-based models like GPT-4. By compiling a dataset from 20,000 API documents and utilizing conditional masking techniques, the model enhances API interactions while maintaining quick inference speeds. Octopus also introduces a new benchmark for evaluating API call accuracy, addressing challenges in automated software development and API integration, particularly for edge devices.
-
 - [Octopus v2: On-device language model for super agent](https://arxiv.org/abs/2404.01744)
     - Wei Chen, Zhiyuan Li
     - 🏛️ Institutions: Unknown
@@ -632,6 +650,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [framework], [on-device language model], [function calling], [super agent]
     - 📖 TLDR: This paper introduces Octopus v2, an innovative on-device language model designed for efficient function calling in AI agents. The 2-billion parameter model outperforms GPT-4 in both accuracy and latency, while reducing context length by 95%. Octopus v2 uses a novel method of encoding functions into specialized tokens, significantly improving performance and enabling deployment across various edge devices. The model demonstrates a 35-fold latency improvement over Llama-7B with RAG-based function calling, making it suitable for real-world applications on resource-constrained devices.
+
+- [Octopus: On-device language model for function calling of software APIs](https://arxiv.org/abs/2404.01549)
+    - Wei Chen, Zhiyuan Li, Mingyuan Ma
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: April 2, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [dataset], [benchmark], [API function calling], [conditional masking], [on-device LLMs]
+    - 📖 TLDR: This paper introduces *Octopus*, an on-device language model fine-tuned to perform software API function calls with improved accuracy over cloud-based models like GPT-4. By compiling a dataset from 20,000 API documents and utilizing conditional masking techniques, the model enhances API interactions while maintaining quick inference speeds. Octopus also introduces a new benchmark for evaluating API call accuracy, addressing challenges in automated software development and API integration, particularly for edge devices.
 
 - [Benchmarking Mobile Device Control Agents across Diverse Configurations](https://arxiv.org/abs/2404.16660)
     - Juyong Lee, Taywon Min, Minyong An, Dongyoon Hahm, Haeone Lee, Changyeon Kim, Kimin Lee
@@ -678,15 +705,6 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [framework], [dataset], [general virtual agents], [open-ended learning], [tool creation]
     - 📖 TLDR: AgentStudio is a robust toolkit for developing virtual agents with versatile actions, such as GUI automation and code execution. It unifies real-world human-computer interactions across OS platforms and includes diverse observation and action spaces, facilitating comprehensive training and benchmarking in complex settings. The toolkit's flexibility promotes agent generalization across varied tasks, supporting tool creation and a multimodal interaction interface to advance agent adaptability and learning.
 
-- [Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study](https://arxiv.org/abs/2403.03186)
-    - Weihao Tan, Ziluo Ding, Wentao Zhang, Boyu Li, Bohan Zhou, Junpeng Yue, Haochong Xia, Jiechuan Jiang, Longtao Zheng, Xinrun Xu, Yifei Bi, Pengjie Gu, Xinrun Wang, Börje F. Karlsson, Bo An, Zongqing Lu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: March 5, 2024
-    - 📑 Publisher: ICLR 2024 Workshop on LLM Agents
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [model], [general computer control], [multimodal agent], [skill curation], [self-improvement]
-    - 📖 TLDR: This paper introduces the Cradle framework, designed to enable general computer control (GCC) through multimodal input (e.g., screen images and optional audio) and outputs (keyboard and mouse). Cradle’s six core modules, including self-reflection, skill curation, and memory, allow for generalized task handling in complex environments like AAA games. Demonstrated in *Red Dead Redemption II*, the framework exhibits adaptability by performing real missions and following the storyline with minimal prior knowledge, showcasing its potential as a generalist agent for diverse computer tasks.
-
 - [Android in the Zoo: Chain-of-Action-Thought for GUI Agents](https://arxiv.org/abs/2403.02713)
     - Jiwen Zhang, Jihao Wu, Yihua Teng, Minghui Liao, Nuo Xu, Xiao Xiao, Zhongyu Wei, Duyu Tang
     - 🏛️ Institutions: Unknown
@@ -695,6 +713,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dataset], [Android GUI], [Chain-of-Action-Thought], [autonomous GUI agents]
     - 📖 TLDR: This paper introduces *Chain-of-Action-Thought* (CoAT), a novel paradigm to improve GUI agent task completion by enabling agents to interpret previous actions, current screen content, and action rationale for next steps. The authors present the *Android-In-The-Zoo* (AitZ) dataset, which includes 18,643 screen-action pairs with detailed annotations, supporting CoAT's development and evaluation. The study demonstrates that fine-tuning with the AitZ dataset improves performance of a baseline large language model in predicting correct action sequences in Android tasks.
+
+- [Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study](https://arxiv.org/abs/2403.03186)
+    - Weihao Tan, Ziluo Ding, Wentao Zhang, Boyu Li, Bohan Zhou, Junpeng Yue, Haochong Xia, Jiechuan Jiang, Longtao Zheng, Xinrun Xu, Yifei Bi, Pengjie Gu, Xinrun Wang, Börje F. Karlsson, Bo An, Zongqing Lu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 5, 2024
+    - 📑 Publisher: ICLR 2024 Workshop on LLM Agents
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [model], [general computer control], [multimodal agent], [skill curation], [self-improvement]
+    - 📖 TLDR: This paper introduces the Cradle framework, designed to enable general computer control (GCC) through multimodal input (e.g., screen images and optional audio) and outputs (keyboard and mouse). Cradle’s six core modules, including self-reflection, skill curation, and memory, allow for generalized task handling in complex environments like AAA games. Demonstrated in *Red Dead Redemption II*, the framework exhibits adaptability by performing real missions and following the storyline with minimal prior knowledge, showcasing its potential as a generalist agent for diverse computer tasks.
 
 - [On the Multi-turn Instruction Following for Conversational Web Agents](https://arxiv.org/abs/2402.15057)
     - Yang Deng, Xuan Zhang, Wenxuan Zhang, Yifei Yuan, See-Kiong Ng, Tat-Seng Chua
@@ -822,15 +849,6 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 🔑 Key: [framework], [GUI grounding], [visual GUI agents]
     - 📖 TLDR: This paper introduces SeeClick, a novel framework for visual GUI agents that enhances their ability to interact with graphical user interfaces. The approach uses a two-stage process: first, it grounds natural language instructions to specific GUI elements, then it selects the most appropriate action. SeeClick demonstrates significant improvements in task completion rates across various GUI environments, outperforming existing methods and showing potential for more intuitive and efficient human-computer interactions.
 
-- [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://huggingface.co/papers/2305.11854)
-    - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
-    - 🏛️ Institutions: Univ. of Tokyo, Google DeepMind
-    - 📅 Date: Jan 1, 2024
-    - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [model], [dataset], [web navigation], [instruction-following]
-    - 📖 TLDR: This paper introduces WebGUM, an instruction-following multimodal agent for autonomous web navigation that leverages both visual (webpage screenshots) and textual (HTML) inputs to perform actions such as click and type. The model is trained on a vast corpus of demonstrations and shows improved capabilities in visual perception, HTML comprehension, and multi-step decision-making, achieving state-of-the-art performance on benchmarks like MiniWoB and WebShop. WebGUM provides a scalable approach to web-based tasks without task-specific architectures, enabling high-performance web navigation with generalizable, multimodal foundation models.
-
 - [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://osu-nlp-group.github.io/SeeAct/)
     - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
     - 🏛️ Institutions: OSU
@@ -839,6 +857,15 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help se
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [seeact], [multimodal-mind2web]
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
+
+- [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://huggingface.co/papers/2305.11854)
+    - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
+    - 🏛️ Institutions: Univ. of Tokyo, Google DeepMind
+    - 📅 Date: Jan 1, 2024
+    - 📑 Publisher: ICLR 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [model], [dataset], [web navigation], [instruction-following]
+    - 📖 TLDR: This paper introduces WebGUM, an instruction-following multimodal agent for autonomous web navigation that leverages both visual (webpage screenshots) and textual (HTML) inputs to perform actions such as click and type. The model is trained on a vast corpus of demonstrations and shows improved capabilities in visual perception, HTML comprehension, and multi-step decision-making, achieving state-of-the-art performance on benchmarks like MiniWoB and WebShop. WebGUM provides a scalable approach to web-based tasks without task-specific architectures, enabling high-performance web navigation with generalizable, multimodal foundation models.
 
 - [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
     - Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
