@@ -12,7 +12,7 @@ format example:
     - 🔑 Key: [key1], [key2], [key3], etc.
     - 📖 TLDR: Brief summary of the paper.
 
-You can simply leave the paper name or the full formatted results in an issue. Or you are also welcomed to make a new PR. 
+You can simply leave the paper name or the full formatted results in [Paper Collection](https://github.com/boyugou/GUI-Agents-Paper-List/issues/1). Or you are also welcomed to make a new PR. 
 
 
 
