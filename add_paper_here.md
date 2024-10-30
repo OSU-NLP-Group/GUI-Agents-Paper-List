@@ -279,7 +279,7 @@
 
 - [OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation](https://arxiv.org/abs/2407.19056)
     - Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, Jingbo Shang
-    - 🏛️ Institutions: UCLA, Amazon, USC, Shanghai Jiao Tong University
+    - 🏛️ Institutions: UCSD, UCLA, AI2
     - 📅 Date: July 26, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
