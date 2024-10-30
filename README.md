@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-## Add a Paper
+## How to Add a Paper
 
 format example:
 - [title](paper link)
@@ -12,9 +12,9 @@ format example:
     - 🔑 Key: [key1], [key2], [key3], etc.
     - 📖 TLDR: Brief summary of the paper.
 
-You can simply leave the paper name or the full formatted results in [Paper Collection](https://github.com/boyugou/GUI-Agents-Paper-List/issues/1). Or you are also welcomed to make a new PR. 
+You can contribute by providing either the paper title or a fully formatted entry in [Paper Collection](https://github.com/boyugou/GUI-Agents-Paper-List/issues/1). You’re also welcome to open a new PR with your submission.
 
-
+For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help format your entry automatically.
 
 
 
@@ -1022,4 +1022,4 @@ You can simply leave the paper name or the full formatted results in [Paper Coll
 - [Awesome-LLM-based-Web-Agent-and-Tools](https://github.com/albzni/Awesome-LLM-based-Web-Agent-and-Tools)
 - [Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent)
 - [computer-control-agent-knowledge-base](https://github.com/James4Ever0/computer_control_agent_knowledge_base)
-- [awesome-ui-agent](https://github.com/boyugou/awesome-ui-agents)
+- [awesome-ui-agent](https://github.com/boyugou/awesome-ui-agents) (this repository is based on it to some extent)
