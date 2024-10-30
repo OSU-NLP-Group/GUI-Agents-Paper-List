@@ -308,7 +308,7 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 📅 Date: October 17, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
-    - 🔑 Key: [framework], [benchmark], [visual grounding], [multimodal models], [GPT-4V]
+    - 🔑 Key: [framework], [benchmark], [visual grounding], [SoM]
     - 📖 TLDR: This paper introduces the *Set-of-Mark (SoM)* prompting technique to significantly enhance GPT-4V's ability for visual grounding. By segmenting images into regions and overlaying them with alphanumeric marks and boundaries, GPT-4V can identify and interact with distinct objects or regions in images. The approach leverages existing segmentation models to mark image components and has demonstrated superior performance in visual grounding tasks, including zero-shot evaluation on datasets like RefCOCOg.
 
 
