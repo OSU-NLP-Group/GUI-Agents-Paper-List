@@ -20,7 +20,7 @@ format:
 对于没有找到的内容，请写Unknown即可
 
 
-Env指：在哪个环境运行（进行研究），通常归类为desktop（例如computer use，无论是windows上还是mac或linux），mobile（安卓、ios），和web。如果全部都包含则写GUI
+Env指：在哪个环境运行（进行研究），通常归类为desktop（例如computer use，无论是windows上还是mac或linux），mobile（安卓、ios），和web。如果全部都包含则写GUI。如果是来自general domain，但因为对于GUI很重要或者对于GUI有明显的帮助，请标记为[General]
 
 
 Keywords 通常包含：

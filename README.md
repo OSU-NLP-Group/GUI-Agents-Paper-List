@@ -1,5 +1,15 @@
 # Awesome GUI Agent Paper List
 
+## Paper Covrage:
+A variety of papers related to GUI Agents, including but not limited to:
+- GUI Understanding
+- Datasets
+- Benchmarks
+- New frameworks
+- New models
+- Vision, language, multimodal foundation models (with explicit support for GUI)
+- Works in the General Domain extensively used by GUI Agents (e.g., SoM prompting)
+
 ## How to Add a Paper
 
 ### format example:
@@ -8,7 +18,7 @@
     - 🏛️ Institutions: List the institutions concisely, using abbreviations (e.g., university names, like OSU).
     - 📅 Date: e.g., Oct 30, 2024
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments.
+    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [General] if it is researching on general domains.
     - 🔑 Key: Label each keyword within brackets, e.g., [model], [framework],[dataset],[benchmark].
     - 📖 TLDR: Brief summary of the paper.
 
@@ -291,6 +301,16 @@ For ease of use, feel free to use "auto_prompt.txt" alongside ChatGPT to help fo
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [open-source platform], [language agents], [multi-modal interaction]
     - 📖 TLDR: This paper presents OpenAgents, an open-source platform for developing and deploying language agents capable of interacting with various applications and services. The platform includes three types of agents: a coding agent, a browser agent, and a chrome agent, each designed to handle different tasks and environments. OpenAgents demonstrates the potential of language models to serve as intelligent assistants in real-world scenarios, offering a flexible and extensible framework for researchers and developers to build upon.
+
+- [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)
+    - Jianwei Yang, Hao Zhang, Feng Li, Xueyan Zou, Chunyuan Li, Jianfeng Gao
+    - 🏛️ Institutions: Microsoft Research
+    - 📅 Date: October 17, 2023
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General]
+    - 🔑 Key: [framework], [benchmark], [visual grounding], [multimodal models], [GPT-4V]
+    - 📖 TLDR: This paper introduces the *Set-of-Mark (SoM)* prompting technique to significantly enhance GPT-4V's ability for visual grounding. By segmenting images into regions and overlaying them with alphanumeric marks and boundaries, GPT-4V can identify and interact with distinct objects or regions in images. The approach leverages existing segmentation models to mark image components and has demonstrated superior performance in visual grounding tasks, including zero-shot evaluation on datasets like RefCOCOg.
+
 
 - [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736)
     - Fangzhi Xu, Qiushi Sun, Kanzhi Cheng, Jun Liu, Yu Qiao, Zhiyong Wu
