@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List (Work-In-Progress)
 
-The current entries have been mostly auto-generated using GPT or Perplexity AI (via the repo's prompt). This may lead to inaccuracies, particularly with links, author names, dates, or keywords. Contributions for corrections are welcome!
+The current entries have been mostly auto-generated using [GPT](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) or Perplexity AI. This may lead to inaccuracies, particularly with links, author names, dates, or keywords. Contributions for corrections are welcome!
 
 ## Paper Covrage:
 A variety of papers related to GUI Agents, including but not limited to:
