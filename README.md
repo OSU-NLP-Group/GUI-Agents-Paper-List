@@ -669,15 +669,6 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [benchmark], [dataset], [GUI grounding], [real computer tasks]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 
-- [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
-    - Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, Alane Suhr
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 9, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web, Desktop]
-    - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
-    - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
-
 - [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
     - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
     - 🏛️ Institutions: CMU
@@ -686,6 +677,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [web page understanding], [grounding]
     - 📖 TLDR: VisualWebBench introduces a comprehensive benchmark for evaluating multimodal large language models (MLLMs) on web-based tasks. It includes 1.5K human-curated instances across 139 websites in 87 sub-domains. The benchmark spans seven tasks—such as OCR, grounding, and web-based QA—aiming to test MLLMs' capabilities in fine-grained web page understanding. Results reveal significant performance gaps, particularly in grounding tasks, highlighting the need for advancement in MLLM web understanding.
+
+- [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
+    - Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, Alane Suhr
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: April 9, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web, Desktop]
+    - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
+    - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
 
 - [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://machinelearning.apple.com/research/ferretui-mobile)
     - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeffrey Nichols, Yinfei Yang, Zhe Gan
@@ -826,7 +826,7 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
     - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton University, University of Hong Kong
     - 📅 Date: February 12, 2024
-    - 📑 Publisher: ICLR 2024
+    - 📑 Publisher: ICLR 2024 Workshop LLMAgents
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [self-directed learning], [GAIA], [FRIDAY], [OS-Copilot]
     - 📖 TLDR: The OS-Copilot framework supports building generalist agents capable of performing diverse tasks across an operating system (OS). This work introduces FRIDAY, an embodied agent using OS-Copilot to self-improve by learning from task outcomes. It operates with a memory-based architecture to tackle OS-level tasks across applications like terminals, web browsers, and third-party tools. Tested on the GAIA benchmark, FRIDAY achieved 35% higher performance than prior methods, proving effective in adapting to unfamiliar applications and refining its capabilities with minimal guidance.
