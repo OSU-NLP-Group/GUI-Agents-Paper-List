@@ -669,15 +669,6 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [benchmark], [dataset], [GUI grounding], [real computer tasks]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 
-- [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
-    - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
-    - 🏛️ Institutions: CMU
-    - 📅 Date: April 9, 2024
-    - 📑 Publisher: COLM 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dataset], [web page understanding], [grounding]
-    - 📖 TLDR: VisualWebBench introduces a comprehensive benchmark for evaluating multimodal large language models (MLLMs) on web-based tasks. It includes 1.5K human-curated instances across 139 websites in 87 sub-domains. The benchmark spans seven tasks—such as OCR, grounding, and web-based QA—aiming to test MLLMs' capabilities in fine-grained web page understanding. Results reveal significant performance gaps, particularly in grounding tasks, highlighting the need for advancement in MLLM web understanding.
-
 - [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
     - Jiayi Pan, Yichi Zhang, Nicholas Tomlin, Yifei Zhou, Sergey Levine, Alane Suhr
     - 🏛️ Institutions: Unknown
@@ -686,6 +677,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 💻 Env: [Web, Desktop]
     - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
     - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
+
+- [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
+    - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
+    - 🏛️ Institutions: CMU
+    - 📅 Date: April 9, 2024
+    - 📑 Publisher: COLM 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [web page understanding], [grounding]
+    - 📖 TLDR: VisualWebBench introduces a comprehensive benchmark for evaluating multimodal large language models (MLLMs) on web-based tasks. It includes 1.5K human-curated instances across 139 websites in 87 sub-domains. The benchmark spans seven tasks—such as OCR, grounding, and web-based QA—aiming to test MLLMs' capabilities in fine-grained web page understanding. Results reveal significant performance gaps, particularly in grounding tasks, highlighting the need for advancement in MLLM web understanding.
 
 - [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://machinelearning.apple.com/research/ferretui-mobile)
     - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeffrey Nichols, Yinfei Yang, Zhe Gan
@@ -804,6 +804,15 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [safety], [adversarial attacks], [security risks], [language agents], [Perception-Brain-Action]
     - 📖 TLDR: This paper introduces a conceptual framework to assess and understand adversarial vulnerabilities in language agents, dividing the agent structure into three components—Perception, Brain, and Action. It discusses 12 specific adversarial attack types that exploit these components, ranging from input manipulation to complex backdoor and jailbreak attacks. The framework provides a basis for identifying and mitigating risks before the widespread deployment of these agents in real-world applications.
 
+- [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939)
+    - Chaoyun Zhang, Liqun Li, Shilin He, Xu Zhang, Bo Qiao, Si Qin, Minghua Ma, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
+    - 🏛️ Institutions: Microsoft
+    - 📅 Date: February 14, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [GPT-Vision], [multimodal], [UI automation], [Windows], [UFO]
+    - 📖 TLDR: This paper presents UFO, a pioneering multimodal LLM-based agent designed to fulfill user requests on Windows OS. UFO employs a dual-agent architecture—comprising AppAgent and ActAgent—that can interpret and execute complex tasks across multiple Windows applications by observing UI elements and utilizing control interactions. The framework allows UFO to handle intricate, cross-application workflows and execute commands seamlessly based on natural language prompts. It integrates GPT-Vision to recognize and interact with graphical elements, enabling flexible, autonomous task completion within and across diverse Windows applications.
+
 - [ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model](https://arxiv.org/abs/2402.07945)
     - Chao Wang, Weizhou Shen, Zhihao Zhu, Yuxiang Zhang, Yifeng Han, Zhengjun Zha, Tao Mei
     - 🏛️ Institutions: Unknown
@@ -814,22 +823,13 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 📖 TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
 
 - [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
-    - Zhiwei Liu, Weili Nie, Xuwang Yin, Chaowei Xiao, Yue Cao, Yixin Zhu, Anima Anandkumar
-    - 🏛️ Institutions: Unknown
+    - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
+    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton University, University of Hong Kong
     - 📅 Date: February 12, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [generalist computer agent], [self-improvement]
-    - 📖 TLDR: This paper presents OS-Copilot, a framework for developing generalist computer agents capable of performing diverse tasks across different operating systems. The approach combines large language models, computer vision techniques, and reinforcement learning to enable agents to interact with graphical user interfaces. OS-Copilot features a novel self-improvement mechanism that allows the agent to learn from its mistakes and improve its performance over time. The framework is evaluated on a new benchmark, OSBench, which includes tasks across Windows, Ubuntu, and macOS, demonstrating its potential for creating more versatile and adaptive AI assistants for computer operation.
-
-- [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939)
-    - Chaoyun Zhang, Zheng Chen, Jincheng Yang, Xiangqun Chen, Jiaxin Zhang, Zheng Xu, Zhi Jin, Wenxue Cheng, Mao Yang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 8, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [Windows OS], [UI interaction], [multi-agent system]
-    - 📖 TLDR: This paper introduces UFO, an innovative UI-Focused agent designed for seamless interaction with Windows OS applications. UFO employs a dual-agent framework (HostAgent and AppAgent) that leverages GPT-Vision to analyze GUI screenshots and control information. The system can navigate and operate within individual or multiple applications to fulfill user requests expressed in natural language. UFO incorporates a control interaction module for automated execution without human intervention, and features like action customization and safeguards. The framework was tested across 9 popular Windows applications, demonstrating its effectiveness in completing complex tasks spanning multiple applications.
+    - 📑 Publisher: ICLR 2024
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [self-directed learning], [GAIA], [FRIDAY], [OS-Copilot]
+    - 📖 TLDR: The OS-Copilot framework supports building generalist agents capable of performing diverse tasks across an operating system (OS). This work introduces FRIDAY, an embodied agent using OS-Copilot to self-improve by learning from task outcomes. It operates with a memory-based architecture to tackle OS-level tasks across applications like terminals, web browsers, and third-party tools. Tested on the GAIA benchmark, FRIDAY achieved 35% higher performance than prior methods, proving effective in adapting to unfamiliar applications and refining its capabilities with minimal guidance.
 
 - [ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615)
     - Gilles Baechler, Srinivas Sunkara, Maria Wang, Fedir Zubach, Hassan Mansoor, Vincent Etter, Victor Cărbune, Jason Lin, Jindong Chen, Abhanshu Sharma
@@ -993,14 +993,14 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
     - 🔑 Key: [visual prompting], [framework], [benchmark], [visual grounding], [zero-shot]
     - 📖 TLDR: This paper introduces Set-of-Mark (SoM), a novel visual prompting approach designed to enhance the visual grounding capabilities of multimodal models like GPT-4V. By overlaying images with spatially and semantically distinct marks, SoM enables fine-grained object recognition and interaction within visual data, surpassing conventional zero-shot segmentation methods in accuracy. The framework is validated on tasks requiring detailed spatial reasoning, demonstrating a significant improvement over existing visual-language models without fine-tuning.
 
-- [OpenAgents: AN OPEN PLATFORM FOR LANGUAGE AGENTS IN THE WILD](https://arxiv.org/abs/2310.10634)
-    - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Haoyuan Peng, Xingyu Shen, Yike Yuan, Ankit Ramchandani, Shiyi Cao, Tianxiang Sun, Zhiyi Zhang, Rui Zhao, Jian Guan, Chuanhu Wang, Yao Mu, Yida Wang, Hao Dong, Dasong Gao, Tianyi Tang, Zhiyuan Liu, Vicent Peris, Qingxiu Dong, Zhiyi Fu, Shuai Wang, Jinhua Zhu, Jidong Long, Ran He, Yuqi Zhu, Juntao Dai, Haotian Sun, Hao Yang, Vishwali Mhasawade, Qihui Zhang, Guohai Xu, Jiaxin Zhang, Jinjie Ni, Yunshan Ma, Keming Lu, Xiaoran Fan, Cheng Li, Jingxuan He, Rui Zheng, Jingbiao Mei, Xingxuan Li, Xiaoxue Gan, Liang Zhao, Jingjing Tian, Zhuosheng Zhang, Yao Fu, Shuohuan Wang, Chujie Zheng, Xin Cheng, Xudong Liu, Bowen Yu, Wenhu Chen, Yizhong Wang, Binyuan Hui, Xinmei Shen, Bowen Qin, Hao Chen, Hanze Dong, Jiawen Deng, Sang Michael Xie, Kunlun Zhu, Yuxiang Zhang, Hongming Zhang, Ruohong Zhang, Jiaqi Li, Mukai Li, Tianle Gu, Zheng Yu, Linyi Yang, Songyang Gao, Juanzi Li, Yong Dai, Baobao Chang, Dawei Zhu, Maosong Sun, Jie Tang, Michael Lyu, Xipeng Qiu
-    - 🏛️ Institutions: Unknown
+- [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634)
+    - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu
+    - 🏛️ Institutions: HKU, Sea AI Lab, Salesforce Research
     - 📅 Date: October 16, 2023
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [open-source platform], [language agents], [multi-modal interaction]
-    - 📖 TLDR: This paper presents OpenAgents, an open-source platform for developing and deploying language agents capable of interacting with various applications and services. The platform includes three types of agents: a coding agent, a browser agent, and a chrome agent, each designed to handle different tasks and environments. OpenAgents demonstrates the potential of language models to serve as intelligent assistants in real-world scenarios, offering a flexible and extensible framework for researchers and developers to build upon.
+    - 📑 Publisher: ICLR 2024 Workshop
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [plugin system], [user interface], [autonomous agents], [error handling]
+    - 📖 TLDR: OpenAgents is a platform designed to enable real-world deployment of language agents for complex tasks by integrating three primary agents: (1) Data Agent for data analysis, (2) Plugins Agent with extensive API support, and (3) Web Agent for autonomous web browsing. The platform emphasizes usability and robustness, providing a seamless setup for both developers and non-experts. OpenAgents' modular approach includes prompting techniques, environment handling, and error management to support diverse, interactive agent tasks and expand research capabilities in real-world LLM applications.
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
     - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
