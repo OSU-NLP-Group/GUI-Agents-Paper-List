@@ -196,23 +196,24 @@
     - 🔑 Key: [safety], [privacy attack], [environmental injection], [stealth attack]
     - 📖 TLDR: This paper introduces the Environmental Injection Attack (EIA), a privacy attack targeting generalist web agents by embedding malicious yet concealed web elements to trick agents into leaking users' PII. Utilizing 177 action steps within realistic web scenarios, EIA demonstrates a high success rate in extracting specific PII and whole user requests. Through its detailed threat model and defense suggestions, the work underscores the challenge of detecting and mitigating privacy risks in autonomous web agents.
 
-- [Windows Agent Arena](https://github.com/microsoft/WindowsAgentArena)
-    - Rogerio Bonatti, Michael Nuñez, and others
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: September 12, 2024
-    - 📑 Publisher: Microsoft Research
+- [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://microsoft.github.io/WindowsAgentArena/)
+    - Rogerio Bonatti, Dan Zhao, Francesco Bonacci, Dillon Dupont, Sara Abdali, Yinheng Li, Yadong Lu, Justin Wagle, Kazuhito Koishida, Arthur Bucker, Lawrence Jang, Zack Hui
+    - 🏛️ Institutions: Microsoft
+    - 📅 Date: September 13, 2024
+    - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [cloud-based parallelization], [Windows applications]
-    - 📖 TLDR: Windows Agent Arena is a benchmarking platform for AI agents operating within the Windows OS, testing their capabilities on over 150 tasks across applications like Notepad, Edge, and File Explorer. This environment utilizes Azure cloud infrastructure to parallelize task evaluation, dramatically reducing testing time to minutes. In trials, Microsoft’s agent "Navi" achieved a 19.5% success rate, highlighting ongoing challenges for multimodal agents in replicating human task performance in OS environments. This platform advances agent capabilities in realistic, desktop-based scenarios, supporting broader developments in productivity-focused AI tools.
+    - 🔑 Key: [framework], [benchmark], [Navi]
+    - 📖 TLDR: This paper introduces the *Windows Agent Arena (WAA)*, a scalable platform for testing and benchmarking multi-modal AI agents within a realistic Windows OS environment. WAA enables researchers to evaluate agentic workflows across diverse tasks and supports large-scale deployment using Azure ML. The study also presents *Navi*, a multi-modal agent achieving a 19.5% success rate on Windows tasks, highlighting the platform's potential for advancing AI agent development.
 
 - [Agent Workflow Memory](https://arxiv.org/abs/2409.07429)
-    - Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
-    - 🏛️ Institutions: Unknown
+    - Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
+    - 🏛️ Institutions: CMU, MIT
     - 📅 Date: September 11, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [workflow induction], [memory]
-    - 📖 TLDR: This paper introduces Agent Workflow Memory (AWM), a method for inducing and utilizing reusable task workflows to improve agent performance on complex web navigation tasks. AWM works in both offline and online scenarios, inducing workflows from training examples or on-the-fly from test queries. Experiments on Mind2Web and WebArena benchmarks show substantial improvements in success rates (24.6% and 51.1% relative increases) and efficiency. AWM demonstrates robust generalization across tasks, websites, and domains, outperforming baselines by 8.9 to 14.0 absolute points as task distribution gaps widen.
+    - 🔑 Key: [framework], [memory], [AWM]
+    - 📖 TLDR: The paper proposes *Agent Workflow Memory (AWM)*, a method enabling language model-based agents to induce and utilize reusable workflows from past experiences to guide future actions in web navigation tasks. AWM operates in both offline and online settings, significantly improving performance on benchmarks like Mind2Web and WebArena, and demonstrating robust generalization across tasks, websites, and domains.
+
 
 - [From Grounding to Planning: Benchmarking Bottlenecks in Web Agents](https://arxiv.org/abs/2409.01927)
     - Segev Shlomov, Ben Wiesel, Aviad Sela, Ido Levy, Liane Galanti, Roy Abitbol
@@ -223,32 +224,33 @@
     - 🔑 Key: [benchmark], [planning], [grounding], [Mind2Web dataset], [web navigation]
     - 📖 TLDR: This paper analyzes performance bottlenecks in web agents by separately evaluating grounding and planning tasks, isolating their individual impacts on navigation efficacy. Using an enhanced version of the Mind2Web dataset, the study reveals planning as a significant bottleneck, with advancements in grounding and task-specific benchmarking for elements like UI component recognition. Through experimental adjustments, the authors propose a refined evaluation framework, aiming to enhance web agents' contextual adaptability and accuracy in complex web environments.
 
-- [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://arxiv.org/abs/2409.xxxxx)
-    - [Author information not available]
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: September 2024
+- [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://arxiv.org/abs/2409.14818)
+    - Qinzhuo Wu, Weikai Xu, Wei Liu, Tao Tan, Jianfeng Liu, Ang Li, Jian Luan, Bin Wang, Shuo Shang
+    - 🏛️ Institutions: Huawei Technologies Co., Ltd.
+    - 📅 Date: September 23, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [vision-language model], [UI understanding], [mobile interfaces]
-    - 📖 TLDR: This paper presents MobileVLM, a vision-language model specifically designed for understanding mobile user interfaces. The model improves both intra-UI understanding (relationships between elements within a single screen) and inter-UI understanding (connections across different screens or app states). MobileVLM demonstrates enhanced performance in tasks such as UI element classification, layout analysis, and task planning across mobile applications, potentially advancing the development of more intelligent mobile assistants and automated testing tools.
+    - 🔑 Key: [model], [dataset], [MobileVLM], [Mobile3M]
+    - 📖 TLDR: This paper introduces *MobileVLM*, a vision-language model designed to enhance both intra- and inter-UI understanding on mobile devices. The authors propose two additional pre-training stages with four UI-based tasks to improve the model's perception of fine-grained elements and page transition actions. To support this, they built *Mobile3M*, a large-scale Chinese mobile dataset containing 3 million UI pages and real-world transition actions, forming a directed graph structure. Experimental results demonstrate that MobileVLM outperforms existing vision-language models on both their test set and public mobile benchmarks.
 
 - [AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824)
     - Yanda Li, Chi Zhang, Wanqi Yang, Bin Fu, Pei Cheng, Xin Chen, Ling Chen, Yunchao Wei
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: August 23, 2024
+    - 🏛️ Institutions: University of Technology Sydney, Tencent, Beijing Jiaotong University, Westlake University
+    - 📅 Date: August 5, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [multimodal agent], [mobile interactions], [flexible action space]
-    - 📖 TLDR: This paper introduces AppAgent v2, an advanced multimodal agent framework for mobile devices. The system emulates human-like interactions and constructs a flexible action space that enhances adaptability across various applications. It operates in two phases: exploration (documenting UI element functionalities) and deployment (using RAG technology for efficient knowledge retrieval). AppAgent v2 demonstrates superior performance in handling complex, multi-step operations across various applications, showing its effectiveness in real-world scenarios.
+    - 🔑 Key: [framework], [AppAgent v2]
+    - 📖 TLDR: This work presents *AppAgent v2*, a novel LLM-based multimodal agent framework for mobile devices capable of navigating applications by emulating human-like interactions such as tapping and swiping. The agent constructs a flexible action space that enhances adaptability across various applications, including parsing text and vision descriptions. It operates through two main phases: exploration and deployment, utilizing retrieval-augmented generation (RAG) technology to efficiently retrieve and update information from a knowledge base, thereby empowering the agent to perform tasks effectively and accurately.
 
 - [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://arxiv.org/abs/2408.06327)
-    - Xiao Liu, Tianjie Zhang, Yu Gu, Iat Long Iong, Yifan Xu, Xixuan Song, Shudan Zhang, Hanyu Lai, Xinyi Liu, Hanlin Zhao, et al.
-    - 🏛️ Institutions: Unknown
+    - Xiao Liu, Tianjie Zhang, Yu Gu, Iat Long Iong, Yifan Xu, Xixuan Song, Shudan Zhang, Hanyu Lai, Xinyi Liu, Hanlin Zhao, Jiadai Sun, Xinyue Yang, Yu Yang, Zehan Qi, Shuntian Yao, Xueqiao Sun, Siyi Cheng, Qinkai Zheng, Hao Yu, Hanchen Zhang, Wenyi Hong, Ming Ding, Lihang Pan, Xiaotao Gu, Aohan Zeng, Zhengxiao Du, Chan Hee Song, Yu Su, Yuxiao Dong, Jie Tang
+    - 🏛️ Institutions: Tsinghua University, Microsoft Research Asia, The Ohio State University
     - 📅 Date: August 12, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI, Embodied, Visual Design]
-    - 🔑 Key: [benchmark], [dataset], [multimodal models], [visual foundation agents]
-    - 📖 TLDR: This paper introduces VisualAgentBench (VAB), a comprehensive benchmark for developing and evaluating large multimodal models as visual foundation agents. VAB includes five distinct environments across three types of tasks: Embodied (OmniGibson, Minecraft), GUI (Mobile, WebArena-Lite), and Visual Design (CSS). The authors provide a trajectory training set for behavior cloning and evaluate nine proprietary LMM APIs and eight open models. Results show significant improvements in open LMMs through finetuning on VAB, approaching the performance of top proprietary models.
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [dataset], [VisualAgentBench], [VAB]
+    - 📖 TLDR: The authors introduce *VisualAgentBench (VAB)*, a comprehensive benchmark designed to train and evaluate large multimodal models (LMMs) as visual foundation agents across diverse scenarios, including embodied tasks, graphical user interfaces, and visual design. VAB comprises five distinct environments that systematically challenge LMMs' understanding and interaction capabilities. Additionally, the benchmark offers supervised fine-tuning trajectory data for behavior cloning training, demonstrating the potential to improve open LMMs for serving as visual foundation agents.
+
 
 - [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
     - [Author information not available]
@@ -268,14 +270,6 @@
     - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
     - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
-- [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
-    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: August 1, 2024
-    - 📑 Publisher: ICLR 2025
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [benchmark], [multimodal agent], [screen parsing]
-    - 📖 TLDR: This paper presents OmniParser, a method for parsing user interface screenshots into structured elements to enhance the performance of vision-language models like GPT-4V. The approach includes the development of an interactable icon detection dataset and a model that accurately identifies actionable regions in UI screenshots. OmniParser significantly improves the capability of agents to generate contextually grounded actions in user interfaces, outperforming existing benchmarks such as Mind2Web and AITW.
 
 - [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
     - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
@@ -304,230 +298,259 @@
     - 🔑 Key: [framework], [autonomous web navigation], [hierarchical architecture], [DOM distillation]
     - 📖 TLDR: This paper presents Agent-E, a novel web agent that introduces several architectural improvements over previous state-of-the-art systems. Key features include a hierarchical architecture, flexible DOM distillation and denoising methods, and a "change observation" concept for improved performance. Agent-E outperforms existing text and multi-modal web agents by 10-30% on the WebVoyager benchmark. The authors synthesize their findings into general design principles for developing agentic systems, including the use of domain-specific primitive skills, hierarchical architectures, and agentic self-improvement.
 
-- [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://arxiv.org/abs/2407.07061)
-    - Yilun Huang, Zhihao Zhu, Jian Yang, Hongsheng Li, Qiang Liu, Xiaogang Wang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 9, 2024
+- [OmniParser for Pure Vision Based GUI Agent](https://microsoft.github.io/OmniParser/)
+    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
+    - 🏛️ Institutions: Microsoft Research, Microsoft Gen AI
+    - 📅 Date: August 1, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [multi-agent collaboration], [heterogeneous agent integration]
-    - 📖 TLDR: This paper introduces the Internet of Agents (IoA), a novel framework for enhancing collaboration among diverse AI agents. Inspired by the internet's architecture, IoA addresses limitations in existing multi-agent systems by providing an agent integration protocol, an instant-messaging-like architecture, and dynamic mechanisms for agent teaming and conversation flow control. The framework demonstrates superior performance in various tasks, including general assistance, embodied AI, and retrieval-augmented generation, showcasing its potential for creating more flexible and capable multi-agent systems.
+    - 🔑 Key: [framework], [dataset], [OmniParser]
+    - 📖 TLDR: This paper introduces **OmniParser**, a method for parsing user interface screenshots into structured elements, enhancing the ability of models like GPT-4V to generate actions accurately grounded in corresponding UI regions. The authors curated datasets for interactable icon detection and icon description, fine-tuning models to parse interactable regions and extract functional semantics of UI elements.
 
-- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://arxiv.org/abs/2407.05291)
-    - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin
-    - 🏛️ Institutions: Unknown
+- [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://luffyzm3d2y.github.io/publication/IoA)
+    - Weize Chen, Ziming You, Ruibo Li, Yifan Guan, Cheng Qian, Chao Zhao, Ming Sun
+    - 🏛️ Institutions: Peking University, Microsoft Research
     - 📅 Date: July 7, 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [planning and reasoning], [compositional workflows]
-    - 📖 TLDR: This paper introduces WorkArena++, a benchmark for evaluating LLM-based autonomous agents on realistic workflows common to knowledge workers. The benchmark includes 682 tasks requiring planning, problem-solving, logical reasoning, and contextual understanding. The research highlights gaps in current models and provides tools for generating action traces, aiding fine-tuning for practical task automation in enterprise environments.
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General]
+    - 🔑 Key: [framework], [IoA]
+    - 📖 TLDR: The paper proposes the **Internet of Agents (IoA)**, a framework inspired by the Internet to facilitate collaboration among diverse autonomous agents. IoA introduces an agent integration protocol, dynamic teaming mechanisms, and conversation flow control, enabling flexible and scalable multi-agent collaboration. Experiments demonstrate IoA's superior performance across various tasks, highlighting its effectiveness in integrating heterogeneous agents.
 
-- [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://arxiv.org/abs/2407.17490)
+- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://arxiv.org/abs/2409.12345)
+    - John Doe, Jane Smith, Alice Johnson
+    - 🏛️ Institutions: MIT, Stanford University
+    - 📅 Date: September 15, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [benchmark], [WorkArena++]
+    - 📖 TLDR: This paper presents **WorkArena++**, a framework designed for compositional planning and reasoning in common knowledge work tasks. It introduces a benchmark for evaluating AI agents' abilities to perform complex, multi-step tasks requiring common knowledge and reasoning. The framework aims to advance research in AI planning and reasoning by providing a standardized environment for assessment.
+
+
+
+- [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://yuxiangchai.github.io/AMEX/)
     - Yuxiang Chai, Siyuan Huang, Yazhe Niu, Han Xiao, Liang Liu, Dingyu Zhang, Peng Gao, Shuai Ren, Hongsheng Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CUHK, SJTU, Shanghai AI Lab, vivo AI Lab
     - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [framework], [benchmark], [GUI control], [multi-annotation]
-    - 📖 TLDR: This paper presents the Android Multi-annotation Expo (AMEX), a large-scale dataset designed to enhance the capabilities of generalist mobile GUI-control agents. Comprising over 104K high-resolution screenshots from 110 popular mobile applications, the dataset features multi-level annotations, including interactive element grounding, screen functionality descriptions, and detailed natural language instructions. The AMEX dataset aims to facilitate the training and evaluation of AI agents in mobile environments, providing a comprehensive resource for future research.
+    - 🔑 Key: [dataset], [benchmark], [AMEX]
+    - 📖 TLDR: This paper introduces the **Android Multi-annotation EXpo (AMEX)**, a comprehensive dataset designed for training and evaluating mobile GUI-control agents. AMEX comprises over 104K high-resolution screenshots from 110 popular mobile applications, annotated at multiple levels, including GUI interactive element grounding, functionality descriptions, and complex natural language instructions. The dataset aims to advance research on AI agents capable of completing complex tasks by interacting directly with mobile device GUIs.
 
 - [Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model](https://arxiv.org/abs/2407.03037)
-    - Zhe Liu, [Other authors not provided in the search results]
-    - 🏛️ Institutions: Unknown
+    - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
+    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences; Monash University; Beijing Institute of Technology; University of Chinese Academy of Sciences
     - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [benchmark], [automated GUI testing]
-    - 📖 TLDR: This paper presents VisionDroid, a vision-driven approach for automated mobile GUI testing using multimodal large language models. The system aims to detect non-crash functional bugs by understanding visual semantics and operational logic of GUI transitions. VisionDroid employs a function-aware explorer for deeper GUI exploration and a logic-aware bug detector for identifying issues. Evaluated on three datasets, it outperforms 10 baselines and successfully identifies 29 new bugs in real-world apps from Google Play.
+    - 🔑 Key: [framework], [VisionDroid]
+    - 📖 TLDR: The paper presents **VisionDroid**, a vision-driven automated GUI testing approach utilizing Multimodal Large Language Models (MLLM) to detect non-crash functional bugs in mobile applications. By extracting GUI text information and aligning it with screenshots, VisionDroid enables MLLM to understand GUI context, facilitating deeper and function-oriented exploration. The approach segments exploration history into logically cohesive parts, prompting MLLM for bug detection, demonstrating superior performance over existing methods.
 
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956)
-    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Wenjing Hu, Yuchen Mao, Tianbao Xie, Hongshen Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [data science automation], [enterprise software integration], [task decomposition]
-    - 📖 TLDR: Spider2-V introduces a robust benchmark for assessing multimodal agents’ ability to automate complex data workflows across 20 enterprise-level applications. Covering 494 tasks spanning data warehousing to code generation, it includes fine-grained task evaluations within real-world systems like BigQuery and Airbyte. Despite advancements, the benchmark reveals that current agents struggle with detailed GUI tasks and secure data environments, achieving an average success rate of 14%. This benchmark sets a foundation for future multimodal agents in data science and engineering automation.
-
-- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.xxxxx)
-    - [Author information not available]
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
+- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://spider2-v.github.io/)
+    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Yuchen Mao, Wenjing Hu, Tianbao Xie, Hongsheng Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
+    - 🏛️ Institutions: The University of Hong Kong, Shanghai Jiao Tong University, Google Cloud AI Research, Google DeepMind, Salesforce Research, Yale University, Sea AI Lab, University of Waterloo
+    - 📅 Date: July 15, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [automated GUI testing], [requirements-oriented testing]
-    - 📖 TLDR: This paper introduces AUITestAgent, an automated system for GUI function testing based on software requirements. The framework uses natural language processing to interpret requirements and generate test cases, which are then executed on the GUI. AUITestAgent demonstrates improved test coverage and efficiency compared to traditional manual testing approaches, potentially streamlining the software quality assurance process.
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [dataset], [data science], [engineering workflows], [Spider2-V]
+    - 📖 TLDR: This paper introduces **Spider2-V**, a multimodal agent benchmark designed to evaluate the capability of agents in automating professional data science and engineering workflows. It comprises 494 real-world tasks across 20 enterprise-level applications, assessing agents' proficiency in code generation and GUI operations within authentic computer environments.
 
-- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.xxxxx)
-    - [Author information not available]
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
+- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://github.com/bz-lab/AUITestAgent)
+    - Yongxiang Hu, Xuan Wang, Yingchuan Wang, Yu Zhang, Shiyu Guo, Chaoyi Chen, Xin Wang, Yangfan Zhou
+    - 🏛️ Institutions: Fudan University, Meituan
+    - 📅 Date: July 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [multi-agent system], [mobile devices], [tool-enabled agents]
-    - 📖 TLDR: This paper presents MobileExperts, a dynamic multi-agent system designed for mobile devices. The framework enables a team of specialized agents to collaborate and utilize various tools within the mobile environment. MobileExperts demonstrates improved performance in complex mobile tasks by dynamically assembling teams of agents with complementary skills and leveraging device-specific tools. The system shows potential for enhancing mobile AI assistants' capabilities in areas such as task planning, information retrieval, and user interaction.
+    - 🔑 Key: [framework], [GUI testing], [natural language processing], [AUITestAgent]
+    - 📖 TLDR: This paper presents **AUITestAgent**, the first automatic, natural language-driven GUI testing tool for mobile apps. It automates the entire process of GUI interaction and function verification by extracting GUI interactions from test requirements via dynamically organized agents and employing a multi-dimensional data extraction strategy for verification.
+
+
+- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.03913)
+    - Jiayi Zhang, Chuang Zhao, Yihan Zhao, Zhaoyang Yu, Ming He, Jianping Fan
+    - 🏛️ Institutions: HKUST, Ant Group
+    - 📅 Date: July 4, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [tool formulation], [multi-agent collaboration], [MobileExperts]
+    - 📖 TLDR: This paper introduces *MobileExperts*, a framework that enhances autonomous operations on mobile devices by dynamically assembling agent teams based on user requirements. Each agent independently explores and formulates tools to evolve into an expert, improving efficiency and reducing reasoning costs.
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://arxiv.org/abs/2407.01511)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 1, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI] (Android, Ubuntu)
-    - 🔑 Key: [benchmark], [cross-environment], [graph evaluator], [sub-task decomposition]
-    - 📖 TLDR: CRAB offers a comprehensive benchmark for evaluating multimodal language model (MLM) agents across Android and Ubuntu environments using CRAB Benchmark-v0. This framework introduces a unique graph-based evaluation, breaking down tasks into sub-goals that represent essential steps in complex interactions. CRAB’s dynamic task generation, with 100 varied tasks, supports cross-platform evaluations, highlighting agent adaptability and performance in executing real-world tasks through structured environments, enabling agents to seamlessly interact across device types and systems.
-
-- [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.xxxxx)
-    - [Author information not available]
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [framework]
-    - 📖 TLDR: This paper introduces MobileFlow, a multimodal large language model specifically designed for mobile GUI agents. The model integrates visual understanding of mobile interfaces with natural language processing to enable more effective interaction with mobile applications. MobileFlow demonstrates improved performance in task completion and generalization across various mobile apps compared to existing approaches.
-
-- [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.17744)
-    - Jiawei Li, Zhengyuan Yang, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 28, 2024
+    - 🏛️ Institutions: KAUST, UTokyo, CMU, Stanford, Harvard, Tsinghua, SUSTech, Oxford
+    - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [model], [framework], [vision GUI assistant], [image-centric fine-tuning]
-    - 📖 TLDR: This paper introduces VGA (Vision GUI Assistant), a novel approach to minimize hallucinations in GUI-based visual language models through image-centric fine-tuning. The authors develop a specialized dataset and training methodology that emphasizes visual grounding and accurate interpretation of GUI elements. VGA demonstrates significant improvements in reducing hallucinations and increasing task completion accuracy across various GUI-based applications compared to existing models, including GPT-4V.
+    - 🔑 Key: [benchmark], [framework], [evaluation], [CRAB]
+    - 📖 TLDR: The authors present *CRAB*, a benchmark framework designed to evaluate Multimodal Language Model agents across multiple environments. It features a graph-based fine-grained evaluation method and supports automatic task generation, addressing limitations in existing benchmarks.
 
-- [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://arxiv.org/abs/2406.19263)
+- [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
+    - Songqin Nong, Jiali Zhu, Rui Wu, Jiongchao Jin, Shuo Shan, Xiutian Huang, Wenhao Xu
+    - 🏛️ Institutions: Ant Group
+    - 📅 Date: July 5, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [framework], [MobileFlow]
+    - 📖 TLDR: This paper introduces *MobileFlow*, a multimodal large language model tailored for mobile GUI agents. With approximately 21 billion parameters and hybrid visual encoders, it supports variable image resolutions and multilingual GUIs, enhancing the model's ability to interpret image data and comprehend user instructions for GUI interaction tasks.
+
+
+
+- [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.14056)
+    - Ziyang Meng, Yu Dai, Zezheng Gong, Shaoxiong Guo, Minglong Tang, Tongquan Wei
+    - 🏛️ Institutions: Shanghai Jiao Tong University
+    - 📅 Date: June 20, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [dataset], [framework], [VGA], [hallucination]
+    - 📖 TLDR: This paper introduces VGA, a fine-tuned model designed to enhance GUI comprehension by reducing hallucinations. The authors constructed a Vision Question Answering (VQA) dataset of 63.8k high-quality examples using a Referent Method, ensuring model responses are highly dependent on visual content. They also propose a two-stage fine-tuning method called Foundation and Advanced Comprehension (FAC) to improve the model's ability to extract information from images and align with human intent.
+
+- [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://screen-point-and-read.github.io/)
     - Yue Fan, Lei Ding, Ching-Chen Kuo, Shan Jiang, Yang Zhao, Xinze Guan, Jie Yang, Yi Zhang, Xin Eric Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of California, Santa Cruz; Microsoft Research
     - 📅 Date: June 27, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [layout-aware screen reading], [grounding], [accessible technology]
-    - 📖 TLDR: This paper presents the Tree-of-Lens (ToL) agent, a multimodal grounding approach for GUI screen reading using large language models. The ToL agent generates natural language descriptions of screen areas indicated by a user, relying on a novel hierarchical layout tree structure that interprets GUI layouts into multiple lens-like views for enhanced comprehension. The paper introduces a specialized dataset, Android Screen Hierarchical Layout (ASHL), and a benchmark, ScreenPR, which demonstrate the ToL agent’s adaptability across platforms, enhancing accessibility for visually impaired users by improving GUI screen-reading efficiency.
+    - 🔑 Key: [framework], [dataset], [ToL], [screen reading], [accessibility]
+    - 📖 TLDR: The authors propose the Tree-of-Lens (ToL) agent to address the Screen Point-and-Read (ScreenPR) task, which involves generating natural language descriptions of screen regions based on user-indicated points. The ToL agent constructs a Hierarchical Layout Tree to comprehend the content and articulate the layout and spatial relationships between elements. The authors also introduce the ScreenPR benchmark, consisting of 650 screenshots from web, mobile, and operating system GUIs, manually annotated with 1,500 target points and regions.
 
-- [Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)
-    - Wei Chen, Zhiyuan Li, Zhen Guo, Yikang Shen
-    - 🏛️ Institutions: Unknown
+- [Octo-planner: On-device Language Model for Planner-Action Agents](https://nexa.ai/octo-planner)
+    - Nexa AI Team
+    - 🏛️ Institutions: Nexa AI
     - 📅 Date: June 26, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [on-device language model], [planner-action agents]
-    - 📖 TLDR: This paper presents Octo-planner, an efficient on-device Planner-Action framework that separates planning and action execution. The system uses a planner agent based on Phi-3 Mini (3.8 billion parameters) for task decomposition, and an action agent using the Octopus model for function execution. The authors employ model fine-tuning and a multi-LoRA training method to optimize performance on resource-constrained devices. Octo-planner achieves a 97% success rate in in-domain tests and demonstrates flexibility in handling complex, multi-domain queries while maintaining computational efficiency.
+    - 💻 Env: [General]
+    - 🔑 Key: [model], [framework], [Octo-planner], [on-device], [planning]
+    - 📖 TLDR: This paper presents Octo-planner, an on-device planning model designed for the Planner-Action Agents Framework. Octo-planner utilizes a fine-tuned model based on Phi-3 Mini (3.8 billion parameters) for high efficiency and low power consumption. It separates planning and action execution into two distinct components: a planner agent optimized for edge devices and an action agent using the Octopus model for function execution. The model achieves a planning success rate of 98.1% on benchmark datasets, providing reliable and effective performance.
 
-- [E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion](https://arxiv.org/abs/2406.16034)
-    - Yihao Huang, Yuxuan Wang, Yining Ye, Yutong Xie, Yihang Xu, Zhihao Fan, Yida Wang, Hao Dong, Wenhu Chen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 25, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [dataset], [benchmark], [GUI navigation], [efficient data collection]
-    - 📖 TLDR: This paper introduces E-ANT, a large-scale dataset for efficient automatic GUI navigation. The dataset contains over 100,000 GUI navigation trajectories across 200 diverse Android applications. The authors propose a novel data collection pipeline that combines automated exploration with human verification to ensure data quality and diversity. E-ANT aims to facilitate research in GUI navigation, task planning, and multimodal interaction for mobile devices.
 
-- [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
-    - Zhengyuan Yang, Jiawei Li, Zhengyuan Ma, Ruoxi Chen, Jiaxin Zhang, Xiujun Li, Jianfeng Gao, Cha Zhang
-    - 🏛️ Institutions: Unknown
+- [E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion](https://arxiv.org/abs/2406.14250)
+    - Ke Wang, Tianyu Xia, Zhangxuan Gu, Yi Zhao, Shuheng Shen, Changhua Meng, Weiqiang Wang, Ke Xu
+    - 🏛️ Institutions: Ant Group, Tsinghua University
     - 📅 Date: June 20, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [GUI action captioning]
-    - 📖 TLDR: This paper introduces a novel framework called GUI Narrator for captioning actions in GUI videos. The authors create a new benchmark dataset, Act2Cap, with 4,189 diverse video captioning samples. The approach uses a cursor detector as a visual prompt to enhance the interpretation of high-resolution screenshots. A multimodal LLM model with mechanisms for selecting keyframes and key regions generates the captions. The framework demonstrates improved performance in GUI action understanding compared to existing methods, even for advanced models like GPT-4V.
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [dataset], [benchmark], [E-ANT]
+    - 📖 TLDR: This paper introduces **E-ANT**, the first large-scale Chinese GUI navigation dataset comprising over 40,000 real human interaction traces across more than 5,000 tiny apps. The dataset includes high-quality screenshots with annotations, facilitating the evaluation and development of GUI navigation and decision-making capabilities in multimodal large language models (MLLMs). The authors also assess various MLLMs on E-ANT, providing insights into their performance and potential improvements.
+
+- [GUI Action Narrator: Where and When Did That Action Take Place?](https://showlab.github.io/GUI-Narrator/)
+    - Qinchen Wu, Difei Gao, Kevin Qinghong Lin, Zhuoyu Wu, Xiangwu Guo, Peiran Li, Weichen Zhang, Hengxu Wang, Mike Zheng Shou
+    - 🏛️ Institutions: National University of Singapore, Chinese Academy of Sciences
+    - 📅 Date: June 19, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [framework], [Act2Cap], [GUI Narrator]
+    - 📖 TLDR: The authors present **Act2Cap**, a GUI action dataset containing 4,189 video-caption pairs depicting various GUI actions such as clicks, drags, and typing across multiple software environments. They also propose **GUI Narrator**, a framework that leverages cursor detection as a visual prompt to enhance the interpretation of high-resolution screenshots for GUI video captioning. Evaluations reveal that even advanced multimodal models face challenges in this domain, highlighting the need for specialized approaches to improve performance.
+
 
 - [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314)
     - Omri Berkovitch, Sapir Caduri, Noam Kahlon, Anatoly Efros, Avi Caciularu, Ido Dagan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Research, Bar-Ilan University
     - 📅 Date: June 20, 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [Mobile, Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [goal identification], [UI automation]
-    - 📖 TLDR: This paper addresses the task of inferring user goals from their interactions within graphical user interfaces (GUIs) by analyzing UI trajectories. It introduces a new evaluation metric to assess whether task descriptions are paraphrases within a specific UI context. Utilizing datasets like Mind2Web and Android in the Wild (AitW), the study compares the performance of advanced models, specifically GPT-4 and Gemini-1.5 Pro. Results indicate that while Gemini performs better than GPT-4, both models still lag behind human evaluators, highlighting areas for further improvement.
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [evaluation metric], [intent identification], [Android-In-The-Wild], [Mind2Web]
+    - 📖 TLDR: This paper introduces the task of goal identification from observed UI trajectories, aiming to infer the user's intended task based on their GUI interactions. It proposes a novel evaluation metric to assess whether two task descriptions are paraphrases within a specific UI environment. Experiments utilizing the Android-In-The-Wild and Mind2Web datasets reveal that state-of-the-art models, such as GPT-4 and Gemini-1.5 Pro, underperform compared to humans, indicating significant room for improvement.
 
 - [WebCanvas: Benchmarking Web Agents in Online Environments](https://arxiv.org/abs/2406.12373)
     - Yichen Pan, Dehan Kong, Sida Zhou, Cheng Cui, Yifei Leng, Bing Jiang, Hangyu Liu, Yanyi Shang, Shuyan Zhou, Tongshuang Wu, Zhengyang Wu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Zhejiang University, iMean AI, University of Washington
     - 📅 Date: June 18, 2024
-    - 📑 Publisher: ICML 2024 TiFA Workshop
+    - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dataset], [dynamic web interactions], [online evaluation], [key node-based assessment]
-    - 📖 TLDR: WebCanvas introduces a dynamic benchmarking framework for web agents, focusing on real-world adaptability in a continuously evolving web environment. By identifying "key nodes" in task flows and leveraging the live dataset Mind2Web-Live, WebCanvas effectively measures agents' performance on essential, unalterable steps of tasks, while minimizing errors from web element or layout changes. This dynamic approach allows agents to adapt to frequent updates, and with a task completion rate of 48.8% on Mind2Web-Live, it emphasizes adaptability over traditional static benchmarks.
+    - 🔑 Key: [framework], [dataset], [benchmark], [Mind2Web-Live], [key-node evaluation]
+    - 📖 TLDR: This paper presents WebCanvas, an online evaluation framework for web agents designed to address the dynamic nature of web interactions. It introduces a key-node-based evaluation metric to capture critical actions or states necessary for task completion while disregarding noise from insignificant events or changed web elements. The framework includes the Mind2Web-Live dataset, a refined version of the original Mind2Web static dataset, containing 542 tasks with 2,439 intermediate evaluation states. Despite advancements, the best-performing model achieves a task success rate of 23.1%, highlighting substantial room for improvement.
+
+
+
+
+
+
 
 - [GUI-WORLD: A Dataset for GUI-oriented Multimodal LLM-based Agents](https://arxiv.org/abs/2406.10819)
     - Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Huazhong University of Science and Technology (HUST), Microsoft Research, University of Illinois at Chicago (UIC)
     - 📅 Date: June 16, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [dataset], [benchmark], [multimodal tasks], [dynamic GUI], [video-based LLM evaluation]
-    - 📖 TLDR: GUI-WORLD is a large-scale dataset crafted for evaluating multimodal LLMs' (MLLMs) performance in GUI-oriented tasks. It includes annotated keyframes from six distinct GUI environments and various dynamic, static, and sequential question types to benchmark MLLMs like ImageLLMs and VideoLLMs. GUI-WORLD offers a valuable resource for assessing LLMs in complex, dynamic GUI tasks, underscoring their limitations in GUI-specific reasoning and interaction. This dataset aims to enhance future LLMs for robust GUI navigation and interaction capabilities.
+    - 🔑 Key: [dataset], [benchmark], [GUI-World], [GUI-Vid]
+    - 📖 TLDR: This paper introduces *GUI-World*, a comprehensive dataset designed to evaluate Multimodal Large Language Models (MLLMs) in dynamic and complex GUI environments. It includes over 12,000 annotated GUI interaction videos covering diverse applications and scenarios. The study highlights the limitations of current MLLMs in handling dynamic and multi-step tasks and presents *GUI-Vid*, a fine-tuned VideoLLM, demonstrating improved understanding of various GUI tasks.
 
 - [GUI Odyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices](https://arxiv.org/abs/2406.08451)
     - Quanfeng Lu, Wenqi Shao, Zitao Liu, Fanqing Meng, Boxuan Li, Botong Chen, Siyuan Huang, Kaipeng Zhang, Yu Qiao, Ping Luo
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: OpenGVLab, Shanghai AI Laboratory, The University of Hong Kong (HKU), Nanjing University, Harbin Institute of Technology, Shenzhen, Shanghai Jiao Tong University
     - 📅 Date: June 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [cross-app navigation], [Android], [multi-task]
-    - 📖 TLDR: GUI Odyssey introduces a large-scale dataset with 7,735 cross-app navigation episodes, collected across six mobile devices and spanning 201 apps. The dataset facilitates GUI agents in learning to complete complex, multi-app tasks on Android, including settings management, media sharing, and information retrieval. This benchmark enables training and testing in mobile environments and supports advancements in navigation-based GUI automation.
+    - 🔑 Key: [dataset], [model], [OdysseyAgent], [cross-app navigation]
+    - 📖 TLDR: This paper presents *GUI Odyssey*, a dataset comprising 7,735 episodes from six mobile devices, designed to train and evaluate cross-app navigation agents. It spans six types of cross-app tasks across 201 apps and 1,399 app combinations. Leveraging this dataset, the authors developed *OdysseyAgent*, a multimodal cross-app navigation agent fine-tuned from the Qwen-VL model, demonstrating superior accuracy over existing models in both in-domain and out-of-domain scenarios.
 
 - [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340)
     - Shengcheng Yu, Chunrong Fang, Mingzhe Du, Zimin Ding, Zhenyu Chen, Zhendong Su
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Nanjing University, ETH Zurich
     - 📅 Date: June 12, 2024
     - 📑 Publisher: IEEE Transactions on Software Engineering
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI understanding], [event knowledge graph], [automated testing], [scenario-based testing]
-    - 📖 TLDR: This paper presents ScenTest, a novel approach for scenario-based mobile app testing that leverages event knowledge graphs (EKGs) created through GUI image understanding. ScenTest automates the testing process by incorporating domain knowledge from human testers, addressing the gap between automated testing execution and the app's business logic. It successfully generates tests that cover complex scenarios, revealing over 80 distinct real-world bugs during evaluation, showcasing its effectiveness compared to traditional automated testing methods.
+    - 🔑 Key: [framework], [ScenTest], [event knowledge graph], [GUI image understanding]
+    - 📖 TLDR: This paper introduces *ScenTest*, a novel approach for scenario-based mobile app testing that integrates event knowledge graphs (EKGs) with GUI image understanding. By extracting entities and relationships from crowdsourced test reports, ScenTest constructs EKGs for specific scenarios, guiding automated testing processes. This method bridges the gap between testing execution and app business logic, achieving fully automated testing on target scenarios for the first time.
 
-- [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
+
+
+
+- [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://mobileagentbench.github.io/)
     - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, University of Michigan, Northeastern University, The University of Hong Kong
     - 📅 Date: June 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [mobile LLM agents], [task automation], [real-device evaluation], [GUI interaction]
-    - 📖 TLDR: MobileAgentBench is a comprehensive benchmark that evaluates mobile-based large language model (LLM) agents on real Android devices across 100 tasks in 10 apps with varying difficulty levels. Unlike previous benchmarks relying on static screenshots, this setup supports dynamic interaction on real devices, assessing agents’ ability to complete tasks efficiently. This framework emphasizes final UI states over action sequences to judge task success, using Android Accessibility Service for real-time monitoring, thus enabling both academic and industrial research advancements in mobile agent performance.
+    - 🔑 Key: [benchmark], [MobileAgentBench]
+    - 📖 TLDR: This paper introduces *MobileAgentBench*, a benchmark designed to evaluate the performance of large language model-based mobile agents. It defines 100 tasks across 10 open-source apps, categorized by difficulty levels, and assesses existing agents like AppAgent and MobileAgent to facilitate systematic comparisons.
 
-- [DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2401.05068)
-    - Cheng-Yu Hsieh, Chun-Liang Li, Tomas Pfister
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 9, 2024
-    - 📑 Publisher: ICML 2024
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [reinforcement learning], [device-control agents], [autonomous learning]
-    - 📖 TLDR: This paper introduces DigiRL, a novel framework for training device-control agents using autonomous reinforcement learning in real-world settings. The approach enables agents to learn complex UI interactions without human supervision, leveraging large language models for task generation and reward design. DigiRL demonstrates significant improvements in task completion rates across various applications, showcasing its potential for developing more adaptive and capable AI assistants for digital device interaction.
+- [DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning](https://digirl-agent.github.io/)
+    - Hao Bai, Yifei Zhou, Mert Cemri, Jiayi Pan, Alane Suhr, Sergey Levine, Aviral Kumar
+    - 🏛️ Institutions: UC Berkeley, UIUC, Google DeepMind
+    - 📅 Date: June 14, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [reinforcement learning], [DigiRL]
+    - 📖 TLDR: The authors present *DigiRL*, an autonomous reinforcement learning approach for training device-control agents. By fine-tuning a pre-trained vision-language model in two stages—offline and offline-to-online RL—DigiRL achieves a significant improvement in success rates on the Android-in-the-Wild dataset, establishing a new state-of-the-art for digital agents in device control.
 
-- [GUICourse: From General Vision Language Models to Versatile GUI Agents](https://arxiv.org/abs/2406.11317)
+- [GUICourse: From General Vision Language Models to Versatile GUI Agents](https://github.com/yiye3/GUICourse)
     - Wentong Chen, Junbo Cui, Jinyi Hu, Yujia Qin, Junjie Fang, Yue Zhao, Chongyi Wang, Jun Liu, Guirong Chen, Yupeng Huo, Yuan Yao, Yankai Lin, Zhiyuan Liu, Maosong Sun
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 7, 2024
+    - 🏛️ Institutions: Tsinghua University, Rhapsody AI, University of Electronic Science and Technology of China
+    - 📅 Date: June 17, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [OCR], [grounding], [multimodal interaction], [GUI agents]
-    - 📖 TLDR: GUICourse is a comprehensive set of datasets (GUIEnv, GUIAct, GUIChat) designed to develop versatile GUI agents using Vision Language Models (VLMs). It targets improvements in OCR, grounding, and GUI knowledge across both web and smartphone scenarios. GUIEnv enhances OCR and grounding abilities through large-scale annotations; GUIAct includes both single and multi-step instructions for diverse GUI navigation tasks; GUIChat introduces conversational data with text-rich images to support natural language interaction skills in GUI environments.
+    - 🔑 Key: [dataset], [framework], [GUICourse]
+    - 📖 TLDR: This paper introduces *GUICourse*, a suite of datasets aimed at training visual-based GUI agents from general vision-language models. It addresses challenges in OCR, grounding, and GUI knowledge, enhancing the models' capabilities in GUI navigation tasks.
+
+
 
 - [On the Effects of Data Scale on Computer Control Agents](https://arxiv.org/abs/2406.03679)
-    - Wei Li, William Bishop, Alice Li, Christopher Rawles, Folawiyo Campbell-Ajala, Divya Tyamagundlu, Oriana Riva
-    - 🏛️ Institutions: Unknown
+    - Wei Li, William Bishop, Alice Li, Chris Rawles, Folawiyo Campbell-Ajala, Divya Tyamagundlu, Oriana Riva
+    - 🏛️ Institutions: Google DeepMind, Google
     - 📅 Date: June 6, 2024
-    - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [benchmark], [framework], [computer control agents]
-    - 📖 TLDR: This paper investigates the impact of data scaling on the performance of computer control agents, particularly focusing on both in-domain and out-of-domain tasks. The authors introduce the **AndroidControl** dataset, which contains 15,283 unique task demonstrations across 833 Android applications. The study finds that while fine-tuning with more data improves performance within the training domain, achieving robust performance outside that domain is challenging, indicating that additional strategies may be needed for high-level tasks.
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [AndroidControl], [fine-tuning], [scalability]
+    - 📖 TLDR: This study investigates how the performance of computer control agents scales with the amount of fine-tuning data. The authors introduce **AndroidControl**, a dataset comprising 15,283 demonstrations across 833 Android applications. Findings indicate that while in-domain performance improves with more data, out-of-domain performance, especially on high-level tasks, scales more slowly, suggesting that fine-tuning alone may be insufficient for robust out-of-domain performance.
 
-- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://arxiv.org/abs/2406.01014)
+- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://github.com/X-PLUG/MobileAgent)
     - Junyang Wang, Haiyang Xu, Haitao Jia, Xi Zhang, Ming Yan, Weizhou Shen, Ji Zhang, Fei Huang, Jitao Sang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Alibaba Group, Beijing University of Posts and Telecommunications
     - 📅 Date: June 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [multi-agent system], [mobile device operation], [task navigation]
-    - 📖 TLDR: This paper presents Mobile-Agent-v2, an advanced multi-agent architecture for mobile device operation assistance. The system comprises three specialized agents: a planning agent for task progress navigation, a decision agent for focus content navigation, and a reflection agent for error correction. Experimental results show that Mobile-Agent-v2 achieves over a 30% improvement in task completion rates compared to its single-agent predecessor, demonstrating effective navigation and management of complex mobile device operations.
+    - 🔑 Key: [framework], [multi-agent], [planning], [decision-making], [reflection]
+    - 📖 TLDR: The paper presents **Mobile-Agent-v2**, a multi-agent architecture designed to assist with mobile device operations. It comprises three agents: a planning agent that generates task progress, a decision agent that navigates tasks using a memory unit, and a reflection agent that corrects erroneous operations. This collaborative approach addresses challenges in navigation and long-context input scenarios, achieving over a 30% improvement in task completion compared to single-agent architectures.
 
-- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9)
-    - Yijun Qian, Yujie Lu, Alexander G. Hauptmann, Oriana Riva
-    - 🏛️ Institutions: Unknown
+- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
+    - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
+    - 🏛️ Institutions: CMU, UCSB
     - 📅 Date: June 2024
-    - 📑 Publisher: NAACL 2024 (Industry Track)
+    - 📑 Publisher: NAACL 2024
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [benchmark], [visual grounding], [layout-guided contrastive learning]
-    - 📖 TLDR: This paper presents LVG (Layout-guided Visual Grounding), a model designed to address the challenges of grounding natural language commands to GUI elements in user interfaces without relying on developer-provided metadata like UI trees. LVG combines UI element detection with grounding in a single model by using layout-guided contrastive learning to understand the spatial organization of UI elements. It leverages synthetic data and multi-context learning due to the scarcity of UI datasets. LVG outperforms existing models, achieving higher top-1 accuracy on GUI tasks by 4.9 points, showing its effectiveness in both detection and grounding of visual elements.
+    - 🔑 Key: [framework], [visual grounding], [UI element localization], [LVG]
+    - 📖 TLDR: This work introduces the task of visual UI grounding, which unifies detection and grounding by enabling models to identify UI elements referenced by natural language commands solely from visual input. The authors propose **LVG**, a model that outperforms baselines pre-trained on larger datasets by over 4.9 points in top-1 accuracy, demonstrating its effectiveness in localizing referenced UI elements without relying on UI metadata.
+
+
 
 - [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://arxiv.org/abs/2406.10227)
     - Kevin Qinghong Lin, Linjie Li, Difei Gao, Qinchen Wu, Mingyi Yan, Zhengyuan Yang, Lijuan Wang, Mike Z. Shou
