@@ -583,14 +583,15 @@
     - 🔑 Key: [framework], [graph of language models], [multi-model integration], [functional tokens]
     - 📖 TLDR: Octopus v4 introduces a novel approach to integrating multiple open-source language models, each optimized for specific tasks, using a graph structure. The paper presents a method for coordinating these models using functional tokens, enabling more efficient and flexible task execution. This approach allows for the combination of specialized models to tackle complex tasks while maintaining the efficiency needed for on-device deployment. Octopus v4 demonstrates improved performance and versatility compared to single-model approaches, particularly in handling diverse and multi-step tasks.
 
-- [Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/abs/2404.08290)
+- [Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/abs/2404.11459)
     - Wei Chen, Zhiyuan Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: April 16, 2024
+    - 🏛️ Institutions: Stanford University
+    - 📅 Date: April 17, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [framework], [multimodal agent], [on-device AI], [sub-billion parameters]
-    - 📖 TLDR: Octopus v3 extends the Octopus series to multimodal capabilities, introducing a sub-billion parameter model designed for on-device AI agents. The paper presents a novel approach to integrating vision and language understanding within a compact model, enabling efficient processing of both text and images on edge devices. Octopus v3 demonstrates competitive performance against larger models while maintaining low latency and resource requirements, making it suitable for deployment on devices as constrained as a Raspberry Pi.
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [multimodal], [functional token], [on-device AI], [Octopus v3]
+    - 📖 TLDR: This paper introduces Octopus v3, a compact multimodal AI agent with less than 1 billion parameters, designed for efficient on-device operation. It processes both English and Chinese inputs, integrating visual and textual data to perform tasks such as sending emails, messaging, and online shopping. The model employs a functional token approach to translate image-based data into actionable outcomes, demonstrating high accuracy and efficiency on edge devices, including Raspberry Pi.
+
 
 - [Search Beyond Queries: Training Smaller Language Models for Web Interactions via Reinforcement Learning](https://arxiv.org/abs/2404.10887)
     - Moghis Fereidouni, A.B. Siddique
