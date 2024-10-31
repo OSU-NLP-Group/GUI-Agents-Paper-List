@@ -1,3 +1,13 @@
+- [SteP: Stacked LLM Policies for Web Actions](https://asappresearch.github.io/webagents-step/)
+  - Paloma Sodhi, S.R.K. Branavan, Yoav Artzi, Ryan McDonald
+  - 🏛️ Institutions: ASAPP Research, Cornell University
+  - 📅 Date: October 5, 2023
+  - 📑 Publisher: arXiv
+  - 💻 Env: [Web]
+  - 🔑 Key: [framework], [policy composition], [dynamic control], [SteP]
+  - 📖 TLDR: This paper introduces **SteP (Stacked LLM Policies)**, a framework that dynamically composes policies to tackle diverse web tasks. By defining a Markov Decision Process where the state is a stack of policies, SteP enables adaptive control that adjusts to task complexity. Evaluations on WebArena, MiniWoB++, and a CRM simulator demonstrate that SteP significantly outperforms existing methods, achieving a success rate improvement from 14.9% to 35.8% over state-of-the-art GPT-4 policies.
+
+
 - [EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data](https://doi.org/10.48550/arXiv.2410.19461)
     - Xuetian Chen, Hangcheng Li, Jiaqing Liang, Sihang Jiang, Deqing Yang
     - 🏛️ Institutions: Fudan University
