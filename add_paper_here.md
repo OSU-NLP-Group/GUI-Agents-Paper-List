@@ -1,3 +1,14 @@
+- [Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://openreview.net/forum?id=FHtHH4ulEQ)
+    - Yiheng Xu, Zekun Wang, Junli Wang, Dunjie Lu, Tianbao Xie, Amrita Saha, Doyen Sahoo, Tao Yu, Caiming Xiong
+    - 🏛️ Institutions: HKU, Salesforce Research, National University of Singapore
+    - 📅 Date: September 26, 2024
+    - 📑 Publisher: ICLR 2025 OpenReview
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [Aguvis], [vision-only]
+    - 📖 TLDR: This paper introduces **Aguvis**, a unified pure vision-based framework for autonomous GUI agents that operate across various platforms. Aguvis leverages image-based observations and grounds natural language instructions to visual elements, employing a consistent action space to ensure cross-platform generalization. The framework integrates explicit planning and reasoning, enhancing the agent's ability to autonomously navigate and interact with complex digital environments. A large-scale dataset of GUI agent trajectories is constructed, incorporating multimodal reasoning and grounding. A two-stage training pipeline is employed, focusing first on general GUI grounding, followed by planning and reasoning. Comprehensive experiments demonstrate that Aguvis surpasses previous state-of-the-art methods in both offline and real-world online scenarios, achieving, to the authors' knowledge, the first fully autonomous pure vision GUI agent capable of performing tasks independently without collaboration with external closed-source models.
+
+
+
 - [AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents](https://arxiv.org/abs/2410.24024)
     - Yifan Xu, Xiao Liu, Xueqiao Sun, Siyi Cheng, Hao Yu, Hanyu Lai, Shudan Zhang, Dan Zhang, Jie Tang, Yuxiao Dong
     - 🏛️ Institutions: Tsinghua University, Peking University
