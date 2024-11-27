@@ -1,3 +1,12 @@
+- [Improved GUI Grounding via Iterative Narrowing](https://arxiv.org/abs/2411.13591)
+    - Anthony Nguyen
+    - 🏛️ Institutions: Algoma University
+    - 📅 Date: November 18, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [grounding], [iterative narrowing]
+    - 📖 TLDR: This paper introduces a visual framework to enhance GUI grounding. By iteratively refining model predictions through progressively focused image crops, the proposed method improves the performance of both general and fine-tuned Vision-Language Models (VLMs) in GUI grounding tasks.
+
 - [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890)
     - Shuai Wang, Weiwen Liu, Jingxuan Chen, Weinan Gan, Xingshan Zeng, Shuai Yu, Xinlong Hao, Kun Shao, Yasheng Wang, Ruiming Tang
     - 🏛️ Institutions: Huawei Noah’s Ark Lab
