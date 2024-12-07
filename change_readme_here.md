@@ -10,6 +10,11 @@ A variety of papers related to GUI Agents, including but not limited to:
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in the General Domain extensively used by GUI Agents (e.g., SoM prompting)
 
+
+<h3>Updates</h3>
+
+- December 7, 2024: Moved the ownership to OSU-NLP-Group
+
 ## All Papers (from most recent to oldest)
 
 {{insert_content_here}}
