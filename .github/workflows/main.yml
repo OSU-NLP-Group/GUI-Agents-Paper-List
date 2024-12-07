@@ -6,8 +6,8 @@ on:
       - 'add_paper_here.md'         # 监听 add_paper_here.md 文件的更新
       - 'sort_by_date.py'   # 监听 sort_by_date.py 脚本的更新
       - 'change_readme_here.md'   # 监听 sort_by_date.py 脚本的更新
-  schedule:
-    - cron: '0 0 * * *'     # 每天定时运行（0点）
+  # schedule:
+  #   - cron: '0 0 * * *'     # 每天定时运行（0点）
 
 jobs:
   update-readme:
