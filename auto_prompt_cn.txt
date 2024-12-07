@@ -29,6 +29,8 @@ Keywords 通常包含：
 4. 是否有新的benchmark，如果有，加上benchmark（如果明确有训练集，则也加上dataset的keyword），（注意，请认真阅读文章的abstract或者更多内容，理解是否build了新的benchmark，只是使用现有benchmarks则不算）
 5. 论文的主要创新点或者研究重点
 6. 提及的该论文时常用的指代缩写（例如模型名、framework名、数据集名）
+7. 其他可能的常见keywords: safety, learning, synthetic data, memory, planning, reasoning, etc.
+注意：避免web navigation，llm agent，gui agent，multimodal之类的过于笼统的，对于这个paper list无意义的话（因为本来就已经被paper list的关注点，以及env标明了）
 
 
 
@@ -55,6 +57,6 @@ Keywords 通常包含：
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
 
-把所有结果写到一个代码块里。
+put all your results into a code block.
 
-你需要查找的论文标题：
+The papers to search(如果有多个，则一个接一个搜索，并且请认真搜索，不要偷懒)：
