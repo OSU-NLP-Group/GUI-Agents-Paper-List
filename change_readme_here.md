@@ -1,7 +1,5 @@
 # Awesome GUI Agent Paper List (Work-In-Progress)
 
-The current entries have been mostly auto-generated using [GPT](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) or Perplexity AI. This may lead to inaccuracies, particularly with links, author names, dates, or keywords. Contributions for corrections are welcome!
-
 ## Paper Covrage:
 A variety of papers related to GUI Agents, including but not limited to:
 - GUI Understanding
@@ -11,6 +9,26 @@ A variety of papers related to GUI Agents, including but not limited to:
 - New models
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in the General Domain extensively used by GUI Agents (e.g., SoM prompting)
+
+## All Papers (from most recent to oldest)
+
+{{insert_content_here}}
+
+
+## Tutorials, Talks, Blogs
+
+
+## Project & Software
+
+## Related Repositories
+
+- [awesome-llm-powered-agent](https://github.com/hyp1231/awesome-llm-powered-agent)
+- [Awesome-LLM-based-Web-Agent-and-Tools](https://github.com/albzni/Awesome-LLM-based-Web-Agent-and-Tools)
+- [Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent)
+- [computer-control-agent-knowledge-base](https://github.com/James4Ever0/computer_control_agent_knowledge_base)
+- [awesome-ui-agent](https://github.com/boyugou/awesome-ui-agents) (this repository is based on it to some extent)
+
+
 
 ## How to Add a Paper
 
@@ -46,23 +64,7 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
 ## TODO: Add subgroups here (benchmark, datasets, models, learning, safety, framework, etc.
 
 
-## All Papers (from most recent to oldest)
 
-{{insert_content_here}}
-
-
-## Tutorials, Talks, Blogs
-
-
-## Project & Software
-
-## Related Repositories
-
-- [awesome-llm-powered-agent](https://github.com/hyp1231/awesome-llm-powered-agent)
-- [Awesome-LLM-based-Web-Agent-and-Tools](https://github.com/albzni/Awesome-LLM-based-Web-Agent-and-Tools)
-- [Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent)
-- [computer-control-agent-knowledge-base](https://github.com/James4Ever0/computer_control_agent_knowledge_base)
-- [awesome-ui-agent](https://github.com/boyugou/awesome-ui-agents) (this repository is based on it to some extent)
 
 ## Contributors
 
