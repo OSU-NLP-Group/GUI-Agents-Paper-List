@@ -1376,7 +1376,7 @@
     - 📖 TLDR: This paper presents *UIBert*, a multimodal model aimed at understanding user interfaces (UIs) by combining visual, textual, and structural metadata. UIBert is designed for tasks such as component retrieval and expression resolution, using a transformer-based joint image-text model. The authors introduce five novel pre-training tasks to leverage UI-specific features, enhancing accessibility and task completion in mobile applications. UIBert demonstrates superior performance on nine downstream UI tasks, highlighting the potential of multimodal pre-training in UI understanding.
 
 - [AndroidEnv: A Reinforcement Learning Platform for Android](https://arxiv.org/abs/2105.13231)
-    - Daniel Toyama, Archit Sharma, Victoria Lin, Serkan Cabi, Antoine Lauzier, Edgar Duéñez-Guzmán, Pushmeet Kohli
+    - Daniel Toyama, Philippe Hamel, Anita Gergely, Gheorghe Comanici, Amelia Glaese, Zafarali Ahmed, Tyler Jackson, Shibl Mourad, Doina Precup
     - 🏛️ Institutions: Unknown
     - 📅 Date: May 27, 2021
     - 📑 Publisher: arXiv
