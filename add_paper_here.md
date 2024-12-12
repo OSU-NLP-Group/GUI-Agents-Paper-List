@@ -1,3 +1,12 @@
+- [UIClip: A Data-driven Model for Assessing User Interface Design](https://arxiv.org/abs/2404.12500)
+    - Jason Wu, Yi-Hao Peng, Amanda Li, Amanda Swearngin, Jeffrey P. Bigham, Jeffrey Nichols
+    - 🏛️ Institutions: CMU, Apple
+    - 📅 Date: Apr 18, 2024
+    - 📑 Publisher: UIST 2024
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [UIClip], [vision foundation model], [foundation model]
+    - 📖 TLDR: This paper introduces *UIClip*, a machine-learned model that evaluates the design quality and visual relevance of user interfaces by analyzing screenshots and corresponding natural language descriptions. Trained on a large-scale dataset combining automated crawling, synthetic augmentation, and human ratings, UIClip assigns numerical scores representing a UI's relevance and quality, and offers design suggestions. Evaluations show that UIClip's assessments align closely with human designer rankings. The paper also demonstrates UIClip's utility in applications like UI code generation, design tips generation, and quality-aware UI example search.
+
 - [Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://aguvis-project.github.io/)
     - Yiheng Xu, Zekun Wang, Junli Wang, Dunjie Lu, Tianbao Xie, Amrita Saha, Doyen Sahoo, Tao Yu, Caiming Xiong
     - 🏛️ Institutions: HKU, NTU, Salesforce
