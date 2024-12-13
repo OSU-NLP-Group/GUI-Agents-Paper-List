@@ -6,6 +6,7 @@ on:
       - 'update_template_or_data/update_paper_list.md'         # 监听 update_paper_list.md 文件的更新
       - 'scripts/sort_by_date.py'   # 监听 scripts/sort_by_date.py 脚本的更新
       - 'update_template_or_data/update_readme_template.md'   # 监听 scripts/sort_by_date.py 脚本的更新
+      - '.github/workflows/main.yml'
   # schedule:
   #   - cron: '0 0 * * *'     # 每天定时运行（0点）
 
