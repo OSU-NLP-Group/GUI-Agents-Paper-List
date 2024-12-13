@@ -3,9 +3,9 @@ name: Update README with Sorted Papers Content
 on:
   push:
     paths:
-      - 'update_paper_or_readme/update_paper_list.md'         # 监听 update_paper_list.md 文件的更新
+      - 'update_template_or_data/update_paper_list.md'         # 监听 update_paper_list.md 文件的更新
       - 'scripts/sort_by_date.py'   # 监听 scripts/sort_by_date.py 脚本的更新
-      - 'update_paper_or_readme/update_readme_template.md'   # 监听 scripts/sort_by_date.py 脚本的更新
+      - 'update_template_or_data/update_readme_template.md'   # 监听 scripts/sort_by_date.py 脚本的更新
   # schedule:
   #   - cron: '0 0 * * *'     # 每天定时运行（0点）
 
@@ -31,8 +31,8 @@ jobs:
 
       - name: Update temp_readme.md with sorted papers content
         run: |
-          # 读取更新后的 update_paper_or_readme/update_paper_list.md 内容
-          CONTENT=$(cat update_paper_or_readme/update_paper_list.md)
+          # 读取更新后的 update_template_or_data/update_paper_list.md 内容
+          CONTENT=$(cat update_template_or_data/update_paper_list.md)
           
           # 使用 sed 插入 content 到 temp_readme.md 的占位符位置
           sed -i '/{{insert_content_here}}/{
@@ -49,8 +49,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md update_paper_or_readme/update_paper_list.md
-          git commit -m "Update README with sorted content from update_paper_or_readme/update_paper_list.md"
+          git add README.md update_template_or_data/update_paper_list.md
+          git commit -m "Update README with sorted content from update_template_or_data/update_paper_list.md"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
