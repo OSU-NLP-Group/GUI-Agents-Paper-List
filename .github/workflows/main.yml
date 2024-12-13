@@ -38,12 +38,12 @@ jobs:
           sed -i '/{{insert_content_here}}/{
             r /dev/stdin
             d
-          }' update_readme_template.md <<< "$CONTENT"
+          }' update_template_or_data/update_readme_template.md <<< "$CONTENT"
 
       - name: Overwrite README.md with updated temp_readme.md
         run: |
           # 覆盖 README.md
-          cp update_readme_template.md README.md
+          cp update_template_or_data/update_readme_template.md README.md
 
       - name: Commit changes
         run: |
