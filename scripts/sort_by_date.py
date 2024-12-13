@@ -6,7 +6,7 @@ import re
 
 
 # 读取文件内容
-paper_source="update_paper_or_readme/update_paper_list.md"
+paper_source="update_template_or_data/update_paper_list.md"
 with open(paper_source, "r", encoding="utf-8") as file:
     sample_input = file.read()
 
@@ -76,6 +76,6 @@ final_output = "\n".join(sorted_markdown)
 
 print(papers_df)
 
-with open("update_paper_or_readme/update_paper_list.md", "w", encoding="utf-8") as file:
+with open("update_template_or_data/update_paper_list.md", "w", encoding="utf-8") as file:
     file.write(final_output)
 
