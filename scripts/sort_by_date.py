@@ -6,7 +6,8 @@ import re
 
 
 # 读取文件内容
-with open("add_paper_here.md", "r", encoding="utf-8") as file:
+paper_source="update_paper_or_readme/update_paper_list.md"
+with open(paper_source, "r", encoding="utf-8") as file:
     sample_input = file.read()
 
 
