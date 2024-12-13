@@ -72,7 +72,7 @@
 
 - [Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents](https://arxiv.org/abs/2411.06559)
     - Yu Gu, Boyuan Zheng, Boyu Gou, Kai Zhang, Cheng Chang, Sanjari Srivastava, Yanan Xie, Peng Qi, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Orby AI
+    - 🏛️ Institutions: OSU, Orby AI
     - 📅 Date: November 10, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1017,7 +1017,7 @@
 
 - [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476)
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: OSU
     - 📅 Date: February 6, 2024
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Web]
