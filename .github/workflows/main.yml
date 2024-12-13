@@ -53,7 +53,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md update_template_or_data/update_paper_list.md
+          git add README.md update_template_or_data/update_paper_list.md grouped_papers/env_desktop.md grouped_papers/env_general.md grouped_papers/env_gui.md grouped_papers/env_mobile.md grouped_papers/env_web.md 
           git commit -m "Update README with sorted content from update_template_or_data/update_paper_list.md"
           git push
         env:
