@@ -79,3 +79,44 @@ print(papers_df)
 with open("update_template_or_data/update_paper_list.md", "w", encoding="utf-8") as file:
     file.write(final_output)
 
+import os
+
+# 1. 创建子集的文件夹，如果没有的话
+subgroup_dir = "update_template_or_data/tmp"
+if not os.path.exists(subgroup_dir):
+    os.makedirs(subgroup_dir)
+
+# 2. 定义一个映射表，用于不同的env关键字
+env_keywords = {
+    "web": "env_web.md",
+    "desktop": "env_desktop.md",
+    "mobile": "env_mobile.md",
+    "gui": "env_gui.md",
+    "general": "env_general.md"
+}
+
+# 3. 根据env字段进行过滤并生成相应的Markdown文件
+for env_key, file_name in env_keywords.items():
+    filtered_df = papers_df[papers_df['Env'].str.contains(env_key, case=False, na=False)]
+
+    # 4. 生成每个env子集合的Markdown
+    if not filtered_df.empty:
+        sorted_markdown = []
+        for _, row in filtered_df.iterrows():
+            markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
+                             f"    - {row['Authors']}\n" \
+                             f"    - 🏛️ Institutions: {row['Institutions']}\n" \
+                             f"    - 📅 Date: {row['Original Date']}\n" \
+                             f"    - 📑 Publisher: {row['Publisher']}\n" \
+                             f"    - 💻 Env: {row['Env']}\n" \
+                             f"    - 🔑 Key: {row['Keywords']}\n" \
+                             f"    - 📖 TLDR: {row['TLDR']}\n"
+            sorted_markdown.append(markdown_entry)
+
+        # 5. 写入文件
+        final_output = "\n".join(sorted_markdown)
+        file_path = os.path.join(subgroup_dir, file_name)
+        with open(file_path, "w", encoding="utf-8") as file:
+            file.write(final_output)
+        print(f"生成文件：{file_path}")
+
