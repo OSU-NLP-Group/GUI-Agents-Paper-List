@@ -17,7 +17,7 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 
 ## Papers Grouped by Envs
 
-| [Web](grouped_paper/env_web.md) | [Mobile](grouped_paper/env_mobile.md) | [Desktop](grouped_paper/env_desktop.md) | [GUI](grouped_paper/env_gui.md) | [General](grouped_paper/env_general.md) |
+| [Web](grouped_by_env/env_web.md) | [Mobile](grouped_by_env/env_mobile.md) | [Desktop](grouped_by_env/env_desktop.md) | [GUI](grouped_by_env/env_gui.md) | [General](grouped_by_env/env_general.md) |
 |---------|---------------------------------------|-----------------------------------------|---------------------------------|-----------------------------------------|
 
 [//]: # (## Papers Grouped by Keywords)
