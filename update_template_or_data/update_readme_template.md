@@ -15,12 +15,12 @@ A variety of papers related to GUI Agents, including but not limited to:
 
 - December 7, 2024: Moved the ownership to OSU-NLP-Group
 
+
 ## All Papers (from most recent to oldest)
 <details>
-<summary>Papers</summary>
+<summary># Papers</summary>
 
-{{insert_content_here}}
-
+{{insert_all_papers_here}}
 
 </details>
 

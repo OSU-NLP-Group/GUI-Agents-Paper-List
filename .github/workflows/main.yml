@@ -36,7 +36,7 @@ jobs:
           CONTENT=$(cat update_template_or_data/update_paper_list.md)
           
           # 使用 sed 插入 content 到 temp_readme.md 的占位符位置
-          sed -i '/{{insert_content_here}}/{
+          sed -i '/{{insert_all_papers_here}}/{
             r /dev/stdin
             d
           }' update_template_or_data/update_readme_template.md <<< "$CONTENT"
