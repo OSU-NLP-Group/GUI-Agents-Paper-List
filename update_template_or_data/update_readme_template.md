@@ -18,7 +18,7 @@ A variety of papers related to GUI Agents, including but not limited to:
 
 ## All Papers (from most recent to oldest)
 <details>
-<summary># Papers</summary>
+<summary>Papers</summary>
 
 {{insert_all_papers_here}}
 
