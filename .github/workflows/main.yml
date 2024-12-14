@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas
+          pip install pandas matplotlib seaborn wordcloud
 
       - name: Run scripts/sort_by_date.py
         run: |
