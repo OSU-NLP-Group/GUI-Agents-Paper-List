@@ -16,6 +16,15 @@ A variety of papers related to GUI Agents, including but not limited to:
 - December 7, 2024: Moved the ownership to OSU-NLP-Group
 
 
+## Papers Grouped by Envs
+
+| [Web](grouped_paper/env_web.md) | [Mobile](grouped_paper/env_mobile.md) | [Desktop](grouped_paper/env_desktop.md) | [GUI](grouped_paper/env_gui.md) | [General](grouped_paper/env_general.md) |
+|---------|---------------------------------------|-----------------------------------------|---------------------------------|-----------------------------------------|
+
+
+
+
+
 ## All Papers (from most recent to oldest)
 <details>
 <summary>Papers</summary>
