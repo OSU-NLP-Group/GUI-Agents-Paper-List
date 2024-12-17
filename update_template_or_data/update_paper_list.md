@@ -385,14 +385,14 @@
     - 🔑 Key: [safety], [privacy attack], [environmental injection], [stealth attack]
     - 📖 TLDR: This paper introduces the Environmental Injection Attack (EIA), a privacy attack targeting generalist web agents by embedding malicious yet concealed web elements to trick agents into leaking users' PII. Utilizing 177 action steps within realistic web scenarios, EIA demonstrates a high success rate in extracting specific PII and whole user requests. Through its detailed threat model and defense suggestions, the work underscores the challenge of detecting and mitigating privacy risks in autonomous web agents.
 
-- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://arxiv.org/abs/2409.12345)
-    - John Doe, Jane Smith, Alice Johnson
-    - 🏛️ Institutions: MIT, Stanford University
-    - 📅 Date: September 15, 2024
+- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://arxiv.org/abs/2407.05291)
+    - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin
+    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, Université de Montréal
+    - 📅 Date: July 7, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [benchmark], [WorkArena++]
-    - 📖 TLDR: This paper presents **WorkArena++**, a framework designed for compositional planning and reasoning in common knowledge work tasks. It introduces a benchmark for evaluating AI agents' abilities to perform complex, multi-step tasks requiring common knowledge and reasoning. The framework aims to advance research in AI planning and reasoning by providing a standardized environment for assessment.
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [planning], [reasoning], [WorkArena++]
+    - 📖 TLDR: This paper introduces **WorkArena++**, a benchmark comprising 682 tasks that simulate realistic workflows performed by knowledge workers. It evaluates web agents' capabilities in planning, problem-solving, logical/arithmetic reasoning, retrieval, and contextual understanding. The study reveals challenges faced by current large language models and vision-language models in serving as effective workplace assistants, providing a resource to advance autonomous agent development. [oai_citation_attribution:0‡arXiv](https://arxiv.org/abs/2407.05291?utm_source=chatgpt.com)
 
 - [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://microsoft.github.io/WindowsAgentArena/)
     - Rogerio Bonatti, Dan Zhao, Francesco Bonacci, Dillon Dupont, Sara Abdali, Yinheng Li, Yadong Lu, Justin Wagle, Kazuhito Koishida, Arthur Bucker, Lawrence Jang, Zack Hui
@@ -504,7 +504,7 @@
 
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://spider2-v.github.io/)
     - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Yuchen Mao, Wenjing Hu, Tianbao Xie, Hongsheng Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, SJTU, Google Cloud AI Research, Google DeepMind, Salesforce Research, Yale University, Sea AI Lab, University of Waterloo
+    - 🏛️ Institutions: HKU, SJTU, Google Cloud AI Research, Google DeepMind, Salesforce Research, Yale University, Sea AI Lab, University of Waterloo
     - 📅 Date: July 15, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -675,7 +675,7 @@
 
 - [GUI Odyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices](https://arxiv.org/abs/2406.08451)
     - Quanfeng Lu, Wenqi Shao, Zitao Liu, Fanqing Meng, Boxuan Li, Botong Chen, Siyuan Huang, Kaipeng Zhang, Yu Qiao, Ping Luo
-    - 🏛️ Institutions: OpenGVLab, Shanghai AI Laboratory, The University of Hong Kong (HKU), Nanjing University, Harbin Institute of Technology, Shenzhen, SJTU
+    - 🏛️ Institutions: OpenGVLab, Shanghai AI Laboratory, HKU, Nanjing University, Harbin Institute of Technology, Shenzhen, SJTU
     - 📅 Date: June 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -684,7 +684,7 @@
 
 - [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://mobileagentbench.github.io/)
     - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
-    - 🏛️ Institutions: CMU, University of Michigan, Northeastern University, The University of Hong Kong
+    - 🏛️ Institutions: CMU, University of Michigan, Northeastern University, HKU
     - 📅 Date: June 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -700,12 +700,12 @@
     - 🔑 Key: [framework], [ScenTest], [event knowledge graph], [GUI image understanding]
     - 📖 TLDR: This paper introduces *ScenTest*, a novel approach for scenario-based mobile app testing that integrates event knowledge graphs (EKGs) with GUI image understanding. By extracting entities and relationships from crowdsourced test reports, ScenTest constructs EKGs for specific scenarios, guiding automated testing processes. This method bridges the gap between testing execution and app business logic, achieving fully automated testing on target scenarios for the first time.
 
-- [On the Effects of Data Scale on Computer Control Agents](https://arxiv.org/abs/2406.03679)
+- [On the Effects of Data Scale on UI Control Agents](https://arxiv.org/abs/2406.03679)
     - Wei Li, William Bishop, Alice Li, Chris Rawles, Folawiyo Campbell-Ajala, Divya Tyamagundlu, Oriana Riva
     - 🏛️ Institutions: Google DeepMind, Google
     - 📅 Date: June 6, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [AndroidControl], [fine-tuning], [scalability]
     - 📖 TLDR: This study investigates how the performance of computer control agents scales with the amount of fine-tuning data. The authors introduce **AndroidControl**, a dataset comprising 15,283 demonstrations across 833 Android applications. Findings indicate that while in-domain performance improves with more data, out-of-domain performance, especially on high-level tasks, scales more slowly, suggesting that fine-tuning alone may be insufficient for robust out-of-domain performance.
 
@@ -849,7 +849,7 @@
     - 🏛️ Institutions: UCB, UMich
     - 📅 Date: April 9, 2024
     - 📑 Publisher: COLM 2024
-    - 💻 Env: [Web, Desktop]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
     - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
 
@@ -925,12 +925,12 @@
     - 🔑 Key: [benchmark], [web agents], [enterprise task automation], [ServiceNow], [knowledge work automation]
     - 📖 TLDR: WorkArena introduces a robust benchmark hosted on the ServiceNow platform to assess the effectiveness of large language model-based agents in performing 33 knowledge tasks common to enterprise environments. Leveraging BrowserGym, an environment that simulates complex browser interactions, WorkArena provides web agents with realistic challenges like data entry, form completion, and information retrieval in knowledge bases. Despite promising initial results, open-source models show a 42.7% success rate compared to closed-source counterparts, underlining the current gap in task automation for enterprise applications and highlighting key areas for improvement.
 
-- [AgentStudio: A Toolkit for Building General Virtual Agents](https://ar5iv.org/abs/2403.17918)
-    - Jiaming Liang, Xiaofeng Zhang, Lele Zhou, Chao Wang, Xin Li, Yiming Gong, Yi Ren, Sheng Wang, Bing Liu, Shumeng Pan, Kai Wei
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: March 10, 2024
+- [AgentStudio: A Toolkit for Building General Virtual Agents](https://arxiv.org/abs/2403.17918)
+    - Longtao Zheng, Zhiyuan Huang, Zhenghai Xue, Xinrun Wang, Bo An, Shuicheng Yan
+    - 🏛️ Institutions: NTU, Skywork AI, ETH Zurich
+    - 📅 Date: March 26, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI (supports interactions in web, desktop, and mobile environments)]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [dataset], [general virtual agents], [open-ended learning], [tool creation]
     - 📖 TLDR: AgentStudio is a robust toolkit for developing virtual agents with versatile actions, such as GUI automation and code execution. It unifies real-world human-computer interactions across OS platforms and includes diverse observation and action spaces, facilitating comprehensive training and benchmarking in complex settings. The toolkit's flexibility promotes agent generalization across varied tasks, supporting tool creation and a multimodal interaction interface to advance agent adaptability and learning.
 
@@ -1029,7 +1029,7 @@
     - 🏛️ Institutions: CMU
     - 📅 Date: February 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop],[Web]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [dataset], [benchmark]
     - 📖 TLDR: OmniACT introduces a dataset and benchmark to train and evaluate multimodal agents capable of autonomously performing diverse tasks across desktop and web environments. Using annotated UI elements across applications, it combines visual grounding with natural language instructions, providing 9,802 data points for developing agents that integrate high-level reasoning with UI interactions. The study highlights the limited proficiency of current models, with baselines like GPT-4 only achieving 15% of human performance on executable scripts, emphasizing OmniACT's potential as a testbed for advancing multimodal AI.
 
@@ -1259,8 +1259,8 @@
     - 📖 TLDR: WebAgent leverages two LLMs—HTML-T5 for HTML comprehension and Flan-U-PaLM for program synthesis—to complete web automation tasks. It combines planning, HTML summarization, and code generation to navigate and interact with real-world web environments, improving success rates on HTML-based tasks and achieving state-of-the-art performance in benchmarks like MiniWoB and Mind2Web. The modular architecture adapts well to open-domain tasks, using local-global attention mechanisms to manage long HTML contexts.
 
 - [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://arxiv.org/abs/2306.07863)
-    - Longtao Zheng, Rundong Wang, Jifan Xu, Shengding Hu, Chunting Zhou, Xuezhi Wang, Qiang Liu, Yonghui Wu
-    - 🏛️ Institutions: Unknown
+    - Longtao Zheng, Rundong Wang, Xinrun Wang, Bo An
+    - 🏛️ Institutions: NTU
     - 📅 Date: June 13, 2023
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [Desktop]
@@ -1359,7 +1359,7 @@
 
 - [A Data-Driven Approach for Learning to Control Computers](https://arxiv.org/abs/2202.08137)
     - Peter C. Humphreys, David Raposo, Tobias Pohlen, Gregory Thornton, Rachita Chhaparia, Alistair Muldal, Josh Abramson, Petko Georgiev, Alex Goldin, Adam Santoro, Timothy Lillicrap
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: DeepMind
     - 📅 Date: February 16, 2022
     - 📑 Publisher: ICML 2022
     - 💻 Env: [Desktop]
