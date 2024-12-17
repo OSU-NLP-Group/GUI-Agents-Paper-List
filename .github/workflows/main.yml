@@ -53,8 +53,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md paper_by_env paper_by_author 
-          git commit -m "Update README with sorted content from update_template_or_data/update_paper_list.md"
+          git add README.md paper_by_env paper_by_author update_template_or_data/statistics
+          git commit -m "Auto Updates"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
