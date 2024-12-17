@@ -174,6 +174,8 @@ from collections import Counter
 # 1. 初始化一个Counter来统计作者作品数量
 author_counter = Counter()
 
+
+num_top_author=10
 # 2. 遍历论文条目，统计每个作者的作品数量
 for _, row in papers_df.iterrows():
     authors = row['Authors']
@@ -181,23 +183,23 @@ for _, row in papers_df.iterrows():
     author_counter.update(author_list)
 
 # 3. 获取作品最多的前15个作者
-top_15_authors = [author for author, _ in author_counter.most_common(15)]
+top_15_authors = [author for author, _ in author_counter.most_common(num_top_author)]
 
 # 4. 获取前15个作者的作品数量
 top_15_counts = [author_counter[author] for author in top_15_authors]
 
 # 5. 创建条形图
-plt.figure(figsize=(10, 6))  # 设置图表大小
+plt.figure(figsize=(10, 8))  # 设置图表大小
 sns.barplot(x=top_15_counts, y=top_15_authors, palette="viridis")
 
 # 6. 设置图表标题和标签
-plt.title("Top 15 Authors by Number of Papers", fontsize=16)
-plt.xlabel("Number of Papers", fontsize=14)
-plt.ylabel("Authors", fontsize=14)
+plt.title("Top Authors by Number of Papers", fontsize=15)
+plt.xlabel("Number of Papers", fontsize=15)
+plt.ylabel("Authors", fontsize=20)
 
 # 7. 美化图表（可选）
-plt.xticks(fontsize=12)
-plt.yticks(fontsize=12)
+plt.xticks(fontsize=20)
+plt.yticks(fontsize=20)
 plt.tight_layout()
 
 # 8. 保存图表到文件
@@ -240,7 +242,7 @@ keyword_counts = Counter(all_keywords)
 print(keyword_counts)
 wordcloud = WordCloud(
     width=1000,
-    height=600,
+    height=800,
     background_color="white",
     colormap="viridis",
     contour_width=0,
@@ -248,7 +250,7 @@ wordcloud = WordCloud(
 ).generate_from_frequencies(keyword_counts)
 
 # Reduce DPI for better scaling
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 8))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.tight_layout(pad=0)
