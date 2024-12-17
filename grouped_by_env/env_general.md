@@ -34,15 +34,6 @@
     - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
     - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
-- [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
-    - [Author information not available]
-    - 🏛️ Institutions: MultiOn, Stanford
-    - 📅 Date: August 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: TBD
-
 - [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://luffyzm3d2y.github.io/publication/IoA)
     - Weize Chen, Ziming You, Ruibo Li, Yifan Guan, Cheng Qian, Chao Zhao, Ming Sun
     - 🏛️ Institutions: Peking University, Microsoft Research
