@@ -189,12 +189,12 @@ top_15_authors = [author for author, _ in author_counter.most_common(num_top_aut
 top_15_counts = [author_counter[author] for author in top_15_authors]
 
 # 5. 创建条形图
-plt.figure(figsize=(10, 8))  # 设置图表大小
+plt.figure(figsize=(10, 10))  # 设置图表大小
 sns.barplot(x=top_15_counts, y=top_15_authors, palette="viridis")
 
 # 6. 设置图表标题和标签
-plt.title("Top Authors by Number of Papers", fontsize=15)
-plt.xlabel("Number of Papers", fontsize=15)
+plt.title("Top Authors by Number of Papers", fontsize=20)
+plt.xlabel("Number of Papers", fontsize=20)
 plt.ylabel("Authors", fontsize=20)
 
 # 7. 美化图表（可选）
@@ -242,7 +242,7 @@ keyword_counts = Counter(all_keywords)
 print(keyword_counts)
 wordcloud = WordCloud(
     width=1000,
-    height=800,
+    height=1000,
     background_color="white",
     colormap="viridis",
     contour_width=0,
@@ -250,7 +250,7 @@ wordcloud = WordCloud(
 ).generate_from_frequencies(keyword_counts)
 
 # Reduce DPI for better scaling
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(10, 10))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.tight_layout(pad=0)
