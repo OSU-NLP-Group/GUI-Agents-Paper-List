@@ -1326,7 +1326,7 @@
     - 🏛️ Institutions: CMU, Wellesley College, Grinnell College, Snooty Bird LLC
     - 📅 Date: January 30, 2023
     - 📑 Publisher: CHI 2023
-    - 💻 Env: [Web], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: [dataset], [element detection], [screen classification], [screen similarity], [UI modeling]
     - 📖 TLDR: The WebUI dataset includes 400,000 web UIs captured to enhance UI modeling by integrating visual UI metadata. This dataset supports tasks such as element detection, screen classification, and screen similarity, especially for accessibility, app automation, and testing applications. Through transfer learning and semi-supervised methods, WebUI addresses the challenge of training robust models with limited labeled mobile data, proving effective in tasks beyond web contexts, such as mobile UIs.
 
