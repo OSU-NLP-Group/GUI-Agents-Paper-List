@@ -1,4 +1,4 @@
-# Awesome GUI Agent Paper List (Work-In-Progress)
+# Awesome GUI Agent Paper List
 
 This paper list covers a variety of papers related to GUI Agents, including but not limited to:
 - GUI Understanding
@@ -8,11 +8,6 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 - New models
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in general Domains extensively used by GUI Agents (e.g., SoM prompting)
-
-
-<h3>Updates</h3>
-
-- December 7, 2024: Moved the ownership to OSU-NLP-Group
 
 
 ## Papers Grouped by Envs
