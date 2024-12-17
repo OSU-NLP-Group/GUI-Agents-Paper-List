@@ -10,11 +10,6 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 - Works in general Domains extensively used by GUI Agents (e.g., SoM prompting)
 
 
-<h3>Updates</h3>
-
-- December 7, 2024: Moved the ownership to OSU-NLP-Group
-
-
 ## Papers Grouped by Envs
 
 | [Web](grouped_by_env/env_web.md) | [Mobile](grouped_by_env/env_mobile.md) | [Desktop](grouped_by_env/env_desktop.md) | [GUI](grouped_by_env/env_gui.md) | [General](grouped_by_env/env_general.md) |
