@@ -467,12 +467,12 @@
     - 📖 TLDR: This paper introduces **OmniParser**, a method for parsing user interface screenshots into structured elements, enhancing the ability of models like GPT-4V to generate actions accurately grounded in corresponding UI regions. The authors curated datasets for interactable icon detection and icon description, fine-tuning models to parse interactable regions and extract functional semantics of UI elements.
 
 - [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
-    - [Author information not available]
+    - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
     - 🏛️ Institutions: MultiOn, Stanford
-    - 📅 Date: August 2024
+    - 📅 Date: August 13, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [General]
-    - 🔑 Key: [framework]
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [MCTS], [Tree Search], [DPO], [Reinforcement Learning]. [RL]
     - 📖 TLDR: TBD
 
 - [OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation](https://arxiv.org/abs/2407.19056)
