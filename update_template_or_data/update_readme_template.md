@@ -11,8 +11,8 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="update_template_or_data/statistics/top_15_authors.png" alt="Image 1" width="50%" />
-  <img src="update_template_or_data/statistics/keyword_wordcloud.png" alt="Image 2" width="50%" />
+  <img src="update_template_or_data/statistics/top_15_authors.png" alt="Image 1" width="48%" />
+  <img src="update_template_or_data/statistics/keyword_wordcloud.png" alt="Image 2" width="48%" />
 </div>
 
 
