@@ -82,7 +82,7 @@ with open("update_template_or_data/update_paper_list.md", "w", encoding="utf-8")
 import os
 
 # 1. 创建子集的文件夹，如果没有的话
-subgroup_dir = "grouped_by_env"
+subgroup_dir = "paper_by_env"
 if not os.path.exists(subgroup_dir):
     os.makedirs(subgroup_dir)
 
@@ -135,7 +135,7 @@ for _, row in papers_df.iterrows():
 top_15_authors = [author for author, _ in author_counter.most_common(15)]
 
 # 4. 为每个作者生成一个文件，只包含该作者的论文
-subgroup_dir = "grouped_by_authors"
+subgroup_dir = "paper_by_author"
 if not os.path.exists(subgroup_dir):
     os.makedirs(subgroup_dir)
 
@@ -166,44 +166,44 @@ for author in top_15_authors:
     print(f"生成文件：{author_file_path}")
 
 
-# 
-# import matplotlib.pyplot as plt
-# import seaborn as sns
-# from collections import Counter
-# #
-# # 1. 初始化一个Counter来统计作者作品数量
-# author_counter = Counter()
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+from collections import Counter
 #
-# # 2. 遍历论文条目，统计每个作者的作品数量
-# for _, row in papers_df.iterrows():
-#     authors = row['Authors']
-#     author_list = [author.strip() for author in authors.split(',')]  # 假设作者以逗号分隔
-#     author_counter.update(author_list)
-#
-# # 3. 获取作品最多的前15个作者
-# top_15_authors = [author for author, _ in author_counter.most_common(15)]
-#
-# # 4. 获取前15个作者的作品数量
-# top_15_counts = [author_counter[author] for author in top_15_authors]
-#
-# # 5. 创建条形图
-# plt.figure(figsize=(10, 6))  # 设置图表大小
-# sns.barplot(x=top_15_counts, y=top_15_authors, palette="viridis")
-#
-# # 6. 设置图表标题和标签
-# plt.title("Top 15 Authors by Number of Papers", fontsize=16)
-# plt.xlabel("Number of Papers", fontsize=14)
-# plt.ylabel("Authors", fontsize=14)
-#
-# # 7. 美化图表（可选）
-# plt.xticks(fontsize=12)
-# plt.yticks(fontsize=12)
-# plt.tight_layout()
-#
-# # 8. 保存图表到文件
-# plt.savefig("update_template_or_data/top_15_authors.png")
-#
-# # 9. 显示图表
+# 1. 初始化一个Counter来统计作者作品数量
+author_counter = Counter()
+
+# 2. 遍历论文条目，统计每个作者的作品数量
+for _, row in papers_df.iterrows():
+    authors = row['Authors']
+    author_list = [author.strip() for author in authors.split(',')]  # 假设作者以逗号分隔
+    author_counter.update(author_list)
+
+# 3. 获取作品最多的前15个作者
+top_15_authors = [author for author, _ in author_counter.most_common(15)]
+
+# 4. 获取前15个作者的作品数量
+top_15_counts = [author_counter[author] for author in top_15_authors]
+
+# 5. 创建条形图
+plt.figure(figsize=(10, 6))  # 设置图表大小
+sns.barplot(x=top_15_counts, y=top_15_authors, palette="viridis")
+
+# 6. 设置图表标题和标签
+plt.title("Top 15 Authors by Number of Papers", fontsize=16)
+plt.xlabel("Number of Papers", fontsize=14)
+plt.ylabel("Authors", fontsize=14)
+
+# 7. 美化图表（可选）
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
+plt.tight_layout()
+
+# 8. 保存图表到文件
+plt.savefig("update_template_or_data/statistics/top_15_authors.png")
+
+# 9. 显示图表
 # plt.show()
 
 from wordcloud import WordCloud
@@ -222,42 +222,37 @@ import matplotlib.pyplot as plt
 from collections import Counter
 
 # 1. 定义排除的关键词
-excluded_keywords = {"model", "framework", "benchmark", "dataset"}
+# excluded_keywords = {"model", "framework", "benchmark", "dataset"}
 excluded_keywords = {}
 
 # 2. 提取所有论文的关键词并计算频率（排除特定关键词）
+# Remove any leading or trailing spaces, and split by commas if necessary
 all_keywords = []
 for _, row in papers_df.iterrows():
     keywords = row['Keywords']
-    # 提取并排除不需要的关键词
-    filtered_keywords = [kw.strip() for kw in keywords.split(", ") if kw.strip().lower() not in excluded_keywords]
+    # Ensure keywords are split correctly and clean them
+    filtered_keywords = [kw.strip() for kw in keywords.split(",") if kw.strip()]
     all_keywords.extend(filtered_keywords)
 
-# # 3. 计算每个关键词的频率
-# keyword_counts = Counter(all_keywords)
-#
-# # 4. 创建词云图，调整分辨率和字体大小
-# wordcloud = WordCloud(
-#     width=1200,  # 增大图像宽度
-#     height=500,  # 增大图像高度
-#     background_color="white",  # 背景颜色
-#     max_words=200,  # 显示的最多词数
-#     colormap="viridis",  # 词云的颜色映射
-#     contour_width=0,  # 词云边框宽度（0表示没有边框）
-#     contour_color='black',  # 词云边框颜色
-#     max_font_size=50,  # 最大字体大小
-#     min_font_size=10,  # 最小字体大小
-# ).generate_from_frequencies(keyword_counts)
-#
-# # 5. 显示并保存词云图，增加DPI来提高清晰度
-# plt.figure(figsize=(12, 6))  # 设置图像尺寸
-# plt.imshow(wordcloud, interpolation='bilinear')  # 插值显示词云图
-# plt.axis('off')  # 不显示坐标轴
-# plt.tight_layout(pad=0)
-#
-# # 6. 保存图片文件，并设置高DPI
-# wordcloud_img_path = "update_template_or_data/keyword_wordcloud.png"
-# plt.savefig(wordcloud_img_path, format='png', dpi=460)  # 增加DPI，生成高分辨率图像
-# plt.close()  # 关闭图像，释放资源
-#
-# print(f"关键词词云图已保存为: {wordcloud_img_path}")
+# Calculate the frequency of each keyword
+keyword_counts = Counter(all_keywords)
+
+print(keyword_counts)
+wordcloud = WordCloud(
+    width=1000,
+    height=600,
+    background_color="white",
+    colormap="viridis",
+    contour_width=0,
+    contour_color='black',
+).generate_from_frequencies(keyword_counts)
+
+# Reduce DPI for better scaling
+plt.figure(figsize=(10, 6))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.tight_layout(pad=0)
+
+# Lower DPI to avoid large images
+plt.savefig("update_template_or_data/statistics/keyword_wordcloud.png", format='png', dpi=460)  # Set lower DPI for smaller file size
+plt.close()

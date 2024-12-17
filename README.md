@@ -10,6 +10,12 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 - Works in general Domains extensively used by GUI Agents (e.g., SoM prompting)
 
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="update_template_or_data/statistics/top_15_authors.png" alt="Image 1" width="45%" />
+  <img src="update_template_or_data/statistics/keyword_wordcloud.png" alt="Image 2" width="45%" />
+</div>
+
+
 ## Papers Grouped by Envs
 
 | [Web](grouped_by_env/env_web.md) | [Mobile](grouped_by_env/env_mobile.md) | [Desktop](grouped_by_env/env_desktop.md) | [GUI](grouped_by_env/env_gui.md) | [General](grouped_by_env/env_general.md) |
