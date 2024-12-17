@@ -166,11 +166,11 @@ for author in top_15_authors:
     print(f"生成文件：{author_file_path}")
 
 
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-from collections import Counter
-#
+# 
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# from collections import Counter
+# #
 # # 1. 初始化一个Counter来统计作者作品数量
 # author_counter = Counter()
 #
@@ -233,31 +233,31 @@ for _, row in papers_df.iterrows():
     filtered_keywords = [kw.strip() for kw in keywords.split(", ") if kw.strip().lower() not in excluded_keywords]
     all_keywords.extend(filtered_keywords)
 
-# 3. 计算每个关键词的频率
-keyword_counts = Counter(all_keywords)
-
-# 4. 创建词云图，调整分辨率和字体大小
-wordcloud = WordCloud(
-    width=1200,  # 增大图像宽度
-    height=500,  # 增大图像高度
-    background_color="white",  # 背景颜色
-    max_words=200,  # 显示的最多词数
-    colormap="viridis",  # 词云的颜色映射
-    contour_width=0,  # 词云边框宽度（0表示没有边框）
-    contour_color='black',  # 词云边框颜色
-    max_font_size=50,  # 最大字体大小
-    min_font_size=10,  # 最小字体大小
-).generate_from_frequencies(keyword_counts)
-
-# 5. 显示并保存词云图，增加DPI来提高清晰度
-plt.figure(figsize=(12, 6))  # 设置图像尺寸
-plt.imshow(wordcloud, interpolation='bilinear')  # 插值显示词云图
-plt.axis('off')  # 不显示坐标轴
-plt.tight_layout(pad=0)
-
-# 6. 保存图片文件，并设置高DPI
-wordcloud_img_path = "update_template_or_data/keyword_wordcloud.png"
-plt.savefig(wordcloud_img_path, format='png', dpi=460)  # 增加DPI，生成高分辨率图像
-plt.close()  # 关闭图像，释放资源
-
-print(f"关键词词云图已保存为: {wordcloud_img_path}")
+# # 3. 计算每个关键词的频率
+# keyword_counts = Counter(all_keywords)
+#
+# # 4. 创建词云图，调整分辨率和字体大小
+# wordcloud = WordCloud(
+#     width=1200,  # 增大图像宽度
+#     height=500,  # 增大图像高度
+#     background_color="white",  # 背景颜色
+#     max_words=200,  # 显示的最多词数
+#     colormap="viridis",  # 词云的颜色映射
+#     contour_width=0,  # 词云边框宽度（0表示没有边框）
+#     contour_color='black',  # 词云边框颜色
+#     max_font_size=50,  # 最大字体大小
+#     min_font_size=10,  # 最小字体大小
+# ).generate_from_frequencies(keyword_counts)
+#
+# # 5. 显示并保存词云图，增加DPI来提高清晰度
+# plt.figure(figsize=(12, 6))  # 设置图像尺寸
+# plt.imshow(wordcloud, interpolation='bilinear')  # 插值显示词云图
+# plt.axis('off')  # 不显示坐标轴
+# plt.tight_layout(pad=0)
+#
+# # 6. 保存图片文件，并设置高DPI
+# wordcloud_img_path = "update_template_or_data/keyword_wordcloud.png"
+# plt.savefig(wordcloud_img_path, format='png', dpi=460)  # 增加DPI，生成高分辨率图像
+# plt.close()  # 关闭图像，释放资源
+#
+# print(f"关键词词云图已保存为: {wordcloud_img_path}")
