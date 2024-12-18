@@ -45,7 +45,7 @@
 
 - [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://luffyzm3d2y.github.io/publication/IoA)
     - Weize Chen, Ziming You, Ruibo Li, Yifan Guan, Cheng Qian, Chao Zhao, Ming Sun
-    - 🏛️ Institutions: Peking University, Microsoft Research
+    - 🏛️ Institutions: Peking University, MSR
     - 📅 Date: July 7, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
@@ -90,7 +90,7 @@
 
 - [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)
     - Jianwei Yang, Hao Zhang, Feng Li, Xueyan Zou, Chunyuan Li, Jianfeng Gao
-    - 🏛️ Institutions: Microsoft Research
+    - 🏛️ Institutions: MSR
     - 📅 Date: October 17, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
