@@ -1,13 +1,13 @@
-# Awesome GUI Agent Paper List
+# Awesome GUI Agent Paper List: Comprehensive Paper Repository on GUI Agents.
 
-This paper list covers a variety of papers related to GUI Agents, including but not limited to:
+This paper list covers a variety of papers related to GUI Agents, such as:
 - GUI Understanding
 - Datasets
 - Benchmarks
 - New frameworks
 - New models
 - Vision, language, multimodal foundation models (with explicit support for GUI)
-- Works in general Domains extensively used by GUI Agents (e.g., SoM prompting)
+- Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
 
 
 <div style="display: flex; justify-content: space-around;">
@@ -17,10 +17,11 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 
 
 
-## Papers Grouped by Envs
+## Papers Grouped by Environments
 | [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
 |--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
 
+(Misc: Papers that do not specifically study for GUIs.)
 
 ## Papers Grouped by Keywords
 {{insert_keyword_groups_here}}
@@ -35,13 +36,16 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 
 
 
-## How to Add a Paper
+## How to Add a Paper or Update the README
 
+Please fork and update:
+- [paper list](update_template_or_data/update_paper_list.md)
+- [README template](update_template_or_data/update_readme_template.md)
+- [automatic workflow](.github/workflows/main.yml)
+
+You can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) to quickly search and get a formatted paper entry automatically.
 <details>
-<summary>format example</summary>
-
-
-
+<summary>format example and explanation</summary>
 
 ```
 - [title](paper link)
@@ -55,18 +59,17 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 ```
 
 Regarding the 🔑 Key: 
-- model: Indicates a newly trained model.
-- framework: If the paper proposes a new framework. 
-- dataset: If a new dataset is created and published. 
-- benchmark: If a new benchmark is established (add "dataset" if there's a new training set).
-- primary Innovation: List the main focus or innovation in the study. 
-- Common Abbreviations: Include commonly used abbreviations associated with the paper. (model names, framework names, etc.)
 
+| Key             | Definition                                                                            |
+|-----------------|---------------------------------------------------------------------------------------|
+| model           | Indicates a newly trained model.                                                      |
+| framework       | If the paper proposes a new agent framework.                                          |
+| dataset         | If a new (training) dataset is created and published.                                 |
+| benchmark       | If a new benchmark is established (also add "dataset" if there's a new training set). |
+| primary studies | List the main focus or innovation in the study.                                       |
+| Abbreviations | Include commonly used abbreviations associated with the paper (model names, framework names, etc.).                       |
 For missing information, use "Unknown."
 
-You can contribute by providing either the paper title or a fully formatted entry in [Paper Collection](https://github.com/boyugou/GUI-Agents-Paper-List/issues/1). You’re also welcome to open a new PR with your submission.
-
-For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) to help search your paper and format the entry automatically. (prompts in auto_prompt.txt)
 
 
 </details>
