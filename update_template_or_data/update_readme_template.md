@@ -16,10 +16,11 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 </div>
 
 
-## Papers Grouped by Envs
 
-| [Web](paper_by_envenv_web.md) | [Mobile](paper_by_envenv_mobile.md) | [Desktop](paper_by_envenv_desktop.md) | [GUI](paper_by_envenv_gui.md) | [General](paper_by_envenv_general.md) |
-|---------|---------------------------------------|-----------------------------------------|---------------------------------|-----------------------------------------|
+## Papers Grouped by Envs
+| [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
+|--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
+
 
 [//]: # (## Papers Grouped by Keywords)
 
@@ -75,6 +76,6 @@ For ease of use, you can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-p
 
 ## Contributors
 
-<a href="https://github.com/boyugou/GUI-Agents-Paper-List/graphs/contributors">
+<a href="https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=boyugou/GUI-Agents-Paper-List" />
 </a>
