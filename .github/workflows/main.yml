@@ -45,7 +45,7 @@ jobs:
             fi
           done
           
-          GROUPED_KEYWORDS+="\n"
+          GROUPED_KEYWORDS+=$'\n'
 
           # Generate sections for all other keywords dynamically
           for file in paper_by_key/*.md; do

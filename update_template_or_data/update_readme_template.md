@@ -1,4 +1,4 @@
-# Awesome GUI Agent Paper List: Comprehensive Paper Repository on GUI Agents.
+# Awesome GUI Agent Paper List
 
 This paper list covers a variety of papers related to GUI Agents, such as:
 - GUI Understanding
@@ -68,6 +68,7 @@ Regarding the 🔑 Key:
 | benchmark       | If a new benchmark is established (also add "dataset" if there's a new training set). |
 | primary studies | List the main focus or innovation in the study.                                       |
 | Abbreviations | Include commonly used abbreviations associated with the paper (model names, framework names, etc.).                       |
+
 For missing information, use "Unknown."
 
 
