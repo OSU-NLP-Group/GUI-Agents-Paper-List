@@ -36,8 +36,7 @@ jobs:
           PRIORITY_KEYWORDS="model framework dataset benchmark safety survey"
 
           # Initialize the output for grouped papers
-          GROUPED_KEYWORDS="**Papers Grouped by Keywords**\n\n"
-
+          GROUPED_KEYWORDS=""
           # Generate priority keyword sections first
           for key in $PRIORITY_KEYWORDS; do
             FILE="paper_by_key/paper_${key}.md"
