@@ -32,7 +32,7 @@ jobs:
           
       - name: Generate keyword grouping and update temp_readme.md
         run: |
-          # Initialize the Markdown table
+          # Initialize the Markdown table header
           GROUPED_KEYWORDS="|"
           ROW_COUNT=0
 
@@ -42,23 +42,25 @@ jobs:
             ENCODED_KEYWORD=$(echo "$KEYWORD" | sed 's/ /%20/g')
             LINK="[${KEYWORD^}](paper_by_key/$(basename "$file" | sed 's/ /%20/g'))"
 
-            # Add to the table
+            # Add keyword to the row
             GROUPED_KEYWORDS+="$LINK |"
             ROW_COUNT=$((ROW_COUNT + 1))
 
-            # Break line after 5 columns
+            # Add a new row divider after every 5 columns
             if [ $((ROW_COUNT % 5)) -eq 0 ]; then
               GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|\n|"
             fi
           done
 
-          # Pad the last row if necessary
+          # Pad the last row if it's incomplete
           if [ $((ROW_COUNT % 5)) -ne 0 ]; then
             for i in $(seq $((5 - ROW_COUNT % 5))); do
               GROUPED_KEYWORDS+=" |"
             done
-            GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|"
           fi
+
+          # Add final divider for the last row
+          GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|"
 
           # Insert the table into the template
           sed -i '/{{insert_keyword_groups_here}}/{
