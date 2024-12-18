@@ -156,7 +156,7 @@ def process_markdown():
         top_keywords = [
                            keyword for keyword, _ in keyword_counts.most_common()
                            if keyword not in predefined_keywords
-                       ][:5]
+                       ][:14]
 
         # Combine predefined keywords with the top 5
         keywords_to_group = predefined_keywords.union(top_keywords)
