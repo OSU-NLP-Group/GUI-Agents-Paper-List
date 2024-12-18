@@ -1,3 +1,43 @@
+
+
+
+- [UI Layout Generation with LLMs Guided by UI Grammar](https://arxiv.org/abs/2310.15455)
+  - Yuwen Lu, Ziang Tong, Qinyi Zhao, Chengzhi Zhang, Toby Jia-Jun Li
+  - 🏛️ Institutions: ICML 2023 Workshop on AI and HCI
+  - 📅 Date: October 24, 2023
+  - 📑 Publisher: arXiv
+  - 💻 Env: [Mobile]
+  - 🔑 Key: [UI grammar], [UI Layout Generation]
+  - 📖 TLDR: This position paper explores the use of Large Language Models (LLMs) for generating mobile user interface (UI) layouts. It introduces *UI grammar*, a novel approach to represent the hierarchical structure of UI screens, aiming to guide LLMs' generative capabilities more effectively and enhance the explainability and controllability of the process. Initial experiments with GPT-4 demonstrate the potential of LLMs to produce high-quality UIs through in-context learning, with the grammar-based approach improving certain aspects of generation quality.
+
+- [Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations](https://aclanthology.org/2020.acl-demos.25/)
+  - Toby Jia-Jun Li, Tom Mitchell, Brad Myers
+  - 🏛️ Institutions: CMU
+  - 📅 Date: July 2020
+  - 📑 Publisher: ACL 2020
+  - 💻 Env: [Mobile]
+  - 🔑 Key: [framework], [Sugilite], [programming-by-demonstration]
+  - 📖 TLDR: This paper introduces *Sugilite*, an intelligent task automation agent that learns new tasks and associated concepts interactively from users' natural language instructions and demonstrations on third-party mobile app GUIs. The system allows users to teach procedures and concepts through verbal instructions combined with GUI demonstrations, supports intent clarification for demonstrated actions, infers task parameters using hierarchical app GUI structures, and generalizes taught concepts across different contexts and domains. A prototype is presented as a conversational assistant on Android. [oai_citation_attribution:0‡ACL Anthology](https://aclanthology.org/2020.acl-demos.25/?utm_source=chatgpt.com)
+
+- [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://arxiv.org/abs/1909.00031)
+  - Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom M. Mitchell, Brad A. Myers
+  - 🏛️ Institutions: CMU, Amherst College
+  - 📅 Date: August 30, 2019
+  - 📑 Publisher: UIST 2019
+  - 💻 Env: [Mobile]
+  - 🔑 Key: [programming-by-demonstration], [PUMICE]
+  - 📖 TLDR: This paper introduces *PUMICE*, a multi-modal agent that combines natural language programming and programming-by-demonstration to enable end users to instruct intelligent agents in performing new tasks. By allowing users to describe tasks and conditions naturally and then collaboratively resolving ambiguities through conversation and demonstration, PUMICE facilitates the teaching of new concepts and procedures within existing mobile app GUIs. A lab study with 10 users demonstrated its usability and effectiveness.
+
+- [SUGILITE: Creating Multimodal Smartphone Automation by Demonstration](https://dl.acm.org/doi/abs/10.1145/3025453.3025483)
+  - Toby Jia-Jun Li, Amos Azaria, Brad A. Myers
+  - 🏛️ Institutions: CMU, Ariel University
+  - 📅 Date: May 6, 2017
+  - 📑 Publisher: CHI 2017
+  - 💻 Env: [Mobile]
+  - 🔑 Key: [framework], [PBD], [multimodal interaction], [SUGILITE], [programming-by-demonstration], [demonstration]
+  - 📖 TLDR: This paper introduces *SUGILITE*, a programming-by-demonstration (PBD) system that enables users to automate tasks on smartphones through multimodal interactions. By leveraging Android's accessibility API, SUGILITE allows users to create generalized automation scripts for arbitrary third-party apps by demonstrating tasks using the regular app UI. The system combines verbal instructions, user demonstrations, and app UI hierarchies to generalize scripts from single demonstrations, facilitating task variations and parameterization. Extensive error handling and context checking enhance robustness against app UI changes. A lab study indicates that users with minimal programming knowledge can successfully automate smartphone tasks using SUGILITE.
+
+
 - [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://molmo.allenai.org/blog)
   - Matt Deitke, Christopher Clark, Sangho Lee, Rohun Tripathi, Yue Yang, Jae Sung Park, Mohammadreza Salehi, Niklas Muennighoff, Kyle Lo, Luca Soldaini, Jiasen Lu, Taira Anderson, Erin Bransom, Kiana Ehsani, Huong Ngo, YenSung Chen, Ajay Patel, Mark Yatskar, Chris Callison-Burch, Andrew Head, Rose Hendrix, Favyen Bastani, Eli VanderBilt, Nathan Lambert, Yvonne Chou, Arnavi Chheda, Jenna Sparks, Sam Skjonsberg, Michael Schmitz, Aaron Sarnat, Byron Bischoff, Pete Walsh, Chris Newell, Piper Wolters, Tanmay Gupta, Kuo-Hao Zeng, Jon Borchardt, Dirk Groeneveld, Crystal Nam, Sophie Lebrecht, Caitlin Wittlif, Carissa Schoenick, Oscar Michel, Ranjay Krishna, Luca Weihs, Noah A. Smith, Hannaneh Hajishirzi, Ross Girshick, Ali Farhadi, Aniruddha Kembhavi
   - 🏛️ Institutions: AI2, UW
@@ -316,7 +356,7 @@
 
 - [ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning](https://agent-e3.github.io/ExACT/)
     - Xiao Yu, Baolin Peng, Vineeth Vajipey, Hao Cheng, Michel Galley, Jianfeng Gao, Zhou Yu
-    - 🏛️ Institutions: Columbia Univ., Microsoft Research
+    - 🏛️ Institutions: Columbia Univ., MSR
     - 📅 Date: Oct 2, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -442,7 +482,7 @@
 
 - [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://arxiv.org/abs/2408.06327)
     - Xiao Liu, Tianjie Zhang, Yu Gu, Iat Long Iong, Yifan Xu, Xixuan Song, Shudan Zhang, Hanyu Lai, Xinyi Liu, Hanlin Zhao, Jiadai Sun, Xinyue Yang, Yu Yang, Zehan Qi, Shuntian Yao, Xueqiao Sun, Siyi Cheng, Qinkai Zheng, Hao Yu, Hanchen Zhang, Wenyi Hong, Ming Ding, Lihang Pan, Xiaotao Gu, Aohan Zeng, Zhengxiao Du, Chan Hee Song, Yu Su, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, Microsoft Research Asia, The Ohio State University
+    - 🏛️ Institutions: Tsinghua University, MSRA, The Ohio State University
     - 📅 Date: August 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -460,7 +500,7 @@
 
 - [OmniParser for Pure Vision Based GUI Agent](https://microsoft.github.io/OmniParser/)
     - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
-    - 🏛️ Institutions: Microsoft Research, Microsoft Gen AI
+    - 🏛️ Institutions: MSR, Microsoft Gen AI
     - 📅 Date: August 1, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -523,7 +563,7 @@
 
 - [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://luffyzm3d2y.github.io/publication/IoA)
     - Weize Chen, Ziming You, Ruibo Li, Yifan Guan, Cheng Qian, Chao Zhao, Ming Sun
-    - 🏛️ Institutions: Peking University, Microsoft Research
+    - 🏛️ Institutions: Peking University, MSR
     - 📅 Date: July 7, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
@@ -568,7 +608,7 @@
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://arxiv.org/abs/2407.01511)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: KAUST, UTokyo, CMU, Stanford, Harvard, Tsinghua, SUSTech, Oxford
+    - 🏛️ Institutions: KAUST, UTokyo, CMU, Stanford, Harvard, Tsinghua University, SUSTech, Oxford
     - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -586,7 +626,7 @@
 
 - [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://screen-point-and-read.github.io/)
     - Yue Fan, Lei Ding, Ching-Chen Kuo, Shan Jiang, Yang Zhao, Xinze Guan, Jie Yang, Yi Zhang, Xin Eric Wang
-    - 🏛️ Institutions: UCSC, Microsoft Research
+    - 🏛️ Institutions: UCSC, MSR
     - 📅 Date: June 27, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -667,7 +707,7 @@
 
 - [GUI-WORLD: A Dataset for GUI-oriented Multimodal LLM-based Agents](https://arxiv.org/abs/2406.10819)
     - Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
-    - 🏛️ Institutions: Huazhong University of Science and Technology (HUST), Microsoft Research, University of Illinois at Chicago (UIC)
+    - 🏛️ Institutions: Huazhong University of Science and Technology (HUST), MSR, University of Illinois at Chicago (UIC)
     - 📅 Date: June 16, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -1171,7 +1211,7 @@
 
 - [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)
     - Jianwei Yang, Hao Zhang, Feng Li, Xueyan Zou, Chunyuan Li, Jianfeng Gao
-    - 🏛️ Institutions: Microsoft Research
+    - 🏛️ Institutions: MSR
     - 📅 Date: October 17, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [General]
@@ -1225,7 +1265,7 @@
 
 - [AutoDroid: LLM-powered Task Automation in Android](https://arxiv.org/abs/2308.15272)
     - Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu, Toby Jia-Jun Li, Shiqi Jiang, Yunhao Liu, Yaqin Zhang, Yunxin Liu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tsinghua University, Shanghai AI Lab, University of Notre Dame, MSR
     - 📅 Date: August 29, 2023
     - 📑 Publisher: MobiCom 2024
     - 💻 Env: [Mobile]
