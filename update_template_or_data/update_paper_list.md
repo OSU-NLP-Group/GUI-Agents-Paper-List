@@ -558,7 +558,7 @@
     - 📅 Date: July 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI testing], [natural language processing], [AUITestAgent]
+    - 🔑 Key: [framework], [GUI testing], [AUITestAgent]
     - 📖 TLDR: This paper presents **AUITestAgent**, the first automatic, natural language-driven GUI testing tool for mobile apps. It automates the entire process of GUI interaction and function verification by extracting GUI interactions from test requirements via dynamically organized agents and employing a multi-dimensional data extraction strategy for verification.
 
 - [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://luffyzm3d2y.github.io/publication/IoA)
