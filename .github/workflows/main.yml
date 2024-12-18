@@ -44,6 +44,8 @@ jobs:
               GROUPED_KEYWORDS+="[${key^}](paper_by_key/paper_${key}.md) | "
             fi
           done
+          
+          GROUPED_KEYWORDS+="\n"
 
           # Generate sections for all other keywords dynamically
           for file in paper_by_key/*.md; do
