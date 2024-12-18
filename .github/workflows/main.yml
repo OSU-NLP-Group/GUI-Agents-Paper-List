@@ -53,7 +53,10 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md paper_by_env paper_by_author update_template_or_data/statistics
+          git add README.md 
+          git add paper_by_env 
+          git add paper_by_author 
+          git add update_template_or_data/statistics
           git commit -m "Auto Updates"
           git push
         env:
