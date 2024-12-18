@@ -109,7 +109,9 @@ for _, row in papers_df.iterrows():
     author_list = [author.strip() for author in authors.split(',')]  
     author_counter.update(author_list)
 
-top_authors = [author for author, _ in author_counter.most_common(15)]
+
+num_top_author=10
+top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
 
 subgroup_dir = "paper_by_author"
 if not os.path.exists(subgroup_dir):
@@ -145,7 +147,7 @@ from collections import Counter
 author_counter = Counter()
 
 
-num_top_author=10
+
 
 for _, row in papers_df.iterrows():
     authors = row['Authors']
