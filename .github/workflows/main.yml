@@ -56,6 +56,8 @@ jobs:
           git add README.md 
           git add paper_by_env 
           git add paper_by_author 
+          git add paper_by_key
+          
           git add update_template_or_data/statistics
           git commit -m "auto updates by github workflow"
           git push
