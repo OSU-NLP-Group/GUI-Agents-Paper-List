@@ -136,12 +136,63 @@ def process_markdown():
     except Exception as e:
         logging.error(f"Error generating top authors chart: {str(e)}", exc_info=True)
 
+    def remove_square_brackets(s):
+        # 使用正则表达式去除开头和结尾的方括号
+        return re.sub(r'^\[|\]$', '', s)
+
+    # Generate Markdown files grouped by keywords
+    try:
+        predefined_keywords = {"framework", "dataset", "benchmark", "model", "safety", "survey"}
+
+        # Calculate keyword frequencies
+        all_keywords = []
+        for _, row in papers_df.iterrows():
+            keywords = row['Keywords']
+            filtered_keywords = [remove_square_brackets(kw.strip()) for kw in keywords.split(",") if kw.strip()]
+            all_keywords.extend(filtered_keywords)
+        keyword_counts = Counter(all_keywords)
+
+        # Determine top 5 most frequent keywords excluding predefined ones
+        top_keywords = [
+                           keyword for keyword, _ in keyword_counts.most_common()
+                           if keyword not in predefined_keywords
+                       ][:5]
+
+        # Combine predefined keywords with the top 5
+        keywords_to_group = predefined_keywords.union(top_keywords)
+
+        # Create directory for keyword-based grouping
+        subgroup_dir = "paper_by_key"
+        if not os.path.exists(subgroup_dir):
+            os.makedirs(subgroup_dir)
+
+        for keyword in keywords_to_group:
+            filtered_df = papers_df[papers_df['Keywords'].str.contains(keyword, case=False, na=False)]
+            if not filtered_df.empty:
+                sorted_markdown = []
+                for _, row in filtered_df.iterrows():
+                    markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
+                                     f"    - {row['Authors']}\n" \
+                                     f"    - 🏛️ Institutions: {row['Institutions']}\n" \
+                                     f"    - 📅 Date: {row['Original Date']}\n" \
+                                     f"    - 📑 Publisher: {row['Publisher']}\n" \
+                                     f"    - 💻 Env: {row['Env']}\n" \
+                                     f"    - 🔑 Key: {row['Keywords']}\n" \
+                                     f"    - 📖 TLDR: {row['TLDR']}\n"
+                    sorted_markdown.append(markdown_entry)
+
+                final_output = "\n".join(sorted_markdown)
+                file_path = os.path.join(subgroup_dir, f"paper_{keyword}.md")
+                write_file(file_path, f"# Papers with Keyword: {keyword}\n\n" + final_output)
+    except Exception as e:
+        logging.error(f"Error generating keyword-based Markdown files: {str(e)}", exc_info=True)
+
     # Generate keyword word cloud
     try:
         all_keywords = []
         for _, row in papers_df.iterrows():
             keywords = row['Keywords']
-            filtered_keywords = [kw.strip() for kw in keywords.split(",") if kw.strip()]
+            filtered_keywords = [remove_square_brackets(kw.strip()) for kw in keywords.split(",") if kw.strip()]
             all_keywords.extend(filtered_keywords)
         keyword_counts = Counter(all_keywords)
         wordcloud = WordCloud(
