@@ -32,37 +32,33 @@ jobs:
           
       - name: Generate keyword grouping and update temp_readme.md
         run: |
-          # Initialize the Markdown table header
-          GROUPED_KEYWORDS="|"
-          ROW_COUNT=0
+          # Define fixed priority keywords
+          PRIORITY_KEYWORDS="model framework dataset benchmark safety survey"
 
-          for file in paper_by_key/*.md; do
-            # Extract and encode the keyword for display and URL
-            KEYWORD=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
-            ENCODED_KEYWORD=$(echo "$KEYWORD" | sed 's/ /%20/g')
-            LINK="[${KEYWORD^}](paper_by_key/$(basename "$file" | sed 's/ /%20/g'))"
+          # Initialize the output for grouped papers
+          GROUPED_KEYWORDS="**Papers Grouped by Keywords**\n\n"
 
-            # Add keyword to the row
-            GROUPED_KEYWORDS+="$LINK |"
-            ROW_COUNT=$((ROW_COUNT + 1))
-
-            # Add a new row divider after every 5 columns
-            if [ $((ROW_COUNT % 5)) -eq 0 ]; then
-              GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|\n|"
+          # Generate priority keyword sections first
+          for key in $PRIORITY_KEYWORDS; do
+            FILE="paper_by_key/paper_${key}.md"
+            if [ -f "$FILE" ]; then
+              GROUPED_KEYWORDS+="[${key^}](paper_by_key/paper_${key}.md) | "
             fi
           done
 
-          # Pad the last row if it's incomplete
-          if [ $((ROW_COUNT % 5)) -ne 0 ]; then
-            for i in $(seq $((5 - ROW_COUNT % 5))); do
-              GROUPED_KEYWORDS+=" |"
-            done
-          fi
+          # Generate sections for all other keywords dynamically
+          for file in paper_by_key/*.md; do
+            KEYWORD=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
+            # Skip priority keywords already processed
+            if [[ "$PRIORITY_KEYWORDS" != *"${KEYWORD}"* ]]; then
+              GROUPED_KEYWORDS+="[${KEYWORD^}](paper_by_key/$(basename "$file" | sed 's/ /%20/g')) | "
+            fi
+          done
 
-          # Add final divider for the last row
-          GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|"
+          # Trim the trailing '| ' at the end
+          GROUPED_KEYWORDS=${GROUPED_KEYWORDS% | }
 
-          # Insert the table into the template
+          # Insert the content into the template
           sed -i '/{{insert_keyword_groups_here}}/{
             r /dev/stdin
             d
