@@ -1,13 +1,47 @@
+import os
 import pandas as pd
 import calendar
 import re
+import logging
+from collections import Counter
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
-paper_source="update_template_or_data/update_paper_list.md"
-with open(paper_source, "r", encoding="utf-8") as file:
-    sample_input = file.read()
+# Configure logging
+log_dir = "update_template_or_data/logs"
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+log_file = os.path.join(log_dir, "error.log")
+logging.basicConfig(
+    filename=log_file,
+    level=logging.ERROR,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
+def safe_execute(func):
+    """Decorator to catch exceptions and log them"""
+    def wrapper(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except Exception as e:
+            logging.error(f"Error in {func.__name__}: {str(e)}", exc_info=True)
+    return wrapper
 
+@safe_execute
+def read_file(filepath, encoding="utf-8"):
+    """Reads a file and returns its content"""
+    with open(filepath, "r", encoding=encoding) as file:
+        return file.read()
+
+@safe_execute
+def write_file(filepath, content, encoding="utf-8"):
+    """Writes content to a file"""
+    with open(filepath, "w", encoding=encoding) as file:
+        file.write(content)
+
+@safe_execute
 def parse_date_with_defaults(date_str):
+    """Parses dates with default values for incomplete or malformed dates"""
     try:
         return pd.to_datetime(date_str, errors='coerce')
     except ValueError:
@@ -22,105 +56,46 @@ def parse_date_with_defaults(date_str):
             except (ValueError, AttributeError):
                 return pd.NaT
 
-new_format_pattern = re.compile(
-    r"- \[(.*?)\]\((.*?)\)\s+"
-    r"- (.*?)\s+"
-    r"- 🏛️ Institutions: (.*?)\s+"
-    r"- 📅 Date: (.*?)\s+"
-    r"- 📑 Publisher: (.*?)\s+"
-    r"- 💻 Env: \[(.*?)\]\s+"
-    r"- 🔑 Key: (.*?)\s+"
-    r"- 📖 TLDR: (.*?)\n",
-    re.DOTALL
-)
+# Main logic
+@safe_execute
+def process_markdown():
+    """Processes markdown input, generates categorized outputs, and saves data"""
+    paper_source = "update_template_or_data/update_paper_list.md"
+    sample_input = read_file(paper_source)
 
-parsed_entries = []
-for match in new_format_pattern.findall(sample_input):
-    title, link, authors, institutions, date, publisher, env, keywords, tldr = match
-    parsed_date = parse_date_with_defaults(date)
-    formatted_keywords = ", ".join([f"{kw.strip()}" for kw in keywords.split(",")])
-    parsed_entries.append((title, link, authors, institutions, date, parsed_date, publisher, f"[{env.strip()}]",
-                           formatted_keywords, tldr))
+    if sample_input is None:
+        return  # If file reading failed, exit early
 
-papers_df = pd.DataFrame(parsed_entries, columns=[
-    'Title', 'Link', 'Authors', 'Institutions', 'Original Date', 'Parsed Date', 'Publisher', 'Env', 'Keywords', 'TLDR'
-]).drop_duplicates(subset='Title', keep='first')
-papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
+    new_format_pattern = re.compile(
+        r"- \[(.*?)\]\((.*?)\)\s+"
+        r"- (.*?)\s+"
+        r"- 🏛️ Institutions: (.*?)\s+"
+        r"- 📅 Date: (.*?)\s+"
+        r"- 📑 Publisher: (.*?)\s+"
+        r"- 💻 Env: \[(.*?)\]\s+"
+        r"- 🔑 Key: (.*?)\s+"
+        r"- 📖 TLDR: (.*?)\n",
+        re.DOTALL
+    )
 
-sorted_markdown = []
-for _, row in papers_df.iterrows():
-    markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
-                     f"    - {row['Authors']}\n" \
-                     f"    - 🏛️ Institutions: {row['Institutions']}\n" \
-                     f"    - 📅 Date: {row['Original Date']}\n" \
-                     f"    - 📑 Publisher: {row['Publisher']}\n" \
-                     f"    - 💻 Env: {row['Env']}\n" \
-                     f"    - 🔑 Key: {row['Keywords']}\n" \
-                     f"    - 📖 TLDR: {row['TLDR']}\n"
-    sorted_markdown.append(markdown_entry)
+    parsed_entries = []
+    for match in new_format_pattern.findall(sample_input):
+        try:
+            title, link, authors, institutions, date, publisher, env, keywords, tldr = match
+            parsed_date = parse_date_with_defaults(date)
+            formatted_keywords = ", ".join([f"{kw.strip()}" for kw in keywords.split(",")])
+            parsed_entries.append((title, link, authors, institutions, date, parsed_date, publisher, f"[{env.strip()}]",
+                                   formatted_keywords, tldr))
+        except Exception as e:
+            logging.error(f"Error parsing entry: {str(e)}", exc_info=True)
 
+    papers_df = pd.DataFrame(parsed_entries, columns=[
+        'Title', 'Link', 'Authors', 'Institutions', 'Original Date', 'Parsed Date', 'Publisher', 'Env', 'Keywords', 'TLDR'
+    ]).drop_duplicates(subset='Title', keep='first')
+    papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
 
-final_output = "\n".join(sorted_markdown)
-
-with open("update_template_or_data/update_paper_list.md", "w", encoding="utf-8") as file:
-    file.write(final_output)
-
-import os
-
-subgroup_dir = "paper_by_env"
-if not os.path.exists(subgroup_dir):
-    os.makedirs(subgroup_dir)
-
-env_keywords = {
-    "Web": "paper_web.md",
-    "Desktop": "paper_desktop.md",
-    "Mobile": "paper_mobile.md",
-    "GUI": "paper_gui.md",
-    "Misc": "paper_misc.md"
-}
-
-for env_key, file_name in env_keywords.items():
-    filtered_df = papers_df[papers_df['Env'].str.contains(env_key, case=False, na=False)]
-
-    if not filtered_df.empty:
-        sorted_markdown = []
-        for _, row in filtered_df.iterrows():
-            markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
-                             f"    - {row['Authors']}\n" \
-                             f"    - 🏛️ Institutions: {row['Institutions']}\n" \
-                             f"    - 📅 Date: {row['Original Date']}\n" \
-                             f"    - 📑 Publisher: {row['Publisher']}\n" \
-                             f"    - 💻 Env: {row['Env']}\n" \
-                             f"    - 🔑 Key: {row['Keywords']}\n" \
-                             f"    - 📖 TLDR: {row['TLDR']}\n"
-            sorted_markdown.append(markdown_entry)
-
-        final_output = "\n".join(sorted_markdown)
-        file_path = os.path.join(subgroup_dir, file_name)
-        with open(file_path, "w", encoding="utf-8") as file:
-            file.write(final_output)
-        print(f"Generating files: {file_path}")
-from collections import Counter
-import os
-
-author_counter = Counter()
-for _, row in papers_df.iterrows():
-    authors = row['Authors']
-    author_list = [author.strip() for author in authors.split(',')]  
-    author_counter.update(author_list)
-
-
-num_top_author=10
-top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
-
-subgroup_dir = "paper_by_author"
-if not os.path.exists(subgroup_dir):
-    os.makedirs(subgroup_dir)
-
-for author in top_authors:
-    author_papers_df = papers_df[papers_df['Authors'].str.contains(author, case=False, na=False)]
     sorted_markdown = []
-    for _, row in author_papers_df.iterrows():
+    for _, row in papers_df.iterrows():
         markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
                          f"    - {row['Authors']}\n" \
                          f"    - 🏛️ Institutions: {row['Institutions']}\n" \
@@ -131,86 +106,114 @@ for author in top_authors:
                          f"    - 📖 TLDR: {row['TLDR']}\n"
         sorted_markdown.append(markdown_entry)
 
-    author_filename = f"paper_{author.replace(' ', '_')}.md"
-    author_file_path = os.path.join(subgroup_dir, author_filename)
-    with open(author_file_path, "w", encoding="utf-8") as file:
-        file.write(f"# {author}'s Papers\n\n")
-        file.write("\n".join(sorted_markdown))
+    final_output = "\n".join(sorted_markdown)
+    write_file("update_template_or_data/update_paper_list.md", final_output)
 
-    print(f"Generating files: {author_file_path}")
+    # Generate environment-specific files
+    subgroup_dir = "paper_by_env"
+    if not os.path.exists(subgroup_dir):
+        os.makedirs(subgroup_dir)
 
+    env_keywords = {
+        "Web": "paper_web.md",
+        "Desktop": "paper_desktop.md",
+        "Mobile": "paper_mobile.md",
+        "GUI": "paper_gui.md",
+        "Misc": "paper_misc.md"
+    }
 
+    for env_key, file_name in env_keywords.items():
+        try:
+            filtered_df = papers_df[papers_df['Env'].str.contains(env_key, case=False, na=False)]
+            if not filtered_df.empty:
+                sorted_markdown = []
+                for _, row in filtered_df.iterrows():
+                    markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
+                                     f"    - {row['Authors']}\n" \
+                                     f"    - 🏛️ Institutions: {row['Institutions']}\n" \
+                                     f"    - 📅 Date: {row['Original Date']}\n" \
+                                     f"    - 📑 Publisher: {row['Publisher']}\n" \
+                                     f"    - 💻 Env: {row['Env']}\n" \
+                                     f"    - 🔑 Key: {row['Keywords']}\n" \
+                                     f"    - 📖 TLDR: {row['TLDR']}\n"
+                    sorted_markdown.append(markdown_entry)
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-from collections import Counter
-author_counter = Counter()
+                final_output = "\n".join(sorted_markdown)
+                file_path = os.path.join(subgroup_dir, file_name)
+                write_file(file_path, final_output)
+        except Exception as e:
+            logging.error(f"Error generating file for environment {env_key}: {str(e)}", exc_info=True)
 
+    # Generate author-specific files
+    author_counter = Counter()
+    for _, row in papers_df.iterrows():
+        try:
+            authors = row['Authors']
+            author_list = [author.strip() for author in authors.split(',')]
+            author_counter.update(author_list)
+        except Exception as e:
+            logging.error(f"Error processing authors: {str(e)}", exc_info=True)
 
+    num_top_author = 10
+    top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
 
+    subgroup_dir = "paper_by_author"
+    if not os.path.exists(subgroup_dir):
+        os.makedirs(subgroup_dir)
 
-for _, row in papers_df.iterrows():
-    authors = row['Authors']
-    author_list = [author.strip() for author in authors.split(',')]  # 假设作者以逗号分隔
-    author_counter.update(author_list)
+    for author in top_authors:
+        try:
+            author_papers_df = papers_df[papers_df['Authors'].str.contains(author, case=False, na=False)]
+            sorted_markdown = []
+            for _, row in author_papers_df.iterrows():
+                markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
+                                 f"    - {row['Authors']}\n" \
+                                 f"    - 🏛️ Institutions: {row['Institutions']}\n" \
+                                 f"    - 📅 Date: {row['Original Date']}\n" \
+                                 f"    - 📑 Publisher: {row['Publisher']}\n" \
+                                 f"    - 💻 Env: {row['Env']}\n" \
+                                 f"    - 🔑 Key: {row['Keywords']}\n" \
+                                 f"    - 📖 TLDR: {row['TLDR']}\n"
+                sorted_markdown.append(markdown_entry)
 
+            author_filename = f"paper_{author.replace(' ', '_')}.md"
+            author_file_path = os.path.join(subgroup_dir, author_filename)
+            write_file(author_file_path, f"# {author}'s Papers\n\n" + "\n".join(sorted_markdown))
+        except Exception as e:
+            logging.error(f"Error generating file for author {author}: {str(e)}", exc_info=True)
 
-top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
+    # Generate top authors chart
+    try:
+        top_15_counts = [author_counter[author] for author in top_authors]
+        plt.figure(figsize=(10, 10))
+        plt.barh(top_authors, top_15_counts)
+        plt.title("Top Authors by Number of Papers", fontsize=20)
+        plt.xlabel("Number of Papers", fontsize=20)
+        plt.ylabel("Authors", fontsize=20)
+        plt.tight_layout()
+        plt.savefig("update_template_or_data/statistics/top_authors.png")
+    except Exception as e:
+        logging.error(f"Error generating top authors chart: {str(e)}", exc_info=True)
 
+    # Generate keyword word cloud
+    try:
+        all_keywords = []
+        for _, row in papers_df.iterrows():
+            keywords = row['Keywords']
+            filtered_keywords = [kw.strip() for kw in keywords.split(",") if kw.strip()]
+            all_keywords.extend(filtered_keywords)
+        keyword_counts = Counter(all_keywords)
+        wordcloud = WordCloud(
+            width=1000, height=1000, background_color="white"
+        ).generate_from_frequencies(keyword_counts)
+        plt.figure(figsize=(10, 10))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.tight_layout(pad=0)
+        plt.savefig("update_template_or_data/statistics/keyword_wordcloud.png", dpi=460)
+        plt.close()
+    except Exception as e:
+        logging.error(f"Error generating keyword word cloud: {str(e)}", exc_info=True)
 
-top_15_counts = [author_counter[author] for author in top_authors]
-
-
-plt.figure(figsize=(10, 10)) 
-sns.barplot(x=top_15_counts, y=top_authors, palette="viridis")
-
-plt.title("Top Authors by Number of Papers", fontsize=20)
-plt.xlabel("Number of Papers", fontsize=20)
-plt.ylabel("Authors", fontsize=20)
-
-
-plt.xticks(fontsize=20)
-plt.yticks(fontsize=20)
-plt.tight_layout()
-
-
-plt.savefig("update_template_or_data/statistics/top_authors.png")
-
-
-import re
-def remove_square_brackets(s):
-    return re.sub(r'^\[|\]$', '', s)
-
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-from collections import Counter
-
-excluded_keywords = {}
-
-all_keywords = []
-for _, row in papers_df.iterrows():
-    keywords = row['Keywords']
-    # Ensure keywords are split correctly and clean them
-    filtered_keywords = [kw.strip() for kw in keywords.split(",") if kw.strip()]
-    all_keywords.extend(filtered_keywords)
-
-# Calculate the frequency of each keyword
-keyword_counts = Counter(all_keywords)
-
-print(keyword_counts)
-wordcloud = WordCloud(
-    width=1000,
-    height=1000,
-    background_color="white",
-    colormap="viridis",
-    contour_width=0,
-    contour_color='black',
-).generate_from_frequencies(keyword_counts)
-
-plt.figure(figsize=(10, 10))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
-plt.tight_layout(pad=0)
-
-plt.savefig("update_template_or_data/statistics/keyword_wordcloud.png", format='png', dpi=460)  
-plt.close()
+if __name__ == "__main__":
+    process_markdown()
