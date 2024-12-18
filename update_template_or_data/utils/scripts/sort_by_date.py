@@ -88,11 +88,11 @@ if not os.path.exists(subgroup_dir):
 
 # 2. 定义一个映射表，用于不同的env关键字
 env_keywords = {
-    "web": "env_web.md",
-    "desktop": "env_desktop.md",
-    "mobile": "env_mobile.md",
-    "gui": "env_gui.md",
-    "general": "env_general.md"
+    "Web": "paper_web.md",
+    "Desktop": "paper_desktop.md",
+    "Mobile": "paper_mobile.md",
+    "GUI": "paper_gui.md",
+    "Misc": "paper_misc.md"
 }
 
 # 3. 根据env字段进行过滤并生成相应的Markdown文件
@@ -132,14 +132,14 @@ for _, row in papers_df.iterrows():
     author_counter.update(author_list)
 
 # 3. 获取作品最多的前15个作者
-top_15_authors = [author for author, _ in author_counter.most_common(15)]
+top_authors = [author for author, _ in author_counter.most_common(15)]
 
 # 4. 为每个作者生成一个文件，只包含该作者的论文
 subgroup_dir = "paper_by_author"
 if not os.path.exists(subgroup_dir):
     os.makedirs(subgroup_dir)
 
-for author in top_15_authors:
+for author in top_authors:
     # 筛选出包含该作者的论文
     author_papers_df = papers_df[papers_df['Authors'].str.contains(author, case=False, na=False)]
 
@@ -157,7 +157,7 @@ for author in top_15_authors:
         sorted_markdown.append(markdown_entry)
 
     # 5. 保存文件
-    author_filename = f"author_{author.replace(' ', '_')}.md"
+    author_filename = f"paper_{author.replace(' ', '_')}.md"
     author_file_path = os.path.join(subgroup_dir, author_filename)
     with open(author_file_path, "w", encoding="utf-8") as file:
         file.write(f"# {author}'s Papers\n\n")
@@ -183,14 +183,14 @@ for _, row in papers_df.iterrows():
     author_counter.update(author_list)
 
 # 3. 获取作品最多的前15个作者
-top_15_authors = [author for author, _ in author_counter.most_common(num_top_author)]
+top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
 
 # 4. 获取前15个作者的作品数量
-top_15_counts = [author_counter[author] for author in top_15_authors]
+top_15_counts = [author_counter[author] for author in top_authors]
 
 # 5. 创建条形图
 plt.figure(figsize=(10, 10))  # 设置图表大小
-sns.barplot(x=top_15_counts, y=top_15_authors, palette="viridis")
+sns.barplot(x=top_15_counts, y=top_authors, palette="viridis")
 
 # 6. 设置图表标题和标签
 plt.title("Top Authors by Number of Papers", fontsize=20)
@@ -203,7 +203,7 @@ plt.yticks(fontsize=20)
 plt.tight_layout()
 
 # 8. 保存图表到文件
-plt.savefig("update_template_or_data/statistics/top_15_authors.png")
+plt.savefig("update_template_or_data/statistics/top_authors.png")
 
 # 9. 显示图表
 # plt.show()
