@@ -32,25 +32,27 @@ jobs:
           
       - name: Generate keyword grouping and update temp_readme.md
         run: |
-          # Generate a Markdown table for keywords with proper URL encoding
+          # Initialize the Markdown table
           GROUPED_KEYWORDS="|"
           ROW_COUNT=0
 
           for file in paper_by_key/*.md; do
-            # Extract keyword and format it for display and link
+            # Extract and encode the keyword for display and URL
             KEYWORD=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
             ENCODED_KEYWORD=$(echo "$KEYWORD" | sed 's/ /%20/g')
-            LINK="[${KEYWORD}](paper_by_key/$(basename "$file"))"
+            LINK="[${KEYWORD^}](paper_by_key/$(basename "$file" | sed 's/ /%20/g'))"
+
+            # Add to the table
             GROUPED_KEYWORDS+="$LINK |"
             ROW_COUNT=$((ROW_COUNT + 1))
 
-            # Add a new row every 5 columns
+            # Break line after 5 columns
             if [ $((ROW_COUNT % 5)) -eq 0 ]; then
               GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|\n|"
             fi
           done
 
-          # Ensure the table closes properly if the last row is incomplete
+          # Pad the last row if necessary
           if [ $((ROW_COUNT % 5)) -ne 0 ]; then
             for i in $(seq $((5 - ROW_COUNT % 5))); do
               GROUPED_KEYWORDS+=" |"
@@ -58,7 +60,7 @@ jobs:
             GROUPED_KEYWORDS+="\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|"
           fi
 
-          # Insert keyword grouping into the readme template
+          # Insert the table into the template
           sed -i '/{{insert_keyword_groups_here}}/{
             r /dev/stdin
             d
