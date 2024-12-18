@@ -6,6 +6,7 @@ import logging
 from collections import Counter
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Configure logging
 log_dir = "update_template_or_data/logs"
@@ -109,87 +110,27 @@ def process_markdown():
     final_output = "\n".join(sorted_markdown)
     write_file("update_template_or_data/update_paper_list.md", final_output)
 
-    # Generate environment-specific files
-    subgroup_dir = "paper_by_env"
-    if not os.path.exists(subgroup_dir):
-        os.makedirs(subgroup_dir)
-
-    env_keywords = {
-        "Web": "paper_web.md",
-        "Desktop": "paper_desktop.md",
-        "Mobile": "paper_mobile.md",
-        "GUI": "paper_gui.md",
-        "Misc": "paper_misc.md"
-    }
-
-    for env_key, file_name in env_keywords.items():
-        try:
-            filtered_df = papers_df[papers_df['Env'].str.contains(env_key, case=False, na=False)]
-            if not filtered_df.empty:
-                sorted_markdown = []
-                for _, row in filtered_df.iterrows():
-                    markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
-                                     f"    - {row['Authors']}\n" \
-                                     f"    - 🏛️ Institutions: {row['Institutions']}\n" \
-                                     f"    - 📅 Date: {row['Original Date']}\n" \
-                                     f"    - 📑 Publisher: {row['Publisher']}\n" \
-                                     f"    - 💻 Env: {row['Env']}\n" \
-                                     f"    - 🔑 Key: {row['Keywords']}\n" \
-                                     f"    - 📖 TLDR: {row['TLDR']}\n"
-                    sorted_markdown.append(markdown_entry)
-
-                final_output = "\n".join(sorted_markdown)
-                file_path = os.path.join(subgroup_dir, file_name)
-                write_file(file_path, final_output)
-        except Exception as e:
-            logging.error(f"Error generating file for environment {env_key}: {str(e)}", exc_info=True)
-
-    # Generate author-specific files
-    author_counter = Counter()
-    for _, row in papers_df.iterrows():
-        try:
+    # Generate top authors chart
+    try:
+        author_counter = Counter()
+        for _, row in papers_df.iterrows():
             authors = row['Authors']
             author_list = [author.strip() for author in authors.split(',')]
             author_counter.update(author_list)
-        except Exception as e:
-            logging.error(f"Error processing authors: {str(e)}", exc_info=True)
 
-    num_top_author = 10
-    top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
+        num_top_author = 10
+        top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
+        top_15_counts = [author_counter[author] for author in top_authors]
 
-    subgroup_dir = "paper_by_author"
-    if not os.path.exists(subgroup_dir):
-        os.makedirs(subgroup_dir)
-
-    for author in top_authors:
-        try:
-            author_papers_df = papers_df[papers_df['Authors'].str.contains(author, case=False, na=False)]
-            sorted_markdown = []
-            for _, row in author_papers_df.iterrows():
-                markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
-                                 f"    - {row['Authors']}\n" \
-                                 f"    - 🏛️ Institutions: {row['Institutions']}\n" \
-                                 f"    - 📅 Date: {row['Original Date']}\n" \
-                                 f"    - 📑 Publisher: {row['Publisher']}\n" \
-                                 f"    - 💻 Env: {row['Env']}\n" \
-                                 f"    - 🔑 Key: {row['Keywords']}\n" \
-                                 f"    - 📖 TLDR: {row['TLDR']}\n"
-                sorted_markdown.append(markdown_entry)
-
-            author_filename = f"paper_{author.replace(' ', '_')}.md"
-            author_file_path = os.path.join(subgroup_dir, author_filename)
-            write_file(author_file_path, f"# {author}'s Papers\n\n" + "\n".join(sorted_markdown))
-        except Exception as e:
-            logging.error(f"Error generating file for author {author}: {str(e)}", exc_info=True)
-
-    # Generate top authors chart
-    try:
-        top_author_counts = [author_counter[author] for author in top_authors]
         plt.figure(figsize=(10, 10))
-        plt.barh(top_authors, top_author_counts)
+        sns.barplot(x=top_15_counts, y=top_authors, palette="viridis")
+
         plt.title("Top Authors by Number of Papers", fontsize=20)
         plt.xlabel("Number of Papers", fontsize=20)
         plt.ylabel("Authors", fontsize=20)
+
+        plt.xticks(fontsize=20)
+        plt.yticks(fontsize=20)
         plt.tight_layout()
         plt.savefig("update_template_or_data/statistics/top_authors.png")
     except Exception as e:
