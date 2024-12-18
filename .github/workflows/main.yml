@@ -32,13 +32,15 @@ jobs:
           
       - name: Generate keyword grouping and update temp_readme.md
         run: |
-          # Dynamically generate a Markdown table for keywords
+          # Generate a Markdown table for keywords with proper URL encoding
           GROUPED_KEYWORDS="|"
           ROW_COUNT=0
 
           for file in paper_by_key/*.md; do
+            # Extract keyword and format it for display and link
             KEYWORD=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
-            LINK="[${KEYWORD^}](paper_by_key/$(basename "$file"))"
+            ENCODED_KEYWORD=$(echo "$KEYWORD" | sed 's/ /%20/g')
+            LINK="[${KEYWORD}](paper_by_key/$(basename "$file"))"
             GROUPED_KEYWORDS+="$LINK |"
             ROW_COUNT=$((ROW_COUNT + 1))
 
