@@ -1,3 +1,13 @@
+- [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://molmo.allenai.org/blog)
+  - Matt Deitke, Christopher Clark, Sangho Lee, Rohun Tripathi, Yue Yang, Jae Sung Park, Mohammadreza Salehi, Niklas Muennighoff, Kyle Lo, Luca Soldaini, Jiasen Lu, Taira Anderson, Erin Bransom, Kiana Ehsani, Huong Ngo, YenSung Chen, Ajay Patel, Mark Yatskar, Chris Callison-Burch, Andrew Head, Rose Hendrix, Favyen Bastani, Eli VanderBilt, Nathan Lambert, Yvonne Chou, Arnavi Chheda, Jenna Sparks, Sam Skjonsberg, Michael Schmitz, Aaron Sarnat, Byron Bischoff, Pete Walsh, Chris Newell, Piper Wolters, Tanmay Gupta, Kuo-Hao Zeng, Jon Borchardt, Dirk Groeneveld, Crystal Nam, Sophie Lebrecht, Caitlin Wittlif, Carissa Schoenick, Oscar Michel, Ranjay Krishna, Luca Weihs, Noah A. Smith, Hannaneh Hajishirzi, Ross Girshick, Ali Farhadi, Aniruddha Kembhavi
+  - 🏛️ Institutions: AI2, UW, UPenn, Princeton, UC Berkeley, MIT, Stanford, Meta, OpenAI
+  - 📅 Date: September 25, 2024
+  - 📑 Publisher: arXiv
+  - 💻 Env: [General]
+  - 🔑 Key: [model], [dataset], [PixMo], [Molmo], [VLM], [foundation model]
+  - 📖 TLDR: This paper introduces *Molmo*, a family of state-of-the-art open vision-language models (VLMs), and *PixMo*, a collection of new datasets including detailed image captions, free-form image Q&A, and innovative 2D pointing data, all collected without reliance on proprietary VLMs. The authors demonstrate that careful model design, a well-tuned training pipeline, and high-quality open datasets can produce VLMs that outperform existing open models and rival proprietary systems. The model weights, datasets, and source code are made publicly available to advance research in this field.
+
+
 - [The BrowserGym Ecosystem for Web Agent Research](https://arxiv.org/abs/2412.05467)
     - Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, Alexandre Lacoste
     - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal ,CMU, McGill University, Tel Aviv University,Université de Montréal, iMean AI
