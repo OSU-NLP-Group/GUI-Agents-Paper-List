@@ -57,7 +57,7 @@ jobs:
           git add paper_by_env 
           git add paper_by_author 
           git add update_template_or_data/statistics
-          git commit -m "Auto Updates"
+          git commit -m "auto updates by github workflow"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
