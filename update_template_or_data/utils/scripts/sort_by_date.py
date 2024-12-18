@@ -184,9 +184,9 @@ def process_markdown():
 
     # Generate top authors chart
     try:
-        top_15_counts = [author_counter[author] for author in top_authors]
+        top_author_counts = [author_counter[author] for author in top_authors]
         plt.figure(figsize=(10, 10))
-        plt.barh(top_authors, top_15_counts)
+        plt.barh(top_authors, top_author_counts)
         plt.title("Top Authors by Number of Papers", fontsize=20)
         plt.xlabel("Number of Papers", fontsize=20)
         plt.ylabel("Authors", fontsize=20)
