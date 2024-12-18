@@ -22,10 +22,8 @@ This paper list covers a variety of papers related to GUI Agents, including but 
 |--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
 
 
-[//]: # (## Papers Grouped by Keywords)
-
-[//]: # ()
-[//]: # (TBD)
+## Papers Grouped by Keywords
+{{insert_keyword_groups_here}}
 
 ## All Papers (from most recent to oldest)
 <details open>

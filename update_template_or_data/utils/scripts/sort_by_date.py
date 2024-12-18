@@ -162,6 +162,37 @@ def process_markdown():
         keywords_to_group = predefined_keywords.union(top_keywords)
 
         # Create directory for keyword-based grouping
+
+        import shutil
+
+        def clear_folder(folder_path):
+            try:
+                # 检查文件夹是否存在
+                if not os.path.exists(folder_path):
+                    print(f"文件夹 '{folder_path}' 不存在！")
+                    return
+
+                # 遍历文件夹中的所有文件和子文件夹
+                for item in os.listdir(folder_path):
+                    item_path = os.path.join(folder_path, item)
+
+                    # 如果是文件，删除文件
+                    if os.path.isfile(item_path):
+                        os.remove(item_path)
+
+                    # 如果是文件夹，删除整个文件夹
+                    elif os.path.isdir(item_path):
+                        shutil.rmtree(item_path)
+
+                print(f"文件夹 '{folder_path}' 已成功清空！")
+
+            except Exception as e:
+                print(f"清空文件夹时出错: {e}")
+
+        # 使用示例
+        folder_to_clear = "paper_by_key"
+        clear_folder(folder_to_clear)
+
         subgroup_dir = "paper_by_key"
         if not os.path.exists(subgroup_dir):
             os.makedirs(subgroup_dir)
