@@ -1654,9 +1654,12 @@ For missing information, use "Unknown."
 
 </details>
 
+[//]: # ()
+[//]: # (## Contributors)
 
-## Contributors
+[//]: # ()
+[//]: # (<a href="https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/graphs/contributors">)
 
-<a href="https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OSU-NLP-Group/GUI-Agents-Paper-List" />
-</a>
+[//]: # (  <img src="https://contrib.rocks/image?repo=OSU-NLP-Group/GUI-Agents-Paper-List" />)
+
+[//]: # (</a>)
