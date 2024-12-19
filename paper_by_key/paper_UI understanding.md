@@ -24,7 +24,7 @@
     - 📅 Date: February 7, 2024
     - 📑 Publisher: IJCAI 2024
     - 💻 Env: [GUI]
-    - 🔑 Key: [model], [dataset], [UI understanding], [infographics understanding], [vision-language model]
+    - 🔑 Key: [model], [dataset], [UI understanding], [infographics understanding], [vision language model]
     - 📖 TLDR: This paper introduces ScreenAI, a vision-language model specializing in UI and infographics understanding. The model combines the PaLI architecture with the flexible patching strategy of pix2struct and is trained on a unique mixture of datasets. ScreenAI achieves state-of-the-art results on several UI and infographics-based tasks, outperforming larger models. The authors also release three new datasets for screen annotation and question answering tasks.
 
 - [UIBert: Learning Generic Multimodal Representations for UI Understanding](https://www.ijcai.org/proceedings/2021/235)
