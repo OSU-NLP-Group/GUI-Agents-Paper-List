@@ -200,6 +200,47 @@ def process_markdown():
         folder_to_clear = "paper_by_env"
         clear_folder(folder_to_clear)
 
+        folder_to_clear = "paper_by_author"
+        clear_folder(folder_to_clear)
+
+        # Generate author-specific files
+        try:
+            # Count authors across papers
+            author_counter = Counter()
+            for _, row in papers_df.iterrows():
+                authors = row['Authors']
+                author_list = [author.strip() for author in authors.split(',')]
+                author_counter.update(author_list)
+
+            num_top_author = 15
+            top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
+
+            # Create directory for author-specific grouping
+            subgroup_dir = "paper_by_author"
+            if not os.path.exists(subgroup_dir):
+                os.makedirs(subgroup_dir)
+
+            for author in top_authors:
+                filtered_df = papers_df[papers_df['Authors'].str.contains(author, case=False, na=False)]
+                if not filtered_df.empty:
+                    sorted_markdown = []
+                    for _, row in filtered_df.iterrows():
+                        markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
+                                         f"    - {row['Authors']}\n" \
+                                         f"    - 🏛️ Institutions: {row['Institutions']}\n" \
+                                         f"    - 📅 Date: {row['Original Date']}\n" \
+                                         f"    - 📑 Publisher: {row['Publisher']}\n" \
+                                         f"    - 💻 Env: {row['Env']}\n" \
+                                         f"    - 🔑 Key: {row['Keywords']}\n" \
+                                         f"    - 📖 TLDR: {row['TLDR']}\n"
+                        sorted_markdown.append(markdown_entry)
+
+                    author_filename = f"paper_{author.replace(' ', '_')}.md"
+                    author_file_path = os.path.join(subgroup_dir, author_filename)
+                    write_file(author_file_path, f"# {author}'s Papers\n\n" + "\n".join(sorted_markdown))
+        except Exception as e:
+            logging.error(f"Error generating author-specific files: {str(e)}", exc_info=True)
+
         # Generate environment-specific files
         try:
             subgroup_dir = "paper_by_env"
