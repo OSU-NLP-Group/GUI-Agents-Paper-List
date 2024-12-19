@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-This paper list covers a variety of papers related to GUI Agents, such as:
+This repo covers a variety of papers related to GUI Agents, such as:
 - GUI Understanding
 - Datasets
 - Benchmarks
