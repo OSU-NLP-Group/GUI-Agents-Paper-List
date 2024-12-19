@@ -6,7 +6,7 @@
     - 📅 Date: November 12, 2024
     - 📑 Publisher: EMNLP 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [safety], [Chrome extension], [WebOlympus]
+    - 🔑 Key: [safety], [Chrome extension], [WebOlympus], [SeeAct], [Annotation Tool]
     - 📖 TLDR: This paper introduces *WebOlympus*, an open platform designed to facilitate the research and deployment of web agents on live websites. It features a user-friendly Chrome extension interface, allowing users without programming expertise to operate web agents with minimal effort. The platform incorporates a safety monitor module to prevent harmful actions through human supervision or model-based control, supporting applications such as annotation interfaces for web agent trajectories and data crawling.
 
 - [Attacking Vision-Language Computer Agents via Pop-ups](https://arxiv.org/abs/2411.02391)
