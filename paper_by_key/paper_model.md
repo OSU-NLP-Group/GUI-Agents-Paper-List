@@ -303,7 +303,7 @@
     - 📅 Date: Jan 1, 2024
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [model], [dataset], [web navigation], [instruction-following]
+    - 🔑 Key: [benchmark], [model], [dataset], [web navigation], [instruction-following], [WebShop]
     - 📖 TLDR: This paper introduces WebGUM, an instruction-following multimodal agent for autonomous web navigation that leverages both visual (webpage screenshots) and textual (HTML) inputs to perform actions such as click and type. The model is trained on a vast corpus of demonstrations and shows improved capabilities in visual perception, HTML comprehension, and multi-step decision-making, achieving state-of-the-art performance on benchmarks like MiniWoB and WebShop. WebGUM provides a scalable approach to web-based tasks without task-specific architectures, enabling high-performance web navigation with generalizable, multimodal foundation models.
 
 - [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914)
