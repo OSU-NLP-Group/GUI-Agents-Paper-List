@@ -239,7 +239,7 @@ def process_markdown():
         plt.close()
 
         wordcloud = WordCloud(
-            width=2000, height=1000, background_color="white"
+            width=2000, height=1000, background_color="white", max_font_size=150
         ).generate_from_frequencies(keyword_counts)
         plt.figure(figsize=(20, 10))
         plt.imshow(wordcloud, interpolation='bilinear')
