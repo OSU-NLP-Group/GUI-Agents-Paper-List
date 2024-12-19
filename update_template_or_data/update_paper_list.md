@@ -1,7 +1,7 @@
 
 - [Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents](https://arxiv.org/abs/2412.13194)
   - Yifei Zhou, Qianlan Yang, Kaixiang Lin, Min Bai, Xiong Zhou, Yu-Xiong Wang, Sergey Levine, Erran Li
-  - 🏛️ Institutions: MSR, UIUC, Amazon
+  - 🏛️ Institutions: UCB, UIUC, Amazon
   - 📅 Date: December 17, 2024
   - 📑 Publisher: arXiv
   - 💻 Env: [Web]
