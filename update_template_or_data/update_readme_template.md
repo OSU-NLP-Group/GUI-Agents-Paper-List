@@ -1,11 +1,11 @@
 # Awesome GUI Agent Paper List
 
-This repo covers a variety of papers related to GUI Agents, such as:
+This repo covers a variety of topics related to GUI Agents, such as:
 - GUI Understanding
-- Datasets and Benchmarks
-- New agent frameworks and models
-- Vision, language, multimodal foundation models (with explicit support for GUI)
-- Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
+- Datasets/Benchmarks
+- Agent Frameworks/Models
+- Foundation Models (Vision, Language, Multimodality)
+- Works in General Domains Extensively Used by GUI Agents (e.g., SoM prompting)
 
 
 [//]: # (<div style="display: flex; justify-content: space-around;">)
