@@ -1613,7 +1613,7 @@ Please fork and update:
 - [README template](update_template_or_data/update_readme_template.md)
 - [automatic workflow](.github/workflows/main.yml)
 
-You can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) to quickly search and get a formatted paper entry automatically. Or you can simply leave a comment in an issue.
+🤖 You can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) to quickly search and get a formatted paper entry automatically by inputting a paper name. Or you can simply leave a comment in an issue.
 
 <details>
 <summary>Format example and explanation</summary>
