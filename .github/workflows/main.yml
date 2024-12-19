@@ -45,8 +45,6 @@ jobs:
             fi
           done
           
-          GROUPED_KEYWORDS+=$'\n'
-
           # Generate sections for all other keywords dynamically
           for file in paper_by_key/*.md; do
             KEYWORD=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
@@ -66,22 +64,37 @@ jobs:
           }' update_template_or_data/update_readme_template.md <<< "$GROUPED_KEYWORDS"
           
 
+#      - name: Generate author grouping and update temp_readme.md
+#        run: |
+#          # Initialize the output for grouped papers by authors
+#          GROUPED_AUTHORS=""
+#
+#          # Iterate over all files in the paper_by_author directory
+#          for file in paper_by_author/*.md; do
+#            # Extract the author name by removing 'paper_' and '.md', and replacing '_' with spaces
+#            AUTHOR=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
+#
+#            # Add the author to the grouped authors section
+#            GROUPED_AUTHORS+="[${AUTHOR^}](paper_by_author/$(basename "$file" | sed 's/ /%20/g')) | "
+#          done
+#
+#          # Trim the trailing '| ' at the end
+#          GROUPED_AUTHORS=${GROUPED_AUTHORS% | }
+#
+#          # Insert the author grouping content into the template
+#          sed -i '/{{insert_author_groups_here}}/{
+#            r /dev/stdin
+#            d
+#          }' update_template_or_data/update_readme_template.md <<< "$GROUPED_AUTHORS"
+
       - name: Generate author grouping and update temp_readme.md
         run: |
-          # Initialize the output for grouped papers by authors
-          GROUPED_AUTHORS=""
-
-          # Iterate over all files in the paper_by_author directory
-          for file in paper_by_author/*.md; do
-            # Extract the author name by removing 'paper_' and '.md', and replacing '_' with spaces
-            AUTHOR=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
-
-            # Add the author to the grouped authors section
-            GROUPED_AUTHORS+="[${AUTHOR^}](paper_by_author/$(basename "$file" | sed 's/ /%20/g')) | "
-          done
-
-          # Trim the trailing '| ' at the end
-          GROUPED_AUTHORS=${GROUPED_AUTHORS% | }
+          # Read the pre-generated author grouping Markdown
+          if [ -f update_template_or_data/author_grouping.md ]; then
+            GROUPED_AUTHORS=$(cat update_template_or_data/author_grouping.md)
+          else
+            GROUPED_AUTHORS="No authors available"
+          fi
 
           # Insert the author grouping content into the template
           sed -i '/{{insert_author_groups_here}}/{

@@ -207,6 +207,40 @@ def process_markdown():
         folder_to_clear = "paper_by_author"
         clear_folder(folder_to_clear)
 
+        # Generate sorted author grouping markdown
+        # Generate sorted author grouping markdown
+        try:
+            # Count authors across papers
+            author_counter = Counter()
+            for _, row in papers_df.iterrows():
+                authors = row['Authors']
+                author_list = [author.strip() for author in authors.split(',')]
+                author_counter.update(author_list)
+
+            # Sort authors by the number of papers in descending order
+            sorted_authors = sorted(author_counter.items(), key=lambda x: x[1], reverse=True)
+
+            # Limit to top N authors
+            top_num_author = 20  # Change this number to adjust how many authors to keep
+            top_authors = sorted_authors[:top_num_author]
+
+            # Generate Markdown content for the top authors
+            grouped_authors_markdown = []
+            for author, count in top_authors:
+                author_filename = f"paper_{author.replace(' ', '_')}.md"
+                author_link = f"paper_by_author/{author_filename.replace(' ', '%20')}"
+                grouped_authors_markdown.append(f"[{author} ({count})]({author_link}) | ")
+
+            # Join the Markdown content into a single string
+            grouped_authors_markdown_str = "".join(grouped_authors_markdown).rstrip(" | ")
+
+            # Save the sorted Markdown to a temporary file for the workflow
+            write_file("update_template_or_data/author_grouping.md", grouped_authors_markdown_str)
+        except Exception as e:
+            logging.error(f"Error generating sorted author grouping Markdown: {str(e)}", exc_info=True)
+
+
+
         # Generate author-specific files
         try:
             # Count authors across papers
@@ -216,7 +250,7 @@ def process_markdown():
                 author_list = [author.strip() for author in authors.split(',')]
                 author_counter.update(author_list)
 
-            num_top_author = 15
+            num_top_author = 20
             top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
 
             # Create directory for author-specific grouping
