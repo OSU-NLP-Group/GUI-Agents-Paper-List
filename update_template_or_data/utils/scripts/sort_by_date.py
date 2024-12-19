@@ -351,7 +351,7 @@ def process_markdown():
         keyword_counter = Counter(all_keywords)
 
         # Define predefined keywords
-        predefined_keywords = ["Model", "Framework", "Benchmark", "Dataset",  "Safety", "Survey"]
+        predefined_keywords = ["model", "framework", "benchmark", "dataset",  "safety", "survey"]
 
         # Get counts for predefined keywords
         predefined_keyword_counts = [(kw, keyword_counter[kw]) for kw in predefined_keywords if kw in keyword_counter]
@@ -361,6 +361,7 @@ def process_markdown():
             (kw, count) for kw, count in keyword_counter.most_common()
             if kw not in predefined_keywords
         ]
+        print(len(remaining_keywords))
 
         # Limit to top (20 - predefined_keywords) remaining keywords
         top_num_keywords = 20 - len(predefined_keywords)
@@ -368,6 +369,8 @@ def process_markdown():
 
         # Combine predefined and top remaining keywords
         combined_keywords = predefined_keyword_counts + top_remaining_keywords
+
+        print(len(combined_keywords))
 
         # Sort combined keywords by count in descending order (within their respective groups)
         combined_keywords.sort(
