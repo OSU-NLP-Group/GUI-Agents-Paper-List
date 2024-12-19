@@ -20,7 +20,7 @@
 
 - [ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615)
     - Gilles Baechler, Srinivas Sunkara, Maria Wang, Fedir Zubach, Hassan Mansoor, Vincent Etter, Victor Cărbune, Jason Lin, Jindong Chen, Abhanshu Sharma
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google DeepMind
     - 📅 Date: February 7, 2024
     - 📑 Publisher: IJCAI 2024
     - 💻 Env: [GUI]

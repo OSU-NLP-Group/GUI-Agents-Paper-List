@@ -38,7 +38,7 @@
 
 - [LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Automation Task Evaluation](https://arxiv.org/abs/2404.16054)
     - Li Zhang, Shihe Wang, Xianqing Jia, Zhihan Zheng, Yunhe Yan, Longxi Gao, Yuanchun Li, Mengwei Xu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: BUPT, Tsinghua University
     - 📅 Date: April 12, 2024
     - 📑 Publisher: UIST 2024
     - 💻 Env: [Mobile]
