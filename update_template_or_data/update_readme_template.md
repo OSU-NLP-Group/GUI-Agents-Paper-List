@@ -18,7 +18,8 @@ This paper list covers a variety of papers related to GUI Agents, such as:
 
 [//]: # (</div>)
 
-![keyword_wordcloud_long.png](statistics%2Fkeyword_wordcloud_long.png)
+![keyword_wordcloud_long.png](update_template_or_data%2Fstatistics%2Fkeyword_wordcloud_long.png)
+
 
 ## Papers Grouped by Environments
 | [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
