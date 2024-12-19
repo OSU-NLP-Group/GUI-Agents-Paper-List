@@ -45,6 +45,15 @@
     - 🔑 Key: [benchmark], [framework], [multihop web browsing], [multimodal tasks], [long-range reasoning]
     - 📖 TLDR: The **MMInA** benchmark is designed to evaluate agents' capacity to complete complex, multihop web tasks by navigating and extracting information across evolving real-world websites. Composed of 1,050 tasks across diverse domains, MMInA challenges agents with realistic, multimodal information retrieval and reasoning tasks, such as comparative shopping and travel inquiries. Despite recent advances, agents show difficulties in handling tasks requiring sequential steps across multiple sites, underscoring the need for enhanced multimodal and memory-augmented models.
 
+- [Tur[k]ingBench: A Challenge Benchmark for Web Agents](https://arxiv.org/abs/2403.11905)
+    - Kevin Xu, Yeganeh Kordi, Kate Sanders, Yizhong Wang, Adam Byerly, Jingyu Zhang, Benjamin Van Durme, Daniel Khashabi
+    - 🏛️ Institutions: JHU, Brown, UW
+    - 📅 Date: March 18, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [web-based tasks], [multi-modal reasoning], [TurkingBench]
+    - 📖 TLDR: This paper introduces **Tur[k]ingBench**, a benchmark comprising 158 web-grounded tasks designed to evaluate AI agents' capabilities in complex web-based environments. Unlike prior benchmarks that utilize synthetic web pages, Tur[k]ingBench leverages natural HTML pages from crowdsourcing platforms, presenting tasks with rich multi-modal contexts. The benchmark includes 32.2K instances, each with diverse inputs, challenging models to interpret and interact with web pages effectively. Evaluations of state-of-the-art models reveal significant room for improvement, highlighting the need for advanced web-based agents capable of handling real-world web interactions. :contentReference[oaicite:0]{index=0}
+
 - [GAIA: a benchmark for General AI Assistants](https://huggingface.co/gaia-benchmark)
     - Grégoire Mialon, Yassine Nakkach, Aslan Tchamkerten, Albert Thomas, Laurent Dinh, and a research team from Meta AI and Hugging Face.
     - 🏛️ Institutions: Meta AI, Hugging Face
