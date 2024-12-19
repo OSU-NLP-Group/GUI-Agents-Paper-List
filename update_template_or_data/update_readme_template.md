@@ -25,7 +25,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 | [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
 |--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
 
-(Misc: Papers that do not specifically study for GUIs.)
+(Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
 {{insert_keyword_groups_here}}
