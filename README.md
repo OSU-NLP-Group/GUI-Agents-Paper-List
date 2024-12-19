@@ -29,7 +29,7 @@ This paper list covers a variety of papers related to GUI Agents, such as:
 
 ## Papers Grouped by Keywords
 [Model](paper_by_key/paper_model.md) | [Framework](paper_by_key/paper_framework.md) | [Dataset](paper_by_key/paper_dataset.md) | [Benchmark](paper_by_key/paper_benchmark.md) | [Safety](paper_by_key/paper_safety.md) | [Survey](paper_by_key/paper_survey.md) | 
-[Mind2Web](paper_by_key/paper_Mind2Web.md) | [UI understanding](paper_by_key/paper_UI%20understanding.md) | [Attack](paper_by_key/paper_attack.md) | [Evaluation](paper_by_key/paper_evaluation.md) | [Foundation model](paper_by_key/paper_foundation%20model.md) | [Grounding](paper_by_key/paper_grounding.md) | [Learning](paper_by_key/paper_learning.md) | [Planning](paper_by_key/paper_planning.md) | [Reasoning](paper_by_key/paper_reasoning.md) | [Reinforcement learning](paper_by_key/paper_reinforcement%20learning.md) | [Self-improvement](paper_by_key/paper_self-improvement.md) | [Synthetic data](paper_by_key/paper_synthetic%20data.md) | [Vision language model](paper_by_key/paper_vision%20language%20model.md) | [Visual grounding](paper_by_key/paper_visual%20grounding.md)
+[UI understanding](paper_by_key/paper_UI%20understanding.md) | [Attack](paper_by_key/paper_attack.md) | [Evaluation](paper_by_key/paper_evaluation.md) | [Foundation model](paper_by_key/paper_foundation%20model.md) | [Grounding](paper_by_key/paper_grounding.md) | [Learning](paper_by_key/paper_learning.md) | [Planning](paper_by_key/paper_planning.md) | [Programming-by-demonstration](paper_by_key/paper_programming-by-demonstration.md) | [Reasoning](paper_by_key/paper_reasoning.md) | [Reinforcement learning](paper_by_key/paper_reinforcement%20learning.md) | [Self-improvement](paper_by_key/paper_self-improvement.md) | [Synthetic data](paper_by_key/paper_synthetic%20data.md) | [Vision language model](paper_by_key/paper_vision%20language%20model.md) | [Visual grounding](paper_by_key/paper_visual%20grounding.md)
 
 ## All Papers (from most recent to oldest)
 <details open>
@@ -698,7 +698,7 @@ This paper list covers a variety of papers related to GUI Agents, such as:
     - 📅 Date: June 20, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [evaluation metric], [intent identification], [Android-In-The-Wild], [Mind2Web]
+    - 🔑 Key: [evaluation metric], [intent identification]
     - 📖 TLDR: This paper introduces the task of goal identification from observed UI trajectories, aiming to infer the user's intended task based on their GUI interactions. It proposes a novel evaluation metric to assess whether two task descriptions are paraphrases within a specific UI environment. Experiments utilizing the Android-In-The-Wild and Mind2Web datasets reveal that state-of-the-art models, such as GPT-4 and Gemini-1.5 Pro, underperform compared to humans, indicating significant room for improvement.
 
 - [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://ical-learning.github.io/)
@@ -1193,7 +1193,7 @@ This paper list covers a variety of papers related to GUI Agents, such as:
     - 📅 Date: January 1, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2web], [Mind2Web]
+    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2web]
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
 - [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
