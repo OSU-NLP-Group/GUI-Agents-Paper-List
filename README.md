@@ -1,4 +1,4 @@
-# Awesome GUI Agent Paper List: Comprehensive Paper Repository on GUI Agents.
+# Awesome GUI Agent Paper List
 
 This paper list covers a variety of papers related to GUI Agents, such as:
 - GUI Understanding
@@ -24,7 +24,8 @@ This paper list covers a variety of papers related to GUI Agents, such as:
 (Misc: Papers that do not specifically study for GUIs.)
 
 ## Papers Grouped by Keywords
-[Model](paper_by_key/paper_model.md) | [Framework](paper_by_key/paper_framework.md) | [Dataset](paper_by_key/paper_dataset.md) | [Benchmark](paper_by_key/paper_benchmark.md) | [Safety](paper_by_key/paper_safety.md) | [Survey](paper_by_key/paper_survey.md) | \n[UI understanding](paper_by_key/paper_UI%20understanding.md) | [Evaluation](paper_by_key/paper_evaluation.md) | [Fine-tuning](paper_by_key/paper_fine-tuning.md) | [Foundation model](paper_by_key/paper_foundation%20model.md) | [Grounding](paper_by_key/paper_grounding.md) | [Learning](paper_by_key/paper_learning.md) | [Planning](paper_by_key/paper_planning.md) | [Programming-by-demonstration](paper_by_key/paper_programming-by-demonstration.md) | [Reasoning](paper_by_key/paper_reasoning.md) | [Reinforcement learning](paper_by_key/paper_reinforcement%20learning.md) | [Synthetic data](paper_by_key/paper_synthetic%20data.md) | [Vision-language model](paper_by_key/paper_vision-language%20model.md) | [Visual grounding](paper_by_key/paper_visual%20grounding.md) | [Web-based tasks](paper_by_key/paper_web-based%20tasks.md)
+[Model](paper_by_key/paper_model.md) | [Framework](paper_by_key/paper_framework.md) | [Dataset](paper_by_key/paper_dataset.md) | [Benchmark](paper_by_key/paper_benchmark.md) | [Safety](paper_by_key/paper_safety.md) | [Survey](paper_by_key/paper_survey.md) | 
+[UI understanding](paper_by_key/paper_UI%20understanding.md) | [Evaluation](paper_by_key/paper_evaluation.md) | [Fine-tuning](paper_by_key/paper_fine-tuning.md) | [Foundation model](paper_by_key/paper_foundation%20model.md) | [Grounding](paper_by_key/paper_grounding.md) | [Learning](paper_by_key/paper_learning.md) | [Planning](paper_by_key/paper_planning.md) | [Programming-by-demonstration](paper_by_key/paper_programming-by-demonstration.md) | [Reasoning](paper_by_key/paper_reasoning.md) | [Reinforcement learning](paper_by_key/paper_reinforcement%20learning.md) | [Synthetic data](paper_by_key/paper_synthetic%20data.md) | [Vision-language model](paper_by_key/paper_vision-language%20model.md) | [Visual grounding](paper_by_key/paper_visual%20grounding.md) | [Web-based tasks](paper_by_key/paper_web-based%20tasks.md)
 
 ## All Papers (from most recent to oldest)
 <details open>
@@ -1596,6 +1597,7 @@ Regarding the 🔑 Key:
 | benchmark       | If a new benchmark is established (also add "dataset" if there's a new training set). |
 | primary studies | List the main focus or innovation in the study.                                       |
 | Abbreviations | Include commonly used abbreviations associated with the paper (model names, framework names, etc.).                       |
+
 For missing information, use "Unknown."
 
 
