@@ -138,6 +138,10 @@ def process_markdown():
 
     folder_to_clear = "update_template_or_data/statistics/"
     clear_folder(folder_to_clear)
+    subgroup_dir="update_template_or_data/statistics/"
+    if not os.path.exists(subgroup_dir):
+        os.makedirs(subgroup_dir)
+
 
     # Generate top authors chart
     try:
@@ -303,6 +307,8 @@ def process_markdown():
 
     # Generate keyword word cloud
     try:
+
+
         all_keywords = []
         for _, row in papers_df.iterrows():
             keywords = row['Keywords']
