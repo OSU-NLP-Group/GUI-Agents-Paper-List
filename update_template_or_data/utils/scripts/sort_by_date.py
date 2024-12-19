@@ -110,6 +110,35 @@ def process_markdown():
     final_output = "\n".join(sorted_markdown)
     write_file("update_template_or_data/update_paper_list.md", final_output)
 
+    import shutil
+
+    def clear_folder(folder_path):
+        try:
+            # 检查文件夹是否存在
+            if not os.path.exists(folder_path):
+                print(f"文件夹 '{folder_path}' 不存在！")
+                return
+
+            # 遍历文件夹中的所有文件和子文件夹
+            for item in os.listdir(folder_path):
+                item_path = os.path.join(folder_path, item)
+
+                # 如果是文件，删除文件
+                if os.path.isfile(item_path):
+                    os.remove(item_path)
+
+                # 如果是文件夹，删除整个文件夹
+                elif os.path.isdir(item_path):
+                    shutil.rmtree(item_path)
+
+            print(f"文件夹 '{folder_path}' 已成功清空！")
+
+        except Exception as e:
+            print(f"清空文件夹时出错: {e}")
+
+    folder_to_clear = "update_template_or_data/statistics/"
+    clear_folder(folder_to_clear)
+
     # Generate top authors chart
     try:
         author_counter = Counter()
@@ -163,35 +192,48 @@ def process_markdown():
 
         # Create directory for keyword-based grouping
 
-        import shutil
-
-        def clear_folder(folder_path):
-            try:
-                # 检查文件夹是否存在
-                if not os.path.exists(folder_path):
-                    print(f"文件夹 '{folder_path}' 不存在！")
-                    return
-
-                # 遍历文件夹中的所有文件和子文件夹
-                for item in os.listdir(folder_path):
-                    item_path = os.path.join(folder_path, item)
-
-                    # 如果是文件，删除文件
-                    if os.path.isfile(item_path):
-                        os.remove(item_path)
-
-                    # 如果是文件夹，删除整个文件夹
-                    elif os.path.isdir(item_path):
-                        shutil.rmtree(item_path)
-
-                print(f"文件夹 '{folder_path}' 已成功清空！")
-
-            except Exception as e:
-                print(f"清空文件夹时出错: {e}")
 
         # 使用示例
         folder_to_clear = "paper_by_key"
         clear_folder(folder_to_clear)
+
+        folder_to_clear = "paper_by_env"
+        clear_folder(folder_to_clear)
+
+        # Generate environment-specific files
+        try:
+            subgroup_dir = "paper_by_env"
+            if not os.path.exists(subgroup_dir):
+                os.makedirs(subgroup_dir)
+
+            env_keywords = {
+                "Web": "paper_web.md",
+                "Desktop": "paper_desktop.md",
+                "Mobile": "paper_mobile.md",
+                "GUI": "paper_gui.md",
+                "Misc": "paper_misc.md"
+            }
+
+            for env_key, file_name in env_keywords.items():
+                filtered_df = papers_df[papers_df['Env'].str.contains(env_key, case=False, na=False)]
+                if not filtered_df.empty:
+                    sorted_markdown = []
+                    for _, row in filtered_df.iterrows():
+                        markdown_entry = f"- [{row['Title']}]({row['Link']})\n" \
+                                         f"    - {row['Authors']}\n" \
+                                         f"    - 🏛️ Institutions: {row['Institutions']}\n" \
+                                         f"    - 📅 Date: {row['Original Date']}\n" \
+                                         f"    - 📑 Publisher: {row['Publisher']}\n" \
+                                         f"    - 💻 Env: {row['Env']}\n" \
+                                         f"    - 🔑 Key: {row['Keywords']}\n" \
+                                         f"    - 📖 TLDR: {row['TLDR']}\n"
+                        sorted_markdown.append(markdown_entry)
+
+                    final_output = "\n".join(sorted_markdown)
+                    file_path = os.path.join(subgroup_dir, file_name)
+                    write_file(file_path, final_output)
+        except Exception as e:
+            logging.error(f"Error generating environment-specific files: {str(e)}", exc_info=True)
 
         subgroup_dir = "paper_by_key"
         if not os.path.exists(subgroup_dir):
