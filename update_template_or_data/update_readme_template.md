@@ -58,7 +58,7 @@ You can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) to qui
     - 🏛️ Institutions: List the institutions concisely, using abbreviations (e.g., university names, like OSU).
     - 📅 Date: e.g., Oct 30, 2024
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [General] if it is researching on general domains.
+    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [Misc] if it is researching in general domains.
     - 🔑 Key: Label each keyword within brackets, e.g., [model], [framework],[dataset],[benchmark].
     - 📖 TLDR: Brief summary of the paper.
 ```
