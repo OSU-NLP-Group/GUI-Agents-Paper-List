@@ -65,20 +65,23 @@ jobs:
             d
           }' update_template_or_data/update_readme_template.md <<< "$GROUPED_KEYWORDS"
           
-            - name: Generate author grouping and update temp_readme.md
+        
+
+
+      - name: Generate author grouping and update temp_readme.md
         run: |
           # Initialize the output for grouped papers by authors
           GROUPED_AUTHORS=""
-          
+
           # Iterate over all files in the paper_by_author directory
           for file in paper_by_author/*.md; do
             # Extract the author name by removing 'paper_' and '.md', and replacing '_' with spaces
             AUTHOR=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
-            
+
             # Add the author to the grouped authors section
             GROUPED_AUTHORS+="[${AUTHOR^}](paper_by_author/$(basename "$file" | sed 's/ /%20/g')) | "
           done
-          
+
           # Trim the trailing '| ' at the end
           GROUPED_AUTHORS=${GROUPED_AUTHORS% | }
 
@@ -87,20 +90,6 @@ jobs:
             r /dev/stdin
             d
           }' update_template_or_data/update_readme_template.md <<< "$GROUPED_AUTHORS"
-
-      - name: Update temp_readme.md with sorted papers content
-        run: |
-          # 读取更新后的 update_template_or_data/update_paper_list.md 内容
-          CONTENT=$(cat update_template_or_data/update_paper_list.md)
-          
-          # 使用 sed 插入 content 到 temp_readme.md 的占位符位置
-          sed -i '/{{insert_all_papers_here}}/{
-            r /dev/stdin
-            d
-          }' update_template_or_data/update_readme_template.md <<< "$CONTENT"
-
-
-
 
       - name: Overwrite README.md with updated temp_readme.md
         run: |
