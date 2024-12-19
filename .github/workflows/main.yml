@@ -32,37 +32,18 @@ jobs:
           
       - name: Generate keyword grouping and update temp_readme.md
         run: |
-          # Define fixed priority keywords
-          PRIORITY_KEYWORDS="model framework dataset benchmark safety survey"
+          # Read the pre-generated keyword grouping Markdown
+          if [ -f update_template_or_data/keyword_grouping.md ]; then
+            GROUPED_KEYWORDS=$(cat update_template_or_data/keyword_grouping.md)
+          else
+            GROUPED_KEYWORDS="No keywords available"
+          fi
 
-          # Initialize the output for grouped papers
-          GROUPED_KEYWORDS=""
-          # Generate priority keyword sections first
-          for key in $PRIORITY_KEYWORDS; do
-            FILE="paper_by_key/paper_${key}.md"
-            if [ -f "$FILE" ]; then
-              GROUPED_KEYWORDS+="[${key^}](paper_by_key/paper_${key}.md) | "
-            fi
-          done
-          
-          # Generate sections for all other keywords dynamically
-          for file in paper_by_key/*.md; do
-            KEYWORD=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
-            # Skip priority keywords already processed
-            if [[ "$PRIORITY_KEYWORDS" != *"${KEYWORD}"* ]]; then
-              GROUPED_KEYWORDS+="[${KEYWORD^}](paper_by_key/$(basename "$file" | sed 's/ /%20/g')) | "
-            fi
-          done
-
-          # Trim the trailing '| ' at the end
-          GROUPED_KEYWORDS=${GROUPED_KEYWORDS% | }
-
-          # Insert the content into the template
+          # Insert the keyword grouping content into the template
           sed -i '/{{insert_keyword_groups_here}}/{
             r /dev/stdin
             d
           }' update_template_or_data/update_readme_template.md <<< "$GROUPED_KEYWORDS"
-          
 
 #      - name: Generate author grouping and update temp_readme.md
 #        run: |

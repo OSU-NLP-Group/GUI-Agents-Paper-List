@@ -339,6 +339,55 @@ def process_markdown():
     except Exception as e:
         logging.error(f"Error generating keyword-based Markdown files: {str(e)}", exc_info=True)
 
+    # Generate sorted keyword grouping markdown
+    # Generate sorted keyword grouping markdown with predefined keywords prioritized
+    try:
+        # Extract and count all keywords
+        all_keywords = []
+        for _, row in papers_df.iterrows():
+            keywords = row['Keywords']
+            filtered_keywords = [remove_square_brackets(kw.strip()) for kw in keywords.split(",") if kw.strip()]
+            all_keywords.extend(filtered_keywords)
+        keyword_counter = Counter(all_keywords)
+
+        # Define predefined keywords
+        predefined_keywords = ["Model", "Framework", "Benchmark", "Dataset",  "Safety", "Survey"]
+
+        # Get counts for predefined keywords
+        predefined_keyword_counts = [(kw, keyword_counter[kw]) for kw in predefined_keywords if kw in keyword_counter]
+
+        # Find remaining top keywords excluding predefined ones
+        remaining_keywords = [
+            (kw, count) for kw, count in keyword_counter.most_common()
+            if kw not in predefined_keywords
+        ]
+
+        # Limit to top (20 - predefined_keywords) remaining keywords
+        top_num_keywords = 20 - len(predefined_keywords)
+        top_remaining_keywords = remaining_keywords[:top_num_keywords]
+
+        # Combine predefined and top remaining keywords
+        combined_keywords = predefined_keyword_counts + top_remaining_keywords
+
+        # Sort combined keywords by count in descending order (within their respective groups)
+        combined_keywords.sort(
+            key=lambda x: (-x[1], predefined_keywords.index(x[0]) if x[0] in predefined_keywords else float('inf')))
+
+        # Generate Markdown content for keywords
+        grouped_keywords_markdown = []
+        for keyword, count in combined_keywords:
+            keyword_filename = f"paper_{keyword.replace(' ', '_')}.md"
+            keyword_link = f"paper_by_key/{keyword_filename.replace(' ', '%20')}"
+            grouped_keywords_markdown.append(f"[{keyword} ({count})]({keyword_link}) | ")
+
+        # Join the Markdown content into a single string
+        grouped_keywords_markdown_str = "".join(grouped_keywords_markdown).rstrip(" | ")
+
+        # Save the sorted Markdown to a temporary file for the workflow
+        write_file("update_template_or_data/keyword_grouping.md", grouped_keywords_markdown_str)
+    except Exception as e:
+        logging.error(f"Error generating sorted keyword grouping Markdown: {str(e)}", exc_info=True)
+
     # Generate keyword word cloud
     try:
 
