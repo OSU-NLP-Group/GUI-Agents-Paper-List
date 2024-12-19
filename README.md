@@ -3,6 +3,7 @@
 This repo covers a variety of papers related to GUI Agents, such as:
 - Datasets
 - Benchmarks
+- Models
 - Agent frameworks
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
