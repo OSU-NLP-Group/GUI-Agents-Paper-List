@@ -92,7 +92,7 @@
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
     - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MSRA
     - 📅 Date: October 7, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -101,7 +101,7 @@
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206)
     - Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Princeton University
     - 📅 Date: July 2022
     - 📑 Publisher: NeurIPS 2022
     - 💻 Env: [Web]
@@ -110,7 +110,7 @@
 
 - [Grounding Open-Domain Instructions to Automate Web Support Tasks](https://arxiv.org/abs/2103.16057)
     - Nancy Xu, Sam Masling, Michael Du, Giovanni Campagna, Larry Heck, James Landay, Monica Lam
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Stanford
     - 📅 Date: March 30, 2021
     - 📑 Publisher: NAACL 2021
     - 💻 Env: [Web]
@@ -119,7 +119,7 @@
 
 - [Mapping Natural Language Instructions to Mobile UI Action Sequences](https://aclanthology.org/2020.acl-main.729)
     - Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, Jason Baldridge
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Researc
     - 📅 Date: July 2020
     - 📑 Publisher: ACL 2020
     - 💻 Env: [Mobile]

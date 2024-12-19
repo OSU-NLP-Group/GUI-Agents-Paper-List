@@ -281,7 +281,7 @@
 
 - [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914)
     - Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhao Chen, Yuxuan Wang, Yining Ye, Jiayi Zhang, Hao Dong, Wenhu Chen, Yizhou Wang, Kai-Wei Chang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tsinghua University, Zhipu AI
     - 📅 Date: December 15, 2023
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [GUI]
@@ -290,7 +290,7 @@
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
     - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MSRA
     - 📅 Date: October 7, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -308,7 +308,7 @@
 
 - [Augmenting Autotelic Agents with Large Language Models](https://arxiv.org/abs/2305.12487)
     - Cédric Colas, Laetitia Teodorescu, Pierre-Yves Oudeyer, Xingdi Yuan, Marc-Alexandre Côté
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MIT, Inria, Microsoft
     - 📅 Date: May 22, 2023
     - 📑 Publisher: CoLLAs 2023
     - 💻 Env: [GUI]
@@ -335,7 +335,7 @@
 
 - [Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus](https://arxiv.org/abs/2209.14927)
     - Gang Li, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Research
     - 📅 Date: September 29, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Mobile]
@@ -344,7 +344,7 @@
 
 - [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://arxiv.org/abs/2108.03353)
     - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of Toronto
     - 📅 Date: August 6, 2021
     - 📑 Publisher: UIST 2021
     - 💻 Env: [Mobile]

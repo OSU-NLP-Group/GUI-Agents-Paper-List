@@ -569,7 +569,7 @@
 
 - [Android in the Zoo: Chain-of-Action-Thought for GUI Agents](https://arxiv.org/abs/2403.02713)
     - Jiwen Zhang, Jihao Wu, Yihua Teng, Minghui Liao, Nuo Xu, Xiao Xiao, Zhongyu Wei, Duyu Tang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Fudan University, Huawei
     - 📅 Date: March 5, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -659,7 +659,7 @@
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
     - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU
     - 📅 Date: January 24, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
@@ -677,7 +677,7 @@
 
 - [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
     - Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tencent
     - 📅 Date: December 21, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -686,7 +686,7 @@
 
 - [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
     - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: NUS
     - 📅 Date: December 20, 2023
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Desktop]
@@ -704,7 +704,7 @@
 
 - [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736)
     - Fangzhi Xu, Qiushi Sun, Kanzhi Cheng, Jun Liu, Yu Qiao, Zhiyong Wu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Lab, HKU, Nanjing University
     - 📅 Date: November 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI (evaluated on web, math reasoning, and logic reasoning environments)]
@@ -731,7 +731,7 @@
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
     - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MSRA
     - 📅 Date: October 7, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -758,7 +758,7 @@
 
 - [LASER: LLM Agent with State-Space Exploration for Web Navigation](https://arxiv.org/abs/2309.08172)
     - Kaixin Ma, Hongming Zhang, Hongwei Wang, Xiaoman Pan, Dong Yu, Jianshu Chen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tencent AI Lab
     - 📅 Date: September 15, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -775,8 +775,8 @@
     - 📖 TLDR: This paper introduces AutoDroid, a novel mobile task automation system capable of handling arbitrary tasks on any Android application without manual efforts. The framework combines the commonsense knowledge of LLMs with domain-specific knowledge of apps through automated dynamic analysis. AutoDroid features a functionality-aware UI representation method, exploration-based memory injection techniques, and a multi-granularity query optimization module. Evaluated on a new benchmark with 158 common tasks, AutoDroid achieves a 90.9% action generation accuracy and a 71.3% task completion rate, significantly outperforming GPT-4-powered baselines.
 
 - [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://arxiv.org/abs/2407.20183)
-    - Zehui Chen, Zhenyu Wang, Jiannan Jiang, Jiashuo Wang, Zhiyi Zhang, Yicheng Zou, Yuxiang Zhou, Jingxuan He, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Unknown
+    - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
+    - 🏛️ Institutions: USTC, Shanghai AI Lab
     - 📅 Date: July 29, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -784,8 +784,8 @@
     - 📖 TLDR: This paper presents MindSearch, a novel approach to web information seeking and integration that mimics human cognitive processes. The system uses a multi-agent framework consisting of a WebPlanner and WebSearcher. The WebPlanner models multi-step information seeking as a dynamic graph construction process, decomposing complex queries into sub-questions. The WebSearcher performs hierarchical information retrieval for each sub-question. MindSearch demonstrates significant improvements in response quality and depth compared to existing AI search solutions, processing information from over 300 web pages in just 3 minutes.
 
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
-    - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Yonatan Bisk, Daniel Fried, Uri Alon, et al.
-    - 🏛️ Institutions: Unknown
+    - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
+    - 🏛️ Institutions: CMU
     - 📅 Date: July 26, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Web]
@@ -794,7 +794,7 @@
 
 - [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://arxiv.org/abs/2307.12856)
     - Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google DeepMind, The University of Tokyo
     - 📅 Date: July 2023
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [Web]
@@ -811,8 +811,8 @@
     - 📖 TLDR: Synapse introduces a novel framework for computer control tasks, leveraging trajectory-as-exemplar prompting and memory to enhance LLM performance in complex, multi-step computer tasks. The system combines state abstraction, trajectory-based prompts, and memory retrieval, overcoming LLM limitations by filtering task-irrelevant data, storing exemplar trajectories, and retrieving relevant instances for improved decision-making. Synapse achieves significant performance gains on benchmarks such as MiniWoB++ and Mind2Web, demonstrating enhanced task success rates and generalization across diverse web-based tasks.
 
 - [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308)
-    - Jian Jiang, Zhanran Wang, Zhihong Shao, Zhiyi Fu, Zhengliang Liu, Peng Zhang, Zhen Li, Qingying Yan, Weijia Shi, Xiao Liu, Jie Zhang, Qi Zhang, Tao Yu
-    - 🏛️ Institutions: Unknown
+    - Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang
+    - 🏛️ Institutions: UCAS, HKISI-CAS, PolyU, Shanghai AI Lab
     - 📅 Date: May 30, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [GUI]
@@ -821,7 +821,7 @@
 
 - [Augmenting Autotelic Agents with Large Language Models](https://arxiv.org/abs/2305.12487)
     - Cédric Colas, Laetitia Teodorescu, Pierre-Yves Oudeyer, Xingdi Yuan, Marc-Alexandre Côté
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MIT, Inria, Microsoft
     - 📅 Date: May 22, 2023
     - 📑 Publisher: CoLLAs 2023
     - 💻 Env: [GUI]
@@ -830,7 +830,7 @@
 
 - [Language Models can Solve Computer Tasks](https://arxiv.org/abs/2303.17491)
     - Geunwoo Kim, Pierre Baldi, Stephen McAleer
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UCI
     - 📅 Date: March 30, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Desktop]
@@ -848,7 +848,7 @@
 
 - [Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus](https://arxiv.org/abs/2209.14927)
     - Gang Li, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Research
     - 📅 Date: September 29, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Mobile]
@@ -857,7 +857,7 @@
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206)
     - Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Princeton University
     - 📅 Date: July 2022
     - 📑 Publisher: NeurIPS 2022
     - 💻 Env: [Web]
@@ -875,7 +875,7 @@
 
 - [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://arxiv.org/abs/2108.03353)
     - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of Toronto
     - 📅 Date: August 6, 2021
     - 📑 Publisher: UIST 2021
     - 💻 Env: [Mobile]
@@ -893,7 +893,7 @@
 
 - [Grounding Open-Domain Instructions to Automate Web Support Tasks](https://arxiv.org/abs/2103.16057)
     - Nancy Xu, Sam Masling, Michael Du, Giovanni Campagna, Larry Heck, James Landay, Monica Lam
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Stanford
     - 📅 Date: March 30, 2021
     - 📑 Publisher: NAACL 2021
     - 💻 Env: [Web]
@@ -911,7 +911,7 @@
 
 - [Mapping Natural Language Instructions to Mobile UI Action Sequences](https://aclanthology.org/2020.acl-main.729)
     - Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, Jason Baldridge
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Researc
     - 📅 Date: July 2020
     - 📑 Publisher: ACL 2020
     - 💻 Env: [Mobile]
@@ -920,7 +920,7 @@
 
 - [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://arxiv.org/abs/1802.08802)
     - Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, Percy Liang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Stanford
     - 📅 Date: February 24, 2018
     - 📑 Publisher: ICLR 2018
     - 💻 Env: [Web]

@@ -299,7 +299,7 @@
 
 - [Android in the Zoo: Chain-of-Action-Thought for GUI Agents](https://arxiv.org/abs/2403.02713)
     - Jiwen Zhang, Jihao Wu, Yihua Teng, Minghui Liao, Nuo Xu, Xiao Xiao, Zhongyu Wei, Duyu Tang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Fudan University, Huawei
     - 📅 Date: March 5, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -344,7 +344,7 @@
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
     - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU
     - 📅 Date: January 24, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
@@ -371,7 +371,7 @@
 
 - [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
     - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: NUS
     - 📅 Date: December 20, 2023
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Desktop]
@@ -380,7 +380,7 @@
 
 - [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914)
     - Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhao Chen, Yuxuan Wang, Yining Ye, Jiayi Zhang, Hao Dong, Wenhu Chen, Yizhou Wang, Kai-Wei Chang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tsinghua University, Zhipu AI
     - 📅 Date: December 15, 2023
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [GUI]
@@ -389,7 +389,7 @@
 
 - [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736)
     - Fangzhi Xu, Qiushi Sun, Kanzhi Cheng, Jun Liu, Yu Qiao, Zhiyong Wu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Lab, HKU, Nanjing University
     - 📅 Date: November 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI (evaluated on web, math reasoning, and logic reasoning environments)]
@@ -416,7 +416,7 @@
 
 - [Android in the Wild: A Large-Scale Dataset for Android Device Control](https://arxiv.org/abs/2307.10088)
     - Christopher Rawles, Alice Li, Daniel Rodriguez, Oriana Riva, Timothy Lillicrap
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Research, Google DeepMind
     - 📅 Date: July 19, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Mobile]
@@ -433,8 +433,8 @@
     - 📖 TLDR: *Mind2Web* presents a dataset and benchmark specifically crafted for generalist web agents capable of performing language-guided tasks across varied websites. Featuring over 2,000 tasks from 137 sites, it spans 31 domains and emphasizes open-ended, realistic tasks in authentic, unsimplified web settings. The study proposes the *MindAct* framework, which optimizes LLMs for handling complex HTML elements by using small LMs to rank elements before full processing, thereby enhancing the efficiency and versatility of web agents in diverse contexts.
 
 - [Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction](https://arxiv.org/abs/2305.08144)
-    - Danyang Zhang, Lu Chen, Zihan Zhao, Ruisheng Cao, Kai Yu
-    - 🏛️ Institutions: Unknown
+    - Danyang Zhang, Zhennan Shen, Rui Xie, Situo Zhang, Tianbao Xie, Zihan Zhao, Siyuan Chen, Lu Chen, Hongshen Xu, Ruisheng Cao, Kai Yu
+    - 🏛️ Institutions: SJTU, HKU
     - 📅 Date: May 14, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -452,7 +452,7 @@
 
 - [Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus](https://arxiv.org/abs/2209.14927)
     - Gang Li, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Research
     - 📅 Date: September 29, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Mobile]
@@ -461,7 +461,7 @@
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206)
     - Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Princeton University
     - 📅 Date: July 2022
     - 📑 Publisher: NeurIPS 2022
     - 💻 Env: [Web]
@@ -470,7 +470,7 @@
 
 - [META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI](https://arxiv.org/abs/2205.11029)
     - Liangtai Sun, Xingyu Chen, Lu Chen, Tianle Dai, Zichen Zhu, Kai Yu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: SJTU
     - 📅 Date: May 23, 2022
     - 📑 Publisher: EMNLP 2022
     - 💻 Env: [Mobile]
@@ -488,7 +488,7 @@
 
 - [A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility](https://arxiv.org/abs/2202.02312)
     - Andrea Burns, Deniz Arsan, Sanjna Agrawal, Ranjitha Kumar, Kate Saenko, Bryan A. Plummer
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Boston University, UIUC
     - 📅 Date: February 4, 2022
     - 📑 Publisher: ECCV 2022
     - 💻 Env: [Mobile]
@@ -497,7 +497,7 @@
 
 - [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://arxiv.org/abs/2108.03353)
     - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of Toronto
     - 📅 Date: August 6, 2021
     - 📑 Publisher: UIST 2021
     - 💻 Env: [Mobile]
@@ -515,7 +515,7 @@
 
 - [WebSRC: A Dataset for Web-Based Structural Reading Comprehension](https://arxiv.org/abs/2101.09465)
     - Lu Chen, Zihan Zhao, Xingyu Chen, Danyang Zhang, Jiabao Ji, Ao Luo, Yuxuan Xiong, Kai Yu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: SJTU
     - 📅 Date: January 23, 2021
     - 📑 Publisher: EMNLP 2021
     - 💻 Env: [Web]
@@ -533,7 +533,7 @@
 
 - [Mapping Natural Language Instructions to Mobile UI Action Sequences](https://aclanthology.org/2020.acl-main.729)
     - Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, Jason Baldridge
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Researc
     - 📅 Date: July 2020
     - 📑 Publisher: ACL 2020
     - 💻 Env: [Mobile]

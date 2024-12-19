@@ -74,7 +74,7 @@
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
     - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MSRA
     - 📅 Date: October 7, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -83,7 +83,7 @@
 
 - [Augmenting Autotelic Agents with Large Language Models](https://arxiv.org/abs/2305.12487)
     - Cédric Colas, Laetitia Teodorescu, Pierre-Yves Oudeyer, Xingdi Yuan, Marc-Alexandre Côté
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MIT, Inria, Microsoft
     - 📅 Date: May 22, 2023
     - 📑 Publisher: CoLLAs 2023
     - 💻 Env: [GUI]
@@ -101,7 +101,7 @@
 
 - [AndroidEnv: A Reinforcement Learning Platform for Android](https://arxiv.org/abs/2105.13231)
     - Daniel Toyama, Philippe Hamel, Anita Gergely, Gheorghe Comanici, Amelia Glaese, Zafarali Ahmed, Tyler Jackson, Shibl Mourad, Doina Precup
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: DeepMind
     - 📅 Date: May 27, 2021
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -110,7 +110,7 @@
 
 - [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://arxiv.org/abs/1802.08802)
     - Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, Percy Liang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Stanford
     - 📅 Date: February 24, 2018
     - 📑 Publisher: ICLR 2018
     - 💻 Env: [Web]

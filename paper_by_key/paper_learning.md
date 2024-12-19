@@ -137,7 +137,7 @@
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
     - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MSRA
     - 📅 Date: October 7, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -146,7 +146,7 @@
 
 - [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://arxiv.org/abs/2307.12856)
     - Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google DeepMind, The University of Tokyo
     - 📅 Date: July 2023
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [Web]
@@ -155,7 +155,7 @@
 
 - [Augmenting Autotelic Agents with Large Language Models](https://arxiv.org/abs/2305.12487)
     - Cédric Colas, Laetitia Teodorescu, Pierre-Yves Oudeyer, Xingdi Yuan, Marc-Alexandre Côté
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: MIT, Inria, Microsoft
     - 📅 Date: May 22, 2023
     - 📑 Publisher: CoLLAs 2023
     - 💻 Env: [GUI]
@@ -173,7 +173,7 @@
 
 - [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://arxiv.org/abs/2108.03353)
     - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of Toronto
     - 📅 Date: August 6, 2021
     - 📑 Publisher: UIST 2021
     - 💻 Env: [Mobile]
@@ -191,7 +191,7 @@
 
 - [AndroidEnv: A Reinforcement Learning Platform for Android](https://arxiv.org/abs/2105.13231)
     - Daniel Toyama, Philippe Hamel, Anita Gergely, Gheorghe Comanici, Amelia Glaese, Zafarali Ahmed, Tyler Jackson, Shibl Mourad, Doina Precup
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: DeepMind
     - 📅 Date: May 27, 2021
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -200,7 +200,7 @@
 
 - [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://arxiv.org/abs/1802.08802)
     - Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, Percy Liang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Stanford
     - 📅 Date: February 24, 2018
     - 📑 Publisher: ICLR 2018
     - 💻 Env: [Web]

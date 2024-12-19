@@ -56,7 +56,7 @@
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
     - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU
     - 📅 Date: January 24, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
