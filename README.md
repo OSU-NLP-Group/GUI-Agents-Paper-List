@@ -25,7 +25,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 | [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
 |--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
 
-(Misc: Papers that do not specifically study for GUIs.)
+(Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
 [Model](paper_by_key/paper_model.md) | [Framework](paper_by_key/paper_framework.md) | [Dataset](paper_by_key/paper_dataset.md) | [Benchmark](paper_by_key/paper_benchmark.md) | [Safety](paper_by_key/paper_safety.md) | [Survey](paper_by_key/paper_survey.md) | 
@@ -67,7 +67,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://arxiv.org/abs/2412.05467)
     - Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, Alexandre Lacoste
-    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal , CMU, McGill University, Tel Aviv University, Université de Montréal, iMean AI
+    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, CMU, McGill University, Tel Aviv University, Université de Montréal, iMean AI
     - 📅 Date: December 6, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
