@@ -661,7 +661,7 @@
     - 📅 Date: June 20, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [evaluation metric], [intent identification], [Android-In-The-Wild], [Mind2Web]
+    - 🔑 Key: [evaluation metric], [intent identification]
     - 📖 TLDR: This paper introduces the task of goal identification from observed UI trajectories, aiming to infer the user's intended task based on their GUI interactions. It proposes a novel evaluation metric to assess whether two task descriptions are paraphrases within a specific UI environment. Experiments utilizing the Android-In-The-Wild and Mind2Web datasets reveal that state-of-the-art models, such as GPT-4 and Gemini-1.5 Pro, underperform compared to humans, indicating significant room for improvement.
 
 - [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://ical-learning.github.io/)
@@ -1156,7 +1156,7 @@
     - 📅 Date: January 1, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2web], [Mind2Web]
+    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2web]
     - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
 - [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
