@@ -64,6 +64,29 @@ jobs:
             r /dev/stdin
             d
           }' update_template_or_data/update_readme_template.md <<< "$GROUPED_KEYWORDS"
+          
+            - name: Generate author grouping and update temp_readme.md
+        run: |
+          # Initialize the output for grouped papers by authors
+          GROUPED_AUTHORS=""
+          
+          # Iterate over all files in the paper_by_author directory
+          for file in paper_by_author/*.md; do
+            # Extract the author name by removing 'paper_' and '.md', and replacing '_' with spaces
+            AUTHOR=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
+            
+            # Add the author to the grouped authors section
+            GROUPED_AUTHORS+="[${AUTHOR^}](paper_by_author/$(basename "$file" | sed 's/ /%20/g')) | "
+          done
+          
+          # Trim the trailing '| ' at the end
+          GROUPED_AUTHORS=${GROUPED_AUTHORS% | }
+
+          # Insert the author grouping content into the template
+          sed -i '/{{insert_author_groups_here}}/{
+            r /dev/stdin
+            d
+          }' update_template_or_data/update_readme_template.md <<< "$GROUPED_AUTHORS"
 
       - name: Update temp_readme.md with sorted papers content
         run: |

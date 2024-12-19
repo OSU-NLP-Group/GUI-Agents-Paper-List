@@ -30,6 +30,9 @@ This repo covers a variety of papers related to GUI Agents, such as:
 ## Papers Grouped by Keywords
 {{insert_keyword_groups_here}}
 
+## Papers Grouped by Authors
+{{insert_author_groups_here}}
+
 ## All Papers (from most recent to oldest)
 <details open>
 <summary>Papers</summary>
