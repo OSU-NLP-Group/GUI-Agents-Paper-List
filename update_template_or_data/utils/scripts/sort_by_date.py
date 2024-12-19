@@ -226,6 +226,8 @@ def process_markdown():
             filtered_keywords = [remove_square_brackets(kw.strip()) for kw in keywords.split(",") if kw.strip()]
             all_keywords.extend(filtered_keywords)
         keyword_counts = Counter(all_keywords)
+
+
         wordcloud = WordCloud(
             width=1000, height=1000, background_color="white"
         ).generate_from_frequencies(keyword_counts)
@@ -235,6 +237,17 @@ def process_markdown():
         plt.tight_layout(pad=0)
         plt.savefig("update_template_or_data/statistics/keyword_wordcloud.png", dpi=460)
         plt.close()
+
+        wordcloud = WordCloud(
+            width=2000, height=1000, background_color="white"
+        ).generate_from_frequencies(keyword_counts)
+        plt.figure(figsize=(20, 10))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.tight_layout(pad=0)
+        plt.savefig("update_template_or_data/statistics/keyword_wordcloud_long.png", dpi=400)
+        plt.close()
+
     except Exception as e:
         logging.error(f"Error generating keyword word cloud: {str(e)}", exc_info=True)
 
