@@ -353,7 +353,7 @@
 
 - [Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model](https://arxiv.org/abs/2407.03037)
     - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
-    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences; Monash University; Beijing Institute of Technology; University of Chinese Academy of Sciences
+    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences, Monash University, Beijing Institute of Technology, University of Chinese Academy of Sciences
     - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

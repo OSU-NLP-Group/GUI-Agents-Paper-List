@@ -65,7 +65,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [Falcon-UI: Understanding GUI Before Following User Instructions](https://arxiv.org/abs/2412.09362)
     - Huawen Shen, Chang Liu, Gengluo Li, Xinlong Wang, Yu Zhou, Can Ma, Xiangyang Ji
-    - 🏛️ Institutions: Chinese Academy of Sciences; Tsinghua University; Nankai University; BAAI
+    - 🏛️ Institutions: Chinese Academy of Sciences, Tsinghua University, Nankai University, BAAI
     - 📅 Date: Dec 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -659,7 +659,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model](https://arxiv.org/abs/2407.03037)
     - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
-    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences; Monash University; Beijing Institute of Technology; University of Chinese Academy of Sciences
+    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences, Monash University, Beijing Institute of Technology, University of Chinese Academy of Sciences
     - 📅 Date: July 3, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
