@@ -27,10 +27,10 @@ This repo covers a variety of papers related to GUI Agents, such as:
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
-[framework (104)](paper_by_key/paper_framework.md) | [benchmark (68)](paper_by_key/paper_benchmark.md) | [dataset (62)](paper_by_key/paper_dataset.md) | [model (30)](paper_by_key/paper_model.md) | [reinforcement learning (13)](paper_by_key/paper_reinforcement_learning.md) | [safety (11)](paper_by_key/paper_safety.md) | [visual grounding (8)](paper_by_key/paper_visual_grounding.md) | [planning (7)](paper_by_key/paper_planning.md) | [reasoning (5)](paper_by_key/paper_reasoning.md) | [grounding (5)](paper_by_key/paper_grounding.md) | [vision language model (5)](paper_by_key/paper_vision_language_model.md) | [attack (4)](paper_by_key/paper_attack.md) | [evaluation (4)](paper_by_key/paper_evaluation.md) | [survey (3)](paper_by_key/paper_survey.md) | [learning (3)](paper_by_key/paper_learning.md) | [synthetic data (3)](paper_by_key/paper_synthetic_data.md) | [foundation model (3)](paper_by_key/paper_foundation_model.md) | [UI understanding (3)](paper_by_key/paper_UI_understanding.md) | [self-improvement (3)](paper_by_key/paper_self-improvement.md) | [SeeAct (2)](paper_by_key/paper_SeeAct.md)
+[framework (105)](paper_by_key/paper_framework.md) | [benchmark (68)](paper_by_key/paper_benchmark.md) | [dataset (63)](paper_by_key/paper_dataset.md) | [model (31)](paper_by_key/paper_model.md) | [reinforcement learning (13)](paper_by_key/paper_reinforcement_learning.md) | [safety (11)](paper_by_key/paper_safety.md) | [visual grounding (8)](paper_by_key/paper_visual_grounding.md) | [planning (7)](paper_by_key/paper_planning.md) | [reasoning (5)](paper_by_key/paper_reasoning.md) | [grounding (5)](paper_by_key/paper_grounding.md) | [vision language model (5)](paper_by_key/paper_vision_language_model.md) | [attack (4)](paper_by_key/paper_attack.md) | [evaluation (4)](paper_by_key/paper_evaluation.md) | [survey (3)](paper_by_key/paper_survey.md) | [synthetic data (3)](paper_by_key/paper_synthetic_data.md) | [learning (3)](paper_by_key/paper_learning.md) | [foundation model (3)](paper_by_key/paper_foundation_model.md) | [UI understanding (3)](paper_by_key/paper_UI_understanding.md) | [self-improvement (3)](paper_by_key/paper_self-improvement.md) | [programming-by-demonstration (3)](paper_by_key/paper_programming-by-demonstration.md)
 
 ## Papers Grouped by Authors
-[Yu Su (9)](paper_by_author/paper_Yu_Su.md) | [Graham Neubig (8)](paper_by_author/paper_Graham_Neubig.md) | [Huan Sun (8)](paper_by_author/paper_Huan_Sun.md) | [Tianbao Xie (7)](paper_by_author/paper_Tianbao_Xie.md) | [Tao Yu (7)](paper_by_author/paper_Tao_Yu.md) | [Boyuan Zheng (7)](paper_by_author/paper_Boyuan_Zheng.md) | [Shuyan Zhou (7)](paper_by_author/paper_Shuyan_Zhou.md) | [Xiao Liu (6)](paper_by_author/paper_Xiao_Liu.md) | [Hanyu Lai (6)](paper_by_author/paper_Hanyu_Lai.md) | [Jie Tang (6)](paper_by_author/paper_Jie_Tang.md) | [Yuxiao Dong (6)](paper_by_author/paper_Yuxiao_Dong.md) | [Difei Gao (5)](paper_by_author/paper_Difei_Gao.md) | [Mike Zheng Shou (5)](paper_by_author/paper_Mike_Zheng_Shou.md) | [Zhiyong Wu (5)](paper_by_author/paper_Zhiyong_Wu.md) | [Daniel Fried (5)](paper_by_author/paper_Daniel_Fried.md) | [Ruslan Salakhutdinov (4)](paper_by_author/paper_Ruslan_Salakhutdinov.md) | [Caiming Xiong (4)](paper_by_author/paper_Caiming_Xiong.md) | [Boyu Gou (4)](paper_by_author/paper_Boyu_Gou.md) | [Yu Gu (4)](paper_by_author/paper_Yu_Gu.md) | [Iat Long Iong (4)](paper_by_author/paper_Iat_Long_Iong.md)
+[Yu Su (9)](paper_by_author/paper_Yu_Su.md) | [Graham Neubig (8)](paper_by_author/paper_Graham_Neubig.md) | [Huan Sun (8)](paper_by_author/paper_Huan_Sun.md) | [Tianbao Xie (7)](paper_by_author/paper_Tianbao_Xie.md) | [Tao Yu (7)](paper_by_author/paper_Tao_Yu.md) | [Boyuan Zheng (7)](paper_by_author/paper_Boyuan_Zheng.md) | [Shuyan Zhou (7)](paper_by_author/paper_Shuyan_Zhou.md) | [Xiao Liu (6)](paper_by_author/paper_Xiao_Liu.md) | [Hanyu Lai (6)](paper_by_author/paper_Hanyu_Lai.md) | [Jie Tang (6)](paper_by_author/paper_Jie_Tang.md) | [Yuxiao Dong (6)](paper_by_author/paper_Yuxiao_Dong.md) | [Difei Gao (5)](paper_by_author/paper_Difei_Gao.md) | [Mike Zheng Shou (5)](paper_by_author/paper_Mike_Zheng_Shou.md) | [Zhiyong Wu (5)](paper_by_author/paper_Zhiyong_Wu.md) | [Daniel Fried (5)](paper_by_author/paper_Daniel_Fried.md) | [Toby Jia-Jun Li (5)](paper_by_author/paper_Toby_Jia-Jun_Li.md) | [Ruslan Salakhutdinov (4)](paper_by_author/paper_Ruslan_Salakhutdinov.md) | [Caiming Xiong (4)](paper_by_author/paper_Caiming_Xiong.md) | [Boyu Gou (4)](paper_by_author/paper_Boyu_Gou.md) | [Yu Gu (4)](paper_by_author/paper_Yu_Gu.md)
 
 ## All Papers (from most recent to oldest)
 <details open>
@@ -62,6 +62,15 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [Information-Sensitive Cropping], [Self-Refining Dual Learning], [visual grounding], [model]
     - 📖 TLDR: This paper introduces *Iris*, a visual agent designed to enhance GUI automation by addressing challenges in high-resolution, complex digital environments. It employs two key innovations: **Information-Sensitive Cropping (ISC)**, which dynamically identifies and prioritizes visually dense regions using an edge detection algorithm for efficient processing, and **Self-Refining Dual Learning (SRDL)**, which enhances the agent's ability to handle complex tasks through a dual-learning loop that iteratively refines its performance without requiring additional annotated data. Empirical evaluations demonstrate that Iris achieves state-of-the-art performance across multiple benchmarks with only 850K GUI annotations, outperforming methods using ten times more training data.
+
+- [Falcon-UI: Understanding GUI Before Following User Instructions](https://arxiv.org/abs/2412.09362)
+    - Huawen Shen, Chang Liu, Gengluo Li, Xinlong Wang, Yu Zhou, Can Ma, Xiangyang Ji
+    - 🏛️ Institutions: Chinese Academy of Sciences; Tsinghua University; Nankai University; BAAI
+    - 📅 Date: Dec 12, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [dataset], [Falcon-UI], [GUI understanding]
+    - 📖 TLDR: This paper introduces *Falcon-UI*, a GUI agent model that emphasizes understanding GUI contexts before following user instructions. The authors present the *Insight-UI Dataset*, an instruction-free GUI navigation dataset generated from the Common Crawl corpus, simulating various platforms like iOS, Android, Windows, and Linux across multiple resolutions on 312K domains. Falcon-UI is pretrained on this dataset and fine-tuned on Android and Web GUI datasets, achieving performance comparable to larger models, highlighting the importance of decoupling GUI understanding from instruction following in agent performance. :contentReference[oaicite:0]{index=0}
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://arxiv.org/abs/2412.05467)
     - Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, Alexandre Lacoste
@@ -216,15 +225,6 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 🔑 Key: [framework], [Auto-Intent]
     - 📖 TLDR: The paper presents Auto-Intent, a method to adapt pre-trained large language models for web navigation tasks without direct fine-tuning. It discovers underlying intents from domain demonstrations and trains an intent predictor to enhance decision-making. Auto-Intent improves the performance of GPT-3.5, GPT-4, and Llama-3.1 agents on benchmarks like Mind2Web and WebArena.
 
-- [AutoGLM: Autonomous Foundation Agents for GUIs](https://xiao9905.github.io/AutoGLM/)
-    - Xiao Liu, Bo Qin, Dongzhu Liang, Guang Dong, Hanyu Lai, Hanchen Zhang, Hanlin Zhao, Iat Long Iong, Jiadai Sun, Jiaqi Wang, Junjie Gao, Junjun Shan, Kangning Liu, Shudan Zhang, Shuntian Yao, Siyi Cheng, Wentao Yao, Wenyi Zhao, Xinghan Liu, Xinyi Liu, Xinying Chen, Xinyue Yang, Yang Yang, Yifan Xu, Yu Yang, Yujia Wang, Yulin Xu, Zehan Qi, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Zhipu AI, Tsinghua University
-    - 📅 Date: October 25, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [model], [learning], [AutoGLM]
-    - 📖 TLDR: This paper introduces AutoGLM, a new series in the ChatGLM family, designed as foundation agents for autonomous control of digital devices through GUIs. It addresses the challenges foundation models face in decision-making within dynamic environments by developing agents capable of learning through autonomous interactions. Focusing on web browsers and Android devices, AutoGLM integrates various techniques to create deployable agent systems. Key insights include the importance of designing an appropriate "intermediate interface" for GUI control and a novel progressive training framework for self-evolving online curriculum reinforcement learning. Evaluations demonstrate AutoGLM's effectiveness across multiple domains, achieving notable success rates in web browsing and Android device control tasks.
-
 - [EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data](https://doi.org/10.48550/arXiv.2410.19461)
     - Xuetian Chen, Hangcheng Li, Jiaqing Liang, Sihang Jiang, Deqing Yang
     - 🏛️ Institutions: Fudan University
@@ -233,6 +233,15 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 💻 Env: [GUI]
     - 🔑 Key: [dataset], [framework], [synthetic data]
     - 📖 TLDR: The *EDGE* framework proposes an innovative approach to improve GUI understanding and interaction capabilities in vision-language models through large-scale, multi-granularity synthetic data generation. By leveraging webpage data, EDGE minimizes the need for manual annotations and enhances the adaptability of models across desktop and mobile GUI environments. Evaluations show its effectiveness in diverse GUI-related tasks, contributing significantly to autonomous agent development in GUI navigation and interaction.
+
+- [AutoGLM: Autonomous Foundation Agents for GUIs](https://xiao9905.github.io/AutoGLM/)
+    - Xiao Liu, Bo Qin, Dongzhu Liang, Guang Dong, Hanyu Lai, Hanchen Zhang, Hanlin Zhao, Iat Long Iong, Jiadai Sun, Jiaqi Wang, Junjie Gao, Junjun Shan, Kangning Liu, Shudan Zhang, Shuntian Yao, Siyi Cheng, Wentao Yao, Wenyi Zhao, Xinghan Liu, Xinyi Liu, Xinying Chen, Xinyue Yang, Yang Yang, Yifan Xu, Yu Yang, Yujia Wang, Yulin Xu, Zehan Qi, Yuxiao Dong, Jie Tang
+    - 🏛️ Institutions: Zhipu AI, Tsinghua University
+    - 📅 Date: October 25, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [model], [learning], [AutoGLM]
+    - 📖 TLDR: This paper introduces AutoGLM, a new series in the ChatGLM family, designed as foundation agents for autonomous control of digital devices through GUIs. It addresses the challenges foundation models face in decision-making within dynamic environments by developing agents capable of learning through autonomous interactions. Focusing on web browsers and Android devices, AutoGLM integrates various techniques to create deployable agent systems. Key insights include the importance of designing an appropriate "intermediate interface" for GUI control and a novel progressive training framework for self-evolving online curriculum reinforcement learning. Evaluations demonstrate AutoGLM's effectiveness across multiple domains, achieving notable success rates in web browsing and Android device control tasks.
 
 - [OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization](https://doi.org/10.48550/arXiv.2410.19609)
     - Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Hongming Zhang, Tianqing Fang, Zhenzhong Lan, Dong Yu
@@ -1601,6 +1610,15 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [reinforcement learning], [open-domain]
     - 📖 TLDR: This paper introduces *World of Bits (WoB)*, a platform enabling agents to perform complex web-based tasks using low-level keyboard and mouse actions, addressing the lack of open-domain realism in existing reinforcement learning environments. WoB leverages a novel framework where crowdworkers create tasks with structured rewards and reproducibility by caching web interactions, forming a stable training environment. The authors validate WoB by training agents via behavioral cloning and reinforcement learning to accomplish various real-world tasks, showcasing its potential as an effective platform for reinforcement learning on web tasks.
+
+- [SUGILITE: Creating Multimodal Smartphone Automation by Demonstration](https://dl.acm.org/doi/abs/10.1145/3025453.3025483)
+    - Toby Jia-Jun Li, Amos Azaria, Brad A. Myers
+    - 🏛️ Institutions: CMU, Ariel University
+    - 📅 Date: May 6, 2017
+    - 📑 Publisher: CHI 2017
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [PBD], [multimodal interaction], [SUGILITE], [programming-by-demonstration], [demonstration]
+    - 📖 TLDR: This paper introduces *SUGILITE*, a programming-by-demonstration (PBD) system that enables users to automate tasks on smartphones through multimodal interactions. By leveraging Android's accessibility API, SUGILITE allows users to create generalized automation scripts for arbitrary third-party apps by demonstrating tasks using the regular app UI. The system combines verbal instructions, user demonstrations, and app UI hierarchies to generalize scripts from single demonstrations, facilitating task variations and parameterization. Extensive error handling and context checking enhance robustness against app UI changes. A lab study indicates that users with minimal programming knowledge can successfully automate smartphone tasks using SUGILITE.
 
 </details>
 
