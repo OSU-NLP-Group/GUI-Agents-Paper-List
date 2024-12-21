@@ -105,3 +105,12 @@
     - 💻 Env: [Misc]
     - 🔑 Key: [framework], [learning], [verbal reinforcement learning], [Reflexion]
     - 📖 TLDR: This paper introduces *Reflexion*, a framework that enhances language agents by enabling them to reflect on task feedback linguistically, storing these reflections in an episodic memory to improve decision-making in future trials. Reflexion allows agents to learn from various feedback types without traditional weight updates, achieving significant performance improvements across tasks like decision-making, coding, and reasoning. For instance, Reflexion attains a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4's 80%.
+
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
+    - Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
+    - 🏛️ Institutions: Princeton University, Google Research
+    - 📅 Date: October 6, 2022
+    - 📑 Publisher: ICLR 2023
+    - 💻 Env: [Misc]
+    - 🔑 Key: [framework], [reasoning], [ReAct]
+    - 📖 TLDR: This paper introduces *ReAct*, a framework that enables large language models to generate reasoning traces and task-specific actions in an interleaved manner. By combining reasoning and acting, ReAct enhances the model's ability to perform complex tasks in language understanding and interactive decision making. The approach is validated across various benchmarks, demonstrating improved performance and interpretability over existing methods.
