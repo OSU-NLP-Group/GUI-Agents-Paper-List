@@ -22,7 +22,7 @@
     - 🏛️ Institutions: Princeton University, Google Research
     - 📅 Date: October 6, 2022
     - 📑 Publisher: ICLR 2023
-    - 💻 Env: [GUI]
+    - 💻 Env: [Misc]
     - 🔑 Key: [framework], [reasoning], [ReAct]
     - 📖 TLDR: This paper introduces *ReAct*, a framework that enables large language models to generate reasoning traces and task-specific actions in an interleaved manner. By combining reasoning and acting, ReAct enhances the model's ability to perform complex tasks in language understanding and interactive decision making. The approach is validated across various benchmarks, demonstrating improved performance and interpretability over existing methods.
 
