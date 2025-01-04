@@ -587,7 +587,7 @@
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206)
     - Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan
-    - 🏛️ Institutions: Princeton University
+    - 🏛️ Institutions: Princeton
     - 📅 Date: July 2022
     - 📑 Publisher: NeurIPS 2022
     - 💻 Env: [Web]

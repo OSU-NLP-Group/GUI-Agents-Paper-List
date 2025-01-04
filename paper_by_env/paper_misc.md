@@ -108,7 +108,7 @@
 
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
     - Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao
-    - 🏛️ Institutions: Northeastern University, MIT, Princeton University
+    - 🏛️ Institutions: Northeastern University, MIT, Princeton
     - 📅 Date: March 20, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Misc]
@@ -117,7 +117,7 @@
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
     - Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
-    - 🏛️ Institutions: Princeton University, Google Research
+    - 🏛️ Institutions: Princeton, Google Research
     - 📅 Date: October 6, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Misc]

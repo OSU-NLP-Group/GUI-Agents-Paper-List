@@ -11,7 +11,7 @@
 
 - [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
-    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton University, University of Hong Kong
+    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton, University of Hong Kong
     - 📅 Date: February 12, 2024
     - 📑 Publisher: ICLR 2024 Workshop LLMAgents
     - 💻 Env: [Desktop]
@@ -20,7 +20,7 @@
 
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
     - Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao
-    - 🏛️ Institutions: Northeastern University, MIT, Princeton University
+    - 🏛️ Institutions: Northeastern University, MIT, Princeton
     - 📅 Date: March 20, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Misc]
@@ -29,7 +29,7 @@
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
     - Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
-    - 🏛️ Institutions: Princeton University, Google Research
+    - 🏛️ Institutions: Princeton, Google Research
     - 📅 Date: October 6, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Misc]
@@ -38,7 +38,7 @@
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206)
     - Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan
-    - 🏛️ Institutions: Princeton University
+    - 🏛️ Institutions: Princeton
     - 📅 Date: July 2022
     - 📑 Publisher: NeurIPS 2022
     - 💻 Env: [Web]
