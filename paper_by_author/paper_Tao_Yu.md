@@ -18,7 +18,7 @@
     - 🔑 Key: [attack], [adversarial pop-ups], [VLM agents], [safety]
     - 📖 TLDR: This paper demonstrates that vision-language model (VLM) agents can be easily deceived by carefully designed adversarial pop-ups, leading them to perform unintended actions such as clicking on these pop-ups instead of completing their assigned tasks. Integrating these pop-ups into environments like OSWorld and VisualWebArena resulted in an average attack success rate of 86% and a 47% decrease in task success rate. Basic defense strategies, such as instructing the agent to ignore pop-ups or adding advertisement notices, were found to be ineffective against these attacks.
 
-- [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
+- [Language Agents: Foundations, Prospects, and Risks](https://language-agent-tutorial.github.io/)
     - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
     - 🏛️ Institutions: OSU, Stanford, Princeton, HKU
     - 📅 Date: November 2024

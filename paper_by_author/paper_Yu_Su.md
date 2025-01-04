@@ -18,7 +18,7 @@
     - 🔑 Key: [framework], [WebDreamer], [model-based planning], [world model]
     - 📖 TLDR: This paper investigates whether Large Language Models (LLMs) can function as world models within web environments, enabling model-based planning for web agents. Introducing **WebDreamer**, a framework that leverages LLMs to simulate potential action sequences in web environments, the study demonstrates significant performance improvements over reactive baselines on benchmarks like VisualWebArena and Mind2Web-live. The findings suggest that LLMs possess the capability to model the dynamic nature of the internet, paving the way for advancements in automated web interaction and opening new research avenues in optimizing LLMs for complex, evolving environments.
 
-- [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
+- [Language Agents: Foundations, Prospects, and Risks](https://language-agent-tutorial.github.io/)
     - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
     - 🏛️ Institutions: OSU, Stanford, Princeton, HKU
     - 📅 Date: November 2024
