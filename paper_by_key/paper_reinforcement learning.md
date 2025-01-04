@@ -110,7 +110,7 @@
 
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
     - Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao
-    - 🏛️ Institutions: Northeastern University, MIT, Princeton University
+    - 🏛️ Institutions: Northeastern University, MIT, Princeton
     - 📅 Date: March 20, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Misc]

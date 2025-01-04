@@ -83,7 +83,7 @@
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
     - Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
-    - 🏛️ Institutions: Princeton University, Google Research
+    - 🏛️ Institutions: Princeton, Google Research
     - 📅 Date: October 6, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Misc]

@@ -297,7 +297,7 @@
 
 - [Improving Language Understanding from Screenshots](https://arxiv.org/abs/2402.14073)
     - Tianyu Gao, Zirui Wang, Adithya Bhaskar, Danqi Chen
-    - 🏛️ Institutions: Princeton University
+    - 🏛️ Institutions: Princeton
     - 📅 Date: February 22, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
