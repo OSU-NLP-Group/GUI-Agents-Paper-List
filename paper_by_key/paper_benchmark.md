@@ -29,7 +29,7 @@
 
 - [OS-ATLAS: A Foundation Action Model For Generalist GUI Agents](https://osatlas.github.io/)
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
-    - 🏛️ Institutions: Shanghai AI Lab, Shanghai Jiaotong University, HKU, MIT
+    - 🏛️ Institutions: Shanghai AI Lab, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]

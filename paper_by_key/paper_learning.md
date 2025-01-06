@@ -155,7 +155,7 @@
 
 - [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
-    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton, University of Hong Kong
+    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton, HKU
     - 📅 Date: February 12, 2024
     - 📑 Publisher: ICLR 2024 Workshop LLMAgents
     - 💻 Env: [Desktop]
