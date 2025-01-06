@@ -27,7 +27,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
-[framework (111)](paper_by_key/paper_framework.md) | [benchmark (68)](paper_by_key/paper_benchmark.md) | [dataset (65)](paper_by_key/paper_dataset.md) | [model (33)](paper_by_key/paper_model.md) | [reinforcement learning (15)](paper_by_key/paper_reinforcement_learning.md) | [safety (11)](paper_by_key/paper_safety.md) | [visual grounding (10)](paper_by_key/paper_visual_grounding.md) | [planning (9)](paper_by_key/paper_planning.md) | [reasoning (7)](paper_by_key/paper_reasoning.md) | [grounding (6)](paper_by_key/paper_grounding.md) | [survey (5)](paper_by_key/paper_survey.md) | [vision language model (5)](paper_by_key/paper_vision_language_model.md) | [attack (4)](paper_by_key/paper_attack.md) | [learning (4)](paper_by_key/paper_learning.md) | [evaluation (4)](paper_by_key/paper_evaluation.md) | [memory (3)](paper_by_key/paper_memory.md) | [synthetic data (3)](paper_by_key/paper_synthetic_data.md) | [foundation model (3)](paper_by_key/paper_foundation_model.md) | [UI understanding (3)](paper_by_key/paper_UI_understanding.md) | [self-improvement (3)](paper_by_key/paper_self-improvement.md)
+[framework (110)](paper_by_key/paper_framework.md) | [benchmark (68)](paper_by_key/paper_benchmark.md) | [dataset (65)](paper_by_key/paper_dataset.md) | [model (34)](paper_by_key/paper_model.md) | [reinforcement learning (15)](paper_by_key/paper_reinforcement_learning.md) | [safety (11)](paper_by_key/paper_safety.md) | [visual grounding (10)](paper_by_key/paper_visual_grounding.md) | [planning (8)](paper_by_key/paper_planning.md) | [reasoning (7)](paper_by_key/paper_reasoning.md) | [grounding (6)](paper_by_key/paper_grounding.md) | [survey (5)](paper_by_key/paper_survey.md) | [vision language model (5)](paper_by_key/paper_vision_language_model.md) | [attack (4)](paper_by_key/paper_attack.md) | [learning (4)](paper_by_key/paper_learning.md) | [evaluation (4)](paper_by_key/paper_evaluation.md) | [memory (3)](paper_by_key/paper_memory.md) | [synthetic data (3)](paper_by_key/paper_synthetic_data.md) | [foundation model (3)](paper_by_key/paper_foundation_model.md) | [UI understanding (3)](paper_by_key/paper_UI_understanding.md) | [self-improvement (3)](paper_by_key/paper_self-improvement.md)
 
 ## Papers Grouped by Authors
 [Yu Su (10)](paper_by_author/paper_Yu_Su.md) | [Graham Neubig (8)](paper_by_author/paper_Graham_Neubig.md) | [Tao Yu (8)](paper_by_author/paper_Tao_Yu.md) | [Huan Sun (8)](paper_by_author/paper_Huan_Sun.md) | [Tianbao Xie (7)](paper_by_author/paper_Tianbao_Xie.md) | [Boyuan Zheng (7)](paper_by_author/paper_Boyuan_Zheng.md) | [Shuyan Zhou (7)](paper_by_author/paper_Shuyan_Zhou.md) | [Zhiyong Wu (6)](paper_by_author/paper_Zhiyong_Wu.md) | [Xiao Liu (6)](paper_by_author/paper_Xiao_Liu.md) | [Hanyu Lai (6)](paper_by_author/paper_Hanyu_Lai.md) | [Jie Tang (6)](paper_by_author/paper_Jie_Tang.md) | [Yuxiao Dong (6)](paper_by_author/paper_Yuxiao_Dong.md) | [Qiushi Sun (5)](paper_by_author/paper_Qiushi_Sun.md) | [Fangzhi Xu (5)](paper_by_author/paper_Fangzhi_Xu.md) | [Difei Gao (5)](paper_by_author/paper_Difei_Gao.md) | [Mike Zheng Shou (5)](paper_by_author/paper_Mike_Zheng_Shou.md) | [Shunyu Yao (5)](paper_by_author/paper_Shunyu_Yao.md) | [Daniel Fried (5)](paper_by_author/paper_Daniel_Fried.md) | [Toby Jia-Jun Li (5)](paper_by_author/paper_Toby_Jia-Jun_Li.md) | [Kanzhi Cheng (4)](paper_by_author/paper_Kanzhi_Cheng.md)
@@ -38,11 +38,11 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://qiushisun.github.io/OS-Genesis-Home/)
     - Qiushi Sun, Kanzhi Cheng, Zichen Ding, Chuanyang Jin, Yian Wang, Fangzhi Xu, Zhenyu Wu, Chengyou Jia, Liheng Chen, Zhoumianze Liu, Ben Kao, Guohao Li, Junxian He, Yu Qiao, Zhiyong Wu
-    - 🏛️ Institutions: Shanghai AI Lab, University of Hong Kong, Johns Hopkins University, Shanghai Jiaotong University, Oxford, HKUST
+    - 🏛️ Institutions: Shanghai AI Lab, HKU, Johns Hopkins University, SJTU, Oxford, HKUST
     - 📅 Date: Dec 27, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset], [planning], [data synthesis], [OS-Genesis]
+    - 🔑 Key: [model], [dataset], [trajectory data], [reward model], [e2e model], [data synthesis], [OS-Genesis]
     - 📖 TLDR: This paper introduces *OS-Genesis*, an interaction-driven pipeline that automates the construction of high-quality and diverse GUI agent trajectory data without human supervision. By employing reverse task synthesis and a trajectory reward model, OS-Genesis enables effective end-to-end training of GUI agents, significantly enhancing their performance on online benchmarks.
 
 - [PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World](https://arxiv.org/abs/2412.17589)
@@ -65,7 +65,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use](https://github.com/OS-Agent-Survey/OS-Agent-Survey)
     - Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shawn Wang, Xinchen Xu, Shuofei Qiao , Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, Fei Wu
-    - 🏛️ Institutions: Zhejiang University, Fudan University, OPPO AI Center, University of Chinese Academy of Sciences, Chinese Academy of Sciences, The Chinese University of Hong Kong, Tsinghua University, 01.AI, The Hong Kong Polytechnic University, SJTU
+    - 🏛️ Institutions: Zhejiang University, Fudan University, OPPO AI Center, University of Chinese Academy of Sciences, Chinese Academy of Sciences, The Chinese HKU, Tsinghua University, 01.AI, The Hong Kong Polytechnic University, SJTU
     - 📅 Date: December 20, 2024
     - 📑 Publisher: Github Repo
     - 💻 Env: [GUI]
@@ -263,7 +263,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [OS-ATLAS: A Foundation Action Model For Generalist GUI Agents](https://osatlas.github.io/)
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
-    - 🏛️ Institutions: Shanghai AI Lab, Shanghai Jiaotong University, HKU, MIT
+    - 🏛️ Institutions: Shanghai AI Lab, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -1181,7 +1181,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
-    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton, University of Hong Kong
+    - 🏛️ Institutions: Shanghai AI Lab, East China Normal University, Princeton, HKU
     - 📅 Date: February 12, 2024
     - 📑 Publisher: ICLR 2024 Workshop LLMAgents
     - 💻 Env: [Desktop]
