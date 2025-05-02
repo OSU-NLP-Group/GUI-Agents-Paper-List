@@ -1,5 +1,14 @@
 # Papers with Keyword: attack
 
+- [On the Robustness of GUI Grounding Models Against Image Attacks](https://arxiv.org/abs/2504.04716)
+    - Haoren Zhao, Tianyi Chen, Zhen Wang
+    - 🏛️ Institutions: HDU, Microsoft
+    - 📅 Date: April 7, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [robustness], [adversarial attacks], [UGround], [ScreenSpot-V2]
+    - 📖 TLDR: This paper systematically evaluates the robustness of GUI grounding models, such as UGround, against natural noise, untargeted adversarial attacks, and targeted adversarial attacks. Experiments conducted across mobile, desktop, and web interfaces reveal that these models are highly sensitive to adversarial perturbations and low-resolution conditions. The findings highlight vulnerabilities in current GUI grounding models and establish a benchmark for future research aimed at enhancing their robustness in practical applications.
+
 - [Attacking Vision-Language Computer Agents via Pop-ups](https://arxiv.org/abs/2411.02391)
     - Yanzhe Zhang, Tao Yu, Diyi Yang
     - 🏛️ Institutions: Georgia Tech, HKU, Stanford
