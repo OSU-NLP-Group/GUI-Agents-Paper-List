@@ -1,14 +1,5 @@
 # Qiushi Sun's Papers
 
-- [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
-    - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
-    - 🏛️ Institutions: HKU, Shanghai AI Lab, Fudan University, Peking University, Nanjing University, Yale University
-    - 📅 Date: May 26, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [benchmark], [grounding], [Qwen2.5-VL], [UI-TARS], [UGround], [OS-Atlas]
-    - 📖 TLDR: This paper introduces *ScienceBoard*, a dynamic multimodal environment for evaluating autonomous agents in realistic scientific workflows. Built on an Ubuntu-based VM with integrated scientific software supporting both GUI and CLI interactions, the environment enables agents to operate like human researchers. Based on this infrastructure, ScienceBoard curates a benchmark of 169 human-validated tasks spanning six domains, including biochemistry, astronomy, GIS, and theorem proving. Evaluations of both general-purpose LLMs and GUI action models show that even state-of-the-art agents achieve only ~15% success, highlighting the substantial gap between current agent capabilities and real-world scientific demands.
-
 - [Breaking the Data Barrier -- Building GUI Agents Through Task Generalization](https://arxiv.org/abs/2504.10127)
     - Junlei Zhang, Zichen Ding, Chang Ma, Zijie Chen, Qiushi Sun, Zhenzhong Lan, Junxian He
     - 🏛️ Institutions: ZJU, WestlakeU, Shanghai AI Lab, HKU, HKUST
