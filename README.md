@@ -39,7 +39,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [LPO: Towards Accurate GUI Agent Interaction via Location Preference Optimization](https://arxiv.org/abs/2506.09373)
     - Jiaqi Tang, Yu Xia, Yi‑Feng Wu, Yuwei Hu, Yuhui Chen, Qing‑Guo Chen, Xiaogang Xu, Xiangyu Wu, Hao Lu, Yanqing Ma, Shiyin Lu, Qifeng Chen
-    - 🏛️ Institutions: (not explicitly stated, likely Chinese research institutions; Unknown)
+    - 🏛️ Institutions: HKU, Alibaba, CUHK, NJU
     - 📅 Date: June 11, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
