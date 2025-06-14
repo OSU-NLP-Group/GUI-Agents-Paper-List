@@ -7,6 +7,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 - Agent frameworks
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
+- [New!] Agentic Web Search (As it's becoming an important part for agents in the digital world)
 
 
 [//]: # (<div style="display: flex; justify-content: space-around;">)
