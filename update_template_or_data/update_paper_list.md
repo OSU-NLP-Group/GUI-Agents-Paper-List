@@ -1,3 +1,13 @@
+- [Build the Web for Agents, Not Agents for the Web](https://arxiv.org/abs/2506.10953)
+    - Xing Han Lù, Gaurav Kamath, Marius Mosbach, Siva Reddy
+    - 🏛️ Institutions: McGill, Mila
+    - 📅 Date: June 12, 2025
+    - 📑 Publisher: Unknown
+    - 💻 Env: [Web]
+    - 🔑 Key: [Agentic Web Interface], [AWI], [agent design], [interface optimization]
+    - 📖 TLDR: This position paper advocates for a paradigm shift in web agent research, proposing the development of Agentic Web Interfaces (AWIs) specifically designed for AI agents. It emphasizes the need for interfaces that cater to the unique capabilities of agents rather than adapting existing human-centric interfaces, aiming to enhance safety, efficiency, and standardization in web agent design.
+
+
 - [ProgRM: Build Better GUI Agents with Progress Rewards](https://arxiv.org/abs/2505.18121)  
   - Danyang Zhang, Situo Zhang, Ziyue Yang, Zichen Zhu, Zihan Zhao, Ruisheng Cao, Lu Chen, Kai Yu  
   - 🏛️ Institutions: likely Chinese institutions (not explicitly stated) — Unknown  
