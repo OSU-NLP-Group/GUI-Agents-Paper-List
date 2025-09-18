@@ -11,9 +11,9 @@
 - [WebGuard: Building a Generalizable Guardrail for Web Agents](https://arxiv.org/abs/2507.14293)
     - Boyuan Zheng, Zeyi Liao, Scott Salisbury, Zeyuan Liu, Michael Lin, Qinyuan Zheng, Zifan Wang, Xiang Deng, Dawn Song, Huan Sun, Yu Su  
     - 🏛️ Institutions: OSU; Scale AI; UCB
-    - 📅 Date: July 18, 2025 :contentReference[oaicite:1]{index=1}  
-    - 📑 Publisher: arXiv (preprint) :contentReference[oaicite:2]{index=2}  
-    - 💻 Env: [Web] :contentReference[oaicite:3]{index=3}  
+    - 📅 Date: July 18, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
     - 🔑 Key:  [dataset], [safety]
     - 📖 TLDR:  Autonomous web agents powered by LLMs can take unintended or harmful actions when interacting with websites (especially state-changing ones). WebGuard is introduced as a dataset to assess risks of web agent actions by collecting nearly 5,000 human‑annotated actions across many real websites, labeled by risk level (SAFE / LOW / HIGH). Baseline LLMs do poorly (<60% accuracy / recall) on detecting high‑risk actions; after fine‑tuning (using Qwen2.5VL‑7B), performance improves significantly (accuracy ~80%, recall on HIGH ~76%), though still not sufficient for very high‑stakes settings. The paper highlights that reliable guardrails for web agents remain an open challenge. :contentReference[oaicite:8]{index=8}
 
