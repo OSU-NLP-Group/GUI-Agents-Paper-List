@@ -4,7 +4,7 @@
     - 📅 Date: Sep 30, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [enterprise automation], [demonstration augmentation], [process rewards], [SCUBA]
+    - 🔑 Key: [benchmark], [enterprise automation], [demonstration augmentation], [process rewards], [SCUBA]
     - 📖 TLDR: This paper introduces **SCUBA**, a benchmark for evaluating computer-use agents on 300 enterprise-critical CRM tasks within Salesforce. Tasks span personas like admins and service agents, testing UI navigation, automation, data handling, and troubleshooting. SCUBA includes sandbox environments, milestone-based evaluations, and supports parallel execution. Baseline results show large performance gaps across agent designs, especially between open- and closed-source models, with success rates ranging from 5% to 50% depending on demonstration usage.
 
 
