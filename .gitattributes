@@ -1,0 +1,4 @@
+# Use Git LFS for all PNG images in statistics folder
+update_template_or_data/statistics/*.png filter=lfs diff=lfs merge=lfs -text
+# Optional: Track all PNG files with LFS (uncomment if needed)
+# *.png filter=lfs diff=lfs merge=lfs -text

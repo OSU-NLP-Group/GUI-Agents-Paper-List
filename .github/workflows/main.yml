@@ -16,6 +16,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          lfs: true  # Enable Git LFS checkout
+
+      - name: Set up Git LFS
+        run: |
+          git lfs install
 
       - name: Set up Python environment
         uses: actions/setup-python@v2
