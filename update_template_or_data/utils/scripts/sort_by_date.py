@@ -143,31 +143,31 @@ def process_markdown():
         os.makedirs(subgroup_dir)
 
 
-    # Generate top authors chart
-    try:
-        author_counter = Counter()
-        for _, row in papers_df.iterrows():
-            authors = row['Authors']
-            author_list = [author.strip() for author in authors.split(',')]
-            author_counter.update(author_list)
-
-        num_top_author = 10
-        top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
-        top_15_counts = [author_counter[author] for author in top_authors]
-
-        plt.figure(figsize=(10, 10))
-        sns.barplot(x=top_15_counts, y=top_authors, palette="viridis")
-
-        plt.title("Top Authors by Number of Papers", fontsize=20)
-        plt.xlabel("Number of Papers", fontsize=20)
-        plt.ylabel("Authors", fontsize=20)
-
-        plt.xticks(fontsize=20)
-        plt.yticks(fontsize=20)
-        plt.tight_layout()
-        plt.savefig("update_template_or_data/statistics/top_authors.png")
-    except Exception as e:
-        logging.error(f"Error generating top authors chart: {str(e)}", exc_info=True)
+    # Generate top authors chart - DISABLED (not used in README)
+    # try:
+    #     author_counter = Counter()
+    #     for _, row in papers_df.iterrows():
+    #         authors = row['Authors']
+    #         author_list = [author.strip() for author in authors.split(',')]
+    #         author_counter.update(author_list)
+    #
+    #     num_top_author = 10
+    #     top_authors = [author for author, _ in author_counter.most_common(num_top_author)]
+    #     top_15_counts = [author_counter[author] for author in top_authors]
+    #
+    #     plt.figure(figsize=(10, 10))
+    #     sns.barplot(x=top_15_counts, y=top_authors, palette="viridis")
+    #
+    #     plt.title("Top Authors by Number of Papers", fontsize=20)
+    #     plt.xlabel("Number of Papers", fontsize=20)
+    #     plt.ylabel("Authors", fontsize=20)
+    #
+    #     plt.xticks(fontsize=20)
+    #     plt.yticks(fontsize=20)
+    #     plt.tight_layout()
+    #     plt.savefig("update_template_or_data/statistics/top_authors.png")
+    # except Exception as e:
+    #     logging.error(f"Error generating top authors chart: {str(e)}", exc_info=True)
 
     def remove_square_brackets(s):
         # 使用正则表达式去除开头和结尾的方括号
@@ -393,8 +393,6 @@ def process_markdown():
 
     # Generate keyword word cloud
     try:
-
-
         all_keywords = []
         for _, row in papers_df.iterrows():
             keywords = row['Keywords']
@@ -402,17 +400,18 @@ def process_markdown():
             all_keywords.extend(filtered_keywords)
         keyword_counts = Counter(all_keywords)
 
+        # Square wordcloud - DISABLED (not used in README)
+        # wordcloud = WordCloud(
+        #     width=1000, height=1000, background_color="white"
+        # ).generate_from_frequencies(keyword_counts)
+        # plt.figure(figsize=(10, 10))
+        # plt.imshow(wordcloud, interpolation='bilinear')
+        # plt.axis('off')
+        # plt.tight_layout(pad=0)
+        # plt.savefig("update_template_or_data/statistics/keyword_wordcloud.png", dpi=460)
+        # plt.close()
 
-        wordcloud = WordCloud(
-            width=1000, height=1000, background_color="white"
-        ).generate_from_frequencies(keyword_counts)
-        plt.figure(figsize=(10, 10))
-        plt.imshow(wordcloud, interpolation='bilinear')
-        plt.axis('off')
-        plt.tight_layout(pad=0)
-        plt.savefig("update_template_or_data/statistics/keyword_wordcloud.png", dpi=460)
-        plt.close()
-
+        # Long wordcloud - USED in README
         wordcloud = WordCloud(
             width=2000, height=1000, background_color="white", max_font_size=140, min_font_size=10
         ).generate_from_frequencies(keyword_counts)
