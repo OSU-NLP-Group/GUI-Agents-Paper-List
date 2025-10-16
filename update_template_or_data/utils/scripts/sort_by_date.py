@@ -334,7 +334,8 @@ def process_markdown():
                     sorted_markdown.append(markdown_entry)
 
                 final_output = "\n".join(sorted_markdown)
-                file_path = os.path.join(subgroup_dir, f"paper_{keyword}.md")
+                # Fix: Replace spaces with underscores in filename to match link generation
+                file_path = os.path.join(subgroup_dir, f"paper_{keyword.replace(' ', '_')}.md")
                 write_file(file_path, f"# Papers with Keyword: {keyword}\n\n" + final_output)
     except Exception as e:
         logging.error(f"Error generating keyword-based Markdown files: {str(e)}", exc_info=True)
@@ -380,7 +381,7 @@ def process_markdown():
         grouped_keywords_markdown = []
         for keyword, count in combined_keywords:
             keyword_filename = f"paper_{keyword.replace(' ', '_')}.md"
-            keyword_link = f"paper_by_key/{keyword_filename.replace(' ', '%20')}"
+            keyword_link = f"paper_by_key/{keyword_filename}"  # No need to replace again
             grouped_keywords_markdown.append(f"[{keyword} ({count})]({keyword_link}) | ")
 
         # Join the Markdown content into a single string
