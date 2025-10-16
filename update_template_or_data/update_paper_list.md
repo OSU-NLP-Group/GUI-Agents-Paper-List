@@ -1,3 +1,27 @@
+
+
+- [GTA1: GUI Test-time Scaling Agent](https://arxiv.org/abs/2507.05791)
+    - Yan Yang, Dongxu Li, Yutong Dai, Yuhao Yang, Ziyang Luo, Zirui Zhao, Zhiyuan Hu, Junzhe Huang, Amrita Saha, Zeyuan Chen, Ran Xu, Liyuan Pan, Silvio Savarese, Caiming Xiong, Junnan Li
+    - 🏛️ Institutions: Salesforce Research, ANU, HKU
+    - 📅 Date: July 8, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [framework], [test-time scaling], [reinforcement learning], [grounding], [agent planning]
+    - 📖 TLDR: GTA1 introduces a two-stage GUI agent with a planner and grounding model designed to improve ambiguous decision-making via test-time scaling. The agent samples multiple action candidates and selects one using a learned judge model. For grounding, it applies a reinforcement learning strategy that rewards clicks within the target element, improving robustness. GTA1 achieves state-of-the-art performance on several GUI agent benchmarks such as ScreenSpot-Pro and OSWorld.
+
+
+
+- [CoAct‑1: Computer‑using Agents with Coding as Actions](https://arxiv.org/abs/2508.03923)
+    - Linxin Song, Yutong Dai, Viraj Prabhu, Jieyu Zhang, Taiwei Shi, Li Li, Junnan Li, Silvio Savarese, Zeyuan Chen, Jieyu Zhao, Ran Xu, Caiming Xiong
+    - 🏛️ Institutions: USC, Salesforce Research, UW
+    - 📅 Date: August 5, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [hybrid agent], [coding action], [multi-agent system], [OSWorld]
+    - 📖 TLDR: This paper introduces **CoAct‑1**, a multi-agent system where an Orchestrator coordinates between a GUI Operator and a Programmer agent that can execute code (Python/Bash) directly. This hybrid design allows the agent to perform complex desktop tasks more efficiently than GUI-only agents. Evaluated on the OSWorld benchmark, CoAct‑1 achieves high task success and efficiency.
+
+
+
 - [GUI-SPOTLIGHT: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding](https://arxiv.org/abs/2510.04039)
     - Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, Caiwen Ding
     - 🏛️ Institutions: UMN, Cisco Research, LLNL
