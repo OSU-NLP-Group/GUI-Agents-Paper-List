@@ -46,7 +46,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 ## How to Add a Paper or Update the README
 
 Please fork and update:
-- [paper list](update_template_or_data/update_paper_list.md)
+- [The main paper list](update_template_or_data/update_paper_list.md)
 - [README template](update_template_or_data/update_readme_template.md)
 - [automatic workflow](.github/workflows/main.yml)
 
