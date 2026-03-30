@@ -3461,3 +3461,93 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: A continual GUI learning framework that balances supervised fine-tuning and reinforcement learning to enable adaptation to new tasks while retaining skills from previous tasks.
 
+- [Efficient Long-Horizon GUI Agents via Training-Free KV Cache Compression](https://arxiv.org/abs/2602.16788)
+    - Zhouheng Sun, Yang Liu, Junlu Tang, Jian Xie, Ang Lv
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A training-free KV cache compression framework for efficient deployment of VLM-based GUI agents, reducing memory footprint and latency while maintaining performance.
+
+- [Spatio-Temporal Token Pruning for Efficient High-Resolution GUI Agents](https://arxiv.org/abs/2602.14965)
+    - Haofeng Gao, Xiaozhi Gao, Jianguo Li, Yu Tan, Jingfeng Yang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A spatio-temporal token pruning framework that addresses efficiency bottlenecks in high-resolution GUI agents by eliminating redundant visual tokens.
+
+- [GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL](https://arxiv.org/abs/2602.14663)
+    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [framework]
+    - 📖 TLDR: A native GUI agent training approach using action-aware supervision and partially verifiable RL to improve reasoning and long-horizon navigation performance.
+
+- [ActionEngine: From Reactive to Programmatic GUI Agents via State Machine Memory](https://arxiv.org/abs/2602.14433)
+    - Zihao Wu, Zihan Ding, Fan Zhou, Hao Shi, Xiaomin Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 24, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: Proposes state machine memory to enable programmatic GUI agents that go beyond step-by-step reactive decisions, supporting structured control flow and memory.
+
+- [Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents](https://arxiv.org/abs/2602.13679)
+    - Xiao Liu, Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop], [Web]
+    - 🔑 Key: [model]
+    - 📖 TLDR: GUI-Owl-1.5 native agent model with multiple sizes (2B-235B) supporting diverse platforms including desktop, mobile, and web applications.
+
+- [EmbeWebAgent: Embedding Web Agents into Any Customized UI](https://arxiv.org/abs/2602.13459)
+    - Xiao Liu, Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework for embedding web agents with application-level access to improve robustness and action expressiveness beyond screenshot-level observation.
+
+- [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.13338)
+    - Hao Shi, Zhou Yu, Zihan Ding, Fan Zhou, Xiaomin Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [benchmark], [dataset]
+    - 📖 TLDR: The first large-scale open-source world model series for web agent training, addressing bottlenecks in collecting real-world trajectories.
+
+- [AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines](https://arxiv.org/abs/2602.13212)
+    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [framework], [benchmark]
+    - 📖 TLDR: A framework for synthesizing infinite verifiable web environments using finite state machines to address the bottleneck of collecting interaction trajectories.
+
+- [GUI-GENESIS: Automated Synthesis of Efficient Environments with Verifiable Rewards for GUI Agent Post-Training](https://arxiv.org/abs/2602.13095)
+    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [benchmark]
+    - 📖 TLDR: An automated framework for synthesizing GUI environments with verifiable rewards to support efficient post-training of GUI agents.
+
+- [ARC: Compiling Hundreds of Requirement Scenarios into A Runnable Web System](https://arxiv.org/abs/2602.12991)
+    - Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv, Junhao Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A system for compiling hundreds of multi-modal requirement scenarios into runnable web systems using LLMs, addressing the challenge of requirement complexity scaling.
+
