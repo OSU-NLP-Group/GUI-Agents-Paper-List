@@ -1,3 +1,21 @@
+- [Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents](https://arxiv.org/abs/2505.24878)
+    - Yaxin Luo, Zhaoyi Li, Jiacheng Liu, Jiacheng Cui, Xiaohan Zhao, Zhiqiang Shen
+    - 🏛️ Institutions: VILA Lab, MBZUAI, MetaAgentX
+    - 📅 Date: May 30, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [web agent], [multimodal agent], [CAPTCHA], [reasoning], [Open CaptchaWorld]
+    - 📖 TLDR: This paper introduces Open CaptchaWorld, a web-based benchmark designed to test whether multimodal LLM agents can solve realistic CAPTCHA challenges that block end-to-end web automation. It spans 20 CAPTCHA types and measures both performance and CAPTCHA reasoning depth, capturing the multi-step perceptual and interaction burden of these tasks. The benchmark shows that even strong multimodal agents remain far from human performance on CAPTCHA-heavy web workflows.
+
+- [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277)
+    - Hyungjoo Chae, Sunghwan Kim, Junhee Cho, Seungone Kim, Seungjun Moon, Gyeom Hwangbo, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, Taeyoon Kwon, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo
+    - 🏛️ Institutions: Georgia Institute of Technology, Yonsei University, Carnegie Mellon University
+    - 📅 Date: May 21, 2025
+    - 📑 Publisher: NeurIPS 2025 (Spotlight)
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [reward model], [web agent], [benchmark], [WebRewardBench], [Web-Shepherd]
+    - 📖 TLDR: This paper introduces Web-Shepherd, the first process reward model specialized for web navigation, together with WebPRM Collection and WebRewardBench for training and meta-evaluating web-agent reward models. It shows that a compact specialized verifier can substantially outperform generic frontier models as web-trajectory evaluators while costing much less. The work is directly relevant to reinforcing web agents because it provides both the reward model and the evaluation infrastructure needed for scalable RL or test-time verification.
+
 - [R-WoM: Retrieval-augmented World Model For Computer-use Agents](https://arxiv.org/abs/2510.11892)
     - Kai Mei, Jiang Guo, Shuaichen Chang, Mingwen Dong, Dongkyu Lee, Xing Niu, Jiarong Jiang
     - 🏛️ Institutions: Rutgers University, AWS Agentic AI
