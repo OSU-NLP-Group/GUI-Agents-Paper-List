@@ -2129,11 +2129,11 @@
     - 🔑 Key: [model], [framework], [reinforcement learning], [UI task automation], [instruction grounding]
     - 📖 TLDR: This paper introduces a multimodal model, termed RUIG (Reinforced UI Instruction Grounding), for automating UI tasks through natural language instructions. By leveraging a pixel-to-sequence approach, the model directly decodes UI element locations from screenshots based on user commands, removing the need for metadata like element coordinates. The framework uses a transformer-based encoder-decoder setup optimized through reinforcement learning to improve spatial accuracy. This novel approach outperforms prior methods, offering a generalized solution for UI task automation.
 
-- [SteP: Stacked LLM Policies for Web Actions](https://arxiv.org/abs/2310.03720)
+- [SteP: Stacked LLM Policies for Web Actions](https://openreview.net/forum?id=5fg0VtRxgi)
     - Paloma Sodhi, S.R.K. Branavan, Yoav Artzi, Ryan McDonald
     - 🏛️ Institutions: ASAPP Research, Cornell University
     - 📅 Date: October 5, 2023
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: COLM 2024
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [policy composition], [dynamic control], [SteP]
     - 📖 TLDR: This paper introduces **SteP (Stacked LLM Policies)**, a framework that dynamically composes policies to tackle diverse web tasks. By defining a Markov Decision Process where the state is a stack of policies, SteP enables adaptive control that adjusts to task complexity. Evaluations on WebArena, MiniWoB++, and a CRM simulator demonstrate that SteP significantly outperforms existing methods, achieving a success rate improvement from 14.9% to 35.8% over state-of-the-art GPT-4 policies.
