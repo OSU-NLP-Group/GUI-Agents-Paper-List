@@ -3281,3 +3281,93 @@
     - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: A diagnostic framework with AndroTMem-Bench and Anchored State Memory approach for improving interaction memory in long-horizon GUI agents through structured, causally-linked state anchors.
 
+- [FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair](https://arxiv.org/abs/2603.17826)
+    - Weifeng He, Zhiyi Hu, Yiming Li, Jiguang Ren, Yuexing Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 18, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A multimodal framework for autonomous software repair combining workflow-agent architecture, active perception for region-level GUI grounding, and a Failure Memory Bank to reuse past repair attempts.
+
+- [AdaZoom-GUI: Adaptive Zoom-based GUI Grounding with Instruction Refinement](https://arxiv.org/abs/2603.17441)
+    - Yong Zhang, Mingyi Liu, Ziyan Ye, Haodong Yu, Shuhao Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 18, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: An adaptive zoom-based GUI grounding framework that refines instructions and performs selective zoom-in on small elements, trained with GRPO to achieve state-of-the-art accuracy on high-resolution GUIs.
+
+- [GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents](https://arxiv.org/abs/2603.15039)
+    - Haotian Zhao, Yuzhe Qin, Dongliang Li, Dongdong Hu, Xingshuai Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 16, 2026
+    - 📑 Publisher: CVPR 2026
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: The first comprehensive Chinese mobile GUI agent benchmark spanning 201 mainstream apps with two-level evaluation covering perception, planning, reflection, execution, and evaluation on real physical devices.
+
+- [Visual Confused Deputy: Exploiting and Defending Perception Failures in Computer-Using Agents](https://arxiv.org/abs/2603.14707)
+    - Mauro Li, Reuben Binns, Soheil Feizi, Lind Seelig, Kasper Luckow
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [security], [safety]
+    - 📖 TLDR: Formalizes visual confused deputy as a security vulnerability in agents due to grounding errors and screenshot manipulation, proposing a dual-channel guardrail using visual and textual verification.
+
+- [Zoom to Essence: Trainless GUI Grounding by Inferring upon Interface Elements](https://arxiv.org/abs/2603.14448)
+    - Jingfeng Yang, Yu Tan, Haofeng Gao, Xiaozhi Gao, Jianguo Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A trainless GUI grounding approach that leverages inference-time scaling to progressively anchor instructions to interface elements by decomposing GUIs into basic visual elements.
+
+- [Adaptive Vision-Language Model Routing for Computer Use Agents](https://arxiv.org/abs/2603.12823)
+    - Yingyao Zhou, Zhouheng Sun, Yang Liu, Junlu Tang, Jian Xie
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: An adaptive framework that routes GUI actions to different VLMs based on estimated difficulty and confidence, achieving 78% inference cost reduction while maintaining accuracy and safety.
+
+- [MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning](https://arxiv.org/abs/2603.12266)
+    - Zhouheng Sun, Yingyao Zhou, Yang Liu, Junlu Tang, Jian Xie
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI], [Data Visualization]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: A benchmark for visually grounded deep compositional reasoning with multi-layer reasoning chains across natural images, data charts, and GUI trajectories, with programmatic verification.
+
+- [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](https://arxiv.org/abs/2603.12138)
+    - Yiyuan Li, Mingyuan Guo, Zhouheng Sun, Yang Liu, Junlu Tang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 12, 2026
+    - 📑 Publisher: CVPR 2026
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: A trajectory synthesis framework that identifies semantically ambiguous actions as key challenges and uses hardness-driven exploration and alignment-guided refinement to improve training data quality.
+
+- [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291)
+    - Meng Fang, Zhouheng Sun, Yang Liu, Junlu Tang, Jian Xie
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A graph-based memory system combining symbolic nodes with continuous embeddings, supporting multi-hop retrieval and self-evolution to improve long-horizon GUI agent performance.
+
+- [SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments](https://arxiv.org/abs/2603.10268)
+    - Juhao Li, Zhouheng Sun, Yang Liu, Junlu Tang, Jian Xie
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 10, 2026
+    - 📑 Publisher: ICSE 2026
+    - 💻 Env: [GUI], [Web], [Desktop]
+    - 🔑 Key: [framework], [benchmark]
+    - 📖 TLDR: A fully automated testing framework for GUI-based AI agents decomposed into four phases with specialist agents, achieving robust testing across CLI tools, web apps, and browser extensions.
+
