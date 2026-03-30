@@ -1,3 +1,12 @@
+- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
+    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
+    - 🏛️ Institutions: Ludwig Maximilian University of Munich, Technical University of Munich, Munich Center for Machine Learning
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [reward model], [web agent], [process reward model], [WebPRMBench], [WebArbiter]
+    - 📖 TLDR: This paper introduces WebArbiter, a reasoning-first process reward model for web agents that generates structured justifications before producing preference verdicts over candidate actions. It also releases WebPRMBench, a benchmark for evaluating web-agent process reward models across diverse web environments. WebArbiter improves both reward-model accuracy and reward-guided trajectory search, making it directly relevant for reinforcement learning and test-time search in web agents.
+
 - [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction For Continual Learning](https://arxiv.org/abs/2510.15863)
     - Simon Yu, Gang Li, Weiyan Shi, Peng Qi
     - 🏛️ Institutions: NEU, Uniphore
