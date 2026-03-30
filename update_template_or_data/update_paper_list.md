@@ -320,11 +320,11 @@
     - 🔑 Key: [benchmark], [dataset], [evaluation framework], [RAG], [query complexity], [DeepShop]
     - 📖 TLDR: DeepShop introduces a comprehensive benchmark for web shopping agents, mirroring the real first-use complexity of online shopping scenarios. It features diversified query evolution across five domains, complexity-tier classification (easy/medium/hard), and a fine‐grained scoring system analyzing attribute matching, filters, and sorting. Evaluations across RAG and agentic systems reveal significant shortcomings, especially in handling filters and sorting, underscoring gaps in current research capabilities.
 
-- [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://github.com/OpenBMB/AgentCPM-GUI)
+- [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
     - 🏛️ Institutions: THUNLP, RUC, ModelBest
     - 📅 Date: June 2, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: EMNLP 2025 System Demonstrations
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [benchmark], [reinforcement learning], [grounding], [CAGUI], [mobile use]
     - 📖 TLDR: AgentCPM-GUI is an 8B-parameter on-device GUI agent tailored for Android applications, emphasizing robust multilingual interaction. Built upon MiniCPM-V, it undergoes a three-stage training pipeline: grounding-aware pre-training on a 12M-sample bilingual dataset, supervised fine-tuning with 55K high-quality trajectories from over 30 Chinese apps, and reinforcement fine-tuning using the Group Relative Policy Optimization (GRPO) algorithm to enhance reasoning capabilities. The model introduces a compact JSON-based action space optimized for mobile efficiency. Evaluated across five benchmarks, including the newly introduced Chinese GUI benchmark CAGUI, AgentCPM-GUI achieves state-of-the-art performance, notably 96.9% Type-Match and 91.3% Exact-Match on CAGUI. All code, model checkpoints, and evaluation data are publicly released to support further research.
@@ -378,7 +378,7 @@
     - Qinzhuo Wu, Pengzhi Gao, Wei Liu, and Jian Luan
     - 🏛️ Institutions: MiLM Plus, Xiaomi Inc.
     - 📅 Date: May 27, 2025
-    - 📑 Publisher: arXiv (preprint)
+    - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dataset], [reinforcement learning], [error detection], [backtracking], [Mobile3M], [Auto‑UI]
     - 📖 TLDR: BacktrackAgent introduces a novel GUI‑agent framework that embeds four components—generator, verifier, judger, and reflector—to detect when actions go wrong, evaluate their effects, and backtrack to recover. It also constructs specialized datasets for training these “judgment” and “reflection” modules. On Mobile3M and Auto‑UI benchmarks, it boosts task success rate by ~7.6% and step accuracy by ~1.6%, outperforming prior SOTA like MobileVLM and ReachAgent.
@@ -401,7 +401,7 @@
     - 🔑 Key: [reinforcement learning], [reward model], [progress reward], [LCS], [ProgRM]
     - 📖 TLDR: Introduces **ProgRM**, a novel framework giving dense intermediate rewards to GUI agents by estimating per‑step task progress. Labels are generated through an LCS‑based self‑annotation algorithm that identifies key steps in successful trajectories. Agents trained with ProgRM outperform outcome‑based reward models and proprietary LLMs like Claude‑3.7‑Sonnet across benchmarks.
 
-- [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://github.com/JiuTian-VL/GUI-explorer)
+- [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
     - 🏛️ Institutions: HIT‑SZ (Harbin Institute of Technology, Shenzhen), Huawei Noah’s Ark Lab
     - 📅 Date: May 22, 2025
@@ -414,7 +414,7 @@
     - Xiaoran Yin, Xu Luo, Hao Wu, Lianli Gao, Jingkuan Song
     - 🏛️ Institutions: UESTC, Tongji, Trento
     - 📅 Date: May 22, 2025
-    - 📑 Publisher: arXiv (not yet in a conference/journal)
+    - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [world model], [executable code], [self‑verification], [self‑refinement], [FPWC]
     - 📖 TLDR: This paper introduces **Foresighted Planning with World Model-Driven Code Execution** (FPWC), a novel framework that improves multi-step mobile device control by constructing a text-based, refinable world model at task start. Plans are generated as executable Python code enabling structured reasoning, loops, and conditional logic. The system dynamically self-verifies via zoom-in visual confirmation and iteratively refines both model and plan based on new observations. Experiments in simulation and on real devices show ~44% relative improvement in task success over prior reactive baselines, demonstrating strong performance in both single- and cross-app tasks.
@@ -432,7 +432,7 @@
     - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
     - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research
     - 📅 Date: May 19, 2025
-    - 📑 Publisher: arXiv (preprint)
+    - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [dataset], [benchmark], [framework], [Jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
     - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
@@ -537,7 +537,7 @@
     - 📖 TLDR: This paper introduces a mid-training approach to enhance GUI agents by leveraging diverse, reasoning-intensive datasets such as mathematical and coding tasks. The authors demonstrate that training Vision Language Models (VLMs) on these data-rich tasks before fine-tuning on limited GUI trajectory data significantly improves performance on GUI benchmarks like WebArena and AndroidWorld. Notably, text-only mathematical reasoning data led to substantial cross-modal gains, highlighting the effectiveness of task generalization in overcoming data scarcity challenges in GUI agent development.
 
 - [GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/abs/2504.10458)
-    - Xiaobo Xia, Run Luo
+    - Run Luo, Wanwei He, Lu Wang, Longze Chen, Jiaming Li, Min Yang, Xiaobo Xia
     - 🏛️ Institutions: Unknown
     - 📅 Date: April 14, 2025
     - 📑 Publisher: arXiv
