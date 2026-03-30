@@ -5,7 +5,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-27
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 

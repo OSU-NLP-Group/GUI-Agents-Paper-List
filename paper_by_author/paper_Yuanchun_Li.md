@@ -50,7 +50,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [mobile agent], [multi-path evaluation], [realistic scenario], [robustness]
     - 📖 TLDR: Realistic mobile agent benchmark with offline multi-path evaluation, noisy apps (pop-ups/ads) splits, and ambiguous instructions to assess robustness under real-world conditions and noisy environments.
 

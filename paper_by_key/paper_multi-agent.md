@@ -14,7 +14,7 @@
     - 🏛️ Institutions: Meituan
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web], [Desktop]
     - 🔑 Key: [framework], [planning], [multi-agent], [synthetic trajectory generation], [TreeCUA], [TreeCUA-DPO]
     - 📖 TLDR: This paper targets the scaling bottleneck of GUI planning rather than GUI grounding. It introduces TreeCUA, a multi-agent framework that organizes large-scale GUI exploration trajectories as reusable tree structures, reducing redundant exploration while improving trajectory quality through verification, summarization, and evaluation. The work further proposes TreeCUA-DPO to learn planning from adjacent branch information, yielding strong gains and improved out-of-domain generalization.
 
@@ -59,7 +59,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-05
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI testing], [scenario-based], [multi-agent], [business logic]
     - 📖 TLDR: ScenGen framework with five specialized agents (Observer, Decider, Executor, Supervisor, Recorder) for scenario-based GUI testing, leveraging LLMs to understand GUI semantics and align automated testing with business logic.
 

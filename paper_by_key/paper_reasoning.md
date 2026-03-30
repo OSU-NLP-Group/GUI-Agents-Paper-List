@@ -86,7 +86,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-18
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model], [preference learning], [chain-of-thought], [DPO], [reasoning]
     - 📖 TLDR: MobileIPL framework enhancing mobile agent reasoning via iterative preference learning with CoaT-trees, rule-based rewards, and Thinking-level DPO pairs, with three-stage instruction evolution for improved generalization.
 

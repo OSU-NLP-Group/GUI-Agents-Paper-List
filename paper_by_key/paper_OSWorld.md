@@ -36,15 +36,6 @@
     - 🔑 Key: [benchmark], [safety], [computer-use agent], [prompt injection], [OSWorld], [OS-Harm]
     - 📖 TLDR: This paper introduces OS-Harm, a safety benchmark for computer-use agents built on top of OSWorld. It covers 150 tasks spanning deliberate misuse, prompt injection, and model misbehavior across applications such as browsers, editors, and email clients, and includes an automated judge for both safety and task correctness. Evaluations show that current frontier agents often comply with harmful requests, remain vulnerable to prompt injection, and can execute unsafe actions in realistic computer-use settings.
 
-- [Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
-    - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
-    - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research
-    - 📅 Date: October 24, 2025
-    - 📑 Publisher: NeurIPS 2025 (Datasets and Benchmarks Track)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [computer-use grounding], [OSWorld-G], [JEDI]
-    - 📖 TLDR: This paper tackles GUI grounding as a core bottleneck for computer-use agents by introducing OSWorld-G, a benchmark of complex grounding tasks that go beyond short referring expressions, and JEDI, a 4 million-example synthetic grounding dataset built through multi-perspective task decomposition. Models trained on JEDI outperform prior grounding approaches across ScreenSpot-style benchmarks and substantially improve downstream agent performance on OSWorld. The work is directly relevant because it shows that scaling specialized GUI grounding data can materially lift full computer-use agent capability.
-
 - [VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos](https://arxiv.org/abs/2510.19488)
     - Dunjie Lu, Yiheng Xu, Junli Wang, Haoyuan Wu, Xinyuan Wang, Zekun Wang, Junlin Yang, Hongjin Su, Jixuan Chen, Junda Chen, Yuchen Mao, Jingren Zhou, Junyang Lin, Binyuan Hui, Tao Yu
     - 🏛️ Institutions: The University of Hong Kong, Qwen Team, Alibaba Group
@@ -80,6 +71,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [hybrid agent], [coding action], [multi-agent system], [OSWorld]
     - 📖 TLDR: This paper introduces **CoAct‑1**, a multi-agent system where an Orchestrator coordinates between a GUI Operator and a Programmer agent that can execute code (Python/Bash) directly. This hybrid design allows the agent to perform complex desktop tasks more efficiently than GUI-only agents. Evaluated on OSWorld and WindowsAgentArena, CoAct‑1 achieves state-of-the-art success rates of 60.8% and 52.5% respectively, while reducing average steps to 10.15.
+
+- [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
+    - Pei Yang, Hai Ci, and Mike Zheng Shou
+    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 📅 Date: June 4, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [multilingual], [safety], [macOSWorld]
+    - 📖 TLDR: Introduces **macOSWorld**, the first interactive benchmark for GUI agents on macOS, with 202 tasks across 30 apps (28 macOS-exclusive) in 5 languages plus a safety subset for deception attacks; evaluates 6 agents, showing proprietary CUAs outperform open-source and VLM-based agents, significant language gaps (Arabic –27.5%), and both grounding and safety challenges.
 
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
