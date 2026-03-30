@@ -2327,16 +2327,16 @@
     - 🔑 Key: [dataset], [framework], [computer control], [reinforcement learning], [multimodal transformer]
     - 📖 TLDR: This study presents a reinforcement learning-based approach to train agents for computer control tasks, using keyboard and mouse interactions guided by natural language. By leveraging human demonstration data, agents trained in this environment achieved strong cross-task generalization across the MiniWob++ benchmark. This framework demonstrates how agents can control computers as humans would, enabling enhanced performance in complex computer tasks with high transferability.
 
-- [A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility](https://arxiv.org/abs/2202.02312)
+- [A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5327_ECCV_2022_paper.php)
     - Andrea Burns, Deniz Arsan, Sanjna Agrawal, Ranjitha Kumar, Kate Saenko, Bryan A. Plummer
-    - 🏛️ Institutions: Boston University, UIUC
+    - 🏛️ Institutions: Boston University, University of Illinois Urbana-Champaign, MIT-IBM Watson AI Lab
     - 📅 Date: February 4, 2022
     - 📑 Publisher: ECCV 2022
     - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [feasibility prediction], [vision-language navigation], [mobile interaction]
     - 📖 TLDR: This paper introduces the *Mobile App Tasks with Iterative Feedback (MoTIF)* dataset, which addresses vision-language navigation (VLN) with a focus on task feasibility uncertainty in mobile applications. MoTIF provides commands paired with mobile actions and feasibility annotations, allowing researchers to examine the impact of command feasibility on task completion. The dataset includes 125 apps and emphasizes diverse app environments, action sequences, and follow-up questions to improve task ambiguity resolution, making it a valuable resource for feasibility prediction research.
 
-- [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://arxiv.org/abs/2108.03353)
+- [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://dl.acm.org/doi/10.1145/3472749.3474765)
     - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
     - 🏛️ Institutions: University of Toronto
     - 📅 Date: August 6, 2021
