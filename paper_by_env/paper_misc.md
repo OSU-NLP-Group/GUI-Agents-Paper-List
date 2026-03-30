@@ -88,6 +88,15 @@
     - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
     - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
+- [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
+    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: SJTU, Meta
+    - 📅 Date: August 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
+    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
+
 - [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://openreview.net/forum?id=o1Et3MogPw)
     - Weize Chen, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, Cheng Yang, Ruobing Xie, Zhiyuan Liu, Maosong Sun
     - 🏛️ Institutions: Tsinghua University, Peking University, Beijing University of Posts and Telecommunications, Tencent

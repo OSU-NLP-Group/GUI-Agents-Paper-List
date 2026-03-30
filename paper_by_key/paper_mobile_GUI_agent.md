@@ -27,6 +27,15 @@
     - 🔑 Key: [framework], [memory], [reinforcement learning], [online RL], [mobile GUI agent], [UI-Mem]
     - 📖 TLDR: This paper proposes UI-Mem, a mobile GUI agent training framework that augments online reinforcement learning with a hierarchical experience memory storing reusable workflows, subtask skills, and failure patterns. It introduces stratified group sampling to mix strong, weak, and unguided rollouts, plus a self-evolving loop that continually abstracts new successful plans and error diagnoses back into memory. Experiments on AndroidWorld and AndroidLab show strong gains over standard online RL and static reuse baselines, especially on unseen applications.
 
+- [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://openreview.net/forum?id=IWDpCaSF9Q)
+    - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
+    - 🏛️ Institutions: Nanyang Technological University, University of Electronic Science and Technology of China, Gaoling School of Artificial Intelligence Renmin University of China, MiLM Plus Xiaomi Inc., Institute for AI Industry Research Tsinghua University
+    - 📅 Date: January 26, 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [mobile GUI agent], [multi-path evaluation], [ambiguous instruction], [noisy environment], [SMAN-Bench]
+    - 📖 TLDR: This paper introduces SMAN-Bench, a mobile-agent benchmark that moves beyond single golden trajectories by evaluating single-path, multi-path, ambiguous, and noisy task settings in one framework. It builds instructions from an existing graph-structured mobile corpus, adds offline multi-path reward evaluation, and explicitly includes noisy pop-up-heavy environments plus clarification-style ambiguous tasks. The benchmark is designed to better reflect realistic mobile-agent deployment conditions than cleaner or purely online settings.
+
 - [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
     - Yilin Cao, Yufeng Zhong, Zhixiong Zeng, Liming Zheng, Jing Huang, Haibo Qiu, Peng Shi, Wenji Mao, Wan Guanglu
     - 🏛️ Institutions: CAS, UCAS, Meituan
@@ -54,6 +63,15 @@
     - 🔑 Key: [benchmark], [safety], [mobile GUI agent], [environmental injection], [adversarial robustness], [GhostEI-Bench]
     - 📖 TLDR: This paper introduces GhostEI-Bench, a benchmark for evaluating mobile agents under dynamic environmental injection attacks such as deceptive overlays, spoofed notifications, and pop-ups inside realistic Android workflows. Rather than testing static screenshots, it injects adversarial events into executable mobile environments and uses judge-based trajectory analysis to localize failure points. The benchmark shows that current mobile agents remain highly vulnerable to these runtime visual attacks.
 
+- [CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs](https://arxiv.org/abs/2510.15455)
+    - Gucongcong Fan, Chaoyue Niu, Chengfei Lyu, Fan Wu, Guihai Chen
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Alibaba Group
+    - 📅 Date: October 17, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [privacy], [mobile GUI agent], [cloud-local collaboration], [UI exposure reduction], [CORE]
+    - 📖 TLDR: This paper studies privacy leakage in mobile agents that repeatedly upload full-screen UI context to cloud LLMs for planning and action selection. It proposes CORE, a collaborative framework where local and cloud LLMs split planning and decision-making through layout-aware block partitioning, co-planning, and co-decision, so only a smaller relevant UI subset is exposed upstream. On diverse mobile apps and tasks, CORE cuts UI exposure by up to 55.6% while keeping task success close to cloud-only agents.
+
 - [GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning](https://arxiv.org/abs/2505.12493)
     - Longxi Gao, Li Zhang, Pengzhi Gao, Wei Liu, Jian Luan, Mengwei Xu
     - 🏛️ Institutions: Beijing University of Posts and Telecommunications, Unaffiliated
@@ -71,6 +89,51 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [reinforcement learning], [mobile GUI agent], [AndroidWorld], [AndroidLab], [MobileRL], [ADAGRPO]
     - 📖 TLDR: This paper introduces MobileRL, an online reinforcement learning framework for mobile GUI agents centered on the ADAGRPO algorithm for difficulty-adaptive replay, curriculum filtering, and reward shaping over multi-turn tasks. Applied to Qwen2.5-VL-7B-Instruct and GLM-4.1V-9B-Base, it improves sample efficiency and pushes performance to state-of-the-art success rates on both AndroidWorld and AndroidLab. The work is a focused training-framework contribution for strengthening open mobile agents rather than a new benchmark release.
+
+- [Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](https://arxiv.org/abs/2509.01720)
+    - Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
+    - 🏛️ Institutions: Huawei Noah's Ark Lab, University College London
+    - 📅 Date: September 1, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [reinforcement learning], [mobile GUI agent], [sample efficiency], [AndroidWorld], [SoLS]
+    - 📖 TLDR: This paper introduces SoLS, an off-policy reinforcement learning algorithm for mobile app control that treats successful and unsuccessful samples differently to improve stability and sample efficiency. It also adds Successful Transition Replay to focus learning on successful interactions. On AndroidWorld, the method substantially outperforms prior prompt-based and RL baselines while using much less computation than large proprietary agents.
+
+- [MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation](https://arxiv.org/abs/2507.16853)
+    - Ning Li, Xiangmou Qu, Jiamu Zhou, Jun Wang, Muning Wen, Kounianhua Du, Xingyu Lou, Qiuying Peng, Jun Wang, Weinan Zhang
+    - 🏛️ Institutions: Shanghai Jiao Tong University, OPPO Research Institute
+    - 📅 Date: July 21, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [mobile GUI agent], [hierarchical reflection], [proactive exploration], [AndroidWorld], [AndroidLab], [MobileUse]
+    - 📖 TLDR: This paper introduces MobileUse, a mobile GUI agent designed to handle long-horizon execution, error recovery, and cold-start operation in unfamiliar apps. Its core design combines hierarchical reflection across multiple temporal scales with a reflection-on-demand strategy and proactive exploration to build environment understanding before acting. The result sets new state-of-the-art success rates on AndroidWorld and AndroidLab and is released with a toolkit for execution on physical mobile devices.
+
+- [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
+    - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
+    - 🏛️ Institutions: Tsinghua University
+    - 📅 Date: June 9, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [mobile GUI agent], [proactive assistance], [personalization], [FingerTip 20K]
+    - 📖 TLDR: This paper introduces FingerTip 20K, a mobile-agent benchmark built from long-term real-life Android demonstrations that emphasizes proactive task suggestion and personalized execution rather than only instruction-following. It contributes 20K user episodes with contextual and historical signals, then shows that current mobile LLM agents still perform far below humans on these user-oriented settings. Fine-tuning on the collected data substantially improves the use of user context and preferences.
+
+- [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
+    - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
+    - 🏛️ Institutions: CUHK MMLab, vivo AI Lab, CPII under InnoHK
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [reward model], [self-improvement], [synthetic data], [mobile GUI agent], [UI-Genie-RM], [UI-Genie-Agent]
+    - 📖 TLDR: This paper introduces UI-Genie, a self-improving mobile GUI-agent framework that tackles two bottlenecks at once: outcome verification and scalable high-quality trajectory generation. It builds a dedicated reward model, UI-Genie-RM, plus a reward-guided self-improvement loop that iteratively upgrades both the agent and the reward model in dynamic environments. The paper also releases the first reward-specific GUI-agent dataset and reports state-of-the-art performance across multiple mobile GUI benchmarks after several generations of self-improvement.
+
+- [ViMo: A Generative Visual GUI World Model for App Agents](https://arxiv.org/abs/2504.13936)
+    - Dezhao Luo, Bohan Tang, Kang Li, Georgios Papoudakis, Jifei Song, Shaogang Gong, Jianye Hao, Jun Wang, Kun Shao
+    - 🏛️ Institutions: Queen Mary University of London, University of Oxford, Huawei Noah's Ark Lab, University College London
+    - 📅 Date: May 20, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [world model], [visual prediction], [mobile GUI agent], [long-horizon planning], [ViMo]
+    - 📖 TLDR: This paper introduces ViMo, the first visual GUI world model for app agents that predicts future GUI observations directly as images rather than only as text descriptions. To handle the hard problem of rendering GUI text accurately, it separates graphic generation from text generation with a Symbolic Text Representation and dedicated predictors for each part. The generated future screens are then used to help agents compare action outcomes and make better long-horizon decisions in mobile apps.
 
 - [MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation](https://aclanthology.org/2025.naacl-demo.43/)
     - Zichen Zhu, Hao Tang, Yansi Li, Dingye Liu, Hongshen Xu, Kunyao Lan, Danyang Zhang, Yixuan Jiang, Hao Zhou, Chenrun Wang, Situo Zhang, Liangtai Sun, Yixiao Wang, Yuheng Sun, Lu Chen, Kai Yu
