@@ -1,5 +1,14 @@
 # Papers with Keyword: web agent
 
+- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
+    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
+    - 🏛️ Institutions: Ludwig Maximilian University of Munich, Technical University of Munich, Munich Center for Machine Learning
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [reward model], [process reward model], [web agent], [reasoning verifier], [WebArbiter]
+    - 📖 TLDR: This paper introduces WebArbiter, a principle-guided process reward model for web agents that evaluates intermediate reasoning and actions rather than only final outcomes. It is trained to score trajectories using explicit web-navigation principles and supports best-of-N selection during inference. The paper shows that a compact specialized verifier can improve web-agent performance substantially, making it directly relevant to web-agent reinforcement and test-time selection.
+
 - [WARC-Bench: Web Archive based Benchmark for GUI Subtask Executions](https://arxiv.org/abs/2510.09872)
     - Sanjari Srivastava, Gang Li, Cheng Chang, Rishu Garg, Manpreet Kaur, Charlene Y. Lee, Yuezhang Li, Yining Mao, Ignacio Cases, Yanan Xie, Peng Qi
     - 🏛️ Institutions: Uniphore
