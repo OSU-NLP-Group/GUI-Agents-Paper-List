@@ -3821,3 +3821,273 @@
     - 🔑 Key: [framework], [security]
     - 📖 TLDR: A framework leveraging foundation models and GUI agents to detect and analyze TLS Man-in-the-Middle vulnerabilities in Android apps with high coverage.
 
+- [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528)
+    - Hongze Mi, Yibo Feng, Wenjie Lu, Wenbin Jiang, Yasheng Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A self-regulating memory system that evolves across long-horizon cross-application GUI tasks without training, using natural selection mechanism.
+
+- [SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization](https://arxiv.org/abs/2601.22491)
+    - Jinyang Wu, Changpeng Yang, Yuhao Shen, Wentao Zhang, Gang Pan
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A differentiated reward learning approach capturing quality differences among trajectories for more effective agent RL training.
+
+- [BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents](https://arxiv.org/abs/2601.21352)
+    - Ziyu Lu, Tengjin Weng, Yiying Yang, Hanchu Zhou, Kenji Kawaguchi
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework enabling GUI agents to recover from incorrect exploration paths through backtrackable execution and adaptive planning.
+
+- [CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation](https://arxiv.org/abs/2601.21253)
+    - Wei Minn, Biniam Fisseha Demissie, Yan Naing Tun, Ismail Ahmadi, Quazi Marufur Rahman
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: An agentic testing framework with dynamic instrumentation to improve Android app code coverage beyond the 30% barrier.
+
+- [Continual GUI Agents](https://arxiv.org/abs/2601.20732)
+    - Ziwei Liu, Borui Kang, Hangjie Yuan, Xuanyang Zhang, Srivatsav Subramaniyan
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework for GUI agents to adapt continuously as new domains and resolutions arrive over time without catastrophic forgetting.
+
+- [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
+    - Le Zhang, Yixiong Xiao, Xinjiang Lu, Hao Liu, Ziyi Yang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop], [Web], [GUI]
+    - 🔑 Key: [model], [benchmark]
+    - 📖 TLDR: A general-purpose GUI agent handling tasks across mobile, desktop, and web with comprehensive evaluation and data collection.
+
+- [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
+    - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Weifeng Lin, Shunye Tang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: A comprehensive Chinese mobile GUI agent benchmark with online evaluation in real-world Android environments.
+
+- [MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution](https://arxiv.org/abs/2601.19199)
+    - Hui Zhang, Kangyang Luo, Haoxiang Jia, Li Zhang, Zhaohui Jiang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 22, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework for mobile GUI agents to adapt to UI changes by evolving functional semantic understanding despite surface appearance shifts.
+
+- [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
+    - Shuailong Zhang, Yanhao Wang, Yuncheng Huang, Chaoxi Luo, Yuanchun Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 21, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [safety], [framework]
+    - 📖 TLDR: A privacy-preserving framework for GUI agents enabling local processing of sensitive information without transmitting screenshots.
+
+- [SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis](https://arxiv.org/abs/2601.18305)
+    - Zishuo Liu, Yongwen Zhu, Tao Xu, Xinyu Xu, Mingxuan Yuan
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework for GUI agents to synthesize human-like swipe actions beyond discrete click prediction, improving execution capabilities.
+
+- [GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models](https://arxiv.org/abs/2601.18197)
+    - Jingyang Zhou, Yan Feng, Wei Chen, Cheng Zhang, Ziyang Luo
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: A data flywheel system for training GUI task completion critic models with test-time scaling to handle irreversible operations.
+
+- [EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents](https://arxiv.org/abs/2601.17722)
+    - Haotian Zhao, Yuxiang Chai, Pengxiang Zhao, Wendi Yu, Difei Gao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 18, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: A holistic environment and benchmark for evaluating GUI agents on realistic enterprise tasks with verifiable outcomes.
+
+- [GraphPilot: GUI Task Automation with One-Step LLM Reasoning Powered by Knowledge Graph](https://arxiv.org/abs/2601.17418)
+    - Pengxiang Zhao, Yuxiang Chai, Haotian Zhao, Yiyuan Liu, Shuai Ren
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 17, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A knowledge graph-powered framework enabling mobile GUI agents to reason about tasks in one step with improved efficiency.
+
+- [The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes](https://arxiv.org/abs/2601.16356)
+    - Yuki Kurasawa, Michael A. Madaio, Minsuk Chang, Namwoo Kang, Talia Ringer
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: An investigation of how user values and preferences shape LLM-powered GUI agent reasoning and behavioral outcomes.
+
+- [MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux](https://arxiv.org/abs/2601.13060)
+    - Mingyuan Kang, Yiming Liu, Hongling Zhuo, Hongzan Sun, Jinyu Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A multi-agent reward model system automating evaluation and feedback refinement for self-evolving GUI agents.
+
+- [MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction](https://arxiv.org/abs/2601.12822)
+    - Yinhao Jiang, Hao Ye, Juntao Ren, Zhenying He, Jian Hou
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [safety], [security]
+    - 📖 TLDR: A framework correcting reasoning discrepancies between simulation and real systems to protect computer-use agents from security threats.
+
+- [Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?](https://arxiv.org/abs/2601.12349)
+    - Chenhao Lin, Zichen Ding, Lingming Zhang, Yuanchun Li, Xuanzhe Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [security]
+    - 📖 TLDR: A security analysis identifying vulnerabilities in multimodal GUI agents regarding visual atomicity and zero-permission manipulation risks.
+
+- [Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents](https://arxiv.org/abs/2601.11631)
+    - Shiyu Huang, Zishuo Liu, Mingxuan Yuan, Yanzhen Chen, Hao Wen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A coordinate compression technique addressing context inflation in multi-turn GUI agent policy optimization.
+
+- [GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents](https://arxiv.org/abs/2601.09770)
+    - Yinyuan Cong, Shuailong Zhang, Yanchuan Pan, Ying Zhou, Yuanchun Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A tool-augmented perception framework enabling GUI agents to adaptively focus visual attention for improved grounding.
+
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636)
+    - Yiheng Shu, Jinyao Ye, Jianwei Yu, Jiahao Wu, Tao Xu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A hierarchical intent alignment framework for GUI agents to learn implicit user preferences from long-term interaction records.
+
+- [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
+    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 30, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [dataset]
+    - 📖 TLDR: A human-taught GUI agent framework leveraging human demonstrations to address scalable training data scarcity.
+
+- [V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking](https://arxiv.org/abs/2601.06899)
+    - Haolin Zhang, Jiahao He, Yawen Zeng, Zheng Wang, Gang Zhou
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 28, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A visual attention calibration method improving GUI element localization through background suppression and center peaking.
+
+- [Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging](https://arxiv.org/abs/2601.06031)
+    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 27, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework extending GUI grounding beyond clicking to text dragging, enabling more diverse interactions.
+
+- [From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation](https://arxiv.org/abs/2601.05787)
+    - Zhenlan Li, Xingkai Yu, Jiahao Xu, Xiaobu Yuan, Xiaobin Huang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 25, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Web], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A bi-level framework transitioning GUI agents from off-policy expert imitation to on-policy reinforcement learning.
+
+- [GUITester: Enabling GUI Agents for Exploratory Defect Discovery](https://arxiv.org/abs/2601.04500)
+    - Yixuan Yue, Yiming Liu, Tao Xie, Yuanchun Li, Xuanzhe Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 20, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework enabling MLLM-based GUI agents to autonomously discover defects through exploratory testing.
+
+- [InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training](https://arxiv.org/abs/2601.04126)
+    - Yiming Liu, Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 19, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [benchmark], [dataset]
+    - 📖 TLDR: A system for infinite-scale web environment synthesis to overcome scarcity of training environments for GUI agents.
+
+- [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
+    - Haotian Zhao, Yuxiang Chai, Pengxiang Zhao, Wendi Yu, Difei Gao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 18, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A generative sketch world model enabling mobile GUI agents to make informed decisions on long-horizon tasks.
+
+- [Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning](https://arxiv.org/abs/2601.03641)
+    - Yiming Liu, Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 15, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework for agent continual learning using geometric consensus to avoid catastrophic forgetting when learning new tasks.
+
+- [ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands](https://arxiv.org/abs/2512.24965)
+    - Chaoxu Tong, Hao Wen, Yuhao Zhu, Guangyu Gao, Jiaxuan Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 17, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A flow-based generative model approach for GUI agents to perform free-form, dexterous interactions beyond discrete clicks.
+
+- [SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents](https://arxiv.org/abs/2512.22322)
+    - Yuncong Zhang, Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: December 14, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework enabling GUI agents to proactively seek evidence and self-verify task completion in agentic RL settings.
+
