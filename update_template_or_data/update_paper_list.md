@@ -2039,11 +2039,11 @@
     - 🔑 Key: [benchmark], [model], [dataset], [web navigation], [instruction-following], [WebShop]
     - 📖 TLDR: This paper introduces WebGUM, an instruction-following multimodal agent for autonomous web navigation that leverages both visual (webpage screenshots) and textual (HTML) inputs to perform actions such as click and type. The model is trained on a vast corpus of demonstrations and shows improved capabilities in visual perception, HTML comprehension, and multi-step decision-making, achieving state-of-the-art performance on benchmarks like MiniWoB and WebShop. WebGUM provides a scalable approach to web-based tasks without task-specific architectures, enabling high-performance web navigation with generalizable, multimodal foundation models.
 
-- [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
+- [AppAgent: Multimodal Agents as Smartphone Users](https://doi.org/10.1145/3706598.3713600)
     - Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
     - 🏛️ Institutions: Tencent
     - 📅 Date: December 21, 2023
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CHI 2025
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [smartphone interaction], [autonomous exploration], [self-improve]
     - 📖 TLDR: This paper introduces AppAgent, a novel multimodal agent framework designed to operate smartphone applications. The agent uses a simplified action space to mimic human-like interactions such as tapping and swiping. AppAgent learns to navigate and use new apps through autonomous exploration or by observing human demonstrations, creating a knowledge base for executing complex tasks across different applications. The framework's effectiveness is demonstrated through extensive testing on 50 tasks across 10 diverse applications.
@@ -2156,7 +2156,7 @@
     - 🔑 Key: [framework], [state-space exploration], [backtracking]
     - 📖 TLDR: This paper introduces LASER, an LLM agent that models interactive web navigation tasks as state-space exploration. The approach defines a set of high-level states and associated actions, allowing the agent to transition between states and backtrack from errors. LASER significantly outperforms previous methods on the WebShop task without using in-context examples, demonstrating improved handling of novel situations and mistakes during task execution.
 
-- [AutoDroid: LLM-powered Task Automation in Android](https://arxiv.org/abs/2308.15272)
+- [AutoDroid: LLM-powered Task Automation in Android](https://doi.org/10.1145/3636534.3649379)
     - Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu, Toby Jia-Jun Li, Shiqi Jiang, Yunhao Liu, Yaqin Zhang, Yunxin Liu
     - 🏛️ Institutions: Tsinghua University, Shanghai AI Laboratory, University of Notre Dame, Microsoft Research
     - 📅 Date: August 29, 2023
@@ -2169,7 +2169,7 @@
     - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
     - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory
     - 📅 Date: July 29, 2023
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: MobiCom 2024
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [information seeking], [planning], [AI search], [MindSearch]
     - 📖 TLDR: This paper presents MindSearch, a novel approach to web information seeking and integration that mimics human cognitive processes. The system uses a multi-agent framework consisting of a WebPlanner and WebSearcher. The WebPlanner models multi-step information seeking as a dynamic graph construction process, decomposing complex queries into sub-questions. The WebSearcher performs hierarchical information retrieval for each sub-question. MindSearch demonstrates significant improvements in response quality and depth compared to existing AI search solutions, processing information from over 300 web pages in just 3 minutes.
