@@ -707,7 +707,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [form-filling], [document interaction], [localization], [VLA]
     - 📖 TLDR: Form-filling benchmark with 432 fields across 55 documents demonstrating challenges in visual localization for VLAs and GUI agents, proposing FieldFinder tool to assist LLMs in identifying text placement locations.
 
@@ -716,7 +716,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-09
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [mobile agent], [proactive task], [personalization], [user context]
     - 📖 TLDR: Mobile benchmark with 20K real-world Android demonstrations supporting proactive task suggestions and personalized execution by leveraging contextual information (location, time, user profile) and user action preferences.
 
@@ -734,7 +734,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [macOS], [multilingual], [safety], [diverse applications]
     - 📖 TLDR: First macOS GUI agent benchmark with 202 multilingual tasks across 30 applications and 5 languages (English, Chinese, Arabic, Japanese, Russian), including safety evaluation subset revealing significant performance gaps.
 
@@ -860,7 +860,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [mobile agent], [multi-path evaluation], [realistic scenario], [robustness]
     - 📖 TLDR: Realistic mobile agent benchmark with offline multi-path evaluation, noisy apps (pop-ups/ads) splits, and ambiguous instructions to assess robustness under real-world conditions and noisy environments.
 

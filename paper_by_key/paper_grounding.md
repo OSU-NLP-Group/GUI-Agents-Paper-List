@@ -113,7 +113,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-08
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [test-time scaling], [action selection], [reinforcement learning], [grounding]
     - 📖 TLDR: GUI test-time scaling agent improving action selection through concurrent sampling and evaluation of multiple proposals, with RL-based grounding to accurately locate and interact with complex UI elements, achieving state-of-the-art benchmarks.
 
@@ -140,7 +140,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-10
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [speech input], [accessibility], [multimodal], [grounding]
     - 📖 TLDR: First end-to-end GUI agent accepting speech instructions instead of text for accessibility and hands-free use, employing synthetic speech data generation, mixed-modality training, and training-free two-step grounding refinement.
 

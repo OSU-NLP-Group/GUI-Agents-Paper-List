@@ -68,7 +68,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-08
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [test-time scaling], [action selection], [reinforcement learning], [grounding]
     - 📖 TLDR: GUI test-time scaling agent improving action selection through concurrent sampling and evaluation of multiple proposals, with RL-based grounding to accurately locate and interact with complex UI elements, achieving state-of-the-art benchmarks.
 

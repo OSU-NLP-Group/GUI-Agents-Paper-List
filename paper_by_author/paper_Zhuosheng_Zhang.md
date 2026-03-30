@@ -32,7 +32,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-19
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [OOD detection], [safety], [capability boundary], [robustness]
     - 📖 TLDR: OOD detection method for GUI agents using Gaussian Mixture Models fitted on embedding distances to model capability boundaries, achieving 23.7% accuracy improvement across eight datasets (smartphones, computers, web).
 

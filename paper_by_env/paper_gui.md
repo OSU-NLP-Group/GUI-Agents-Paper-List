@@ -462,7 +462,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-24
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [state machine], [programmatic agent], [cost efficiency], [program synthesis]
     - 📖 TLDR: ActionEngine framework transitioning GUI agents from reactive to programmatic execution using state machine memory built offline, enabling Python program synthesis with 11.8x cost reduction and 95% WebArena success.
 
@@ -507,7 +507,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [embedded agent], [frontend integration], [mixed-granularity], [enterprise]
     - 📖 TLDR: Framework for embedding agents directly into enterprise web UIs using lightweight frontend hooks (ARIA/URL observations) and backend reasoning, supporting mixed-granularity actions with stack-agnostic design.
 
@@ -516,7 +516,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [world model], [simulator], [trajectory synthesis], [open-web]
     - 📖 TLDR: Large-scale web simulator (WebWorld) trained on 1M+ open-web interactions supporting 30+ step simulations, enabling trajectory synthesis and exhibiting cross-domain generalization to code, GUI, and game environments.
 
@@ -525,7 +525,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [synthetic environment], [FSM], [verifiable reward], [trajectory generation]
     - 📖 TLDR: AutoWebWorld framework synthesizing verifiable web training environments modeled as FSMs with executable assertions for deterministic reward signals, generating 11,663 verified trajectories at $0.04 per trajectory.
 
@@ -534,7 +534,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [environment synthesis], [verifiable reward], [post-training], [efficiency]
     - 📖 TLDR: GUI-GENESIS automated framework synthesizing lightweight web training environments with code-native verifiable rewards, reducing latency 10x and achieving 14.54% improvement over base models on real-world tasks.
 
@@ -588,7 +588,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [requirement compilation], [code generation], [test-driven], [full-stack]
     - 📖 TLDR: Agentic Requirement Compilation (ARC) converting multi-modal requirement documents with 50-200 scenarios into complete web systems via test-driven bidirectional synthesis, generating full-stack code with comprehensive tests.
 
@@ -2181,7 +2181,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-08-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [unification], [reinforcement learning], [MDP], [spatial affordance]
     - 📖 TLDR: First unified agent combining GUI and embodied navigation by formulating both as MDPs, using unified RL framework with distance-aware rewards trained on mixed trajectories, achieving state-of-the-art across GUI, spatial affordance, and embodied navigation.
 
@@ -2208,7 +2208,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [verifier], [agreement bias], [reward modeling], [self-grounded verification], [MLLM]
     - 📖 TLDR: Identifies critical agreement bias in MLLM verifiers for GUI, web, and robotics domains, proposing Self-Grounded Verification (SGV) method that improves failure detection by 25pp and task completion by leveraging conditional behavior priors.
 
@@ -2217,7 +2217,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-11
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [neural simulator], [generative model], [diffusion], [OS simulation]
     - 📖 TLDR: Neural framework combining RNN state tracking and diffusion-based rendering to simulate OS GUIs by predicting screen frames from user inputs, trained on Ubuntu XFCE and capable of rendering previously unseen applications.
 
@@ -2226,7 +2226,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-08
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [test-time scaling], [action selection], [reinforcement learning], [grounding]
     - 📖 TLDR: GUI test-time scaling agent improving action selection through concurrent sampling and evaluation of multiple proposals, with RL-based grounding to accurately locate and interact with complex UI elements, achieving state-of-the-art benchmarks.
 
@@ -2244,7 +2244,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [form-filling], [document interaction], [localization], [VLA]
     - 📖 TLDR: Form-filling benchmark with 432 fields across 55 documents demonstrating challenges in visual localization for VLAs and GUI agents, proposing FieldFinder tool to assist LLMs in identifying text placement locations.
 
@@ -2262,7 +2262,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-10
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [speech input], [accessibility], [multimodal], [grounding]
     - 📖 TLDR: First end-to-end GUI agent accepting speech instructions instead of text for accessibility and hands-free use, employing synthetic speech data generation, mixed-modality training, and training-free two-step grounding refinement.
 
@@ -2271,7 +2271,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-09
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [mobile agent], [proactive task], [personalization], [user context]
     - 📖 TLDR: Mobile benchmark with 20K real-world Android demonstrations supporting proactive task suggestions and personalized execution by leveraging contextual information (location, time, user profile) and user action preferences.
 
@@ -2280,7 +2280,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-05
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [GUI testing], [scenario-based], [multi-agent], [business logic]
     - 📖 TLDR: ScenGen framework with five specialized agents (Observer, Decider, Executor, Supervisor, Recorder) for scenario-based GUI testing, leveraging LLMs to understand GUI semantics and align automated testing with business logic.
 
@@ -2289,7 +2289,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [macOS], [multilingual], [safety], [diverse applications]
     - 📖 TLDR: First macOS GUI agent benchmark with 202 multilingual tasks across 30 applications and 5 languages (English, Chinese, Arabic, Japanese, Russian), including safety evaluation subset revealing significant performance gaps.
 
@@ -2316,7 +2316,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-29
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [state-aware], [finite state machine], [error recovery], [mobile agent]
     - 📖 TLDR: State-aware mobile agent framework modeling app execution as Finite State Machines (FSM) with four specialized agents for planning, verification, and recovery, achieving 84% success and 71.9% recovery rates.
 
@@ -2361,7 +2361,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-19
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [OOD detection], [safety], [capability boundary], [robustness]
     - 📖 TLDR: OOD detection method for GUI agents using Gaussian Mixture Models fitted on embedding distances to model capability boundaries, achieving 23.7% accuracy improvement across eight datasets (smartphones, computers, web).
 
@@ -2379,7 +2379,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-18
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [preference learning], [chain-of-thought], [DPO], [reasoning]
     - 📖 TLDR: MobileIPL framework enhancing mobile agent reasoning via iterative preference learning with CoaT-trees, rule-based rewards, and Thinking-level DPO pairs, with three-stage instruction evolution for improved generalization.
 
@@ -2388,7 +2388,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [mobile agent], [multi-path evaluation], [realistic scenario], [robustness]
     - 📖 TLDR: Realistic mobile agent benchmark with offline multi-path evaluation, noisy apps (pop-ups/ads) splits, and ambiguous instructions to assess robustness under real-world conditions and noisy environments.
 

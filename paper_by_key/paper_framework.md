@@ -185,7 +185,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-24
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [state machine], [programmatic agent], [cost efficiency], [program synthesis]
     - 📖 TLDR: ActionEngine framework transitioning GUI agents from reactive to programmatic execution using state machine memory built offline, enabling Python program synthesis with 11.8x cost reduction and 95% WebArena success.
 
@@ -212,7 +212,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [embedded agent], [frontend integration], [mixed-granularity], [enterprise]
     - 📖 TLDR: Framework for embedding agents directly into enterprise web UIs using lightweight frontend hooks (ARIA/URL observations) and backend reasoning, supporting mixed-granularity actions with stack-agnostic design.
 
@@ -221,7 +221,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [synthetic environment], [FSM], [verifiable reward], [trajectory generation]
     - 📖 TLDR: AutoWebWorld framework synthesizing verifiable web training environments modeled as FSMs with executable assertions for deterministic reward signals, generating 11,663 verified trajectories at $0.04 per trajectory.
 
@@ -230,7 +230,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [environment synthesis], [verifiable reward], [post-training], [efficiency]
     - 📖 TLDR: GUI-GENESIS automated framework synthesizing lightweight web training environments with code-native verifiable rewards, reducing latency 10x and achieving 14.54% improvement over base models on real-world tasks.
 
@@ -248,7 +248,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [requirement compilation], [code generation], [test-driven], [full-stack]
     - 📖 TLDR: Agentic Requirement Compilation (ARC) converting multi-modal requirement documents with 50-200 scenarios into complete web systems via test-driven bidirectional synthesis, generating full-stack code with comprehensive tests.
 
@@ -968,7 +968,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-05
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [GUI testing], [scenario-based], [multi-agent], [business logic]
     - 📖 TLDR: ScenGen framework with five specialized agents (Observer, Decider, Executor, Supervisor, Recorder) for scenario-based GUI testing, leveraging LLMs to understand GUI semantics and align automated testing with business logic.
 

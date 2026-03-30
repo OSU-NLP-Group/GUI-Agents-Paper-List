@@ -59,7 +59,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [world model], [simulator], [trajectory synthesis], [open-web]
     - 📖 TLDR: Large-scale web simulator (WebWorld) trained on 1M+ open-web interactions supporting 30+ step simulations, enabling trajectory synthesis and exhibiting cross-domain generalization to code, GUI, and game environments.
 
@@ -581,7 +581,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-08-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [unification], [reinforcement learning], [MDP], [spatial affordance]
     - 📖 TLDR: First unified agent combining GUI and embodied navigation by formulating both as MDPs, using unified RL framework with distance-aware rewards trained on mixed trajectories, achieving state-of-the-art across GUI, spatial affordance, and embodied navigation.
 
@@ -599,7 +599,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [verifier], [agreement bias], [reward modeling], [self-grounded verification], [MLLM]
     - 📖 TLDR: Identifies critical agreement bias in MLLM verifiers for GUI, web, and robotics domains, proposing Self-Grounded Verification (SGV) method that improves failure detection by 25pp and task completion by leveraging conditional behavior priors.
 
@@ -608,7 +608,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-11
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [neural simulator], [generative model], [diffusion], [OS simulation]
     - 📖 TLDR: Neural framework combining RNN state tracking and diffusion-based rendering to simulate OS GUIs by predicting screen frames from user inputs, trained on Ubuntu XFCE and capable of rendering previously unseen applications.
 
@@ -617,7 +617,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-08
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [test-time scaling], [action selection], [reinforcement learning], [grounding]
     - 📖 TLDR: GUI test-time scaling agent improving action selection through concurrent sampling and evaluation of multiple proposals, with RL-based grounding to accurately locate and interact with complex UI elements, achieving state-of-the-art benchmarks.
 
@@ -635,7 +635,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-10
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [speech input], [accessibility], [multimodal], [grounding]
     - 📖 TLDR: First end-to-end GUI agent accepting speech instructions instead of text for accessibility and hands-free use, employing synthetic speech data generation, mixed-modality training, and training-free two-step grounding refinement.
 
@@ -689,7 +689,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-29
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [state-aware], [finite state machine], [error recovery], [mobile agent]
     - 📖 TLDR: State-aware mobile agent framework modeling app execution as Finite State Machines (FSM) with four specialized agents for planning, verification, and recovery, achieving 84% success and 71.9% recovery rates.
 
@@ -770,7 +770,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-19
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [OOD detection], [safety], [capability boundary], [robustness]
     - 📖 TLDR: OOD detection method for GUI agents using Gaussian Mixture Models fitted on embedding distances to model capability boundaries, achieving 23.7% accuracy improvement across eight datasets (smartphones, computers, web).
 
@@ -779,7 +779,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-18
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [preference learning], [chain-of-thought], [DPO], [reasoning]
     - 📖 TLDR: MobileIPL framework enhancing mobile agent reasoning via iterative preference learning with CoaT-trees, rule-based rewards, and Thinking-level DPO pairs, with three-stage instruction evolution for improved generalization.
 

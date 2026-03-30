@@ -23,7 +23,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [macOS], [multilingual], [safety], [diverse applications]
     - 📖 TLDR: First macOS GUI agent benchmark with 202 multilingual tasks across 30 applications and 5 languages (English, Chinese, Arabic, Japanese, Russian), including safety evaluation subset revealing significant performance gaps.
 

@@ -59,7 +59,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-05
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [GUI testing], [scenario-based], [multi-agent], [business logic]
     - 📖 TLDR: ScenGen framework with five specialized agents (Observer, Decider, Executor, Supervisor, Recorder) for scenario-based GUI testing, leveraging LLMs to understand GUI semantics and align automated testing with business logic.
 
