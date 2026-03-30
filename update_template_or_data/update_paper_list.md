@@ -1,3 +1,12 @@
+- [GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning](https://arxiv.org/abs/2505.12493)
+    - Longxi Gao, Li Zhang, Pengzhi Gao, Wei Liu, Jian Luan, Mengwei Xu
+    - 🏛️ Institutions: Beijing University of Posts and Telecommunications, Unaffiliated
+    - 📅 Date: October 10, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [reinforcement learning], [self-supervised learning], [GUI grounding], [mobile GUI agent], [GUI-Shift]
+    - 📖 TLDR: This paper introduces GUI-Shift, a self-supervised reinforcement learning framework for VLM-based GUI agents built around the K-step GUI Transition task, which learns GUI dynamics from unlabeled trajectories without natural-language instruction annotation. The method combines rule-based optimization with data filtering and improves both GUI automation and grounding performance across AndroidControl, GUI Odyssey, ScreenSpot-v2, and ScreenSpot-Pro. The paper shows a scalable path to training stronger mobile GUI agents from large amounts of unlabeled interaction data.
+
 - [AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](https://arxiv.org/abs/2506.14205)
     - Jingxu Xie, Dylan Xu, Xuandong Zhao, Dawn Song
     - 🏛️ Institutions: University of California, Berkeley
@@ -262,6 +271,7 @@
 ||||||| parent of 2abe478 (Add LongHorizonUI paper entry)
 ||||||| parent of e0bd41d (Add MobileRL paper entry)
 ||||||| parent of 76e33a5 (Add AgentSynth paper entry)
+||||||| parent of 79f25be (Add GUI-Shift paper entry)
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
     - 🏛️ Institutions: Tencent Youtu Lab, Peking University, Nanjing University
