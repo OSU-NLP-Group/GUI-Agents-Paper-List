@@ -303,7 +303,7 @@
 
 - [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://arxiv.org/abs/2506.03143)
     - Qianhui Wu, Kanzhi Cheng, Rui Yang, Chaoyun Zhang, Jianwei Yang, Huiqiang Jiang, Jian Mu, Baolin Peng, Bo Qiao, Reuben Tan, Si Qin, Lars Liden, Qingwei Lin, Huan Zhang, Tong Zhang, Jianbing Zhang, Dongmei Zhang, Jianfeng Gao
-    - 🏛️ Institutions: Microsoft, Nanjing Univ., UIUC
+    - 🏛️ Institutions: Microsoft, Nanjing University, University of Illinois Urbana-Champaign
     - 📅 Date: June 3, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [GUI]
@@ -322,7 +322,7 @@
 
 - [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
-    - 🏛️ Institutions: THUNLP, RUC, ModelBest
+    - 🏛️ Institutions: Tsinghua University, Renmin University of China, ModelBest
     - 📅 Date: June 2, 2025
     - 📑 Publisher: EMNLP 2025 System Demonstrations
     - 💻 Env: [Mobile]
@@ -367,7 +367,7 @@
 
 - [XBOUND: Exploring the Capability Boundaries of Device-Control Agents through Trajectory Tree Exploration](https://arxiv.org/abs/2505.21279)
     - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
-    - 🏛️ Institutions: HIT Shenzhen (Harbin Institute of Technology), Pengcheng Lab, SJTU, Meituan
+    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
     - 📅 Date: May 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -385,7 +385,7 @@
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiaochong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
-    - 🏛️ Institutions: HKU, Shanghai AI Lab, Fudan, Peking U, Nanjing U, ECNU, Yale
+    - 🏛️ Institutions: The University of Hong Kong, Shanghai AI Laboratory, Fudan University, Peking University, Nanjing University, East China Normal University, Yale University
     - 📅 Date: May 26, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -745,7 +745,7 @@
 
 - [MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users](https://arxiv.org/abs/2502.02982)
     - Wenhao Wang, Mengying Yuan, Zijie Yu, Guangyi Liu, Rui Ye, Tian Jin, Siheng Chen, Yanfeng Wang
-    - 🏛️ Institutions: ZJU, SJTU, Shanghai AI Lab, MAGIC
+    - 🏛️ Institutions: Zhejiang University, Shanghai Jiao Tong University, Shanghai AI Laboratory, MAGIC Research
     - 📅 Date: February 5, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -772,7 +772,7 @@
 
 - [ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use](https://arxiv.org/abs/2504.07981)
     - Kaixin Li, Ziyang Meng, Hongzhan Lin, Ziyang Luo, Yuchen Tian, Jing Ma, Zhiyong Huang, Tat-Seng Chua
-    - 🏛️ Institutions: NUS, ECNU, HKBU
+    - 🏛️ Institutions: National University of Singapore, East China Normal University, Hong Kong Baptist University
     - 📅 Date: January 3, 2025
     - 📑 Publisher: ACM Multimedia 2025
     - 💻 Env: [Desktop]
@@ -781,7 +781,7 @@
 
 - [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://aclanthology.org/2025.acl-long.277/)
     - Qiushi Sun, Kanzhi Cheng, Zichen Ding, Chuanyang Jin, Yian Wang, Fangzhi Xu, Zhenyu Wu, Chengyou Jia, Liheng Chen, Zhoumianze Liu, Ben Kao, Guohao Li, Junxian He, Yu Qiao, Zhiyong Wu
-    - 🏛️ Institutions: Shanghai AI Lab, HKU, Johns Hopkins University, SJTU, Oxford, HKUST
+    - 🏛️ Institutions: Shanghai AI Laboratory, The University of Hong Kong, Johns Hopkins University, Shanghai Jiao Tong University, University of Oxford, Hong Kong University of Science and Technology
     - 📅 Date: Dec 27, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [GUI]
@@ -799,7 +799,7 @@
 
 - [Aria-UI: Visual Grounding for GUI Instructions](https://aclanthology.org/2025.findings-acl.1152/)
     - Yuhao Yang, Yue Wang, Dongxu Li, Ziyang Luo, Bei Chen, Chao Huang, Junnan Li
-    - 🏛️ Institutions: HKU, Salesforce AI Research, Alibaba Group, ANU, Independent
+    - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research, Alibaba Group, Australian National University, Independent
     - 📅 Date: Dec 20, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [GUI]
@@ -817,7 +817,7 @@
 
 - [GUI Agents: A Survey](https://arxiv.org/abs/2412.13501)
     - Dang Nguyen, Jian Chen, Yu Wang, Gang Wu, Namyong Park, Zhengmian Hu, Hanjia Lyu, Junda Wu, Ryan Aponte, Yu Xia, Xintong Li, Jing Shi, Hongjie Chen, Viet Dac Lai, Zhouhang Xie, Sungchul Kim, Ruiyi Zhang, Tong Yu, Mehrab Tanjim, Nesreen K. Ahmed, Puneet Mathur, Seunghyun Yoon, Lina Yao, Branislav Kveton, Thien Huu Nguyen, Trung Bui, Tianyi Zhou, Ryan A. Rossi, Franck Dernoncourt
-    - 🏛️ Institutions: UMD, SUNY Buffalo, University of Oregon, Adobe Research, Meta AI, University of Rochester, UCSD, CMU, Dolby Labs, Intel AI Research, UNSW
+    - 🏛️ Institutions: University of Maryland, SUNY Buffalo, University of Oregon, Adobe Research, Meta AI, University of Rochester, University of California San Diego, Carnegie Mellon University, Dolby Laboratories, Intel AI Research, University of New South Wales
     - 📅 Date: December 18, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -826,7 +826,7 @@
 
 - [Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents](https://arxiv.org/abs/2412.13194)
     - Yifei Zhou, Qianlan Yang, Kaixiang Lin, Min Bai, Xiong Zhou, Yu-Xiong Wang, Sergey Levine, Erran Li
-    - 🏛️ Institutions: UCB, UIUC, Amazon
+    - 🏛️ Institutions: University of California, Berkeley, University of Illinois Urbana-Champaign, Amazon
     - 📅 Date: December 17, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -844,7 +844,7 @@
 
 - [Falcon-UI: Understanding GUI Before Following User Instructions](https://arxiv.org/abs/2412.09362)
     - Huawen Shen, Chang Liu, Gengluo Li, Xinlong Wang, Yu Zhou, Can Ma, Xiangyang Ji
-    - 🏛️ Institutions: Chinese Academy of Sciences, Tsinghua University, Nankai University, BAAI
+    - 🏛️ Institutions: Chinese Academy of Sciences, Tsinghua University, Nankai University, Beijing Academy of Artificial Intelligence
     - 📅 Date: Dec 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -853,7 +853,7 @@
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://arxiv.org/abs/2412.05467)
     - Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, Alexandre Lacoste
-    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, CMU, McGill University, Tel Aviv University, Université de Montréal, iMean AI
+    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, Carnegie Mellon University, McGill University, Tel Aviv University, Université de Montréal, iMean AI
     - 📅 Date: December 6, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -862,7 +862,7 @@
 
 - [Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://proceedings.mlr.press/v267/xu25ae.html)
     - Yiheng Xu, Zekun Wang, Junli Wang, Dunjie Lu, Tianbao Xie, Amrita Saha, Doyen Sahoo, Tao Yu, Caiming Xiong
-    - 🏛️ Institutions: HKU, NTU, Salesforce
+    - 🏛️ Institutions: The University of Hong Kong, Nanyang Technological University, Salesforce
     - 📅 Date: Dec 5, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [GUI]
