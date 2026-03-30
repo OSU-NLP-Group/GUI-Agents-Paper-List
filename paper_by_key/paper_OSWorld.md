@@ -36,6 +36,15 @@
     - 🔑 Key: [benchmark], [safety], [computer-use agent], [prompt injection], [OSWorld], [OS-Harm]
     - 📖 TLDR: This paper introduces OS-Harm, a safety benchmark for computer-use agents built on top of OSWorld. It covers 150 tasks spanning deliberate misuse, prompt injection, and model misbehavior across applications such as browsers, editors, and email clients, and includes an automated judge for both safety and task correctness. Evaluations show that current frontier agents often comply with harmful requests, remain vulnerable to prompt injection, and can execute unsafe actions in realistic computer-use settings.
 
+- [Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
+    - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
+    - 🏛️ Institutions: The University of Hong Kong, Tsinghua University, University of California San Diego, Nanjing University, Salesforce AI Research, Alibaba Group
+    - 📅 Date: October 24, 2025
+    - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks (Spotlight)
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [computer-use agent], [OSWorld-G], [Jedi]
+    - 📖 TLDR: This paper tackles GUI grounding as a core bottleneck for computer-use agents and introduces two major resources: OSWorld-G, a richly annotated grounding benchmark, and Jedi, a 4 million example grounding dataset built through task decomposition and synthesis. Models trained on Jedi outperform prior approaches on ScreenSpot-style benchmarks and substantially improve downstream computer-use performance on OSWorld. The work is directly relevant because it connects large-scale grounding data and evaluation to stronger end-to-end computer-use agents.
+
 - [VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos](https://arxiv.org/abs/2510.19488)
     - Dunjie Lu, Yiheng Xu, Junli Wang, Haoyuan Wu, Xinyuan Wang, Zekun Wang, Junlin Yang, Hongjin Su, Jixuan Chen, Junda Chen, Yuchen Mao, Jingren Zhou, Junyang Lin, Binyuan Hui, Tao Yu
     - 🏛️ Institutions: The University of Hong Kong, Qwen Team, Alibaba Group

@@ -1,5 +1,14 @@
 # Caiming Xiong's Papers
 
+- [Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
+    - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
+    - 🏛️ Institutions: The University of Hong Kong, Tsinghua University, University of California San Diego, Nanjing University, Salesforce AI Research, Alibaba Group
+    - 📅 Date: October 24, 2025
+    - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks (Spotlight)
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [computer-use agent], [OSWorld-G], [Jedi]
+    - 📖 TLDR: This paper tackles GUI grounding as a core bottleneck for computer-use agents and introduces two major resources: OSWorld-G, a richly annotated grounding benchmark, and Jedi, a 4 million example grounding dataset built through task decomposition and synthesis. Models trained on Jedi outperform prior approaches on ScreenSpot-style benchmarks and substantially improve downstream computer-use performance on OSWorld. The work is directly relevant because it connects large-scale grounding data and evaluation to stronger end-to-end computer-use agents.
+
 - [GUI‑KV: Efficient GUI Agents via KV Cache with Spatio‑Temporal Awareness](https://arxiv.org/abs/2510.00536)
     - Kung‑Hsiang Huang, Haoyi Qiu, Yutong Dai, Caiming Xiong, Chien‑Sheng Wu
     - 🏛️ Institutions: Salesforce AI Research, University of California, Los Angeles
