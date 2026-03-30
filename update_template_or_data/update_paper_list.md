@@ -1,3 +1,12 @@
+- [Grounding Computer Use Agents on Human Demonstrations](https://arxiv.org/abs/2511.07332)
+    - Aarash Feizi, Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Kaixin Li, Rabiul Awal, Xing Han Lu, Johan Obando-Ceron, Juan A. Rodriguez, Nicolas Chapados, David Vazquez, Adriana Romero-Soriano, Reihaneh Rabbany, Perouz Taslakian, Christopher Pal, Spandana Gella, Sai Rajeswar
+    - 🏛️ Institutions: Mila, McGill University, Universite de Montreal, ServiceNow Research, University of Waterloo, University of Oxford, National University of Singapore, Polytechnique Montreal, Ecole de Technologie Superieure, CIFAR
+    - 📅 Date: November 10, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [model], [GUI grounding], [desktop grounding], [reinforcement learning], [GroundCUA], [GroundNext]
+    - 📖 TLDR: This paper introduces GroundCUA, a large-scale desktop grounding dataset built from expert human demonstrations, covering 87 applications, 56K screenshots, and more than 3.56M human-verified UI annotations. Using this data, the authors train the GroundNext family of grounding models, which achieve state-of-the-art results across five benchmarks with far less training data than prior work, and improve further with reinforcement learning post-training. The paper shows that high-quality human demonstration data is a key driver for robust grounding in general-purpose computer-use agents.
+
 - [K²-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control](https://arxiv.org/abs/2603.00676)
     - Zhe Wu, Donglin Mo, Hongjin Lu, Junliang Xing, Jianheng Liu, Yuheng Jing, Kai Li, Kun Shao, Jianye Hao, Yuanchun Shi
     - 🏛️ Institutions: Tsinghua University, Huawei Noah's Ark Lab, Institute of Automation CAS
@@ -212,6 +221,7 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [benchmark], [agent-native GUI], [automatic GUI design], [AUI-Gym], [Coder-CUA collaboration]
     - 📖 TLDR: This paper studies how computer-use agents can actively improve interfaces rather than only operate them. It introduces AUI-Gym, a benchmark for automatic GUI development across 52 applications and 1,560 synthesized tasks, together with a Coder-CUA collaboration framework in which a coding model iteratively redesigns interfaces while a computer-use agent judges task solvability through interaction. The work shifts GUI design toward agent-centric efficiency and reliability, showing that agent feedback can materially improve downstream execution success.
+||||||| parent of cd78e0c (Add GroundCUA paper entry)
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
     - 🏛️ Institutions: Tencent Youtu Lab, Peking University, Nanjing University
