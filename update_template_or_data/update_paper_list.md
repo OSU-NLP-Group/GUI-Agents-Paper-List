@@ -1922,11 +1922,11 @@
     - 🔑 Key: [framework], [UI automation], [Windows], [UFO]
     - 📖 TLDR: This paper presents UFO, a pioneering multimodal LLM-based agent designed to fulfill user requests on Windows OS. UFO employs a dual-agent architecture—comprising AppAgent and ActAgent—that can interpret and execute complex tasks across multiple Windows applications by observing UI elements and utilizing control interactions. The framework allows UFO to handle intricate, cross-application workflows and execute commands seamlessly based on natural language prompts. It integrates GPT-Vision to recognize and interact with graphical elements, enabling flexible, autonomous task completion within and across diverse Windows applications.
 
-- [ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model](https://arxiv.org/abs/2402.07945)
+- [ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://www.ijcai.org/proceedings/2024/711)
     - Runliang Niu, Jindong Li, Shiqi Wang, Yali Fu, Xiyu Hu, Xueyuan Leng, He Kong, Yi Chang, Qi Wang
     - 🏛️ Institutions: Jilin University
     - 📅 Date: February 13, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: IJCAI 2024
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [visual language model], [computer control agent]
     - 📖 TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
@@ -1976,11 +1976,11 @@
     - 🔑 Key: [dataset], [benchmark]
     - 📖 TLDR: OmniACT introduces a dataset and benchmark to train and evaluate multimodal agents capable of autonomously performing diverse tasks across desktop and web environments. Using annotated UI elements across applications, it combines visual grounding with natural language instructions, providing 9,802 data points for developing agents that integrate high-level reasoning with UI interactions. The study highlights the limited proficiency of current models, with baselines like GPT-4 only achieving 15% of human performance on executable scripts, emphasizing OmniACT's potential as a testbed for advancing multimodal AI.
 
-- [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://arxiv.org/abs/2401.16158)
+- [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://openreview.net/forum?id=jE6pDYCnVF)
     - Junyang Wang, Haiyang Xu, Jiabo Ye, Ming Yan, Weizhou Shen, Ji Zhang, Fei Huang, Jitao Sang
-    - 🏛️ Institutions: Beijing Jiaotong University, Alibaba
+    - 🏛️ Institutions: Beijing Jiaotong University, Alibaba Group
     - 📅 Date: January 29, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2024 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: This paper presents Mobile-Agent, an autonomous multi-modal agent designed for mobile device interaction. The system integrates visual perception, natural language processing, and action prediction to navigate and operate mobile applications. The authors introduce a new dataset and benchmark for evaluating mobile agents, demonstrating Mobile-Agent's superior performance in task completion and generalization across various apps compared to existing methods.
