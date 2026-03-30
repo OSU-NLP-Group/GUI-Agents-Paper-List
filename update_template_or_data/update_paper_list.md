@@ -1,6 +1,6 @@
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
-    - 🏛️ Institutions: Tencent Youtu Lab, PKU, NJU
+    - 🏛️ Institutions: Tencent Youtu Lab, Peking University, Nanjing University
     - 📅 Date: October 21, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -11,7 +11,7 @@
 
 - [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction For Continual Learning](https://arxiv.org/abs/2510.15863)
     - Simon Yu, Gang Li, Weiyan Shi, Peng Qi
-    - 🏛️ Institutions: NEU, Uniphore
+    - 🏛️ Institutions: Northeastern University, Uniphore
     - 📅 Date: October 17, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Web]
@@ -20,7 +20,7 @@
 
 - [CoAct‑1: Computer‑using Multi-agent System with Coding Actions](https://arxiv.org/abs/2508.03923)
     - Linxin Song, Yutong Dai, Viraj Prabhu, Jieyu Zhang, Taiwei Shi, Li Li, Junnan Li, Silvio Savarese, Zeyuan Chen, Jieyu Zhao, Ran Xu, Caiming Xiong
-    - 🏛️ Institutions: USC, Salesforce, UW
+    - 🏛️ Institutions: University of Southern California, Salesforce Research, University of Washington
     - 📅 Date: August 5, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Desktop]
@@ -31,7 +31,7 @@
 
 - [GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding](https://arxiv.org/abs/2510.04039)
     - Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, Caiwen Ding
-    - 🏛️ Institutions: UMN, Cisco Research, LLNL
+    - 🏛️ Institutions: University of Minnesota, Cisco Research, Lawrence Livermore National Laboratory
     - 📅 Date: October 5, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [GUI]
@@ -40,7 +40,7 @@
 
 - [Say One Thing, Do Another? Diagnosing Reasoning‑Execution Gaps in VLM‑Powered Mobile‑Use Agents](https://arxiv.org/abs/2510.02204)
     - Lingzhong Dong, Ziqi Zhou, Shuaibo Yang, Haiyue Sheng, Pengzhou Cheng, Zongru Wu, Zheng Wu, Gongshen Liu, Zhuosheng Zhang
-    - 🏛️ Institutions: SJTU, BIT
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Beijing Institute of Technology
     - 📅 Date: October 2, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
