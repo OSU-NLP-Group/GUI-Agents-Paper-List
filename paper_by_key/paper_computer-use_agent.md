@@ -81,15 +81,6 @@
     - 🔑 Key: [benchmark], [safety], [risk evaluation], [computer-use agent], [OSWorld], [RiOSWorld]
     - 📖 TLDR: This paper introduces RiOSWorld, a benchmark for evaluating safety risks in multimodal computer-use agents during realistic computer manipulation. It covers 492 risky tasks across applications such as web, social media, multimedia, email, office software, and operating-system interactions, and evaluates both harmful intent and harmful task completion. The benchmark shows that current computer-use agents remain exposed to substantial real-world safety risks even when they are aligned for ordinary dialogue settings.
 
-- [Efficient Agent Training for Computer Use](https://arxiv.org/abs/2505.13909)
-    - Yanheng He, Jiahe Jin, Pengfei Liu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, SII, GAIR
-    - 📅 Date: May 20, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [computer-use agent], [training], [synthetic trajectories], [WindowsAgentArena], [PC Agent-E]
-    - 📖 TLDR: This paper introduces PC Agent-E, an efficient training framework for computer-use agents that starts from a small set of human trajectories and expands them with diverse AI-synthesized alternative actions. The resulting model substantially improves over training on scarce human demonstrations alone and even surpasses Claude 3.7 Sonnet on WindowsAgentArena-V2. The work is directly relevant to open computer-use training because it shows how to build stronger desktop agents with minimal human annotation.
-
 - [MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](https://arxiv.org/abs/2503.10809)
     - Lukas Aichberger, Alasdair Paren, Guohao Li, Philip Torr, Yarin Gal, Adel Bibi
     - 🏛️ Institutions: Johannes Kepler University Linz, University of Oxford
