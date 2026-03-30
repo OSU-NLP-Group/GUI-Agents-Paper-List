@@ -1,3 +1,12 @@
+- [DAVE: A VLM Vision Encoder for Document Understanding and Web Agents](https://arxiv.org/abs/2512.17221)
+    - Brandon Huang, Hang Hua, Zhuoran Yu, Trevor Darrell, Rogerio Feris, Roei Herzig
+    - 🏛️ Institutions: MIT-IBM Watson AI Lab, University of California, Berkeley, University of Wisconsin-Madison
+    - 📅 Date: December 19, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [vision encoder], [document understanding], [web agent], [web localization], [DAVE]
+    - 📖 TLDR: This paper introduces DAVE, a vision encoder tailored to document understanding and web-agent workloads, addressing the weak low-level structural and spatial features of general-purpose VLM encoders. Its training pipeline combines self-supervised pretraining on unlabeled document and web images with supervised autoregressive pretraining, model merging, and ensemble feature fusion. The resulting encoder improves performance on document benchmarks, web localization, and downstream web-agent evaluations, making it directly relevant as a perception backbone for web agents.
+
 - [MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](https://arxiv.org/abs/2503.10809)
     - Lukas Aichberger, Alasdair Paren, Guohao Li, Philip Torr, Yarin Gal, Adel Bibi
     - 🏛️ Institutions: Johannes Kepler University Linz, University of Oxford
