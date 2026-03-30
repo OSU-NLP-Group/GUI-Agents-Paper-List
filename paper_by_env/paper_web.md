@@ -16,6 +16,15 @@
     - 🔑 Key: [framework], [skill learning], [compositional skills], [transfer generalization], [Polymorphism], [PolySkill], [continual learning]
     - 📖 TLDR: This paper introduces **PolySkill**, a framework that enables LLM-based web agents to acquire generalizable and composable skills by decoupling a skill's abstract goal from its concrete implementation, inspired by polymorphic abstraction in software engineering. Evaluated on the Mind2Web benchmark, PolySkill significantly enhances skill reuse, improves task success rates on both seen and unseen websites, and reduces the number of interaction steps, demonstrating effective continual learning and skill transfer capabilities.
 
+- [WARC-Bench: Web Archive based Benchmark for GUI Subtask Executions](https://arxiv.org/abs/2510.09872)
+    - Sanjari Srivastava, Gang Li, Cheng Chang, Rishu Garg, Manpreet Kaur, Charlene Y. Lee, Yuezhang Li, Yining Mao, Ignacio Cases, Yanan Xie, Peng Qi
+    - 🏛️ Institutions: Uniphore
+    - 📅 Date: October 10, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [web agent], [GUI subtask], [reinforcement learning], [WebArchive], [WARC-Bench]
+    - 📖 TLDR: This paper introduces WARC-Bench, a web-agent benchmark focused on short-horizon GUI subtasks such as date pickers, scroll containers, and other interface widgets that are essential for larger web workflows. It builds 438 tasks on realistic archived webpages using WARC files and shows that even strong computer-use models struggle on these subtasks. The paper also studies supervised fine-tuning and RL with verifiable rewards, showing that targeted subtask training materially improves open models.
+
 - [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://openreview.net/forum?id=AUaW6DS9si)
     - Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su
     - 🏛️ Institutions: The Ohio State University, Amazon AGI
