@@ -7,7 +7,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: 
-    - 📖 TLDR: 
+    - 📖 TLDR: ColorBrowserAgent achieves 71.2% success on WebArena through human-in-the-loop knowledge adaptation and progressive summarization to handle long-horizon tasks across diverse websites.
 
 - [Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](https://arxiv.org/abs/2509.01720)
     - Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao

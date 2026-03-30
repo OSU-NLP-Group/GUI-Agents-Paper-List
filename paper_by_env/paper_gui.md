@@ -383,7 +383,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: 
-    - 📖 TLDR: 
+    - 📖 TLDR: Chameleon attack framework exposes vulnerabilities in GUI agents via LLM-Driven Environment Simulation and Attention Black Hole optimization to inject effective triggers into dynamic web environments.
 
 - [Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction](https://arxiv.org/abs/2602.00575)
     - Chaoqun Cui, Jing Huang, Shijing Wang, Feng Chen, Fangyuan Liu

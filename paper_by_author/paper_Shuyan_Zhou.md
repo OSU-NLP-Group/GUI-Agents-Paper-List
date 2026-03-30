@@ -7,7 +7,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: 
-    - 📖 TLDR: 
+    - 📖 TLDR: Introduces a dataset of human-agent web interactions and trains language models to predict when users will intervene, resulting in more collaborative web agents that users find 26.5% more useful in practice.
 
 - [WebInject: Prompt Injection Attack to Web Agents](https://arxiv.org/abs/2505.11717)
     - Xilong Wang, John Bloch, Zedian Shao, Yuepeng Hu, Shuyan Zhou, Neil Zhenqiang Gong
@@ -16,7 +16,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: 
-    - 📖 TLDR: 
+    - 📖 TLDR: WebInject is an attack method manipulating webpage visuals to trick AI web agents into unintended actions, using a neural network to approximate the pixel-to-screenshot mapping for effective visual prompt injection.
 
 - [CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation](https://aclanthology.org/2025.naacl-demo.17/)
     - Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig
