@@ -1,3 +1,12 @@
+- [DAVE: A VLM Vision Encoder for Document Understanding and Web Agents](https://arxiv.org/abs/2512.17221)
+    - Brandon Huang, Hang Hua, Zhuoran Yu, Trevor Darrell, Rogerio Feris, Roei Herzig
+    - 🏛️ Institutions: MIT-IBM Watson AI Lab, University of California, Berkeley, University of Wisconsin-Madison
+    - 📅 Date: December 19, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [vision encoder], [web agent], [document understanding], [localization], [DAVE]
+    - 📖 TLDR: This paper introduces DAVE, a vision encoder specialized for document understanding and web-agent workloads, where standard VLM encoders often lack the structural and spatial features needed for robust localization and interaction. It uses self-supervised pretraining plus limited supervised autoregressive pretraining, alongside model merging and feature ensembling, to improve compatibility with diverse web-agent architectures. The resulting encoder strengthens both web localization and agent-based web benchmarks, making it a useful systems-level contribution for web-agent perception.
+
 - [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876)
     - Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu
     - 🏛️ Institutions: Meituan
