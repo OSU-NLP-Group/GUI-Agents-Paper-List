@@ -11,7 +11,7 @@
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, and Mike Zheng Shou
-    - 🏛️ Institutions: NUS
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: June 4, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop]

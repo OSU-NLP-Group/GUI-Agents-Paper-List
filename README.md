@@ -28,7 +28,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
-[framework (169)](paper_by_key/paper_framework.md) | [benchmark (115)](paper_by_key/paper_benchmark.md) | [dataset (101)](paper_by_key/paper_dataset.md) | [model (56)](paper_by_key/paper_model.md) | [reinforcement learning (37)](paper_by_key/paper_reinforcement_learning.md) | [planning (16)](paper_by_key/paper_planning.md) | [safety (15)](paper_by_key/paper_safety.md) | [grounding (13)](paper_by_key/paper_grounding.md) | [visual grounding (11)](paper_by_key/paper_visual_grounding.md) | [evaluation (11)](paper_by_key/paper_evaluation.md) | [reasoning (10)](paper_by_key/paper_reasoning.md) | [survey (8)](paper_by_key/paper_survey.md) | [multimodal (8)](paper_by_key/paper_multimodal.md) | [vision language model (7)](paper_by_key/paper_vision_language_model.md) | [memory (6)](paper_by_key/paper_memory.md) | [multi-agent (5)](paper_by_key/paper_multi-agent.md) | [GUI grounding (5)](paper_by_key/paper_GUI_grounding.md) | [learning (5)](paper_by_key/paper_learning.md) | [chain-of-thought (4)](paper_by_key/paper_chain-of-thought.md) | [OSWorld (4)](paper_by_key/paper_OSWorld.md)
+[framework (168)](paper_by_key/paper_framework.md) | [benchmark (115)](paper_by_key/paper_benchmark.md) | [dataset (101)](paper_by_key/paper_dataset.md) | [model (56)](paper_by_key/paper_model.md) | [reinforcement learning (37)](paper_by_key/paper_reinforcement_learning.md) | [planning (16)](paper_by_key/paper_planning.md) | [safety (15)](paper_by_key/paper_safety.md) | [grounding (13)](paper_by_key/paper_grounding.md) | [visual grounding (11)](paper_by_key/paper_visual_grounding.md) | [evaluation (11)](paper_by_key/paper_evaluation.md) | [reasoning (10)](paper_by_key/paper_reasoning.md) | [survey (8)](paper_by_key/paper_survey.md) | [multimodal (8)](paper_by_key/paper_multimodal.md) | [vision language model (8)](paper_by_key/paper_vision_language_model.md) | [memory (6)](paper_by_key/paper_memory.md) | [multi-agent (5)](paper_by_key/paper_multi-agent.md) | [GUI grounding (5)](paper_by_key/paper_GUI_grounding.md) | [learning (5)](paper_by_key/paper_learning.md) | [chain-of-thought (4)](paper_by_key/paper_chain-of-thought.md) | [OSWorld (4)](paper_by_key/paper_OSWorld.md)
 
 ## Papers Grouped by Authors
 [Yu Su (16)](paper_by_author/paper_Yu_Su.md) | [Huan Sun (12)](paper_by_author/paper_Huan_Sun.md) | [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) | [Caiming Xiong (10)](paper_by_author/paper_Caiming_Xiong.md) | [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) | [Graham Neubig (10)](paper_by_author/paper_Graham_Neubig.md) | [Jie Tang (9)](paper_by_author/paper_Jie_Tang.md) | [Tianbao Xie (9)](paper_by_author/paper_Tianbao_Xie.md) | [Xiao Liu (8)](paper_by_author/paper_Xiao_Liu.md) | [Yuxiao Dong (8)](paper_by_author/paper_Yuxiao_Dong.md) | [Qiushi Sun (7)](paper_by_author/paper_Qiushi_Sun.md) | [Zhiyong Wu (7)](paper_by_author/paper_Zhiyong_Wu.md) | [Hanyu Lai (7)](paper_by_author/paper_Hanyu_Lai.md) | [Boyu Gou (7)](paper_by_author/paper_Boyu_Gou.md) | [Yu Gu (7)](paper_by_author/paper_Yu_Gu.md) | [Shuyan Zhou (7)](paper_by_author/paper_Shuyan_Zhou.md) | [Zhuosheng Zhang (6)](paper_by_author/paper_Zhuosheng_Zhang.md) | [Yu Qiao (6)](paper_by_author/paper_Yu_Qiao.md) | [Danyang Zhang (6)](paper_by_author/paper_Danyang_Zhang.md) | [Zeyi Liao (6)](paper_by_author/paper_Zeyi_Liao.md)
@@ -41,7 +41,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
     - 🏛️ Institutions: Tencent Youtu Lab, PKU, NJU
     - 📅 Date: October 21, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [dataset], [reward model], [computer-using agent], [CUARewardBench], [Unanimous Prompt Ensemble (UPE)]
     - 📖 TLDR: This paper introduces CUARewardBench, the first benchmark for evaluating reward models tailored to computer-using agents. It includes step-level and trajectory-level annotations from tasks across 10 software types and 7 agent architectures. The study identifies the limitations of current reward models and proposes UPE, a prompting-based method that significantly improves evaluation accuracy.
@@ -95,7 +95,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - Yutong Dai, Krithika Ramakrishnan, Jing Gu, Matthew Fernandez, Yanqi Luo, Viraj Prabhu, Zhenyu Hu, Silvio Savarese, Caiming Xiong, Zeyuan Chen, Ran Xu
     - 🏛️ Institutions: Salesforce AI Research
     - 📅 Date: Sep 30, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [enterprise automation], [demonstration augmentation], [process rewards], [SCUBA]
     - 📖 TLDR: This paper introduces **SCUBA**, a benchmark for evaluating computer-use agents on 300 enterprise-critical CRM tasks within Salesforce. Tasks span personas like admins and service agents, testing UI navigation, automation, data handling, and troubleshooting. SCUBA includes sandbox environments, milestone-based evaluations, and supports parallel execution. Baseline results show large performance gaps across agent designs, especially between open- and closed-source models, with success rates ranging from 5% to 50% depending on demonstration usage.
@@ -138,7 +138,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents](https://arxiv.org/abs/2508.14040)
     - Hanyu Lai, Xiao Liu, Yanxiao Zhao, Han Xu, Hanchen Zhang, Bohao Jing, Yanyu Ren, Shuntian Yao, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, Zhipu AI, University of Chinese Academy of Sciences
+    - 🏛️ Institutions: Tsinghua University, Z.AI, University of Chinese Academy of Sciences
     - 📅 Date: August 19, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
@@ -309,7 +309,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, and Mike Zheng Shou
-    - 🏛️ Institutions: NUS
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: June 4, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop]
@@ -361,11 +361,11 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 🔑 Key: [model], [benchmark], [reinforcement learning], [grounding], [CAGUI], [mobile use]
     - 📖 TLDR: AgentCPM-GUI is an 8B-parameter on-device GUI agent tailored for Android applications, emphasizing robust multilingual interaction. Built upon MiniCPM-V, it undergoes a three-stage training pipeline: grounding-aware pre-training on a 12M-sample bilingual dataset, supervised fine-tuning with 55K high-quality trajectories from over 30 Chinese apps, and reinforcement fine-tuning using the Group Relative Policy Optimization (GRPO) algorithm to enhance reasoning capabilities. The model introduces a compact JSON-based action space optimized for mobile efficiency. Evaluated across five benchmarks, including the newly introduced Chinese GUI benchmark CAGUI, AgentCPM-GUI achieves state-of-the-art performance, notably 96.9% Type-Match and 91.3% Exact-Match on CAGUI. All code, model checkpoints, and evaluation data are publicly released to support further research.
 
-- [AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning](https://github.com/OpenBMB/AgentCPM-GUI)
+- [AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
     - 🏛️ Institutions: Tsinghua, RUC, ModelBest
     - 📅 Date: June 2, 2025
-    - 📑 Publisher: arXiv (arXiv:2506.01391)
+    - 📑 Publisher: EMNLP 2025 System Demonstrations
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [framework], [dataset], [benchmark], [reinforcement fine‑tuning], [compact action space], [CAGUI], [GRPO]
     - 📖 TLDR: Introduces an 8 B Vision–Language GUI agent for on‑device mobile app interaction. Training uses grounding pre-training, supervised fine‑tuning on 55 K Chinese & English trajectories, and reinforcement fine‑tuning (GRPO). A compact JSON action schema enables low-latency inference. Achieves SOTA on five benchmarks including the new Chinese CAGUI (96 %+ TM, 91 % EM). All code, model, and data released.
@@ -374,7 +374,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - Chenyu Yang, Shiqian Su, Shi Liu, Xuan Dong, Yue Yu, Weijie Su, Xuehui Wang, Zhaoyang Liu, Jinguo Zhu, Hao Li, Wenhai Wang, Yu Qiao, Xizhou Zhu, Jifeng Dai
     - 🏛️ Institutions: Shanghai Artificial Intelligence Lab, Tsinghua Univ, SJTU, HKUST, CUHK
     - 📅 Date: May 29, 2025
-    - 📑 Publisher: arXiv (preprint; no conference/pub listed)
+    - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [reinforcement learning], [model-free], [VLM-task-generation], [VLM-reward-estimation], [ZeroGUI]
     - 📖 TLDR: Introduces **ZeroGUI**, a novel online learning framework that enables GUI agents (based on VLMs) to learn by autonomous interaction without human labels. It uses vision-language models to (i) generate diverse task instructions, (ii) evaluate task success, and (iii) apply a two-stage RL strategy (task-generated training + test-time adaptation). The method shows strong performance gains (e.g., +14% on UI-TARS, +63% on Aguvis) in desktop (OSWorld) and mobile (AndroidLab) GUI benchmarks, proving scalable, human-free GUI-agent training.  
@@ -435,11 +435,11 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 - [ProgRM: Build Better GUI Agents with Progress Rewards](https://arxiv.org/abs/2505.18121)
     - Danyang Zhang, Situo Zhang, Ziyue Yang, Zichen Zhu, Zihan Zhao, Ruisheng Cao, Lu Chen, Kai Yu
-    - 🏛️ Institutions: likely Chinese institutions (not explicitly stated) — Unknown
-    - 📅 Date: May 23, 2025
+    - 🏛️ Institutions: X-LANCE Lab, SJTU AI Institute, Shanghai Jiao Tong University, Jiangsu Key Lab of Language Computing, Suzhou Laboratory
+    - 📅 Date: May 23, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [progress reward model], [LCS-based self‑annotation], [reinforcement learning], [dataset: WikiHow task set / Android navigation benchmark]
+    - 🔑 Key: [reinforcement learning], [reward model], [progress reward], [LCS], [ProgRM]
     - 📖 TLDR: Introduces **ProgRM**, a novel framework giving dense intermediate rewards to GUI agents by estimating per‑step task progress. Labels are generated through an LCS‑based self‑annotation algorithm that identifies key steps in successful trajectories. Agents trained with ProgRM outperform outcome‑based reward models and proprietary LLMs like Claude‑3.7‑Sonnet across benchmarks.
 
 - [Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach](https://arxiv.org/abs/2505.16422)
@@ -466,7 +466,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 📅 Date: May 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [EFSM], [SPlanner], [planning], [vision-language model], [AndroidWorld benchmark]
+    - 🔑 Key: [framework], [EFSM], [SPlanner], [planning], [vision language model], [AndroidWorld benchmark]
     - 📖 TLDR: Introduces **SPlanner**, a plug‑and‑play planning module that models mobile apps as Extended Finite State Machines (EFSMs). It decomposes user instructions into primary functions, traverses EFSMs to obtain execution paths, and refines these into natural-language plans to guide vision‑language models. On the AndroidWorld benchmark, pairing SPlanner with Qwen2.5‑VL‑72B achieves 63.8% success—28.8 points higher than the baseline, demonstrating improved stability and task planning in mobile GUI agents.
 
 - [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://osworld-grounding.github.io/)
