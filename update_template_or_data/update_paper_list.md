@@ -646,7 +646,7 @@
 
 - [STEVE: A Step Verification Pipeline for Computer-use Agent Training](https://arxiv.org/abs/2503.12532)
     - Fanbin Lu, Zhisheng Zhong, Ziqin Wei, Shu Liu, Chi-Wing Fu, Jiaya Jia
-    - 🏛️ Institutions: CUHK, SmartMore, HKUST
+    - 🏛️ Institutions: The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology
     - 📅 Date: March 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -664,7 +664,7 @@
 
 - [In-Context Defense in Computer Agents: An Empirical Study](https://arxiv.org/abs/2503.09241)
     - Pei Yang, Hai Ci, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, NUS
+    - 🏛️ Institutions: Show Lab, National University of Singapore
     - 📅 Date: March 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -727,7 +727,7 @@
 
 - [VSC-RL: Advancing Autonomous Vision-Language Agents with Variational Subgoal-Conditioned Reinforcement Learning](https://arxiv.org/abs/2502.07949)
     - Qingyuan Wu, Jianheng Liu, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Huawei Noah's Ark Lab, Univ. College London
+    - 🏛️ Institutions: Huawei Noah's Ark Lab, University College London
     - 📅 Date: February 11, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -736,7 +736,7 @@
 
 - [AppVLM: A Lightweight Vision Language Model for Online App Control](https://arxiv.org/abs/2502.06395)
     - Georgios Papoudakis, Thomas Coste, Zhihao Wu, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Univ. of Cambridge, Huawei Noah's Ark Lab, Univ. College London
+    - 🏛️ Institutions: University of Cambridge, Huawei Noah's Ark Lab, University College London
     - 📅 Date: February 10, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1078,7 +1078,7 @@
 
 - [MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control](https://arxiv.org/abs/2410.17520)
     - Juyong Lee, Dongyoon Hahm, June Suk Choi, W. Bradley Knox, Kimin Lee
-    - 🏛️ Institutions: KAIST, UT at Austin
+    - 🏛️ Institutions: KAIST, The University of Texas at Austin
     - 📅 Date: October 23, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1123,7 +1123,7 @@
 
 - [SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation](https://proceedings.iclr.cc/paper_files/paper/2025/hash/9a75f4dd9679aa4ff80a4e6f0a1dc700-Abstract-Conference.html)
     - Jingxuan Chen, Derek Yuen, Bin Xie, Yuhao Yang, Gongwei Chen, Zhihao Wu, Li Yixing, Xurui Zhou, Weiwen Liu, Shuai Wang, Rui Shao, Liqiang Nie, Yasheng Wang, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Huawei Noah’s Ark Lab, Harbin Institute of Technology, Shenzhen, UCL
+    - 🏛️ Institutions: Huawei Noah's Ark Lab, Harbin Institute of Technology, Shenzhen, University College London
     - 📅 Date: October 19, 2024
     - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Mobile]
@@ -1879,7 +1879,7 @@
 
 - [On the Multi-turn Instruction Following for Conversational Web Agents](https://arxiv.org/abs/2402.15057)
     - Yang Deng, Xuan Zhang, Wenxuan Zhang, Yifei Yuan, See-Kiong Ng, Tat-Seng Chua
-    - 🏛️ Institutions: NUS, DAMO Academy, University of Copenhagen
+    - 🏛️ Institutions: National University of Singapore, DAMO Academy, University of Copenhagen
     - 📅 Date: February 23, 2024
     - 📑 Publisher: Findings of ACL 2024
     - 💻 Env: [Web]
@@ -2081,7 +2081,7 @@
     - 📅 Date: November 13, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [zero-shot GUI navigation], [multimodal LLMs]
+    - 🔑 Key: [framework], [benchmark], [zero-shot GUI navigation], [MM-Navigator], [MobileNav], [GPT-4V]
     - 📖 TLDR: This paper explores the capabilities of GPT-4V in navigating smartphone GUIs without prior training. The authors introduce a novel framework for GUI navigation and a new benchmark, MobileNav, featuring 1,000 navigation tasks across 100 mobile apps. The study demonstrates GPT-4V's impressive zero-shot performance in understanding and interacting with mobile interfaces, outperforming previous methods and even approaching human-level performance on some tasks.
 
 - [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736)
@@ -2257,7 +2257,7 @@
 
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html)
     - Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao
-    - 🏛️ Institutions: Northeastern University, MIT, Princeton
+    - 🏛️ Institutions: Northeastern University, Massachusetts Institute of Technology, Princeton University
     - 📅 Date: March 20, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Misc]
@@ -2284,7 +2284,7 @@
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://openreview.net/forum?id=WE_vluYUL-X)
     - Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
-    - 🏛️ Institutions: Princeton, Google Research
+    - 🏛️ Institutions: Princeton University, Google Research
     - 📅 Date: October 6, 2022
     - 📑 Publisher: ICLR 2023
     - 💻 Env: [Misc]
