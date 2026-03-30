@@ -1,3 +1,12 @@
+- [MobileWorldBench: Towards Semantic World Modeling For Mobile Agents](https://arxiv.org/abs/2512.14014)
+    - Shufan Li, Konstantinos Kallidromitis, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Aditya Grover
+    - 🏛️ Institutions: UCLA, Panasonic AI Research, Salesforce AI Research
+    - 📅 Date: December 16, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [world model], [planning], [semantic state transition], [MobileWorldBench], [MobileWorld]
+    - 📖 TLDR: This paper reframes world modeling for mobile GUI agents as semantic state transition prediction in natural language rather than pixel-space forecasting. It introduces MobileWorldBench to evaluate vision-language models as mobile world models, releases the 1.4M-sample MobileWorld dataset for training, and shows that integrating these semantic world models into planning improves downstream mobile agent success rates. The work establishes semantic world modeling as a practical intermediate layer for stronger mobile GUI planning.
+
 - [Say One Thing, Do Another? Diagnosing Reasoning‑Execution Gaps in VLM‑Powered Mobile‑Use Agents](https://arxiv.org/abs/2510.02204)
     - Lingzhong Dong, Ziqi Zhou, Shuaibo Yang, Haiyue Sheng, Pengzhou Cheng, Zongru Wu, Zheng Wu, Gongshen Liu, Zhuosheng Zhang
     - 🏛️ Institutions: Shanghai Jiao Tong University, Beijing Institute of Technology
