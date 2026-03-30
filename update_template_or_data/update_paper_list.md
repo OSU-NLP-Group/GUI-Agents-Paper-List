@@ -3,7 +3,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-26
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: using natural language instructions. this paradigm has driven automated webpage development, but it introduces a new requirement about how to automatically verify whether the **web...
 
@@ -12,7 +12,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-23
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -21,7 +21,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -30,7 +30,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-13
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -39,7 +39,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-11
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -48,7 +48,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-06
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -57,7 +57,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-05
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -66,7 +66,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -75,7 +75,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-28
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: multimodal large language models (mllms) based **agents** have demonstrated remarkable potential in autonomous **web** navigation. however, handling long-horizon tasks remains a cr...
 
@@ -84,7 +84,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-25
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: 
     - 📖 TLDR: open-source native gui **agents** still lag behind closed-source systems on long-horizon navigation tasks. this gap stems from two limitations: a shortage of high-quality, action-a...
 
@@ -93,7 +93,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-27
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -102,7 +102,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-18
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -111,25 +111,16 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
-
-- [Orchestration-Free Customer Service Automation: A Privacy-Preserving and Flowchart-Guided Framework](https://arxiv.org/abs/2602.15377)
-    - Mengze Hong, Chen Jason Zhang, Zichang Guo, Hanlin Gu, Di Jiang, Li Qing
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2026-02-17
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
-    - 🔑 Key: 
-    - 📖 TLDR: customer service automation has seen growing demand within digital transformation. existing approaches either rely on modular system designs with extensive **agent** orchestration ...
 
 - [WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning](https://arxiv.org/abs/2602.12852)
     - Junjie Wang, Zequn Xie, Dan Yang, Jie Feng, Yue Shen, Duolin Sun, Meixiu Long, Yihan Jiao, Zhehao Tan, Jian Wang, Peng Wei, Jinjie Gu
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-13
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -138,7 +129,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-12
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -147,7 +138,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-12
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: test-time scaling has become a standard way to improve performance and boost reliability of neural network models. however, its behavior on **agentic**, multi-step tasks remains le...
 
@@ -156,7 +147,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-09
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -165,16 +156,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
-    - 🔑 Key: 
-    - 📖 TLDR: 
-
-- [FullStack-Agent: Enhancing Agentic Full-Stack Web Coding via Development-Oriented Testing and Repository Back-Translation](https://arxiv.org/abs/2602.03798)
-    - Zimu Lu, Houxing Ren, Yunqiao Yang, Ke Wang, Zhuofan Zong, Mingjie Zhan, Hongsheng Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2026-02-03
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -183,7 +165,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-03
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -192,7 +174,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-02
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -201,7 +183,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-29
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -210,7 +192,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-27
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -219,7 +201,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-13
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -228,7 +210,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-13
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -237,7 +219,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -246,7 +228,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-25
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -255,7 +237,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-12
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: the rise of large language model (llm)-based **web** **agents** represents a significant shift in automated interactions with the **web**. unlike traditional crawlers that follow s...
 
@@ -264,7 +246,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-28
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -273,7 +255,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-06
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: deceptive ui designs, widely instantiated across the **web** and commonly known as dark patterns, manipulate users into performing actions misaligned with their goals. in this pape...
 
@@ -282,7 +264,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-10
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -291,7 +273,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-31
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -300,7 +282,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: llm-based **agents** often operate in a greedy, step-by-step manner, selecting actions solely based on the current observation without considering long-term consequences or alterna...
 
@@ -309,7 +291,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-08
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -318,7 +300,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-28
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: legal terminology, and filling out procedural forms continue to pose barriers to accessing justice. this paper introduces the legalwebagent framework that employs a **web** **agent...
 
@@ -327,7 +309,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-26
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -336,7 +318,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-25
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -345,7 +327,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-22
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -354,7 +336,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -363,7 +345,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -372,7 +354,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-06
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -381,7 +363,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-06
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -390,7 +372,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-28
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -399,7 +381,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-28
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: 
     - 📖 TLDR: the rapid progress of large language models (llms) and their multimodal extensions (mllms) has enabled **agentic** systems capable of perceiving and acting across diverse environme...
 
@@ -408,7 +390,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-28
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -417,7 +399,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-19
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -426,7 +408,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-21
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -435,7 +417,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-21
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -444,7 +426,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-20
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -453,7 +435,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -462,7 +444,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -471,7 +453,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -480,7 +462,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-13
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: llm-brained **web** **agents** offer powerful capabilities for **web** automation but face a critical cost-performance trade-off. the challenge is amplified by **web** **agents**' ...
 
@@ -489,7 +471,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: efficiently solving real-world problems with llms increasingly hinges on their ability to interact with dynamic **web** environments and autonomously acquire external information. ...
 
@@ -498,7 +480,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-11
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -507,7 +489,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-20
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -516,7 +498,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-03
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -525,7 +507,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-03
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -534,7 +516,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-07
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -543,7 +525,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-01
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -552,25 +534,16 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-04
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: 
     - 📖 TLDR: graphical user interface (gui) **agents** powered by multimodal large language models (mllms) promise human-like interaction with software applications, yet long-horizon tasks rema...
-
-- [Automatically Generating Web Applications from Requirements Via Multi-Agent Test-Driven Development](https://arxiv.org/abs/2509.25297)
-    - Yuxuan Wan, Tingshuo Liang, Jiakai Xu, Jingyu Xiao, Yintong Huo, Michael R. Lyu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-10-01
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
-    - 🔑 Key: 
-    - 📖 TLDR: developing full-stack **web** applications is complex and time-intensive, demanding proficiency across diverse technologies and frameworks. although recent advances in multimodal l...
 
 - [IWR-Bench: Can LVLMs reconstruct interactive webpage from a user interaction video?](https://arxiv.org/abs/2509.24709)
     - Yang Chen, Minghao Liu, Yufan Shen, Yunwen Li, Tianyuan Huang, Xinyu Fang, Tianyu Zheng, Wenxuan Huang, Cheng Yang, Daocheng Fu, Jianbiao Mei, Rong Wu, Yunfei Zhao, Licheng Wen, Xuemeng Yang, Song Mao, Qunshu Lin, Zhi Yu, Yongliang Shen, Yu Qiao, Botian Shi
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-19
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: corresponding code. however, existing benchmarks primarily focus on static screenshot-to-code tasks, thereby overlooking the dynamic interactions fundamental to real-world **web** ...
 
@@ -579,7 +552,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-31
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -588,7 +561,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-02
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -597,7 +570,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-31
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -606,7 +579,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-27
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -615,7 +588,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-12
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -624,7 +597,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-01
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web], [Desktop]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -633,7 +606,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-08
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -642,7 +615,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -651,7 +624,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-01-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -660,7 +633,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-10
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: a/b testing experiment is a widely adopted method for evaluating ui/ux design decisions in modern **web** applications. yet, traditional a/b testing remains constrained by its depe...
 
@@ -669,7 +642,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-10-07
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -678,7 +651,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-02
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 💻 Env: [Web]
     - 🔑 Key: 
     - 📖 TLDR: 
 - [NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks](https://arxiv.org/abs/2508.02046)
@@ -689,15 +662,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [unification], [reinforcement learning], [MDP], [spatial affordance]
     - 📖 TLDR: First unified agent combining GUI and embodied navigation by formulating both as MDPs, using unified RL framework with distance-aware rewards trained on mixed trajectories, achieving state-of-the-art across GUI, spatial affordance, and embodied navigation.
-
-- [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
-    - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-06-09
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [mobile agent], [proactive task], [personalization], [user context]
-    - 📖 TLDR: Mobile benchmark with 20K real-world Android demonstrations supporting proactive task suggestions and personalized execution by leveraging contextual information (location, time, user profile) and user action preferences.
 
 - [Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification](https://arxiv.org/abs/2507.11662)
     - Moises Andrade, Joonhyuk Cha, Brandon Ho, Vriksha Srihari, Karmesh Yadav, Zsolt Kira
@@ -713,25 +677,16 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-07-11
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [model], [neural simulator], [generative model], [diffusion], [OS simulation]
     - 📖 TLDR: Neural framework combining RNN state tracking and diffusion-based rendering to simulate OS GUIs by predicting screen frames from user inputs, trained on Ubuntu XFCE and capable of rendering previously unseen applications.
-
-- [GTA1: GUI Test-time Scaling Agent](https://arxiv.org/abs/2507.05791)
-    - Yan Yang, Dongxu Li, Yutong Dai, Yuhao Yang, Ziyang Luo, Zirui Zhao, Zhiyuan Hu, Junzhe Huang, Amrita Saha, Zeyuan Chen, Ran Xu, Liyuan Pan, Silvio Savarese, Caiming Xiong, Junnan Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-07-08
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [test-time scaling], [action selection], [reinforcement learning], [grounding]
-    - 📖 TLDR: GUI test-time scaling agent improving action selection through concurrent sampling and evaluation of multiple proposals, with RL-based grounding to accurately locate and interact with complex UI elements, achieving state-of-the-art benchmarks.
 
 - [FormGym: Doing Paperwork with Agents](https://arxiv.org/abs/2506.14079)
     - Matthew Toles, Rattandeep Singh, Isaac Song, Zhou Yu
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [form-filling], [document interaction], [localization], [VLA]
     - 📖 TLDR: Form-filling benchmark with 432 fields across 55 documents demonstrating challenges in visual localization for VLAs and GUI agents, proposing FieldFinder tool to assist LLMs in identifying text placement locations.
 
@@ -749,25 +704,16 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-06-05
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI testing], [scenario-based], [multi-agent], [business logic]
     - 📖 TLDR: ScenGen framework with five specialized agents (Observer, Decider, Executor, Supervisor, Recorder) for scenario-based GUI testing, leveraging LLMs to understand GUI semantics and align automated testing with business logic.
-
-- [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
-    - Pei Yang, Hai Ci, Mike Zheng Shou
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-06-04
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [macOS], [multilingual], [safety], [diverse applications]
-    - 📖 TLDR: First macOS GUI agent benchmark with 202 multilingual tasks across 30 applications and 5 languages (English, Chinese, Arabic, Japanese, Russian), including safety evaluation subset revealing significant performance gaps.
 
 - [Agent-SAMA: State-Aware Mobile Assistant](https://arxiv.org/abs/2505.23596)
     - Linqiang Guo, Wei Liu, Yi Wen Heng, Tse-Hsun, Chen, Yang Wang
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-29
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model], [state-aware], [finite state machine], [error recovery], [mobile agent]
     - 📖 TLDR: State-aware mobile agent framework modeling app execution as Finite State Machines (FSM) with four specialized agents for planning, verification, and recovery, achieving 84% success and 71.9% recovery rates.
 
@@ -785,7 +731,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-18
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model], [preference learning], [chain-of-thought], [DPO], [reasoning]
     - 📖 TLDR: MobileIPL framework enhancing mobile agent reasoning via iterative preference learning with CoaT-trees, rule-based rewards, and Thinking-level DPO pairs, with three-stage instruction evolution for improved generalization.
 
@@ -794,7 +740,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-05-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [mobile agent], [multi-path evaluation], [realistic scenario], [robustness]
     - 📖 TLDR: Realistic mobile agent benchmark with offline multi-path evaluation, noisy apps (pop-ups/ads) splits, and ambiguous instructions to assess robustness under real-world conditions and noisy environments.
 
@@ -812,7 +758,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework], [embedded agent], [frontend integration], [mixed-granularity], [enterprise]
     - 📖 TLDR: Framework for embedding agents directly into enterprise web UIs using lightweight frontend hooks (ARIA/URL observations) and backend reasoning, supporting mixed-granularity actions with stack-agnostic design.
 
@@ -821,7 +767,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [model], [world model], [simulator], [trajectory synthesis], [open-web]
     - 📖 TLDR: Large-scale web simulator (WebWorld) trained on 1M+ open-web interactions supporting 30+ step simulations, enabling trajectory synthesis and exhibiting cross-domain generalization to code, GUI, and game environments.
 
@@ -830,7 +776,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework], [synthetic environment], [FSM], [verifiable reward], [trajectory generation]
     - 📖 TLDR: AutoWebWorld framework synthesizing verifiable web training environments modeled as FSMs with executable assertions for deterministic reward signals, generating 11,663 verified trajectories at $0.04 per trajectory.
 
@@ -839,7 +785,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework], [environment synthesis], [verifiable reward], [post-training], [efficiency]
     - 📖 TLDR: GUI-GENESIS automated framework synthesizing lightweight web training environments with code-native verifiable rewards, reducing latency 10x and achieving 14.54% improvement over base models on real-world tasks.
 
@@ -848,7 +794,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-02-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework], [requirement compilation], [code generation], [test-driven], [full-stack]
     - 📖 TLDR: Agentic Requirement Compilation (ARC) converting multi-modal requirement documents with 50-200 scenarios into complete web systems via test-driven bidirectional synthesis, generating full-stack code with comprehensive tests.
 - [Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence](https://arxiv.org/abs/2506.15677)
@@ -1084,15 +1030,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [mobile GUI agent], [hierarchical reflection], [proactive exploration], [AndroidWorld], [AndroidLab], [MobileUse]
     - 📖 TLDR: This paper introduces MobileUse, a mobile GUI agent designed to handle long-horizon execution, error recovery, and cold-start operation in unfamiliar apps. Its core design combines hierarchical reflection across multiple temporal scales with a reflection-on-demand strategy and proactive exploration to build environment understanding before acting. The result sets new state-of-the-art success rates on AndroidWorld and AndroidLab and is released with a toolkit for execution on physical mobile devices.
-
-- [NatureGAIA: Pushing the Frontiers of GUI Agents with a Challenging Benchmark and High-Quality Trajectory Dataset](https://arxiv.org/abs/2508.01330)
-    - Zihan Zheng, Tianle Cui, Chuwen Xie, Jiahui Zhang, Jiahui Pan, Lewei He, Qianglong Chen
-    - 🏛️ Institutions: South China Normal University, Zhejiang University
-    - 📅 Date: August 2, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [hierarchical agent], [reinforcement learning], [causal pathways], [WPSR], [NatureGAIA]
-    - 📖 TLDR: This paper introduces **NatureGAIA**, a new benchmark based on the principle of **Causal Pathways**, which decomposes complex GUI tasks into programmatically verifiable atomic steps for rigorous and reproducible evaluation. A hierarchical agent architecture called **LightManus** was used to generate a human-verified trajectory dataset representing diverse and self-correcting interaction patterns. This dataset was used to conduct Reinforcement Fine-Tuning (RFT) on the Qwen2.5-VL-7B model. Even top-performing models like Claude-sonnet-4 only reached a Weighted Pathway Success Rate (WPSR) of 34.6%, while RFT improved the smaller model from 3.3% to 10.8%, yet performance dropped significantly in complex scenarios, highlighting current limitations in GUI agent capabilities.
 
 - [OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use](https://github.com/OS-Agent-Survey/OS-Agent-Survey)
     - Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shawn Wang, Xinchen Xu, Shuofei Qiao , Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, Fei Wu
@@ -1423,7 +1360,7 @@
     - 🏛️ Institutions: Meituan
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [Web], [Desktop]
     - 🔑 Key: [framework], [planning], [multi-agent], [synthetic trajectory generation], [TreeCUA], [TreeCUA-DPO]
     - 📖 TLDR: This paper targets the scaling bottleneck of GUI planning rather than GUI grounding. It introduces TreeCUA, a multi-agent framework that organizes large-scale GUI exploration trajectories as reusable tree structures, reducing redundant exploration while improving trajectory quality through verification, summarization, and evaluation. The work further proposes TreeCUA-DPO to learn planning from adjacent branch information, yielding strong gains and improved out-of-domain generalization.
 
@@ -1591,15 +1528,6 @@
 ||||||| parent of 1d5de04 (Add Infogent paper entry)
 ||||||| parent of 3329d74 (Add GhostEI-Bench paper entry)
 ||||||| parent of 4fb8a4b (Add Programming with Pixels paper entry)
-- [Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
-    - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
-    - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research
-    - 📅 Date: October 24, 2025
-    - 📑 Publisher: NeurIPS 2025 (Datasets and Benchmarks Track)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [computer-use grounding], [OSWorld-G], [JEDI]
-    - 📖 TLDR: This paper tackles GUI grounding as a core bottleneck for computer-use agents by introducing OSWorld-G, a benchmark of complex grounding tasks that go beyond short referring expressions, and JEDI, a 4 million-example synthetic grounding dataset built through multi-perspective task decomposition. Models trained on JEDI outperform prior grounding approaches across ScreenSpot-style benchmarks and substantially improve downstream agent performance on OSWorld. The work is directly relevant because it shows that scaling specialized GUI grounding data can materially lift full computer-use agent capability.
-
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
     - 🏛️ Institutions: Tencent Youtu Lab, Peking University, Nanjing University
@@ -4224,15 +4152,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: A multimodal framework for autonomous software repair combining workflow-agent architecture, active perception for region-level GUI grounding, and a Failure Memory Bank to reuse past repair attempts.
 
-- [AdaZoom-GUI: Adaptive Zoom-based GUI Grounding with Instruction Refinement](https://arxiv.org/abs/2603.17441)
-    - Yong Zhang, Mingyi Liu, Ziyan Ye, Haodong Yu, Shuhao Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: March 18, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [dataset]
-    - 📖 TLDR: An adaptive zoom-based GUI grounding framework that refines instructions and performs selective zoom-in on small elements, trained with GRPO to achieve state-of-the-art accuracy on high-resolution GUIs.
-
 - [GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents](https://arxiv.org/abs/2603.15039)
     - Haotian Zhao, Yuzhe Qin, Dongliang Li, Dongdong Hu, Xingshuai Zhang
     - 🏛️ Institutions: Unknown
@@ -4386,15 +4305,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: An automated closed-loop RL pipeline that systematically compresses LLM knowledge into grounded web agent actions through scalable environment synthesis and knowledge-aware task generation.
 
-- [CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning](https://arxiv.org/abs/2603.02951)
-    - Mingkai Deng, Jing Yu, Zhou Yu, Kaizhe Hu, Yeye He
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: March 03, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A continual GUI learning framework that balances supervised fine-tuning and reinforcement learning to enable adaptation to new tasks while retaining skills from previous tasks.
-
 - [Efficient Long-Horizon GUI Agents via Training-Free KV Cache Compression](https://arxiv.org/abs/2602.16788)
     - Zhouheng Sun, Yang Liu, Junlu Tang, Jian Xie, Ang Lv
     - 🏛️ Institutions: Unknown
@@ -4521,15 +4431,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: Region-to-Image Distillation training method that internalizes fine-grained perception capabilities for GUI agents without inference-time zoom overhead.
 
-- [AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild](https://arxiv.org/abs/2602.11750)
-    - Jiazheng Sun, Mingxuan Li, Yingying Zhang, Zuoyi Zhang, Shiyu Huang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
-    - 🔑 Key: [benchmark]
-    - 📖 TLDR: A benchmark for mobile GUI agents evaluated on ambiguous instructions requiring clarification and multi-turn interaction, reflecting real-world scenarios.
-
 - [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
     - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Lei Xu, David S. Rosenbluth
     - 🏛️ Institutions: Unknown
@@ -4593,15 +4494,6 @@
     - 🔑 Key: [model]
     - 📖 TLDR: A vision-language GUI world model predicting next states via renderable code generation, balancing visual fidelity with structural controllability for agent foresight.
 
-- [TreeCUA: Efficiently Scaling GUI Automation with Tree-Structured Verifiable Evolution](https://arxiv.org/abs/2602.09662)
-    - Deyang Jiang, Jing Huang, Xuanle Zhao, Ying Shi, Hao Wu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 10, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A framework organizing GUI trajectories into tree structures for efficient scaling of GUI planning and action collection with reduced data costs.
-
 - [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082)
     - Venus Team, Changlong Gao, Zhangxuan Gu, Yingying Zhou, Yang Liu
     - 🏛️ Institutions: Unknown
@@ -4638,15 +4530,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: An attribution-based training method aligning MLLM models with human priors by constraining learned representations to match human perception patterns for reliability.
 
-- [POINTS-GUI-G: GUI-Grounding Journey](https://arxiv.org/abs/2602.06391)
-    - Zhongyin Zhao, Yuan Liu, Yikun Liu, Jiahui Zhang, Yuzhe Qin
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 06, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [dataset]
-    - 📖 TLDR: A large-scale GUI grounding dataset advancing vision-language models' ability to precisely locate interface elements for GUI agent interaction.
-
 - [Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion](https://arxiv.org/abs/2602.06351)
     - Longhui Ma, Di Zhao, Siwei Wang, Yingce Xia, Ting Liu
     - 🏛️ Institutions: Unknown
@@ -4673,15 +4556,6 @@
     - 💻 Env: [Mobile], [GUI]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A comprehensive memory-centric benchmark with 128 tasks assessing cross-temporal and cross-spatial retention in mobile GUI agents, introducing MemGUI-Eval metrics.
-
-- [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)
-    - Han Xiao, Guozhi Wang, Hao Wang, Yongfeng Zhang, Aixin Sun
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 05, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A hierarchical experience memory framework for GUI agent online RL storing workflows, subtask skills, and failure patterns for efficient credit assignment and knowledge transfer.
 
 - [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
     - Rui Lv, Juncheng Mo, Tianyi Chu, Yiming Liu, Hongling Zhuo
@@ -4791,24 +4665,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: An agentic testing framework with dynamic instrumentation to improve Android app code coverage beyond the 30% barrier.
 
-- [Continual GUI Agents](https://arxiv.org/abs/2601.20732)
-    - Ziwei Liu, Borui Kang, Hangjie Yuan, Xuanyang Zhang, Srivatsav Subramaniyan
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A framework for GUI agents to adapt continuously as new domains and resolutions arrive over time without catastrophic forgetting.
-
-- [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
-    - Le Zhang, Yixiong Xiao, Xinjiang Lu, Hao Liu, Ziyi Yang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [Desktop], [Web], [GUI]
-    - 🔑 Key: [model], [benchmark]
-    - 📖 TLDR: A general-purpose GUI agent handling tasks across mobile, desktop, and web with comprehensive evaluation and data collection.
-
 - [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
     - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Weifeng Lin, Shunye Tang
     - 🏛️ Institutions: Unknown
@@ -4826,15 +4682,6 @@
     - 💻 Env: [Mobile], [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: A framework for mobile GUI agents to adapt to UI changes by evolving functional semantic understanding despite surface appearance shifts.
-
-- [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
-    - Shuailong Zhang, Yanhao Wang, Yuncheng Huang, Chaoxi Luo, Yuanchun Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: January 21, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [safety], [framework]
-    - 📖 TLDR: A privacy-preserving framework for GUI agents enabling local processing of sensitive information without transmitting screenshots.
 
 - [SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis](https://arxiv.org/abs/2601.18305)
     - Zishuo Liu, Yongwen Zhu, Tao Xu, Xinyu Xu, Mingxuan Yuan
@@ -4917,15 +4764,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: A coordinate compression technique addressing context inflation in multi-turn GUI agent policy optimization.
 
-- [GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents](https://arxiv.org/abs/2601.09770)
-    - Yinyuan Cong, Shuailong Zhang, Yanchuan Pan, Ying Zhou, Yuanchun Li
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: January 03, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A tool-augmented perception framework enabling GUI agents to adaptively focus visual attention for improved grounding.
-
 - [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636)
     - Yiheng Shu, Jinyao Ye, Jianwei Yu, Jiahao Wu, Tao Xu
     - 🏛️ Institutions: Unknown
@@ -4989,15 +4827,6 @@
     - 🔑 Key: [benchmark], [dataset]
     - 📖 TLDR: A system for infinite-scale web environment synthesis to overcome scarcity of training environments for GUI agents.
 
-- [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
-    - Haotian Zhao, Yuxiang Chai, Pengxiang Zhao, Wendi Yu, Difei Gao
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: December 18, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
-    - 🔑 Key: [model]
-    - 📖 TLDR: A generative sketch world model enabling mobile GUI agents to make informed decisions on long-horizon tasks.
-
 - [Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning](https://arxiv.org/abs/2601.03641)
     - Yiming Liu, Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu
     - 🏛️ Institutions: Unknown
@@ -5024,15 +4853,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: A framework enabling GUI agents to proactively seek evidence and self-verify task completion in agentic RL settings.
-
-- [MAI-UI Technical Report: Real-World Centric Foundation GUI Agents](https://arxiv.org/abs/2512.22047)
-    - Hanzhang Zhou, Xu Zhang, Panrong Tong...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-12-26
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: The development of GUI agents could revolutionize the next generation of human-computer interaction.
 
 - [iSHIFT: Lightweight Slow-Fast GUI Agent with Adaptive Perception](https://arxiv.org/abs/2512.22009)
     - Sarthak Mehrotra, Sairam V C Rebbapragada, Mani Hemanth Reddy Bonthu...
@@ -5087,15 +4907,6 @@
     - 💻 Env: [GUI], [Mobile]
     - 🔑 Key: [benchmark], [dataset], [model]
     - 📖 TLDR: Recent advances in multimodal large language models unlock unprecedented opportunities for GUI automation.
-
-- [MobileWorldBench: Towards Semantic World Modeling For Mobile Agents](https://arxiv.org/abs/2512.14014)
-    - Shufan Li, Konstantinos Kallidromitis, Akash Gokul...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-12-16
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [model]
-    - 📖 TLDR: World models have shown great utility in improving the task performance of embodied agents.
 
 - [Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents](https://arxiv.org/abs/2512.12634)
     - Youngmin Im, Byeongung Jo, Jaeyoung Wi...
@@ -5187,24 +4998,6 @@
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: Grounding is a fundamental capability for building graphical user interface (GUI) agents.
 
-- [GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2512.02423)
-    - Haolong Yan, Yeqing Shen, Xin Huang...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-12-02
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: With the rapid development of Large Vision Language Models, the focus of Graphical User Interface (GUI) agent tasks shifts from single-screen tasks to complex.
-
-- [HiconAgent: History Context-aware Policy Optimization for GUI Agents](https://arxiv.org/abs/2512.01763)
-    - Xurui Zhou, Gongwei Chen, Yuquan Xie...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-12-01
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
-    - 🔑 Key: [benchmark]
-    - 📖 TLDR: Graphical User Interface (GUI) agents require effective use of historical context to perform sequential navigation tasks.
-
 - [DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks](https://arxiv.org/abs/2512.01174)
     - Hyunjun Kim, Sooyoung Ryu
     - 🏛️ Institutions: Unknown
@@ -5276,15 +5069,6 @@
     - 💻 Env: [GUI], [Mobile]
     - 🔑 Key: [benchmark], [dataset]
     - 📖 TLDR: Developing intelligent agents capable of operating a wide range of Graphical User Interfaces (GUIs) with human-level proficiency is a key milestone on the path.
-
-- [Computer-Use Agents as Judges for Generative User Interface](https://arxiv.org/abs/2511.15567)
-    - Kevin Qinghong Lin, Siyuan Hu, Linjie Li...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-11-19
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web]
-    - 🔑 Key: [benchmark], [dataset], [model]
-    - 📖 TLDR: Computer-Use Agents (CUA) are becoming increasingly capable of autonomously operating digital environments through Graphical User Interfaces (GUI).
 
 - [KForge: Program Synthesis for Diverse AI Hardware Accelerators](https://arxiv.org/abs/2511.13274)
     - Taras Sereda, Tom St. John, Burak Bartan...
