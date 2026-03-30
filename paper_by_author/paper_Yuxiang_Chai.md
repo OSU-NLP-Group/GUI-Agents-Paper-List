@@ -14,7 +14,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 18, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A holistic environment and benchmark for evaluating GUI agents on realistic enterprise tasks with verifiable outcomes.
 
@@ -23,7 +23,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 17, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework]
     - 📖 TLDR: A knowledge graph-powered framework enabling mobile GUI agents to reason about tasks in one step with improved efficiency.
 
@@ -68,7 +68,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 02, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A benchmark with 100 tasks from 20 real-world dynamic mobile apps, featuring "essential-state" evaluation using MLLMs as reward models to progressively verify mobile GUI agent task completion and process achievement.
 

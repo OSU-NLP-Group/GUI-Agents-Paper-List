@@ -50,7 +50,7 @@
     - 🏛️ Institutions: Carnegie Mellon University, Amazon Web Services AI
     - 📅 Date: September 24, 2024
     - 📑 Publisher: NeurIPS 2024 (Main Conference Track)
-    - 💻 Env: [Misc]
+    - 💻 Env: [Web]
     - 🔑 Key: [synthetic data], [synthetic demonstrations], [web navigation], [Synatra]
     - 📖 TLDR: Synatra introduces a scalable framework for digital agents, enabling them to convert indirect knowledge sources into actionable demonstrations. This approach enhances the ability of agents to learn tasks without extensive labeled data, leveraging insights from indirect observations to scale practical implementations in digital environments.
 
