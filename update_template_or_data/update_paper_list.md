@@ -65,6 +65,15 @@
     - 🔑 Key: [framework], [KV cache compression], [spatial saliency], [temporal redundancy], [plug‑and‑play]
     - 📖 TLDR: This paper proposes GUI-KV, a plug-and-play KV cache compression method for GUI agents, which improves efficiency by combining spatial saliency-guided token selection and temporal redundancy pruning. It significantly reduces memory and computation costs while maintaining or even surpassing original model performance across multiple GUI agent benchmarks.
 
+- [WALT: Web Agents that Learn Tools](https://arxiv.org/abs/2510.01524)
+    - Viraj Prabhu, Yutong Dai, Matthew Fernandez, Jing Gu, Krithika Ramakrishnan, Yanqi Luo, Silvio Savarese, Caiming Xiong, Junnan Li, Zeyuan Chen, Ran Xu
+    - 🏛️ Institutions: Salesforce AI Research
+    - 📅 Date: October 1, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [web agent], [tool use], [tool abstraction], [browser automation], [WALT]
+    - 📖 TLDR: This paper introduces WALT, a web-agent framework that reverse-engineers reusable website functionality into deterministic callable tools such as search, filter, sort, create, and edit. By shifting browser automation from fragile low-level UI manipulation to reliable high-level tool invocation, it reduces step count and dependence on heavy reasoning. On VisualWebArena and WebArena, WALT improves success rates while using fewer interaction steps, making it a strong systems contribution for robust web agents.
+
 - [Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents](https://arxiv.org/abs/2509.26539)
     - Zhen Yang, Zi-Yi Dou, Di Feng, Forrest Huang, Anh Nguyen, Keen You, Omar Attia, Yuhao Yang, Michael Feng, Haotian Zhang, Ram Ramrakhya, Chao Jia, Jeffrey Nichols, Alexander Toshev, Yinfei Yang, Zhe Gan
     - 🏛️ Institutions: Apple
