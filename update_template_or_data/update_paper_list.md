@@ -85,8 +85,8 @@
     - 📅 Date: 2026-02-25
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: framework, GUI agent, reinforcement learning, supervised fine-tuning, GUI-Libra, action-aware supervision
-    - 📖 TLDR: GUI-Libra presents a tailored post-training recipe for native GUI agents that combines action-aware supervised fine-tuning (mixing reasoning-then-action and direct-action data with token reweighting) and KL-regularized reinforcement learning with success-adaptive scaling to handle partial verifiability, achieving consistent improvements on web and mobile benchmarks along with a curated 81K GUI reasoning dataset.
+    - 🔑 Key: [GUI Agent], [Training], [Reinforcement Learning], [Web Agent], [Mobile Agent], [Dataset]
+    - 📖 TLDR: GUI-Libra proposes a tailored post-training recipe for native GUI agents that combines action-aware supervised fine-tuning with partially verifiable reinforcement learning, using KL regularization and success-adaptive scaling to improve both step-wise accuracy and end-to-end task completion on web and mobile benchmarks.
 
 - [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
     - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
@@ -432,12 +432,12 @@
 
 - [Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms](https://arxiv.org/abs/2510.13913)
     - Shrey Pandit, Xuan-Phi Nguyen, Yifei Ming, Austin Xu, Jiayu Wang, Caiming Xiong, Shafiq Joty
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Salesforce AI Research, University of Wisconsin-Madison
     - 📅 Date: 2025-10-15
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: 
-    - 📖 TLDR: Data synthesis pipeline for web agents that progressively increases task complexity until baseline agents fail, producing smaller but higher-quality and more diverse training datasets.
+    - 🔑 Key: Web Agent, Data Synthesis, Training Data, Progressive Difficulty, Distillation, Deep Research
+    - 📖 TLDR: This paper introduces a data synthesis pipeline that generates question-answer pairs for training web agents by progressively increasing task complexity until a frontier baseline agent fails, producing smaller but more effective and diverse training datasets than existing approaches across multiple web-based benchmarks.
 
 - [In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers](https://arxiv.org/abs/2510.13543)
     - Avihay Cohen
@@ -715,8 +715,8 @@
     - 📅 Date: 2026-02-24
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: GUI Agent, Web Agent, State Machine, Program Synthesis, WebArena, Training-Free
-    - 📖 TLDR: ActionEngine is a training-free two-agent framework that builds a state-machine memory of GUIs via offline crawling and uses it to synthesize executable Python programs for online task execution, achieving 95% success on Reddit WebArena tasks with a single LLM call while reducing cost by 11.8x compared to reactive vision-only baselines.
+    - 🔑 Key: GUI Agent, Web Agent, Programmatic Planning, State Machine Memory, WebArena, Benchmark
+    - 📖 TLDR: ActionEngine is a training-free two-agent framework that transitions GUI agents from reactive step-by-step execution to programmatic planning by using a Crawling Agent to build an updatable state-machine memory of GUIs and an Execution Agent that synthesizes executable Python programs, achieving 95% task success on WebArena Reddit tasks with 11.8x cost reduction over vision-only baselines.
 
 - [EmbeWebAgent: Embedding Web Agents into Any Customized UI](https://arxiv.org/abs/2602.14865)
     - Chenyang Ma, Clyde Fare, Matthew Wilson, Dave Braines
@@ -4191,24 +4191,6 @@
     - 🔑 Key: Web Agent, Reinforcement Learning, GUI Agent, Synthetic Data, Environment Synthesis, Knowledge Distillation
     - 📖 TLDR: WebFactory introduces a fully automated closed-loop reinforcement learning pipeline that compresses LLM-encoded internet knowledge into grounded GUI web agents through scalable environment synthesis, knowledge-aware task generation, and decomposed reward RL training, achieving performance comparable to agents trained on human-annotated data while using synthetic data from only 10 websites.
 
-- [Efficient Long-Horizon GUI Agents via Training-Free KV Cache Compression](https://arxiv.org/abs/2602.16788)
-    - Zhouheng Sun, Yang Liu, Junlu Tang, Jian Xie, Ang Lv
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 27, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A training-free KV cache compression framework for efficient deployment of VLM-based GUI agents, reducing memory footprint and latency while maintaining performance.
-
-- [Spatio-Temporal Token Pruning for Efficient High-Resolution GUI Agents](https://arxiv.org/abs/2602.14965)
-    - Haofeng Gao, Xiaozhi Gao, Jianguo Li, Yu Tan, Jingfeng Yang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 26, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A spatio-temporal token pruning framework that addresses efficiency bottlenecks in high-resolution GUI agents by eliminating redundant visual tokens.
-
 - [GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL](https://arxiv.org/abs/2602.14663)
     - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
     - 🏛️ Institutions: Unknown
@@ -4227,24 +4209,6 @@
     - 🔑 Key: [framework]
     - 📖 TLDR: Proposes state machine memory to enable programmatic GUI agents that go beyond step-by-step reactive decisions, supporting structured control flow and memory.
 
-- [Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents](https://arxiv.org/abs/2602.13679)
-    - Xiao Liu, Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 15, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model]
-    - 📖 TLDR: GUI-Owl-1.5 native agent model with multiple sizes (2B-235B) supporting diverse platforms including desktop, mobile, and web applications.
-
-- [EmbeWebAgent: Embedding Web Agents into Any Customized UI](https://arxiv.org/abs/2602.13459)
-    - Xiao Liu, Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 16, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A framework for embedding web agents with application-level access to improve robustness and action expressiveness beyond screenshot-level observation.
-
 - [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.13338)
     - Hao Shi, Zhou Yu, Zihan Ding, Fan Zhou, Xiaomin Zhang
     - 🏛️ Institutions: Unknown
@@ -4253,24 +4217,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset]
     - 📖 TLDR: The first large-scale open-source world model series for web agent training, addressing bottlenecks in collecting real-world trajectories.
-
-- [AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines](https://arxiv.org/abs/2602.13212)
-    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 15, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [benchmark]
-    - 📖 TLDR: A framework for synthesizing infinite verifiable web environments using finite state machines to address the bottleneck of collecting interaction trajectories.
-
-- [GUI-GENESIS: Automated Synthesis of Efficient Environments with Verifiable Rewards for GUI Agent Post-Training](https://arxiv.org/abs/2602.13095)
-    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 15, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [benchmark]
-    - 📖 TLDR: An automated framework for synthesizing GUI environments with verifiable rewards to support efficient post-training of GUI agents.
 
 - [Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization](https://arxiv.org/abs/2602.13653)
     - Yibo Wang, Guangda Huzhang, Yuwei Hu, Yixuan Liu, Deng Cai
@@ -4850,144 +4796,135 @@
 
 - [Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding](https://arxiv.org/abs/2512.05941)
     - Zhiyuan Jiang, Shenghao Xie, Wenyi Li...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Xi'an Jiaotong University, Princeton University, Peking University, University of Chinese Academy of Sciences, The University of Hong Kong, Michigan State University
     - 📅 Date: 2025-12-05
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: Grounding is a fundamental capability for building graphical user interface (GUI) agents.
+    - 🔑 Key: GUI Grounding, Benchmark, Training-Free, Zoom, Test-Time Scaling, Visual Grounding
+    - 📖 TLDR: Proposes ZoomClick, a training-free method that leverages zoom as a prior for GUI grounding to dynamically focus on screen regions and switch context, achieving state-of-the-art results on benchmarks like ScreenSpot-Pro, and introduces GUIZoom-Bench for evaluating model adaptability to zoom.
 
 - [DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks](https://arxiv.org/abs/2512.01174)
     - Hyunjun Kim, Sooyoung Ryu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: KAIST, Seoul National University
     - 📅 Date: 2025-12-01
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [framework]
-    - 📖 TLDR: As agentic AI systems increasingly operate autonomously, establishing trust through verifiable evaluation becomes critical.
+    - 🔑 Key: GUI Agent, Benchmark, Spatial Reasoning, UI Interaction, LLM Agent, Evaluation
+    - 📖 TLDR: DrawingBench is a verification framework that evaluates agentic LLMs' spatial reasoning and GUI interaction capabilities through mouse-based drawing tasks on a browser canvas, using 250 prompts with 8 objective criteria and multi-turn feedback, finding that specification clarity matters more than task complexity and external oversight outperforms self-correction.
 
 - [AFRAgent : An Adaptive Feature Renormalization Based High Resolution Aware GUI agent](https://arxiv.org/abs/2512.00846)
     - Neeraj Anand, Rishabh Jain, Sohan Patnaik...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Adobe
     - 📅 Date: 2025-11-30
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: There is a growing demand for mobile user interface (UI) automation, driven by its broad applications across industries.
+    - 🔑 Key: GUI Agent, Mobile Agent, Multimodal LLM, GUI Grounding, Smartphone Automation, Vision-Language Model
+    - 📖 TLDR: AFRAgent is a compact InstructBLIP-based multimodal architecture that uses adaptive feature renormalization to fuse high-resolution image details into low-resolution embeddings, achieving state-of-the-art smartphone GUI automation on Meta-GUI and AITW benchmarks at less than one-fourth the size of competing models.
 
 - [MPR-GUI: Benchmarking and Enhancing Multilingual Perception and Reasoning in GUI Agents](https://arxiv.org/abs/2512.00756)
     - Ruihan Chen, Qiming Li, Xiaocheng Feng...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Harbin Institute of Technology, Peng Cheng Laboratory
     - 📅 Date: 2025-11-30
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: With the advancement of computational resources, Large Vision-Language Models (LVLMs) exhibit impressive Perception and Reasoning (P&R) performance on.
+    - 🔑 Key: Benchmark, Multilingual, GUI Understanding, Cross-lingual, Perception and Reasoning, LVLM
+    - 📖 TLDR: MPR-GUI introduces a multilingual fine-grained benchmark (MPR-GUI-Bench) for evaluating GUI agents' perception and reasoning capabilities across languages, and proposes GUI-XLI, a cross-lingual intervention method that improves multilingual GUI agent performance by 6.5% on average by manipulating hidden states at capability-related layers.
 
 - [Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation](https://arxiv.org/abs/2511.22235)
     - Zehao Deng, Tianjie Ju, Zheng Wu...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Soochow University, Shanghai Jiao Tong University
     - 📅 Date: 2025-11-27
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: The rapid development of large vision-language model (VLM) has greatly promoted the research of GUI agent.
-
-- [SWITCH: Benchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios](https://arxiv.org/abs/2511.17649)
-    - Jieru Lin, Zhiwei Yu, Börje F. Karlsson
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-11-20
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [framework]
-    - 📖 TLDR: Autonomous agents operating in the real world must interact continuously with existing physical and semantic infrastructure, track delayed consequences, and.
+    - 🔑 Key: GUI Agent, Multi-Agent Framework, Reinforcement Learning, Long-Horizon Task Planning, State Tracking, Task Decomposition
+    - 📖 TLDR: This paper proposes CES, a multi-agent framework consisting of a Coordinator, Executor, and State Tracker, where high-level scheduling models are trained via execution-feedback reinforcement learning to improve long-horizon GUI automation by decoupling planning from low-level action execution.
 
 - [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590)
     - Sen Chen, Tong Zhao, Yi Bin...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tongji University, Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shanghai AI Laboratory
     - 📅 Date: 2025-11-20
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset]
-    - 📖 TLDR: Developing intelligent agents capable of operating a wide range of Graphical User Interfaces (GUIs) with human-level proficiency is a key milestone on the path.
+    - 🔑 Key: [Benchmark], [Android], [Robustness], [Anomaly], [Dynamic Evaluation], [AAAI 2026]
+    - 📖 TLDR: D-GARA is a dynamic benchmarking framework that evaluates Android GUI agent robustness by injecting real-world anomalies (permission dialogs, battery warnings, update prompts, app crashes) during live task execution, revealing up to 33% performance degradation in state-of-the-art agents like UI-TARS and AgentCPM.
 
 - [DualTAP: A Dual-Task Adversarial Protector for Mobile MLLM Agents](https://arxiv.org/abs/2511.13248)
     - Fuyao Zhang, Jiaming Zhang, Che Wang...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Nanyang Technological University, Peking University, Xidian University, Hebei Normal University, Alibaba Group
     - 📅 Date: 2025-11-17
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [model]
-    - 📖 TLDR: The reliance of mobile GUI agents on Multimodal Large Language Models (MLLMs) introduces a severe privacy vulnerability: screenshots containing Personally.
+    - 🔑 Key: Mobile Agent, Safety, Privacy, Adversarial Attack, Dataset, MLLM
+    - 📖 TLDR: DualTAP is a dual-task adversarial framework that protects personally identifiable information (PII) in mobile GUI agent screenshots from untrusted routers while preserving task utility, achieving a 31.6 percentage point reduction in privacy leakage with minimal impact on agent task success rate.
 
 - [MEGA-GUI: Multi-stage Enhanced Grounding Agents for GUI Elements](https://arxiv.org/abs/2511.13087)
     - SeokJoo Kwak, Jihoon Kim, Boyoun Kim...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Samsung SDS
     - 📅 Date: 2025-11-17
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: Graphical User Interface (GUI) grounding - the task of mapping natural language instructions to screen coordinates - is essential for autonomous agents and.
+    - 🔑 Key: GUI Grounding, Multi-Agent Framework, Vision-Language Model, Region-of-Interest, Benchmark, Desktop
+    - 📖 TLDR: MEGA-GUI is a multi-stage framework that decomposes GUI grounding into coarse Region-of-Interest selection and fine-grained element grounding using specialized vision-language agents, achieving state-of-the-art accuracy of 73.18% on ScreenSpot-Pro and 68.63% on OSWorld-G benchmarks.
 
 - [Yanyun-3: Enabling Cross-Platform Strategy Game Operation with Vision-Language Models](https://arxiv.org/abs/2511.12937)
     - Guoyan Wang, Yanyan Huang, Chunlin Chen...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Nanjing University of Science and Technology, Nanjing University, Sichuan Teng dun Liangyuan Intelligent Technology Co. Ltd.
     - 📅 Date: 2025-11-17
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [dataset], [model]
-    - 📖 TLDR: Cross-platform strategy game automation remains a challenge due to diverse user interfaces and dynamic battlefield environments.
+    - 🔑 Key: GUI Agent, VLM, Strategy Game, Cross-Platform, Multimodal Data Organization, Fine-Tuning
+    - 📖 TLDR: Yanyun-3 is a VLM-based GUI agent that integrates Qwen2.5-VL and UI-TARS for cross-platform strategy game automation, proposing a "combination granularity" principle for organizing multimodal training data that achieves a 12.98x BLEU-4 improvement and 63% inference time reduction over full fusion baselines.
 
 - [MMWOZ: Building Multimodal Agent for Task-oriented Dialogue](https://arxiv.org/abs/2511.12586)
     - Pu-Hai Yang, Heyan Huang, Heng-Da Xu...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Anhui University, Beijing Institute of Technology
     - 📅 Date: 2025-11-16
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [model]
-    - 📖 TLDR: Task-oriented dialogue systems have garnered significant attention due to their conversational ability to accomplish goals, such as booking airline tickets for.
+    - 🔑 Key: GUI Agent, Benchmark, Multimodal, Task-oriented Dialogue, Dataset, Web Navigation
+    - 📖 TLDR: MMWOZ extends the MultiWOZ dataset with web-style GUI screenshots and operation instructions, bridging the gap between traditional API-based task-oriented dialogue systems and real-world GUI-based interactions, and proposes MATE as a baseline multimodal agent for GUI-grounded dialogue.
 
 - [Co-EPG: A Framework for Co-Evolution of Planning and Grounding in Autonomous GUI Agents](https://arxiv.org/abs/2511.10705)
     - Yuan Zhao, Hualei Zhu, Tingyu Jiang...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Alibaba Cloud Computing, The University of Tokyo
     - 📅 Date: 2025-11-13
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: Graphical User Interface (GUI) task automation constitutes a critical frontier in artificial intelligence research.
+    - 🔑 Key: GUI Agent, Planning and Grounding, Reinforcement Learning, GRPO, Co-Evolution, Training Framework
+    - 📖 TLDR: Co-EPG is a self-iterative training framework that co-evolves planning and grounding models for GUI agents through a positive feedback loop using GRPO and confidence-based reward ensembles, achieving state-of-the-art results on Multimodal-Mind2Web and AndroidControl benchmarks without external data.
 
 - [TaskSense: Cognitive Chain Modeling and Difficulty Estimation for GUI Tasks](https://arxiv.org/abs/2511.09309)
     - Yiwen Yin, Zhian Hu, Xiaoxi Xu...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tsinghua University, University of Washington, Cornell University, University of Sydney
     - 📅 Date: 2025-11-12
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: Measuring GUI task difficulty is crucial for user behavior analysis and agent capability evaluation.
+    - 🔑 Key: GUI Agent, Benchmark, Cognitive Modeling, Task Difficulty, Evaluation, Human-AI Interaction
+    - 📖 TLDR: TaskSense proposes Cognitive Chain, a framework that models GUI task difficulty from a cognitive perspective by decomposing cognitive processes preceding motor actions into structured steps with information-theoretic difficulty indices, and validates that cognitive difficulty correlates with user completion time and reveals capability gaps in state-of-the-art GUI agents.
 
 - [ProBench: Benchmarking GUI Agents with Accurate Process Information](https://arxiv.org/abs/2511.09157)
     - Leyang Yang, Ziwei Wang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Zhejiang University, Ant Group
     - 📅 Date: 2025-11-12
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [model]
-    - 📖 TLDR: With the deep integration of artificial intelligence and interactive technology, Graphical User Interface (GUI) Agent, as the carrier connecting goal-oriented.
+    - 🔑 Key: Benchmark, Mobile, Evaluation, Process-Aware Evaluation, Android, Multi-Step Tasks
+    - 📖 TLDR: ProBench is a comprehensive mobile GUI agent benchmark with over 200 tasks that evaluates both final-state and intermediate-process information, introducing a Process Provider to automatically capture accurate process details for more precise assessment of agent performance on real-world GUI scenarios.
 
 - [History-Aware Reasoning for GUI Agents](https://arxiv.org/abs/2511.09127)
     - Ziwei Wang, Leyang Yang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Zhejiang University, Ant Group
     - 📅 Date: 2025-11-12
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: Advances in Multimodal Large Language Models have significantly enhanced Graphical User Interface (GUI) automation.
+    - 🔑 Key: [GUI Agent], [Reinforcement Learning], [Reasoning], [Chain-of-Thought], [Mobile], [Web]
+    - 📖 TLDR: Proposes the History-Aware Reasoning (HAR) framework that addresses the history-agnostic reasoning weakness of native GUI agents by encouraging reflection on errors and enhancing short-term memory through reflective learning scenarios, tailored correction guidelines, and a hybrid RL reward function, resulting in a 3B-parameter model (HAR-GUI-3B) with improved episodic reasoning across GUI benchmarks including AITW, Mind2Web, and GUI-Odyssey.
 
 - [AUTO-Explorer: Automated Data Collection for GUI Agent](https://arxiv.org/abs/2511.06417)
     - Xiangwu Guo, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: National University of Singapore
     - 📅 Date: 2025-11-09
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: Recent advancements in GUI agents have significantly expanded their ability to interpret natural language commands to manage software interfaces.
+    - 🔑 Key: GUI Agent, Data Collection, Benchmark, GUI Grounding, Exploration, Fine-tuning
+    - 📖 TLDR: Auto-Explorer is an automated data collection method that autonomously parses and explores GUI environments to gather training data for GUI agents, accompanied by the UIXplore benchmark for evaluating exploration quality. The collected data is used to fine-tune multimodal LLMs, demonstrating improved GUI element grounding capabilities on novel software and websites.
