@@ -11,21 +11,21 @@
 
 - [EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents](https://arxiv.org/abs/2601.17722)
     - Haotian Zhao, Yuxiang Chai, Pengxiang Zhao, Wendi Yu, Difei Gao
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Zhongguancun Laboratory, Tsinghua University
     - 📅 Date: January 18, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark]
-    - 📖 TLDR: A holistic environment and benchmark for evaluating GUI agents on realistic enterprise tasks with verifiable outcomes.
+    - 🔑 Key: Benchmark, Web Agent, Enterprise, Evaluation, Dataset, GUI Agent
+    - 📖 TLDR: EntWorld is a large-scale benchmark of 1,756 tasks across six enterprise domains (CRM, ITIL, ERP, etc.) with SQL-based deterministic verification, revealing that state-of-the-art models like GPT-4.1 achieve only 47.61% success rate compared to human performance, highlighting a significant enterprise gap in current GUI agent capabilities.
 
 - [GraphPilot: GUI Task Automation with One-Step LLM Reasoning Powered by Knowledge Graph](https://arxiv.org/abs/2601.17418)
     - Pengxiang Zhao, Yuxiang Chai, Haotian Zhao, Yiyuan Liu, Shuai Ren
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Sun Yat-sen University
     - 📅 Date: January 17, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A knowledge graph-powered framework enabling mobile GUI agents to reason about tasks in one step with improved efficiency.
+    - 🔑 Key: GUI Agent, Mobile, Knowledge Graph, LLM, Task Automation, Efficiency
+    - 📖 TLDR: GraphPilot constructs app-specific knowledge graphs offline to encode page functions, element roles, and transition rules, then uses these graphs to guide LLM reasoning online so that a mobile GUI agent can plan a complete action sequence in nearly one LLM query, improving task completion rate on DroidTask while substantially reducing latency and the number of LLM calls compared to stepwise approaches.
 
 - [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
     - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
@@ -65,12 +65,12 @@
 
 - [A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation](https://arxiv.org/abs/2501.01149)
     - Yuxiang Chai, Shunye Tang, Han Xiao, Weifeng Lin, Hanhao Li, Jiayu Zhang, Liang Liu, Pengxiang Zhao, Guangyi Liu, Guozhi Wang, Shuai Ren, Rongduo Han, Haining Zhang, Siyuan Huang, Hongsheng Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: The Chinese University of Hong Kong, Nankai University, vivo AI Lab, Shanghai Jiao Tong University
     - 📅 Date: January 02, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark]
-    - 📖 TLDR: A benchmark with 100 tasks from 20 real-world dynamic mobile apps, featuring "essential-state" evaluation using MLLMs as reward models to progressively verify mobile GUI agent task completion and process achievement.
+    - 🔑 Key: [Benchmark], [Android], [Mobile Agent], [GUI Agent], [Evaluation], [LLM-based Evaluation]
+    - 📖 TLDR: A3 (Android Agent Arena) introduces a benchmark of 100 tasks across 20 popular online Android apps with a novel "essential-state" procedural evaluation method that uses MLLMs as reward models to progressively verify task completion, addressing the limitations of static or offline-only benchmarks for mobile GUI agents.
 
 - [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://aclanthology.org/2025.findings-acl.110/)
     - Yuxiang Chai, Siyuan Huang, Yazhe Niu, Han Xiao, Liang Liu, Guozhi Wang, Dingyu Zhang, Shuai Ren, Hongsheng Li

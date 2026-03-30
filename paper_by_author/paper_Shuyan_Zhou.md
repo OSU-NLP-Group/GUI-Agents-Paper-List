@@ -2,21 +2,21 @@
 
 - [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
     - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Carnegie Mellon University, Duke University
     - 📅 Date: 2026-02-27
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: 
-    - 📖 TLDR: Introduces a dataset of human-agent web interactions and trains language models to predict when users will intervene, resulting in more collaborative web agents that users find 26.5% more useful in practice.
+    - 🔑 Key: dataset, framework, web agent, human-agent interaction, intervention prediction, CowCorpus
+    - 📖 TLDR: This paper introduces CowCorpus, a dataset of 400 real-user web navigation trajectories with interleaved human-agent actions, and identifies four distinct human interaction patterns to train language models that predict user interventions, achieving 61.4-63.4% improvement in prediction accuracy and a 26.5% increase in user-rated agent usefulness.
 
 - [WebInject: Prompt Injection Attack to Web Agents](https://arxiv.org/abs/2505.11717)
     - Xilong Wang, John Bloch, Zedian Shao, Yuepeng Hu, Shuyan Zhou, Neil Zhenqiang Gong
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Duke University
     - 📅 Date: 2025-10-16
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: 
-    - 📖 TLDR: WebInject is an attack method manipulating webpage visuals to trick AI web agents into unintended actions, using a neural network to approximate the pixel-to-screenshot mapping for effective visual prompt injection.
+    - 🔑 Key: Web Agent, Prompt Injection, Attack, Adversarial Attack, Multimodal LLM, Security
+    - 📖 TLDR: WebInject proposes a prompt injection attack against MLLM-based web agents by adding optimized pixel-level perturbations to rendered webpages, using a neural network to approximate the non-differentiable webpage-to-screenshot mapping and projected gradient descent to find perturbations that induce attacker-specified actions.
 
 - [CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation](https://aclanthology.org/2025.naacl-demo.17/)
     - Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig

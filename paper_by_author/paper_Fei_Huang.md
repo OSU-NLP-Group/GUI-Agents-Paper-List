@@ -2,12 +2,12 @@
 
 - [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.14721)
     - Zikai Xiao, Jianhong Tu, Chuhang Zou, Yuxin Zuo, Zhi Li, Peng Wang, Bowen Yu, Fei Huang, Junyang Lin, Zuozhu Liu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Alibaba Group, Zhejiang University
     - 📅 Date: 2026-02-16
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [model], [world model], [simulator], [trajectory synthesis], [open-web]
-    - 📖 TLDR: Large-scale web simulator (WebWorld) trained on 1M+ open-web interactions supporting 30+ step simulations, enabling trajectory synthesis and exhibiting cross-domain generalization to code, GUI, and game environments.
+    - 🔑 Key: world model, web agent, data generation, benchmark, training, environment simulation
+    - 📖 TLDR: WebWorld is the first open-web world model simulator trained at scale on 1M+ real-world web interactions, enabling long-horizon multi-format simulation; agents trained on its synthesized trajectories achieve +9.2% improvement on WebArena (comparable to GPT-4o), and it generalizes to code, GUI, and game environments.
 
 - [OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents](https://arxiv.org/abs/2510.24563)
     - Hongrui Jia, Jitong Liao, Xi Zhang, Haiyang Xu, Tianbao Xie, Chaoya Jiang, Ming Yan, Si Liu, Wei Ye, Fei Huang
@@ -20,12 +20,12 @@
 
 - [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699)
     - Rui Ye, Zhongwang Zhang, Kuan Li, Huifeng Yin, Zhengwei Tao, Yida Zhao, Liangcai Su, Liwen Zhang, Zile Qiao, Xinyu Wang, Pengjun Xie, Fei Huang, Siheng Chen, Jingren Zhou, Yong Jiang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Tongyi Lab (Alibaba Group), Shanghai Jiao Tong University
     - 📅 Date: 2025-10-28
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: 
-    - 📖 TLDR: AgentFold introduces a web agent with proactive context management that dynamically condenses historical information at multiple scales, achieving 36.2% on BrowseComp while surpassing larger open-source models.
+    - 🔑 Key: Web Agent, Context Management, Long-Horizon Tasks, Information Retrieval, Supervised Fine-Tuning, BrowseComp
+    - 📖 TLDR: AgentFold introduces a proactive context management paradigm for web agents that uses multi-scale "folding" operations to dynamically condense browsing history, enabling a 30B-parameter model to achieve state-of-the-art results on BrowseComp benchmarks, surpassing much larger models like DeepSeek-V3.1-671B and proprietary agents like OpenAI's o4-mini.
 
 - [Mobile-Agent-v3: Fundamental Agents for GUI Automation](https://arxiv.org/abs/2508.15144)
     - Jiabo Ye, Xi Zhang, Haiyang Xu, Haowei Liu, Junyang Wang, Zhaoqing Zhu, Ziwei Zheng, Feiyu Gao, Junjie Cao, Zhengxi Lu, Jitong Liao, Qi Zheng, Fei Huang, Jingren Zhou, Ming Yan

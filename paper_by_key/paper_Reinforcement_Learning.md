@@ -1,4 +1,4 @@
-# Papers with Keyword: reinforcement learning
+# Papers with Keyword: Reinforcement Learning
 
 - [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533)
     - Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao

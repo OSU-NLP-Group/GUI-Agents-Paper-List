@@ -2,12 +2,12 @@
 
 - [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
     - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: OPPO Research Institute, Shanghai Jiao Tong University
     - 📅 Date: 2026-02-15
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: 
-    - 📖 TLDR: ColorBrowserAgent achieves 71.2% success on WebArena through human-in-the-loop knowledge adaptation and progressive summarization to handle long-horizon tasks across diverse websites.
+    - 🔑 Key: Web Agent, Knowledge Evolution, Human-in-the-Loop, Long-Horizon Tasks, WebArena, Memory Management
+    - 📖 TLDR: ColorBrowserAgent is a knowledge-evolving web automation agent that tackles site heterogeneity and long-horizon instability through human-in-the-loop knowledge adaptation and knowledge-aligned progressive summarization, achieving 71.2% success rate on WebArena and strong performance on WebChoreArena and industrial deployment.
 
 - [Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](https://arxiv.org/abs/2509.01720)
     - Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
