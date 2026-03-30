@@ -597,7 +597,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2026-03-01
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop]
+    - 💻 Env: [GUI]
     - 🔑 Key: 
     - 📖 TLDR: 
 
@@ -829,7 +829,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 12, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI], [Web]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A benchmark evaluating GUI agent robustness on tasks from diverse non-default initial states, revealing challenges in planning and adaptation when environments deviate from canonical setups, as occurs in real mid-workflow assistance scenarios.
 
@@ -838,7 +838,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 02, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A benchmark with 100 tasks from 20 real-world dynamic mobile apps, featuring "essential-state" evaluation using MLLMs as reward models to progressively verify mobile GUI agent task completion and process achievement.
 
@@ -847,7 +847,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: September 22, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [dataset]
     - 📖 TLDR: A million-scale mobile GUI dataset with 1.2M+ screenshot-view hierarchy pairs from 30K Android applications, enabling training of visual language models for mobile agent GUI grounding and interaction.
 
@@ -856,7 +856,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: September 17, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: [misc]
     - 📖 TLDR: Framework for detecting interactable GUI elements in VR apps using semantic context comprehension and reflection-directed detection to handle open-vocabulary categories and context-sensitive interactability in 3D interfaces.
 
@@ -865,7 +865,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 27, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web]
+    - 💻 Env: [Web]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A hierarchical benchmark spanning UI-to-code, multi-page frontend, and full-stack website development with 193 tasks from real websites, featuring both GUI and VLM-based verification for comprehensive evaluation of coding agents.
 
@@ -874,7 +874,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 27, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: A training-free plug-and-play framework reducing domain bias in GUI agents by autonomously extracting domain-specific expertise from web tutorial videos through subtitle-driven retrieval and automated annotation.
 
@@ -883,7 +883,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 27, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI], [Mobile], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model]
     - 📖 TLDR: Evaluates discrete diffusion vision-language models for GUI grounding across web, desktop, and mobile interfaces, proposing a hybrid masking schedule that improves accuracy and efficiency over autoregressive models.
 
@@ -1360,7 +1360,7 @@
     - 🏛️ Institutions: Meituan
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [Desktop]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [planning], [multi-agent], [synthetic trajectory generation], [TreeCUA], [TreeCUA-DPO]
     - 📖 TLDR: This paper targets the scaling bottleneck of GUI planning rather than GUI grounding. It introduces TreeCUA, a multi-agent framework that organizes large-scale GUI exploration trajectories as reusable tree structures, reducing redundant exploration while improving trajectory quality through verification, summarization, and evaluation. The work further proposes TreeCUA-DPO to learn planning from adjacent branch information, yielding strong gains and improved out-of-domain generalization.
 
@@ -1499,14 +1499,6 @@
     - 🔑 Key: [framework], [reinforcement learning], [screen navigation], [multi-turn RL], [GUI Exploration Lab]
     - 📖 TLDR: This paper focuses on improving screen navigation for GUI agents through multi-turn reinforcement learning rather than one-step action imitation alone. It introduces GUI Exploration Lab as a training setting for iterative exploration and feedback-driven policy improvement over interface trajectories. The work emphasizes that stable navigation competence in GUI agents benefits from explicit long-horizon RL training loops and structured exploration signals.
 
-- [ActionEngine: From Reactive to Programmatic GUI Agents via State Machine Memory](https://arxiv.org/abs/2511.19719)
-    - Hongbin Zhong, Fazle Faisal, Luis Franca, Tanakorn Leesatapornwongsa, Adriana Szekeres, Kexin Rong, Suman Nath
-    - 🏛️ Institutions: Microsoft Research, Georgia Tech
-    - 📅 Date: November 23, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [memory], [planning], [state machine], [programmatic agent], [ActionEngine]
-    - 📖 TLDR: This paper argues that GUI agents should move beyond purely reactive next-action prediction and instead build programmatic control abstractions over repeated interface states. It introduces ActionEngine, which stores execution knowledge as state-machine-style memory and uses that memory to compose reusable programs for future tasks. The approach targets more reliable long-horizon automation by turning interaction experience into explicit control structure rather than latent-only policy updates.
 - [Computer-Use Agents as Judges for Generative User Interface](https://arxiv.org/abs/2511.15567)
     - Kevin Qinghong Lin, Siyuan Hu, Linjie Li, Zhengyuan Yang, Lijuan Wang, Philip Torr, Mike Zheng Shou
     - 🏛️ Institutions: University of Oxford, Show Lab, National University of Singapore, Microsoft
@@ -1921,15 +1913,6 @@
     - 🔑 Key: [benchmark], [dataset], [evaluation framework], [RAG], [query complexity], [DeepShop]
     - 📖 TLDR: DeepShop introduces a comprehensive benchmark for web shopping agents, mirroring the real first-use complexity of online shopping scenarios. It features diversified query evolution across five domains, complexity-tier classification (easy/medium/hard), and a fine‐grained scoring system analyzing attribute matching, filters, and sorting. Evaluations across RAG and agentic systems reveal significant shortcomings, especially in handling filters and sorting, underscoring gaps in current research capabilities.
 
-- [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
-    - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
-    - 🏛️ Institutions: Tsinghua University, Renmin University of China, ModelBest
-    - 📅 Date: June 2, 2025
-    - 📑 Publisher: EMNLP 2025 System Demonstrations
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [benchmark], [reinforcement learning], [grounding], [CAGUI], [mobile use]
-    - 📖 TLDR: AgentCPM-GUI is an 8B-parameter on-device GUI agent tailored for Android applications, emphasizing robust multilingual interaction. Built upon MiniCPM-V, it undergoes a three-stage training pipeline: grounding-aware pre-training on a 12M-sample bilingual dataset, supervised fine-tuning with 55K high-quality trajectories from over 30 Chinese apps, and reinforcement fine-tuning using the Group Relative Policy Optimization (GRPO) algorithm to enhance reasoning capabilities. The model introduces a compact JSON-based action space optimized for mobile efficiency. Evaluated across five benchmarks, including the newly introduced Chinese GUI benchmark CAGUI, AgentCPM-GUI achieves state-of-the-art performance, notably 96.9% Type-Match and 91.3% Exact-Match on CAGUI. All code, model checkpoints, and evaluation data are publicly released to support further research.
-
 - [AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
     - 🏛️ Institutions: Tsinghua University, Renmin University of China, ModelBest
@@ -2304,7 +2287,7 @@
     - 🏛️ Institutions: Microsoft Research, University of Maryland, University of Wisconsin-Madison, KAIST, University of Washington
     - 📅 Date: Feb 18, 2025
     - 📑 Publisher: CVPR 2025
-    - 💻 Env: [GUI], [Robotics]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [framework], [SoM], [ToM], [robotics], [UI navigation]
     - 📖 TLDR: This paper introduces **Magma**, a foundation model designed for multimodal AI agents operating in both digital and physical environments. Magma extends traditional vision-language models by incorporating planning and action capabilities, enabling tasks from UI navigation to robotic manipulation. The model is pretrained on diverse datasets, including images, videos, and robotics data, utilizing **Set-of-Mark (SoM)** for action grounding and **Trace-of-Mark (ToM)** for action planning. Experiments demonstrate that SoM and ToM synergistically enhance Magma's spatial-temporal intelligence, achieving state-of-the-art performance in UI navigation and robotic manipulation tasks.
 
@@ -2745,7 +2728,7 @@
     - 🏛️ Institutions: Carnegie Mellon University, The Chinese University of Hong Kong, Peking University, University of Waterloo
     - 📅 Date: October 17, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
-    - 💻 Env: [Web], [Doc]
+    - 💻 Env: [Web]
     - 🔑 Key: [dataset], [multimodal instruction tuning], [text-rich visual understanding], [web UI], [MultiUI]
     - 📖 TLDR: This paper introduces *MultiUI*, a large-scale dataset containing 7.3 million annotated samples from 1 million websites, specifically designed to enhance multimodal large language models’ (MLLMs) capabilities in text-rich visual understanding. Utilizing webpage UI structures as a training resource, MultiUI provides robust accessibility tree data paired with UI screenshots, significantly improving MLLMs’ grounding, OCR, and interaction performance. Models trained with MultiUI achieve up to a 48% performance boost on VisualWebBench and demonstrate enhanced generalization across non-web tasks, setting a new standard for structured, visually integrated web data modeling.
 
@@ -2865,15 +2848,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [API-first], [AXIS], [HACI], [Agent OS]
     - 📖 TLDR: This paper proposes an API-centered framework called **AXIS**, enhancing the efficiency and reliability of LLM-based agents by prioritizing API interactions over UI-based actions. This approach aims to reduce the high latency and error rates of traditional UI-interaction models. AXIS not only supports the rapid creation and extension of APIs through automated application exploration but also contributes to a new **Human-Agent-Computer Interaction (HACI)** framework. The paper outlines the development of an agent-centric operating system (Agent OS), which improves task completion times by up to 70% and reduces cognitive load on users while maintaining high accuracy across complex multi-application tasks.
-
-- [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models](https://openaccess.thecvf.com/content/CVPR2025/html/Deitke_Molmo_and_PixMo_Open_Weights_and_Open_Data_for_State-of-the-Art_CVPR_2025_paper.html)
-    - Matt Deitke, Christopher Clark, Sangho Lee, Rohun Tripathi, Yue Yang, Jae Sung Park, Mohammadreza Salehi, Niklas Muennighoff, Kyle Lo, Luca Soldaini, Jiasen Lu, Taira Anderson, Erin Bransom, Kiana Ehsani, Huong Ngo, YenSung Chen, Ajay Patel, Mark Yatskar, Chris Callison-Burch, Andrew Head, Rose Hendrix, Favyen Bastani, Eli VanderBilt, Nathan Lambert, Yvonne Chou, Arnavi Chheda, Jenna Sparks, Sam Skjonsberg, Michael Schmitz, Aaron Sarnat, Byron Bischoff, Pete Walsh, Chris Newell, Piper Wolters, Tanmay Gupta, Kuo-Hao Zeng, Jon Borchardt, Dirk Groeneveld, Crystal Nam, Sophie Lebrecht, Caitlin Wittlif, Carissa Schoenick, Oscar Michel, Ranjay Krishna, Luca Weihs, Noah A. Smith, Hannaneh Hajishirzi, Ross Girshick, Ali Farhadi, Aniruddha Kembhavi
-    - 🏛️ Institutions: Allen Institute for AI, University of Washington, University of Pennsylvania
-    - 📅 Date: September 25, 2024
-    - 📑 Publisher: CVPR 2025
-    - 💻 Env: [Misc]
-    - 🔑 Key: [model], [dataset], [PixMo], [Molmo], [vision language model], [foundation model]
-    - 📖 TLDR: This paper introduces *Molmo*, a family of state-of-the-art open vision-language models (VLMs), and *PixMo*, a collection of new datasets including detailed image captions, free-form image Q&A, and innovative 2D pointing data, all collected without reliance on proprietary VLMs. The authors demonstrate that careful model design, a well-tuned training pipeline, and high-quality open datasets can produce VLMs that outperform existing open models and rival proprietary systems. The model weights, datasets, and source code are made publicly available to advance research in this field.
 
 - [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://aclanthology.org/2024.findings-emnlp.599/)
     - Qinzhuo Wu, Weikai Xu, Wei Liu, Tao Tan, Jianfeng Liu, Ang Li, Jian Luan, Bin Wang, Shuo Shang
@@ -3045,15 +3019,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [planning], [reasoning], [WorkArena++]
     - 📖 TLDR: This paper introduces **WorkArena++**, a benchmark comprising 682 tasks that simulate realistic workflows performed by knowledge workers. It evaluates web agents' capabilities in planning, problem-solving, logical/arithmetic reasoning, retrieval, and contextual understanding. The study reveals challenges faced by current large language models and vision-language models in serving as effective workplace assistants, providing a resource to advance autonomous agent development.
-
-- [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://openreview.net/forum?id=o1Et3MogPw)
-    - Weize Chen, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, Cheng Yang, Ruobing Xie, Zhiyuan Liu, Maosong Sun
-    - 🏛️ Institutions: Tsinghua University, Peking University, Beijing University of Posts and Telecommunications, Tencent
-    - 📅 Date: July 7, 2024
-    - 📑 Publisher: ICLR 2025 (Spotlight)
-    - 💻 Env: [Misc]
-    - 🔑 Key: [framework], [multi-agent], [heterogeneous agents], [distributed collaboration], [IoA]
-    - 📖 TLDR: The paper proposes the **Internet of Agents (IoA)**, a framework inspired by the Internet to facilitate collaboration among diverse autonomous agents. IoA introduces an agent integration protocol, dynamic teaming mechanisms, and conversation flow control, enabling flexible and scalable multi-agent collaboration. Experiments demonstrate IoA's superior performance across various tasks, highlighting its effectiveness in integrating heterogeneous agents.
 
 - [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
     - Songqin Nong, Jiali Zhu, Rui Wu, Jiongchao Jin, Shuo Shan, Xiutian Huang, Wenhao Xu
@@ -3501,7 +3466,7 @@
     - 🏛️ Institutions: Renmin University of China, Peking University, Tencent
     - 📅 Date: Feb 17, 2024
     - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [GUI], [Misc]
+    - 💻 Env: [GUI]
     - 🔑 Key: [attack], [backdoor], [safety]
     - 📖 TLDR: This paper investigates backdoor attacks on LLM-based agents, introducing a framework that categorizes attacks based on outcomes and trigger locations. The study demonstrates the vulnerability of such agents to backdoor attacks and emphasizes the need for targeted defenses.
 
@@ -3618,7 +3583,7 @@
     - 🏛️ Institutions: Tsinghua University, The Ohio State University, ByteDance
     - 📅 Date: January 1, 2024
     - 📑 Publisher: ICLR 2024
-    - 💻 Env: [GUI], [General]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [evaluation]
     - 📖 TLDR: AgentBench provides a comprehensive benchmark for evaluating LLMs as autonomous agents in various environments. It includes eight distinct scenarios, testing the LLMs' reasoning and decision-making capabilities in tasks such as OS interaction, database querying, knowledge graph traversal, and more. This benchmark compares the effectiveness of multiple commercial and open-source LLMs, revealing areas of improvement in instruction-following and long-term reasoning, essential for practical agent development.
 
@@ -3870,7 +3835,7 @@
     - 🏛️ Institutions: Google
     - 📅 Date: February 1, 2023
     - 📑 Publisher: ICML 2023
-    - 💻 Env: [Web], [Doc]
+    - 💻 Env: [Web]
     - 🔑 Key: [model], [framework], [vision encoder], [visual language understanding], [screenshot parsing], [image-to-text]
     - 📖 TLDR: This paper introduces Pix2Struct, a model pre-trained to parse masked screenshots into simplified HTML for tasks requiring visual language understanding. By leveraging the structure of HTML and diverse web page elements, Pix2Struct captures pretraining signals like OCR and image captioning, achieving state-of-the-art performance across tasks in domains including documents, user interfaces, and illustrations.
 
@@ -4067,7 +4032,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 26, 2026
     - 📑 Publisher: CVPR 2026
-    - 💻 Env: [Desktop], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [user intent detection]
     - 📖 TLDR: A benchmark for evaluating GUI agents' ability to perceive user behavior, infer intent, and provide contextual assistance in open-ended GUI tasks, based on 67.5 hours of user demonstrations.
 
@@ -4076,7 +4041,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 25, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model], [framework]
     - 📖 TLDR: A self-evolving mobile GUI agent using Rejection Fine-Tuning and Group Relative Self-Distillation to learn efficiently from failed trajectories without manual annotation.
 
@@ -4094,7 +4059,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 23, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model], [benchmark]
     - 📖 TLDR: A CAPTCHA-capable native GUI agent trained with automated data collection and self-correction strategies, improving CAPTCHA solving from ~30% to 80% while maintaining general GUI performance.
 
@@ -4103,7 +4068,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 24, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [security], [adversarial attacks]
     - 📖 TLDR: Demonstrates backdoor attacks on mobile GUI agents through visually natural notification-based triggers, exposing critical security vulnerabilities in screenshot-based agent systems.
 
@@ -4112,7 +4077,7 @@
     - 🏛️ Institutions: Bytedance
     - 📅 Date: March 21, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model]
     - 📖 TLDR: A foundation model for generalized real-world agency supporting multi-turn interaction, tool use, code generation, and GUI interaction with latency-aware inference options.
 
@@ -4121,7 +4086,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 20, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework]
     - 📖 TLDR: A framework representing agent skills as explicit contract-based artifacts with preconditions, postconditions, and recovery rules, enabling verification and model-agnostic skill transfer.
 
@@ -4139,7 +4104,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 19, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: A diagnostic framework with AndroTMem-Bench and Anchored State Memory approach for improving interaction memory in long-horizon GUI agents through structured, causally-linked state anchors.
 
@@ -4157,7 +4122,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 16, 2026
     - 📑 Publisher: CVPR 2026
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: The first comprehensive Chinese mobile GUI agent benchmark spanning 201 mainstream apps with two-level evaluation covering perception, planning, reflection, execution, and evaluation on real physical devices.
 
@@ -4193,7 +4158,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Data Visualization]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A benchmark for visually grounded deep compositional reasoning with multi-layer reasoning chains across natural images, data charts, and GUI trajectories, with programmatic verification.
 
@@ -4220,7 +4185,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 10, 2026
     - 📑 Publisher: ICSE 2026
-    - 💻 Env: [GUI], [Web], [Desktop]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: A fully automated testing framework for GUI-based AI agents decomposed into four phases with specialist agents, achieving robust testing across CLI tools, web apps, and browser extensions.
 
@@ -4229,7 +4194,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web], [Terminal]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: A framework that leverages next-state signals from various agent interactions as universal training signals for online RL policy learning across conversations, terminal executions, and GUI interactions.
 
@@ -4238,7 +4203,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [framework]
     - 📖 TLDR: Proposes a Personal Agent Operating System paradigm to replace traditional OS with agent-centric architecture, addressing fragmentation in application interaction and permission management.
 
@@ -4247,7 +4212,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model], [dataset]
     - 📖 TLDR: An efficient 3B-scale mobile GUI agent with a semantic context mechanism for history representation, accompanied by a Chinese mobile GUI dataset with 18k grounding samples and 121k steps.
 
@@ -4265,7 +4230,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [Desktop], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A benchmark for evaluating proactive intent recommendation agents that anticipate user intentions from continuous visual inputs without explicit prompting in long-horizon scenarios.
 
@@ -4283,7 +4248,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 08, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: Formalizes and evaluates zero-shot generalization in mobile GUI agents through AndroidWorld-Generalization benchmark with three increasingly challenging evaluation regimes.
 
@@ -4292,7 +4257,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 05, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [dataset]
     - 📖 TLDR: The largest open-source dataset of human-annotated web trajectories with 31,725 sequences and 318k steps featuring multi-modal visual, structural, and action alignment.
 
@@ -4301,7 +4266,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: March 05, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework]
     - 📖 TLDR: An automated closed-loop RL pipeline that systematically compresses LLM knowledge into grounded web agent actions through scalable environment synthesis and knowledge-aware task generation.
 
@@ -4346,7 +4311,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [Desktop], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model]
     - 📖 TLDR: GUI-Owl-1.5 native agent model with multiple sizes (2B-235B) supporting diverse platforms including desktop, mobile, and web applications.
 
@@ -4355,7 +4320,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 16, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework]
     - 📖 TLDR: A framework for embedding web agents with application-level access to improve robustness and action expressiveness beyond screenshot-level observation.
 
@@ -4364,7 +4329,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 16, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset]
     - 📖 TLDR: The first large-scale open-source world model series for web agent training, addressing bottlenecks in collecting real-world trajectories.
 
@@ -4373,7 +4338,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: A framework for synthesizing infinite verifiable web environments using finite state machines to address the bottleneck of collecting interaction trajectories.
 
@@ -4409,7 +4374,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 14, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [model]
     - 📖 TLDR: A robust online RL-based web agent that adapts to real-world stochastic state transitions and feedback, overcoming distributional shifts in static datasets.
 
@@ -4436,7 +4401,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework]
     - 📖 TLDR: An end-to-end web testing agent that infers test oracles from natural language specs and symbolized GUI elements, addressing hallucination issues in VLM testing.
 
@@ -4445,7 +4410,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework]
     - 📖 TLDR: An adaptive milestone reward mechanism balancing fidelity and density for long-horizon mobile GUI agent RL training, addressing temporal credit assignment.
 
@@ -4454,7 +4419,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [Desktop], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: GUI Agent Autonomy Levels (GAL) framework defining six-level autonomy hierarchy to establish clarity on agent capabilities, responsibility, and risk assessment.
 
@@ -4463,7 +4428,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 11, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [security], [framework]
     - 📖 TLDR: A security analysis of mobile agents identifying vulnerabilities in screen-as-interface paradigm and proposing intent-centric OS architecture for secure operation.
 
@@ -4481,7 +4446,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 08, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [safety], [framework]
     - 📖 TLDR: A privacy protection framework through selective anonymization enabling mobile GUI agents to handle sensitive data while preserving task-critical information visibility.
 
@@ -4490,7 +4455,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model]
     - 📖 TLDR: A vision-language GUI world model predicting next states via renderable code generation, balancing visual fidelity with structural controllability for agent foresight.
 
@@ -4499,7 +4464,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [Desktop], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [model]
     - 📖 TLDR: UI-Venus-1.5 unified GUI agent with dense variants (2B/8B) and MoE variant (30B), featuring mid-training and comprehensive supervised fine-tuning for robustness.
 
@@ -4508,7 +4473,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [safety]
     - 📖 TLDR: A scalable next-generation CAPTCHA defense framework dynamically updated to counter advancing reasoning models, building on learnings from OpenCaptchaWorld.
 
@@ -4517,7 +4482,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 06, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [dataset]
     - 📖 TLDR: A trajectory expansion framework bootstrapping desktop supervision by identifying branch points and generating task variants from seed demonstrations.
 
@@ -4553,7 +4518,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A comprehensive memory-centric benchmark with 128 tasks assessing cross-temporal and cross-spatial retention in mobile GUI agents, introducing MemGUI-Eval metrics.
 
@@ -4562,7 +4527,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 05, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dataset]
     - 📖 TLDR: A low-cost automated mobile GUI agent data-mining framework using multi-agent enhanced MCTS to generate diverse trajectories with high quality at scale.
 
@@ -4598,7 +4563,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [model]
     - 📖 TLDR: A visual world modeling paradigm where a VLM predicts next GUI states as executable web code, balancing high fidelity with precise text rendering.
 
@@ -4607,7 +4572,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 31, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: VAGEN framework employing verifier agents with proactive interaction for agentic reward verification, moving from passive to interactive evaluation paradigm.
 
@@ -4616,7 +4581,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dataset]
     - 📖 TLDR: MobileGen framework generating trajectories with progressive difficulty to match agent capabilities, addressing data-capability mismatch in mobile GUI agent training.
 
@@ -4661,7 +4626,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework]
     - 📖 TLDR: An agentic testing framework with dynamic instrumentation to improve Android app code coverage beyond the 30% barrier.
 
@@ -4670,7 +4635,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A comprehensive Chinese mobile GUI agent benchmark with online evaluation in real-world Android environments.
 
@@ -4679,7 +4644,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 22, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework]
     - 📖 TLDR: A framework for mobile GUI agents to adapt to UI changes by evolving functional semantic understanding despite surface appearance shifts.
 
@@ -4706,7 +4671,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 18, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI]
+    - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark]
     - 📖 TLDR: A holistic environment and benchmark for evaluating GUI agents on realistic enterprise tasks with verifiable outcomes.
 
@@ -4715,7 +4680,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 17, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [framework]
     - 📖 TLDR: A knowledge graph-powered framework enabling mobile GUI agents to reason about tasks in one step with improved efficiency.
 
@@ -4724,7 +4689,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: An investigation of how user values and preferences shape LLM-powered GUI agent reasoning and behavioral outcomes.
 
@@ -4751,7 +4716,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: January 07, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [GUI]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [security]
     - 📖 TLDR: A security analysis identifying vulnerabilities in multimodal GUI agents regarding visual atomicity and zero-permission manipulation risks.
 
@@ -4805,7 +4770,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: December 25, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Web], [GUI]
+    - 💻 Env: [GUI]
     - 🔑 Key: [framework]
     - 📖 TLDR: A bi-level framework transitioning GUI agents from off-policy expert imitation to on-policy reinforcement learning.
 
@@ -4823,7 +4788,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: December 19, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Web], [GUI]
+    - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset]
     - 📖 TLDR: A system for infinite-scale web environment synthesis to overcome scarcity of training environments for GUI agents.
 
@@ -4868,7 +4833,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-24
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: Graphical user interface (GUI) agents can substantially improve productivity by automating frequently executed long-latency tasks on mobile devices.
 
@@ -4877,7 +4842,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-22
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: Contemporary GUI agents, while increasingly capable due to advances in Large Vision-Language Models (VLMs), often operate with a critical limitation: they.
 
@@ -4895,7 +4860,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-18
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI], [Mobile], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [dataset], [model]
     - 📖 TLDR: With VLM-powered computer-using agents (CUAs) becoming increasingly capable at graphical user interface (GUI) navigation and manipulation, reliable step-level.
 
@@ -4904,7 +4869,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [dataset], [model]
     - 📖 TLDR: Recent advances in multimodal large language models unlock unprecedented opportunities for GUI automation.
 
@@ -4913,7 +4878,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-14
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [model]
     - 📖 TLDR: Mobile GUI Agents, AI agents capable of interacting with mobile applications on behalf of users, have the potential to transform human computer interaction.
 
@@ -4931,7 +4896,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-22
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web]
+    - 💻 Env: [Web]
     - 🔑 Key: [dataset], [model]
     - 📖 TLDR: Computer use agents (CUAs) can operate real-world digital interfaces but remain difficult to train due to the high cost of graphical user interface (GUI).
 
@@ -4940,7 +4905,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-12-11
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [framework]
     - 📖 TLDR: The rapid development of mobile GUI agents has stimulated growing research interest in long-horizon task automation.
 
@@ -5012,7 +4977,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-30
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: There is a growing demand for mobile user interface (UI) automation, driven by its broad applications across industries.
 
@@ -5034,24 +4999,6 @@
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: The rapid development of large vision-language model (VLM) has greatly promoted the research of GUI agent.
 
-- [AI-Augmented Bibliometric Framework: A Paradigm Shift with Agentic AI for Dynamic, Snippet-Based Research Analysis](https://arxiv.org/abs/2511.21745)
-    - Adela Bara, Simona-Vasilica Oprea
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-11-22
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [security]
-    - 📖 TLDR: Our paper introduces a generative, multiagent AI framework designed to overcome the rigidity, limited flexibility and technical barriers of current.
-
-- [Agint: Agentic Graph Compilation for Software Engineering Agents](https://arxiv.org/abs/2511.19635)
-    - Abhi Chivukula, Jay Somasundaram, Vijay Somasundaram
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-11-24
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [model]
-    - 📖 TLDR: LLM-based coding agents are increasingly common but still face challenges in context management, latency, reliability, reproducibility, and scalability.
-
 - [SWITCH: Benchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios](https://arxiv.org/abs/2511.17649)
     - Jieru Lin, Zhiwei Yu, Börje F. Karlsson
     - 🏛️ Institutions: Unknown
@@ -5066,25 +5013,16 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-20
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [dataset]
     - 📖 TLDR: Developing intelligent agents capable of operating a wide range of Graphical User Interfaces (GUIs) with human-level proficiency is a key milestone on the path.
-
-- [KForge: Program Synthesis for Diverse AI Hardware Accelerators](https://arxiv.org/abs/2511.13274)
-    - Taras Sereda, Tom St. John, Burak Bartan...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-11-17
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: GPU kernels are critical for ML performance but difficult to optimize across diverse accelerators.
 
 - [DualTAP: A Dual-Task Adversarial Protector for Mobile MLLM Agents](https://arxiv.org/abs/2511.13248)
     - Fuyao Zhang, Jiaming Zhang, Che Wang...
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-17
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [model]
     - 📖 TLDR: The reliance of mobile GUI agents on Multimodal Large Language Models (MLLMs) introduces a severe privacy vulnerability: screenshots containing Personally.
 
@@ -5111,7 +5049,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-16
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Web]
+    - 💻 Env: [Web]
     - 🔑 Key: [dataset], [model]
     - 📖 TLDR: Task-oriented dialogue systems have garnered significant attention due to their conversational ability to accomplish goals, such as booking airline tickets for.
 
@@ -5120,7 +5058,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-13
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: Graphical User Interface (GUI) task automation constitutes a critical frontier in artificial intelligence research.
 
@@ -5138,7 +5076,7 @@
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-12
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI], [Mobile]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [dataset], [model]
     - 📖 TLDR: With the deep integration of artificial intelligence and interactive technology, Graphical User Interface (GUI) Agent, as the carrier connecting goal-oriented.
 
@@ -5151,21 +5089,12 @@
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: Advances in Multimodal Large Language Models have significantly enhanced Graphical User Interface (GUI) automation.
 
-- [Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds](https://arxiv.org/abs/2511.08892)
-    - Weihao Tan, Xiangyang Li, Yunhao Fang...
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-11-12
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model]
-    - 📖 TLDR: We introduce Lumine, the first open recipe for developing generalist agents capable of completing hours-long complex missions in real time within challenging.
-
 - [AUTO-Explorer: Automated Data Collection for GUI Agent](https://arxiv.org/abs/2511.06417)
     - Xiangwu Guo, Difei Gao, Mike Zheng Shou
     - 🏛️ Institutions: Unknown
     - 📅 Date: 2025-11-09
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [GUI], [Web]
+    - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [model]
     - 📖 TLDR: Recent advancements in GUI agents have significantly expanded their ability to interpret natural language commands to manage software interfaces.
 
