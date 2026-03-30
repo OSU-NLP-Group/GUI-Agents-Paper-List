@@ -2309,9 +2309,9 @@
     - 🔑 Key: [framework], [dataset], [benchmark], [e-commerce web interaction], [language grounding]
     - 📖 TLDR: This paper introduces **WebShop**, a simulated web-based shopping environment with over 1 million real-world products and 12,087 annotated instructions. It allows language agents to navigate, search, and make purchases based on natural language commands. The study explores how agents handle compositional instructions and noisy web data, providing a robust environment for reinforcement learning and imitation learning. The best models show effective sim-to-real transfer on websites like Amazon, illustrating WebShop’s potential for training grounded agents.
 
-- [META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI](https://arxiv.org/abs/2205.11029)
+- [META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI](https://aclanthology.org/2022.emnlp-main.449/)
     - Liangtai Sun, Xingyu Chen, Lu Chen, Tianle Dai, Zichen Zhu, Kai Yu
-    - 🏛️ Institutions: SJTU
+    - 🏛️ Institutions: Shanghai Jiao Tong University
     - 📅 Date: May 23, 2022
     - 📑 Publisher: EMNLP 2022
     - 💻 Env: [Mobile]
