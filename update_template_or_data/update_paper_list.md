@@ -2408,7 +2408,7 @@
     - 🔑 Key: [framework], [dataset], [mobile UI automation], [natural language instructions], [action grounding], [RicoSCA]
     - 📖 TLDR: This paper introduces a method for grounding natural language instructions to mobile UI actions, aiming to automate mobile task execution through user interface manipulation. It introduces three key datasets: **PixelHelp** for task instruction-performance mappings on a Pixel emulator, **AndroidHowTo** for detailed phrase extraction, and **RicoSCA** for synthetic UI command training. The system utilizes a Transformer model to extract action phrase tuples, aligning them to UI elements with contextual screen positioning. Achieving over 70% accuracy in task completion, this approach is foundational for natural language-driven mobile UI automation.
 
-- [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://arxiv.org/abs/1909.00031)
+- [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899)
     - Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom M. Mitchell, Brad A. Myers
     - 🏛️ Institutions: Carnegie Mellon University, Amherst College
     - 📅 Date: August 30, 2019
@@ -2417,11 +2417,11 @@
     - 🔑 Key: [programming-by-demonstration], [PUMICE]
     - 📖 TLDR: This paper introduces *PUMICE*, a multi-modal agent that combines natural language programming and programming-by-demonstration to enable end users to instruct intelligent agents in performing new tasks. By allowing users to describe tasks and conditions naturally and then collaboratively resolving ambiguities through conversation and demonstration, PUMICE facilitates the teaching of new concepts and procedures within existing mobile app GUIs. A lab study with 10 users demonstrated its usability and effectiveness.
 
-- [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://arxiv.org/abs/1802.08802)
+- [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://openreview.net/forum?id=ryTp3f-0-)
     - Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, Percy Liang
-    - 🏛️ Institutions: Stanford
+    - 🏛️ Institutions: Stanford University
     - 📅 Date: February 24, 2018
-    - 📑 Publisher: ICLR 2018
+    - 📑 Publisher: ICLR 2018 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [benchmark], [reinforcement learning], [web tasks], [workflow-guided exploration]
     - 📖 TLDR: This paper presents a novel RL approach using *workflow-guided exploration* to efficiently train agents on web-based tasks, where actions are restricted based on demonstrated workflows to streamline learning. Evaluated on MiniWoB and MiniWoB++ benchmarks, the method significantly outperforms traditional RL techniques in sparse reward settings by structuring exploration according to high-level action constraints.
