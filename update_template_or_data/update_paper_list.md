@@ -1517,13 +1517,13 @@
     - 🔑 Key: [model], [framework], [Octo-planner], [on-device], [planning]
     - 📖 TLDR: This paper presents Octo-planner, an on-device planning model designed for the Planner-Action Agents Framework. Octo-planner utilizes a fine-tuned model based on Phi-3 Mini (3.8 billion parameters) for high efficiency and low power consumption. It separates planning and action execution into two distinct components: a planner agent optimized for edge devices and an action agent using the Octopus model for function execution. The model achieves a planning success rate of 98.1% on benchmark datasets, providing reliable and effective performance.
 
-- [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://arxiv.org/abs/2406.14056)
+- [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://aclanthology.org/2024.findings-emnlp.68/)
     - Ziyang Meng, Yu Dai, Zezheng Gong, Shaoxiong Guo, Minglong Tang, Tongquan Wei
-    - 🏛️ Institutions: SJTU
+    - 🏛️ Institutions: East China Normal University
     - 📅 Date: June 20, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: Findings of EMNLP 2024
     - 💻 Env: [GUI]
-    - 🔑 Key: [model], [dataset], [framework], [VGA], [hallucination]
+    - 🔑 Key: [model], [dataset], [hallucination mitigation], [FAC], [Referent Method], [VGA]
     - 📖 TLDR: This paper introduces VGA, a fine-tuned model designed to enhance GUI comprehension by reducing hallucinations. The authors constructed a Vision Question Answering (VQA) dataset of 63.8k high-quality examples using a Referent Method, ensuring model responses are highly dependent on visual content. They also propose a two-stage fine-tuning method called Foundation and Advanced Comprehension (FAC) to improve the model's ability to extract information from images and align with human intent.
 
 - [E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion](https://arxiv.org/abs/2406.14250)
@@ -1787,11 +1787,11 @@
     - 🔑 Key: [framework], [benchmark], [evaluation model], [domain transfer]
     - 📖 TLDR: This paper presents an autonomous evaluation framework for digital agents to enhance performance on web navigation and device control. The study introduces modular, cost-effective evaluators achieving up to 92.9% accuracy in benchmarks like WebArena and outlines their use in fine-tuning agents, improving state-of-the-art by 29% without additional supervision.
 
-- [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://machinelearning.apple.com/research/ferretui-mobile)
-    - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeffrey Nichols, Yinfei Yang, Zhe Gan
+- [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8095_ECCV_2024_paper.php)
+    - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeff Nichols, Yinfei Yang, Zhe Gan
     - 🏛️ Institutions: Apple
     - 📅 Date: April 8, 2024
-    - 📑 Publisher: ECCV 2024
+    - 📑 Publisher: ECCV 2024 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [framework], [dataset], [benchmark], [mobile UI understanding]
     - 📖 TLDR: This paper presents **Ferret-UI**, a multimodal large language model (MLLM) designed to understand and interact with mobile user interfaces. The model incorporates advanced capabilities for referring, grounding, and reasoning about UI elements. By training on a variety of UI tasks, Ferret-UI achieves high performance in tasks such as icon recognition and text extraction. The authors introduce a unique architecture that allows for improved visual feature extraction from mobile screens, paving the way for applications in accessibility and user interaction.
@@ -1809,7 +1809,7 @@
     - Juyong Lee, Taywon Min, Minyong An, Dongyoon Hahm, Haeone Lee, Changyeon Kim, Kimin Lee
     - 🏛️ Institutions: KAIST, Seoul National University, Yonsei University
     - 📅 Date: April 2024
-    - 📑 Publisher: ICLR 2024
+    - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [mobile device control], [agent performance]
     - 📖 TLDR: This paper presents **B-MoCA**, a comprehensive benchmark for evaluating mobile device control agents using an Android-based testbed with 131 tasks and various device configurations. The benchmark assesses agents' abilities across tasks that include device-specific variations, navigation, and human-like dual-gesture interactions. B-MoCA highlights that current agents perform well on basic tasks but struggle with complex configurations, pointing to opportunities for future improvements in mobile automation capabilities.
