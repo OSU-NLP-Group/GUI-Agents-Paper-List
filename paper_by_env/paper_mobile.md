@@ -1,3 +1,12 @@
+- [CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs](https://arxiv.org/abs/2510.15455)
+    - Gucongcong Fan, Chaoyue Niu, Chengfei Lyu, Fan Wu, Guihai Chen
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Alibaba Group
+    - 📅 Date: October 17, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [privacy], [cloud-local collaboration], [mobile GUI agent], [UI exposure reduction], [CORE]
+    - 📖 TLDR: This paper studies a privacy problem in mobile agents: cloud-based models often need the full UI at every step even when only a small local region matters. CORE addresses this with a collaborative cloud-local framework that partitions UI blocks, lets local and cloud models co-plan and co-decide, and accumulates evidence across rounds to recover from local mistakes. Across diverse mobile tasks, it substantially cuts UI exposure while keeping task success close to cloud-only agents.
+
 - [Say One Thing, Do Another? Diagnosing Reasoning‑Execution Gaps in VLM‑Powered Mobile‑Use Agents](https://arxiv.org/abs/2510.02204)
     - Lingzhong Dong, Ziqi Zhou, Shuaibo Yang, Haiyue Sheng, Pengzhou Cheng, Zongru Wu, Zheng Wu, Gongshen Liu, Zhuosheng Zhang
     - 🏛️ Institutions: SJTU, BIT
