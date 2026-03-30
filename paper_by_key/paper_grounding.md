@@ -1,5 +1,14 @@
 # Papers with Keyword: grounding
 
+- [Continual GUI Agents: Improving Factual and Causal Grounding for Better Generalization](https://arxiv.org/abs/2603.18428)
+    - Tao Feng, Borui Kang, Hangjie Yuan, Zhaofei Cai, Ziwei Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [continual learning], [GUI grounding], [causal grounding], [factual grounding]
+    - 📖 TLDR: This paper studies why GUI agents fail to generalize under continual learning and identifies two distinct failure modes: weak factual grounding on unseen interfaces and weak causal grounding over interaction dynamics. It proposes a training framework that explicitly improves both forms of grounding so that agents can adapt across evolving tasks without catastrophic degradation. The results position continual grounding quality, rather than raw imitation scale alone, as a key bottleneck for long-term GUI-agent generalization.
+
 - [GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding](https://arxiv.org/abs/2510.04039)
     - Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, Caiwen Ding
     - 🏛️ Institutions: University of Minnesota, Cisco Research, Lawrence Livermore National Laboratory
