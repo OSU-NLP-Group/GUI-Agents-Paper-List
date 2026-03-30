@@ -2201,11 +2201,11 @@
     - 🔑 Key: [framework], [program synthesis], [HTML comprehension], [web automation], [self-supervised learning]
     - 📖 TLDR: WebAgent leverages two LLMs—HTML-T5 for HTML comprehension and Flan-U-PaLM for program synthesis—to complete web automation tasks. It combines planning, HTML summarization, and code generation to navigate and interact with real-world web environments, improving success rates on HTML-based tasks and achieving state-of-the-art performance in benchmarks like MiniWoB and Mind2Web. The modular architecture adapts well to open-domain tasks, using local-global attention mechanisms to manage long HTML contexts.
 
-- [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://arxiv.org/abs/2306.07863)
+- [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://openreview.net/forum?id=Pc8AU1aF5e)
     - Longtao Zheng, Rundong Wang, Xinrun Wang, Bo An
-    - 🏛️ Institutions: NTU
+    - 🏛️ Institutions: Nanyang Technological University, Skywork AI
     - 📅 Date: June 13, 2023
-    - 📑 Publisher: ICLR 2024
+    - 📑 Publisher: ICLR 2024 (Poster)
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [benchmark], [trajectory prompting], [state abstraction], [memory retrieval]
     - 📖 TLDR: Synapse introduces a novel framework for computer control tasks, leveraging trajectory-as-exemplar prompting and memory to enhance LLM performance in complex, multi-step computer tasks. The system combines state abstraction, trajectory-based prompts, and memory retrieval, overcoming LLM limitations by filtering task-irrelevant data, storing exemplar trajectories, and retrieving relevant instances for improved decision-making. Synapse achieves significant performance gains on benchmarks such as MiniWoB++ and Mind2Web, demonstrating enhanced task success rates and generalization across diverse web-based tasks.
@@ -2246,9 +2246,9 @@
     - 🔑 Key: [benchmark], [dataset], [interaction platform], [multistep interaction], [InfoUI]
     - 📖 TLDR: This paper introduces *Mobile-Env*, a novel interaction platform and benchmark aimed at assessing large language models' (LLMs) capabilities in interactive environments. It builds on the InfoUI task set, derived from WikiHow, to create structured text-based challenges that simulate real-world mobile interactions. The platform is designed to support task expansions from the community, aiming to drive advancements in LLM-based interactive agents.
 
-- [Language Models can Solve Computer Tasks](https://arxiv.org/abs/2303.17491)
+- [Language Models can Solve Computer Tasks](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7cc1005ec73cfbaac9fa21192b622507-Abstract-Conference.html)
     - Geunwoo Kim, Pierre Baldi, Stephen McAleer
-    - 🏛️ Institutions: UCI
+    - 🏛️ Institutions: University of California, Irvine, Carnegie Mellon University
     - 📅 Date: March 30, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [Desktop]
