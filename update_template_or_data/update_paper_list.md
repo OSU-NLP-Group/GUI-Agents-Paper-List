@@ -1,3 +1,686 @@
+- [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226)
+    - Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-26
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: using natural language instructions. this paradigm has driven automated webpage development, but it introduces a new requirement about how to automatically verify whether the **web...
+
+- [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529)
+    - Shoubin Yu, Lei Shu, Antoine Yang, Yao Fu, Srinivas Sunkara, Maria Wang, Jindong Chen, Mohit Bansal, Boqing Gong
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-23
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective](https://arxiv.org/abs/2603.14248)
+    - Mohamed Aghzal, Gregory J. Stein, Ziyu Yao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-15
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [AI Planning Framework for LLM-Based Web Agents](https://arxiv.org/abs/2603.12710)
+    - Orit Shahnovsky, Rotem Dror
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-13
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Safe and Scalable Web Agent Learning via Recreated Websites](https://arxiv.org/abs/2603.10505)
+    - Hyungjoo Chae, Jungsoo Park, Alan Ritter
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-11
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Enhancing Web Agents with a Hierarchical Memory Tree](https://arxiv.org/abs/2603.07024)
+    - Yunteng Tan, Zhi Gao, Xinxiao Wu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-06
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [TimeWarp: Evaluating Web Agents by Revisiting the Past](https://arxiv.org/abs/2603.04949)
+    - Md Farhan Ishmam, Kenneth Marino
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-05
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks](https://arxiv.org/abs/2603.04364)
+    - Haoyu Liu, Dingcheng Li, Lukas Rutishauser, Zeyu Zheng
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-04
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [M![img](https://static.arxiv.org/MathJax-2.7.3/fonts/HTML-CSS/TeX/png/Main/Regular/336/0032.png?V=2.7.3): Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval](https://arxiv.org/abs/2603.00503)
+    - Dawei Yan, Haokui Zhang, Guangda Huzhang, Yang Li, Yibo Wang, Qing-Guo Chen, Zhao Xu, Weihua Luo, Ying Li, Wei Dong, Chunhua Shen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-28
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: multimodal large language models (mllms) based **agents** have demonstrated remarkable potential in autonomous **web** navigation. however, handling long-horizon tasks remains a cr...
+
+- [GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL](https://arxiv.org/abs/2602.22190)
+    - Rui Yang, Qianhui Wu, Zhaoyang Wang, Hanyang Chen, Ke Yang, Hao Cheng, Huaxiu Yao, Baoling Peng, Huan Zhang, Jianfeng Gao, Tong Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-25
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: open-source native gui **agents** still lag behind closed-source systems on long-horizon navigation tasks. this gap stems from two limitations: a shortage of high-quality, action-a...
+
+- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
+    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-27
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
+    - Serin Kim, Sangam Lee, Dongha Lee
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-18
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
+    - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-17
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Orchestration-Free Customer Service Automation: A Privacy-Preserving and Flowchart-Guided Framework](https://arxiv.org/abs/2602.15377)
+    - Mengze Hong, Chen Jason Zhang, Zichang Guo, Hanlin Gu, Di Jiang, Li Qing
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-17
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: customer service automation has seen growing demand within digital transformation. existing approaches either rely on modular system designs with extensive **agent** orchestration ...
+
+- [WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning](https://arxiv.org/abs/2602.12852)
+    - Junjie Wang, Zequn Xie, Dan Yang, Jie Feng, Yue Shen, Duolin Sun, Meixiu Long, Yihan Jiao, Zhehao Tan, Jian Wang, Peng Wei, Jinjie Gu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-13
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Scaling Web Agent Training through Automatic Data Generation and Fine-grained Evaluation](https://arxiv.org/abs/2602.12544)
+    - Lajanugen Logeswaran, Jaekyeom Kim, Sungryull Sohn, Creighton Glasscock, Honglak Lee
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-12
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
+    - Nicholas Lee, Lutfi Eren Erdogan, Chris Joseph John, Surya Krishnapillai, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-12
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: test-time scaling has become a standard way to improve performance and boost reliability of neural network models. however, its behavior on **agentic**, multi-step tasks remains le...
+
+- [MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks](https://arxiv.org/abs/2602.09222)
+    - Georgios Syros, Evan Rose, Brian Grinstead, Christoph Kerschbaumer, William Robertson, Cristina Nita-Rotaru, Alina Oprea
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-09
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents](https://arxiv.org/abs/2602.05354)
+    - Shifat E. Arman, Syed Nazmus Sakib, Tapodhir Karmakar Taton, Nafiul Haque, Shahrear Bin Amin
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-15
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [FullStack-Agent: Enhancing Agentic Full-Stack Web Coding via Development-Oriented Testing and Repository Back-Translation](https://arxiv.org/abs/2602.03798)
+    - Zimu Lu, Houxing Ren, Yunqiao Yang, Ke Wang, Zhuofan Zong, Mingjie Zhan, Hongsheng Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-03
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents](https://arxiv.org/abs/2602.03792)
+    - Xilong Wang, Yinuo Liu, Zhun Wang, Dawn Song, Neil Gong
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-03
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts](https://arxiv.org/abs/2602.02468)
+    - Aiden Yiliu Li, Xinyue Hao, Shilong Liu, Mengdi Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-02
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
+    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-29
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
+    - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-27
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [ExpSeek: Self-Triggered Experience Seeking for Web Agents](https://arxiv.org/abs/2601.08605)
+    - Wenyuan Zhang, Xinghua Zhang, Haiyang Yu, Shuaiyi Nie, Bingli Wu, Juwei Yue, Tingwen Liu, Yongbin Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-13
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents](https://arxiv.org/abs/2601.08406)
+    - Xinyi Wu, Jiagui Chen, Geng Hong, Jiayi Dong, Xudong Pan, Jiarun Dai, Min Yang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-13
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
+    - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-15
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks](https://arxiv.org/abs/2601.02439)
+    - Hao Bai, Alexey Taymanov, Tong Zhang, Aviral Kumar, Spencer Whitehead
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-25
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Permission Manifests for Web Agents](https://arxiv.org/abs/2601.02371)
+    - Samuele Marro, Alan Chan, Xinxing Ren, Lewis Hammond, Jesse Wright, Gurjyot Wanga, Tiziano Piccardi, Nuno Campos, Tobin South, Jialin Yu, Sunando Sengupta, Eric Sommerlade, Alex Pentland, Philip Torr, Jiaxin Pei
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-12
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: the rise of large language model (llm)-based **web** **agents** represents a significant shift in automated interactions with the **web**. unlike traditional crawlers that follow s...
+
+- [It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents](https://arxiv.org/abs/2512.23128)
+    - Karolina Korgul, Yushi Yang, Arkadiusz Drohomirecki, Piotr Błaszczyk, Will Howard, Lukas Aichberger, Chris Russell, Philip H. S. Torr, Adam Mahdi, Adel Bibi
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-28
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [DECEPTICON: How Dark Patterns Manipulate Web Agents](https://arxiv.org/abs/2512.22894)
+    - Phil Cuvin, Hao Zhu, Diyi Yang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-06
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: deceptive ui designs, widely instantiated across the **web** and commonly known as dark patterns, manipulate users into performing actions misaligned with their goals. in this pape...
+
+- [SoDA: An Efficient Interaction Paradigm for the Agentic Web](https://arxiv.org/abs/2512.22135)
+    - Zicai Cui, Zhouyuan Jian, Weiwen Liu, Weinan Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-10
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [DAVE: A VLM Vision Encoder for Document Understanding and Web Agents](https://arxiv.org/abs/2512.17221)
+    - Brandon Huang, Hang Hua, Zhuoran Yu, Trevor Darrell, Rogerio Feris, Roei Herzig
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-31
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment](https://arxiv.org/abs/2512.12692)
+    - Mahir Labib Dihan, Tanzima Hashem, Mohammed Eunus Ali, Md Rizwan Parvez
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-14
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: llm-based **agents** often operate in a greedy, step-by-step manner, selecting actions solely based on the current observation without considering long-term consequences or alterna...
+
+- [Privacy Practices of Browser Agents](https://arxiv.org/abs/2512.07725)
+    - Alisha Ukani, Hamed Haddadi, Ali Shahin Shamsabadi, Peter Snyder
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-08
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents](https://arxiv.org/abs/2512.04105)
+    - Jinzhe Tan, Karim Benyekhlef
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-28
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: legal terminology, and filling out procedural forms continue to pose barriers to accessing justice. this paper introduces the legalwebagent framework that employs a **web** **agent...
+
+- [Prune4Web: DOM Tree Pruning Programming for Web Agent](https://arxiv.org/abs/2511.21398)
+    - Jiayuan Zhang, Kaiquan Chen, Zhihao Lu, Enshen Zhou, Qian Yu, Jing Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-26
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597)
+    - Kaiyuan Zhang, Mark Tenenholtz, Kyle Polley, Jerry Ma, Denis Yarats, Ninghui Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-25
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Building Browser Agents: Architecture, Security, and Practical Solutions](https://arxiv.org/abs/2511.19477)
+    - Aram Vardanyan
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-22
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance](https://arxiv.org/abs/2511.12997)
+    - Genglin Liu, Shijie Geng, Sha Li, Hejie Cui, Sarah Zhang, Xin Liu, Tianyi Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-17
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Building the Web for Agents: A Declarative Framework for Agent-Web Interaction](https://arxiv.org/abs/2511.11287)
+    - Sven Schultze, Meike Verena Kietzmann, Nils-Lucas Schönfeld, Ruth Stock-Homburg
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-14
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Adapting Web Agents with Synthetic Supervision](https://arxiv.org/abs/2511.06101)
+    - Zhaoyang Wang, Yiming Liang, Xuchao Zhang, Qianhui Wu, Siwei Han, Anson Bastos, Rujia Wang, Chetan Bansal, Baolin Peng, Jianfeng Gao, Saravan Rajmohan, Huaxiu Yao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-06
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Promoting Sustainable Web Agents: Benchmarking and Estimating Energy Consumption through Empirical and Theoretical Analysis](https://arxiv.org/abs/2511.04481)
+    - Lars Krupp, Daniel Geißler, Vishal Banwari, Paul Lukowicz, Jakob Karolus
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-06
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699)
+    - Rui Ye, Zhongwang Zhang, Kuan Li, Huifeng Yin, Zhengwei Tao, Yida Zhao, Liangcai Su, Liwen Zhang, Zile Qiao, Xinyu Wang, Pengjun Xie, Fei Huang, Siheng Chen, Jingren Zhou, Yong Jiang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-28
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [MGA: Memory-Driven GUI Agent for Observation-Centric Interaction](https://arxiv.org/abs/2510.24168)
+    - Weihua Cheng, Ersheng Ni, Wenlong Wang, Yifei Sun, Junming Liu, Wangyu Shen, Yirong Chen, Botian Shi, Ding Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-28
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: the rapid progress of large language models (llms) and their multimodal extensions (mllms) has enabled **agentic** systems capable of perceiving and acting across diverse environme...
+
+- [BrowseConf: Confidence-Guided Test-Time Scaling for Web Agents](https://arxiv.org/abs/2510.23458)
+    - Litu Ou, Kuan Li, Huifeng Yin, Liwen Zhang, Zhongwang Zhang, Xixi Wu, Rui Ye, Zile Qiao, Pengjun Xie, Jingren Zhou, Yong Jiang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-28
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation](https://arxiv.org/abs/2510.22732)
+    - Jiali Cheng, Anjishnu Kumar, Roshan Lal, Rishi Rajasekaran, Hani Ramezani, Omar Zia Khan, Oleg Rokhlenko, Sunny Chiu-Webster, Gang Hua, Hadi Amiri
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-19
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation](https://arxiv.org/abs/2510.19205)
+    - Yaoyao Qian, Yuanli Wang, Jinda Zhang, Yun Zong, Meixu Chen, Hanhan Zhou, Jindan Huang, Yifan Zeng, Xinyu Hu, Chan Hee Song, Danqing Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-21
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming](https://arxiv.org/abs/2510.18314)
+    - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-21
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
+    - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-20
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WEBSERV: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale](https://arxiv.org/abs/2510.16252)
+    - Yuxuan Lu, Jing Huang, Hui Liu, Jiri Gesi, Yan Han, Shihan Fu, Tianqi Zheng, Dakuo Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-17
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms](https://arxiv.org/abs/2510.13913)
+    - Shrey Pandit, Xuan-Phi Nguyen, Yifei Ming, Austin Xu, Jiayu Wang, Caiming Xiong, Shafiq Joty
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-15
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers](https://arxiv.org/abs/2510.13543)
+    - Avihay Cohen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-15
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent](https://arxiv.org/abs/2510.11221)
+    - Tao Li, Jinlong Hu, Yang Wang, Junfeng Liu, Xuejun Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-13
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: llm-brained **web** **agents** offer powerful capabilities for **web** automation but face a critical cost-performance trade-off. the challenge is amplified by **web** **agents**' ...
+
+- [BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions](https://arxiv.org/abs/2510.10666)
+    - Tao Yu, Zhengbo Zhang, Zhiheng Lyu, Junhao Gong, Hongzhu Yi, Xinming Wang, Yuxuan Zhou, Jiabing Yang, Ping Nie, Yan Huang, Wenhu Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-14
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: efficiently solving real-world problems with llms increasingly hinges on their ability to interact with dynamic **web** environments and autonomously acquire external information. ...
+
+- [SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents](https://arxiv.org/abs/2510.10073)
+    - Zonghao Ying, Yangguang Shao, Jianle Gan, Gan Xu, Junjie Shen, Wenxin Zhang, Quanchen Zou, Junzheng Shi, Zhenfei Yin, Mingchuan Zhang, Aishan Liu, Xianglong Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-11
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation](https://arxiv.org/abs/2510.04373)
+    - Hadi Nekoei, Aman Jaiswal, Patrice Bechard, Oleh Shliazhko, Orlando Marquez Ayala, Mathieu Reymond, Massimo Caccia, Alexandre Drouin, Sarath Chandar, Alexandre Lacoste
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-20
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Cross-Modal Content Optimization for Steering Web Agent Preferences](https://arxiv.org/abs/2510.03612)
+    - Tanqiu Jiang, Min Bai, Nikolaos Pappas, Yanjun Qi, Sandesh Swamy
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-03
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents](https://arxiv.org/abs/2510.03204)
+    - Imene Kerboua, Sahar Omidi Shayegan, Megh Thakkar, Xing Han Lù, Léo Boisvert, Massimo Caccia, Jérémy Espinas, Alexandre Aussem, Véronique Eglin, Alexandre Lacoste
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-03
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks](https://arxiv.org/abs/2510.02418)
+    - Sagnik Anupam, Davis Brown, Shuo Li, Eric Wong, Hamed Hassani, Osbert Bastani
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-07
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents](https://arxiv.org/abs/2510.01354)
+    - Yinuo Liu, Ruohan Xu, Xilong Wang, Yuqi Jia, Neil Zhenqiang Gong
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-01
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents](https://arxiv.org/abs/2510.00413)
+    - Zikang Liu, Junyi Li, Wayne Xin Zhao, Dawei Gao, Yaliang Li, Ji-rong Wen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-04
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: graphical user interface (gui) **agents** powered by multimodal large language models (mllms) promise human-like interaction with software applications, yet long-horizon tasks rema...
+
+- [Automatically Generating Web Applications from Requirements Via Multi-Agent Test-Driven Development](https://arxiv.org/abs/2509.25297)
+    - Yuxuan Wan, Tingshuo Liang, Jiakai Xu, Jingyu Xiao, Yintong Huo, Michael R. Lyu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-01
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: developing full-stack **web** applications is complex and time-intensive, demanding proficiency across diverse technologies and frameworks. although recent advances in multimodal l...
+
+- [IWR-Bench: Can LVLMs reconstruct interactive webpage from a user interaction video?](https://arxiv.org/abs/2509.24709)
+    - Yang Chen, Minghao Liu, Yufan Shen, Yunwen Li, Tianyuan Huang, Xinyu Fang, Tianyu Zheng, Wenxuan Huang, Cheng Yang, Daocheng Fu, Jianbiao Mei, Rong Wu, Yunfei Zhao, Licheng Wen, Xuemeng Yang, Song Mao, Qunshu Lin, Zhi Yu, Yongliang Shen, Yu Qiao, Botian Shi
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-19
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: corresponding code. however, existing benchmarks primarily focus on static screenshot-to-code tasks, thereby overlooking the dynamic interactions fundamental to real-world **web** ...
+
+- [Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments](https://arxiv.org/abs/2509.11250)
+    - Yitong Zhang, Ximo Li, Liyi Cai, Jia Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-31
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]](https://arxiv.org/abs/2508.13024)
+    - Ralph Peeters, Aaron Steiner, Luca Schwarz, Julian Yuya Caspary, Christian Bizer
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-12-02
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Beyond Pixels: Exploring DOM Downsampling for LLM-Based Web Agents](https://arxiv.org/abs/2508.04412)
+    - Thassilo M. Schiepanski, Nicholas Piël
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-31
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](https://arxiv.org/abs/2508.01858)
+    - Yuhan Guo, Cong Guo, Aiwen Sun, Hongliang He, Xinyu Yang, Yue Lu, Yingji Zhang, Xuntao Guo, Dong Zhang, Jianzhuang Liu, Jiang Duan, Yijia Xiao, Liangjian Wen, Hai-Ming Xu, Yong Dai
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-27
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [Machine-Readable Ads: Accessibility and Trust Patterns for AI Web Agents interacting with Online Advertisements](https://arxiv.org/abs/2507.12844)
+    - Joel Nitu, Heidrun Mühle, Andreas Stöckl
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-12
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://arxiv.org/abs/2505.21936)
+    - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler-Lussier, Yu Su, Zhiqiang Lin, Huan Sun
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-01
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
+    - Zhepei Wei, Wenlin Yao, Yao Liu, Weizhi Zhang, Qin Lu, Liang Qiu, Changlong Yu, Puyang Xu, Chao Zhang, Bing Yin, Hyokun Yun, Lihong Li
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-08
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebInject: Prompt Injection Attack to Web Agents](https://arxiv.org/abs/2505.11717)
+    - Xilong Wang, John Bloch, Zedian Shao, Yuepeng Hu, Shuyan Zhou, Neil Zhenqiang Gong
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-16
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms](https://arxiv.org/abs/2504.11788)
+    - Zhisong Zhang, Tianqing Fang, Kaixin Ma, Wenhao Yu, Hongming Zhang, Haitao Mi, Dong Yu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-01-14
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents](https://arxiv.org/abs/2504.09723)
+    - Yuxuan Lu, Ting-Yao Hsu, Hansu Gu, Limeng Cui, Yaochen Xie, William Headden, Bingsheng Yao, Akash Veeragouni, Jiapeng Liu, Sreyashi Nag, Jessie Wang, Dakuo Wang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-10
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: a/b testing experiment is a widely adopted method for evaluating ui/ux design decisions in modern **web** applications. yet, traditional a/b testing remains constrained by its depe...
+
+- [An Illusion of Progress? Assessing the Current State of Web Agents](https://arxiv.org/abs/2504.01382)
+    - Tianci Xue, Weijian Qi, Tianneng Shi, Chan Hee Song, Boyu Gou, Dawn Song, Huan Sun, Yu Su
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-07
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
+
+- [ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents](https://arxiv.org/abs/2410.06703)
+    - Ido Levy, Ben Wiesel, Sami Marreed, Alon Oved, Avi Yaeli, Segev Shlomov
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-02
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [Desktop], [GUI], [Mobile]
+    - 🔑 Key: 
+    - 📖 TLDR: 
 - [NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks](https://arxiv.org/abs/2508.02046)
     - Zhihao Luo, Wentao Yan, Jingyu Gong, Min Wang, Zhizhong Zhang, Xuhong Wang, Yuan Xie, Xin Tan
     - 🏛️ Institutions: Unknown
