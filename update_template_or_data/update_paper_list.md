@@ -2113,11 +2113,11 @@
 
 - [OpenAgents: An Open Platform for Language Agents in the Wild](https://openreview.net/forum?id=sKATR2O1Y0)
     - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Zeyu Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, XLang Lab, Sea AI Lab, Salesforce Research
+    - 🏛️ Institutions: The University of Hong Kong, Sea AI Lab, Salesforce Research
     - 📅 Date: October 16, 2023
     - 📑 Publisher: COLM 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [Data Agent], [Plugins Agent], [Web Agent]
+    - 🔑 Key: [framework], [data analysis], [API tools], [web agent], [OpenAgents]
     - 📖 TLDR: This paper introduces OpenAgents, an open-source platform designed to facilitate the use and hosting of language agents in real-world scenarios. It features three agents: Data Agent for data analysis using Python and SQL, Plugins Agent with access to over 200 daily API tools, and Web Agent for autonomous web browsing. OpenAgents aims to provide a user-friendly web interface for general users and a seamless deployment experience for developers and researchers, promoting the development and evaluation of innovative language agents in practical applications.
 
 - [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
@@ -2342,7 +2342,7 @@
     - 📅 Date: August 6, 2021
     - 📑 Publisher: UIST 2021
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [mobile UI summarization], [multimodal learning], [Transformer model]
+    - 🔑 Key: [model], [dataset], [mobile UI summarization], [multimodal learning], [Screen2Words]
     - 📖 TLDR: The paper introduces *Screen2Words*, an approach that utilizes multimodal learning to generate descriptive language summaries for mobile UI screens, combining textual, visual, and structural data from screens. The study created a large-scale dataset with 112,085 annotated screen summaries for 22,417 unique UIs, aiming to support model training for mobile UI understanding. The dataset facilitates a Transformer-based model trained to summarize screens by highlighting main functionalities, and the approach is validated with benchmarks in the mobile environment.
 
 - [UIBert: Learning Generic Multimodal Representations for UI Understanding](https://www.ijcai.org/proceedings/2021/235)
@@ -2351,7 +2351,7 @@
     - 📅 Date: July 29, 2021
     - 📑 Publisher: IJCAI 2021
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [model], [dataset], [multimodal representation learning], [UI understanding]
+    - 🔑 Key: [model], [dataset], [pretraining], [multimodal representation learning], [UI understanding], [UIBert]
     - 📖 TLDR: This paper presents *UIBert*, a multimodal model aimed at understanding user interfaces (UIs) by combining visual, textual, and structural metadata. UIBert is designed for tasks such as component retrieval and expression resolution, using a transformer-based joint image-text model. The authors introduce five novel pre-training tasks to leverage UI-specific features, enhancing accessibility and task completion in mobile applications. UIBert demonstrates superior performance on nine downstream UI tasks, highlighting the potential of multimodal pre-training in UI understanding.
 
 - [AndroidEnv: A Reinforcement Learning Platform for Android](https://arxiv.org/abs/2105.13231)
