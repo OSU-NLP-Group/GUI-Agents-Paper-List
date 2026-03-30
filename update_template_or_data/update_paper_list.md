@@ -3200,3 +3200,84 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [benchmark], [model context protocol], [MCP], [OSWorld], [LiteCUA]
     - 📖 TLDR: Introduces AIOS 1.0, which contextualizes desktop computer states via an MCP server so LLM-powered agents can better understand and operate GUIs. Built on top, LiteCUA—a lightweight agent—achieves 14.66 % success on the OSWorld benchmark, outperforming several heavier agent frameworks, showing the benefits of environment contextualization.
+- [GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](https://arxiv.org/abs/2603.25864)
+    - Saelyne Yang, Jaesang Yu, Yi-Hao Peng, Kevin Qinghong Lin, Jae Won Cho
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 26, 2026
+    - 📑 Publisher: CVPR 2026
+    - 💻 Env: [Desktop], [GUI]
+    - 🔑 Key: [benchmark], [user intent detection]
+    - 📖 TLDR: A benchmark for evaluating GUI agents' ability to perceive user behavior, infer intent, and provide contextual assistance in open-ended GUI tasks, based on 67.5 hours of user demonstrations.
+
+- [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533)
+    - Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model], [framework]
+    - 📖 TLDR: A self-evolving mobile GUI agent using Rejection Fine-Tuning and Group Relative Self-Distillation to learn efficiently from failed trajectories without manual annotation.
+
+- [Towards Automated Crowdsourced Testing via Personified-LLM](https://arxiv.org/abs/2603.24160)
+    - Shengcheng Yu, Yuchen Ling, Chunrong Fang, Zhenyu Chen, Chunyang Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 25, 2026
+    - 📑 Publisher: FSE 2026
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework that injects representative personas into LLM-based agents to simulate diverse human-like GUI testing behaviors, reproducing crowdworker patterns while improving bug detection.
+
+- [CAPTCHA Solving for Native GUI Agents: Automated Reasoning-Action Data Generation and Self-Corrective Training](https://arxiv.org/abs/2603.23559)
+    - Yuxi Chen, Haoyu Zhai, Chenkai Wang, Rui Yang, Lingming Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI], [Web]
+    - 🔑 Key: [model], [benchmark]
+    - 📖 TLDR: A CAPTCHA-capable native GUI agent trained with automated data collection and self-correction strategies, improving CAPTCHA solving from ~30% to 80% while maintaining general GUI performance.
+
+- [AgentRAE: Remote Action Execution through Notification-based Visual Backdoors against Screenshots-based Mobile GUI Agents](https://arxiv.org/abs/2603.23007)
+    - Yutao Luo, Haotian Zhu, Shuchao Pang, Zhigang Lu, Tian Dong
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 24, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [security], [adversarial attacks]
+    - 📖 TLDR: Demonstrates backdoor attacks on mobile GUI agents through visually natural notification-based triggers, exposing critical security vulnerabilities in screenshot-based agent systems.
+
+- [Seed1.8 Model Card: Towards Generalized Real-World Agency](https://arxiv.org/abs/2603.20633)
+    - Bytedance Seed
+    - 🏛️ Institutions: Bytedance
+    - 📅 Date: March 21, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [GUI], [Web]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A foundation model for generalized real-world agency supporting multi-turn interaction, tool use, code generation, and GUI interaction with latency-aware inference options.
+
+- [ContractSkill: Repairable Contract-Based Skills for Multimodal Web Agents](https://arxiv.org/abs/2603.20340)
+    - Zijian Lu, Yiping Zuo, Yupeng Nie, Xin He, Weibei Fan
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: A framework representing agent skills as explicit contract-based artifacts with preconditions, postconditions, and recovery rules, enabling verification and model-agnostic skill transfer.
+
+- [OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards](https://arxiv.org/abs/2603.19191)
+    - Zehao Li, Zhenyu Wu, Yibo Zhao, Bowen Yang, Jingjing Xie
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [benchmark]
+    - 📖 TLDR: A scalable multi-agent critic framework for GUI rewards that decomposes trajectories into verifiable milestones, along with OmniGUIRewardBench for comprehensive cross-platform reward evaluation.
+
+- [AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents](https://arxiv.org/abs/2603.18429)
+    - Yibo Shi, Jungang Li, Linghao Zhang, Zihao Dongfang, Biao Wu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework], [benchmark]
+    - 📖 TLDR: A diagnostic framework with AndroTMem-Bench and Anchored State Memory approach for improving interaction memory in long-horizon GUI agents through structured, causally-linked state anchors.
+
