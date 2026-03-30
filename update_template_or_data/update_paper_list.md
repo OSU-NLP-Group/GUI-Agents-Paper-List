@@ -69,7 +69,7 @@
     - Yutong Dai, Krithika Ramakrishnan, Jing Gu, Matthew Fernandez, Yanqi Luo, Viraj Prabhu, Zhenyu Hu, Silvio Savarese, Caiming Xiong, Zeyuan Chen, Ran Xu
     - 🏛️ Institutions: Salesforce AI Research
     - 📅 Date: Sep 30, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [enterprise automation], [demonstration augmentation], [process rewards], [SCUBA]
     - 📖 TLDR: This paper introduces **SCUBA**, a benchmark for evaluating computer-use agents on 300 enterprise-critical CRM tasks within Salesforce. Tasks span personas like admins and service agents, testing UI navigation, automation, data handling, and troubleshooting. SCUBA includes sandbox environments, milestone-based evaluations, and supports parallel execution. Baseline results show large performance gaps across agent designs, especially between open- and closed-source models, with success rates ranging from 5% to 50% depending on demonstration usage.
@@ -114,7 +114,7 @@
 
 - [ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents](https://arxiv.org/abs/2508.14040)
     - Hanyu Lai, Xiao Liu, Yanxiao Zhao, Han Xu, Hanchen Zhang, Bohao Jing, Yanyu Ren, Shuntian Yao, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, Zhipu AI, University of Chinese Academy of Sciences
+    - 🏛️ Institutions: Tsinghua University, Z.AI, University of Chinese Academy of Sciences
     - 📅 Date: August 19, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
