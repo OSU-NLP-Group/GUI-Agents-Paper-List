@@ -18,6 +18,15 @@
     - 🔑 Key: [framework], [continual learning], [reinforcement learning], [GUI grounding], [domain shift], [GUI-AiF], [Continual GUI Agents]
     - 📖 TLDR: This paper introduces Continual GUI Agents as a continual learning setting where GUI agents must adapt to domain and resolution shifts over time without losing stable grounding. It proposes GUI-AiF, a reinforcement fine-tuning framework with anchoring-point and anchoring-region rewards that keep agents aligned to changing interaction targets instead of overfitting to static cues. Experiments show the method outperforms prior baselines and frames continual adaptation as a core systems challenge for GUI agents.
 
+- [GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents](https://arxiv.org/abs/2601.09770)
+    - Chen Chen, Jiawei Shao, Dakuan Lu, Haoyi Hu, Xiangcheng Liu, Hantao Yao, Wu Liu
+    - 🏛️ Institutions: University of Science and Technology of China, Institute of Artificial Intelligence (TeleAI) China Telecom, Shanghai Innovation Institute, Shanghai Jiao Tong University
+    - 📅 Date: January 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [reinforcement learning], [GUI grounding], [tool-augmented perception], [active perception], [GUI-Eyes]
+    - 📖 TLDR: This paper proposes GUI-Eyes, a reinforcement learning framework for active visual perception in GUI grounding. Instead of relying on a single static observation, the agent learns when and how to invoke tools such as cropping and zooming through a two-stage perception policy, supported by a spatially continuous reward tailored to tool usage. With only 3k labeled samples, GUI-Eyes-3B substantially improves grounding accuracy on ScreenSpot-Pro, highlighting the value of tool-aware perception for robust GUI agents.
+
 - [Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency](https://arxiv.org/abs/2508.05615)
     - Yong Du, Yuchen Yan, Fei Tang, Zhengxi Lu, Chang Zong, Weiming Lu, Shengpei Jiang, Yongliang Shen
     - 🏛️ Institutions: Zhejiang University, Central South University, Zhejiang University of Science and Technology, SF Technology
