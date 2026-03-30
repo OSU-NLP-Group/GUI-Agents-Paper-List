@@ -1,3 +1,12 @@
+- [AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](https://arxiv.org/abs/2506.14205)
+    - Jingxu Xie, Dylan Xu, Xuandong Zhao, Dawn Song
+    - 🏛️ Institutions: University of California, Berkeley
+    - 📅 Date: June 17, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [synthetic data], [task generation], [computer-use agent], [long-horizon task], [AgentSynth]
+    - 📖 TLDR: This paper introduces AgentSynth, a scalable pipeline for automatically generating high-quality tasks and trajectory datasets for generalist computer-use agents. By exploiting information asymmetry between generation and evaluation, it composes simple subtasks into difficult long-horizon tasks and produces more than 6,000 diverse tasks at low cost. The resulting benchmark exposes steep performance degradation in current state-of-the-art agents as task difficulty increases and provides a scalable alternative to expensive human-collected trajectories.
+
 - [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119)
     - Yifan Xu, Xiao Liu, Xinghan Liu, Jiaqi Fu, Hanchen Zhang, Bohao Jing, Shudan Zhang, Yuting Wang, Wenyi Zhao, Yuxiao Dong
     - 🏛️ Institutions: Tsinghua University, Z.AI
@@ -252,6 +261,7 @@
 ||||||| parent of 3d7304a (Add OSWorld-MCP paper entry)
 ||||||| parent of 2abe478 (Add LongHorizonUI paper entry)
 ||||||| parent of e0bd41d (Add MobileRL paper entry)
+||||||| parent of 76e33a5 (Add AgentSynth paper entry)
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
     - 🏛️ Institutions: Tencent Youtu Lab, Peking University, Nanjing University
