@@ -63,6 +63,15 @@
     - 🔑 Key: [model], [framework], [synthetic data], [reinforcement learning], [OSWorld], [EvoCUA]
     - 📖 TLDR: This paper introduces EvoCUA, a native computer-use agent trained through an evolving learning cycle that tightly couples scalable synthetic task generation, large-scale sandbox rollouts, and iterative policy optimization. Instead of relying on static imitation data, EvoCUA turns successful and failed experience into supervision through verification, error analysis, and self-correction, enabling continual capability growth. On OSWorld, it reaches 56.7% success rate, surpassing prior open-source computer-use agents and even some leading closed-weight systems.
 
+- [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
+    - Yilin Cao, Yufeng Zhong, Zhixiong Zeng, Liming Zheng, Jing Huang, Haibo Qiu, Peng Shi, Wenji Mao, Wan Guanglu
+    - 🏛️ Institutions: CAS, UCAS, Meituan
+    - 📅 Date: January 7, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [world model], [planning], [lookahead], [mobile GUI agent], [MobileDreamer]
+    - 📖 TLDR: This paper introduces MobileDreamer, a world-model-based lookahead framework for mobile GUI agents that predicts compact task-relevant future interface sketches rather than full screenshots. Its textual sketch world model preserves spatial information while remaining efficient, and its rollout imagination strategy uses these predicted futures to improve action selection on long-horizon tasks. On AndroidWorld, MobileDreamer achieves state-of-the-art performance and improves task success by 5.25%, showing that lightweight future imagination can materially strengthen mobile GUI planning.
+
 - [GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2512.02423)
     - Yujie Shen, Ruobing Xie, Xuanze Xu, Yichao Zhou, Jinyang Wang, Guangyao Feng, Lifan Yuan, Xiang Ao
     - 🏛️ Institutions: Unknown
