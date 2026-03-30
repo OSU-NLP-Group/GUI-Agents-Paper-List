@@ -15,7 +15,7 @@
     - 📅 Date: June 4, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [web agent], [structured exploration], [task generation], [WebArena], [Go-Browse]
+    - 🔑 Key: [dataset], [web agent], [structured exploration], [task generation], [WebArena], [go-browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.
 
 - [CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation](https://aclanthology.org/2025.naacl-demo.17/)
@@ -78,7 +78,7 @@
     - 📅 Date: September 24, 2024
     - 📑 Publisher: NeurIPS 2024 (Main Conference Track)
     - 💻 Env: [Web]
-    - 🔑 Key: [synthetic data], [synthetic demonstrations], [web navigation], [Synatra]
+    - 🔑 Key: [synthetic data], [synthetic demonstrations], [web navigation], [synatra]
     - 📖 TLDR: Synatra introduces a scalable framework for digital agents, enabling them to convert indirect knowledge sources into actionable demonstrations. This approach enhances the ability of agents to learn tasks without extensive labeled data, leveraging insights from indirect observations to scale practical implementations in digital environments.
 
 - [Agent Workflow Memory](https://proceedings.mlr.press/v267/wang25bx.html)
