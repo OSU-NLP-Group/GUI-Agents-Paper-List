@@ -789,14 +789,6 @@
     - 🔑 Key: [framework], [environment synthesis], [verifiable reward], [post-training], [efficiency]
     - 📖 TLDR: GUI-GENESIS automated framework synthesizing lightweight web training environments with code-native verifiable rewards, reducing latency 10x and achieving 14.54% improvement over base models on real-world tasks.
 
-- [ARC: Compiling Hundreds of Requirement Scenarios into A Runnable Web System](https://arxiv.org/abs/2602.13723)
-    - Weiyu Kong, Yun Lin, Xiwen Teoh, Duc-Minh Nguyen, Ruofei Ren, Jiaxin Chang, Haoxu Hu, Haoyu Chen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: 2026-02-14
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [requirement compilation], [code generation], [test-driven], [full-stack]
-    - 📖 TLDR: Agentic Requirement Compilation (ARC) converting multi-modal requirement documents with 50-200 scenarios into complete web systems via test-driven bidirectional synthesis, generating full-stack code with comprehensive tests.
 - [Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence](https://arxiv.org/abs/2506.15677)
     - Yining Hong, Rui Sun, Bingxuan Li, Xingcheng Yao, Maxine Wu, Alexander Chien, Da Yin, Ying Nian Wu, Zhecan Wang, Kai-Wei Chang
     - 🏛️ Institutions: University of California, Los Angeles, University of Illinois Urbana-Champaign, Amazon
@@ -967,15 +959,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [privacy], [mobile GUI agent], [cloud-local collaboration], [UI exposure reduction], [CORE]
     - 📖 TLDR: This paper studies privacy leakage in mobile agents that repeatedly upload full-screen UI context to cloud LLMs for planning and action selection. It proposes CORE, a collaborative framework where local and cloud LLMs split planning and decision-making through layout-aware block partitioning, co-planning, and co-decision, so only a smaller relevant UI subset is exposed upstream. On diverse mobile apps and tasks, CORE cuts UI exposure by up to 55.6% while keeping task success close to cloud-only agents.
-
-- [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544)
-    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: SJTU, Meta
-    - 📅 Date: August 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [multimodal agents], [environmental distractions], [robustness]
-    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
 - [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
     - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
@@ -1773,7 +1756,7 @@
     - 🏛️ Institutions: OPPO Personal AI Lab, OPPO Research Institute
     - 📅 Date: August 6, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 💻 Env: [Web]
     - 🔑 Key: [model], [dataset], [reinforcement learning], [multi-agent], [AFM], [Chain-of-Agents]
     - 📖 TLDR: The paper introduces **Chain-of-Agents (CoA)**, a novel paradigm enabling a single large language model (LLM) to perform multi-agent style reasoning by dynamically activating tool and role agents within one end-to-end model. They train **Agent Foundation Models (AFMs)** using a two-step approach: first, **multi-agent distillation** to convert trajectories from specialized multi-agent systems into supervised fine-tuning data; second, **agentic reinforcement learning (RL)** to further improve on verifiable tasks. AFMs achieve state-of-the-art performance across web-agent and code-agent benchmarks (e.g., GAIA, WebWalker, BrowseComp, HLE), and the authors open-source all data, model weights, code, and training resources.
 
@@ -2827,7 +2810,7 @@
     - 🏛️ Institutions: Carnegie Mellon University, Amazon Web Services AI
     - 📅 Date: September 24, 2024
     - 📑 Publisher: NeurIPS 2024 (Main Conference Track)
-    - 💻 Env: [Misc]
+    - 💻 Env: [Web]
     - 🔑 Key: [synthetic data], [synthetic demonstrations], [web navigation], [Synatra]
     - 📖 TLDR: Synatra introduces a scalable framework for digital agents, enabling them to convert indirect knowledge sources into actionable demonstrations. This approach enhances the ability of agents to learn tasks without extensive labeled data, leveraging insights from indirect observations to scale practical implementations in digital environments.
 
@@ -2857,15 +2840,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [dataset], [MobileVLM], [Mobile3M], [UI understanding]
     - 📖 TLDR: This paper introduces *MobileVLM*, a vision-language model designed to enhance both intra- and inter-UI understanding for mobile applications. The authors propose two additional pre-training stages with four specific UI-based tasks to improve the model's perception of fine-grained elements and capture page transition actions. To support this, they constructed *Mobile3M*, a large-scale Chinese mobile dataset comprising 3 million UI pages and real-world transition actions, organized into directed graphs. Experimental results demonstrate that MobileVLM outperforms existing vision-language models on both in-house test sets and public mobile benchmarks.
-
-- [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191)
-    - Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Yang Fan, Kai Dang, Mengfei Du, Xuancheng Ren, Rui Men, Dayiheng Liu, Chang Zhou, Jingren Zhou, Junyang Lin
-    - 🏛️ Institutions: Alibaba Cloud
-    - 📅 Date: September 18, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [foundation model], [MLLM], [Qwen2-VL]
-    - 📖 TLDR: Qwen2-VL introduces an advanced vision-language framework that enables dynamic resolution handling for images and videos through its Naive Dynamic Resolution mechanism and Multimodal Rotary Position Embedding (M-RoPE). This structure allows the model to convert images of varying resolutions into diverse token counts for improved visual comprehension. With model sizes up to 72B parameters, Qwen2-VL demonstrates competitive performance across multiple benchmarks, achieving results on par with or better than prominent multimodal models like GPT-4o and Claude3.5-Sonnet. This work represents a significant step forward in scalable vision-language learning for multimodal tasks.
 
 - [EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://openreview.net/forum?id=xMOLUzo2Lk)
     - Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun
@@ -3655,7 +3629,7 @@
     - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Laboratory, The University of Hong Kong, Nanjing University
     - 📅 Date: July 2025
     - 📑 Publisher: ACL 2025
-    - 💻 Env: [Misc]
+    - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [neural-symbolic self-training], [online exploration], [self-refinement]
     - 📖 TLDR: This paper introduces *ENVISIONS*, a neural-symbolic self-training framework designed to improve large language models (LLMs) by enabling self-training through interaction with a symbolic environment. The framework addresses symbolic data scarcity and enhances LLMs' symbolic reasoning proficiency by iteratively exploring, refining, and learning from symbolic tasks without reinforcement learning. Extensive evaluations across web navigation, math, and logical reasoning tasks highlight *ENVISIONS* as a promising approach for enhancing LLM symbolic processing.
 
@@ -4350,15 +4324,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [benchmark]
     - 📖 TLDR: An automated framework for synthesizing GUI environments with verifiable rewards to support efficient post-training of GUI agents.
-
-- [ARC: Compiling Hundreds of Requirement Scenarios into A Runnable Web System](https://arxiv.org/abs/2602.12991)
-    - Jiahao Wu, Chenxu Wang, Ziming Liu, Ang Lv, Junhao Chen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 14, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework]
-    - 📖 TLDR: A system for compiling hundreds of multi-modal requirement scenarios into runnable web systems using LLMs, addressing the challenge of requirement complexity scaling.
 
 - [Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization](https://arxiv.org/abs/2602.13653)
     - Yibo Wang, Guangda Huzhang, Yuwei Hu, Yixuan Liu, Deng Cai
