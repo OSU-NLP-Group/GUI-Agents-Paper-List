@@ -7,7 +7,61 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [GUI], [Mobile], [Web]
     - 🔑 Key: [model]
-    - 📖 TLDR: Autoregressive (AR) vision-language models (VLMs) have long dominated multimodal understanding, reasoning, and graphical user interface (GUI) grounding. Recently, discrete diffusion vision-language models (DVLMs) have shown strong performance in mult...
+    - 📖 TLDR: Evaluates discrete diffusion vision-language models for GUI grounding across web, desktop, and mobile interfaces, proposing a hybrid masking schedule that improves accuracy and efficiency over autoregressive models.
+
+- [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533)
+    - Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model], [framework]
+    - 📖 TLDR: A self-evolving mobile GUI agent using Rejection Fine-Tuning and Group Relative Self-Distillation to learn efficiently from failed trajectories without manual annotation.
+
+- [CAPTCHA Solving for Native GUI Agents: Automated Reasoning-Action Data Generation and Self-Corrective Training](https://arxiv.org/abs/2603.23559)
+    - Yuxi Chen, Haoyu Zhai, Chenkai Wang, Rui Yang, Lingming Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI], [Web]
+    - 🔑 Key: [model], [benchmark]
+    - 📖 TLDR: A CAPTCHA-capable native GUI agent trained with automated data collection and self-correction strategies, improving CAPTCHA solving from ~30% to 80% while maintaining general GUI performance.
+
+- [Seed1.8 Model Card: Towards Generalized Real-World Agency](https://arxiv.org/abs/2603.20633)
+    - Bytedance Seed
+    - 🏛️ Institutions: Bytedance
+    - 📅 Date: March 21, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [GUI], [Web]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A foundation model for generalized real-world agency supporting multi-turn interaction, tool use, code generation, and GUI interaction with latency-aware inference options.
+
+- [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
+    - Yanyang Li, Kaizhe Hu, Guohao Li, Heyang Gong, Yeye He
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model], [dataset]
+    - 📖 TLDR: An efficient 3B-scale mobile GUI agent with a semantic context mechanism for history representation, accompanied by a Chinese mobile GUI dataset with 18k grounding samples and 121k steps.
+
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+    - Zihao Wu, Zihan Ding, Fan Zhou, Hao Shi, Xiaomin Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [model]
+    - 📖 TLDR: A benchmark with depth-first search exploration algorithm for discovering unit functions and learning through compositionality, revealing gaps between agent and human expert performance.
+
+- [GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL](https://arxiv.org/abs/2602.14663)
+    - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [framework]
+    - 📖 TLDR: A native GUI agent training approach using action-aware supervision and partially verifiable RL to improve reasoning and long-horizon navigation performance.
 
 - [Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents](https://arxiv.org/abs/2602.16855)
     - Haiyang Xu, Xi Zhang, Haowei Liu, Junyang Wang, Zhaozai Zhu, Shengjie Zhou, Xuhao Hu, Feiyu Gao, Junjie Cao, Zihua Wang, Zhiyuan Chen, Jitong Liao, Qi Zheng, Jiahui Zeng, Ze Xu, Shuai Bai, Junyang Lin, Jingren Zhou, Ming Yan
@@ -18,6 +72,42 @@
     - 🔑 Key: [model], [reinforcement learning], [multi-platform], [MCP], [memory], [GUI-Owl-1.5], [Mobile-Agent-v3.5]
     - 📖 TLDR: This paper introduces Mobile-Agent-v3.5, a family of native multi-platform GUI agents centered on the GUI-Owl-1.5 models, with support for desktop, mobile, browser, and tool-calling settings. The work combines a hybrid data flywheel, unified capability enhancement for reasoning, MCP/tool use, memory, and multi-agent adaptation, and a new multi-platform RL algorithm called MRPO. It reports strong open-source results across more than 20 GUI benchmarks, including OSWorld, AndroidWorld, WebArena, ScreenSpotPro, OSWorld-MCP, MobileWorld, and GUI-Knowledge Bench.
 
+- [Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization](https://arxiv.org/abs/2602.13653)
+    - Yibo Wang, Guangda Huzhang, Yuwei Hu, Yixuan Liu, Deng Cai
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [framework]
+    - 📖 TLDR: A novel MLLM-centered framework using agentic-Q estimation and step-wise policy optimization to handle non-stationary GUI environments and reduce data curation costs.
+
+- [OpAgent: Operator Agent for Web Navigation](https://arxiv.org/abs/2602.13559)
+    - Yuyu Guo, Wenjie Yang, Siyuan Yang, Wenyi Hong, Zehai He
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A robust online RL-based web agent that adapts to real-world stochastic state transitions and feedback, overcoming distributional shifts in static datasets.
+
+- [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856)
+    - Yuhao Zheng, Li'an Zhong, Yi Wang, Ge Li, Zhi Jin
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A vision-language GUI world model predicting next states via renderable code generation, balancing visual fidelity with structural controllability for agent foresight.
+
+- [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082)
+    - Venus Team, Changlong Gao, Zhangxuan Gu, Yingying Zhou, Yang Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop], [Web]
+    - 🔑 Key: [model]
+    - 📖 TLDR: UI-Venus-1.5 unified GUI agent with dense variants (2B/8B) and MoE variant (30B), featuring mid-training and comprehensive supervised fine-tuning for robustness.
+
 - [POINTS-GUI-G: GUI-Grounding Journey](https://arxiv.org/abs/2602.06391)
     - Zhongyin Zhao, Yuan Liu, Yikun Liu, Haicheng Wang, Le Tian, Xiao Zhou, Yangxiu You, Zilin Yu, Yang Yu, Jie Zhou
     - 🏛️ Institutions: WeChat AI
@@ -26,6 +116,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [GUI grounding], [reinforcement learning], [data engineering], [POINTS-GUI-G]
     - 📖 TLDR: This paper studies how to build strong GUI grounding capability starting from a base model without strong pre-existing spatial grounding. It introduces POINTS-GUI-G-8B and attributes its gains to refined multi-source data engineering, improved training strategy for the vision encoder, and reinforcement learning with verifiable rewards. The resulting model achieves state-of-the-art or competitive results across GUI grounding benchmarks including ScreenSpot-Pro, OSWorld-G, ScreenSpot-v2, and UI-Vision.
+
+- [Generative Visual Code Mobile World Models](https://arxiv.org/abs/2602.01576)
+    - Woosung Koh, Sungjun Han, Segyu Lee, Oh-Hyun Kwon, Hyunsoo Kim
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A visual world modeling paradigm where a VLM predicts next GUI states as executable web code, balancing high fidelity with precise text rendering.
 
 - [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
     - Le Zhang, Yixiong Xiao, Xinjiang Lu, Jingjia Cao, Yusai Zhao, Jingbo Zhou, Lang An, Zikan Feng, Wanxiang Sha, Yu Shi, Congxi Xiao, Jian Xiong, Yankai Zhang, Hua Wu, Haifeng Wang
@@ -225,15 +324,6 @@
     - 🔑 Key: [framework], [dataset], [model], [benchmark], [self-reflection], [GUI‑Reflection Task Suite]
     - 📖 TLDR: Introduces **GUI‑Reflection**, a framework that enhances multimodal GUI agents with self-reflection and error correction. It spans three training stages—pre‑training with reflection tasks, offline supervised fine‑tuning with autogenerated error scenarios, and online iterative reflection tuning—resulting in improved robustness on AndroidWorld and the novel GUI‑Reflection Task Suite using entirely automated pipelines.
 
-- [Surfer‑H Meets Holo1: Cost‑Efficient Web Agent Powered by Open Weights](https://arxiv.org/abs/2506.02865)
-    - Mathieu Andreux, Breno Baldas Skuk, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Matthias Brunel, Pierre‑Louis Cedoz, Antoine Chassang, Mickaël Chen, Alexandra D. Constantinou, Antoine d’Andigné, Hubert de La Jonquière, Aurélien Delfosse, Ludovic Denoyer, Alexis Deprez, Augustin Derupti, Michael Eickenberg, Mathïs Federico, Charles Kantor, Xavier Koegler, Yann Labbé, Matthew C. H. Lee, Erwan Le Jumeau de Kergaradec, Amir Mahla, Avshalom Manevich, Adrien Maret, Charles Masson, Rafaël Maurin, Arturo Mena, Philippe Modard, Axel Moyal, Axel Nguyen Kerbel, Julien Revelle, Mats L. Richter, María Santos, Laurent Sifre, Maxime Theillard, Marc Thibault, Louis Thiry, Léo Tronchon, Nicolas Usunier, Tony Wu
-    - 🏛️ Institutions: H Company
-    - 📅 Date: June 3, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [framework], [dataset], [benchmark], [vision language model], [Holo1], [WebClick], [WebVoyager], [Surfer-H]
-    - 📖 TLDR: Introduces **Surfer‑H**, a modular web-browsing agent (policy, localizer, validator) that operates purely via screenshots, paired with **Holo1**, a family of open-weight VLMs specialized in UI interaction. Holo1 is trained on a 31B token dataset across GUI grounding, visual reasoning, and agent traces, enabling strong UI localization via the new **WebClick** benchmark. Surfer‑H + Holo1‑7B achieves 92.2% success on WebVoyager—a state-of-the-art and cost-efficient web navigation performance—while releasing both the model weights and evaluation dataset.
-
 - [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://arxiv.org/abs/2506.03143)
     - Qianhui Wu, Kanzhi Cheng, Rui Yang, Chaoyun Zhang, Jianwei Yang, Huiqiang Jiang, Jian Mu, Baolin Peng, Bo Qiao, Reuben Tan, Si Qin, Lars Liden, Qingwei Lin, Huan Zhang, Tong Zhang, Jianbing Zhang, Dongmei Zhang, Jianfeng Gao
     - 🏛️ Institutions: Microsoft, Nanjing University, University of Illinois Urbana-Champaign
@@ -242,6 +332,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [framework], [grounding verifier], [attention mechanism], [coordinate‑free grounding], [GUI‑Actor]
     - 📖 TLDR: GUI‑Actor introduces a coordinate‑free visual grounding approach for GUI agents by adding an attention‑based “<ACTOR>” action head atop a frozen vision‑language model. It learns to align with relevant visual patches and produces multiple candidate regions per forward pass. An optional grounding verifier scores candidates to select the best. The method improves spatial‑semantic alignment and generalizes well across unseen resolutions. On benchmarks like ScreenSpot‑Pro, GUI‑Actor‑7B outperforms prior SOTA UI‑TARS‑72B, with verifier‑augmented versions achieving even higher accuracy—while only fine‑tuning ~100 M parameters.
+
+- [Surfer‑H Meets Holo1: Cost‑Efficient Web Agent Powered by Open Weights](https://arxiv.org/abs/2506.02865)
+    - Mathieu Andreux, Breno Baldas Skuk, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Matthias Brunel, Pierre‑Louis Cedoz, Antoine Chassang, Mickaël Chen, Alexandra D. Constantinou, Antoine d’Andigné, Hubert de La Jonquière, Aurélien Delfosse, Ludovic Denoyer, Alexis Deprez, Augustin Derupti, Michael Eickenberg, Mathïs Federico, Charles Kantor, Xavier Koegler, Yann Labbé, Matthew C. H. Lee, Erwan Le Jumeau de Kergaradec, Amir Mahla, Avshalom Manevich, Adrien Maret, Charles Masson, Rafaël Maurin, Arturo Mena, Philippe Modard, Axel Moyal, Axel Nguyen Kerbel, Julien Revelle, Mats L. Richter, María Santos, Laurent Sifre, Maxime Theillard, Marc Thibault, Louis Thiry, Léo Tronchon, Nicolas Usunier, Tony Wu
+    - 🏛️ Institutions: H Company
+    - 📅 Date: June 3, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [framework], [dataset], [benchmark], [vision language model], [Holo1], [WebClick], [WebVoyager], [Surfer-H]
+    - 📖 TLDR: Introduces **Surfer‑H**, a modular web-browsing agent (policy, localizer, validator) that operates purely via screenshots, paired with **Holo1**, a family of open-weight VLMs specialized in UI interaction. Holo1 is trained on a 31B token dataset across GUI grounding, visual reasoning, and agent traces, enabling strong UI localization via the new **WebClick** benchmark. Surfer‑H + Holo1‑7B achieves 92.2% success on WebVoyager—a state-of-the-art and cost-efficient web navigation performance—while releasing both the model weights and evaluation dataset.
 
 - [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
@@ -675,20 +774,20 @@
     - 🔑 Key: [model], [screenshot language model], [Patch-and-Text Prediction], [PTP]
     - 📖 TLDR: This paper introduces a novel approach to improve the language understanding capabilities of screenshot language models (LMs). The authors propose a Patch-and-Text Prediction (PTP) objective, which masks and recovers both image patches and text within screenshots. The method significantly narrows the performance gap between screenshot LMs and text-only models on language understanding tasks, achieving comparable results to BERT on most GLUE tasks. The research also extends PTP to train autoregressive screenshot LMs, demonstrating improved perplexity by utilizing screenshot context.
 
-- [ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://www.ijcai.org/proceedings/2024/711)
-    - Runliang Niu, Jindong Li, Shiqi Wang, Yali Fu, Xiyu Hu, Xueyuan Leng, He Kong, Yi Chang, Qi Wang
-    - 🏛️ Institutions: Jilin University
-    - 📅 Date: February 13, 2024
-    - 📑 Publisher: IJCAI 2024
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [visual language model], [computer control agent]
-    - 📖 TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
-
 - [ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model](https://arxiv.org/abs/2402.07945)
     - Runliang Niu, Jindong Li, Shiqi Wang, Yali Fu, Xiyu Hu, Xueyuan Leng, He Kong, Yi Chang, Qi Wang
     - 🏛️ Institutions: Jilin University
     - 📅 Date: February 13, 2024
     - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [visual language model], [computer control agent]
+    - 📖 TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.
+
+- [ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://www.ijcai.org/proceedings/2024/711)
+    - Runliang Niu, Jindong Li, Shiqi Wang, Yali Fu, Xiyu Hu, Xueyuan Leng, He Kong, Yi Chang, Qi Wang
+    - 🏛️ Institutions: Jilin University
+    - 📅 Date: February 13, 2024
+    - 📑 Publisher: IJCAI 2024
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [visual language model], [computer control agent]
     - 📖 TLDR: This paper introduces ScreenAgent, a computer control agent powered by a visual language large model. The system can interpret natural language instructions and execute them on various computer applications by analyzing screen content. ScreenAgent employs a novel action grounding mechanism to map high-level instructions to specific UI interactions. Evaluated on a diverse set of tasks across different applications, ScreenAgent demonstrates superior performance in task completion and generalization compared to existing methods.

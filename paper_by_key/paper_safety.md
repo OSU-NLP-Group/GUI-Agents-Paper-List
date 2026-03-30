@@ -1,5 +1,23 @@
 # Papers with Keyword: safety
 
+- [Visual Confused Deputy: Exploiting and Defending Perception Failures in Computer-Using Agents](https://arxiv.org/abs/2603.14707)
+    - Mauro Li, Reuben Binns, Soheil Feizi, Lind Seelig, Kasper Luckow
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [security], [safety]
+    - 📖 TLDR: Formalizes visual confused deputy as a security vulnerability in agents due to grounding errors and screenshot manipulation, proposing a dual-channel guardrail using visual and textual verification.
+
+- [Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense](https://arxiv.org/abs/2602.09012)
+    - Jiacheng Liu, Yaxin Luo, Jiacheng Cui, Zhaoyi Li, Xiaohan Zhao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [benchmark], [safety]
+    - 📖 TLDR: A scalable next-generation CAPTCHA defense framework dynamically updated to counter advancing reasoning models, building on learnings from OpenCaptchaWorld.
+
 - [When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents](https://arxiv.org/abs/2602.08995)
     - Yuting Ning, Jaylen Jones, Zhehao Zhang, Chentao Ye, Weitong Ruan, Junyi Li, Rahul Gupta, Huan Sun
     - 🏛️ Institutions: The Ohio State University, Amazon AGI
@@ -17,6 +35,24 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [safety], [red teaming], [unintended behavior], [computer-use agent], [AutoElicit]
     - 📖 TLDR: This paper studies unsafe unintended behaviors in computer-use agents under benign user inputs rather than adversarial prompts. It introduces AutoElicit, an agentic framework that iteratively perturbs realistic benign instructions using execution feedback to surface severe harmful behaviors in frontier CUAs. The results show that even strong CUAs remain broadly susceptible to harmful deviations, establishing a concrete framework for systematically probing unintended safety failures in realistic computer-use settings.
+
+- [Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible](https://arxiv.org/abs/2602.10139)
+    - Lepeng Zhao, Zhenhua Zou, Shuo Li, Xiaoming Li, Bangfei Tian
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [safety], [framework]
+    - 📖 TLDR: A privacy protection framework through selective anonymization enabling mobile GUI agents to handle sensitive data while preserving task-critical information visibility.
+
+- [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
+    - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [safety]
+    - 📖 TLDR: A benchmark evaluating planning-time safety awareness of computer-use agents on long-horizon tasks under benign and adversarial scenarios.
 
 - [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
     - Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He

@@ -7,7 +7,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI], [Web]
     - 🔑 Key: [framework]
-    - 📖 TLDR: Large vision-language models have endowed GUI agents with strong general capabilities for interface understanding and interaction. However, due to insufficient exposure to domain-specific software operation data during training, these agents exhibit ...
+    - 📖 TLDR: A training-free plug-and-play framework reducing domain bias in GUI agents by autonomously extracting domain-specific expertise from web tutorial videos through subtitle-driven retrieval and automated annotation.
 
 - [ProgRM: Build Better GUI Agents with Progress Rewards](https://arxiv.org/abs/2505.18121)
     - Danyang Zhang, Situo Zhang, Ziyue Yang, Zichen Zhu, Zihan Zhao, Ruisheng Cao, Lu Chen, Kai Yu

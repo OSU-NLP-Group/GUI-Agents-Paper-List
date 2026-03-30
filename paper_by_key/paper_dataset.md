@@ -9,6 +9,42 @@
     - 🔑 Key: [framework], [dataset], [GUI grounding], [instruction refinement], [adaptive zoom], [AdaZoom-GUI]
     - 📖 TLDR: This paper proposes AdaZoom-GUI, a GUI grounding framework that improves both instruction understanding and fine-grained localization on high-resolution interface screenshots. It combines an instruction refinement module with a conditional second-stage zoom-in strategy, and trains the grounding model with GRPO on a newly constructed GUI grounding dataset. The method reports state-of-the-art results among comparable model sizes and is positioned as a practical improvement for robust GUI agent deployment.
 
+- [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](https://arxiv.org/abs/2603.12138)
+    - Yiyuan Li, Mingyuan Guo, Zhouheng Sun, Yang Liu, Junlu Tang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 12, 2026
+    - 📑 Publisher: CVPR 2026
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: A trajectory synthesis framework that identifies semantically ambiguous actions as key challenges and uses hardness-driven exploration and alignment-guided refinement to improve training data quality.
+
+- [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
+    - Yanyang Li, Kaizhe Hu, Guohao Li, Heyang Gong, Yeye He
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model], [dataset]
+    - 📖 TLDR: An efficient 3B-scale mobile GUI agent with a semantic context mechanism for history representation, accompanied by a Chinese mobile GUI dataset with 18k grounding samples and 121k steps.
+
+- [WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces](https://arxiv.org/abs/2603.05295)
+    - Xiao Liu, Ziyang Luo, Jiawei Liu, Kaizhe Hu, Yeye He
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [dataset]
+    - 📖 TLDR: The largest open-source dataset of human-annotated web trajectories with 31,725 sequences and 318k steps featuring multi-modal visual, structural, and action alignment.
+
+- [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.13338)
+    - Hao Shi, Zhou Yu, Zihan Ding, Fan Zhou, Xiaomin Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web], [GUI]
+    - 🔑 Key: [benchmark], [dataset]
+    - 📖 TLDR: The first large-scale open-source world model series for web agent training, addressing bottlenecks in collecting real-world trajectories.
+
 - [AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild](https://arxiv.org/abs/2602.11750)
     - Jiazheng Sun, Mingxuan Li, Yingying Zhang, Jiayang Niu, Yachen Wu, Ruihan Jin, Shuyu Lei, Pengrongrui Tan, Zongyu Zhang, Ruoyi Wang, Jiachen Yang, Boyu Yang, Jiacheng Liu, Xin Peng
     - 🏛️ Institutions: Fudan University, Jilin University
@@ -18,14 +54,32 @@
     - 🔑 Key: [benchmark], [dataset], [evaluation], [mobile GUI agent], [agent-user interaction], [MUSE], [AmbiBench]
     - 📖 TLDR: This paper introduces AmbiBench, a mobile GUI agent benchmark designed to move beyond idealized one-shot instructions toward realistic intent alignment. It organizes tasks by instruction clarity, includes 240 tasks across 25 applications, and evaluates not only execution success but also interaction quality through the MUSE judge framework. The benchmark highlights how current mobile agents struggle when users are ambiguous or incomplete, and reframes mobile agent evaluation around bidirectional interaction rather than pure instruction following.
 
-- [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
-    - Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He
-    - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, USTC, A*STAR, Zhongguancun Institution of Artificial Intelligence
-    - 📅 Date: January 26, 2026
+- [ANCHOR: Branch-Point Data Generation for GUI Agents](https://arxiv.org/abs/2602.07153)
+    - Jinbiao Wei, Yilun Zhao, Kangqi Ni, Haotian Zhao, Chen Qian
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 06, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [benchmark], [dataset], [safety], [privacy-preserving GUI agent], [GUIGuard], [GUIGuard-Bench]
-    - 📖 TLDR: This paper introduces GUIGuard, a general privacy-preserving framework for GUI agents that separates privacy recognition, privacy protection, and protected task execution. It also builds GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and 13,830 screenshots annotated for privacy grounding, risk levels, categories, and task necessity. Results show that current GUI agents have very weak privacy recognition, while carefully designed protection policies can retain usable task-planning fidelity, making privacy-aware GUI agents a concrete and measurable systems problem.
+    - 💻 Env: [Desktop], [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: A trajectory expansion framework bootstrapping desktop supervision by identifying branch points and generating task variants from seed demonstrations.
+
+- [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
+    - Rui Lv, Juncheng Mo, Tianyi Chu, Yiming Liu, Hongling Zhuo
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: A low-cost automated mobile GUI agent data-mining framework using multi-agent enhanced MCTS to generate diverse trajectories with high quality at scale.
+
+- [Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training](https://arxiv.org/abs/2601.22781)
+    - Linjia Kang, Zhimin Wang, Yongkang Zhang, Yuanchun Li, Gang Yin
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: MobileGen framework generating trajectories with progressive difficulty to match agent capabilities, addressing data-capability mismatch in mobile GUI agent training.
 
 - [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://openreview.net/forum?id=IWDpCaSF9Q)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
@@ -35,6 +89,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [mobile GUI agent], [multi-path evaluation], [ambiguous instruction], [noisy environment], [SMAN-Bench]
     - 📖 TLDR: This paper introduces SMAN-Bench, a mobile-agent benchmark that moves beyond single golden trajectories by evaluating single-path, multi-path, ambiguous, and noisy task settings in one framework. It builds instructions from an existing graph-structured mobile corpus, adds offline multi-path reward evaluation, and explicitly includes noisy pop-up-heavy environments plus clarification-style ambiguous tasks. The benchmark is designed to better reflect realistic mobile-agent deployment conditions than cleaner or purely online settings.
+
+- [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
+    - Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He
+    - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, USTC, A*STAR, Zhongguancun Institution of Artificial Intelligence
+    - 📅 Date: January 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [benchmark], [dataset], [safety], [privacy-preserving GUI agent], [GUIGuard], [GUIGuard-Bench]
+    - 📖 TLDR: This paper introduces GUIGuard, a general privacy-preserving framework for GUI agents that separates privacy recognition, privacy protection, and protected task execution. It also builds GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and 13,830 screenshots annotated for privacy grounding, risk levels, categories, and task necessity. Results show that current GUI agents have very weak privacy recognition, while carefully designed protection policies can retain usable task-planning fidelity, making privacy-aware GUI agents a concrete and measurable systems problem.
 
 - [MobileWorldBench: Towards Semantic World Modeling For Mobile Agents](https://arxiv.org/abs/2512.14014)
     - Shufan Li, Konstantinos Kallidromitis, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Aditya Grover
@@ -252,15 +315,6 @@
     - 🔑 Key: [dataset], [web agent], [structured exploration], [task generation], [WebArena], [Go-Browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.
 
-- [Surfer‑H Meets Holo1: Cost‑Efficient Web Agent Powered by Open Weights](https://arxiv.org/abs/2506.02865)
-    - Mathieu Andreux, Breno Baldas Skuk, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Matthias Brunel, Pierre‑Louis Cedoz, Antoine Chassang, Mickaël Chen, Alexandra D. Constantinou, Antoine d’Andigné, Hubert de La Jonquière, Aurélien Delfosse, Ludovic Denoyer, Alexis Deprez, Augustin Derupti, Michael Eickenberg, Mathïs Federico, Charles Kantor, Xavier Koegler, Yann Labbé, Matthew C. H. Lee, Erwan Le Jumeau de Kergaradec, Amir Mahla, Avshalom Manevich, Adrien Maret, Charles Masson, Rafaël Maurin, Arturo Mena, Philippe Modard, Axel Moyal, Axel Nguyen Kerbel, Julien Revelle, Mats L. Richter, María Santos, Laurent Sifre, Maxime Theillard, Marc Thibault, Louis Thiry, Léo Tronchon, Nicolas Usunier, Tony Wu
-    - 🏛️ Institutions: H Company
-    - 📅 Date: June 3, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [framework], [dataset], [benchmark], [vision language model], [Holo1], [WebClick], [WebVoyager], [Surfer-H]
-    - 📖 TLDR: Introduces **Surfer‑H**, a modular web-browsing agent (policy, localizer, validator) that operates purely via screenshots, paired with **Holo1**, a family of open-weight VLMs specialized in UI interaction. Holo1 is trained on a 31B token dataset across GUI grounding, visual reasoning, and agent traces, enabling strong UI localization via the new **WebClick** benchmark. Surfer‑H + Holo1‑7B achieves 92.2% success on WebVoyager—a state-of-the-art and cost-efficient web navigation performance—while releasing both the model weights and evaluation dataset.
-
 - [DeepShop: A Benchmark for Deep Research Shopping Agents](https://arxiv.org/abs/2506.02839)
     - Yougang Lyu, Xiaoyu Zhang, Lingyong Yan, Maarten de Rijke, Zhaochun Ren, Xiuying Chen
     - 🏛️ Institutions: U Amsterdam, Shandong U, Baidu Inc., Leiden U, MBZUAI
@@ -269,6 +323,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [evaluation framework], [RAG], [query complexity], [DeepShop]
     - 📖 TLDR: DeepShop introduces a comprehensive benchmark for web shopping agents, mirroring the real first-use complexity of online shopping scenarios. It features diversified query evolution across five domains, complexity-tier classification (easy/medium/hard), and a fine‐grained scoring system analyzing attribute matching, filters, and sorting. Evaluations across RAG and agentic systems reveal significant shortcomings, especially in handling filters and sorting, underscoring gaps in current research capabilities.
+
+- [Surfer‑H Meets Holo1: Cost‑Efficient Web Agent Powered by Open Weights](https://arxiv.org/abs/2506.02865)
+    - Mathieu Andreux, Breno Baldas Skuk, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Matthias Brunel, Pierre‑Louis Cedoz, Antoine Chassang, Mickaël Chen, Alexandra D. Constantinou, Antoine d’Andigné, Hubert de La Jonquière, Aurélien Delfosse, Ludovic Denoyer, Alexis Deprez, Augustin Derupti, Michael Eickenberg, Mathïs Federico, Charles Kantor, Xavier Koegler, Yann Labbé, Matthew C. H. Lee, Erwan Le Jumeau de Kergaradec, Amir Mahla, Avshalom Manevich, Adrien Maret, Charles Masson, Rafaël Maurin, Arturo Mena, Philippe Modard, Axel Moyal, Axel Nguyen Kerbel, Julien Revelle, Mats L. Richter, María Santos, Laurent Sifre, Maxime Theillard, Marc Thibault, Louis Thiry, Léo Tronchon, Nicolas Usunier, Tony Wu
+    - 🏛️ Institutions: H Company
+    - 📅 Date: June 3, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [framework], [dataset], [benchmark], [vision language model], [Holo1], [WebClick], [WebVoyager], [Surfer-H]
+    - 📖 TLDR: Introduces **Surfer‑H**, a modular web-browsing agent (policy, localizer, validator) that operates purely via screenshots, paired with **Holo1**, a family of open-weight VLMs specialized in UI interaction. Holo1 is trained on a 31B token dataset across GUI grounding, visual reasoning, and agent traces, enabling strong UI localization via the new **WebClick** benchmark. Surfer‑H + Holo1‑7B achieves 92.2% success on WebVoyager—a state-of-the-art and cost-efficient web navigation performance—while releasing both the model weights and evaluation dataset.
 
 - [AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
@@ -288,15 +351,6 @@
     - 🔑 Key: [framework], [benchmark], [dataset], [indirect prompt injection], [security], [CUA], [RTC‑Bench]
     - 📖 TLDR: Proposes **RedTeamCUA**, a hybrid VM‑OS + Docker‑web sandbox enabling realistic evaluation of computer‑use agents (CUAs) under indirect prompt injection. Introduces **RTC‑Bench**, a benchmark with 864 adversarial scenarios across hybrid web‑OS paths. Testing reveals high attack success rates (up to ~66%) against frontier CUAs like Claude and Operator, even end-to‑end (ASR ~48% on Claude 4). Highlights urgent need for robust defense mechanisms.
 
-- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
-    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, and Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc.
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: EMNLP 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [reinforcement learning], [error detection], [backtracking], [Mobile3M], [Auto‑UI]
-    - 📖 TLDR: BacktrackAgent introduces a novel GUI‑agent framework that embeds four components—generator, verifier, judger, and reflector—to detect when actions go wrong, evaluate their effects, and backtrack to recover. It also constructs specialized datasets for training these “judgment” and “reflection” modules. On Mobile3M and Auto‑UI benchmarks, it boosts task success rate by ~7.6% and step accuracy by ~1.6%, outperforming prior SOTA like MobileVLM and ReachAgent.
-
 - [XBOUND: Exploring the Capability Boundaries of Device-Control Agents through Trajectory Tree Exploration](https://arxiv.org/abs/2505.21279)
     - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
     - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
@@ -305,6 +359,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [benchmark], [dataset], [Explore Metric], [trajectory tree], [OS‑Atlas], [UI‑TARS]
     - 📖 TLDR: Introduces **XBOUND**, a novel evaluation framework assessing device-control (DC) agents at a fine-grained level by constructing "trajectory trees" from Android GUI interaction traces. The method defines an **Explore Metric**, measuring how well agents generalize across branching states and actions. A large-scale pseudo trajectory-tree dataset (~1,536 episodes, 43,759 instructions) was built using GPT4o-mini and Qwen2.5-vl. The study benchmarks OS‑Atlas and UI‑TARS agents across width/depth dimensions, revealing state and action comprehension gaps. It offers actionable insights into DC agent limitations and proposes directions for improving GUI-based agent capabilities.
+
+- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
+    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, and Jian Luan
+    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc.
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: EMNLP 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [dataset], [reinforcement learning], [error detection], [backtracking], [Mobile3M], [Auto‑UI]
+    - 📖 TLDR: BacktrackAgent introduces a novel GUI‑agent framework that embeds four components—generator, verifier, judger, and reflector—to detect when actions go wrong, evaluate their effects, and backtrack to recover. It also constructs specialized datasets for training these “judgment” and “reflection” modules. On Mobile3M and Auto‑UI benchmarks, it boosts task success rate by ~7.6% and step accuracy by ~1.6%, outperforming prior SOTA like MobileVLM and ReachAgent.
 
 - [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
     - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
@@ -628,7 +691,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI], [Mobile]
     - 🔑 Key: [dataset]
-    - 📖 TLDR: Visual language models (VLMs) empower mobile GUI agents to interpret complex mobile screens and respond to user requests. Training such capable agents requires large-scale, high-quality mobile GUI data. However, existing mobile GUI datasets are limit...
+    - 📖 TLDR: A million-scale mobile GUI dataset with 1.2M+ screenshot-view hierarchy pairs from 30K Android applications, enabling training of visual language models for mobile agent GUI grounding and interaction.
 
 - [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html)
     - Xiao Liu, Tianjie Zhang, Yu Gu, Iat Long Iong, Song XiXuan, Yifan Xu, Shudan Zhang, Hanyu Lai, Jiadai Sun, Xinyue Yang, Yu Yang, Zehan Qi, Shuntian Yao, Xueqiao Sun, Siyi Cheng, Qinkai Zheng, Hao Yu, Hanchen Zhang, Wenyi Hong, Ming Ding, Lihang Pan, Xiaotao Gu, Aohan Zeng, Zhengxiao Du, Chan Hee Song, Yu Su, Yuxiao Dong, Jie Tang
@@ -846,15 +909,6 @@
     - 🔑 Key: [model], [dataset], [UI understanding], [infographics understanding], [vision language model]
     - 📖 TLDR: This paper introduces ScreenAI, a vision-language model specializing in UI and infographics understanding. The model combines the PaLI architecture with the flexible patching strategy of pix2struct and is trained on a unique mixture of datasets. ScreenAI achieves state-of-the-art results on several UI and infographics-based tasks, outperforming larger models. The authors also release three new datasets for screen annotation and question answering tasks.
 
-- [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://eccv.ecva.net/virtual/2024/poster/1107)
-    - Raghav Kapoor, Yash Parag Butala, Melisa Russak, Jing Yu Koh, Kiran Kamble, Waseem Alshikh, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Carnegie Mellon University
-    - 📅 Date: February 2024
-    - 📑 Publisher: ECCV 2024 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [dataset], [benchmark]
-    - 📖 TLDR: OmniACT introduces a dataset and benchmark to train and evaluate multimodal agents capable of autonomously performing diverse tasks across desktop and web environments. Using annotated UI elements across applications, it combines visual grounding with natural language instructions, providing 9,802 data points for developing agents that integrate high-level reasoning with UI interactions. The study highlights the limited proficiency of current models, with baselines like GPT-4 only achieving 15% of human performance on executable scripts, emphasizing OmniACT's potential as a testbed for advancing multimodal AI.
-
 - [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)
     - Xing Han Lu, Zdeněk Kasner, Siva Reddy
     - 🏛️ Institutions: Mila, McGill University
@@ -863,6 +917,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [dataset], [benchmark], [multi-turn dialogue], [real-world navigation], [WebLINX]
     - 📖 TLDR: WebLINX addresses the complexity of real-world website navigation for conversational agents, with a benchmark featuring over 2,300 demonstrations across 150+ websites. The benchmark allows agents to handle multi-turn instructions and interact dynamically across diverse domains, including geographic and thematic categories. The study proposes a retrieval-inspired model that selectively extracts key HTML elements and browser actions, achieving efficient task-specific representations. Experiments reveal that smaller finetuned decoders outperform larger zero-shot multimodal models, though generalization to new environments remains challenging.
+
+- [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://eccv.ecva.net/virtual/2024/poster/1107)
+    - Raghav Kapoor, Yash Parag Butala, Melisa Russak, Jing Yu Koh, Kiran Kamble, Waseem Alshikh, Ruslan Salakhutdinov
+    - 🏛️ Institutions: Carnegie Mellon University
+    - 📅 Date: February 2024
+    - 📑 Publisher: ECCV 2024 (Poster)
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [benchmark]
+    - 📖 TLDR: OmniACT introduces a dataset and benchmark to train and evaluate multimodal agents capable of autonomously performing diverse tasks across desktop and web environments. Using annotated UI elements across applications, it combines visual grounding with natural language instructions, providing 9,802 data points for developing agents that integrate high-level reasoning with UI interactions. The study highlights the limited proficiency of current models, with baselines like GPT-4 only achieving 15% of human performance on executable scripts, emphasizing OmniACT's potential as a testbed for advancing multimodal AI.
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://aclanthology.org/2024.acl-long.50/)
     - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
@@ -873,15 +936,6 @@
     - 🔑 Key: [framework], [benchmark], [dataset], [multimodal agent evaluation], [visually grounded tasks]
     - 📖 TLDR: VisualWebArena is a benchmark designed for testing multimodal web agents on complex, visually grounded web tasks. It provides a reproducible framework with 910 task scenarios across real-world web applications, emphasizing open-ended, visually guided interactions. The tasks are modeled within a partially observable Markov decision process to assess agents’ capacity to interpret multimodal inputs, execute navigation, and accomplish user-defined objectives across complex visual and textual information on websites.
 
-- [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://proceedings.mlr.press/v235/zheng24e.html)
-    - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
-    - 📅 Date: January 1, 2024
-    - 📑 Publisher: ICML 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2web]
-    - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
-
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
     - 🏛️ Institutions: The University of Tokyo, Google DeepMind
@@ -890,6 +944,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [model], [dataset], [web navigation], [instruction-following], [WebShop]
     - 📖 TLDR: This paper introduces WebGUM, an instruction-following multimodal agent for autonomous web navigation that leverages both visual (webpage screenshots) and textual (HTML) inputs to perform actions such as click and type. The model is trained on a vast corpus of demonstrations and shows improved capabilities in visual perception, HTML comprehension, and multi-step decision-making, achieving state-of-the-art performance on benchmarks like MiniWoB and WebShop. WebGUM provides a scalable approach to web-based tasks without task-specific architectures, enabling high-performance web navigation with generalizable, multimodal foundation models.
+
+- [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://proceedings.mlr.press/v235/zheng24e.html)
+    - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
+    - 🏛️ Institutions: The Ohio State University
+    - 📅 Date: January 1, 2024
+    - 📑 Publisher: ICML 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [dataset], [benchmark], [grounding], [SeeAct], [Multimodal-Mind2web]
+    - 📖 TLDR: This paper explores the capability of GPT-4V(ision), a multimodal model, as a web agent that can perform tasks across various websites by following natural language instructions. It introduces the **SEEACT** framework, enabling GPT-4V to navigate, interpret, and interact with elements on websites. Evaluated using the **Mind2Web** benchmark and an online test environment, the framework demonstrates high performance on complex web tasks by integrating grounding strategies like element attributes and image annotations to improve HTML element targeting. However, grounding remains challenging, presenting opportunities for further improvement.
 
 - [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
     - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou

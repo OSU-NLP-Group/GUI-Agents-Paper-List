@@ -5,7 +5,70 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [GUI], [Mobile], [Web]
     - 🔑 Key: [model]
-    - 📖 TLDR: Autoregressive (AR) vision-language models (VLMs) have long dominated multimodal understanding, reasoning, and graphical user interface (GUI) grounding. Recently, discrete diffusion vision-language models (DVLMs) have shown strong performance in mult...
+    - 📖 TLDR: Evaluates discrete diffusion vision-language models for GUI grounding across web, desktop, and mobile interfaces, proposing a hybrid masking schedule that improves accuracy and efficiency over autoregressive models.
+
+- [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533)
+    - Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model], [framework]
+    - 📖 TLDR: A self-evolving mobile GUI agent using Rejection Fine-Tuning and Group Relative Self-Distillation to learn efficiently from failed trajectories without manual annotation.
+
+- [AgentRAE: Remote Action Execution through Notification-based Visual Backdoors against Screenshots-based Mobile GUI Agents](https://arxiv.org/abs/2603.23007)
+    - Yutao Luo, Haotian Zhu, Shuchao Pang, Zhigang Lu, Tian Dong
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 24, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [security], [adversarial attacks]
+    - 📖 TLDR: Demonstrates backdoor attacks on mobile GUI agents through visually natural notification-based triggers, exposing critical security vulnerabilities in screenshot-based agent systems.
+
+- [AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents](https://arxiv.org/abs/2603.18429)
+    - Yibo Shi, Jungang Li, Linghao Zhang, Zihao Dongfang, Biao Wu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework], [benchmark]
+    - 📖 TLDR: A diagnostic framework with AndroTMem-Bench and Anchored State Memory approach for improving interaction memory in long-horizon GUI agents through structured, causally-linked state anchors.
+
+- [GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents](https://arxiv.org/abs/2603.15039)
+    - Haotian Zhao, Yuzhe Qin, Dongliang Li, Dongdong Hu, Xingshuai Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 16, 2026
+    - 📑 Publisher: CVPR 2026
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: The first comprehensive Chinese mobile GUI agent benchmark spanning 201 mainstream apps with two-level evaluation covering perception, planning, reflection, execution, and evaluation on real physical devices.
+
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
+    - Zihao Wu, Zihan Ding, Fan Zhou, Hao Shi, Xiaomin Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: A benchmark for evaluating proactive intent recommendation agents that anticipate user intentions from continuous visual inputs without explicit prompting in long-horizon scenarios.
+
+- [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
+    - Yanyang Li, Kaizhe Hu, Guohao Li, Heyang Gong, Yeye He
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model], [dataset]
+    - 📖 TLDR: An efficient 3B-scale mobile GUI agent with a semantic context mechanism for history representation, accompanied by a Chinese mobile GUI dataset with 18k grounding samples and 121k steps.
+
+- [Generalization in Online Reinforcement Learning for Mobile Agents](https://arxiv.org/abs/2603.07432)
+    - Mingkai Deng, Jing Yu, Zhou Yu, Kaizhe Hu, Yeye He
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: March 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: Formalizes and evaluates zero-shot generalization in mobile GUI agents through AndroidWorld-Generalization benchmark with three increasingly challenging evaluation regimes.
 
 - [K²-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control](https://arxiv.org/abs/2603.00676)
     - Zhe Wu, Donglin Mo, Hongjin Lu, Junliang Xing, Jianheng Liu, Yuheng Jing, Kai Li, Kun Shao, Jianye Hao, Yuanchun Shi
@@ -16,6 +79,24 @@
     - 🔑 Key: [framework], [reinforcement learning], [hierarchical planning], [mobile GUI agent], [AndroidWorld], [K²-Agent]
     - 📖 TLDR: This paper introduces K²-Agent, a hierarchical mobile device control framework that separates declarative “know-what” reasoning from procedural “know-how” execution and co-evolves them during training. Its high-level module refines task knowledge through an SRLR loop, while the low-level executor is trained with curriculum-guided GRPO and dynamic demonstration injection. On AndroidWorld, K²-Agent reaches a new state of the art among open-source screenshot-only systems and also generalizes competitively to ScreenSpot-v2 and Android-in-the-Wild.
 
+- [How Smart Is Your GUI Agent? A Framework for the Future of Software Interaction](https://arxiv.org/abs/2602.11514)
+    - Sidong Feng, Chunyang Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: GUI Agent Autonomy Levels (GAL) framework defining six-level autonomy hierarchy to establish clarity on agent capabilities, responsibility, and risk assessment.
+
+- [Adaptive Milestone Reward for GUI Agents](https://arxiv.org/abs/2602.11524)
+    - Congmin Zheng, Xiaoyun Mo, Xinbei Ma, Aimin Guo, Hongling Zhuo
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: An adaptive milestone reward mechanism balancing fidelity and density for long-horizon mobile GUI agent RL training, addressing temporal credit assignment.
+
 - [AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild](https://arxiv.org/abs/2602.11750)
     - Jiazheng Sun, Mingxuan Li, Yingying Zhang, Jiayang Niu, Yachen Wu, Ruihan Jin, Shuyu Lei, Pengrongrui Tan, Zongyu Zhang, Ruoyi Wang, Jiachen Yang, Boyu Yang, Jiacheng Liu, Xin Peng
     - 🏛️ Institutions: Fudan University, Jilin University
@@ -25,6 +106,51 @@
     - 🔑 Key: [benchmark], [dataset], [evaluation], [mobile GUI agent], [agent-user interaction], [MUSE], [AmbiBench]
     - 📖 TLDR: This paper introduces AmbiBench, a mobile GUI agent benchmark designed to move beyond idealized one-shot instructions toward realistic intent alignment. It organizes tasks by instruction clarity, includes 240 tasks across 25 applications, and evaluates not only execution success but also interaction quality through the MUSE judge framework. The benchmark highlights how current mobile agents struggle when users are ambiguous or incomplete, and reframes mobile agent evaluation around bidirectional interaction rather than pure instruction following.
 
+- [Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System](https://arxiv.org/abs/2602.10915)
+    - Zhenhua Zou, Sheng Guo, Qiuyang Zhan, Tao Yu, Kun Zhang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [security], [framework]
+    - 📖 TLDR: A security analysis of mobile agents identifying vulnerabilities in screen-as-interface paradigm and proposing intent-centric OS architecture for secure operation.
+
+- [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856)
+    - Yuhao Zheng, Li'an Zhong, Yi Wang, Ge Li, Zhi Jin
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A vision-language GUI world model predicting next states via renderable code generation, balancing visual fidelity with structural controllability for agent foresight.
+
+- [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082)
+    - Venus Team, Changlong Gao, Zhangxuan Gu, Yingying Zhou, Yang Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop], [Web]
+    - 🔑 Key: [model]
+    - 📖 TLDR: UI-Venus-1.5 unified GUI agent with dense variants (2B/8B) and MoE variant (30B), featuring mid-training and comprehensive supervised fine-tuning for robustness.
+
+- [Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible](https://arxiv.org/abs/2602.10139)
+    - Lepeng Zhao, Zhenhua Zou, Shuo Li, Xiaoming Li, Bangfei Tian
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [safety], [framework]
+    - 📖 TLDR: A privacy protection framework through selective anonymization enabling mobile GUI agents to handle sensitive data while preserving task-critical information visibility.
+
+- [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
+    - Rui Lv, Juncheng Mo, Tianyi Chu, Yiming Liu, Hongling Zhuo
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: A low-cost automated mobile GUI agent data-mining framework using multi-agent enhanced MCTS to generate diverse trajectories with high quality at scale.
+
 - [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)
     - Han Xiao, Guozhi Wang, Hao Wang, Shilong Liu, Yuxiang Chai, Yue Pan, Yufeng Zhou, Xiaoxin Chen, Yafei Wen, Hongsheng Li
     - 🏛️ Institutions: CUHK MMLab, vivo AI Lab, Princeton University, Shenzhen Loop Area Institute, Shanghai AI Lab
@@ -33,6 +159,51 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [memory], [reinforcement learning], [online RL], [mobile GUI agent], [UI-Mem]
     - 📖 TLDR: This paper proposes UI-Mem, a mobile GUI agent training framework that augments online reinforcement learning with a hierarchical experience memory storing reusable workflows, subtask skills, and failure patterns. It introduces stratified group sampling to mix strong, weak, and unguided rollouts, plus a self-evolving loop that continually abstracts new successful plans and error diagnoses back into memory. Experiments on AndroidWorld and AndroidLab show strong gains over standard online RL and static reuse baselines, especially on unseen applications.
+
+- [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
+    - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Shun Zhang, Yiming Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [benchmark]
+    - 📖 TLDR: A comprehensive memory-centric benchmark with 128 tasks assessing cross-temporal and cross-spatial retention in mobile GUI agents, introducing MemGUI-Eval metrics.
+
+- [Generative Visual Code Mobile World Models](https://arxiv.org/abs/2602.01576)
+    - Woosung Koh, Sungjun Han, Segyu Lee, Oh-Hyun Kwon, Hyunsoo Kim
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: February 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [model]
+    - 📖 TLDR: A visual world modeling paradigm where a VLM predicts next GUI states as executable web code, balancing high fidelity with precise text rendering.
+
+- [Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction](https://arxiv.org/abs/2602.00575)
+    - Chaoqun Cui, Jing Huang, Shijing Wang, Feng Chen, Fangyuan Liu
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 31, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: VAGEN framework employing verifier agents with proactive interaction for agentic reward verification, moving from passive to interactive evaluation paradigm.
+
+- [Okara: Detection and Attribution of TLS Man-in-the-Middle Vulnerabilities in Android Apps with Foundation Models](https://arxiv.org/abs/2601.22770)
+    - Haoyun Yang, Ronghong Huang, Yong Fang, Junjie Wang, Ming Yang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [security]
+    - 📖 TLDR: A framework leveraging foundation models and GUI agents to detect and analyze TLS Man-in-the-Middle vulnerabilities in Android apps with high coverage.
+
+- [Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training](https://arxiv.org/abs/2601.22781)
+    - Linjia Kang, Zhimin Wang, Yongkang Zhang, Yuanchun Li, Gang Yin
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [GUI]
+    - 🔑 Key: [framework], [dataset]
+    - 📖 TLDR: MobileGen framework generating trajectories with progressive difficulty to match agent capabilities, addressing data-capability mismatch in mobile GUI agent training.
 
 - [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://openreview.net/forum?id=IWDpCaSF9Q)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
@@ -169,14 +340,14 @@
     - 🔑 Key: [model], [framework], [dataset], [benchmark], [reinforcement fine‑tuning], [compact action space], [CAGUI], [GRPO]
     - 📖 TLDR: Introduces an 8 B Vision–Language GUI agent for on‑device mobile app interaction. Training uses grounding pre-training, supervised fine‑tuning on 55 K Chinese & English trajectories, and reinforcement fine‑tuning (GRPO). A compact JSON action schema enables low-latency inference. Achieves SOTA on five benchmarks including the new Chinese CAGUI (96 %+ TM, 91 % EM). All code, model, and data released.
 
-- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
-    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, and Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc.
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: EMNLP 2025
+- [XBOUND: Exploring the Capability Boundaries of Device-Control Agents through Trajectory Tree Exploration](https://arxiv.org/abs/2505.21279)
+    - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
+    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [reinforcement learning], [error detection], [backtracking], [Mobile3M], [Auto‑UI]
-    - 📖 TLDR: BacktrackAgent introduces a novel GUI‑agent framework that embeds four components—generator, verifier, judger, and reflector—to detect when actions go wrong, evaluate their effects, and backtrack to recover. It also constructs specialized datasets for training these “judgment” and “reflection” modules. On Mobile3M and Auto‑UI benchmarks, it boosts task success rate by ~7.6% and step accuracy by ~1.6%, outperforming prior SOTA like MobileVLM and ReachAgent.
+    - 🔑 Key: [framework], [benchmark], [dataset], [Explore Metric], [trajectory tree], [OS‑Atlas], [UI‑TARS]
+    - 📖 TLDR: Introduces **XBOUND**, a novel evaluation framework assessing device-control (DC) agents at a fine-grained level by constructing "trajectory trees" from Android GUI interaction traces. The method defines an **Explore Metric**, measuring how well agents generalize across branching states and actions. A large-scale pseudo trajectory-tree dataset (~1,536 episodes, 43,759 instructions) was built using GPT4o-mini and Qwen2.5-vl. The study benchmarks OS‑Atlas and UI‑TARS agents across width/depth dimensions, revealing state and action comprehension gaps. It offers actionable insights into DC agent limitations and proposes directions for improving GUI-based agent capabilities.
 
 - [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
     - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
@@ -187,14 +358,14 @@
     - 🔑 Key: [framework], [reward model], [self-improvement], [synthetic data], [mobile GUI agent], [UI-Genie-RM], [UI-Genie-Agent]
     - 📖 TLDR: This paper introduces UI-Genie, a self-improving mobile GUI-agent framework that tackles two bottlenecks at once: outcome verification and scalable high-quality trajectory generation. It builds a dedicated reward model, UI-Genie-RM, plus a reward-guided self-improvement loop that iteratively upgrades both the agent and the reward model in dynamic environments. The paper also releases the first reward-specific GUI-agent dataset and reports state-of-the-art performance across multiple mobile GUI benchmarks after several generations of self-improvement.
 
-- [XBOUND: Exploring the Capability Boundaries of Device-Control Agents through Trajectory Tree Exploration](https://arxiv.org/abs/2505.21279)
-    - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: arXiv
+- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
+    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, and Jian Luan
+    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc.
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: EMNLP 2025
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [dataset], [Explore Metric], [trajectory tree], [OS‑Atlas], [UI‑TARS]
-    - 📖 TLDR: Introduces **XBOUND**, a novel evaluation framework assessing device-control (DC) agents at a fine-grained level by constructing "trajectory trees" from Android GUI interaction traces. The method defines an **Explore Metric**, measuring how well agents generalize across branching states and actions. A large-scale pseudo trajectory-tree dataset (~1,536 episodes, 43,759 instructions) was built using GPT4o-mini and Qwen2.5-vl. The study benchmarks OS‑Atlas and UI‑TARS agents across width/depth dimensions, revealing state and action comprehension gaps. It offers actionable insights into DC agent limitations and proposes directions for improving GUI-based agent capabilities.
+    - 🔑 Key: [framework], [dataset], [reinforcement learning], [error detection], [backtracking], [Mobile3M], [Auto‑UI]
+    - 📖 TLDR: BacktrackAgent introduces a novel GUI‑agent framework that embeds four components—generator, verifier, judger, and reflector—to detect when actions go wrong, evaluate their effects, and backtrack to recover. It also constructs specialized datasets for training these “judgment” and “reflection” modules. On Mobile3M and Auto‑UI benchmarks, it boosts task success rate by ~7.6% and step accuracy by ~1.6%, outperforming prior SOTA like MobileVLM and ReachAgent.
 
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
@@ -329,7 +500,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI], [Mobile]
     - 🔑 Key: [benchmark]
-    - 📖 TLDR: The advancement of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) has catalyzed the development of mobile graphic user interface (GUI) AI agents, which is designed to autonomously perform tasks on mobile devices. However, a...
+    - 📖 TLDR: A benchmark with 100 tasks from 20 real-world dynamic mobile apps, featuring "essential-state" evaluation using MLLMs as reward models to progressively verify mobile GUI agent task completion and process achievement.
 
 - [AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents](https://aclanthology.org/2025.acl-long.107/)
     - Yifan Xu, Xiao Liu, Xueqiao Sun, Siyi Cheng, Hao Yu, Hanyu Lai, Shudan Zhang, Dan Zhang, Jie Tang, Yuxiao Dong
@@ -410,7 +581,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI], [Mobile]
     - 🔑 Key: [dataset]
-    - 📖 TLDR: Visual language models (VLMs) empower mobile GUI agents to interpret complex mobile screens and respond to user requests. Training such capable agents requires large-scale, high-quality mobile GUI data. However, existing mobile GUI datasets are limit...
+    - 📖 TLDR: A million-scale mobile GUI dataset with 1.2M+ screenshot-view hierarchy pairs from 30K Android applications, enabling training of visual language models for mobile agent GUI grounding and interaction.
 
 - [Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps](https://arxiv.org/abs/2409.10811)
     - Shuqing Li, Binchang Li, Yepang Liu, Cuiyun Gao, Jianping Zhang, Shing-Chi Cheung, Michael R. Lyu
@@ -419,7 +590,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI], [Mobile]
     - 🔑 Key: [misc]
-    - 📖 TLDR: In recent years, spatial computing a.k.a. Extended Reality (XR) has emerged as a transformative technology, offering users immersive and interactive experiences across diversified virtual environments. Users can interact with XR apps through interact...
+    - 📖 TLDR: Framework for detecting interactable GUI elements in VR apps using semantic context comprehension and reflection-directed detection to handle open-vocabulary categories and context-sensitive interactability in 3D interfaces.
 
 - [AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824)
     - Yanda Li, Chi Zhang, Wenjia Jiang, Wanqi Yang, Bin Fu, Pei Cheng, Xin Chen, Ling Chen, Yunchao Wei
@@ -583,15 +754,6 @@
     - 🔑 Key: [model], [dataset], [benchmark], [grounding], [reasoning], [mobile UI understanding], [Ferret-UI]
     - 📖 TLDR: This paper presents **Ferret-UI**, a multimodal large language model (MLLM) designed to understand and interact with mobile user interfaces. The model incorporates advanced capabilities for referring, grounding, and reasoning about UI elements. By training on a variety of UI tasks, Ferret-UI achieves high performance in tasks such as icon recognition and text extraction. The authors introduce a unique architecture that allows for improved visual feature extraction from mobile screens, paving the way for applications in accessibility and user interaction.
 
-- [Benchmarking Mobile Device Control Agents across Diverse Configurations](https://arxiv.org/abs/2404.16660)
-    - Juyong Lee, Taywon Min, Minyong An, Dongyoon Hahm, Haeone Lee, Changyeon Kim, Kimin Lee
-    - 🏛️ Institutions: KAIST, Seoul National University, Yonsei University
-    - 📅 Date: April 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [mobile device control], [agent performance]
-    - 📖 TLDR: This paper presents **B-MoCA**, a comprehensive benchmark for evaluating mobile device control agents using an Android-based testbed with 131 tasks and various device configurations. The benchmark assesses agents' abilities across tasks that include device-specific variations, navigation, and human-like dual-gesture interactions. B-MoCA highlights that current agents perform well on basic tasks but struggle with complex configurations, pointing to opportunities for future improvements in mobile automation capabilities.
-
 - [Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking](https://arxiv.org/abs/2404.08860)
     - Lei Ding, Jeshwanth Bheemanpally, Yi Zhang
     - 🏛️ Institutions: University of California, Santa Cruz
@@ -600,6 +762,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [benchmark], [reranking], [verification], [mobile task automation]
     - 📖 TLDR: This paper presents a system that enhances mobile "how-to" queries by verifying and reranking search results through automated instruction extraction, on-device action execution, and reranking based on relevance. The method improves on traditional ranking by analyzing device-specific execution success. The approach comprises a three-stage pipeline: 1) extracting step-by-step instructions from top search results, 2) validating these instructions on mobile devices, and 3) reranking based on performance. The system leverages a pre-trained GPT model for initial processing, ensuring adaptability across diverse apps and systems.
+
+- [Benchmarking Mobile Device Control Agents across Diverse Configurations](https://arxiv.org/abs/2404.16660)
+    - Juyong Lee, Taywon Min, Minyong An, Dongyoon Hahm, Haeone Lee, Changyeon Kim, Kimin Lee
+    - 🏛️ Institutions: KAIST, Seoul National University, Yonsei University
+    - 📅 Date: April 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [mobile device control], [agent performance]
+    - 📖 TLDR: This paper presents **B-MoCA**, a comprehensive benchmark for evaluating mobile device control agents using an Android-based testbed with 131 tasks and various device configurations. The benchmark assesses agents' abilities across tasks that include device-specific variations, navigation, and human-like dual-gesture interactions. B-MoCA highlights that current agents perform well on basic tasks but struggle with complex configurations, pointing to opportunities for future improvements in mobile automation capabilities.
 
 - [Android in the Zoo: Chain-of-Action-Thought for GUI Agents](https://aclanthology.org/2024.findings-emnlp.702/)
     - Jiwen Zhang, Jihao Wu, Teng Yihua, Minghui Liao, Nuo Xu, Xiao Xiao, Zhongyu Wei, Duyu Tang
