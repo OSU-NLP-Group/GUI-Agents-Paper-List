@@ -1490,13 +1490,13 @@
     - 🔑 Key: [framework], [GUI testing], [bug detection], [VisionDroid], [mobile agent]
     - 📖 TLDR: The paper presents **VisionDroid**, a vision-driven automated GUI testing approach utilizing Multimodal Large Language Models (MLLM) to detect non-crash functional bugs in mobile applications. By extracting GUI text information and aligning it with screenshots, VisionDroid enables MLLM to understand GUI context, facilitating deeper and function-oriented exploration. The approach segments exploration history into logically cohesive parts, prompting MLLM for bug detection, demonstrating superior performance over existing methods.
 
-- [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://arxiv.org/abs/2407.01511)
-    - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Philip Torr, Bernard Ghanem, Guohao Li
+- [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
+    - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
     - 🏛️ Institutions: KAUST, UTokyo, CMU, Stanford, Harvard, Tsinghua University, SUSTech, Oxford
     - 📅 Date: July 3, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [framework], [evaluation], [CRAB]
+    - 🔑 Key: [benchmark], [dataset], [cross-environment], [graph-based evaluation], [task generation], [CRAB]
     - 📖 TLDR: The authors present *CRAB*, a benchmark framework designed to evaluate Multimodal Language Model agents across multiple environments. It features a graph-based fine-grained evaluation method and supports automatic task generation, addressing limitations in existing benchmarks.
 
 - [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://aclanthology.org/2024.emnlp-main.533/)
@@ -1625,7 +1625,7 @@
     - 🔑 Key: [framework], [ScenTest], [event knowledge graph], [GUI image understanding]
     - 📖 TLDR: This paper introduces *ScenTest*, a novel approach for scenario-based mobile app testing that integrates event knowledge graphs (EKGs) with GUI image understanding. By extracting entities and relationships from crowdsourced test reports, ScenTest constructs EKGs for specific scenarios, guiding automated testing processes. This method bridges the gap between testing execution and app business logic, achieving fully automated testing on target scenarios for the first time.
 
-- [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://mobileagentbench.github.io/)
+- [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
     - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
     - 🏛️ Institutions: CMU, University of Michigan, Northeastern University, HKU
     - 📅 Date: June 12, 2024
@@ -1634,20 +1634,20 @@
     - 🔑 Key: [benchmark], [MobileAgentBench]
     - 📖 TLDR: This paper introduces *MobileAgentBench*, a benchmark designed to evaluate the performance of large language model-based mobile agents. It defines 100 tasks across 10 open-source apps, categorized by difficulty levels, and assesses existing agents like AppAgent and MobileAgent to facilitate systematic comparisons.
 
-- [On the Effects of Data Scale on UI Control Agents](https://arxiv.org/abs/2406.03679)
+- [On the Effects of Data Scale on UI Control Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/a79f3ef3b445fd4659f44648f7ea8ffd-Abstract-Datasets_and_Benchmarks_Track.html)
     - Wei Li, William Bishop, Alice Li, Chris Rawles, Folawiyo Campbell-Ajala, Divya Tyamagundlu, Oriana Riva
     - 🏛️ Institutions: Google DeepMind, Google
     - 📅 Date: June 6, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
     - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [AndroidControl], [fine-tuning], [scalability]
     - 📖 TLDR: This study investigates how the performance of computer control agents scales with the amount of fine-tuning data. The authors introduce **AndroidControl**, a dataset comprising 15,283 demonstrations across 833 Android applications. Findings indicate that while in-domain performance improves with more data, out-of-domain performance, especially on high-level tasks, scales more slowly, suggesting that fine-tuning alone may be insufficient for robust out-of-domain performance.
 
-- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://github.com/X-PLUG/MobileAgent)
+- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://openreview.net/forum?id=O0nBMRlkc8)
     - Junyang Wang, Haiyang Xu, Haitao Jia, Xi Zhang, Ming Yan, Weizhou Shen, Ji Zhang, Fei Huang, Jitao Sang
     - 🏛️ Institutions: Alibaba Group, Beijing University of Posts and Telecommunications
     - 📅 Date: June 3, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: NeurIPS 2024 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [multi-agent], [planning], [decision-making], [reflection]
     - 📖 TLDR: The paper presents **Mobile-Agent-v2**, a multi-agent architecture designed to assist with mobile device operations. It comprises three agents: a planning agent that generates task progress, a decision agent that navigates tasks using a memory unit, and a reflection agent that corrects erroneous operations. This collaborative approach addresses challenges in navigation and long-context input scenarios, achieving over a 30% improvement in task completion compared to single-agent architectures.
