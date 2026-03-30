@@ -18,6 +18,15 @@
     - 🔑 Key: [security], [safety], [computer-use agent], [visual grounding], [guardrail], [adversarial attacks]
     - 📖 TLDR: Formalizes the "visual confused deputy" as a security vulnerability in computer-using agents where misperceived screen states (from grounding errors, adversarial screenshot manipulation, or TOCTOU races) cause agents to authorize unintended privileged actions, and proposes a dual-channel contrastive classification guardrail that independently verifies the visual click target and the agent's textual reasoning to block risky executions.
 
+- [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
+    - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-12
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [security], [LLM agent], [prompt injection], [privacy], [data leakage], [safety]
+    - 📖 TLDR: Identifies and measures the "Trusted Executor Dilemma"—where LLM agents execute adversarial instructions embedded in documentation because they cannot distinguish malicious directives from legitimate guidance—formalizing a three-dimensional taxonomy of instructional text-induced private data leakage attacks.
+
 - [SlowBA: An efficiency backdoor attack towards VLM-based GUI agents](https://arxiv.org/abs/2603.08316)
     - Junjie He, Zhizheng Zhang, Haoyu Chen, Sitao Huang, Xuyang Ye
     - 🏛️ Institutions: Shanghai Jiao Tong University
@@ -162,6 +171,15 @@
     - 🔑 Key: [benchmark], [security], [computer-use agent], [web vulnerabilities], [CTF], [HackWorld]
     - 📖 TLDR: This paper introduces HackWorld, the first benchmark for evaluating whether computer-use agents can discover and exploit realistic web application vulnerabilities through visual interaction. It places agents in vulnerable real-world-style web applications and measures attack performance in a Capture-the-Flag setting rather than simplified static security tasks. The benchmark shows that current CUAs have low exploitation success and weak cybersecurity awareness, making it a useful security stress test for web-based computer-use agents.
 
+- [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
+    - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-07
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [computer-use agent], [benchmark], [red-teaming], [attack]
+    - 📖 TLDR: Benchmarks real-world security threats of computer-use agents as system hackers through a comprehensive attacker-knowledge model covering end-to-end kill chains, realistic multi-host environments with encrypted credentials, and reliable automated judgment for evaluating CUA misuse.
+
 - [Cross-Modal Content Optimization for Steering Web Agent Preferences](https://arxiv.org/abs/2510.03612)
     - Tanqiu Jiang, Min Bai, Nikolaos Pappas, Yanjun Qi, Sandesh Swamy
     - 🏛️ Institutions: Stony Brook University, AWS AI Labs
@@ -180,6 +198,51 @@
     - 🔑 Key: [benchmark], [web agent], [security], [prompt injection], [attack detection], [safety]
     - 📖 TLDR: WAInjectBench presents the first comprehensive benchmark for evaluating prompt injection detection methods targeting web agents, finding that while some detectors handle explicit textual attacks or visible image perturbations reasonably well, they largely fail against attacks that omit explicit instructions or use imperceptible perturbations.
 
+- [Secure and Efficient Access Control for Computer-Use Agents via Context Space](https://arxiv.org/abs/2509.22256)
+    - Haochen Gong, Chenxiao Li, Rui Chang, Wenbo Shen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-09-26
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [computer-use agent], [access control], [safety], [framework]
+    - 📖 TLDR: CSAgent is a system-level, static policy-based access control framework for CUAs that uses "context space"—a representation of the agent operational context—to enforce fine-grained permissions and prevent LLM uncertainty from causing irreversible harmful actions.
+
+- [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
+    - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-09-09
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [computer-use agent], [defense], [safety], [framework]
+    - 📖 TLDR: AgentSentinel is an end-to-end, real-time security defense framework for CUAs that monitors LLM-driven tool commands across all agent components to detect and prevent unintended or harmful operations arising from LLM non-determinism, spanning vulnerabilities beyond insecure user prompts.
+
+- [Measuring Harmfulness of Computer-Using Agents](https://arxiv.org/abs/2508.00935)
+    - Aaron Xuxiang Tian, Ruofan Zhang, Janet Tang, Ji Wang, Tianyu Shi...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-07-31
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [computer-use agent], [safety], [red-teaming], [security]
+    - 📖 TLDR: CUAHarm is a benchmark of 104 expert-written realistic misuse scenarios for computer-using agents—including disabling firewalls, data leakage, and backdoor installation—with a sandbox and rule-based verifiable rewards for comprehensive CUA misuse risk evaluation.
+
+- [A Systematization of Security Vulnerabilities in Computer Use Agents](https://arxiv.org/abs/2507.05445)
+    - Daniel Jones, Giorgio Severi, Martin Pouliot, Gary Lopez, Joris de Gruyter...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-07-07
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [computer-use agent], [survey], [attack], [safety]
+    - 📖 TLDR: A systematization of seven classes of security vulnerabilities unique to Computer Use Agents—covering novel attack surfaces and trust boundaries not captured by traditional threat models—with systematic threat analysis and adversarial testing of real-world CUAs.
+
+- [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
+    - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-06-03
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [computer-use agent], [prompt injection], [security], [attack]
+    - 📖 TLDR: VPI-Bench is a benchmark for Visual Prompt Injection (VPI) attacks on CUAs, where malicious instructions are visually embedded within rendered user interfaces, investigating vulnerabilities of both full-system-access CUAs and Browser-Use Agents beyond HTML-level prompt injection attacks.
+
 - [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
     - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
     - 🏛️ Institutions: The Ohio State University
@@ -188,6 +251,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [benchmark], [dataset], [indirect prompt injection], [security], [CUA], [RTC‑Bench]
     - 📖 TLDR: Proposes **RedTeamCUA**, a hybrid VM‑OS + Docker‑web sandbox enabling realistic evaluation of computer‑use agents (CUAs) under indirect prompt injection. Introduces **RTC‑Bench**, a benchmark with 864 adversarial scenarios across hybrid web‑OS paths. Testing reveals high attack success rates (up to ~66%) against frontier CUAs like Claude and Operator, even end-to‑end (ASR ~48% on Claude 4). Highlights urgent need for robust defense mechanisms.
+
+- [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
+    - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-05-16
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [survey], [computer-use agent], [safety], [security], [GUI agent]
+    - 📖 TLDR: A comprehensive survey of safety and security threats to computer-using agents, covering vulnerabilities in LLM-driven reasoning, multi-component integration, and GUI interaction, analyzing novel risks as CUAs evolve from prototype tools to sophisticated autonomous systems.
 
 - [WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks](https://arxiv.org/abs/2504.18575)
     - Ivan Evtimov, Arman Zharmagambetov, Chuan Guo, Aaron Grattafiori, Kamalika Chaudhuri
@@ -206,6 +278,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [survey], [GUI agent], [trustworthiness], [safety], [security], [benchmark]
     - 📖 TLDR: A survey on trustworthy GUI agents that introduces a workflow-aligned taxonomy decomposing trust into Perception Trust, Reasoning Trust, and Interaction Trust, systematically reviewing failure modes, adversarial attacks, defense mechanisms, and evaluation practices for deploying GUI agents safely.
+
+- [sudo rm -rf agentic_security](https://arxiv.org/abs/2503.20279)
+    - Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-03-26
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [computer-use agent], [attack], [jailbreaking], [safety]
+    - 📖 TLDR: SUDO (Screen-based Universal Detox2Tox Offense) is a novel attack framework that bypasses refusal-trained safeguards in commercial CUAs (e.g., Claude Computer Use) by transforming harmful requests into seemingly benign ones via a Detox2Tox mechanism, exposing critical vulnerabilities in CUA safety.
 
 - [MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents](https://arxiv.org/abs/2503.10809)
     - Lukas Aichberger, Alasdair Paren, Guohao Li, Philip Torr, Yarin Gal, Adel Bibi

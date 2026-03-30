@@ -81,6 +81,15 @@
     - 🔑 Key: [GUI agent], [memory], [graph-based retrieval], [vision-language model], [web agent], [benchmark]
     - 📖 TLDR: HyMEM is a graph-based hybrid memory system for GUI agents that couples discrete symbolic nodes with continuous trajectory embeddings, supporting multi-hop retrieval and self-evolution; it boosts open-source 7B/8B VLMs by up to +22.5%, matching or surpassing closed-source models like GPT-4o and Gemini-2.5-Pro on WebVoyager, Mind2Web, and MMInA benchmarks.
 
+- [Video-Based Reward Modeling for Computer-Use Agents](https://arxiv.org/abs/2603.10178)
+    - Linxin Song, Jieyu Zhang, Huanxin Sheng, Taiwei Shi, Gupta Rahul...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-10
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [reward model], [computer-use agent], [video understanding], [evaluation], [training data]
+    - 📖 TLDR: Introduces ExeVR-53k, a dataset of 53K video-task-reward triplets for reward modeling from agent execution video (keyframes independent of agent internals), with adversarial instruction translation for negative samples, enabling method-agnostic CUA task completion evaluation.
+
 - [WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks](https://arxiv.org/abs/2601.02439)
     - Hao Bai, Alexey Taymanov, Tong Zhang, Aviral Kumar, Spencer Whitehead
     - 🏛️ Institutions: Microsoft, University of Illinois at Urbana-Champaign (UIUC), Carnegie Mellon University (CMU)
@@ -161,6 +170,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [GUI agent], [world model], [mobile], [code generation], [VLM], [benchmark]
     - 📖 TLDR: gWorld proposes visual world modeling for mobile GUIs via renderable code generation, where a single VLM predicts the next GUI state as executable web code rather than generating pixels directly, achieving state-of-the-art accuracy on multiple benchmarks while being over 50x smaller than competing models.
+
+- [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
+    - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-02-02
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [safety], [computer-use agent], [world model], [guardrail], [long-horizon task]
+    - 📖 TLDR: SafePred is a predictive guardrail for computer-using agents that aligns predicted future states from a world model against safety constraints to proactively prevent long-term risks emerging with delay, overcoming reactive guardrails that only constrain behavior within the current observation space.
 
 - [Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction](https://arxiv.org/abs/2602.00575)
     - Chaoqun Cui, Jing Huang, Shijing Wang, Feng Chen, Fangyuan Liu
@@ -306,6 +324,15 @@
     - 🔑 Key: [GUI agent], [mobile agent], [multimodal LLM], [GUI grounding], [smartphone automation], [vision-language model]
     - 📖 TLDR: AFRAgent is a compact InstructBLIP-based multimodal architecture that uses adaptive feature renormalization to fuse high-resolution image details into low-resolution embeddings, achieving state-of-the-art smartphone GUI automation on Meta-GUI and AITW benchmarks at less than one-fourth the size of competing models.
 
+- [Fara-7B: An Efficient Agentic Model for Computer Use](https://arxiv.org/abs/2511.19663)
+    - Ahmed Awadallah, Yash Lara, Raghav Magazine, Hussein Mozannar, Akshay Nambi...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-24
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [model], [computer-use agent], [web agent], [synthetic data], [training data]
+    - 📖 TLDR: Introduces FaraGen, a high-throughput synthetic data generation system for multi-step web tasks (~$1 per verified trajectory), used to train Fara-7B, a native CUA model operating purely from screenshots that achieves strong performance on multi-step web automation benchmarks.
+
 - [WebSTAR: Scalable Data Synthesis for Computer Use Agents with Step-Level Filtering](https://arxiv.org/abs/2512.10962)
     - Yifei He, Pranit Chawla, Yaser Souri...
     - 🏛️ Institutions: University of Illinois Urbana-Champaign, Microsoft
@@ -350,6 +377,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [dataset], [model], [GUI grounding], [desktop grounding], [reinforcement learning], [GroundCUA], [GroundNext]
     - 📖 TLDR: This paper introduces GroundCUA, a large-scale desktop grounding dataset built from expert human demonstrations, covering 87 applications, 56K screenshots, and more than 3.56M human-verified UI annotations. Using this data, the authors train the GroundNext family of grounding models, which achieve state-of-the-art results across five benchmarks with far less training data than prior work, and improve further with reinforcement learning post-training. The paper shows that high-quality human demonstration data is a key driver for robust grounding in general-purpose computer-use agents.
+
+- [Game-TARS: Pretrained Foundation Models for Scalable Generalist Multimodal Game Agents](https://arxiv.org/abs/2510.23691)
+    - Zihao Wang, Xujing Li, Yining Ye, Junjie Fang, Haoming Wang...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-10-27
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [model], [computer-use agent], [game agent], [pretraining], [generalization]
+    - 📖 TLDR: Game-TARS is a generalist game and computer-use agent pretrained on 500B+ tokens with a unified keyboard-mouse action space across OS, web, and simulation games, using decaying continual loss to reduce causal confusion and sparse-thinking to balance reasoning depth and inference cost.
 
 - [UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning](https://arxiv.org/abs/2510.20286)
     - Liangyu Chen, Hanzhang Zhou, Chenglin Cai, Jianan Zhang, Panrong Tong, Quyu Kong, Xu Zhang, Chen Liu, Yuqi Liu, Wenxuan Wang, Yue Wang, Qin Jin, Steven Hoi
@@ -495,6 +531,15 @@
     - 🔑 Key: [framework], [dataset], [model], [deep research], [reflection], [voting], [agent foundation models]
     - 📖 TLDR: This work introduces **Cognitive Kernel-Pro**, a fully open-source, multi-module agent framework designed to democratize advanced AI agent development. It curates high-quality training data across four domains—web, files, code, and general reasoning—and introduces test-time strategies like reflection and voting to enhance robustness. Evaluated on the GAIA benchmark, its open 8B-parameter model outperforms previous open-source agents such as WebDancer and WebSailor, setting a new performance standard. Code is publicly available.
 
+- [Phi-Ground Tech Report: Advancing Perception in GUI Grounding](https://arxiv.org/abs/2507.23779)
+    - Miaosen Zhang, Ziqiang Xu, Jialiang Zhu, Qi Dai, Kai Qiu...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-07-31
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [GUI grounding], [model], [computer-use agent], [visual grounding], [benchmark]
+    - 📖 TLDR: Phi-Ground is a tech report advancing GUI grounding perception for CUAs, presenting a model series significantly improving accuracy on challenging benchmarks including ScreenSpot-Pro and UI-Vision beyond the ~65% ceiling of existing end-to-end grounding models.
+
 - [NeuralOS: Towards Simulating Operating Systems via Neural Generative Models](https://arxiv.org/abs/2507.08800)
     - Luke Rivard, Sun Sun, Hongyu Guo, Wenhu Chen, Yuntian Deng
     - 🏛️ Institutions: University of Waterloo, National Research Council Canada
@@ -503,6 +548,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [GUI], [environment], [world model], [diffusion model], [desktop], [data generation]
     - 📖 TLDR: NeuralOS introduces a neural framework that simulates operating system GUIs by combining an RNN-based state tracker with a diffusion-based renderer to predict screen frames in response to user inputs like mouse clicks and keyboard events, trained on Ubuntu XFCE recordings including AI agent-generated interactions.
+
+- [WebSynthesis: World-Model-Guided MCTS for Efficient WebUI-Trajectory Synthesis](https://arxiv.org/abs/2507.04370)
+    - Yifei Gao, Junhong Ye, Jiaqi Wang, Jitao Sang
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-07-06
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web agent], [world model], [MCTS], [data generation], [training data]
+    - 📖 TLDR: WebSynthesis is a world-model-guided MCTS framework for efficient WebUI trajectory synthesis that simulates browser states to overcome uncontrollable real-environment states and data scarcity, enabling large-scale synthetic trajectory generation for web agent training.
 
 - [GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006)
     - Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Bin Chen, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Haochen Li, Jiale Zhu, Jiali Chen, Jiaxing Xu, Jing Chen, Jinghao Lin, Jinhao Chen, Jinjiang Wang, Junjie Chen, Leqi Lei, Letian Gong, Leyi Pan, Mingdao Liu, Mingde Xu, Mingzhi Zhang, Qinkai Zheng, Ruiliang Lyu, Shangqin Tu, Sheng Yang, Shengbiao Meng, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Tianyu Tong, Wei Jia, Wenkai Li, Xiao Liu, Xiaohan Zhang, Xin Lyu, Xinyu Zhang, Xinyue Fan, Xuancheng Huang, Yadong Xue, Yanfeng Wang, Yanling Wang, Yanzi Wang, Yifan An, Yifan Du, Yiheng Huang, Yilin Niu, Yiming Shi, Yu Wang, Yuan Wang, Yuanchang Yue, Yuchen Li, Yusen Liu, Yutao Zhang, Yuting Wang, Yuxuan Zhang, Zhao Xue, Zhengxiao Du, Zhenyu Hou, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang

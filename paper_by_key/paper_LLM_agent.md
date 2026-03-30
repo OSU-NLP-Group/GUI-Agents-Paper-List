@@ -18,6 +18,15 @@
     - 🔑 Key: [framework], [web agent], [AI planning], [evaluation metrics], [WebArena], [LLM agent]
     - 📖 TLDR: This paper introduces a formal framework mapping LLM-based web agent architectures to classical AI planning paradigms (BFS, Best-First Tree Search, DFS), proposes five novel trajectory evaluation metrics beyond success rate, and validates them on a new dataset of 794 human-labeled WebArena trajectories, showing that different agent architectures excel on different quality dimensions.
 
+- [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
+    - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2026-03-12
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [security], [LLM agent], [prompt injection], [privacy], [data leakage], [safety]
+    - 📖 TLDR: Identifies and measures the "Trusted Executor Dilemma"—where LLM agents execute adversarial instructions embedded in documentation because they cannot distinguish malicious directives from legitimate guidance—formalizing a three-dimensional taxonomy of instructional text-induced private data leakage attacks.
+
 - [AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents](https://arxiv.org/abs/2504.09723)
     - Yuxuan Lu, Ting-Yao Hsu, Hansu Gu, Limeng Cui, Yaochen Xie, William Headden, Bingsheng Yao, Akash Veeragouni, Jiapeng Liu, Sreyashi Nag, Jessie Wang, Dakuo Wang
     - 🏛️ Institutions: Northeastern University, Pennsylvania State University, Amazon
@@ -45,15 +54,6 @@
     - 🔑 Key: [web agent], [LLM agent], [offline learning], [hint generation], [trajectory distillation], [benchmark]
     - 📖 TLDR: JEF-Hinter distills offline agent trajectories (both successes and failures) into compact, context-aware hints that are retrieved at inference time to improve web agent performance, consistently outperforming baselines including human- and document-based hints on MiniWoB++, WorkArena-L1, and WebArena-Lite.
 
-- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
-    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Lei Xu, David S. Rosenbluth
-    - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web testing], [LLM agent], [bug detection], [GUI grounding], [test oracle], [software engineering]
-    - 📖 TLDR: WebTestPilot is an LLM-based agent for end-to-end web testing that symbolizes GUI elements and infers pre/post-conditions from natural language specifications as test oracles, achieving 96% precision and 96% recall in bug detection on a benchmark of bug-injected web apps, significantly outperforming existing baselines.
-
 - [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430)
     - Renjun Xu, Yang Yan
     - 🏛️ Institutions: Zhejiang University
@@ -62,6 +62,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [survey], [LLM agent], [agent skills], [CUA], [GUI grounding], [benchmark]
     - 📖 TLDR: A comprehensive survey of the agent skills landscape for LLMs, organized along four axes: architectural foundations (SKILL.md, MCP), skill acquisition (RL, autonomous discovery), deployment at scale (CUA stack, GUI grounding, OSWorld/SWE-bench), and security (skill trust governance framework).
+
+- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
+    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Lei Xu, David S. Rosenbluth
+    - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web testing], [LLM agent], [bug detection], [GUI grounding], [test oracle], [software engineering]
+    - 📖 TLDR: WebTestPilot is an LLM-based agent for end-to-end web testing that symbolizes GUI elements and infers pre/post-conditions from natural language specifications as test oracles, achieving 96% precision and 96% recall in bug detection on a benchmark of bug-injected web apps, significantly outperforming existing baselines.
 
 - [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
     - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
@@ -162,6 +171,15 @@
     - 🔑 Key: [web agent], [LLM agent], [multimodal], [benchmark], [legal domain], [form filling]
     - 📖 TLDR: LegalWebAgent is a multimodal LLM-powered web agent framework that autonomously navigates legal websites, extracts information, and performs actions (form completion, schedule booking) to bridge the access-to-justice gap, achieving 84.4% average success rate on a 15-task benchmark of real-world Quebec civil law service processes.
 
+- [Improving Language Agents through BREW](https://arxiv.org/abs/2511.20297)
+    - Shashank Kirtania, Param Biyani, Priyanshu Gupta, Yasharth Bajpai, Roshni Iyer...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-11-25
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [LLM agent], [memory], [experiential learning], [framework], [tool use]
+    - 📖 TLDR: BREW (Bootstrapping Experientially-learned Environmental Knowledge) builds and refines structured memory from agent-environment interactions as an alternative to computationally expensive weight optimization (PPO/GRPO), enabling efficient agent optimization for structured reasoning and computer-use automation tasks.
+
 - [BrowseConf: Confidence-Guided Test-Time Scaling for Web Agents](https://arxiv.org/abs/2510.23458)
     - Litu Ou, Kuan Li, Huifeng Yin, Liwen Zhang, Zhongwang Zhang, Xixi Wu, Rui Ye, Zile Qiao, Pengjun Xie, Jingren Zhou, Yong Jiang
     - 🏛️ Institutions: Tongyi Lab, Alibaba Group, University of Edinburgh
@@ -179,6 +197,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [web agent], [safety], [LLM agent], [dark patterns], [evaluation]
     - 📖 TLDR: This paper presents the first study on how dark patterns (deceptive UI designs) affect LLM-based web agents, introducing TrickyArena as a controlled benchmark environment and finding that agents are susceptible to dark patterns an average of 41% of the time across six popular web agent frameworks and three LLMs.
+
+- [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
+    - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez...
+    - 🏛️ Institutions: Unknown
+    - 📅 Date: 2025-08-26
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [safety], [LLM agent], [monitoring], [computer-use agent], [red-teaming]
+    - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.
 
 - [Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation](https://arxiv.org/abs/2505.11604)
     - Kyudan Jung, Hojun Cho, Jooyeol Yun, Soyoung Yang, Jaehyeok Jang, Jaegul Choo

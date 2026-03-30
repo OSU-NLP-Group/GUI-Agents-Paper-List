@@ -18,15 +18,6 @@
     - 🔑 Key: [GUI agent], [mobile agent], [reinforcement learning], [benchmark], [generalization], [Android]
     - 📖 TLDR: Introduces AndroidWorld-Generalization, a benchmark for evaluating zero-shot generalization of GUI-based mobile agents across unseen task instances, templates, and applications, and proposes an open-source RL training system using GRPO that shows RL outperforms supervised fine-tuning but reveals significant challenges in generalizing to unseen templates and apps.
 
-- [WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces](https://arxiv.org/abs/2603.05295)
-    - Xiao Liu, Ziyang Luo, Jiawei Liu, Kaizhe Hu, Yeye He
-    - 🏛️ Institutions: Fudan University, IMean AI
-    - 📅 Date: March 05, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [dataset], [benchmark], [grounding], [training data], [multimodal]
-    - 📖 TLDR: WebChain is the largest open-source dataset of 31,725 human-annotated web interaction trajectories (318k steps) on real-world websites, featuring triple-aligned visual, structural, and action data. Leveraging this dataset, the authors propose a Dual Mid-Training recipe that decouples spatial grounding from planning, achieving state-of-the-art performance on their WebChainBench and other public GUI benchmarks.
-
 - [WebFactory: Automated Compression of Foundational Language Intelligence into Grounded Web Agents](https://arxiv.org/abs/2603.05044)
     - Xiao Liu, Ziyang Luo, Jiawei Liu, Kaizhe Hu, Yeye He
     - 🏛️ Institutions: Fudan University, IMean AI, The Chinese University of Hong Kong, Tsinghua University
@@ -35,6 +26,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [reinforcement learning], [GUI agent], [synthetic data], [environment synthesis], [knowledge distillation]
     - 📖 TLDR: WebFactory introduces a fully automated closed-loop reinforcement learning pipeline that compresses LLM-encoded internet knowledge into grounded GUI web agents through scalable environment synthesis, knowledge-aware task generation, and decomposed reward RL training, achieving performance comparable to agents trained on human-annotated data while using synthetic data from only 10 websites.
+
+- [WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces](https://arxiv.org/abs/2603.05295)
+    - Xiao Liu, Ziyang Luo, Jiawei Liu, Kaizhe Hu, Yeye He
+    - 🏛️ Institutions: Fudan University, IMean AI
+    - 📅 Date: March 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web agent], [dataset], [benchmark], [grounding], [training data], [multimodal]
+    - 📖 TLDR: WebChain is the largest open-source dataset of 31,725 human-annotated web interaction trajectories (318k steps) on real-world websites, featuring triple-aligned visual, structural, and action data. Leveraging this dataset, the authors propose a Dual Mid-Training recipe that decouples spatial grounding from planning, achieving state-of-the-art performance on their WebChainBench and other public GUI benchmarks.
 
 - [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
     - Kaizhe Hu, Yeye He, Hao Shi, Zhou Yu, Zihan Ding
