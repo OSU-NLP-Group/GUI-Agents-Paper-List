@@ -1672,9 +1672,9 @@
 
 - [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
     - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
-    - 🏛️ Institutions: CMU, UCSB
+    - 🏛️ Institutions: Carnegie Mellon University, University of California, Santa Barbara
     - 📅 Date: June 2024
-    - 📑 Publisher: NAACL 2024
+    - 📑 Publisher: NAACL 2024 Industry Track
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [visual grounding], [UI element localization], [LVG]
     - 📖 TLDR: This work introduces the task of visual UI grounding, which unifies detection and grounding by enabling models to identify UI elements referenced by natural language commands solely from visual input. The authors propose **LVG**, a model that outperforms baselines pre-trained on larger datasets by over 4.9 points in top-1 accuracy, demonstrating its effectiveness in localizing referenced UI elements without relying on UI metadata.
@@ -1897,7 +1897,7 @@
 
 - [Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html)
     - Wenkai Yang, Xiaohan Bi, Yankai Lin, Sishuo Chen, Jie Zhou, Xu Sun
-    - 🏛️ Institutions: Renming University of China, PKU, Tencent
+    - 🏛️ Institutions: Renmin University of China, Peking University, Tencent
     - 📅 Date: Feb 17, 2024
     - 📑 Publisher: NeurIPS 2024
     - 💻 Env: [GUI], [Misc]
