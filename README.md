@@ -28,7 +28,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
-[framework (169)](paper_by_key/paper_framework.md) | [benchmark (115)](paper_by_key/paper_benchmark.md) | [dataset (102)](paper_by_key/paper_dataset.md) | [model (56)](paper_by_key/paper_model.md) | [reinforcement learning (37)](paper_by_key/paper_reinforcement_learning.md) | [planning (16)](paper_by_key/paper_planning.md) | [safety (15)](paper_by_key/paper_safety.md) | [grounding (13)](paper_by_key/paper_grounding.md) | [visual grounding (11)](paper_by_key/paper_visual_grounding.md) | [evaluation (11)](paper_by_key/paper_evaluation.md) | [reasoning (10)](paper_by_key/paper_reasoning.md) | [vision language model (9)](paper_by_key/paper_vision_language_model.md) | [survey (8)](paper_by_key/paper_survey.md) | [multimodal (8)](paper_by_key/paper_multimodal.md) | [GUI grounding (6)](paper_by_key/paper_GUI_grounding.md) | [memory (6)](paper_by_key/paper_memory.md) | [multi-agent (5)](paper_by_key/paper_multi-agent.md) | [learning (5)](paper_by_key/paper_learning.md) | [chain-of-thought (4)](paper_by_key/paper_chain-of-thought.md) | [OSWorld (4)](paper_by_key/paper_OSWorld.md)
+[framework (168)](paper_by_key/paper_framework.md) | [benchmark (115)](paper_by_key/paper_benchmark.md) | [dataset (102)](paper_by_key/paper_dataset.md) | [model (56)](paper_by_key/paper_model.md) | [reinforcement learning (37)](paper_by_key/paper_reinforcement_learning.md) | [planning (16)](paper_by_key/paper_planning.md) | [safety (15)](paper_by_key/paper_safety.md) | [grounding (13)](paper_by_key/paper_grounding.md) | [visual grounding (11)](paper_by_key/paper_visual_grounding.md) | [evaluation (11)](paper_by_key/paper_evaluation.md) | [reasoning (10)](paper_by_key/paper_reasoning.md) | [vision language model (9)](paper_by_key/paper_vision_language_model.md) | [survey (8)](paper_by_key/paper_survey.md) | [multimodal (8)](paper_by_key/paper_multimodal.md) | [memory (6)](paper_by_key/paper_memory.md) | [multi-agent (5)](paper_by_key/paper_multi-agent.md) | [GUI grounding (5)](paper_by_key/paper_GUI_grounding.md) | [learning (5)](paper_by_key/paper_learning.md) | [chain-of-thought (4)](paper_by_key/paper_chain-of-thought.md) | [OSWorld (4)](paper_by_key/paper_OSWorld.md)
 
 ## Papers Grouped by Authors
 [Yu Su (16)](paper_by_author/paper_Yu_Su.md) | [Huan Sun (12)](paper_by_author/paper_Huan_Sun.md) | [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) | [Caiming Xiong (10)](paper_by_author/paper_Caiming_Xiong.md) | [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) | [Graham Neubig (10)](paper_by_author/paper_Graham_Neubig.md) | [Jie Tang (9)](paper_by_author/paper_Jie_Tang.md) | [Tianbao Xie (9)](paper_by_author/paper_Tianbao_Xie.md) | [Xiao Liu (8)](paper_by_author/paper_Xiao_Liu.md) | [Yuxiao Dong (8)](paper_by_author/paper_Yuxiao_Dong.md) | [Qiushi Sun (7)](paper_by_author/paper_Qiushi_Sun.md) | [Zhiyong Wu (7)](paper_by_author/paper_Zhiyong_Wu.md) | [Hanyu Lai (7)](paper_by_author/paper_Hanyu_Lai.md) | [Boyu Gou (7)](paper_by_author/paper_Boyu_Gou.md) | [Yu Gu (7)](paper_by_author/paper_Yu_Gu.md) | [Shuyan Zhou (7)](paper_by_author/paper_Shuyan_Zhou.md) | [Zhuosheng Zhang (6)](paper_by_author/paper_Zhuosheng_Zhang.md) | [Yu Qiao (6)](paper_by_author/paper_Yu_Qiao.md) | [Danyang Zhang (6)](paper_by_author/paper_Danyang_Zhang.md) | [Zeyi Liao (6)](paper_by_author/paper_Zeyi_Liao.md)
@@ -36,15 +36,6 @@ This repo covers a variety of papers related to GUI Agents, such as:
 ## All Papers (from most recent to oldest)
 <details open>
 <summary>Papers</summary>
-
-- [Continual GUI Agents: Improving Factual and Causal Grounding for Better Generalization](https://arxiv.org/abs/2603.18428)
-    - Tao Feng, Borui Kang, Hangjie Yuan, Zhaofei Cai, Ziwei Liu
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: March 20, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [continual learning], [GUI grounding], [causal grounding], [factual grounding]
-    - 📖 TLDR: This paper studies why GUI agents fail to generalize under continual learning and identifies two distinct failure modes: weak factual grounding on unseen interfaces and weak causal grounding over interaction dynamics. It proposes a training framework that explicitly improves both forms of grounding so that agents can adapt across evolving tasks without catastrophic degradation. The results position continual grounding quality, rather than raw imitation scale alone, as a key bottleneck for long-term GUI-agent generalization.
 
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
