@@ -267,7 +267,7 @@
 
 - [GUI-Reflection: Empowering Multimodal GUI Models with Self-Reflection Behavior](https://arxiv.org/abs/2506.08012)
     - Penghao Wu, Shengnan Ma, Bo Wang, Jiaheng Yu, Lewei Lu, Ziwei Liu
-    - 🏛️ Institutions: NTU (S‑Lab), SenseTime Research
+    - 🏛️ Institutions: Nanyang Technological University, SenseTime Research
     - 📅 Date: June 9, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -340,7 +340,7 @@
 
 - [ZeroGUI: Automating Online GUI Learning at Zero Human Cost](https://arxiv.org/abs/2505.23762)
     - Chenyu Yang, Shiqian Su, Shi Liu, Xuan Dong, Yue Yu, Weijie Su, Xuehui Wang, Zhaoyang Liu, Jinguo Zhu, Hao Li, Wenhai Wang, Yu Qiao, Xizhou Zhu, Jifeng Dai
-    - 🏛️ Institutions: Shanghai Artificial Intelligence Lab, Tsinghua Univ, SJTU, HKUST, CUHK
+    - 🏛️ Institutions: Shanghai AI Laboratory, Tsinghua University, Shanghai Jiao Tong University, Hong Kong University of Science and Technology, The Chinese University of Hong Kong
     - 📅 Date: May 29, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -403,7 +403,7 @@
 
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
-    - 🏛️ Institutions: HIT‑SZ (Harbin Institute of Technology, Shenzhen), Huawei Noah’s Ark Lab
+    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Huawei Noah's Ark Lab
     - 📅 Date: May 22, 2025
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Mobile]
@@ -682,7 +682,7 @@
 
 - [Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis](https://arxiv.org/abs/2502.20383)
     - Jeffrey Yang Fan Chiang, Seungjae Lee, Jia-Bin Huang, Furong Huang, Yizheng Chen
-    - 🏛️ Institutions: UMD
+    - 🏛️ Institutions: University of Maryland
     - 📅 Date: March 4, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1546,7 +1546,7 @@
 
 - [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://openreview.net/forum?id=5G7MRfPngt)
     - Gabriel Herbert Sarch, Lawrence Jang, Michael J. Tarr, William W. Cohen, Kenneth Marino, Katerina Fragkiadaki
-    - 🏛️ Institutions: CMU, Google DeepMind
+    - 🏛️ Institutions: Carnegie Mellon University, Google DeepMind
     - 📅 Date: June 20, 2024
     - 📑 Publisher: NeurIPS 2024 (Spotlight)
     - 💻 Env: [GUI]
@@ -1609,7 +1609,7 @@
 
 - [GUI Odyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices](https://arxiv.org/abs/2406.08451)
     - Quanfeng Lu, Wenqi Shao, Zitao Liu, Fanqing Meng, Boxuan Li, Botong Chen, Siyuan Huang, Kaipeng Zhang, Yu Qiao, Ping Luo
-    - 🏛️ Institutions: OpenGVLab, Shanghai AI Laboratory, HKU, Nanjing University, Harbin Institute of Technology, Shenzhen, SJTU
+    - 🏛️ Institutions: OpenGVLab, Shanghai AI Laboratory, The University of Hong Kong, Nanjing University, Harbin Institute of Technology, Shenzhen, Shanghai Jiao Tong University
     - 📅 Date: June 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
