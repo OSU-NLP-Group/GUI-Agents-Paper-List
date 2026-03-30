@@ -1,4 +1,4 @@
-# Papers with Keyword: GUI grounding
+# Papers with Keyword: GUI Grounding
 
 - [Towards GUI Agents: Vision-Language Diffusion Models for GUI Grounding](https://arxiv.org/abs/2603.26211)
     - Shrinidhi Kumbhar, Haofu Liao, Srikar Appalaraju, Kunwar Yashraj Singh
