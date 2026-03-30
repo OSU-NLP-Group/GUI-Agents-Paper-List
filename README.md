@@ -28,7 +28,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
-[framework (168)](paper_by_key/paper_framework.md) | [benchmark (115)](paper_by_key/paper_benchmark.md) | [dataset (102)](paper_by_key/paper_dataset.md) | [model (56)](paper_by_key/paper_model.md) | [reinforcement learning (37)](paper_by_key/paper_reinforcement_learning.md) | [planning (16)](paper_by_key/paper_planning.md) | [safety (15)](paper_by_key/paper_safety.md) | [grounding (13)](paper_by_key/paper_grounding.md) | [visual grounding (11)](paper_by_key/paper_visual_grounding.md) | [evaluation (11)](paper_by_key/paper_evaluation.md) | [reasoning (10)](paper_by_key/paper_reasoning.md) | [vision language model (9)](paper_by_key/paper_vision_language_model.md) | [survey (8)](paper_by_key/paper_survey.md) | [multimodal (8)](paper_by_key/paper_multimodal.md) | [memory (6)](paper_by_key/paper_memory.md) | [multi-agent (5)](paper_by_key/paper_multi-agent.md) | [GUI grounding (5)](paper_by_key/paper_GUI_grounding.md) | [learning (5)](paper_by_key/paper_learning.md) | [chain-of-thought (4)](paper_by_key/paper_chain-of-thought.md) | [OSWorld (4)](paper_by_key/paper_OSWorld.md)
+[framework (168)](paper_by_key/paper_framework.md) | [benchmark (116)](paper_by_key/paper_benchmark.md) | [dataset (102)](paper_by_key/paper_dataset.md) | [model (56)](paper_by_key/paper_model.md) | [reinforcement learning (37)](paper_by_key/paper_reinforcement_learning.md) | [safety (16)](paper_by_key/paper_safety.md) | [planning (16)](paper_by_key/paper_planning.md) | [grounding (13)](paper_by_key/paper_grounding.md) | [visual grounding (11)](paper_by_key/paper_visual_grounding.md) | [evaluation (11)](paper_by_key/paper_evaluation.md) | [reasoning (10)](paper_by_key/paper_reasoning.md) | [vision language model (9)](paper_by_key/paper_vision_language_model.md) | [survey (8)](paper_by_key/paper_survey.md) | [multimodal (8)](paper_by_key/paper_multimodal.md) | [memory (6)](paper_by_key/paper_memory.md) | [OSWorld (5)](paper_by_key/paper_OSWorld.md) | [multi-agent (5)](paper_by_key/paper_multi-agent.md) | [GUI grounding (5)](paper_by_key/paper_GUI_grounding.md) | [learning (5)](paper_by_key/paper_learning.md) | [chain-of-thought (4)](paper_by_key/paper_chain-of-thought.md)
 
 ## Papers Grouped by Authors
 [Yu Su (16)](paper_by_author/paper_Yu_Su.md) | [Huan Sun (12)](paper_by_author/paper_Huan_Sun.md) | [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) | [Caiming Xiong (10)](paper_by_author/paper_Caiming_Xiong.md) | [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) | [Graham Neubig (10)](paper_by_author/paper_Graham_Neubig.md) | [Jie Tang (9)](paper_by_author/paper_Jie_Tang.md) | [Tianbao Xie (9)](paper_by_author/paper_Tianbao_Xie.md) | [Xiao Liu (8)](paper_by_author/paper_Xiao_Liu.md) | [Yuxiao Dong (8)](paper_by_author/paper_Yuxiao_Dong.md) | [Qiushi Sun (7)](paper_by_author/paper_Qiushi_Sun.md) | [Zhiyong Wu (7)](paper_by_author/paper_Zhiyong_Wu.md) | [Hanyu Lai (7)](paper_by_author/paper_Hanyu_Lai.md) | [Boyu Gou (7)](paper_by_author/paper_Boyu_Gou.md) | [Yu Gu (7)](paper_by_author/paper_Yu_Gu.md) | [Shuyan Zhou (7)](paper_by_author/paper_Shuyan_Zhou.md) | [Zhuosheng Zhang (6)](paper_by_author/paper_Zhuosheng_Zhang.md) | [Yu Qiao (6)](paper_by_author/paper_Yu_Qiao.md) | [Danyang Zhang (6)](paper_by_author/paper_Danyang_Zhang.md) | [Zeyi Liao (6)](paper_by_author/paper_Zeyi_Liao.md)
@@ -36,6 +36,15 @@ This repo covers a variety of papers related to GUI Agents, such as:
 ## All Papers (from most recent to oldest)
 <details open>
 <summary>Papers</summary>
+
+- [OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://arxiv.org/abs/2506.14866)
+    - Thomas Kuntz, Agatha Duzan, Hao Zhao, Francesco Croce, J Zico Kolter, Nicolas Flammarion, Maksym Andriushchenko
+    - 🏛️ Institutions: EPFL, Carnegie Mellon University
+    - 📅 Date: October 29, 2025
+    - 📑 Publisher: NeurIPS 2025 (Datasets and Benchmarks Track Spotlight)
+    - 💻 Env: [GUI]
+    - 🔑 Key: [benchmark], [safety], [computer-use agent], [prompt injection], [OSWorld], [OS-Harm]
+    - 📖 TLDR: This paper introduces OS-Harm, a safety benchmark for computer-use agents built on top of OSWorld. It covers 150 tasks spanning deliberate misuse, prompt injection, and model misbehavior across applications such as browsers, editors, and email clients, and includes an automated judge for both safety and task correctness. Evaluations show that current frontier agents often comply with harmful requests, remain vulnerable to prompt injection, and can execute unsafe actions in realistic computer-use settings.
 
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
