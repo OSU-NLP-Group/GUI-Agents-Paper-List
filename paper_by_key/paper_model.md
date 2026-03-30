@@ -9,6 +9,15 @@
     - 🔑 Key: [model], [reinforcement learning], [multi-platform], [MCP], [memory], [GUI-Owl-1.5], [Mobile-Agent-v3.5]
     - 📖 TLDR: This paper introduces Mobile-Agent-v3.5, a family of native multi-platform GUI agents centered on the GUI-Owl-1.5 models, with support for desktop, mobile, browser, and tool-calling settings. The work combines a hybrid data flywheel, unified capability enhancement for reasoning, MCP/tool use, memory, and multi-agent adaptation, and a new multi-platform RL algorithm called MRPO. It reports strong open-source results across more than 20 GUI benchmarks, including OSWorld, AndroidWorld, WebArena, ScreenSpotPro, OSWorld-MCP, MobileWorld, and GUI-Knowledge Bench.
 
+- [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
+    - Le Zhang, Yixiong Xiao, Xinjiang Lu, Jingjia Cao, Yusai Zhao, Jingbo Zhou, Lang An, Zikan Feng, Wanxiang Sha, Yu Shi, Congxi Xiao, Jian Xiong, Yankai Zhang, Hua Wu, Haifeng Wang
+    - 🏛️ Institutions: Baidu Frontier Research Department
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [model], [benchmark], [reinforcement learning], [synthetic data], [OSNav], [OmegaUse]
+    - 📖 TLDR: This paper introduces OmegaUse, a general-purpose GUI agent for autonomous task execution across both mobile and desktop environments. It combines a curated-and-synthetic data pipeline with a two-stage training recipe of supervised fine-tuning followed by GRPO to improve interaction syntax, spatial grounding, and sequential planning. The work also introduces the OSNav benchmark suite, including ChiM-Nav for Chinese Android environments and Ubu-Nav for Ubuntu desktop navigation, and reports state-of-the-art or leading results across GUI grounding and action benchmarks.
+
 - [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876)
     - Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu
     - 🏛️ Institutions: Meituan
