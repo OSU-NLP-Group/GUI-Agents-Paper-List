@@ -1258,7 +1258,7 @@
 
 - [Turn Every Application into an Agent: Towards Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents](https://arxiv.org/abs/2409.17140)
     - Junting Lu, Zhiyang Zhang, Fangkai Yang, Jue Zhang, Lu Wang, Chao Du, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
-    - 🏛️ Institutions: Peking University, Microsoft
+    - 🏛️ Institutions: Peking University, Nanjing University, Microsoft
     - 📅 Date: September 26, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
