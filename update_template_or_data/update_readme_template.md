@@ -45,52 +45,10 @@ For the complete list of all papers, see [ALL_PAPERS.md](ALL_PAPERS.md).
 
 
 
-## How to Add a Paper or Update the README
+## Contributing
 
-Please fork and update:
-- [The main paper list](update_template_or_data/update_paper_list.md)
-- [README template](update_template_or_data/update_readme_template.md)
-- [automatic workflow](.github/workflows/main.yml)
+We welcome contributions from the community!
 
-🤖 You can use [this GPTs](https://chatgpt.com/g/g-VqW9ONrgL-gui-paper-list) to quickly search and get a formatted paper entry automatically by inputting a paper name. Or you can simply leave a comment in an issue.
-
-<details>
-<summary>Format example and explanation</summary>
-
-```
-- [title](paper link)
-    - List authors directly without a "key" identifier (e.g., author1, author2)
-    - 🏛️ Institutions: List the institutions concisely, using abbreviations (e.g., university names, like OSU).
-    - 📅 Date: e.g., Oct 30, 2024
-    - 📑 Publisher: ICLR 2025
-    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [Search] for papers purely using Search APIs for web browsing without GUI interaction. A paper can have multiple envs (e.g., [Web], [Search]). Use [Misc] if it is researching in general domains.
-    - 🔑 Key: Label each keyword within brackets, e.g., [model], [framework],[dataset],[benchmark].
-    - 📖 TLDR: Brief summary of the paper.
-```
-
-Regarding the 🔑 Key: 
-
-| Key             | Definition                                                                            |
-|-----------------|---------------------------------------------------------------------------------------|
-| model           | Indicates a newly trained model.                                                      |
-| framework       | If the paper proposes a new agent framework.                                          |
-| dataset         | If a new (training) dataset is created and published.                                 |
-| benchmark       | If a new benchmark is established (also add "dataset" if there's a new training set). |
-| primary studies | List the main focus or innovation in the study.                                       |
-| Abbreviations | Include commonly used abbreviations associated with the paper (model names, framework names, etc.).                       |
-
-For missing information, use "Unknown."
-
-
-
-</details>
-
-[//]: # ()
-[//]: # (## Contributors)
-
-[//]: # ()
-[//]: # (<a href="https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/graphs/contributors">)
-
-[//]: # (  <img src="https://contrib.rocks/image?repo=OSU-NLP-Group/GUI-Agents-Paper-List" />)
-
-[//]: # (</a>)
+- **Missing a paper?** Open an [issue](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues) with the paper title, link, and any relevant details — we'll add it.
+- **Want to add papers yourself?** Submit a PR that edits [`update_template_or_data/update_paper_list.md`](update_template_or_data/update_paper_list.md). See [CLAUDE.md](CLAUDE.md) for the required entry format and field specifications.
+- **Spotted an error?** Feel free to open an issue or PR to correct any paper metadata (authors, dates, institutions, etc.).
