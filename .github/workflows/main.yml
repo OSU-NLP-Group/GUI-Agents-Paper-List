@@ -89,11 +89,11 @@ jobs:
             d
           }' update_template_or_data/update_readme_template.md <<< "$GROUPED_AUTHORS"
 
-      - name: Update temp_readme.md with sorted papers content
+      - name: Update temp_readme.md with recent papers content
         run: |
-          CONTENT=$(cat update_template_or_data/update_paper_list.md)
-          
-          sed -i '/{{insert_all_papers_here}}/{
+          CONTENT=$(cat update_template_or_data/recent_paper_list.md)
+
+          sed -i '/{{insert_recent_papers_here}}/{
             r /dev/stdin
             d
           }' update_template_or_data/update_readme_template.md <<< "$CONTENT"
@@ -111,6 +111,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
+          git add ALL_PAPERS.md
           git add paper_by_env
           git add paper_by_author
           git add paper_by_key

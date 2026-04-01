@@ -2,6 +2,7 @@ import os
 import shutil
 import re
 import logging
+import calendar
 from collections import Counter
 
 import pandas as pd
@@ -56,6 +57,26 @@ def parse_date_with_defaults(date_str):
             return pd.NaT
 
 
+def normalize_date_str(date_str, parsed_date):
+    """Normalize date string to 'Month DD, YYYY' format.
+
+    If the original date has no day (e.g., 'November 2024'), use the last day
+    of that month so it sorts after papers with explicit dates in the same month.
+    """
+    if pd.isna(parsed_date):
+        return date_str  # Can't normalize, keep original
+
+    # Check if original was month-only (no day)
+    month_only = re.match(r'^[A-Za-z]+ \d{4}$', date_str.strip())
+    if month_only:
+        # Use last day of month for sorting, but format as "Month YYYY" to
+        # indicate the day is unknown — actually let's set a concrete day
+        last_day = calendar.monthrange(parsed_date.year, parsed_date.month)[1]
+        parsed_date = pd.Timestamp(year=parsed_date.year, month=parsed_date.month, day=last_day)
+
+    return parsed_date.strftime('%B %d, %Y')
+
+
 def clear_folder(folder_path):
     """Remove all files and subdirectories inside folder_path."""
     if not os.path.exists(folder_path):
@@ -106,12 +127,12 @@ def process_markdown():
     new_format_pattern = re.compile(
         r"- \[(.*?)\]\((.*?)\)\s+"
         r"- (.*?)\s+"
-        r"- 🏛️ Institutions: (.*?)\s+"
-        r"- 📅 Date: (.*?)\s+"
-        r"- 📑 Publisher: (.*?)\s+"
-        r"- 💻 Env: (\[.*?\](?:, \[.*?\])*)\s+"
-        r"- 🔑 Key: (.*?)\s+"
-        r"- 📖 TLDR: (.*?)\n",
+        r"- \U0001f3db\ufe0f Institutions: (.*?)\s+"
+        r"- \U0001f4c5 Date: (.*?)\s+"
+        r"- \U0001f4d1 Publisher: (.*?)\s+"
+        r"- \U0001f4bb Env: (\[.*?\](?:, \[.*?\])*)\s+"
+        r"- \U0001f511 Key: (.*?)\s+"
+        r"- \U0001f4d6 TLDR: (.*?)\n",
         re.DOTALL
     )
 
@@ -120,9 +141,10 @@ def process_markdown():
         try:
             title, link, authors, institutions, date, publisher, env, keywords, tldr = match
             parsed_date = parse_date_with_defaults(date)
+            normalized_date = normalize_date_str(date.strip(), parsed_date)
             formatted_keywords = ", ".join([kw.strip() for kw in keywords.split(",")])
             parsed_entries.append((
-                title, link, authors, institutions, date, parsed_date,
+                title, link, authors, institutions, normalized_date, parsed_date,
                 publisher, env.strip(), formatted_keywords, tldr
             ))
         except Exception as e:
@@ -134,9 +156,19 @@ def process_markdown():
     ]).drop_duplicates(subset='Title', keep='first')
     papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
 
-    # Write sorted paper list back
-    final_output = "\n".join(df_to_markdown_list(papers_df))
+    # Write full sorted paper list to ALL_PAPERS.md (source of truth, at repo root)
+    all_papers_markdown = df_to_markdown_list(papers_df)
+    final_output = "\n".join(all_papers_markdown)
     write_file("update_template_or_data/update_paper_list.md", final_output)
+    write_file("ALL_PAPERS.md",
+               f"# All Papers ({len(papers_df)} papers, from most recent to oldest)\n\n"
+               + final_output)
+
+    # Generate a truncated recent papers list for README (to stay under GitHub's 512KB render limit)
+    max_recent_papers = 500
+    recent_df = papers_df.head(max_recent_papers)
+    recent_markdown = "\n".join(df_to_markdown_list(recent_df))
+    write_file("update_template_or_data/recent_paper_list.md", recent_markdown)
 
     # Clear and recreate output directories
     for folder in ["update_template_or_data/statistics/", "paper_by_key",
