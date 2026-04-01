@@ -20,6 +20,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 ![keyword_wordcloud_long.png](update_template_or_data/statistics/keyword_wordcloud_long.png)
 
+> **Full list**: [ALL_PAPERS.md](ALL_PAPERS.md) — This README shows the most recent papers only.
 
 ## Papers Grouped by Environments
 | [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Search](paper_by_env/paper_search.md) | [Misc](paper_by_env/paper_misc.md) |
@@ -40,8 +41,6 @@ This repo covers a variety of papers related to GUI Agents, such as:
 {{insert_recent_papers_here}}
 
 </details>
-
-For the complete list of all papers, see [ALL_PAPERS.md](ALL_PAPERS.md).
 
 
 
