@@ -36,15 +36,6 @@
     - 🔑 Key: [framework], [reinforcement learning], [GUI agent], [computer use], [SWE agent], [tool use]
     - 📖 TLDR: OpenClaw-RL is a fully asynchronous RL framework that leverages next-state signals (user replies, tool outputs, terminal/GUI state changes) to train personal and general agents from live interactions, supporting scalable RL across terminal, GUI, SWE, and tool-call settings through process reward models and hindsight-guided on-policy distillation.
 
-- [SlowBA: An efficiency backdoor attack towards VLM-based GUI agents](https://arxiv.org/abs/2603.08316)
-    - Junjie He, Zhizheng Zhang, Haoyu Chen, Sitao Huang, Xuyang Ye
-    - 🏛️ Institutions: Shanghai Jiao Tong University
-    - 📅 Date: March 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [attack], [VLM], [backdoor attack], [reinforcement learning], [security]
-    - 📖 TLDR: SlowBA is a novel backdoor attack targeting the response efficiency of VLM-based GUI agents by inducing excessively long reasoning chains when triggered by realistic pop-up windows, using a two-stage reward-level backdoor injection strategy with reinforcement learning that significantly increases latency while preserving task accuracy.
-
 - [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
     - Yanyang Li, Kaizhe Hu, Guohao Li, Heyang Gong, Yeye He
     - 🏛️ Institutions: Alibaba Group
@@ -53,6 +44,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [GUI agent], [mobile], [efficiency], [dataset], [benchmark], [reinforcement learning]
     - 📖 TLDR: SecAgent is a 3B-scale mobile GUI agent that introduces a semantic context mechanism to distill history screenshots into concise natural language summaries, reducing computational costs while preserving task-relevant information. It also contributes a large-scale human-verified Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) and benchmark, achieving performance comparable to 7B-8B models through supervised and reinforcement fine-tuning.
+
+- [SlowBA: An efficiency backdoor attack towards VLM-based GUI agents](https://arxiv.org/abs/2603.08316)
+    - Junjie He, Zhizheng Zhang, Haoyu Chen, Sitao Huang, Xuyang Ye
+    - 🏛️ Institutions: Shanghai Jiao Tong University
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [GUI agent], [attack], [VLM], [backdoor attack], [reinforcement learning], [security]
+    - 📖 TLDR: SlowBA is a novel backdoor attack targeting the response efficiency of VLM-based GUI agents by inducing excessively long reasoning chains when triggered by realistic pop-up windows, using a two-stage reward-level backdoor injection strategy with reinforcement learning that significantly increases latency while preserving task accuracy.
 
 - [Generalization in Online Reinforcement Learning for Mobile Agents](https://arxiv.org/abs/2603.07432)
     - Mingkai Deng, Jing Yu, Zhou Yu, Kaizhe Hu, Yeye He
@@ -126,15 +126,6 @@
     - 🔑 Key: [GUI agent], [reinforcement learning], [environment synthesis], [verifiable reward], [web agent], [training efficiency]
     - 📖 TLDR: GUI-GENESIS automatically synthesizes lightweight web-based training environments with code-native verifiable rewards from real-world GUI applications, reducing training latency by 10x and costs by over $28K per epoch while enabling agents to outperform both the base model and real-world RL baselines on held-out tasks.
 
-- [OpAgent: Operator Agent for Web Navigation](https://arxiv.org/abs/2602.13559)
-    - Yuyu Guo, Wenjie Yang, Siyuan Yang, Wenyi Hong, Zehai He
-    - 🏛️ Institutions: Ant Group
-    - 📅 Date: February 14, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [reinforcement learning], [vision-language model], [agentic framework], [WebArena], [GUI navigation]
-    - 📖 TLDR: OpAgent proposes a modular agentic framework (Planner, Grounder, Reflector, Summarizer) combined with online reinforcement learning on unconstrained web environments and hierarchical multi-task fine-tuning, achieving a new state-of-the-art 71.6% success rate on WebArena.
-
 - [Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization](https://arxiv.org/abs/2602.13653)
     - Yibo Wang, Guangda Huzhang, Yuwei Hu, Yixuan Liu, Deng Cai
     - 🏛️ Institutions: Nanjing University, Alibaba Group
@@ -143,6 +134,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [GUI agent], [reinforcement learning], [q-value estimation], [policy optimization], [MLLM], [web navigation]
     - 📖 TLDR: This paper proposes a framework for autonomous GUI navigation consisting of agentic-Q estimation (a Q-model that evaluates step-wise action contributions to task completion) and step-wise policy optimization (RL training decoupled from the environment), which enables Ovis2.5-9B to achieve strong performance on GUI navigation and grounding benchmarks, surpassing larger-scale models.
+
+- [OpAgent: Operator Agent for Web Navigation](https://arxiv.org/abs/2602.13559)
+    - Yuyu Guo, Wenjie Yang, Siyuan Yang, Wenyi Hong, Zehai He
+    - 🏛️ Institutions: Ant Group
+    - 📅 Date: February 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web agent], [reinforcement learning], [vision-language model], [agentic framework], [WebArena], [GUI navigation]
+    - 📖 TLDR: OpAgent proposes a modular agentic framework (Planner, Grounder, Reflector, Summarizer) combined with online reinforcement learning on unconstrained web environments and hierarchical multi-task fine-tuning, achieving a new state-of-the-art 71.6% success rate on WebArena.
 
 - [Adaptive Milestone Reward for GUI Agents](https://arxiv.org/abs/2602.11524)
     - Congmin Zheng, Xiaoyun Mo, Xinbei Ma, Aimin Guo, Hongling Zhuo
@@ -170,15 +170,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [continual learning], [reinforcement learning], [environment adaptation], [CUAJudge], [ACuRL]
     - 📖 TLDR: This paper studies continual learning for computer-use agents in dynamic, shifting target environments without relying on human demonstrations. It introduces ACuRL, an autonomous curriculum reinforcement learning framework that explores environments, synthesizes progressively tailored tasks, and trains with CUAJudge, an automatic evaluator aligned closely with human judgments. The method improves both intra-environment and cross-environment adaptation while avoiding catastrophic forgetting, making it directly relevant to real-world deployment of CUAs.
-
-- [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082)
-    - Venus Team, Changlong Gao, Zhangxuan Gu, Yingying Zhou, Yang Liu
-    - 🏛️ Institutions: Ant Group
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [reinforcement learning], [model merging], [mobile navigation], [web navigation], [grounding]
-    - 📖 TLDR: UI-Venus-1.5 is a unified end-to-end GUI agent family (2B/8B/30B-A3B) that combines mid-training on 10B tokens, online reinforcement learning with full-trajectory rollouts, and model merging to achieve state-of-the-art performance on GUI grounding and navigation benchmarks including ScreenSpot-Pro (69.6%), VenusBench-GD (75.0%), and AndroidWorld (77.6%).
 
 - [POINTS-GUI-G: GUI-Grounding Journey](https://arxiv.org/abs/2602.06391)
     - Zhongyin Zhao, Yuan Liu, Yikun Liu, Haicheng Wang, Le Tian, Xiao Zhou, Yangxiu You, Zilin Yu, Yang Yu, Jie Zhou
@@ -225,15 +216,6 @@
     - 🔑 Key: [web agent], [reinforcement learning], [world model], [LLM agent], [benchmark], [training]
     - 📖 TLDR: DynaWeb introduces a model-based reinforcement learning framework that trains web agents by learning a web world model as a synthetic environment for generating imagined rollouts, interleaved with real expert trajectories, achieving significant improvements on WebArena and WebVoyager benchmarks over state-of-the-art open-source web agent models.
 
-- [Continual GUI Agents](https://arxiv.org/abs/2601.20732)
-    - Ziwei Liu, Borui Kang, Hangjie Yuan, Zixiang Zhao, Wei Li, Yifan Zhu, Tao Feng
-    - 🏛️ Institutions: Tsinghua University, Zhejiang University, ETH Zurich, Beijing University of Posts and Telecommunications
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [continual learning], [reinforcement learning], [GUI grounding], [domain shift], [GUI-AiF], [continual GUI agents]
-    - 📖 TLDR: This paper introduces Continual GUI Agents as a continual learning setting where GUI agents must adapt to domain and resolution shifts over time without losing stable grounding. It proposes GUI-AiF, a reinforcement fine-tuning framework with anchoring-point and anchoring-region rewards that keep agents aligned to changing interaction targets instead of overfitting to static cues. Experiments show the method outperforms prior baselines and frames continual adaptation as a core systems challenge for GUI agents.
-
 - [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
     - Le Zhang, Yixiong Xiao, Xinjiang Lu, Jingjia Cao, Yusai Zhao, Jingbo Zhou, Lang An, Zikan Feng, Wanxiang Sha, Yu Shi, Congxi Xiao, Jian Xiong, Yankai Zhang, Hua Wu, Haifeng Wang
     - 🏛️ Institutions: Baidu Frontier Research Department
@@ -242,6 +224,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [benchmark], [reinforcement learning], [synthetic data], [OSNav], [OmegaUse]
     - 📖 TLDR: This paper introduces OmegaUse, a general-purpose GUI agent for autonomous task execution across both mobile and desktop environments. It combines a curated-and-synthetic data pipeline with a two-stage training recipe of supervised fine-tuning followed by GRPO to improve interaction syntax, spatial grounding, and sequential planning. The work also introduces the OSNav benchmark suite, including ChiM-Nav for Chinese Android environments and Ubu-Nav for Ubuntu desktop navigation, and reports state-of-the-art or leading results across GUI grounding and action benchmarks.
+
+- [Continual GUI Agents](https://arxiv.org/abs/2601.20732)
+    - Ziwei Liu, Borui Kang, Hangjie Yuan, Zixiang Zhao, Wei Li, Yifan Zhu, Tao Feng
+    - 🏛️ Institutions: Tsinghua University, Zhejiang University, ETH Zurich, Beijing University of Posts and Telecommunications
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [continual learning], [reinforcement learning], [GUI grounding], [domain shift], [GUI-AiF], [continual GUI agents]
+    - 📖 TLDR: This paper introduces Continual GUI Agents as a continual learning setting where GUI agents must adapt to domain and resolution shifts over time without losing stable grounding. It proposes GUI-AiF, a reinforcement fine-tuning framework with anchoring-point and anchoring-region rewards that keep agents aligned to changing interaction targets instead of overfitting to static cues. Experiments show the method outperforms prior baselines and frames continual adaptation as a core systems challenge for GUI agents.
 
 - [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876)
     - Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu
@@ -351,60 +342,6 @@
     - 🔑 Key: [GUI agent], [multi-agent framework], [reinforcement learning], [long-horizon task planning], [state tracking], [task decomposition]
     - 📖 TLDR: This paper proposes CES, a multi-agent framework consisting of a Coordinator, Executor, and State Tracker, where high-level scheduling models are trained via execution-feedback reinforcement learning to improve long-horizon GUI automation by decoupling planning from low-level action execution.
 
-- [Co-EPG: A Framework for Co-Evolution of Planning and Grounding in Autonomous GUI Agents](https://arxiv.org/abs/2511.10705)
-    - Yuan Zhao, Hualei Zhu, Tingyu Jiang...
-    - 🏛️ Institutions: Alibaba Cloud Computing, The University of Tokyo
-    - 📅 Date: November 13, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [planning and grounding], [reinforcement learning], [GRPO], [co-evolution], [training framework]
-    - 📖 TLDR: Co-EPG is a self-iterative training framework that co-evolves planning and grounding models for GUI agents through a positive feedback loop using GRPO and confidence-based reward ensembles, achieving state-of-the-art results on Multimodal-Mind2Web and AndroidControl benchmarks without external data.
-
-- [History-Aware Reasoning for GUI Agents](https://arxiv.org/abs/2511.09127)
-    - Ziwei Wang, Leyang Yang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Zhejiang University, Ant Group
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [reinforcement learning], [reasoning], [chain-of-thought], [mobile], [web]
-    - 📖 TLDR: Proposes the History-Aware Reasoning (HAR) framework that addresses the history-agnostic reasoning weakness of native GUI agents by encouraging reflection on errors and enhancing short-term memory through reflective learning scenarios, tailored correction guidelines, and a hybrid RL reward function, resulting in a 3B-parameter model (HAR-GUI-3B) with improved episodic reasoning across GUI benchmarks including AITW, Mind2Web, and GUI-Odyssey.
-
-- [OSGym: Scalable Distributed Data Engine for Generalizable Computer Agents](https://arxiv.org/abs/2511.11672)
-    - Zengyi Qin, Jinyuan Chen, Yunze Man, Shengcao Cao, Ziqi Pang, Zhuoyuan Wang, Xin Sun, Gen Lin, Han Fang, Ling Zhu, Zixin Xie, Zibu Wei, Tianshu Ran, Haoran Geng, Xander Wu, Zachary Bright, Qizhen Sun, Rui Wang, Yuyang Cai, Song Wang, Jiace Zhao, Han Cao, Yeyang Zhou, Tianrui Liu, Ray Pan
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [training environment], [computer-use agent], [dataset], [reinforcement learning], [scalability]
-    - 📖 TLDR: OSGym is a scalable distributed data engine parallelizing over 1,000+ OS replicas (1,420 multi-turn trajectories/minute) for training generalizable computer agents across diverse tasks including browser interactions, software engineering, and office automation under limited academic compute.
-
-- [Grounding Computer Use Agents on Human Demonstrations](https://arxiv.org/abs/2511.07332)
-    - Aarash Feizi, Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Kaixin Li, Rabiul Awal, Xing Han Lu, Johan Obando-Ceron, Juan A. Rodriguez, Nicolas Chapados, David Vazquez, Adriana Romero-Soriano, Reihaneh Rabbany, Perouz Taslakian, Christopher Pal, Spandana Gella, Sai Rajeswar
-    - 🏛️ Institutions: Mila, McGill University, Universite de Montreal, ServiceNow Research, University of Waterloo, University of Oxford, National University of Singapore, Polytechnique Montreal, Ecole de Technologie Superieure, CIFAR
-    - 📅 Date: November 10, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [dataset], [model], [GUI grounding], [desktop grounding], [reinforcement learning], [GroundCUA], [GroundNext]
-    - 📖 TLDR: This paper introduces GroundCUA, a large-scale desktop grounding dataset built from expert human demonstrations, covering 87 applications, 56K screenshots, and more than 3.56M human-verified UI annotations. Using this data, the authors train the GroundNext family of grounding models, which achieve state-of-the-art results across five benchmarks with far less training data than prior work, and improve further with reinforcement learning post-training. The paper shows that high-quality human demonstration data is a key driver for robust grounding in general-purpose computer-use agents.
-
-- [GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation](https://arxiv.org/abs/2510.27210)
-    - Tao Liu, Chongyu Wang, Rongjie Li, Yingchen Yu, Xuming He, Bai Song
-    - 🏛️ Institutions: ShanghaiTech University, ByteDance, Shanghai Engineering Research Center of Intelligent Vision and Imaging
-    - 📅 Date: October 31, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [reasoning], [history summarization], [reinforcement learning], [GUI navigation], [GUI-rise]
-    - 📖 TLDR: This paper targets two persistent GUI-agent weaknesses: poor cross-domain generalization and weak use of long interaction history. GUI-Rise addresses them with a reasoning-enhanced framework that jointly trains structured reasoning, action prediction, and history summarization, then further improves the agent with GRPO and a history-aware reward. Under matched training data, it reports state-of-the-art GUI-navigation performance, especially on out-of-domain settings.
-
-- [UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning](https://arxiv.org/abs/2510.20286)
-    - Liangyu Chen, Hanzhang Zhou, Chenglin Cai, Jianan Zhang, Panrong Tong, Quyu Kong, Xu Zhang, Chen Liu, Yuqi Liu, Wenxuan Wang, Yue Wang, Qin Jin, Steven Hoi
-    - 🏛️ Institutions: Renmin University of China, Tongyi Lab, Alibaba Group, The Chinese University of Hong Kong
-    - 📅 Date: October 23, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [reinforcement learning], [GUI grounding], [instruction-as-reasoning], [UI-ins]
-    - 📖 TLDR: This paper reframes GUI grounding instructions as reasoning pathways rather than static text prompts. It first synthesizes diverse, high-quality instruction variants for supervised training, then uses reinforcement learning to optimize pathway selection and composition at inference time. The resulting UI-Ins-7B and UI-Ins-32B models achieve state-of-the-art grounding accuracy across five benchmarks and also improve downstream AndroidWorld agent execution.
-
 - [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
     - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
     - 🏛️ Institutions: Apple, The University of Hong Kong
@@ -470,7 +407,7 @@
 
 - [Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation](https://arxiv.org/abs/2509.23866)
     - Pengxiang Li, Zechen Hu, Zirui Shang, Jingrong Wu, Yang Liu, Hui Liu, Zhi Gao, Chenrui Shi, Bofei Zhang, Zihao Zhang, Xiaochuan Shi, Zedong YU, Yuwei Wu, Xinxiao Wu, Yunde Jia, Liuyu Xiang, Zhaofeng He, Qing Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: BIT, BIGAI
     - 📅 Date: September 28, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -506,7 +443,7 @@
 
 - [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://arxiv.org/abs/2508.20096)
     - Zeyi Sun, Yuhang Cao, Jianze Liang, Qiushi Sun, Ziyu Liu, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Shanghai AI Lab, SJTU, CUHK
     - 📅 Date: August 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -549,18 +486,9 @@
     - 🔑 Key: [framework], [GUI grounding], [reinforcement learning], [reinforcement fine-tuning], [ScreenSpot], [GuirlVG]
     - 📖 TLDR: This paper studies reinforcement fine-tuning for GUI visual grounding and argues that naive rule-based RL underperforms strong supervised baselines without careful formulation. It introduces GuirlVG, which systematically redesigns the reward, training setup, and stabilization mechanism, including an Adversarial KL Factor to reduce reward over-optimization. With only 5.2K training samples, the method surpasses prior GUI grounding approaches trained on much larger datasets across ScreenSpot, ScreenSpot-Pro, and ScreenSpot-V2.
 
-- [Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent Distillation and Agentic RL](https://arxiv.org/abs/2508.13167)
-    - Weizhen Li, Jianbo Lin, Zhuosong Jiang, Jingyi Cao, Xinpeng Liu, Jiayu Zhang, Zhenqiang Huang, Qianben Chen, Weichen Sun, Qiexiang Wang, Hongxuan Lu, Tianrui Qin, Chenghao Zhu, Yi Yao, Shuying Fan, Xiaowan Li, Tiannan Wang, Pai Liu, King Zhu, He Zhu, Dingfeng Shi, Piaohong Wang, Yeyi Guan, Xiangru Tang, Minghao Liu, Yuchen Eleanor Jiang, Jian Yang, Jiaheng Liu, Ge Zhang, Wangchunshu Zhou
-    - 🏛️ Institutions: OPPO Personal AI Lab, OPPO Research Institute
-    - 📅 Date: August 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [dataset], [reinforcement learning], [multi-agent], [AFM], [chain-of-agents]
-    - 📖 TLDR: The paper introduces **Chain-of-Agents (CoA)**, a novel paradigm enabling a single large language model (LLM) to perform multi-agent style reasoning by dynamically activating tool and role agents within one end-to-end model. They train **Agent Foundation Models (AFMs)** using a two-step approach: first, **multi-agent distillation** to convert trajectories from specialized multi-agent systems into supervised fine-tuning data; second, **agentic reinforcement learning (RL)** to further improve on verifiable tasks. AFMs achieve state-of-the-art performance across web-agent and code-agent benchmarks (e.g., GAIA, WebWalker, BrowseComp, HLE), and the authors open-source all data, model weights, code, and training resources.
-
 - [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037)
     - Yuhao Cheng, Liang Tang, Shuxian Li, Yukang Huo, Tiaonan Duan, Kaer Huang, Yanzhe Jing, Yiqiang Yan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Lenovo, China Agricultural University
     - 📅 Date: August 05, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -585,68 +513,14 @@
     - 🔑 Key: [benchmark], [dataset], [hierarchical agent], [reinforcement learning], [causal pathways], [WPSR], [NaturalGAIA]
     - 📖 TLDR: This paper introduces **NaturalGAIA**, a new benchmark based on the principle of **Causal Pathways**, which decomposes complex GUI tasks into programmatically verifiable atomic steps for rigorous and reproducible evaluation. A hierarchical agent architecture called **LightManus** was used to generate a human-verified trajectory dataset representing diverse and self-correcting interaction patterns. This dataset was used to conduct Reinforcement Fine-Tuning (RFT) on the Qwen2.5-VL-7B model. Even top-performing models like Claude-sonnet-4 only reached a Weighted Pathway Success Rate (WPSR) of 34.6%, while RFT improved the smaller model from 3.3% to 10.8%, yet performance dropped significantly in complex scenarios, highlighting current limitations in GUI agent capabilities.
 
-- [GTA1: GUI Test-time Scaling Agent](https://arxiv.org/abs/2507.05791)
-    - Yan Yang, Dongxu Li, Yutong Dai, Yuhao Yang, Ziyang Luo, Zirui Zhao, Zhiyuan Hu, Junzhe Huang, Amrita Saha, Zeyuan Chen, Ran Xu, Liyuan Pan, Silvio Savarese, Caiming Xiong, Junnan Li
-    - 🏛️ Institutions: Salesforce AI Research, Australian National University, The University of Hong Kong
-    - 📅 Date: July 08, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [test-time scaling], [reinforcement learning], [planning], [grounding], [GTA1]
-    - 📖 TLDR: This paper tackles two major challenges in GUI agents — planning ambiguity and visual grounding accuracy. It introduces **GTA1**, a GUI Test-time Scaling Agent that improves action decision-making by sampling multiple candidate actions at each step and selecting the best one via a judge model. Additionally, it enhances grounding through reinforcement learning with success-based rewards. GTA1 achieves state-of-the-art results on GUI grounding and execution benchmarks such as ScreenSpot and OSWorld.
-
-- [How to Train Your LLM Web Agent: A Statistical Diagnosis](https://arxiv.org/abs/2507.04103)
-    - Dheeraj Vattikonda, Santhoshi Ravichandran, Emiliano Penaloza, Hadi Nekoei, Megh Thakkar, Thibault Le Sellier de Chezelles, Nicolas Gontier, Miguel Munoz-Marmol, Sahar Omidi Shayegan, Stefania Raimondo, Xue Liu, Alexandre Drouin, Laurent Charlin, Alexandre Piche, Alexandre Lacoste, Massimo Caccia
-    - 🏛️ Institutions: ServiceNow AI Research, Mila - Quebec AI Institute, Polytechnique Montreal, HEC Montreal, McGill University, Universite de Montreal
-    - 📅 Date: July 05, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [web agent], [reinforcement learning], [imitation learning], [training analysis], [WorkArena]
-    - 📖 TLDR: This paper studies how to post-train open web agents under a strict compute budget, combining supervised imitation from a stronger teacher with on-policy reinforcement learning. Using large hyperparameter sweeps and bootstrapped sensitivity analysis, it provides one of the first statistically grounded compute-allocation studies for LLM web-agent training. The main result is that a mixed SFT-plus-RL pipeline is both more compute efficient and more effective than using either approach alone on WorkArena and MiniWoB++.
-
-- [GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006)
-    - Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Bin Chen, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Haochen Li, Jiale Zhu, Jiali Chen, Jiaxing Xu, Jing Chen, Jinghao Lin, Jinhao Chen, Jinjiang Wang, Junjie Chen, Leqi Lei, Letian Gong, Leyi Pan, Mingdao Liu, Mingde Xu, Mingzhi Zhang, Qinkai Zheng, Ruiliang Lyu, Shangqin Tu, Sheng Yang, Shengbiao Meng, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Tianyu Tong, Wei Jia, Wenkai Li, Xiao Liu, Xiaohan Zhang, Xin Lyu, Xinyu Zhang, Xinyue Fan, Xuancheng Huang, Yadong Xue, Yanfeng Wang, Yanling Wang, Yanzi Wang, Yifan An, Yifan Du, Yiheng Huang, Yilin Niu, Yiming Shi, Yu Wang, Yuan Wang, Yuanchang Yue, Yuchen Li, Yusen Liu, Yutao Zhang, Yuting Wang, Yuxuan Zhang, Zhao Xue, Zhengxiao Du, Zhenyu Hou, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Zhipu AI, Tsinghua University
-    - 📅 Date: July 01, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [reinforcement learning], [RLCS], [multimodal], [vision language model], [grounding], [GLM-4.1V-thinking], [GLM-4.5V]
-    - 📖 TLDR: Introduces two vision-language models—**GLM-4.1V-9B-Thinking**, a 9B-parameter model designed for multimodal reasoning, and **GLM-4.5V**, a larger version based on GLM-4.5-Air (106B parameters, 12B active). The authors propose a reasoning-centric training pipeline including large-scale pretraining and a novel **Reinforcement Learning with Curriculum Sampling (RLCS)** framework. The models show state-of-the-art performance across 42 (GLM-4.5V) and 28 (GLM-4.1V-Thinking) public multimodal benchmarks, often outperforming much larger models (e.g., Qwen-2.5-VL-72B and Gemini-2.5-Flash), especially in tasks like STEM reasoning, video/document understanding, coding, GUI agents, and grounding. Both models and training code are open-sourced.
-
-- [Learning, Reasoning, Refinement: A Framework for Kahneman's Dual-System Intelligence in GUI Agents](https://arxiv.org/abs/2506.17913)
-    - Jinjie Wei, Jiyao Liu, Lihao Liu, Ming Hu, Junzhi Ning, Mingcheng Li, Weijie Yin, Junjun He, Xiao Liang, Chao Feng, Dingkang Yang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [framework], [dual-system cognition], [reinforcement learning], [evaluation]
-    - 📖 TLDR: Proposes a Learning-Reasoning-Refinement (LRR) framework for GUI agents inspired by Kahneman dual-system theory, combining progressive System 2 reasoning with fast reactive decision-making and iterative refinement, alongside a new evaluation metric better reflecting real-world GUI interaction complexity.
-
-- [LPO: Towards Accurate GUI Agent Interaction via Location Preference Optimization](https://arxiv.org/abs/2506.09373)
-    - Jiaqi Tang, Yu Xia, Yi‑Feng Wu, Yuwei Hu, Yuhui Chen, Qing‑Guo Chen, Xiaogang Xu, Xiangyu Wu, Hao Lu, Yanqing Ma, Shiyin Lu, Qifeng Chen
-    - 🏛️ Institutions: Hong Kong University of Science and Technology, Alibaba Group, The Chinese University of Hong Kong, Nanjing University of Science and Technology
-    - 📅 Date: June 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [reinforcement learning], [grounding], [navigation], [location reward], [GRPO], [LPO]
-    - 📖 TLDR: The paper introduces **Location Preference Optimization (LPO)** to improve GUI agent interaction accuracy. It uses information-entropy-driven zones of interest and a dynamic distance-based reward function. Built atop Group Relative Preference Optimization (GRPO), it enables more precise spatial grounding. Results show SOTA performance on offline benchmarks and real-world online GUI tasks.
-
 - [Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction](https://arxiv.org/abs/2506.07976)
     - Junhong Shen, Hao Bai, Lunjun Zhang, Yifei Zhou, Amrith Setlur, Shengbang Tong, Diego Caples, Nan Jiang, Tong Zhang, Ameet Talwalkar, Aviral Kumar
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, UIUC, University of Toronto, UC Berkeley, NYU, Scribe, The AGI Company
     - 📅 Date: June 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [computer-use agent], [test-time scaling], [exploration], [planning], [reinforcement learning]
     - 📖 TLDR: Proposes test-time interaction scaling—increasing agent interaction horizons rather than reasoning trace length—showing that richer behaviors including exploration, backtracking, and dynamic adaptation from more interactions outperform extended pre-action thinking for GUI-based computer tasks.
-
-- [DPO Learning with LLMs-Judge Signal for Computer Use Agents](https://arxiv.org/abs/2506.03095)
-    - Man Luo, David Cobbley, Xin Su, Shachar Rosenman, Vasudev Lal, Shao-Yen Tseng, Phillip Howard
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 03, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [computer-use agent], [DPO], [reinforcement learning], [privacy], [on-device]
-    - 📖 TLDR: Trains a lightweight local VLM for privacy-preserving computer-use agents using DPO with LLM-judge-generated preference signals, enabling resource-efficient CUAs that run entirely on local machines without cloud inference, addressing privacy and scalability concerns of cloud-based CUAs.
 
 - [ZeroGUI: Automating Online GUI Learning at Zero Human Cost](https://arxiv.org/abs/2505.23762)
     - Chenyu Yang, Shiqian Su, Shi Liu, Xuan Dong, Yue Yu, Weijie Su, Xuehui Wang, Zhaoyang Liu, Jinguo Zhu, Hao Li, Wenhai Wang, Yu Qiao, Xizhou Zhu, Jifeng Dai
@@ -695,7 +569,7 @@
 
 - [ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282)
     - Fanbin Lu, Zhisheng Zhong, Shu Liu, Chi-Wing Fu, Jiaya Jia
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CUHK, SmartMore, HKUST
     - 📅 Date: May 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]

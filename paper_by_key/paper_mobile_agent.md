@@ -54,15 +54,6 @@
     - 🔑 Key: [mobile agent], [agent security], [prompt injection], [access control], [operating system], [benchmark]
     - 📖 TLDR: This paper conducts a systematic security analysis of GUI-based mobile agents (using Doubao Mobile Assistant as a case study), identifying vulnerabilities across identity, perception, cognition, and execution dimensions, and proposes Aura, an Agent Universal Runtime Architecture that replaces GUI scraping with a structured intent-driven interaction model secured by cryptographic identity, semantic firewalls, taint-aware memory, and granular access control, achieving 94.3% task success rate while reducing attack success rate to 4.4% on MobileSafetyBench.
 
-- [Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible](https://arxiv.org/abs/2602.10139)
-    - Lepeng Zhao, Zhenhua Zou, Shuo Li, Xiaoming Li, Bangfei Tian
-    - 🏛️ Institutions: Tsinghua University
-    - 📅 Date: February 08, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [privacy], [mobile agent], [Android], [benchmark], [framework], [safety]
-    - 📖 TLDR: Proposes an anonymization-based privacy protection framework for mobile GUI agents that replaces sensitive PII with type-preserving placeholders, enabling task execution without exposing raw personal data to cloud-based models, and demonstrates strong privacy-utility trade-offs on the AndroidLab and PrivScreen benchmarks.
-
 - [AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management](https://arxiv.org/abs/2512.10371)
     - Shizuo Tian, Hao Wen, Yuxuan Chen...
     - 🏛️ Institutions: Tsinghua University, Peking University
@@ -81,27 +72,9 @@
     - 🔑 Key: [GUI agent], [mobile agent], [multimodal LLM], [GUI grounding], [smartphone automation], [vision-language model]
     - 📖 TLDR: AFRAgent is a compact InstructBLIP-based multimodal architecture that uses adaptive feature renormalization to fuse high-resolution image details into low-resolution embeddings, achieving state-of-the-art smartphone GUI automation on Meta-GUI and AITW benchmarks at less than one-fourth the size of competing models.
 
-- [DualTAP: A Dual-Task Adversarial Protector for Mobile MLLM Agents](https://arxiv.org/abs/2511.13248)
-    - Fuyao Zhang, Jiaming Zhang, Che Wang...
-    - 🏛️ Institutions: Nanyang Technological University, Peking University, Xidian University, Hebei Normal University, Alibaba Group
-    - 📅 Date: November 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [mobile agent], [safety], [privacy], [adversarial attack], [dataset], [MLLM]
-    - 📖 TLDR: DualTAP is a dual-task adversarial framework that protects personally identifiable information (PII) in mobile GUI agent screenshots from untrusted routers while preserving task utility, achieving a 31.6 percentage point reduction in privacy leakage with minimal impact on agent task success rate.
-
-- [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
-    - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [safety], [mobile agent], [VLM], [benchmark], [hybrid validation]
-    - 📖 TLDR: OS-Sentinel is a hybrid safety validation framework for mobile GUI agents combining reactive and proactive detection, built on MobileRisk-Live—a dynamic sandbox with realistic safety-annotated trajectories—to detect unsafe operations including system compromise and privacy leakage.
-
 - [Surfer 2: The Next Generation of Cross-Platform Computer Use Agents](https://arxiv.org/abs/2510.19949)
     - Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: H Company
     - 📅 Date: October 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -110,7 +83,7 @@
 
 - [MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents](https://arxiv.org/abs/2509.06477)
     - Pengxiang Zhao, Guangyi Liu, Yaozhen Liang, Weiqing He, Zhengxi Lu, Yuehao Huang, Yaxuan Guo, Kexin Zhang, Hao Wang, Liang Liu, Yong Liu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ZJU, vivo AI Lab, Huzhou Institute of ZJU
     - 📅 Date: September 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -128,9 +101,9 @@
 
 - [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](https://arxiv.org/abs/2503.18492)
     - Jungjae Lee, Dongjae Lee, Chihun Choi, Youngmin Im, Jaeyoung Wi, Kihong Heo, Sangeun Oh, Sunjae Lee, Insik Shin
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: KAIST, Korea University, SKKU
     - 📅 Date: March 24, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: MobiCom 2025
     - 💻 Env: [Mobile]
     - 🔑 Key: [mobile agent], [safety], [verification], [formal verification], [framework]
     - 📖 TLDR: VeriSafe Agent (VSA) is a formal logic-based action verification system for mobile GUI agents that checks LFM-proposed actions against predefined safety constraints before execution, preventing unreliable automation caused by the probabilistic nature of large foundation models.

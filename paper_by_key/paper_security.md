@@ -20,7 +20,7 @@
 
 - [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
     - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou, Eric Hanchen Jiang, Philip Sperl
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Fraunhofer AISEC, NTU, KTH, NUS, UCLA
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Misc]
@@ -90,24 +90,6 @@
     - 🔑 Key: [web agent], [benchmark], [privacy], [security], [browser agent], [evaluation]
     - 📖 TLDR: This paper presents a systematic framework of 15 measurements across five categories to evaluate the privacy practices of eight popular browser agents, identifying 30 vulnerabilities ranging from disabled browser privacy features to leaking sensitive personal information in form fields.
 
-- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597)
-    - Kaiyuan Zhang, Mark Tenenholtz, Kyle Polley, Jerry Ma, Denis Yarats, Ninghui Li
-    - 🏛️ Institutions: Purdue University, Perplexity AI
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [benchmark], [safety], [prompt injection], [defense], [security]
-    - 📖 TLDR: BrowseSafe introduces a benchmark of prompt injection attacks embedded in realistic HTML payloads targeting AI browser agents, and proposes a multi-layered defense-in-depth strategy combining architectural and model-based defenses to protect web agents from evolving prompt injection threats.
-
-- [Building Browser Agents: Architecture, Security, and Practical Solutions](https://arxiv.org/abs/2511.19477)
-    - Aram Vardanyan
-    - 🏛️ Institutions: FillApp
-    - 📅 Date: November 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [browser agent], [security], [prompt injection], [accessibility tree], [benchmark]
-    - 📖 TLDR: This paper presents practical findings from building a production browser agent, arguing that architectural decisions (hybrid context management, specialized tooling, programmatic safety constraints) matter more than model capability, and that prompt injection attacks make general-purpose autonomous browsing fundamentally unsafe; the system achieves ~85% on the WebGames benchmark.
-
 - [WebInject: Prompt Injection Attack to Web Agents](https://arxiv.org/abs/2505.11717)
     - Xilong Wang, John Bloch, Zedian Shao, Yuepeng Hu, Shuyan Zhou, Neil Zhenqiang Gong
     - 🏛️ Institutions: Duke University
@@ -137,7 +119,7 @@
 
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UGA, JHU, ASU, NVIDIA
     - 📅 Date: October 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -164,7 +146,7 @@
 
 - [Secure and Efficient Access Control for Computer-Use Agents via Context Space](https://arxiv.org/abs/2509.22256)
     - Haochen Gong, Chenxiao Li, Rui Chang, Wenbo Shen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ZJU
     - 📅 Date: September 26, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -173,30 +155,12 @@
 
 - [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
     - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ShanghaiTech
     - 📅 Date: September 09, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CCS 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [defense], [safety], [framework]
     - 📖 TLDR: AgentSentinel is an end-to-end, real-time security defense framework for CUAs that monitors LLM-driven tool commands across all agent components to detect and prevent unintended or harmful operations arising from LLM non-determinism, spanning vulnerabilities beyond insecure user prompts.
-
-- [Measuring Harmfulness of Computer-Using Agents](https://arxiv.org/abs/2508.00935)
-    - Aaron Xuxiang Tian, Ruofan Zhang, Janet Tang, Ji Wang, Tianyu Shi, Jiaxin Wen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 31, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [safety], [red-teaming], [security]
-    - 📖 TLDR: CUAHarm is a benchmark of 104 expert-written realistic misuse scenarios for computer-using agents—including disabling firewalls, data leakage, and backdoor installation—with a sandbox and rule-based verifiable rewards for comprehensive CUA misuse risk evaluation.
-
-- [A Systematization of Security Vulnerabilities in Computer Use Agents](https://arxiv.org/abs/2507.05445)
-    - Daniel Jones, Giorgio Severi, Martin Pouliot, Gary Lopez, Joris de Gruyter, Santiago Zanella-Beguelin, Justin Song, Blake Bullwinkel, Pamela Cortez, Amanda Minnich
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 07, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [security], [computer-use agent], [survey], [attack], [safety]
-    - 📖 TLDR: A systematization of seven classes of security vulnerabilities unique to Computer Use Agents—covering novel attack surfaces and trust boundaries not captured by traditional threat models—with systematic threat analysis and adversarial testing of real-world CUAs.
 
 - [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
     - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
@@ -218,7 +182,7 @@
 
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, HKUST
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -245,9 +209,9 @@
 
 - [sudo rm -rf agentic_security](https://arxiv.org/abs/2503.20279)
     - Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu, Min Song
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Aim Intelligence, Yonsei University, SNU
     - 📅 Date: March 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ACL 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [attack], [jailbreaking], [safety]
     - 📖 TLDR: SUDO (Screen-based Universal Detox2Tox Offense) is a novel attack framework that bypasses refusal-trained safeguards in commercial CUAs (e.g., Claude Computer Use) by transforming harmful requests into seemingly benign ones via a Detox2Tox mechanism, exposing critical vulnerabilities in CUA safety.

@@ -38,7 +38,7 @@
 
 - [CUAAudit: Meta-Evaluation of Vision-Language Models as Auditors of Autonomous Computer-Use Agents](https://arxiv.org/abs/2603.10577)
     - Marta Sumyk, Oleksandr Kosovan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Ukrainian Catholic University
     - 📅 Date: March 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -47,7 +47,7 @@
 
 - [Video-Based Reward Modeling for Computer-Use Agents](https://arxiv.org/abs/2603.10178)
     - Linxin Song, Jieyu Zhang, Huanxin Sheng, Taiwei Shi, Gupta Rahul, Yang Liu, Ranjay Krishna, Jian Kang, Jieyu Zhao
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: USC, University of Washington, MBZUAI, Amazon AGI
     - 📅 Date: March 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -83,9 +83,9 @@
 
 - [Mapping the Design Space of User Experience for Computer Use Agents](https://arxiv.org/abs/2602.07283)
     - Ruijia Cheng, Jenny T. Liang, Eldon Schoop, Jeffrey Nichols
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Apple, CMU
     - 📅 Date: February 06, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: IUI 2026
     - 💻 Env: [Desktop]
     - 🔑 Key: [computer-use agent], [UX design], [human-computer interaction], [user study], [evaluation]
     - 📖 TLDR: Maps the UX design space for computer-use agents through a two-phase study—taxonomy development from existing systems via expert interviews (n=8) and Wizard-of-Oz user studies (n=20)—producing a taxonomy of UX considerations including user prompts, explainability, user control, and mental models.
@@ -99,18 +99,9 @@
     - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [mobile GUI agent], [framework]
     - 📖 TLDR: MemGUI-Bench is a comprehensive memory-centric benchmark for mobile GUI agents featuring 128 tasks across 26 applications where 89.8% require memory through cross-temporal and cross-spatial retention, along with MemGUI-Eval, a progressive scrutiny evaluation pipeline with 7 hierarchical metrics. Evaluation of 11 state-of-the-art agents reveals significant memory deficits with 4-10x capability gaps hidden by standard benchmarks, identifying 5 distinct failure modes and design implications.
 
-- [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
-    - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Weifeng Lin, Shunye Tang
-    - 🏛️ Institutions: Xiaomi, Peking University, Chinese University of Hong Kong
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [mobile], [evaluation], [chinese], [online], [robustness]
-    - 📖 TLDR: MobileBench-OL is an online benchmark with 1080 tasks from 80 Chinese apps that evaluates mobile GUI agents across multiple dimensions including task execution, complex reasoning, long-horizon planning, and noise robustness, with an auto-eval framework featuring a reset mechanism for stable and repeatable real-world benchmarking.
-
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
     - Jing Wu, Daphne Barretto, Yiye Chen, Nicholas Gydé, Yanan Jian, Yuhang He, Vibhav Vineet
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Microsoft
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -198,60 +189,6 @@
     - 🔑 Key: [GUI agent], [benchmark], [spatial reasoning], [UI interaction], [LLM agent], [evaluation]
     - 📖 TLDR: DrawingBench is a verification framework that evaluates agentic LLMs' spatial reasoning and GUI interaction capabilities through mouse-based drawing tasks on a browser canvas, using 250 prompts with 8 objective criteria and multi-turn feedback, finding that specification clarity matters more than task complexity and external oversight outperforms self-correction.
 
-- ["Are We Done Yet?": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents](https://arxiv.org/abs/2511.20067)
-    - Marta Sumyk, Oleksandr Kosovan
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [evaluation], [computer-use agent], [VLM], [task completion], [self-correction]
-    - 📖 TLDR: Presents an autonomous vision-based evaluation framework using VLMs to assess CUA task completion directly from screenshots, achieving up to 73% accuracy on 1,260 macOS tasks across 42 built-in apps and yielding an average 27% relative improvement in task success when evaluator feedback is applied.
-
-- [AppSelectBench: Application-Level Tool Selection Benchmark](https://arxiv.org/abs/2511.19957)
-    - Tianyi Chen, Michael Solodko, Sen Wang, Jongwoo Ko, Junheng Hao, Colby Banbury, Sara Abdali, Saeed Amizadeh, Qing Xiao, Yinheng Li, Tianyu Ding, Kamran Ghasedi Dizaji, Suzhen Zheng, Hao Fan, Justin Wagle, Pashmina Cameron, Kazuhito Koishida
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [tool use], [application selection], [evaluation]
-    - 📖 TLDR: AppSelectBench is the first benchmark evaluating application-level tool selection in CUAs—deciding which application to use before invoking fine-grained APIs—revealing this critical capability is underserved by existing API-focused benchmarks and is necessary for correct environment initialization.
-
-- [UI-CUBE: Enterprise-Grade Computer Use Agent Benchmarking Beyond Task Accuracy to Operational Reliability](https://arxiv.org/abs/2511.17131)
-    - Horia Cristescu, Charles Park, Trong Canh Nguyen, Sergiu Talmacel, Alexandru-Gabriel Ilie, Stefan Adam
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 21, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [enterprise], [evaluation], [reliability]
-    - 📖 TLDR: UI-CUBE (UiPath Computer Use Benchmark) evaluates enterprise deployment readiness of CUAs with 226 tasks across simple UI interactions and complex workflows including copy-paste and enterprise application scenarios, exposing fundamental architectural limitations beyond task accuracy.
-
-- [IWR-Bench: Can LVLMs reconstruct interactive webpage from a user interaction video?](https://arxiv.org/abs/2509.24709)
-    - Yang Chen, Minghao Liu, Yufan Shen, Yunwen Li, Tianyuan Huang, Xinyu Fang, Tianyu Zheng, Wenxuan Huang, Cheng Yang, Daocheng Fu, Jianbiao Mei, Rong Wu, Yunfei Zhao, Licheng Wen, Xuemeng Yang, Song Mao, Qunshu Lin, Zhi Yu, Yongliang Shen, Yu Qiao, Botian Shi
-    - 🏛️ Institutions: Shanghai AI Lab, Zhejiang University, Chinese University of Hong Kong (Shenzhen), M-A-P, Chinese University of Hong Kong, Central South University, Fudan University, Stanford University, 2077AI, Shanghai Innovation Institute
-    - 📅 Date: November 19, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [web], [vision-language model], [UI-to-code], [code generation], [evaluation]
-    - 📖 TLDR: IWR-Bench is a benchmark for evaluating Large Vision-Language Models on interactive webpage reconstruction from user interaction videos, comprising 113 tasks from 100 real-world websites; experiments on 28 LVLMs show the best model achieves only 36.35% overall, with functional correctness (24.39%) lagging far behind visual fidelity (64.25%).
-
-- [TaskSense: Cognitive Chain Modeling and Difficulty Estimation for GUI Tasks](https://arxiv.org/abs/2511.09309)
-    - Yiwen Yin, Zhian Hu, Xiaoxi Xu...
-    - 🏛️ Institutions: Tsinghua University, University of Washington, Cornell University, University of Sydney
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [benchmark], [cognitive modeling], [task difficulty], [evaluation], [human-AI interaction]
-    - 📖 TLDR: TaskSense proposes Cognitive Chain, a framework that models GUI task difficulty from a cognitive perspective by decomposing cognitive processes preceding motor actions into structured steps with information-theoretic difficulty indices, and validates that cognitive difficulty correlates with user completion time and reveals capability gaps in state-of-the-art GUI agents.
-
-- [ProBench: Benchmarking GUI Agents with Accurate Process Information](https://arxiv.org/abs/2511.09157)
-    - Leyang Yang, Ziwei Wang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Zhejiang University, Ant Group
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [mobile], [evaluation], [process-aware evaluation], [Android], [multi-step tasks]
-    - 📖 TLDR: ProBench is a comprehensive mobile GUI agent benchmark with over 200 tasks that evaluates both final-state and intermediate-process information, introducing a Process Provider to automatically capture accurate process details for more precise assessment of agent performance on real-world GUI scenarios.
-
 - [WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation](https://arxiv.org/abs/2510.19205)
     - Yaoyao Qian, Yuanli Wang, Jinda Zhang, Yun Zong, Meixu Chen, Hanhan Zhou, Jindan Huang, Yifan Zeng, Xinyu Hu, Chan Hee Song, Danqing Zhang
     - 🏛️ Institutions: Northeastern University, Boston University, University of Victoria, University of Minnesota, George Washington University, Tufts University, Oregon State University, University of Texas at San Antonio, The Ohio State University, PathOnAI.org
@@ -299,7 +236,7 @@
 
 - [Scaling Agents for Computer Use](https://arxiv.org/abs/2510.02250)
     - Gonzalo Gonzalez-Pumariega, Vincent Tu, Chih-Lun Lee, Jiachen Yang, Ang Li, Xin Eric Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Simular AI, UCSB, Cornell
     - 📅 Date: October 02, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -317,48 +254,12 @@
 
 - [Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows](https://arxiv.org/abs/2509.04198)
     - Petr Průcha, Michaela Matoušková, Jan Strnad
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Technical University of Liberec
     - 📅 Date: September 04, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [computer-use agent], [RPA], [enterprise], [evaluation], [comparison]
     - 📖 TLDR: A comparative study between LLM-based Agentic Automation with Computer Use (AACU) and traditional Robotic Process Automation (RPA) across data entry, monitoring, and process automation workflows, evaluating whether CUAs can serve as viable alternatives to RPA in enterprise settings.
-
-- [OS-MAP: How Far Can Computer-Using Agents Go in Breadth and Depth?](https://arxiv.org/abs/2507.19132)
-    - Xuetian Chen, Yinghao Chen, Xinfeng Yuan, Zhuo Peng, Lu Chen, Yuekeng Li, Zhoujia Zhang, Yingqian Huang, Leyan Huang, Jiaqing Liang, Tianbao Xie, Zhiyong Wu, Qiushi Sun, Biqing Qi, Bowen Zhou
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [evaluation], [task diversity], [desktop]
-    - 📖 TLDR: OS-MAP is a benchmark of 416 realistic daily computer-use tasks organized to capture internal task heterogeneity and alignment with actual user demands, providing structured evaluation across breadth and depth dimensions to bridge research progress to practical CUA deployment.
-
-- [Learning, Reasoning, Refinement: A Framework for Kahneman's Dual-System Intelligence in GUI Agents](https://arxiv.org/abs/2506.17913)
-    - Jinjie Wei, Jiyao Liu, Lihao Liu, Ming Hu, Junzhi Ning, Mingcheng Li, Weijie Yin, Junjun He, Xiao Liang, Chao Feng, Dingkang Yang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [framework], [dual-system cognition], [reinforcement learning], [evaluation]
-    - 📖 TLDR: Proposes a Learning-Reasoning-Refinement (LRR) framework for GUI agents inspired by Kahneman dual-system theory, combining progressive System 2 reasoning with fast reactive decision-making and iterative refinement, alongside a new evaluation metric better reflecting real-world GUI interaction complexity.
-
-- [OSWorld-Human: Benchmarking the Efficiency of Computer-Use Agents](https://arxiv.org/abs/2506.16042)
-    - Reyna Abhyankar, Qi Qi, Yiying Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 19, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [efficiency], [latency], [evaluation]
-    - 📖 TLDR: OSWorld-Human is the first study benchmarking temporal efficiency of computer-use agents on OSWorld, measuring end-to-end latency (often tens of minutes vs. human minutes) and identifying root causes of this efficiency gap to guide development of practically deployable CUAs.
-
-- [WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks](https://arxiv.org/abs/2506.01952)
-    - Atsuyuki Miyai, Zaiying Zhao, Kazuki Egashira, Atsuki Sato, Tatsumi Sunada, Shota Onohara, Hiromasa Yamanishi, Mashiro Toyooka, Kunato Nishina, Ryoma Maeda, Kiyoharu Aizawa, Toshihiko Yamasaki
-    - 🏛️ Institutions: The University of Tokyo
-    - 📅 Date: June 03, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [evaluation], [memory], [WebChoreArena]
-    - 📖 TLDR: This paper introduces *WebChoreArena*, a new fully reproducible benchmark comprising 532 carefully curated tasks designed to extend the scope of WebArena beyond general browsing to more labor-intensive and tedious tasks. WebChoreArena systematically integrates three key challenges: (i) Massive Memory tasks requiring accurate retrieval of large amounts of information in the observations, (ii) Calculation tasks demanding precise mathematical reasoning, and (iii) Long-Term Memory tasks necessitating long-term memory across multiple webpages. Our experiments indicate that even with Gemini 2.5 Pro, there remains substantial room for improvement compared to WebArena, highlighting the increased challenges posed by WebChoreArena.
 
 - [Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents](https://arxiv.org/abs/2505.11891)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
@@ -407,9 +308,9 @@
 
 - [BEARCUBS: A benchmark for computer-using web agents](https://arxiv.org/abs/2503.07919)
     - Yixiao Song, Katherine Thai, Chau Minh Pham, Yapei Chang, Mazin Nadaf, Mohit Iyyer
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UMass Amherst, UMD
     - 📅 Date: March 10, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [web agent], [information seeking], [computer use], [evaluation]
     - 📖 TLDR: BEARCUBS is a benchmark of 111 information-seeking questions requiring web agents to access live websites, handle authentication, interact with dynamic content, and identify factual information in real-world settings without relying on static cached content.

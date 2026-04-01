@@ -1,6 +1,6 @@
 - [CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents](https://arxiv.org/abs/2603.24440)
     - Xiangru Jian, Shravan Nayak, Kevin Qinghong Lin, Aarash Feizi, Kaixin Li, Patrice Bechard, Spandana Gella, Sai Rajeswar
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ServiceNow, University of Waterloo, Mila, Universite de Montreal, McGill University, University of Oxford, NUS
     - 📅 Date: March 25, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -9,7 +9,7 @@
 
 - [CUAAudit: Meta-Evaluation of Vision-Language Models as Auditors of Autonomous Computer-Use Agents](https://arxiv.org/abs/2603.10577)
     - Marta Sumyk, Oleksandr Kosovan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Ukrainian Catholic University
     - 📅 Date: March 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -18,7 +18,7 @@
 
 - [Video-Based Reward Modeling for Computer-Use Agents](https://arxiv.org/abs/2603.10178)
     - Linxin Song, Jieyu Zhang, Huanxin Sheng, Taiwei Shi, Gupta Rahul, Yang Liu, Ranjay Krishna, Jian Kang, Jieyu Zhao
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: USC, University of Washington, MBZUAI, Amazon AGI
     - 📅 Date: March 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -43,15 +43,6 @@
     - 🔑 Key: [framework], [multi-agent], [memory], [planning], [skill abstraction], [intent representation], [IntentCUA]
     - 📖 TLDR: This paper introduces IntentCUA, a multi-agent computer-use framework for stabilizing long-horizon desktop automation through intent-aligned plan memory. It learns intent-level representations from interaction traces, abstracts reusable skills, and coordinates a Planner, Plan-Optimizer, and Critic over shared memory to reduce redundant replanning and error accumulation. On end-to-end evaluations over desktop applications, IntentCUA outperforms RL-based and trajectory-centric baselines, highlighting intent abstraction and memory-grounded multi-agent planning as an effective systems design for computer-use agents.
 
-- [A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents](https://arxiv.org/abs/2602.09310)
-    - Ananya Gubbi Mohanbabu, Rosiana Natalie, Brandon Kim, Anhong Guo, Amy Pavel
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [computer-use agent], [accessibility], [dataset], [benchmark], [human-computer interaction]
-    - 📖 TLDR: A11y-CUA presents the first dataset comparing 60 everyday tasks by blind/low-vision users and sighted users with 40.4 hours and 158K interaction events, revealing that CUAs mirror sighted interaction patterns and quantifying a critical accessibility gap that prevents BLVUs from collaborating with CUAs.
-
 - [ANCHOR: Branch-Point Data Generation for GUI Agents](https://arxiv.org/abs/2602.07153)
     - Jinbiao Wei, Yilun Zhao, Kangqi Ni, Haotian Zhao, Chen Qian
     - 🏛️ Institutions: Yale University, University of North Carolina at Chapel Hill
@@ -63,39 +54,30 @@
 
 - [Mapping the Design Space of User Experience for Computer Use Agents](https://arxiv.org/abs/2602.07283)
     - Ruijia Cheng, Jenny T. Liang, Eldon Schoop, Jeffrey Nichols
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Apple, CMU
     - 📅 Date: February 06, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: IUI 2026
     - 💻 Env: [Desktop]
     - 🔑 Key: [computer-use agent], [UX design], [human-computer interaction], [user study], [evaluation]
     - 📖 TLDR: Maps the UX design space for computer-use agents through a two-phase study—taxonomy development from existing systems via expert interviews (n=8) and Wizard-of-Oz user studies (n=20)—producing a taxonomy of UX considerations including user prompts, explainability, user control, and mental models.
 
-- [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
-    - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin, Shengyu Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 02, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [safety], [computer-use agent], [world model], [guardrail], [long-horizon task]
-    - 📖 TLDR: SafePred is a predictive guardrail for computer-using agents that aligns predicted future states from a world model against safety constraints to proactively prevent long-term risks emerging with delay, overcoming reactive guardrails that only constrain behavior within the current observation space.
-
-- [CUA-Skill: Develop Skills for Computer Using Agent](https://arxiv.org/abs/2601.21123)
-    - Tianyi Chen, Yinheng Li, Michael Solodko, Sen Wang, Nan Jiang, Tingyuan Cui, Junheng Hao, Jongwoo Ko, Sara Abdali, Leon Xu, Suzhen Zheng, Hao Fan, Pashmina Cameron, Justin Wagle, Kazuhito Koishida
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [computer-use agent], [skill abstraction], [framework], [desktop automation], [Windows]
-    - 📖 TLDR: CUA-Skill is a large-scale library encoding human computer-use knowledge as parameterized skills with composition graphs, spanning common Windows applications, providing practical infrastructure and tool substrate for scalable, reliable computer-using agent development.
-
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
     - Jing Wu, Daphne Barretto, Yiye Chen, Nicholas Gydé, Yanan Jian, Yuhang He, Vibhav Vineet
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Microsoft
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [computer-use agent], [long-horizon task], [desktop automation], [evaluation]
     - 📖 TLDR: OS-Marathon is a benchmark of 242 long-horizon repetitive tasks (expense processing, grade entry) for evaluating CUAs on structured recurring workflows, paired with a cost-effective few-shot condensed demonstration construction method to teach agents underlying sub-workflow logic.
+
+- [CUA-Skill: Develop Skills for Computer Using Agent](https://arxiv.org/abs/2601.21123)
+    - Tianyi Chen, Yinheng Li, Michael Solodko, Sen Wang, Nan Jiang, Tingyuan Cui, Junheng Hao, Jongwoo Ko, Sara Abdali, Leon Xu, Suzhen Zheng, Hao Fan, Pashmina Cameron, Justin Wagle, Kazuhito Koishida
+    - 🏛️ Institutions: Microsoft
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [computer-use agent], [skill abstraction], [framework], [desktop automation], [Windows]
+    - 📖 TLDR: CUA-Skill is a large-scale library encoding human computer-use knowledge as parameterized skills with composition graphs, spanning common Windows applications, providing practical infrastructure and tool substrate for scalable, reliable computer-using agent development.
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://openreview.net/forum?id=bJvwJahJeF)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiaochong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
@@ -115,78 +97,6 @@
     - 🔑 Key: [benchmark], [web agent], [enterprise], [evaluation], [dataset], [GUI agent]
     - 📖 TLDR: EntWorld is a large-scale benchmark of 1,756 tasks across six enterprise domains (CRM, ITIL, ERP, etc.) with SQL-based deterministic verification, revealing that state-of-the-art models like GPT-4.1 achieve only 47.61% success rate compared to human performance, highlighting a significant enterprise gap in current GUI agent capabilities.
 
-- ["Are We Done Yet?": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents](https://arxiv.org/abs/2511.20067)
-    - Marta Sumyk, Oleksandr Kosovan
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [evaluation], [computer-use agent], [VLM], [task completion], [self-correction]
-    - 📖 TLDR: Presents an autonomous vision-based evaluation framework using VLMs to assess CUA task completion directly from screenshots, achieving up to 73% accuracy on 1,260 macOS tasks across 42 built-in apps and yielding an average 27% relative improvement in task success when evaluator feedback is applied.
-
-- [AppSelectBench: Application-Level Tool Selection Benchmark](https://arxiv.org/abs/2511.19957)
-    - Tianyi Chen, Michael Solodko, Sen Wang, Jongwoo Ko, Junheng Hao, Colby Banbury, Sara Abdali, Saeed Amizadeh, Qing Xiao, Yinheng Li, Tianyu Ding, Kamran Ghasedi Dizaji, Suzhen Zheng, Hao Fan, Justin Wagle, Pashmina Cameron, Kazuhito Koishida
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [tool use], [application selection], [evaluation]
-    - 📖 TLDR: AppSelectBench is the first benchmark evaluating application-level tool selection in CUAs—deciding which application to use before invoking fine-grained APIs—revealing this critical capability is underserved by existing API-focused benchmarks and is necessary for correct environment initialization.
-
-- [UI-CUBE: Enterprise-Grade Computer Use Agent Benchmarking Beyond Task Accuracy to Operational Reliability](https://arxiv.org/abs/2511.17131)
-    - Horia Cristescu, Charles Park, Trong Canh Nguyen, Sergiu Talmacel, Alexandru-Gabriel Ilie, Stefan Adam
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 21, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [enterprise], [evaluation], [reliability]
-    - 📖 TLDR: UI-CUBE (UiPath Computer Use Benchmark) evaluates enterprise deployment readiness of CUAs with 226 tasks across simple UI interactions and complex workflows including copy-paste and enterprise application scenarios, exposing fundamental architectural limitations beyond task accuracy.
-
-- [OSGym: Scalable Distributed Data Engine for Generalizable Computer Agents](https://arxiv.org/abs/2511.11672)
-    - Zengyi Qin, Jinyuan Chen, Yunze Man, Shengcao Cao, Ziqi Pang, Zhuoyuan Wang, Xin Sun, Gen Lin, Han Fang, Ling Zhu, Zixin Xie, Zibu Wei, Tianshu Ran, Haoran Geng, Xander Wu, Zachary Bright, Qizhen Sun, Rui Wang, Yuyang Cai, Song Wang, Jiace Zhao, Han Cao, Yeyang Zhou, Tianrui Liu, Ray Pan
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [training environment], [computer-use agent], [dataset], [reinforcement learning], [scalability]
-    - 📖 TLDR: OSGym is a scalable distributed data engine parallelizing over 1,000+ OS replicas (1,420 multi-turn trajectories/minute) for training generalizable computer agents across diverse tasks including browser interactions, software engineering, and office automation under limited academic compute.
-
-- [Grounding Computer Use Agents on Human Demonstrations](https://arxiv.org/abs/2511.07332)
-    - Aarash Feizi, Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Kaixin Li, Rabiul Awal, Xing Han Lu, Johan Obando-Ceron, Juan A. Rodriguez, Nicolas Chapados, David Vazquez, Adriana Romero-Soriano, Reihaneh Rabbany, Perouz Taslakian, Christopher Pal, Spandana Gella, Sai Rajeswar
-    - 🏛️ Institutions: Mila, McGill University, Universite de Montreal, ServiceNow Research, University of Waterloo, University of Oxford, National University of Singapore, Polytechnique Montreal, Ecole de Technologie Superieure, CIFAR
-    - 📅 Date: November 10, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [dataset], [model], [GUI grounding], [desktop grounding], [reinforcement learning], [GroundCUA], [GroundNext]
-    - 📖 TLDR: This paper introduces GroundCUA, a large-scale desktop grounding dataset built from expert human demonstrations, covering 87 applications, 56K screenshots, and more than 3.56M human-verified UI annotations. Using this data, the authors train the GroundNext family of grounding models, which achieve state-of-the-art results across five benchmarks with far less training data than prior work, and improve further with reinforcement learning post-training. The paper shows that high-quality human demonstration data is a key driver for robust grounding in general-purpose computer-use agents.
-
-- [Learning from Online Videos at Inference Time for Computer-Use Agents](https://arxiv.org/abs/2511.04137)
-    - Yujian Liu, Ze Wang, Hao Chen, Ximeng Sun, Xiaodong Yu, Jialian Wu, Jiang Liu, Emad Barsoum, Zicheng Liu, Shiyu Chang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [computer-use agent], [video understanding], [in-context learning], [training-free], [inference-time scaling]
-    - 📖 TLDR: Proposes a training-free framework for CUAs to learn from online tutorial videos at inference time by retrieving relevant videos, converting them into structured demonstration trajectories via VLM-based action inference, and dynamically selecting trajectories as in-context guidance during execution.
-
-- [GUI-360☆: A Comprehensive Dataset and Benchmark for Computer-Using Agents](https://arxiv.org/abs/2511.04307)
-    - Jian Mu, Chaoyun Zhang, Chiming Ni, Lu Wang, Bo Qiao, Kartik Mathur, Qianhui Wu, Yuhang Xie, Xiaojun Ma, Mengyu Zhou, Si Qin, Liqun Li, Yu Kang, Minghua Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [dataset], [computer-use agent], [GUI grounding], [screen parsing]
-    - 📖 TLDR: GUI-360☆ is a large-scale dataset and benchmark suite with an LLM-augmented automated pipeline for CUAs, jointly evaluating GUI grounding, screen parsing, and action prediction to address the scarcity of real-world CUA tasks and the absence of a unified multi-capability benchmark.
-
-- [Game-TARS: Pretrained Foundation Models for Scalable Generalist Multimodal Game Agents](https://arxiv.org/abs/2510.23691)
-    - Zihao Wang, Xujing Li, Yining Ye, Junjie Fang, Haoming Wang, Longxiang Liu, Shihao Liang, Junting Lu, Zhiyong Wu, Jiazhan Feng, Wanjun Zhong, Zili Li, Yu Wang, Yu Miao, Bo Zhou, Yuanfan Li, Hao Wang, Zhongkai Zhao, Faming Wu, Zhengxuan Jiang, Weihao Tan, Heyuan Yao, Shi Yan, Xiangyang Li, Yitao Liang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: October 27, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [model], [computer-use agent], [game agent], [pretraining], [generalization]
-    - 📖 TLDR: Game-TARS is a generalist game and computer-use agent pretrained on 500B+ tokens with a unified keyboard-mouse action space across OS, web, and simulation games, using decaying continual loss to reduce causal confusion and sparse-thinking to balance reasoning depth and inference cost.
-
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
     - 🏛️ Institutions: Tencent Youtu Lab, Peking University, Nanjing University
@@ -198,7 +108,7 @@
 
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UGA, JHU, ASU, NVIDIA
     - 📅 Date: October 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -207,7 +117,7 @@
 
 - [From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents](https://arxiv.org/abs/2510.04607)
     - Yuan Wang, Mingyu Li, Haibo Chen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: SJTU
     - 📅 Date: October 06, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -216,16 +126,16 @@
 
 - [Watch and Learn: Learning to Use Computers from Online Videos](https://arxiv.org/abs/2510.04673)
     - Chan Hee Song, Yiwen Song, Palash Goyal, Yu Su, Oriana Riva, Hamid Palangi, Tomas Pfister
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Google Cloud AI Research, Google DeepMind, OSU
     - 📅 Date: October 06, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CVPR 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [computer-use agent], [training data], [video understanding], [data generation], [inverse dynamics]
     - 📖 TLDR: Watch & Learn (W&L) converts Internet computer-use videos into 53K+ executable UI trajectories by casting annotation as an inverse dynamics problem—predicting user actions from consecutive screen states—enabling scalable CUA training data collection from readily available human-recorded videos.
 
 - [Scaling Agents for Computer Use](https://arxiv.org/abs/2510.02250)
     - Gonzalo Gonzalez-Pumariega, Vincent Tu, Chih-Lun Lee, Jiachen Yang, Ang Li, Xin Eric Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Simular AI, UCSB, Cornell
     - 📅 Date: October 02, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -234,7 +144,7 @@
 
 - [Secure and Efficient Access Control for Computer-Use Agents via Context Space](https://arxiv.org/abs/2509.22256)
     - Haochen Gong, Chenxiao Li, Rui Chang, Wenbo Shen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ZJU
     - 📅 Date: September 26, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -243,16 +153,16 @@
 
 - [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
     - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ShanghaiTech
     - 📅 Date: September 09, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CCS 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [defense], [safety], [framework]
     - 📖 TLDR: AgentSentinel is an end-to-end, real-time security defense framework for CUAs that monitors LLM-driven tool commands across all agent components to detect and prevent unintended or harmful operations arising from LLM non-determinism, spanning vulnerabilities beyond insecure user prompts.
 
 - [Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows](https://arxiv.org/abs/2509.04198)
     - Petr Průcha, Michaela Matoušková, Jan Strnad
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Technical University of Liberec
     - 📅 Date: September 04, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -261,7 +171,7 @@
 
 - [A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants](https://arxiv.org/abs/2510.06223)
     - Hans G. W. van Dam
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: uxx.ai
     - 📅 Date: August 31, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -270,7 +180,7 @@
 
 - [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://arxiv.org/abs/2508.20096)
     - Zeyi Sun, Yuhang Cao, Jianze Liang, Qiushi Sun, Ziyu Liu, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Shanghai AI Lab, SJTU, CUHK
     - 📅 Date: August 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -315,79 +225,16 @@
 
 - [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037)
     - Yuhao Cheng, Liang Tang, Shuxian Li, Yukang Huo, Tiaonan Duan, Kaer Huang, Yanzhe Jing, Yiqiang Yan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Lenovo, China Agricultural University
     - 📅 Date: August 05, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [computer-use agent], [self-evolving], [reinforcement learning], [data generation], [framework]
     - 📖 TLDR: Proposes the Self-Evolution Agent (SEA) for computer operation with three core innovations: an automatic verifiable trajectory generation pipeline, multi-turn RL-based policy optimization, and continual model enhancement to iteratively improve performance on diverse computer-use tasks.
 
-- [Measuring Harmfulness of Computer-Using Agents](https://arxiv.org/abs/2508.00935)
-    - Aaron Xuxiang Tian, Ruofan Zhang, Janet Tang, Ji Wang, Tianyu Shi, Jiaxin Wen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 31, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [safety], [red-teaming], [security]
-    - 📖 TLDR: CUAHarm is a benchmark of 104 expert-written realistic misuse scenarios for computer-using agents—including disabling firewalls, data leakage, and backdoor installation—with a sandbox and rule-based verifiable rewards for comprehensive CUA misuse risk evaluation.
-
-- [OS-MAP: How Far Can Computer-Using Agents Go in Breadth and Depth?](https://arxiv.org/abs/2507.19132)
-    - Xuetian Chen, Yinghao Chen, Xinfeng Yuan, Zhuo Peng, Lu Chen, Yuekeng Li, Zhoujia Zhang, Yingqian Huang, Leyan Huang, Jiaqing Liang, Tianbao Xie, Zhiyong Wu, Qiushi Sun, Biqing Qi, Bowen Zhou
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [evaluation], [task diversity], [desktop]
-    - 📖 TLDR: OS-MAP is a benchmark of 416 realistic daily computer-use tasks organized to capture internal task heterogeneity and alignment with actual user demands, providing structured evaluation across breadth and depth dimensions to bridge research progress to practical CUA deployment.
-
-- [NeuralOS: Towards Simulating Operating Systems via Neural Generative Models](https://arxiv.org/abs/2507.08800)
-    - Luke Rivard, Sun Sun, Hongyu Guo, Wenhu Chen, Yuntian Deng
-    - 🏛️ Institutions: University of Waterloo, National Research Council Canada
-    - 📅 Date: July 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [GUI], [environment], [world model], [diffusion model], [desktop], [data generation]
-    - 📖 TLDR: NeuralOS introduces a neural framework that simulates operating system GUIs by combining an RNN-based state tracker with a diffusion-based renderer to predict screen frames in response to user inputs like mouse clicks and keyboard events, trained on Ubuntu XFCE recordings including AI agent-generated interactions.
-
-- [A Systematization of Security Vulnerabilities in Computer Use Agents](https://arxiv.org/abs/2507.05445)
-    - Daniel Jones, Giorgio Severi, Martin Pouliot, Gary Lopez, Joris de Gruyter, Santiago Zanella-Beguelin, Justin Song, Blake Bullwinkel, Pamela Cortez, Amanda Minnich
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 07, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [security], [computer-use agent], [survey], [attack], [safety]
-    - 📖 TLDR: A systematization of seven classes of security vulnerabilities unique to Computer Use Agents—covering novel attack surfaces and trust boundaries not captured by traditional threat models—with systematic threat analysis and adversarial testing of real-world CUAs.
-
-- [OSWorld-Human: Benchmarking the Efficiency of Computer-Use Agents](https://arxiv.org/abs/2506.16042)
-    - Reyna Abhyankar, Qi Qi, Yiying Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 19, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [efficiency], [latency], [evaluation]
-    - 📖 TLDR: OSWorld-Human is the first study benchmarking temporal efficiency of computer-use agents on OSWorld, measuring end-to-end latency (often tens of minutes vs. human minutes) and identifying root causes of this efficiency gap to guide development of practically deployable CUAs.
-
-- [AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](https://arxiv.org/abs/2506.14205)
-    - Jingxu Xie, Dylan Xu, Xuandong Zhao, Dawn Song
-    - 🏛️ Institutions: University of California, Berkeley
-    - 📅 Date: June 17, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [dataset], [synthetic data], [task generation], [computer-use agent], [long-horizon task], [AgentSynth]
-    - 📖 TLDR: This paper introduces AgentSynth, a scalable pipeline for automatically generating high-quality tasks and trajectory datasets for generalist computer-use agents. By exploiting information asymmetry between generation and evaluation, it composes simple subtasks into difficult long-horizon tasks and produces more than 6,000 diverse tasks at low cost. The resulting benchmark exposes steep performance degradation in current state-of-the-art agents as task difficulty increases and provides a scalable alternative to expensive human-collected trajectories.
-
-- [FormGym: Doing Paperwork with Agents](https://arxiv.org/abs/2506.14079)
-    - Matthew Toles, Rattandeep Singh, Isaac Song, Zhou Yu
-    - 🏛️ Institutions: Columbia University, Georgia Institute of Technology, Arklex.ai
-    - 📅 Date: June 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [form-filling], [GUI agent], [multimodal], [tool-use], [document understanding]
-    - 📖 TLDR: FormGym is a form-filling benchmark of 432 fields across 55 documents that evaluates VLAs and GUI agents on completing paperwork in the pure-image domain, finding that baseline VLAs achieve less than 1% accuracy while GUI agents score 10.6-68.0%; the authors also contribute FieldFinder, a tool that helps LLMs localize text placement on forms, boosting accuracy from 2% to 56%.
-
 - [MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents](https://arxiv.org/abs/2506.07672)
     - Yunhe Yan, Shihe Wang, Jiajun Du, Yexuan Yang, Yuxuan Shan, Qichen Qiu, Xianqing Jia, Xinge Wang, Xin Yuan, Xu Han, Mao Qin, Yinxiao Chen, Chen Peng, Shangguang Wang, Mengwei Xu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: BUPT, Pengcheng Laboratory
     - 📅 Date: June 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -396,7 +243,7 @@
 
 - [BIMgent: Towards Autonomous Building Modeling via Computer-use Agents](https://arxiv.org/abs/2506.07217)
     - Zihan Deng, Changyu Du, Stavros Nousias, André Borrmann
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: TUM
     - 📅 Date: June 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -412,9 +259,9 @@
     - 🔑 Key: [benchmark], [multilingual], [safety], [macOSWorld]
     - 📖 TLDR: Introduces **macOSWorld**, the first interactive benchmark for GUI agents on macOS, with 202 tasks across 30 apps (28 macOS-exclusive) in 5 languages plus a safety subset for deception attacks; evaluates 6 agents, showing proprietary CUAs outperform open-source and VLM-based agents, significant language gaps (Arabic –27.5%), and both grounding and safety challenges.
 
-- [VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents](https://arxiv.org/abs/2506.02539)
-    - Thong Q. Nguyen, Shubhang Desai, Raja Hasnain Anwar, Firoz Shaik, Vishwas Suryanarayanan, Vishal Chowdhary
-    - 🏛️ Institutions: Unknown
+- [DPO Learning with LLMs-Judge Signal for Computer Use Agents](https://arxiv.org/abs/2506.03095)
+    - Man Luo, David Cobbley, Xin Su, Shachar Rosenman, Vasudev Lal, Shao-Yen Tseng, Phillip Howard
+    - 🏛️ Institutions: Intel, Thoughtworks
     - 📅 Date: June 03, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -468,9 +315,9 @@
 
 - [sudo rm -rf agentic_security](https://arxiv.org/abs/2503.20279)
     - Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu, Min Song
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Aim Intelligence, Yonsei University, SNU
     - 📅 Date: March 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ACL 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [attack], [jailbreaking], [safety]
     - 📖 TLDR: SUDO (Screen-based Universal Detox2Tox Offense) is a novel attack framework that bypasses refusal-trained safeguards in commercial CUAs (e.g., Claude Computer Use) by transforming harmful requests into seemingly benign ones via a Detox2Tox mechanism, exposing critical vulnerabilities in CUA safety.
@@ -612,7 +459,7 @@
 
 - [Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces](https://arxiv.org/abs/2407.01558)
     - El Hassane Ettifouri, Jessica López Espejel, Laura Minkova, Tassnim Dardouri, Walid Dahhane
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Novelis
     - 📅 Date: May 05, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -628,15 +475,6 @@
     - 🔑 Key: [framework], [dataset], [general virtual agents], [open-ended learning], [tool creation], [GroundUI], [benchmark]
     - 📖 TLDR: AgentStudio is a robust toolkit for developing virtual agents with versatile actions, such as GUI automation and code execution. It unifies real-world human-computer interactions across OS platforms and includes diverse observation and action spaces, facilitating comprehensive training and benchmarking in complex settings. The toolkit's flexibility promotes agent generalization across varied tasks, supporting tool creation and a multimodal interaction interface to advance agent adaptability and learning.
 
-- [Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study](https://arxiv.org/abs/2403.03186)
-    - Weihao Tan, Ziluo Ding, Wentao Zhang, Boyu Li, Bohan Zhou, Junpeng Yue, Haochong Xia, Jiechuan Jiang, Longtao Zheng, Xinrun Xu, Yifei Bi, Pengjie Gu, Xinrun Wang, Börje F. Karlsson, Bo An, Zongqing Lu
-    - 🏛️ Institutions: Nanyang Technological University, Beijing Academy of Artificial Intelligence, Peking University
-    - 📅 Date: March 05, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [cradle], [general computer control], [multimodal], [keyboard and mouse control], [long-term memory], [reasoning], [self-improvement]
-    - 📖 TLDR: This paper introduces *Cradle*, a framework designed to achieve General Computer Control (GCC) by enabling agents to perform any computer task using only screen images (and possibly audio) as input and producing keyboard and mouse operations as output. The authors deploy Cradle in the complex AAA game Red Dead Redemption II, demonstrating its capability to follow the main storyline and complete real missions with minimal reliance on prior knowledge or resources.
-
 - [Cradle: Empowering Foundation Agents Towards General Computer Control](https://proceedings.mlr.press/v267/tan25h.html)
     - Weihao Tan, Wentao Zhang, Xinrun Xu, Haochong Xia, Ziluo Ding, Boyu Li, Bohan Zhou, Junpeng Yue, Jiechuan Jiang, Yewen Li, Ruyi An, Molei Qin, Chuqiao Zong, Longtao Zheng, Yujie Wu, Xiaoqiang Chai, Yifei Bi, Tianbao Xie, Pengjie Gu, Xiyun Li, Ceyao Zhang, Long Tian, Chaojie Wang, Xinrun Wang, Börje F. Karlsson, Bo An, Shuicheng Yan, Zongqing Lu
     - 🏛️ Institutions: Skywork AI, Beijing Academy of Artificial Intelligence, Nanyang Technological University, Peking University, Institute of Software, Chinese Academy of Sciences, The University of Hong Kong, The Chinese University of Hong Kong
@@ -645,6 +483,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [model], [general computer control], [skill curation], [self-improvement]
     - 📖 TLDR: This paper introduces the Cradle framework, designed to enable general computer control (GCC) through multimodal input (e.g., screen images and optional audio) and outputs (keyboard and mouse). Cradle’s six core modules, including self-reflection, skill curation, and memory, allow for generalized task handling in complex environments like AAA games. Demonstrated in *Red Dead Redemption II*, the framework exhibits adaptability by performing real missions and following the storyline with minimal prior knowledge, showcasing its potential as a generalist agent for diverse computer tasks.
+
+- [Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study](https://arxiv.org/abs/2403.03186)
+    - Weihao Tan, Ziluo Ding, Wentao Zhang, Boyu Li, Bohan Zhou, Junpeng Yue, Haochong Xia, Jiechuan Jiang, Longtao Zheng, Xinrun Xu, Yifei Bi, Pengjie Gu, Xinrun Wang, Börje F. Karlsson, Bo An, Zongqing Lu
+    - 🏛️ Institutions: Nanyang Technological University, Beijing Academy of Artificial Intelligence, Peking University
+    - 📅 Date: March 05, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [cradle], [general computer control], [multimodal], [keyboard and mouse control], [long-term memory], [reasoning], [self-improvement]
+    - 📖 TLDR: This paper introduces *Cradle*, a framework designed to achieve General Computer Control (GCC) by enabling agents to perform any computer task using only screen images (and possibly audio) as input and producing keyboard and mouse operations as output. The authors deploy Cradle in the complex AAA game Red Dead Redemption II, demonstrating its capability to follow the main storyline and complete real missions with minimal reliance on prior knowledge or resources.
 
 - [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://eccv.ecva.net/virtual/2024/poster/1107)
     - Raghav Kapoor, Yash Parag Butala, Melisa Russak, Jing Yu Koh, Kiran Kamble, Waseem Alshikh, Ruslan Salakhutdinov

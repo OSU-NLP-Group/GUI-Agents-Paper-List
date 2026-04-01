@@ -18,15 +18,6 @@
     - 🔑 Key: [framework], [reinforcement learning], [mobile GUI agent], [sample efficiency], [AndroidWorld], [SoLS]
     - 📖 TLDR: This paper introduces SoLS, an off-policy reinforcement learning algorithm for mobile app control that treats successful and unsuccessful samples differently to improve stability and sample efficiency. It also adds Successful Transition Replay to focus learning on successful interactions. On AndroidWorld, the method substantially outperforms prior prompt-based and RL baselines while using much less computation than large proprietary agents.
 
-- [MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation](https://arxiv.org/abs/2507.16853)
-    - Ning Li, Xiangmou Qu, Jiamu Zhou, Jun Wang, Muning Wen, Kounianhua Du, Xingyu Lou, Qiuying Peng, Jun Wang, Weinan Zhang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, OPPO Research Institute
-    - 📅 Date: July 21, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [mobile GUI agent], [hierarchical reflection], [proactive exploration], [AndroidWorld], [AndroidLab], [MobileUse]
-    - 📖 TLDR: This paper introduces MobileUse, a mobile GUI agent designed to handle long-horizon execution, error recovery, and cold-start operation in unfamiliar apps. Its core design combines hierarchical reflection across multiple temporal scales with a reflection-on-demand strategy and proactive exploration to build environment understanding before acting. The result sets new state-of-the-art success rates on AndroidWorld and AndroidLab and is released with a toolkit for execution on physical mobile devices.
-
 - [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
     - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu
     - 🏛️ Institutions: Peking University, Microsoft Research Asia
@@ -35,15 +26,6 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [knowledge-execution gap], [critique stage], [retrace stage], [OSWorld], [self‑evolution]
     - 📖 TLDR: The paper identifies a “knowledge‑execution gap” where even highly accurate external knowledge (90%) only yields a 41% execution success rate. To bridge this, the authors introduce **UI‑Evol**, a plug‑and‑play two‑stage module for GUI agents—**Retrace** recovers actual action sequences from real agent–environment interactions, and **Critique** refines knowledge by comparing these sequences with external references. Experiments using Agent S2 on the OSWorld benchmark show significant gains in task performance and reduced behavioral variance, improving agent reliability.
-
-- [ViMo: A Generative Visual GUI World Model for App Agents](https://arxiv.org/abs/2504.13936)
-    - Dezhao Luo, Bohan Tang, Kang Li, Georgios Papoudakis, Jifei Song, Shaogang Gong, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Queen Mary University of London, University of Oxford, Huawei Noah's Ark Lab, University College London
-    - 📅 Date: May 20, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [world model], [visual prediction], [mobile GUI agent], [long-horizon planning], [ViMo]
-    - 📖 TLDR: This paper introduces ViMo, the first visual GUI world model for app agents that predicts future GUI observations directly as images rather than only as text descriptions. To handle the hard problem of rendering GUI text accurately, it separates graphic generation from text generation with a Symbolic Text Representation and dedicated predictors for each part. The generated future screens are then used to help agents compare action outcomes and make better long-horizon decisions in mobile apps.
 
 - [VSC-RL: Advancing Autonomous Vision-Language Agents with Variational Subgoal-Conditioned Reinforcement Learning](https://arxiv.org/abs/2502.07949)
     - Qingyuan Wu, Jianheng Liu, Jianye Hao, Jun Wang, Kun Shao

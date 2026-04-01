@@ -160,14 +160,14 @@
     - 🔑 Key: [benchmark], [framework], [web agent], [desktop agent], [testing], [LLM]
     - 📖 TLDR: SpecOps is a fully automated testing framework that evaluates GUI-based AI agents in real-world environments by decomposing the testing process into four LLM-based specialist phases (test case generation, environment setup, execution, and validation), identifying 164 true bugs across five diverse real-world agents with an F1 score of 0.89.
 
-- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
     - Zihao Wu, Zihan Ding, Fan Zhou, Hao Shi, Xiaomin Zhang
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign, Stevens Institute of Technology
+    - 🏛️ Institutions: The Chinese University of Hong Kong (MMLab @ CUHK), Nankai University, Huawei Research
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [computer use agent], [GUI agent], [exploration], [skill learning], [benchmark], [inference-time scaling]
-    - 📖 TLDR: OSExpert introduces a GUI-based depth-first search exploration algorithm that enables computer-use agents to autonomously learn professional skills (unit functions, composite tasks, and action primitives) from software environments, achieving ~20% performance gain on their new OSExpert-Eval benchmark and closing the efficiency gap to human experts by ~80%.
+    - 🔑 Key: [benchmark], [proactive agent], [GUI agent], [intent recommendation], [mobile], [multimodal LLM]
+    - 📖 TLDR: PIRA-Bench introduces a benchmark for evaluating proactive GUI agents that anticipate user intentions from continuous visual inputs (screenshots) without explicit instructions, featuring complex trajectories with interleaved intents and noisy segments, along with a memory-aware baseline framework (PIRF) for managing multiple task threads.
 
 - [SlowBA: An efficiency backdoor attack towards VLM-based GUI agents](https://arxiv.org/abs/2603.08316)
     - Junjie He, Zhizheng Zhang, Haoyu Chen, Sitao Huang, Xuyang Ye
@@ -178,14 +178,14 @@
     - 🔑 Key: [GUI agent], [attack], [VLM], [backdoor attack], [reinforcement learning], [security]
     - 📖 TLDR: SlowBA is a novel backdoor attack targeting the response efficiency of VLM-based GUI agents by inducing excessively long reasoning chains when triggered by realistic pop-up windows, using a two-stage reward-level backdoor injection strategy with reinforcement learning that significantly increases latency while preserving task accuracy.
 
-- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
     - Zihao Wu, Zihan Ding, Fan Zhou, Hao Shi, Xiaomin Zhang
-    - 🏛️ Institutions: The Chinese University of Hong Kong (MMLab @ CUHK), Nankai University, Huawei Research
+    - 🏛️ Institutions: University of Illinois Urbana-Champaign, Stevens Institute of Technology
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [proactive agent], [GUI agent], [intent recommendation], [mobile], [multimodal LLM]
-    - 📖 TLDR: PIRA-Bench introduces a benchmark for evaluating proactive GUI agents that anticipate user intentions from continuous visual inputs (screenshots) without explicit instructions, featuring complex trajectories with interleaved intents and noisy segments, along with a memory-aware baseline framework (PIRF) for managing multiple task threads.
+    - 🔑 Key: [computer use agent], [GUI agent], [exploration], [skill learning], [benchmark], [inference-time scaling]
+    - 📖 TLDR: OSExpert introduces a GUI-based depth-first search exploration algorithm that enables computer-use agents to autonomously learn professional skills (unit functions, composite tasks, and action primitives) from software environments, achieving ~20% performance gain on their new OSExpert-Eval benchmark and closing the efficiency gap to human experts by ~80%.
 
 - [CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning](https://arxiv.org/abs/2603.02951)
     - Zhenquan Yao, Zitong Huang, Yihan Zeng, Jianhua Han, Hang Xu, Chun-Mei Feng, Jianwei Ma, Wangmeng Zuo
@@ -225,7 +225,7 @@
 
 - [Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision](https://arxiv.org/abs/2602.14276)
     - A. Said Gurbuz, Sunghwan Hong, Ahmed Nassar, Marc Pollefeys, Peter Staar
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: IBM Research, ETH Zurich, KAIST
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -240,6 +240,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [GUI agent], [reinforcement learning], [q-value estimation], [policy optimization], [MLLM], [web navigation]
     - 📖 TLDR: This paper proposes a framework for autonomous GUI navigation consisting of agentic-Q estimation (a Q-model that evaluates step-wise action contributions to task completion) and step-wise policy optimization (RL training decoupled from the environment), which enables Ovis2.5-9B to achieve strong performance on GUI navigation and grounding benchmarks, surpassing larger-scale models.
+
+- [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430)
+    - Renjun Xu, Yang Yan
+    - 🏛️ Institutions: Zhejiang University
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [survey], [LLM agent], [agent skills], [CUA], [GUI grounding], [benchmark]
+    - 📖 TLDR: A comprehensive survey of the agent skills landscape for LLMs, organized along four axes: architectural foundations (SKILL.md, MCP), skill acquisition (RL, autonomous discovery), deployment at scale (CUA stack, GUI grounding, OSWorld/SWE-bench), and security (skill trust governance framework).
 
 - [Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2602.11858)
     - Lai Wei, Liangbo He, Jun Lan, Zhuohao Yu, Kangdi Wang
@@ -258,15 +267,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [GUI agent], [autonomy levels], [framework], [benchmark], [trustworthy AI], [survey]
     - 📖 TLDR: This paper proposes GUI Agent Autonomy Levels (GAL), a six-level framework inspired by SAE driving automation levels, to classify GUI agents by their degree of autonomy and provide conceptual clarity for benchmarking progress toward trustworthy software interaction.
-
-- [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430)
-    - Renjun Xu, Yang Yan
-    - 🏛️ Institutions: Zhejiang University
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [survey], [LLM agent], [agent skills], [CUA], [GUI grounding], [benchmark]
-    - 📖 TLDR: A comprehensive survey of the agent skills landscape for LLMs, organized along four axes: architectural foundations (SKILL.md, MCP), skill acquisition (RL, autonomous discovery), deployment at scale (CUA stack, GUI grounding, OSWorld/SWE-bench), and security (skill trust governance framework).
 
 - [See, Plan, Snap: Evaluating Multimodal GUI Agents in Scratch](https://arxiv.org/abs/2602.10814)
     - Xingyi Zhang, Yulei Ye, Kaifeng Huang, Hao Liu, Gang Yin
@@ -294,33 +294,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [framework], [continual learning], [reinforcement learning], [environment adaptation], [CUAJudge], [ACuRL]
     - 📖 TLDR: This paper studies continual learning for computer-use agents in dynamic, shifting target environments without relying on human demonstrations. It introduces ACuRL, an autonomous curriculum reinforcement learning framework that explores environments, synthesizes progressively tailored tasks, and trains with CUAJudge, an automatic evaluator aligned closely with human judgments. The method improves both intra-environment and cross-environment adaptation while avoiding catastrophic forgetting, making it directly relevant to real-world deployment of CUAs.
-
-- [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
-    - Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, LawZero, Mila - Quebec AI Institute, Universite de Montreal, University of California, Berkeley
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [safety], [red teaming], [unintended behavior], [computer-use agent], [AutoElicit]
-    - 📖 TLDR: This paper studies unsafe unintended behaviors in computer-use agents under benign user inputs rather than adversarial prompts. It introduces AutoElicit, an agentic framework that iteratively perturbs realistic benign instructions using execution feedback to surface severe harmful behaviors in frontier CUAs. The results show that even strong CUAs remain broadly susceptible to harmful deviations, establishing a concrete framework for systematically probing unintended safety failures in realistic computer-use settings.
-
-- [When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents](https://arxiv.org/abs/2602.08995)
-    - Yuting Ning, Jaylen Jones, Zhehao Zhang, Chentao Ye, Weitong Ruan, Junyi Li, Rahul Gupta, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, Amazon AGI
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [safety], [guardrail], [misaligned actions], [MisActBench], [DeAction]
-    - 📖 TLDR: This paper defines the problem of misaligned actions in computer-use agents, covering both externally induced failures such as prompt injection and internally arising errors such as faulty reasoning. It introduces MisActBench, an action-level benchmark with human alignment labels, and DeAction, a guardrail that detects and iteratively corrects misaligned actions before execution. DeAction substantially improves F1 on the benchmark and sharply reduces attack success in online evaluation while preserving benign task success.
-
-- [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082)
-    - Venus Team, Changlong Gao, Zhangxuan Gu, Yingying Zhou, Yang Liu
-    - 🏛️ Institutions: Ant Group
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [reinforcement learning], [model merging], [mobile navigation], [web navigation], [grounding]
-    - 📖 TLDR: UI-Venus-1.5 is a unified end-to-end GUI agent family (2B/8B/30B-A3B) that combines mid-training on 10B tokens, online reinforcement learning with full-trajectory rollouts, and model merging to achieve state-of-the-art performance on GUI grounding and navigation benchmarks including ScreenSpot-Pro (69.6%), VenusBench-GD (75.0%), and AndroidWorld (77.6%).
 
 - [POINTS-GUI-G: GUI-Grounding Journey](https://arxiv.org/abs/2602.06391)
     - Zhongyin Zhao, Yuan Liu, Yikun Liu, Haicheng Wang, Le Tian, Xiao Zhou, Yangxiu You, Zilin Yu, Yang Yu, Jie Zhou
@@ -385,24 +358,6 @@
     - 🔑 Key: [security], [attack], [web agent], [benchmark], [grounding], [vision]
     - 📖 TLDR: This paper introduces a realistic dynamic-environment threat model for Environmental Injection Attacks (EIAs) against GUI agents and proposes Chameleon, an attack framework using LLM-driven environment simulation and an Attention Black Hole mechanism to expose hidden vulnerabilities of LVLM-powered GUI agents on real-world websites.
 
-- [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/abs/2602.02548)
-    - Xiaoce Wang, Guibin Zhang, Junzhe Li, Fang Li, Chen Zhang
-    - 🏛️ Institutions: Tsinghua University, National University of Singapore, Peking University, Shenzhen MSU-BIT University, Guangming Laboratory
-    - 📅 Date: January 30, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [tool use], [tokenization], [curriculum learning], [visual grounding], [data efficiency]
-    - 📖 TLDR: ToolTok introduces a tool tokenization paradigm for GUI agents that models operations as multi-step pathfinding through learnable tool tokens with semantic anchoring and curriculum learning, achieving competitive performance with models 50x larger while using less than 1% of the training data required by other post-training approaches.
-
-- [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528)
-    - Hongze Mi, Yibo Feng, Wenjie Lu, Wenbin Jiang, Yasheng Wang
-    - 🏛️ Institutions: Didichuxing Co. Ltd, The Chinese University of Hong Kong Shenzhen, Tianjin University, Sun Yat-sen University, Fudan University
-    - 📅 Date: January 30, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [memory system], [training-free], [MLLM], [multi-app], [mobile]
-    - 📖 TLDR: Darwinian Memory System (DMS) is a training-free, self-evolving memory architecture for GUI agents that treats memory as a dynamic ecosystem governed by natural selection, decomposing trajectories into reusable units and pruning suboptimal paths via utility-driven selection, achieving 18.0% gains in success rate and 33.9% in execution stability on real-world multi-app benchmarks.
-
 - [SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization](https://arxiv.org/abs/2601.22491)
     - Jinyang Wu, Changpeng Yang, Yuhao Shen, Wentao Zhang, Gang Pan
     - 🏛️ Institutions: Tsinghua University, Xiaomi Corporation, Zhejiang University, Nanyang Technological University, Institute of Automation Chinese Academy of Sciences
@@ -421,6 +376,24 @@
     - 🔑 Key: [GUI agent], [training], [attribution], [explainability], [MLLM], [reliability]
     - 📖 TLDR: This paper proposes an attribution-based human prior alignment training method that uses subset-selection-based attribution to penalize models for relying on off-prior evidence, and validates it on both image classification and MLLM-based GUI agent click decision tasks, consistently improving task accuracy and decision reasonability.
 
+- [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528)
+    - Hongze Mi, Yibo Feng, Wenjie Lu, Wenbin Jiang, Yasheng Wang
+    - 🏛️ Institutions: Didichuxing Co. Ltd, The Chinese University of Hong Kong Shenzhen, Tianjin University, Sun Yat-sen University, Fudan University
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [GUI agent], [memory system], [training-free], [MLLM], [multi-app], [mobile]
+    - 📖 TLDR: Darwinian Memory System (DMS) is a training-free, self-evolving memory architecture for GUI agents that treats memory as a dynamic ecosystem governed by natural selection, decomposing trajectories into reusable units and pruning suboptimal paths via utility-driven selection, achieving 18.0% gains in success rate and 33.9% in execution stability on real-world multi-app benchmarks.
+
+- [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/abs/2602.02548)
+    - Xiaoce Wang, Guibin Zhang, Junzhe Li, Fang Li, Chen Zhang
+    - 🏛️ Institutions: Tsinghua University, National University of Singapore, Peking University, Shenzhen MSU-BIT University, Guangming Laboratory
+    - 📅 Date: January 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [GUI agent], [tool use], [tokenization], [curriculum learning], [visual grounding], [data efficiency]
+    - 📖 TLDR: ToolTok introduces a tool tokenization paradigm for GUI agents that models operations as multi-step pathfinding through learnable tool tokens with semantic anchoring and curriculum learning, achieving competitive performance with models 50x larger while using less than 1% of the training data required by other post-training approaches.
+
 - [BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents](https://arxiv.org/abs/2601.21352)
     - Ziyu Lu, Tengjin Weng, Yiying Yang, Hanchu Zhou, Kenji Kawaguchi
     - 🏛️ Institutions: Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shenzhen University, Guangdong University of Technology
@@ -430,15 +403,6 @@
     - 🔑 Key: [GUI agent], [backtracking], [DFS], [planning], [error recovery], [OSWorld]
     - 📖 TLDR: BEAP-Agent models GUI task execution as a depth-first search process, introducing a framework with backtrackable execution and adaptive planning that enables multi-level state backtracking for error recovery, achieving 28.2% accuracy on the OSWorld benchmark.
 
-- [Continual GUI Agents](https://arxiv.org/abs/2601.20732)
-    - Ziwei Liu, Borui Kang, Hangjie Yuan, Zixiang Zhao, Wei Li, Yifan Zhu, Tao Feng
-    - 🏛️ Institutions: Tsinghua University, Zhejiang University, ETH Zurich, Beijing University of Posts and Telecommunications
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [continual learning], [reinforcement learning], [GUI grounding], [domain shift], [GUI-AiF], [continual GUI agents]
-    - 📖 TLDR: This paper introduces Continual GUI Agents as a continual learning setting where GUI agents must adapt to domain and resolution shifts over time without losing stable grounding. It proposes GUI-AiF, a reinforcement fine-tuning framework with anchoring-point and anchoring-region rewards that keep agents aligned to changing interaction targets instead of overfitting to static cues. Experiments show the method outperforms prior baselines and frames continual adaptation as a core systems challenge for GUI agents.
-
 - [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
     - Le Zhang, Yixiong Xiao, Xinjiang Lu, Jingjia Cao, Yusai Zhao, Jingbo Zhou, Lang An, Zikan Feng, Wanxiang Sha, Yu Shi, Congxi Xiao, Jian Xiong, Yankai Zhang, Hua Wu, Haifeng Wang
     - 🏛️ Institutions: Baidu Frontier Research Department
@@ -447,6 +411,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [model], [benchmark], [reinforcement learning], [synthetic data], [OSNav], [OmegaUse]
     - 📖 TLDR: This paper introduces OmegaUse, a general-purpose GUI agent for autonomous task execution across both mobile and desktop environments. It combines a curated-and-synthetic data pipeline with a two-stage training recipe of supervised fine-tuning followed by GRPO to improve interaction syntax, spatial grounding, and sequential planning. The work also introduces the OSNav benchmark suite, including ChiM-Nav for Chinese Android environments and Ubu-Nav for Ubuntu desktop navigation, and reports state-of-the-art or leading results across GUI grounding and action benchmarks.
+
+- [Continual GUI Agents](https://arxiv.org/abs/2601.20732)
+    - Ziwei Liu, Borui Kang, Hangjie Yuan, Zixiang Zhao, Wei Li, Yifan Zhu, Tao Feng
+    - 🏛️ Institutions: Tsinghua University, Zhejiang University, ETH Zurich, Beijing University of Posts and Telecommunications
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [framework], [continual learning], [reinforcement learning], [GUI grounding], [domain shift], [GUI-AiF], [continual GUI agents]
+    - 📖 TLDR: This paper introduces Continual GUI Agents as a continual learning setting where GUI agents must adapt to domain and resolution shifts over time without losing stable grounding. It proposes GUI-AiF, a reinforcement fine-tuning framework with anchoring-point and anchoring-region rewards that keep agents aligned to changing interaction targets instead of overfitting to static cues. Experiments show the method outperforms prior baselines and frames continual adaptation as a core systems challenge for GUI agents.
 
 - [LongHorizonUI: A Unified Framework for Robust long-horizon Task Automation of GUI Agent](https://openreview.net/forum?id=BK7Mk5d4WE)
     - Bin Kang, Shaoguo Wen, Yifei Bi, Shunlong Wu, Xinbin Yuan, Rui Shao, Junle Wang, Zhuotao Tian
@@ -781,140 +754,14 @@
     - 🔑 Key: [GUI agent], [multi-agent framework], [reinforcement learning], [long-horizon task planning], [state tracking], [task decomposition]
     - 📖 TLDR: This paper proposes CES, a multi-agent framework consisting of a Coordinator, Executor, and State Tracker, where high-level scheduling models are trained via execution-feedback reinforcement learning to improve long-horizon GUI automation by decoupling planning from low-level action execution.
 
-- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590)
-    - Sen Chen, Tong Zhao, Yi Bin...
-    - 🏛️ Institutions: Tongji University, Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shanghai AI Laboratory
-    - 📅 Date: November 20, 2025
+- [Surfer 2: The Next Generation of Cross-Platform Computer Use Agents](https://arxiv.org/abs/2510.19949)
+    - Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund
+    - 🏛️ Institutions: H Company
+    - 📅 Date: October 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [Android], [robustness], [anomaly], [dynamic evaluation], [AAAI 2026]
-    - 📖 TLDR: D-GARA is a dynamic benchmarking framework that evaluates Android GUI agent robustness by injecting real-world anomalies (permission dialogs, battery warnings, update prompts, app crashes) during live task execution, revealing up to 33% performance degradation in state-of-the-art agents like UI-TARS and AgentCPM.
-
-- [Computer-Use Agents as Judges for Generative User Interface](https://arxiv.org/abs/2511.15567)
-    - Kevin Qinghong Lin, Siyuan Hu, Linjie Li, Zhengyuan Yang, Lijuan Wang, Philip Torr, Mike Zheng Shou
-    - 🏛️ Institutions: University of Oxford, Show Lab, National University of Singapore, Microsoft
-    - 📅 Date: November 19, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [benchmark], [agent-native GUI], [automatic GUI design], [AUI-gym], [coder-CUA collaboration]
-    - 📖 TLDR: This paper studies how computer-use agents can actively improve interfaces rather than only operate them. It introduces AUI-Gym, a benchmark for automatic GUI development across 52 applications and 1,560 synthesized tasks, together with a Coder-CUA collaboration framework in which a coding model iteratively redesigns interfaces while a computer-use agent judges task solvability through interaction. The work shifts GUI design toward agent-centric efficiency and reliability, showing that agent feedback can materially improve downstream execution success.
-
-- [MEGA-GUI: Multi-stage Enhanced Grounding Agents for GUI Elements](https://arxiv.org/abs/2511.13087)
-    - SeokJoo Kwak, Jihoon Kim, Boyoun Kim...
-    - 🏛️ Institutions: Samsung SDS
-    - 📅 Date: November 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI grounding], [multi-agent framework], [vision-language model], [region-of-interest], [benchmark], [desktop]
-    - 📖 TLDR: MEGA-GUI is a multi-stage framework that decomposes GUI grounding into coarse Region-of-Interest selection and fine-grained element grounding using specialized vision-language agents, achieving state-of-the-art accuracy of 73.18% on ScreenSpot-Pro and 68.63% on OSWorld-G benchmarks.
-
-- [Yanyun-3: Enabling Cross-Platform Strategy Game Operation with Vision-Language Models](https://arxiv.org/abs/2511.12937)
-    - Guoyan Wang, Yanyan Huang, Chunlin Chen...
-    - 🏛️ Institutions: Nanjing University of Science and Technology, Nanjing University, Sichuan Teng dun Liangyuan Intelligent Technology Co. Ltd.
-    - 📅 Date: November 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [VLM], [strategy game], [cross-platform], [multimodal data organization], [fine-tuning]
-    - 📖 TLDR: Yanyun-3 is a VLM-based GUI agent that integrates Qwen2.5-VL and UI-TARS for cross-platform strategy game automation, proposing a "combination granularity" principle for organizing multimodal training data that achieves a 12.98x BLEU-4 improvement and 63% inference time reduction over full fusion baselines.
-
-- [Co-EPG: A Framework for Co-Evolution of Planning and Grounding in Autonomous GUI Agents](https://arxiv.org/abs/2511.10705)
-    - Yuan Zhao, Hualei Zhu, Tingyu Jiang...
-    - 🏛️ Institutions: Alibaba Cloud Computing, The University of Tokyo
-    - 📅 Date: November 13, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [planning and grounding], [reinforcement learning], [GRPO], [co-evolution], [training framework]
-    - 📖 TLDR: Co-EPG is a self-iterative training framework that co-evolves planning and grounding models for GUI agents through a positive feedback loop using GRPO and confidence-based reward ensembles, achieving state-of-the-art results on Multimodal-Mind2Web and AndroidControl benchmarks without external data.
-
-- [History-Aware Reasoning for GUI Agents](https://arxiv.org/abs/2511.09127)
-    - Ziwei Wang, Leyang Yang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Zhejiang University, Ant Group
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [reinforcement learning], [reasoning], [chain-of-thought], [mobile], [web]
-    - 📖 TLDR: Proposes the History-Aware Reasoning (HAR) framework that addresses the history-agnostic reasoning weakness of native GUI agents by encouraging reflection on errors and enhancing short-term memory through reflective learning scenarios, tailored correction guidelines, and a hybrid RL reward function, resulting in a 3B-parameter model (HAR-GUI-3B) with improved episodic reasoning across GUI benchmarks including AITW, Mind2Web, and GUI-Odyssey.
-
-- [TaskSense: Cognitive Chain Modeling and Difficulty Estimation for GUI Tasks](https://arxiv.org/abs/2511.09309)
-    - Yiwen Yin, Zhian Hu, Xiaoxi Xu...
-    - 🏛️ Institutions: Tsinghua University, University of Washington, Cornell University, University of Sydney
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [benchmark], [cognitive modeling], [task difficulty], [evaluation], [human-AI interaction]
-    - 📖 TLDR: TaskSense proposes Cognitive Chain, a framework that models GUI task difficulty from a cognitive perspective by decomposing cognitive processes preceding motor actions into structured steps with information-theoretic difficulty indices, and validates that cognitive difficulty correlates with user completion time and reveals capability gaps in state-of-the-art GUI agents.
-
-- [ProBench: Benchmarking GUI Agents with Accurate Process Information](https://arxiv.org/abs/2511.09157)
-    - Leyang Yang, Ziwei Wang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Zhejiang University, Ant Group
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [mobile], [evaluation], [process-aware evaluation], [Android], [multi-step tasks]
-    - 📖 TLDR: ProBench is a comprehensive mobile GUI agent benchmark with over 200 tasks that evaluates both final-state and intermediate-process information, introducing a Process Provider to automatically capture accurate process details for more precise assessment of agent performance on real-world GUI scenarios.
-
-- [OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents](https://arxiv.org/abs/2510.24563)
-    - Hongrui Jia, Jitong Liao, Xi Zhang, Haiyang Xu, Tianbao Xie, Chaoya Jiang, Ming Yan, Si Liu, Wei Ye, Fei Huang
-    - 🏛️ Institutions: Peking University, Tongyi Lab, Alibaba Group, Beijing Zhongguancun Academy
-    - 📅 Date: November 11, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [dataset], [MCP], [tool-use], [computer-use agent], [OSWorld-MCP]
-    - 📖 TLDR: This paper introduces OSWorld-MCP, the first benchmark specifically designed to evaluate tool invocation in computer-use agents alongside standard GUI interaction and decision-making. It builds a validated suite of 158 practical MCP tools across seven common applications and shows that tool access can substantially improve task success, while also revealing that current agents still invoke tools surprisingly rarely. The benchmark adds an important missing dimension to CUA evaluation by explicitly measuring real-world tool-usage capability.
-
-- [AUTO-Explorer: Automated Data Collection for GUI Agent](https://arxiv.org/abs/2511.06417)
-    - Xiangwu Guo, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: National University of Singapore
-    - 📅 Date: November 09, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [data collection], [benchmark], [GUI grounding], [exploration], [fine-tuning]
-    - 📖 TLDR: Auto-Explorer is an automated data collection method that autonomously parses and explores GUI environments to gather training data for GUI agents, accompanied by the UIXplore benchmark for evaluating exploration quality. The collected data is used to fine-tune multimodal LLMs, demonstrating improved GUI element grounding capabilities on novel software and websites.
-
-- [GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding](https://arxiv.org/abs/2511.00810)
-    - Shijie Zhou, Viet Dac Lai, Hao Tan, Jihyung Kil, Wanrong Zhu, Changyou Chen, Ruiyi Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 02, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI grounding], [attention mechanism], [visual grounding], [VLM], [coordinate-free]
-    - 📖 TLDR: GUI-AIMA is a coordinate-free supervised fine-tuning framework for GUI grounding that aligns intrinsic multimodal attention with a context anchor, leveraging native MLLM attention maps to identify instruction-relevant visual patches and refine exact click locations—improving efficiency over direct coordinate generation.
-
-- [GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation](https://arxiv.org/abs/2510.27210)
-    - Tao Liu, Chongyu Wang, Rongjie Li, Yingchen Yu, Xuming He, Bai Song
-    - 🏛️ Institutions: ShanghaiTech University, ByteDance, Shanghai Engineering Research Center of Intelligent Vision and Imaging
-    - 📅 Date: October 31, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [reasoning], [history summarization], [reinforcement learning], [GUI navigation], [GUI-rise]
-    - 📖 TLDR: This paper targets two persistent GUI-agent weaknesses: poor cross-domain generalization and weak use of long interaction history. GUI-Rise addresses them with a reasoning-enhanced framework that jointly trains structured reasoning, action prediction, and history summarization, then further improves the agent with GRPO and a history-aware reward. Under matched training data, it reports state-of-the-art GUI-navigation performance, especially on out-of-domain settings.
-
-- [OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://arxiv.org/abs/2506.14866)
-    - Thomas Kuntz, Agatha Duzan, Hao Zhao, Francesco Croce, J Zico Kolter, Nicolas Flammarion, Maksym Andriushchenko
-    - 🏛️ Institutions: EPFL, Carnegie Mellon University
-    - 📅 Date: October 29, 2025
-    - 📑 Publisher: NeurIPS 2025 (Datasets and Benchmarks Track Spotlight)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [safety], [computer-use agent], [prompt injection], [OSWorld], [OS-harm]
-    - 📖 TLDR: This paper introduces OS-Harm, a safety benchmark for computer-use agents built on top of OSWorld. It covers 150 tasks spanning deliberate misuse, prompt injection, and model misbehavior across applications such as browsers, editors, and email clients, and includes an automated judge for both safety and task correctness. Evaluations show that current frontier agents often comply with harmful requests, remain vulnerable to prompt injection, and can execute unsafe actions in realistic computer-use settings.
-
-- [MGA: Memory-Driven GUI Agent for Observation-Centric Interaction](https://arxiv.org/abs/2510.24168)
-    - Weihua Cheng, Ersheng Ni, Wenlong Wang, Yifei Sun, Junming Liu, Wangyu Shen, Yirong Chen, Botian Shi, Ding Wang
-    - 🏛️ Institutions: ShanghaiTech University, The University of Queensland, East China University of Science and Technology, Tongji University, Shanghai AI Laboratory
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [desktop], [web], [memory], [benchmark], [multi-agent]
-    - 📖 TLDR: MGA (Memory-Driven GUI Agent) reframes GUI interaction with an "observe first, then decide" paradigm, using a triad of current screenshot, task-agnostic spatial information, and dynamically updated structured memory to reduce error propagation and local exploration bias, achieving strong results on OSWorld benchmarks and real desktop applications.
-
-- [UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning](https://arxiv.org/abs/2510.20286)
-    - Liangyu Chen, Hanzhang Zhou, Chenglin Cai, Jianan Zhang, Panrong Tong, Quyu Kong, Xu Zhang, Chen Liu, Yuqi Liu, Wenxuan Wang, Yue Wang, Qin Jin, Steven Hoi
-    - 🏛️ Institutions: Renmin University of China, Tongyi Lab, Alibaba Group, The Chinese University of Hong Kong
-    - 📅 Date: October 23, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [reinforcement learning], [GUI grounding], [instruction-as-reasoning], [UI-ins]
-    - 📖 TLDR: This paper reframes GUI grounding instructions as reasoning pathways rather than static text prompts. It first synthesizes diverse, high-quality instruction variants for supervised training, then uses reinforcement learning to optimize pathway selection and composition at inference time. The resulting UI-Ins-7B and UI-Ins-32B models achieve state-of-the-art grounding accuracy across five benchmarks and also improve downstream AndroidWorld agent execution.
+    - 🔑 Key: [framework], [computer-use agent], [cross-platform], [web agent], [mobile agent]
+    - 📖 TLDR: Surfer 2 is a unified visual-only cross-platform agent achieving state-of-the-art across web (97.1% WebVoyager, 69.6% WebArena), desktop (60.1% OSWorld), and mobile (87.1% AndroidWorld) without task-specific fine-tuning, via hierarchical context management, decoupled planning/execution, and self-verification with adaptive recovery.
 
 - [VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos](https://arxiv.org/abs/2510.19488)
     - Dunjie Lu, Yiheng Xu, Junli Wang, Haoyuan Wu, Xinyuan Wang, Zekun Wang, Junlin Yang, Hongjin Su, Jixuan Chen, Junda Chen, Yuchen Mao, Jingren Zhou, Junyang Lin, Binyuan Hui, Tao Yu
@@ -924,15 +771,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [dataset], [pretraining], [computer-use agent], [video mining], [inverse dynamics], [OSWorld-verified], [VideoAgentTrek], [Video2Action]
     - 📖 TLDR: This paper introduces VideoAgentTrek, a scalable pipeline that converts unlabeled screen-recorded videos into structured computer-use trajectories for pretraining GUI agents. Its Video2Action inverse-dynamics module first localizes GUI actions in time and then recovers structured action parameters such as click coordinates and typed text. Mining 39,000 YouTube tutorials yields 1.52 million interaction steps, and using this data for continued pretraining substantially improves downstream performance on OSWorld-Verified and AgentNetBench.
-
-- [Surfer 2: The Next Generation of Cross-Platform Computer Use Agents](https://arxiv.org/abs/2510.19949)
-    - Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: October 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [computer-use agent], [cross-platform], [web agent], [mobile agent]
-    - 📖 TLDR: Surfer 2 is a unified visual-only cross-platform agent achieving state-of-the-art across web (97.1% WebVoyager, 69.6% WebArena), desktop (60.1% OSWorld), and mobile (87.1% AndroidWorld) without task-specific fine-tuning, via hierarchical context management, decoupled planning/execution, and self-verification with adaptive recovery.
 
 - [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
     - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
@@ -1017,16 +855,16 @@
 
 - [Scaling Synthetic Task Generation for Agents via Exploration](https://arxiv.org/abs/2509.25047)
     - Ram Ramrakhya, Andrew Szot, Omar Attia, Yuhao Yang, Anh Nguyen, Bogdan Mazoure, Zhe Gan, Harsh Agrawal, Alexander Toshev
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Apple
     - 📅 Date: September 29, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2026
     - 💻 Env: [GUI]
     - 🔑 Key: [dataset], [computer-use agent], [task generation], [training data], [exploration]
     - 📖 TLDR: AutoPlay is a scalable pipeline for synthetic agentic task generation that explicitly explores interactive environments to discover possible interactions, producing diverse, feasible, and verifiable tasks for post-training MLLMs as interactive agents for computer-use and web navigation.
 
 - [Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation](https://arxiv.org/abs/2509.23866)
     - Pengxiang Li, Zechen Hu, Zirui Shang, Jingrong Wu, Yang Liu, Hui Liu, Zhi Gao, Chenrui Shi, Bofei Zhang, Zihao Zhang, Xiaochuan Shi, Zedong YU, Yuwei Wu, Xinxiao Wu, Yunde Jia, Liuyu Xiang, Zhaofeng He, Qing Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: BIT, BIGAI
     - 📅 Date: September 28, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -1125,7 +963,7 @@
 
 - [VeriGUI: Verifiable Long-Chain GUI Dataset](https://arxiv.org/abs/2508.04026)
     - Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Wendong Fan, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Ziqi Ren, Jialiang Gao, Jindi Lv, Junjie Wang, Aosong Feng, Heng Zhou, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: NTU, Zhejiang University, University of Tokyo, Shanghai AI Lab, Google DeepMind, University of Alberta
     - 📅 Date: August 05, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -1150,95 +988,14 @@
     - 🔑 Key: [benchmark], [dataset], [hierarchical agent], [reinforcement learning], [causal pathways], [WPSR], [NaturalGAIA]
     - 📖 TLDR: This paper introduces **NaturalGAIA**, a new benchmark based on the principle of **Causal Pathways**, which decomposes complex GUI tasks into programmatically verifiable atomic steps for rigorous and reproducible evaluation. A hierarchical agent architecture called **LightManus** was used to generate a human-verified trajectory dataset representing diverse and self-correcting interaction patterns. This dataset was used to conduct Reinforcement Fine-Tuning (RFT) on the Qwen2.5-VL-7B model. Even top-performing models like Claude-sonnet-4 only reached a Weighted Pathway Success Rate (WPSR) of 34.6%, while RFT improved the smaller model from 3.3% to 10.8%, yet performance dropped significantly in complex scenarios, highlighting current limitations in GUI agent capabilities.
 
-- [Phi-Ground Tech Report: Advancing Perception in GUI Grounding](https://arxiv.org/abs/2507.23779)
-    - Miaosen Zhang, Ziqiang Xu, Jialiang Zhu, Qi Dai, Kai Qiu, Yifan Yang, Chong Luo, Tianyi Chen, Justin Wagle, Tim Franklin, Baining Guo
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 31, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI grounding], [model], [computer-use agent], [visual grounding], [benchmark]
-    - 📖 TLDR: Phi-Ground is a tech report advancing GUI grounding perception for CUAs, presenting a model series significantly improving accuracy on challenging benchmarks including ScreenSpot-Pro and UI-Vision beyond the ~65% ceiling of existing end-to-end grounding models.
-
-- [Let's Think in Two Steps: Mitigating Agreement Bias in MLLMs with Self-Grounded Verification](https://arxiv.org/abs/2507.11662)
-    - Moises Andrade, Joonhyuk Cha, Brandon Ho, Vriksha Srihari, Karmesh Yadav, Zsolt Kira
-    - 🏛️ Institutions: Georgia Institute of Technology
-    - 📅 Date: July 15, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [MLLM verifier], [agreement bias], [self-grounded verification], [web navigation], [GUI agent], [benchmark]
-    - 📖 TLDR: This paper identifies "agreement bias" in multimodal LLMs used as verifiers of GUI agent behavior (a tendency to over-validate agent actions) and proposes Self-Grounded Verification (SGV), a two-step method that first generates priors about desired behavior then evaluates trajectories, improving failure detection by 25pp and boosting task completion in OSWorld and VisualWebArena by up to 20pp over prior state of the art.
-
-- [GTA1: GUI Test-time Scaling Agent](https://arxiv.org/abs/2507.05791)
-    - Yan Yang, Dongxu Li, Yutong Dai, Yuhao Yang, Ziyang Luo, Zirui Zhao, Zhiyuan Hu, Junzhe Huang, Amrita Saha, Zeyuan Chen, Ran Xu, Liyuan Pan, Silvio Savarese, Caiming Xiong, Junnan Li
-    - 🏛️ Institutions: Salesforce AI Research, Australian National University, The University of Hong Kong
-    - 📅 Date: July 08, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [test-time scaling], [reinforcement learning], [planning], [grounding], [GTA1]
-    - 📖 TLDR: This paper tackles two major challenges in GUI agents — planning ambiguity and visual grounding accuracy. It introduces **GTA1**, a GUI Test-time Scaling Agent that improves action decision-making by sampling multiple candidate actions at each step and selecting the best one via a judge model. Additionally, it enhances grounding through reinforcement learning with success-based rewards. GTA1 achieves state-of-the-art results on GUI grounding and execution benchmarks such as ScreenSpot and OSWorld.
-
-- [GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006)
-    - Wenyi Hong, Wenmeng Yu, Xiaotao Gu, Guo Wang, Guobing Gan, Haomiao Tang, Jiale Cheng, Ji Qi, Junhui Ji, Lihang Pan, Shuaiqi Duan, Weihan Wang, Yan Wang, Yean Cheng, Zehai He, Zhe Su, Zhen Yang, Ziyang Pan, Aohan Zeng, Baoxu Wang, Bin Chen, Boyan Shi, Changyu Pang, Chenhui Zhang, Da Yin, Fan Yang, Guoqing Chen, Haochen Li, Jiale Zhu, Jiali Chen, Jiaxing Xu, Jing Chen, Jinghao Lin, Jinhao Chen, Jinjiang Wang, Junjie Chen, Leqi Lei, Letian Gong, Leyi Pan, Mingdao Liu, Mingde Xu, Mingzhi Zhang, Qinkai Zheng, Ruiliang Lyu, Shangqin Tu, Sheng Yang, Shengbiao Meng, Shi Zhong, Shiyu Huang, Shuyuan Zhao, Siyan Xue, Tianshu Zhang, Tianwei Luo, Tianxiang Hao, Tianyu Tong, Wei Jia, Wenkai Li, Xiao Liu, Xiaohan Zhang, Xin Lyu, Xinyu Zhang, Xinyue Fan, Xuancheng Huang, Yadong Xue, Yanfeng Wang, Yanling Wang, Yanzi Wang, Yifan An, Yifan Du, Yiheng Huang, Yilin Niu, Yiming Shi, Yu Wang, Yuan Wang, Yuanchang Yue, Yuchen Li, Yusen Liu, Yutao Zhang, Yuting Wang, Yuxuan Zhang, Zhao Xue, Zhengxiao Du, Zhenyu Hou, Zihan Wang, Peng Zhang, Debing Liu, Bin Xu, Juanzi Li, Minlie Huang, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Zhipu AI, Tsinghua University
-    - 📅 Date: July 01, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [reinforcement learning], [RLCS], [multimodal], [vision language model], [grounding], [GLM-4.1V-thinking], [GLM-4.5V]
-    - 📖 TLDR: Introduces two vision-language models—**GLM-4.1V-9B-Thinking**, a 9B-parameter model designed for multimodal reasoning, and **GLM-4.5V**, a larger version based on GLM-4.5-Air (106B parameters, 12B active). The authors propose a reasoning-centric training pipeline including large-scale pretraining and a novel **Reinforcement Learning with Curriculum Sampling (RLCS)** framework. The models show state-of-the-art performance across 42 (GLM-4.5V) and 28 (GLM-4.1V-Thinking) public multimodal benchmarks, often outperforming much larger models (e.g., Qwen-2.5-VL-72B and Gemini-2.5-Flash), especially in tasks like STEM reasoning, video/document understanding, coding, GUI agents, and grounding. Both models and training code are open-sourced.
-
-- [Learning, Reasoning, Refinement: A Framework for Kahneman's Dual-System Intelligence in GUI Agents](https://arxiv.org/abs/2506.17913)
-    - Jinjie Wei, Jiyao Liu, Lihao Liu, Ming Hu, Junzhi Ning, Mingcheng Li, Weijie Yin, Junjun He, Xiao Liang, Chao Feng, Dingkang Yang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [framework], [dual-system cognition], [reinforcement learning], [evaluation]
-    - 📖 TLDR: Proposes a Learning-Reasoning-Refinement (LRR) framework for GUI agents inspired by Kahneman dual-system theory, combining progressive System 2 reasoning with fast reactive decision-making and iterative refinement, alongside a new evaluation metric better reflecting real-world GUI interaction complexity.
-
-- [LPO: Towards Accurate GUI Agent Interaction via Location Preference Optimization](https://arxiv.org/abs/2506.09373)
-    - Jiaqi Tang, Yu Xia, Yi‑Feng Wu, Yuwei Hu, Yuhui Chen, Qing‑Guo Chen, Xiaogang Xu, Xiangyu Wu, Hao Lu, Yanqing Ma, Shiyin Lu, Qifeng Chen
-    - 🏛️ Institutions: Hong Kong University of Science and Technology, Alibaba Group, The Chinese University of Hong Kong, Nanjing University of Science and Technology
-    - 📅 Date: June 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [reinforcement learning], [grounding], [navigation], [location reward], [GRPO], [LPO]
-    - 📖 TLDR: The paper introduces **Location Preference Optimization (LPO)** to improve GUI agent interaction accuracy. It uses information-entropy-driven zones of interest and a dynamic distance-based reward function. Built atop Group Relative Preference Optimization (GRPO), it enables more precise spatial grounding. Results show SOTA performance on offline benchmarks and real-world online GUI tasks.
-
-- [UITron-Speech: Towards Automated GUI Agents Based on Speech Instructions](https://arxiv.org/abs/2506.11127)
-    - Wenkang Han, Zhixiong Zeng, Jing Huang, Shu Jiang, Liming Zheng, Longrong Yang, Haibo Qiu, Chang Yao, Jingyuan Chen, Lin Ma
-    - 🏛️ Institutions: Meituan, Zhejiang University, Harbin Institute of Technology
-    - 📅 Date: June 10, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [speech input], [multimodal], [grounding], [mobile], [training strategy]
-    - 📖 TLDR: UITron-Speech is the first end-to-end GUI agent that directly processes speech instructions and on-device screenshots to predict user actions, using synthesized speech datasets, a mixed-modality training strategy, and a training-free grounding refinement method to address data scarcity, modality imbalance, and localization deviations.
-
 - [Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction](https://arxiv.org/abs/2506.07976)
     - Junhong Shen, Hao Bai, Lunjun Zhang, Yifei Zhou, Amrith Setlur, Shengbang Tong, Diego Caples, Nan Jiang, Tong Zhang, Ameet Talwalkar, Aviral Kumar
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, UIUC, University of Toronto, UC Berkeley, NYU, Scribe, The AGI Company
     - 📅 Date: June 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [computer-use agent], [test-time scaling], [exploration], [planning], [reinforcement learning]
     - 📖 TLDR: Proposes test-time interaction scaling—increasing agent interaction horizons rather than reasoning trace length—showing that richer behaviors including exploration, backtracking, and dynamic adaptation from more interactions outperform extended pre-action thinking for GUI-based computer tasks.
-
-- [DPO Learning with LLMs-Judge Signal for Computer Use Agents](https://arxiv.org/abs/2506.03095)
-    - Man Luo, David Cobbley, Xin Su, Shachar Rosenman, Vasudev Lal, Shao-Yen Tseng, Phillip Howard
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: June 03, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [computer-use agent], [DPO], [reinforcement learning], [privacy], [on-device]
-    - 📖 TLDR: Trains a lightweight local VLM for privacy-preserving computer-use agents using DPO with LLM-judge-generated preference signals, enabling resource-efficient CUAs that run entirely on local machines without cloud inference, addressing privacy and scalability concerns of cloud-based CUAs.
-
-- [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://arxiv.org/abs/2506.03143)
-    - Qianhui Wu, Kanzhi Cheng, Rui Yang, Chaoyun Zhang, Jianwei Yang, Huiqiang Jiang, Jian Mu, Baolin Peng, Bo Qiao, Reuben Tan, Si Qin, Lars Liden, Qingwei Lin, Huan Zhang, Tong Zhang, Jianbing Zhang, Dongmei Zhang, Jianfeng Gao
-    - 🏛️ Institutions: Microsoft, Nanjing University, University of Illinois Urbana-Champaign
-    - 📅 Date: June 03, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [framework], [grounding verifier], [attention mechanism], [coordinate‑free grounding], [GUI‑Actor]
-    - 📖 TLDR: GUI‑Actor introduces a coordinate‑free visual grounding approach for GUI agents by adding an attention‑based “<ACTOR>” action head atop a frozen vision‑language model. It learns to align with relevant visual patches and produces multiple candidate regions per forward pass. An optional grounding verifier scores candidates to select the best. The method improves spatial‑semantic alignment and generalizes well across unseen resolutions. On benchmarks like ScreenSpot‑Pro, GUI‑Actor‑7B outperforms prior SOTA UI‑TARS‑72B, with verifier‑augmented versions achieving even higher accuracy—while only fine‑tuning ~100 M parameters.
 
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
@@ -1287,7 +1044,7 @@
 
 - [ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282)
     - Fanbin Lu, Zhisheng Zhong, Shu Liu, Chi-Wing Fu, Jiaya Jia
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CUHK, SmartMore, HKUST
     - 📅 Date: May 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -1303,15 +1060,6 @@
     - 🔑 Key: [framework], [GUI grounding], [visual grounding], [reinforcement learning], [ScreenSpot], [GUI-G1]
     - 📖 TLDR: This paper analyzes why blindly copying R1-Zero-style online RL pipelines into GUI grounding leads to poor behavior, including overlong reasoning, reward hacking on box size, and under-optimization on hard examples. It then proposes targeted fixes in prompt design, reward shaping, and difficulty-aware policy optimization. The resulting GUI-G1 model sets a new state of the art for its scale on ScreenSpot-style GUI grounding benchmarks.
 
-- [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
-    - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
-    - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
-    - 📅 Date: May 19, 2025
-    - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [dataset], [benchmark], [framework], [jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
-    - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
-
 - [GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents](https://arxiv.org/abs/2505.12842)
     - Zheng Wu, Pengzhou Cheng, Zongru Wu, Lingzhong Dong, Zhuosheng Zhang
     - 🏛️ Institutions: Shanghai Jiao Tong University
@@ -1321,9 +1069,18 @@
     - 🔑 Key: [GUI agent], [out-of-distribution detection], [safety], [gaussian mixture model], [MLLM], [robustness]
     - 📖 TLDR: GEM proposes a Gaussian mixture model-based method for detecting out-of-distribution instructions in GUI agents by modeling input embedding distances, achieving a 23.70% average accuracy improvement over baselines across eight datasets spanning smartphones, computers, and web browsers.
 
+- [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
+    - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
+    - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
+    - 📅 Date: May 19, 2025
+    - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
+    - 💻 Env: [GUI]
+    - 🔑 Key: [dataset], [benchmark], [framework], [jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
+    - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
+
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, HKUST
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -1449,9 +1206,9 @@
 
 - [SpiritSight Agent: Advanced GUI Agent with One Look](https://arxiv.org/abs/2503.03196)
     - Zhiyuan Huang, Ziming Cheng, Junting Pan, Zhaohui Hou, Mingjie Zhan
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: SenseTime, BUPT, CUHK
     - 📅 Date: March 05, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CVPR 2025
     - 💻 Env: [GUI]
     - 🔑 Key: [GUI agent], [GUI grounding], [VLM], [framework], [efficiency]
     - 📖 TLDR: SpiritSight Agent is a vision-based GUI agent that addresses element grounding accuracy limitations by proposing a novel single-screenshot architecture enabling high-accuracy, low-latency, cross-platform GUI interaction with improved element grounding through efficient screen comprehension.
@@ -1744,14 +1501,14 @@
     - 🔑 Key: [framework], [dataset], [ToL], [screen reading], [accessibility]
     - 📖 TLDR: The authors propose the Tree-of-Lens (ToL) agent to address the Screen Point-and-Read (ScreenPR) task, which involves generating natural language descriptions of screen regions based on user-indicated points. The ToL agent constructs a Hierarchical Layout Tree to comprehend the content and articulate the layout and spatial relationships between elements. The authors also introduce the ScreenPR benchmark, consisting of 650 screenshots from web, mobile, and operating system GUIs, manually annotated with 1,500 target points and regions.
 
-- [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://aclanthology.org/2024.findings-emnlp.68/)
-    - Ziyang Meng, Yu Dai, Zezheng Gong, Shaoxiong Guo, Minglong Tang, Tongquan Wei
-    - 🏛️ Institutions: East China Normal University
+- [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://openreview.net/forum?id=5G7MRfPngt)
+    - Gabriel Herbert Sarch, Lawrence Jang, Michael J. Tarr, William W. Cohen, Kenneth Marino, Katerina Fragkiadaki
+    - 🏛️ Institutions: Carnegie Mellon University, Google DeepMind
     - 📅 Date: June 20, 2024
-    - 📑 Publisher: Findings of EMNLP 2024
+    - 📑 Publisher: NeurIPS 2024 (Spotlight)
     - 💻 Env: [GUI]
-    - 🔑 Key: [model], [dataset], [hallucination mitigation], [FAC], [referent method], [VGA]
-    - 📖 TLDR: This paper introduces VGA, a fine-tuned model designed to enhance GUI comprehension by reducing hallucinations. The authors constructed a Vision Question Answering (VQA) dataset of 63.8k high-quality examples using a Referent Method, ensuring model responses are highly dependent on visual content. They also propose a two-stage fine-tuning method called Foundation and Advanced Comprehension (FAC) to improve the model's ability to extract information from images and align with human intent.
+    - 🔑 Key: [framework], [memory], [in-context learning], [ICAL]
+    - 📖 TLDR: This paper introduces *In-Context Abstraction Learning (ICAL)*, a method enabling Vision-Language Models (VLMs) to generate their own examples from sub-optimal demonstrations and human feedback. By abstracting trajectories into generalized programs of thought, ICAL enhances decision-making in retrieval-augmented LLM and VLM agents, reducing reliance on manual prompt engineering and improving performance across various tasks.
 
 - [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314)
     - Omri Berkovitch, Sapir Caduri, Noam Kahlon, Anatoly Efros, Avi Caciularu, Ido Dagan
@@ -1762,14 +1519,14 @@
     - 🔑 Key: [evaluation metric], [intent identification]
     - 📖 TLDR: This paper introduces the task of goal identification from observed UI trajectories, aiming to infer the user's intended task based on their GUI interactions. It proposes a novel evaluation metric to assess whether two task descriptions are paraphrases within a specific UI environment. Experiments utilizing the Android-In-The-Wild and Mind2Web datasets reveal that state-of-the-art models, such as GPT-4 and Gemini-1.5 Pro, underperform compared to humans, indicating significant room for improvement.
 
-- [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://openreview.net/forum?id=5G7MRfPngt)
-    - Gabriel Herbert Sarch, Lawrence Jang, Michael J. Tarr, William W. Cohen, Kenneth Marino, Katerina Fragkiadaki
-    - 🏛️ Institutions: Carnegie Mellon University, Google DeepMind
+- [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://aclanthology.org/2024.findings-emnlp.68/)
+    - Ziyang Meng, Yu Dai, Zezheng Gong, Shaoxiong Guo, Minglong Tang, Tongquan Wei
+    - 🏛️ Institutions: East China Normal University
     - 📅 Date: June 20, 2024
-    - 📑 Publisher: NeurIPS 2024 (Spotlight)
+    - 📑 Publisher: Findings of EMNLP 2024
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [memory], [in-context learning], [ICAL]
-    - 📖 TLDR: This paper introduces *In-Context Abstraction Learning (ICAL)*, a method enabling Vision-Language Models (VLMs) to generate their own examples from sub-optimal demonstrations and human feedback. By abstracting trajectories into generalized programs of thought, ICAL enhances decision-making in retrieval-augmented LLM and VLM agents, reducing reliance on manual prompt engineering and improving performance across various tasks.
+    - 🔑 Key: [model], [dataset], [hallucination mitigation], [FAC], [referent method], [VGA]
+    - 📖 TLDR: This paper introduces VGA, a fine-tuned model designed to enhance GUI comprehension by reducing hallucinations. The authors constructed a Vision Question Answering (VQA) dataset of 63.8k high-quality examples using a Referent Method, ensuring model responses are highly dependent on visual content. They also propose a two-stage fine-tuning method called Foundation and Advanced Comprehension (FAC) to improve the model's ability to extract information from images and align with human intent.
 
 - [GUICourse: From General Vision Language Models to Versatile GUI Agents](https://aclanthology.org/2025.acl-long.1065/)
     - Wentong Chen, Junbo Cui, Jinyi Hu, Yujia Qin, Junjie Fang, Yue Zhao, Chongyi Wang, Jun Liu, Guirong Chen, Yupeng Huo, Yuan Yao, Yankai Lin, Zhiyuan Liu, Maosong Sun

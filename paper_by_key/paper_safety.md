@@ -20,39 +20,12 @@
 
 - [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
     - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou, Eric Hanchen Jiang, Philip Sperl
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Fraunhofer AISEC, NTU, KTH, NUS, UCLA
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Misc]
     - 🔑 Key: [security], [LLM agent], [prompt injection], [privacy], [data leakage], [safety]
     - 📖 TLDR: Identifies and measures the "Trusted Executor Dilemma"—where LLM agents execute adversarial instructions embedded in documentation because they cannot distinguish malicious directives from legitimate guidance—formalizing a three-dimensional taxonomy of instructional text-induced private data leakage attacks.
-
-- [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
-    - Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, LawZero, Mila - Quebec AI Institute, Universite de Montreal, University of California, Berkeley
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [safety], [red teaming], [unintended behavior], [computer-use agent], [AutoElicit]
-    - 📖 TLDR: This paper studies unsafe unintended behaviors in computer-use agents under benign user inputs rather than adversarial prompts. It introduces AutoElicit, an agentic framework that iteratively perturbs realistic benign instructions using execution feedback to surface severe harmful behaviors in frontier CUAs. The results show that even strong CUAs remain broadly susceptible to harmful deviations, establishing a concrete framework for systematically probing unintended safety failures in realistic computer-use settings.
-
-- [When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents](https://arxiv.org/abs/2602.08995)
-    - Yuting Ning, Jaylen Jones, Zhehao Zhang, Chentao Ye, Weitong Ruan, Junyi Li, Rahul Gupta, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, Amazon AGI
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [safety], [guardrail], [misaligned actions], [MisActBench], [DeAction]
-    - 📖 TLDR: This paper defines the problem of misaligned actions in computer-use agents, covering both externally induced failures such as prompt injection and internally arising errors such as faulty reasoning. It introduces MisActBench, an action-level benchmark with human alignment labels, and DeAction, a guardrail that detects and iteratively corrects misaligned actions before execution. DeAction substantially improves F1 on the benchmark and sharply reduces attack success in online evaluation while preserving benign task success.
-
-- [Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible](https://arxiv.org/abs/2602.10139)
-    - Lepeng Zhao, Zhenhua Zou, Shuo Li, Xiaoming Li, Bangfei Tian
-    - 🏛️ Institutions: Tsinghua University
-    - 📅 Date: February 08, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [privacy], [mobile agent], [Android], [benchmark], [framework], [safety]
-    - 📖 TLDR: Proposes an anonymization-based privacy protection framework for mobile GUI agents that replaces sensitive PII with type-preserving placeholders, enabling task execution without exposing raw personal data to cloud-based models, and demonstrates strong privacy-utility trade-offs on the AndroidLab and PrivScreen benchmarks.
 
 - [DECEPTICON: How Dark Patterns Manipulate Web Agents](https://arxiv.org/abs/2512.22894)
     - Phil Cuvin, Hao Zhu, Diyi Yang
@@ -71,15 +44,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [benchmark], [safety], [computer use agent], [MCP], [long-horizon planning], [LLM agent]
     - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
-
-- [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
-    - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin, Shengyu Zhang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: February 02, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [safety], [computer-use agent], [world model], [guardrail], [long-horizon task]
-    - 📖 TLDR: SafePred is a predictive guardrail for computer-using agents that aligns predicted future states from a world model against safety constraints to proactively prevent long-term risks emerging with delay, overcoming reactive guardrails that only constrain behavior within the current observation space.
 
 - [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
     - Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He
@@ -126,51 +90,6 @@
     - 🔑 Key: [web agent], [benchmark], [safety], [prompt injection], [security], [LLM]
     - 📖 TLDR: TRAP is a benchmark for evaluating how persuasion-based prompt injection attacks can redirect LLM-powered web agents from their intended tasks, finding that across six frontier models agents are susceptible to such attacks in 25% of tasks on average, with psychologically-driven social engineering techniques and small interface changes often doubling attack success rates.
 
-- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597)
-    - Kaiyuan Zhang, Mark Tenenholtz, Kyle Polley, Jerry Ma, Denis Yarats, Ninghui Li
-    - 🏛️ Institutions: Purdue University, Perplexity AI
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [benchmark], [safety], [prompt injection], [defense], [security]
-    - 📖 TLDR: BrowseSafe introduces a benchmark of prompt injection attacks embedded in realistic HTML payloads targeting AI browser agents, and proposes a multi-layered defense-in-depth strategy combining architectural and model-based defenses to protect web agents from evolving prompt injection threats.
-
-- [DualTAP: A Dual-Task Adversarial Protector for Mobile MLLM Agents](https://arxiv.org/abs/2511.13248)
-    - Fuyao Zhang, Jiaming Zhang, Che Wang...
-    - 🏛️ Institutions: Nanyang Technological University, Peking University, Xidian University, Hebei Normal University, Alibaba Group
-    - 📅 Date: November 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [mobile agent], [safety], [privacy], [adversarial attack], [dataset], [MLLM]
-    - 📖 TLDR: DualTAP is a dual-task adversarial framework that protects personally identifiable information (PII) in mobile GUI agent screenshots from untrusted routers while preserving task utility, achieving a 31.6 percentage point reduction in privacy leakage with minimal impact on agent task success rate.
-
-- [OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents](https://arxiv.org/abs/2506.14866)
-    - Thomas Kuntz, Agatha Duzan, Hao Zhao, Francesco Croce, J Zico Kolter, Nicolas Flammarion, Maksym Andriushchenko
-    - 🏛️ Institutions: EPFL, Carnegie Mellon University
-    - 📅 Date: October 29, 2025
-    - 📑 Publisher: NeurIPS 2025 (Datasets and Benchmarks Track Spotlight)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [safety], [computer-use agent], [prompt injection], [OSWorld], [OS-harm]
-    - 📖 TLDR: This paper introduces OS-Harm, a safety benchmark for computer-use agents built on top of OSWorld. It covers 150 tasks spanning deliberate misuse, prompt injection, and model misbehavior across applications such as browsers, editors, and email clients, and includes an automated judge for both safety and task correctness. Evaluations show that current frontier agents often comply with harmful requests, remain vulnerable to prompt injection, and can execute unsafe actions in realistic computer-use settings.
-
-- [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
-    - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [safety], [mobile agent], [VLM], [benchmark], [hybrid validation]
-    - 📖 TLDR: OS-Sentinel is a hybrid safety validation framework for mobile GUI agents combining reactive and proactive detection, built on MobileRisk-Live—a dynamic sandbox with realistic safety-annotated trajectories—to detect unsafe operations including system compromise and privacy leakage.
-
-- [GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?](https://arxiv.org/abs/2510.20333)
-    - Chiyu Chen, Xinhao Song, Yunkai Chai, Yang Yao, Haodong Zhao, Lijun Li, Jie Li, Yan Teng, Gongshen Liu, Yingchun Wang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, School of Computer Science, Shanghai Artificial Intelligence Laboratory, The University of Hong Kong
-    - 📅 Date: October 23, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [safety], [mobile GUI agent], [environmental injection], [adversarial robustness], [GhostEI-bench]
-    - 📖 TLDR: This paper introduces GhostEI-Bench, a benchmark for evaluating mobile agents under dynamic environmental injection attacks such as deceptive overlays, spoofed notifications, and pop-ups inside realistic Android workflows. Rather than testing static screenshots, it injects adversarial events into executable mobile environments and uses judge-based trajectory analysis to localize failure points. The benchmark shows that current mobile agents remain highly vulnerable to these runtime visual attacks.
-
 - [Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming](https://arxiv.org/abs/2510.18314)
     - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
     - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Tencent, Shanghai Jiao Tong University, Alibaba Group
@@ -191,9 +110,9 @@
 
 - [SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents](https://arxiv.org/abs/2510.11035)
     - Longjie Guo, Chenjie Yuan, Mingyuan Zhong, Robert Wolfe, Ruican Zhong, Yue Xu, Bingbing Wen, Hua Shen, Lucy Lu Wang, Alexis Hiniker
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of Washington, Rutgers University, CMU, NYU Shanghai
     - 📅 Date: October 13, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: IUI 2026
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [computer-use agent], [web agent], [dark pattern], [safety]
     - 📖 TLDR: SusBench is an online benchmark evaluating CUA susceptibility to 9 types of UI dark patterns, featuring 313 realistic tasks across 55 consumer websites with dark patterns injected via code modifications, finding that frontier CUAs are significantly more susceptible to manipulative designs than human users.
@@ -227,7 +146,7 @@
 
 - [Secure and Efficient Access Control for Computer-Use Agents via Context Space](https://arxiv.org/abs/2509.22256)
     - Haochen Gong, Chenxiao Li, Rui Chang, Wenbo Shen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ZJU
     - 📅 Date: September 26, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -236,16 +155,16 @@
 
 - [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
     - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ShanghaiTech
     - 📅 Date: September 09, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CCS 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [defense], [safety], [framework]
     - 📖 TLDR: AgentSentinel is an end-to-end, real-time security defense framework for CUAs that monitors LLM-driven tool commands across all agent components to detect and prevent unintended or harmful operations arising from LLM non-determinism, spanning vulnerabilities beyond insecure user prompts.
 
 - [Throttling Web Agents Using Reasoning Gates](https://arxiv.org/abs/2509.01619)
     - Abhinav Kumar, Jaechul Roh, Ali Naseh, Amir Houmansadr, Eugene Bagdasarian
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UMass Amherst
     - 📅 Date: September 01, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -254,48 +173,12 @@
 
 - [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
     - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Scale AI, CMU, MIT
     - 📅 Date: August 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2025
     - 💻 Env: [Misc]
     - 🔑 Key: [safety], [LLM agent], [monitoring], [computer-use agent], [red-teaming]
     - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.
-
-- [Measuring Harmfulness of Computer-Using Agents](https://arxiv.org/abs/2508.00935)
-    - Aaron Xuxiang Tian, Ruofan Zhang, Janet Tang, Ji Wang, Tianyu Shi, Jiaxin Wen
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 31, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [computer-use agent], [safety], [red-teaming], [security]
-    - 📖 TLDR: CUAHarm is a benchmark of 104 expert-written realistic misuse scenarios for computer-using agents—including disabling firewalls, data leakage, and backdoor installation—with a sandbox and rule-based verifiable rewards for comprehensive CUA misuse risk evaluation.
-
-- [Magentic-UI: Towards Human-in-the-loop Agentic Systems](https://arxiv.org/abs/2507.22358)
-    - Hussein Mozannar, Gagan Bansal, Cheng Tan, Adam Fourney, Victor Dibia, Jingya Chen, Jack Gerrits, Tyler Payne, Matheus Kunzler Maldaner, Madeleine Grunde-McLaughlin, Eric Zhu, Griffin Bassman, Jacob Alber, Peter Chang, Ricky Loynd, Friederike Niedtner, Ece Kamar, Maya Murad, Rafah Hosn, Saleema Amershi
-    - 🏛️ Institutions: Microsoft Research AI Frontiers
-    - 📅 Date: July 30, 2025
-    - 📑 Publisher: arXiv (also MSR Technical Report MSR-TR-2025-40)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [human-in-the-loop], [multi-agent], [planning], [memory], [MCP], [safety]
-    - 📖 TLDR: Magentic-UI (Multi-agentic User Interface) is an open-source web interface enabling safe, efficient human–agent collaboration through a flexible multi-agent architecture. It supports web browsing, code execution, and file manipulation, and provides six interaction mechanisms—co-planning, co-tasking, multi-tasking, action guards, answer verification, and long-term memory—to integrate human oversight with AI autonomy. Evaluated via agentic benchmarks, simulated user tests, qualitative user study, and safety assessments, it demonstrates how incorporating human-in-the-loop dynamics can significantly improve agentic systems' reliability and performance.
-
-- [WebGuard: Building a Generalizable Guardrail for Web Agents](https://arxiv.org/abs/2507.14293)
-    - Boyuan Zheng, Zeyi Liao, Scott Salisbury, Zeyuan Liu, Michael Lin, Qinyuan Zheng, Zifan Wang, Xiang Deng, Dawn Song, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Scale AI, University of California, Berkeley
-    - 📅 Date: July 18, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [benchmark], [safety], [guardrail], [WebGuard]
-    - 📖 TLDR: Autonomous web agents powered by LLMs can take unintended or harmful actions when interacting with websites (especially state-changing ones). WebGuard is introduced as a dataset to assess risks of web agent actions by collecting nearly 5,000 human‑annotated actions across many real websites, labeled by risk level (SAFE / LOW / HIGH). Baseline LLMs do poorly (<60% accuracy / recall) on detecting high‑risk actions; after fine‑tuning (using Qwen2.5VL‑7B), performance improves significantly (accuracy ~80%, recall on HIGH ~76%), though still not sufficient for very high‑stakes settings. The paper highlights that reliable guardrails for web agents remain an open challenge.
-
-- [A Systematization of Security Vulnerabilities in Computer Use Agents](https://arxiv.org/abs/2507.05445)
-    - Daniel Jones, Giorgio Severi, Martin Pouliot, Gary Lopez, Joris de Gruyter, Santiago Zanella-Beguelin, Justin Song, Blake Bullwinkel, Pamela Cortez, Amanda Minnich
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 07, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [security], [computer-use agent], [survey], [attack], [safety]
-    - 📖 TLDR: A systematization of seven classes of security vulnerabilities unique to Computer Use Agents—covering novel attack surfaces and trust boundaries not captured by traditional threat models—with systematic threat analysis and adversarial testing of real-world CUAs.
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, and Mike Zheng Shou
@@ -306,9 +189,9 @@
     - 🔑 Key: [benchmark], [multilingual], [safety], [macOSWorld]
     - 📖 TLDR: Introduces **macOSWorld**, the first interactive benchmark for GUI agents on macOS, with 202 tasks across 30 apps (28 macOS-exclusive) in 5 languages plus a safety subset for deception attacks; evaluates 6 agents, showing proprietary CUAs outperform open-source and VLM-based agents, significant language gaps (Arabic –27.5%), and both grounding and safety challenges.
 
-- [VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents](https://arxiv.org/abs/2506.02539)
-    - Thong Q. Nguyen, Shubhang Desai, Raja Hasnain Anwar, Firoz Shaik, Vishwas Suryanarayanan, Vishal Chowdhary
-    - 🏛️ Institutions: Unknown
+- [DPO Learning with LLMs-Judge Signal for Computer Use Agents](https://arxiv.org/abs/2506.03095)
+    - Man Luo, David Cobbley, Xin Su, Shachar Rosenman, Vasudev Lal, Shao-Yen Tseng, Phillip Howard
+    - 🏛️ Institutions: Intel, Thoughtworks
     - 📅 Date: June 03, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -335,7 +218,7 @@
 
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, HKUST
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -362,18 +245,18 @@
 
 - [sudo rm -rf agentic_security](https://arxiv.org/abs/2503.20279)
     - Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu, Min Song
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Aim Intelligence, Yonsei University, SNU
     - 📅 Date: March 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ACL 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [attack], [jailbreaking], [safety]
     - 📖 TLDR: SUDO (Screen-based Universal Detox2Tox Offense) is a novel attack framework that bypasses refusal-trained safeguards in commercial CUAs (e.g., Claude Computer Use) by transforming harmful requests into seemingly benign ones via a Detox2Tox mechanism, exposing critical vulnerabilities in CUA safety.
 
 - [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](https://arxiv.org/abs/2503.18492)
     - Jungjae Lee, Dongjae Lee, Chihun Choi, Youngmin Im, Jaeyoung Wi, Kihong Heo, Sangeun Oh, Sunjae Lee, Insik Shin
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: KAIST, Korea University, SKKU
     - 📅 Date: March 24, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: MobiCom 2025
     - 💻 Env: [Mobile]
     - 🔑 Key: [mobile agent], [safety], [verification], [formal verification], [framework]
     - 📖 TLDR: VeriSafe Agent (VSA) is a formal logic-based action verification system for mobile GUI agents that checks LFM-proposed actions against predefined safety constraints before execution, preventing unreliable automation caused by the probabilistic nature of large foundation models.

@@ -9,15 +9,6 @@
     - 🔑 Key: [web agent], [knowledge evolution], [human-in-the-loop], [long-horizon tasks], [WebArena], [memory management]
     - 📖 TLDR: ColorBrowserAgent is a knowledge-evolving web automation agent that tackles site heterogeneity and long-horizon instability through human-in-the-loop knowledge adaptation and knowledge-aligned progressive summarization, achieving 71.2% success rate on WebArena and strong performance on WebChoreArena and industrial deployment.
 
-- [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
-    - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [safety], [mobile agent], [VLM], [benchmark], [hybrid validation]
-    - 📖 TLDR: OS-Sentinel is a hybrid safety validation framework for mobile GUI agents combining reactive and proactive detection, built on MobileRisk-Live—a dynamic sandbox with realistic safety-annotated trajectories—to detect unsafe operations including system compromise and privacy leakage.
-
 - [Say One Thing, Do Another? Diagnosing Reasoning‑Execution Gaps in VLM‑Powered Mobile‑Use Agents](https://arxiv.org/abs/2510.02204)
     - Lingzhong Dong, Ziqi Zhou, Shuaibo Yang, Haiyue Sheng, Pengzhou Cheng, Zongru Wu, Zheng Wu, Gongshen Liu, Zhuosheng Zhang
     - 🏛️ Institutions: Shanghai Jiao Tong University, Beijing Institute of Technology

@@ -20,7 +20,7 @@
 
 - [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
     - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou, Eric Hanchen Jiang, Philip Sperl
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Fraunhofer AISEC, NTU, KTH, NUS, UCLA
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Misc]
@@ -54,15 +54,6 @@
     - 🔑 Key: [web agent], [LLM agent], [offline learning], [hint generation], [trajectory distillation], [benchmark]
     - 📖 TLDR: JEF-Hinter distills offline agent trajectories (both successes and failures) into compact, context-aware hints that are retrieved at inference time to improve web agent performance, consistently outperforming baselines including human- and document-based hints on MiniWoB++, WorkArena-L1, and WebArena-Lite.
 
-- [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430)
-    - Renjun Xu, Yang Yan
-    - 🏛️ Institutions: Zhejiang University
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [survey], [LLM agent], [agent skills], [CUA], [GUI grounding], [benchmark]
-    - 📖 TLDR: A comprehensive survey of the agent skills landscape for LLMs, organized along four axes: architectural foundations (SKILL.md, MCP), skill acquisition (RL, autonomous discovery), deployment at scale (CUA stack, GUI grounding, OSWorld/SWE-bench), and security (skill trust governance framework).
-
 - [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
     - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Lei Xu, David S. Rosenbluth
     - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
@@ -71,6 +62,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [web testing], [LLM agent], [bug detection], [GUI grounding], [test oracle], [software engineering]
     - 📖 TLDR: WebTestPilot is an LLM-based agent for end-to-end web testing that symbolizes GUI elements and infers pre/post-conditions from natural language specifications as test oracles, achieving 96% precision and 96% recall in bug detection on a benchmark of bug-injected web apps, significantly outperforming existing baselines.
+
+- [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430)
+    - Renjun Xu, Yang Yan
+    - 🏛️ Institutions: Zhejiang University
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [GUI]
+    - 🔑 Key: [survey], [LLM agent], [agent skills], [CUA], [GUI grounding], [benchmark]
+    - 📖 TLDR: A comprehensive survey of the agent skills landscape for LLMs, organized along four axes: architectural foundations (SKILL.md, MCP), skill acquisition (RL, autonomous discovery), deployment at scale (CUA stack, GUI grounding, OSWorld/SWE-bench), and security (skill trust governance framework).
 
 - [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
     - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
@@ -90,15 +90,6 @@
     - 🔑 Key: [GUI agent], [reward modeling], [verification], [reinforcement learning], [benchmark], [LLM agent]
     - 📖 TLDR: VAGEN introduces an agentic interactive verification framework that uses a verifier agent with interaction tools to proactively probe the environment for evidence of task completion, shifting from passive LLM-as-a-Judge evaluation to active exploration, and achieving significantly improved evaluation accuracy on OSWorld and AndroidWorld benchmarks.
 
-- [CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation](https://arxiv.org/abs/2601.21253)
-    - Wei Minn, Biniam Fisseha Demissie, Yan Naing Tun, Ismail Ahmadi, Quazi Marufur Rahman
-    - 🏛️ Institutions: Singapore Management University, Technology Innovation Institute, Harbin Institute of Technology, University of Verona
-    - 📅 Date: January 29, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [Android testing], [GUI testing], [LLM agent], [code coverage], [dynamic instrumentation], [software engineering]
-    - 📖 TLDR: CovAgent is an agentic AI framework that overcomes the ~30% activity coverage ceiling in Android app GUI testing by using LLM agents to analyze decompiled app code, reason about unsatisfied activation conditions, and generate dynamic instrumentation scripts, achieving over 100% improvement in activity coverage compared to state-of-the-art baselines like LLMDroid, Fastbot, and APE.
-
 - [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
     - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
     - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, Hong Kong University of Science and Technology, McGill University, Shanghai AI Lab, Gradient, University of Toronto, Mila - Quebec AI Institute
@@ -107,6 +98,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [reinforcement learning], [world model], [LLM agent], [benchmark], [training]
     - 📖 TLDR: DynaWeb introduces a model-based reinforcement learning framework that trains web agents by learning a web world model as a synthetic environment for generating imagined rollouts, interleaved with real expert trajectories, achieving significant improvements on WebArena and WebVoyager benchmarks over state-of-the-art open-source web agent models.
+
+- [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
+    - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Weifeng Lin, Shunye Tang
+    - 🏛️ Institutions: Xiaomi, Peking University, Chinese University of Hong Kong
+    - 📅 Date: January 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [Android testing], [GUI testing], [LLM agent], [code coverage], [dynamic instrumentation], [software engineering]
+    - 📖 TLDR: CovAgent is an agentic AI framework that overcomes the ~30% activity coverage ceiling in Android app GUI testing by using LLM agents to analyze decompiled app code, reason about unsatisfied activation conditions, and generate dynamic instrumentation scripts, achieving over 100% improvement in activity coverage compared to state-of-the-art baselines like LLMDroid, Fastbot, and APE.
 
 - [ExpSeek: Self-Triggered Experience Seeking for Web Agents](https://arxiv.org/abs/2601.08605)
     - Wenyuan Zhang, Xinghua Zhang, Haiyang Yu, Shuaiyi Nie, Bingli Wu, Juwei Yue, Tingwen Liu, Yongbin Li
@@ -171,24 +171,6 @@
     - 🔑 Key: [web agent], [LLM agent], [multimodal], [benchmark], [legal domain], [form filling]
     - 📖 TLDR: LegalWebAgent is a multimodal LLM-powered web agent framework that autonomously navigates legal websites, extracts information, and performs actions (form completion, schedule booking) to bridge the access-to-justice gap, achieving 84.4% average success rate on a 15-task benchmark of real-world Quebec civil law service processes.
 
-- [Improving Language Agents through BREW](https://arxiv.org/abs/2511.20297)
-    - Shashank Kirtania, Param Biyani, Priyanshu Gupta, Yasharth Bajpai, Roshni Iyer, Sumit Gulwani, Gustavo Soares
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [LLM agent], [memory], [experiential learning], [framework], [tool use]
-    - 📖 TLDR: BREW (Bootstrapping Experientially-learned Environmental Knowledge) builds and refines structured memory from agent-environment interactions as an alternative to computationally expensive weight optimization (PPO/GRPO), enabling efficient agent optimization for structured reasoning and computer-use automation tasks.
-
-- [BrowseConf: Confidence-Guided Test-Time Scaling for Web Agents](https://arxiv.org/abs/2510.23458)
-    - Litu Ou, Kuan Li, Huifeng Yin, Liwen Zhang, Zhongwang Zhang, Xixi Wu, Rui Ye, Zile Qiao, Pengjun Xie, Jingren Zhou, Yong Jiang
-    - 🏛️ Institutions: Tongyi Lab, Alibaba Group, University of Edinburgh
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [test-time scaling], [confidence estimation], [LLM agent], [benchmark], [efficiency]
-    - 📖 TLDR: BrowseConf investigates verbalized confidence scores in LLM-based web search agents after multi-turn interactions, finding that confidence reliably predicts task accuracy, and proposes confidence-guided test-time scaling methods that significantly reduce token consumption while maintaining competitive performance compared to fixed-budget baselines.
-
 - [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
     - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
     - 🏛️ Institutions: Purdue University, Florida International University, Georgia Institute of Technology
@@ -200,9 +182,9 @@
 
 - [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
     - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Scale AI, CMU, MIT
     - 📅 Date: August 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2025
     - 💻 Env: [Misc]
     - 🔑 Key: [safety], [LLM agent], [monitoring], [computer-use agent], [red-teaming]
     - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.

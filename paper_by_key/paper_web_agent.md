@@ -288,15 +288,6 @@
     - 🔑 Key: [framework], [web agent], [test-time scaling], [CATTS], [inference-time compute], [uncertainty estimation]
     - 📖 TLDR: CATTS (Confidence-Aware Test-Time Scaling) dynamically allocates inference-time compute for multi-step web agents by using vote-derived uncertainty signals (entropy and margin) to invoke an LLM arbiter only on contentious decisions, improving performance on WebArena-Lite and GoBrowse by up to 9.1% over ReAct while using up to 2.3x fewer tokens than uniform scaling.
 
-- [Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense](https://arxiv.org/abs/2602.09012)
-    - Jiacheng Liu, Yaxin Luo, Jiacheng Cui, Zhaoyi Li, Xiaohan Zhao
-    - 🏛️ Institutions: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), University College London
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [agent security], [GUI agent], [web agent], [CAPTCHA], [multimodal agent]
-    - 📖 TLDR: Introduces Next-Gen CAPTCHAs, a scalable defense framework that exploits the persistent cognitive gap between humans and GUI-enabled agents in interactive perception, memory, and decision-making, re-establishing robust human-machine differentiation as advanced reasoning models have rendered traditional CAPTCHAs obsolete.
-
 - [DECEPTICON: How Dark Patterns Manipulate Web Agents](https://arxiv.org/abs/2512.22894)
     - Phil Cuvin, Hao Zhu, Diyi Yang
     - 🏛️ Institutions: Stanford University
@@ -495,108 +486,9 @@
     - 🔑 Key: [web agent], [DOM pruning], [grounding], [LLM], [code generation], [observation simplification]
     - 📖 TLDR: Prune4Web introduces DOM Tree Pruning Programming, where an LLM generates executable Python scoring scripts to programmatically filter DOM elements based on sub-task semantics, achieving 25-50x reduction in candidate elements and improving web grounding accuracy from 46.8% to 88.28%.
 
-- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597)
-    - Kaiyuan Zhang, Mark Tenenholtz, Kyle Polley, Jerry Ma, Denis Yarats, Ninghui Li
-    - 🏛️ Institutions: Purdue University, Perplexity AI
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [benchmark], [safety], [prompt injection], [defense], [security]
-    - 📖 TLDR: BrowseSafe introduces a benchmark of prompt injection attacks embedded in realistic HTML payloads targeting AI browser agents, and proposes a multi-layered defense-in-depth strategy combining architectural and model-based defenses to protect web agents from evolving prompt injection threats.
-
-- [Fara-7B: An Efficient Agentic Model for Computer Use](https://arxiv.org/abs/2511.19663)
-    - Ahmed Awadallah, Yash Lara, Raghav Magazine, Hussein Mozannar, Akshay Nambi, Yash Pandya, Aravind Rajeswaran, Corby Rosset, Alexey Taymanov, Vibhav Vineet, Spencer Whitehead, Andrew Zhao
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 24, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [computer-use agent], [web agent], [synthetic data], [training data]
-    - 📖 TLDR: Introduces FaraGen, a high-throughput synthetic data generation system for multi-step web tasks (~$1 per verified trajectory), used to train Fara-7B, a native CUA model operating purely from screenshots that achieves strong performance on multi-step web automation benchmarks.
-
-- [WebSTAR: Scalable Data Synthesis for Computer Use Agents with Step-Level Filtering](https://arxiv.org/abs/2512.10962)
-    - Yifei He, Pranit Chawla, Yaser Souri...
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign, Microsoft
-    - 📅 Date: November 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [GUI agent], [web agent], [data synthesis], [data filtering], [process reward model], [benchmark]
-    - 📖 TLDR: WebSTAR introduces a scalable data synthesis pipeline for computer use agents that uses step-level filtering and reasoning augmentation to transform noisy rollouts from strong CUAs into reliable training data, constructing 13.3K trajectories and 267K graded steps, with the resulting 7B model surpassing UI-TARS-1.5-7B on WebVoyager by over 15% and also producing StepRM, a lightweight multimodal process reward model distilled from o4-mini.
-
-- [Building Browser Agents: Architecture, Security, and Practical Solutions](https://arxiv.org/abs/2511.19477)
-    - Aram Vardanyan
-    - 🏛️ Institutions: FillApp
-    - 📅 Date: November 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [browser agent], [security], [prompt injection], [accessibility tree], [benchmark]
-    - 📖 TLDR: This paper presents practical findings from building a production browser agent, arguing that architectural decisions (hybrid context management, specialized tooling, programmatic safety constraints) matter more than model capability, and that prompt injection attacks make general-purpose autonomous browsing fundamentally unsafe; the system achieves ~85% on the WebGames benchmark.
-
-- [WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance](https://arxiv.org/abs/2511.12997)
-    - Genglin Liu, Shijie Geng, Sha Li, Hejie Cui, Sarah Zhang, Xin Liu, Tianyi Liu
-    - 🏛️ Institutions: University of California, Los Angeles, Amazon
-    - 📅 Date: November 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [memory], [self-evolving], [cross-session learning], [benchmark], [framework]
-    - 📖 TLDR: WebCoach is a model-agnostic framework that augments web browsing agents with persistent cross-session memory through a WebCondenser, External Memory Store, and retrieval-based Coach, enabling continual learning without retraining and improving task success rates on WebVoyager from 47% to 61% with a 38B model.
-
-- [Building the Web for Agents: A Declarative Framework for Agent-Web Interaction](https://arxiv.org/abs/2511.11287)
-    - Sven Schultze, Meike Verena Kietzmann, Nils-Lucas Schönfeld, Ruth Stock-Homburg
-    - 🏛️ Institutions: Technical University of Darmstadt
-    - 📅 Date: November 14, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [framework], [agent-web interaction], [agentic web], [privacy], [human-AI collaboration]
-    - 📖 TLDR: Introduces VOIX, a web-native declarative framework using custom HTML tags (<tool> and <context>) that allows website developers to explicitly expose machine-readable actions and state for AI web agents, shifting control to developers while preserving user privacy. Evaluated through a hackathon study with 16 developers demonstrating rapid adoption and diverse agent-enabled web application creation.
-
-- [Machine-Readable Ads: Accessibility and Trust Patterns for AI Web Agents interacting with Online Advertisements](https://arxiv.org/abs/2507.12844)
-    - Joel Nitu, Heidrun Mühle, Andreas Stöckl
-    - 🏛️ Institutions: University of Applied Sciences Upper Austria, 506 Data & Performance GmbH
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [benchmark], [trustworthiness], [online advertising], [browser use], [agent behavior]
-    - 📖 TLDR: This paper studies how AI web agents (GPT-4o, Claude 3.7 Sonnet, Gemini 2.0 Flash, OpenAI Operator) interact with online advertisements on a cloned news website, finding that agents display severe satisficing behavior, ignore purely visual cues, and exhibit concerning trust gaps such as making unintended purchases, leading to five design principles for machine-readable ads.
-
-- [Promoting Sustainable Web Agents: Benchmarking and Estimating Energy Consumption through Empirical and Theoretical Analysis](https://arxiv.org/abs/2511.04481)
-    - Lars Krupp, Daniel Geißler, Vishal Banwari, Paul Lukowicz, Jakob Karolus
-    - 🏛️ Institutions: RPTU Kaiserslautern-Landau, German Research Center for Artificial Intelligence (DFKI)
-    - 📅 Date: November 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [benchmark], [sustainability], [energy efficiency], [Mind2Web], [carbon footprint]
-    - 📖 TLDR: This paper benchmarks and estimates the energy consumption and CO2 emissions of web agents (both open-source and proprietary) through empirical GPU measurements and theoretical analysis, finding that more energy consumed does not necessarily equate to better performance and advocating for energy consumption metrics in web agent benchmarks.
-
-- [Beyond Pixels: Exploring DOM Downsampling for LLM-Based Web Agents](https://arxiv.org/abs/2508.04412)
-    - Thassilo M. Schiepanski, Nicholas Piël
-    - 🏛️ Institutions: Surfly BV
-    - 📅 Date: October 31, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [DOM], [observation space], [benchmark], [GPT-4o], [Mind2Web]
-    - 📖 TLDR: Proposes D2Snap, a DOM downsampling algorithm for LLM-based web agents that reduces DOM snapshot size to match the token order of GUI screenshots, achieving a 67% success rate on Online-Mind2Web tasks that matches (and in higher-token configurations outperforms by 8%) a grounded GUI snapshot baseline, demonstrating that DOM-inherent hierarchy is a strong UI feature for LLMs.
-
-- [BrowseConf: Confidence-Guided Test-Time Scaling for Web Agents](https://arxiv.org/abs/2510.23458)
-    - Litu Ou, Kuan Li, Huifeng Yin, Liwen Zhang, Zhongwang Zhang, Xixi Wu, Rui Ye, Zile Qiao, Pengjun Xie, Jingren Zhou, Yong Jiang
-    - 🏛️ Institutions: Tongyi Lab, Alibaba Group, University of Edinburgh
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [test-time scaling], [confidence estimation], [LLM agent], [benchmark], [efficiency]
-    - 📖 TLDR: BrowseConf investigates verbalized confidence scores in LLM-based web search agents after multi-turn interactions, finding that confidence reliably predicts task accuracy, and proposes confidence-guided test-time scaling methods that significantly reduce token consumption while maintaining competitive performance compared to fixed-budget baselines.
-
-- [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699)
-    - Rui Ye, Zhongwang Zhang, Kuan Li, Huifeng Yin, Zhengwei Tao, Yida Zhao, Liangcai Su, Liwen Zhang, Zile Qiao, Xinyu Wang, Pengjun Xie, Fei Huang, Siheng Chen, Jingren Zhou, Yong Jiang
-    - 🏛️ Institutions: Tongyi Lab (Alibaba Group), Shanghai Jiao Tong University
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [context management], [long-horizon tasks], [information retrieval], [supervised fine-tuning], [BrowseComp]
-    - 📖 TLDR: AgentFold introduces a proactive context management paradigm for web agents that uses multi-scale "folding" operations to dynamically condense browsing history, enabling a 30B-parameter model to achieve state-of-the-art results on BrowseComp benchmarks, surpassing much larger models like DeepSeek-V3.1-671B and proprietary agents like OpenAI's o4-mini.
-
 - [Surfer 2: The Next Generation of Cross-Platform Computer Use Agents](https://arxiv.org/abs/2510.19949)
     - Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: H Company
     - 📅 Date: October 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -686,9 +578,9 @@
 
 - [SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents](https://arxiv.org/abs/2510.11035)
     - Longjie Guo, Chenjie Yuan, Mingyuan Zhong, Robert Wolfe, Ruican Zhong, Yue Xu, Bingbing Wen, Hua Shen, Lucy Lu Wang, Alexis Hiniker
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: University of Washington, Rutgers University, CMU, NYU Shanghai
     - 📅 Date: October 13, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: IUI 2026
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [computer-use agent], [web agent], [dark pattern], [safety]
     - 📖 TLDR: SusBench is an online benchmark evaluating CUA susceptibility to 9 types of UI dark patterns, featuring 313 realistic tasks across 55 consumer websites with dark patterns injected via code modifications, finding that frontier CUAs are significantly more susceptible to manipulative designs than human users.
@@ -767,39 +659,12 @@
 
 - [Throttling Web Agents Using Reasoning Gates](https://arxiv.org/abs/2509.01619)
     - Abhinav Kumar, Jaechul Roh, Ali Naseh, Amir Houmansadr, Eugene Bagdasarian
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UMass Amherst
     - 📅 Date: September 01, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [safety], [access control], [defense], [reasoning]
     - 📖 TLDR: Proposes Reasoning Gates, a framework imposing tunable computational costs on web agents before granting resource access, protecting content providers from denial-of-service, excessive scraping, and CAPTCHA bypass while preserving service availability for legitimate users.
-
-- [Embodied Web Agents: Bridging Physical-Digital Realms for Integrated Agent Intelligence](https://arxiv.org/abs/2506.15677)
-    - Yining Hong, Rui Sun, Bingxuan Li, Xingcheng Yao, Maxine Wu, Alexander Chien, Da Yin, Ying Nian Wu, Zhecan Wang, Kai-Wei Chang
-    - 🏛️ Institutions: University of California, Los Angeles, University of Illinois Urbana-Champaign, Amazon
-    - 📅 Date: July 29, 2025
-    - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks (Spotlight)
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [embodied web agent], [web agent], [simulation environment], [cross-domain reasoning], [embodied web agents]
-    - 📖 TLDR: This paper introduces Embodied Web Agents, a benchmark and simulation platform for tasks that require agents to combine embodied perception and action with web-scale information access. The environments couple 3D indoor and outdoor worlds with working web interfaces for tasks such as navigation, shopping, tourism, and cooking. Although broader than standard GUI automation, it is directly relevant to web agents because it evaluates how agent systems bridge browser-based reasoning with real-world interaction.
-
-- [WebSynthesis: World-Model-Guided MCTS for Efficient WebUI-Trajectory Synthesis](https://arxiv.org/abs/2507.04370)
-    - Yifei Gao, Junhong Ye, Jiaqi Wang, Jitao Sang
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: July 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web agent], [world model], [MCTS], [data generation], [training data]
-    - 📖 TLDR: WebSynthesis is a world-model-guided MCTS framework for efficient WebUI trajectory synthesis that simulates browser states to overcome uncontrollable real-environment states and data scarcity, enabling large-scale synthetic trajectory generation for web agent training.
-
-- [How to Train Your LLM Web Agent: A Statistical Diagnosis](https://arxiv.org/abs/2507.04103)
-    - Dheeraj Vattikonda, Santhoshi Ravichandran, Emiliano Penaloza, Hadi Nekoei, Megh Thakkar, Thibault Le Sellier de Chezelles, Nicolas Gontier, Miguel Munoz-Marmol, Sahar Omidi Shayegan, Stefania Raimondo, Xue Liu, Alexandre Drouin, Laurent Charlin, Alexandre Piche, Alexandre Lacoste, Massimo Caccia
-    - 🏛️ Institutions: ServiceNow AI Research, Mila - Quebec AI Institute, Polytechnique Montreal, HEC Montreal, McGill University, Universite de Montreal
-    - 📅 Date: July 05, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [web agent], [reinforcement learning], [imitation learning], [training analysis], [WorkArena]
-    - 📖 TLDR: This paper studies how to post-train open web agents under a strict compute budget, combining supervised imitation from a stronger teacher with on-policy reinforcement learning. Using large hyperparameter sweeps and bootstrapped sensitivity analysis, it provides one of the first statistically grounded compute-allocation studies for LLM web-agent training. The main result is that a mixed SFT-plus-RL pipeline is both more compute efficient and more effective than using either approach alone on WorkArena and MiniWoB++.
 
 - [Go-Browse: Training Web Agents with Structured Exploration](https://arxiv.org/abs/2506.03533)
     - Apurva Gandhi, Graham Neubig
@@ -839,7 +704,7 @@
 
 - [ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search](https://arxiv.org/abs/2505.15259)
     - Hyunseok Lee, Jeonghoon Kim, Beomjun Kim, Jihoon Tack, Chansong Jo, Jaehong Lee, Cheonbok Park, Sookyo In, Jinwoo Shin, Kang Min Yoo
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: KAIST, NAVER Cloud
     - 📅 Date: May 21, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -884,9 +749,9 @@
 
 - [BEARCUBS: A benchmark for computer-using web agents](https://arxiv.org/abs/2503.07919)
     - Yixiao Song, Katherine Thai, Chau Minh Pham, Yapei Chang, Mazin Nadaf, Mohit Iyyer
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: UMass Amherst, UMD
     - 📅 Date: March 10, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [web agent], [information seeking], [computer use], [evaluation]
     - 📖 TLDR: BEARCUBS is a benchmark of 111 information-seeking questions requiring web agents to access live websites, handle authentication, interact with dynamic content, and identify factual information in real-world settings without relying on static cached content.
@@ -902,9 +767,9 @@
 
 - [Tree Search for Language Model Agents](https://arxiv.org/abs/2407.01476)
     - Jing Yu Koh, Stephen McAleer, Daniel Fried, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, UC Irvine
     - 📅 Date: July 01, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: TMLR 2025
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [tree search], [planning], [exploration], [MCTS]
     - 📖 TLDR: Proposes an inference-time best-first tree search algorithm for language model agents in interactive web environments, enabling explicit multi-step exploration and planning by leveraging environmental feedback to overcome LM limitations in multi-step reasoning for complex computer tasks.

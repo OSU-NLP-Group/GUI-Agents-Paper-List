@@ -61,15 +61,6 @@
     - 🔑 Key: [framework], [reinforcement learning], [hierarchical planning], [mobile GUI agent], [AndroidWorld], [K²-agent]
     - 📖 TLDR: This paper introduces K²-Agent, a hierarchical mobile device control framework that separates declarative “know-what” reasoning from procedural “know-how” execution and co-evolves them during training. Its high-level module refines task knowledge through an SRLR loop, while the low-level executor is trained with curriculum-guided GRPO and dynamic demonstration injection. On AndroidWorld, K²-Agent reaches a new state of the art among open-source screenshot-only systems and also generalizes competitively to ScreenSpot-v2 and Android-in-the-Wild.
 
-- [Adaptive Milestone Reward for GUI Agents](https://arxiv.org/abs/2602.11524)
-    - Congmin Zheng, Xiaoyun Mo, Xinbei Ma, Aimin Guo, Hongling Zhuo
-    - 🏛️ Institutions: Shanghai Jiao Tong University, OPPO Research Institute
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [GUI agent], [reinforcement learning], [reward shaping], [mobile agent], [credit assignment], [AndroidWorld]
-    - 📖 TLDR: ADMIRE (Adaptive Milestone Reward) addresses the reward sparsity vs. reward hacking trade-off in RL-based GUI agent training by dynamically distilling milestones from successful trajectories and applying asymmetric credit assignment, achieving over 10% absolute improvement in success rate on AndroidWorld and generalizing across RL algorithms and diverse environments including web navigation and embodied tasks.
-
 - [AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild](https://arxiv.org/abs/2602.11750)
     - Jiazheng Sun, Mingxuan Li, Yingying Zhang, Jiayang Niu, Yachen Wu, Ruihan Jin, Shuyu Lei, Pengrongrui Tan, Zongyu Zhang, Ruoyi Wang, Jiachen Yang, Boyu Yang, Jiacheng Liu, Xin Peng
     - 🏛️ Institutions: Fudan University, Jilin University
@@ -78,6 +69,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [evaluation], [mobile GUI agent], [agent-user interaction], [MUSE], [AmbiBench]
     - 📖 TLDR: This paper introduces AmbiBench, a mobile GUI agent benchmark designed to move beyond idealized one-shot instructions toward realistic intent alignment. It organizes tasks by instruction clarity, includes 240 tasks across 25 applications, and evaluates not only execution success but also interaction quality through the MUSE judge framework. The benchmark highlights how current mobile agents struggle when users are ambiguous or incomplete, and reframes mobile agent evaluation around bidirectional interaction rather than pure instruction following.
+
+- [Adaptive Milestone Reward for GUI Agents](https://arxiv.org/abs/2602.11524)
+    - Congmin Zheng, Xiaoyun Mo, Xinbei Ma, Aimin Guo, Hongling Zhuo
+    - 🏛️ Institutions: Shanghai Jiao Tong University, OPPO Research Institute
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [GUI agent], [reinforcement learning], [reward shaping], [mobile agent], [credit assignment], [AndroidWorld]
+    - 📖 TLDR: ADMIRE (Adaptive Milestone Reward) addresses the reward sparsity vs. reward hacking trade-off in RL-based GUI agent training by dynamically distilling milestones from successful trajectories and applying asymmetric credit assignment, achieving over 10% absolute improvement in success rate on AndroidWorld and generalizing across RL algorithms and diverse environments including web navigation and embodied tasks.
 
 - [Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System](https://arxiv.org/abs/2602.10915)
     - Zhenhua Zou, Sheng Guo, Qiuyang Zhan, Tao Yu, Kun Zhang
@@ -97,14 +97,14 @@
     - 🔑 Key: [GUI agent], [world model], [code generation], [reinforcement learning], [Android], [VLM]
     - 📖 TLDR: Code2World is a vision-language coder that predicts next GUI states by generating renderable HTML code, trained on a new 80K screen-action pair dataset (AndroidCode) with render-aware reinforcement learning. It achieves state-of-the-art next UI prediction rivaling GPT-5 and boosts downstream navigation success rates by up to +9.5% on AndroidWorld.
 
-- [Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible](https://arxiv.org/abs/2602.10139)
-    - Lepeng Zhao, Zhenhua Zou, Shuo Li, Xiaoming Li, Bangfei Tian
-    - 🏛️ Institutions: Tsinghua University
-    - 📅 Date: February 08, 2026
+- [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
+    - Rui Lv, Juncheng Mo, Tianyi Chu, Yiming Liu, Hongling Zhuo
+    - 🏛️ Institutions: Ant Group, Zhejiang University
+    - 📅 Date: February 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [privacy], [mobile agent], [Android], [benchmark], [framework], [safety]
-    - 📖 TLDR: Proposes an anonymization-based privacy protection framework for mobile GUI agents that replaces sensitive PII with type-preserving placeholders, enabling task execution without exposing raw personal data to cloud-based models, and demonstrates strong privacy-utility trade-offs on the AndroidLab and PrivScreen benchmarks.
+    - 🔑 Key: [mobile GUI agent], [data mining], [monte carlo tree search], [multi-agent framework], [trajectory annotation], [training data]
+    - 📖 TLDR: M2-Miner is an automated mobile GUI agent data-mining framework that uses Monte Carlo Tree Search enhanced by a collaborative multi-agent system (InferAgent, OrchestraAgent, JudgeAgent) to efficiently generate high-quality intent-trajectory training data, along with intent recycling and progressive model-in-the-loop training strategies. GUI agents fine-tuned on the mined data achieve state-of-the-art performance on multiple mobile GUI benchmarks.
 
 - [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)
     - Han Xiao, Guozhi Wang, Hao Wang, Shilong Liu, Yuxiang Chai, Yue Pan, Yufeng Zhou, Xiaoxin Chen, Yafei Wen, Hongsheng Li
@@ -115,15 +115,6 @@
     - 🔑 Key: [framework], [memory], [reinforcement learning], [online RL], [mobile GUI agent], [UI-mem]
     - 📖 TLDR: This paper proposes UI-Mem, a mobile GUI agent training framework that augments online reinforcement learning with a hierarchical experience memory storing reusable workflows, subtask skills, and failure patterns. It introduces stratified group sampling to mix strong, weak, and unguided rollouts, plus a self-evolving loop that continually abstracts new successful plans and error diagnoses back into memory. Experiments on AndroidWorld and AndroidLab show strong gains over standard online RL and static reuse baselines, especially on unseen applications.
 
-- [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
-    - Rui Lv, Juncheng Mo, Tianyi Chu, Yiming Liu, Hongling Zhuo
-    - 🏛️ Institutions: Ant Group, Zhejiang University
-    - 📅 Date: February 05, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [mobile GUI agent], [data mining], [monte carlo tree search], [multi-agent framework], [trajectory annotation], [training data]
-    - 📖 TLDR: M2-Miner is an automated mobile GUI agent data-mining framework that uses Monte Carlo Tree Search enhanced by a collaborative multi-agent system (InferAgent, OrchestraAgent, JudgeAgent) to efficiently generate high-quality intent-trajectory training data, along with intent recycling and progressive model-in-the-loop training strategies. GUI agents fine-tuned on the mined data achieve state-of-the-art performance on multiple mobile GUI benchmarks.
-
 - [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
     - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Shun Zhang, Yiming Liu
     - 🏛️ Institutions: Zhejiang University, Nankai University, The Chinese University of Hong Kong, Shanghai Jiao Tong University, vivo AI Lab
@@ -133,9 +124,9 @@
     - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [mobile GUI agent], [framework]
     - 📖 TLDR: MemGUI-Bench is a comprehensive memory-centric benchmark for mobile GUI agents featuring 128 tasks across 26 applications where 89.8% require memory through cross-temporal and cross-spatial retention, along with MemGUI-Eval, a progressive scrutiny evaluation pipeline with 7 hierarchical metrics. Evaluation of 11 state-of-the-art agents reveals significant memory deficits with 4-10x capability gaps hidden by standard benchmarks, identifying 5 distinct failure modes and design implications.
 
-- [Generative Visual Code Mobile World Models](https://arxiv.org/abs/2602.01576)
-    - Woosung Koh, Sungjun Han, Segyu Lee, Oh-Hyun Kwon, Hyunsoo Kim
-    - 🏛️ Institutions: Trillion Labs, KAIST AI
+- [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
+    - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin, Shengyu Zhang
+    - 🏛️ Institutions: Zhejiang University
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -151,23 +142,14 @@
     - 🔑 Key: [mobile GUI agent], [data generation], [curriculum learning], [multi-agent], [VLM], [training data]
     - 📖 TLDR: MobileGen is an adaptive data generation framework for mobile GUI agent training that decouples task difficulty into structural and semantic dimensions, profiles the agent's capability frontier, and uses a multi-agent controllable generator to synthesize difficulty-aligned interaction trajectories, improving average agent performance by 1.57x over baselines across multiple benchmarks.
 
-- [CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation](https://arxiv.org/abs/2601.21253)
-    - Wei Minn, Biniam Fisseha Demissie, Yan Naing Tun, Ismail Ahmadi, Quazi Marufur Rahman
-    - 🏛️ Institutions: Singapore Management University, Technology Innovation Institute, Harbin Institute of Technology, University of Verona
-    - 📅 Date: January 29, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [Android testing], [GUI testing], [LLM agent], [code coverage], [dynamic instrumentation], [software engineering]
-    - 📖 TLDR: CovAgent is an agentic AI framework that overcomes the ~30% activity coverage ceiling in Android app GUI testing by using LLM agents to analyze decompiled app code, reason about unsatisfied activation conditions, and generate dynamic instrumentation scripts, achieving over 100% improvement in activity coverage compared to state-of-the-art baselines like LLMDroid, Fastbot, and APE.
-
 - [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
     - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Weifeng Lin, Shunye Tang
     - 🏛️ Institutions: Xiaomi, Peking University, Chinese University of Hong Kong
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [mobile], [evaluation], [chinese], [online], [robustness]
-    - 📖 TLDR: MobileBench-OL is an online benchmark with 1080 tasks from 80 Chinese apps that evaluates mobile GUI agents across multiple dimensions including task execution, complex reasoning, long-horizon planning, and noise robustness, with an auto-eval framework featuring a reset mechanism for stable and repeatable real-world benchmarking.
+    - 🔑 Key: [Android testing], [GUI testing], [LLM agent], [code coverage], [dynamic instrumentation], [software engineering]
+    - 📖 TLDR: CovAgent is an agentic AI framework that overcomes the ~30% activity coverage ceiling in Android app GUI testing by using LLM agents to analyze decompiled app code, reason about unsatisfied activation conditions, and generate dynamic instrumentation scripts, achieving over 100% improvement in activity coverage compared to state-of-the-art baselines like LLMDroid, Fastbot, and APE.
 
 - [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://openreview.net/forum?id=IWDpCaSF9Q)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
@@ -196,15 +178,6 @@
     - 🔑 Key: [GUI agent], [mobile], [knowledge graph], [LLM], [task automation], [efficiency]
     - 📖 TLDR: GraphPilot constructs app-specific knowledge graphs offline to encode page functions, element roles, and transition rules, then uses these graphs to guide LLM reasoning online so that a mobile GUI agent can plan a complete action sequence in nearly one LLM query, improving task completion rate on DroidTask while substantially reducing latency and the number of LLM calls compared to stepwise approaches.
 
-- [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
-    - Yilin Cao, Yufeng Zhong, Zhixiong Zeng, Liming Zheng, Jing Huang, Haibo Qiu, Peng Shi, Wenji Mao, Wan Guanglu
-    - 🏛️ Institutions: CAS, UCAS, Meituan
-    - 📅 Date: January 07, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [world model], [planning], [lookahead], [mobile GUI agent], [MobileDreamer]
-    - 📖 TLDR: This paper introduces MobileDreamer, a world-model-based lookahead framework for mobile GUI agents that predicts compact task-relevant future interface sketches rather than full screenshots. Its textual sketch world model preserves spatial information while remaining efficient, and its rollout imagination strategy uses these predicted futures to improve action selection on long-horizon tasks. On AndroidWorld, MobileDreamer achieves state-of-the-art performance and improves task success by 5.25%, showing that lightweight future imagination can materially strengthen mobile GUI planning.
-
 - [Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?](https://arxiv.org/abs/2601.12349)
     - Chenhao Lin, Zichen Ding, Lingming Zhang, Yuanchun Li, Xuanzhe Liu
     - 🏛️ Institutions: Nanjing University, Honor Device Co. Ltd, Institute of Dataspace Hefei Comprehensive National Science Center
@@ -213,6 +186,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [security], [attack], [Android], [mobile], [benchmark], [LMM]
     - 📖 TLDR: This paper presents "Action Rebinding," a zero-permission attack that exploits the observation-to-action gap in LMM-powered Android GUI agents to hijack their actions, achieving 100% success on atomic rebinding across six agents and 15 tasks while evading all malware scanners, revealing a fundamental architectural flaw in current agent-OS integration.
+
+- [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
+    - Yilin Cao, Yufeng Zhong, Zhixiong Zeng, Liming Zheng, Jing Huang, Haibo Qiu, Peng Shi, Wenji Mao, Wan Guanglu
+    - 🏛️ Institutions: CAS, UCAS, Meituan
+    - 📅 Date: January 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [world model], [planning], [lookahead], [mobile GUI agent], [MobileDreamer]
+    - 📖 TLDR: This paper introduces MobileDreamer, a world-model-based lookahead framework for mobile GUI agents that predicts compact task-relevant future interface sketches rather than full screenshots. Its textual sketch world model preserves spatial information while remaining efficient, and its rollout imagination strategy uses these predicted futures to improve action selection on long-horizon tasks. On AndroidWorld, MobileDreamer achieves state-of-the-art performance and improves task success by 5.25%, showing that lightweight future imagination can materially strengthen mobile GUI planning.
 
 - [AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents](https://arxiv.org/abs/2512.21302)
     - Yue Cao, Yingyao Wang, Pi Bu...
@@ -268,33 +250,6 @@
     - 🔑 Key: [GUI agent], [mobile agent], [multimodal LLM], [GUI grounding], [smartphone automation], [vision-language model]
     - 📖 TLDR: AFRAgent is a compact InstructBLIP-based multimodal architecture that uses adaptive feature renormalization to fuse high-resolution image details into low-resolution embeddings, achieving state-of-the-art smartphone GUI automation on Meta-GUI and AITW benchmarks at less than one-fourth the size of competing models.
 
-- [DualTAP: A Dual-Task Adversarial Protector for Mobile MLLM Agents](https://arxiv.org/abs/2511.13248)
-    - Fuyao Zhang, Jiaming Zhang, Che Wang...
-    - 🏛️ Institutions: Nanyang Technological University, Peking University, Xidian University, Hebei Normal University, Alibaba Group
-    - 📅 Date: November 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [mobile agent], [safety], [privacy], [adversarial attack], [dataset], [MLLM]
-    - 📖 TLDR: DualTAP is a dual-task adversarial framework that protects personally identifiable information (PII) in mobile GUI agent screenshots from untrusted routers while preserving task utility, achieving a 31.6 percentage point reduction in privacy leakage with minimal impact on agent task success rate.
-
-- [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
-    - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [safety], [mobile agent], [VLM], [benchmark], [hybrid validation]
-    - 📖 TLDR: OS-Sentinel is a hybrid safety validation framework for mobile GUI agents combining reactive and proactive detection, built on MobileRisk-Live—a dynamic sandbox with realistic safety-annotated trajectories—to detect unsafe operations including system compromise and privacy leakage.
-
-- [GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?](https://arxiv.org/abs/2510.20333)
-    - Chiyu Chen, Xinhao Song, Yunkai Chai, Yang Yao, Haodong Zhao, Lijun Li, Jie Li, Yan Teng, Gongshen Liu, Yingchun Wang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, School of Computer Science, Shanghai Artificial Intelligence Laboratory, The University of Hong Kong
-    - 📅 Date: October 23, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [safety], [mobile GUI agent], [environmental injection], [adversarial robustness], [GhostEI-bench]
-    - 📖 TLDR: This paper introduces GhostEI-Bench, a benchmark for evaluating mobile agents under dynamic environmental injection attacks such as deceptive overlays, spoofed notifications, and pop-ups inside realistic Android workflows. Rather than testing static screenshots, it injects adversarial events into executable mobile environments and uses judge-based trajectory analysis to localize failure points. The benchmark shows that current mobile agents remain highly vulnerable to these runtime visual attacks.
-
 - [CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs](https://arxiv.org/abs/2510.15455)
     - Gucongcong Fan, Chaoyue Niu, Chengfei Lyu, Fan Wu, Guihai Chen
     - 🏛️ Institutions: Shanghai Jiao Tong University, Alibaba Group
@@ -333,7 +288,7 @@
 
 - [MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents](https://arxiv.org/abs/2509.06477)
     - Pengxiang Zhao, Guangyi Liu, Yaozhen Liang, Weiqing He, Zhengxi Lu, Yuehao Huang, Yaxuan Guo, Kexin Zhang, Hao Wang, Liang Liu, Yong Liu
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: ZJU, vivo AI Lab, Huzhou Institute of ZJU
     - 📅 Date: September 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -348,15 +303,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [reinforcement learning], [mobile GUI agent], [sample efficiency], [AndroidWorld], [SoLS]
     - 📖 TLDR: This paper introduces SoLS, an off-policy reinforcement learning algorithm for mobile app control that treats successful and unsuccessful samples differently to improve stability and sample efficiency. It also adds Successful Transition Replay to focus learning on successful interactions. On AndroidWorld, the method substantially outperforms prior prompt-based and RL baselines while using much less computation than large proprietary agents.
-
-- [MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation](https://arxiv.org/abs/2507.16853)
-    - Ning Li, Xiangmou Qu, Jiamu Zhou, Jun Wang, Muning Wen, Kounianhua Du, Xingyu Lou, Qiuying Peng, Jun Wang, Weinan Zhang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, OPPO Research Institute
-    - 📅 Date: July 21, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [mobile GUI agent], [hierarchical reflection], [proactive exploration], [AndroidWorld], [AndroidLab], [MobileUse]
-    - 📖 TLDR: This paper introduces MobileUse, a mobile GUI agent designed to handle long-horizon execution, error recovery, and cold-start operation in unfamiliar apps. Its core design combines hierarchical reflection across multiple temporal scales with a reflection-on-demand strategy and proactive exploration to build environment understanding before acting. The result sets new state-of-the-art success rates on AndroidWorld and AndroidLab and is released with a toolkit for execution on physical mobile devices.
 
 - [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
     - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
@@ -457,15 +403,6 @@
     - 🔑 Key: [framework], [EFSM], [SPlanner], [planning], [vision language model], [AndroidWorld benchmark]
     - 📖 TLDR: Introduces **SPlanner**, a plug‑and‑play planning module that models mobile apps as Extended Finite State Machines (EFSMs). It decomposes user instructions into primary functions, traverses EFSMs to obtain execution paths, and refines these into natural-language plans to guide vision‑language models. On the AndroidWorld benchmark, pairing SPlanner with Qwen2.5‑VL‑72B achieves 63.8% success—28.8 points higher than the baseline, demonstrating improved stability and task planning in mobile GUI agents.
 
-- [ViMo: A Generative Visual GUI World Model for App Agents](https://arxiv.org/abs/2504.13936)
-    - Dezhao Luo, Bohan Tang, Kang Li, Georgios Papoudakis, Jifei Song, Shaogang Gong, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Queen Mary University of London, University of Oxford, Huawei Noah's Ark Lab, University College London
-    - 📅 Date: May 20, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [world model], [visual prediction], [mobile GUI agent], [long-horizon planning], [ViMo]
-    - 📖 TLDR: This paper introduces ViMo, the first visual GUI world model for app agents that predicts future GUI observations directly as images rather than only as text descriptions. To handle the hard problem of rendering GUI text accurately, it separates graphic generation from text generation with a Symbolic Text Representation and dedicated predictors for each part. The generated future screens are then used to help agents compare action outcomes and make better long-horizon decisions in mobile apps.
-
 - [MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning](https://arxiv.org/abs/2505.12299)
     - Kun Huang, Weikai Xu, Yuxuan Liu, Quandong Wang, Pengzhi Gao, Wei Liu, Jian Luan, Bin Wang, Bo An
     - 🏛️ Institutions: Xiaomi Inc., Nanyang Technological University, Renmin University of China
@@ -531,9 +468,9 @@
 
 - [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](https://arxiv.org/abs/2503.18492)
     - Jungjae Lee, Dongjae Lee, Chihun Choi, Youngmin Im, Jaeyoung Wi, Kihong Heo, Sangeun Oh, Sunjae Lee, Insik Shin
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: KAIST, Korea University, SKKU
     - 📅 Date: March 24, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: MobiCom 2025
     - 💻 Env: [Mobile]
     - 🔑 Key: [mobile agent], [safety], [verification], [formal verification], [framework]
     - 📖 TLDR: VeriSafe Agent (VSA) is a formal logic-based action verification system for mobile GUI agents that checks LFM-proposed actions against predefined safety constraints before execution, preventing unreliable automation caused by the probabilistic nature of large foundation models.

@@ -1,26 +1,17 @@
 - [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
     - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou, Eric Hanchen Jiang, Philip Sperl
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Fraunhofer AISEC, NTU, KTH, NUS, UCLA
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Misc]
     - 🔑 Key: [security], [LLM agent], [prompt injection], [privacy], [data leakage], [safety]
     - 📖 TLDR: Identifies and measures the "Trusted Executor Dilemma"—where LLM agents execute adversarial instructions embedded in documentation because they cannot distinguish malicious directives from legitimate guidance—formalizing a three-dimensional taxonomy of instructional text-induced private data leakage attacks.
 
-- [Improving Language Agents through BREW](https://arxiv.org/abs/2511.20297)
-    - Shashank Kirtania, Param Biyani, Priyanshu Gupta, Yasharth Bajpai, Roshni Iyer, Sumit Gulwani, Gustavo Soares
-    - 🏛️ Institutions: Unknown
-    - 📅 Date: November 25, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [LLM agent], [memory], [experiential learning], [framework], [tool use]
-    - 📖 TLDR: BREW (Bootstrapping Experientially-learned Environmental Knowledge) builds and refines structured memory from agent-environment interactions as an alternative to computationally expensive weight optimization (PPO/GRPO), enabling efficient agent optimization for structured reasoning and computer-use automation tasks.
-
 - [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
     - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Scale AI, CMU, MIT
     - 📅 Date: August 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2025
     - 💻 Env: [Misc]
     - 🔑 Key: [safety], [LLM agent], [monitoring], [computer-use agent], [red-teaming]
     - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.

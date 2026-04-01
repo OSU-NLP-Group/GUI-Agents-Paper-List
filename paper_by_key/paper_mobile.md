@@ -9,15 +9,6 @@
     - 🔑 Key: [benchmark], [mobile], [chinese], [evaluation], [GUI grounding], [agent]
     - 📖 TLDR: GUI-CEval is the first comprehensive Chinese benchmark for mobile GUI agents, spanning 201 apps across four device types with a hierarchical two-level evaluation structure (atomic abilities and application-level tasks) along five dimensions (perception, planning, reflection, execution, evaluation), revealing that most MLLMs still struggle with reflective decision-making and post-action self-evaluation.
 
-- [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
-    - Yanyang Li, Kaizhe Hu, Guohao Li, Heyang Gong, Yeye He
-    - 🏛️ Institutions: Alibaba Group
-    - 📅 Date: March 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [GUI agent], [mobile], [efficiency], [dataset], [benchmark], [reinforcement learning]
-    - 📖 TLDR: SecAgent is a 3B-scale mobile GUI agent that introduces a semantic context mechanism to distill history screenshots into concise natural language summaries, reducing computational costs while preserving task-relevant information. It also contributes a large-scale human-verified Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) and benchmark, achieving performance comparable to 7B-8B models through supervised and reinforcement fine-tuning.
-
 - [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
     - Zihao Wu, Zihan Ding, Fan Zhou, Hao Shi, Xiaomin Zhang
     - 🏛️ Institutions: The Chinese University of Hong Kong (MMLab @ CUHK), Nankai University, Huawei Research
@@ -27,9 +18,18 @@
     - 🔑 Key: [benchmark], [proactive agent], [GUI agent], [intent recommendation], [mobile], [multimodal LLM]
     - 📖 TLDR: PIRA-Bench introduces a benchmark for evaluating proactive GUI agents that anticipate user intentions from continuous visual inputs (screenshots) without explicit instructions, featuring complex trajectories with interleaved intents and noisy segments, along with a memory-aware baseline framework (PIRF) for managing multiple task threads.
 
-- [Generative Visual Code Mobile World Models](https://arxiv.org/abs/2602.01576)
-    - Woosung Koh, Sungjun Han, Segyu Lee, Oh-Hyun Kwon, Hyunsoo Kim
-    - 🏛️ Institutions: Trillion Labs, KAIST AI
+- [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
+    - Yanyang Li, Kaizhe Hu, Guohao Li, Heyang Gong, Yeye He
+    - 🏛️ Institutions: Alibaba Group
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [GUI agent], [mobile], [efficiency], [dataset], [benchmark], [reinforcement learning]
+    - 📖 TLDR: SecAgent is a 3B-scale mobile GUI agent that introduces a semantic context mechanism to distill history screenshots into concise natural language summaries, reducing computational costs while preserving task-relevant information. It also contributes a large-scale human-verified Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) and benchmark, achieving performance comparable to 7B-8B models through supervised and reinforcement fine-tuning.
+
+- [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
+    - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin, Shengyu Zhang
+    - 🏛️ Institutions: Zhejiang University
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -44,15 +44,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [GUI agent], [memory system], [training-free], [MLLM], [multi-app], [mobile]
     - 📖 TLDR: Darwinian Memory System (DMS) is a training-free, self-evolving memory architecture for GUI agents that treats memory as a dynamic ecosystem governed by natural selection, decomposing trajectories into reusable units and pruning suboptimal paths via utility-driven selection, achieving 18.0% gains in success rate and 33.9% in execution stability on real-world multi-app benchmarks.
-
-- [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
-    - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Weifeng Lin, Shunye Tang
-    - 🏛️ Institutions: Xiaomi, Peking University, Chinese University of Hong Kong
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [mobile], [evaluation], [chinese], [online], [robustness]
-    - 📖 TLDR: MobileBench-OL is an online benchmark with 1080 tasks from 80 Chinese apps that evaluates mobile GUI agents across multiple dimensions including task execution, complex reasoning, long-horizon planning, and noise robustness, with an auto-eval framework featuring a reset mechanism for stable and repeatable real-world benchmarking.
 
 - [MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution](https://arxiv.org/abs/2601.19199)
     - Hui Zhang, Kangyang Luo, Haoxiang Jia, Li Zhang, Zhaohui Jiang
@@ -126,24 +117,6 @@
     - 🔑 Key: [mobile], [Android], [benchmark], [evaluation], [modular], [multi-path]
     - 📖 TLDR: MobiBench is the first modular and multi-path-aware offline benchmarking framework for mobile GUI agents that achieves 94.72% agreement with human evaluators while enabling scalable, reproducible evaluation, and provides comprehensive module-level analysis uncovering optimal configurations and actionable design guidelines for mobile agents.
 
-- [History-Aware Reasoning for GUI Agents](https://arxiv.org/abs/2511.09127)
-    - Ziwei Wang, Leyang Yang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Zhejiang University, Ant Group
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [reinforcement learning], [reasoning], [chain-of-thought], [mobile], [web]
-    - 📖 TLDR: Proposes the History-Aware Reasoning (HAR) framework that addresses the history-agnostic reasoning weakness of native GUI agents by encouraging reflection on errors and enhancing short-term memory through reflective learning scenarios, tailored correction guidelines, and a hybrid RL reward function, resulting in a 3B-parameter model (HAR-GUI-3B) with improved episodic reasoning across GUI benchmarks including AITW, Mind2Web, and GUI-Odyssey.
-
-- [ProBench: Benchmarking GUI Agents with Accurate Process Information](https://arxiv.org/abs/2511.09157)
-    - Leyang Yang, Ziwei Wang, Xiaoxuan Tang...
-    - 🏛️ Institutions: Zhejiang University, Ant Group
-    - 📅 Date: November 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [mobile], [evaluation], [process-aware evaluation], [Android], [multi-step tasks]
-    - 📖 TLDR: ProBench is a comprehensive mobile GUI agent benchmark with over 200 tasks that evaluates both final-state and intermediate-process information, introducing a Process Provider to automatically capture accurate process details for more precise assessment of agent performance on real-world GUI scenarios.
-
 - [NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks](https://arxiv.org/abs/2508.02046)
     - Zhihao Luo, Wentao Yan, Jingyu Gong, Min Wang, Zhizhong Zhang, Xuhong Wang, Yuan Xie, Xin Tan
     - 🏛️ Institutions: East China Normal University, Shanghai AI Laboratory, SenseTime Research
@@ -152,15 +125,6 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [GUI navigation], [embodied navigation], [reinforcement learning], [unified agent], [mobile], [web]
     - 📖 TLDR: NaviMaster is the first unified agent that combines GUI navigation (mobile/web/desktop) and embodied navigation within a single reinforcement learning framework, using a visual-target trajectory collection pipeline and distance-aware reward to outperform state-of-the-art agents on out-of-domain benchmarks across both domains.
-
-- [UITron-Speech: Towards Automated GUI Agents Based on Speech Instructions](https://arxiv.org/abs/2506.11127)
-    - Wenkang Han, Zhixiong Zeng, Jing Huang, Shu Jiang, Liming Zheng, Longrong Yang, Haibo Qiu, Chang Yao, Jingyuan Chen, Lin Ma
-    - 🏛️ Institutions: Meituan, Zhejiang University, Harbin Institute of Technology
-    - 📅 Date: June 10, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI agent], [speech input], [multimodal], [grounding], [mobile], [training strategy]
-    - 📖 TLDR: UITron-Speech is the first end-to-end GUI agent that directly processes speech instructions and on-device screenshots to predict user actions, using synthesized speech datasets, a mixed-modality training strategy, and a training-free grounding refinement method to address data scarcity, modality imbalance, and localization deviations.
 
 - [LLM-Guided Scenario-based GUI Testing](https://arxiv.org/abs/2506.05079)
     - Shengcheng Yu, Yuchen Ling, Chunrong Fang, Quan Zhou, Yi Zhao, Chunyang Chen, Shaomin Zhu, Zhenyu Chen

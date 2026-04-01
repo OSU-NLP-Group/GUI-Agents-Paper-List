@@ -101,34 +101,16 @@
 
 - [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://arxiv.org/abs/2508.20096)
     - Zeyi Sun, Yuhang Cao, Jianze Liang, Qiushi Sun, Ziyu Liu, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: Shanghai AI Lab, SJTU, CUHK
     - 📅 Date: August 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [computer-use agent], [reinforcement learning], [planning], [dual-system cognition]
     - 📖 TLDR: CODA (Coordinating the Cerebrum and Cerebellum) is a dual-brain framework for CUAs in specialized domains that decouples planning (cerebrum) from execution (cerebellum) and trains them jointly via decoupled reinforcement learning, enabling adaptive coordination of long-horizon planning with precise GUI execution.
 
-- [Magentic-UI: Towards Human-in-the-loop Agentic Systems](https://arxiv.org/abs/2507.22358)
-    - Hussein Mozannar, Gagan Bansal, Cheng Tan, Adam Fourney, Victor Dibia, Jingya Chen, Jack Gerrits, Tyler Payne, Matheus Kunzler Maldaner, Madeleine Grunde-McLaughlin, Eric Zhu, Griffin Bassman, Jacob Alber, Peter Chang, Ricky Loynd, Friederike Niedtner, Ece Kamar, Maya Murad, Rafah Hosn, Saleema Amershi
-    - 🏛️ Institutions: Microsoft Research AI Frontiers
-    - 📅 Date: July 30, 2025
-    - 📑 Publisher: arXiv (also MSR Technical Report MSR-TR-2025-40)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [human-in-the-loop], [multi-agent], [planning], [memory], [MCP], [safety]
-    - 📖 TLDR: Magentic-UI (Multi-agentic User Interface) is an open-source web interface enabling safe, efficient human–agent collaboration through a flexible multi-agent architecture. It supports web browsing, code execution, and file manipulation, and provides six interaction mechanisms—co-planning, co-tasking, multi-tasking, action guards, answer verification, and long-term memory—to integrate human oversight with AI autonomy. Evaluated via agentic benchmarks, simulated user tests, qualitative user study, and safety assessments, it demonstrates how incorporating human-in-the-loop dynamics can significantly improve agentic systems' reliability and performance.
-
-- [GTA1: GUI Test-time Scaling Agent](https://arxiv.org/abs/2507.05791)
-    - Yan Yang, Dongxu Li, Yutong Dai, Yuhao Yang, Ziyang Luo, Zirui Zhao, Zhiyuan Hu, Junzhe Huang, Amrita Saha, Zeyuan Chen, Ran Xu, Liyuan Pan, Silvio Savarese, Caiming Xiong, Junnan Li
-    - 🏛️ Institutions: Salesforce AI Research, Australian National University, The University of Hong Kong
-    - 📅 Date: July 08, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [test-time scaling], [reinforcement learning], [planning], [grounding], [GTA1]
-    - 📖 TLDR: This paper tackles two major challenges in GUI agents — planning ambiguity and visual grounding accuracy. It introduces **GTA1**, a GUI Test-time Scaling Agent that improves action decision-making by sampling multiple candidate actions at each step and selecting the best one via a judge model. Additionally, it enhances grounding through reinforcement learning with success-based rewards. GTA1 achieves state-of-the-art results on GUI grounding and execution benchmarks such as ScreenSpot and OSWorld.
-
 - [Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction](https://arxiv.org/abs/2506.07976)
     - Junhong Shen, Hao Bai, Lunjun Zhang, Yifei Zhou, Amrith Setlur, Shengbang Tong, Diego Caples, Nan Jiang, Tong Zhang, Ameet Talwalkar, Aviral Kumar
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, UIUC, University of Toronto, UC Berkeley, NYU, Scribe, The AGI Company
     - 📅 Date: June 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
@@ -254,9 +236,9 @@
 
 - [Tree Search for Language Model Agents](https://arxiv.org/abs/2407.01476)
     - Jing Yu Koh, Stephen McAleer, Daniel Fried, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: CMU, UC Irvine
     - 📅 Date: July 01, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: TMLR 2025
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [tree search], [planning], [exploration], [MCTS]
     - 📖 TLDR: Proposes an inference-time best-first tree search algorithm for language model agents in interactive web environments, enabling explicit multi-step exploration and planning by leveraging environmental feedback to overcome LM limitations in multi-step reasoning for complex computer tasks.
