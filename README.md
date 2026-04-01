@@ -7,7 +7,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 - Agent frameworks
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
-- [New!] Agentic Web Search (As it's becoming an important part for agents in the digital world)
+- Agentic Web Search (As it's becoming an important part for agents in the digital world)
 
 
 [//]: # (<div style="display: flex; justify-content: space-around;">)
@@ -22,8 +22,8 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 
 ## Papers Grouped by Environments
-| [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
-|--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
+| [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Search](paper_by_env/paper_search.md) | [Misc](paper_by_env/paper_misc.md) |
+|---|---|---|---|---|---|
 
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
@@ -469,7 +469,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
     - 🔑 Key: [framework], [reinforcement learning], [hierarchical planning], [mobile GUI agent], [AndroidWorld], [K²-agent]
     - 📖 TLDR: This paper introduces K²-Agent, a hierarchical mobile device control framework that separates declarative “know-what” reasoning from procedural “know-how” execution and co-evolves them during training. Its high-level module refines task knowledge through an SRLR loop, while the low-level executor is trained with curriculum-guided GRPO and dynamic demonstration injection. On AndroidWorld, K²-Agent reaches a new state of the art among open-source screenshot-only systems and also generalizes competitively to ScreenSpot-v2 and Android-in-the-Wild.
 
-- [M^2: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval](https://static.arxiv.org/MathJax-2.7.3/fonts/HTML-CSS/TeX/png/Main/Regular/336/0032.png?V=2.7.3): Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval](https://arxiv.org/abs/2603.00503)
+- [M^2: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval](https://arxiv.org/abs/2603.00503)
     - Dawei Yan, Haokui Zhang, Guangda Huzhang, Yang Li, Yibo Wang, Qing-Guo Chen, Zhao Xu, Weihua Luo, Ying Li, Wei Dong, Chunhua Shen
     - 🏛️ Institutions: Northwestern Polytechnical University, Alibaba Group, Xi'an University of Architecture and Technology, Zhejiang University
     - 📅 Date: 2026-02-28
@@ -5522,7 +5522,7 @@ Please fork and update:
     - 🏛️ Institutions: List the institutions concisely, using abbreviations (e.g., university names, like OSU).
     - 📅 Date: e.g., Oct 30, 2024
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [Misc] if it is researching in general domains.
+    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [Search] for papers purely using Search APIs for web browsing without GUI interaction. A paper can have multiple envs (e.g., [Web], [Search]). Use [Misc] if it is researching in general domains.
     - 🔑 Key: Label each keyword within brackets, e.g., [model], [framework],[dataset],[benchmark].
     - 📖 TLDR: Brief summary of the paper.
 ```
