@@ -21,7 +21,7 @@
 - [You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)
     - Ching-Yu Kao, Xinfeng Li, Shenyu Dai, Tianze Qiu, Pengcheng Zhou, Eric Hanchen Jiang, Philip Sperl
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2026-03-12
+    - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Misc]
     - 🔑 Key: [security], [LLM agent], [prompt injection], [privacy], [data leakage], [safety]
@@ -48,7 +48,7 @@
 - [MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks](https://arxiv.org/abs/2602.09222)
     - Georgios Syros, Evan Rose, Brian Grinstead, Christoph Kerschbaumer, William Robertson, Cristina Nita-Rotaru, Alina Oprea
     - 🏛️ Institutions: Northeastern University, Mozilla Corporation
-    - 📅 Date: 2026-02-09
+    - 📅 Date: February 09, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [attack], [web agent security], [indirect prompt injection], [red-teaming], [MUZZLE]
@@ -66,7 +66,7 @@
 - [WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents](https://arxiv.org/abs/2602.03792)
     - Xilong Wang, Yinuo Liu, Zhun Wang, Dawn Song, Neil Gong
     - 🏛️ Institutions: Duke University, UC Berkeley
-    - 📅 Date: 2026-02-03
+    - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [defense], [prompt injection], [web agent], [WebSentinel], [security], [attack detection]
@@ -75,7 +75,7 @@
 - [Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments](https://arxiv.org/abs/2509.11250)
     - Yitong Zhang, Ximo Li, Liyi Cai, Jia Li
     - 🏛️ Institutions: Tsinghua University, Peking University
-    - 📅 Date: 2026-01-31
+    - 📅 Date: January 31, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [security], [attack], [web agent], [benchmark], [grounding], [vision]
@@ -84,7 +84,7 @@
 - [WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents](https://arxiv.org/abs/2601.08406)
     - Xinyi Wu, Jiagui Chen, Geng Hong, Jiayi Dong, Xudong Pan, Jiarun Dai, Min Yang
     - 🏛️ Institutions: Fudan University, Shanghai Innovation Institute
-    - 📅 Date: 2026-01-13
+    - 📅 Date: January 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [web agent], [safety], [agent framework], [security evaluation], [attack]
@@ -111,7 +111,7 @@
 - [It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents](https://arxiv.org/abs/2512.23128)
     - Karolina Korgul, Yushi Yang, Arkadiusz Drohomirecki, Piotr Błaszczyk, Will Howard, Lukas Aichberger, Chris Russell, Philip H. S. Torr, Adam Mahdi, Adel Bibi
     - 🏛️ Institutions: University of Oxford, SoftServe, Independent, Johannes Kepler University Linz
-    - 📅 Date: 2025-12-28
+    - 📅 Date: December 28, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [benchmark], [safety], [prompt injection], [security], [LLM]
@@ -120,7 +120,7 @@
 - [Privacy Practices of Browser Agents](https://arxiv.org/abs/2512.07725)
     - Alisha Ukani, Hamed Haddadi, Ali Shahin Shamsabadi, Peter Snyder
     - 🏛️ Institutions: University of California San Diego, Brave Software, Imperial College London
-    - 📅 Date: 2025-12-08
+    - 📅 Date: December 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [benchmark], [privacy], [security], [browser agent], [evaluation]
@@ -129,7 +129,7 @@
 - [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597)
     - Kaiyuan Zhang, Mark Tenenholtz, Kyle Polley, Jerry Ma, Denis Yarats, Ninghui Li
     - 🏛️ Institutions: Purdue University, Perplexity AI
-    - 📅 Date: 2025-11-25
+    - 📅 Date: November 25, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [benchmark], [safety], [prompt injection], [defense], [security]
@@ -138,7 +138,7 @@
 - [Building Browser Agents: Architecture, Security, and Practical Solutions](https://arxiv.org/abs/2511.19477)
     - Aram Vardanyan
     - 🏛️ Institutions: FillApp
-    - 📅 Date: 2025-11-22
+    - 📅 Date: November 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [browser agent], [security], [prompt injection], [accessibility tree], [benchmark]
@@ -147,7 +147,7 @@
 - [WebInject: Prompt Injection Attack to Web Agents](https://arxiv.org/abs/2505.11717)
     - Xilong Wang, John Bloch, Zedian Shao, Yuepeng Hu, Shuyan Zhou, Neil Zhenqiang Gong
     - 🏛️ Institutions: Duke University
-    - 📅 Date: 2025-10-16
+    - 📅 Date: October 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [prompt injection], [attack], [adversarial attack], [multimodal LLM], [security]
@@ -156,7 +156,7 @@
 - [In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers](https://arxiv.org/abs/2510.13543)
     - Avihay Cohen
     - 🏛️ Institutions: BrowserTotal
-    - 📅 Date: 2025-10-15
+    - 📅 Date: October 15, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [browser agent], [security], [prompt injection], [fuzzing], [attack]
@@ -174,7 +174,7 @@
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-10-07
+    - 📅 Date: October 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [benchmark], [red-teaming], [attack]
@@ -183,7 +183,7 @@
 - [Cross-Modal Content Optimization for Steering Web Agent Preferences](https://arxiv.org/abs/2510.03612)
     - Tanqiu Jiang, Min Bai, Nikolaos Pappas, Yanjun Qi, Sandesh Swamy
     - 🏛️ Institutions: Stony Brook University, AWS AI Labs
-    - 📅 Date: 2025-10-03
+    - 📅 Date: October 03, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [web agent], [adversarial attack], [VLM], [multimodal], [security], [benchmark]
@@ -192,7 +192,7 @@
 - [WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents](https://arxiv.org/abs/2510.01354)
     - Yinuo Liu, Ruohan Xu, Xilong Wang, Yuqi Jia, Neil Zhenqiang Gong
     - 🏛️ Institutions: Duke University
-    - 📅 Date: 2025-10-01
+    - 📅 Date: October 01, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [web agent], [security], [prompt injection], [attack detection], [safety]
@@ -201,7 +201,7 @@
 - [Secure and Efficient Access Control for Computer-Use Agents via Context Space](https://arxiv.org/abs/2509.22256)
     - Haochen Gong, Chenxiao Li, Rui Chang, Wenbo Shen
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-09-26
+    - 📅 Date: September 26, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [access control], [safety], [framework]
@@ -210,7 +210,7 @@
 - [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
     - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-09-09
+    - 📅 Date: September 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [defense], [safety], [framework]
@@ -219,7 +219,7 @@
 - [Measuring Harmfulness of Computer-Using Agents](https://arxiv.org/abs/2508.00935)
     - Aaron Xuxiang Tian, Ruofan Zhang, Janet Tang, Ji Wang, Tianyu Shi, Jiaxin Wen
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-07-31
+    - 📅 Date: July 31, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [computer-use agent], [safety], [red-teaming], [security]
@@ -228,7 +228,7 @@
 - [A Systematization of Security Vulnerabilities in Computer Use Agents](https://arxiv.org/abs/2507.05445)
     - Daniel Jones, Giorgio Severi, Martin Pouliot, Gary Lopez, Joris de Gruyter, Santiago Zanella-Beguelin, Justin Song, Blake Bullwinkel, Pamela Cortez, Amanda Minnich
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-07-07
+    - 📅 Date: July 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [survey], [attack], [safety]
@@ -237,7 +237,7 @@
 - [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
     - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-06-03
+    - 📅 Date: June 03, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [computer-use agent], [prompt injection], [security], [attack]
@@ -255,7 +255,7 @@
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-05-16
+    - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [survey], [computer-use agent], [safety], [security], [GUI agent]
@@ -282,7 +282,7 @@
 - [sudo rm -rf agentic_security](https://arxiv.org/abs/2503.20279)
     - Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu, Min Song
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-03-26
+    - 📅 Date: March 26, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [attack], [jailbreaking], [safety]
@@ -309,7 +309,7 @@
 - [Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis](https://arxiv.org/abs/2502.20383)
     - Jeffrey Yang Fan Chiang, Seungjae Lee, Jia-Bin Huang, Furong Huang, Yizheng Chen
     - 🏛️ Institutions: University of Maryland
-    - 📅 Date: March 4, 2025
+    - 📅 Date: March 04, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [benchmark], [security], [jailbreaking], [evaluation], [OpenHands]

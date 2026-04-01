@@ -21,7 +21,7 @@
 - [Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence](https://arxiv.org/abs/2512.08743)
     - Shuyue Hu, Haoyang Yan, Yiqun Zhang...
     - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory
-    - 📅 Date: 2025-12-09
+    - 📅 Date: December 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [multi-agent systems], [foundation models], [LLM], [benchmark], [scaling], [survey]
@@ -30,7 +30,7 @@
 - [A Systematization of Security Vulnerabilities in Computer Use Agents](https://arxiv.org/abs/2507.05445)
     - Daniel Jones, Giorgio Severi, Martin Pouliot, Gary Lopez, Joris de Gruyter, Santiago Zanella-Beguelin, Justin Song, Blake Bullwinkel, Pamela Cortez, Amanda Minnich
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-07-07
+    - 📅 Date: July 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security], [computer-use agent], [survey], [attack], [safety]
@@ -39,7 +39,7 @@
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
     - 🏛️ Institutions: Unknown
-    - 📅 Date: 2025-05-16
+    - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [survey], [computer-use agent], [safety], [security], [GUI agent]
@@ -120,7 +120,7 @@
 - [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890)
     - Shuai Wang, Weiwen Liu, Jingxuan Chen, Weinan Gan, Xingshan Zeng, Shuai Yu, Xinlong Hao, Kun Shao, Yasheng Wang, Ruiming Tang
     - 🏛️ Institutions: Huawei Noah’s Ark Lab
-    - 📅 Date: November 7, 2024
+    - 📅 Date: November 07, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
     - 🔑 Key: [survey]
@@ -129,7 +129,7 @@
 - [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
     - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
     - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
-    - 📅 Date: November 2024
+    - 📅 Date: November 30, 2024
     - 📑 Publisher: EMNLP 2024 Tutorial Abstracts
     - 💻 Env: [Misc]
     - 🔑 Key: [survey], [tutorial], [reasoning], [planning], [memory], [multi-agent systems], [safety]
