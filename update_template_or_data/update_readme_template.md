@@ -7,7 +7,7 @@ This repo covers a variety of papers related to GUI Agents, such as:
 - Agent frameworks
 - Vision, language, multimodal foundation models (with explicit support for GUI)
 - Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
-- [New!] Agentic Web Search (As it's becoming an important part for agents in the digital world)
+- Agentic Web Search (As it's becoming an important part for agents in the digital world)
 
 
 [//]: # (<div style="display: flex; justify-content: space-around;">)
@@ -22,8 +22,8 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 
 ## Papers Grouped by Environments
-| [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Misc](paper_by_env/paper_misc.md) |
-|--------------------------------|---------------------------------------|------------------------------------------|----------------------------------|------------------------------------|
+| [Web](paper_by_env/paper_web.md) | [Mobile](paper_by_env/paper_mobile.md) | [Desktop](paper_by_env/paper_desktop.md) | [GUI](paper_by_env/paper_gui.md) | [Search](paper_by_env/paper_search.md) | [Misc](paper_by_env/paper_misc.md) |
+|---|---|---|---|---|---|
 
 (Misc: Papers for general topics that have important applications in GUI agents.)
 
@@ -61,7 +61,7 @@ Please fork and update:
     - 🏛️ Institutions: List the institutions concisely, using abbreviations (e.g., university names, like OSU).
     - 📅 Date: e.g., Oct 30, 2024
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [Misc] if it is researching in general domains.
+    - 💻 Env: Indicate the research environment within brackets, such as [Web], [Mobile], or [Desktop]. Use [GUI] if the research spans multiple environments. Use [Search] for papers purely using Search APIs for web browsing without GUI interaction. A paper can have multiple envs (e.g., [Web], [Search]). Use [Misc] if it is researching in general domains.
     - 🔑 Key: Label each keyword within brackets, e.g., [model], [framework],[dataset],[benchmark].
     - 📖 TLDR: Brief summary of the paper.
 ```

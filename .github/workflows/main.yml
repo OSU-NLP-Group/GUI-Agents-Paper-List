@@ -5,7 +5,7 @@ on:
     paths:
       - 'update_template_or_data/update_paper_list.md'         # listen to update_paper_list.md 
       - 'update_template_or_data/utils/scripts/sort_by_date.py'   # listen to update_template_or_data/utils/scripts/sort_by_date.py
-      - 'update_template_or_data/update_readme_template.md'   # listen to update_template_or_data/utils/scripts/sort_by_date.py
+      - 'update_template_or_data/update_readme_template.md'   # listen to update_readme_template.md
       - '.github/workflows/main.yml'
   # schedule:
   #   - cron: '0 0 * * *'     # everyday
@@ -24,7 +24,7 @@ jobs:
           git lfs install
 
       - name: Set up Python environment
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'  # 使用最新的 Python 版本
 
@@ -110,13 +110,17 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md 
-          git add paper_by_env 
-          git add paper_by_author 
+          git add README.md
+          git add paper_by_env
+          git add paper_by_author
           git add paper_by_key
-          
           git add update_template_or_data/statistics
-          git commit -m "auto updates by github workflow"
-          git push
+          # Only commit and push if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto updates by github workflow"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
