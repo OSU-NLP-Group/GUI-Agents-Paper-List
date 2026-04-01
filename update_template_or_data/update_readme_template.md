@@ -49,5 +49,5 @@ This repo covers a variety of papers related to GUI Agents, such as:
 We welcome contributions from the community!
 
 - **Missing a paper?** Open an [issue](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues) with the paper title, link, and any relevant details — we'll add it.
-- **Want to add papers yourself?** Submit a PR that edits [`update_template_or_data/update_paper_list.md`](update_template_or_data/update_paper_list.md). See [CLAUDE.md](CLAUDE.md) for the required entry format and field specifications.
+- **Want to add papers yourself?** Submit a PR that edits [`ALL_PAPERS.md`](ALL_PAPERS.md). See [CLAUDE.md](CLAUDE.md) for the required entry format and field specifications.
 - **Spotted an error?** Feel free to open an issue or PR to correct any paper metadata (authors, dates, institutions, etc.).

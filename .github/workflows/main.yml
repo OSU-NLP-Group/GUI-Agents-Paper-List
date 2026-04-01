@@ -3,7 +3,7 @@ name: Update README with Sorted Papers Content
 on:
   push:
     paths:
-      - 'update_template_or_data/update_paper_list.md'         # listen to update_paper_list.md 
+      - 'ALL_PAPERS.md'                                         # listen to ALL_PAPERS.md (source of truth)
       - 'update_template_or_data/utils/scripts/sort_by_date.py'   # listen to update_template_or_data/utils/scripts/sort_by_date.py
       - 'update_template_or_data/update_readme_template.md'   # listen to update_readme_template.md
       - '.github/workflows/main.yml'

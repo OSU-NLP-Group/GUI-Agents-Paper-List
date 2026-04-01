@@ -117,7 +117,7 @@ def df_to_markdown_list(df):
 @safe_execute
 def process_markdown():
     """Processes markdown input, generates categorized outputs, and saves data"""
-    paper_source = "update_template_or_data/update_paper_list.md"
+    paper_source = "ALL_PAPERS.md"
     sample_input = read_file(paper_source)
 
     if sample_input is None:
@@ -156,13 +156,10 @@ def process_markdown():
     ]).drop_duplicates(subset='Title', keep='first')
     papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
 
-    # Write full sorted paper list to ALL_PAPERS.md (source of truth, at repo root)
+    # Write full sorted paper list back to ALL_PAPERS.md (source of truth)
     all_papers_markdown = df_to_markdown_list(papers_df)
     final_output = "\n".join(all_papers_markdown)
-    write_file("update_template_or_data/update_paper_list.md", final_output)
-    write_file("ALL_PAPERS.md",
-               f"# All Papers ({len(papers_df)} papers, from most recent to oldest)\n\n"
-               + final_output)
+    write_file("ALL_PAPERS.md", final_output)
 
     # Generate a truncated recent papers list for README (to stay under GitHub's 512KB render limit)
     max_recent_papers = 500
