@@ -9,15 +9,6 @@ This repo covers a variety of papers related to GUI Agents, such as:
 - Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
 - Agentic Web Search (As it's becoming an important part for agents in the digital world)
 
-
-[//]: # (<div style="display: flex; justify-content: space-around;">)
-
-[//]: # (  <img src="update_template_or_data/statistics/top_authors.png" alt="Image 1" width="48%" />)
-
-[//]: # (  <img src="update_template_or_data/statistics/keyword_wordcloud.png" alt="Image 2" width="48%" />)
-
-[//]: # (</div>)
-
 ![keyword_wordcloud_long.png](update_template_or_data/statistics/keyword_wordcloud_long.png)
 
 > **Full list**: [ALL_PAPERS.md](ALL_PAPERS.md) — This README shows the most recent papers only.
@@ -41,8 +32,6 @@ This repo covers a variety of papers related to GUI Agents, such as:
 {{insert_recent_papers_here}}
 
 </details>
-
-
 
 ## Contributing
 

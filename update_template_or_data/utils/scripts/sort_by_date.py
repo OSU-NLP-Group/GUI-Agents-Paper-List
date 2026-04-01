@@ -1,6 +1,7 @@
 import os
 import shutil
 import re
+import sys
 import logging
 import calendar
 from collections import Counter
@@ -19,62 +20,74 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-
-def safe_execute(func):
-    """Decorator to catch exceptions and log them"""
-    def wrapper(*args, **kwargs):
-        try:
-            return func(*args, **kwargs)
-        except Exception as e:
-            logging.error(f"Error in {func.__name__}: {str(e)}", exc_info=True)
-    return wrapper
+# Track parse warnings for summary at end
+_warnings = []
 
 
-@safe_execute
+def warn(msg):
+    """Print a warning and record it for the final summary."""
+    _warnings.append(msg)
+    print(f"  WARNING: {msg}", file=sys.stderr)
+
+
 def read_file(filepath, encoding="utf-8"):
-    """Reads a file and returns its content"""
+    """Reads a file and returns its content."""
     with open(filepath, "r", encoding=encoding) as file:
         return file.read()
 
 
-@safe_execute
 def write_file(filepath, content, encoding="utf-8"):
-    """Writes content to a file"""
+    """Writes content to a file."""
     with open(filepath, "w", encoding=encoding) as file:
         file.write(content)
 
 
-@safe_execute
 def parse_date_with_defaults(date_str):
-    """Parses dates with default values for incomplete or malformed dates"""
+    """Parses dates with default values for incomplete or malformed dates."""
     try:
-        return pd.to_datetime(date_str, errors='coerce')
+        result = pd.to_datetime(date_str, errors='coerce')
+        if pd.notna(result):
+            return result
     except ValueError:
-        try:
-            year = int(re.search(r"\b(20\d{2})\b", date_str).group(0))
-            return pd.Timestamp(year=year, month=12, day=31)
-        except (ValueError, AttributeError):
-            return pd.NaT
+        pass
+    # Try to extract just a year
+    try:
+        year = int(re.search(r"\b(20\d{2})\b", date_str).group(0))
+        return pd.Timestamp(year=year, month=12, day=31)
+    except (ValueError, AttributeError):
+        return pd.NaT
 
 
 def normalize_date_str(date_str, parsed_date):
-    """Normalize date string to 'Month DD, YYYY' format.
+    """Normalize date string to canonical format.
 
-    If the original date has no day (e.g., 'November 2024'), use the last day
-    of that month so it sorts after papers with explicit dates in the same month.
+    - Full dates → 'Month DD, YYYY' (e.g., 'October 30, 2024')
+    - Month-only dates (e.g., 'November 2024') → kept as 'Month YYYY'
+      but internally sorted using last day of that month.
     """
     if pd.isna(parsed_date):
         return date_str  # Can't normalize, keep original
 
     # Check if original was month-only (no day)
-    month_only = re.match(r'^[A-Za-z]+ \d{4}$', date_str.strip())
-    if month_only:
-        # Use last day of month for sorting, but format as "Month YYYY" to
-        # indicate the day is unknown — actually let's set a concrete day
-        last_day = calendar.monthrange(parsed_date.year, parsed_date.month)[1]
-        parsed_date = pd.Timestamp(year=parsed_date.year, month=parsed_date.month, day=last_day)
+    if re.match(r'^[A-Za-z]+ \d{4}$', date_str.strip()):
+        # Keep as "Month YYYY" to indicate day is unknown
+        return parsed_date.strftime('%B') + ' ' + str(parsed_date.year)
 
     return parsed_date.strftime('%B %d, %Y')
+
+
+def parse_date_for_sorting(date_str):
+    """Parse date for sorting. Month-only dates use last day of month."""
+    parsed = parse_date_with_defaults(date_str)
+    if pd.isna(parsed):
+        return parsed
+
+    # If month-only, use last day for sorting
+    if re.match(r'^[A-Za-z]+ \d{4}$', date_str.strip()):
+        last_day = calendar.monthrange(parsed.year, parsed.month)[1]
+        return pd.Timestamp(year=parsed.year, month=parsed.month, day=last_day)
+
+    return parsed
 
 
 def clear_folder(folder_path):
@@ -89,9 +102,20 @@ def clear_folder(folder_path):
             shutil.rmtree(item_path)
 
 
-def remove_square_brackets(s):
-    """Remove leading '[' and trailing ']' from a string."""
-    return re.sub(r'^\[|\]$', '', s)
+def extract_keywords(keywords_str):
+    """Extract individual keywords from a Keywords field, stripping [] brackets."""
+    return [re.sub(r'^\[|\]$', '', kw.strip()) for kw in keywords_str.split(",") if kw.strip()]
+
+
+def has_keyword(keywords_str, target):
+    """Check if a specific keyword exists as an exact token in the Keywords field."""
+    return target.lower() in [kw.lower() for kw in extract_keywords(keywords_str)]
+
+
+def has_author(authors_str, target):
+    """Check if a specific author exists as an exact name in the Authors field."""
+    author_list = [a.strip().lower() for a in authors_str.split(',')]
+    return target.strip().lower() in author_list
 
 
 def build_markdown_entry(row):
@@ -113,15 +137,21 @@ def df_to_markdown_list(df):
     return [build_markdown_entry(row) for _, row in df.iterrows()]
 
 
+def filter_by_keyword(df, keyword):
+    """Filter DataFrame to rows containing an exact keyword match."""
+    return df[df['Keywords'].apply(lambda kws: has_keyword(kws, keyword))]
+
+
+def filter_by_author(df, author):
+    """Filter DataFrame to rows containing an exact author match."""
+    return df[df['Authors'].apply(lambda authors: has_author(authors, author))]
+
+
 # Main logic
-@safe_execute
 def process_markdown():
-    """Processes markdown input, generates categorized outputs, and saves data"""
+    """Processes markdown input, generates categorized outputs, and saves data."""
     paper_source = "ALL_PAPERS.md"
     sample_input = read_file(paper_source)
-
-    if sample_input is None:
-        return  # If file reading failed, exit early
 
     # Env field supports single [Web] or multi [Web], [Search]
     new_format_pattern = re.compile(
@@ -136,25 +166,45 @@ def process_markdown():
         re.DOTALL
     )
 
+    # Count raw entries (lines starting with "- [") to detect parse failures
+    raw_entry_count = len(re.findall(r'^- \[', sample_input, re.MULTILINE))
+
     parsed_entries = []
     for match in new_format_pattern.findall(sample_input):
         try:
             title, link, authors, institutions, date, publisher, env, keywords, tldr = match
-            parsed_date = parse_date_with_defaults(date)
+            parsed_date = parse_date_for_sorting(date.strip())
             normalized_date = normalize_date_str(date.strip(), parsed_date)
             formatted_keywords = ", ".join([kw.strip() for kw in keywords.split(",")])
+
+            if pd.isna(parsed_date):
+                warn(f"Unparseable date '{date.strip()}' for paper: {title}")
+
             parsed_entries.append((
                 title, link, authors, institutions, normalized_date, parsed_date,
                 publisher, env.strip(), formatted_keywords, tldr
             ))
         except Exception as e:
             logging.error(f"Error parsing entry: {str(e)}", exc_info=True)
+            warn(f"Failed to parse entry: {str(e)}")
+
+    parsed_count = len(parsed_entries)
+    dropped = raw_entry_count - parsed_count
+    if dropped > 0:
+        warn(f"{dropped} entries failed to parse (out of {raw_entry_count} total)")
 
     papers_df = pd.DataFrame(parsed_entries, columns=[
         'Title', 'Link', 'Authors', 'Institutions', 'Original Date',
         'Parsed Date', 'Publisher', 'Env', 'Keywords', 'TLDR'
-    ]).drop_duplicates(subset='Title', keep='first')
+    ])
+
+    dupes = papers_df.duplicated(subset='Title', keep='first').sum()
+    if dupes > 0:
+        warn(f"{dupes} duplicate title(s) removed")
+    papers_df = papers_df.drop_duplicates(subset='Title', keep='first')
     papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
+
+    print(f"Processed {len(papers_df)} papers successfully.")
 
     # Write full sorted paper list back to ALL_PAPERS.md (source of truth)
     all_papers_markdown = df_to_markdown_list(papers_df)
@@ -173,7 +223,7 @@ def process_markdown():
         clear_folder(folder)
     os.makedirs("update_template_or_data/statistics/", exist_ok=True)
 
-    # Count authors once for reuse
+    # Count authors once for reuse (exact name matching)
     author_counter = Counter()
     for _, row in papers_df.iterrows():
         author_list = [a.strip() for a in row['Authors'].split(',')]
@@ -182,11 +232,10 @@ def process_markdown():
     top_num_author = 20
     top_authors_sorted = sorted(author_counter.items(), key=lambda x: x[1], reverse=True)[:top_num_author]
 
-    # Count keywords once for reuse
+    # Count keywords once for reuse (exact token matching)
     all_keywords = []
     for _, row in papers_df.iterrows():
-        filtered = [remove_square_brackets(kw.strip()) for kw in row['Keywords'].split(",") if kw.strip()]
-        all_keywords.extend(filtered)
+        all_keywords.extend(extract_keywords(row['Keywords']))
     keyword_counts = Counter(all_keywords)
 
     # --- Generate author grouping markdown ---
@@ -206,7 +255,7 @@ def process_markdown():
         os.makedirs("paper_by_author", exist_ok=True)
         top_author_names = [author for author, _ in top_authors_sorted]
         for author in top_author_names:
-            filtered_df = papers_df[papers_df['Authors'].str.contains(author, case=False, na=False)]
+            filtered_df = filter_by_author(papers_df, author)
             if not filtered_df.empty:
                 entries = "\n".join(df_to_markdown_list(filtered_df))
                 author_filename = f"paper_{author.replace(' ', '_')}.md"
@@ -227,7 +276,8 @@ def process_markdown():
             "Misc": "paper_misc.md",
         }
         for env_key, file_name in env_keywords.items():
-            filtered_df = papers_df[papers_df['Env'].str.contains(env_key, case=False, na=False)]
+            # Env field uses [brackets], so match the exact bracket token
+            filtered_df = papers_df[papers_df['Env'].str.contains(rf'\[{env_key}\]', case=False, na=False, regex=True)]
             if not filtered_df.empty:
                 entries = "\n".join(df_to_markdown_list(filtered_df))
                 write_file(os.path.join("paper_by_env", file_name), entries)
@@ -245,7 +295,7 @@ def process_markdown():
 
         os.makedirs("paper_by_key", exist_ok=True)
         for keyword in keywords_to_group:
-            filtered_df = papers_df[papers_df['Keywords'].str.contains(keyword, case=False, na=False)]
+            filtered_df = filter_by_keyword(papers_df, keyword)
             if not filtered_df.empty:
                 entries = "\n".join(df_to_markdown_list(filtered_df))
                 file_path = os.path.join("paper_by_key", f"paper_{keyword.replace(' ', '_')}.md")
@@ -291,6 +341,12 @@ def process_markdown():
         plt.close()
     except Exception as e:
         logging.error(f"Error generating keyword word cloud: {str(e)}", exc_info=True)
+
+    # --- Final summary ---
+    if _warnings:
+        print(f"\n{len(_warnings)} warning(s) during processing:", file=sys.stderr)
+        for w in _warnings:
+            print(f"  - {w}", file=sys.stderr)
 
 
 if __name__ == "__main__":

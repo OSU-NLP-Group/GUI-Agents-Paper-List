@@ -3,12 +3,10 @@ name: Update README with Sorted Papers Content
 on:
   push:
     paths:
-      - 'ALL_PAPERS.md'                                         # listen to ALL_PAPERS.md (source of truth)
-      - 'update_template_or_data/utils/scripts/sort_by_date.py'   # listen to update_template_or_data/utils/scripts/sort_by_date.py
-      - 'update_template_or_data/update_readme_template.md'   # listen to update_readme_template.md
+      - 'ALL_PAPERS.md'
+      - 'update_template_or_data/utils/scripts/sort_by_date.py'
+      - 'update_template_or_data/update_readme_template.md'
       - '.github/workflows/main.yml'
-  # schedule:
-  #   - cron: '0 0 * * *'     # everyday
 
 jobs:
   update-readme:
@@ -17,106 +15,53 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          lfs: true  # Enable Git LFS checkout
+          lfs: true
 
       - name: Set up Git LFS
-        run: |
-          git lfs install
+        run: git lfs install
 
       - name: Set up Python environment
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'  # 使用最新的 Python 版本
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          pip install pandas matplotlib seaborn wordcloud
+        run: pip install pandas matplotlib wordcloud
 
-      - name: Run update_template_or_data/utils/scripts/sort_by_date.py
-        run: |
-          python update_template_or_data/utils/scripts/sort_by_date.py
-          
-      - name: Generate keyword grouping and update temp_readme.md
-        run: |
-          # Read the pre-generated keyword grouping Markdown
-          if [ -f update_template_or_data/keyword_grouping.md ]; then
-            GROUPED_KEYWORDS=$(cat update_template_or_data/keyword_grouping.md)
-          else
-            GROUPED_KEYWORDS="No keywords available"
-          fi
+      - name: Run sort_by_date.py
+        run: python update_template_or_data/utils/scripts/sort_by_date.py
 
-          # Insert the keyword grouping content into the template
+      - name: Assemble README from template
+        run: |
+          # Insert keyword grouping
+          KEYWORDS=$(cat update_template_or_data/keyword_grouping.md 2>/dev/null || echo "No keywords available")
           sed -i '/{{insert_keyword_groups_here}}/{
             r /dev/stdin
             d
-          }' update_template_or_data/update_readme_template.md <<< "$GROUPED_KEYWORDS"
+          }' update_template_or_data/update_readme_template.md <<< "$KEYWORDS"
 
-#      - name: Generate author grouping and update temp_readme.md
-#        run: |
-#          # Initialize the output for grouped papers by authors
-#          GROUPED_AUTHORS=""
-#
-#          # Iterate over all files in the paper_by_author directory
-#          for file in paper_by_author/*.md; do
-#            # Extract the author name by removing 'paper_' and '.md', and replacing '_' with spaces
-#            AUTHOR=$(basename "$file" .md | sed 's/^paper_//' | tr '_' ' ')
-#
-#            # Add the author to the grouped authors section
-#            GROUPED_AUTHORS+="[${AUTHOR^}](paper_by_author/$(basename "$file" | sed 's/ /%20/g')) | "
-#          done
-#
-#          # Trim the trailing '| ' at the end
-#          GROUPED_AUTHORS=${GROUPED_AUTHORS% | }
-#
-#          # Insert the author grouping content into the template
-#          sed -i '/{{insert_author_groups_here}}/{
-#            r /dev/stdin
-#            d
-#          }' update_template_or_data/update_readme_template.md <<< "$GROUPED_AUTHORS"
-
-      - name: Generate author grouping and update temp_readme.md
-        run: |
-          # Read the pre-generated author grouping Markdown
-          if [ -f update_template_or_data/author_grouping.md ]; then
-            GROUPED_AUTHORS=$(cat update_template_or_data/author_grouping.md)
-          else
-            GROUPED_AUTHORS="No authors available"
-          fi
-
-          # Insert the author grouping content into the template
+          # Insert author grouping
+          AUTHORS=$(cat update_template_or_data/author_grouping.md 2>/dev/null || echo "No authors available")
           sed -i '/{{insert_author_groups_here}}/{
             r /dev/stdin
             d
-          }' update_template_or_data/update_readme_template.md <<< "$GROUPED_AUTHORS"
+          }' update_template_or_data/update_readme_template.md <<< "$AUTHORS"
 
-      - name: Update temp_readme.md with recent papers content
-        run: |
-          CONTENT=$(cat update_template_or_data/recent_paper_list.md)
-
+          # Insert recent papers
+          PAPERS=$(cat update_template_or_data/recent_paper_list.md)
           sed -i '/{{insert_recent_papers_here}}/{
             r /dev/stdin
             d
-          }' update_template_or_data/update_readme_template.md <<< "$CONTENT"
+          }' update_template_or_data/update_readme_template.md <<< "$PAPERS"
 
-
-
-
-      - name: Overwrite README.md with updated temp_readme.md
-        run: |
-          # overwrite README.md
+          # Overwrite README
           cp update_template_or_data/update_readme_template.md README.md
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md
-          git add ALL_PAPERS.md
-          git add paper_by_env
-          git add paper_by_author
-          git add paper_by_key
-          git add update_template_or_data/statistics
-          # Only commit and push if there are staged changes
+          git add README.md ALL_PAPERS.md paper_by_env paper_by_author paper_by_key update_template_or_data/statistics
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

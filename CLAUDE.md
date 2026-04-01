@@ -50,7 +50,7 @@ Edit `ALL_PAPERS.md` and add an entry in this exact format:
 
 **Institutions:** Use common abbreviations (e.g., OSU, MIT, CMU). Use "Unknown" if not found.
 
-**Date:** First publication date (not update date). Use canonical format `Month DD, YYYY` (e.g., `October 30, 2024`). The script will normalize other formats (like `2024-10-30`) to this canonical form. Include day if known. Year-month is acceptable (e.g., `November 2024`) — the script will default to the last day of that month.
+**Date:** First publication date (not update date). Use canonical format `Month DD, YYYY` (e.g., `October 30, 2024`). The script will normalize other formats (like `2024-10-30`) to this canonical form. Include day if known. Year-month is acceptable (e.g., `November 2024`) — the script will default to the last day of that month for sorting but preserve the `Month YYYY` display format to indicate the exact day is unknown.
 
 **Publisher:** Conference/journal abbreviation with year (e.g., `ICML 2024`, `NeurIPS 2025`). Use `arXiv` if only on arXiv. Use `Unknown` if unknown.
 
@@ -88,9 +88,9 @@ When asked to add papers, search the internet for:
 ## Workflow Details
 
 The GitHub Actions workflow (`.github/workflows/main.yml`):
-1. Triggers on pushes that modify `update_paper_list.md`, `sort_by_date.py`, `update_readme_template.md`, or `main.yml`
+1. Triggers on pushes that modify `ALL_PAPERS.md`, `sort_by_date.py`, `update_readme_template.md`, or `main.yml`
 2. Runs `sort_by_date.py` to sort papers and generate grouped files
-3. Inserts `keyword_grouping.md`, `author_grouping.md`, and sorted paper list into the README template
+3. Inserts `keyword_grouping.md`, `author_grouping.md`, and recent paper list into the README template
 4. Overwrites `README.md` with the assembled result
 5. Commits and pushes auto-generated files
 
@@ -98,9 +98,9 @@ The GitHub Actions workflow (`.github/workflows/main.yml`):
 
 - The regex parser in `sort_by_date.py` is strict about the entry format. Malformed entries will be silently dropped.
 - Environment field supports multi-env (e.g., `[Web], [Search]`) — the regex captures `\[.*?\](?:, \[.*?\])*`.
-- Date strings are normalized to `Month DD, YYYY` format on each run. Month-only dates get the last day of the month.
+- Date strings are normalized to `Month DD, YYYY` format on each run. Month-only dates (e.g., `November 2024`) are preserved as `Month YYYY` in the output but use the last day of the month internally for sorting.
 - GitHub truncates README rendering at ~512KB. The README only includes the most recent 500 papers; the full list is in `ALL_PAPERS.md`.
-- `seaborn` is listed as a pip dependency in the workflow but currently unused (kept for potential future use).
 - The `safe_execute` decorator silently swallows errors and logs them to `update_template_or_data/logs/error.log`. Check this file if entries seem to disappear.
 - Only the top 20 keywords and top 20 authors get their own grouped files.
-- `README.md`, `ALL_PAPERS.md`, and all files under `paper_by_*/` are auto-generated — always edit the source files instead.
+- `README.md` and all files under `paper_by_*/` are auto-generated — always edit `ALL_PAPERS.md` instead.
+- Keyword and author matching uses exact token matching (not substring), so `[mobile]` won't match `[mobile agent]`.
