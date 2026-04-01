@@ -33,6 +33,13 @@ jobs:
 
       - name: Assemble README from template
         run: |
+          # Insert env grouping
+          ENVS=$(cat update_template_or_data/env_grouping.md 2>/dev/null || echo "No env data available")
+          sed -i '/{{insert_env_groups_here}}/{
+            r /dev/stdin
+            d
+          }' update_template_or_data/update_readme_template.md <<< "$ENVS"
+
           # Insert keyword grouping
           KEYWORDS=$(cat update_template_or_data/keyword_grouping.md 2>/dev/null || echo "No keywords available")
           sed -i '/{{insert_keyword_groups_here}}/{

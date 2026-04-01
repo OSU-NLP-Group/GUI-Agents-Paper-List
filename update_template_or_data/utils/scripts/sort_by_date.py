@@ -275,12 +275,21 @@ def process_markdown():
             "Search": "paper_search.md",
             "Misc": "paper_misc.md",
         }
+        env_counts = {}
         for env_key, file_name in env_keywords.items():
             # Env field uses [brackets], so match the exact bracket token
             filtered_df = papers_df[papers_df['Env'].str.contains(rf'\[{env_key}\]', case=False, na=False, regex=True)]
+            env_counts[env_key] = len(filtered_df)
             if not filtered_df.empty:
                 entries = "\n".join(df_to_markdown_list(filtered_df))
                 write_file(os.path.join("paper_by_env", file_name), entries)
+
+        # Generate env grouping markdown table with counts
+        header_cells = [f"[{env_key} ({env_counts[env_key]})](paper_by_env/{file_name})"
+                        for env_key, file_name in env_keywords.items()]
+        env_header = "| " + " | ".join(header_cells) + " |"
+        env_separator = "|" + "|".join(["---"] * len(env_keywords)) + "|"
+        write_file("update_template_or_data/env_grouping.md", env_header + "\n" + env_separator)
     except Exception as e:
         logging.error(f"Error generating environment-specific files: {str(e)}", exc_info=True)
 
