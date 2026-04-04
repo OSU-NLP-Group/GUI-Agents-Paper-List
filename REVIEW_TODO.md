@@ -125,10 +125,10 @@ Checklist:
 - [x] EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents
 - [x] GraphPilot: GUI Task Automation with One-Step LLM Reasoning Powered by Knowledge Graph
 - [x] EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience
-- [ ] The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes
-- [ ] MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction
-- [ ] MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux
-- [ ] Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?
+- [x] The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes
+- [x] MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction
+- [x] MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux
+- [x] Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?
 - [ ] CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents
 - [ ] GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents
 - [ ] PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records
