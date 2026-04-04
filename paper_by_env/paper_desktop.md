@@ -43,6 +43,15 @@
     - 🔑 Key: [reward model], [execution video], [trajectory evaluation], [spatiotemporal token pruning], [ExeVR-53k], [ExeVRM]
     - 📖 TLDR: This paper studies reward modeling from execution video rather than agent internals, introducing the ExeVR-53k dataset and an execution-video reward model that predicts success from keyframes plus the user instruction. The model scales evaluation across Ubuntu, macOS, Windows, and Android, outperforming strong proprietary models while providing finer temporal attribution.
 
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
+    - 🏛️ Institutions: University of Illinois Urbana-Champaign, Stevens Institute of Technology
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
+    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
+
 - [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
     - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
     - 🏛️ Institutions: The Chinese University of Hong Kong (MMLab @ CUHK), Nankai University, Huawei Research
@@ -60,15 +69,6 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [operating system], [natural user interface], [agent kernel], [skill modules], [knowledge discovery], [AgentOS]
     - 📖 TLDR: AgentOS proposes replacing application silos and traditional desktops with a natural-language-driven operating system centered on an Agent Kernel and modular skill components. The paper frames this system as a knowledge discovery problem involving intent mining, workflow automation, recommender systems, and personal knowledge graphs.
-
-- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
-    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign, Stevens Institute of Technology
-    - 📅 Date: March 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
-    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
 
 - [IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents](https://arxiv.org/abs/2602.17049)
     - Seoyoung Lee, Seobin Yoon, Seongbeen Lee, Yoojung Chun, Dayoung Park, Doyeon Kim, Joo Yong Sim
@@ -166,8 +166,8 @@
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [safety], [prompt injection], [control flow integrity], [single-shot planning], [branch steering], [OSWorld]
-    - 📖 TLDR: This paper studies system-level security for computer-use agents under prompt injection attacks. It introduces Single-Shot Planning, where a trusted planner produces a full execution graph with conditional branches before the agent observes potentially malicious content, giving provable control-flow integrity against injected instructions. The paper also identifies Branch Steering as an additional attack surface and shows on OSWorld that strong security guarantees can be achieved while retaining meaningful utility.
+    - 🔑 Key: [safety], [prompt injection], [control flow integrity], [Single-Shot Planning], [Branch Steering], [OSWorld], [CaMeLs]
+    - 📖 TLDR: This paper adapts the Dual-LLM security paradigm to computer-use agents through Single-Shot Planning, where a trusted planner writes a full branching execution graph before seeing untrusted UI content. That gives control-flow integrity against injected instructions, but the paper also identifies Branch Steering as a remaining data-flow threat and studies its tradeoff with utility on OSWorld.
 
 - [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
     - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou

@@ -129,10 +129,10 @@ Checklist:
 - [x] MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction
 - [x] MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux
 - [x] Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?
-- [ ] CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents
-- [ ] GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents
-- [ ] PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records
-- [ ] Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents
+- [x] CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents
+- [x] GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents
+- [x] PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records
+- [x] Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents
 - [ ] WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents
 - [ ] ExpSeek: Self-Triggered Experience Seeking for Web Agents
 - [ ] ShowUI-Aloha: Human-Taught GUI Agent

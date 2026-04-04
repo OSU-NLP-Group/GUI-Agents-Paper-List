@@ -123,17 +123,8 @@
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [reinforcement learning], [GUI grounding], [tool-augmented perception], [active perception], [GUI-eyes]
-    - 📖 TLDR: This paper proposes GUI-Eyes, a reinforcement learning framework for active visual perception in GUI grounding. Instead of relying on a single static observation, the agent learns when and how to invoke tools such as cropping and zooming through a two-stage perception policy, supported by a spatially continuous reward tailored to tool usage. With only 3k labeled samples, GUI-Eyes-3B substantially improves grounding accuracy on ScreenSpot-Pro, highlighting the value of tool-aware perception for robust GUI agents.
-
-- [Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents](https://arxiv.org/abs/2601.11631)
-    - Yurun Song, Jiong Yin, Rongjunchen Zhang, Ian G. Harris
-    - 🏛️ Institutions: HiThink Research, University of California, Irvine, Hangzhou Dianzi University
-    - 📅 Date: January 14, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [GUI grounding], [policy optimization], [token compression], [visual compression], [reinforcement learning], [multi-turn agent]
-    - 📖 TLDR: CCPO is a policy optimization framework for multi-turn GUI agents that uses Coordinate-Aware Spatial Compression to progressively crop screenshots to task-relevant regions across rollouts and a distance-based advantage for finer reward signals, achieving state-of-the-art grounding accuracy with up to 55% token compression and 3.8x training speedup.
+    - 🔑 Key: [framework], [reinforcement learning], [active perception], [tool-augmented perception], [ScreenSpot-pro], [GUI-Eyes]
+    - 📖 TLDR: GUI-Eyes frames GUI grounding as active perception, letting the agent learn when and how to call tools such as cropping and zooming inside a two-stage reasoning process. It pairs that policy with a spatially continuous reward for tool use and reaches 44.8% grounding accuracy on ScreenSpot-Pro using only 3k labeled samples.
 
 - [From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation](https://arxiv.org/abs/2601.05787)
     - Zezhou Wang, Ziyun Zhang, Xiaoyi Zhang, Zhuzhong Qian, Yan Lu
@@ -369,15 +360,6 @@
     - 🔑 Key: [reinforcement learning], [reward model], [progress reward], [LCS], [ProgRM]
     - 📖 TLDR: Introduces **ProgRM**, a novel framework giving dense intermediate rewards to GUI agents by estimating per‑step task progress. Labels are generated through an LCS‑based self‑annotation algorithm that identifies key steps in successful trajectories. Agents trained with ProgRM outperform outcome‑based reward models and proprietary LLMs like Claude‑3.7‑Sonnet across benchmarks.
 
-- [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
-    - Zhepei Wei, Wenlin Yao, Yao Liu, Weizhi Zhang, Qin Lu, Liang Qiu, Changlong Yu, Puyang Xu, Chao Zhang, Bing Yin, Hyokun Yun, Lihong Li
-    - 🏛️ Institutions: University of Virginia, Amazon, Georgia Institute of Technology
-    - 📅 Date: May 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [reinforcement learning], [multi-turn interaction], [WebArena], [chain-of-thought], [test-time scaling]
-    - 📖 TLDR: WebAgent-R1 is an end-to-end multi-turn reinforcement learning framework for training web agents that learns from online interactions with web environments using binary task-success rewards, boosting Llama-3.1-8B's success rate on WebArena-Lite from 8.5% to 44.8% and surpassing proprietary models like OpenAI o3.
-
 - [ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282)
     - Fanbin Lu, Zhisheng Zhong, Shu Liu, Chi-Wing Fu, Jiaya Jia
     - 🏛️ Institutions: The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology
@@ -386,6 +368,15 @@
     - 💻 Env: [GUI]
     - 🔑 Key: [reinforcement learning], [policy optimization], [training], [multi-turn]
     - 📖 TLDR: ARPO (End-to-End Policy Optimization for GUI Agents with Experience Replay) addresses multi-turn RL for VLM-based GUI agents through experience replay to mitigate sparse rewards, delayed feedback, and high rollout costs, enabling efficient optimization of long-horizon GUI action sequences.
+
+- [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
+    - Zhepei Wei, Wenlin Yao, Yao Liu, Weizhi Zhang, Qin Lu, Liang Qiu, Changlong Yu, Puyang Xu, Chao Zhang, Bing Yin, Hyokun Yun, Lihong Li
+    - 🏛️ Institutions: University of Virginia, Amazon, Georgia Institute of Technology
+    - 📅 Date: May 22, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [reinforcement learning], [multi-turn interaction], [WebArena], [chain-of-thought], [test-time scaling]
+    - 📖 TLDR: WebAgent-R1 is an end-to-end multi-turn reinforcement learning framework for training web agents that learns from online interactions with web environments using binary task-success rewards, boosting Llama-3.1-8B's success rate on WebArena-Lite from 8.5% to 44.8% and surpassing proprietary models like OpenAI o3.
 
 - [GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents](https://arxiv.org/abs/2505.15810)
     - Yuqi Zhou, Sunhao Dai, Shuai Wang, Kaiwen Zhou, Qinglin Jia, Jun Xu
