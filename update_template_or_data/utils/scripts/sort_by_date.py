@@ -7,7 +7,11 @@ import calendar
 from collections import Counter
 
 import pandas as pd
+import matplotlib
 from wordcloud import WordCloud
+
+# Force a non-interactive backend so generation works in headless environments.
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # Configure logging
@@ -147,6 +151,11 @@ def filter_by_author(df, author):
     return df[df['Authors'].apply(lambda authors: has_author(authors, author))]
 
 
+def build_empty_env_page(env_key):
+    """Build fallback content for an empty environment grouping page."""
+    return f"# {env_key} Papers\n\nNo papers currently tagged with [{env_key}].\n"
+
+
 # Main logic
 def process_markdown():
     """Processes markdown input, generates categorized outputs, and saves data."""
@@ -282,7 +291,9 @@ def process_markdown():
             env_counts[env_key] = len(filtered_df)
             if not filtered_df.empty:
                 entries = "\n".join(df_to_markdown_list(filtered_df))
-                write_file(os.path.join("paper_by_env", file_name), entries)
+            else:
+                entries = build_empty_env_page(env_key)
+            write_file(os.path.join("paper_by_env", file_name), entries)
 
         # Generate env grouping markdown table with counts
         header_cells = [f"[{env_key} ({env_counts[env_key]})](paper_by_env/{file_name})"

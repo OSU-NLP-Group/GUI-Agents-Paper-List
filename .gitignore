@@ -1,2 +1,9 @@
 .DS_Store
+__pycache__/
+*.pyc
+.cache/
 update_template_or_data/logs/
+update_template_or_data/author_grouping.md
+update_template_or_data/env_grouping.md
+update_template_or_data/keyword_grouping.md
+update_template_or_data/recent_paper_list.md
