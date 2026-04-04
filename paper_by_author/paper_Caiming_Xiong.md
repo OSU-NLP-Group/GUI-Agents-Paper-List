@@ -51,8 +51,8 @@
     - 📅 Date: August 05, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [multi-agent system], [coding actions], [hybrid execution], [OSWorld], [WindowsAgentArena], [CoAct-1]
-    - 📖 TLDR: Combines GUI control with direct Python/Bash execution by letting an orchestrator delegate subtasks to either a GUI operator or a programmer agent. This hybrid action space makes long-horizon desktop tasks more reliable and efficient, reaching state-of-the-art results on OSWorld and WindowsAgentArena with fewer interaction steps than GUI-only systems.
+    - 🔑 Key: [framework], [multi-agent system], [coding actions], [programmatic execution], [OSWorld], [WindowsAgentArena], [CoAct-1]
+    - 📖 TLDR: CoAct-1 combines GUI control with direct Python and Bash execution by letting an orchestrator delegate subtasks to either a GUI operator or a programmer agent. This hybrid design bypasses brittle GUI-only action chains on long-horizon tasks, improving both success rate and step efficiency on OSWorld and WindowsAgentArena.
 
 - [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
     - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong

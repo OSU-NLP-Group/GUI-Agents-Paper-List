@@ -6,8 +6,8 @@
     - 📅 Date: March 27, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [video retrieval], [automatic annotation], [domain adaptation], [training-free], [OSWorld], [GUIDE]
-    - 📖 TLDR: GUIDE is a training-free plug-and-play framework for desktop GUI agents that retrieves relevant tutorial videos, converts them into planning and grounding annotations, and injects that knowledge into existing agents without changing their parameters or architectures. On OSWorld, it improves multiple agent families while also reducing execution steps.
+    - 🔑 Key: [video retrieval], [automatic annotation], [domain bias], [training-free], [OSWorld], [GUIDE]
+    - 📖 TLDR: GUIDE is a training-free add-on for desktop GUI agents that retrieves relevant tutorial videos, turns them into planning and grounding annotations, and injects that expertise into existing agents without changing model parameters. On OSWorld, it improves multiple agent families while also reducing execution steps.
 
 - [Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents](https://arxiv.org/abs/2602.02995)
     - Sizhe Tang, Rongqian Chen, Tian Lan, Rui Chen, Ze-Feng Gao
@@ -60,8 +60,8 @@
     - 📅 Date: October 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [hybrid action], [tool-use], [reinforcement learning], [working memory], [OSWorld], [WindowsAgentArena], [UltraCUA]
-    - 📖 TLDR: UltraCUA is a foundation computer-use model that mixes primitive GUI actions with high-level tool calls, using automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online reinforcement learning. The hybrid action design improves both robustness and efficiency, yielding strong gains on OSWorld and solid transfer to WindowsAgentArena.
+    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [OSWorld], [WindowsAgentArena], [UltraCUA]
+    - 📖 TLDR: UltraCUA is a foundation computer-use model that combines primitive GUI actions with higher-level tool calls, supported by automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online reinforcement learning. This hybrid action setup improves both robustness and efficiency, yielding strong gains on OSWorld and good transfer to WindowsAgentArena.
 
 - [R-WoM: Retrieval-augmented World Model For Computer-use Agents](https://arxiv.org/abs/2510.11892)
     - Kai Mei, Jiang Guo, Shuaichen Chang, Mingwen Dong, Dongkyu Lee, Xing Niu, Jiarong Jiang
@@ -87,17 +87,8 @@
     - 📅 Date: August 05, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [multi-agent system], [coding actions], [hybrid execution], [OSWorld], [WindowsAgentArena], [CoAct-1]
-    - 📖 TLDR: Combines GUI control with direct Python/Bash execution by letting an orchestrator delegate subtasks to either a GUI operator or a programmer agent. This hybrid action space makes long-horizon desktop tasks more reliable and efficient, reaching state-of-the-art results on OSWorld and WindowsAgentArena with fewer interaction steps than GUI-only systems.
-
-- [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
-    - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
-    - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
-    - 📅 Date: May 31, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [benchmark], [safety], [risk evaluation], [harmful task completion], [OSWorld], [RiOSWorld]
-    - 📖 TLDR: RiOSWorld measures misuse risk for multimodal desktop and web agents in realistic interactive settings rather than ordinary chat-style safety probes. Its 492 risky tasks score both harmful intent and harmful task completion, showing that current agents remain highly exposed to real-world misuse despite strong task-solving abilities.
+    - 🔑 Key: [framework], [multi-agent system], [coding actions], [programmatic execution], [OSWorld], [WindowsAgentArena], [CoAct-1]
+    - 📖 TLDR: CoAct-1 combines GUI control with direct Python and Bash execution by letting an orchestrator delegate subtasks to either a GUI operator or a programmer agent. This hybrid design bypasses brittle GUI-only action chains on long-horizon tasks, improving both success rate and step efficiency on OSWorld and WindowsAgentArena.
 
 - [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
     - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu

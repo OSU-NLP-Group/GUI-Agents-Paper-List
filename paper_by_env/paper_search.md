@@ -1,11 +1,11 @@
 - [Seed1.8 Model Card: Towards Generalized Real-World Agency](https://arxiv.org/abs/2603.20633)
     - Bytedance Seed
-    - 🏛️ Institutions: Bytedance
+    - 🏛️ Institutions: ByteDance Seed
     - 📅 Date: March 21, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI], [Search]
-    - 🔑 Key: [foundation model], [generalist agent], [tool use], [code generation], [GUI interaction]
-    - 📖 TLDR: Seed1.8 is a foundation model for generalized real-world agency that unifies search, code generation/execution, and GUI interaction in a single agentic interface, while retaining strong language-vision performance and offering latency-aware inference modes for deployment.
+    - 🔑 Key: [foundation model], [generalist agency], [tool use], [code execution], [GUI interaction], [Seed1.8]
+    - 📖 TLDR: Seed1.8 is a foundation model for generalized real-world agency that unifies search, code generation and execution, and GUI interaction under one agentic interface. The model card emphasizes strong language-vision performance plus latency- and cost-aware inference modes for deployment.
 
 - [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://openreview.net/forum?id=AUaW6DS9si)
     - Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su

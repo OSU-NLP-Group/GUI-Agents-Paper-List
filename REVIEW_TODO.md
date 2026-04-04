@@ -1,0 +1,538 @@
+# Review TODO
+
+This queue is the canonical manual-review tracker for `ALL_PAPERS.md`.
+
+Rules:
+- Only mark an item complete after a source-backed manual read of the paper content and a review of `Title`, `Institutions`, `Date`, `Publisher`, `Env`, `Key`, and `TLDR`.
+- Do not pre-check items based on prior ad-hoc edits; unchecked means the paper still needs a strict pass under this tracker.
+- Total papers currently tracked: 527
+
+Checklist:
+
+- [x] Rethinking Token Pruning for Historical Screenshots in GUI Visual Agents: Semantic, Spatial, and Temporal Perspectives
+- [x] GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation
+- [x] Towards GUI Agents: Vision-Language Diffusion Models for GUI Grounding
+- [x] Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification
+- [x] WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing
+- [x] GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks
+- [x] CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents
+- [x] Towards Automated Crowdsourced Testing via Personified-LLM
+- [x] UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience
+- [x] AgentRAE: Remote Action Execution through Notification-based Visual Backdoors against Screenshots-based Mobile GUI Agents
+- [x] CAPTCHA Solving for Native GUI Agents: Automated Reasoning-Action Data Generation and Self-Corrective Training
+- [x] Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos
+- [x] Seed1.8 Model Card: Towards Generalized Real-World Agency
+- [x] ContractSkill: Repairable Contract-Based Skills for Multimodal Web Agents
+- [x] AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents
+- [x] OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards
+- [x] WebPII: Benchmarking Visual PII Detection for Computer-Use Agents
+- [x] FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair
+- [x] AdaZoom-GUI: Adaptive Zoom-based GUI Grounding with Instruction Refinement
+- [x] GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents
+- [x] Visual Confused Deputy: Exploiting and Defending Perception Failures in Computer-Using Agents
+- [x] Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective
+- [x] Zoom to Essence: Trainless GUI Grounding by Inferring upon Interface Elements
+- [x] AI Planning Framework for LLM-Based Web Agents
+- [x] Adaptive Vision-Language Model Routing for Computer Use Agents
+- [x] HATS: Hardness-Aware Trajectory Synthesis for GUI Agents
+- [x] MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning
+- [x] You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents
+- [x] Safe and Scalable Web Agent Learning via Recreated Websites
+- [x] Hybrid Self-evolving Structured Memory for GUI Agents
+- [x] CUAAudit: Meta-Evaluation of Vision-Language Models as Auditors of Autonomous Computer-Use Agents
+- [x] OpenClaw-RL: Train Any Agent Simply by Talking
+- [x] SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments
+- [x] Video-Based Reward Modeling for Computer-Use Agents
+- [x] SecAgent: Efficient Mobile GUI Agent with Semantic Context
+- [x] OSExpert: Computer-Use Agents Learning Professional Skills via Exploration
+- [x] PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents
+- [x] AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem
+- [x] SlowBA: An efficiency backdoor attack towards VLM-based GUI agents
+- [x] Generalization in Online Reinforcement Learning for Mobile Agents
+- [x] Enhancing Web Agents with a Hierarchical Memory Tree
+- [x] WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces
+- [x] WebFactory: Automated Compression of Foundational Language Intelligence into Grounded Web Agents
+- [x] TimeWarp: Evaluating Web Agents by Revisiting the Past
+- [x] Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks
+- [x] CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning
+- [x] K²-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control
+- [x] M^2: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval
+- [x] GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL
+- [x] ActionEngine: From Reactive to Programmatic GUI Agents via State Machine Memory
+- [x] Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web
+- [x] Modeling Distinct Human Interaction in Web Agents
+- [x] IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents
+- [x] Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History
+- [x] World-Model-Augmented Web Agents with Action Correction
+- [x] EmbeWebAgent: Embedding Web Agents into Any Customized UI
+- [x] WebWorld: A Large-Scale World Model for Web Agent Training
+- [x] Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents
+- [x] GUI-GENESIS: Automated Synthesis of Efficient Environments with Verifiable Rewards for GUI Agent Post-Training
+- [x] AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines
+- [x] Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision
+- [x] OpAgent: Operator Agent for Web Navigation
+- [x] Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization
+- [x] WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning
+- [x] Scaling Web Agent Training through Automatic Data Generation and Fine-grained Evaluation
+- [x] Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward
+- [x] Adaptive Milestone Reward for GUI Agents
+- [x] How Smart Is Your GUI Agent? A Framework for the Future of Software Interaction
+- [x] Agentic Test-Time Scaling for WebAgents
+- [x] Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception
+- [x] WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements
+- [x] AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild
+- [x] See, Plan, Snap: Evaluating Multimodal GUI Agents in Scratch
+- [x] Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System
+- [x] TreeCUA: Efficiently Scaling GUI Automation with Tree-Structured Verifiable Evolution
+- [x] Autonomous Continual Learning of Computer-Use Agents for Environment Adaptation
+- [x] Code2World: A GUI World Model via Renderable Code Generation
+- [x] Mapping the Design Space of User Experience for Computer Use Agents
+- [x] POINTS-GUI-G: GUI-Grounding Journey
+- [x] ANCHOR: Branch-Point Data Generation for GUI Agents
+- [ ] Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion
+- [ ] SVRepair: Structured Visual Reasoning for Automated Program Repair
+- [ ] UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents
+- [ ] PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents
+- [ ] M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining
+- [ ] WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents
+- [ ] MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments
+- [ ] Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents
+- [ ] LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios
+- [ ] SafePred: A Predictive Guardrail for Computer-Using Agents via World Models
+- [ ] Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts
+- [ ] Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction
+- [ ] Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training
+- [ ] ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents
+- [ ] Where Not to Learn: Prior-Aligned Training with Subset-based Attribution Constraints for Reliable Decision-Making
+- [ ] Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution
+- [ ] SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization
+- [ ] BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents
+- [ ] DynaWeb: Model-Based Reinforcement Learning of Web Agents
+- [ ] How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors
+- [ ] WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents
+- [ ] CUA-Skill: Develop Skills for Computer Using Agent
+- [ ] OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution
+- [ ] OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks
+- [ ] MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment
+- [ ] Continual GUI Agents
+- [ ] MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution
+- [ ] GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents
+- [ ] ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows
+- [ ] GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
+- [ ] SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis
+- [ ] LongHorizonUI: A Unified Framework for Robust long-horizon Task Automation of GUI Agent
+- [ ] SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks
+- [ ] EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents
+- [ ] GraphPilot: GUI Task Automation with One-Step LLM Reasoning Powered by Knowledge Graph
+- [ ] EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience
+- [ ] The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes
+- [ ] MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction
+- [ ] MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux
+- [ ] Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?
+- [ ] CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents
+- [ ] GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents
+- [ ] PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records
+- [ ] Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents
+- [ ] WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents
+- [ ] ExpSeek: Self-Triggered Experience Seeking for Web Agents
+- [ ] ShowUI-Aloha: Human-Taught GUI Agent
+- [ ] ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution
+- [ ] V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking
+- [ ] From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation
+- [ ] GUITester: Enabling GUI Agents for Exploratory Defect Discovery
+- [ ] InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training
+- [ ] MobileDreamer: Generative Sketch World Model for GUI Agent
+- [ ] Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning
+- [ ] WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks
+- [ ] ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands
+- [ ] It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents
+- [ ] DECEPTICON: How Dark Patterns Manipulate Web Agents
+- [ ] MAI-UI Technical Report: Real-World Centric Foundation GUI Agents
+- [ ] SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents
+- [ ] iSHIFT: Lightweight Slow-Fast GUI Agent with Adaptive Perception
+- [ ] AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents
+- [ ] MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments
+- [ ] EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration
+- [ ] DAVE: A VLM Vision Encoder for Document Understanding and Web Agents
+- [ ] OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models
+- [ ] VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks
+- [ ] Step-GUI Technical Report
+- [ ] MobileWorldBench: Towards Semantic World Modeling For Mobile Agents
+- [ ] WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment
+- [ ] Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents
+- [ ] Using GUI Agent for Electronic Design Automation
+- [ ] AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management
+- [ ] GAIR: GUI Automation via Information-Joint Reasoning and Group Reflection
+- [ ] Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
+- [ ] MVP: Multiple View Prediction Improves GUI Grounding
+- [ ] Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence
+- [ ] Privacy Practices of Browser Agents
+- [ ] Permission Manifests for Web Agents
+- [ ] Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding
+- [ ] GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning
+- [ ] DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks
+- [ ] HiconAgent: History Context-aware Policy Optimization for GUI Agents
+- [ ] AFRAgent : An Adaptive Feature Renormalization Based High Resolution Aware GUI agent
+- [ ] MPR-GUI: Benchmarking and Enhancing Multilingual Perception and Reasoning in GUI Agents
+- [ ] LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents
+- [ ] Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation
+- [ ] Prune4Web: DOM Tree Pruning Programming for Web Agent
+- [ ] Adapting Web Agents with Synthetic Supervision
+- [ ] Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging
+- [ ] Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents
+- [ ] WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation
+- [ ] VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos
+- [ ] Surfer 2: The Next Generation of Cross-Platform Computer Use Agents
+- [ ] WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation
+- [ ] Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming
+- [ ] CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent
+- [ ] UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action
+- [ ] Investigating the Impact of Dark Patterns on LLM-Based Web Agents
+- [ ] PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction
+- [ ] WEBSERV: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale
+- [ ] CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs
+- [ ] Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms
+- [ ] In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers
+- [ ] HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities
+- [ ] WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent
+- [ ] SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents
+- [ ] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation
+- [ ] R-WoM: Retrieval-augmented World Model For Computer-use Agents
+- [ ] BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions
+- [ ] SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents
+- [ ] WARC-Bench: Web Archive Based Benchmark for GUI Subtask Executions
+- [ ] Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent
+- [ ] Watch and Learn: Learning to Use Computers from Online Videos
+- [ ] From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents
+- [ ] GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding
+- [ ] JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation
+- [ ] Cross-Modal Content Optimization for Steering Web Agent Preferences
+- [ ] FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents
+- [ ] Say One Thing, Do Another? Diagnosing Reasoning-Execution Gaps in VLM-Powered Mobile-Use Agents
+- [ ] Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness
+- [ ] BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks
+- [ ] Scaling Agents for Computer Use
+- [ ] PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents
+- [ ] GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness
+- [ ] WALT: Web Agents that Learn Tools
+- [ ] WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents
+- [ ] SCUBA: Salesforce Computer Use Benchmark
+- [ ] Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents
+- [ ] Scaling Synthetic Task Generation for Agents via Exploration
+- [ ] Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation
+- [ ] Secure and Efficient Access Control for Computer-Use Agents via Context Space
+- [ ] ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration
+- [ ] BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent
+- [ ] ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data
+- [ ] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge
+- [ ] Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments
+- [ ] MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents
+- [ ] AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents
+- [ ] MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents
+- [ ] Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows
+- [ ] OmniActor: A Generalist GUI and Embodied Agent for 2D&3D Worlds
+- [ ] UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
+- [ ] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control
+- [ ] Throttling Web Agents Using Reasoning Gates
+- [ ] A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants
+- [ ] CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning
+- [ ] Reliable Weak-to-Strong Monitoring of LLM Agents
+- [ ] Mobile-Agent-v3: Fundamental Agents for GUI Automation
+- [ ] MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers
+- [ ] ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents
+- [ ] WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]
+- [ ] You Don’t Know Until You Click: Automated GUI Testing for Production-Ready Software Evaluation
+- [ ] UI-Venus Technical Report: Building High-performance UI Agents with RFT
+- [ ] MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents
+- [ ] OpenCUA: Open Foundations for Computer-Use Agents
+- [ ] BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent
+- [ ] Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency
+- [ ] GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning
+- [ ] Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent
+- [ ] SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience
+- [ ] VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking
+- [ ] CoAct-1: Computer-using Multi-Agent System with Coding Actions
+- [ ] NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks
+- [ ] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents
+- [ ] NaturalGAIA: Pushing the Frontiers of GUI Agents with a Challenging Benchmark and High-Quality Trajectory Dataset
+- [ ] Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training
+- [ ] FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents
+- [ ] MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents
+- [ ] GUI-Reflection: Empowering Multimodal GUI Models with Self-Reflection Behavior
+- [ ] Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction
+- [ ] BIMgent: Towards Autonomous Building Modeling via Computer-use Agents
+- [ ] LLM-Guided Scenario-based GUI Testing
+- [ ] Go-Browse: Training Web Agents with Structured Exploration
+- [ ] macOSWorld: A Multilingual Interactive Benchmark for GUI Agents
+- [ ] DPO Learning with LLMs-Judge Signal for Computer Use Agents
+- [ ] DeepShop: A Benchmark for Deep Research Shopping Agents
+- [ ] VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents
+- [ ] AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning
+- [ ] RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents
+- [ ] Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents
+- [ ] Agent-SAMA: State-Aware Mobile Assistant
+- [ ] ZeroGUI: Automating Online GUI Learning at Zero Human Cost
+- [ ] UI-Evol: Automatic Knowledge Evolving for Computer Use Agents
+- [ ] WebDancer: Towards Autonomous Information Seeking Agency
+- [ ] RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments
+- [ ] BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism
+- [ ] UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents
+- [ ] XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level
+- [ ] LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS
+- [ ] ProgRM: Build Better GUI Agents with Progress Rewards
+- [ ] Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach
+- [ ] ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay
+- [ ] GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent
+- [ ] WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning
+- [ ] Web-Shepherd: Advancing PRMs for Reinforcing Web Agents
+- [ ] GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents
+- [ ] ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search
+- [ ] Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent
+- [ ] Efficient Agent Training for Computer Use
+- [ ] GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents
+- [ ] Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis
+- [ ] MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning
+- [ ] Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning
+- [ ] GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning
+- [ ] Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents
+- [ ] WebInject: Prompt Injection Attack to Web Agents
+- [ ] A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?
+- [ ] Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation
+- [ ] Visual Test-time Scaling for GUI Agent Grounding
+- [ ] ScaleTrack: Scaling and back-tracking Automated GUI Agents
+- [ ] MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation
+- [ ] CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation
+- [ ] ReachAgent: Enhancing Mobile Agent via Page Reaching and Page Operation
+- [ ] A Survey on GUI Agents with Foundation Models Enhanced by Reinforcement Learning
+- [ ] Infogent: An Agent-Based Framework for Web Information Aggregation
+- [ ] LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects
+- [ ] WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks
+- [ ] UFO2: The Desktop AgentOS
+- [ ] InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners
+- [ ] LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark
+- [ ] TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents
+- [ ] WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms
+- [ ] REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites
+- [ ] UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis
+- [ ] Breaking the Data Barrier -- Building GUI Agents Through Task Generalization
+- [ ] GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents
+- [ ] RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users
+- [ ] AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents
+- [ ] AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories
+- [ ] Inducing Programmatic Skills for Agentic Tasks
+- [ ] SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills
+- [ ] On the Robustness of GUI Grounding Models Against Image Attacks
+- [ ] ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use
+- [ ] An Illusion of Progress? Assessing the Current State of Web Agents
+- [ ] Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents
+- [ ] A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models
+- [ ] Towards Trustworthy GUI Agents: A Survey
+- [ ] UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning
+- [ ] sudo rm -rf agentic_security
+- [ ] VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification
+- [ ] Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment
+- [ ] UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction
+- [ ] STEVE: A Step Verification Pipeline for Computer-use Agent Training
+- [ ] DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents
+- [ ] MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents
+- [ ] AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents
+- [ ] In-Context Defense in Computer Agents: An Empirical Study
+- [ ] BEARCUBS: A benchmark for computer-using web agents
+- [ ] Think Twice, Click Once: Enhancing GUI Grounding via Fast and Slow Systems
+- [ ] SpiritSight Agent: Advanced GUI Agent with One Look
+- [ ] LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications
+- [ ] Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis
+- [ ] Programming with Pixels: Can Computer-Use Agents do Software Engineering?
+- [ ] Evaluating the Robustness of Multimodal Agents Against Active Environmental Injection Attacks
+- [ ] Magma: A Foundation Model for Multimodal AI Agents
+- [ ] Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
+- [ ] WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point
+- [ ] Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning
+- [ ] AppVLM: A Lightweight Vision Language Model for Online App Control
+- [ ] MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users
+- [ ] UI-TARS: Pioneering Automated GUI Interaction with Native Agents
+- [ ] WebWalker: Benchmarking LLMs in Web Traversal
+- [ ] A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation
+- [ ] OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis
+- [ ] PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World
+- [ ] OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use
+- [ ] Aria-UI: Visual Grounding for GUI Instructions
+- [ ] OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use
+- [ ] GUI Agents: A Survey
+- [ ] Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents
+- [ ] Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining
+- [ ] Falcon-UI: Understanding GUI Before Following User Instructions
+- [ ] The BrowserGym Ecosystem for Web Agent Research
+- [ ] Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction
+- [ ] Ponder & Press: Advancing Visual GUI Agent towards General Computer Control
+- [ ] Language Agents: Foundations, Prospects, and Risks
+- [ ] ShowUI: One Vision-Language-Action Model for GUI Visual Agent
+- [ ] AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations
+- [ ] Improved GUI Grounding via Iterative Narrowing
+- [ ] Generalist Virtual Agents: A Survey on Autonomous Agents Across Digital Platforms
+- [ ] The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
+- [ ] WebOlympus: An Open Platform for Web Agents on Live Websites
+- [ ] Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents
+- [ ] GUI Agents with Foundation Models: A Comprehensive Survey
+- [ ] WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning
+- [ ] Attacking Vision-Language Computer Agents via Pop-ups
+- [ ] From Context to Action: Analysis of the Impact of State Representation and Context on the Generalization of Multi-Turn Web Navigation Agents
+- [ ] AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents
+- [ ] Evaluating Cultural and Social Awareness of LLM Web Agents
+- [ ] OS-ATLAS: A Foundation Action Model for Generalist GUI Agents
+- [ ] Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents
+- [ ] AutoGLM: Autonomous Foundation Agents for GUIs
+- [ ] EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data
+- [ ] OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization
+- [ ] Beyond Browsing: API-Based Web Agents
+- [ ] VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks
+- [ ] AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
+- [ ] Lightweight Neural App Control
+- [ ] MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control
+- [ ] Large Language Models Empowered Personalized Web Agents
+- [ ] AdvAgent: Controllable Blackbox Red-teaming on Web Agents
+- [ ] AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?
+- [ ] Dissecting Adversarial Robustness of Multimodal LM Agents
+- [ ] SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation
+- [ ] DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents
+- [ ] Harnessing Webpage UIs for Text-Rich Visual Understanding
+- [ ] Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents
+- [ ] Agent S: An Open Agentic Framework that Uses Computers Like a Human
+- [ ] TinyClick: Single-Turn Agent for Empowering GUI Automation
+- [ ] ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents
+- [ ] ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents
+- [ ] Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
+- [ ] ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning
+- [ ] Dynamic Planning for LLM-based Graphical User Interface Automation
+- [ ] MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning
+- [ ] AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents
+- [ ] Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale
+- [ ] MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding
+- [ ] MobileViews: A Million-scale and Diverse Mobile GUI Dataset
+- [ ] EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage
+- [ ] Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps
+- [ ] Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale
+- [ ] Agent Workflow Memory
+- [ ] From Grounding to Planning: Benchmarking Bottlenecks in Web Agents
+- [ ] TinyAgent: Function Calling at the Edge
+- [ ] CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation
+- [ ] WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration
+- [ ] Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
+- [ ] VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents
+- [ ] Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions
+- [ ] AppAgent v2: Advanced Agent for Flexible Mobile Interactions
+- [ ] OmniParser for Pure Vision Based GUI Agent
+- [ ] MindSearch: Mimicking Human Minds Elicits Deep AI Searcher
+- [ ] OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation
+- [ ] Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems
+- [ ] Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?
+- [ ] AUITestAgent: Automatic Requirements Oriented GUI Function Testing
+- [ ] WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks
+- [ ] MobileFlow: A Multimodal LLM For Mobile GUI Agent
+- [ ] MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices
+- [ ] AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents
+- [ ] CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents
+- [ ] Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps
+- [ ] Tree Search for Language Model Agents
+- [ ] Visual Grounding for User Interfaces
+- [ ] VideoGUI: A Benchmark for GUI Automation from Instructional Videos
+- [ ] Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding
+- [ ] Octo-planner: On-device Language Model for Planner-Action Agents
+- [ ] E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion
+- [ ] VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning
+- [ ] VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought
+- [ ] Identifying User Goals from UI Trajectories
+- [ ] GUI Action Narrator: Where and When Did That Action Take Place?
+- [ ] WebCanvas: Benchmarking Web Agents in Online Environments
+- [ ] GUICourse: From General Vision Language Models to Versatile GUI Agents
+- [ ] GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding
+- [ ] DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning
+- [ ] GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices
+- [ ] Practical, Automated Scenario-based Mobile App Testing
+- [ ] MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents
+- [ ] On the Effects of Data Scale on UI Control Agents
+- [ ] Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
+- [ ] WebSuite: Systematically Evaluating Why Web Agents Fail
+- [ ] Large Language Models Can Self-Improve At Web Agent Tasks
+- [ ] AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents
+- [ ] Unveiling Disparities in Web Task Handling Between Human and Web Agent
+- [ ] Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces
+- [ ] Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning
+- [ ] Benchmarking Mobile Device Control Agents across Diverse Configurations
+- [ ] Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent
+- [ ] Grounded Language Agent for Product Search via Intelligent Web Interactions
+- [ ] MMInA: Benchmarking Multihop Multimodal Internet Agents
+- [ ] Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking
+- [ ] LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation
+- [ ] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
+- [ ] Autonomous Evaluation and Refinement of Digital Agents
+- [ ] VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?
+- [ ] Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+- [ ] AutoWebGLM: A Large Language Model-based Web Navigating Agent
+- [ ] AgentStudio: A Toolkit for Building General Virtual Agents
+- [ ] Tur[k]ingBench: A Challenge Benchmark for Web Agents
+- [ ] WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?
+- [ ] Cradle: Empowering Foundation Agents Towards General Computer Control
+- [ ] Android in the Zoo: Chain-of-Action-Thought for GUI Agents
+- [ ] OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web
+- [ ] On the Multi-turn Instruction Following for Conversational Web Agents
+- [ ] Improving Language Understanding from Screenshots
+- [ ] Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents
+- [ ] A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents
+- [ ] UFO: A UI-Focused Agent for Windows OS Interaction
+- [ ] ScreenAgent: A Vision Language Model-driven Computer Control Agent
+- [ ] OS-Copilot: Towards Generalist Computer Agents with Self-Improvement
+- [ ] WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
+- [ ] ScreenAI: A Vision-Language Model for UI and Infographics Understanding
+- [ ] Dual-View Visual Contextualization for Web Navigation
+- [ ] Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
+- [ ] WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models
+- [ ] VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks
+- [ ] SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents
+- [ ] Multimodal Web Navigation with Instruction-Finetuned Foundation Models
+- [ ] AgentBench: Evaluating LLMs as Agents
+- [ ] GPT-4V(ision) is a Generalist Web Agent, if Grounded
+- [ ] WebVLN: Vision-and-Language Navigation on Websites
+- [ ] AppAgent: Multimodal Agents as Smartphone Users
+- [ ] ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation
+- [ ] CogAgent: A Visual Language Model for GUI Agents
+- [ ] GAIA: a benchmark for General AI Assistants
+- [ ] GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation
+- [ ] UI Layout Generation with LLMs Guided by UI Grammar
+- [ ] Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
+- [ ] OpenAgents: An Open Platform for Language Agents in the Wild
+- [ ] Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API
+- [ ] SteP: Stacked LLM Policies for Web Actions
+- [ ] You Only Look at Screens: Multimodal Chain-of-Action Agents
+- [ ] LASER: LLM Agent with State-Space Exploration for Web Navigation
+- [ ] AutoDroid: LLM-powered Task Automation in Android
+- [ ] A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
+- [ ] WebArena: A Realistic Web Environment for Building Autonomous Agents
+- [ ] Android in the Wild: A Large-Scale Dataset for Android Device Control
+- [ ] Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control
+- [ ] Mind2Web: Towards a Generalist Agent for the Web
+- [ ] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models
+- [ ] Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction
+- [ ] Language Models can Solve Computer Tasks
+- [ ] Reflexion: Language Agents with Verbal Reinforcement Learning
+- [ ] Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding
+- [ ] WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics
+- [ ] ReAct: Synergizing Reasoning and Acting in Language Models
+- [ ] Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus
+- [ ] WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
+- [ ] META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI
+- [ ] A Data-Driven Approach for Learning to Control Computers
+- [ ] A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility
+- [ ] Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning
+- [ ] UIBert: Learning Generic Multimodal Representations for UI Understanding
+- [ ] AndroidEnv: A Reinforcement Learning Platform for Android
+- [ ] Grounding Open-Domain Instructions to Automate Web Support Tasks
+- [ ] WebSRC: A Dataset for Web-Based Structural Reading Comprehension
+- [ ] Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements
+- [ ] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations
+- [ ] Mapping Natural Language Instructions to Mobile UI Action Sequences
+- [ ] PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations
+- [ ] Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration
+- [ ] Rico: A Mobile App Dataset for Building Data-Driven Design Applications
+- [ ] World of Bits: An Open-Domain Platform for Web-Based Agents
+- [ ] SUGILITE: Creating Multimodal Smartphone Automation by Demonstration
