@@ -89,42 +89,42 @@ Checklist:
 - [x] Mapping the Design Space of User Experience for Computer Use Agents
 - [x] POINTS-GUI-G: GUI-Grounding Journey
 - [x] ANCHOR: Branch-Point Data Generation for GUI Agents
-- [ ] Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion
-- [ ] SVRepair: Structured Visual Reasoning for Automated Program Repair
-- [ ] UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents
-- [ ] PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents
-- [ ] M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining
-- [ ] WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents
-- [ ] MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments
-- [ ] Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents
-- [ ] LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios
-- [ ] SafePred: A Predictive Guardrail for Computer-Using Agents via World Models
-- [ ] Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts
-- [ ] Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction
-- [ ] Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training
-- [ ] ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents
-- [ ] Where Not to Learn: Prior-Aligned Training with Subset-based Attribution Constraints for Reliable Decision-Making
-- [ ] Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution
-- [ ] SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization
-- [ ] BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents
-- [ ] DynaWeb: Model-Based Reinforcement Learning of Web Agents
-- [ ] How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors
-- [ ] WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents
-- [ ] CUA-Skill: Develop Skills for Computer Using Agent
-- [ ] OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution
-- [ ] OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks
-- [ ] MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment
-- [ ] Continual GUI Agents
-- [ ] MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution
-- [ ] GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents
-- [ ] ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows
-- [ ] GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
-- [ ] SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis
-- [ ] LongHorizonUI: A Unified Framework for Robust long-horizon Task Automation of GUI Agent
-- [ ] SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks
-- [ ] EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents
-- [ ] GraphPilot: GUI Task Automation with One-Step LLM Reasoning Powered by Knowledge Graph
-- [ ] EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience
+- [x] Trifuse: Enhancing Attention-Based GUI Grounding via Multimodal Fusion
+- [x] SVRepair: Structured Visual Reasoning for Automated Program Repair
+- [x] UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents
+- [x] PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents
+- [x] M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining
+- [x] WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents
+- [x] MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments
+- [x] Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents
+- [x] LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios
+- [x] SafePred: A Predictive Guardrail for Computer-Using Agents via World Models
+- [x] Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts
+- [x] Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction
+- [x] Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training
+- [x] ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents
+- [x] Where Not to Learn: Prior-Aligned Training with Subset-based Attribution Constraints for Reliable Decision-Making
+- [x] Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution
+- [x] SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization
+- [x] BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents
+- [x] DynaWeb: Model-Based Reinforcement Learning of Web Agents
+- [x] How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors
+- [x] WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents
+- [x] CUA-Skill: Develop Skills for Computer Using Agent
+- [x] OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution
+- [x] OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks
+- [x] MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment
+- [x] Continual GUI Agents
+- [x] MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution
+- [x] GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents
+- [x] ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows
+- [x] GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
+- [x] SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis
+- [x] LongHorizonUI: A Unified Framework for Robust long-horizon Task Automation of GUI Agent
+- [x] SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks
+- [x] EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents
+- [x] GraphPilot: GUI Task Automation with One-Step LLM Reasoning Powered by Knowledge Graph
+- [x] EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience
 - [ ] The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes
 - [ ] MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction
 - [ ] MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux

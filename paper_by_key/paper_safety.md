@@ -15,8 +15,8 @@
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [guardrail], [world model], [risk prediction], [safety], [long-horizon risk]
-    - 📖 TLDR: SafePred is a predictive guardrail for computer-use agents that uses a world model to simulate future states and align current actions with delayed risk, targeting long-horizon hazards that reactive guardrails miss because the danger only emerges after later state transitions.
+    - 🔑 Key: [guardrail], [world model], [risk prediction], [safety], [long-horizon risk], [SafePred]
+    - 📖 TLDR: SafePred is a predictive guardrail that uses a world model to simulate future states and assess delayed risk before a computer-use agent acts. It targets long-horizon hazards that reactive safety filters tend to miss.
 
 - [CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents](https://arxiv.org/abs/2601.09923)
     - Hanna Foerster, Tom Blanchard, Kristina Nikolić, Ilia Shumailov, Cheng Zhang, Robert Mullins, Nicolas Papernot, Florian Tramèr, Yiren Zhao

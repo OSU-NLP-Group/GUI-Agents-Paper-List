@@ -1,31 +1,13 @@
 # Papers with Keyword: model
 
-- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
-    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
-    - 🏛️ Institutions: Ludwig Maximilian University of Munich, Technical University of Munich, Munich Center for Machine Learning
-    - 📅 Date: January 29, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [reward model], [process reward model], [reasoning verifier], [WebArbiter]
-    - 📖 TLDR: WebArbiter is a process reward model for web agents that treats reward modeling as structured text generation: it produces principle-guided justifications, a preference verdict, and the action most conducive to task completion under the current context. On WebPRMBench and reward-guided trajectory search, it outperforms prior web PRMs and shows that compact specialized verifiers can improve both training and inference-time selection.
-
-- [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380)
-    - Le Zhang, Yixiong Xiao, Xinjiang Lu, Jingjia Cao, Yusai Zhao, Jingbo Zhou, Lang An, Zikan Feng, Wanxiang Sha, Yu Shi, Congxi Xiao, Jian Xiong, Yankai Zhang, Hua Wu, Haifeng Wang
-    - 🏛️ Institutions: Baidu Frontier Research Department
-    - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [synthetic data], [Mixture-of-Experts], [GRPO], [OS-Nav], [OmegaUse]
-    - 📖 TLDR: Builds a general-purpose GUI agent for both phone-use and computer-use settings using a curated-plus-synthetic data pipeline and a two-stage SFT-then-GRPO training recipe on an MoE backbone. The paper also introduces the OS-Nav benchmark suite and reports strong results across cross-terminal grounding and action benchmarks, including ScreenSpot-v2, AndroidControl, ChiM-Nav, and Ubu-Nav.
-
 - [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876)
     - Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu
-    - 🏛️ Institutions: Meituan
+    - 🏛️ Institutions: Meituan, Fudan University, Tongji University, The Hong Kong University of Science and Technology
     - 📅 Date: January 22, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [framework], [synthetic data], [reinforcement learning], [OSWorld], [EvoCUA]
-    - 📖 TLDR: This paper introduces EvoCUA, a native computer-use agent trained through an evolving learning cycle that tightly couples scalable synthetic task generation, large-scale sandbox rollouts, and iterative policy optimization. Instead of relying on static imitation data, EvoCUA turns successful and failed experience into supervision through verification, error analysis, and self-correction, enabling continual capability growth. On OSWorld, it reaches 56.7% success rate, surpassing prior open-source computer-use agents and even some leading closed-weight systems.
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [model], [framework], [synthetic experience], [verifiable synthesis], [OSWorld], [EvoCUA]
+    - 📖 TLDR: EvoCUA replaces static imitation with an evolving training loop built on verifiable task synthesis, high-throughput sandbox rollouts, and iterative policy optimization from both successful and failed trajectories. On OSWorld it reaches 56.7% success, outperforming prior open-source computer-use agents and even some leading closed-weight systems.
 
 - [MAI-UI Technical Report: Real-World Centric Foundation GUI Agents](https://arxiv.org/abs/2512.22047)
     - Hanzhang Zhou, Xu Zhang, Panrong Tong, Jianan Zhang, Liangyu Chen, Quyu Kong, Chenglin Cai, Chen Liu, Yue Wang, Jingren Zhou, Steven Hoi
