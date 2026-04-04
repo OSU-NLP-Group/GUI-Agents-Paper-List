@@ -24,7 +24,7 @@
     - 📅 Date: April 30, 2025
     - 📑 Publisher: NAACL 2025 (System Demonstrations)
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [human-agent collaboration], [web navigation], [evaluation], [CowPilot]
+    - 🔑 Key: [framework], [human-agent collaboration], [evaluation], [CowPilot]
     - 📖 TLDR: Builds a mixed-initiative web-navigation interface where an agent proposes next steps and a human can pause, reject, override, or hand control back at any point in the task. Beyond being a collaboration tool, CowPilot also serves as an evaluation and data-collection framework, with case studies on five websites showing the collaborative mode achieves the best success rate while greatly reducing human effort.
 
 - [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
@@ -78,7 +78,7 @@
     - 📅 Date: September 24, 2024
     - 📑 Publisher: NeurIPS 2024 (Main Conference Track)
     - 💻 Env: [Web]
-    - 🔑 Key: [synthetic data], [synthetic demonstrations], [indirect knowledge], [web navigation], [Synatra]
+    - 🔑 Key: [synthetic data], [synthetic demonstrations], [indirect knowledge], [Synatra]
     - 📖 TLDR: Introduces Synatra, a pipeline for converting indirect knowledge sources such as tutorials into direct demonstrations for digital agents. Using 100k synthetic demonstrations, the paper trains a 7B web agent that outperforms similarly sized models on Mind2Web, MiniWoB++, and WebArena at a small fraction of the cost of human demonstrations.
 
 - [Agent Workflow Memory](https://proceedings.mlr.press/v267/wang25bx.html)
@@ -87,7 +87,7 @@
     - 📅 Date: September 11, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [memory], [workflow induction], [web navigation], [AWM]
+    - 🔑 Key: [framework], [memory], [workflow induction], [AWM]
     - 📖 TLDR: The paper proposes *Agent Workflow Memory (AWM)*, a method enabling language model-based agents to induce and utilize reusable workflows from past experiences to guide future actions in web navigation tasks. AWM operates in both offline and online settings, significantly improving performance on benchmarks like Mind2Web and WebArena, and demonstrating robust generalization across tasks, websites, and domains.
 
 - [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)

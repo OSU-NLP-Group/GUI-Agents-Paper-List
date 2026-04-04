@@ -32,7 +32,7 @@ class KeyLintTests(unittest.TestCase):
                 - 📅 Date: March 01, 2026
                 - 📑 Publisher: arXiv
                 - 💻 Env: [Web]
-                - 🔑 Key: [web], [web agents], [CUAs], [computer-use agents], [Graphical User Interfaces], [GUI Grounding], [dataset]
+                - 🔑 Key: [web], [web agents], [CUAs], [computer-use agents], [Graphical User Interfaces], [browser agents], [mobile GUI agents], [web navigation], [GUI Grounding], [dataset]
                 - 📖 TLDR: Example.
 
             - [Paper Two](https://example.com/two)
@@ -55,6 +55,9 @@ class KeyLintTests(unittest.TestCase):
         self.assertNotIn("[CUAs]", updated_text)
         self.assertNotIn("[computer-use agents]", updated_text)
         self.assertNotIn("[Graphical User Interfaces]", updated_text)
+        self.assertNotIn("[browser agents]", updated_text)
+        self.assertNotIn("[mobile GUI agents]", updated_text)
+        self.assertNotIn("[web navigation]", updated_text)
         self.assertNotIn("[gui]", updated_text)
         self.assertTrue(any(issue["kind"] == "banned_key" for issue in issues))
         self.assertTrue(any(issue["kind"] == "case_conflict" for issue in issues))
@@ -68,7 +71,7 @@ class KeyLintTests(unittest.TestCase):
                 - 📅 Date: March 01, 2026
                 - 📑 Publisher: arXiv
                 - 💻 Env: [Web]
-                - 🔑 Key: [web], [CUAs], [computer-use agents], [graphical user interfaces], [GUI Grounding]
+                - 🔑 Key: [web], [CUAs], [computer-use agents], [graphical user interfaces], [browser agents], [mobile GUI agents], [web navigation], [GUI Grounding]
                 - 📖 TLDR: Example.
 
             - [Paper Two](https://example.com/two)

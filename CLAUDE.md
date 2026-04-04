@@ -124,7 +124,7 @@ Env should describe the paper's actual interaction setting, not just the benchma
 - Include the paper's commonly used abbreviation (e.g., `[SeeAct]`, `[OSWorld]`)
 - Include primary research focus/innovation keywords
 - Avoid overly generic tags like `[web navigation]`, `[LLM agent]`, `[GUI agent]`, `[multimodal]` — these are already implied by the paper list's scope and the Env field
-- Do not use env-duplicate or scope-duplicate keys such as `[web]`, `[mobile]`, `[desktop]`, `[gui]`, `[search]`, `[CUA]`, `[CUAs]`, `[web agent]`, `[web agents]`, `[mobile agent]`, `[mobile agents]`, `[desktop agent]`, `[desktop agents]`, `[gui agent]`, `[gui agents]`, `[computer-use agent]`, `[computer-use agents]`, `[computer use agent]`, `[computer use agents]`, `[computer-using agent]`, `[computer-using agents]`, `[graphical user interface]`, `[graphical user interfaces]`
+- Do not use env-duplicate or scope-duplicate keys such as `[web]`, `[mobile]`, `[desktop]`, `[gui]`, `[search]`, `[CUA]`, `[CUAs]`, `[web agent]`, `[web agents]`, `[mobile agent]`, `[mobile agents]`, `[desktop agent]`, `[desktop agents]`, `[gui agent]`, `[gui agents]`, `[computer-use agent]`, `[computer-use agents]`, `[computer use agent]`, `[computer use agents]`, `[computer-using agent]`, `[computer-using agents]`, `[graphical user interface]`, `[graphical user interfaces]`, `[mobile GUI agent]`, `[mobile GUI agents]`, `[browser agent]`, `[browser agents]`, `[web navigation]`
 
 Keywords should balance retrieval value and specificity. Prefer:
 - the paper's canonical abbreviation/name

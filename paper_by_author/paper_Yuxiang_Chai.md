@@ -15,7 +15,7 @@
     - 📅 Date: February 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [memory], [reinforcement learning], [online RL], [mobile GUI agent], [UI-mem]
+    - 🔑 Key: [framework], [memory], [reinforcement learning], [online RL], [UI-mem]
     - 📖 TLDR: UI-Mem augments online RL for mobile GUI agents with a hierarchical experience memory that stores reusable workflows, subtask skills, and failure patterns as transferable templates rather than raw replay data. Its key mechanism is stratified group sampling, which mixes differently guided trajectories so the unguided policy can internalize memory-informed behavior, and it yields clear gains over standard online RL and static reuse baselines.
 
 - [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
@@ -24,7 +24,7 @@
     - 📅 Date: May 27, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [reward model], [self-improvement], [synthetic data], [UI-Genie-RM], [UI-Genie-Agent], [mobile GUI agent]
+    - 🔑 Key: [framework], [reward model], [self-improvement], [synthetic data], [UI-Genie-RM], [UI-Genie-Agent]
     - 📖 TLDR: Tackles two mobile GUI-agent bottlenecks at once: verifying trajectory outcomes and scaling high-quality training data. UI-Genie does this with a dedicated interleaved reward model plus a reward-guided self-improvement loop that iteratively upgrades both agent and reward model, yielding the first reward-specific GUI-agent datasets and strong gains after several self-improvement generations.
 
 - [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838)
