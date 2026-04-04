@@ -145,18 +145,18 @@ Checklist:
 - [x] Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning
 - [x] WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks
 - [x] ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands
-- [ ] It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents
-- [ ] DECEPTICON: How Dark Patterns Manipulate Web Agents
-- [ ] MAI-UI Technical Report: Real-World Centric Foundation GUI Agents
-- [ ] SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents
-- [ ] iSHIFT: Lightweight Slow-Fast GUI Agent with Adaptive Perception
-- [ ] AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents
-- [ ] MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments
-- [ ] EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration
-- [ ] DAVE: A VLM Vision Encoder for Document Understanding and Web Agents
-- [ ] OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models
-- [ ] VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks
-- [ ] Step-GUI Technical Report
+- [x] It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents
+- [x] DECEPTICON: How Dark Patterns Manipulate Web Agents
+- [x] MAI-UI Technical Report: Real-World Centric Foundation GUI Agents
+- [x] SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents
+- [x] iSHIFT: Lightweight Slow-Fast GUI Agent with Adaptive Perception
+- [x] AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents
+- [x] MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments
+- [x] EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration
+- [x] DAVE: A VLM Vision Encoder for Document Understanding and Web Agents
+- [x] OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models
+- [x] VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks
+- [x] Step-GUI Technical Report
 - [ ] MobileWorldBench: Towards Semantic World Modeling For Mobile Agents
 - [ ] WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment
 - [ ] Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents
