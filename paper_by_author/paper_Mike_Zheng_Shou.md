@@ -6,8 +6,8 @@
     - 📅 Date: January 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [learning from demonstration], [screen recording], [data pipeline], [desktop automation], [human teaching]
-    - 📖 TLDR: ShowUI-Aloha presents a pipeline that transforms unstructured, in-the-wild human screen recordings from desktop environments into structured, actionable training data for GUI agents, comprising a recorder, learner, planner, and executor that together enable agents to learn complex GUI tasks by simply observing humans.
+    - 🔑 Key: [framework], [learning from demonstration], [screen recording], [human teaching], [ShowUI-Aloha]
+    - 📖 TLDR: ShowUI-Aloha converts in-the-wild desktop screen recordings into structured teaching trajectories through a recorder, learner, planner, and executor pipeline. The goal is to let GUI agents learn complex desktop tasks from ordinary human demonstrations rather than curated annotations or synthetic traces.
 
 - [ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands](https://arxiv.org/abs/2512.24965)
     - Siyuan Hu, Kevin Qinghong Lin, Mike Zheng Shou

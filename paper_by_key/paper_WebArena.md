@@ -51,8 +51,8 @@
     - 📅 Date: January 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [knowledge evolution], [human-in-the-loop], [long-horizon tasks], [WebArena], [memory management]
-    - 📖 TLDR: ColorBrowserAgent is a knowledge-evolving web automation agent that tackles site heterogeneity and long-horizon instability through human-in-the-loop knowledge adaptation and knowledge-aligned progressive summarization, achieving 71.2% success rate on WebArena and strong performance on WebChoreArena and industrial deployment.
+    - 🔑 Key: [framework], [human-in-the-loop], [knowledge adaptation], [progress summarization], [WebArena], [ColorBrowserAgent]
+    - 📖 TLDR: ColorBrowserAgent targets site heterogeneity and long-horizon instability in web automation with two mechanisms: human-in-the-loop knowledge adaptation and progressive progress summarization. On WebArena it reaches 71.2% success, and the paper also reports transfer to WebChoreArena and gains in industrial deployment.
 
 - [WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment](https://arxiv.org/abs/2512.12692)
     - Mahir Labib Dihan, Tanzima Hashem, Mohammed Eunus Ali, Md Rizwan Parvez

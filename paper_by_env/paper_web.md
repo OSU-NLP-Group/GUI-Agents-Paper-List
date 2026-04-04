@@ -142,14 +142,14 @@
     - 🔑 Key: [memory augmentation], [trajectory summarization], [insight retrieval], [training-free], [long-horizon tasks], [M^2]
     - 📖 TLDR: M^2 is a training-free memory augmentation method for long-horizon web agents that combines dynamic trajectory summarization with offline insight retrieval. It improves success rates on WebVoyager and OnlineMind2Web while substantially reducing token usage.
 
-- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
-    - Serin Kim, Sangam Lee, Dongha Lee
-    - 🏛️ Institutions: Department of Artificial Intelligence, Yonsei University - DLI Lab
+- [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
+    - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
+    - 🏛️ Institutions: The Ohio State University, University of British Columbia, Microsoft Research
     - 📅 Date: February 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
-    - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
+    - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
+    - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
 
 - [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
     - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
@@ -160,14 +160,14 @@
     - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
     - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
 
-- [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
-    - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
-    - 🏛️ Institutions: The Ohio State University, University of British Columbia, Microsoft Research
+- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
+    - Serin Kim, Sangam Lee, Dongha Lee
+    - 🏛️ Institutions: Department of Artificial Intelligence, Yonsei University - DLI Lab
     - 📅 Date: February 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
-    - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
+    - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
+    - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
 
 - [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
     - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
@@ -295,14 +295,14 @@
     - 🔑 Key: [mixture of grounding experts], [experience-imitation planning], [adaptive memory], [online-Mind2Web], [Avenir-Web], [multimodal LLM]
     - 📖 TLDR: Avenir-Web combines mixture-of-grounding experts, experience-imitation planning, task-tracking checklists, and adaptive memory for live web tasks. It reaches strong open-source performance on Online-Mind2Web and narrows the gap to proprietary systems.
 
-- [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
-    - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
-    - 🏛️ Institutions: Columbia University, University of California San Diego, University of Illinois Urbana-Champaign
+- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
+    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, Hong Kong University of Science and Technology, McGill University, Shanghai AI Lab, Gradient, University of Toronto, Mila - Quebec AI Institute
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [evaluation pipeline], [visual attribute factors], [VAF], [visual grounding], [robustness]
-    - 📖 TLDR: This paper introduces VAF, a controlled evaluation pipeline for measuring how benign UI visual attributes affect web-agent choices while preserving page semantics. Across 48 variants, 5 real websites, and 4 agents, it shows that contrast, size, position, and card clarity strongly influence agent behavior, while several text-style factors matter much less.
+    - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
+    - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
 
 - [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
     - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
@@ -313,14 +313,14 @@
     - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
     - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
 
-- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
-    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, Hong Kong University of Science and Technology, McGill University, Shanghai AI Lab, Gradient, University of Toronto, Mila - Quebec AI Institute
+- [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
+    - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
+    - 🏛️ Institutions: Columbia University, University of California San Diego, University of Illinois Urbana-Champaign
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
-    - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
+    - 🔑 Key: [evaluation pipeline], [visual attribute factors], [VAF], [visual grounding], [robustness]
+    - 📖 TLDR: This paper introduces VAF, a controlled evaluation pipeline for measuring how benign UI visual attributes affect web-agent choices while preserving page semantics. Across 48 variants, 5 real websites, and 4 agents, it shows that contrast, size, position, and card clarity strongly influence agent behavior, while several text-style factors matter much less.
 
 - [The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes](https://arxiv.org/abs/2601.16356)
     - Simret Araya Gebreegziabher, Yukun Yang, Charles Chiang, Hojun Yoo, Chaoran Chen, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, Toby Jia-Jun Li
@@ -337,8 +337,8 @@
     - 📅 Date: January 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [agent framework], [security evaluation], [attack]
-    - 📖 TLDR: WebTrap Park is an automated platform for systematic security evaluation of web agents that instantiates three major security risk sources into 1,226 executable tasks on live web pages, revealing that agent architecture matters more than the underlying model for security robustness.
+    - 🔑 Key: [benchmark], [safety], [security evaluation], [behavioral evaluation], [WebTrap Park]
+    - 📖 TLDR: WebTrap Park is an automated platform for evaluating web-agent security by directly observing actions on live web pages rather than relying on internal logs. It instantiates malicious user prompts, prompt injections, and deceptive website designs into 1,226 executable tasks and shows clear security differences across agent frameworks.
 
 - [ExpSeek: Self-Triggered Experience Seeking for Web Agents](https://arxiv.org/abs/2601.08605)
     - Wenyuan Zhang, Xinghua Zhang, Haiyang Yu, Shuaiyi Nie, Bingli Wu, Juwei Yue, Tingwen Liu, Yongbin Li
@@ -346,8 +346,8 @@
     - 📅 Date: January 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [experience learning], [entropy-based triggering], [LLM agent], [benchmark], [framework]
-    - 📖 TLDR: ExpSeek proposes a step-level proactive experience-seeking framework for web agents that uses entropy-based self-triggering signals to determine when to intervene with tailored experience content, achieving 9.3% and 7.5% absolute improvements on Qwen3-8B and 32B models across four web agent benchmarks.
+    - 🔑 Key: [framework], [experience seeking], [entropy-based triggering], [experience intervention], [ExpSeek]
+    - 📖 TLDR: ExpSeek turns experience intervention from a passive pre-task context into a step-level mechanism that is triggered only when the agent’s own entropy signal indicates uncertainty. It also generates tailored experience content per step, improving Qwen3-8B and 32B web agents by 9.3 and 7.5 absolute points across four benchmarks.
 
 - [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
     - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
@@ -355,8 +355,8 @@
     - 📅 Date: January 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [knowledge evolution], [human-in-the-loop], [long-horizon tasks], [WebArena], [memory management]
-    - 📖 TLDR: ColorBrowserAgent is a knowledge-evolving web automation agent that tackles site heterogeneity and long-horizon instability through human-in-the-loop knowledge adaptation and knowledge-aligned progressive summarization, achieving 71.2% success rate on WebArena and strong performance on WebChoreArena and industrial deployment.
+    - 🔑 Key: [framework], [human-in-the-loop], [knowledge adaptation], [progress summarization], [WebArena], [ColorBrowserAgent]
+    - 📖 TLDR: ColorBrowserAgent targets site heterogeneity and long-horizon instability in web automation with two mechanisms: human-in-the-loop knowledge adaptation and progressive progress summarization. On WebArena it reaches 71.2% success, and the paper also reports transfer to WebChoreArena and gains in industrial deployment.
 
 - [InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training](https://arxiv.org/abs/2601.04126)
     - Ziyun Zhang, Zezhou Wang, Xiaoyi Zhang, Zongyu Guo, Jiahao Li, Bin Li, Yan Lu
@@ -520,15 +520,6 @@
     - 🔑 Key: [framework], [skill learning], [compositional skills], [transfer generalization], [polymorphism], [PolySkill], [continual learning]
     - 📖 TLDR: This paper introduces **PolySkill**, a framework that enables LLM-based web agents to acquire generalizable and composable skills by decoupling a skill's abstract goal from its concrete implementation, inspired by polymorphic abstraction in software engineering. Evaluated on the Mind2Web benchmark, PolySkill significantly enhances skill reuse, improves task success rates on both seen and unseen websites, and reduces the number of interaction steps, demonstrating effective continual learning and skill transfer capabilities.
 
-- [Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms](https://arxiv.org/abs/2510.13913)
-    - Shrey Pandit, Xuan-Phi Nguyen, Yifei Ming, Austin Xu, Jiayu Wang, Caiming Xiong, Shafiq Joty
-    - 🏛️ Institutions: Salesforce AI Research, University of Wisconsin-Madison
-    - 📅 Date: October 15, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [data synthesis], [training data], [progressive difficulty], [distillation], [deep research]
-    - 📖 TLDR: This paper introduces a data synthesis pipeline that generates question-answer pairs for training web agents by progressively increasing task complexity until a frontier baseline agent fails, producing smaller but more effective and diverse training datasets than existing approaches across multiple web-based benchmarks.
-
 - [In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers](https://arxiv.org/abs/2510.13543)
     - Avihay Cohen
     - 🏛️ Institutions: BrowserTotal
@@ -537,6 +528,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [security], [prompt injection], [fuzzing], [attack]
     - 📖 TLDR: Presents an in-browser LLM-guided fuzzing framework that automatically discovers prompt injection vulnerabilities in agentic AI browsers, finding that while tested tools block simple attacks, they fail 58-74% of the time after 10 adaptive fuzzing iterations, with page summarization and Q&A features being particularly vulnerable (73% and 71% attack success rates).
+
+- [Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms](https://arxiv.org/abs/2510.13913)
+    - Shrey Pandit, Xuan-Phi Nguyen, Yifei Ming, Austin Xu, Jiayu Wang, Caiming Xiong, Shafiq Joty
+    - 🏛️ Institutions: Salesforce AI Research, University of Wisconsin-Madison
+    - 📅 Date: October 15, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [data synthesis], [training data], [progressive difficulty], [distillation], [deep research]
+    - 📖 TLDR: This paper introduces a data synthesis pipeline that generates question-answer pairs for training web agents by progressively increasing task complexity until a frontier baseline agent fails, producing smaller but more effective and diverse training datasets than existing approaches across multiple web-based benchmarks.
 
 - [HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities](https://arxiv.org/abs/2510.12200)
     - Xiaoxue Ren, Penghao Jiang, Kaixin Li, Zhiyong Huang, Xiaoning Du, Jiaojiao Jiang, Zhenchang Xing, Jiamou Sun, Terry Yue Zhuo
@@ -1456,15 +1456,6 @@
     - 🔑 Key: [framework], [visual contextualization], [dual-view representation], [Mind2Web]
     - 📖 TLDR: Proposes dual-view visual contextualization, where a web element is represented jointly by its HTML-side attributes and its rendered screenshot context. The paper targets the disconnect between DOM text and visual layout in web navigation and reports gains on Mind2Web.
 
-- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://aclanthology.org/2024.acl-long.50/)
-    - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University
-    - 📅 Date: January 24, 2024
-    - 📑 Publisher: ACL 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [benchmark], [dataset], [multimodal agent evaluation], [visually grounded tasks]
-    - 📖 TLDR: VisualWebArena is a benchmark designed for testing multimodal web agents on complex, visually grounded web tasks. It provides a reproducible framework with 910 task scenarios across real-world web applications, emphasizing open-ended, visually guided interactions. The tasks are modeled within a partially observable Markov decision process to assess agents’ capacity to interpret multimodal inputs, execute navigation, and accomplish user-defined objectives across complex visual and textual information on websites.
-
 - [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://aclanthology.org/2024.acl-long.371/)
     - Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, Dong Yu
     - 🏛️ Institutions: Zhejiang University, Tencent AI Lab, Westlake University
@@ -1473,6 +1464,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [benchmark], [evaluation], [WebVoyager], [automatic judging]
     - 📖 TLDR: Presents WebVoyager, an end-to-end multimodal web agent evaluated on realistic tasks across 15 live websites. The paper is notable both for the agent itself and for proposing an automatic GPT-4V-based evaluation protocol for live web-agent execution.
+
+- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://aclanthology.org/2024.acl-long.50/)
+    - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
+    - 🏛️ Institutions: Carnegie Mellon University
+    - 📅 Date: January 24, 2024
+    - 📑 Publisher: ACL 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [benchmark], [dataset], [multimodal agent evaluation], [visually grounded tasks]
+    - 📖 TLDR: VisualWebArena is a benchmark designed for testing multimodal web agents on complex, visually grounded web tasks. It provides a reproducible framework with 910 task scenarios across real-world web applications, emphasizing open-ended, visually guided interactions. The tasks are modeled within a partially observable Markov decision process to assess agents’ capacity to interpret multimodal inputs, execute navigation, and accomplish user-defined objectives across complex visual and textual information on websites.
 
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur

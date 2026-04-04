@@ -9,15 +9,6 @@
     - 🔑 Key: [security], [attack], [Android], [Action Rebinding], [verification gates]
     - 📖 TLDR: This paper introduces Action Rebinding, a zero-permission Android attack that exploits the observation-to-action gap in multimodal GUI agents by changing foreground UI state before the planned action executes. Across six agents and 15 tasks it achieves 100% atomic rebinding success, and with intent alignment can also bypass confirmation-style verification gates.
 
-- [WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents](https://arxiv.org/abs/2601.08406)
-    - Xinyi Wu, Jiagui Chen, Geng Hong, Jiayi Dong, Xudong Pan, Jiarun Dai, Min Yang
-    - 🏛️ Institutions: Fudan University, Shanghai Innovation Institute
-    - 📅 Date: January 13, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [agent framework], [security evaluation], [attack]
-    - 📖 TLDR: WebTrap Park is an automated platform for systematic security evaluation of web agents that instantiates three major security risk sources into 1,226 executable tasks on live web pages, revealing that agent architecture matters more than the underlying model for security robustness.
-
 - [Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming](https://arxiv.org/abs/2510.18314)
     - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
     - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Tencent, Shanghai Jiao Tong University, Alibaba Group

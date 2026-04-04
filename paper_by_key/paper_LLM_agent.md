@@ -9,15 +9,6 @@
     - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
     - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
 
-- [ExpSeek: Self-Triggered Experience Seeking for Web Agents](https://arxiv.org/abs/2601.08605)
-    - Wenyuan Zhang, Xinghua Zhang, Haiyang Yu, Shuaiyi Nie, Bingli Wu, Juwei Yue, Tingwen Liu, Yongbin Li
-    - 🏛️ Institutions: Institute of Information Engineering, Chinese Academy of Sciences, School of Cyber Security, University of Chinese Academy of Sciences, Tongyi Lab, Alibaba Group
-    - 📅 Date: January 13, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [experience learning], [entropy-based triggering], [LLM agent], [benchmark], [framework]
-    - 📖 TLDR: ExpSeek proposes a step-level proactive experience-seeking framework for web agents that uses entropy-based self-triggering signals to determine when to intervene with tailored experience content, achieving 9.3% and 7.5% absolute improvements on Qwen3-8B and 32B models across four web agent benchmarks.
-
 - [Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning](https://arxiv.org/abs/2601.03641)
     - Zheng Wu, Xingyu Lou, Xinbei Ma, Yansi Li, Weiwen Liu, Weinan Zhang, Jun Wang, Zhuosheng Zhang
     - 🏛️ Institutions: School of Computer Science, Shanghai Jiao Tong University, OPPO Research Institute

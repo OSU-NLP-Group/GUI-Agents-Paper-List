@@ -133,10 +133,10 @@ Checklist:
 - [x] GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents
 - [x] PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records
 - [x] Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents
-- [ ] WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents
-- [ ] ExpSeek: Self-Triggered Experience Seeking for Web Agents
-- [ ] ShowUI-Aloha: Human-Taught GUI Agent
-- [ ] ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution
+- [x] WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents
+- [x] ExpSeek: Self-Triggered Experience Seeking for Web Agents
+- [x] ShowUI-Aloha: Human-Taught GUI Agent
+- [x] ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution
 - [ ] V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking
 - [ ] From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation
 - [ ] GUITester: Enabling GUI Agents for Exploratory Defect Discovery
