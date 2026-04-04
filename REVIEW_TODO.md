@@ -157,10 +157,10 @@ Checklist:
 - [x] OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models
 - [x] VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks
 - [x] Step-GUI Technical Report
-- [ ] MobileWorldBench: Towards Semantic World Modeling For Mobile Agents
-- [ ] WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment
-- [ ] Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents
-- [ ] Using GUI Agent for Electronic Design Automation
+- [x] MobileWorldBench: Towards Semantic World Modeling For Mobile Agents
+- [x] WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment
+- [x] Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents
+- [x] Using GUI Agent for Electronic Design Automation
 - [ ] AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management
 - [ ] GAIR: GUI Automation via Information-Joint Reasoning and Group Reflection
 - [ ] Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
