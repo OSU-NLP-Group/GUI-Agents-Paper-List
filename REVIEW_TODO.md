@@ -137,14 +137,14 @@ Checklist:
 - [x] ExpSeek: Self-Triggered Experience Seeking for Web Agents
 - [x] ShowUI-Aloha: Human-Taught GUI Agent
 - [x] ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution
-- [ ] V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking
-- [ ] From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation
-- [ ] GUITester: Enabling GUI Agents for Exploratory Defect Discovery
-- [ ] InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training
-- [ ] MobileDreamer: Generative Sketch World Model for GUI Agent
-- [ ] Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning
-- [ ] WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks
-- [ ] ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands
+- [x] V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking
+- [x] From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation
+- [x] GUITester: Enabling GUI Agents for Exploratory Defect Discovery
+- [x] InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training
+- [x] MobileDreamer: Generative Sketch World Model for GUI Agent
+- [x] Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning
+- [x] WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks
+- [x] ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands
 - [ ] It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents
 - [ ] DECEPTICON: How Dark Patterns Manipulate Web Agents
 - [ ] MAI-UI Technical Report: Real-World Centric Foundation GUI Agents
