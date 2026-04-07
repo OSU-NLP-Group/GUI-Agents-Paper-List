@@ -31,7 +31,7 @@
     - Chan Hee Song, Yiwen Song, Palash Goyal, Yu Su, Oriana Riva, Hamid Palangi, Tomas Pfister
     - 🏛️ Institutions: Google Cloud AI Research, The Ohio State University
     - 📅 Date: October 06, 2025
-    - 📑 Publisher: CVPR 2025
+    - 📑 Publisher: CVPR 2026
     - 💻 Env: [Desktop]
     - 🔑 Key: [training data], [video understanding], [data generation], [inverse dynamics]
     - 📖 TLDR: Watch & Learn (W&L) converts Internet computer-use videos into 53K+ executable UI trajectories by casting annotation as an inverse dynamics problem—predicting user actions from consecutive screen states—enabling scalable CUA training data collection from readily available human-recorded videos.
