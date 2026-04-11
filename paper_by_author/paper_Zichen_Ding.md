@@ -42,8 +42,8 @@
     - 📅 Date: April 14, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [General GUI]
-    - 🔑 Key: [mid-training], [task generalization], [multimodal reasoning], [textual reasoning], [GUI agent training], [GUIMid]
-    - 📖 TLDR: This paper studies whether GUI agents can improve by mid-training on non-GUI but reasoning-intensive tasks before GUI fine-tuning. It finds that task generalization is highly effective: multimodal and even text-only reasoning data substantially improve downstream WebArena and AndroidWorld performance, showing that scarce GUI trajectories can be complemented by broader reasoning data.
+    - 🔑 Key: [mid-training], [task generalization], [multimodal reasoning], [textual reasoning], [GUIMid]
+    - 📖 TLDR: This paper studies whether GUI agents benefit from a dedicated mid-training stage on non-GUI but reasoning-intensive tasks before GUI tuning. Across 11 mid-training tasks, it finds that multimodal and even text-only reasoning data can transfer strongly to downstream GUI performance on WebArena and AndroidWorld, motivating optimized non-GUI mixture design for GUI-agent training.
 
 - [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://aclanthology.org/2025.acl-long.277/)
     - Qiushi Sun, Kanzhi Cheng, Zichen Ding, Chuanyang Jin, Yian Wang, Fangzhi Xu, Zhenyu Wu, Chengyou Jia, Liheng Chen, Zhoumianze Liu, Ben Kao, Guohao Li, Junxian He, Yu Qiao, Zhiyong Wu

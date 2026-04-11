@@ -281,26 +281,25 @@ Checklist:
 - [x] Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning
 - [x] GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning
 - [x] Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents
-- [ ] WebInject: Prompt Injection Attack to Web Agents
-- [ ] A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?
-- [ ] Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation
-- [ ] Visual Test-time Scaling for GUI Agent Grounding
-- [ ] ScaleTrack: Scaling and back-tracking Automated GUI Agents
-- [ ] MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation
-- [ ] CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation
-- [ ] ReachAgent: Enhancing Mobile Agent via Page Reaching and Page Operation
-- [ ] A Survey on GUI Agents with Foundation Models Enhanced by Reinforcement Learning
-- [ ] Infogent: An Agent-Based Framework for Web Information Aggregation
-- [ ] LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects
-- [ ] WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks
-- [ ] UFO2: The Desktop AgentOS
-- [ ] InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners
-- [ ] LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark
-- [ ] TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents
-- [ ] WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms
-- [ ] REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites
-- [ ] UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis
-- [ ] Breaking the Data Barrier -- Building GUI Agents Through Task Generalization
+- [x] WebInject: Prompt Injection Attack to Web Agents
+- [x] A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?
+- [x] Visual Test-time Scaling for GUI Agent Grounding
+- [x] ScaleTrack: Scaling and back-tracking Automated GUI Agents
+- [x] MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation
+- [x] CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation
+- [x] ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation
+- [x] A Survey on GUI Agents with Foundation Models Enhanced by Reinforcement Learning
+- [x] Infogent: An Agent-Based Framework for Web Information Aggregation
+- [x] LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects
+- [x] WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks
+- [x] UFO2: The Desktop AgentOS
+- [x] InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners
+- [x] LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark
+- [x] TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents
+- [x] WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms
+- [x] REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites
+- [x] UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis
+- [x] Breaking the Data Barrier -- Building GUI Agents Through Task Generalization
 - [ ] GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents
 - [ ] RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users
 - [ ] AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents

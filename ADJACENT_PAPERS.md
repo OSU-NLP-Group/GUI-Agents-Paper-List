@@ -136,6 +136,15 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [framework], [dataset], [model], [deep research], [reflection], [voting], [agent foundation models]
     - 📖 TLDR: This work introduces **Cognitive Kernel-Pro**, a fully open-source, multi-module agent framework designed to democratize advanced AI agent development. It curates high-quality training data across four domains—web, files, code, and general reasoning—and introduces test-time strategies like reflection and voting to enhance robustness. Evaluated on the GAIA benchmark, its open 8B-parameter model outperforms previous open-source agents such as WebDancer and WebSailor, setting a new performance standard. Code is publicly available.
 
+- [Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation](https://arxiv.org/abs/2505.11604)
+    - Kyudan Jung, Hojun Cho, Jooyeol Yun, Soyoung Yang, Jaehyeok Jang, Jaegul Choo
+    - 🏛️ Institutions: Chung-ang University, KAIST AI
+    - 📅 Date: May 16, 2025
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [benchmark], [structured data manipulation], [slide editing], [object model editing], [TSBench]
+    - 📖 TLDR: Talk to Your Slides targets slide editing through language-driven manipulation of the underlying document object model rather than GUI-native visual interaction. It is relevant to GUI work because it compares against GUI-based baselines and introduces the TSBench benchmark, but its primary interaction mechanism is structured document editing rather than direct GUI control.
+
 - [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
     - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
     - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
