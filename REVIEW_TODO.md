@@ -5,7 +5,7 @@ This queue is the canonical manual-review tracker for `ALL_PAPERS.md`.
 Rules:
 - Only mark an item complete after a source-backed manual read of the paper content and a review of `Title`, `Institutions`, `Date`, `Publisher`, `Env`, `Key`, and `TLDR`.
 - Do not pre-check items based on prior ad-hoc edits; unchecked means the paper still needs a strict pass under this tracker.
-- Total papers currently tracked: 527
+- Total papers currently tracked: 526
 
 Checklist:
 
@@ -183,8 +183,7 @@ Checklist:
 - [x] PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction
 - [x] WebServ: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale
 - [x] CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs
-- [ ] Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms
-- [ ] In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers
+- [x] In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers
 - [x] HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities
 - [x] WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent
 - [x] SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents
@@ -225,12 +224,12 @@ Checklist:
 - [x] UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
 - [x] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control
 - [x] Throttling Web Agents Using Reasoning Gates
-- [ ] A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants
-- [ ] CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning
-- [ ] Mobile-Agent-v3: Fundamental Agents for GUI Automation
-- [ ] ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents
-- [ ] WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]
-- [ ] You Don’t Know Until You Click: Automated GUI Testing for Production-Ready Software Evaluation
+- [x] A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants
+- [x] CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning
+- [x] Mobile-Agent-v3: Fundamental Agents for GUI Automation
+- [x] ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents
+- [x] WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]
+- [x] You Don’t Know Until You Click: Automated GUI Testing for Production-Ready Software Evaluation
 - [ ] UI-Venus Technical Report: Building High-performance UI Agents with RFT
 - [ ] MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents
 - [ ] OpenCUA: Open Foundations for Computer-Use Agents

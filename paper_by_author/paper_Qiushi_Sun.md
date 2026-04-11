@@ -24,8 +24,8 @@
     - 📅 Date: August 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [reinforcement learning], [planning], [dual-system cognition]
-    - 📖 TLDR: CODA (Coordinating the Cerebrum and Cerebellum) is a dual-brain framework for CUAs in specialized domains that decouples planning (cerebrum) from execution (cerebellum) and trains them jointly via decoupled reinforcement learning, enabling adaptive coordination of long-horizon planning with precise GUI execution.
+    - 🔑 Key: [dual-brain architecture], [decoupled GRPO], [planner-executor coordination], [ScienceBoard], [specialization-to-generalization], [CODA]
+    - 📖 TLDR: CODA is a trainable planner-executor composition for specialized computer-use tasks, where a generalist planner is paired with a specialist executor and improved through a two-stage specialization-then-generalization pipeline. On ScienceBoard's scientific software tasks, it uses decoupled GRPO to train application-specific planners and then consolidates successful trajectories into a stronger cross-domain planner.
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu

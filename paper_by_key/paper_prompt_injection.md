@@ -51,8 +51,8 @@
     - 📅 Date: October 15, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [security], [prompt injection], [fuzzing], [attack]
-    - 📖 TLDR: Presents an in-browser LLM-guided fuzzing framework that automatically discovers prompt injection vulnerabilities in agentic AI browsers, finding that while tested tools block simple attacks, they fail 58-74% of the time after 10 adaptive fuzzing iterations, with page summarization and Q&A features being particularly vulnerable (73% and 71% attack success rates).
+    - 🔑 Key: [prompt injection], [in-browser fuzzing], [feedback-guided fuzzing], [progressive evasion], [page summarization], [question answering]
+    - 📖 TLDR: This paper studies prompt-injection testing for agentic AI browsers with an LLM-guided fuzzing loop that runs inside a real browser and mutates malicious pages using immediate attack feedback. It reports that simple attacks are usually blocked, but adaptive mutations drive failure rates to 58-74% by the tenth iteration, with page summarization and question-answering features showing the highest risk.
 
 - [WebInject: Prompt Injection Attack to Web Agents](https://arxiv.org/abs/2505.11717)
     - Xilong Wang, John Bloch, Zedian Shao, Yuepeng Hu, Shuyan Zhou, Neil Zhenqiang Gong
