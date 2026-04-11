@@ -261,16 +261,16 @@ Checklist:
 - [x] UI-Evol: Automatic Knowledge Evolving for Computer Use Agents
 - [x] WebDancer: Towards Autonomous Information Seeking Agency
 - [x] RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments
-- [ ] BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism
-- [ ] UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents
-- [ ] XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level
-- [ ] LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS
-- [ ] ProgRM: Build Better GUI Agents with Progress Rewards
-- [ ] Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach
-- [ ] ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay
-- [ ] GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent
-- [ ] WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning
-- [ ] Web-Shepherd: Advancing PRMs for Reinforcing Web Agents
+- [x] BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism
+- [x] UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents
+- [x] XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level
+- [x] LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS
+- [x] ProgRM: Build Better GUI Agents with Progress Rewards
+- [x] Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach
+- [x] ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay
+- [x] GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent
+- [x] WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning
+- [x] Web-Shepherd: Advancing PRMs for Reinforcing Web Agents
 - [ ] GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents
 - [ ] ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search
 - [ ] Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent
