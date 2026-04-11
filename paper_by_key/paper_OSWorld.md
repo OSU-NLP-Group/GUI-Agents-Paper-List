@@ -63,15 +63,6 @@
     - 🔑 Key: [framework], [reinforcement learning], [RLVR], [off-policy assimilation], [BEPA], [OSWorld]
     - 📖 TLDR: BEPA improves end-to-end GUI-agent training with verifiable rewards by turning scarce off-policy expert traces into policy-aligned guidance through self-rolled reachable trajectories and a dynamically updated per-task cache. On OSWorld-Verified it raises UI-TARS-1.5-7B from 22.87% to 32.13%, with additional gains on MMBench-GUI and Online-Mind2Web.
 
-- [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
-    - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
-    - 🏛️ Institutions: Apple, The University of Hong Kong
-    - 📅 Date: October 20, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [OSWorld], [WindowsAgentArena], [UltraCUA]
-    - 📖 TLDR: UltraCUA is a foundation computer-use model that combines primitive GUI actions with higher-level tool calls, supported by automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online reinforcement learning. This hybrid action setup improves both robustness and efficiency, yielding strong gains on OSWorld and good transfer to WindowsAgentArena.
-
 - [R-WoM: Retrieval-augmented World Model For Computer-use Agents](https://arxiv.org/abs/2510.11892)
     - Kai Mei, Jiang Guo, Shuaichen Chang, Mingwen Dong, Dongkyu Lee, Xing Niu, Jiarong Jiang
     - 🏛️ Institutions: Rutgers University, AWS Agentic AI

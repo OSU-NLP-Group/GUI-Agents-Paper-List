@@ -67,19 +67,19 @@
     - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
     - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Tencent, Shanghai Jiao Tong University, Alibaba Group
     - 📅 Date: October 21, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICME 2026
     - 💻 Env: [Web]
-    - 🔑 Key: [safety], [benchmark], [attack], [LLM], [red-teaming]
-    - 📖 TLDR: Genesis is an agentic red-teaming framework for LLM web agents that uses genetic algorithms and a dynamic strategy library (Attacker, Scorer, Strategist modules) to automatically evolve and discover adversarial injection attacks, consistently outperforming existing attack baselines across diverse web tasks.
+    - 🔑 Key: [safety], [attack], [prompt injection], [genetic algorithm], [red-teaming], [Genesis]
+    - 📖 TLDR: Genesis studies automated red-teaming for web agents by evolving attack strategies over repeated interactions instead of relying on fixed prompts or manually designed attacks. Its attacker-scorer-strategist loop builds and reuses a growing strategy library, yielding stronger adversarial injections across web tasks.
 
 - [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
     - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
     - 🏛️ Institutions: Purdue University, Florida International University, Georgia Institute of Technology
     - 📅 Date: October 20, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: IEEE S&P 2026
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [LLM agent], [dark patterns], [evaluation]
-    - 📖 TLDR: This paper presents the first study on how dark patterns (deceptive UI designs) affect LLM-based web agents, introducing TrickyArena as a controlled benchmark environment and finding that agents are susceptible to dark patterns an average of 41% of the time across six popular web agent frameworks and three LLMs.
+    - 🔑 Key: [benchmark], [safety], [dark patterns], [TrickyArena], [LiteAgent]
+    - 📖 TLDR: This paper studies how deceptive interface designs affect web agents, introducing LiteAgent for controlled execution and TrickyArena as a dark-pattern test environment. Across six agent frameworks and three underlying models, it finds that agents are frequently steered by dark patterns and that both visual and HTML-level manipulations can change susceptibility.
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, Mike Zheng Shou

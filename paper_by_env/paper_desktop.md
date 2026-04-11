@@ -43,15 +43,6 @@
     - 🔑 Key: [reward model], [execution video], [trajectory evaluation], [spatiotemporal token pruning], [ExeVR-53k], [ExeVRM]
     - 📖 TLDR: This paper studies reward modeling from execution video rather than agent internals, introducing the ExeVR-53k dataset and an execution-video reward model that predicts success from keyframes plus the user instruction. The model scales evaluation across Ubuntu, macOS, Windows, and Android, outperforming strong proprietary models while providing finer temporal attribution.
 
-- [AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem](https://arxiv.org/abs/2603.08938)
-    - Rui Liu, Tao Zhe, Dongjie Wang, Zijun Yao, Kunpeng Liu, Yanjie Fu, Huan Liu, Jian Pei
-    - 🏛️ Institutions: University of Kansas, Clemson University
-    - 📅 Date: March 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [operating system], [natural user interface], [agent kernel], [skill modules], [knowledge discovery], [AgentOS]
-    - 📖 TLDR: AgentOS proposes replacing application silos and traditional desktops with a natural-language-driven operating system centered on an Agent Kernel and modular skill components. The paper frames this system as a knowledge discovery problem involving intent mining, workflow automation, recommender systems, and personal knowledge graphs.
-
 - [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
     - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
     - 🏛️ Institutions: University of Illinois Urbana-Champaign, Stevens Institute of Technology
@@ -69,6 +60,15 @@
     - 💻 Env: [Desktop], [Mobile]
     - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
     - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
+
+- [AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem](https://arxiv.org/abs/2603.08938)
+    - Rui Liu, Tao Zhe, Dongjie Wang, Zijun Yao, Kunpeng Liu, Yanjie Fu, Huan Liu, Jian Pei
+    - 🏛️ Institutions: University of Kansas, Clemson University
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [operating system], [natural user interface], [agent kernel], [skill modules], [knowledge discovery], [AgentOS]
+    - 📖 TLDR: AgentOS proposes replacing application silos and traditional desktops with a natural-language-driven operating system centered on an Agent Kernel and modular skill components. The paper frames this system as a knowledge discovery problem involving intent mining, workflow automation, recommender systems, and personal knowledge graphs.
 
 - [IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents](https://arxiv.org/abs/2602.17049)
     - Seoyoung Lee, Seobin Yoon, Seongbeen Lee, Yoojung Chun, Dayoung Park, Doyeon Kim, Joo Yong Sim
@@ -248,7 +248,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [reward model], [outcome reward model], [process reward model], [expert annotation], [CUARewardBench], [UPE]
-    - 📖 TLDR: CUARewardBench is a benchmark for evaluating both outcome and process reward models on desktop computer-use trajectories, with expert annotations covering 10 software categories and 7 agent architectures. It shows that current reward models remain unreliable for CUA evaluation, and that the proposed unanimous prompt ensemble improves precision for both ORM and PRM settings.
+    - 📖 TLDR: CUARewardBench benchmarks both outcome and process reward models for desktop computer-use evaluation using expert-annotated trajectories from 10 software categories and 7 agent architectures. It shows that current reward models are still unreliable and introduces Unanimous Prompt Ensemble (UPE) to improve reward-model precision.
 
 - [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
     - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
@@ -256,8 +256,8 @@
     - 📅 Date: October 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [OSWorld], [WindowsAgentArena], [UltraCUA]
-    - 📖 TLDR: UltraCUA is a foundation computer-use model that combines primitive GUI actions with higher-level tool calls, supported by automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online reinforcement learning. This hybrid action setup improves both robustness and efficiency, yielding strong gains on OSWorld and good transfer to WindowsAgentArena.
+    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [UltraCUA]
+    - 📖 TLDR: UltraCUA bridges low-level GUI actions and higher-level tool use in one computer-use model instead of forcing every task through clicks, typing, and scrolling alone. Its pipeline combines automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online RL, and the resulting hybrid-action models improve both OSWorld performance and transfer to WindowsAgentArena.
 
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao

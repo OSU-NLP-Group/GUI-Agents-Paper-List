@@ -63,24 +63,6 @@
     - 🔑 Key: [tree search], [backtracking], [action safety], [WebArena], [WebOperator]
     - 📖 TLDR: WebOperator adds action-aware tree search to web agents, combining best-first exploration with safety-aware action ranking and verified backtracking before replaying prior paths. It also diversifies and filters candidate actions before execution, and reaches a reported 54.6% success rate on WebArena with GPT-4o.
 
-- [WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation](https://arxiv.org/abs/2510.19205)
-    - Yaoyao Qian, Yuanli Wang, Jinda Zhang, Yun Zong, Meixu Chen, Hanhan Zhou, Jindan Huang, Yifan Zeng, Xinyu Hu, Chan Hee Song, Danqing Zhang
-    - 🏛️ Institutions: Northeastern University, Boston University, University of Victoria, University of Minnesota, George Washington University, Tufts University, Oregon State University, University of Texas at San Antonio, The Ohio State University, PathOnAI.org
-    - 📅 Date: October 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [evaluation], [trajectory analysis], [WebArena], [multi-agent]
-    - 📖 TLDR: WebGraphEval introduces a graph-based framework that abstracts multi-agent web interaction trajectories into unified weighted action graphs, enabling multi-path, cross-agent, and efficiency-aware evaluation beyond binary success metrics on benchmarks like WebArena.
-
-- [WEBSERV: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale](https://arxiv.org/abs/2510.16252)
-    - Yuxuan Lu, Jing Huang, Hui Liu, Jiri Gesi, Yan Han, Shihan Fu, Tianqi Zheng, Dakuo Wang
-    - 🏛️ Institutions: Northeastern University, Amazon
-    - 📅 Date: October 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [reinforcement learning], [training framework], [benchmark], [WebArena], [scalability]
-    - 📖 TLDR: WEBSERV proposes a scalable browser-server environment for training and evaluating RL-based web agents, featuring a compact site-agnostic browser environment and efficient web-server launching/resetting that achieves state-of-the-art success rates on WebArena tasks while cutting launch latency by ~5x and storage by ~240x, enabling 200+ concurrent containers on a single host.
-
 - [R-WoM: Retrieval-augmented World Model For Computer-use Agents](https://arxiv.org/abs/2510.11892)
     - Kai Mei, Jiang Guo, Shuaichen Chang, Mingwen Dong, Dongkyu Lee, Xing Niu, Jiarong Jiang
     - 🏛️ Institutions: Rutgers University, AWS Agentic AI
@@ -117,15 +99,6 @@
     - 🔑 Key: [reinforcement learning], [multi-turn interaction], [WebArena], [chain-of-thought], [test-time scaling]
     - 📖 TLDR: WebAgent-R1 is an end-to-end multi-turn reinforcement learning framework for training web agents that learns from online interactions with web environments using binary task-success rewards, boosting Llama-3.1-8B's success rate on WebArena-Lite from 8.5% to 44.8% and surpassing proprietary models like OpenAI o3.
 
-- [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
-    - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
-    - 📅 Date: April 09, 2025
-    - 📑 Publisher: COLM 2025
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [model], [benchmark], [learning], [reasoning], [planning], [ASI], [WebArena]
-    - 📖 TLDR: Proposes Agent Skill Induction (ASI), which induces executable program skills from web interaction experience and reuses them online as tasks evolve. Program-based skills make verification possible during induction, improving both WebArena success rate and step efficiency over static agents and text-skill alternatives while also transferring better across websites.
-
 - [SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills](https://arxiv.org/abs/2504.07079)
     - Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su
     - 🏛️ Institutions: The Ohio State University, Carnegie Mellon University, University of Virginia, Purdue University, Cisco Research
@@ -134,6 +107,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [API synthesis], [skill discovery], [transfer learning], [WebArena]
     - 📖 TLDR: SkillWeaver is a framework that enables web agents to autonomously improve by discovering, practicing, and refining reusable skills, encapsulated as APIs. Through iterative exploration, agents build a library of plug-and-play APIs, enhancing their capabilities. Experiments on WebArena and real-world websites demonstrate significant performance improvements, and the synthesized APIs can be shared among agents to boost overall performance.
+
+- [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
+    - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
+    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
+    - 📅 Date: April 09, 2025
+    - 📑 Publisher: COLM 2025
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [model], [benchmark], [learning], [reasoning], [planning], [ASI], [WebArena]
+    - 📖 TLDR: Proposes Agent Skill Induction (ASI), which induces executable program skills from web interaction experience and reuses them online as tasks evolve. Program-based skills make verification possible during induction, improving both WebArena success rate and step efficiency over static agents and text-skill alternatives while also transferring better across websites.
 
 - [Beyond Browsing: API-Based Web Agents](https://aclanthology.org/2025.findings-acl.577/)
     - Yueqi Song, Frank Xu, Shuyan Zhou, Graham Neubig

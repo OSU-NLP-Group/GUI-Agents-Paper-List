@@ -34,7 +34,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [reward model], [outcome reward model], [process reward model], [expert annotation], [CUARewardBench], [UPE]
-    - 📖 TLDR: CUARewardBench is a benchmark for evaluating both outcome and process reward models on desktop computer-use trajectories, with expert annotations covering 10 software categories and 7 agent architectures. It shows that current reward models remain unreliable for CUA evaluation, and that the proposed unanimous prompt ensemble improves precision for both ORM and PRM settings.
+    - 📖 TLDR: CUARewardBench benchmarks both outcome and process reward models for desktop computer-use evaluation using expert-annotated trajectories from 10 software categories and 7 agent architectures. It shows that current reward models are still unreliable and introduces Unanimous Prompt Ensemble (UPE) to improve reward-model precision.
 
 - [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
     - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li

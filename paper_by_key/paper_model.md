@@ -33,8 +33,8 @@
     - 📅 Date: October 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [OSWorld], [WindowsAgentArena], [UltraCUA]
-    - 📖 TLDR: UltraCUA is a foundation computer-use model that combines primitive GUI actions with higher-level tool calls, supported by automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online reinforcement learning. This hybrid action setup improves both robustness and efficiency, yielding strong gains on OSWorld and good transfer to WindowsAgentArena.
+    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [UltraCUA]
+    - 📖 TLDR: UltraCUA bridges low-level GUI actions and higher-level tool use in one computer-use model instead of forcing every task through clicks, typing, and scrolling alone. Its pipeline combines automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online RL, and the resulting hybrid-action models improve both OSWorld performance and transfer to WindowsAgentArena.
 
 - [Mobile-Agent-v3: Fundamental Agents for GUI Automation](https://arxiv.org/abs/2508.15144)
     - Jiabo Ye, Xi Zhang, Haiyang Xu, Haowei Liu, Junyang Wang, Zhaoqing Zhu, Ziwei Zheng, Feiyu Gao, Junjie Cao, Zhengxi Lu, Jitong Liao, Qi Zheng, Fei Huang, Jingren Zhou, Ming Yan

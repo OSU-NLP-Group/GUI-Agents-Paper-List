@@ -22,19 +22,10 @@
     - Yaoyao Qian, Yuanli Wang, Jinda Zhang, Yun Zong, Meixu Chen, Hanhan Zhou, Jindan Huang, Yifan Zeng, Xinyu Hu, Chan Hee Song, Danqing Zhang
     - 🏛️ Institutions: Northeastern University, Boston University, University of Victoria, University of Minnesota, George Washington University, Tufts University, Oregon State University, University of Texas at San Antonio, The Ohio State University, PathOnAI.org
     - 📅 Date: October 22, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: NeurIPS 2025 Workshop on Multi-Turn Interactions in Large Language Models
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [evaluation], [trajectory analysis], [WebArena], [multi-agent]
-    - 📖 TLDR: WebGraphEval introduces a graph-based framework that abstracts multi-agent web interaction trajectories into unified weighted action graphs, enabling multi-path, cross-agent, and efficiency-aware evaluation beyond binary success metrics on benchmarks like WebArena.
-
-- [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
-    - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
-    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Institute of Technology
-    - 📅 Date: October 20, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [LLM agent], [dark patterns], [evaluation]
-    - 📖 TLDR: This paper presents the first study on how dark patterns (deceptive UI designs) affect LLM-based web agents, introducing TrickyArena as a controlled benchmark environment and finding that agents are susceptible to dark patterns an average of 41% of the time across six popular web agent frameworks and three LLMs.
+    - 🔑 Key: [evaluation], [trajectory analysis], [weighted action graph], [multi-path evaluation], [WebGraphEval]
+    - 📖 TLDR: WebGraphEval evaluates web agents by converting many interaction trajectories into a unified weighted action graph instead of scoring only final success or conformity to one reference path. This graph view highlights redundancy, inefficiency, and critical decision points across agents and benchmark runs.
 
 - [WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]](https://arxiv.org/abs/2508.13024)
     - Ralph Peeters, Aaron Steiner, Luca Schwarz, Julian Yuya Caspary, Christian Bizer

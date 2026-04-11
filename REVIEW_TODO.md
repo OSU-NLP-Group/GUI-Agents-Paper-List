@@ -175,14 +175,14 @@ Checklist:
 - [x] WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation
 - [x] VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos
 - [x] Surfer 2: The Next Generation of Cross-Platform Computer Use Agents
-- [ ] WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation
-- [ ] Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming
-- [ ] CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent
-- [ ] UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action
-- [ ] Investigating the Impact of Dark Patterns on LLM-Based Web Agents
-- [ ] PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction
-- [ ] WEBSERV: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale
-- [ ] CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs
+- [x] WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation
+- [x] Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming
+- [x] CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent
+- [x] UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action
+- [x] Investigating the Impact of Dark Patterns on LLM-Based Web Agents
+- [x] PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction
+- [x] WebServ: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale
+- [x] CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs
 - [ ] Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms
 - [ ] In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers
 - [x] HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities
