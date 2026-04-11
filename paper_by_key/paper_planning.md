@@ -63,23 +63,14 @@
     - 🔑 Key: [rollback mechanism], [backtracking], [planning], [Mind2Web-Live], [WebVoyager], [WebRollback]
     - 📖 TLDR: WebRollback gives web agents an explicit way to revert to earlier states in a navigation trajectory instead of following a purely greedy one-way search. Evaluated on Mind2Web-Live and WebVoyager in both zero-shot and fine-tuned settings, the rollback mechanism improves live web navigation effectiveness and efficiency.
 
-- [LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications](https://aclanthology.org/2025.naacl-demo.16/)
+- [LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications](https://aclanthology.org/2025.naacl-demo.36/)
     - Danqing Zhang, Balaji Rama, Jingyi Ni, Shiying He, Fu Zhao, Kunyu Chen, Arnold Chen, Junyu Cao
     - 🏛️ Institutions: PathOnAI.org, Rutgers University, The University of Texas at Austin
     - 📅 Date: March 04, 2025
     - 📑 Publisher: NAACL 2025 System Demonstrations
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [planning], [memory], [tree search], [LiteWebAgent]
-    - 📖 TLDR: LiteWebAgent is an open-source suite designed for VLM-based web agent applications. It offers a modular framework that decouples action generation from grounding, supports agent planning, memory, and tree search, and is deployable via a Vercel-based web app or a Chrome extension using the Chrome DevTools Protocol (CDP).
-
-- [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047)
-    - Henry Hengyuan Zhao, Kaiming Yang, Wendi Yu, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
-    - 📅 Date: February 12, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [benchmark], [dynamic initial state], [planning], [robustness], [GUI-Thinker], [WorldGUI]
-    - 📖 TLDR: WorldGUI evaluates GUI agents under diverse non-default starting states instead of only canonical initial setups, exposing brittle planning and poor recovery when interfaces are partially configured or mid-workflow. The paper also proposes GUI-Thinker, a critique-driven framework that improves robustness in these dynamic settings.
+    - 🔑 Key: [framework], [planning], [workflow memory], [tree search], [CDP], [LiteWebAgent]
+    - 📖 TLDR: LiteWebAgent is an open-source suite for web-agent applications built around a modular framework that decouples action generation from action grounding. It integrates planning, workflow memory, and tree search, and ships both as a remote-browser web app and as a Chrome extension controlled through CDP.
 
 - [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html)
     - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin

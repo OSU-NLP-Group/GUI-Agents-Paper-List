@@ -145,6 +145,15 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [benchmark], [structured data manipulation], [slide editing], [object model editing], [TSBench]
     - 📖 TLDR: Talk to Your Slides targets slide editing through language-driven manipulation of the underlying document object model rather than GUI-native visual interaction. It is relevant to GUI work because it compares against GUI-based baselines and introduces the TSBench benchmark, but its primary interaction mechanism is structured document editing rather than direct GUI control.
 
+- [Magma: A Foundation Model for Multimodal AI Agents](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html)
+    - Jianwei Yang, Reuben Tan, Qianhui Wu, Ruijie Zheng, Baolin Peng, Yongyuan Liang, Yu Gu, Mu Cai, Seonghyeon Ye, Joel Jang, Yuquan Deng, Lars Liden, Jianfeng Gao
+    - 🏛️ Institutions: Microsoft Research, University of Maryland, University of Wisconsin-Madison, KAIST, University of Washington
+    - 📅 Date: February 18, 2025
+    - 📑 Publisher: CVPR 2025
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [model], [foundation model], [SoM], [ToM], [UI navigation], [robot manipulation], [Magma]
+    - 📖 TLDR: Magma is a multimodal foundation model for agentic tasks spanning digital and physical environments rather than a GUI-specific paper. It is relevant here because it reports strong UI navigation results and uses Set-of-Mark and Trace-of-Mark supervision, but its main contribution is a broader agentic model covering robotics as well as GUI tasks.
+
 - [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
     - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
     - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong

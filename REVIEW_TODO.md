@@ -313,26 +313,25 @@ Checklist:
 - [x] A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models
 - [x] Towards Trustworthy GUI Agents: A Survey
 - [x] UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning
-- [ ] sudo rm -rf agentic_security
-- [ ] VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification
-- [ ] Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment
-- [ ] UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction
-- [ ] STEVE: A Step Verification Pipeline for Computer-use Agent Training
-- [ ] DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents
-- [ ] MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents
-- [ ] AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents
-- [ ] In-Context Defense in Computer Agents: An Empirical Study
-- [ ] BEARCUBS: A benchmark for computer-using web agents
-- [ ] Think Twice, Click Once: Enhancing GUI Grounding via Fast and Slow Systems
-- [ ] SpiritSight Agent: Advanced GUI Agent with One Look
-- [ ] LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications
-- [ ] Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis
-- [ ] Programming with Pixels: Can Computer-Use Agents do Software Engineering?
-- [ ] Evaluating the Robustness of Multimodal Agents Against Active Environmental Injection Attacks
-- [ ] Magma: A Foundation Model for Multimodal AI Agents
-- [ ] Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
-- [ ] WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point
-- [ ] Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning
+- [x] sudo rm -rf agentic_security
+- [x] VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification
+- [x] Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment
+- [x] UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction
+- [x] STEVE: A Step Verification Pipeline for Computer-use Agent Training
+- [x] DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents
+- [x] MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents
+- [x] AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents
+- [x] In-Context Defense in Computer Agents: An Empirical Study
+- [x] BEARCUBS: A benchmark for computer-using web agents
+- [x] Think Twice, Click Once: Enhancing GUI Grounding via Fast and Slow Systems
+- [x] SpiritSight Agent: Advanced GUI Agent with One Look
+- [x] LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications
+- [x] Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis
+- [x] Programming with Pixels: Can Computer-Use Agents do Software Engineering?
+- [x] Evaluating the Robustness of Multimodal Agents Against Active Environmental Injection Attacks
+- [x] Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
+- [x] WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point
+- [x] Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning
 - [ ] AppVLM: A Lightweight Vision Language Model for Online App Control
 - [ ] MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users
 - [ ] UI-TARS: Pioneering Automated GUI Interaction with Native Agents

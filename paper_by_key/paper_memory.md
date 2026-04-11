@@ -63,15 +63,6 @@
     - 🔑 Key: [framework], [dataset], [memory], [adaptive planning], [MobBench], [MobA]
     - 📖 TLDR: MobA is a mobile assistant system for complex GUI tasks in dynamic app contexts where execution capabilities vary across pages. It combines reflection-based adaptive planning with a multifaceted memory module, and introduces the MobBench dataset for complex mobile interactions alongside results on MobBench and AndroidArena.
 
-- [LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications](https://aclanthology.org/2025.naacl-demo.16/)
-    - Danqing Zhang, Balaji Rama, Jingyi Ni, Shiying He, Fu Zhao, Kunyu Chen, Arnold Chen, Junyu Cao
-    - 🏛️ Institutions: PathOnAI.org, Rutgers University, The University of Texas at Austin
-    - 📅 Date: March 04, 2025
-    - 📑 Publisher: NAACL 2025 System Demonstrations
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [planning], [memory], [tree search], [LiteWebAgent]
-    - 📖 TLDR: LiteWebAgent is an open-source suite designed for VLM-based web agent applications. It offers a modular framework that decouples action generation from grounding, supports agent planning, memory, and tree search, and is deployable via a Vercel-based web app or a Chrome extension using the Chrome DevTools Protocol (CDP).
-
 - [Agent Workflow Memory](https://proceedings.mlr.press/v267/wang25bx.html)
     - Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
     - 🏛️ Institutions: Carnegie Mellon University, Massachusetts Institute of Technology
