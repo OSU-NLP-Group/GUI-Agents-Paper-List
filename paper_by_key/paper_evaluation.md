@@ -54,15 +54,6 @@
     - 🔑 Key: [benchmark], [safety], [LLM agent], [dark patterns], [evaluation]
     - 📖 TLDR: This paper presents the first study on how dark patterns (deceptive UI designs) affect LLM-based web agents, introducing TrickyArena as a controlled benchmark environment and finding that agents are susceptible to dark patterns an average of 41% of the time across six popular web agent frameworks and three LLMs.
 
-- [SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents](https://arxiv.org/abs/2510.10073)
-    - Zonghao Ying, Yangguang Shao, Jianle Gan, Gan Xu, Junjie Shen, Wenxin Zhang, Quanchen Zou, Junzheng Shi, Zhenfei Yin, Mingchuan Zhang, Aishan Liu, Xianglong Liu
-    - 🏛️ Institutions: SKLCCSE, Beihang University, Institute of Information Engineering, Chinese Academy of Sciences, China University of Petroleum (East China), Zhejiang University of Technology, University of Chinese Academy of Science, 360 AI Security Lab, The University of Sydney, Henan University of Science and Technology, Zhongguancun Laboratory, Institute of Dataspace
-    - 📅 Date: October 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [attack], [VLM], [evaluation]
-    - 📖 TLDR: SecureWebArena is a security benchmark for LVLM-based web agents that expands beyond narrow prompt-manipulation settings to six realistic web environments, 2,970 trajectories, and six attack vectors spanning both user-level and environment-level manipulations. Its evaluation protocol separates failures in reasoning, behavior, and task outcome, and the benchmark shows that all tested agents remain vulnerable to subtle adversarial attacks.
-
 - [Scaling Agents for Computer Use](https://arxiv.org/abs/2510.02250)
     - Gonzalo Gonzalez-Pumariega, Vincent Tu, Chih-Lun Lee, Jiachen Yang, Ang Li, Xin Eric Wang
     - 🏛️ Institutions: Simular AI, UCSB, Cornell

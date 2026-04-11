@@ -27,15 +27,6 @@
     - 🔑 Key: [security], [prompt injection], [fuzzing], [attack]
     - 📖 TLDR: Presents an in-browser LLM-guided fuzzing framework that automatically discovers prompt injection vulnerabilities in agentic AI browsers, finding that while tested tools block simple attacks, they fail 58-74% of the time after 10 adaptive fuzzing iterations, with page summarization and Q&A features being particularly vulnerable (73% and 71% attack success rates).
 
-- [SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents](https://arxiv.org/abs/2510.10073)
-    - Zonghao Ying, Yangguang Shao, Jianle Gan, Gan Xu, Junjie Shen, Wenxin Zhang, Quanchen Zou, Junzheng Shi, Zhenfei Yin, Mingchuan Zhang, Aishan Liu, Xianglong Liu
-    - 🏛️ Institutions: SKLCCSE, Beihang University, Institute of Information Engineering, Chinese Academy of Sciences, China University of Petroleum (East China), Zhejiang University of Technology, University of Chinese Academy of Science, 360 AI Security Lab, The University of Sydney, Henan University of Science and Technology, Zhongguancun Laboratory, Institute of Dataspace
-    - 📅 Date: October 11, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [attack], [VLM], [evaluation]
-    - 📖 TLDR: SecureWebArena is a security benchmark for LVLM-based web agents that expands beyond narrow prompt-manipulation settings to six realistic web environments, 2,970 trajectories, and six attack vectors spanning both user-level and environment-level manipulations. Its evaluation protocol separates failures in reasoning, behavior, and task outcome, and the benchmark shows that all tested agents remain vulnerable to subtle adversarial attacks.
-
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
     - 🏛️ Institutions: University of Georgia, University of Wisconsin–Madison, Johns Hopkins University, University of Maryland, College Park, Hong Kong University of Science and Technology, Chinese University of Hong Kong, Apple, Arizona State University

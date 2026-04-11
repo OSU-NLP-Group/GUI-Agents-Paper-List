@@ -78,8 +78,8 @@
     - 📅 Date: October 14, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [security], [web vulnerabilities], [penetration testing], [CTF], [HackWorld]
-    - 📖 TLDR: HackWorld evaluates whether web-facing computer-use agents can identify and exploit realistic web vulnerabilities through interactive browser use instead of sanitized security tasks. Across 36 vulnerable applications, current agents achieve very low exploitation rates, exposing major weaknesses in security reasoning, planning, and tool use.
+    - 🔑 Key: [benchmark], [security], [web vulnerabilities], [CTF], [penetration testing], [HackWorld]
+    - 📖 TLDR: HackWorld uses a CTF-style setup over 36 vulnerable web applications spanning 11 frameworks and 7 languages to test whether computer-use agents can discover and exploit realistic web flaws through GUI interaction. Current agents achieve exploitation rates below 12% and often fail at multi-step attack planning and security-tool use.
 
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao

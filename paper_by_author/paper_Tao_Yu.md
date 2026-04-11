@@ -22,10 +22,10 @@
     - Tao Yu, Zhengbo Zhang, Zhiheng Lyu, Junhao Gong, Hongzhu Yi, Xinming Wang, Yuxuan Zhou, Jiabing Yang, Ping Nie, Yan Huang, Wenhu Chen
     - 🏛️ Institutions: Chinese Academy of Sciences, University of Waterloo, Peking University, Tsinghua University, Independent Researcher
     - 📅 Date: October 12, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: TMLR
     - 💻 Env: [Web]
-    - 🔑 Key: [browser automation], [SFT], [rejection fine-tuning], [memory mechanism], [open-domain QA]
-    - 📖 TLDR: BrowserAgent is a web agent framework that uses human-inspired browser actions (scrolling, clicking, typing) via Playwright to solve complex tasks, trained with a two-stage SFT+RFT pipeline and an explicit memory mechanism, achieving ~20% improvement over Search-R1 on multi-hop QA benchmarks.
+    - 🔑 Key: [human-inspired actions], [Playwright], [rejection fine-tuning], [multi-hop QA], [BrowserAgent]
+    - 📖 TLDR: BrowserAgent is a browser-native web agent that uses Playwright actions such as scrolling, clicking, typing, and tab management instead of converting pages into static text summaries. With a two-stage SFT plus rejection fine-tuning pipeline and an explicit memory mechanism, BrowserAgent-7B improves multi-hop QA performance by about 20% over Search-R1.
 
 - [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123)
     - Xinyuan Wang, Bowen Wang, Dunjie Lu, Junlin Yang, Tianbao Xie, Junli Wang, Jiaqi Deng, Xiaole Guo, Yiheng Xu, Chen Henry Wu, Zhennan Shen, Zhuokai Li, Ryan Li, Xiaochuan Li, Junda Chen, Boyuan Zheng, Peihang Li, Fangyu Lei, Ruisheng Cao, Yeqiao Fu, Dongchan Shin, Martin Shin, Jiarui Hu, Yuyan Wang, Jixuan Chen, Yuxiao Ye, Danyang Zhang, Dikang Du, Hao Hu, Huarong Chen, Zaida Zhou, Haotian Yao, Ziwei Chen, Qizheng Gu, Yipu Wang, Heng Wang, Diyi Yang, Victor Zhong, Flood Sung, Y.Charles, Zhilin Yang, Tao Yu

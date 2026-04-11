@@ -45,12 +45,12 @@
 
 - [Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation](https://arxiv.org/abs/2510.11977)
     - Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S. Siegel, Boyi Wei, Tianci Xue, Ziru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, Botao Yu, Amit Arora, Dongyoon Hahm, Harsh Trivedi, Huan Sun, Juyong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, Dawn Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan
-    - 🏛️ Institutions: Princeton University, Independent Researcher, The Ohio State University, Microsoft Research, Amazon, Georgetown University, KAIST, Stony Brook University, University of Illinois Urbana-Champaign, Stanford University, xAI, University of California, Berkeley, Cornflower Labs
+    - 🏛️ Institutions: Princeton University, Independent Researcher, The Ohio State University, Microsoft Research, Amazon, Georgetown University, KAIST, Stony Brook University, University of Illinois Urbana-Champaign, Stanford University, xAI, University of California, Berkeley
     - 📅 Date: October 13, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Misc]
-    - 🔑 Key: [evaluation infrastructure], [leaderboard], [evaluation harness], [failure analysis], [cost tracking], [agent logs], [HAL]
-    - 📖 TLDR: HAL provides shared infrastructure for large-scale agent evaluation rather than proposing a new agent, standardizing how models, scaffolds, and benchmarks are run and compared. It combines a parallel evaluation harness, cost-aware reporting, and LLM-assisted log inspection to expose failure modes, benchmark gaming, and surprising model-behavior interactions across thousands of agent rollouts.
+    - 🔑 Key: [evaluation infrastructure], [leaderboard], [evaluation harness], [cost tracking], [log inspection], [agent traces], [HAL]
+    - 📖 TLDR: HAL provides standardized infrastructure for evaluating agents across models, scaffolds, and benchmarks rather than introducing a new agent. It reports results from 21,730 rollouts across 9 models and 9 benchmarks, tracks costs and full traces, and uses LLM-aided log inspection to surface behaviors such as benchmark gaming and unsafe actions.
 
 - [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
     - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang

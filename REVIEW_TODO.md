@@ -193,14 +193,14 @@ Checklist:
 - [ ] CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs
 - [ ] Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms
 - [ ] In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers
-- [ ] HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities
-- [ ] WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent
-- [ ] SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents
-- [ ] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation
-- [ ] R-WoM: Retrieval-augmented World Model For Computer-use Agents
-- [ ] BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions
-- [ ] SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents
-- [ ] WARC-Bench: Web Archive Based Benchmark for GUI Subtask Executions
+- [x] HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities
+- [x] WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent
+- [x] SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents
+- [x] Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation
+- [x] R-WoM: Retrieval-augmented World Model For Computer-use Agents
+- [x] BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions
+- [x] SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents
+- [x] WARC-Bench: Web Archive Based Benchmark for GUI Subtask Executions
 - [ ] Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent
 - [ ] Watch and Learn: Learning to Use Computers from Online Videos
 - [ ] From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents
