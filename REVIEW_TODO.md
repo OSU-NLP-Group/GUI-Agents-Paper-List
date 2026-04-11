@@ -231,9 +231,9 @@ Checklist:
 - [x] MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents
 - [x] Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows
 - [x] OmniActor: A Generalist GUI and Embodied Agent for 2D&3D Worlds
-- [ ] UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
-- [ ] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control
-- [ ] Throttling Web Agents Using Reasoning Gates
+- [x] UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
+- [x] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control
+- [x] Throttling Web Agents Using Reasoning Gates
 - [ ] A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants
 - [ ] CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning
 - [ ] Reliable Weak-to-Strong Monitoring of LLM Agents

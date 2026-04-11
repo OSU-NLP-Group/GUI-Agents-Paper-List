@@ -15,8 +15,8 @@
     - 📅 Date: September 01, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [reinforcement learning], [off-policy RL], [sample efficiency], [AndroidWorld], [SoLS], [STR]
-    - 📖 TLDR: Proposes an off-policy RL algorithm for mobile app control that updates aggressively on successful trajectories but uses conservative regularized updates on negative ones, avoiding degradation in sparse-reward settings. The method is paired with Successful Transition Replay and substantially improves AndroidWorld performance while being far cheaper than large proprietary-agent baselines.
+    - 🔑 Key: [off-policy reinforcement learning], [positive-sample updates], [negative-sample regularization], [successful transition replay], [AndroidWorld], [SoLS], [STR]
+    - 📖 TLDR: SoLS is an off-policy RL algorithm for mobile app control that updates directly on successful samples but applies conservative regularized updates on negative ones to avoid policy degradation in sparse-reward settings. With Successful Transition Replay, it improves AndroidWorld performance substantially while using far less compute than GPT-4o-based baselines.
 
 - [Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning](https://arxiv.org/abs/2502.07949)
     - Qingyuan Wu, Jianheng Liu, Jianye Hao, Jun Wang, Kun Shao
