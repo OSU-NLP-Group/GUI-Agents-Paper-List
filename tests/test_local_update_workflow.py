@@ -67,7 +67,7 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
             self.assertNotIn("{{insert_env_groups_here}}", readme)
             self.assertEqual((update_dir / "update_readme_template.md").read_text(), template)
 
-    def test_process_markdown_creates_search_page_even_when_empty(self):
+    def test_process_markdown_creates_general_gui_page_even_when_empty(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             repo = Path(tmpdir)
             (repo / "update_template_or_data").mkdir()
@@ -93,9 +93,43 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
                 module = load_module("sort_by_date_under_test", SORT_SCRIPT)
                 module.process_markdown()
 
-            search_page = repo / "paper_by_env" / "paper_search.md"
-            self.assertTrue(search_page.exists())
-            self.assertIn("No papers currently tagged with [Search].", search_page.read_text())
+            general_gui_page = repo / "paper_by_env" / "paper_general_gui.md"
+            self.assertTrue(general_gui_page.exists())
+            self.assertIn("No papers currently tagged with [General GUI].", general_gui_page.read_text())
+
+    def test_process_markdown_removes_legacy_env_pages(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            repo = Path(tmpdir)
+            (repo / "update_template_or_data").mkdir()
+            (repo / "paper_by_key").mkdir()
+            env_dir = repo / "paper_by_env"
+            env_dir.mkdir()
+            (repo / "paper_by_author").mkdir()
+
+            for legacy_name in ("paper_gui.md", "paper_search.md", "paper_misc.md"):
+                (env_dir / legacy_name).write_text("legacy")
+
+            all_papers = textwrap.dedent(
+                """\
+                - [Example Paper](https://example.com/paper)
+                    - Alice Author, Bob Author
+                    - 🏛️ Institutions: Example Lab
+                    - 📅 Date: March 01, 2026
+                    - 📑 Publisher: arXiv
+                    - 💻 Env: [Web]
+                    - 🔑 Key: [framework], [Example]
+                    - 📖 TLDR: Minimal example for testing.
+                """
+            )
+            (repo / "ALL_PAPERS.md").write_text(all_papers)
+
+            with chdir(repo):
+                module = load_module("sort_by_date_cleanup_under_test", SORT_SCRIPT)
+                module.process_markdown()
+
+            self.assertFalse((env_dir / "paper_gui.md").exists())
+            self.assertFalse((env_dir / "paper_search.md").exists())
+            self.assertFalse((env_dir / "paper_misc.md").exists())
 
 
 if __name__ == "__main__":

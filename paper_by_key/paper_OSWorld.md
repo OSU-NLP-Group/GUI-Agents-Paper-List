@@ -14,7 +14,7 @@
     - 🏛️ Institutions: The George Washington University
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [test-time compute], [tree search], [MCTS], [alpha-UCT], [OSWorld], [Agent Alpha]
     - 📖 TLDR: Agent Alpha applies step-level MCTS with alpha-UCT exploration, comparison-based evaluation, and diversity-aware expansion to computer-use agents. It improves OSWorld performance substantially over trajectory-level sampling under similar compute.
 
@@ -23,7 +23,7 @@
     - 🏛️ Institutions: MAIS, Institute of Automation, Chinese Academy of Sciences, School of Artificial Intelligence, University of Chinese Academy of Sciences, Meituan, School of Computer Science & Technology, Beijing Jiaotong University
     - 📅 Date: January 31, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [reward modeling], [verification], [proactive interaction], [VAGEN], [OSWorld], [AndroidWorld]
     - 📖 TLDR: VAGEN turns GUI-agent verification into an active interaction problem, using a verifier agent to probe the environment for evidence of task completion instead of relying on passive judgment. This substantially improves verification accuracy on OSWorld and AndroidWorld.
 
@@ -32,7 +32,7 @@
     - 🏛️ Institutions: Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shenzhen University, Guangdong University of Technology
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [backtracking], [DFS planning], [task tracking], [error recovery], [OSWorld], [BEAP-Agent]
     - 📖 TLDR: BEAP-Agent formulates long-horizon GUI execution as depth-first search and adds explicit multi-level backtracking when the agent commits to a wrong exploration branch. Its Planner, Executor, and Tracker jointly support state rollback and task updates, improving recovery on OSWorld.
 
@@ -59,7 +59,7 @@
     - 🏛️ Institutions: Nanjing University, Peking University, Microsoft Research Asia
     - 📅 Date: January 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [reinforcement learning], [RLVR], [off-policy assimilation], [BEPA], [OSWorld]
     - 📖 TLDR: BEPA improves end-to-end GUI-agent training with verifiable rewards by turning scarce off-policy expert traces into policy-aligned guidance through self-rolled reachable trajectories and a dynamically updated per-task cache. On OSWorld-Verified it raises UI-TARS-1.5-7B from 22.87% to 32.13%, with additional gains on MMBench-GUI and Online-Mind2Web.
 
@@ -77,7 +77,7 @@
     - 🏛️ Institutions: Rutgers University, AWS Agentic AI
     - 📅 Date: October 13, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [world model], [tutorial retrieval], [future state prediction], [OSWorld], [WebArena], [R-WoM]
     - 📖 TLDR: This paper tests whether LLMs can act as world models for computer-use agents and finds that simulation quality degrades sharply on full-procedure planning even when short-range prediction remains reasonable. R-WoM addresses this by grounding simulated rollouts with retrieved up-to-date tutorials, improving performance on OSWorld and WebArena, especially on longer-horizon tasks.
 
@@ -90,15 +90,6 @@
     - 🔑 Key: [video demonstrations], [inverse dynamics], [trajectory annotation], [OSWorld], [WindowsAgentArena], [Watch & Learn]
     - 📖 TLDR: Watch & Learn converts Internet videos of human computer use into more than 53K executable UI trajectories by framing annotation as an inverse dynamics problem over consecutive screen states. The resulting data improves both general-purpose and specialized CUAs on OSWorld and yields state-of-the-art 7B-scale performance on WindowsAgentArena under the 15-step limit.
 
-- [Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness](https://arxiv.org/abs/2510.01670)
-    - Erfan Shayegani, Keegan Hines, Yue Dong, Nael Abu-Ghazaleh, Roman Lutz, Spencer Whitehead, Vidhisha Balachandran, Besmira Nushi, Vibhav Vineet
-    - 🏛️ Institutions: Microsoft Research AI Frontiers, Microsoft AI Red Team, University of California, Riverside, NVIDIA
-    - 📅 Date: October 02, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [blind goal-directedness], [safety benchmark], [OSWorld], [thought-action disconnect], [BLIND-ACT]
-    - 📖 TLDR: This paper identifies Blind Goal-Directedness (BGD), where computer-use agents continue pursuing goals despite feasibility, safety, reliability, or context concerns. It introduces BLIND-ACT, a 90-task benchmark on OSWorld, and finds high average BGD rates across frontier models even after prompting-based mitigations.
-
 - [Scaling Agents for Computer Use](https://arxiv.org/abs/2510.02250)
     - Gonzalo Gonzalez-Pumariega, Vincent Tu, Chih-Lun Lee, Jiachen Yang, Ang Li, Xin Eric Wang
     - 🏛️ Institutions: Simular Research
@@ -107,6 +98,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [test-time scaling], [multiple rollouts], [behavior narratives], [behavior judge], [OSWorld], [BJudge]
     - 📖 TLDR: This paper argues that computer-use agents scale more effectively across multiple rollouts than within a single rollout, and introduces Behavior Judge (BJudge) to compare candidate trajectories via compact behavior narratives. BJudge reaches 72.6% on OSWorld, slightly surpassing reported human performance, and also generalizes to WindowsAgentArena and AndroidWorld.
+
+- [Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness](https://arxiv.org/abs/2510.01670)
+    - Erfan Shayegani, Keegan Hines, Yue Dong, Nael Abu-Ghazaleh, Roman Lutz, Spencer Whitehead, Vidhisha Balachandran, Besmira Nushi, Vibhav Vineet
+    - 🏛️ Institutions: Microsoft Research AI Frontiers, Microsoft AI Red Team, University of California, Riverside, NVIDIA
+    - 📅 Date: October 02, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [blind goal-directedness], [safety benchmark], [OSWorld], [thought-action disconnect], [BLIND-ACT]
+    - 📖 TLDR: This paper identifies Blind Goal-Directedness (BGD), where computer-use agents continue pursuing goals despite feasibility, safety, reliability, or context concerns. It introduces BLIND-ACT, a 90-task benchmark on OSWorld, and finds high average BGD rates across frontier models even after prompting-based mitigations.
 
 - [Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation](https://arxiv.org/abs/2509.23866)
     - Pengxiang Li, Zechen Hu, Zirui Shang, Jingrong Wu, Yang Liu, Hui Liu, Zhi Gao, Chenrui Shi, Bofei Zhang, Zihao Zhang, Xiaochuan Shi, Zedong YU, Yuwei Wu, Xinxiao Wu, Yunde Jia, Liuyu Xiang, Zhaofeng He, Qing Li

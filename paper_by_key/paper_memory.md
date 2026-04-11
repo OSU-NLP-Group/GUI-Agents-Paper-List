@@ -5,7 +5,7 @@
     - 🏛️ Institutions: University of California, San Diego, Abel.ai
     - 📅 Date: March 11, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [memory], [graph-based retrieval], [self-evolving memory], [HyMEM], [multi-hop retrieval]
     - 📖 TLDR: HyMEM is a graph-based memory system for GUI agents that couples symbolic nodes with continuous trajectory embeddings, supports multi-hop retrieval, and updates itself over time. It substantially boosts open-source 7B/8B GUI agents and can match or surpass stronger closed-source models on several benchmarks.
 
@@ -80,15 +80,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [planning], [memory], [tree search], [LiteWebAgent]
     - 📖 TLDR: LiteWebAgent is an open-source suite designed for VLM-based web agent applications. It offers a modular framework that decouples action generation from grounding, supports agent planning, memory, and tree search, and is deployable via a Vercel-based web app or a Chrome extension using the Chrome DevTools Protocol (CDP).
-
-- [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
-    - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
-    - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
-    - 📅 Date: November 30, 2024
-    - 📑 Publisher: EMNLP 2024 Tutorial Abstracts
-    - 💻 Env: [Misc]
-    - 🔑 Key: [survey], [tutorial], [reasoning], [planning], [memory], [multi-agent systems], [safety]
-    - 📖 TLDR: This tutorial provides a comprehensive exploration of language agents—autonomous systems powered by large language models capable of executing complex tasks through language instructions. It delves into their theoretical foundations, potential applications, associated risks, and future directions, covering topics such as reasoning, memory, planning, tool augmentation, grounding, multi-agent systems, and safety considerations.
 
 - [Agent Workflow Memory](https://proceedings.mlr.press/v267/wang25bx.html)
     - Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig

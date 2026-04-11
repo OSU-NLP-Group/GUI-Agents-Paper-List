@@ -5,7 +5,7 @@
     - 🏛️ Institutions: ShanghaiTech University, Shanghai Artificial Intelligence Laboratory, Rice University
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
     - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
 
@@ -14,7 +14,7 @@
     - 🏛️ Institutions: Tsinghua University, The Ohio State University, The Chinese University of Hong Kong, Shenzhen
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [guardrail], [world model], [risk prediction], [safety], [long-horizon risk], [SafePred]
     - 📖 TLDR: SafePred is a predictive guardrail that uses a world model to simulate future states and assess delayed risk before a computer-use agent acts. It targets long-horizon hazards that reactive safety filters tend to miss.
 
@@ -81,15 +81,6 @@
     - 🔑 Key: [benchmark], [safety], [LLM agent], [dark patterns], [evaluation]
     - 📖 TLDR: This paper presents the first study on how dark patterns (deceptive UI designs) affect LLM-based web agents, introducing TrickyArena as a controlled benchmark environment and finding that agents are susceptible to dark patterns an average of 41% of the time across six popular web agent frameworks and three LLMs.
 
-- [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
-    - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang
-    - 🏛️ Institutions: Scale AI, Carnegie Mellon University, Massachusetts Institute of Technology
-    - 📅 Date: August 26, 2025
-    - 📑 Publisher: ICLR 2025
-    - 💻 Env: [Misc]
-    - 🔑 Key: [safety], [LLM agent], [monitoring], [red-teaming]
-    - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.
-
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, Mike Zheng Shou
     - 🏛️ Institutions: Show Lab, National University of Singapore
@@ -122,7 +113,7 @@
     - 🏛️ Institutions: School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University
     - 📅 Date: May 19, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [out-of-distribution detection], [safety], [gaussian mixture model], [MLLM], [robustness]
     - 📖 TLDR: GEM proposes a Gaussian mixture model-based method for detecting out-of-distribution instructions in GUI agents by modeling input embedding distances, achieving a 23.70% average accuracy improvement over baselines across eight datasets spanning smartphones, computers, and web browsers.
 
@@ -131,7 +122,7 @@
     - 🏛️ Institutions: Carnegie Mellon University, The Chinese University of Hong Kong, KAUST, Johns Hopkins University, Nanyang Technological University, The Hong Kong University of Science and Technology
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [survey], [safety], [security]
     - 📖 TLDR: A comprehensive survey of safety and security threats to computer-using agents, covering vulnerabilities in LLM-driven reasoning, multi-component integration, and GUI interaction, analyzing novel risks as CUAs evolve from prototype tools to sophisticated autonomous systems.
 
@@ -149,7 +140,7 @@
     - 🏛️ Institutions: University of Georgia, Tencent AI Seattle Lab, Microsoft Research, University of Waterloo, Hong Kong Polytechnic University
     - 📅 Date: March 30, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [survey], [trustworthiness], [safety], [security], [benchmark]
     - 📖 TLDR: A survey on trustworthy GUI agents that introduces a workflow-aligned taxonomy decomposing trust into Perception Trust, Reasoning Trust, and Interaction Trust, systematically reviewing failure modes, adversarial attacks, defense mechanisms, and evaluation practices for deploying GUI agents safely.
 
@@ -197,15 +188,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [safety], [AEIA-MN]
     - 📖 TLDR: This paper introduces the concept of Active Environment Injection Attack (AEIA), where attackers disguise malicious actions as environmental elements to disrupt AI agents' decision-making processes. The authors propose AEIA-MN, an attack scheme leveraging mobile notifications to evaluate the robustness of multimodal large language model-based mobile agents. Experimental results demonstrate that even advanced models are highly vulnerable to such attacks, with success rates reaching up to 93% in the AndroidWorld benchmark.
-
-- [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
-    - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
-    - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
-    - 📅 Date: November 30, 2024
-    - 📑 Publisher: EMNLP 2024 Tutorial Abstracts
-    - 💻 Env: [Misc]
-    - 🔑 Key: [survey], [tutorial], [reasoning], [planning], [memory], [multi-agent systems], [safety]
-    - 📖 TLDR: This tutorial provides a comprehensive exploration of language agents—autonomous systems powered by large language models capable of executing complex tasks through language instructions. It delves into their theoretical foundations, potential applications, associated risks, and future directions, covering topics such as reasoning, memory, planning, tool augmentation, grounding, multi-agent systems, and safety considerations.
 
 - [Attacking Vision-Language Computer Agents via Pop-ups](https://aclanthology.org/2025.acl-long.411/)
     - Yanzhe Zhang, Tao Yu, Diyi Yang
@@ -269,21 +251,3 @@
     - 💻 Env: [Web]
     - 🔑 Key: [safety], [privacy attack], [prompt injection], [environmental injection], [EIA]
     - 📖 TLDR: This paper introduces the Environmental Injection Attack (EIA), a privacy attack targeting generalist web agents by embedding malicious yet concealed web elements to trick agents into leaking users' PII. Utilizing 177 action steps within realistic web scenarios, EIA demonstrates a high success rate in extracting specific PII and whole user requests. Through its detailed threat model and defense suggestions, the work underscores the challenge of detecting and mitigating privacy risks in autonomous web agents.
-
-- [Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions](https://aclanthology.org/2025.acl-long.1087/)
-    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Meta
-    - 📅 Date: August 05, 2024
-    - 📑 Publisher: ACL 2025
-    - 💻 Env: [Misc]
-    - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
-    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
-
-- [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
-    - Lingbo Mo, Zeyi Liao, Boyuan Zheng, Yu Su, Chaowei Xiao, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, University of Wisconsin-Madison
-    - 📅 Date: February 15, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [safety], [adversarial attacks], [security risks], [language agents], [perception-brain-action]
-    - 📖 TLDR: Maps adversarial attacks on language agents through a Perception-Brain-Action decomposition and surveys 12 attack types across those layers. The paper is mainly a threat-modeling taxonomy, useful as a security lens for later web and computer-use agents.

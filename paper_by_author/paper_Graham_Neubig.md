@@ -9,15 +9,6 @@
     - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
     - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
 
-- [Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents](https://arxiv.org/abs/2510.24702)
-    - Yueqi Song, Ketan Ramaneti, Zaid Sheikh, Ziru Chen, Boyu Gou, Tianbao Xie, Yiheng Xu, Danyang Zhang, Apurva Gandhi, Fan Yang, Joseph Liu, Tianyue Ou, Zhihao Yuan, Frank Xu, Shuyan Zhou, Xingyao Wang, Xiang Yue, Tao Yu, Huan Sun, Yu Su, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University, The Ohio State University, University of Hong Kong, Duke University, Fujitsu Research, All Hands AI
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: ICLR 2026 (Oral)
-    - 💻 Env: [Misc]
-    - 🔑 Key: [framework], [data protocol], [training data], [supervised fine-tuning], [dataset unification], [ADP]
-    - 📖 TLDR: Agent Data Protocol (ADP) standardizes heterogeneous agent trajectories into a lightweight schema and conversion pipeline so diverse agent datasets can plug into multiple SFT pipelines without per-dataset engineering. Converting 13 existing datasets into ADP and fine-tuning on the unified corpus improves base models by about 20% on average across coding, browsing, tool-use, and research benchmarks.
-
 - [Go-Browse: Training Web Agents with Structured Exploration](https://arxiv.org/abs/2506.03533)
     - Apurva Gandhi, Graham Neubig
     - 🏛️ Institutions: Carnegie Mellon University
@@ -36,15 +27,6 @@
     - 🔑 Key: [framework], [human-agent collaboration], [evaluation], [CowPilot]
     - 📖 TLDR: Builds a mixed-initiative web-navigation interface where an agent proposes next steps and a human can pause, reject, override, or hand control back at any point in the task. Beyond being a collaboration tool, CowPilot also serves as an evaluation and data-collection framework, with case studies on five websites showing the collaborative mode achieves the best success rate while greatly reducing human effort.
 
-- [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
-    - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
-    - 📅 Date: April 09, 2025
-    - 📑 Publisher: COLM 2025
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [model], [benchmark], [learning], [reasoning], [planning], [ASI], [WebArena]
-    - 📖 TLDR: Proposes Agent Skill Induction (ASI), which induces executable program skills from web interaction experience and reuses them online as tasks evolve. Program-based skills make verification possible during induction, improving both WebArena success rate and step efficiency over static agents and text-skill alternatives while also transferring better across websites.
-
 - [SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills](https://arxiv.org/abs/2504.07079)
     - Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su
     - 🏛️ Institutions: The Ohio State University, Carnegie Mellon University, University of Virginia, Purdue University, Cisco Research
@@ -53,6 +35,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [API synthesis], [skill discovery], [transfer learning], [WebArena]
     - 📖 TLDR: SkillWeaver is a framework that enables web agents to autonomously improve by discovering, practicing, and refining reusable skills, encapsulated as APIs. Through iterative exploration, agents build a library of plug-and-play APIs, enhancing their capabilities. Experiments on WebArena and real-world websites demonstrate significant performance improvements, and the synthesized APIs can be shared among agents to boost overall performance.
+
+- [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
+    - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
+    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
+    - 📅 Date: April 09, 2025
+    - 📑 Publisher: COLM 2025
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [model], [benchmark], [learning], [reasoning], [planning], [ASI], [WebArena]
+    - 📖 TLDR: Proposes Agent Skill Induction (ASI), which induces executable program skills from web interaction experience and reuses them online as tasks evolve. Program-based skills make verification possible during induction, improving both WebArena success rate and step efficiency over static agents and text-skill alternatives while also transferring better across websites.
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://openreview.net/forum?id=5298fKGmv3)
     - Thibault Le Sellier de Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo Caccia, Alexandre Drouin, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart, Russ Salakhutdinov, Nicolas Chapados

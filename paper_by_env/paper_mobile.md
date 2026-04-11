@@ -493,15 +493,6 @@
     - 🔑 Key: [multi-agent framework], [finite state machine], [error recovery], [Android], [benchmark]
     - 📖 TLDR: Agent-SAMA is a state-aware multi-agent framework that models mobile app execution as a Finite State Machine (FSM), using four specialized agents to collaboratively construct FSMs in real time for task planning, execution verification, and error recovery, achieving up to 84% task success rate and 71.9% recovery rate on cross-app benchmarks.
 
-- [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
-    - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
-    - 🏛️ Institutions: CUHK MMLab, vivo AI Lab, CPII under InnoHK
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [reward model], [self-improvement], [outcome verification], [synthetic data], [UI-Genie-RM], [UI-Genie-Agent]
-    - 📖 TLDR: UI-Genie tackles two mobile GUI-agent bottlenecks at once: verifying trajectory outcomes and scaling high-quality training data. It pairs an interleaved reward model with a reward-guided self-improvement loop that iteratively upgrades both the agent and verifier, producing reward-specific GUI-agent datasets and strong gains after several self-improvement generations.
-
 - [XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level](https://arxiv.org/abs/2505.21279)
     - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
     - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
@@ -519,6 +510,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dataset], [reinforcement learning], [error detection], [backtracking], [Mobile3M], [Auto‑UI]
     - 📖 TLDR: BacktrackAgent introduces a novel GUI‑agent framework that embeds four components—generator, verifier, judger, and reflector—to detect when actions go wrong, evaluate their effects, and backtrack to recover. It also constructs specialized datasets for training these “judgment” and “reflection” modules. On Mobile3M and Auto‑UI benchmarks, it boosts task success rate by ~7.6% and step accuracy by ~1.6%, outperforming prior SOTA like MobileVLM and ReachAgent.
+
+- [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
+    - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
+    - 🏛️ Institutions: CUHK MMLab, vivo AI Lab, CPII under InnoHK
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [reward model], [self-improvement], [outcome verification], [synthetic data], [UI-Genie-RM], [UI-Genie-Agent]
+    - 📖 TLDR: UI-Genie tackles two mobile GUI-agent bottlenecks at once: verifying trajectory outcomes and scaling high-quality training data. It pairs an interleaved reward model with a reward-guided self-improvement loop that iteratively upgrades both the agent and verifier, producing reward-specific GUI-agent datasets and strong gains after several self-improvement generations.
 
 - [Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach](https://arxiv.org/abs/2505.16422)
     - Xiaoran Yin, Xu Luo, Hao Wu, Lianli Gao, Jingkuan Song
@@ -547,15 +547,6 @@
     - 🔑 Key: [framework], [EFSM], [SPlanner], [planning], [vision language model], [AndroidWorld benchmark]
     - 📖 TLDR: Introduces **SPlanner**, a plug‑and‑play planning module that models mobile apps as Extended Finite State Machines (EFSMs). It decomposes user instructions into primary functions, traverses EFSMs to obtain execution paths, and refines these into natural-language plans to guide vision‑language models. On the AndroidWorld benchmark, pairing SPlanner with Qwen2.5‑VL‑72B achieves 63.8% success—28.8 points higher than the baseline, demonstrating improved stability and task planning in mobile GUI agents.
 
-- [MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning](https://arxiv.org/abs/2505.12299)
-    - Kun Huang, Weikai Xu, Yuxuan Liu, Quandong Wang, Pengzhi Gao, Wei Liu, Jian Luan, Bin Wang, Bo An
-    - 🏛️ Institutions: XiaoMi AI Lab, Nanyang Technological University, Gaoling School of Artificial Intelligence, Renmin University of China
-    - 📅 Date: May 18, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [training], [DPO], [preference learning], [chain-of-thought]
-    - 📖 TLDR: MobileIPL proposes an Iterative Preference Learning framework that constructs CoaT-trees via iterative sampling and derives thinking-level DPO pairs with rule-based rewards, combined with a three-stage instruction evolution to prevent SFT overfitting, achieving state-of-the-art performance on three standard mobile GUI agent benchmarks while outperforming models like OS-ATLAS and UI-TARS.
-
 - [GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning](https://arxiv.org/abs/2505.12493)
     - Longxi Gao, Li Zhang, Pengzhi Gao, Wei Liu, Jian Luan, Mengwei Xu
     - 🏛️ Institutions: Beijing University of Posts and Telecommunications
@@ -564,6 +555,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [reinforcement learning], [self-supervised learning], [GUI grounding], [GUI-shift]
     - 📖 TLDR: Learns GUI dynamics from unlabeled trajectories through a self-supervised inverse-dynamics task called K-step GUI Transition, avoiding dependence on natural-language annotations. Built on top of that task, GUI-Shift combines rule-based optimization with data filtering and improves both GUI automation and grounding across AndroidControl, GUI Odyssey, ScreenSpot-v2, and ScreenSpot-Pro.
+
+- [MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning](https://arxiv.org/abs/2505.12299)
+    - Kun Huang, Weikai Xu, Yuxuan Liu, Quandong Wang, Pengzhi Gao, Wei Liu, Jian Luan, Bin Wang, Bo An
+    - 🏛️ Institutions: XiaoMi AI Lab, Nanyang Technological University, Gaoling School of Artificial Intelligence, Renmin University of China
+    - 📅 Date: May 18, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [training], [DPO], [preference learning], [chain-of-thought]
+    - 📖 TLDR: MobileIPL proposes an Iterative Preference Learning framework that constructs CoaT-trees via iterative sampling and derives thinking-level DPO pairs with rule-based rewards, combined with a three-stage instruction evolution to prevent SFT overfitting, achieving state-of-the-art performance on three standard mobile GUI agent benchmarks while outperforming models like OS-ATLAS and UI-TARS.
 
 - [Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents](https://arxiv.org/abs/2505.11891)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
@@ -969,15 +969,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [functional tokens], [on-device agent], [edge deployment], [Octopus v3]
     - 📖 TLDR: Presents Octopus v3, a sub-billion multimodal agent model aimed at on-device deployment on hardware as small as a Raspberry Pi. Its core idea is to introduce functional tokens that map multimodal inputs into action-oriented representations for agent tasks.
-
-- [Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking](https://arxiv.org/abs/2404.08860)
-    - Lei Ding, Jeshwanth Bheemanpally, Yi Zhang
-    - 🏛️ Institutions: University of California, Santa Cruz
-    - 📅 Date: April 13, 2024
-    - 📑 Publisher: SIGIR 2024
-    - 💻 Env: [Mobile], [Search]
-    - 🔑 Key: [framework], [reranking], [verification], [technical support search], [instruction execution]
-    - 📖 TLDR: Targets mobile "how-to" search by automatically executing step-by-step instructions from retrieved pages in a controlled Android environment and reranking results based on actual success. The paper frames this as a verification-driven ranking pipeline for technical-support search rather than a pure mobile-control benchmark.
 
 - [LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation](https://arxiv.org/abs/2404.16054)
     - Li Zhang, Shihe Wang, Xianqing Jia, Zhihan Zheng, Yunhe Yan, Longxi Gao, Yuanchun Li, Mengwei Xu

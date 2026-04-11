@@ -5,7 +5,7 @@
     - 🏛️ Institutions: Meituan
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [planning], [multi-agent], [tree-structured evolution], [trajectory generation], [TreeCUA], [TreeCUA-DPO]
     - 📖 TLDR: TreeCUA tackles the scaling bottleneck in GUI planning by organizing exploration trajectories as reusable tree structures with verification, summarization, and evaluation. The resulting data supports TreeCUA-DPO, which improves planning quality and out-of-domain generalization.
 
@@ -14,7 +14,7 @@
     - 🏛️ Institutions: Tsinghua University, Xiaomi Corporation, Zhejiang University, Nanyang Technological University, Institute of Automation, Chinese Academy of Sciences
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [reinforcement learning], [tiered rewards], [reward shaping], [GUI grounding], [planning], [SSL]
     - 📖 TLDR: SSL replaces binary verifier rewards with progressively amplified tiered rewards that distinguish higher- and lower-quality successful trajectories. Across GUI perception, short- and long-horizon planning, and reasoning benchmarks, it improves optimization stability and reaches up to 2.5x better sample efficiency than binary-reward baselines.
 
@@ -50,7 +50,7 @@
     - 🏛️ Institutions: Carnegie Mellon University, Scribe, University of Illinois Urbana-Champaign, University of Toronto, University of California, Berkeley, The AGI Company, New York University
     - 📅 Date: June 09, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [test-time scaling], [exploration], [planning], [reinforcement learning]
     - 📖 TLDR: Proposes test-time interaction scaling—increasing agent interaction horizons rather than reasoning trace length—showing that richer behaviors including exploration, backtracking, and dynamic adaptation from more interactions outperform extended pre-action thinking for GUI-based computer tasks.
 
@@ -77,7 +77,7 @@
     - 🏛️ Institutions: Zhejiang University, Dalian University of Technology, Reallm Labs, The Hong Kong Polytechnic University
     - 📅 Date: April 19, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [reinforcement learning], [planning], [reasoning], [Actor2Reasoner], [InfiGUI-R1]
     - 📖 TLDR: Presents InfiGUI-R1 as a GUI agent designed to move from reactive action prediction toward explicit deliberative reasoning. The Actor2Reasoner pipeline first injects spatial reasoning and then strengthens planning and recovery through RL with sub-goal guidance and error-recovery scenarios.
 
@@ -116,24 +116,6 @@
     - 💻 Env: [Desktop], [Web]
     - 🔑 Key: [benchmark], [dynamic initial state], [planning], [robustness], [GUI-Thinker], [WorldGUI]
     - 📖 TLDR: WorldGUI evaluates GUI agents under diverse non-default starting states instead of only canonical initial setups, exposing brittle planning and poor recovery when interfaces are partially configured or mid-workflow. The paper also proposes GUI-Thinker, a critique-driven framework that improves robustness in these dynamic settings.
-
-- [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
-    - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
-    - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
-    - 📅 Date: November 30, 2024
-    - 📑 Publisher: EMNLP 2024 Tutorial Abstracts
-    - 💻 Env: [Misc]
-    - 🔑 Key: [survey], [tutorial], [reasoning], [planning], [memory], [multi-agent systems], [safety]
-    - 📖 TLDR: This tutorial provides a comprehensive exploration of language agents—autonomous systems powered by large language models capable of executing complex tasks through language instructions. It delves into their theoretical foundations, potential applications, associated risks, and future directions, covering topics such as reasoning, memory, planning, tool augmentation, grounding, multi-agent systems, and safety considerations.
-
-- [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://openreview.net/forum?id=xgtXkyqw1f)
-    - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
-    - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory
-    - 📅 Date: July 29, 2024
-    - 📑 Publisher: ICLR 2025 (Poster)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [information seeking], [planning], [AI search], [MindSearch]
-    - 📖 TLDR: This paper presents MindSearch, a novel approach to web information seeking and integration that mimics human cognitive processes. The system uses a multi-agent framework consisting of a WebPlanner and WebSearcher. The WebPlanner models multi-step information seeking as a dynamic graph construction process, decomposing complex queries into sub-questions. The WebSearcher performs hierarchical information retrieval for each sub-question. MindSearch demonstrates significant improvements in response quality and depth compared to existing AI search solutions, processing information from over 300 web pages in just 3 minutes.
 
 - [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html)
     - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin

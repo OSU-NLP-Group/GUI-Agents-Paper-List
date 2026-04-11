@@ -32,7 +32,7 @@
     - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Huawei Noah’s Ark Lab
     - 📅 Date: December 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [reinforcement learning], [history modeling], [policy optimization], [GUI navigation], [HiconAgent]
     - 📖 TLDR: This paper studies how GUI agents should use historical context during sequential decision making, arguing that naively including full history is both expensive and distracting. It introduces History Context-aware Policy Optimization, combining dynamic context sampling with anchor-guided history compression to train lightweight agents that use past observations and actions more effectively. The resulting HiconAgent-3B improves performance on benchmarks such as GUI-Odyssey, AndroidControl, and AITW while reducing FLOPs and inference cost.
 
@@ -50,7 +50,7 @@
     - 🏛️ Institutions: Tongyi Lab, Alibaba Group
     - 📅 Date: August 21, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [framework], [dataset], [reinforcement learning], [multi-agent], [GUI automation], [trajectory production], [TRPO]
     - 📖 TLDR: The paper introduces **GUI-Owl**, a foundational multimodal GUI agent model built on Qwen2.5-VL, integrating perception, grounding, reasoning, planning, and action execution into one policy network. GUI-Owl-7B achieves strong baseline performance (66.4 on AndroidWorld, 29.4 on OSWorld). The authors further propose **Mobile-Agent-v3**, a general-purpose, multi-agent GUI automation framework that builds on GUI-Owl and achieves state-of-the-art open-source results (73.3 on AndroidWorld, 37.7 on OSWorld). Core innovations include: a large-scale cross-platform cloud-based environment infrastructure with Self-Evolving GUI Trajectory Production; modular foundational agent capabilities; and scalable, asynchronous reinforcement learning using Trajectory-aware Relative Policy Optimization (TRPO). The framework is open-sourced at the X-PLUG MobileAgent GitHub repository.
 
@@ -68,18 +68,9 @@
     - 🏛️ Institutions: Ant Group
     - 📅 Date: August 14, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [reinforcement learning], [grounding], [navigation], [data cleaning], [Qwen2.5-VL], [UI-venus]
     - 📖 TLDR: This technical report introduces **UI-Venus**, a screenshot-based UI agent built on the multimodal Qwen2.5-VL model and fine-tuned via **reinforcement fine-tuning (RFT)**. It achieves state-of-the-art performance on UI grounding and navigation benchmarks—e.g., Screenspot-V2/Pro (up to 95.3% / 61.9%) and AndroidWorld navigation (up to 65.9%)—by leveraging carefully crafted reward functions, efficient data cleaning pipelines, and a novel **self-evolving framework** (trajectory alignment and sparse action enhancement) to enhance reasoning coherence and handle rare actions. The code and checkpoints are open-sourced to encourage further development.
-
-- [Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training](https://arxiv.org/abs/2508.00414)
-    - Tianqing Fang, Zhisong Zhang, Xiaoyang Wang, Rui Wang, Can Qin, Yuxuan Wan, Jun-Yu Ma, Ce Zhang, Jiaqi Chen, Xiyun Li, Hongming Zhang, Haitao Mi, Dong Yu
-    - 🏛️ Institutions: Tencent AI Lab
-    - 📅 Date: August 01, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [framework], [dataset], [model], [deep research], [reflection], [voting], [agent foundation models]
-    - 📖 TLDR: This work introduces **Cognitive Kernel-Pro**, a fully open-source, multi-module agent framework designed to democratize advanced AI agent development. It curates high-quality training data across four domains—web, files, code, and general reasoning—and introduces test-time strategies like reflection and voting to enhance robustness. Evaluated on the GAIA benchmark, its open 8B-parameter model outperforms previous open-source agents such as WebDancer and WebSailor, setting a new performance standard. Code is publicly available.
 
 - [GUI-Reflection: Empowering Multimodal GUI Models with Self-Reflection Behavior](https://arxiv.org/abs/2506.08012)
     - Penghao Wu, Shengnan Ma, Bo Wang, Jiaheng Yu, Lewei Lu, Ziwei Liu
@@ -149,7 +140,7 @@
     - 🏛️ Institutions: Microsoft Research, University of Maryland, University of Wisconsin-Madison, KAIST, University of Washington
     - 📅 Date: February 18, 2025
     - 📑 Publisher: CVPR 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [framework], [SoM], [ToM], [robotics], [UI navigation]
     - 📖 TLDR: This paper introduces **Magma**, a foundation model designed for multimodal AI agents operating in both digital and physical environments. Magma extends traditional vision-language models by incorporating planning and action capabilities, enabling tasks from UI navigation to robotic manipulation. The model is pretrained on diverse datasets, including images, videos, and robotics data, utilizing **Set-of-Mark (SoM)** for action grounding and **Trace-of-Mark (ToM)** for action planning. Experiments demonstrate that SoM and ToM synergistically enhance Magma's spatial-temporal intelligence, achieving state-of-the-art performance in UI navigation and robotic manipulation tasks.
 
@@ -167,7 +158,7 @@
     - 🏛️ Institutions: ByteDance Seed, Tsinghua University
     - 📅 Date: January 21, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI grounding], [action modeling], [system-2 reasoning], [reflective online traces], [UI-TARS]
     - 📖 TLDR: UI-TARS is an end-to-end native GUI agent model that operates directly from screenshots rather than wrapping a commercial foundation model with handcrafted prompting workflows. It combines enhanced GUI perception, unified cross-platform action modeling, deliberate multi-step reasoning, and iterative training on reflective online traces, and reports strong results across more than ten GUI-agent benchmarks.
 
@@ -176,7 +167,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research, Alibaba Group, Australian National University, Independent Researcher
     - 📅 Date: December 20, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI grounding], [pure vision], [instruction synthesis], [context-aware grounding], [Aria-UI]
     - 📖 TLDR: Aria-UI is a GUI-grounding model that deliberately avoids HTML or AXTree inputs and instead works from pure visual observations. It pairs a scalable instruction-synthesis pipeline with interleaved textual and text-image action histories for context-aware grounding, and reports state-of-the-art results across offline and online grounding benchmarks.
 
@@ -185,7 +176,7 @@
     - 🏛️ Institutions: Zhejiang University, National University of Singapore
     - 📅 Date: December 13, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [model]
     - 📖 TLDR: This paper introduces *Iris*, a visual agent designed to enhance GUI automation by addressing challenges in high-resolution, complex digital environments. It employs two key innovations: **Information-Sensitive Cropping (ISC)**, which dynamically identifies and prioritizes visually dense regions using an edge detection algorithm for efficient processing, and **Self-Refining Dual Learning (SRDL)**, which enhances the agent's ability to handle complex tasks through a dual-learning loop that iteratively refines its performance without requiring additional annotated data. Empirical evaluations demonstrate that Iris achieves state-of-the-art performance across multiple benchmarks with only 850K GUI annotations, outperforming methods using ten times more training data.
 
@@ -194,16 +185,16 @@
     - 🏛️ Institutions: Chinese Academy of Sciences, Tsinghua University, Nankai University, Beijing Academy of Artificial Intelligence
     - 📅 Date: December 12, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [falcon-UI], [GUI understanding]
-    - 📖 TLDR: This paper introduces *Falcon-UI*, a GUI agent model that emphasizes understanding GUI contexts before following user instructions. The authors present the *Insight-UI Dataset*, an instruction-free GUI navigation dataset generated from the Common Crawl corpus, simulating various platforms like iOS, Android, Windows, and Linux across multiple resolutions on 312K domains. Falcon-UI is pretrained on this dataset and fine-tuned on Android and Web GUI datasets, achieving performance comparable to larger models, highlighting the importance of decoupling GUI understanding from instruction following in agent performance. 
+    - 📖 TLDR: This paper introduces *Falcon-UI*, a GUI agent model that emphasizes understanding GUI contexts before following user instructions. The authors present the *Insight-UI Dataset*, an instruction-free GUI navigation dataset generated from the Common Crawl corpus, simulating various platforms like iOS, Android, Windows, and Linux across multiple resolutions on 312K domains. Falcon-UI is pretrained on this dataset and fine-tuned on Android and Web GUI datasets, achieving performance comparable to larger models, highlighting the importance of decoupling GUI understanding from instruction following in agent performance.
 
 - [Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://proceedings.mlr.press/v267/xu25ae.html)
     - Yiheng Xu, Zekun Wang, Junli Wang, Dunjie Lu, Tianbao Xie, Amrita Saha, Doyen Sahoo, Tao Yu, Caiming Xiong
     - 🏛️ Institutions: The University of Hong Kong, Nanyang Technological University, Salesforce Research
     - 📅 Date: December 05, 2024
     - 📑 Publisher: ICML 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [pure vision], [inner monologue], [two-stage training], [Aguvis]
     - 📖 TLDR: Aguvis is a pure-vision GUI agent framework that removes textual representations and unifies cross-platform interaction directly from screen images. It combines a large-scale grounding-and-reasoning dataset with a two-stage training pipeline and inner-monologue reasoning, reporting state-of-the-art offline and online results without relying on closed-source models.
 
@@ -212,7 +203,7 @@
     - 🏛️ Institutions: Show Lab, National University of Singapore, Microsoft
     - 📅 Date: November 26, 2024
     - 📑 Publisher: CVPR 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [UI-guided visual token selection], [interleaved vision-language-action streaming], [screenshot grounding], [ShowUI]
     - 📖 TLDR: ShowUI is a lightweight vision-language-action model for GUI visual agents that focuses on efficient screenshot perception and action-history modeling. It introduces UI-guided visual token selection and interleaved vision-language-action streaming, reaching 75.1% zero-shot screenshot-grounding accuracy while remaining competitive on web and mobile GUI tasks.
 
@@ -239,7 +230,7 @@
     - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
     - 📅 Date: October 09, 2024
     - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI grounding], [single-turn agent], [on-device model], [ScreenSpot], [OmniAct], [TinyClick]
     - 📖 TLDR: TinyClick is a compact, single-turn agent designed to automate GUI tasks by precisely locating screen elements via the Vision-Language Model Florence-2-Base. Trained with multi-task strategies and MLLM-based data augmentation, TinyClick achieves high accuracy on Screenspot and OmniAct, outperforming specialized GUI interaction models and general MLLMs like GPT-4V. The model's lightweight design (0.27B parameters) ensures fast processing and minimal latency, making it efficient for real-world applications on multiple platforms.
 
@@ -251,15 +242,6 @@
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [GUI grounding], [cross-platform generalization], [UGround], [synthetic data]
     - 📖 TLDR: Introduces UGround, a universal visual grounding model for GUI agents trained on a 10M-element synthetic dataset spanning 1.3M screenshots. The paper shows that a vision-only grounding module can generalize across desktop, mobile, and web interfaces and can match or exceed agents that rely on extra textual inputs.
-
-- [MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning](https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html)
-    - Haotian Zhang, Mingfei Gao, Zhe Gan, Philipp Dufter, Nina Wenzel, Forrest Huang, Dhruti Shah, Xianzhi Du, Bowen Zhang, Yanghao Li, Sam Dodge, Keen You, Zhen Yang, Aleksei Timofeev, Mingze Xu, Hong-You Chen, Jean-Philippe Fauconnier, Zhengfeng Lai, Haoxuan You, Zirui Wang, Afshin Dehghan, Peter Grasch, Yinfei Yang
-    - 🏛️ Institutions: Apple
-    - 📅 Date: September 30, 2024
-    - 📑 Publisher: ICLR 2025 (Poster)
-    - 💻 Env: [Misc]
-    - 🔑 Key: [model], [MM1.5], [vision language model], [visual grounding], [reasoning], [data-centric], [analysis]
-    - 📖 TLDR: This paper introduces MM1.5, a family of multimodal large language models (MLLMs) ranging from 1B to 30B parameters, including dense and mixture-of-experts variants. MM1.5 enhances capabilities in text-rich image understanding, visual referring and grounding, and multi-image reasoning. The authors employ a data-centric training approach, utilizing high-quality OCR data and synthetic captions for continual pre-training, alongside an optimized visual instruction-tuning data mixture for supervised fine-tuning. Specialized variants, MM1.5-Video and MM1.5-UI, are designed for video understanding and mobile UI comprehension, respectively. Extensive empirical studies provide insights into the training processes, offering guidance for future MLLM development.
 
 - [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://aclanthology.org/2024.findings-emnlp.599/)
     - Qinzhuo Wu, Weikai Xu, Wei Liu, Tao Tan, Jianfeng Liu, Ang Li, Jian Luan, Bin Wang, Shuo Shang
@@ -288,21 +270,12 @@
     - 🔑 Key: [model], [hybrid visual encoder], [multilingual GUI], [MobileFlow]
     - 📖 TLDR: This paper introduces *MobileFlow*, a multimodal large language model tailored for mobile GUI agents. With approximately 21 billion parameters and hybrid visual encoders, it supports variable image resolutions and multilingual GUIs, enhancing the model's ability to interpret image data and comprehend user instructions for GUI interaction tasks.
 
-- [Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)
-    - Nexa AI Team
-    - 🏛️ Institutions: Nexa AI
-    - 📅 Date: June 26, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [model], [planner-action framework], [Octo-planner], [on-device planning]
-    - 📖 TLDR: Presents Octo-planner, an on-device planner for a planner-action agent framework that separates task decomposition from action execution. Built on Phi-3 Mini and paired with an Octopus action model, it targets low-latency planning and execution on resource-constrained devices.
-
 - [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://aclanthology.org/2024.findings-emnlp.68/)
     - Ziyang Meng, Yu Dai, Zezheng Gong, Shaoxiong Guo, Minglong Tang, Tongquan Wei
     - 🏛️ Institutions: East China Normal University
     - 📅 Date: June 20, 2024
     - 📑 Publisher: Findings of EMNLP 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI VQA], [hallucination mitigation], [FAC], [referent method], [VGA]
     - 📖 TLDR: Introduces VGA, a GUI-understanding model trained to reduce hallucinations caused by over-reliance on textual priors instead of on-screen evidence. The paper builds a 63.8K GUI VQA dataset with a referent-based construction method and uses a two-stage FAC fine-tuning procedure to improve visually grounded answers.
 
@@ -329,7 +302,7 @@
     - 🏛️ Institutions: Princeton Language and Intelligence (PLI), Princeton University
     - 📅 Date: February 21, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [screenshot language model], [PTP], [pretraining objective], [multimodal language understanding]
     - 📖 TLDR: Studies how to make screenshot language models better at text-heavy understanding by pretraining them with a patch-and-text prediction objective that reconstructs both image regions and embedded text. The resulting models close much of the gap to text-only baselines on GLUE-style tasks and also improve autoregressive screenshot language modeling.
 
@@ -338,7 +311,7 @@
     - 🏛️ Institutions: Google DeepMind
     - 📅 Date: February 07, 2024
     - 📑 Publisher: IJCAI 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [UI understanding], [infographics understanding], [ScreenAI], [screen annotation]
     - 📖 TLDR: Presents ScreenAI, a vision-language model specialized for screen understanding across both UI and infographic settings. It combines PaLI-style modeling with pix2struct-style patching and is trained on a mixture designed specifically for screen-centric perception tasks.
 
@@ -347,7 +320,7 @@
     - 🏛️ Institutions: Nanjing University, Shanghai AI Lab
     - 📅 Date: January 19, 2024
     - 📑 Publisher: ACL 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [benchmark], [GUI grounding], [ScreenSpot], [SeeClick]
     - 📖 TLDR: SeeClick is a screenshot-only visual GUI agent that targets the core GUI grounding problem without relying on structured accessibility trees or HTML-like inputs. The paper introduces GUI-grounding pretraining data generation and the ScreenSpot benchmark, and shows that better grounding directly improves downstream GUI agent performance.
 
@@ -365,7 +338,7 @@
     - 🏛️ Institutions: Tsinghua University, Zhipu AI
     - 📅 Date: December 15, 2023
     - 📑 Publisher: CVPR 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [benchmark], [visual language model]
     - 📖 TLDR: This paper presents CogAgent, a visual language model designed for GUI agents. The authors introduce a new dataset, CogBench, featuring 1,430 GUI tasks across various applications. CogAgent employs a novel training approach combining supervised fine-tuning and decision-making fine-tuning. The model demonstrates superior performance on CogBench and generalizes well to unseen applications, outperforming existing models like GPT-4V in GUI task completion.
 
@@ -374,7 +347,7 @@
     - 🏛️ Institutions: Microsoft Research Asia
     - 📅 Date: October 07, 2023
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [instruction grounding], [pixel-to-sequence], [reinforcement learning], [RUIG]
     - 📖 TLDR: Presents RUIG, a metadata-free grounding model that maps natural-language instructions to coordinates on UI screenshots using a pixel-to-sequence decoder. The main contribution is an RL-style training objective that strengthens spatial decoding quality, positioning RUIG as a generic UI-grounding API rather than a full agent stack.
 

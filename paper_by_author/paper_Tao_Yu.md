@@ -1,20 +1,11 @@
 # Tao Yu's Papers
 
-- [Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents](https://arxiv.org/abs/2510.24702)
-    - Yueqi Song, Ketan Ramaneti, Zaid Sheikh, Ziru Chen, Boyu Gou, Tianbao Xie, Yiheng Xu, Danyang Zhang, Apurva Gandhi, Fan Yang, Joseph Liu, Tianyue Ou, Zhihao Yuan, Frank Xu, Shuyan Zhou, Xingyao Wang, Xiang Yue, Tao Yu, Huan Sun, Yu Su, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University, The Ohio State University, University of Hong Kong, Duke University, Fujitsu Research, All Hands AI
-    - 📅 Date: October 28, 2025
-    - 📑 Publisher: ICLR 2026 (Oral)
-    - 💻 Env: [Misc]
-    - 🔑 Key: [framework], [data protocol], [training data], [supervised fine-tuning], [dataset unification], [ADP]
-    - 📖 TLDR: Agent Data Protocol (ADP) standardizes heterogeneous agent trajectories into a lightweight schema and conversion pipeline so diverse agent datasets can plug into multiple SFT pipelines without per-dataset engineering. Converting 13 existing datasets into ADP and fine-tuning on the unified corpus improves base models by about 20% on average across coding, browsing, tool-use, and research benchmarks.
-
 - [VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos](https://arxiv.org/abs/2510.19488)
     - Dunjie Lu, Yiheng Xu, Junli Wang, Haoyuan Wu, Xinyuan Wang, Zekun Wang, Junlin Yang, Hongjin Su, Jixuan Chen, Junda Chen, Yuchen Mao, Jingren Zhou, Junyang Lin, Binyuan Hui, Tao Yu
     - 🏛️ Institutions: Google Cloud AI Research, The Ohio State University
     - 📅 Date: October 22, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [pretraining], [video mining], [inverse dynamics], [tutorial videos], [VideoAgentTrek], [Video2Action]
     - 📖 TLDR: VideoAgentTrek turns unlabeled tutorial videos into large-scale computer-use pretraining data by detecting action events, recovering structured actions, and generating paired interaction traces. Mining 39,000 videos yields 1.52 million steps, and continued pretraining on this data materially improves both offline and online computer-use benchmarks.
 
@@ -41,7 +32,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
     - 📅 Date: May 19, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [benchmark], [framework], [jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
     - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
 
@@ -50,18 +41,9 @@
     - 🏛️ Institutions: The University of Hong Kong, Nanyang Technological University, Salesforce Research
     - 📅 Date: December 05, 2024
     - 📑 Publisher: ICML 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [pure vision], [inner monologue], [two-stage training], [Aguvis]
     - 📖 TLDR: Aguvis is a pure-vision GUI agent framework that removes textual representations and unifies cross-platform interaction directly from screen images. It combines a large-scale grounding-and-reasoning dataset with a two-stage training pipeline and inner-monologue reasoning, reporting state-of-the-art offline and online results without relying on closed-source models.
-
-- [Language Agents: Foundations, Prospects, and Risks](https://aclanthology.org/2024.emnlp-tutorials.3/)
-    - Yu Su, Diyi Yang, Shunyu Yao, Tao Yu
-    - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
-    - 📅 Date: November 30, 2024
-    - 📑 Publisher: EMNLP 2024 Tutorial Abstracts
-    - 💻 Env: [Misc]
-    - 🔑 Key: [survey], [tutorial], [reasoning], [planning], [memory], [multi-agent systems], [safety]
-    - 📖 TLDR: This tutorial provides a comprehensive exploration of language agents—autonomous systems powered by large language models capable of executing complex tasks through language instructions. It delves into their theoretical foundations, potential applications, associated risks, and future directions, covering topics such as reasoning, memory, planning, tool augmentation, grounding, multi-agent systems, and safety considerations.
 
 - [Attacking Vision-Language Computer Agents via Pop-ups](https://aclanthology.org/2025.acl-long.411/)
     - Yanzhe Zhang, Tao Yu, Diyi Yang
@@ -86,7 +68,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Carnegie Mellon University, Salesforce Research, University of Waterloo
     - 📅 Date: April 11, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [real computer tasks], [online environment], [online benchmark]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 

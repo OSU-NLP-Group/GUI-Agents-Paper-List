@@ -5,7 +5,7 @@
     - 🏛️ Institutions: KAIST, Carnegie Mellon University, University of Oxford, Konkuk University, Google Inc., SkillBench
     - 📅 Date: March 26, 2026
     - 📑 Publisher: CVPR 2026
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [collaborative assistance], [behavior state detection], [intent prediction], [help prediction], [think-aloud data], [GUIDE]
     - 📖 TLDR: GUIDE studies collaborative GUI assistance rather than pure task automation, using 67.5 hours of think-aloud recordings from 120 novice users across 10 software applications. It benchmarks behavior-state detection, intent prediction, and help prediction, and shows that current multimodal models still struggle to infer what users are doing and when intervention would be useful.
 
@@ -50,7 +50,7 @@
     - 🏛️ Institutions: Show Lab, National University of Singapore, Microsoft
     - 📅 Date: November 26, 2024
     - 📑 Publisher: CVPR 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [UI-guided visual token selection], [interleaved vision-language-action streaming], [screenshot grounding], [ShowUI]
     - 📖 TLDR: ShowUI is a lightweight vision-language-action model for GUI visual agents that focuses on efficient screenshot perception and action-history modeling. It introduces UI-guided visual token selection and interleaved vision-language-action streaming, reaching 75.1% zero-shot screenshot-grounding accuracy while remaining competitive on web and mobile GUI tasks.
 

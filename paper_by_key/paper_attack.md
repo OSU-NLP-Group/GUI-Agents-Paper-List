@@ -86,6 +86,6 @@
     - 🏛️ Institutions: Renmin University of China, Peking University, Tencent
     - 📅 Date: February 17, 2024
     - 📑 Publisher: NeurIPS 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [attack], [backdoor], [agent security], [trigger placement]
     - 📖 TLDR: Studies backdoor attacks against LLM-based agents by categorizing them according to trigger placement and attack outcome. The paper shows that agent pipelines introduce distinct backdoor surfaces that are not captured by standard single-model safety evaluation.

@@ -5,7 +5,7 @@
     - 🏛️ Institutions: The Ohio State University, Amazon AGI
     - 📅 Date: September 18, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets & Benchmarks Track (Poster)
-    - 💻 Env: [Web], [Search]
+    - 💻 Env: [Web]
     - 🔑 Key: [agentic search], [agent-as-a-judge], [tree-structured rubric], [source attribution], [human evaluation], [Mind2Web 2]
     - 📖 TLDR: Mind2Web 2 benchmarks long-horizon agentic search with 130 human-crafted tasks that require real-time browsing and citation-backed synthesis. It evaluates systems with task-specific judge agents built from tree-structured rubrics that score both answer correctness and source attribution, and compares ten frontier systems against human performance.
 
@@ -53,15 +53,6 @@
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [GUI grounding], [cross-platform generalization], [UGround], [synthetic data]
     - 📖 TLDR: Introduces UGround, a universal visual grounding model for GUI agents trained on a 10M-element synthetic dataset spanning 1.3M screenshots. The paper shows that a vision-only grounding module can generalize across desktop, mobile, and web interfaces and can match or exceed agents that rely on extra textual inputs.
-
-- [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
-    - Lingbo Mo, Zeyi Liao, Boyuan Zheng, Yu Su, Chaowei Xiao, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, University of Wisconsin-Madison
-    - 📅 Date: February 15, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [safety], [adversarial attacks], [security risks], [language agents], [perception-brain-action]
-    - 📖 TLDR: Maps adversarial attacks on language agents through a Perception-Brain-Action decomposition and surveys 12 attack types across those layers. The paper is mainly a threat-modeling taxonomy, useful as a security lens for later web and computer-use agents.
 
 - [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476)
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao

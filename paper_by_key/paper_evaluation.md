@@ -32,7 +32,7 @@
     - 🏛️ Institutions: Independent
     - 📅 Date: December 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [spatial reasoning], [UI interaction], [LLM agent], [evaluation]
     - 📖 TLDR: DrawingBench is a verification framework that evaluates agentic LLMs' spatial reasoning and GUI interaction capabilities through mouse-based drawing tasks on a browser canvas, using 250 prompts with 8 objective criteria and multi-turn feedback, finding that specification clarity matters more than task complexity and external oversight outperforms self-correction.
 
@@ -161,12 +161,3 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [benchmark], [evaluation], [WebVoyager], [automatic judging]
     - 📖 TLDR: Presents WebVoyager, an end-to-end multimodal web agent evaluated on realistic tasks across 15 live websites. The paper is notable both for the agent itself and for proposing an automatic GPT-4V-based evaluation protocol for live web-agent execution.
-
-- [AgentBench: Evaluating LLMs as Agents](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html)
-    - Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, The Ohio State University, ByteDance
-    - 📅 Date: January 01, 2024
-    - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [evaluation], [multi-environment agents], [AgentBench]
-    - 📖 TLDR: Introduces AgentBench, a broad benchmark suite for evaluating LLMs as agents across eight environments, including but not limited to OS interaction. It belongs in this repo mainly as a general agent-evaluation reference rather than a pure GUI benchmark.

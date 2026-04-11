@@ -23,7 +23,7 @@
     - 🏛️ Institutions: KAIST, Carnegie Mellon University, University of Oxford, Konkuk University, Google Inc., SkillBench
     - 📅 Date: March 26, 2026
     - 📑 Publisher: CVPR 2026
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [collaborative assistance], [behavior state detection], [intent prediction], [help prediction], [think-aloud data], [GUIDE]
     - 📖 TLDR: GUIDE studies collaborative GUI assistance rather than pure task automation, using 67.5 hours of think-aloud recordings from 120 novice users across 10 software applications. It benchmarks behavior-state detection, intent prediction, and help prediction, and shows that current multimodal models still struggle to infer what users are doing and when intervention would be useful.
 
@@ -62,15 +62,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [chinese], [hierarchical evaluation], [physical-device evaluation], [GUI-CEval]
     - 📖 TLDR: GUI-CEval is the first comprehensive Chinese benchmark for mobile GUI agents, spanning 201 apps across four device types with a hierarchical two-level evaluation structure (atomic abilities and application-level tasks) along five dimensions (perception, planning, reflection, execution, evaluation), revealing that most MLLMs still struggle with reflective decision-making and post-action self-evaluation.
-
-- [MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning](https://arxiv.org/abs/2603.12266)
-    - Haozhan Shen, Shilin Yan, Hongwei Xue, Shuaiqi Lu, Xiaojun Tang, Guannan Zhang, Tiancheng Zhao, Jianwei Yin
-    - 🏛️ Institutions: Accio Team, Alibaba Group, Zhejiang University, ZJU-BJ
-    - 📅 Date: March 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [compositional reasoning], [visual grounding], [VPIR], [programmatic verification], [MM-CondChain]
-    - 📖 TLDR: MM-CondChain is a benchmark for visually grounded deep compositional reasoning built from multi-layer conditional chains whose steps are programmatically verified through VPIR. It spans natural images, charts, and GUI trajectories, and shows that even the strongest MLLMs remain weak on deep chained reasoning.
 
 - [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
     - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
@@ -149,7 +140,7 @@
     - 🏛️ Institutions: East China Normal University, Tongji University
     - 📅 Date: February 11, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [ScratchWorld], [drag-and-drop], [block-based programming], [reasoning-acting gap], [scratch]
     - 📖 TLDR: ScratchWorld evaluates multimodal GUI agents on Scratch program construction tasks that require fine-grained drag-and-drop manipulation. The benchmark exposes a large gap between high-level planning success and low-level GUI execution.
 
@@ -162,15 +153,6 @@
     - 🔑 Key: [benchmark], [context discovery], [investigation], [hallucination], [PATHWAYS]
     - 📖 TLDR: PATHWAYS is a benchmark of 250 multi-step web decision tasks designed to test whether agents can uncover and correctly use hidden contextual information instead of stopping at surface cues. The results show that agents often fail to retrieve decisive hidden evidence, hallucinate investigative reasoning, and struggle to incorporate discovered context into final decisions.
 
-- [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
-    - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
-    - 🏛️ Institutions: ShanghaiTech University, Shanghai Artificial Intelligence Laboratory, Rice University
-    - 📅 Date: February 03, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
-    - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
-    - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
-
 - [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
     - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
     - 🏛️ Institutions: Zhejiang University, Nankai University, The Chinese University of Hong Kong, Shanghai Jiao Tong University, vivo AI Lab
@@ -179,6 +161,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [MemGUI-Eval], [MemGUI-Bench]
     - 📖 TLDR: MemGUI-Bench is a memory-focused benchmark for mobile GUI agents covering dynamic tasks that require cross-temporal and cross-spatial retention. Paired with MemGUI-Eval, it reveals large hidden memory deficits in current agents that standard benchmarks miss.
+
+- [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
+    - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
+    - 🏛️ Institutions: ShanghaiTech University, Shanghai Artificial Intelligence Laboratory, Rice University
+    - 📅 Date: February 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
+    - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
 
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
     - Jing Wu, Daphne Barretto, Yiye Chen, Nicholas Gydé, Yanan Jian, Yuhang He, Vibhav Vineet
@@ -212,7 +203,7 @@
     - 🏛️ Institutions: Chengdu Institute of Computer Applications, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tencent Turing Lab, Georgia Institute of Technology, Tsinghua University, Nankai University, Shenzhen Loop Area Institute
     - 📅 Date: January 26, 2026
     - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [benchmark], [long-horizon tasks], [reflection], [rollback], [LongGUIBench], [LongHorizonUI]
     - 📖 TLDR: LongHorizonUI targets error accumulation in long-horizon GUI control by combining indexed multimodal perception, structured reflective decision-making, and rollback-based compensatory execution. It also introduces LongGUIBench for tasks longer than 15 steps across games and complex applications, and reports substantial gains on long-horizon evaluation while staying competitive on public benchmarks.
 
@@ -230,7 +221,7 @@
     - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, University of Science and Technology of China, A*STAR, Zhongguancun Institution of Artificial Intelligence
     - 📅 Date: January 26, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [benchmark], [dataset], [privacy recognition], [privacy protection], [privacy grounding], [GUIGuard], [GUIGuard-Bench]
     - 📖 TLDR: GUIGuard formulates privacy-preserving GUI automation as privacy recognition, privacy protection, and protected task execution. It also introduces GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and 13,830 screenshots annotated for region-level privacy grounding, risk level, privacy category, and task necessity, and shows that current models still recognize private content very poorly.
 
@@ -374,7 +365,7 @@
     - 🏛️ Institutions: Zhejiang University, Huawei Technologies Ltd.
     - 📅 Date: December 10, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [multi-agent], [grounding], [reasoning], [reflection], [benchmark]
     - 📖 TLDR: GAIR is a multi-agent GUI automation framework that uses a general-purpose MLLM to jointly reason over information gathered by multiple GUI-specific models, with a group reflection mechanism that drives specialized models to collect more targeted information when the decision-maker determines insufficient evidence, achieving state-of-the-art results on GUI benchmarks like ScreenSpot and UI-I2E-Bench with only 7B models.
 
@@ -383,7 +374,7 @@
     - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory
     - 📅 Date: December 09, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [multi-agent systems], [foundation models], [LLM], [benchmark], [scaling], [survey]
     - 📖 TLDR: This paper demonstrates through extensive empirical evaluation across 41 LLMs and 7 benchmarks that scaling single-agent performance does not automatically yield robust multi-agent intelligence, and outlines key research directions for building foundation models with native multi-agent capabilities including understanding, planning, communication, and adaptation.
 
@@ -401,7 +392,7 @@
     - 🏛️ Institutions: Xi’an Jiaotong University, Princeton University, Peking University, University of Chinese Academy of Sciences, The University of Hong Kong, Michigan State University
     - 📅 Date: December 05, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [benchmark], [training-free], [zoom], [test-time scaling], [visual grounding]
     - 📖 TLDR: Proposes ZoomClick, a training-free method that leverages zoom as a prior for GUI grounding to dynamically focus on screen regions and switch context, achieving state-of-the-art results on benchmarks like ScreenSpot-Pro, and introduces GUIZoom-Bench for evaluating model adaptability to zoom.
 
@@ -410,7 +401,7 @@
     - 🏛️ Institutions: Independent
     - 📅 Date: December 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [spatial reasoning], [UI interaction], [LLM agent], [evaluation]
     - 📖 TLDR: DrawingBench is a verification framework that evaluates agentic LLMs' spatial reasoning and GUI interaction capabilities through mouse-based drawing tasks on a browser canvas, using 250 prompts with 8 objective criteria and multi-turn feedback, finding that specification clarity matters more than task complexity and external oversight outperforms self-correction.
 
@@ -419,7 +410,7 @@
     - 🏛️ Institutions: Harbin Institute of Technology, Peng Cheng Laboratory
     - 📅 Date: November 30, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [multilingual], [GUI understanding], [cross-lingual], [perception and reasoning], [LVLM]
     - 📖 TLDR: MPR-GUI introduces a multilingual fine-grained benchmark (MPR-GUI-Bench) for evaluating GUI agents' perception and reasoning capabilities across languages, and proposes GUI-XLI, a cross-lingual intervention method that improves multilingual GUI agent performance by 6.5% on average by manipulating hidden states at capability-related layers.
 
@@ -437,7 +428,7 @@
     - 🏛️ Institutions: The Ohio State University, Microsoft Research, Redmond
     - 📅 Date: November 07, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [dataset], [benchmark], [text dragging], [multimodal LLM]
     - 📖 TLDR: This paper introduces GUI-Drag, a 161K-example dataset for text dragging in GUIs, and ScreenDrag, a benchmark with 5,333 examples, extending GUI grounding beyond click-only actions to support drag-based text selection and manipulation while maintaining click performance.
 
@@ -536,18 +527,9 @@
     - 🏛️ Institutions: Salesforce AI Research
     - 📅 Date: September 30, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [CRM workflows], [Salesforce sandbox], [milestone evaluation], [SCUBA]
     - 📖 TLDR: SCUBA is a benchmark for computer-use agents on Salesforce customer-relationship-management workflows, with 300 task instances derived from real user interviews across administrator, sales, and service personas. It runs in Salesforce sandbox environments with interpretable milestone evaluation and shows that enterprise tasks remain much harder than standard CUA benchmarks, especially for open models in zero-shot settings.
-
-- [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704)
-    - Ziyang Luo, Zhiqi Shen, Wenzhuo Yang, Zirui Zhao, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, Caiming Xiong, Junnan Li
-    - 🏛️ Institutions: Salesforce AI Research
-    - 📅 Date: August 20, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [dataset], [framework], [long-horizon reasoning], [unknown-tools challenge], [execution-based evaluation], [MCP-universe]
-    - 📖 TLDR: MCP-Universe introduces the first comprehensive benchmark for evaluating large language models (LLMs) through interactions with real-world Model Context Protocol (MCP) servers. It spans six core domains—Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching—across 11 MCP servers. The benchmark employs execution-based evaluators (format, static, dynamic) to rigorously assess agent performance. Despite progress, state-of-the-art models like GPT-5 (43.72% success), Grok-4 (33.33%), and Claude-4.0-Sonnet (29.44%) show significant limitations. The benchmark highlights challenges in long-context reasoning and unfamiliar tool handling, and provides an open-source extensible evaluation framework with UI support to accelerate future research. 
 
 - [ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents](https://arxiv.org/abs/2508.14040)
     - Hanyu Lai, Xiao Liu, Yanxiao Zhao, Han Xu, Hanchen Zhang, Bohao Jing, Yanyu Ren, Shuntian Yao, Yuxiao Dong, Jie Tang
@@ -572,7 +554,7 @@
     - 🏛️ Institutions: DeepWisdom, Fudan University, Hong Kong University of Science and Technology (Guangzhou), University of California San Diego, King Abdullah University of Science and Technology, Westlake University, Stanford University, Yale University, National University of Singapore
     - 📅 Date: August 17, 2025
     - 📑 Publisher: AAAI 2026
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [benchmark], [agent-as-a-judge], [RealDevWorld], [RealDevBench], [AppEvalPilot], [multimodal]
     - 📖 TLDR: This paper presents **RealDevWorld**, a novel framework to automatically evaluate production-ready GUI software generated by LLMs. It includes **RealDevBench**, a suite of 194 open-ended, multimodal software engineering tasks, and **AppEvalPilot**, an “agent-as-judge” system that simulates realistic GUI interactions to assess functional correctness, visual fidelity, and runtime behavior. It achieves high alignment with human judgment (accuracy 0.92, correlation 0.85), reducing the need for manual review and offering scalable, human-aligned evaluation. Code is available on GitHub.
 
@@ -594,21 +576,12 @@
     - 🔑 Key: [framework], [dataset], [benchmark], [chain-of-thought], [vision language model], [AgentNet]
     - 📖 TLDR: Introduces **OpenCUA**, an open-source framework to train computer-use agents (CUAs) using vision-language models. It includes a cross-platform annotation tool (AgentNet Tool), a large-scale dataset covering 3 OSes and 200+ apps/websites (AgentNet), and a data processing pipeline that builds state-action pairs enhanced with reflective long chain-of-thought reasoning. The resulting models—especially OpenCUA-72B—achieve SOTA performance on the OSWorld-Verified benchmark (45.0% success), surpassing prior open-source baselines and demonstrating strong generalization and scalability. All tools, models, and data are publicly released.
 
-- [BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
-    - Zijian Chen, Xueguang Ma, Shengyao Zhuang, Ping Nie, Kai Zou, Andrew Liu, Joshua Green, Kshama Patel, Ruoxi Meng, Mingyi Su, Sahel Sharifymoghaddam, Yanxi Li, Haoran Hong, Xinyu Shi, Xuye Liu, Nandan Thakur, Crystina Zhang, Luyu Gao, Wenhu Chen, Jimmy Lin
-    - 🏛️ Institutions: University of Waterloo, CSIRO, Independent, Carnegie Mellon University, The University of Queensland
-    - 📅 Date: August 08, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dataset], [agentic search], [deep research], [BrowseComp-plus]
-    - 📖 TLDR: Introduces **BrowseComp-Plus**, a fixed-corpus benchmark for evaluating deep-research agents. It enables controlled, fair, and transparent comparisons by providing human-verified supporting and challenging negative documents for each query. Results reveal significant performance variation—for example, an open-source model (Search-R1 + BM25) only achieves 3.86% accuracy, while GPT-5 reaches 55.9%, and GPT-5 with Qwen3-Embedding-8B retriever achieves 70.1% with fewer queries—highlighting the critical importance of retrieval quality and enabling disentangled analysis of retrieval vs. reasoning components.
-
 - [Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency](https://arxiv.org/abs/2508.05615)
     - Yong Du, Yuchen Yan, Fei Tang, Zhengxi Lu, Chang Zong, Weiming Lu, Shengpei Jiang, Yongliang Shen
     - 🏛️ Institutions: Zhejiang University, Central South University, Zhejiang University of Science and Technology, SF Technology
     - 📅 Date: August 07, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [test-time scaling], [reinforcement learning], [self‑supervised], [GUI‑RC], [GUI‑RCPO], [benchmark], [region consistency], [GUI grounding]
     - 📖 TLDR: This paper introduces **GUI‑RC (Region Consistency)**, a test-time method that aggregates multiple model predictions via spatial voting to derive a consensus region—achieving 2–3% accuracy improvements on ScreenSpot benchmarks without any additional training. It extends this idea with **GUI‑RCPO (Region Consistency Policy Optimization)**, which turns region-consistency patterns into self-supervised rewards for reinforcement learning at inference time, refining model predictions on unlabeled data and yielding further improvements (e.g., from 83.57% to 85.14% on ScreenSpot‑v2). The approach demonstrates a novel and effective use of test-time optimization for more robust, data-efficient GUI grounding.
 
@@ -635,7 +608,7 @@
     - 🏛️ Institutions: South China Normal University, Zhejiang University
     - 📅 Date: August 02, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [trajectory dataset], [causal pathways], [hierarchical agent], [reinforcement fine-tuning], [WPSR], [NaturalGAIA], [LightManus]
     - 📖 TLDR: NaturalGAIA is a GUI benchmark built around causal pathways and programmatically verifiable atomic steps, paired with a human-verified trajectory dataset collected using the hierarchical LightManus agent. It shows that complex cross-platform GUI tasks remain difficult even for strong models, and that reinforcement fine-tuning improves execution but does not eliminate the broader capability ceiling.
 
@@ -743,7 +716,7 @@
     - 🏛️ Institutions: The Ohio State University
     - 📅 Date: May 28, 2025
     - 📑 Publisher: ICLR 2026 (Oral)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [benchmark], [dataset], [indirect prompt injection], [security], [RTC‑Bench]
     - 📖 TLDR: Proposes **RedTeamCUA**, a hybrid VM‑OS + Docker‑web sandbox enabling realistic evaluation of computer‑use agents (CUAs) under indirect prompt injection. Introduces **RTC‑Bench**, a benchmark with 864 adversarial scenarios across hybrid web‑OS paths. Testing reveals high attack success rates (up to ~66%) against frontier CUAs like Claude and Operator, even end-to‑end (ASR ~48% on Claude 4). Highlights urgent need for robust defense mechanisms.
 
@@ -797,7 +770,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
     - 📅 Date: May 19, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [benchmark], [framework], [jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
     - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
 
@@ -815,7 +788,7 @@
     - 🏛️ Institutions: Chung-ang University, KAIST AI
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [LLM agent], [slide editing], [benchmark], [code generation], [structured data manipulation]
     - 📖 TLDR: Talk-to-Your-Slides is a language-driven slide editing agent that manipulates structured document data (XML/COM object model) instead of relying on GUI-based visual interactions, achieving 34% faster processing, 34% better instruction fidelity, and 87% lower cost than GUI-based baselines, along with a new benchmark (TSBench) of 379 human-verified editing instructions.
 
@@ -869,7 +842,7 @@
     - 🏛️ Institutions: Microsoft Research Asia, School of Software and Microelectronics, Peking University
     - 📅 Date: April 15, 2025
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [benchmark], [instruction synthesis], [GUI grounding], [UI-E2I-Synth], [UI-I2E-Bench]
     - 📖 TLDR: UI-E2I-Synth targets the data bottleneck in vision-based GUI instruction grounding, especially for implicit instructions, small elements, and underrepresented element types. It introduces a GPT-4o-based large-scale instruction synthesis pipeline and the UI-I2E-Bench benchmark, showing that models trained on the synthesized data achieve stronger GUI grounding performance across platforms.
 
@@ -905,7 +878,7 @@
     - 🏛️ Institutions: HDU, Microsoft
     - 📅 Date: April 07, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [robustness], [adversarial attacks], [UGround], [ScreenSpot-V2]
     - 📖 TLDR: This paper systematically evaluates the robustness of GUI grounding models, such as UGround, against natural noise, untargeted adversarial attacks, and targeted adversarial attacks. Experiments conducted across mobile, desktop, and web interfaces reveal that these models are highly sensitive to adversarial perturbations and low-resolution conditions. The findings highlight vulnerabilities in current GUI grounding models and establish a benchmark for future research aimed at enhancing their robustness in practical applications.
 
@@ -932,7 +905,7 @@
     - 🏛️ Institutions: University of Georgia, Tencent AI Seattle Lab, Microsoft Research, University of Waterloo, Hong Kong Polytechnic University
     - 📅 Date: March 30, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [survey], [trustworthiness], [safety], [security], [benchmark]
     - 📖 TLDR: A survey on trustworthy GUI agents that introduces a workflow-aligned taxonomy decomposing trust into Perception Trust, Reasoning Trust, and Interaction Trust, systematically reviewing failure modes, adversarial attacks, defense mechanisms, and evaluation practices for deploying GUI agents safely.
 
@@ -995,7 +968,7 @@
     - 🏛️ Institutions: Zhejiang University, Microsoft Research Asia
     - 📅 Date: March 09, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [dataset], [benchmark], [dual-system cognition], [FOCUS], [ScreenSpot], [ScreenSpot-pro]
     - 📖 TLDR: Proposes FOCUS, a GUI grounding framework inspired by fast and slow human reasoning, which switches between quick prediction and deeper analysis based on task complexity. By decomposing grounding into interface summarization, focused visual analysis, and final coordinate prediction, it reaches strong ScreenSpot and ScreenSpot-Pro results with only 300K training examples.
 
@@ -1157,7 +1130,7 @@
     - 🏛️ Institutions: Tsinghua University, Microsoft Research Asia, The Ohio State University
     - 📅 Date: August 12, 2024
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [dataset], [embodied], [visual design], [VisualAgentBench], [VAB]
     - 📖 TLDR: The authors introduce *VisualAgentBench (VAB)*, a comprehensive benchmark designed to train and evaluate large multimodal models (LMMs) as visual foundation agents across diverse scenarios, including embodied tasks, graphical user interfaces, and visual design. VAB comprises five distinct environments that systematically challenge LMMs' understanding and interaction capabilities. Additionally, the benchmark offers supervised fine-tuning trajectory data for behavior cloning training, demonstrating the potential to improve open LMMs for serving as visual foundation agents.
 
@@ -1292,7 +1265,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Carnegie Mellon University, Salesforce Research, University of Waterloo
     - 📅 Date: April 11, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [real computer tasks], [online environment], [online benchmark]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 
@@ -1409,18 +1382,9 @@
     - 🏛️ Institutions: Nanjing University, Shanghai AI Lab
     - 📅 Date: January 19, 2024
     - 📑 Publisher: ACL 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [benchmark], [GUI grounding], [ScreenSpot], [SeeClick]
     - 📖 TLDR: SeeClick is a screenshot-only visual GUI agent that targets the core GUI grounding problem without relying on structured accessibility trees or HTML-like inputs. The paper introduces GUI-grounding pretraining data generation and the ScreenSpot benchmark, and shows that better grounding directly improves downstream GUI agent performance.
-
-- [AgentBench: Evaluating LLMs as Agents](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html)
-    - Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, The Ohio State University, ByteDance
-    - 📅 Date: January 01, 2024
-    - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [evaluation], [multi-environment agents], [AgentBench]
-    - 📖 TLDR: Introduces AgentBench, a broad benchmark suite for evaluating LLMs as agents across eight environments, including but not limited to OS interaction. It belongs in this repo mainly as a general agent-evaluation reference rather than a pure GUI benchmark.
 
 - [ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
     - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou
@@ -1436,18 +1400,9 @@
     - 🏛️ Institutions: Tsinghua University, Zhipu AI
     - 📅 Date: December 15, 2023
     - 📑 Publisher: CVPR 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [benchmark], [visual language model]
     - 📖 TLDR: This paper presents CogAgent, a visual language model designed for GUI agents. The authors introduce a new dataset, CogBench, featuring 1,430 GUI tasks across various applications. CogAgent employs a novel training approach combining supervised fine-tuning and decision-making fine-tuning. The model demonstrates superior performance on CogBench and generalizes well to unseen applications, outperforming existing models like GPT-4V in GUI task completion.
-
-- [GAIA: a benchmark for General AI Assistants](https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html)
-    - Grégoire Mialon, Clémentine Fourrier, Craig Swift, Thomas Wolf, Yann LeCun, Thomas Scialom
-    - 🏛️ Institutions: Meta AI, Hugging Face, AutoGPT
-    - 📅 Date: November 21, 2023
-    - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [multi-modality], [tool use], [reasoning]
-    - 📖 TLDR: GAIA is a benchmark developed for evaluating general-purpose AI assistants. It aims to test assistant models across multiple modalities and complex reasoning tasks in real-world settings, including scenarios that require tool usage and open-ended question answering. With a dataset comprising 466 questions across various domains, GAIA highlights gaps between current AI performance and human capability, presenting a significant challenge for large language models such as GPT-4.
 
 - [GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation](https://arxiv.org/abs/2311.07562)
     - An Yan, Zhengyuan Yang, Wanrong Zhu, Kevin Lin, Linjie Li, Jianfeng Wang, Jianwei Yang, Yiwu Zhong, Julian McAuley, Jianfeng Gao, Zicheng Liu, Lijuan Wang

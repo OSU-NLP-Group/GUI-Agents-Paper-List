@@ -1,9 +1,30 @@
+# Adjacent Papers for GUI Agent Research
+
+This file tracks papers that are important to the GUI-agent ecosystem but are **not** part of the canonical direct-GUI paper list in `ALL_PAPERS.md`.
+
+Typical examples include:
+- general-purpose foundation models later reused in GUI work
+- non-GUI agent benchmarks, infrastructure, and evaluation papers
+- general multimodal or prompting methods later adopted by GUI papers
+- Search-API or agentic-search papers that are not primarily browser-based GUI-agent research
+
+These entries are kept for reference only. The main list and generated environment pages are sourced only from `ALL_PAPERS.md`.
+
+- [Seed1.8 Model Card: Towards Generalized Real-World Agency](https://arxiv.org/abs/2603.20633)
+    - Bytedance Seed
+    - 🏛️ Institutions: ByteDance Seed
+    - 📅 Date: March 21, 2026
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [foundation model], [generalist agency], [tool use], [code execution], [GUI interaction], [Seed1.8]
+    - 📖 TLDR: Seed1.8 is a foundation model for generalized real-world agency that unifies search, code generation and execution, and GUI interaction under one agentic interface. The model card emphasizes strong language-vision performance plus latency- and cost-aware inference modes for deployment.
+
 - [MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning](https://arxiv.org/abs/2603.12266)
     - Haozhan Shen, Shilin Yan, Hongwei Xue, Shuaiqi Lu, Xiaojun Tang, Guannan Zhang, Tiancheng Zhao, Jianwei Yin
     - 🏛️ Institutions: Accio Team, Alibaba Group, Zhejiang University, ZJU-BJ
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [benchmark], [compositional reasoning], [visual grounding], [VPIR], [programmatic verification], [MM-CondChain]
     - 📖 TLDR: MM-CondChain is a benchmark for visually grounded deep compositional reasoning built from multi-layer conditional chains whose steps are programmatically verified through VPIR. It spans natural images, charts, and GUI trajectories, and shows that even the strongest MLLMs remain weak on deep chained reasoning.
 
@@ -12,7 +33,7 @@
     - 🏛️ Institutions: Fraunhofer AISEC, NTU, KTH, NUS, UCLA
     - 📅 Date: March 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [security], [documentation injection], [privacy], [data leakage], [ReadSecBench], [Trusted Executor Dilemma]
     - 📖 TLDR: This paper studies documentation-embedded instruction injection in high-privilege LLM agents and frames the failure mode as the Trusted Executor Dilemma. It introduces ReadSecBench, shows exfiltration success up to 85%, and finds that both rule-based and LLM-based defenses still fail to catch the attacks reliably.
 
@@ -21,7 +42,7 @@
     - 🏛️ Institutions: University of Chicago, Princeton University, Peking University
     - 📅 Date: March 10, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [reinforcement learning], [agent training], [next-state signals], [process reward model], [on-policy distillation], [OpenClaw-RL]
     - 📖 TLDR: OpenClaw-RL is an asynchronous RL framework that treats next-state signals from live interactions as a universal learning source. It combines scalar rewards from a process-reward judge with hindsight-guided on-policy distillation, and trains agents across conversations, terminals, GUI tasks, SWE, and tool use in one online loop.
 
@@ -30,7 +51,7 @@
     - 🏛️ Institutions: Zhejiang University
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [survey], [agent skills], [SKILL.md], [MCP], [skill acquisition], [agent security]
     - 📖 TLDR: This survey reviews the emerging agent-skills ecosystem for LLMs, covering architectural foundations such as SKILL.md and MCP, methods for acquiring and refining skills, deployment patterns for agent systems, and the security problems introduced by portable, dynamically loaded capabilities.
 
@@ -39,7 +60,7 @@
     - 🏛️ Institutions: Carnegie Mellon University, The Ohio State University, University of Hong Kong, Duke University, Fujitsu Research, All Hands AI
     - 📅 Date: October 28, 2025
     - 📑 Publisher: ICLR 2026 (Oral)
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [framework], [data protocol], [training data], [supervised fine-tuning], [dataset unification], [ADP]
     - 📖 TLDR: Agent Data Protocol (ADP) standardizes heterogeneous agent trajectories into a lightweight schema and conversion pipeline so diverse agent datasets can plug into multiple SFT pipelines without per-dataset engineering. Converting 13 existing datasets into ADP and fine-tuning on the unified corpus improves base models by about 20% on average across coding, browsing, tool-use, and research benchmarks.
 
@@ -48,43 +69,43 @@
     - 🏛️ Institutions: Princeton University, Independent Researcher, The Ohio State University, Microsoft Research, Amazon, Georgetown University, KAIST, Stony Brook University, University of Illinois Urbana-Champaign, Stanford University, xAI, University of California, Berkeley
     - 📅 Date: October 13, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [evaluation infrastructure], [leaderboard], [evaluation harness], [cost tracking], [log inspection], [agent traces], [HAL]
     - 📖 TLDR: HAL provides standardized infrastructure for evaluating agents across models, scaffolds, and benchmarks rather than introducing a new agent. It reports results from 21,730 rollouts across 9 models and 9 benchmarks, tracks costs and full traces, and uses LLM-aided log inspection to surface behaviors such as benchmark gaming and unsafe actions.
-
-- [OmniActor: A Generalist GUI and Embodied Agent for 2D&3D Worlds](https://arxiv.org/abs/2509.02322)
-    - Longrong Yang, Zhixiong Zeng, Yufeng Zhong, Huang Jing, Liming Zheng, Lei Chen, Haibo Qiu, Zequn Qin, Lin Ma, Xi Li
-    - 🏛️ Institutions: College of Computer Science and Technology, Zhejiang University, Meituan Technology, School of Software Technology, Zhejiang University
-    - 📅 Date: September 02, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI], [Misc]
-    - 🔑 Key: [generalist agent], [layer-heterogeneous MoE], [unified action space], [GUI-embodied transfer], [2D and 3D worlds], [OmniActor]
-    - 📖 TLDR: OmniActor studies a single agent that can act in both GUI-based 2D environments and embodied 3D settings. It uses a layer-heterogeneous MoE design to share shallow GUI/embodied representations while separating deeper action-specific parameters, and combines that structure with unified action spaces and mixed training data to improve both GUI and embodied performance.
 
 - [Reliable Weak-to-Strong Monitoring of LLM Agents](https://arxiv.org/abs/2508.19461)
     - Neil Kale, Chen Bo Calvin Zhang, Kevin Zhu, Ankit Aich, Paula Rodriguez, Scale Red Team, Christina Q. Knight, Zifan Wang
     - 🏛️ Institutions: Scale AI, Carnegie Mellon University, Massachusetts Institute of Technology
     - 📅 Date: August 26, 2025
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [safety], [LLM agent], [monitoring], [red-teaming]
     - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.
+
+- [BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
+    - Zijian Chen, Xueguang Ma, Shengyao Zhuang, Ping Nie, Kai Zou, Andrew Liu, Joshua Green, Kshama Patel, Ruoxi Meng, Mingyi Su, Sahel Sharifymoghaddam, Yanxi Li, Haoran Hong, Xinyu Shi, Xuye Liu, Nandan Thakur, Crystina Zhang, Luyu Gao, Wenhu Chen, Jimmy Lin
+    - 🏛️ Institutions: University of Waterloo, CSIRO, Independent, Carnegie Mellon University, The University of Queensland
+    - 📅 Date: August 08, 2025
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [benchmark], [dataset], [agentic search], [deep research], [BrowseComp-plus]
+    - 📖 TLDR: Introduces **BrowseComp-Plus**, a fixed-corpus benchmark for evaluating deep-research agents. It enables controlled, fair, and transparent comparisons by providing human-verified supporting and challenging negative documents for each query. Results reveal significant performance variation—for example, an open-source model (Search-R1 + BM25) only achieves 3.86% accuracy, while GPT-5 reaches 55.9%, and GPT-5 with Qwen3-Embedding-8B retriever achieves 70.1% with fewer queries—highlighting the critical importance of retrieval quality and enabling disentangled analysis of retrieval vs. reasoning components.
 
 - [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704)
     - Ziyang Luo, Zhiqi Shen, Wenzhuo Yang, Zirui Zhao, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, Caiming Xiong, Junnan Li
     - 🏛️ Institutions: Salesforce AI Research
     - 📅 Date: August 20, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [benchmark], [dataset], [framework], [long-horizon reasoning], [unknown-tools challenge], [execution-based evaluation], [MCP-universe]
-    - 📖 TLDR: MCP-Universe introduces the first comprehensive benchmark for evaluating large language models (LLMs) through interactions with real-world Model Context Protocol (MCP) servers. It spans six core domains—Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching—across 11 MCP servers. The benchmark employs execution-based evaluators (format, static, dynamic) to rigorously assess agent performance. Despite progress, state-of-the-art models like GPT-5 (43.72% success), Grok-4 (33.33%), and Claude-4.0-Sonnet (29.44%) show significant limitations. The benchmark highlights challenges in long-context reasoning and unfamiliar tool handling, and provides an open-source extensible evaluation framework with UI support to accelerate future research. 
+    - 📖 TLDR: MCP-Universe introduces the first comprehensive benchmark for evaluating large language models (LLMs) through interactions with real-world Model Context Protocol (MCP) servers. It spans six core domains—Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching—across 11 MCP servers. The benchmark employs execution-based evaluators (format, static, dynamic) to rigorously assess agent performance. Despite progress, state-of-the-art models like GPT-5 (43.72% success), Grok-4 (33.33%), and Claude-4.0-Sonnet (29.44%) show significant limitations. The benchmark highlights challenges in long-context reasoning and unfamiliar tool handling, and provides an open-source extensible evaluation framework with UI support to accelerate future research.
 
 - [Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training](https://arxiv.org/abs/2508.00414)
     - Tianqing Fang, Zhisong Zhang, Xiaoyang Wang, Rui Wang, Can Qin, Yuxuan Wan, Jun-Yu Ma, Ce Zhang, Jiaqi Chen, Xiyun Li, Hongming Zhang, Haitao Mi, Dong Yu
     - 🏛️ Institutions: Tencent AI Lab
     - 📅 Date: August 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [framework], [dataset], [model], [deep research], [reflection], [voting], [agent foundation models]
     - 📖 TLDR: This work introduces **Cognitive Kernel-Pro**, a fully open-source, multi-module agent framework designed to democratize advanced AI agent development. It curates high-quality training data across four domains—web, files, code, and general reasoning—and introduces test-time strategies like reflection and voting to enhance robustness. Evaluated on the GAIA benchmark, its open 8B-parameter model outperforms previous open-source agents such as WebDancer and WebSailor, setting a new performance standard. Code is publicly available.
 
@@ -93,7 +114,7 @@
     - 🏛️ Institutions: The Ohio State University, Stanford University, Princeton University, The University of Hong Kong
     - 📅 Date: November 30, 2024
     - 📑 Publisher: EMNLP 2024 Tutorial Abstracts
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [survey], [tutorial], [reasoning], [planning], [memory], [multi-agent systems], [safety]
     - 📖 TLDR: This tutorial provides a comprehensive exploration of language agents—autonomous systems powered by large language models capable of executing complex tasks through language instructions. It delves into their theoretical foundations, potential applications, associated risks, and future directions, covering topics such as reasoning, memory, planning, tool augmentation, grounding, multi-agent systems, and safety considerations.
 
@@ -102,7 +123,7 @@
     - 🏛️ Institutions: Apple
     - 📅 Date: September 30, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [model], [MM1.5], [vision language model], [visual grounding], [reasoning], [data-centric], [analysis]
     - 📖 TLDR: This paper introduces MM1.5, a family of multimodal large language models (MLLMs) ranging from 1B to 30B parameters, including dense and mixture-of-experts variants. MM1.5 enhances capabilities in text-rich image understanding, visual referring and grounding, and multi-image reasoning. The authors employ a data-centric training approach, utilizing high-quality OCR data and synthetic captions for continual pre-training, alongside an optimized visual instruction-tuning data mixture for supervised fine-tuning. Specialized variants, MM1.5-Video and MM1.5-UI, are designed for video understanding and mobile UI comprehension, respectively. Extensive empirical studies provide insights into the training processes, offering guidance for future MLLM development.
 
@@ -111,25 +132,43 @@
     - 🏛️ Institutions: Shanghai Jiao Tong University, Meta
     - 📅 Date: August 05, 2024
     - 📑 Publisher: ACL 2025
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
     - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
+
+- [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://openreview.net/forum?id=xgtXkyqw1f)
+    - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
+    - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory
+    - 📅 Date: July 29, 2024
+    - 📑 Publisher: ICLR 2025 (Poster)
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [framework], [information seeking], [planning], [AI search], [MindSearch]
+    - 📖 TLDR: This paper presents MindSearch, a novel approach to web information seeking and integration that mimics human cognitive processes. The system uses a multi-agent framework consisting of a WebPlanner and WebSearcher. The WebPlanner models multi-step information seeking as a dynamic graph construction process, decomposing complex queries into sub-questions. The WebSearcher performs hierarchical information retrieval for each sub-question. MindSearch demonstrates significant improvements in response quality and depth compared to existing AI search solutions, processing information from over 300 web pages in just 3 minutes.
 
 - [Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)
     - Nexa AI Team
     - 🏛️ Institutions: Nexa AI
     - 📅 Date: June 26, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [model], [planner-action framework], [Octo-planner], [on-device planning]
     - 📖 TLDR: Presents Octo-planner, an on-device planner for a planner-action agent framework that separates task decomposition from action execution. Built on Phi-3 Mini and paired with an Octopus action model, it targets low-latency planning and execution on resource-constrained devices.
+
+- [Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking](https://arxiv.org/abs/2404.08860)
+    - Lei Ding, Jeshwanth Bheemanpally, Yi Zhang
+    - 🏛️ Institutions: University of California, Santa Cruz
+    - 📅 Date: April 13, 2024
+    - 📑 Publisher: SIGIR 2024
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [framework], [reranking], [verification], [technical support search], [instruction execution]
+    - 📖 TLDR: Targets mobile "how-to" search by automatically executing step-by-step instructions from retrieved pages in a controlled Android environment and reranking results based on actual success. The paper frames this as a verification-driven ranking pipeline for technical-support search rather than a pure mobile-control benchmark.
 
 - [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
     - Lingbo Mo, Zeyi Liao, Boyuan Zheng, Yu Su, Chaowei Xiao, Huan Sun
     - 🏛️ Institutions: The Ohio State University, University of Wisconsin-Madison
     - 📅 Date: February 15, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [safety], [adversarial attacks], [security risks], [language agents], [perception-brain-action]
     - 📖 TLDR: Maps adversarial attacks on language agents through a Perception-Brain-Action decomposition and surveys 12 attack types across those layers. The paper is mainly a threat-modeling taxonomy, useful as a security lens for later web and computer-use agents.
 
@@ -138,7 +177,7 @@
     - 🏛️ Institutions: Tsinghua University, The Ohio State University, ByteDance
     - 📅 Date: January 01, 2024
     - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [benchmark], [evaluation], [multi-environment agents], [AgentBench]
     - 📖 TLDR: Introduces AgentBench, a broad benchmark suite for evaluating LLMs as agents across eight environments, including but not limited to OS interaction. It belongs in this repo mainly as a general agent-evaluation reference rather than a pure GUI benchmark.
 
@@ -147,7 +186,7 @@
     - 🏛️ Institutions: Meta AI, Hugging Face, AutoGPT
     - 📅 Date: November 21, 2023
     - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [benchmark], [multi-modality], [tool use], [reasoning]
     - 📖 TLDR: GAIA is a benchmark developed for evaluating general-purpose AI assistants. It aims to test assistant models across multiple modalities and complex reasoning tasks in real-world settings, including scenarios that require tool usage and open-ended question answering. With a dataset comprising 466 questions across various domains, GAIA highlights gaps between current AI performance and human capability, presenting a significant challenge for large language models such as GPT-4.
 
@@ -156,7 +195,7 @@
     - 🏛️ Institutions: Microsoft Research
     - 📅 Date: October 17, 2023
     - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [visual prompting], [Set-of-Mark], [visual grounding], [zero-shot], [region marking]
     - 📖 TLDR: Introduces Set-of-Mark prompting, where segmented image regions are overlaid with explicit marks before being passed to a multimodal model. The paper shows that simple region marking can unlock much stronger zero-shot grounding from GPT-4V without fine-tuning.
 
@@ -165,7 +204,7 @@
     - 🏛️ Institutions: Northeastern University, Massachusetts Institute of Technology, Princeton University
     - 📅 Date: March 20, 2023
     - 📑 Publisher: NeurIPS 2023
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [framework], [learning], [verbal reinforcement learning], [reflexion]
     - 📖 TLDR: Introduces Reflexion, a framework where language agents learn from feedback by writing verbal reflections into episodic memory instead of updating model weights. The method is broad rather than GUI-specific, but it matters here because many later web and computer-use agents inherit its reflection-and-memory pattern.
 
@@ -174,6 +213,6 @@
     - 🏛️ Institutions: Princeton University, Google Research
     - 📅 Date: October 06, 2022
     - 📑 Publisher: ICLR 2023
-    - 💻 Env: [Misc]
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [framework], [reasoning], [ReAct]
     - 📖 TLDR: Introduces ReAct, the now-standard prompting pattern that interleaves reasoning traces with actions. It is not a GUI paper, but it is foundational because many later web and computer-use agents build directly on this reasoning-action decomposition.

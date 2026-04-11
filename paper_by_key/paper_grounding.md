@@ -14,7 +14,7 @@
     - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, Nanjing University, Ovis Team, Alibaba Group
     - 📅 Date: February 14, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [reinforcement learning], [agentic-Q estimation], [step-wise policy optimization], [Ovis2.5-9B], [GUI navigation], [grounding]
     - 📖 TLDR: This paper trains GUI agents with an agentic-Q model that estimates each action's contribution to task completion and a step-wise policy optimization routine decoupled from online interaction. The design keeps data collection manageable while stabilizing updates and improving navigation and grounding performance.
 
@@ -23,7 +23,7 @@
     - 🏛️ Institutions: Zhejiang University, Huawei Technologies Ltd.
     - 📅 Date: December 10, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [multi-agent], [grounding], [reasoning], [reflection], [benchmark]
     - 📖 TLDR: GAIR is a multi-agent GUI automation framework that uses a general-purpose MLLM to jointly reason over information gathered by multiple GUI-specific models, with a group reflection mechanism that drives specialized models to collect more targeted information when the decision-maker determines insufficient evidence, achieving state-of-the-art results on GUI benchmarks like ScreenSpot and UI-I2E-Bench with only 7B models.
 
@@ -41,7 +41,7 @@
     - 🏛️ Institutions: Ant Group
     - 📅 Date: August 14, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [reinforcement learning], [grounding], [navigation], [data cleaning], [Qwen2.5-VL], [UI-venus]
     - 📖 TLDR: This technical report introduces **UI-Venus**, a screenshot-based UI agent built on the multimodal Qwen2.5-VL model and fine-tuned via **reinforcement fine-tuning (RFT)**. It achieves state-of-the-art performance on UI grounding and navigation benchmarks—e.g., Screenspot-V2/Pro (up to 95.3% / 61.9%) and AndroidWorld navigation (up to 65.9%)—by leveraging carefully crafted reward functions, efficient data cleaning pipelines, and a novel **self-evolving framework** (trajectory alignment and sparse action enhancement) to enhance reasoning coherence and handle rare actions. The code and checkpoints are open-sourced to encourage further development.
 
@@ -50,7 +50,7 @@
     - 🏛️ Institutions: University of Michigan, LG AI Research
     - 📅 Date: May 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [RegionFocus], [test-time scaling], [grounding], [zoom-in reasoning]
     - 📖 TLDR: Presents RegionFocus, a test-time scaling method that repeatedly zooms into promising GUI regions instead of relying on a single full-screen pass. The paper treats grounding as an iterative visual search problem and shows strong gains on ScreenSpot-Pro and WebVoyager without retraining the base model.
 
@@ -59,7 +59,7 @@
     - 🏛️ Institutions: Meituan, Zhejiang University, University of Adelaide
     - 📅 Date: May 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [training strategy], [back-tracking], [grounding], [ScaleTrack]
     - 📖 TLDR: Presents ScaleTrack, a training framework that tackles GUI-agent weaknesses at both the data and planning levels. It scales grounding data through unified sample aggregation and explicitly trains back-tracking behavior so agents can recover from wrong turns instead of only moving forward.
 

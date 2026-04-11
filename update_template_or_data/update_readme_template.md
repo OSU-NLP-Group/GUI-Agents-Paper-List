@@ -1,13 +1,13 @@
 # Awesome GUI Agent Paper List
 
-This repo covers a variety of papers related to GUI Agents, such as:
+This repo covers direct GUI-agent papers, such as:
 - Datasets
 - Benchmarks
 - Models
 - Agent frameworks
-- Vision, language, multimodal foundation models (with explicit support for GUI)
-- Works in general domains extensively used by GUI Agents (e.g., SoM prompting)
-- Agentic Web Search (As it's becoming an important part for agents in the digital world)
+- GUI grounding, planning, memory, safety, and reinforcement learning
+
+Adjacent but non-canonical papers that are heavily reused in GUI research can be curated separately in [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md).
 
 ![keyword_wordcloud_long.png](update_template_or_data/statistics/keyword_wordcloud_long.png)
 
@@ -15,8 +15,6 @@ This repo covers a variety of papers related to GUI Agents, such as:
 
 ## Papers Grouped by Environments
 {{insert_env_groups_here}}
-
-(Misc: Papers for general topics that have important applications in GUI agents.)
 
 ## Papers Grouped by Keywords
 {{insert_keyword_groups_here}}

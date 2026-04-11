@@ -304,15 +304,6 @@
     - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
     - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
 
-- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
-    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
-    - 🏛️ Institutions: LMU Munich, Technical University of Munich, Munich Center for Machine Learning (MCML)
-    - 📅 Date: January 29, 2026
-    - 📑 Publisher: ICLR 2026
-    - 💻 Env: [Web]
-    - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
-    - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
-
 - [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
     - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
     - 🏛️ Institutions: Columbia University, University of California San Diego, University of Illinois Urbana-Champaign
@@ -321,6 +312,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [evaluation pipeline], [visual attribute factors], [VAF], [visual grounding], [robustness]
     - 📖 TLDR: This paper introduces VAF, a controlled evaluation pipeline for measuring how benign UI visual attributes affect web-agent choices while preserving page semantics. Across 48 variants, 5 real websites, and 4 agents, it shows that contrast, size, position, and card clarity strongly influence agent behavior, while several text-style factors matter much less.
+
+- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
+    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
+    - 🏛️ Institutions: LMU Munich, Technical University of Munich, Munich Center for Machine Learning (MCML)
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: ICLR 2026
+    - 💻 Env: [Web]
+    - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
+    - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
 
 - [The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes](https://arxiv.org/abs/2601.16356)
     - Simret Araya Gebreegziabher, Yukun Yang, Charles Chiang, Hojun Yoo, Chaoran Chen, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, Toby Jia-Jun Li
@@ -673,6 +673,15 @@
     - 🔑 Key: [prompt injection detection], [threat model taxonomy], [text detectors], [image detectors], [WAInjectBench]
     - 📖 TLDR: WAInjectBench is a benchmark study of prompt-injection detection for web agents that organizes attacks by threat model and evaluates both text-based and image-based detectors on malicious and benign samples. It finds that detectors can handle explicit textual attacks or visible image perturbations reasonably well, but largely fail on attacks without explicit instructions or with imperceptible perturbations.
 
+- [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://openreview.net/forum?id=AUaW6DS9si)
+    - Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su
+    - 🏛️ Institutions: The Ohio State University, Amazon AGI
+    - 📅 Date: September 18, 2025
+    - 📑 Publisher: NeurIPS 2025 Datasets & Benchmarks Track (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [agentic search], [agent-as-a-judge], [tree-structured rubric], [source attribution], [human evaluation], [Mind2Web 2]
+    - 📖 TLDR: Mind2Web 2 benchmarks long-horizon agentic search with 130 human-crafted tasks that require real-time browsing and citation-backed synthesis. It evaluates systems with task-specific judge agents built from tree-structured rubrics that score both answer correctness and source attribution, and compares ten frontier systems against human performance.
+
 - [ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data](https://arxiv.org/abs/2509.15221)
     - Zhaoyang Liu, Jingjing Xie, Zichen Ding, Zehao Li, Bowen Yang, Zhenyu Wu, Xuehui Wang, Qiushi Sun, Shi Liu, Weiyun Wang, Shenglong Ye, Qingyun Li, Xuan Dong, Yue Yu, Chenyu Lu, YunXiang Mo, Yao Yan, Zeyue Tian, Xiao Zhang, Yuan Huang, Yiqian Liu, Weijie Su, Gen Luo, Xiangyu Yue, Biqing Qi, Kai Chen, Bowen Zhou, Yu Qiao, Qifeng Chen, Wenhai Wang
     - 🏛️ Institutions: Shanghai AI Laboratory
@@ -681,15 +690,6 @@
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [cross-platform data], [closed-loop data pipeline], [six operating systems], [grounding mode], [reasoned action], [ScaleCUA]
     - 📖 TLDR: ScaleCUA builds an open computer-use dataset across six operating systems and three GUI task families through a closed-loop pipeline that combines automated agents with human experts. Models trained on this corpus support grounding, direct-action, and reasoned-action inference modes and reach strong cross-platform results on WebArena-Lite-v2, OSWorld-G, and MMBench-GUI.
-
-- [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://openreview.net/forum?id=AUaW6DS9si)
-    - Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Amazon AGI
-    - 📅 Date: September 18, 2025
-    - 📑 Publisher: NeurIPS 2025 Datasets & Benchmarks Track (Poster)
-    - 💻 Env: [Web], [Search]
-    - 🔑 Key: [agentic search], [agent-as-a-judge], [tree-structured rubric], [source attribution], [human evaluation], [Mind2Web 2]
-    - 📖 TLDR: Mind2Web 2 benchmarks long-horizon agentic search with 130 human-crafted tasks that require real-time browsing and citation-backed synthesis. It evaluates systems with task-specific judge agents built from tree-structured rubrics that score both answer correctness and source attribution, and compares ten frontier systems against human performance.
 
 - [Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments](https://arxiv.org/abs/2509.11250)
     - Yitong Zhang, Ximo Li, Liyi Cai, Jia Li
@@ -726,15 +726,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [multimodal], [multimodal reasoning], [web browsing], [MM-BrowseComp]
     - 📖 TLDR: Introduces **MM-BrowseComp**, a challenging benchmark of 224 handcrafted, multi-hop questions designed to evaluate AI agents’ ability to retrieve and reason over multimodal web content—including images and videos—instead of text alone. Each question includes a verified checklist detailing the necessary reasoning steps. Even top models like OpenAI’s o3 with tools score only ~29% accuracy, underscoring significant shortcomings in current agents' multimodal capabilities and native multimodal reasoning.
-
-- [BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
-    - Zijian Chen, Xueguang Ma, Shengyao Zhuang, Ping Nie, Kai Zou, Andrew Liu, Joshua Green, Kshama Patel, Ruoxi Meng, Mingyi Su, Sahel Sharifymoghaddam, Yanxi Li, Haoran Hong, Xinyu Shi, Xuye Liu, Nandan Thakur, Crystina Zhang, Luyu Gao, Wenhu Chen, Jimmy Lin
-    - 🏛️ Institutions: University of Waterloo, CSIRO, Independent, Carnegie Mellon University, The University of Queensland
-    - 📅 Date: August 08, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dataset], [agentic search], [deep research], [BrowseComp-plus]
-    - 📖 TLDR: Introduces **BrowseComp-Plus**, a fixed-corpus benchmark for evaluating deep-research agents. It enables controlled, fair, and transparent comparisons by providing human-verified supporting and challenging negative documents for each query. Results reveal significant performance variation—for example, an open-source model (Search-R1 + BM25) only achieves 3.86% accuracy, while GPT-5 reaches 55.9%, and GPT-5 with Qwen3-Embedding-8B retriever achieves 70.1% with fewer queries—highlighting the critical importance of retrieval quality and enabling disentangled analysis of retrieval vs. reasoning components.
 
 - [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026)
     - Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Jialiang Gao, Heng Zhou, Yunhao Yang, Wendong Fan, puzhen zhang, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Junjie Wang, Aosong Feng, Jindi Lv, Sicong Jiang, Ziqi Ren, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao
@@ -907,15 +898,6 @@
     - 🔑 Key: [benchmark], [dataset], [evaluation], [LLM judges], [AgentRewardBench]
     - 📖 TLDR: Benchmarks automatic evaluation of web-agent trajectories rather than agent performance itself, collecting 1,302 expert-annotated trajectories across five web benchmarks with labels for success, side effects, and repetitiveness. The study shows no single LLM judge dominates across settings and that common rule-based evaluators often underreport true agent success.
 
-- [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
-    - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
-    - 📅 Date: April 09, 2025
-    - 📑 Publisher: COLM 2025
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [model], [benchmark], [learning], [reasoning], [planning], [ASI], [WebArena]
-    - 📖 TLDR: Proposes Agent Skill Induction (ASI), which induces executable program skills from web interaction experience and reuses them online as tasks evolve. Program-based skills make verification possible during induction, improving both WebArena success rate and step efficiency over static agents and text-skill alternatives while also transferring better across websites.
-
 - [SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills](https://arxiv.org/abs/2504.07079)
     - Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su
     - 🏛️ Institutions: The Ohio State University, Carnegie Mellon University, University of Virginia, Purdue University, Cisco Research
@@ -924,6 +906,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [API synthesis], [skill discovery], [transfer learning], [WebArena]
     - 📖 TLDR: SkillWeaver is a framework that enables web agents to autonomously improve by discovering, practicing, and refining reusable skills, encapsulated as APIs. Through iterative exploration, agents build a library of plug-and-play APIs, enhancing their capabilities. Experiments on WebArena and real-world websites demonstrate significant performance improvements, and the synthesized APIs can be shared among agents to boost overall performance.
+
+- [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
+    - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
+    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
+    - 📅 Date: April 09, 2025
+    - 📑 Publisher: COLM 2025
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [model], [benchmark], [learning], [reasoning], [planning], [ASI], [WebArena]
+    - 📖 TLDR: Proposes Agent Skill Induction (ASI), which induces executable program skills from web interaction experience and reuses them online as tasks evolve. Program-based skills make verification possible during induction, improving both WebArena success rate and step efficiency over static agents and text-skill alternatives while also transferring better across websites.
 
 - [An Illusion of Progress? Assessing the Current State of Web Agents](https://openreview.net/forum?id=6jZi4HSs6o)
     - Tianci Xue, Weijian Qi, Tianneng Shi, Chan Hee Song, Boyu Gou, Dawn Song, Huan Sun, Yu Su
@@ -1132,15 +1123,6 @@
     - 🔑 Key: [framework], [exploration], [AI feedback], [self-improvement], [OpenWebVoyager]
     - 📖 TLDR: Presents OpenWebVoyager, an open framework for multimodal web agents that learn through iterative real-world exploration, feedback collection, and policy optimization. It first bootstraps a base policy with imitation learning, then improves the agent by training on high-quality trajectories discovered on the open web.
 
-- [Beyond Browsing: API-Based Web Agents](https://aclanthology.org/2025.findings-acl.577/)
-    - Yueqi Song, Frank Xu, Shuyan Zhou, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University
-    - 📅 Date: October 24, 2024
-    - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [Web]
-    - 🔑 Key: [API-based agent], [hybrid agent], [WebArena], [API access]
-    - 📖 TLDR: Studies what happens when web-agent tasks are solved through APIs instead of only through browsers. The paper proposes both API-only and hybrid agents, and shows that hybrid access to APIs plus browsing substantially outperforms browsing alone on WebArena.
-
 - [VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html)
     - Lawrence Jang, Yinheng Li, Charles Ding, Justin Lin, Paul Pu Liang, Dan Zhao, Rogerio Bonatti, Kazuhito Koishida
     - 🏛️ Institutions: Carnegie Mellon University, Massachusetts Institute of Technology, New York University, Microsoft
@@ -1149,6 +1131,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [video understanding], [long-context], [VideoWebArena]
     - 📖 TLDR: Introduces VideoWebArena, a benchmark for web agents that must use long video tutorials as context while completing web tasks. The benchmark exposes large gaps in current multimodal agents' ability to retain skills and facts over long contexts.
+
+- [Beyond Browsing: API-Based Web Agents](https://aclanthology.org/2025.findings-acl.577/)
+    - Yueqi Song, Frank Xu, Shuyan Zhou, Graham Neubig
+    - 🏛️ Institutions: Carnegie Mellon University
+    - 📅 Date: October 24, 2024
+    - 📑 Publisher: Findings of ACL 2025
+    - 💻 Env: [Web]
+    - 🔑 Key: [API-based agent], [hybrid agent], [WebArena], [API access]
+    - 📖 TLDR: Studies what happens when web-agent tasks are solved through APIs instead of only through browsers. The paper proposes both API-only and hybrid agents, and shows that hybrid access to APIs plus browsing substantially outperforms browsing alone on WebArena.
 
 - [Large Language Models Empowered Personalized Web Agents](https://openreview.net/forum?id=kAzqfqsCC5)
     - Hongru Cai, Yongqi Li, Wenjie Wang, Fengbin Zhu, Xiaoyu Shen, Wenjie Li, Tat-Seng Chua
@@ -1284,15 +1275,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [MCTS], [DPO], [reinforcement learning], [WebShop], [Agent Q]
     - 📖 TLDR: Agent Q combines guided MCTS, self-critique, and off-policy DPO to train web agents from both successful and failed trajectories. It substantially improves LLM agent performance on WebShop and real-world booking tasks, especially when paired with online search.
-
-- [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://openreview.net/forum?id=xgtXkyqw1f)
-    - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
-    - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory
-    - 📅 Date: July 29, 2024
-    - 📑 Publisher: ICLR 2025 (Poster)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [information seeking], [planning], [AI search], [MindSearch]
-    - 📖 TLDR: This paper presents MindSearch, a novel approach to web information seeking and integration that mimics human cognitive processes. The system uses a multi-agent framework consisting of a WebPlanner and WebSearcher. The WebPlanner models multi-step information seeking as a dynamic graph construction process, decomposing complex queries into sub-questions. The WebSearcher performs hierarchical information retrieval for each sub-question. MindSearch demonstrates significant improvements in response quality and depth compared to existing AI search solutions, processing information from over 300 web pages in just 3 minutes.
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Tamer Abuelsaad, Deepak Akkil, Prasenjit Dey, Ashish Jagmohan, Aditya Vempaty, Ravi Kokku

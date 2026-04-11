@@ -14,7 +14,7 @@
     - 🏛️ Institutions: Salesforce AI Research, University of California, Los Angeles
     - 📅 Date: October 01, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [KV cache compression], [spatio-temporal redundancy], [spatial saliency], [AgentNetBench], [GUI-KV]
     - 📖 TLDR: GUI-KV is a training-free KV-cache compression method for GUI agents that exploits two GUI-specific signals: spatial saliency within a frame and temporal redundancy across frames. It closely matches or beats full-cache performance on standard benchmarks, and in a 5-screenshot AgentNetBench setting cuts decoding FLOPs by 38.9% while improving step accuracy.
 
@@ -32,18 +32,9 @@
     - 🏛️ Institutions: Salesforce AI Research
     - 📅 Date: September 30, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [CRM workflows], [Salesforce sandbox], [milestone evaluation], [SCUBA]
     - 📖 TLDR: SCUBA is a benchmark for computer-use agents on Salesforce customer-relationship-management workflows, with 300 task instances derived from real user interviews across administrator, sales, and service personas. It runs in Salesforce sandbox environments with interpretable milestone evaluation and shows that enterprise tasks remain much harder than standard CUA benchmarks, especially for open models in zero-shot settings.
-
-- [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704)
-    - Ziyang Luo, Zhiqi Shen, Wenzhuo Yang, Zirui Zhao, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, Caiming Xiong, Junnan Li
-    - 🏛️ Institutions: Salesforce AI Research
-    - 📅 Date: August 20, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [dataset], [framework], [long-horizon reasoning], [unknown-tools challenge], [execution-based evaluation], [MCP-universe]
-    - 📖 TLDR: MCP-Universe introduces the first comprehensive benchmark for evaluating large language models (LLMs) through interactions with real-world Model Context Protocol (MCP) servers. It spans six core domains—Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching—across 11 MCP servers. The benchmark employs execution-based evaluators (format, static, dynamic) to rigorously assess agent performance. Despite progress, state-of-the-art models like GPT-5 (43.72% success), Grok-4 (33.33%), and Claude-4.0-Sonnet (29.44%) show significant limitations. The benchmark highlights challenges in long-context reasoning and unfamiliar tool handling, and provides an open-source extensible evaluation framework with UI support to accelerate future research. 
 
 - [CoAct-1: Computer-using Multi-Agent System with Coding Actions](https://arxiv.org/abs/2508.03923)
     - Linxin Song, Yutong Dai, Viraj Prabhu, Jieyu Zhang, Taiwei Shi, Li Li, Junnan Li, Silvio Savarese, Zeyuan Chen, Jieyu Zhao, Ran Xu, Caiming Xiong
@@ -59,7 +50,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
     - 📅 Date: May 19, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [benchmark], [framework], [jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
     - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
 
@@ -68,7 +59,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Nanyang Technological University, Salesforce Research
     - 📅 Date: December 05, 2024
     - 📑 Publisher: ICML 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [pure vision], [inner monologue], [two-stage training], [Aguvis]
     - 📖 TLDR: Aguvis is a pure-vision GUI agent framework that removes textual representations and unifies cross-platform interaction directly from screen images. It combines a large-scale grounding-and-reasoning dataset with a two-stage training pipeline and inner-monologue reasoning, reporting state-of-the-art offline and online results without relying on closed-source models.
 
@@ -86,7 +77,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Carnegie Mellon University, Salesforce Research, University of Waterloo
     - 📅 Date: April 11, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [real computer tasks], [online environment], [online benchmark]
     - 📖 TLDR: OSWorld introduces a groundbreaking benchmark for multimodal agents to perform open-ended tasks within real computer environments across platforms like Ubuntu, Windows, and macOS. It includes 369 real-world tasks involving web and desktop apps, file management, and multi-app workflows, with custom evaluation scripts for reproducibility. The results reveal current agents’ limitations in GUI interaction and operational knowledge, as they achieve just 12.24% task success compared to humans' 72.36%, highlighting critical gaps for future model improvement.
 

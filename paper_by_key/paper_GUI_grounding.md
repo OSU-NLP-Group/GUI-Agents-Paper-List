@@ -5,7 +5,7 @@
     - 🏛️ Institutions: Arizona State University, Amazon (AWS Agentic AI)
     - 📅 Date: March 27, 2026
     - 📑 Publisher: CVPR 2026
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [diffusion models], [hybrid masking], [bounding-box prediction], [LLaDA-V], [cross-platform]
     - 📖 TLDR: This paper adapts the discrete diffusion model LLaDA-V to GUI grounding and proposes a hybrid masking schedule for bounding-box prediction. Across web, desktop, and mobile benchmarks, the diffusion model outperforms its linear-masked variant and remains competitive with autoregressive VLMs.
 
@@ -14,7 +14,7 @@
     - 🏛️ Institutions: Lenovo Research
     - 📅 Date: March 18, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [instruction refinement], [adaptive zoom], [GRPO], [bounding-box prediction], [AdaZoom-GUI]
     - 📖 TLDR: AdaZoom-GUI targets two concrete GUI-grounding bottlenecks: ambiguous natural-language instructions and tiny UI elements in high-resolution screenshots. It combines instruction rewriting with a conditional second-stage zoom-in pass and reports state-of-the-art grounding performance among comparable model sizes.
 
@@ -23,7 +23,7 @@
     - 🏛️ Institutions: Department of Computer Science and Technology, Sichuan University, Department of Computer Science and Technology, Tsinghua University, School of Computer Science, Nanjing University, College of Computing and Data Science, Nanyang Technological University
     - 📅 Date: March 15, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [training-free], [inference scaling], [ZoomUI], [instruction rewriting], [progressive zooming]
     - 📖 TLDR: ZoomUI is a training-free GUI grounding method built on the idea that complex interfaces can be decomposed into simpler visual elements that generic MLLMs already understand. It rewrites instructions into element-level visual descriptions and progressively zooms onto candidate UI regions, reaching or surpassing fine-tuned baselines without additional training.
 
@@ -32,7 +32,7 @@
     - 🏛️ Institutions: IBM Research, ETH Zurich, KAIST
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [dataset], [screen parsing], [dense supervision], [ScreenParse], [UI understanding]
     - 📖 TLDR: This paper argues that sparse grounding supervision is insufficient for GUI understanding and introduces ScreenParse, a large-scale densely annotated screen-parsing dataset. It provides complete UI-element supervision across web screenshots to support richer grounding and UI understanding models.
 
@@ -50,7 +50,7 @@
     - 🏛️ Institutions: WeChat AI
     - 📅 Date: February 06, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [data engineering], [vision encoder training], [verifiable rewards], [POINTS-GUI-G-8B], [ScreenSpot-pro]
     - 📖 TLDR: POINTS-GUI-G studies how to build strong GUI grounding from a base model without strong initial spatial grounding. It attributes gains to multi-source data engineering, improved vision-encoder training, and RL with verifiable rewards, producing competitive results across several grounding benchmarks.
 
@@ -59,7 +59,7 @@
     - 🏛️ Institutions: College of Computer Science and Technology, National University of Defense Technology, Intelligent Game and Decision Lab, Academy of Military Sciences
     - 📅 Date: February 06, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [multimodal fusion], [attention mechanism], [training-free], [OCR], [Trifuse]
     - 📖 TLDR: Trifuse is a training-free GUI grounding method that fuses MLLM attention, OCR text, and icon caption signals through a consensus-based fusion strategy. It improves grounding across multiple benchmarks without task-specific fine-tuning.
 
@@ -68,7 +68,7 @@
     - 🏛️ Institutions: Tsinghua University, Xiaomi Corporation, Zhejiang University, Nanyang Technological University, Institute of Automation, Chinese Academy of Sciences
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [reinforcement learning], [tiered rewards], [reward shaping], [GUI grounding], [planning], [SSL]
     - 📖 TLDR: SSL replaces binary verifier rewards with progressively amplified tiered rewards that distinguish higher- and lower-quality successful trajectories. Across GUI perception, short- and long-horizon planning, and reasoning benchmarks, it improves optimization stability and reaches up to 2.5x better sample efficiency than binary-reward baselines.
 
@@ -77,7 +77,7 @@
     - 🏛️ Institutions: Zhejiang University, Inclusion AI, Ant Group
     - 📅 Date: January 11, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [visual attention], [background suppression], [Fitts' law], [V2P]
     - 📖 TLDR: V2P improves attention-based GUI grounding by suppressing irrelevant background regions and using a Fitts’ Law-inspired Gaussian peak to emphasize an element’s actionable center over its edges. The paper reports 92.4% on ScreenSpot-v2 and 52.5% on ScreenSpot-Pro, with ablations confirming both components matter.
 
@@ -95,7 +95,7 @@
     - 🏛️ Institutions: College of Computer Science and Technology, Zhejiang University, College of Computer Science and Technology, Hangzhou Dianzi University, Venus Team, Ant Group
     - 📅 Date: December 09, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [training-free], [multi-view inference], [test-time augmentation], [coordinate clustering]
     - 📖 TLDR: MVP is a training-free framework that improves GUI grounding accuracy by aggregating coordinate predictions from multiple attention-guided cropped views of a screenshot and selecting the centroid of the densest spatial cluster, significantly boosting performance of existing grounding models on benchmarks like ScreenSpot-Pro.
 
@@ -104,7 +104,7 @@
     - 🏛️ Institutions: Xi’an Jiaotong University, Princeton University, Peking University, University of Chinese Academy of Sciences, The University of Hong Kong, Michigan State University
     - 📅 Date: December 05, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [benchmark], [training-free], [zoom], [test-time scaling], [visual grounding]
     - 📖 TLDR: Proposes ZoomClick, a training-free method that leverages zoom as a prior for GUI grounding to dynamically focus on screen regions and switch context, achieving state-of-the-art results on benchmarks like ScreenSpot-Pro, and introduces GUIZoom-Bench for evaluating model adaptability to zoom.
 
@@ -122,7 +122,7 @@
     - 🏛️ Institutions: The Ohio State University, Microsoft Research, Redmond
     - 📅 Date: November 07, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [dataset], [benchmark], [text dragging], [multimodal LLM]
     - 📖 TLDR: This paper introduces GUI-Drag, a 161K-example dataset for text dragging in GUIs, and ScreenDrag, a benchmark with 5,333 examples, extending GUI grounding beyond click-only actions to support drag-based text selection and manipulation while maintaining click performance.
 
@@ -131,7 +131,7 @@
     - 🏛️ Institutions: University of Minnesota, Cisco Research, Lawrence Livermore National Labs
     - 📅 Date: October 05, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [image-grounded reasoning], [iterative focus refinement], [ScreenSpot-pro], [GUI-Spotlight]
     - 📖 TLDR: GUI-Spotlight is a GUI grounding model that performs image-grounded reasoning by iteratively invoking specialized tools to narrow attention to the relevant screen region. Trained with only 18.5K examples, it reaches 52.8% accuracy on ScreenSpot-Pro, outperforming prior 7B grounding models trained on much larger datasets.
 
@@ -140,7 +140,7 @@
     - 🏛️ Institutions: Zhejiang University, Central South University, Zhejiang University of Science and Technology, SF Technology
     - 📅 Date: August 07, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [test-time scaling], [reinforcement learning], [self‑supervised], [GUI‑RC], [GUI‑RCPO], [benchmark], [region consistency], [GUI grounding]
     - 📖 TLDR: This paper introduces **GUI‑RC (Region Consistency)**, a test-time method that aggregates multiple model predictions via spatial voting to derive a consensus region—achieving 2–3% accuracy improvements on ScreenSpot benchmarks without any additional training. It extends this idea with **GUI‑RCPO (Region Consistency Policy Optimization)**, which turns region-consistency patterns into self-supervised rewards for reinforcement learning at inference time, refining model predictions on unlabeled data and yielding further improvements (e.g., from 83.57% to 85.14% on ScreenSpot‑v2). The approach demonstrates a novel and effective use of test-time optimization for more robust, data-efficient GUI grounding.
 
@@ -149,7 +149,7 @@
     - 🏛️ Institutions: University of Illinois Chicago, University of Minnesota, Cisco Research
     - 📅 Date: August 06, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [GUI grounding], [reinforcement learning], [reinforcement fine-tuning], [ScreenSpot], [GuirlVG]
     - 📖 TLDR: This paper studies reinforcement fine-tuning for GUI visual grounding and argues that naive rule-based RL underperforms strong supervised baselines without careful formulation. It introduces GuirlVG, which systematically redesigns the reward, training setup, and stabilization mechanism, including an Adversarial KL Factor to reduce reward over-optimization. With only 5.2K training samples, the method surpasses prior GUI grounding approaches trained on much larger datasets across ScreenSpot, ScreenSpot-Pro, and ScreenSpot-V2.
 
@@ -158,7 +158,7 @@
     - 🏛️ Institutions: Gaoling School of Artificial Intelligence, Renmin University of China, Huawei Noah's Ark Lab
     - 📅 Date: May 21, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [GUI grounding], [visual grounding], [reinforcement learning], [ScreenSpot], [GUI-G1]
     - 📖 TLDR: This paper analyzes why blindly copying R1-Zero-style online RL pipelines into GUI grounding leads to poor behavior, including overlong reasoning, reward hacking on box size, and under-optimization on hard examples. It then proposes targeted fixes in prompt design, reward shaping, and difficulty-aware policy optimization. The resulting GUI-G1 model sets a new state of the art for its scale on ScreenSpot-style GUI grounding benchmarks.
 
@@ -176,18 +176,9 @@
     - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
     - 📅 Date: May 19, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [benchmark], [framework], [jedi], [OSWorld‑G], [GUI grounding], [compositional generalization], [fine‑grained manipulation]
     - 📖 TLDR: This work tackles limitations in GUI grounding by introducing **OSWorld‑G**, a 564‑sample benchmark covering text matching, element recognition, layout understanding, fine‑grained manipulation, and refusal detection. They also synthesize **Jedi**, a massive 4 M‑example dataset generated via UI decomposition and synthesis. Training multi‑scale models on Jedi achieves state‑of‑the‑art grounding across benchmarks (ScreenSpot‑v2/Pro and OSWorld‑G), boosting agentic task performance from 5 % to ~27 % success. Ablations demonstrate compositional benefits. All artifacts are publicly released.
-
-- [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/abs/2505.12370)
-    - Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
-    - 🏛️ Institutions: VCIP, School of Computer Science, NKU, vivo Mobile Communication Co., Ltd, National University of Singapore, Fudan University, East China University of Science and Technology
-    - 📅 Date: May 18, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [framework], [reinforcement learning], [GUI grounding], [visual grounding], [ScreenSpot-pro], [SE-GUI]
-    - 📖 TLDR: This paper targets visual grounding for GUI agents in complex, high-resolution interfaces where supervised fine-tuning often generalizes poorly. It introduces SE-GUI, an RL-based framework with seed-data curation, dense policy gradients, and self-evolutionary reinforcement finetuning driven by attention maps. With only 3k training samples, the 7B model reaches state-of-the-art results on multiple grounding benchmarks and substantially improves ScreenSpot-Pro performance.
 
 - [GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning](https://arxiv.org/abs/2505.12493)
     - Longxi Gao, Li Zhang, Pengzhi Gao, Wei Liu, Jian Luan, Mengwei Xu
@@ -198,12 +189,21 @@
     - 🔑 Key: [framework], [reinforcement learning], [self-supervised learning], [GUI grounding], [GUI-shift]
     - 📖 TLDR: Learns GUI dynamics from unlabeled trajectories through a self-supervised inverse-dynamics task called K-step GUI Transition, avoiding dependence on natural-language annotations. Built on top of that task, GUI-Shift combines rule-based optimization with data filtering and improves both GUI automation and grounding across AndroidControl, GUI Odyssey, ScreenSpot-v2, and ScreenSpot-Pro.
 
+- [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/abs/2505.12370)
+    - Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
+    - 🏛️ Institutions: VCIP, School of Computer Science, NKU, vivo Mobile Communication Co., Ltd, National University of Singapore, Fudan University, East China University of Science and Technology
+    - 📅 Date: May 18, 2025
+    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [framework], [reinforcement learning], [GUI grounding], [visual grounding], [ScreenSpot-pro], [SE-GUI]
+    - 📖 TLDR: This paper targets visual grounding for GUI agents in complex, high-resolution interfaces where supervised fine-tuning often generalizes poorly. It introduces SE-GUI, an RL-based framework with seed-data curation, dense policy gradients, and self-evolutionary reinforcement finetuning driven by attention maps. With only 3k training samples, the 7B model reaches state-of-the-art results on multiple grounding benchmarks and substantially improves ScreenSpot-Pro performance.
+
 - [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://aclanthology.org/2025.findings-acl.809/)
     - Xinyi Liu, Xiaoyi Zhang, Ziyun Zhang, Yan Lu
     - 🏛️ Institutions: Microsoft Research Asia, School of Software and Microelectronics, Peking University
     - 📅 Date: April 15, 2025
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [benchmark], [instruction synthesis], [GUI grounding], [UI-E2I-Synth], [UI-I2E-Bench]
     - 📖 TLDR: UI-E2I-Synth targets the data bottleneck in vision-based GUI instruction grounding, especially for implicit instructions, small elements, and underrepresented element types. It introduces a GPT-4o-based large-scale instruction synthesis pipeline and the UI-I2E-Bench benchmark, showing that models trained on the synthesized data achieve stronger GUI grounding performance across platforms.
 
@@ -230,7 +230,7 @@
     - 🏛️ Institutions: SenseTime Research, Beijing University of Posts and Telecommunications, MMLab, CUHK
     - 📅 Date: March 05, 2025
     - 📑 Publisher: CVPR 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [VLM], [single-screenshot inference], [cross-platform], [SpiritSight Agent]
     - 📖 TLDR: SpiritSight Agent is a vision-based GUI agent that aims to improve grounding accuracy and latency using only a single screenshot per decision step. Its one-look design targets efficient cross-platform GUI interaction without relying on heavier multi-stage perception pipelines.
 
@@ -239,7 +239,7 @@
     - 🏛️ Institutions: ByteDance Seed, Tsinghua University
     - 📅 Date: January 21, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI grounding], [action modeling], [system-2 reasoning], [reflective online traces], [UI-TARS]
     - 📖 TLDR: UI-TARS is an end-to-end native GUI agent model that operates directly from screenshots rather than wrapping a commercial foundation model with handcrafted prompting workflows. It combines enhanced GUI perception, unified cross-platform action modeling, deliberate multi-step reasoning, and iterative training on reflective online traces, and reports strong results across more than ten GUI-agent benchmarks.
 
@@ -248,7 +248,7 @@
     - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research, Alibaba Group, Australian National University, Independent Researcher
     - 📅 Date: December 20, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI grounding], [pure vision], [instruction synthesis], [context-aware grounding], [Aria-UI]
     - 📖 TLDR: Aria-UI is a GUI-grounding model that deliberately avoids HTML or AXTree inputs and instead works from pure visual observations. It pairs a scalable instruction-synthesis pipeline with interleaved textual and text-image action histories for context-aware grounding, and reports state-of-the-art results across offline and online grounding benchmarks.
 
@@ -257,7 +257,7 @@
     - 🏛️ Institutions: Shenzhen International Graduate School, Tsinghua University
     - 📅 Date: December 02, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [pure vision], [GUI grounding], [interpreter-locator], [ScreenSpot], [Ponder & Press]
     - 📖 TLDR: Ponder & Press is a pure-vision divide-and-conquer GUI-control framework that separates high-level instruction interpretation from element localization. It pairs a general-purpose MLLM interpreter with a GUI-specific locator, improves ScreenSpot grounding by 22.5%, and reports strong performance across web, desktop, and mobile GUI benchmarks.
 
@@ -266,7 +266,7 @@
     - 🏛️ Institutions: Algoma University
     - 📅 Date: November 18, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [GUI grounding], [visual prompting], [iterative narrowing]
     - 📖 TLDR: Proposes Iterative Narrowing, a visual prompting framework for GUI grounding that repeatedly focuses on smaller image regions to refine predictions. The method improves both general and fine-tuned VLMs on one-shot GUI grounding, with later versions reporting gains of up to 61% on a multi-platform benchmark.
 
@@ -284,7 +284,7 @@
     - 🏛️ Institutions: Fudan University
     - 📅 Date: October 25, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [synthetic data], [GUI grounding], [multi-granularity data], [EDGE]
     - 📖 TLDR: Proposes EDGE, a synthetic-data pipeline for GUI understanding that enriches supervision at multiple granularities using webpage-derived data. The resulting training data improves grounding and interaction performance across desktop and mobile GUI tasks without relying on large amounts of manual annotation.
 
@@ -293,7 +293,7 @@
     - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
     - 📅 Date: October 09, 2024
     - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [GUI grounding], [single-turn agent], [on-device model], [ScreenSpot], [OmniAct], [TinyClick]
     - 📖 TLDR: TinyClick is a compact, single-turn agent designed to automate GUI tasks by precisely locating screen elements via the Vision-Language Model Florence-2-Base. Trained with multi-task strategies and MLLM-based data augmentation, TinyClick achieves high accuracy on Screenspot and OmniAct, outperforming specialized GUI interaction models and general MLLMs like GPT-4V. The model's lightweight design (0.27B parameters) ensures fast processing and minimal latency, making it efficient for real-world applications on multiple platforms.
 
@@ -329,7 +329,7 @@
     - 🏛️ Institutions: The Chinese University of Hong Kong, Harbin Institute of Technology, Southern University of Science and Technology, The Hong Kong University of Science and Technology
     - 📅 Date: September 17, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [GUI understanding], [GUI grounding], [VR/AR], [zero-shot detection], [multimodal LLM], [software testing]
     - 📖 TLDR: Proposes Orienter, the first zero-shot context-sensitive interactable GUI element detection framework for Extended Reality (XR/VR) apps, which uses semantic context comprehension and reflection-directed detection to identify interactable GUI elements in 3D virtual environments more effectively than existing approaches.
 
@@ -347,6 +347,6 @@
     - 🏛️ Institutions: Nanjing University, Shanghai AI Lab
     - 📅 Date: January 19, 2024
     - 📑 Publisher: ACL 2024
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [benchmark], [GUI grounding], [ScreenSpot], [SeeClick]
     - 📖 TLDR: SeeClick is a screenshot-only visual GUI agent that targets the core GUI grounding problem without relying on structured accessibility trees or HTML-like inputs. The paper introduces GUI-grounding pretraining data generation and the ScreenSpot benchmark, and shows that better grounding directly improves downstream GUI agent performance.

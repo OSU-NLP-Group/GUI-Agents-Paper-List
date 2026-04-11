@@ -40,7 +40,7 @@ class KeyLintTests(unittest.TestCase):
                 - 🏛️ Institutions: Example Lab
                 - 📅 Date: March 02, 2026
                 - 📑 Publisher: arXiv
-                - 💻 Env: [GUI]
+                - 💻 Env: [General GUI]
                 - 🔑 Key: [GUI grounding], [gui], [benchmark]
                 - 📖 TLDR: Example.
             """
@@ -79,7 +79,7 @@ class KeyLintTests(unittest.TestCase):
                 - 🏛️ Institutions: Example Lab
                 - 📅 Date: March 02, 2026
                 - 📑 Publisher: arXiv
-                - 💻 Env: [GUI]
+                - 💻 Env: [General GUI]
                 - 🔑 Key: [GUI grounding]
                 - 📖 TLDR: Example.
             """

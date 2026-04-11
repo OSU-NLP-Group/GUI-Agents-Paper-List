@@ -41,7 +41,7 @@
     - 🏛️ Institutions: Huawei Noah’s Ark Lab, Renmin University of China
     - 📅 Date: November 07, 2024
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [survey], [foundation models], [taxonomy]
     - 📖 TLDR: Surveys GUI agents built on LLMs and multimodal foundation models, covering data resources, benchmark design, agent frameworks, and industrial applications. It also proposes a unified taxonomy of prior work and highlights open challenges around personalization, safety, and inference efficiency.
 

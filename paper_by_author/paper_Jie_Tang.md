@@ -14,7 +14,7 @@
     - 🏛️ Institutions: ByteDance Seed
     - 📅 Date: September 02, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [data flywheel], [multi-turn reinforcement learning], [hybrid GUI-terminal environment], [unified sandbox], [online-Mind2Web], [UI-TARS-2]
     - 📖 TLDR: UI-TARS-2 studies how to scale native GUI agents with a data flywheel, stabilized multi-turn reinforcement learning, hybrid GUI-plus-terminal environments, and a unified sandbox. It reports strong results across GUI benchmarks, games, information-seeking tasks, and software-engineering settings, and also analyzes training dynamics and parameter interpolation during RL.
 
@@ -59,7 +59,7 @@
     - 🏛️ Institutions: Tsinghua University, Microsoft Research Asia, The Ohio State University
     - 📅 Date: August 12, 2024
     - 📑 Publisher: ICLR 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [dataset], [embodied], [visual design], [VisualAgentBench], [VAB]
     - 📖 TLDR: The authors introduce *VisualAgentBench (VAB)*, a comprehensive benchmark designed to train and evaluate large multimodal models (LMMs) as visual foundation agents across diverse scenarios, including embodied tasks, graphical user interfaces, and visual design. VAB comprises five distinct environments that systematically challenge LMMs' understanding and interaction capabilities. Additionally, the benchmark offers supervised fine-tuning trajectory data for behavior cloning training, demonstrating the potential to improve open LMMs for serving as visual foundation agents.
 
@@ -71,12 +71,3 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [benchmark], [reinforcement learning], [AutoWebBench], [ChatGLM3-6B]
     - 📖 TLDR: AutoWebGLM introduces a web navigation agent based on ChatGLM3-6B, designed to autonomously navigate and interact with webpages for complex tasks. The paper highlights a two-phase data construction approach using a hybrid human-AI methodology for diverse, curriculum-based web task training. It also presents AutoWebBench, a benchmark for evaluating agent performance in web tasks, and uses reinforcement learning to fine-tune operations, addressing complex webpage interaction and grounding.
-
-- [AgentBench: Evaluating LLMs as Agents](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html)
-    - Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, The Ohio State University, ByteDance
-    - 📅 Date: January 01, 2024
-    - 📑 Publisher: ICLR 2024
-    - 💻 Env: [Misc]
-    - 🔑 Key: [benchmark], [evaluation], [multi-environment agents], [AgentBench]
-    - 📖 TLDR: Introduces AgentBench, a broad benchmark suite for evaluating LLMs as agents across eight environments, including but not limited to OS interaction. It belongs in this repo mainly as a general agent-evaluation reference rather than a pure GUI benchmark.

@@ -5,7 +5,7 @@
     - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory, CUHK MMLab, The Hong Kong University of Science and Technology, National University of Singapore
     - 📅 Date: March 19, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [reward model], [reinforcement learning], [critic framework], [OmniGUIRewardBench], [milestone decomposition], [OS-Themis]
     - 📖 TLDR: OS-Themis is a scalable critic framework for GUI reward modeling that breaks trajectories into verifiable milestones and audits the evidence chain before issuing a verdict. It improves AndroidWorld training and filtering loops and introduces OmniGUIRewardBench as a cross-platform benchmark for GUI outcome rewards.
 
@@ -41,7 +41,7 @@
     - 🏛️ Institutions: Zhejiang University, Westlake University, Shanghai Artificial Intelligence Laboratory, University of Hong Kong, Hong Kong University of Science and Technology
     - 📅 Date: April 14, 2025
     - 📑 Publisher: COLM 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [mid-training], [task generalization], [multimodal reasoning], [textual reasoning], [GUI agent training], [GUIMid]
     - 📖 TLDR: This paper studies whether GUI agents can improve by mid-training on non-GUI but reasoning-intensive tasks before GUI fine-tuning. It finds that task generalization is highly effective: multimodal and even text-only reasoning data substantially improve downstream WebArena and AndroidWorld performance, showing that scarce GUI trajectories can be complemented by broader reasoning data.
 
@@ -50,7 +50,7 @@
     - 🏛️ Institutions: Shanghai AI Laboratory, The University of Hong Kong, Johns Hopkins University, Shanghai Jiao Tong University, University of Oxford, Hong Kong University of Science and Technology
     - 📅 Date: December 27, 2024
     - 📑 Publisher: ACL 2025
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [trajectory synthesis], [reverse task synthesis], [reward model], [GUI agent training], [OS-Genesis]
     - 📖 TLDR: OS-Genesis tackles the scarcity of high-quality GUI trajectories by synthesizing them without preset tasks or human demonstrations. It reverses the usual collection process by first exploring with step-level interactions, then retrospectively deriving tasks and filtering trajectories with a reward model, producing more diverse training data and improving online GUI-agent performance.
 

@@ -162,7 +162,7 @@ def process_markdown():
     paper_source = "ALL_PAPERS.md"
     sample_input = read_file(paper_source)
 
-    # Env field supports single [Web] or multi [Web], [Search]
+    # Env field supports single [Web] or multi [Desktop], [Web]
     new_format_pattern = re.compile(
         r"- \[(.*?)\]\((.*?)\)\s+"
         r"- (.*?)\s+"
@@ -280,10 +280,13 @@ def process_markdown():
             "Web": "paper_web.md",
             "Desktop": "paper_desktop.md",
             "Mobile": "paper_mobile.md",
-            "GUI": "paper_gui.md",
-            "Search": "paper_search.md",
-            "Misc": "paper_misc.md",
+            "General GUI": "paper_general_gui.md",
         }
+        legacy_env_files = {"paper_gui.md", "paper_search.md", "paper_misc.md"}
+        for legacy_file in legacy_env_files:
+            legacy_path = os.path.join("paper_by_env", legacy_file)
+            if os.path.exists(legacy_path):
+                os.remove(legacy_path)
         env_counts = {}
         for env_key, file_name in env_keywords.items():
             # Env field uses [brackets], so match the exact bracket token

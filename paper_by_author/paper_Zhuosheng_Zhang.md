@@ -5,7 +5,7 @@
     - 🏛️ Institutions: Shanghai Jiao Tong University, Ant Group, Zhongguancun Academy, Shanghai Innovation Institute
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [knowledge distillation], [fine-grained perception], [region-to-image distillation], [ZoomBench], [training data generation], [multimodal perception]
     - 📖 TLDR: This paper proposes Region-to-Image Distillation, which teaches a model to internalize zoom-in behavior without requiring explicit crop-and-reason inference at test time. It also introduces ZoomBench and shows stronger fine-grained perception on both perception and GUI-agent benchmarks.
 
@@ -32,7 +32,7 @@
     - 🏛️ Institutions: School of Computer Science, Shanghai Jiao Tong University, OPPO Research Institute
     - 📅 Date: January 07, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [continual learning], [parameter fusion], [catastrophic forgetting], [geometric consensus], [Agent-Dice]
     - 📖 TLDR: Agent-Dice addresses the stability-plasticity dilemma in agent continual learning by separating shared knowledge from task-specific interference during parameter fusion. Its two-stage method combines geometric consensus filtering with curvature-based importance weighting, and the paper reports strong continual-learning results for both GUI and tool-use agents.
 
@@ -41,7 +41,7 @@
     - 🏛️ Institutions: School of Computer Science and Technology, Soochow University, School of Computer Science, Shanghai Jiao Tong University
     - 📅 Date: November 27, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [multi-agent framework], [reinforcement learning], [long-horizon task planning], [state tracking], [task decomposition]
     - 📖 TLDR: This paper proposes CES, a multi-agent framework consisting of a Coordinator, Executor, and State Tracker, where high-level scheduling models are trained via execution-feedback reinforcement learning to improve long-horizon GUI automation by decoupling planning from low-level action execution.
 
@@ -68,7 +68,7 @@
     - 🏛️ Institutions: School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University
     - 📅 Date: May 19, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [GUI]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [out-of-distribution detection], [safety], [gaussian mixture model], [MLLM], [robustness]
     - 📖 TLDR: GEM proposes a Gaussian mixture model-based method for detecting out-of-distribution instructions in GUI agents by modeling input embedding distances, achieving a 23.70% average accuracy improvement over baselines across eight datasets spanning smartphones, computers, and web browsers.
 
@@ -89,15 +89,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [smartphone automation], [comprehensive environment perception], [conditional action prediction], [CoCo-Agent]
     - 📖 TLDR: Presents CoCo-Agent, a smartphone GUI agent built around comprehensive environment perception and conditional action prediction. The paper reports strong gains on mobile GUI automation benchmarks such as AITW and META-GUI, showing that richer environment modeling improves action selection.
-
-- [Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions](https://aclanthology.org/2025.acl-long.1087/)
-    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Meta
-    - 📅 Date: August 05, 2024
-    - 📑 Publisher: ACL 2025
-    - 💻 Env: [Misc]
-    - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
-    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
 - [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436)
     - Zhuosheng Zhang, Aston Zhang
