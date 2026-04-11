@@ -227,10 +227,10 @@ Checklist:
 - [x] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge
 - [x] Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments
 - [x] MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents
-- [ ] AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents
-- [ ] MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents
-- [ ] Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows
-- [ ] OmniActor: A Generalist GUI and Embodied Agent for 2D&3D Worlds
+- [x] AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents
+- [x] MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents
+- [x] Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows
+- [x] OmniActor: A Generalist GUI and Embodied Agent for 2D&3D Worlds
 - [ ] UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
 - [ ] Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control
 - [ ] Throttling Web Agents Using Reasoning Gates

@@ -81,15 +81,6 @@
     - 🔑 Key: [benchmark], [security], [web vulnerabilities], [CTF], [penetration testing], [HackWorld]
     - 📖 TLDR: HackWorld uses a CTF-style setup over 36 vulnerable web applications spanning 11 frameworks and 7 languages to test whether computer-use agents can discover and exploit realistic web flaws through GUI interaction. Current agents achieve exploitation rates below 12% and often fail at multi-step attack planning and security-tool use.
 
-- [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
-    - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
-    - 🏛️ Institutions: ShanghaiTech University, Independent Researcher
-    - 📅 Date: September 09, 2025
-    - 📑 Publisher: CCS 2025
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [security], [defense framework], [real-time auditing], [system traces], [BadComputerUse], [AgentSentinel]
-    - 📖 TLDR: AgentSentinel is an end-to-end real-time defense framework for computer-use agents that intercepts sensitive operations and audits them against task context and system traces before execution. Its companion BadComputerUse benchmark shows that current agents are highly vulnerable to harmful operations, while AgentSentinel substantially improves defense success against these attacks.
-
 - [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
     - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
     - 🏛️ Institutions: National University of Singapore, Cyber Emerging Tech and R&D
