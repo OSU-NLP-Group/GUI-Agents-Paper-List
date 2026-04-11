@@ -65,12 +65,12 @@
 
 - [A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation](https://arxiv.org/abs/2501.01149)
     - Yuxiang Chai, Shunye Tang, Han Xiao, Weifeng Lin, Hanhao Li, Jiayu Zhang, Liang Liu, Pengxiang Zhao, Guangyi Liu, Guozhi Wang, Shuai Ren, Rongduo Han, Haining Zhang, Siyuan Huang, Hongsheng Li
-    - 🏛️ Institutions: MMLab at The Chinese University of Hong Kong, EE Department at The Chinese University of Hong Kong, vivo AI Lab, Shanghai Jiao Tong University
+    - 🏛️ Institutions: MMLab @ CUHK, EE department @ CUHK, vivo AI Lab, Shanghai Jiao Tong University
     - 📅 Date: January 02, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [Android], [essential-state evaluation], [reward model], [A3]
-    - 📖 TLDR: A3 is a mobile GUI benchmark built around 100 tasks in 20 dynamic online Android apps, targeting the gap between offline/static evaluation and real mobile use. Its essential-state procedural evaluation uses MLLMs as reward models to verify intermediate progress and task completion on real online apps.
+    - 🔑 Key: [benchmark], [essential-state evaluation], [procedural evaluation], [reward model], [A3]
+    - 📖 TLDR: A3 is a mobile GUI benchmark built from 100 tasks over 20 dynamic online Android apps to evaluate agents beyond static or offline settings. Its essential-state procedural evaluation uses MLLMs as reward models to verify both intermediate progress and final completion on real online apps.
 
 - [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://aclanthology.org/2025.acl-long.277/)
     - Qiushi Sun, Kanzhi Cheng, Zichen Ding, Chuanyang Jin, Yian Wang, Fangzhi Xu, Zhenyu Wu, Chengyou Jia, Liheng Chen, Zhoumianze Liu, Ben Kao, Guohao Li, Junxian He, Yu Qiao, Zhiyong Wu
@@ -78,5 +78,5 @@
     - 📅 Date: December 27, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [General GUI]
-    - 🔑 Key: [dataset], [trajectory synthesis], [reverse task synthesis], [reward model], [GUI agent training], [OS-Genesis]
-    - 📖 TLDR: OS-Genesis tackles the scarcity of high-quality GUI trajectories by synthesizing them without preset tasks or human demonstrations. It reverses the usual collection process by first exploring with step-level interactions, then retrospectively deriving tasks and filtering trajectories with a reward model, producing more diverse training data and improving online GUI-agent performance.
+    - 🔑 Key: [dataset], [trajectory synthesis], [reverse task synthesis], [reward model], [OS-Genesis]
+    - 📖 TLDR: OS-Genesis tackles the lack of high-quality GUI trajectories by synthesizing them without preset tasks or human demonstrations. It first explores with step-level interactions, then retrospectively derives tasks and filters the resulting trajectories with a reward model, producing more diverse training data for GUI agents.

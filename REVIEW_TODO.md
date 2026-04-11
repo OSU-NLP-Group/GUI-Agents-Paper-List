@@ -332,18 +332,17 @@ Checklist:
 - [x] Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
 - [x] WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point
 - [x] Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning
-- [ ] AppVLM: A Lightweight Vision Language Model for Online App Control
-- [ ] MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users
-- [ ] UI-TARS: Pioneering Automated GUI Interaction with Native Agents
-- [ ] WebWalker: Benchmarking LLMs in Web Traversal
-- [ ] A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation
-- [ ] OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis
-- [ ] PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World
-- [ ] OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use
-- [ ] Aria-UI: Visual Grounding for GUI Instructions
-- [ ] OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use
-- [ ] GUI Agents: A Survey
-- [ ] Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents
+- [x] AppVLM: A Lightweight Vision Language Model for Online App Control
+- [x] MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users
+- [x] UI-TARS: Pioneering Automated GUI Interaction with Native Agents
+- [x] WebWalker: Benchmarking LLMs in Web Traversal
+- [x] A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation
+- [x] OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis
+- [x] PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World
+- [x] OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use
+- [x] Aria-UI: Visual Grounding for GUI Instructions
+- [x] GUI Agents: A Survey
+- [x] Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents
 - [ ] Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining
 - [ ] Falcon-UI: Understanding GUI Before Following User Instructions
 - [ ] The BrowserGym Ecosystem for Web Agent Research
