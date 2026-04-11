@@ -55,6 +55,24 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [survey], [agent skills], [SKILL.md], [MCP], [skill acquisition], [agent security]
     - 📖 TLDR: This survey reviews the emerging agent-skills ecosystem for LLMs, covering architectural foundations such as SKILL.md and MCP, methods for acquiring and refining skills, deployment patterns for agent systems, and the security problems introduced by portable, dynamically loaded capabilities.
 
+- [Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning](https://arxiv.org/abs/2512.09706)
+    - Kaichen He, Zihao Wang, Muyao Li, Anji Liu, Yitao Liang
+    - 🏛️ Institutions: Peking University, National University of Singapore
+    - 📅 Date: December 10, 2025
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [reinforcement learning], [heterogeneous action space], [multi-turn GRPO], [Minecraft agent], [cross-level actions], [CrossAgent]
+    - 📖 TLDR: CrossAgent studies how a single agent model can switch among heterogeneous action spaces, including APIs, GUI events, and lower-level commands, without hand-written routing rules. Its training pipeline combines supervised fine-tuning with multi-turn GRPO and reports state-of-the-art results on 800+ Minecraft tasks, making it relevant to GUI work as a broader action-space unification result rather than a direct GUI paper.
+
+- [Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence](https://arxiv.org/abs/2512.08743)
+    - Shuyue Hu, Haoyang Yan, Yiqun Zhang, Yang Chen, Dongzhan Zhou, Lei Bai
+    - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory
+    - 📅 Date: December 09, 2025
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [multi-agent systems], [foundation models], [multi-agent intelligence], [evaluation], [scaling], [survey]
+    - 📖 TLDR: This paper argues that stronger single-agent foundation models do not automatically become strong multi-agent systems, and evaluates 41 open models on seven single-agent and multi-agent benchmarks to show the gap directly. It uses GUI interaction as one example of native single-agent capability, but its main contribution is a broader multi-agent intelligence agenda rather than GUI research itself.
+
 - [Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents](https://arxiv.org/abs/2510.24702)
     - Yueqi Song, Ketan Ramaneti, Zaid Sheikh, Ziru Chen, Boyu Gou, Tianbao Xie, Yiheng Xu, Danyang Zhang, Apurva Gandhi, Fan Yang, Joseph Liu, Tianyue Ou, Zhihao Yuan, Frank Xu, Shuyan Zhou, Xingyao Wang, Xiang Yue, Tao Yu, Huan Sun, Yu Su, Graham Neubig
     - 🏛️ Institutions: Carnegie Mellon University, The Ohio State University, University of Hong Kong, Duke University, Fujitsu Research, All Hands AI

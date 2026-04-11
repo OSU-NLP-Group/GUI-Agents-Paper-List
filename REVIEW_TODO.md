@@ -156,17 +156,15 @@ Checklist:
 - [x] WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment
 - [x] Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents
 - [x] Using GUI Agent for Electronic Design Automation
-- [ ] AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management
-- [ ] GAIR: GUI Automation via Information-Joint Reasoning and Group Reflection
-- [ ] Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
-- [ ] MVP: Multiple View Prediction Improves GUI Grounding
-- [ ] Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence
-- [ ] Privacy Practices of Browser Agents
-- [ ] Permission Manifests for Web Agents
-- [ ] Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding
-- [ ] GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning
-- [ ] DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks
-- [ ] HiconAgent: History Context-aware Policy Optimization for GUI Agents
+- [x] AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management
+- [x] GAIR: GUI Automation via Information-Joint Reasoning and Group Reflection
+- [x] MVP: Multiple View Prediction Improves GUI Grounding
+- [x] Privacy Practices of Browser Agents
+- [x] Permission Manifests for Web Agents
+- [x] Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding
+- [x] GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning
+- [x] DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks
+- [x] HiconAgent: History Context-aware Policy Optimization for GUI Agents
 - [ ] AFRAgent : An Adaptive Feature Renormalization Based High Resolution Aware GUI agent
 - [ ] MPR-GUI: Benchmarking and Enhancing Multilingual Perception and Reasoning in GUI Agents
 - [ ] LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents
