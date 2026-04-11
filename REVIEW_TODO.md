@@ -217,10 +217,10 @@ Checklist:
 - [x] WALT: Web Agents that Learn Tools
 - [x] WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents
 - [x] SCUBA: Salesforce Computer Use Benchmark
-- [ ] Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents
-- [ ] Scaling Synthetic Task Generation for Agents via Exploration
-- [ ] Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation
-- [ ] Secure and Efficient Access Control for Computer-Use Agents via Context Space
+- [x] Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents
+- [x] Scaling Synthetic Task Generation for Agents via Exploration
+- [x] Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation
+- [x] Secure and Efficient Access Control for Computer-Use Agents via Context Space
 - [ ] ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration
 - [ ] BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent
 - [ ] ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data
