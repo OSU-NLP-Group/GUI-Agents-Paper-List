@@ -205,18 +205,18 @@ Checklist:
 - [x] Watch and Learn: Learning to Use Computers from Online Videos
 - [x] From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents
 - [x] GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding
-- [ ] JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation
-- [ ] Cross-Modal Content Optimization for Steering Web Agent Preferences
-- [ ] FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents
-- [ ] Say One Thing, Do Another? Diagnosing Reasoning-Execution Gaps in VLM-Powered Mobile-Use Agents
-- [ ] Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness
-- [ ] BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks
-- [ ] Scaling Agents for Computer Use
-- [ ] PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents
-- [ ] GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness
-- [ ] WALT: Web Agents that Learn Tools
-- [ ] WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents
-- [ ] SCUBA: Salesforce Computer Use Benchmark
+- [x] JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation
+- [x] Cross-Modal Content Optimization for Steering Web Agent Preferences
+- [x] FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents
+- [x] Say One Thing, Do Another? Diagnosing Reasoning-Execution Gaps in VLM-Powered Mobile-Use Agents
+- [x] Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness
+- [x] BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks
+- [x] Scaling Agents for Computer Use
+- [x] PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents
+- [x] GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness
+- [x] WALT: Web Agents that Learn Tools
+- [x] WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents
+- [x] SCUBA: Salesforce Computer Use Benchmark
 - [ ] Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents
 - [ ] Scaling Synthetic Task Generation for Agents via Exploration
 - [ ] Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation
