@@ -31,10 +31,10 @@
     - Jiali Cheng, Anjishnu Kumar, Roshan Lal, Rishi Rajasekaran, Hani Ramezani, Omar Zia Khan, Oleg Rokhlenko, Sunny Chiu-Webster, Gang Hua, Hadi Amiri
     - 🏛️ Institutions: University of Massachusetts Lowell, Amazon Alexa AI
     - 📅 Date: October 26, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: NeurIPS 2025 Workshop on Language Agents and World Models
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [agent framework], [memory], [planning], [WebArena]
-    - 📖 TLDR: WebATLAS is a memory-augmented LLM web agent that combines experience-driven memory with look-ahead action simulation via a planner-simulator-critic loop, achieving 63% success rate on WebArena-Lite without requiring website-specific fine-tuning.
+    - 🔑 Key: [framework], [memory], [planning], [action simulation], [WebArena-Lite], [WebATLAS]
+    - 📖 TLDR: WebATLAS is a training-free web agent that reuses past interaction outcomes as persistent experience memory and simulates candidate actions before executing them. Its planner-simulator-critic loop is designed to improve long-horizon behavior on unseen websites, and it reports 63% success on WebArena-Lite without site-specific fine-tuning.
 
 - [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://arxiv.org/abs/2508.20096)
     - Zeyi Sun, Yuhang Cao, Jianze Liang, Qiushi Sun, Ziyu Liu, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang

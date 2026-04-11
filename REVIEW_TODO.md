@@ -165,16 +165,16 @@ Checklist:
 - [x] GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning
 - [x] DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks
 - [x] HiconAgent: History Context-aware Policy Optimization for GUI Agents
-- [ ] AFRAgent : An Adaptive Feature Renormalization Based High Resolution Aware GUI agent
-- [ ] MPR-GUI: Benchmarking and Enhancing Multilingual Perception and Reasoning in GUI Agents
-- [ ] LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents
-- [ ] Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation
-- [ ] Prune4Web: DOM Tree Pruning Programming for Web Agent
-- [ ] Adapting Web Agents with Synthetic Supervision
-- [ ] Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging
-- [ ] WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation
-- [ ] VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos
-- [ ] Surfer 2: The Next Generation of Cross-Platform Computer Use Agents
+- [x] AFRAgent : An Adaptive Feature Renormalization Based High Resolution Aware GUI agent
+- [x] MPR-GUI: Benchmarking and Enhancing Multilingual Perception and Reasoning in GUI Agents
+- [x] LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents
+- [x] Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation
+- [x] Prune4Web: DOM Tree Pruning Programming for Web Agent
+- [x] Adapting Web Agents with Synthetic Supervision
+- [x] Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging
+- [x] WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation
+- [x] VideoAgentTrek: Computer Use Pretraining from Unlabeled Videos
+- [x] Surfer 2: The Next Generation of Cross-Platform Computer Use Agents
 - [ ] WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation
 - [ ] Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming
 - [ ] CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent

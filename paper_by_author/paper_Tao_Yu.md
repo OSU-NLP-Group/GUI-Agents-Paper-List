@@ -6,8 +6,8 @@
     - 📅 Date: October 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
-    - 🔑 Key: [dataset], [pretraining], [video mining], [inverse dynamics], [tutorial videos], [VideoAgentTrek], [Video2Action]
-    - 📖 TLDR: VideoAgentTrek turns unlabeled tutorial videos into large-scale computer-use pretraining data by detecting action events, recovering structured actions, and generating paired interaction traces. Mining 39,000 videos yields 1.52 million steps, and continued pretraining on this data materially improves both offline and online computer-use benchmarks.
+    - 🔑 Key: [dataset], [pretraining], [video mining], [inverse dynamics], [Video2Action], [VideoAgentTrek]
+    - 📖 TLDR: VideoAgentTrek studies how to pretrain computer-use agents from passive screen recordings instead of manually labeled trajectories. Its Video2Action pipeline recovers action boundaries and structured parameters from 39,000 tutorial videos, yielding 1.52 million steps that improve both OSWorld-Verified and AgentNetBench after continued pretraining.
 
 - [BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions](https://arxiv.org/abs/2510.10666)
     - Tao Yu, Zhengbo Zhang, Zhiheng Lyu, Junhao Gong, Hongzhu Yi, Xinming Wang, Yuxuan Zhou, Jiabing Yang, Ping Nie, Yan Huang, Wenhu Chen
