@@ -130,10 +130,10 @@
     - Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, Caiwen Ding
     - 🏛️ Institutions: University of Minnesota, Cisco Research, Lawrence Livermore National Labs
     - 📅 Date: October 05, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
+    - 📑 Publisher: arXiv
     - 💻 Env: [GUI]
-    - 🔑 Key: [model], [GUI grounding], [tool use], [iterative refinement], [ScreenSpot-pro], [GUI-Spotlight]
-    - 📖 TLDR: GUI-Spotlight is a GUI visual-grounding model that performs image-grounded reasoning by iteratively invoking specialized tools to narrow attention to the relevant screen region. The paper positions tool-driven focus refinement as the core mechanism and reports stronger ScreenSpot-Pro accuracy than prior 7B grounding models while using far less training data.
+    - 🔑 Key: [GUI grounding], [image-grounded reasoning], [iterative focus refinement], [ScreenSpot-pro], [GUI-Spotlight]
+    - 📖 TLDR: GUI-Spotlight is a GUI grounding model that performs image-grounded reasoning by iteratively invoking specialized tools to narrow attention to the relevant screen region. Trained with only 18.5K examples, it reaches 52.8% accuracy on ScreenSpot-Pro, outperforming prior 7B grounding models trained on much larger datasets.
 
 - [Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency](https://arxiv.org/abs/2508.05615)
     - Yong Du, Yuchen Yan, Fei Tang, Zhengxi Lu, Chang Zong, Weiming Lu, Shengpei Jiang, Yongliang Shen

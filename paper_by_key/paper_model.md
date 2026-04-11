@@ -45,15 +45,6 @@
     - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [OSWorld], [WindowsAgentArena], [UltraCUA]
     - 📖 TLDR: UltraCUA is a foundation computer-use model that combines primitive GUI actions with higher-level tool calls, supported by automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online reinforcement learning. This hybrid action setup improves both robustness and efficiency, yielding strong gains on OSWorld and good transfer to WindowsAgentArena.
 
-- [GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding](https://arxiv.org/abs/2510.04039)
-    - Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, Caiwen Ding
-    - 🏛️ Institutions: University of Minnesota, Cisco Research, Lawrence Livermore National Labs
-    - 📅 Date: October 05, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [GUI]
-    - 🔑 Key: [model], [GUI grounding], [tool use], [iterative refinement], [ScreenSpot-pro], [GUI-Spotlight]
-    - 📖 TLDR: GUI-Spotlight is a GUI visual-grounding model that performs image-grounded reasoning by iteratively invoking specialized tools to narrow attention to the relevant screen region. The paper positions tool-driven focus refinement as the core mechanism and reports stronger ScreenSpot-Pro accuracy than prior 7B grounding models while using far less training data.
-
 - [Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents](https://arxiv.org/abs/2509.26539)
     - Zhen Yang, Zi-Yi Dou, Di Feng, Forrest Huang, Anh Nguyen, Keen You, Omar Attia, Yuhao Yang, Michael Feng, Haotian Zhang, Ram Ramrakhya, Chao Jia, Jeffrey Nichols, Alexander Toshev, Yinfei Yang, Zhe Gan
     - 🏛️ Institutions: Apple

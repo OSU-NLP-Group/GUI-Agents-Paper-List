@@ -201,10 +201,10 @@ Checklist:
 - [x] BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions
 - [x] SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents
 - [x] WARC-Bench: Web Archive Based Benchmark for GUI Subtask Executions
-- [ ] Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent
-- [ ] Watch and Learn: Learning to Use Computers from Online Videos
-- [ ] From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents
-- [ ] GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding
+- [x] Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent
+- [x] Watch and Learn: Learning to Use Computers from Online Videos
+- [x] From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents
+- [x] GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding
 - [ ] JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation
 - [ ] Cross-Modal Content Optimization for Steering Web Agent Preferences
 - [ ] FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents
