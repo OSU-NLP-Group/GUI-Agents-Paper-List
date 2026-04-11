@@ -230,14 +230,14 @@ Checklist:
 - [x] ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents
 - [x] WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]
 - [x] You Don’t Know Until You Click: Automated GUI Testing for Production-Ready Software Evaluation
-- [ ] UI-Venus Technical Report: Building High-performance UI Agents with RFT
-- [ ] MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents
-- [ ] OpenCUA: Open Foundations for Computer-Use Agents
-- [ ] Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency
-- [ ] GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning
-- [ ] Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent
-- [ ] SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience
-- [ ] VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking
+- [x] UI-Venus Technical Report: Building High-performance UI Agents with RFT
+- [x] MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents
+- [x] OpenCUA: Open Foundations for Computer-Use Agents
+- [x] Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency
+- [x] GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning
+- [x] Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent
+- [x] SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience
+- [x] VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking
 - [ ] CoAct-1: Computer-using Multi-Agent System with Coding Actions
 - [ ] NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks
 - [ ] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents
