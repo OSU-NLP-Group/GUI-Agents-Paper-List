@@ -583,14 +583,32 @@
     - 🔑 Key: [framework], [hybrid GUI-API control], [multi-agent], [speculative execution], [PiP virtual desktop], [UFO2]
     - 📖 TLDR: UFO2 presents a Windows AgentOS that pairs a coordinating HostAgent with specialized AppAgents for individual applications. Its main system ideas are a unified GUI-API action layer, hybrid UIA-plus-vision perception, speculative multi-action execution, and a picture-in-picture virtual desktop that lets users and the agent operate concurrently.
 
+- [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/abs/2504.10458)
+    - Run Luo, Lu Wang, Wanwei He, Longze Chen, Jiaming Li, Min Yang, Xiaobo Xia
+    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, National University of Singapore
+    - 📅 Date: April 14, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [reinforcement learning], [unified action space], [GRPO], [data efficiency], [GUI-R1]
+    - 📖 TLDR: GUI-R1 applies R1-style reinforcement learning to GUI action modeling by training a vision-language agent with unified action-space rules across Windows, Linux, macOS, Android, and Web. Using only a small curated cross-platform dataset, it reports stronger performance than prior methods across eight benchmarks and highlights RL's data-efficiency benefits for GUI agents.
+
+- [On the Robustness of GUI Grounding Models Against Image Attacks](https://arxiv.org/abs/2504.04716)
+    - Haoren Zhao, Tianyi Chen, Zhen Wang
+    - 🏛️ Institutions: HDU, Microsoft
+    - 📅 Date: April 07, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [benchmark], [robustness], [natural noise], [adversarial attacks], [UGround], [ScreenSpot-V2]
+    - 📖 TLDR: This paper benchmarks the robustness of GUI grounding models under natural noise, untargeted attacks, and targeted attacks across mobile, desktop, and web interfaces. It finds that current models such as UGround remain highly sensitive to adversarial perturbations and low-resolution conditions, exposing a major reliability gap for practical GUI use.
+
 - [ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use](https://arxiv.org/abs/2504.07981)
     - Kaixin Li, Ziyang Meng, Hongzhan Lin, Ziyang Luo, Yuchen Tian, Jing Ma, Zhiyong Huang, Tat-Seng Chua
     - 🏛️ Institutions: National University of Singapore, East China Normal University, Hong Kong Baptist University
     - 📅 Date: April 04, 2025
     - 📑 Publisher: ACM Multimedia 2025
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [GUI grounding], [high-resolution], [ScreenSpot-pro]
-    - 📖 TLDR: ScreenSpot-Pro introduces a benchmark designed to evaluate GUI grounding models in professional, high-resolution environments. It encompasses 1,581 tasks across 23 applications in various industries, highlighting the challenges models face with complex software interfaces. Current models achieve low accuracy, underscoring the need for further research in this domain.
+    - 🔑 Key: [benchmark], [GUI grounding], [high-resolution], [ScreenSeekeR], [ScreenSpot-pro]
+    - 📖 TLDR: ScreenSpot-Pro benchmarks GUI grounding in professional high-resolution computer-use settings with 1,581 tasks across 23 applications, five industries, and three operating systems. The paper also proposes ScreenSeekeR, a cascaded visual search method guided by planner knowledge, and shows that current grounding models remain weak in these professional environments.
 
 - [sudo rm -rf agentic_security](https://arxiv.org/abs/2503.20279)
     - Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu, Min Song

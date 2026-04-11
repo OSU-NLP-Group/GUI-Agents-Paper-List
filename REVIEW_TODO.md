@@ -300,14 +300,14 @@ Checklist:
 - [x] REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites
 - [x] UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis
 - [x] Breaking the Data Barrier -- Building GUI Agents Through Task Generalization
-- [ ] GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents
-- [ ] RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users
-- [ ] AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents
-- [ ] AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories
-- [ ] Inducing Programmatic Skills for Agentic Tasks
-- [ ] SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills
-- [ ] On the Robustness of GUI Grounding Models Against Image Attacks
-- [ ] ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use
+- [x] GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents
+- [x] RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users
+- [x] AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents
+- [x] AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories
+- [x] Inducing Programmatic Skills for Agentic Tasks
+- [x] SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills
+- [x] On the Robustness of GUI Grounding Models Against Image Attacks
+- [x] ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use
 - [ ] An Illusion of Progress? Assessing the Current State of Web Agents
 - [ ] Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents
 - [ ] A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models
