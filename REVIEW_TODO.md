@@ -271,16 +271,16 @@ Checklist:
 - [x] GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent
 - [x] WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning
 - [x] Web-Shepherd: Advancing PRMs for Reinforcing Web Agents
-- [ ] GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents
-- [ ] ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search
-- [ ] Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent
-- [ ] Efficient Agent Training for Computer Use
-- [ ] GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents
-- [ ] Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis
-- [ ] MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning
-- [ ] Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning
-- [ ] GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning
-- [ ] Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents
+- [x] GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents
+- [x] ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search
+- [x] Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent
+- [x] Efficient Agent Training for Computer Use
+- [x] GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents
+- [x] Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis
+- [x] MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning
+- [x] Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning
+- [x] GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning
+- [x] Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents
 - [ ] WebInject: Prompt Injection Attack to Web Agents
 - [ ] A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?
 - [ ] Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation
