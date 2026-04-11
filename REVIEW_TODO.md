@@ -308,11 +308,11 @@ Checklist:
 - [x] SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills
 - [x] On the Robustness of GUI Grounding Models Against Image Attacks
 - [x] ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use
-- [ ] An Illusion of Progress? Assessing the Current State of Web Agents
-- [ ] Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents
-- [ ] A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models
-- [ ] Towards Trustworthy GUI Agents: A Survey
-- [ ] UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning
+- [x] An Illusion of Progress? Assessing the Current State of Web Agents
+- [x] Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents
+- [x] A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models
+- [x] Towards Trustworthy GUI Agents: A Survey
+- [x] UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning
 - [ ] sudo rm -rf agentic_security
 - [ ] VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification
 - [ ] Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment

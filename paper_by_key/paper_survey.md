@@ -31,10 +31,10 @@
     - Liangbo Ning, Ziran Liang, Zhuohang Jiang, Haohao Qu, Yujuan Ding, Wenqi Fan, Xiao-yong Wei, Shanru Lin, Hui Liu, Philip S. Yu, Qing Li
     - 🏛️ Institutions: The Hong Kong Polytechnic University, City University of Hong Kong, Michigan State University, University of Illinois Chicago
     - 📅 Date: March 30, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: KDD 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [survey], [framework], [training], [trustworthiness], [WebAgents], [large foundation models]
-    - 📖 TLDR: This comprehensive survey examines the development of WebAgents—AI agents designed to automate web tasks—by leveraging Large Foundation Models (LFMs). It delves into the architectures, training methodologies, and trustworthiness of these agents, providing a detailed overview of current research and proposing future directions to enhance their effectiveness and reliability in web automation.
+    - 🔑 Key: [survey], [architectures], [training], [trustworthiness], [WebAgents]
+    - 📖 TLDR: This survey reviews WebAgents built with large foundation models and organizes the literature around three axes: architectures, training, and trustworthiness. It aims to provide a structured map of web-automation research and outlines future directions for building more capable and reliable web agents.
 
 - [Towards Trustworthy GUI Agents: A Survey](https://arxiv.org/abs/2503.23434)
     - Yucheng Shi, Wenhao Yu, Jingyuan Huang, Wenlin Yao, Wenhu Chen, Ninghao Liu
@@ -42,8 +42,8 @@
     - 📅 Date: March 30, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
-    - 🔑 Key: [survey], [trustworthiness], [safety], [security], [benchmark]
-    - 📖 TLDR: A survey on trustworthy GUI agents that introduces a workflow-aligned taxonomy decomposing trust into Perception Trust, Reasoning Trust, and Interaction Trust, systematically reviewing failure modes, adversarial attacks, defense mechanisms, and evaluation practices for deploying GUI agents safely.
+    - 🔑 Key: [survey], [trustworthiness], [Perception Trust], [Reasoning Trust], [Interaction Trust]
+    - 📖 TLDR: This survey studies trustworthy GUI agents through a workflow-aligned taxonomy that separates trust into Perception Trust, Reasoning Trust, and Interaction Trust. It reviews benign failures, adversarial attacks, defenses, and evaluation practices, arguing that task completion alone is insufficient for trust assessment.
 
 - [OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use](https://github.com/OS-Agent-Survey/OS-Agent-Survey)
     - Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shawn Wang, Xinchen Xu, Shuofei Qiao , Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, Fei Wu
