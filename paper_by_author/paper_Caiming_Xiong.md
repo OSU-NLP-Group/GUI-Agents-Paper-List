@@ -31,10 +31,10 @@
     - Linxin Song, Yutong Dai, Viraj Prabhu, Jieyu Zhang, Taiwei Shi, Li Li, Junnan Li, Silvio Savarese, Zeyuan Chen, Jieyu Zhao, Ran Xu, Caiming Xiong
     - 🏛️ Institutions: University of Southern California, Salesforce Research, University of Washington
     - 📅 Date: August 05, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [multi-agent system], [coding actions], [programmatic execution], [OSWorld], [WindowsAgentArena], [CoAct-1]
-    - 📖 TLDR: CoAct-1 combines GUI control with direct Python and Bash execution by letting an orchestrator delegate subtasks to either a GUI operator or a programmer agent. This hybrid design bypasses brittle GUI-only action chains on long-horizon tasks, improving both success rate and step efficiency on OSWorld and WindowsAgentArena.
+    - 🔑 Key: [coding actions], [programmer agent], [orchestrator], [OSWorld], [WindowsAgentArena], [CoAct-1]
+    - 📖 TLDR: CoAct-1 augments desktop GUI control with direct Python and Bash execution by letting an orchestrator assign subtasks to either a GUI operator or a programmer agent. On OSWorld and WindowsAgentArena, this hybrid setup reduces brittle GUI-only action chains and improves both success rate and step efficiency.
 
 - [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
     - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong

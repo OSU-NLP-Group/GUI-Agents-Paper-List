@@ -127,9 +127,9 @@ Env should describe the paper's actual GUI interaction surface, not the repo's s
 **Key (Keywords):**
 - Each keyword wrapped in `[]`, comma-separated
 - Include `[model]` if a new model is trained (not just using GPT-4 etc.)
-- Include `[framework]` if a new agent framework is proposed
-- Include `[dataset]` if a new dataset is created and published
-- Include `[benchmark]` if a new benchmark is established (add `[dataset]` too if it includes training data)
+- Include `[framework]` only when the paper proposes a novel agent framework / scaffolding / execution harness / system architecture for running agents. Do not use `[framework]` for learning frameworks, training frameworks, data frameworks, annotation frameworks, or evaluation frameworks unless the contribution is genuinely an agent runtime/scaffold.
+- Include `[dataset]` when the paper releases a reusable data asset beyond a pure held-out evaluation set, such as training data, preference data, demonstrations, trajectories, or broadly reusable supervision/evaluation data. A pure benchmark with only a test/eval set does not automatically qualify for `[dataset]`.
+- Include `[benchmark]` when the paper establishes a new benchmark, testbed, evaluation suite, benchmark track, or benchmark extension/augmentation that is presented as a distinct benchmark artifact. This includes both fully novel benchmarks and substantial benchmark augmentations.
 - Include the paper's commonly used abbreviation (e.g., `[SeeAct]`, `[OSWorld]`)
 - Include primary research focus/innovation keywords
 - Avoid overly generic tags like `[web navigation]`, `[LLM agent]`, `[GUI agent]`, `[multimodal]` — these are already implied by the paper list's scope and the Env field
@@ -139,6 +139,11 @@ Keywords should balance retrieval value and specificity. Prefer:
 - the paper's canonical abbreviation/name
 - one or two artifact types (`[benchmark]`, `[dataset]`, `[framework]`, `[model]`, `[survey]`)
 - one to three core technical ideas or problem settings (`[reward model]`, `[visual grounding]`, `[prompt injection]`, `[agent-as-a-judge]`)
+
+Artifact-type guidance:
+- `[benchmark]` and `[dataset]` can co-occur. Use both when a paper introduces a benchmark and also releases reusable data beyond a pure test set.
+- Do not drop `[benchmark]` just because more specific technical keys are present; if the benchmark itself is a core artifact, keep `[benchmark]`.
+- Be conservative with `[framework]`. In this repo it means agent framework/scaffolding, not a generic "method framework" claim from the paper text.
 
 Avoid keywords that are just restatements of Env or scope unless they are truly central to the contribution. Do not overload Key with every benchmark or model mentioned in experiments; only include external names when they are central to understanding the paper's method or positioning.
 

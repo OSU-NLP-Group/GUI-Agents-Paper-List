@@ -238,29 +238,29 @@ Checklist:
 - [x] Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent
 - [x] SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience
 - [x] VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking
-- [ ] CoAct-1: Computer-using Multi-Agent System with Coding Actions
-- [ ] NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks
-- [ ] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents
-- [ ] NaturalGAIA: Pushing the Frontiers of GUI Agents with a Challenging Benchmark and High-Quality Trajectory Dataset
-- [ ] FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents
-- [ ] MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents
-- [ ] GUI-Reflection: Empowering Multimodal GUI Models with Self-Reflection Behavior
-- [ ] Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction
-- [ ] BIMgent: Towards Autonomous Building Modeling via Computer-use Agents
-- [ ] LLM-Guided Scenario-based GUI Testing
-- [ ] Go-Browse: Training Web Agents with Structured Exploration
-- [ ] macOSWorld: A Multilingual Interactive Benchmark for GUI Agents
-- [ ] DPO Learning with LLMs-Judge Signal for Computer Use Agents
-- [ ] DeepShop: A Benchmark for Deep Research Shopping Agents
-- [ ] VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents
-- [ ] AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning
-- [ ] RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents
-- [ ] Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents
-- [ ] Agent-SAMA: State-Aware Mobile Assistant
-- [ ] ZeroGUI: Automating Online GUI Learning at Zero Human Cost
-- [ ] UI-Evol: Automatic Knowledge Evolving for Computer Use Agents
-- [ ] WebDancer: Towards Autonomous Information Seeking Agency
-- [ ] RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments
+- [x] CoAct-1: Computer-using Multi-Agent System with Coding Actions
+- [x] NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks
+- [x] Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents
+- [x] NaturalGAIA: Pushing the Frontiers of GUI Agents with a Challenging Benchmark and High-Quality Trajectory Dataset
+- [x] FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents
+- [x] MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents
+- [x] GUI-Reflection: Empowering Multimodal GUI Models with Self-Reflection Behavior
+- [x] Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction
+- [x] BIMgent: Towards Autonomous Building Modeling via Computer-use Agents
+- [x] LLM-Guided Scenario-based GUI Testing
+- [x] Go-Browse: Training Web Agents with Structured Exploration
+- [x] macOSWorld: A Multilingual Interactive Benchmark for GUI Agents
+- [x] DPO Learning with LLMs-Judge Signal for Computer Use Agents
+- [x] DeepShop: A Benchmark for Deep Research Shopping Agents
+- [x] VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents
+- [x] AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning
+- [x] RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents
+- [x] Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents
+- [x] Agent-SAMA: State-Aware Mobile Assistant
+- [x] ZeroGUI: Automating Online GUI Learning at Zero Human Cost
+- [x] UI-Evol: Automatic Knowledge Evolving for Computer Use Agents
+- [x] WebDancer: Towards Autonomous Information Seeking Agency
+- [x] RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments
 - [ ] BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism
 - [ ] UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents
 - [ ] XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level
