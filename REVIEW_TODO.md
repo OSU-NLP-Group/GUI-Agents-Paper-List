@@ -221,12 +221,12 @@ Checklist:
 - [x] Scaling Synthetic Task Generation for Agents via Exploration
 - [x] Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation
 - [x] Secure and Efficient Access Control for Computer-Use Agents via Context Space
-- [ ] ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration
-- [ ] BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent
-- [ ] ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data
-- [ ] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge
-- [ ] Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments
-- [ ] MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents
+- [x] ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration
+- [x] BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent
+- [x] ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data
+- [x] Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge
+- [x] Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments
+- [x] MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents
 - [ ] AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents
 - [ ] MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents
 - [ ] Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows

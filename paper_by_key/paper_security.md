@@ -81,15 +81,6 @@
     - 🔑 Key: [benchmark], [security], [web vulnerabilities], [CTF], [penetration testing], [HackWorld]
     - 📖 TLDR: HackWorld uses a CTF-style setup over 36 vulnerable web applications spanning 11 frameworks and 7 languages to test whether computer-use agents can discover and exploit realistic web flaws through GUI interaction. Current agents achieve exploitation rates below 12% and often fail at multi-step attack planning and security-tool use.
 
-- [Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments](https://arxiv.org/abs/2509.11250)
-    - Yitong Zhang, Ximo Li, Liyi Cai, Jia Li
-    - 🏛️ Institutions: College of AI, Tsinghua University, School of Computer Science and Engineering, Beihang University, Department of Computer Science and Technology, Tsinghua University, School of Computer Science, Peking University
-    - 📅 Date: September 14, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [security], [environmental injection attack], [dynamic environment], [attention black hole], [Chameleon]
-    - 📖 TLDR: This paper studies Environmental Injection Attacks against GUI agents under a more realistic web threat model where small attacker-controlled images are embedded in dynamically changing pages. It proposes Chameleon, which combines LLM-driven environment simulation with an Attention Black Hole mechanism to make such subtle triggers reliably hijack web agents across realistic websites.
-
 - [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
     - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
     - 🏛️ Institutions: ShanghaiTech University, Independent Researcher
