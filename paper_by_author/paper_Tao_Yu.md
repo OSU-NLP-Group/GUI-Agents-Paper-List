@@ -81,15 +81,6 @@
     - 🔑 Key: [framework], [FRIDAY], [self-directed learning], [skill accumulation], [OS-Copilot]
     - 📖 TLDR: OS-Copilot is a framework for building generalist computer agents that interact with operating-system elements including the web, code terminals, files, multimedia, and third-party applications. The paper instantiates it with FRIDAY, a self-improving embodied agent that learns new application skills over time and reports a 35% improvement over prior methods on GAIA.
 
-- [OpenAgents: An Open Platform for Language Agents in the Wild](https://openreview.net/forum?id=sKATR2O1Y0)
-    - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Zeyu Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, Sea AI Lab, Salesforce Research
-    - 📅 Date: October 16, 2023
-    - 📑 Publisher: COLM 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [platform], [deployment], [data analysis], [API tools], [OpenAgents]
-    - 📖 TLDR: Presents OpenAgents, a deployment-oriented platform for putting language agents into everyday use rather than just benchmarking them in isolation. It packages three agent modes: data analysis, API-tool use, and web browsing, with a UI and hosting workflow aimed at real-world access.
-
 - [AutoDroid: LLM-powered Task Automation in Android](https://doi.org/10.1145/3636534.3649379)
     - Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu, Toby Jia-Jun Li, Shiqi Jiang, Yunhao Liu, Yaqin Zhang, Yunxin Liu
     - 🏛️ Institutions: Tsinghua University, Shanghai AI Laboratory, University of Notre Dame, Microsoft Research

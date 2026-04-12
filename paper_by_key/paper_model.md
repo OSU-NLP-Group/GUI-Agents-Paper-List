@@ -222,8 +222,8 @@
     - 📅 Date: October 07, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
-    - 🔑 Key: [model], [instruction grounding], [pixel-to-sequence], [reinforcement learning], [RUIG]
-    - 📖 TLDR: Presents RUIG, a metadata-free grounding model that maps natural-language instructions to coordinates on UI screenshots using a pixel-to-sequence decoder. The main contribution is an RL-style training objective that strengthens spatial decoding quality, positioning RUIG as a generic UI-grounding API rather than a full agent stack.
+    - 🔑 Key: [model], [instruction grounding], [pixel-to-sequence], [reinforced decoding], [RUIG]
+    - 📖 TLDR: RUIG is a metadata-free grounding model that maps natural-language instructions to coordinates on UI screenshots with a pixel-to-sequence decoder. Its main contribution is an RL-style supervision method that strengthens coordinate decoding and positions the model as a generic UI automation executor rather than a full agent framework.
 
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur

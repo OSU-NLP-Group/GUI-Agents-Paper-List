@@ -463,13 +463,11 @@ Checklist:
 - [x] AppAgent: Multimodal Agents as Smartphone Users
 - [x] ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation
 - [x] CogAgent: A Visual Language Model for GUI Agents
-- [ ] GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation
-- [ ] UI Layout Generation with LLMs Guided by UI Grammar
-- [ ] OpenAgents: An Open Platform for Language Agents in the Wild
-- [ ] Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API
-- [ ] SteP: Stacked LLM Policies for Web Actions
-- [ ] You Only Look at Screens: Multimodal Chain-of-Action Agents
-- [ ] LASER: LLM Agent with State-Space Exploration for Web Navigation
+- [x] GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation
+- [x] Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API
+- [x] SteP: Stacked LLM Policies for Web Actions
+- [x] You Only Look at Screens: Multimodal Chain-of-Action Agents
+- [x] LASER: LLM Agent with State-Space Exploration for Web Navigation
 - [ ] AutoDroid: LLM-powered Task Automation in Android
 - [ ] A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
 - [ ] WebArena: A Realistic Web Environment for Building Autonomous Agents

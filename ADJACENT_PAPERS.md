@@ -307,6 +307,24 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [benchmark], [multi-modality], [tool use], [reasoning]
     - 📖 TLDR: GAIA is a benchmark developed for evaluating general-purpose AI assistants. It aims to test assistant models across multiple modalities and complex reasoning tasks in real-world settings, including scenarios that require tool usage and open-ended question answering. With a dataset comprising 466 questions across various domains, GAIA highlights gaps between current AI performance and human capability, presenting a significant challenge for large language models such as GPT-4.
 
+- [Exploring Mobile UI Layout Generation using Large Language Models Guided by UI Grammar](https://arxiv.org/abs/2310.15455)
+    - Yuwen Lu, Ziang Tong, Qinyi Zhao, Chengzhi Zhang, Toby Jia-Jun Li
+    - 🏛️ Institutions: University of Notre Dame, Fudan University, Carnegie Mellon University
+    - 📅 Date: October 24, 2023
+    - 📑 Publisher: AI & HCI @ ICML 2023
+    - 📌 Relation: Adjacent to GUI research because it studies UI generation rather than GUI-agent control
+    - 🔑 Key: [position paper], [UI grammar], [mobile UI layout generation], [controllable generation]
+    - 📖 TLDR: This position paper studies mobile UI layout generation with LLMs and proposes a UI grammar to represent hierarchical screen structure. Its focus is controllable UI generation rather than GUI action or environment interaction, so it stays outside the direct-GUI agent main list.
+
+- [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634)
+    - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu
+    - 🏛️ Institutions: The University of Hong Kong, Sea AI Lab, Salesforce Research
+    - 📅 Date: October 16, 2023
+    - 📑 Publisher: COLM 2024
+    - 📌 Relation: Adjacent to GUI research because it is a broader language-agent platform with web browsing as only one mode
+    - 🔑 Key: [platform], [deployment], [web browsing], [data analysis], [API tools], [OpenAgents]
+    - 📖 TLDR: OpenAgents is a deployment-oriented platform for language agents in everyday use, spanning data analysis, API-tool use, and web browsing behind a shared user interface. It matters here because it includes a web-agent mode, but the paper is broader than direct GUI-agent research.
+
 - [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)
     - Jianwei Yang, Hao Zhang, Feng Li, Xueyan Zou, Chunyuan Li, Jianfeng Gao
     - 🏛️ Institutions: Microsoft Research

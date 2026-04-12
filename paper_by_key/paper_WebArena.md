@@ -117,6 +117,15 @@
     - 🔑 Key: [self-improvement], [synthetic training data], [WebArena], [trajectory evaluation], [trajectory robustness]
     - 📖 TLDR: This paper studies whether a web agent can improve by fine-tuning on its own synthetic trajectories rather than collecting extra human demonstrations. On WebArena, the best synthetic-data mixture improves task completion by 31% over the base model and the paper adds trajectory-level metrics for robustness, capabilities, and behavior quality.
 
+- [SteP: Stacked LLM Policies for Web Actions](https://openreview.net/forum?id=5fg0VtRxgi)
+    - Paloma Sodhi, S.R.K Branavan, Yoav Artzi, Ryan McDonald
+    - 🏛️ Institutions: ASAPP Research, Cornell University
+    - 📅 Date: October 05, 2023
+    - 📑 Publisher: COLM 2024
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [policy composition], [control stack], [WebArena], [SteP]
+    - 📖 TLDR: SteP is a web-agent framework that composes LLM policies through an explicit control stack rather than a single monolithic prompt. It evaluates on WebArena, MiniWoB++, and a CRM environment, and substantially improves WebArena performance over prior GPT-4-based baselines.
+
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
     - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
     - 🏛️ Institutions: Carnegie Mellon University

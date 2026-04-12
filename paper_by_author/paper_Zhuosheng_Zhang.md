@@ -90,11 +90,11 @@
     - 🔑 Key: [smartphone GUI automation], [comprehensive environment perception], [conditional action prediction], [AITW], [META-GUI], [CoCo-Agent]
     - 📖 TLDR: CoCo-Agent is a smartphone GUI agent built around comprehensive environment perception (CEP) and conditional action prediction (CAP). The paper reports state-of-the-art performance on AITW and META-GUI, arguing that richer multimodal environment modeling improves mobile action selection.
 
-- [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436)
+- [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://aclanthology.org/2024.findings-acl.186/)
     - Zhuosheng Zhang, Aston Zhang
-    - 🏛️ Institutions: Shanghai Jiao Tong University
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Meta
     - 📅 Date: September 20, 2023
-    - 📑 Publisher: ICLR 2024
+    - 📑 Publisher: Findings of ACL 2024
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [multimodal agent], [chain-of-action], [Auto-GUI], [AITW]
-    - 📖 TLDR: Presents Auto-GUI, a screenshot-only mobile GUI agent that avoids external environment parsing and app-specific APIs. Its key idea is chain-of-action prompting, which conditions on prior actions and future plans, and it demonstrates strong results on the AITW device-control benchmark.
+    - 🔑 Key: [framework], [benchmark], [chain-of-action], [Auto-GUI], [AITW], [screenshot-only control]
+    - 📖 TLDR: Auto-GUI is a screenshot-only mobile GUI agent that avoids environment parsing and application-specific APIs. The paper introduces a chain-of-action prompting technique and evaluates the method on AITW, a device-control benchmark with 30K unique instructions.
