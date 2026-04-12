@@ -355,18 +355,18 @@ Checklist:
 - [x] The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
 - [x] WebOlympus: An Open Platform for Web Agents on Live Websites
 - [x] Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents
-- [ ] GUI Agents with Foundation Models: A Comprehensive Survey
-- [ ] WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning
-- [ ] Attacking Vision-Language Computer Agents via Pop-ups
-- [ ] From Context to Action: Analysis of the Impact of State Representation and Context on the Generalization of Multi-Turn Web Navigation Agents
-- [ ] AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents
-- [ ] Evaluating Cultural and Social Awareness of LLM Web Agents
-- [ ] OS-ATLAS: A Foundation Action Model for Generalist GUI Agents
-- [ ] Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents
-- [ ] AutoGLM: Autonomous Foundation Agents for GUIs
-- [ ] EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data
-- [ ] OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization
-- [ ] Beyond Browsing: API-Based Web Agents
+- [x] GUI Agents with Foundation Models: A Comprehensive Survey
+- [x] WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning
+- [x] Attacking Vision-Language Computer Agents via Pop-ups
+- [x] From Context to Action: Analysis of the Impact of State Representation and Context on the Generalization of Multi-Turn Web Navigation Agents
+- [x] AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents
+- [x] Evaluating Cultural and Social Awareness of LLM Web Agents
+- [x] OS-ATLAS: A Foundation Action Model for Generalist GUI Agents
+- [x] Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents
+- [x] AutoGLM: Autonomous Foundation Agents for GUIs
+- [x] EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data
+- [x] OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization
+- [x] Beyond Browsing: API-Based Web Agents
 - [ ] VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks
 - [ ] AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
 - [ ] Lightweight Neural App Control
