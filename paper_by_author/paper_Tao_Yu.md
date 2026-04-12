@@ -83,9 +83,9 @@
 
 - [AutoDroid: LLM-powered Task Automation in Android](https://doi.org/10.1145/3636534.3649379)
     - Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu, Toby Jia-Jun Li, Shiqi Jiang, Yunhao Liu, Yaqin Zhang, Yunxin Liu
-    - 🏛️ Institutions: Tsinghua University, Shanghai AI Laboratory, University of Notre Dame, Microsoft Research
+    - 🏛️ Institutions: Tsinghua University, Harbin Institute of Technology, University of Notre Dame, Microsoft Research Asia
     - 📅 Date: August 29, 2023
     - 📑 Publisher: MobiCom 2024
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [Android task automation], [dynamic analysis], [memory injection], [AutoDroid]
-    - 📖 TLDR: Presents AutoDroid, an Android automation system that combines LLM priors with app-specific knowledge gathered through dynamic analysis. The paper emphasizes functionality-aware UI representations and exploration-driven memory injection so the agent can handle previously unseen apps with less manual setup.
+    - 🔑 Key: [framework], [benchmark], [Android task automation], [dynamic analysis], [memory injection], [AutoDroid]
+    - 📖 TLDR: AutoDroid is an Android task-automation framework that combines LLM commonsense with app-specific knowledge collected through automated dynamic analysis. It introduces functionality-aware UI representations and exploration-based memory injection, and evaluates the system on a 158-task benchmark for memory-augmented Android automation.

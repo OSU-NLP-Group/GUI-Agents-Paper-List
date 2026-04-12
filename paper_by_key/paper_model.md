@@ -234,15 +234,6 @@
     - 🔑 Key: [model], [dataset], [WebGUM], [offline training], [demonstration learning], [cross-benchmark transfer]
     - 📖 TLDR: This paper studies offline multimodal web-agent training with WebGUM, which takes both webpage screenshots and HTML as input. It also releases 347K demonstrations and shows strong gains on MiniWoB and WebShop, with positive transfer to Mind2Web.
 
-- [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://proceedings.mlr.press/v202/lee23g.html)
-    - Kenton Lee, Mandar Joshi, Iulia Raluca Turc, Hexiang Hu, Fangyu Liu, Julian Martin Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova
-    - 🏛️ Institutions: Google
-    - 📅 Date: February 01, 2023
-    - 📑 Publisher: ICML 2023
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [pretraining], [screenshot parsing], [image-to-text], [Pix2Struct]
-    - 📖 TLDR: Presents Pix2Struct, an image-to-text model pretrained by reconstructing simplified HTML from masked webpage screenshots. The paper positions screenshot parsing as a unified pretraining task for visually situated language and shows strong transfer across document, illustration, and UI understanding tasks.
-
 - [Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus](https://proceedings.iclr.cc/paper_files/paper/2023/hash/0f4145fde6f5ae66745ef2a16bd1a7cd-Abstract-Conference.html)
     - Gang Li, Yang Li
     - 🏛️ Institutions: Google Research

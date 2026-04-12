@@ -666,6 +666,15 @@
     - 🔑 Key: [dataset], [benchmark], [Mind2Web], [MindAct], [generalist web agents]
     - 📖 TLDR: Introduces Mind2Web, a benchmark of realistic language-guided web tasks across 137 websites and 31 domains. The companion MindAct framework uses smaller models for element ranking to help larger models operate on messy real-world HTML, making the paper a cornerstone for modern web-agent evaluation.
 
+- [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract-Conference.html)
+    - Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang
+    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences, The Hong Kong Polytechnic University, Shanghai AI Laboratory
+    - 📅 Date: May 30, 2023
+    - 📑 Publisher: NeurIPS 2023
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [framework], [benchmark], [dataset], [spreadsheet automation], [state machine planning], [SheetCopilot]
+    - 📖 TLDR: SheetCopilot studies spreadsheet control with an LLM agent that plans over a state-machine abstraction of spreadsheet operations. The paper also releases a 221-task spreadsheet-control dataset and an automated evaluation pipeline for benchmarking software-control performance.
+
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
     - 🏛️ Institutions: The University of Tokyo, Google DeepMind
@@ -674,15 +683,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [model], [dataset], [WebGUM], [offline training], [demonstration learning], [cross-benchmark transfer]
     - 📖 TLDR: This paper studies offline multimodal web-agent training with WebGUM, which takes both webpage screenshots and HTML as input. It also releases 347K demonstrations and shows strong gains on MiniWoB and WebShop, with positive transfer to Mind2Web.
-
-- [Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction](https://arxiv.org/abs/2305.08144)
-    - Danyang Zhang, Zhennan Shen, Rui Xie, Situo Zhang, Tianbao Xie, Zihan Zhao, Siyuan Chen, Lu Chen, Hongshen Xu, Ruisheng Cao, Kai Yu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, The University of Hong Kong
-    - 📅 Date: May 14, 2023
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [interaction platform], [multistep interaction], [InfoUI]
-    - 📖 TLDR: Presents Mobile-Env, a benchmark and interaction platform for evaluating LLMs on multistep mobile GUI tasks derived from the InfoUI task set. The paper emphasizes qualified evaluation design for mobile interaction rather than proposing a new agent architecture.
 
 - [WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics](https://dl.acm.org/doi/10.1145/3544548.3581158)
     - Jason Wu, Siyan Wang, Siman Shen, Yi-Hao Peng, Jeffrey Nichols, Jeffrey P. Bigham
@@ -708,7 +708,7 @@
     - 📅 Date: July 31, 2022
     - 📑 Publisher: NeurIPS 2022
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [dataset], [benchmark], [e-commerce web interaction], [language grounding]
+    - 🔑 Key: [environment], [dataset], [benchmark], [e-commerce web interaction], [WebShop]
     - 📖 TLDR: Introduces WebShop, an e-commerce web environment with over one million products and 12,087 shopping instructions for grounded language agents. It became an early standard benchmark for web agents by combining realistic web interaction, compositional search, and sim-to-real evaluation.
 
 - [META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI](https://aclanthology.org/2022.emnlp-main.449/)
@@ -717,8 +717,8 @@
     - 📅 Date: May 23, 2022
     - 📑 Publisher: EMNLP 2022
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [task-oriented dialogue], [GUI-based interaction], [multi-modal agent]
-    - 📖 TLDR: Presents META-GUI, a dataset and framework for conversational agents that complete task-oriented dialogues by acting directly on mobile GUIs instead of backend APIs. It connects dialogue state tracking with executable interface actions, making it relevant to mobile assistant-style GUI agents.
+    - 🔑 Key: [framework], [dataset], [task-oriented dialogue], [GUI-TOD], [META-GUI]
+    - 📖 TLDR: META-GUI introduces a GUI-based task-oriented dialogue architecture in which the assistant acts on real mobile apps instead of calling task-specific backend APIs. The paper also releases a dataset for training multimodal conversational agents under that GUI-TOD setup.
 
 - [A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5327_ECCV_2022_paper.php)
     - Andrea Burns, Deniz Arsan, Sanjna Agrawal, Ranjitha Kumar, Kate Saenko, Bryan A. Plummer

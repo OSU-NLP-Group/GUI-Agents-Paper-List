@@ -75,8 +75,8 @@
 - [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8)
     - Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust
     - 🏛️ Institutions: Google DeepMind, The University of Tokyo
-    - 📅 Date: July 31, 2023
+    - 📅 Date: July 24, 2023
     - 📑 Publisher: ICLR 2024 (Oral)
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [program synthesis], [HTML comprehension], [planning], [WebAgent]
-    - 📖 TLDR: Presents WebAgent, a modular web agent that combines HTML comprehension, explicit planning, and program synthesis for real-world web automation. Its core design choice is to separate long-context webpage understanding from action generation through specialized components rather than a single monolithic model.
+    - 🔑 Key: [framework], [planning], [HTML-T5], [program synthesis], [WebAgent]
+    - 📖 TLDR: WebAgent is a modular real-world web agent that decomposes instructions into sub-instructions, summarizes long HTML into task-relevant snippets, and executes generated Python programs on websites. The paper pairs that agent design with HTML-T5, a long-context model for HTML planning and summarization.

@@ -83,9 +83,9 @@
 
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
     - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: Carnegie Mellon University, Inspired Cognition
     - 📅 Date: July 25, 2023
-    - 📑 Publisher: NeurIPS 2023
+    - 📑 Publisher: NeurIPS 2024 (Oral)
     - 💻 Env: [Web]
-    - 🔑 Key: [environment], [benchmark], [multi-tab navigation], [realistic web tasks], [WebArena]
+    - 🔑 Key: [environment], [benchmark], [functional correctness], [realistic web tasks], [WebArena]
     - 📖 TLDR: Introduces WebArena, a realistic and reproducible web environment built from fully functional sites across several common domains. It helped establish the modern web-agent evaluation stack by pairing realistic websites, external tools and knowledge sources, and long-horizon benchmark tasks with functional correctness checks.

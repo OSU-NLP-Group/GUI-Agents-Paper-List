@@ -468,21 +468,20 @@ Checklist:
 - [x] SteP: Stacked LLM Policies for Web Actions
 - [x] You Only Look at Screens: Multimodal Chain-of-Action Agents
 - [x] LASER: LLM Agent with State-Space Exploration for Web Navigation
-- [ ] AutoDroid: LLM-powered Task Automation in Android
-- [ ] A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
-- [ ] WebArena: A Realistic Web Environment for Building Autonomous Agents
-- [ ] Android in the Wild: A Large-Scale Dataset for Android Device Control
-- [ ] Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control
-- [ ] Mind2Web: Towards a Generalist Agent for the Web
-- [ ] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models
-- [ ] Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction
-- [ ] Language Models can Solve Computer Tasks
-- [ ] Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding
+- [x] AutoDroid: LLM-powered Task Automation in Android
+- [x] A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
+- [x] WebArena: A Realistic Web Environment for Building Autonomous Agents
+- [x] Android in the Wild: A Large-Scale Dataset for Android Device Control
+- [x] Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control
+- [x] Mind2Web: Towards a Generalist Agent for the Web
+- [x] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models
+- [x] Mobile-Env: A Universal Platform for Training and Evaluation of Mobile Interaction
+- [x] Language Models can Solve Computer Tasks
 - [ ] WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics
 - [ ] Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus
-- [ ] WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
-- [ ] META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI
-- [ ] A Data-Driven Approach for Learning to Control Computers
+- [x] WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
+- [x] META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI
+- [x] A Data-Driven Approach for Learning to Control Computers
 - [ ] A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility
 - [ ] Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning
 - [ ] UIBert: Learning Generic Multimodal Representations for UI Understanding

@@ -343,6 +343,15 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [framework], [learning], [verbal reinforcement learning], [reflexion]
     - 📖 TLDR: Introduces Reflexion, a framework where language agents learn from feedback by writing verbal reflections into episodic memory instead of updating model weights. The method is broad rather than GUI-specific, but it matters here because many later web and computer-use agents inherit its reflection-and-memory pattern.
 
+- [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://proceedings.mlr.press/v202/lee23g.html)
+    - Kenton Lee, Mandar Joshi, Iulia Turc, Hexiang Hu, Fangyu Liu, Julian Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova
+    - 🏛️ Institutions: Google
+    - 📅 Date: February 01, 2023
+    - 📑 Publisher: ICML 2023
+    - 📌 Relation: Adjacent to GUI research because it is a general visually-situated language pretraining paper rather than a direct GUI-agent paper
+    - 🔑 Key: [model], [pretraining], [screenshot parsing], [image-to-text], [Pix2Struct]
+    - 📖 TLDR: Pix2Struct pretrains an image-to-text model by reconstructing simplified HTML from masked webpage screenshots, then transfers it across documents, illustrations, user interfaces, and natural images. It matters for GUI research because it improves UI understanding, but the paper is broader than direct GUI-agent work.
+
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://openreview.net/forum?id=WE_vluYUL-X)
     - Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
     - 🏛️ Institutions: Princeton University, Google Research
