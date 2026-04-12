@@ -114,8 +114,8 @@
     - 📅 Date: May 30, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [self-improvement], [synthetic training data], [WebArena], [trajectory evaluation]
-    - 📖 TLDR: Studies whether web agents can improve by fine-tuning on their own synthetic trajectories instead of relying on additional human data. On WebArena, the best synthetic-data mixture improves task completion by 31% over the base model and the paper adds trajectory-level metrics for robustness and behavior quality.
+    - 🔑 Key: [self-improvement], [synthetic training data], [WebArena], [trajectory evaluation], [trajectory robustness]
+    - 📖 TLDR: This paper studies whether a web agent can improve by fine-tuning on its own synthetic trajectories rather than collecting extra human demonstrations. On WebArena, the best synthetic-data mixture improves task completion by 31% over the base model and the paper adds trajectory-level metrics for robustness, capabilities, and behavior quality.
 
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
     - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig

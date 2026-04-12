@@ -226,6 +226,15 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [memory], [In-Context Abstraction Learning], [programs of thought], [retrieval augmentation], [ICAL]
     - 📖 TLDR: ICAL turns sub-optimal demonstrations and feedback into reusable multimodal memories that improve VLM and LLM agents across TEACh, VisualWebArena, and Ego4D. It is relevant to GUI work because one evaluation domain is web agents, but the method itself is a broader embodied-agent memory approach rather than a direct GUI paper.
 
+- [Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/abs/2404.11459)
+    - Wei Chen, Zhiyuan Li
+    - 🏛️ Institutions: Stanford University
+    - 📅 Date: April 17, 2024
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [model], [functional tokens], [on-device agent], [edge deployment], [Octopus v3]
+    - 📖 TLDR: Octopus v3 is a sub-billion multimodal AI agent model designed for efficient on-device deployment, with the paper centered on its functional-token mechanism and edge-device constraints rather than GUI-native interaction. It is relevant to GUI research as a lightweight multimodal agent backbone, but it is broader than a direct GUI-agent paper.
+
 - [Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking](https://arxiv.org/abs/2404.08860)
     - Lei Ding, Jeshwanth Bheemanpally, Yi Zhang
     - 🏛️ Institutions: University of California, Santa Cruz

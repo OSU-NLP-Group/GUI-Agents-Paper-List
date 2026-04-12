@@ -72,15 +72,6 @@
     - 🔑 Key: [framework], [planning], [workflow memory], [tree search], [CDP], [LiteWebAgent]
     - 📖 TLDR: LiteWebAgent is an open-source suite for web-agent applications built around a modular framework that decouples action generation from action grounding. It integrates planning, workflow memory, and tree search, and ships both as a remote-browser web app and as a Chrome extension controlled through CDP.
 
-- [Unveiling Disparities in Web Task Handling Between Human and Web Agent](https://arxiv.org/abs/2405.04497)
-    - Kihoon Son, Jinhyeon Kwon, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim
-    - 🏛️ Institutions: KAIST, Seoul National University
-    - 📅 Date: May 07, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [human-agent comparison], [think-aloud study], [planning], [reflection], [knowledge updating]
-    - 📖 TLDR: Compares how humans and web agents handle web tasks through a think-aloud user study centered on planning, action, and reflection. The paper finds that humans more actively update knowledge, revise plans, and investigate failures, exposing design gaps in current web-agent pipelines.
-
 - [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8)
     - Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust
     - 🏛️ Institutions: Google DeepMind, The University of Tokyo

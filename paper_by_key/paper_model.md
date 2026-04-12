@@ -198,15 +198,6 @@
     - 🔑 Key: [model], [foundation agent], [intermediate interface], [progressive reinforcement learning], [AutoGLM]
     - 📖 TLDR: AutoGLM is a foundation-agent system for browser and phone control that emphasizes an intermediate interface separating planning from grounding. The paper pairs that design with progressive self-evolving reinforcement learning and reports strong performance on both web and Android evaluations.
 
-- [Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/abs/2404.11459)
-    - Wei Chen, Zhiyuan Li
-    - 🏛️ Institutions: Stanford University
-    - 📅 Date: April 17, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [functional tokens], [on-device agent], [edge deployment], [Octopus v3]
-    - 📖 TLDR: Presents Octopus v3, a sub-billion multimodal agent model aimed at on-device deployment on hardware as small as a Raspberry Pi. Its core idea is to introduce functional tokens that map multimodal inputs into action-oriented representations for agent tasks.
-
 - [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://eccv.ecva.net/virtual/2024/poster/749)
     - Keen You, Haotian Zhang, Eldon Schoop, Floris Weers, Amanda Swearngin, Jeff Nichols, Yinfei Yang, Zhe Gan
     - 🏛️ Institutions: Apple

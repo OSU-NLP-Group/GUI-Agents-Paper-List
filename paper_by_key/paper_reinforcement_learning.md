@@ -315,32 +315,23 @@
     - 🔑 Key: [reinforcement learning], [offline-to-online RL], [AITW], [automatic curriculum], [DigiRL]
     - 📖 TLDR: DigiRL trains mobile device-control agents with a two-stage reinforcement learning pipeline that starts from offline RL and continues with offline-to-online RL on real Android interactions. It pairs that training loop with a scalable Android learning environment and a VLM-based evaluator, and reports a large gain over supervised fine-tuning on AitW.
 
-- [AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html)
-    - Christopher Rawles, Sarah Clinckemaillie, Yifan Chang, Jonathan Waltz, Gabrielle Lau, Marybeth Fair, Alice Li, William E Bishop, Wei Li, Folawiyo Campbell-Ajala, Daniel Kenji Toyama, Robert James Berry, Divya Tyamagundlu, Timothy P Lillicrap, Oriana Riva
-    - 🏛️ Institutions: Google DeepMind, Google
-    - 📅 Date: May 23, 2024
-    - 📑 Publisher: ICLR 2025 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [Android-based agents], [task diversity], [reinforcement learning], [dynamic environment]
-    - 📖 TLDR: AndroidWorld introduces a dynamic Android environment for benchmarking autonomous agents across 116 tasks spanning 20 Android apps. These tasks vary through parameterized and natural language prompts, fostering a realistic testing ground for agents designed to operate in complex mobile environments. The benchmark supports millions of task variations, allowing agents to respond to the Android system's changing states and improving real-world applicability.
-
 - [Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning](https://arxiv.org/abs/2405.00516)
     - Lucas-Andreï Thil, Mirela Popa, Gerasimos Spanakis
-    - 🏛️ Institutions: Maastricht University the Netherlands
+    - 🏛️ Institutions: Maastricht University
     - 📅 Date: May 01, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: SAC 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [MiniWoB], [supervised learning], [reinforcement learning], [HTML understanding]
-    - 📖 TLDR: Combines supervised learning and reinforcement learning for web navigation on MiniWoB while explicitly targeting shallow HTML memorization. The paper shows stronger supervised baselines with less data and narrows the gap to RL-based web agents by improving structural understanding of HTML content.
+    - 🔑 Key: [MiniWoB], [supervised learning], [reinforcement learning], [HTML understanding], [WebAI]
+    - 📖 TLDR: Navigating WebAI studies web-task completion on MiniWoB with a training recipe that combines supervised learning and reinforcement learning. It also diagnoses that prior models often memorize shallow HTML cues instead of understanding structure, and reports stronger supervised baselines with less data while narrowing the gap to RL approaches.
 
 - [Grounded Language Agent for Product Search via Intelligent Web Interactions](https://arxiv.org/abs/2404.10887)
     - Moghis Fereidouni, Adib Mosharrof, A.B. Siddique
     - 🏛️ Institutions: University of Kentucky
     - 📅 Date: April 16, 2024
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: CustomNLP4U @ NAACL 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [reinforcement learning], [GLAINTEL], [Flan-T5], [unsupervised domain adaptation]
-    - 📖 TLDR: This paper introduces GLAINTEL, a grounded language agent framework designed to enhance web interaction using instruction-finetuned language models, particularly Flan-T5, with reinforcement learning (PPO) to tackle interactive web navigation challenges. The study explores unsupervised and supervised training methods, evaluating the effects of human demonstration on agent performance. Results indicate that combining human feedback with reinforcement learning yields effective outcomes, rivaling larger models like GPT-4 on web navigation tasks.
+    - 🔑 Key: [GLAINTEL], [product search], [reinforcement learning], [Flan-T5], [unsupervised domain adaptation]
+    - 📖 TLDR: GLAINTEL is a grounded language agent for product-search interactions on the web built on top of Flan-T5 with a language-modeling head and value head. It studies unsupervised training, supervised training, and unsupervised domain adaptation, and finds that combining human demonstrations with reinforcement learning works better than straightforward behavior cloning alone.
 
 - [AutoWebGLM: A Large Language Model-based Web Navigating Agent](https://dl.acm.org/doi/10.1145/3637528.3671620)
     - Hanyu Lai, Xiao Liu, Iat Long Iong, Shuntian Yao, Yuxuan Chen, Pengbo Shen, Hao Yu, Hanchen Zhang, Xiaohan Zhang, Yuxiao Dong, Jie Tang

@@ -428,16 +428,15 @@ Checklist:
 - [x] On the Effects of Data Scale on UI Control Agents
 - [x] Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
 - [x] WebSuite: Systematically Evaluating Why Web Agents Fail
-- [ ] Large Language Models Can Self-Improve At Web Agent Tasks
-- [ ] AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents
-- [ ] Unveiling Disparities in Web Task Handling Between Human and Web Agent
-- [ ] Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces
-- [ ] Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning
-- [ ] Benchmarking Mobile Device Control Agents across Diverse Configurations
-- [ ] Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent
-- [ ] Grounded Language Agent for Product Search via Intelligent Web Interactions
-- [ ] MMInA: Benchmarking Multihop Multimodal Internet Agents
-- [ ] LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation
+- [x] Large Language Models Can Self-Improve At Web Agent Tasks
+- [x] AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents
+- [x] Unveiling Disparities in Web Task Handling Between Human and Web Agent
+- [x] Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces
+- [x] Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning
+- [x] Benchmarking Mobile Device Control Agents across Diverse Configurations
+- [x] Grounded Language Agent for Product Search via Intelligent Web Interactions
+- [x] MMInA: Benchmarking Multihop Multimodal Internet Agents
+- [x] LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation
 - [ ] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 - [ ] Autonomous Evaluation and Refinement of Digital Agents
 - [ ] VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?
