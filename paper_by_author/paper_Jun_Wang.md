@@ -67,7 +67,7 @@
     - Filippos Christianos, Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
     - 🏛️ Institutions: Huawei Noah's Ark Lab, University College London
     - 📅 Date: October 23, 2024
-    - 📑 Publisher: ICLR 2025 (Spotlight)
+    - 📑 Publisher: ICLR 2025
     - 💻 Env: [Mobile]
     - 🔑 Key: [LiMAC], [mobile control], [action transformer], [vision-language model]
     - 📖 TLDR: Introduces LiMAC, a lightweight neural framework for Android app control that combines an Action Transformer with fine-tuned vision-language models. The paper reports large gains over prompt-only baselines on mobile control benchmarks while keeping the control stack compact.

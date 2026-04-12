@@ -67,7 +67,7 @@
     - Chengyou Jia, Minnan Luo, Zhuohang Dang, Qiushi Sun, Fangzhi Xu, Junlin Hu, Tianbao Xie, Zhiyong Wu
     - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Laboratory, The University of Hong Kong
     - 📅 Date: October 24, 2024
-    - 📑 Publisher: ACL 2025
+    - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [multi-agent system], [MetaAgent], [AgentToken], [AgentStore]
     - 📖 TLDR: Proposes AgentStore, a platform for integrating heterogeneous third-party agents into a single computer assistant. Its MetaAgent and AgentToken design lets the system coordinate specialized and generalist capabilities, substantially improving performance on challenging desktop-computing benchmarks such as OSWorld.

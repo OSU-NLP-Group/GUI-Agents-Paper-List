@@ -367,14 +367,14 @@ Checklist:
 - [x] EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data
 - [x] OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization
 - [x] Beyond Browsing: API-Based Web Agents
-- [ ] VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks
-- [ ] AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
-- [ ] Lightweight Neural App Control
-- [ ] MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control
-- [ ] Large Language Models Empowered Personalized Web Agents
-- [ ] AdvAgent: Controllable Blackbox Red-teaming on Web Agents
-- [ ] AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?
-- [ ] Dissecting Adversarial Robustness of Multimodal LM Agents
+- [x] VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks
+- [x] AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant
+- [x] Lightweight Neural App Control
+- [x] MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control
+- [x] Large Language Models Empowered Personalized Web Agents
+- [x] AdvAgent: Controllable Blackbox Red-teaming on Web Agents
+- [x] AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?
+- [x] Dissecting Adversarial Robustness of Multimodal LM Agents
 - [ ] SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation
 - [ ] DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents
 - [ ] Harnessing Webpage UIs for Text-Rich Visual Understanding
