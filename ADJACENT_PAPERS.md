@@ -181,6 +181,15 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
     - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
+- [TinyAgent: Function Calling at the Edge](https://aclanthology.org/2024.emnlp-demo.9/)
+    - Lutfi Eren Erdogan, Nicholas Lee, Siddharth Jha, Sehoon Kim, Ryan Tabrizi, Suhong Moon, Coleman Richard Charles Hooper, Gopala Anumanchipalli, Kurt Keutzer, Amir Gholami
+    - 🏛️ Institutions: UC Berkeley, ICSI
+    - 📅 Date: September 01, 2024
+    - 📑 Publisher: EMNLP 2024 System Demonstrations
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [framework], [dataset], [function calling], [LLMCompiler], [quantization], [TinyAgent]
+    - 📖 TLDR: TinyAgent is an edge deployment framework for small function-calling language models, paired with a curated training dataset, tool retrieval, and quantization for local inference. Its GUI relevance comes mainly from the MacBook assistant demo and local agent deployment setting, not from a primary contribution to GUI interaction research itself.
+
 - [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://openreview.net/forum?id=xgtXkyqw1f)
     - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
     - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory

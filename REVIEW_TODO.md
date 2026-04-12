@@ -393,10 +393,9 @@ Checklist:
 - [x] EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage
 - [x] Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps
 - [x] Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale
-- [ ] Agent Workflow Memory
-- [ ] From Grounding to Planning: Benchmarking Bottlenecks in Web Agents
-- [ ] TinyAgent: Function Calling at the Edge
-- [ ] CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation
+- [x] Agent Workflow Memory
+- [x] From Grounding to Planning: Benchmarking Bottlenecks in Web Agents
+- [x] CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation
 - [ ] WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration
 - [ ] Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
 - [ ] VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents

@@ -84,11 +84,11 @@
 - [CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation](https://aclanthology.org/2024.findings-acl.539)
     - Xinbei Ma, Zhuosheng Zhang, Hai Zhao
     - 🏛️ Institutions: Shanghai Jiao Tong University
-    - 📅 Date: August 31, 2024
+    - 📅 Date: February 19, 2024
     - 📑 Publisher: Findings of ACL 2024
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [smartphone automation], [comprehensive environment perception], [conditional action prediction], [CoCo-Agent]
-    - 📖 TLDR: Presents CoCo-Agent, a smartphone GUI agent built around comprehensive environment perception and conditional action prediction. The paper reports strong gains on mobile GUI automation benchmarks such as AITW and META-GUI, showing that richer environment modeling improves action selection.
+    - 🔑 Key: [smartphone GUI automation], [comprehensive environment perception], [conditional action prediction], [AITW], [META-GUI], [CoCo-Agent]
+    - 📖 TLDR: CoCo-Agent is a smartphone GUI agent built around comprehensive environment perception (CEP) and conditional action prediction (CAP). The paper reports state-of-the-art performance on AITW and META-GUI, arguing that richer multimodal environment modeling improves mobile action selection.
 
 - [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436)
     - Zhuosheng Zhang, Aston Zhang
