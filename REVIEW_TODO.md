@@ -437,16 +437,14 @@ Checklist:
 - [x] Grounded Language Agent for Product Search via Intelligent Web Interactions
 - [x] MMInA: Benchmarking Multihop Multimodal Internet Agents
 - [x] LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation
-- [ ] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
-- [ ] Autonomous Evaluation and Refinement of Digital Agents
-- [ ] VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?
-- [ ] Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
-- [ ] AutoWebGLM: A Large Language Model-based Web Navigating Agent
-- [ ] AgentStudio: A Toolkit for Building General Virtual Agents
-- [ ] Tur[k]ingBench: A Challenge Benchmark for Web Agents
-- [ ] WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?
-- [ ] Cradle: Empowering Foundation Agents Towards General Computer Control
-- [ ] Android in the Zoo: Chain-of-Action-Thought for GUI Agents
+- [x] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
+- [x] Autonomous Evaluation and Refinement of Digital Agents
+- [x] VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?
+- [x] Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+- [x] AutoWebGLM: A Large Language Model-based Web Navigating Agent
+- [x] TurkingBench: A Challenge Benchmark for Web Agents
+- [x] WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?
+- [x] Android in the Zoo: Chain-of-Action-Thought for GUI Agents
 - [ ] OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web
 - [ ] On the Multi-turn Instruction Following for Conversational Web Agents
 - [ ] Improving Language Understanding from Screenshots

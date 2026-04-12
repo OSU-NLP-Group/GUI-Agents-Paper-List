@@ -244,6 +244,24 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [framework], [reranking], [verification], [technical support search], [instruction execution]
     - 📖 TLDR: Targets mobile "how-to" search by automatically executing step-by-step instructions from retrieved pages in a controlled Android environment and reranking results based on actual success. The paper frames this as a verification-driven ranking pipeline for technical-support search rather than a pure mobile-control benchmark.
 
+- [AgentStudio: A Toolkit for Building General Virtual Agents](https://openreview.net/forum?id=axUf8BOjnH)
+    - Longtao Zheng, Zhiyuan Huang, Zhenghai Xue, Xinrun Wang, Bo An, Shuicheng Yan
+    - 🏛️ Institutions: Nanyang Technological University, Skywork AI, ETH Zurich
+    - 📅 Date: March 26, 2024
+    - 📑 Publisher: ICLR 2025
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [benchmark], [dataset], [general virtual agents], [GroundUI], [IDMBench], [CriticBench]
+    - 📖 TLDR: AgentStudio packages environments, tools, benchmarks, and datasets for general virtual agents with mixed GUI and API action spaces. It is relevant here because GUI interaction is one supported modality and because it contributes GroundUI, IDMBench, and CriticBench, but the paper is broader than a direct GUI-agent study.
+
+- [Cradle: Empowering Foundation Agents Towards General Computer Control](https://arxiv.org/abs/2403.03186)
+    - Weihao Tan, Wentao Zhang, Xinrun Xu, Haochong Xia, Ziluo Ding, Boyu Li, Bohan Zhou, Junpeng Yue, Jiechuan Jiang, Yewen Li, Ruyi An, Molei Qin, Chuqiao Zong, Longtao Zheng, Yujie Wu, Xiaoqiang Chai, Yifei Bi, Tianbao Xie, Pengjie Gu, Xiyun Li, Ceyao Zhang, Long Tian, Chaojie Wang, Xinrun Wang, Börje F. Karlsson, Bo An, Shuicheng Yan, Zongqing Lu
+    - 🏛️ Institutions: Skywork AI, Beijing Academy of Artificial Intelligence, Nanyang Technological University, Peking University, Institute of Software, Chinese Academy of Sciences, The University of Hong Kong, The Chinese University of Hong Kong, Shenzhen
+    - 📅 Date: March 05, 2024
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [framework], [Cradle], [general computer control], [screen-only control], [memory], [self-reflection]
+    - 📖 TLDR: Cradle formulates general computer control as screenshot input plus keyboard-and-mouse output, and instantiates that setting with a modular multimodal agent for software and video games. It matters to GUI work because it demonstrates screen-only control on real software and evaluates on OSWorld, but the paper is framed as a broader general-computer-control agenda rather than a direct GUI paper.
+
 - [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
     - Lingbo Mo, Zeyi Liao, Boyuan Zheng, Yu Su, Chaowei Xiao, Huan Sun
     - 🏛️ Institutions: The Ohio State University, University of Wisconsin-Madison
