@@ -239,7 +239,7 @@
     - 🏛️ Institutions: Shenzhen International Graduate School, Tsinghua University
     - 📅 Date: December 02, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [General GUI]
+    - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [framework], [pure vision], [GUI grounding], [interpreter-locator], [ScreenSpot], [Ponder & Press]
     - 📖 TLDR: Ponder & Press is a pure-vision divide-and-conquer GUI-control framework that separates high-level instruction interpretation from element localization. It pairs a general-purpose MLLM interpreter with a GUI-specific locator, improves ScreenSpot grounding by 22.5%, and reports strong performance across web, desktop, and mobile GUI benchmarks.
 

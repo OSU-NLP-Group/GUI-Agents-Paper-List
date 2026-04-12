@@ -343,11 +343,11 @@ Checklist:
 - [x] Aria-UI: Visual Grounding for GUI Instructions
 - [x] GUI Agents: A Survey
 - [x] Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents
-- [ ] Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining
-- [ ] Falcon-UI: Understanding GUI Before Following User Instructions
-- [ ] The BrowserGym Ecosystem for Web Agent Research
-- [ ] Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction
-- [ ] Ponder & Press: Advancing Visual GUI Agent towards General Computer Control
+- [x] Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining
+- [x] Falcon-UI: Understanding GUI Before Following User Instructions
+- [x] The BrowserGym Ecosystem for Web Agent Research
+- [x] Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction
+- [x] Ponder & Press: Advancing Visual GUI Agent towards General Computer Control
 - [ ] ShowUI: One Vision-Language-Action Model for GUI Visual Agent
 - [ ] AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations
 - [ ] Improved GUI Grounding via Iterative Narrowing

@@ -135,15 +135,6 @@
     - 🔑 Key: [framework], [benchmark], [GUI testing], [defect discovery], [GUITestBench], [GUITester]
     - 📖 TLDR: GUITester targets exploratory defect discovery in mobile apps, where agents must both navigate and recognize that anomalous behavior is a product defect rather than their own mistake. It introduces GUITestBench with 143 tasks across 26 defects and a multi-agent framework that separates planning-execution from hierarchical reflection, reaching 48.90% F1 (Pass@3).
 
-- [InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training](https://arxiv.org/abs/2601.04126)
-    - Ziyun Zhang, Zezhou Wang, Xiaoyi Zhang, Zongyu Guo, Jiahao Li, Bin Li, Yan Lu
-    - 🏛️ Institutions: Peking University, Nanjing University, Microsoft Research Asia
-    - 📅 Date: January 07, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [environment synthesis], [data generation], [verifiable rewards], [InfiniteWeb]
-    - 📖 TLDR: InfiniteWeb automatically builds functional multi-page web environments for GUI-agent training rather than just generating isolated webpages. It uses unified specifications, task-centric test-driven development, and reference design images, and the resulting environments improve agent training on Online-Mind2Web and OSWorld.
-
 - [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
     - Yilin Cao, Yufeng Zhong, Zhixiong Zeng, Liming Zheng, Jing Huang, Haibo Qiu, Peng Shi, Wenji Mao, Wan Guanglu
     - 🏛️ Institutions: State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, School of Artificial Intelligence, University of Chinese Academy of Sciences, Meituan
@@ -152,6 +143,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [world model], [lookahead], [rollout imagination], [MobileDreamer]
     - 📖 TLDR: MobileDreamer equips mobile GUI agents with a lightweight world model that predicts task-relevant textual sketches of future interface states instead of full screenshots. It then uses rollout imagination over those predicted futures for action selection, improving AndroidWorld performance by 5.25% and reaching state of the art.
+
+- [InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training](https://arxiv.org/abs/2601.04126)
+    - Ziyun Zhang, Zezhou Wang, Xiaoyi Zhang, Zongyu Guo, Jiahao Li, Bin Li, Yan Lu
+    - 🏛️ Institutions: Peking University, Nanjing University, Microsoft Research Asia
+    - 📅 Date: January 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [environment synthesis], [data generation], [verifiable rewards], [InfiniteWeb]
+    - 📖 TLDR: InfiniteWeb automatically builds functional multi-page web environments for GUI-agent training rather than just generating isolated webpages. It uses unified specifications, task-centric test-driven development, and reference design images, and the resulting environments improve agent training on Online-Mind2Web and OSWorld.
 
 - [WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation](https://arxiv.org/abs/2510.22732)
     - Jiali Cheng, Anjishnu Kumar, Roshan Lal, Rishi Rajasekaran, Hani Ramezani, Omar Zia Khan, Oleg Rokhlenko, Sunny Chiu-Webster, Gang Hua, Hadi Amiri
@@ -387,30 +387,21 @@
     - 🔑 Key: [framework], [reinforcement learning], [skill discovery], [autonomous task proposal], [VLM-based success evaluator], [PAE]
     - 📖 TLDR: PAE is a web-agent learning system that lets foundation-model agents autonomously propose tasks, attempt them, and score the resulting trajectories with a VLM-based evaluator. By turning those evaluations into RL signals, it improves zero-shot generalization on unseen websites and tasks for vision-based internet agents.
 
-- [Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining](https://arxiv.org/abs/2412.10342)
-    - Zhiqi Ge, Juncheng Li, Xinglei Pang, Minghe Gao, Kaihang Pan, Wang Lin, Hao Fei, Wenqiao Zhang, Siliang Tang, Yueting Zhuang
-    - 🏛️ Institutions: Zhejiang University, National University of Singapore
-    - 📅 Date: December 13, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [framework], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [model]
-    - 📖 TLDR: This paper introduces *Iris*, a visual agent designed to enhance GUI automation by addressing challenges in high-resolution, complex digital environments. It employs two key innovations: **Information-Sensitive Cropping (ISC)**, which dynamically identifies and prioritizes visually dense regions using an edge detection algorithm for efficient processing, and **Self-Refining Dual Learning (SRDL)**, which enhances the agent's ability to handle complex tasks through a dual-learning loop that iteratively refines its performance without requiring additional annotated data. Empirical evaluations demonstrate that Iris achieves state-of-the-art performance across multiple benchmarks with only 850K GUI annotations, outperforming methods using ten times more training data.
-
 - [The BrowserGym Ecosystem for Web Agent Research](https://openreview.net/forum?id=5298fKGmv3)
     - Thibault Le Sellier de Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo Caccia, Alexandre Drouin, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart, Russ Salakhutdinov, Nicolas Chapados
-    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, Carnegie Mellon University, McGill University, Tel Aviv University, Université de Montréal, iMean AI
+    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, Carnegie Mellon University, École Polytechnique de Montréal, Université de Montréal
     - 📅 Date: December 06, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [framework], [BrowserGym], [AgentLab], [evaluation ecosystem]
-    - 📖 TLDR: BrowserGym is a unified ecosystem for web-agent research that standardizes observation/action spaces and wraps multiple existing benchmarks under a common interface. The paper also introduces AgentLab for agent creation and experiment analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
+    - 📖 TLDR: BrowserGym is a unified ecosystem for web-agent research that standardizes observation and action spaces while wrapping multiple existing benchmarks under one interface. The paper also introduces AgentLab for agent creation and analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
 
 - [Ponder & Press: Advancing Visual GUI Agent towards General Computer Control](https://aclanthology.org/2025.findings-acl.76/)
     - Yiqin Wang, Haoji Zhang, Jingqi Tian, Yansong Tang
     - 🏛️ Institutions: Shenzhen International Graduate School, Tsinghua University
     - 📅 Date: December 02, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [General GUI]
+    - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [framework], [pure vision], [GUI grounding], [interpreter-locator], [ScreenSpot], [Ponder & Press]
     - 📖 TLDR: Ponder & Press is a pure-vision divide-and-conquer GUI-control framework that separates high-level instruction interpretation from element localization. It pairs a general-purpose MLLM interpreter with a GUI-specific locator, improves ScreenSpot grounding by 22.5%, and reports strong performance across web, desktop, and mobile GUI benchmarks.
 

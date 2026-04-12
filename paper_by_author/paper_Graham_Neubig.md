@@ -47,12 +47,12 @@
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://openreview.net/forum?id=5298fKGmv3)
     - Thibault Le Sellier de Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo Caccia, Alexandre Drouin, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart, Russ Salakhutdinov, Nicolas Chapados
-    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, Carnegie Mellon University, McGill University, Tel Aviv University, Université de Montréal, iMean AI
+    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, Carnegie Mellon University, École Polytechnique de Montréal, Université de Montréal
     - 📅 Date: December 06, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [framework], [BrowserGym], [AgentLab], [evaluation ecosystem]
-    - 📖 TLDR: BrowserGym is a unified ecosystem for web-agent research that standardizes observation/action spaces and wraps multiple existing benchmarks under a common interface. The paper also introduces AgentLab for agent creation and experiment analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
+    - 📖 TLDR: BrowserGym is a unified ecosystem for web-agent research that standardizes observation and action spaces while wrapping multiple existing benchmarks under one interface. The paper also introduces AgentLab for agent creation and analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
 
 - [Beyond Browsing: API-Based Web Agents](https://aclanthology.org/2025.findings-acl.577/)
     - Yueqi Song, Frank Xu, Shuyan Zhou, Graham Neubig
