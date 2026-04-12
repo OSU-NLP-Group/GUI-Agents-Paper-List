@@ -655,15 +655,6 @@
     - 🔑 Key: [GUI grounding], [backtracking planning], [data scaling], [historical action backtracking], [ScaleTrack]
     - 📖 TLDR: ScaleTrack targets two training bottlenecks in automated GUI agents: weak grounding data coverage and the lack of backtracking behavior during planning. It aggregates GUI samples from heterogeneous sources into a unified grounding corpus and trains agents to predict the next action together with the historical actions that led to the current screen.
 
-- [MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation](https://aclanthology.org/2025.naacl-demo.43/)
-    - Zichen Zhu, Hao Tang, Yansi Li, Dingye Liu, Hongshen Xu, Kunyao Lan, Danyang Zhang, Yixuan Jiang, Hao Zhou, Chenrun Wang, Situo Zhang, Liangtai Sun, Yixiao Wang, Yuheng Sun, Lu Chen, Kai Yu
-    - 🏛️ Institutions: X-LANCE Lab, Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, SJTU AI Institute, Shanghai Jiao Tong University
-    - 📅 Date: April 30, 2025
-    - 📑 Publisher: NAACL 2025 (System Demonstrations)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [memory], [adaptive planning], [MobBench], [MobA]
-    - 📖 TLDR: MobA is a mobile assistant system for complex GUI tasks in dynamic app contexts where execution capabilities vary across pages. It combines reflection-based adaptive planning with a multifaceted memory module, and introduces the MobBench dataset for complex mobile interactions alongside results on MobBench and AndroidArena.
-
 - [ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation](https://aclanthology.org/2025.naacl-long.244/)
     - Qinzhuo Wu, Wei Liu, Jian Luan, Bin Wang
     - 🏛️ Institutions: XiaoMi AI Lab
@@ -672,6 +663,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [dataset], [page reaching], [page operation], [MobileReach], [ReachAgent]
     - 📖 TLDR: ReachAgent addresses the tendency of mobile agents to optimize for the next local action while ignoring the larger GUI flow. It introduces the MobileReach training dataset, which decomposes tasks into page-reaching and page-operation subtasks, and uses those subtasks together with reward-based preference GUI flows to train a two-stage mobile agent.
+
+- [MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation](https://aclanthology.org/2025.naacl-demo.43/)
+    - Zichen Zhu, Hao Tang, Yansi Li, Dingye Liu, Hongshen Xu, Kunyao Lan, Danyang Zhang, Yixuan Jiang, Hao Zhou, Chenrun Wang, Situo Zhang, Liangtai Sun, Yixiao Wang, Yuheng Sun, Lu Chen, Kai Yu
+    - 🏛️ Institutions: X-LANCE Lab, Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, SJTU AI Institute, Shanghai Jiao Tong University
+    - 📅 Date: April 30, 2025
+    - 📑 Publisher: NAACL 2025 (System Demonstrations)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [dataset], [memory], [adaptive planning], [MobBench], [MobA]
+    - 📖 TLDR: MobA is a mobile assistant system for complex GUI tasks in dynamic app contexts where execution capabilities vary across pages. It combines reflection-based adaptive planning with a multifaceted memory module, and introduces the MobBench dataset for complex mobile interactions alongside results on MobBench and AndroidArena.
 
 - [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838)
     - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Liang Liu, Yaxuan Guo, Han Xiao, Weifeng Lin, Yuxiang Chai, Yue Han, Shuai Ren, Hao Wang, Xiaoyu Liang, WenHao Wang, Tianze Wu, Zhengxi Lu, Siheng Chen, LiLinghao, Guanjing Xiong, Yong Liu, Hongsheng Li
@@ -898,6 +898,15 @@
     - 🔑 Key: [framework], [distributed RL fine-tuning], [centralized training], [decentralized data acquisition], [A-RIDE], [DistRL]
     - 📖 TLDR: DistRL is a distributed RL fine-tuning framework for mobile control agents that separates centralized training from decentralized data collection across worker devices. It is paired with the A-RIDE off-policy RL algorithm, and the paper reports 3x higher training efficiency, 2.4x faster data collection, and a 20% relative success-rate gain on open Android control tasks.
 
+- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
+    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 09, 2024
+    - 📑 Publisher: INTERSPEECH 2025
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniACT], [TinyClick]
+    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
+
 - [ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents](https://aclanthology.org/2025.sigdial-1.38/)
     - Jakub Hoscilowicz, Bartosz Maj, Bartosz Kozakiewicz, Oleksii Tymoshchuk, Artur Janicki
     - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
@@ -906,15 +915,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI grounding], [AITW], [ClickAgent], [mobile control]
     - 📖 TLDR: Proposes ClickAgent, a mobile agent framework that separates high-level reasoning from precise UI element localization. By pairing an MLLM planner with a dedicated grounding component, it improves task success on AITW and on real-device Android evaluations.
-
-- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
-    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
-    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
-    - 📅 Date: October 09, 2024
-    - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
-    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
@@ -1015,15 +1015,6 @@
     - 🔑 Key: [benchmark], [cross-environment tasks], [graph-based evaluation], [task generation], [CRAB]
     - 📖 TLDR: CRAB is a benchmark framework for multimodal agents that supports cross-environment tasks and graph-based fine-grained evaluation instead of single-platform end-state scoring. Its CRAB Benchmark-v0 release contains 120 desktop and mobile tasks, and the paper reports a best completion ratio of 38.01% from a single GPT-4o agent.
 
-- [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314)
-    - Omri Berkovitch, Sapir Caduri, Noam Kahlon, Anatoly Efros, Avi Caciularu, Ido Dagan
-    - 🏛️ Institutions: Google Research
-    - 📅 Date: June 20, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile], [Web]
-    - 🔑 Key: [goal identification], [intent identification], [satisfaction metric], [UI trajectories]
-    - 📖 TLDR: This paper studies goal identification from observed UI trajectories, asking models to infer the underlying user intent from completed Android and web interactions. It introduces an environment-aware satisfaction metric for judging whether two task descriptions are equivalent in context and shows GPT-4 and Gemini-1.5 Pro still underperform humans on the task.
-
 - [E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion](https://arxiv.org/abs/2406.14250)
     - Ke Wang, Tianyu Xia, Zhangxuan Gu, Yi Zhao, Shuheng Shen, Changhua Meng, Weiqiang Wang, Ke Xu
     - 🏛️ Institutions: Ant Group, Tsinghua University
@@ -1032,6 +1023,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [Chinese GUI navigation], [real human traces], [tinyAPPs], [E-ANT]
     - 📖 TLDR: E-ANT is a Chinese mobile GUI navigation dataset containing nearly 40,000 real human trajectories across more than 5,000 tiny-apps. It packages each trajectory with screenshots, action coordinates, and page-element annotations to support training and evaluation of GUI-navigation models on third-party apps rather than only native Android screens.
+
+- [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314)
+    - Omri Berkovitch, Sapir Caduri, Noam Kahlon, Anatoly Efros, Avi Caciularu, Ido Dagan
+    - 🏛️ Institutions: Google Research
+    - 📅 Date: June 20, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Web]
+    - 🔑 Key: [goal identification], [intent identification], [satisfaction metric], [UI trajectories]
+    - 📖 TLDR: This paper studies goal identification from observed UI trajectories, asking models to infer the underlying user intent from completed Android and web interactions. It introduces an environment-aware satisfaction metric for judging whether two task descriptions are equivalent in context and shows GPT-4 and Gemini-1.5 Pro still underperform humans on the task.
 
 - [GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding](https://arxiv.org/abs/2406.10819)
     - Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
@@ -1051,6 +1051,15 @@
     - 🔑 Key: [reinforcement learning], [offline-to-online RL], [AITW], [automatic curriculum], [DigiRL]
     - 📖 TLDR: DigiRL trains mobile device-control agents with a two-stage reinforcement learning pipeline that starts from offline RL and continues with offline-to-online RL on real Android interactions. It pairs that training loop with a scalable Android learning environment and a VLM-based evaluator, and reports a large gain over supervised fine-tuning on AitW.
 
+- [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340)
+    - Shengcheng Yu, Chunrong Fang, Mingzhe Du, Zimin Ding, Zhenyu Chen, Zhendong Su
+    - 🏛️ Institutions: Nanjing University, ETH Zurich
+    - 📅 Date: June 12, 2024
+    - 📑 Publisher: IEEE Transactions on Software Engineering
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [ScenTest], [event knowledge graph], [scenario-based testing], [GUI image understanding]
+    - 📖 TLDR: This paper introduces ScenTest, a scenario-based mobile app testing system that builds event knowledge graphs from crowdsourced test reports and combines them with GUI image understanding during exploration. Instead of optimizing only coverage, it targets business-logic-aware scenarios and reports more than 150 distinct real-world bugs over representative baselines.
+
 - [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
     - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
     - 🏛️ Institutions: Carnegie Mellon University, University of Michigan, Northeastern University, The University of Hong Kong
@@ -1068,15 +1077,6 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [cross-app navigation], [semantic reasoning annotations], [OdysseyAgent], [history resampler]
     - 📖 TLDR: GUIOdyssey is a mobile dataset for cross-app navigation with 8,334 episodes spanning 6 devices, 212 apps, and 1,357 app combinations. It annotates each step with semantic reasoning signals and pairs the dataset with OdysseyAgent, which uses a history resampler to handle long multi-app trajectories more efficiently.
-
-- [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340)
-    - Shengcheng Yu, Chunrong Fang, Mingzhe Du, Zimin Ding, Zhenyu Chen, Zhendong Su
-    - 🏛️ Institutions: Nanjing University, ETH Zurich
-    - 📅 Date: June 12, 2024
-    - 📑 Publisher: IEEE Transactions on Software Engineering
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [ScenTest], [event knowledge graph], [scenario-based testing], [GUI image understanding]
-    - 📖 TLDR: This paper introduces ScenTest, a scenario-based mobile app testing system that builds event knowledge graphs from crowdsourced test reports and combines them with GUI image understanding during exploration. Instead of optimizing only coverage, it targets business-logic-aware scenarios and reports more than 150 distinct real-world bugs over representative baselines.
 
 - [On the Effects of Data Scale on UI Control Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/a79f3ef3b445fd4659f44648f7ea8ffd-Abstract-Datasets_and_Benchmarks_Track.html)
     - Wei Li, William Bishop, Alice Li, Chris Rawles, Folawiyo Campbell-Ajala, Divya Tyamagundlu, Oriana Riva

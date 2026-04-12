@@ -261,6 +261,15 @@
     - 🔑 Key: [framework], [EFSM], [planning], [plug-and-play planner], [SPlanner]
     - 📖 TLDR: SPlanner addresses the instability of step-by-step mobile planning by modeling apps as extended finite state machines and converting traversed execution paths into natural-language plans. As a plug-and-play planning module, it substantially improves mobile-agent task completion on AndroidWorld.
 
+- [ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation](https://aclanthology.org/2025.naacl-long.244/)
+    - Qinzhuo Wu, Wei Liu, Jian Luan, Bin Wang
+    - 🏛️ Institutions: XiaoMi AI Lab
+    - 📅 Date: April 30, 2025
+    - 📑 Publisher: NAACL 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [dataset], [page reaching], [page operation], [MobileReach], [ReachAgent]
+    - 📖 TLDR: ReachAgent addresses the tendency of mobile agents to optimize for the next local action while ignoring the larger GUI flow. It introduces the MobileReach training dataset, which decomposes tasks into page-reaching and page-operation subtasks, and uses those subtasks together with reward-based preference GUI flows to train a two-stage mobile agent.
+
 - [MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation](https://aclanthology.org/2025.naacl-demo.43/)
     - Zichen Zhu, Hao Tang, Yansi Li, Dingye Liu, Hongshen Xu, Kunyao Lan, Danyang Zhang, Yixuan Jiang, Hao Zhou, Chenrun Wang, Situo Zhang, Liangtai Sun, Yixiao Wang, Yuheng Sun, Lu Chen, Kai Yu
     - 🏛️ Institutions: X-LANCE Lab, Department of Computer Science and Engineering, MoE Key Lab of Artificial Intelligence, SJTU AI Institute, Shanghai Jiao Tong University
@@ -278,15 +287,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [human-agent collaboration], [mixed-initiative web navigation], [data collection], [CowPilot]
     - 📖 TLDR: CowPilot is a mixed-initiative web-navigation framework where an agent proposes next steps while the user can pause, reject, override, or hand control back at any time. Across five websites, the collaborative mode reaches the highest success rate while requiring humans to perform only a small fraction of the total steps, and the system is also positioned as a data-collection and evaluation tool.
-
-- [ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation](https://aclanthology.org/2025.naacl-long.244/)
-    - Qinzhuo Wu, Wei Liu, Jian Luan, Bin Wang
-    - 🏛️ Institutions: XiaoMi AI Lab
-    - 📅 Date: April 30, 2025
-    - 📑 Publisher: NAACL 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [page reaching], [page operation], [MobileReach], [ReachAgent]
-    - 📖 TLDR: ReachAgent addresses the tendency of mobile agents to optimize for the next local action while ignoring the larger GUI flow. It introduces the MobileReach training dataset, which decomposes tasks into page-reaching and page-operation subtasks, and uses those subtasks together with reward-based preference GUI flows to train a two-stage mobile agent.
 
 - [Infogent: An Agent-Based Framework for Web Information Aggregation](https://aclanthology.org/2025.findings-naacl.318/)
     - Revanth Gangi Reddy, Sagnik Mukherjee, Jeonghwan Kim, Zhenhailong Wang, Dilek Hakkani-Tur, Heng Ji
@@ -504,41 +504,14 @@
     - 🔑 Key: [framework], [tool formulation], [multi-agent collaboration], [double-layer planning], [Expert-Eval], [MobileExperts]
     - 📖 TLDR: MobileExperts is a mobile multi-agent framework that forms tool-enabled expert teams through device-specific exploration and then coordinates them with dual-layer planning. The paper also introduces the Expert-Eval benchmark and reports better performance across task difficulty levels with about 22% lower reasoning cost.
 
-- [UFO: A UI-Focused Agent for Windows OS Interaction](https://aclanthology.org/2025.naacl-long.26/)
-    - Chaoyun Zhang, Liqun Li, Shilin He, Xu Zhang, Bo Qiao, Si Qin, Minghua Ma, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
-    - 🏛️ Institutions: Microsoft
-    - 📅 Date: February 14, 2024
-    - 📑 Publisher: NAACL 2025
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [Windows automation], [dual-agent architecture], [UFO]
-    - 📖 TLDR: Presents UFO, a Windows-focused multimodal agent built around a dual-agent design that separates app-level understanding from action execution. The system targets cross-application desktop workflows and helped define the early design space for Windows computer-use agents.
-
-- [ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://www.ijcai.org/proceedings/2024/711)
-    - Runliang Niu, Jindong Li, Shiqi Wang, Yali Fu, Xiyu Hu, Xueyuan Leng, He Kong, Yi Chang, Qi Wang
-    - 🏛️ Institutions: Jilin University
-    - 📅 Date: February 13, 2024
-    - 📑 Publisher: IJCAI 2024
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [computer control], [action grounding], [ScreenAgent]
-    - 📖 TLDR: Presents ScreenAgent, a vision-language computer-control agent that maps natural-language requests into grounded UI actions from screenshots alone. The paper focuses on screen-based action grounding for desktop-style application control rather than relying on structured accessibility trees.
-
-- [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
+- [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://openreview.net/forum?id=3WWFrg8UjJ)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
     - 🏛️ Institutions: Shanghai AI Laboratory, East China Normal University, Princeton University, The University of Hong Kong
     - 📅 Date: February 12, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [self-directed learning], [GAIA], [FRIDAY], [OS-copilot]
-    - 📖 TLDR: The OS-Copilot framework supports building generalist agents capable of performing diverse tasks across an operating system (OS). This work introduces FRIDAY, an embodied agent using OS-Copilot to self-improve by learning from task outcomes. It operates with a memory-based architecture to tackle OS-level tasks across applications like terminals, web browsers, and third-party tools. Tested on the GAIA benchmark, FRIDAY achieved 35% higher performance than prior methods, proving effective in adapting to unfamiliar applications and refining its capabilities with minimal guidance.
-
-- [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476)
-    - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
-    - 🏛️ Institutions: The Ohio State University
-    - 📅 Date: February 06, 2024
-    - 📑 Publisher: CVPR 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [visual contextualization], [dual-view representation], [Mind2Web]
-    - 📖 TLDR: Proposes dual-view visual contextualization, where a web element is represented jointly by its HTML-side attributes and its rendered screenshot context. The paper targets the disconnect between DOM text and visual layout in web navigation and reports gains on Mind2Web.
+    - 📑 Publisher: LLMAgents @ ICLR 2024
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [framework], [FRIDAY], [self-directed learning], [skill accumulation], [OS-Copilot]
+    - 📖 TLDR: OS-Copilot is a framework for building generalist computer agents that interact with operating-system elements including the web, code terminals, files, multimedia, and third-party applications. The paper instantiates it with FRIDAY, a self-improving embodied agent that learns new application skills over time and reports a 35% improvement over prior methods on GAIA.
 
 - [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://openreview.net/forum?id=jE6pDYCnVF)
     - Junyang Wang, Haiyang Xu, Jiabo Ye, Ming Yan, Weizhou Shen, Ji Zhang, Fei Huang, Jitao Sang

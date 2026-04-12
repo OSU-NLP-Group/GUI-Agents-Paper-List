@@ -796,7 +796,7 @@
     - 📅 Date: October 09, 2024
     - 📑 Publisher: INTERSPEECH 2025
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
+    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniACT], [TinyClick]
     - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
@@ -908,13 +908,13 @@
     - 📖 TLDR: This paper studies domain-general automatic evaluators for web-navigation and device-control agents, showing 74.4% to 92.9% agreement with oracle evaluation metrics across popular digital-agent benchmarks. It then uses those evaluators for fine-tuning and inference-time guidance, improving WebArena performance by 29% and device-control settings by around 75% relative.
 
 - [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://eccv.ecva.net/virtual/2024/poster/1107)
-    - Raghav Kapoor, Yash Parag Butala, Melisa Russak, Jing Yu Koh, Kiran Kamble, Waseem Alshikh, Ruslan Salakhutdinov
+    - Raghav Kapoor, Yash Parag Butala, Melisa A Russak, Jing Yu Koh, Kiran Kamble, Waseem AlShikh, Ruslan Salakhutdinov
     - 🏛️ Institutions: Carnegie Mellon University
     - 📅 Date: February 29, 2024
     - 📑 Publisher: ECCV 2024 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [dataset], [benchmark]
-    - 📖 TLDR: OmniACT introduces a dataset and benchmark to train and evaluate multimodal agents capable of autonomously performing diverse tasks across desktop and web environments. Using annotated UI elements across applications, it combines visual grounding with natural language instructions, providing 9,802 data points for developing agents that integrate high-level reasoning with UI interactions. The study highlights the limited proficiency of current models, with baselines like GPT-4 only achieving 15% of human performance on executable scripts, emphasizing OmniACT's potential as a testbed for advancing multimodal AI.
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [benchmark], [dataset], [OmniACT], [executable programs], [visually grounded tasks]
+    - 📖 TLDR: OmniACT introduces a dataset and benchmark for agents that must generate executable programs from a screenshot and a visually grounded natural-language task. It covers both desktop and web applications, and the paper reports that GPT-4 reaches only about 15% of human proficiency on the benchmark.
 
 - [UFO: A UI-Focused Agent for Windows OS Interaction](https://aclanthology.org/2025.naacl-long.26/)
     - Chaoyun Zhang, Liqun Li, Shilin He, Xu Zhang, Bo Qiao, Si Qin, Minghua Ma, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
@@ -922,26 +922,26 @@
     - 📅 Date: February 14, 2024
     - 📑 Publisher: NAACL 2025
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [Windows automation], [dual-agent architecture], [UFO]
-    - 📖 TLDR: Presents UFO, a Windows-focused multimodal agent built around a dual-agent design that separates app-level understanding from action execution. The system targets cross-application desktop workflows and helped define the early design space for Windows computer-use agents.
+    - 🔑 Key: [Windows automation], [dual-agent architecture], [control interaction module], [divide-and-conquer], [UFO]
+    - 📖 TLDR: UFO is a Windows-focused agent that decomposes user requests through a hierarchical dual-agent design and uses a control interaction module tailored to Windows applications. The paper evaluates it on nine popular Windows applications and positions it as an early UI agent for cross-application Windows task completion.
 
 - [ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://www.ijcai.org/proceedings/2024/711)
     - Runliang Niu, Jindong Li, Shiqi Wang, Yali Fu, Xiyu Hu, Xueyuan Leng, He Kong, Yi Chang, Qi Wang
-    - 🏛️ Institutions: Jilin University
+    - 🏛️ Institutions: School of Artificial Intelligence, Jilin University, Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, Ministry of Education, China
     - 📅 Date: February 13, 2024
     - 📑 Publisher: IJCAI 2024
     - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [computer control], [action grounding], [ScreenAgent]
-    - 📖 TLDR: Presents ScreenAgent, a vision-language computer-control agent that maps natural-language requests into grounded UI actions from screenshots alone. The paper focuses on screen-based action grounding for desktop-style application control rather than relying on structured accessibility trees.
+    - 🔑 Key: [dataset], [planning-acting-reflecting], [computer control], [UI positioning], [ScreenAgent]
+    - 📖 TLDR: ScreenAgent builds a real computer-control environment where a vision-language agent interacts with screenshots through mouse and keyboard actions, and pairs it with a planning-acting-reflecting control pipeline. The paper also releases the ScreenAgent Dataset and reports computer-control performance comparable to GPT-4V with more precise UI positioning.
 
-- [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
+- [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://openreview.net/forum?id=3WWFrg8UjJ)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
     - 🏛️ Institutions: Shanghai AI Laboratory, East China Normal University, Princeton University, The University of Hong Kong
     - 📅 Date: February 12, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [self-directed learning], [GAIA], [FRIDAY], [OS-copilot]
-    - 📖 TLDR: The OS-Copilot framework supports building generalist agents capable of performing diverse tasks across an operating system (OS). This work introduces FRIDAY, an embodied agent using OS-Copilot to self-improve by learning from task outcomes. It operates with a memory-based architecture to tackle OS-level tasks across applications like terminals, web browsers, and third-party tools. Tested on the GAIA benchmark, FRIDAY achieved 35% higher performance than prior methods, proving effective in adapting to unfamiliar applications and refining its capabilities with minimal guidance.
+    - 📑 Publisher: LLMAgents @ ICLR 2024
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [framework], [FRIDAY], [self-directed learning], [skill accumulation], [OS-Copilot]
+    - 📖 TLDR: OS-Copilot is a framework for building generalist computer agents that interact with operating-system elements including the web, code terminals, files, multimedia, and third-party applications. The paper instantiates it with FRIDAY, a self-improving embodied agent that learns new application skills over time and reports a 35% improvement over prior methods on GAIA.
 
 - [ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
     - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou

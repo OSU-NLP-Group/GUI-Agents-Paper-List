@@ -198,23 +198,14 @@
     - 🔑 Key: [model], [foundation agent], [intermediate interface], [progressive reinforcement learning], [AutoGLM]
     - 📖 TLDR: AutoGLM is a foundation-agent system for browser and phone control that emphasizes an intermediate interface separating planning from grounding. The paper pairs that design with progressive self-evolving reinforcement learning and reports strong performance on both web and Android evaluations.
 
-- [Improving Language Understanding from Screenshots](https://arxiv.org/abs/2402.14073)
-    - Tianyu Gao, Zirui Wang, Adithya Bhaskar, Danqi Chen
-    - 🏛️ Institutions: Princeton Language and Intelligence (PLI), Princeton University
-    - 📅 Date: February 21, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [model], [screenshot language model], [PTP], [pretraining objective], [multimodal language understanding]
-    - 📖 TLDR: Studies how to make screenshot language models better at text-heavy understanding by pretraining them with a patch-and-text prediction objective that reconstructs both image regions and embedded text. The resulting models close much of the gap to text-only baselines on GLUE-style tasks and also improve autoregressive screenshot language modeling.
-
-- [ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615)
+- [ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://www.ijcai.org/proceedings/2024/339)
     - Gilles Baechler, Srinivas Sunkara, Maria Wang, Fedir Zubach, Hassan Mansoor, Vincent Etter, Victor Cărbune, Jason Lin, Jindong Chen, Abhanshu Sharma
-    - 🏛️ Institutions: Google DeepMind
+    - 🏛️ Institutions: Google Research
     - 📅 Date: February 07, 2024
     - 📑 Publisher: IJCAI 2024
     - 💻 Env: [General GUI]
-    - 🔑 Key: [model], [UI understanding], [infographics understanding], [ScreenAI], [screen annotation]
-    - 📖 TLDR: Presents ScreenAI, a vision-language model specialized for screen understanding across both UI and infographic settings. It combines PaLI-style modeling with pix2struct-style patching and is trained on a mixture designed specifically for screen-centric perception tasks.
+    - 🔑 Key: [model], [dataset], [screen annotation], [UI understanding], [ScreenAI]
+    - 📖 TLDR: ScreenAI is a vision-language model for UI and infographics understanding that combines a PaLI-style architecture with pix2struct-style flexible patching. It introduces a screen-annotation task, uses it to generate large-scale UI training data, and releases three datasets for screen annotation and screen question answering.
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
     - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Li YanTao, Jianbing Zhang, Zhiyong Wu

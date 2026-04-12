@@ -262,6 +262,24 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [framework], [Cradle], [general computer control], [screen-only control], [memory], [self-reflection]
     - 📖 TLDR: Cradle formulates general computer control as screenshot input plus keyboard-and-mouse output, and instantiates that setting with a modular multimodal agent for software and video games. It matters to GUI work because it demonstrates screen-only control on real software and evaluates on OSWorld, but the paper is framed as a broader general-computer-control agenda rather than a direct GUI paper.
 
+- [Improving Language Understanding from Screenshots](https://arxiv.org/abs/2402.14073)
+    - Tianyu Gao, Zirui Wang, Adithya Bhaskar, Danqi Chen
+    - 🏛️ Institutions: Princeton Language and Intelligence (PLI), Princeton University
+    - 📅 Date: February 21, 2024
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [screenshot language models], [PTP], [patch-and-text prediction], [language understanding], [plain-text-rendered screenshots]
+    - 📖 TLDR: This paper studies screenshot language models in a simplified plain-text-rendered setting and improves them with a patch-and-text prediction objective. It is relevant here because screenshot pretraining can transfer to UI-style inputs, but the paper is about general screenshot language understanding rather than direct GUI-agent behavior.
+
+- [Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html)
+    - Wenkai Yang, Xiaohan Bi, Yankai Lin, Sishuo Chen, Jie Zhou, Xu Sun
+    - 🏛️ Institutions: Renmin University of China, Peking University, Tencent
+    - 📅 Date: February 17, 2024
+    - 📑 Publisher: NeurIPS 2024
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [backdoor attacks], [agent security], [query-trigger attacks], [observation-trigger attacks], [reasoning-step attacks]
+    - 📖 TLDR: This paper analyzes backdoor attacks against generic LLM-based agents, including attacks that trigger from user queries or intermediate observations and attacks that alter intermediate reasoning while preserving the final answer. It matters for GUI work because web-shopping agents are one evaluation setting, but the contribution is a broader LLM-agent security analysis rather than a GUI-specific study.
+
 - [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
     - Lingbo Mo, Zeyi Liao, Boyuan Zheng, Yu Su, Chaowei Xiao, Huan Sun
     - 🏛️ Institutions: The Ohio State University, University of Wisconsin-Madison

@@ -445,16 +445,14 @@ Checklist:
 - [x] TurkingBench: A Challenge Benchmark for Web Agents
 - [x] WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?
 - [x] Android in the Zoo: Chain-of-Action-Thought for GUI Agents
-- [ ] OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web
-- [ ] On the Multi-turn Instruction Following for Conversational Web Agents
-- [ ] Improving Language Understanding from Screenshots
-- [ ] Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents
-- [ ] UFO: A UI-Focused Agent for Windows OS Interaction
-- [ ] ScreenAgent: A Vision Language Model-driven Computer Control Agent
-- [ ] OS-Copilot: Towards Generalist Computer Agents with Self-Improvement
-- [ ] WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
-- [ ] ScreenAI: A Vision-Language Model for UI and Infographics Understanding
-- [ ] Dual-View Visual Contextualization for Web Navigation
+- [x] OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web
+- [x] On the Multi-turn Instruction Following for Conversational Web Agents
+- [x] UFO: A UI-Focused Agent for Windows OS Interaction
+- [x] ScreenAgent: A Vision Language Model-driven Computer Control Agent
+- [x] OS-Copilot: Towards Generalist Computer Agents with Self-Improvement
+- [x] WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
+- [x] ScreenAI: A Vision-Language Model for UI and Infographics Understanding
+- [x] Dual-View Visual Contextualization for Web Navigation
 - [ ] Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
 - [ ] WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models
 - [ ] VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks
