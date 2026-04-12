@@ -378,11 +378,11 @@ Checklist:
 - [ ] SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation
 - [ ] DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents
 - [ ] Harnessing Webpage UIs for Text-Rich Visual Understanding
-- [ ] Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents
+- [x] Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents
 - [ ] Agent S: An Open Agentic Framework that Uses Computers Like a Human
-- [ ] TinyClick: Single-Turn Agent for Empowering GUI Automation
-- [ ] ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents
-- [ ] ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents
+- [x] TinyClick: Single-Turn Agent for Empowering GUI Automation
+- [x] ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents
+- [x] ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents
 - [ ] Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
 - [ ] ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning
 - [ ] Dynamic Planning for LLM-based Graphical User Interface Automation
