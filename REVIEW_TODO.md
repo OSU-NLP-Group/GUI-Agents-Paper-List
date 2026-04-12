@@ -412,11 +412,10 @@ Checklist:
 - [x] Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps
 - [x] Tree Search for Language Model Agents
 - [x] Visual Grounding for User Interfaces
-- [ ] VideoGUI: A Benchmark for GUI Automation from Instructional Videos
-- [ ] Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding
-- [ ] E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion
-- [ ] VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning
-- [ ] VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought
+- [x] VideoGUI: A Benchmark for GUI Automation from Instructional Videos
+- [x] Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding
+- [x] E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion
+- [x] VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning
 - [ ] Identifying User Goals from UI Trajectories
 - [ ] GUI Action Narrator: Where and When Did That Action Take Place?
 - [ ] WebCanvas: Benchmarking Web Agents in Online Environments
