@@ -69,7 +69,7 @@
     - 📅 Date: November 17, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [survey], [generalist virtual agent], [GVA], [taxonomy]
+    - 🔑 Key: [survey], [generalist virtual agent], [GVA], [taxonomy], [long-horizon decision making]
     - 📖 TLDR: Surveys Generalist Virtual Agents as autonomous agents that operate across multiple digital platforms rather than a single interface. The paper traces the evolution of these agents, organizes prior work by environments, tasks, and capabilities, and highlights realistic evaluation and long-horizon decision-making as key open problems.
 
 - [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890)

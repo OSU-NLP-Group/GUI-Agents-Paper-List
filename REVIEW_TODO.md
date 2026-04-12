@@ -348,13 +348,13 @@ Checklist:
 - [x] The BrowserGym Ecosystem for Web Agent Research
 - [x] Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction
 - [x] Ponder & Press: Advancing Visual GUI Agent towards General Computer Control
-- [ ] ShowUI: One Vision-Language-Action Model for GUI Visual Agent
-- [ ] AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations
-- [ ] Improved GUI Grounding via Iterative Narrowing
-- [ ] Generalist Virtual Agents: A Survey on Autonomous Agents Across Digital Platforms
-- [ ] The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
-- [ ] WebOlympus: An Open Platform for Web Agents on Live Websites
-- [ ] Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents
+- [x] ShowUI: One Vision-Language-Action Model for GUI Visual Agent
+- [x] AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations
+- [x] Improved GUI Grounding via Iterative Narrowing
+- [x] Generalist Virtual Agents: A Survey on Autonomous Agents Across Digital Platforms
+- [x] The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
+- [x] WebOlympus: An Open Platform for Web Agents on Live Websites
+- [x] Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents
 - [ ] GUI Agents with Foundation Models: A Comprehensive Survey
 - [ ] WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning
 - [ ] Attacking Vision-Language Computer Agents via Pop-ups
