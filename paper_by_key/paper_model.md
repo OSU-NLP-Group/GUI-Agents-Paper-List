@@ -240,32 +240,14 @@
     - 📅 Date: September 29, 2022
     - 📑 Publisher: ICLR 2023 (Poster)
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [dataset], [region-based focus], [mobile UI understanding], [Spotlight]
-    - 📖 TLDR: Presents Spotlight, a vision-language model for mobile UI understanding that uses screenshots plus a user-specified focus region instead of relying on view hierarchy metadata. The paper targets multiple UI tasks, including captioning, summarization, grounding, and tappability prediction, under a unified visual-only setup.
-
-- [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://dl.acm.org/doi/10.1145/3472749.3474765)
-    - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
-    - 🏛️ Institutions: University of Toronto
-    - 📅 Date: August 06, 2021
-    - 📑 Publisher: UIST 2021
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [dataset], [mobile UI summarization], [multimodal learning], [Screen2Words]
-    - 📖 TLDR: Introduces Screen2Words, a dataset and model for generating high-level natural-language summaries of mobile screens. The paper is important because it turns UI understanding into screen-level semantic summarization rather than only element-level labeling.
+    - 🔑 Key: [model], [dataset], [Spotlight], [focus region], [vision-only UI understanding]
+    - 📖 TLDR: Spotlight is a vision-only mobile UI understanding model that takes a screenshot plus a region of interest instead of relying on view hierarchy input. It is pretrained on about 2.5 million mobile UI screens and then used for widget captioning, screen summarization, command grounding, and related UI modeling tasks.
 
 - [UIBert: Learning Generic Multimodal Representations for UI Understanding](https://www.ijcai.org/proceedings/2021/235)
     - Chongyang Bai, Xiaoxue Zang, Ying Xu, Srinivas Sunkara, Abhinav Rastogi, Jindong Chen, Blaise Agüera y Arcas
-    - 🏛️ Institutions: Google Research
+    - 🏛️ Institutions: Dartmouth College, Google Research
     - 📅 Date: July 29, 2021
     - 📑 Publisher: IJCAI 2021
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [pretraining], [multimodal representation learning], [view hierarchy], [UIBert]
-    - 📖 TLDR: Introduces UIBert, a transformer model for UI understanding that jointly models screenshots, text, and structural metadata such as the Android view hierarchy. The paper proposes five UI-specific pretraining tasks built around self-alignment between modalities and reports gains on nine downstream UI tasks.
-
-- [Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements](https://aclanthology.org/2020.emnlp-main.443/)
-    - Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, Zhiwei Guan
-    - 🏛️ Institutions: Google Research, Georgia Institute of Technology
-    - 📅 Date: November 30, 2020
-    - 📑 Publisher: EMNLP 2020
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [benchmark], [model], [accessibility], [natural language generation], [WidgetCaption]
-    - 📖 TLDR: Introduces widget captioning as the task of generating accessibility-oriented natural-language descriptions for mobile UI elements. The paper contributes a large captioned dataset and frames element description as a core building block for accessible mobile assistants.
+    - 🔑 Key: [model], [pretraining], [multimodal representation learning], [self-alignment], [UIBert]
+    - 📖 TLDR: UIBert is a transformer model for UI understanding trained with five UI-specific pretraining tasks over screenshots, text, and structural metadata. Its core idea is that the heterogeneous modalities inside a UI are self-aligned and can supervise one another to learn generic UI representations.

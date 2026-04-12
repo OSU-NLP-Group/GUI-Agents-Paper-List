@@ -198,15 +198,6 @@
     - 🔑 Key: [information seeking], [browsing data construction], [trajectory sampling], [reinforcement learning], [WebDancer]
     - 📖 TLDR: WebDancer studies end-to-end training for long-horizon web information-seeking agents rather than short templated browser tasks. It presents a four-stage data and training pipeline covering browsing data construction, trajectory sampling, supervised fine-tuning, and reinforcement learning, and reports strong results on GAIA and WebWalkerQA.
 
-- [ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282)
-    - Fanbin Lu, Zhisheng Zhong, Shu Liu, Chi-Wing Fu, Jiaya Jia
-    - 🏛️ Institutions: The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology
-    - 📅 Date: May 22, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [reinforcement learning], [experience replay], [GRPO], [task selection], [ARPO]
-    - 📖 TLDR: ARPO studies end-to-end reinforcement learning for GUI agents in long-horizon desktop environments where sparse rewards and rollout cost make optimization difficult. It augments GRPO with replayed successful experience and task selection, establishing a stronger OSWorld training baseline than prior policy-optimization approaches.
-
 - [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
     - Zhepei Wei, Wenlin Yao, Yao Liu, Weizhi Zhang, Qin Lu, Liang Qiu, Changlong Yu, Puyang Xu, Chao Zhang, Bing Yin, Hyokun Yun, Lihong Li
     - 🏛️ Institutions: University of Virginia, Amazon, Georgia Institute of Technology
@@ -215,6 +206,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [reinforcement learning], [multi-turn interaction], [WebArena-Lite], [test-time scaling], [WebAgent-R1]
     - 📖 TLDR: WebAgent-R1 studies end-to-end multi-turn reinforcement learning for web agents rather than single-turn reasoning tasks. It learns directly from online browser interactions with binary success rewards and substantially improves small open models on WebArena-Lite, surpassing prior methods and some proprietary baselines.
+
+- [ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282)
+    - Fanbin Lu, Zhisheng Zhong, Shu Liu, Chi-Wing Fu, Jiaya Jia
+    - 🏛️ Institutions: The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology
+    - 📅 Date: May 22, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [reinforcement learning], [experience replay], [GRPO], [task selection], [ARPO]
+    - 📖 TLDR: ARPO studies end-to-end reinforcement learning for GUI agents in long-horizon desktop environments where sparse rewards and rollout cost make optimization difficult. It augments GRPO with replayed successful experience and task selection, establishing a stronger OSWorld training baseline than prior policy-optimization approaches.
 
 - [GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents](https://arxiv.org/abs/2505.15810)
     - Yuqi Zhou, Sunhao Dai, Shuai Wang, Kaiwen Zhou, Qinglin Jia, Jun Xu
@@ -357,8 +357,8 @@
     - 📅 Date: May 27, 2021
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [environment], [reinforcement learning], [AndroidEnv], [touchscreen control], [Android tasks]
-    - 📖 TLDR: Introduces AndroidEnv, an open-source RL platform that lets agents interact with realistic Android apps and services through a universal touchscreen interface. Its main contribution is to make Android device control a reusable research environment rather than a single benchmark task.
+    - 🔑 Key: [environment], [reinforcement learning], [AndroidEnv], [touchscreen interface], [Android platform]
+    - 📖 TLDR: AndroidEnv is an open-source research platform that exposes Android apps through a realistic touchscreen interaction loop for reinforcement learning. The paper frames Android device use as a unified environment family rather than a single fixed benchmark task.
 
 - [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://openreview.net/forum?id=ryTp3f-0-)
     - Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, Percy Liang
@@ -367,7 +367,7 @@
     - 📑 Publisher: ICLR 2018 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [reinforcement learning], [workflow-guided exploration], [MiniWoB]
-    - 📖 TLDR: Introduces workflow-guided exploration, an RL training strategy that constrains web-agent exploration with abstract workflows extracted from demonstrations. The paper is an early milestone showing how to make sparse-reward web interaction tractable on MiniWoB-style tasks.
+    - 📖 TLDR: This paper introduces workflow-guided exploration, where demonstrations are converted into high-level workflows that constrain web-agent exploration during RL. It shows that this makes sparse-reward web interaction much more sample-efficient than pure behavioral cloning on World of Bits style tasks.
 
 - [World of Bits: An Open-Domain Platform for Web-Based Agents](https://proceedings.mlr.press/v70/shi17a.html)
     - Tianlin Shi, Andrej Karpathy, Linxi Fan, Jonathan Hernandez, Percy Liang
@@ -376,4 +376,4 @@
     - 📑 Publisher: ICML 2017
     - 💻 Env: [Web]
     - 🔑 Key: [environment], [reinforcement learning], [World of Bits], [MiniWoB], [QAWoB]
-    - 📖 TLDR: Introduces World of Bits, an open-domain web environment where agents interact with live or cached websites through keyboard and mouse actions. The paper contributes both the platform and a task-construction methodology, including MiniWoB and QAWoB, to make web-based RL tasks diverse yet reproducible.
+    - 📖 TLDR: World of Bits is an open-domain web environment where agents observe rendered webpages and DOM structure, then act with low-level keyboard and mouse commands. The paper also defines a methodology for building reproducible web tasks from real websites, including MiniWoB and QAWoB.

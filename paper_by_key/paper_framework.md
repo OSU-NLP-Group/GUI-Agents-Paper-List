@@ -99,15 +99,6 @@
     - 🔑 Key: [framework], [experience seeking], [entropy-based triggering], [experience intervention], [ExpSeek]
     - 📖 TLDR: ExpSeek turns experience intervention from a passive pre-task context into a step-level mechanism that is triggered only when the agent’s own entropy signal indicates uncertainty. It also generates tailored experience content per step, improving Qwen3-8B and 32B web agents by 9.3 and 7.5 absolute points across four benchmarks.
 
-- [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
-    - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
-    - 🏛️ Institutions: OPPO Research Institute, Shanghai Jiao Tong University
-    - 📅 Date: January 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [human-in-the-loop], [knowledge adaptation], [progress summarization], [WebArena], [ColorBrowserAgent]
-    - 📖 TLDR: ColorBrowserAgent targets site heterogeneity and long-horizon instability in web automation with two mechanisms: human-in-the-loop knowledge adaptation and progressive progress summarization. On WebArena it reaches 71.2% success, and the paper also reports transfer to WebChoreArena and gains in industrial deployment.
-
 - [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
     - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou
     - 🏛️ Institutions: Show Lab, National University of Singapore
@@ -116,6 +107,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [learning from demonstration], [screen recording], [human teaching], [ShowUI-Aloha]
     - 📖 TLDR: ShowUI-Aloha converts in-the-wild desktop screen recordings into structured teaching trajectories through a recorder, learner, planner, and executor pipeline. The goal is to let GUI agents learn complex desktop tasks from ordinary human demonstrations rather than curated annotations or synthetic traces.
+
+- [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
+    - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
+    - 🏛️ Institutions: OPPO Research Institute, Shanghai Jiao Tong University
+    - 📅 Date: January 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [human-in-the-loop], [knowledge adaptation], [progress summarization], [WebArena], [ColorBrowserAgent]
+    - 📖 TLDR: ColorBrowserAgent targets site heterogeneity and long-horizon instability in web automation with two mechanisms: human-in-the-loop knowledge adaptation and progressive progress summarization. On WebArena it reaches 71.2% success, and the paper also reports transfer to WebChoreArena and gains in industrial deployment.
 
 - [From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation](https://arxiv.org/abs/2601.05787)
     - Zezhou Wang, Ziyun Zhang, Xiaoyi Zhang, Zhuzhong Qian, Yan Lu
@@ -234,15 +234,6 @@
     - 🔑 Key: [framework], [MCP server], [environmental contextualization], [OSWorld], [LiteCUA]
     - 📖 TLDR: LiteCUA argues that computer-use agents need better environment contextualization rather than only larger models or heavier agent stacks. It introduces AIOS 1.0, which exposes computer states and actions through an MCP server, and shows that the resulting lightweight desktop agent outperforms several stronger baselines on OSWorld.
 
-- [Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach](https://arxiv.org/abs/2505.16422)
-    - Xiaoran Yin, Xu Luo, Hao Wu, Lianli Gao, Jingkuan Song
-    - 🏛️ Institutions: University of Electronic Science and Technology of China, Tongji University, University of Trento
-    - 📅 Date: May 22, 2025
-    - 📑 Publisher: Findings of EMNLP 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [world model], [executable code], [self‑verification], [self‑refinement], [FPWC]
-    - 📖 TLDR: FPWC targets the myopic decision-making of reactive mobile agents by constructing a task-oriented world model before execution and expressing plans as executable code. It then self-verifies and refines both the plan and world model during execution, yielding large gains on simulated and real-device mobile control tasks.
-
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
     - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Huawei Noah’s Ark Lab
@@ -251,6 +242,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [benchmark], [autonomous exploration], [transition-aware knowledge], [GUI-KRB], [GUI-explorer]
     - 📖 TLDR: GUI-explorer is a training-free mobile GUI agent that automatically explores app functionality and mines transition-aware knowledge from observed state changes. It also introduces the GUI-KRB benchmark for mobile GUI reasoning, and shows strong gains on SPA-Bench and AndroidWorld without parameter updates for new apps.
+
+- [Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach](https://arxiv.org/abs/2505.16422)
+    - Xiaoran Yin, Xu Luo, Hao Wu, Lianli Gao, Jingkuan Song
+    - 🏛️ Institutions: University of Electronic Science and Technology of China, Tongji University, University of Trento
+    - 📅 Date: May 22, 2025
+    - 📑 Publisher: Findings of EMNLP 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [world model], [executable code], [self‑verification], [self‑refinement], [FPWC]
+    - 📖 TLDR: FPWC targets the myopic decision-making of reactive mobile agents by constructing a task-oriented world model before execution and expressing plans as executable code. It then self-verifies and refines both the plan and world model during execution, yielding large gains on simulated and real-device mobile control tasks.
 
 - [Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent](https://arxiv.org/abs/2505.14141)
     - Fanglin Mo, Junzhe Chen, Haoxuan Zhu, Xuming Hu
@@ -605,30 +605,21 @@
 
 - [Grounding Open-Domain Instructions to Automate Web Support Tasks](https://aclanthology.org/2021.naacl-main.80/)
     - Nancy Xu, Sam Masling, Michael Du, Giovanni Campagna, Larry Heck, James Landay, Monica Lam
-    - 🏛️ Institutions: Stanford University, Samsung Research
+    - 🏛️ Institutions: Stanford University, Viv Labs, Samsung Research
     - 📅 Date: March 30, 2021
     - 📑 Publisher: NAACL 2021
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [framework], [grounding], [task automation], [open-domain instructions], [RUSS]
-    - 📖 TLDR: Introduces RUSS, a framework for grounding open-domain web support instructions into executable actions. The system uses semantic parsing into ThingTalk to map natural-language troubleshooting instructions onto web interactions.
+    - 🔑 Key: [framework], [dataset], [benchmark], [ThingTalk], [RUSS], [web support tasks]
+    - 📖 TLDR: This paper introduces RUSS, a system for executing open-domain customer-support instructions on websites by parsing them into a ThingTalk representation and grounding webpage elements. It also contributes a dataset of 80 support problems with 741 step-by-step instructions and their corresponding actions.
 
 - [Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations](https://aclanthology.org/2020.acl-demos.25/)
     - Toby Jia-Jun Li, Tom Mitchell, Brad Myers
     - 🏛️ Institutions: Carnegie Mellon University
     - 📅 Date: July 31, 2020
-    - 📑 Publisher: ACL 2020
+    - 📑 Publisher: ACL 2020 Demo Track
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [SUGILITE], [programming-by-demonstration], [interactive teaching]
-    - 📖 TLDR: Presents an interactive version of Sugilite where users teach mobile automation tasks through natural-language instructions plus GUI demonstrations. The main contribution is to combine conversation, concept learning, and demonstration-based script induction in one Android automation assistant.
-
-- [Mapping Natural Language Instructions to Mobile UI Action Sequences](https://aclanthology.org/2020.acl-main.729)
-    - Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, Jason Baldridge
-    - 🏛️ Institutions: Google Research
-    - 📅 Date: July 31, 2020
-    - 📑 Publisher: ACL 2020
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [PixelHelp], [AndroidHowTo], [RicoSCA], [instruction grounding]
-    - 📖 TLDR: Formulates mobile instruction grounding as mapping natural-language how-to instructions into executable UI action sequences. The paper decomposes the problem into action-phrase extraction and UI grounding, introduces the PixelHelp, AndroidHowTo, and RicoSCA datasets, and reports 70.59% complete action-sequence accuracy on PixelHelp.
+    - 🔑 Key: [framework], [SUGILITE], [interactive task learning], [programming-by-demonstration], [concept learning]
+    - 📖 TLDR: This demo paper presents an interactive version of Sugilite in which users teach Android automation tasks through natural-language instructions plus GUI demonstrations. Its focus is learning reusable task procedures and concepts through conversational clarification grounded in app interfaces.
 
 - [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899)
     - Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom M. Mitchell, Brad A. Myers
@@ -636,8 +627,8 @@
     - 📅 Date: August 30, 2019
     - 📑 Publisher: UIST 2019
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [programming-by-demonstration], [PUMICE], [concept learning]
-    - 📖 TLDR: Presents PUMICE, a multimodal teaching framework where end users define mobile automation tasks through a mix of natural language and demonstrations. Its key idea is to let agents learn both procedures and reusable concepts or conditionals from interactive clarification.
+    - 🔑 Key: [framework], [PUMICE], [programming-by-demonstration], [concept learning], [conditional automation]
+    - 📖 TLDR: PUMICE is an end-user programmable mobile agent that combines natural-language programming with programming-by-demonstration. Its core contribution is a multimodal teaching loop where users resolve ambiguous concepts and conditions through conversation plus GUI demonstrations.
 
 - [Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration](https://openreview.net/forum?id=ryTp3f-0-)
     - Evan Zheran Liu, Kelvin Guu, Panupong Pasupat, Tianlin Shi, Percy Liang
@@ -646,7 +637,7 @@
     - 📑 Publisher: ICLR 2018 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [reinforcement learning], [workflow-guided exploration], [MiniWoB]
-    - 📖 TLDR: Introduces workflow-guided exploration, an RL training strategy that constrains web-agent exploration with abstract workflows extracted from demonstrations. The paper is an early milestone showing how to make sparse-reward web interaction tractable on MiniWoB-style tasks.
+    - 📖 TLDR: This paper introduces workflow-guided exploration, where demonstrations are converted into high-level workflows that constrain web-agent exploration during RL. It shows that this makes sparse-reward web interaction much more sample-efficient than pure behavioral cloning on World of Bits style tasks.
 
 - [SUGILITE: Creating Multimodal Smartphone Automation by Demonstration](https://dl.acm.org/doi/abs/10.1145/3025453.3025483)
     - Toby Jia-Jun Li, Amos Azaria, Brad A. Myers
@@ -654,5 +645,5 @@
     - 📅 Date: May 06, 2017
     - 📑 Publisher: CHI 2017
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [PBD], [multimodal interaction], [SUGILITE], [smartphone automation]
-    - 📖 TLDR: Introduces Sugilite, an early programming-by-demonstration system for smartphone automation built on Android accessibility signals. It is foundational because it shows how spoken instructions, GUI demonstrations, and app hierarchies can be combined to generalize from a single demonstrated task.
+    - 🔑 Key: [framework], [SUGILITE], [programming-by-demonstration], [Android accessibility API], [smartphone automation]
+    - 📖 TLDR: Sugilite is an early smartphone automation system that lets users teach tasks by demonstrating actions inside ordinary Android apps. It combines verbal instructions, recorded procedures, and app UI hierarchies to generalize from a single demonstration and handle later UI variation.

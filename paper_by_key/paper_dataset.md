@@ -690,8 +690,8 @@
     - 📅 Date: January 30, 2023
     - 📑 Publisher: CHI 2023
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [element detection], [screen classification], [screen similarity], [UI modeling]
-    - 📖 TLDR: Introduces WebUI, a large-scale dataset of 400K web UIs for learning visual UI representations with web semantics. It supports tasks such as element detection, screen classification, and screen similarity, and serves as a pretraining resource for broader UI understanding.
+    - 🔑 Key: [dataset], [WebUI], [web semantics], [element detection], [screen similarity]
+    - 📖 TLDR: WebUI is a dataset of 400,000 rendered web pages paired with automatically extracted metadata and web semantics. The paper uses it to improve visual UI understanding in the lower-data mobile domain, including element detection, screen classification, and screen similarity.
 
 - [Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus](https://proceedings.iclr.cc/paper_files/paper/2023/hash/0f4145fde6f5ae66745ef2a16bd1a7cd-Abstract-Conference.html)
     - Gang Li, Yang Li
@@ -699,8 +699,8 @@
     - 📅 Date: September 29, 2022
     - 📑 Publisher: ICLR 2023 (Poster)
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [dataset], [region-based focus], [mobile UI understanding], [Spotlight]
-    - 📖 TLDR: Presents Spotlight, a vision-language model for mobile UI understanding that uses screenshots plus a user-specified focus region instead of relying on view hierarchy metadata. The paper targets multiple UI tasks, including captioning, summarization, grounding, and tappability prediction, under a unified visual-only setup.
+    - 🔑 Key: [model], [dataset], [Spotlight], [focus region], [vision-only UI understanding]
+    - 📖 TLDR: Spotlight is a vision-only mobile UI understanding model that takes a screenshot plus a region of interest instead of relying on view hierarchy input. It is pretrained on about 2.5 million mobile UI screens and then used for widget captioning, screen summarization, command grounding, and related UI modeling tasks.
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html)
     - Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan
@@ -726,8 +726,8 @@
     - 📅 Date: February 04, 2022
     - 📑 Publisher: ECCV 2022
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [feasibility prediction], [vision-language navigation], [mobile interaction]
-    - 📖 TLDR: Introduces MoTIF, a mobile vision-language navigation dataset that explicitly models whether a command is feasible in the current app state. This feasibility signal makes it useful for studying clarification, ambiguity handling, and failure detection in mobile interaction.
+    - 🔑 Key: [dataset], [benchmark], [MoTIF], [feasibility prediction], [task uncertainty resolution]
+    - 📖 TLDR: This paper introduces MoTIF, a mobile-app navigation dataset where commands may be infeasible or ambiguous in the current UI state. In addition to action demonstrations, it adds feasibility labels and follow-up questions, making it a benchmark for both navigation and uncertainty resolution.
 
 - [Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning](https://dl.acm.org/doi/10.1145/3472749.3474765)
     - Bryan Wang, Gang Li, Xin Zhou, Zhourong Chen, Tovi Grossman, Yang Li
@@ -735,8 +735,17 @@
     - 📅 Date: August 06, 2021
     - 📑 Publisher: UIST 2021
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [dataset], [mobile UI summarization], [multimodal learning], [Screen2Words]
-    - 📖 TLDR: Introduces Screen2Words, a dataset and model for generating high-level natural-language summaries of mobile screens. The paper is important because it turns UI understanding into screen-level semantic summarization rather than only element-level labeling.
+    - 🔑 Key: [dataset], [benchmark], [screen summarization], [multimodal learning], [Screen2Words]
+    - 📖 TLDR: Screen2Words introduces a mobile UI summarization task with over 112k human-written summaries covering 22,417 Android screens. It studies how to generate concise screen-level descriptions from the multimodal content of a UI rather than only captioning individual elements.
+
+- [Grounding Open-Domain Instructions to Automate Web Support Tasks](https://aclanthology.org/2021.naacl-main.80/)
+    - Nancy Xu, Sam Masling, Michael Du, Giovanni Campagna, Larry Heck, James Landay, Monica Lam
+    - 🏛️ Institutions: Stanford University, Viv Labs, Samsung Research
+    - 📅 Date: March 30, 2021
+    - 📑 Publisher: NAACL 2021
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [dataset], [benchmark], [ThingTalk], [RUSS], [web support tasks]
+    - 📖 TLDR: This paper introduces RUSS, a system for executing open-domain customer-support instructions on websites by parsing them into a ThingTalk representation and grounding webpage elements. It also contributes a dataset of 80 support problems with 741 step-by-step instructions and their corresponding actions.
 
 - [WebSRC: A Dataset for Web-Based Structural Reading Comprehension](https://aclanthology.org/2021.emnlp-main.343/)
     - Xingyu Chen, Zihan Zhao, Lu Chen, Jiabao Ji, Danyang Zhang, Ao Luo, Yuxuan Xiong, Kai Yu
@@ -744,8 +753,8 @@
     - 📅 Date: January 23, 2021
     - 📑 Publisher: EMNLP 2021
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [structural reading comprehension], [web page QA], [structural information], [HTML element alignment]
-    - 📖 TLDR: Introduces WebSRC, a large-scale dataset for structural reading comprehension over real webpages. Unlike plain text QA, it requires reasoning over HTML structure and page layout, making it a useful precursor for later webpage understanding and web-agent grounding work.
+    - 🔑 Key: [dataset], [benchmark], [WebSRC], [structural reading comprehension], [HTML structure]
+    - 📖 TLDR: WebSRC introduces structural reading comprehension over real webpages, with 400K question-answer pairs drawn from 6.4K pages and accompanied by HTML, screenshots, and metadata. It is a benchmark for answering questions that require reasoning over page structure rather than plain text alone.
 
 - [Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements](https://aclanthology.org/2020.emnlp-main.443/)
     - Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, Zhiwei Guan
@@ -753,8 +762,8 @@
     - 📅 Date: November 30, 2020
     - 📑 Publisher: EMNLP 2020
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [benchmark], [model], [accessibility], [natural language generation], [WidgetCaption]
-    - 📖 TLDR: Introduces widget captioning as the task of generating accessibility-oriented natural-language descriptions for mobile UI elements. The paper contributes a large captioned dataset and frames element description as a core building block for accessible mobile assistants.
+    - 🔑 Key: [dataset], [benchmark], [WidgetCaption], [accessibility], [widget captioning], [multimodal generation]
+    - 📖 TLDR: This paper formulates widget captioning as generating natural-language descriptions for mobile UI elements from screenshot and structural input. It contributes a large dataset with 162,859 phrases for 61,285 UI elements and positions caption generation as a foundation for accessibility and language-based UI interaction.
 
 - [Mapping Natural Language Instructions to Mobile UI Action Sequences](https://aclanthology.org/2020.acl-main.729)
     - Yang Li, Jiacong He, Xin Zhou, Yuan Zhang, Jason Baldridge
@@ -762,14 +771,14 @@
     - 📅 Date: July 31, 2020
     - 📑 Publisher: ACL 2020
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [PixelHelp], [AndroidHowTo], [RicoSCA], [instruction grounding]
-    - 📖 TLDR: Formulates mobile instruction grounding as mapping natural-language how-to instructions into executable UI action sequences. The paper decomposes the problem into action-phrase extraction and UI grounding, introduces the PixelHelp, AndroidHowTo, and RicoSCA datasets, and reports 70.59% complete action-sequence accuracy on PixelHelp.
+    - 🔑 Key: [dataset], [benchmark], [PixelHelp], [AndroidHowTo], [RicoSCA], [instruction grounding]
+    - 📖 TLDR: This paper formulates mobile instruction grounding as mapping natural-language how-to instructions into executable UI action sequences. It introduces the PixelHelp, AndroidHowTo, and RicoSCA datasets, and factors the problem into action-phrase extraction plus UI grounding.
 
 - [Rico: A Mobile App Dataset for Building Data-Driven Design Applications](https://dl.acm.org/doi/10.1145/3126594.3126651)
     - Biplab Deka, Zifeng Huang, Chad Franzen, Joshua Hibschman, Daniel Afergan, Yang Li, Jeffrey Nichols, Ranjitha Kumar
-    - 🏛️ Institutions: Google, University of Illinois Urbana-Champaign
+    - 🏛️ Institutions: University of Illinois at Urbana-Champaign, Northwestern University, Google Inc.
     - 📅 Date: October 20, 2017
     - 📑 Publisher: UIST 2017
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [mobile UI], [view hierarchy], [interaction mining], [RICO]
-    - 📖 TLDR: Introduces Rico, one of the foundational large-scale datasets of Android screens, view hierarchies, and interaction traces. It became a core resource for downstream work on mobile UI understanding, design analysis, and mobile-agent pretraining.
+    - 🔑 Key: [dataset], [RICO], [view hierarchy], [interaction traces], [design search]
+    - 📖 TLDR: Rico is a large-scale mobile UI dataset mined from more than 9.3k Android apps, with screenshots, view hierarchies, and interaction traces for over 66k unique screens. It was built to support data-driven applications such as design search, UI layout generation, and interaction modeling.

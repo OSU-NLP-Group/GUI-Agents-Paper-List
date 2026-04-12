@@ -477,22 +477,22 @@ Checklist:
 - [x] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models
 - [x] Mobile-Env: A Universal Platform for Training and Evaluation of Mobile Interaction
 - [x] Language Models can Solve Computer Tasks
-- [ ] WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics
-- [ ] Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus
+- [x] WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics
+- [x] Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus
 - [x] WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
 - [x] META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI
 - [x] A Data-Driven Approach for Learning to Control Computers
-- [ ] A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility
-- [ ] Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning
-- [ ] UIBert: Learning Generic Multimodal Representations for UI Understanding
-- [ ] AndroidEnv: A Reinforcement Learning Platform for Android
-- [ ] Grounding Open-Domain Instructions to Automate Web Support Tasks
-- [ ] WebSRC: A Dataset for Web-Based Structural Reading Comprehension
-- [ ] Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements
-- [ ] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations
-- [ ] Mapping Natural Language Instructions to Mobile UI Action Sequences
-- [ ] PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations
-- [ ] Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration
-- [ ] Rico: A Mobile App Dataset for Building Data-Driven Design Applications
-- [ ] World of Bits: An Open-Domain Platform for Web-Based Agents
-- [ ] SUGILITE: Creating Multimodal Smartphone Automation by Demonstration
+- [x] A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility
+- [x] Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning
+- [x] UIBert: Learning Generic Multimodal Representations for UI Understanding
+- [x] AndroidEnv: A Reinforcement Learning Platform for Android
+- [x] Grounding Open-Domain Instructions to Automate Web Support Tasks
+- [x] WebSRC: A Dataset for Web-Based Structural Reading Comprehension
+- [x] Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements
+- [x] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations
+- [x] Mapping Natural Language Instructions to Mobile UI Action Sequences
+- [x] PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations
+- [x] Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration
+- [x] Rico: A Mobile App Dataset for Building Data-Driven Design Applications
+- [x] World of Bits: An Open-Domain Platform for Web-Based Agents
+- [x] SUGILITE: Creating Multimodal Smartphone Automation by Demonstration
