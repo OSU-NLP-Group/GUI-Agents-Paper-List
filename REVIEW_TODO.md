@@ -389,10 +389,10 @@ Checklist:
 - [x] AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents
 - [x] Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale
 - [x] MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding
-- [ ] MobileViews: A Million-scale and Diverse Mobile GUI Dataset
-- [ ] EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage
-- [ ] Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps
-- [ ] Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale
+- [x] MobileViews: A Million-scale and Diverse Mobile GUI Dataset
+- [x] EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage
+- [x] Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps
+- [x] Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale
 - [ ] Agent Workflow Memory
 - [ ] From Grounding to Planning: Benchmarking Bottlenecks in Web Agents
 - [ ] TinyAgent: Function Calling at the Edge
