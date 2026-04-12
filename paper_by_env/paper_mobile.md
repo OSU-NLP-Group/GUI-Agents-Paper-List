@@ -565,15 +565,6 @@
     - 🔑 Key: [model-free online learning], [automatic task generation], [automatic reward estimation], [test-time adaptation], [ZeroGUI]
     - 📖 TLDR: ZeroGUI studies how to train GUI agents online without human labels instead of relying on static offline supervision. It uses VLMs to generate tasks, estimate rewards, and support two-stage online reinforcement learning, improving both desktop and mobile GUI agents on OSWorld and AndroidLab.
 
-- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
-    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: EMNLP 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [error detection], [backtracking], [judgment reward], [BacktrackAgent]
-    - 📖 TLDR: BacktrackAgent addresses the lack of error recovery in mobile GUI agents by adding verifier, judger, and reflector modules plus an explicit backtracking mechanism. It also builds training data for judgment and reflection over post-action outcome pages, improving both task success and step accuracy on Mobile3M and Auto-UI.
-
 - [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
     - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
     - 🏛️ Institutions: CUHK MMLab, vivo AI Lab, CPII under InnoHK
@@ -591,6 +582,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [evaluation framework], [state-level evaluation], [instruction unification], [Explore Metric], [XBOUND]
     - 📖 TLDR: XBOUND argues that instruction-level success hides important ambiguity because a single GUI state can support multiple valid instruction targets. It introduces a state-level evaluation framework and finds that current mobile agents show bimodal performance on instruction unification, weak state mastery below 7B scale, and different gains from grounding versus trajectory data.
+
+- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
+    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, Jian Luan
+    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: EMNLP 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [dataset], [error detection], [backtracking], [judgment reward], [BacktrackAgent]
+    - 📖 TLDR: BacktrackAgent addresses the lack of error recovery in mobile GUI agents by adding verifier, judger, and reflector modules plus an explicit backtracking mechanism. It also builds training data for judgment and reflection over post-action outcome pages, improving both task success and step accuracy on Mobile3M and Auto-UI.
 
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
@@ -967,17 +967,17 @@
     - 📅 Date: July 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI testing], [AUITestAgent]
-    - 📖 TLDR: This paper presents **AUITestAgent**, the first automatic, natural language-driven GUI testing tool for mobile apps. It automates the entire process of GUI interaction and function verification by extracting GUI interactions from test requirements via dynamically organized agents and employing a multi-dimensional data extraction strategy for verification.
+    - 🔑 Key: [GUI testing], [requirements-driven testing], [verification oracles], [interaction trace extraction], [AUITestAgent]
+    - 📖 TLDR: AUITestAgent is a mobile GUI testing system that executes natural-language test requirements by extracting interaction steps and then verifying outcomes from the resulting interaction trace. On customized benchmarks it improves interaction quality and reaches 94% verification accuracy, and a Meituan deployment found 4 new functional bugs across 10 regression tests in two months.
 
-- [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
+- [MobileFlow: A Multimodal LLM for Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
     - Songqin Nong, Jiali Zhu, Rui Wu, Jiongchao Jin, Shuo Shan, Xiutian Huang, Wenhao Xu
     - 🏛️ Institutions: Ant Group
     - 📅 Date: July 05, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [hybrid visual encoder], [multilingual GUI], [MobileFlow]
-    - 📖 TLDR: This paper introduces *MobileFlow*, a multimodal large language model tailored for mobile GUI agents. With approximately 21 billion parameters and hybrid visual encoders, it supports variable image resolutions and multilingual GUIs, enhancing the model's ability to interpret image data and comprehend user instructions for GUI interaction tasks.
+    - 🔑 Key: [hybrid visual encoders], [multilingual GUI], [Mixture of Experts], [GUI alignment], [MobileFlow]
+    - 📖 TLDR: MobileFlow adapts Qwen-VL-Chat into a 21B mobile GUI model with hybrid visual encoders, MoE expansion, and GUI-specific alignment and chain-of-thought training. The model is built to handle variable-resolution screens and multilingual interfaces without depending on system APIs for page layout access.
 
 - [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.03913)
     - Jiayi Zhang, Chuang Zhao, Yihan Zhao, Zhaoyang Yu, Ming He, Jianping Fan
@@ -985,35 +985,35 @@
     - 📅 Date: July 04, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [tool formulation], [multi-agent], [double-layer planning], [expert-eval], [MobileExperts]
-    - 📖 TLDR: Proposes MobileExperts, a mobile multi-agent framework that dynamically assembles tool-enabled expert agents according to the user request. The system combines expert discovery, tool formulation, and double-layer planning to lower reasoning costs while improving task execution on mobile devices.
+    - 🔑 Key: [framework], [tool formulation], [multi-agent collaboration], [double-layer planning], [Expert-Eval], [MobileExperts]
+    - 📖 TLDR: MobileExperts is a mobile multi-agent framework that forms tool-enabled expert teams through device-specific exploration and then coordinates them with dual-layer planning. The paper also introduces the Expert-Eval benchmark and reports better performance across task difficulty levels with about 22% lower reasoning cost.
 
 - [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://aclanthology.org/2025.findings-acl.110/)
     - Yuxiang Chai, Siyuan Huang, Yazhe Niu, Han Xiao, Liang Liu, Guozhi Wang, Dingyu Zhang, Shuai Ren, Hongsheng Li
-    - 🏛️ Institutions: The Chinese University of Hong Kong, Shanghai Jiao Tong University, Shanghai AI Laboratory, vivo AI Lab
+    - 🏛️ Institutions: MMLab @ CUHK, SJTU, vivo AI Lab
     - 📅 Date: July 03, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [AMEX], [multi-annotation], [mobile GUI control]
-    - 📖 TLDR: Introduces AMEX, a large-scale dataset for mobile GUI-control agents with over 104K screenshots from 110 apps and three levels of supervision: interactive element grounding, functionality descriptions, and instruction-action chains. The dataset is designed to support more capable generalist mobile agents than prior single-annotation resources.
-
-- [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
-    - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: King Abdullah University of Science and Technology, The University of Tokyo, Carnegie Mellon University, Stanford University, Harvard University, Tsinghua University, Southern University of Science and Technology, University of Oxford
-    - 📅 Date: July 03, 2024
-    - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [CRAB], [cross-environment evaluation], [graph-based evaluation], [task generation]
-    - 📖 TLDR: Introduces CRAB, a benchmark framework for multimodal agents that spans computer, mobile, and web environments instead of a single interface. Its core contributions are a graph-based fine-grained evaluator and a task-construction pipeline that make cross-environment agent assessment easier to extend.
+    - 🔑 Key: [dataset], [mobile GUI control], [multi-level annotations], [element grounding], [GUI-action chains], [AMEX]
+    - 📖 TLDR: AMEX is a mobile GUI-control dataset with over 104K high-resolution screenshots annotated at three levels: interactive element grounding, screen and element functionality descriptions, and instruction-action chains. The paper positions it as a supplementary training resource for generalist mobile agents and shows gains after fine-tuning SPHINX Agent on the collected annotations.
 
 - [Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps](https://arxiv.org/abs/2407.03037)
-    - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
-    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Technical University of Munich, DiDi Global Inc.
+    - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Mengzhuo Chen, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
+    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Technical University of Munich
     - 📅 Date: July 03, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI testing], [non-crash bug detection], [Trident], [mobile app testing]
-    - 📖 TLDR: Introduces Trident, a vision-driven multi-agent framework for detecting non-crash functional bugs in mobile apps from screenshots and execution history. The method uses multimodal reasoning over page semantics and transition logic to catch bugs that crash-oriented testing pipelines often miss.
+    - 🔑 Key: [GUI testing], [non-crash bug detection], [vision-driven testing], [multi-agent collaboration], [Trident]
+    - 📖 TLDR: This paper introduces Trident, a vision-driven mobile GUI testing system with Explorer, Monitor, and Detector agents for finding non-crash functional bugs from screenshot sequences and transition logic. It evaluates on 590 non-crash bugs, reports large recall and precision gains over 12 baselines, and finds 43 new Google Play bugs, 31 of which were fixed.
+
+- [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
+    - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
+    - 🏛️ Institutions: KAUST, Eigent.AI, CAMEL-AI.org, UTokyo, CMU, Stanford, Harvard, Tsinghua, SUSTech, Oxford, NU
+    - 📅 Date: July 01, 2024
+    - 📑 Publisher: Findings of ACL 2025
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [cross-environment tasks], [graph-based evaluation], [task generation], [CRAB]
+    - 📖 TLDR: CRAB is a benchmark framework for multimodal agents that supports cross-environment tasks and graph-based fine-grained evaluation instead of single-platform end-state scoring. Its CRAB Benchmark-v0 release contains 120 desktop and mobile tasks, and the paper reports a best completion ratio of 38.01% from a single GPT-4o agent.
 
 - [E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion](https://arxiv.org/abs/2406.14250)
     - Ke Wang, Tianyu Xia, Zhangxuan Gu, Yi Zhao, Shuheng Shen, Changhua Meng, Weiqiang Wang, Ke Xu

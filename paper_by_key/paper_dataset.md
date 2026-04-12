@@ -162,15 +162,6 @@
     - 🔑 Key: [dataset], [structured exploration], [graph search], [WebArena], [Go-Browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.
 
-- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
-    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: EMNLP 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [dataset], [error detection], [backtracking], [judgment reward], [BacktrackAgent]
-    - 📖 TLDR: BacktrackAgent addresses the lack of error recovery in mobile GUI agents by adding verifier, judger, and reflector modules plus an explicit backtracking mechanism. It also builds training data for judgment and reflection over post-action outcome pages, improving both task success and step accuracy on Mobile3M and Auto-UI.
-
 - [UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents](https://arxiv.org/abs/2505.21496)
     - Han Xiao, Guozhi Wang, Yuxiang Chai, Zimu Lu, Weifeng Lin, Hao He, Lue Fan, Liuyang Bian, Rui Hu, Liang Liu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Aojun Zhou, Hongsheng Li
     - 🏛️ Institutions: CUHK MMLab, vivo AI Lab, CPII under InnoHK
@@ -179,6 +170,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [dataset], [reward model], [self-improvement], [outcome verification], [UI-Genie]
     - 📖 TLDR: UI-Genie targets two mobile-agent bottlenecks: reliable outcome verification and scalable high-quality training data. It combines an interleaved reward model with a reward-guided self-improvement loop, releases reward-specific GUI datasets, and reports stronger mobile-agent performance across multiple rounds of self-improvement.
+
+- [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
+    - Qinzhuo Wu, Pengzhi Gao, Wei Liu, Jian Luan
+    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: EMNLP 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [dataset], [error detection], [backtracking], [judgment reward], [BacktrackAgent]
+    - 📖 TLDR: BacktrackAgent addresses the lack of error recovery in mobile GUI agents by adding verifier, judger, and reflector modules plus an explicit backtracking mechanism. It also builds training data for judgment and reflection over post-action outcome pages, improving both task success and step accuracy on Mobile3M and Auto-UI.
 
 - [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277)
     - Hyungjoo Chae, Sunghwan Kim, Junhee Cho, Seungone Kim, Seungjun Moon, Gyeom Hwangbo, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, Taeyoon Kwon, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo
@@ -441,14 +441,23 @@
     - 🔑 Key: [benchmark], [dataset], [enterprise data software], [code and GUI], [data workflows], [Spider2-V]
     - 📖 TLDR: Spider2-V is a benchmark for automating professional data science and engineering workflows that require both code generation and GUI control in enterprise software. It contains 494 real-world tasks across 20 applications and finds that current multimodal agents still struggle badly with full workflows, fine-grained GUI actions, and remote cloud-hosted workspaces.
 
+- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html)
+    - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin
+    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, Chandar Research Lab
+    - 📅 Date: July 07, 2024
+    - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [knowledge work], [compositional tasks], [oracle traces], [WorkArena++]
+    - 📖 TLDR: WorkArena++ is a web benchmark of 682 enterprise knowledge-work tasks built on ServiceNow to stress compositional planning, retrieval, reasoning, and contextual understanding. Besides the benchmark itself, it adds a mechanism for generating thousands of oracle observation-action traces that can be used to fine-tune web agents.
+
 - [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://aclanthology.org/2025.findings-acl.110/)
     - Yuxiang Chai, Siyuan Huang, Yazhe Niu, Han Xiao, Liang Liu, Guozhi Wang, Dingyu Zhang, Shuai Ren, Hongsheng Li
-    - 🏛️ Institutions: The Chinese University of Hong Kong, Shanghai Jiao Tong University, Shanghai AI Laboratory, vivo AI Lab
+    - 🏛️ Institutions: MMLab @ CUHK, SJTU, vivo AI Lab
     - 📅 Date: July 03, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [AMEX], [multi-annotation], [mobile GUI control]
-    - 📖 TLDR: Introduces AMEX, a large-scale dataset for mobile GUI-control agents with over 104K screenshots from 110 apps and three levels of supervision: interactive element grounding, functionality descriptions, and instruction-action chains. The dataset is designed to support more capable generalist mobile agents than prior single-annotation resources.
+    - 🔑 Key: [dataset], [mobile GUI control], [multi-level annotations], [element grounding], [GUI-action chains], [AMEX]
+    - 📖 TLDR: AMEX is a mobile GUI-control dataset with over 104K high-resolution screenshots annotated at three levels: interactive element grounding, screen and element functionality descriptions, and instruction-action chains. The paper positions it as a supplementary training resource for generalist mobile agents and shows gains after fine-tuning SPHINX Agent on the collected annotations.
 
 - [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://aclanthology.org/2024.emnlp-main.533/)
     - Yue Fan, Lei Ding, Ching-Chen Kuo, Shan Jiang, Yang Zhao, Xinze Guan, Jie Yang, Yi Zhang, Xin Eric Wang

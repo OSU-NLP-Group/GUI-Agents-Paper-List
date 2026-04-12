@@ -151,15 +151,6 @@
     - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
     - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
 
-- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
-    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
-    - 🏛️ Institutions: Carnegie Mellon University, Duke University
-    - 📅 Date: February 19, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
-    - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
-
 - [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
     - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
     - 🏛️ Institutions: The Ohio State University, University of British Columbia, Microsoft Research
@@ -168,6 +159,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
     - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
+
+- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
+    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
+    - 🏛️ Institutions: Carnegie Mellon University, Duke University
+    - 📅 Date: February 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
+    - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
 
 - [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
     - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
@@ -250,15 +250,6 @@
     - 🔑 Key: [data generation], [fine-grained evaluation], [constraint-based evaluator], [BookingArena], [knowledge distillation], [partial progress]
     - 📖 TLDR: This paper builds a scalable web-agent training pipeline around a constraint-based evaluator that scores partial progress instead of only final success. It introduces BookingArena and shows that using automatically generated data plus fine-grained evaluation can train smaller web agents that match or exceed much larger systems.
 
-- [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
-    - Nicholas Lee, Lutfi Eren Erdogan, Chris Joseph John, Surya Krishnapillai, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
-    - 🏛️ Institutions: UC Berkeley, ICSI, LBNL
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [test-time scaling], [CATTS], [inference-time compute], [uncertainty estimation], [LLM arbiter], [WebArena-Lite]
-    - 📖 TLDR: CATTS dynamically allocates test-time compute for multi-step web agents by using vote-based uncertainty signals to invoke an LLM arbiter only on contentious decisions. It improves performance on WebArena-Lite and GoBrowse while using fewer tokens than uniform scaling.
-
 - [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
     - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
     - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
@@ -267,6 +258,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
     - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
+
+- [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
+    - Nicholas Lee, Lutfi Eren Erdogan, Chris Joseph John, Surya Krishnapillai, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
+    - 🏛️ Institutions: UC Berkeley, ICSI, LBNL
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [test-time scaling], [CATTS], [inference-time compute], [uncertainty estimation], [LLM arbiter], [WebArena-Lite]
+    - 📖 TLDR: CATTS dynamically allocates test-time compute for multi-step web agents by using vote-based uncertainty signals to invoke an LLM arbiter only on contentious decisions. It improves performance on WebArena-Lite and GoBrowse while using fewer tokens than uniform scaling.
 
 - [PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents](https://arxiv.org/abs/2602.05354)
     - Shifat E. Arman, Syed Nazmus Sakib, Tapodhir Karmakar Taton, Nafiul Haque, Shahrear Bin Amin
@@ -1366,15 +1366,6 @@
     - 🔑 Key: [benchmark], [safety], [red teaming], [jailbreaking], [BrowserART]
     - 📖 TLDR: The paper introduces BrowserART, a red-teaming benchmark with 100 harmful browser-agent behaviors spanning synthetic and real websites. It shows that refusal-trained backbone LLMs may still execute harmful instructions once embedded in browser agents, and that chat jailbreaks transfer effectively to that agent setting.
 
-- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
-    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
-    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
-    - 📅 Date: October 09, 2024
-    - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
-    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
-
 - [ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents](https://openreview.net/forum?id=MuCDzH0ctf)
     - Ido Levy, Ben Wiesel, Sami Marreed, Alon Oved, Avi Yaeli, Nir Mashkif, Segev Shlomov
     - 🏛️ Institutions: IBM Research
@@ -1383,6 +1374,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [safety], [trustworthiness], [policy compliance], [CuP], [ST-WebAgentBench]
     - 📖 TLDR: ST-WebAgentBench is a benchmark for enterprise-style web-agent evaluation that pairs 375 tasks with 3,057 safety and trustworthiness policies and introduces policy-aware metrics such as Completion Under Policy (CuP) and Risk Ratio. The paper shows that strong agents lose a large fraction of their nominal completion rate once policy compliance is required.
+
+- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
+    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 09, 2024
+    - 📑 Publisher: INTERSPEECH 2025
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
+    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
@@ -1471,17 +1471,8 @@
     - 📅 Date: July 07, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [planning], [reasoning], [WorkArena++]
-    - 📖 TLDR: This paper introduces **WorkArena++**, a benchmark comprising 682 tasks that simulate realistic workflows performed by knowledge workers. It evaluates web agents' capabilities in planning, problem-solving, logical/arithmetic reasoning, retrieval, and contextual understanding. The study reveals challenges faced by current large language models and vision-language models in serving as effective workplace assistants, providing a resource to advance autonomous agent development.
-
-- [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
-    - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: King Abdullah University of Science and Technology, The University of Tokyo, Carnegie Mellon University, Stanford University, Harvard University, Tsinghua University, Southern University of Science and Technology, University of Oxford
-    - 📅 Date: July 03, 2024
-    - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [CRAB], [cross-environment evaluation], [graph-based evaluation], [task generation]
-    - 📖 TLDR: Introduces CRAB, a benchmark framework for multimodal agents that spans computer, mobile, and web environments instead of a single interface. Its core contributions are a graph-based fine-grained evaluator and a task-construction pipeline that make cross-environment agent assessment easier to extend.
+    - 🔑 Key: [benchmark], [dataset], [knowledge work], [compositional tasks], [oracle traces], [WorkArena++]
+    - 📖 TLDR: WorkArena++ is a web benchmark of 682 enterprise knowledge-work tasks built on ServiceNow to stress compositional planning, retrieval, reasoning, and contextual understanding. Besides the benchmark itself, it adds a mechanism for generating thousands of oracle observation-action traces that can be used to fine-tune web agents.
 
 - [Tree Search for Language Model Agents](https://arxiv.org/abs/2407.01476)
     - Jing Yu Koh, Stephen McAleer, Daniel Fried, Ruslan Salakhutdinov
@@ -1489,8 +1480,8 @@
     - 📅 Date: July 01, 2024
     - 📑 Publisher: TMLR 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [tree search], [planning], [exploration], [value function]
-    - 📖 TLDR: Proposes an inference-time best-first tree search algorithm for language-model web agents that explicitly explores future actions in the environment. By combining search with a learned value function, the method improves multi-step planning over reactive agent policies on realistic web tasks.
+    - 🔑 Key: [tree search], [best-first search], [value function], [test-time compute], [VisualWebArena]
+    - 📖 TLDR: This paper adds inference-time best-first tree search to language-model web agents by searching directly in the environment and guiding expansion with a model-based value function. On top of a GPT-4o baseline it reports a 39.7% relative gain on VisualWebArena and a 28.0% relative gain on WebArena, showing that web-agent performance scales with additional test-time search.
 
 - [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314)
     - Omri Berkovitch, Sapir Caduri, Noam Kahlon, Anatoly Efros, Avi Caciularu, Ido Dagan

@@ -198,15 +198,6 @@
     - 🔑 Key: [model], [foundation agent], [intermediate interface], [progressive reinforcement learning], [AutoGLM]
     - 📖 TLDR: AutoGLM is a foundation-agent system for browser and phone control that emphasizes an intermediate interface separating planning from grounding. The paper pairs that design with progressive self-evolving reinforcement learning and reports strong performance on both web and Android evaluations.
 
-- [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
-    - Songqin Nong, Jiali Zhu, Rui Wu, Jiongchao Jin, Shuo Shan, Xiutian Huang, Wenhao Xu
-    - 🏛️ Institutions: Ant Group
-    - 📅 Date: July 05, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [hybrid visual encoder], [multilingual GUI], [MobileFlow]
-    - 📖 TLDR: This paper introduces *MobileFlow*, a multimodal large language model tailored for mobile GUI agents. With approximately 21 billion parameters and hybrid visual encoders, it supports variable image resolutions and multilingual GUIs, enhancing the model's ability to interpret image data and comprehend user instructions for GUI interaction tasks.
-
 - [VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning](https://aclanthology.org/2024.findings-emnlp.68/)
     - Ziyang Meng, Yu Dai, Zezheng Gong, Shaoxiong Guo, Minglong Tang, Tongquan Wei
     - 🏛️ Institutions: East China Normal University

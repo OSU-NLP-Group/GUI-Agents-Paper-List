@@ -495,41 +495,14 @@
     - 🔑 Key: [framework], [hierarchical architecture], [DOM distillation], [change observation], [self-improvement], [Agent-E]
     - 📖 TLDR: Agent-E is a web-agent architecture built around hierarchical control, DOM distillation and denoising, and explicit change observation. The paper reports 10-30% gains over prior web agents on WebVoyager and then distills the implementation lessons into broader agent-system design principles.
 
-- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.09018)
-    - Yongxiang Hu, Xuan Wang, Yingchuan Wang, Yu Zhang, Shiyu Guo, Chaoyi Chen, Xin Wang, Yangfan Zhou
-    - 🏛️ Institutions: Fudan University, Meituan
-    - 📅 Date: July 12, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI testing], [AUITestAgent]
-    - 📖 TLDR: This paper presents **AUITestAgent**, the first automatic, natural language-driven GUI testing tool for mobile apps. It automates the entire process of GUI interaction and function verification by extracting GUI interactions from test requirements via dynamically organized agents and employing a multi-dimensional data extraction strategy for verification.
-
 - [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.03913)
     - Jiayi Zhang, Chuang Zhao, Yihan Zhao, Zhaoyang Yu, Ming He, Jianping Fan
     - 🏛️ Institutions: AI Lab at Lenovo Research, Renmin University of China, The Hong Kong University of Science and Technology
     - 📅 Date: July 04, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [tool formulation], [multi-agent], [double-layer planning], [expert-eval], [MobileExperts]
-    - 📖 TLDR: Proposes MobileExperts, a mobile multi-agent framework that dynamically assembles tool-enabled expert agents according to the user request. The system combines expert discovery, tool formulation, and double-layer planning to lower reasoning costs while improving task execution on mobile devices.
-
-- [Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps](https://arxiv.org/abs/2407.03037)
-    - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
-    - 🏛️ Institutions: Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Technical University of Munich, DiDi Global Inc.
-    - 📅 Date: July 03, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [GUI testing], [non-crash bug detection], [Trident], [mobile app testing]
-    - 📖 TLDR: Introduces Trident, a vision-driven multi-agent framework for detecting non-crash functional bugs in mobile apps from screenshots and execution history. The method uses multimodal reasoning over page semantics and transition logic to catch bugs that crash-oriented testing pipelines often miss.
-
-- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
-    - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
-    - 🏛️ Institutions: Carnegie Mellon University, University of California, Santa Barbara
-    - 📅 Date: June 30, 2024
-    - 📑 Publisher: NAACL 2024 Industry Track
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [framework], [visual grounding], [UI element localization], [LVG]
-    - 📖 TLDR: This work introduces the task of visual UI grounding, which unifies detection and grounding by enabling models to identify UI elements referenced by natural language commands solely from visual input. The authors propose **LVG**, a model that outperforms baselines pre-trained on larger datasets by over 4.9 points in top-1 accuracy, demonstrating its effectiveness in localizing referenced UI elements without relying on UI metadata.
+    - 🔑 Key: [framework], [tool formulation], [multi-agent collaboration], [double-layer planning], [Expert-Eval], [MobileExperts]
+    - 📖 TLDR: MobileExperts is a mobile multi-agent framework that forms tool-enabled expert teams through device-specific exploration and then coordinates them with dual-layer planning. The paper also introduces the Expert-Eval benchmark and reports better performance across task difficulty levels with about 22% lower reasoning cost.
 
 - [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://aclanthology.org/2024.emnlp-main.533/)
     - Yue Fan, Lei Ding, Ching-Chen Kuo, Shan Jiang, Yang Zhao, Xinze Guan, Jie Yang, Yi Zhang, Xin Eric Wang

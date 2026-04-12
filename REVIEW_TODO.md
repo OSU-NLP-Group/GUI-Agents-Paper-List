@@ -403,15 +403,15 @@ Checklist:
 - [x] OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation
 - [x] Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems
 - [x] Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?
-- [ ] AUITestAgent: Automatic Requirements Oriented GUI Function Testing
-- [ ] WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks
-- [ ] MobileFlow: A Multimodal LLM For Mobile GUI Agent
-- [ ] MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices
-- [ ] AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents
-- [ ] CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents
-- [ ] Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps
-- [ ] Tree Search for Language Model Agents
-- [ ] Visual Grounding for User Interfaces
+- [x] AUITestAgent: Automatic Requirements Oriented GUI Function Testing
+- [x] WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks
+- [x] MobileFlow: A Multimodal LLM For Mobile GUI Agent
+- [x] MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices
+- [x] AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents
+- [x] CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents
+- [x] Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps
+- [x] Tree Search for Language Model Agents
+- [x] Visual Grounding for User Interfaces
 - [ ] VideoGUI: A Benchmark for GUI Automation from Instructional Videos
 - [ ] Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding
 - [ ] E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion

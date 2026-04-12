@@ -511,15 +511,6 @@
     - 🔑 Key: [model-free online learning], [automatic task generation], [automatic reward estimation], [test-time adaptation], [ZeroGUI]
     - 📖 TLDR: ZeroGUI studies how to train GUI agents online without human labels instead of relying on static offline supervision. It uses VLMs to generate tasks, estimate rewards, and support two-stage online reinforcement learning, improving both desktop and mobile GUI agents on OSWorld and AndroidLab.
 
-- [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
-    - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu
-    - 🏛️ Institutions: School of Software and Microelectronics, Peking University, Microsoft Research Asia
-    - 📅 Date: May 28, 2025
-    - 📑 Publisher: ICML 2025 Workshop on Computer Use Agents
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [knowledge-execution gap], [Retrace], [Critique], [plug-and-play module], [UI-Evol]
-    - 📖 TLDR: UI-Evol focuses on the gap between external GUI knowledge and actual task execution, showing that accurate knowledge alone often fails to produce successful behavior. It introduces a two-stage module, Retrace and Critique, to evolve knowledge from real interactions and improves both performance and behavioral stability on OSWorld.
-
 - [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
     - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
     - 🏛️ Institutions: The Ohio State University
@@ -528,6 +519,15 @@
     - 💻 Env: [Desktop], [Web]
     - 🔑 Key: [benchmark], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
     - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
+
+- [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
+    - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu
+    - 🏛️ Institutions: School of Software and Microelectronics, Peking University, Microsoft Research Asia
+    - 📅 Date: May 28, 2025
+    - 📑 Publisher: ICML 2025 Workshop on Computer Use Agents
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [knowledge-execution gap], [Retrace], [Critique], [plug-and-play module], [UI-Evol]
+    - 📖 TLDR: UI-Evol focuses on the gap between external GUI knowledge and actual task execution, showing that accurate knowledge alone often fails to produce successful behavior. It introduces a two-stage module, Retrace and Critique, to evolve knowledge from real interactions and improves both performance and behavioral stability on OSWorld.
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
@@ -846,12 +846,12 @@
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: King Abdullah University of Science and Technology, The University of Tokyo, Carnegie Mellon University, Stanford University, Harvard University, Tsinghua University, Southern University of Science and Technology, University of Oxford
-    - 📅 Date: July 03, 2024
+    - 🏛️ Institutions: KAUST, Eigent.AI, CAMEL-AI.org, UTokyo, CMU, Stanford, Harvard, Tsinghua, SUSTech, Oxford, NU
+    - 📅 Date: July 01, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [CRAB], [cross-environment evaluation], [graph-based evaluation], [task generation]
-    - 📖 TLDR: Introduces CRAB, a benchmark framework for multimodal agents that spans computer, mobile, and web environments instead of a single interface. Its core contributions are a graph-based fine-grained evaluator and a task-construction pipeline that make cross-environment agent assessment easier to extend.
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [cross-environment tasks], [graph-based evaluation], [task generation], [CRAB]
+    - 📖 TLDR: CRAB is a benchmark framework for multimodal agents that supports cross-environment tasks and graph-based fine-grained evaluation instead of single-platform end-state scoring. Its CRAB Benchmark-v0 release contains 120 desktop and mobile tasks, and the paper reports a best completion ratio of 38.01% from a single GPT-4o agent.
 
 - [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://proceedings.neurips.cc/paper_files/paper/2024/hash/804e757b7d7043c26701c3a313032101-Abstract-Datasets_and_Benchmarks_Track.html)
     - Kevin Qinghong Lin, Linjie Li, Difei Gao, Qinchen Wu, Mingyi Yan, Zhengyuan Yang, Lijuan Wang, Mike Zheng Shou

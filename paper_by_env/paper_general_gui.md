@@ -151,15 +151,6 @@
     - 🔑 Key: [reinforcement learning], [agentic-Q estimation], [step-wise policy optimization], [Ovis2.5-9B], [GUI navigation], [grounding]
     - 📖 TLDR: This paper trains GUI agents with an agentic-Q model that estimates each action's contribution to task completion and a step-wise policy optimization routine decoupled from online interaction. The design keeps data collection manageable while stabilizing updates and improving navigation and grounding performance.
 
-- [Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2602.11858)
-    - Lai Wei, Liangbo He, Jun Lan, Lingzhong Dong, Yutong Cai, Siyuan Li, Huijia Zhu, Weiqiang Wang, Linghe Kong, Yue Wang, Zhuosheng Zhang, Weiran Huang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Ant Group, Zhongguancun Academy, Shanghai Innovation Institute
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [knowledge distillation], [fine-grained perception], [region-to-image distillation], [ZoomBench], [training data generation], [multimodal perception]
-    - 📖 TLDR: This paper proposes Region-to-Image Distillation, which teaches a model to internalize zoom-in behavior without requiring explicit crop-and-reason inference at test time. It also introduces ZoomBench and shows stronger fine-grained perception on both perception and GUI-agent benchmarks.
-
 - [How Smart Is Your GUI Agent? A Framework for the Future of Software Interaction](https://arxiv.org/abs/2602.11514)
     - Sidong Feng, Chunyang Chen
     - 🏛️ Institutions: The Chinese University of Hong Kong (Shenzhen), Technical University of Munich
@@ -168,6 +159,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [autonomy levels], [taxonomy], [trustworthy AI], [software interaction], [GUI Agent Autonomy Levels], [conceptual framework]
     - 📖 TLDR: This paper is a conceptual framing proposal rather than a new agent system. It introduces GUI Agent Autonomy Levels, a six-level taxonomy for describing capability, responsibility, and risk, with the goal of giving the field a clearer language for benchmarking and trustworthy deployment.
+
+- [Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception](https://arxiv.org/abs/2602.11858)
+    - Lai Wei, Liangbo He, Jun Lan, Lingzhong Dong, Yutong Cai, Siyuan Li, Huijia Zhu, Weiqiang Wang, Linghe Kong, Yue Wang, Zhuosheng Zhang, Weiran Huang
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Ant Group, Zhongguancun Academy, Shanghai Innovation Institute
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [knowledge distillation], [fine-grained perception], [region-to-image distillation], [ZoomBench], [training data generation], [multimodal perception]
+    - 📖 TLDR: This paper proposes Region-to-Image Distillation, which teaches a model to internalize zoom-in behavior without requiring explicit crop-and-reason inference at test time. It also introduces ZoomBench and shows stronger fine-grained perception on both perception and GUI-agent benchmarks.
 
 - [See, Plan, Snap: Evaluating Multimodal GUI Agents in Scratch](https://arxiv.org/abs/2602.10814)
     - Xingyi Zhang, Yulei Ye, Kaifeng Huang, Wenhao Li, Xiangfeng Wang
@@ -835,15 +835,6 @@
     - 🔑 Key: [dataset], [screen parsing], [GUI grounding], [icon detection], [icon captioning], [OmniParser]
     - 📖 TLDR: OmniParser parses UI screenshots into structured screen elements by combining interactable icon detection with element captioning. The paper also curates icon-related datasets and shows that this screen parsing layer improves GPT-4V grounding on ScreenSpot, Mind2Web, and AITW.
 
-- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
-    - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
-    - 🏛️ Institutions: Carnegie Mellon University, University of California, Santa Barbara
-    - 📅 Date: June 30, 2024
-    - 📑 Publisher: NAACL 2024 Industry Track
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [framework], [visual grounding], [UI element localization], [LVG]
-    - 📖 TLDR: This work introduces the task of visual UI grounding, which unifies detection and grounding by enabling models to identify UI elements referenced by natural language commands solely from visual input. The authors propose **LVG**, a model that outperforms baselines pre-trained on larger datasets by over 4.9 points in top-1 accuracy, demonstrating its effectiveness in localizing referenced UI elements without relying on UI metadata.
-
 - [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://aclanthology.org/2024.emnlp-main.533/)
     - Yue Fan, Lei Ding, Ching-Chen Kuo, Shan Jiang, Yang Zhao, Xinze Guan, Jie Yang, Yi Zhang, Xin Eric Wang
     - 🏛️ Institutions: University of California, Santa Cruz, Microsoft Research
@@ -870,6 +861,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [dataset], [framework], [GUICourse]
     - 📖 TLDR: This paper introduces *GUICourse*, a suite of datasets aimed at training visual-based GUI agents from general vision-language models. It addresses challenges in OCR, grounding, and GUI knowledge, enhancing the models' capabilities in GUI navigation tasks.
+
+- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
+    - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
+    - 🏛️ Institutions: Carnegie Mellon University, University of California, Santa Barbara, Google Research
+    - 📅 Date: June 16, 2024
+    - 📑 Publisher: NAACL 2024 Industry Track
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [visual grounding], [UI element localization], [layout-guided contrastive learning], [multi-context learning], [LVG]
+    - 📖 TLDR: This paper defines visual UI grounding, where a model must localize the UI element referenced by a natural-language command directly from a screenshot without relying on UI metadata. It proposes LVG, which combines layout-guided contrastive learning with synthetic-to-real multi-context learning and improves top-1 accuracy by more than 4.9 points over strong baselines.
 
 - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html)
     - Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng Cao, Jing Hua Toh, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu, Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, Tao Yu

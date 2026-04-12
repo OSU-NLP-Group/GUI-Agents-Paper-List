@@ -897,17 +897,17 @@
     - 📅 Date: July 07, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [planning], [reasoning], [WorkArena++]
-    - 📖 TLDR: This paper introduces **WorkArena++**, a benchmark comprising 682 tasks that simulate realistic workflows performed by knowledge workers. It evaluates web agents' capabilities in planning, problem-solving, logical/arithmetic reasoning, retrieval, and contextual understanding. The study reveals challenges faced by current large language models and vision-language models in serving as effective workplace assistants, providing a resource to advance autonomous agent development.
+    - 🔑 Key: [benchmark], [dataset], [knowledge work], [compositional tasks], [oracle traces], [WorkArena++]
+    - 📖 TLDR: WorkArena++ is a web benchmark of 682 enterprise knowledge-work tasks built on ServiceNow to stress compositional planning, retrieval, reasoning, and contextual understanding. Besides the benchmark itself, it adds a mechanism for generating thousands of oracle observation-action traces that can be used to fine-tune web agents.
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: King Abdullah University of Science and Technology, The University of Tokyo, Carnegie Mellon University, Stanford University, Harvard University, Tsinghua University, Southern University of Science and Technology, University of Oxford
-    - 📅 Date: July 03, 2024
+    - 🏛️ Institutions: KAUST, Eigent.AI, CAMEL-AI.org, UTokyo, CMU, Stanford, Harvard, Tsinghua, SUSTech, Oxford, NU
+    - 📅 Date: July 01, 2024
     - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [CRAB], [cross-environment evaluation], [graph-based evaluation], [task generation]
-    - 📖 TLDR: Introduces CRAB, a benchmark framework for multimodal agents that spans computer, mobile, and web environments instead of a single interface. Its core contributions are a graph-based fine-grained evaluator and a task-construction pipeline that make cross-environment agent assessment easier to extend.
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [cross-environment tasks], [graph-based evaluation], [task generation], [CRAB]
+    - 📖 TLDR: CRAB is a benchmark framework for multimodal agents that supports cross-environment tasks and graph-based fine-grained evaluation instead of single-platform end-state scoring. Its CRAB Benchmark-v0 release contains 120 desktop and mobile tasks, and the paper reports a best completion ratio of 38.01% from a single GPT-4o agent.
 
 - [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://proceedings.neurips.cc/paper_files/paper/2024/hash/804e757b7d7043c26701c3a313032101-Abstract-Datasets_and_Benchmarks_Track.html)
     - Kevin Qinghong Lin, Linjie Li, Difei Gao, Qinchen Wu, Mingyi Yan, Zhengyuan Yang, Lijuan Wang, Mike Zheng Shou

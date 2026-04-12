@@ -65,9 +65,9 @@
 
 - [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://aclanthology.org/2025.findings-acl.110/)
     - Yuxiang Chai, Siyuan Huang, Yazhe Niu, Han Xiao, Liang Liu, Guozhi Wang, Dingyu Zhang, Shuai Ren, Hongsheng Li
-    - 🏛️ Institutions: The Chinese University of Hong Kong, Shanghai Jiao Tong University, Shanghai AI Laboratory, vivo AI Lab
+    - 🏛️ Institutions: MMLab @ CUHK, SJTU, vivo AI Lab
     - 📅 Date: July 03, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [AMEX], [multi-annotation], [mobile GUI control]
-    - 📖 TLDR: Introduces AMEX, a large-scale dataset for mobile GUI-control agents with over 104K screenshots from 110 apps and three levels of supervision: interactive element grounding, functionality descriptions, and instruction-action chains. The dataset is designed to support more capable generalist mobile agents than prior single-annotation resources.
+    - 🔑 Key: [dataset], [mobile GUI control], [multi-level annotations], [element grounding], [GUI-action chains], [AMEX]
+    - 📖 TLDR: AMEX is a mobile GUI-control dataset with over 104K high-resolution screenshots annotated at three levels: interactive element grounding, screen and element functionality descriptions, and instruction-action chains. The paper positions it as a supplementary training resource for generalist mobile agents and shows gains after fine-tuning SPHINX Agent on the collected annotations.
