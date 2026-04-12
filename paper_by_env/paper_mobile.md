@@ -565,15 +565,6 @@
     - 🔑 Key: [model-free online learning], [automatic task generation], [automatic reward estimation], [test-time adaptation], [ZeroGUI]
     - 📖 TLDR: ZeroGUI studies how to train GUI agents online without human labels instead of relying on static offline supervision. It uses VLMs to generate tasks, estimate rewards, and support two-stage online reinforcement learning, improving both desktop and mobile GUI agents on OSWorld and AndroidLab.
 
-- [XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level](https://arxiv.org/abs/2505.21279)
-    - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
-    - 📅 Date: May 27, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [evaluation framework], [state-level evaluation], [instruction unification], [Explore Metric], [XBOUND]
-    - 📖 TLDR: XBOUND argues that instruction-level success hides important ambiguity because a single GUI state can support multiple valid instruction targets. It introduces a state-level evaluation framework and finds that current mobile agents show bimodal performance on instruction unification, weak state mastery below 7B scale, and different gains from grounding versus trajectory data.
-
 - [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
     - Qinzhuo Wu, Pengzhi Gao, Wei Liu, Jian Luan
     - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
@@ -591,6 +582,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [model], [dataset], [reward model], [self-improvement], [outcome verification], [UI-Genie]
     - 📖 TLDR: UI-Genie targets two mobile-agent bottlenecks: reliable outcome verification and scalable high-quality training data. It combines an interleaved reward model with a reward-guided self-improvement loop, releases reward-specific GUI datasets, and reports stronger mobile-agent performance across multiple rounds of self-improvement.
+
+- [XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level](https://arxiv.org/abs/2505.21279)
+    - Shaoqing Zhang, Kehai Chen, Zhuosheng Zhang, Rumei Li, Rongxiang Weng, Yang Xiang, Liqiang Nie, Min Zhang
+    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Pengcheng Laboratory, Shanghai Jiao Tong University, Meituan
+    - 📅 Date: May 27, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [evaluation framework], [state-level evaluation], [instruction unification], [Explore Metric], [XBOUND]
+    - 📖 TLDR: XBOUND argues that instruction-level success hides important ambiguity because a single GUI state can support multiple valid instruction targets. It introduces a state-level evaluation framework and finds that current mobile agents show bimodal performance on instruction unification, weak state mastery below 7B scale, and different gains from grounding versus trajectory data.
 
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
@@ -898,15 +898,6 @@
     - 🔑 Key: [framework], [distributed RL fine-tuning], [centralized training], [decentralized data acquisition], [A-RIDE], [DistRL]
     - 📖 TLDR: DistRL is a distributed RL fine-tuning framework for mobile control agents that separates centralized training from decentralized data collection across worker devices. It is paired with the A-RIDE off-policy RL algorithm, and the paper reports 3x higher training efficiency, 2.4x faster data collection, and a 20% relative success-rate gain on open Android control tasks.
 
-- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
-    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
-    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
-    - 📅 Date: October 09, 2024
-    - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
-    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
-
 - [ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents](https://aclanthology.org/2025.sigdial-1.38/)
     - Jakub Hoscilowicz, Bartosz Maj, Bartosz Kozakiewicz, Oleksii Tymoshchuk, Artur Janicki
     - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
@@ -915,6 +906,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI grounding], [AITW], [ClickAgent], [mobile control]
     - 📖 TLDR: Proposes ClickAgent, a mobile agent framework that separates high-level reasoning from precise UI element localization. By pairing an MLLM planner with a dedicated grounding component, it improves task success on AITW and on real-device Android evaluations.
+
+- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
+    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 09, 2024
+    - 📑 Publisher: INTERSPEECH 2025
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
+    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
@@ -958,8 +958,8 @@
     - 📅 Date: August 05, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [knowledge base], [RAG], [flexible action space], [AppAgent v2]
-    - 📖 TLDR: Presents AppAgent v2, a mobile agent framework that combines a flexible action space with a retrieval-augmented knowledge base built during exploration. The design aims to make deployment-time interaction more adaptive across apps by reusing structured experience gathered earlier.
+    - 🔑 Key: [framework], [knowledge base], [RAG], [exploration phase], [flexible action space], [AppAgent v2]
+    - 📖 TLDR: AppAgent v2 is a mobile agent framework with separate exploration and deployment phases, where explored UI functionality is written into a structured knowledge base and later retrieved with RAG. The paper argues that this combination of flexible actions and reusable app knowledge improves cross-app mobile task execution on several benchmarks.
 
 - [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.09018)
     - Yongxiang Hu, Xuan Wang, Yingchuan Wang, Yu Zhang, Shiyu Guo, Chaoyi Chen, Xin Wang, Yangfan Zhou

@@ -51,8 +51,8 @@
     - 📅 Date: July 15, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [dataset], [data science], [engineering workflows], [Spider2-v]
-    - 📖 TLDR: This paper introduces **Spider2-V**, a multimodal agent benchmark designed to evaluate the capability of agents in automating professional data science and engineering workflows. It comprises 494 real-world tasks across 20 enterprise-level applications, assessing agents' proficiency in code generation and GUI operations within authentic computer environments.
+    - 🔑 Key: [benchmark], [dataset], [enterprise data software], [code and GUI], [data workflows], [Spider2-V]
+    - 📖 TLDR: Spider2-V is a benchmark for automating professional data science and engineering workflows that require both code generation and GUI control in enterprise software. It contains 494 real-world tasks across 20 applications and finds that current multimodal agents still struggle badly with full workflows, fine-grained GUI actions, and remote cloud-hosted workspaces.
 
 - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html)
     - Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng Cao, Jing Hua Toh, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu, Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, Tao Yu

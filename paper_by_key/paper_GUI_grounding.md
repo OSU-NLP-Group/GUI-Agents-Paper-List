@@ -270,15 +270,6 @@
     - 🔑 Key: [dataset], [synthetic data], [GUI grounding], [multi-granularity data], [EDGE]
     - 📖 TLDR: EDGE is a synthetic-data pipeline for GUI understanding that generates large-scale multi-granularity supervision from webpages. Models trained on the resulting dataset improve webpage understanding first and then transfer that gain to previously unseen desktop and mobile GUI environments with much less manual annotation.
 
-- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
-    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
-    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
-    - 📅 Date: October 09, 2024
-    - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
-    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
-
 - [ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents](https://aclanthology.org/2025.sigdial-1.38/)
     - Jakub Hoscilowicz, Bartosz Maj, Bartosz Kozakiewicz, Oleksii Tymoshchuk, Artur Janicki
     - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
@@ -287,6 +278,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI grounding], [AITW], [ClickAgent], [mobile control]
     - 📖 TLDR: Proposes ClickAgent, a mobile agent framework that separates high-level reasoning from precise UI element localization. By pairing an MLLM planner with a dedicated grounding component, it improves task success on AITW and on real-device Android evaluations.
+
+- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
+    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 09, 2024
+    - 📑 Publisher: INTERSPEECH 2025
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniAct], [TinyClick]
+    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
@@ -314,6 +314,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [XR apps], [interactable element detection], [zero-shot detection], [Orienter]
     - 📖 TLDR: This paper proposes Orienter, a zero-shot framework for detecting context-sensitive interactable GUI elements in extended-reality apps. It targets XR-specific challenges such as open-vocabulary GUI elements, context-dependent interactability, and spatial perception, and the paper reports stronger performance than prior GUI element detection approaches on VR app data.
+
+- [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
+    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
+    - 🏛️ Institutions: Microsoft Research, Microsoft GenAI
+    - 📅 Date: August 01, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [dataset], [screen parsing], [GUI grounding], [icon detection], [icon captioning], [OmniParser]
+    - 📖 TLDR: OmniParser parses UI screenshots into structured screen elements by combining interactable icon detection with element captioning. The paper also curates icon-related datasets and shows that this screen parsing layer improves GPT-4V grounding on ScreenSpot, Mind2Web, and AITW.
 
 - [Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces](https://arxiv.org/abs/2407.01558)
     - El Hassane Ettifouri, Jessica López Espejel, Laura Minkova, Tassnim Dardouri, Walid Dahhane

@@ -190,6 +190,15 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [framework], [dataset], [function calling], [LLMCompiler], [quantization], [TinyAgent]
     - 📖 TLDR: TinyAgent is an edge deployment framework for small function-calling language models, paired with a curated training dataset, tool retrieval, and quantization for local inference. Its GUI relevance comes mainly from the MacBook assistant demo and local agent deployment setting, not from a primary contribution to GUI interaction research itself.
 
+- [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html)
+    - Xiao Liu, Tianjie Zhang, Yu Gu, Iat Long Iong, Yifan Xu, Xixuan Song, Shudan Zhang, Hanyu Lai, Xinyi Liu, Hanlin Zhao, Jiadai Sun, Xinyue Yang, Yu Yang, Zehan Qi, Shuntian Yao, Xueqiao Sun, Siyi Cheng, Qinkai Zheng, Hao Yu, Hanchen Zhang, Wenyi Hong, Ming Ding, Lihang Pan, Xiaotao Gu, Aohan Zeng, Zhengxiao Du, Chan Hee Song, Yu Su, Yuxiao Dong, Jie Tang
+    - 🏛️ Institutions: Tsinghua University, Zhejiang University, Peking University, The Ohio State University
+    - 📅 Date: August 12, 2024
+    - 📑 Publisher: ICLR 2025
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [benchmark], [dataset], [visual foundation agents], [embodied tasks], [visual design], [VisualAgentBench], [VAB]
+    - 📖 TLDR: VisualAgentBench benchmarks large multimodal models as general visual foundation agents across embodied tasks, GUI tasks, and visual design rather than focusing only on GUI interaction. It also releases trajectory data for behavior cloning, making it relevant to GUI work as a broader visual-agent benchmark rather than a direct GUI paper.
+
 - [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://openreview.net/forum?id=xgtXkyqw1f)
     - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
     - 🏛️ Institutions: University of Science and Technology of China, Shanghai AI Laboratory

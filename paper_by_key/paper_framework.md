@@ -468,23 +468,14 @@
     - 🔑 Key: [framework], [API-first], [AXIS], [HACI], [agent OS]
     - 📖 TLDR: AXIS is an API-first agent framework that prioritizes application APIs over direct UI actions and also expands API coverage through automated exploration. On Microsoft Word tasks, it reduces completion time by 65-70% and cognitive workload by 38-53% while maintaining 97-98% accuracy relative to human performance, and it motivates a Human-Agent-Computer Interaction design framework for agent-centric software.
 
-- [WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration](https://doi.org/10.1609/aaai.v39i22.34505)
+- [WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration](https://ojs.aaai.org/index.php/AAAI/article/view/34505)
     - Yao Zhang, Zijian Ma, Yunpu Ma, Zhen Han, Yu Wu, Volker Tresp
     - 🏛️ Institutions: LMU Munich, Technical University of Munich, Munich Center for Machine Learning (MCML)
     - 📅 Date: August 28, 2024
     - 📑 Publisher: AAAI 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [monte carlo tree search], [reinforcement learning], [WebPilot]
-    - 📖 TLDR: This paper introduces **WebPilot**, a multi-agent system designed to execute complex web tasks requiring dynamic interaction. By employing a dual optimization strategy grounded in Monte Carlo Tree Search (MCTS), WebPilot enhances adaptability in complex web environments. The system's Global Optimization phase generates high-level plans by decomposing tasks into manageable subtasks, while the Local Optimization phase executes each subtask using a tailored MCTS approach. Experimental results on WebArena and MiniWoB++ demonstrate WebPilot's effectiveness, achieving state-of-the-art performance with GPT-4 and marking a significant advancement in autonomous web agent capabilities.
-
-- [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
-    - Pranav Putta, Edmund Mills, Naman Garg, Sumeet Ramesh Motwani, Elan Sopher Markowitz, Julia Kiseleva, Chelsea Finn, Divyansh Garg, Rafael Rafailov
-    - 🏛️ Institutions: MultiOn, Stanford University
-    - 📅 Date: August 13, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [MCTS], [DPO], [reinforcement learning], [WebShop], [Agent Q]
-    - 📖 TLDR: Agent Q combines guided MCTS, self-critique, and off-policy DPO to train web agents from both successful and failed trajectories. It substantially improves LLM agent performance on WebShop and real-world booking tasks, especially when paired with online search.
+    - 🔑 Key: [framework], [monte carlo tree search], [strategic exploration], [global-local optimization], [WebPilot]
+    - 📖 TLDR: WebPilot is a web-agent system that splits decision making into a global planning phase and a local MCTS-based execution phase to handle uncertain web environments. On WebArena and MiniWoB++, it reports stronger performance than prior tree-search baselines, including a 93% relative success-rate gain on WebArena with GPT-4.
 
 - [AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824)
     - Yanda Li, Chi Zhang, Wenjia Jiang, Wanqi Yang, Bin Fu, Pei Cheng, Xin Chen, Ling Chen, Yunchao Wei
@@ -492,17 +483,8 @@
     - 📅 Date: August 05, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [knowledge base], [RAG], [flexible action space], [AppAgent v2]
-    - 📖 TLDR: Presents AppAgent v2, a mobile agent framework that combines a flexible action space with a retrieval-augmented knowledge base built during exploration. The design aims to make deployment-time interaction more adaptive across apps by reusing structured experience gathered earlier.
-
-- [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
-    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
-    - 🏛️ Institutions: Microsoft Research, Microsoft GenAI
-    - 📅 Date: August 01, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [framework], [dataset], [OmniParser]
-    - 📖 TLDR: This paper introduces **OmniParser**, a method for parsing user interface screenshots into structured elements, enhancing the ability of models like GPT-4V to generate actions accurately grounded in corresponding UI regions. The authors curated datasets for interactable icon detection and icon description, fine-tuning models to parse interactable regions and extract functional semantics of UI elements.
+    - 🔑 Key: [framework], [knowledge base], [RAG], [exploration phase], [flexible action space], [AppAgent v2]
+    - 📖 TLDR: AppAgent v2 is a mobile agent framework with separate exploration and deployment phases, where explored UI functionality is written into a structured knowledge base and later retrieved with RAG. The paper argues that this combination of flexible actions and reusable app knowledge improves cross-app mobile task execution on several benchmarks.
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Tamer Abuelsaad, Deepak Akkil, Prasenjit Dey, Ashish Jagmohan, Aditya Vempaty, Ravi Kokku
@@ -511,7 +493,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [hierarchical architecture], [DOM distillation], [change observation], [self-improvement], [Agent-E]
-    - 📖 TLDR: Presents Agent-E, a web agent architecture built around hierarchical control, DOM distillation, and explicit change observation. Beyond the empirical gains on WebVoyager, the paper distills these implementation choices into broader design principles for agentic systems.
+    - 📖 TLDR: Agent-E is a web-agent architecture built around hierarchical control, DOM distillation and denoising, and explicit change observation. The paper reports 10-30% gains over prior web agents on WebVoyager and then distills the implementation lessons into broader agent-system design principles.
 
 - [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.09018)
     - Yongxiang Hu, Xuan Wang, Yingchuan Wang, Yu Zhang, Shiyu Guo, Chaoyi Chen, Xin Wang, Yangfan Zhou

@@ -396,14 +396,13 @@ Checklist:
 - [x] Agent Workflow Memory
 - [x] From Grounding to Planning: Benchmarking Bottlenecks in Web Agents
 - [x] CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation
-- [ ] WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration
-- [ ] Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
-- [ ] VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents
-- [ ] AppAgent v2: Advanced Agent for Flexible Mobile Interactions
-- [ ] OmniParser for Pure Vision Based GUI Agent
-- [ ] OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation
-- [ ] Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems
-- [ ] Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?
+- [x] WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration
+- [x] Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
+- [x] AppAgent v2: Advanced Agent for Flexible Mobile Interactions
+- [x] OmniParser for Pure Vision Based GUI Agent
+- [x] OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation
+- [x] Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems
+- [x] Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?
 - [ ] AUITestAgent: Automatic Requirements Oriented GUI Function Testing
 - [ ] WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks
 - [ ] MobileFlow: A Multimodal LLM For Mobile GUI Agent

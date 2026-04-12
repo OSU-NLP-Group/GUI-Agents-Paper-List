@@ -511,15 +511,6 @@
     - 🔑 Key: [model-free online learning], [automatic task generation], [automatic reward estimation], [test-time adaptation], [ZeroGUI]
     - 📖 TLDR: ZeroGUI studies how to train GUI agents online without human labels instead of relying on static offline supervision. It uses VLMs to generate tasks, estimate rewards, and support two-stage online reinforcement learning, improving both desktop and mobile GUI agents on OSWorld and AndroidLab.
 
-- [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
-    - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
-    - 🏛️ Institutions: The Ohio State University
-    - 📅 Date: May 28, 2025
-    - 📑 Publisher: ICLR 2026 (Oral)
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [benchmark], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
-    - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
-
 - [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
     - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu
     - 🏛️ Institutions: School of Software and Microelectronics, Peking University, Microsoft Research Asia
@@ -528,6 +519,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [knowledge-execution gap], [Retrace], [Critique], [plug-and-play module], [UI-Evol]
     - 📖 TLDR: UI-Evol focuses on the gap between external GUI knowledge and actual task execution, showing that accurate knowledge alone often fails to produce successful behavior. It introduces a two-stage module, Retrace and Critique, to evolve knowledge from real interactions and improves both performance and behavioral stability on OSWorld.
+
+- [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
+    - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
+    - 🏛️ Institutions: The Ohio State University
+    - 📅 Date: May 28, 2025
+    - 📑 Publisher: ICLR 2026 (Oral)
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [benchmark], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
+    - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
@@ -832,8 +832,8 @@
     - 📅 Date: July 26, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [multi-application], [office automation]
-    - 📖 TLDR: OfficeBench introduces a benchmark that evaluates language models' ability to automate office tasks across a range of applications like Word, Excel, and email. The benchmark tests agents’ skills in task-switching, planning, and decision-making by simulating realistic office workflows. Current models, including GPT-4, demonstrate significant gaps in task accuracy and efficiency, revealing areas for improvement in managing complex, multi-application tasks in office environments.
+    - 🔑 Key: [benchmark], [office automation], [multi-application workflows], [application switching], [execution-based evaluation], [OfficeBench]
+    - 📖 TLDR: OfficeBench is a benchmark for office automation tasks that require agents to plan across multiple applications, switch contexts correctly, and ground actions inside a large combined action space. The paper reports only 47% pass rate for GPT-4 Omni and highlights redundancy, hallucination, and application-switching errors as core failure modes.
 
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html)
     - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Yuchen Mao, Wenjing Hu, Tianbao Xie, Hongsheng Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
@@ -841,8 +841,8 @@
     - 📅 Date: July 15, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [dataset], [data science], [engineering workflows], [Spider2-v]
-    - 📖 TLDR: This paper introduces **Spider2-V**, a multimodal agent benchmark designed to evaluate the capability of agents in automating professional data science and engineering workflows. It comprises 494 real-world tasks across 20 enterprise-level applications, assessing agents' proficiency in code generation and GUI operations within authentic computer environments.
+    - 🔑 Key: [benchmark], [dataset], [enterprise data software], [code and GUI], [data workflows], [Spider2-V]
+    - 📖 TLDR: Spider2-V is a benchmark for automating professional data science and engineering workflows that require both code generation and GUI control in enterprise software. It contains 494 real-world tasks across 20 applications and finds that current multimodal agents still struggle badly with full workflows, fine-grained GUI actions, and remote cloud-hosted workspaces.
 
 - [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
     - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li

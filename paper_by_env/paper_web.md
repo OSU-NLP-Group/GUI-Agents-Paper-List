@@ -151,15 +151,6 @@
     - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
     - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
 
-- [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
-    - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
-    - 🏛️ Institutions: The Ohio State University, University of British Columbia, Microsoft Research
-    - 📅 Date: February 19, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
-    - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
-
 - [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
     - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
     - 🏛️ Institutions: Carnegie Mellon University, Duke University
@@ -168,6 +159,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
     - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
+
+- [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
+    - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
+    - 🏛️ Institutions: The Ohio State University, University of British Columbia, Microsoft Research
+    - 📅 Date: February 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
+    - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
 
 - [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
     - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
@@ -250,15 +250,6 @@
     - 🔑 Key: [data generation], [fine-grained evaluation], [constraint-based evaluator], [BookingArena], [knowledge distillation], [partial progress]
     - 📖 TLDR: This paper builds a scalable web-agent training pipeline around a constraint-based evaluator that scores partial progress instead of only final success. It introduces BookingArena and shows that using automatically generated data plus fine-grained evaluation can train smaller web agents that match or exceed much larger systems.
 
-- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
-    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
-    - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
-    - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
-
 - [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
     - Nicholas Lee, Lutfi Eren Erdogan, Chris Joseph John, Surya Krishnapillai, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
     - 🏛️ Institutions: UC Berkeley, ICSI, LBNL
@@ -267,6 +258,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [test-time scaling], [CATTS], [inference-time compute], [uncertainty estimation], [LLM arbiter], [WebArena-Lite]
     - 📖 TLDR: CATTS dynamically allocates test-time compute for multi-step web agents by using vote-based uncertainty signals to invoke an LLM arbiter only on contentious decisions. It improves performance on WebArena-Lite and GoBrowse while using fewer tokens than uniform scaling.
+
+- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
+    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
+    - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
+    - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
 
 - [PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents](https://arxiv.org/abs/2602.05354)
     - Shifat E. Arman, Syed Nazmus Sakib, Tapodhir Karmakar Taton, Nafiul Haque, Shahrear Bin Amin
@@ -853,15 +853,6 @@
     - 🔑 Key: [benchmark], [CAPTCHA reasoning depth], [web CAPTCHA], [multistep reasoning], [Open CaptchaWorld]
     - 📖 TLDR: Open CaptchaWorld is a web benchmark for testing whether multimodal agents can solve realistic CAPTCHA bottlenecks that block end-to-end automation. Across 20 CAPTCHA types, it measures both success and CAPTCHA Reasoning Depth, and shows that current agents remain far below human performance on these multi-step perceptual-interaction tasks.
 
-- [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
-    - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
-    - 🏛️ Institutions: The Ohio State University
-    - 📅 Date: May 28, 2025
-    - 📑 Publisher: ICLR 2026 (Oral)
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [benchmark], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
-    - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
-
 - [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/abs/2505.22648)
     - Jialong Wu, Baixuan Li, Runnan Fang, Wenbiao Yin, Liwen Zhang, Zhengwei Tao, Dingchu Zhang, Zekun Xi, Gang Fu, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou
     - 🏛️ Institutions: Tongyi Lab, Alibaba Group
@@ -870,6 +861,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [information seeking], [browsing data construction], [trajectory sampling], [reinforcement learning], [WebDancer]
     - 📖 TLDR: WebDancer studies end-to-end training for long-horizon web information-seeking agents rather than short templated browser tasks. It presents a four-stage data and training pipeline covering browsing data construction, trajectory sampling, supervised fine-tuning, and reinforcement learning, and reports strong results on GAIA and WebWalkerQA.
+
+- [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
+    - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
+    - 🏛️ Institutions: The Ohio State University
+    - 📅 Date: May 28, 2025
+    - 📑 Publisher: ICLR 2026 (Oral)
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [benchmark], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
+    - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
 
 - [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
     - Zhepei Wei, Wenlin Yao, Yao Liu, Weizhi Zhang, Qin Lu, Liang Qiu, Changlong Yu, Puyang Xu, Chao Zhang, Bing Yin, Hyokun Yun, Lihong Li
@@ -1438,23 +1438,23 @@
     - 🔑 Key: [benchmark], [planning bottleneck], [grounding bottleneck], [component-wise evaluation], [Mind2Web]
     - 📖 TLDR: This paper refines Mind2Web into separate planning and grounding benchmarks to diagnose which component is actually limiting web-agent performance. Its analysis argues that planning, not grounding, is the dominant bottleneck, and shows that isolating grounding can already yield near-perfect element accuracy with current techniques.
 
-- [WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration](https://doi.org/10.1609/aaai.v39i22.34505)
+- [WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration](https://ojs.aaai.org/index.php/AAAI/article/view/34505)
     - Yao Zhang, Zijian Ma, Yunpu Ma, Zhen Han, Yu Wu, Volker Tresp
     - 🏛️ Institutions: LMU Munich, Technical University of Munich, Munich Center for Machine Learning (MCML)
     - 📅 Date: August 28, 2024
     - 📑 Publisher: AAAI 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [monte carlo tree search], [reinforcement learning], [WebPilot]
-    - 📖 TLDR: This paper introduces **WebPilot**, a multi-agent system designed to execute complex web tasks requiring dynamic interaction. By employing a dual optimization strategy grounded in Monte Carlo Tree Search (MCTS), WebPilot enhances adaptability in complex web environments. The system's Global Optimization phase generates high-level plans by decomposing tasks into manageable subtasks, while the Local Optimization phase executes each subtask using a tailored MCTS approach. Experimental results on WebArena and MiniWoB++ demonstrate WebPilot's effectiveness, achieving state-of-the-art performance with GPT-4 and marking a significant advancement in autonomous web agent capabilities.
+    - 🔑 Key: [framework], [monte carlo tree search], [strategic exploration], [global-local optimization], [WebPilot]
+    - 📖 TLDR: WebPilot is a web-agent system that splits decision making into a global planning phase and a local MCTS-based execution phase to handle uncertain web environments. On WebArena and MiniWoB++, it reports stronger performance than prior tree-search baselines, including a 93% relative success-rate gain on WebArena with GPT-4.
 
 - [Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents](https://arxiv.org/abs/2408.07199)
-    - Pranav Putta, Edmund Mills, Naman Garg, Sumeet Ramesh Motwani, Elan Sopher Markowitz, Julia Kiseleva, Chelsea Finn, Divyansh Garg, Rafael Rafailov
-    - 🏛️ Institutions: MultiOn, Stanford University
+    - Pranav Putta, Edmund Mills, Naman Garg, Sumeet Motwani, Chelsea Finn, Divyansh Garg, Rafael Rafailov
+    - 🏛️ Institutions: The AGI Company (MultiOn), Stanford University
     - 📅 Date: August 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [framework], [MCTS], [DPO], [reinforcement learning], [WebShop], [Agent Q]
-    - 📖 TLDR: Agent Q combines guided MCTS, self-critique, and off-policy DPO to train web agents from both successful and failed trajectories. It substantially improves LLM agent performance on WebShop and real-world booking tasks, especially when paired with online search.
+    - 🔑 Key: [MCTS], [self-critique], [off-policy DPO], [WebShop], [online search], [Agent Q]
+    - 📖 TLDR: Agent Q combines guided MCTS, self-critique, and off-policy DPO to learn from both successful and failed web-agent trajectories. It improves performance on WebShop and raises long-horizon booking success from 18.6% to 81.7% after one day of data collection, further reaching 95.4% when online search is enabled.
 
 - [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
     - Tamer Abuelsaad, Deepak Akkil, Prasenjit Dey, Ashish Jagmohan, Aditya Vempaty, Ravi Kokku
@@ -1463,7 +1463,7 @@
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [hierarchical architecture], [DOM distillation], [change observation], [self-improvement], [Agent-E]
-    - 📖 TLDR: Presents Agent-E, a web agent architecture built around hierarchical control, DOM distillation, and explicit change observation. Beyond the empirical gains on WebVoyager, the paper distills these implementation choices into broader design principles for agentic systems.
+    - 📖 TLDR: Agent-E is a web-agent architecture built around hierarchical control, DOM distillation and denoising, and explicit change observation. The paper reports 10-30% gains over prior web agents on WebVoyager and then distills the implementation lessons into broader agent-system design principles.
 
 - [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html)
     - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin

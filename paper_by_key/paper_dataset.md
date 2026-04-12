@@ -423,23 +423,14 @@
     - 🔑 Key: [dataset], [GUI grounding], [data collection], [MobileViews]
     - 📖 TLDR: MobileViews is a mobile GUI dataset with more than 1.2 million screenshot-view hierarchy pairs collected from over 30K Android apps using VLM-enhanced automatic traversal on mobile SoC clusters. The paper shows that training on MobileViews improves GUI grounding accuracy by up to 6.1% on representative mobile grounding benchmarks.
 
-- [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html)
-    - Xiao Liu, Tianjie Zhang, Yu Gu, Iat Long Iong, Song XiXuan, Yifan Xu, Shudan Zhang, Hanyu Lai, Jiadai Sun, Xinyue Yang, Yu Yang, Zehan Qi, Shuntian Yao, Xueqiao Sun, Siyi Cheng, Qinkai Zheng, Hao Yu, Hanchen Zhang, Wenyi Hong, Ming Ding, Lihang Pan, Xiaotao Gu, Aohan Zeng, Zhengxiao Du, Chan Hee Song, Yu Su, Yuxiao Dong, Jie Tang
-    - 🏛️ Institutions: Tsinghua University, Microsoft Research Asia, The Ohio State University
-    - 📅 Date: August 12, 2024
-    - 📑 Publisher: ICLR 2025
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [benchmark], [dataset], [embodied], [visual design], [VisualAgentBench], [VAB]
-    - 📖 TLDR: The authors introduce *VisualAgentBench (VAB)*, a comprehensive benchmark designed to train and evaluate large multimodal models (LMMs) as visual foundation agents across diverse scenarios, including embodied tasks, graphical user interfaces, and visual design. VAB comprises five distinct environments that systematically challenge LMMs' understanding and interaction capabilities. Additionally, the benchmark offers supervised fine-tuning trajectory data for behavior cloning training, demonstrating the potential to improve open LMMs for serving as visual foundation agents.
-
 - [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
     - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
     - 🏛️ Institutions: Microsoft Research, Microsoft GenAI
     - 📅 Date: August 01, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
-    - 🔑 Key: [framework], [dataset], [OmniParser]
-    - 📖 TLDR: This paper introduces **OmniParser**, a method for parsing user interface screenshots into structured elements, enhancing the ability of models like GPT-4V to generate actions accurately grounded in corresponding UI regions. The authors curated datasets for interactable icon detection and icon description, fine-tuning models to parse interactable regions and extract functional semantics of UI elements.
+    - 🔑 Key: [dataset], [screen parsing], [GUI grounding], [icon detection], [icon captioning], [OmniParser]
+    - 📖 TLDR: OmniParser parses UI screenshots into structured screen elements by combining interactable icon detection with element captioning. The paper also curates icon-related datasets and shows that this screen parsing layer improves GPT-4V grounding on ScreenSpot, Mind2Web, and AITW.
 
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html)
     - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Yuchen Mao, Wenjing Hu, Tianbao Xie, Hongsheng Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
@@ -447,8 +438,8 @@
     - 📅 Date: July 15, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [dataset], [data science], [engineering workflows], [Spider2-v]
-    - 📖 TLDR: This paper introduces **Spider2-V**, a multimodal agent benchmark designed to evaluate the capability of agents in automating professional data science and engineering workflows. It comprises 494 real-world tasks across 20 enterprise-level applications, assessing agents' proficiency in code generation and GUI operations within authentic computer environments.
+    - 🔑 Key: [benchmark], [dataset], [enterprise data software], [code and GUI], [data workflows], [Spider2-V]
+    - 📖 TLDR: Spider2-V is a benchmark for automating professional data science and engineering workflows that require both code generation and GUI control in enterprise software. It contains 494 real-world tasks across 20 applications and finds that current multimodal agents still struggle badly with full workflows, fine-grained GUI actions, and remote cloud-hosted workspaces.
 
 - [AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents](https://aclanthology.org/2025.findings-acl.110/)
     - Yuxiang Chai, Siyuan Huang, Yazhe Niu, Han Xiao, Liang Liu, Guozhi Wang, Dingyu Zhang, Shuai Ren, Hongsheng Li
