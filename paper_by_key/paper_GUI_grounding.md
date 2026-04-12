@@ -171,15 +171,6 @@
     - 🔑 Key: [reinforcement learning], [GUI grounding], [dense policy gradient], [self-evolutionary finetuning], [SE-GUI]
     - 📖 TLDR: This paper targets visual grounding for GUI agents in complex, high-resolution interfaces where supervised fine-tuning often generalizes poorly. It introduces SE-GUI, an RL-based framework with seed-data curation, dense policy gradients, and self-evolutionary reinforcement finetuning driven by attention maps. With only 3k training samples, the 7B model reaches state-of-the-art results on multiple grounding benchmarks and substantially improves ScreenSpot-Pro performance.
 
-- [Visual Test-time Scaling for GUI Agent Grounding](https://arxiv.org/abs/2505.00684)
-    - Tiange Luo, Lajanugen Logeswaran, Justin Johnson, Honglak Lee
-    - 🏛️ Institutions: University of Michigan, LG AI Research
-    - 📅 Date: May 01, 2025
-    - 📑 Publisher: ICCV 2025
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [GUI grounding], [RegionFocus], [visual test-time scaling], [image-as-map], [visual search]
-    - 📖 TLDR: This paper frames GUI grounding as an iterative visual search process rather than a single full-screen prediction. Its RegionFocus method repeatedly zooms into promising regions and uses an image-as-map view to expose landmarks and action candidates, improving grounding on ScreenSpot-Pro and WebVoyager without retraining the base model.
-
 - [ScaleTrack: Scaling and back-tracking Automated GUI Agents](https://arxiv.org/abs/2505.00416)
     - Jing Huang, Zhixiong Zeng, Wenkang Han, Yufeng Zhong, Liming Zheng, Shuai Fu, Jingyuan Chen, Lin Ma
     - 🏛️ Institutions: Meituan, Zhejiang University, University of Adelaide
@@ -188,6 +179,15 @@
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [GUI grounding], [backtracking planning], [data scaling], [historical action backtracking], [ScaleTrack]
     - 📖 TLDR: ScaleTrack targets two training bottlenecks in automated GUI agents: weak grounding data coverage and the lack of backtracking behavior during planning. It aggregates GUI samples from heterogeneous sources into a unified grounding corpus and trains agents to predict the next action together with the historical actions that led to the current screen.
+
+- [Visual Test-time Scaling for GUI Agent Grounding](https://arxiv.org/abs/2505.00684)
+    - Tiange Luo, Lajanugen Logeswaran, Justin Johnson, Honglak Lee
+    - 🏛️ Institutions: University of Michigan, LG AI Research
+    - 📅 Date: May 01, 2025
+    - 📑 Publisher: ICCV 2025
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI grounding], [RegionFocus], [visual test-time scaling], [image-as-map], [visual search]
+    - 📖 TLDR: This paper frames GUI grounding as an iterative visual search process rather than a single full-screen prediction. Its RegionFocus method repeatedly zooms into promising regions and uses an image-as-map view to expose landmarks and action candidates, improving grounding on ScreenSpot-Pro and WebVoyager without retraining the base model.
 
 - [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://aclanthology.org/2025.findings-acl.809/)
     - Xinyi Liu, Xiaoyi Zhang, Ziyun Zhang, Yan Lu
@@ -270,15 +270,6 @@
     - 🔑 Key: [dataset], [synthetic data], [GUI grounding], [multi-granularity data], [EDGE]
     - 📖 TLDR: EDGE is a synthetic-data pipeline for GUI understanding that generates large-scale multi-granularity supervision from webpages. Models trained on the resulting dataset improve webpage understanding first and then transfer that gain to previously unseen desktop and mobile GUI environments with much less manual annotation.
 
-- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
-    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
-    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
-    - 📅 Date: October 09, 2024
-    - 📑 Publisher: INTERSPEECH 2025
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniACT], [TinyClick]
-    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
-
 - [ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents](https://aclanthology.org/2025.sigdial-1.38/)
     - Jakub Hoscilowicz, Bartosz Maj, Bartosz Kozakiewicz, Oleksii Tymoshchuk, Artur Janicki
     - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
@@ -287,6 +278,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [GUI grounding], [AITW], [ClickAgent], [mobile control]
     - 📖 TLDR: Proposes ClickAgent, a mobile agent framework that separates high-level reasoning from precise UI element localization. By pairing an MLLM planner with a dedicated grounding component, it improves task success on AITW and on real-device Android evaluations.
+
+- [TinyClick: Single-Turn Agent for Empowering GUI Automation](https://www.isca-archive.org/interspeech_2025/pawlowski25_interspeech.html)
+    - Pawel Pawlowski, Krystian Zawistowski, Wojciech Lapacz, Adam Wiacek, Marcin Skorupa, Sebastien Postansque, Jakub Hoscilowicz
+    - 🏛️ Institutions: Samsung R&D Poland, Warsaw University of Technology
+    - 📅 Date: October 09, 2024
+    - 📑 Publisher: INTERSPEECH 2025
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [GUI grounding], [single-turn agent], [on-device model], [Florence-2], [ScreenSpot], [OmniACT], [TinyClick]
+    - 📖 TLDR: TinyClick is a 0.27B single-turn GUI agent built on Florence-2-Base that predicts the target UI element from a screenshot and user command. The paper attributes its gains to vision-specific multitask training and MLLM-based data augmentation, and reports strong results on ScreenSpot and OmniAct annotations while keeping latency and training cost low.
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
@@ -334,10 +334,10 @@
     - 📖 TLDR: Studies instruction visual grounding for desktop GUIs, where a model must locate the screen element implied by a natural-language command. The paper proposes both modular and end-to-end grounding methods, introduces dedicated datasets, and adds the CPV metric for relaxed point-based evaluation.
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
-    - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Li YanTao, Jianbing Zhang, Zhiyong Wu
-    - 🏛️ Institutions: Nanjing University, Shanghai AI Lab
-    - 📅 Date: January 19, 2024
+    - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
+    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, Nanjing University, Shanghai AI Laboratory
+    - 📅 Date: January 17, 2024
     - 📑 Publisher: ACL 2024
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [model], [dataset], [benchmark], [GUI grounding], [ScreenSpot], [SeeClick]
-    - 📖 TLDR: SeeClick is a screenshot-only visual GUI agent that targets the core GUI grounding problem without relying on structured accessibility trees or HTML-like inputs. The paper introduces GUI-grounding pretraining data generation and the ScreenSpot benchmark, and shows that better grounding directly improves downstream GUI agent performance.
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [grounding pre-training], [ScreenSpot], [SeeClick]
+    - 📖 TLDR: SeeClick is a screenshot-only GUI agent built around the GUI grounding problem rather than structured trees such as HTML. The paper adds automated GUI-grounding data curation and introduces ScreenSpot, a grounding benchmark spanning mobile, desktop, and web environments.

@@ -73,10 +73,10 @@
     - 📖 TLDR: Proposes AgentStore, a platform for integrating heterogeneous third-party agents into a single computer assistant. Its MetaAgent and AgentToken design lets the system coordinate specialized and generalist capabilities, substantially improving performance on challenging desktop-computing benchmarks such as OSWorld.
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
-    - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Li YanTao, Jianbing Zhang, Zhiyong Wu
-    - 🏛️ Institutions: Nanjing University, Shanghai AI Lab
-    - 📅 Date: January 19, 2024
+    - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
+    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, Nanjing University, Shanghai AI Laboratory
+    - 📅 Date: January 17, 2024
     - 📑 Publisher: ACL 2024
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [model], [dataset], [benchmark], [GUI grounding], [ScreenSpot], [SeeClick]
-    - 📖 TLDR: SeeClick is a screenshot-only visual GUI agent that targets the core GUI grounding problem without relying on structured accessibility trees or HTML-like inputs. The paper introduces GUI-grounding pretraining data generation and the ScreenSpot benchmark, and shows that better grounding directly improves downstream GUI agent performance.
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [grounding pre-training], [ScreenSpot], [SeeClick]
+    - 📖 TLDR: SeeClick is a screenshot-only GUI agent built around the GUI grounding problem rather than structured trees such as HTML. The paper adds automated GUI-grounding data curation and introduces ScreenSpot, a grounding benchmark spanning mobile, desktop, and web environments.

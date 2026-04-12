@@ -88,4 +88,4 @@
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [AssistGUI], [desktop automation], [GUI parser], [actor-critic agent], [Windows productivity]
-    - 📖 TLDR: Builds a Windows desktop benchmark of 100 long-horizon tasks across nine widely used productivity applications, together with an actor-critic agent that uses an LLM-driven GUI parser and stronger long-step reasoning. Even the best model reaches only 46% success, showing how far desktop productivity automation still is from solved.
+    - 📖 TLDR: AssistGUI introduces a Windows desktop benchmark of 100 tasks across nine software applications, each paired with project files for evaluation. The paper also proposes an actor-critic agent with an LLM-driven GUI parser and reports that the best model still reaches only 46% success.

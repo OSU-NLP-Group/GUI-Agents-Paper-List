@@ -453,16 +453,16 @@ Checklist:
 - [x] WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
 - [x] ScreenAI: A Vision-Language Model for UI and Infographics Understanding
 - [x] Dual-View Visual Contextualization for Web Navigation
-- [ ] Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
-- [ ] WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models
-- [ ] VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks
-- [ ] SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents
-- [ ] Multimodal Web Navigation with Instruction-Finetuned Foundation Models
-- [ ] GPT-4V(ision) is a Generalist Web Agent, if Grounded
-- [ ] WebVLN: Vision-and-Language Navigation on Websites
-- [ ] AppAgent: Multimodal Agents as Smartphone Users
-- [ ] ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation
-- [ ] CogAgent: A Visual Language Model for GUI Agents
+- [x] Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
+- [x] WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models
+- [x] VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks
+- [x] SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents
+- [x] Multimodal Web Navigation with Instruction-Finetuned Foundation Models
+- [x] GPT-4V(ision) is a Generalist Web Agent, if Grounded
+- [x] WebVLN: Vision-and-Language Navigation on Websites
+- [x] AppAgent: Multimodal Agents as Smartphone Users
+- [x] ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation
+- [x] CogAgent: A Visual Language Model for GUI Agents
 - [ ] GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation
 - [ ] UI Layout Generation with LLMs Guided by UI Grammar
 - [ ] OpenAgents: An Open Platform for Language Agents in the Wild
