@@ -72,15 +72,6 @@
     - 🔑 Key: [framework], [planning], [workflow memory], [tree search], [CDP], [LiteWebAgent]
     - 📖 TLDR: LiteWebAgent is an open-source suite for web-agent applications built around a modular framework that decouples action generation from action grounding. It integrates planning, workflow memory, and tree search, and ships both as a remote-browser web app and as a Chrome extension controlled through CDP.
 
-- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://openreview.net/forum?id=O0nBMRlkc8)
-    - Junyang Wang, Haiyang Xu, Haitao Jia, Xi Zhang, Ming Yan, Weizhou Shen, Ji Zhang, Fei Huang, Jitao Sang
-    - 🏛️ Institutions: Alibaba Group, Beijing University of Posts and Telecommunications
-    - 📅 Date: June 03, 2024
-    - 📑 Publisher: NeurIPS 2024 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [multi-agent], [planning], [reflection], [Mobile-Agent-v2]
-    - 📖 TLDR: Presents Mobile-Agent-v2, a mobile assistant architecture that splits operation into planning, decision, and reflection agents. This decomposition specifically targets task-progress navigation and focus-content navigation, improving on prior single-agent mobile assistants.
-
 - [Unveiling Disparities in Web Task Handling Between Human and Web Agent](https://arxiv.org/abs/2405.04497)
     - Kihoon Son, Jinhyeon Kwon, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim
     - 🏛️ Institutions: KAIST, Seoul National University

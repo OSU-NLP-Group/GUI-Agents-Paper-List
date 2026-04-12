@@ -416,18 +416,18 @@ Checklist:
 - [x] Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding
 - [x] E-ANT: A Large-Scale Dataset for Efficient Automatic GUI NavigaTion
 - [x] VGA: Vision GUI Assistant -- Minimizing Hallucinations through Image-Centric Fine-Tuning
-- [ ] Identifying User Goals from UI Trajectories
-- [ ] GUI Action Narrator: Where and When Did That Action Take Place?
-- [ ] WebCanvas: Benchmarking Web Agents in Online Environments
-- [ ] GUICourse: From General Vision Language Models to Versatile GUI Agents
-- [ ] GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding
-- [ ] DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning
-- [ ] GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices
-- [ ] Practical, Automated Scenario-based Mobile App Testing
-- [ ] MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents
-- [ ] On the Effects of Data Scale on UI Control Agents
-- [ ] Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
-- [ ] WebSuite: Systematically Evaluating Why Web Agents Fail
+- [x] Identifying User Goals from UI Trajectories
+- [x] GUI Action Narrator: Where and When Did That Action Take Place?
+- [x] WebCanvas: Benchmarking Web Agents in Online Environments
+- [x] GUICourse: From General Vision Language Models to Versatile GUI Agents
+- [x] GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding
+- [x] DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning
+- [x] GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices
+- [x] Practical, Automated Scenario-based Mobile App Testing
+- [x] MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents
+- [x] On the Effects of Data Scale on UI Control Agents
+- [x] Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
+- [x] WebSuite: Systematically Evaluating Why Web Agents Fail
 - [ ] Large Language Models Can Self-Improve At Web Agent Tasks
 - [ ] AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents
 - [ ] Unveiling Disparities in Web Task Handling Between Human and Web Agent
