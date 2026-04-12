@@ -375,20 +375,20 @@ Checklist:
 - [x] AdvAgent: Controllable Blackbox Red-teaming on Web Agents
 - [x] AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?
 - [x] Dissecting Adversarial Robustness of Multimodal LM Agents
-- [ ] SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation
-- [ ] DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents
-- [ ] Harnessing Webpage UIs for Text-Rich Visual Understanding
+- [x] SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation
+- [x] DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents
+- [x] Harnessing Webpage UIs for Text-Rich Visual Understanding
 - [x] Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents
-- [ ] Agent S: An Open Agentic Framework that Uses Computers Like a Human
+- [x] Agent S: An Open Agentic Framework that Uses Computers Like a Human
 - [x] TinyClick: Single-Turn Agent for Empowering GUI Automation
 - [x] ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents
 - [x] ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents
-- [ ] Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
-- [ ] ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning
-- [ ] Dynamic Planning for LLM-based Graphical User Interface Automation
-- [ ] AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents
-- [ ] Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale
-- [ ] MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding
+- [x] Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
+- [x] ExACT: Teaching AI Agents to Explore with Reflective-MCTS and Exploratory Learning
+- [x] Dynamic Planning for LLM-based Graphical User Interface Automation
+- [x] AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents
+- [x] Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale
+- [x] MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding
 - [ ] MobileViews: A Million-scale and Diverse Mobile GUI Dataset
 - [ ] EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage
 - [ ] Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps
