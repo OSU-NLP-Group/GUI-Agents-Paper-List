@@ -58,8 +58,9 @@ CANONICAL_MAP: list[tuple[str, str]] = [
     (r"^University of Illinois at Urbana-Champaign$", "UIUC"),
 
     # UNC
-    (r"^University of North Carolina at Chapel Hill$", "UNC Chapel Hill"),
-    (r"^UNC-Chapel Hill$", "UNC Chapel Hill"),
+    (r"^University of North Carolina at Chapel Hill$", "UNC"),
+    (r"^UNC-Chapel Hill$", "UNC"),
+    (r"^UNC Chapel Hill$", "UNC"),
 
     # UMass / UMD
     (r"^University of Massachusetts Amherst$", "UMass Amherst"),
