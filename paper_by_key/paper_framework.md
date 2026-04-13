@@ -32,7 +32,7 @@
     - 🏛️ Institutions: ServiceNow
     - 📅 Date: March 31, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
+    - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [enterprise automation], [terminal agents], [empirical study]
     - 📖 TLDR: This paper shows that a coding agent equipped only with a terminal and filesystem can match or outperform GUI-driven and MCP tool-augmented agents for enterprise automation tasks across ServiceNow, GitLab, and ERPNext, arguing that simple programmatic API interfaces combined with strong foundation models suffice.
 
