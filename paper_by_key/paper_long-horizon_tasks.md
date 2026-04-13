@@ -56,7 +56,7 @@
 
 - [Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation](https://arxiv.org/abs/2511.22235)
     - Zehao Deng, Tianjie Ju, Zheng Wu, Zhuosheng Zhang, Gongshen Liu
-    - 🏛️ Institutions: Soochow University, Shanghai Jiao Tong University
+    - 🏛️ Institutions: Soochow University, SJTU
     - 📅 Date: November 27, 2025
     - 📑 Publisher: CVPR 2026
     - 💻 Env: [General GUI]

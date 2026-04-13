@@ -47,7 +47,7 @@
 
 - [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://arxiv.org/abs/2504.19838)
     - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Liang Liu, Yaxuan Guo, Han Xiao, Weifeng Lin, Yuxiang Chai, Yue Han, Shuai Ren, Hao Wang, Xiaoyu Liang, WenHao Wang, Tianze Wu, Zhengxi Lu, Siheng Chen, LiLinghao, Guanjing Xiong, Yong Liu, Hongsheng Li
-    - 🏛️ Institutions: ZJU, vivo AI Lab, CUHK MMLab, Shanghai Jiao Tong University
+    - 🏛️ Institutions: ZJU, vivo AI Lab, CUHK MMLab, SJTU
     - 📅 Date: April 28, 2025
     - 📑 Publisher: TMLR 2025
     - 💻 Env: [Mobile]

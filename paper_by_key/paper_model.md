@@ -74,7 +74,7 @@
 
 - [Efficient Agent Training for Computer Use](https://arxiv.org/abs/2505.13909)
     - Yanheng He, Jiahe Jin, Pengfei Liu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, SII, Generative AI Research Lab (GAIR)
+    - 🏛️ Institutions: SJTU, SII, Generative AI Research Lab (GAIR)
     - 📅 Date: May 20, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
@@ -182,7 +182,7 @@
 
 - [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218)
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
-    - 🏛️ Institutions: Shanghai AI Laboratory, Shanghai Jiao Tong University, HKU, MIT
+    - 🏛️ Institutions: Shanghai AI Laboratory, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Desktop], [Mobile], [Web]
