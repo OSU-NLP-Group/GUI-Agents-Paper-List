@@ -2,7 +2,7 @@
 
 - [AI Planning Framework for LLM-Based Web Agents](https://arxiv.org/abs/2603.12710)
     - Orit Shahnovsky, Rotem Dror
-    - 🏛️ Institutions: Faculty of Computer and Information Science, University of Haifa
+    - 🏛️ Institutions: University of Haifa
     - 📅 Date: March 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -56,7 +56,7 @@
 
 - [WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment](https://arxiv.org/abs/2512.12692)
     - Mahir Labib Dihan, Tanzima Hashem, Mohammed Eunus Ali, Md Rizwan Parvez
-    - 🏛️ Institutions: Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology (BUET), Faculty of Information Technology, Monash University, Qatar Computing Research Institute (QCRI)
+    - 🏛️ Institutions: Bangladesh University of Engineering and Technology (BUET), Monash University, Qatar Computing Research Institute (QCRI)
     - 📅 Date: December 14, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]

@@ -20,7 +20,7 @@
 
 - [Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning](https://arxiv.org/abs/2601.03641)
     - Zheng Wu, Xingyu Lou, Xinbei Ma, Yansi Li, Weiwen Liu, Weinan Zhang, Jun Wang, Zhuosheng Zhang
-    - 🏛️ Institutions: School of Computer Science, SJTU, OPPO Research Institute
+    - 🏛️ Institutions: SJTU, OPPO Research Institute
     - 📅 Date: January 07, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -38,7 +38,7 @@
 
 - [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
     - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu
-    - 🏛️ Institutions: School of Software and Microelectronics, PKU, Microsoft Research Asia
+    - 🏛️ Institutions: PKU, Microsoft Research Asia
     - 📅 Date: May 28, 2025
     - 📑 Publisher: ICML 2025 Workshop on Computer Use Agents
     - 💻 Env: [Desktop]

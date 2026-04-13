@@ -47,7 +47,7 @@
 
 - [ProgRM: Build Better GUI Agents with Progress Rewards](https://arxiv.org/abs/2505.18121)
     - Danyang Zhang, Situo Zhang, Ziyue Yang, Zichen Zhu, Zihan Zhao, Ruisheng Cao, Lu Chen, Kai Yu
-    - 🏛️ Institutions: X-LANCE Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, SJTU AI Institute, SJTU, Jiangsu Key Lab of Language Computing, Suzhou Laboratory
+    - 🏛️ Institutions: SJTU AI Institute, SJTU, Jiangsu Key Lab of Language Computing, Suzhou Laboratory
     - 📅 Date: May 23, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -65,7 +65,7 @@
 
 - [A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation](https://arxiv.org/abs/2501.01149)
     - Yuxiang Chai, Shunye Tang, Han Xiao, Weifeng Lin, Hanhao Li, Jiayu Zhang, Liang Liu, Pengxiang Zhao, Guangyi Liu, Guozhi Wang, Shuai Ren, Rongduo Han, Haining Zhang, Siyuan Huang, Hongsheng Li
-    - 🏛️ Institutions: MMLab @ CUHK, EE department @ CUHK, vivo AI Lab, SJTU
+    - 🏛️ Institutions: CUHK, vivo AI Lab, SJTU
     - 📅 Date: January 02, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

@@ -20,7 +20,7 @@
 
 - [CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation](https://aclanthology.org/2025.naacl-demo.17/)
     - Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig
-    - 🏛️ Institutions: School of Computer Science, CMU
+    - 🏛️ Institutions: CMU
     - 📅 Date: April 30, 2025
     - 📑 Publisher: NAACL 2025 (System Demonstrations)
     - 💻 Env: [Web]
@@ -92,7 +92,7 @@
 
 - [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://openreview.net/forum?id=egVSgtJJAx)
     - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
-    - 🏛️ Institutions: CMU, CUHK, School of Computer Science, PKU, MBZUAI, Allen Institute for AI
+    - 🏛️ Institutions: CMU, CUHK, PKU, MBZUAI, Allen Institute for AI
     - 📅 Date: April 09, 2024
     - 📑 Publisher: COLM 2024
     - 💻 Env: [Web]

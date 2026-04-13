@@ -119,7 +119,7 @@
 
 - [GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents](https://arxiv.org/abs/2505.12842)
     - Zheng Wu, Pengzhou Cheng, Zongru Wu, Lingzhong Dong, Zhuosheng Zhang
-    - 🏛️ Institutions: School of Electronic Information and Electrical Engineering, SJTU
+    - 🏛️ Institutions: SJTU
     - 📅 Date: May 19, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
