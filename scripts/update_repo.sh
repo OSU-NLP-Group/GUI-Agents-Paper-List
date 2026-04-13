@@ -31,6 +31,10 @@ mkdir -p "$MPL_CACHE_DIR" "$FONTCONFIG_CACHE_DIR"
 export XDG_CACHE_HOME="$CACHE_ROOT"
 export MPLCONFIGDIR="$MPL_CACHE_DIR"
 
+echo "Normalizing institutions and keywords..."
+"$PYTHON_BIN" scripts/normalize_institutions.py --write
+"$PYTHON_BIN" scripts/lint_keys.py --write
+
 echo "Updating generated repo artifacts..."
 "$PYTHON_BIN" update_template_or_data/utils/scripts/sort_by_date.py
 "$PYTHON_BIN" scripts/assemble_readme.py --repo-root "$REPO_ROOT"
