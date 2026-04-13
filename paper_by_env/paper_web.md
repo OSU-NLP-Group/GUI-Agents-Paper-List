@@ -196,15 +196,6 @@
     - 🔑 Key: [memory augmentation], [trajectory summarization], [insight retrieval], [training-free], [long-horizon tasks], [M^2]
     - 📖 TLDR: M^2 is a training-free memory augmentation method for long-horizon web agents that combines dynamic trajectory summarization with offline insight retrieval. It improves success rates on WebVoyager and OnlineMind2Web while substantially reducing token usage.
 
-- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
-    - Serin Kim, Sangam Lee, Dongha Lee
-    - 🏛️ Institutions: Yonsei University
-    - 📅 Date: February 19, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
-    - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
-
 - [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
     - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
     - 🏛️ Institutions: OSU, University of British Columbia, Microsoft Research
@@ -213,6 +204,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
     - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
+
+- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
+    - Serin Kim, Sangam Lee, Dongha Lee
+    - 🏛️ Institutions: Yonsei University
+    - 📅 Date: February 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
+    - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
 
 - [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
     - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
@@ -349,15 +349,6 @@
     - 🔑 Key: [mixture of grounding experts], [experience-imitation planning], [adaptive memory], [online-Mind2Web], [Avenir-Web], [multimodal LLM]
     - 📖 TLDR: Avenir-Web combines mixture-of-grounding experts, experience-imitation planning, task-tracking checklists, and adaptive memory for live web tasks. It reaches strong open-source performance on Online-Mind2Web and narrows the gap to proprietary systems.
 
-- [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
-    - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
-    - 🏛️ Institutions: Columbia, UC San Diego, UIUC
-    - 📅 Date: January 29, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [evaluation pipeline], [visual attribute factors], [VAF], [visual grounding], [robustness]
-    - 📖 TLDR: This paper introduces VAF, a controlled evaluation pipeline for measuring how benign UI visual attributes affect web-agent choices while preserving page semantics. Across 48 variants, 5 real websites, and 4 agents, it shows that contrast, size, position, and card clarity strongly influence agent behavior, while several text-style factors matter much less.
-
 - [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
     - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
     - 🏛️ Institutions: LMU Munich, TUM, Munich Center for Machine Learning (MCML)
@@ -366,6 +357,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
     - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
+
+- [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
+    - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
+    - 🏛️ Institutions: Columbia, UC San Diego, UIUC
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [evaluation pipeline], [visual attribute factors], [VAF], [visual grounding], [robustness]
+    - 📖 TLDR: This paper introduces VAF, a controlled evaluation pipeline for measuring how benign UI visual attributes affect web-agent choices while preserving page semantics. Across 48 variants, 5 real websites, and 4 agents, it shows that contrast, size, position, and card clarity strongly influence agent behavior, while several text-style factors matter much less.
 
 - [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
     - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
@@ -583,15 +583,6 @@
     - 🔑 Key: [benchmark], [safety], [dark patterns], [TrickyArena], [LiteAgent]
     - 📖 TLDR: This paper studies how deceptive interface designs affect web agents, introducing LiteAgent for controlled execution and TrickyArena as a dark-pattern test environment. Across six agent frameworks and three underlying models, it finds that agents are frequently steered by dark patterns and that both visual and HTML-level manipulations can change susceptibility.
 
-- [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction](https://arxiv.org/abs/2510.15863)
-    - Simon Yu, Gang Li, Weiyan Shi, Peng Qi
-    - 🏛️ Institutions: Northeastern University, Uniphore
-    - 📅 Date: October 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [skill learning], [compositional skills], [transfer generalization], [polymorphism], [PolySkill], [continual learning]
-    - 📖 TLDR: PolySkill targets the tendency of web-agent skills to overfit one site by separating each skill's abstract goal from its concrete site-specific implementation. This polymorphic abstraction improves skill reuse, cross-site transfer, and continual learning behavior on Mind2Web-style settings.
-
 - [WebServ: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale](https://arxiv.org/abs/2510.16252)
     - Yuxuan Lu, Jing Huang, Hui Liu, Jiri Gesi, Yan Han, Shihan Fu, Tianqi Zheng, Dakuo Wang
     - 🏛️ Institutions: Northeastern University, Amazon
@@ -600,6 +591,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [reinforcement learning], [training environment], [browser-server architecture], [scalability], [WebServ]
     - 📖 TLDR: WebServ is a full-stack environment for large-scale RL training of web agents that combines a compact browser-side interface with efficient isolated server-side state management. It is designed to make parallel rollouts practical, and the paper reports faster launches, lower storage cost, and strong WebArena performance.
+
+- [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction](https://arxiv.org/abs/2510.15863)
+    - Simon Yu, Gang Li, Weiyan Shi, Peng Qi
+    - 🏛️ Institutions: Northeastern University, Uniphore
+    - 📅 Date: October 17, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [skill learning], [compositional skills], [transfer generalization], [polymorphism], [PolySkill], [continual learning]
+    - 📖 TLDR: PolySkill targets the tendency of web-agent skills to overfit one site by separating each skill's abstract goal from its concrete site-specific implementation. This polymorphic abstraction improves skill reuse, cross-site transfer, and continual learning behavior on Mind2Web-style settings.
 
 - [In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers](https://arxiv.org/abs/2510.13543)
     - Avihay Cohen
@@ -619,15 +619,6 @@
     - 🔑 Key: [benchmark], [security], [web vulnerabilities], [CTF], [penetration testing], [HackWorld]
     - 📖 TLDR: HackWorld uses a CTF-style setup over 36 vulnerable web applications spanning 11 frameworks and 7 languages to test whether computer-use agents can discover and exploit realistic web flaws through GUI interaction. Current agents achieve exploitation rates below 12% and often fail at multi-step attack planning and security-tool use.
 
-- [SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents](https://arxiv.org/abs/2510.11035)
-    - Longjie Guo, Chenjie Yuan, Mingyuan Zhong, Robert Wolfe, Ruican Zhong, Yue Xu, Bingbing Wen, Hua Shen, Lucy Lu Wang, Alexis Hiniker
-    - 🏛️ Institutions: University of Washington, Rutgers University, CMU, New York University Shanghai
-    - 📅 Date: October 13, 2025
-    - 📑 Publisher: IUI 2026
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dark patterns], [human-agent comparison], [code injections], [SusBench]
-    - 📖 TLDR: SusBench injects nine dark pattern types into 55 real consumer websites and evaluates five computer-use agents alongside 29 human participants across 313 tasks. It finds both agents and humans especially susceptible to preselection, trick wording, and hidden information, while other overt dark patterns are easier to resist.
-
 - [WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent](https://arxiv.org/abs/2510.11221)
     - Tao Li, Jinlong Hu, Yang Wang, Junfeng Liu, Xuejun Liu
     - 🏛️ Institutions: Nanjing University of Aeronautics and Astronautics, Hong Kong Baptist University, Beihang University, Pengcheng Laboratory
@@ -636,6 +627,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [query routing], [variational information bottleneck], [cost efficiency], [WebVoyager], [WebRouter]
     - 📖 TLDR: WebRouter trains a query-specific router for web agents with a cost-aware Variational Information Bottleneck objective that compresses verbose agent prompts before model selection. On five real-world WebVoyager websites, it reduces operational cost by 87.8% versus a GPT-4o baseline with only a 3.8% accuracy drop.
+
+- [SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents](https://arxiv.org/abs/2510.11035)
+    - Longjie Guo, Chenjie Yuan, Mingyuan Zhong, Robert Wolfe, Ruican Zhong, Yue Xu, Bingbing Wen, Hua Shen, Lucy Lu Wang, Alexis Hiniker
+    - 🏛️ Institutions: University of Washington, Rutgers University, CMU, New York University Shanghai
+    - 📅 Date: October 13, 2025
+    - 📑 Publisher: IUI 2026
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dark patterns], [human-agent comparison], [code injections], [SusBench]
+    - 📖 TLDR: SusBench injects nine dark pattern types into 55 real consumer websites and evaluates five computer-use agents alongside 29 human participants across 313 tasks. It finds both agents and humans especially susceptible to preselection, trick wording, and hidden information, while other overt dark patterns are easier to resist.
 
 - [BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions](https://arxiv.org/abs/2510.10666)
     - Tao Yu, Zhengbo Zhang, Zhiheng Lyu, Junhao Gong, Hongzhu Yi, Xinming Wang, Yuxuan Zhou, Jiabing Yang, Ping Nie, Yan Huang, Wenhu Chen

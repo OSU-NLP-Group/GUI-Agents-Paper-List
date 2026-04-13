@@ -226,21 +226,23 @@ def process_markdown():
     paper_entries = "\n".join(df_to_markdown_list(display_df))
 
     section_lines = []
-    section_lines.append(
-        "> Adjacent but non-canonical papers that are heavily reused in GUI research "
-        "can be curated separately in [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md)."
-    )
-    if is_truncated:
-        section_lines.append(">")
-        section_lines.append(
-            f"> **Full list**: [ALL_PAPERS.md](ALL_PAPERS.md) — "
-            f"This README shows the {max_readme_papers} most recent papers only."
-        )
-    section_lines.append("")
     if is_truncated:
         section_lines.append("## Recent Papers (from most recent to oldest)")
     else:
         section_lines.append("## All Papers (from most recent to oldest)")
+    section_lines.append("")
+    note_lines = []
+    note_lines.append(
+        "> For adjacent, non-GUI-specific papers frequently referenced in GUI agent research, "
+        "see [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md)."
+    )
+    if is_truncated:
+        note_lines.append(">")
+        note_lines.append(
+            f"> This README shows the {max_readme_papers} most recent papers. "
+            f"See [ALL_PAPERS.md](ALL_PAPERS.md) for the full list."
+        )
+    section_lines.append("\n".join(note_lines))
     section_lines.append("")
     section_lines.append(paper_entries)
 

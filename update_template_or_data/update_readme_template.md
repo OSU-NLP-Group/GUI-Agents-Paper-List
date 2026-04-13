@@ -1,11 +1,6 @@
 # Awesome GUI Agent Paper List
 
-This repo covers **{{insert_paper_count_here}}** direct GUI-agent papers, such as:
-- Datasets
-- Benchmarks
-- Models
-- Agent frameworks
-- GUI grounding, planning, memory, safety, and reinforcement learning
+A curated list of **{{insert_paper_count_here}}** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
 
