@@ -1,17 +1,13 @@
 # Awesome GUI Agent Paper List
 
-This repo covers direct GUI-agent papers, such as:
+This repo covers **{{insert_paper_count_here}}** direct GUI-agent papers, such as:
 - Datasets
 - Benchmarks
 - Models
 - Agent frameworks
 - GUI grounding, planning, memory, safety, and reinforcement learning
 
-Adjacent but non-canonical papers that are heavily reused in GUI research can be curated separately in [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md).
-
-![keyword_wordcloud_long.png](update_template_or_data/statistics/keyword_wordcloud_long.png)
-
-> **Full list**: [ALL_PAPERS.md](ALL_PAPERS.md) — This README shows the most recent papers only.
+![Keyword frequency word cloud](update_template_or_data/statistics/keyword_wordcloud_long.png)
 
 ## Papers Grouped by Environments
 {{insert_env_groups_here}}
@@ -22,13 +18,7 @@ Adjacent but non-canonical papers that are heavily reused in GUI research can be
 ## Papers Grouped by Authors
 {{insert_author_groups_here}}
 
-## Recent Papers (from most recent to oldest)
-<details open>
-<summary>Papers</summary>
-
-{{insert_recent_papers_here}}
-
-</details>
+{{insert_paper_list_section_here}}
 
 ## Contributing
 

@@ -9,6 +9,24 @@
     - 🔑 Key: [continual learning], [reinforcement learning], [environment adaptation], [CUAJudge], [ACuRL], [curriculum learning]
     - 📖 TLDR: ACuRL studies continual adaptation for computer-use agents in changing environments without human demonstrations. It combines autonomous curriculum generation with CUAJudge-based evaluation to improve both within-environment and cross-environment adaptation while limiting forgetting.
 
+- [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
+    - Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
+    - 🏛️ Institutions: OSU, LawZero, Mila, UdeM, UC Berkeley
+    - 📅 Date: February 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [safety], [unintended behaviors], [AutoElicit], [benchmark], [red teaming]
+    - 📖 TLDR: AutoElicit is an agentic framework that iteratively perturbs benign instructions using CUA execution feedback to surface unintended harmful behaviors while keeping inputs realistic. It elicits severe harms from frontier CUAs like Claude 4.5 and Operator in up to 72.5% of OS-domain seeds, and evaluates cross-model transferability of verified perturbations.
+
+- [When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents](https://arxiv.org/abs/2602.08995)
+    - Yuting Ning, Jaylen Jones, Zhehao Zhang, Chentao Ye, Weitong Ruan, Junyi Li, Rahul Gupta, Huan Sun
+    - 🏛️ Institutions: OSU, Amazon AGI
+    - 📅 Date: February 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [safety], [guardrail], [misaligned actions], [benchmark], [dataset], [MisActBench], [DeAction]
+    - 📖 TLDR: This paper introduces MisActBench, a benchmark of 2,264 human-annotated action-level alignment labels covering malicious instruction following, harmful unintended behavior, and task-irrelevant actions. It proposes DeAction, a two-stage guardrail that detects misaligned actions before execution and iteratively corrects them, improving F1 by 15%+ over baselines and reducing attack success rate by over 90%.
+
 - [Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging](https://arxiv.org/abs/2601.06031)
     - Zeyi Liao, Yadong Lu, Boyu Gou, Huan Sun, Ahmed Awadallah
     - 🏛️ Institutions: The Ohio State University, Microsoft Research, Redmond

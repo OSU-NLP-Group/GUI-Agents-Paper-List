@@ -42,19 +42,20 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
 
             template = textwrap.dedent(
                 """\
-                Before
+                Covers **{{insert_paper_count_here}}** papers.
                 {{insert_env_groups_here}}
                 {{insert_keyword_groups_here}}
                 {{insert_author_groups_here}}
-                {{insert_recent_papers_here}}
+                {{insert_paper_list_section_here}}
                 After
                 """
             )
             (update_dir / "update_readme_template.md").write_text(template)
+            (update_dir / "paper_count.md").write_text("42")
             (update_dir / "env_grouping.md").write_text("ENV")
             (update_dir / "keyword_grouping.md").write_text("KEY")
             (update_dir / "author_grouping.md").write_text("AUTHOR")
-            (update_dir / "recent_paper_list.md").write_text("PAPER")
+            (update_dir / "paper_list_section.md").write_text("PAPER_SECTION")
 
             module = load_module("assemble_readme_under_test", ASSEMBLE_SCRIPT)
             module.assemble_readme(repo)
@@ -63,7 +64,7 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
             self.assertIn("ENV", readme)
             self.assertIn("KEY", readme)
             self.assertIn("AUTHOR", readme)
-            self.assertIn("PAPER", readme)
+            self.assertIn("PAPER_SECTION", readme)
             self.assertNotIn("{{insert_env_groups_here}}", readme)
             self.assertEqual((update_dir / "update_readme_template.md").read_text(), template)
 

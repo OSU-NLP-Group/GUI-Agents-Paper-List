@@ -220,11 +220,37 @@ def process_markdown():
     final_output = "\n".join(all_papers_markdown)
     write_file("ALL_PAPERS.md", final_output)
 
-    # Generate a truncated recent papers list for README (to stay under GitHub's 512KB render limit)
-    max_recent_papers = 500
-    recent_df = papers_df.head(max_recent_papers)
-    recent_markdown = "\n".join(df_to_markdown_list(recent_df))
-    write_file("update_template_or_data/recent_paper_list.md", recent_markdown)
+    # Write paper count fragment for README template
+    total_papers = len(papers_df)
+    write_file("update_template_or_data/paper_count.md", str(total_papers))
+
+    # Generate the paper list section for README.
+    # Truncate to 500 papers if needed (GitHub truncates README rendering at ~512KB).
+    max_readme_papers = 500
+    is_truncated = total_papers > max_readme_papers
+    display_df = papers_df.head(max_readme_papers) if is_truncated else papers_df
+    paper_entries = "\n".join(df_to_markdown_list(display_df))
+
+    section_lines = []
+    section_lines.append(
+        "> Adjacent but non-canonical papers that are heavily reused in GUI research "
+        "can be curated separately in [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md)."
+    )
+    if is_truncated:
+        section_lines.append(">")
+        section_lines.append(
+            f"> **Full list**: [ALL_PAPERS.md](ALL_PAPERS.md) — "
+            f"This README shows the {max_readme_papers} most recent papers only."
+        )
+    section_lines.append("")
+    if is_truncated:
+        section_lines.append("## Recent Papers (from most recent to oldest)")
+    else:
+        section_lines.append("## All Papers (from most recent to oldest)")
+    section_lines.append("")
+    section_lines.append(paper_entries)
+
+    write_file("update_template_or_data/paper_list_section.md", "\n".join(section_lines))
 
     # Clear and recreate output directories
     for folder in ["update_template_or_data/statistics/", "paper_by_key",

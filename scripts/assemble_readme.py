@@ -5,10 +5,11 @@ from pathlib import Path
 
 
 PLACEHOLDERS = {
+    "{{insert_paper_count_here}}": "update_template_or_data/paper_count.md",
     "{{insert_env_groups_here}}": "update_template_or_data/env_grouping.md",
     "{{insert_keyword_groups_here}}": "update_template_or_data/keyword_grouping.md",
     "{{insert_author_groups_here}}": "update_template_or_data/author_grouping.md",
-    "{{insert_recent_papers_here}}": "update_template_or_data/recent_paper_list.md",
+    "{{insert_paper_list_section_here}}": "update_template_or_data/paper_list_section.md",
 }
 
 
