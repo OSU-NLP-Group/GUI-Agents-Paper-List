@@ -269,27 +269,13 @@ def process_markdown():
 
     # --- Generate author grouping markdown ---
     try:
-        # Generate author grouping as collapsible details with 2-column table
-        author_rows = []
-        for i in range(0, len(top_authors_sorted), 2):
-            cells = []
-            for author, count in top_authors_sorted[i:i+2]:
-                a_file = f"paper_{author.replace(' ', '_')}.md"
-                cells.append(
-                    f'<td><a href="paper_by_author/{a_file}">{author}</a></td>'
-                    f'<td align="right">{count}</td>'
-                )
-            while len(cells) < 4:
-                cells.extend(["<td></td>", "<td></td>"])
-            author_rows.append("<tr>" + "".join(cells) + "</tr>")
-        author_html = (
-            '<details>\n<summary>Click to expand</summary>\n<br>\n\n'
-            '<table>\n<tr><th>Author</th><th align="right">Papers</th>'
-            '<th>Author</th><th align="right">Papers</th></tr>\n'
-            + "\n".join(author_rows)
-            + "\n</table>\n\n</details>"
-        )
-        write_file("update_template_or_data/author_grouping.md", author_html)
+        # Generate author grouping as dot-separated links (same style as keywords)
+        author_parts = []
+        for author, count in top_authors_sorted:
+            author_filename = f"paper_{author.replace(' ', '_')}.md"
+            author_parts.append(f"[{author} ({count})](paper_by_author/{author_filename})")
+        write_file("update_template_or_data/author_grouping.md",
+                    " · ".join(author_parts))
     except Exception as e:
         logging.error(f"Error generating sorted author grouping Markdown: {str(e)}", exc_info=True)
 
