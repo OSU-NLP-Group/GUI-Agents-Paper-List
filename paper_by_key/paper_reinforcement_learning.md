@@ -1,5 +1,14 @@
 # Papers with Keyword: reinforcement learning
 
+- [WebArena-Infinity: Generating Browser Environments with Verifiable Tasks at Scale](https://webarena.dev/webarena-infinity/)
+    - Shuyan Zhou
+    - 🏛️ Institutions: Duke University
+    - 📅 Date: March 2026
+    - 📑 Publisher: Blog Post
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [environment synthesis], [verifiable rewards], [reinforcement learning], [WebArena], [WebArena-Infinity]
+    - 📖 TLDR: WebArena-Infinity automates the generation of high-authenticity web environments with verifiable tasks from static artifacts like user manuals, using a multi-agent pipeline of coding and browser-use agents. It produces 10 environments with 1,260 tasks and 2,070 trajectories. Agents achieve notably lower success rates than on manually built benchmarks, suggesting the generated tasks capture meaningful complexity.
+
 - [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533)
     - Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao, Yicheng Liu, Zhicong Lu, Yangbin Yu, Mingyu Yang, Junyou Li, Deheng Ye, Jie Jiang
     - 🏛️ Institutions: Tencent Hunyuan

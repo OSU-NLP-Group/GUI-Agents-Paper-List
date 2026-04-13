@@ -349,15 +349,6 @@
     - 🔑 Key: [benchmark], [agent-user interaction], [MCP], [cross-app workflows], [long-horizon tasks], [MobileWorld]
     - 📖 TLDR: MobileWorld is a harder mobile-agent benchmark built to move beyond AndroidWorld by adding longer cross-app workflows, explicit user interaction, and MCP-augmented tool use. Across 201 tasks over 20 apps, it shows that current agents remain weak at clarification, memory, tool integration, and long-horizon coordination.
 
-- [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
-    - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
-    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
-    - 📅 Date: December 18, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [GUI grounding], [bilingual benchmark], [hierarchical evaluation], [VenusBench-GD]
-    - 📖 TLDR: VenusBench-GD is a bilingual GUI grounding benchmark spanning mobile, desktop, and web platforms, and organizes evaluation into basic and advanced grounding tasks. The paper uses this hierarchy to show that general-purpose multimodal models have mostly caught up on basic grounding, while advanced tasks still expose substantial reasoning and robustness gaps.
-
 - [OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models](https://arxiv.org/abs/2512.16295)
     - Zhenyu Wu, Jingjing Xie, Zehao Li, Bowen Yang, Qiushi Sun, Zhaoyang Liu, Zhoumianze Liu, Yu Qiao, Xiangyu Yue, Zun Wang, Zichen Ding
     - 🏛️ Institutions: SJTU, Shanghai AI Laboratory, CUHK MMLab, HKU, HKUST
@@ -366,6 +357,15 @@
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [critic model], [benchmark], [step-level evaluation], [CP-GRPO], [OS-Critic Bench], [OS-Oracle]
     - 📖 TLDR: OS-Oracle targets step-level action criticism for computer-use agents with a 310k-sample cross-platform training pipeline, a two-stage SFT plus CP-GRPO recipe, and the OS-Critic Bench benchmark. The resulting 7B critic reaches state of the art among open-source VLM critics and improves downstream GUI agents when used as a pre-critic.
+
+- [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
+    - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
+    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
+    - 📅 Date: December 18, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [benchmark], [GUI grounding], [bilingual benchmark], [hierarchical evaluation], [VenusBench-GD]
+    - 📖 TLDR: VenusBench-GD is a bilingual GUI grounding benchmark spanning mobile, desktop, and web platforms, and organizes evaluation into basic and advanced grounding tasks. The paper uses this hierarchy to show that general-purpose multimodal models have mostly caught up on basic grounding, while advanced tasks still expose substantial reasoning and robustness gaps.
 
 - [Step-GUI Technical Report](https://arxiv.org/abs/2512.15431)
     - Haolong Yan, Jia Wang, Xin Huang, Yeqing Shen, Ziyang Meng, Zhimin Fan, Kaijun Tan, Jin Gao, Lieyu Shi, Mi Yang, Shiliang Yang, Zhirui Wang, Brian Li, Kang An, Chenyang Li, Lei Lei, Mengmeng Duan, Danxun Liang, Guodong Liu, Hang Cheng, Hao Wu, Jie Dong, Junhao Huang, Mei Chen, Renjie Yu, Shunshan Li, Xu Zhou, Yiting Dai, Yineng Deng, Yingdan Liang, Zelin Chen, Wen Sun, Chengxu Yan, Chunqin Xu, Dong Li, Fengqiong Xiao, Guanghao Fan, Guopeng Li, Guozhen Peng, Hongbing Li, Hang Li, Hongming Chen, Jingjing Xie, Jianyong Li, Jingyang Zhang, Jiaju Ren, Jiayu Yuan, Jianpeng Yin, Kai Cao, Liang Zhao, Liguo Tan, Liying Shi, Mengqiang Ren, Min Xu, Manjiao Liu, Mao Luo, Mingxin Wan, Na Wang, Nan Wu, Ning Wang, Peiyao Ma, Qingzhou Zhang, Qiao Wang, Qinlin Zeng, Qiong Gao, Qiongyao Li, Shangwu Zhong, Shuli Gao, Shaofan Liu, Shisi Gao, Shuang Luo, Xingbin Liu, Xiaojia Liu, Xiaojie Hou, Xin Liu, Xuanti Feng, Xuedan Cai, Xuan Wen, Xianwei Zhu, Xin Liang, Xin Zhou, Yifan Sui, Yingxiu Zhao, Yukang Shi, Yunfang Xu, Yuqing Zeng, Yixun Zhang, Zejia Weng, Zhonghao Yan, Zhiguo Huang, Zhuoyu Wang, Zihan Yan, Zheng Ge, Jing Li, Yibo Zhu, Binxing Jiao, Xiangyu Zhang, Daxin Jiang

@@ -1,5 +1,14 @@
 # Shuyan Zhou's Papers
 
+- [WebArena-Infinity: Generating Browser Environments with Verifiable Tasks at Scale](https://webarena.dev/webarena-infinity/)
+    - Shuyan Zhou
+    - 🏛️ Institutions: Duke University
+    - 📅 Date: March 2026
+    - 📑 Publisher: Blog Post
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [environment synthesis], [verifiable rewards], [reinforcement learning], [WebArena], [WebArena-Infinity]
+    - 📖 TLDR: WebArena-Infinity automates the generation of high-authenticity web environments with verifiable tasks from static artifacts like user manuals, using a multi-agent pipeline of coding and browser-use agents. It produces 10 environments with 1,260 tasks and 2,070 trajectories. Agents achieve notably lower success rates than on manually built benchmarks, suggesting the generated tasks capture meaningful complexity.
+
 - [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
     - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
     - 🏛️ Institutions: CMU, Duke University

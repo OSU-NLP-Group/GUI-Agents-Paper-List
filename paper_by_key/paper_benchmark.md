@@ -81,6 +81,15 @@
     - 🔑 Key: [benchmark], [dataset], [personalization], [PSPA-Bench]
     - 📖 TLDR: PSPA-Bench evaluates personalization in smartphone GUI agents with 12,855+ personalized instructions across 10 daily-use scenarios and 22 mobile apps. Even the strongest of 11 benchmarked agents performs poorly under personalized settings, highlighting gaps in reasoning, perception, and long-term memory.
 
+- [WebArena-Infinity: Generating Browser Environments with Verifiable Tasks at Scale](https://webarena.dev/webarena-infinity/)
+    - Shuyan Zhou
+    - 🏛️ Institutions: Duke University
+    - 📅 Date: March 2026
+    - 📑 Publisher: Blog Post
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [environment synthesis], [verifiable rewards], [reinforcement learning], [WebArena], [WebArena-Infinity]
+    - 📖 TLDR: WebArena-Infinity automates the generation of high-authenticity web environments with verifiable tasks from static artifacts like user manuals, using a multi-agent pipeline of coding and browser-use agents. It produces 10 environments with 1,260 tasks and 2,070 trajectories. Agents achieve notably lower success rates than on manually built benchmarks, suggesting the generated tasks capture meaningful complexity.
+
 - [Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification](https://arxiv.org/abs/2603.26648)
     - Zehai He, Wenyi Hong, Zhen Yang, Ziyang Pan, Mingdao Liu, Xiaotao Gu, Jie Tang
     - 🏛️ Institutions: Tsinghua, Zhipu
@@ -90,15 +99,6 @@
     - 🔑 Key: [benchmark], [website development], [agent verification], [UI-to-code], [full-stack development], [Vision2Web]
     - 📖 TLDR: Vision2Web is a hierarchical benchmark for visual website development that spans static UI-to-code, interactive frontend reproduction, and full-stack website construction. It evaluates coding agents with workflow-based verification using a GUI agent verifier and a VLM judge, and shows that current models still struggle badly on full-stack tasks.
 
-- [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226)
-    - Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
-    - 🏛️ Institutions: Northeastern University, Kuaishou Technology
-    - 📅 Date: March 26, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [automated testing], [defect detection], [checklist generation], [latent logical defects], [WebTestBench], [WebTester]
-    - 📖 TLDR: WebTestBench studies end-to-end automated web testing rather than ordinary task completion, decomposing the problem into checklist generation and defect detection across diverse web applications. Its WebTester baseline shows that current systems still struggle with test completeness, latent logical defects, and long-horizon reliability.
-
 - [GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](https://arxiv.org/abs/2603.25864)
     - Saelyne Yang, Jaesang Yu, Yi-Hao Peng, Kevin Qinghong Lin, Jae Won Cho, Yale Song, Juho Kim
     - 🏛️ Institutions: KAIST, CMU, Oxford, Konkuk University, Google, SkillBench
@@ -107,6 +107,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [collaborative assistance], [behavior state detection], [intent prediction], [help prediction], [think-aloud data], [GUIDE]
     - 📖 TLDR: GUIDE studies collaborative GUI assistance rather than pure task automation, using 67.5 hours of think-aloud recordings from 120 novice users across 10 software applications. It benchmarks behavior-state detection, intent prediction, and help prediction, and shows that current multimodal models still struggle to infer what users are doing and when intervention would be useful.
+
+- [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226)
+    - Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
+    - 🏛️ Institutions: Northeastern University, Kuaishou Technology
+    - 📅 Date: March 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [automated testing], [defect detection], [checklist generation], [latent logical defects], [WebTestBench], [WebTester]
+    - 📖 TLDR: WebTestBench studies end-to-end automated web testing rather than ordinary task completion, decomposing the problem into checklist generation and defect detection across diverse web applications. Its WebTester baseline shows that current systems still struggle with test completeness, latent logical defects, and long-horizon reliability.
 
 - [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529)
     - Shoubin Yu, Lei Shu, Antoine Yang, Yao Fu, Srinivas Sunkara, Maria Wang, Jindong Chen, Mohit Bansal, Boqing Gong
@@ -252,15 +261,6 @@
     - 🔑 Key: [benchmark], [context discovery], [investigation], [hallucination], [PATHWAYS]
     - 📖 TLDR: PATHWAYS is a benchmark of 250 multi-step web decision tasks designed to test whether agents can uncover and correctly use hidden contextual information instead of stopping at surface cues. The results show that agents often fail to retrieve decisive hidden evidence, hallucinate investigative reasoning, and struggle to incorporate discovered context into final decisions.
 
-- [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
-    - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
-    - 🏛️ Institutions: ZJU, Nankai University, CUHK, SJTU, vivo AI Lab
-    - 📅 Date: February 03, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [MemGUI-Eval], [MemGUI-Bench]
-    - 📖 TLDR: MemGUI-Bench is a memory-focused benchmark for mobile GUI agents covering dynamic tasks that require cross-temporal and cross-spatial retention. Paired with MemGUI-Eval, it reveals large hidden memory deficits in current agents that standard benchmarks miss.
-
 - [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
     - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
     - 🏛️ Institutions: ShanghaiTech University, Shanghai AI Laboratory, Rice University
@@ -269,6 +269,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LPS-Bench]
     - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
+
+- [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
+    - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
+    - 🏛️ Institutions: ZJU, Nankai University, CUHK, SJTU, vivo AI Lab
+    - 📅 Date: February 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [MemGUI-Eval], [MemGUI-Bench]
+    - 📖 TLDR: MemGUI-Bench is a memory-focused benchmark for mobile GUI agents covering dynamic tasks that require cross-temporal and cross-spatial retention. Paired with MemGUI-Eval, it reveals large hidden memory deficits in current agents that standard benchmarks miss.
 
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
     - Jing Wu, Daphne Barretto, Yiye Chen, Nicholas Gydé, Yanan Jian, Yuhang He, Vibhav Vineet
@@ -423,15 +432,6 @@
     - 🔑 Key: [benchmark], [agent-user interaction], [MCP], [cross-app workflows], [long-horizon tasks], [MobileWorld]
     - 📖 TLDR: MobileWorld is a harder mobile-agent benchmark built to move beyond AndroidWorld by adding longer cross-app workflows, explicit user interaction, and MCP-augmented tool use. Across 201 tasks over 20 apps, it shows that current agents remain weak at clarification, memory, tool integration, and long-horizon coordination.
 
-- [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
-    - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
-    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
-    - 📅 Date: December 18, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [GUI grounding], [bilingual benchmark], [hierarchical evaluation], [VenusBench-GD]
-    - 📖 TLDR: VenusBench-GD is a bilingual GUI grounding benchmark spanning mobile, desktop, and web platforms, and organizes evaluation into basic and advanced grounding tasks. The paper uses this hierarchy to show that general-purpose multimodal models have mostly caught up on basic grounding, while advanced tasks still expose substantial reasoning and robustness gaps.
-
 - [OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models](https://arxiv.org/abs/2512.16295)
     - Zhenyu Wu, Jingjing Xie, Zehao Li, Bowen Yang, Qiushi Sun, Zhaoyang Liu, Zhoumianze Liu, Yu Qiao, Xiangyu Yue, Zun Wang, Zichen Ding
     - 🏛️ Institutions: SJTU, Shanghai AI Laboratory, CUHK MMLab, HKU, HKUST
@@ -440,6 +440,15 @@
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [critic model], [benchmark], [step-level evaluation], [CP-GRPO], [OS-Critic Bench], [OS-Oracle]
     - 📖 TLDR: OS-Oracle targets step-level action criticism for computer-use agents with a 310k-sample cross-platform training pipeline, a two-stage SFT plus CP-GRPO recipe, and the OS-Critic Bench benchmark. The resulting 7B critic reaches state of the art among open-source VLM critics and improves downstream GUI agents when used as a pre-critic.
+
+- [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
+    - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
+    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
+    - 📅 Date: December 18, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [benchmark], [GUI grounding], [bilingual benchmark], [hierarchical evaluation], [VenusBench-GD]
+    - 📖 TLDR: VenusBench-GD is a bilingual GUI grounding benchmark spanning mobile, desktop, and web platforms, and organizes evaluation into basic and advanced grounding tasks. The paper uses this hierarchy to show that general-purpose multimodal models have mostly caught up on basic grounding, while advanced tasks still expose substantial reasoning and robustness gaps.
 
 - [MobileWorldBench: Towards Semantic World Modeling For Mobile Agents](https://arxiv.org/abs/2512.14014)
     - Shufan Li, Konstantinos Kallidromitis, Akash Gokul, Yusuke Kato, Kazuki Kozuka, Aditya Grover

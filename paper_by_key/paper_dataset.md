@@ -27,6 +27,15 @@
     - 🔑 Key: [benchmark], [dataset], [personalization], [PSPA-Bench]
     - 📖 TLDR: PSPA-Bench evaluates personalization in smartphone GUI agents with 12,855+ personalized instructions across 10 daily-use scenarios and 22 mobile apps. Even the strongest of 11 benchmarked agents performs poorly under personalized settings, highlighting gaps in reasoning, perception, and long-term memory.
 
+- [WebArena-Infinity: Generating Browser Environments with Verifiable Tasks at Scale](https://webarena.dev/webarena-infinity/)
+    - Shuyan Zhou
+    - 🏛️ Institutions: Duke University
+    - 📅 Date: March 2026
+    - 📑 Publisher: Blog Post
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [environment synthesis], [verifiable rewards], [reinforcement learning], [WebArena], [WebArena-Infinity]
+    - 📖 TLDR: WebArena-Infinity automates the generation of high-authenticity web environments with verifiable tasks from static artifacts like user manuals, using a multi-agent pipeline of coding and browser-use agents. It produces 10 environments with 1,260 tasks and 2,070 trajectories. Agents achieve notably lower success rates than on manually built benchmarks, suggesting the generated tasks capture meaningful complexity.
+
 - [CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents](https://arxiv.org/abs/2603.24440)
     - Xiangru Jian, Shravan Nayak, Kevin Qinghong Lin, Aarash Feizi, Kaixin Li, Patrice Bechard, Spandana Gella, Sai Rajeswar
     - 🏛️ Institutions: ServiceNow, University of Waterloo, Mila, Université de Montréal, McGill University, Oxford, NUS

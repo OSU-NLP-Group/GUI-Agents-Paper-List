@@ -18,6 +18,15 @@
     - 🔑 Key: [benchmark], [interruptibility], [InterruptBench], [WebArena]
     - 📖 TLDR: The first systematic study of interruptible agents in long-horizon web navigation. It formalizes three interruption types (addition, revision, retraction) and introduces InterruptBench derived from WebArena-Lite, showing that handling mid-task user interruptions remains challenging for current LLMs.
 
+- [WebArena-Infinity: Generating Browser Environments with Verifiable Tasks at Scale](https://webarena.dev/webarena-infinity/)
+    - Shuyan Zhou
+    - 🏛️ Institutions: Duke University
+    - 📅 Date: March 2026
+    - 📑 Publisher: Blog Post
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [dataset], [environment synthesis], [verifiable rewards], [reinforcement learning], [WebArena], [WebArena-Infinity]
+    - 📖 TLDR: WebArena-Infinity automates the generation of high-authenticity web environments with verifiable tasks from static artifacts like user manuals, using a multi-agent pipeline of coding and browser-use agents. It produces 10 environments with 1,260 tasks and 2,070 trajectories. Agents achieve notably lower success rates than on manually built benchmarks, suggesting the generated tasks capture meaningful complexity.
+
 - [AI Planning Framework for LLM-Based Web Agents](https://arxiv.org/abs/2603.12710)
     - Orit Shahnovsky, Rotem Dror
     - 🏛️ Institutions: University of Haifa
