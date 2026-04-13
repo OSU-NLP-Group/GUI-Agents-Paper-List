@@ -182,16 +182,15 @@ def normalize_institution(name: str) -> str:
     for pattern, replacement in _COMPILED:
         if pattern.match(stripped):
             return replacement
-    # Fallback: strip unnecessary "The " prefix from academic institutions and retry.
-    # e.g. "The University of Tokyo" → "University of Tokyo"
-    if stripped.startswith("The ") and re.match(
-        r"The (University|Chinese University|Institute|College|School|Academy) ", stripped
-    ):
+    # Fallback: if name starts with "The ", try matching without it.
+    # Only applies when the stripped form hits an existing rule.
+    # e.g. "The Carnegie Mellon University" → "CMU" (rule matches)
+    # but  "The University of Tokyo" → unchanged (no rule for it)
+    if stripped.startswith("The "):
         without_the = stripped[4:]
         for pattern, replacement in _COMPILED:
             if pattern.match(without_the):
                 return replacement
-        return without_the
     return stripped
 
 
