@@ -391,6 +391,67 @@ def process_markdown():
     except Exception as e:
         logging.error(f"Error generating keyword word cloud: {str(e)}", exc_info=True)
 
+    # --- Generate quarterly publication trend chart ---
+    try:
+        import numpy as np
+        try:
+            import plotly.graph_objects as go
+            _has_plotly = True
+        except ImportError:
+            _has_plotly = False
+
+        if _has_plotly:
+            trend_df = papers_df[papers_df['Parsed Date'] >= '2023-01-01'].copy()
+            trend_df['quarter'] = trend_df['Parsed Date'].dt.to_period('Q')
+            quarterly = trend_df.groupby('quarter').size().reset_index(name='count')
+            quarterly['mid_date'] = quarterly['quarter'].apply(
+                lambda q: q.start_time + pd.Timedelta(days=45))
+            quarterly['label'] = quarterly['quarter'].apply(
+                lambda q: f"Q{q.quarter} {q.year}")
+            counts = quarterly['count'].values
+
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=quarterly['mid_date'], y=counts,
+                text=counts, textposition='outside',
+                textfont=dict(size=13, color='#333'),
+                width=60 * 86400000,
+                marker=dict(
+                    color=counts,
+                    colorscale=[[0, '#93C5FD'], [0.5, '#3B82F6'], [1, '#1D4ED8']],
+                    line=dict(width=0), cornerradius=4,
+                ),
+                hovertemplate='<b>%{customdata}</b><br>%{y} papers<extra></extra>',
+                customdata=quarterly['label'],
+            ))
+            fig.update_layout(
+                title=dict(
+                    text='GUI Agent Research: Quarterly Publication Trend',
+                    font=dict(size=22, color='#1a1a1a'), x=0.5,
+                ),
+                yaxis=dict(
+                    title=dict(text='Papers per quarter', font=dict(size=14, color='#666')),
+                    gridcolor='rgba(0,0,0,0.06)', zeroline=False,
+                    tickfont=dict(size=11, color='#888'),
+                    range=[0, max(counts) * 1.22],
+                ),
+                xaxis=dict(
+                    tickfont=dict(size=11, color='#666'), showgrid=False,
+                    tickvals=quarterly['mid_date'], ticktext=quarterly['label'],
+                    tickangle=0,
+                ),
+                plot_bgcolor='white', paper_bgcolor='white',
+                showlegend=False,
+                margin=dict(l=60, r=30, t=70, b=50),
+                width=1100, height=480, bargap=0.3,
+            )
+            fig.write_image(
+                'update_template_or_data/statistics/quarterly_trend.png', scale=2)
+        else:
+            warn("plotly not installed, skipping quarterly trend chart")
+    except Exception as e:
+        logging.error(f"Error generating quarterly trend chart: {str(e)}", exc_info=True)
+
     # --- Final summary ---
     if _warnings:
         print(f"\n{len(_warnings)} warning(s) during processing:", file=sys.stderr)

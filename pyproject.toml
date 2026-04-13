@@ -1,0 +1,12 @@
+[project]
+name = "paper-repo"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "kaleido>=1.2.0",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "wordcloud>=1.9.6",
+]

@@ -7,6 +7,8 @@ This repo covers **{{insert_paper_count_here}}** direct GUI-agent papers, such a
 - Agent frameworks
 - GUI grounding, planning, memory, safety, and reinforcement learning
 
+![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
+
 ![Keyword frequency word cloud](update_template_or_data/statistics/keyword_wordcloud_long.png)
 
 ## Papers Grouped by Environments
