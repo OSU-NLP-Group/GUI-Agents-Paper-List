@@ -20,7 +20,7 @@
 
 - [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
     - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
-    - 🏛️ Institutions: ShanghaiTech University, Shanghai Artificial Intelligence Laboratory, Rice University
+    - 🏛️ Institutions: ShanghaiTech University, Shanghai AI Laboratory, Rice University
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -29,7 +29,7 @@
 
 - [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
     - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin, Shengyu Zhang
-    - 🏛️ Institutions: Tsinghua University, The Ohio State University, The Chinese University of Hong Kong, Shenzhen
+    - 🏛️ Institutions: Tsinghua University, OSU, CUHK-Shenzhen
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -83,7 +83,7 @@
 
 - [Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming](https://arxiv.org/abs/2510.18314)
     - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
-    - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Tencent, Shanghai Jiao Tong University, Alibaba Group
+    - 🏛️ Institutions: HKUST(GZ), Tencent, Shanghai Jiao Tong University, Alibaba Group
     - 📅 Date: October 21, 2025
     - 📑 Publisher: ICME 2026
     - 💻 Env: [Web]
@@ -92,7 +92,7 @@
 
 - [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
     - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
-    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Institute of Technology
+    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Tech
     - 📅 Date: October 20, 2025
     - 📑 Publisher: IEEE S&P 2026
     - 💻 Env: [Web]
@@ -101,7 +101,7 @@
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: June 04, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop]
@@ -110,7 +110,7 @@
 
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
-    - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
+    - 🏛️ Institutions: Shanghai AI Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
     - 📅 Date: May 31, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -128,7 +128,7 @@
 
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
-    - 🏛️ Institutions: Carnegie Mellon University, The Chinese University of Hong Kong, KAUST, Johns Hopkins University, Nanyang Technological University, The Hong Kong University of Science and Technology
+    - 🏛️ Institutions: CMU, CUHK, KAUST, Johns Hopkins University, NTU, HKUST
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -146,7 +146,7 @@
 
 - [OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](https://aclanthology.org/2025.acl-long.369/)
     - Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shenzhi Wang, Xinchen Xu, Shuofei Qiao, Zhaokai Wang, Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, Fei Wu
-    - 🏛️ Institutions: Zhejiang University, Fudan University, OPPO AI Center, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, The Chinese University of Hong Kong, Tsinghua University, Shanghai Jiao Tong University, 01.AI, The Hong Kong Polytechnic University
+    - 🏛️ Institutions: Zhejiang University, Fudan University, OPPO AI Center, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, CUHK, Tsinghua University, Shanghai Jiao Tong University, 01.AI, PolyU
     - 📅 Date: December 20, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [General GUI]
@@ -155,7 +155,7 @@
 
 - [Attacking Vision-Language Computer Agents via Pop-ups](https://aclanthology.org/2025.acl-long.411/)
     - Yanzhe Zhang, Tao Yu, Diyi Yang
-    - 🏛️ Institutions: Georgia Tech, The University of Hong Kong, Stanford University
+    - 🏛️ Institutions: Georgia Tech, HKU, Stanford University
     - 📅 Date: November 04, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Desktop], [Web]
@@ -173,7 +173,7 @@
 
 - [AdvAgent: Controllable Blackbox Red-teaming on Web Agents](https://proceedings.mlr.press/v267/xu25m.html)
     - Chejian Xu, Mintong Kang, Jiawei Zhang, Zeyi Liao, Lingbo Mo, Mengqi Yuan, Huan Sun, Bo Li
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign, University of Chicago, The Ohio State University
+    - 🏛️ Institutions: UIUC, University of Chicago, OSU
     - 📅 Date: October 22, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Web]
@@ -182,7 +182,7 @@
 
 - [Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents](https://arxiv.org/abs/2410.13886)
     - Priyanshu Kumar, Elaine Lau, Saranya Vijayakumar, Tu Trinh, Scale Red Team, Elaine Chang, Vaughn Robinson, Sean Hendryx, Shuyan Zhou, Matt Fredrikson, Summer Yue, Zifan Wang
-    - 🏛️ Institutions: Carnegie Mellon University, Scale AI, GraySwan AI
+    - 🏛️ Institutions: CMU, Scale AI, GraySwan AI
     - 📅 Date: October 11, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -200,7 +200,7 @@
 
 - [EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://openreview.net/forum?id=xMOLUzo2Lk)
     - Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, Amazon, University of Illinois Urbana-Champaign, University of Chicago, Johns Hopkins University, University of Virginia
+    - 🏛️ Institutions: OSU, Amazon, UIUC, University of Chicago, Johns Hopkins University, University of Virginia
     - 📅 Date: September 17, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
@@ -209,7 +209,7 @@
 
 - [Dissecting Adversarial Robustness of Multimodal LM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/460a1d8eac34125dad453b28d6d64446-Abstract-Conference.html)
     - Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: June 18, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Web]

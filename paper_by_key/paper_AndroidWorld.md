@@ -11,7 +11,7 @@
 
 - [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](https://arxiv.org/abs/2603.12138)
     - Rui Shao, Ruize Gao, Bin Xie, Yixing Li, Kaiwen Zhou, Shuai Wang, Weili Guan, Gongwei Chen
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, National University of Singapore, CNRS@CREATE, Shenzhen Loop Area Institute, Huawei Noah's Ark Lab
+    - 🏛️ Institutions: HIT-Shenzhen, NUS, CNRS@CREATE, Shenzhen Loop Area Institute, Huawei Noah's Ark Lab
     - 📅 Date: March 12, 2026
     - 📑 Publisher: CVPR 2026
     - 💻 Env: [Web], [Mobile]

@@ -2,7 +2,7 @@
 
 - [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://openreview.net/forum?id=AUaW6DS9si)
     - Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Amazon AGI
+    - 🏛️ Institutions: OSU, Amazon AGI
     - 📅 Date: September 18, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets & Benchmarks Track (Poster)
     - 💻 Env: [Web]
@@ -11,7 +11,7 @@
 
 - [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123)
     - Xinyuan Wang, Bowen Wang, Dunjie Lu, Junlin Yang, Tianbao Xie, Junli Wang, Jiaqi Deng, Xiaole Guo, Yiheng Xu, Chen Henry Wu, Zhennan Shen, Zhuokai Li, Ryan Li, Xiaochuan Li, Junda Chen, Boyuan Zheng, Peihang Li, Fangyu Lei, Ruisheng Cao, Yeqiao Fu, Dongchan Shin, Martin Shin, Jiarui Hu, Yuyan Wang, Jixuan Chen, Yuxiao Ye, Danyang Zhang, Dikang Du, Hao Hu, Huarong Chen, Zaida Zhou, Haotian Yao, Ziwei Chen, Qizheng Gu, Yipu Wang, Heng Wang, Diyi Yang, Victor Zhong, Flood Sung, Y.Charles, Zhilin Yang, Tao Yu
-    - 🏛️ Institutions: XLANG Lab, University of Hong Kong, Moonshot AI, Stanford University, University of Waterloo, Carnegie Mellon University
+    - 🏛️ Institutions: XLANG Lab, HKU, Moonshot AI, Stanford University, University of Waterloo, CMU
     - 📅 Date: August 12, 2025
     - 📑 Publisher: NeurIPS 2025 (Spotlight)
     - 💻 Env: [Desktop], [Web]
@@ -20,7 +20,7 @@
 
 - [SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills](https://arxiv.org/abs/2504.07079)
     - Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Carnegie Mellon University, University of Virginia, Purdue University, Cisco Research
+    - 🏛️ Institutions: OSU, CMU, University of Virginia, Purdue University, Cisco Research
     - 📅 Date: April 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -29,7 +29,7 @@
 
 - [WebOlympus: An Open Platform for Web Agents on Live Websites](https://aclanthology.org/2024.emnlp-demo.20/)
     - Boyuan Zheng, Boyu Gou, Scott Salisbury, Zheng Du, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: November 12, 2024
     - 📑 Publisher: EMNLP 2024 System Demonstrations
     - 💻 Env: [Web]
@@ -38,7 +38,7 @@
 
 - [Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents](https://openreview.net/forum?id=c6l7yA0HSq)
     - Yu Gu, Kai Zhang, Yuting Ning, Boyuan Zheng, Boyu Gou, Tianci Xue, Cheng Chang, Sanjari Srivastava, Yanan Xie, Peng Qi, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Uniphore, Orby AI
+    - 🏛️ Institutions: OSU, Uniphore, Orby AI
     - 📅 Date: November 10, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
@@ -47,7 +47,7 @@
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Orby AI
+    - 🏛️ Institutions: OSU, Orby AI
     - 📅 Date: October 07, 2024
     - 📑 Publisher: ICLR 2025 (Oral)
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -56,7 +56,7 @@
 
 - [Dual-View Visual Contextualization for Web Navigation](https://doi.org/10.1109/CVPR52733.2024.01369)
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: February 06, 2024
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Web]
@@ -65,7 +65,7 @@
 
 - [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://proceedings.mlr.press/v235/zheng24e.html)
     - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: January 03, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -74,7 +74,7 @@
 
 - [Mind2Web: Towards a Generalist Agent for the Web](https://proceedings.neurips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html)
     - Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: June 09, 2023
     - 📑 Publisher: NeurIPS 2023 Datasets and Benchmarks Track
     - 💻 Env: [Web]

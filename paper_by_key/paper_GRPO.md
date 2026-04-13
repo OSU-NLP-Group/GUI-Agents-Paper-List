@@ -11,7 +11,7 @@
 
 - [Generalization in Online Reinforcement Learning for Mobile Agents](https://arxiv.org/abs/2603.07432)
     - Li Gu, Zihuan Jiang, Zhixiang Chi, Huan Liu, Ziqiang Wang, Yuanhao Yu, Glen Berseth, Yang Wang
-    - 🏛️ Institutions: Mila - Quebec AI Institute, Concordia University, Universite de Montreal, CIFAR AI Chair, University of Toronto, McMaster University
+    - 🏛️ Institutions: Mila, Concordia University, Université de Montréal, CIFAR AI Chair, University of Toronto, McMaster University
     - 📅 Date: March 08, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -47,7 +47,7 @@
 
 - [ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282)
     - Fanbin Lu, Zhisheng Zhong, Shu Liu, Chi-Wing Fu, Jiaya Jia
-    - 🏛️ Institutions: The Chinese University of Hong Kong, SmartMore, Hong Kong University of Science and Technology
+    - 🏛️ Institutions: CUHK, SmartMore, HKUST
     - 📅 Date: May 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -56,7 +56,7 @@
 
 - [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/abs/2504.10458)
     - Run Luo, Lu Wang, Wanwei He, Longze Chen, Jiaming Li, Min Yang, Xiaobo Xia
-    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, National University of Singapore
+    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, NUS
     - 📅 Date: April 14, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -65,7 +65,7 @@
 
 - [UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/abs/2503.21620)
     - Zhengxi Lu, Yuxiang Chai, Yaxuan Guo, Xi Yin, Liang Liu, Hao Wang, Han Xiao, Shuai Ren, Guanjing Xiong, Hongsheng Li
-    - 🏛️ Institutions: vivo AI Lab, MMLab, The Chinese University of Hong Kong
+    - 🏛️ Institutions: vivo AI Lab, MMLab, CUHK
     - 📅 Date: March 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

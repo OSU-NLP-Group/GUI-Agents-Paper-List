@@ -20,7 +20,7 @@
 
 - [Zoom to Essence: Trainless GUI Grounding by Inferring upon Interface Elements](https://arxiv.org/abs/2603.14448)
     - Ziwei Liu, Tao Feng, Borui Kang, Yanbing Yang, Jun Luo
-    - 🏛️ Institutions: Department of Computer Science and Technology, Sichuan University, Department of Computer Science and Technology, Tsinghua University, School of Computer Science, Nanjing University, College of Computing and Data Science, Nanyang Technological University
+    - 🏛️ Institutions: Department of Computer Science and Technology, Sichuan University, Department of Computer Science and Technology, Tsinghua University, School of Computer Science, Nanjing University, College of Computing and Data Science, NTU
     - 📅 Date: March 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -38,7 +38,7 @@
 
 - [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
     - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
-    - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
+    - 🏛️ Institutions: NUS, Shanghai Jiao Tong University
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -65,7 +65,7 @@
 
 - [SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization](https://arxiv.org/abs/2601.22491)
     - Jinyang Wu, Changpeng Yang, Yuhao Shen, Fangzhi Xu, Bolin Ni, Chonghua Liao, Yuchen Liu, Hongzhen Wang, Shuai Nie, Shuai Zhang, Haoran Luo, Jiaming Xu
-    - 🏛️ Institutions: Tsinghua University, Xiaomi Corporation, Zhejiang University, Nanyang Technological University, Institute of Automation, Chinese Academy of Sciences
+    - 🏛️ Institutions: Tsinghua University, Xiaomi, Zhejiang University, NTU, Institute of Automation, Chinese Academy of Sciences
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -83,7 +83,7 @@
 
 - [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
     - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
-    - 🏛️ Institutions: Venus Team, AntGroup, iMean AI
+    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
     - 📅 Date: December 18, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -101,7 +101,7 @@
 
 - [Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding](https://arxiv.org/abs/2512.05941)
     - Zhiyuan Jiang, Shenghao Xie, Wenyi Li, Wenqiang Zu, Peihang Li, Jiahao Qiu, Siqi Pei, Lei Ma, Tiejun Huang, Mengdi Wang, Shilong Liu
-    - 🏛️ Institutions: Xi’an Jiaotong University, Princeton University, Peking University, University of Chinese Academy of Sciences, The University of Hong Kong, Michigan State University
+    - 🏛️ Institutions: Xi’an Jiaotong University, Princeton University, Peking University, University of Chinese Academy of Sciences, HKU, Michigan State University
     - 📅 Date: December 05, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -119,7 +119,7 @@
 
 - [Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging](https://arxiv.org/abs/2601.06031)
     - Zeyi Liao, Yadong Lu, Boyu Gou, Huan Sun, Ahmed Awadallah
-    - 🏛️ Institutions: The Ohio State University, Microsoft Research, Redmond
+    - 🏛️ Institutions: OSU, Microsoft Research, Redmond
     - 📅 Date: November 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -155,7 +155,7 @@
 
 - [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
     - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
-    - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
+    - 🏛️ Institutions: HKU, Salesforce AI Research
     - 📅 Date: May 19, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
     - 💻 Env: [General GUI]
@@ -164,7 +164,7 @@
 
 - [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/abs/2505.12370)
     - Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
-    - 🏛️ Institutions: VCIP, School of Computer Science, NKU, vivo Mobile Communication Co., Ltd, National University of Singapore, Fudan University, East China University of Science and Technology
+    - 🏛️ Institutions: VCIP, School of Computer Science, NKU, vivo Mobile Communication Co., Ltd, NUS, Fudan University, East China University of Science and Technology
     - 📅 Date: May 18, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [General GUI]
@@ -200,7 +200,7 @@
 
 - [ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use](https://arxiv.org/abs/2504.07981)
     - Kaixin Li, Ziyang Meng, Hongzhan Lin, Ziyang Luo, Yuchen Tian, Jing Ma, Zhiyong Huang, Tat-Seng Chua
-    - 🏛️ Institutions: National University of Singapore, East China Normal University, Hong Kong Baptist University
+    - 🏛️ Institutions: NUS, East China Normal University, Hong Kong Baptist University
     - 📅 Date: April 04, 2025
     - 📑 Publisher: ACM Multimedia 2025
     - 💻 Env: [Desktop]
@@ -227,7 +227,7 @@
 
 - [Aria-UI: Visual Grounding for GUI Instructions](https://aclanthology.org/2025.findings-acl.1152/)
     - Yuhao Yang, Yue Wang, Dongxu Li, Ziyang Luo, Bei Chen, Chao Huang, Junnan Li
-    - 🏛️ Institutions: The University of Hong Kong, Salesforce AI Research, Alibaba Group, Australian National University, Independent Researcher
+    - 🏛️ Institutions: HKU, Salesforce AI Research, Alibaba Group, Australian National University, Independent Researcher
     - 📅 Date: December 20, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [General GUI]
@@ -254,7 +254,7 @@
 
 - [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218)
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
-    - 🏛️ Institutions: Shanghai AI Laboratory, Shanghai Jiaotong University, The University of Hong Kong, MIT
+    - 🏛️ Institutions: Shanghai AI Laboratory, Shanghai Jiao Tong University, HKU, MIT
     - 📅 Date: October 30, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -290,7 +290,7 @@
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Orby AI
+    - 🏛️ Institutions: OSU, Orby AI
     - 📅 Date: October 07, 2024
     - 📑 Publisher: ICLR 2025 (Oral)
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -308,7 +308,7 @@
 
 - [Grounded GUI Understanding for Vision-Based Spatial Intelligent Agent: Exemplified by Extended Reality Apps](https://arxiv.org/abs/2409.10811)
     - Shuqing Li, Binchang Li, Yepang Liu, Cuiyun Gao, Jianping Zhang, Shing-Chi Cheung, Michael R. Lyu
-    - 🏛️ Institutions: The Chinese University of Hong Kong, Harbin Institute of Technology, Southern University of Science and Technology, The Hong Kong University of Science and Technology
+    - 🏛️ Institutions: CUHK, Harbin Institute of Technology, Southern University of Science and Technology, HKUST
     - 📅 Date: September 17, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]

@@ -2,7 +2,7 @@
 
 - [FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair](https://arxiv.org/abs/2603.17826)
     - Ruize Ma, Yilei Jiang, Shilin Zhang, Zheng Ma, Yi Feng, Vincent Ng, Zhi Wang, Xiangyu Yue, Chuanyi Li, Lewei Lu
-    - 🏛️ Institutions: Nanjing University, SenseTime, The Chinese University of Hong Kong, University of Texas at Dallas
+    - 🏛️ Institutions: Nanjing University, SenseTime, CUHK, University of Texas at Dallas
     - 📅 Date: March 18, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -11,7 +11,7 @@
 
 - [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/abs/2602.02548)
     - Xiaoce Wang, Guibin Zhang, Junzhe Li, Jinzhe Tu, Chun Li, Ming Li
-    - 🏛️ Institutions: Department of Computer Science, Tsinghua University, National University of Singapore, Peking University, MSU-BIT-SMBU Joint Research Center of Applied Mathematics, Shenzhen MSU-BIT University, Guangming Laboratory
+    - 🏛️ Institutions: Department of Computer Science, Tsinghua University, NUS, Peking University, MSU-BIT-SMBU Joint Research Center of Applied Mathematics, Shenzhen MSU-BIT University, Guangming Laboratory
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -20,7 +20,7 @@
 
 - [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
     - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
-    - 🏛️ Institutions: Columbia University, University of California San Diego, University of Illinois Urbana-Champaign
+    - 🏛️ Institutions: Columbia University, UC San Diego, UIUC
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -38,7 +38,7 @@
 
 - [Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining](https://arxiv.org/abs/2412.10342)
     - Zhiqi Ge, Juncheng Li, Xinglei Pang, Minghe Gao, Kaihang Pan, Wang Lin, Hao Fei, Wenqiao Zhang, Siliang Tang, Yueting Zhuang
-    - 🏛️ Institutions: Zhejiang University, National University of Singapore
+    - 🏛️ Institutions: Zhejiang University, NUS
     - 📅 Date: December 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -47,7 +47,7 @@
 
 - [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
     - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
-    - 🏛️ Institutions: Carnegie Mellon University, University of California, Santa Barbara, Google Research
+    - 🏛️ Institutions: CMU, UC Santa Barbara, Google Research
     - 📅 Date: June 16, 2024
     - 📑 Publisher: NAACL 2024 Industry Track
     - 💻 Env: [General GUI]
@@ -56,7 +56,7 @@
 
 - [Dual-View Visual Contextualization for Web Navigation](https://doi.org/10.1109/CVPR52733.2024.01369)
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: February 06, 2024
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Web]

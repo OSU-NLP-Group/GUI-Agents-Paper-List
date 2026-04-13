@@ -9,6 +9,15 @@
     - 🔑 Key: [benchmark], [website development], [agent verification], [UI-to-code], [full-stack development], [Vision2Web]
     - 📖 TLDR: Vision2Web is a hierarchical benchmark for visual website development that spans static UI-to-code, interactive frontend reproduction, and full-stack website construction. It evaluates coding agents with workflow-based verification using a GUI agent verifier and a VLM judge, and shows that current models still struggle badly on full-stack tasks.
 
+- [GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](https://arxiv.org/abs/2603.25864)
+    - Saelyne Yang, Jaesang Yu, Yi-Hao Peng, Kevin Qinghong Lin, Jae Won Cho, Yale Song, Juho Kim
+    - 🏛️ Institutions: KAIST, CMU, University of Oxford, Konkuk University, Google, SkillBench
+    - 📅 Date: March 26, 2026
+    - 📑 Publisher: CVPR 2026
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [collaborative assistance], [behavior state detection], [intent prediction], [help prediction], [think-aloud data], [GUIDE]
+    - 📖 TLDR: GUIDE studies collaborative GUI assistance rather than pure task automation, using 67.5 hours of think-aloud recordings from 120 novice users across 10 software applications. It benchmarks behavior-state detection, intent prediction, and help prediction, and shows that current multimodal models still struggle to infer what users are doing and when intervention would be useful.
+
 - [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226)
     - Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
     - 🏛️ Institutions: Northeastern University, Kuaishou Technology
@@ -17,15 +26,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [automated testing], [defect detection], [checklist generation], [latent logical defects], [WebTestBench], [WebTester]
     - 📖 TLDR: WebTestBench studies end-to-end automated web testing rather than ordinary task completion, decomposing the problem into checklist generation and defect detection across diverse web applications. Its WebTester baseline shows that current systems still struggle with test completeness, latent logical defects, and long-horizon reliability.
-
-- [GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](https://arxiv.org/abs/2603.25864)
-    - Saelyne Yang, Jaesang Yu, Yi-Hao Peng, Kevin Qinghong Lin, Jae Won Cho, Yale Song, Juho Kim
-    - 🏛️ Institutions: KAIST, Carnegie Mellon University, University of Oxford, Konkuk University, Google Inc., SkillBench
-    - 📅 Date: March 26, 2026
-    - 📑 Publisher: CVPR 2026
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [benchmark], [collaborative assistance], [behavior state detection], [intent prediction], [help prediction], [think-aloud data], [GUIDE]
-    - 📖 TLDR: GUIDE studies collaborative GUI assistance rather than pure task automation, using 67.5 hours of think-aloud recordings from 120 novice users across 10 software applications. It benchmarks behavior-state detection, intent prediction, and help prediction, and shows that current multimodal models still struggle to infer what users are doing and when intervention would be useful.
 
 - [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529)
     - Shoubin Yu, Lei Shu, Antoine Yang, Yao Fu, Srinivas Sunkara, Maria Wang, Jindong Chen, Mohit Bansal, Boqing Gong
@@ -38,7 +38,7 @@
 
 - [AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents](https://arxiv.org/abs/2603.18429)
     - Yibo Shi, Jungang Li, Linghao Zhang, Zihao Dongfang, Biao Wu, Sicheng Tao, Yibo Yan, Chenxi Qin, Weiting Liu, Zhixin Lin, Hanqian Li, Yu Huang, Song Dai, Yonghua Hei, Yue Ding, Xiang Li, Shikang Wang, Chengdong Xu, Jingqi Liu, Xueying Ma, Zhiwen Zheng, Xiaofei Zhang, Bincheng Wang, Nichen Yang, Jie Wu, Lihua Tian, Chen Li, Xuming Hu
-    - 🏛️ Institutions: Xi'an Jiaotong University, Hong Kong University of Science and Technology (Guangzhou), Hong Kong University of Science and Technology, City University of Hong Kong, University of Technology Sydney, Tianjin University, Fudan University, Shandong University, Chinese Academy of Sciences, Sun Yat-sen University, Northwestern Polytechnical University
+    - 🏛️ Institutions: Xi'an Jiaotong University, HKUST(GZ), HKUST, CityU, University of Technology Sydney, Tianjin University, Fudan University, Shandong University, Chinese Academy of Sciences, Sun Yat-sen University, Northwestern Polytechnical University
     - 📅 Date: March 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -56,21 +56,12 @@
 
 - [GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents](https://arxiv.org/abs/2603.15039)
     - Yang Li, Yuchen Liu, Haoyu Lu, Zhiqiang Xia, Hongzhen Wang, Kaiyang Han, Changpeng Yang, Jinyang Wu, Jiaming Xu, Runyu Shi, Ying Huang
-    - 🏛️ Institutions: HyperAI Team, Xiaomi Corporation
+    - 🏛️ Institutions: HyperAI Team, Xiaomi
     - 📅 Date: March 16, 2026
     - 📑 Publisher: CVPR 2026
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [chinese], [hierarchical evaluation], [physical-device evaluation], [GUI-CEval]
     - 📖 TLDR: GUI-CEval is the first comprehensive Chinese benchmark for mobile GUI agents, spanning 201 apps across four device types with a hierarchical two-level evaluation structure (atomic abilities and application-level tasks) along five dimensions (perception, planning, reflection, execution, evaluation), revealing that most MLLMs still struggle with reflective decision-making and post-action self-evaluation.
-
-- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
-    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign, Stevens Institute of Technology
-    - 📅 Date: March 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
-    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
 
 - [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
     - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
@@ -90,9 +81,18 @@
     - 🔑 Key: [semantic context], [dataset], [benchmark], [history summarization], [chinese mobile apps], [SecAgent]
     - 📖 TLDR: SecAgent is a 3B mobile GUI agent that summarizes history screenshots and actions into concise semantic context, reducing computation while preserving task-relevant information. It also introduces a human-verified Chinese mobile GUI dataset and benchmark, and reaches performance comparable to 7B-8B models through supervised and reinforcement fine-tuning.
 
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
+    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
+    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
+
 - [Generalization in Online Reinforcement Learning for Mobile Agents](https://arxiv.org/abs/2603.07432)
     - Li Gu, Zihuan Jiang, Zhixiang Chi, Huan Liu, Ziqiang Wang, Yuanhao Yu, Glen Berseth, Yang Wang
-    - 🏛️ Institutions: Mila - Quebec AI Institute, Concordia University, Universite de Montreal, CIFAR AI Chair, University of Toronto, McMaster University
+    - 🏛️ Institutions: Mila, Concordia University, Université de Montréal, CIFAR AI Chair, University of Toronto, McMaster University
     - 📅 Date: March 08, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -171,27 +171,27 @@
     - 🔑 Key: [benchmark], [context discovery], [investigation], [hallucination], [PATHWAYS]
     - 📖 TLDR: PATHWAYS is a benchmark of 250 multi-step web decision tasks designed to test whether agents can uncover and correctly use hidden contextual information instead of stopping at surface cues. The results show that agents often fail to retrieve decisive hidden evidence, hallucinate investigative reasoning, and struggle to incorporate discovered context into final decisions.
 
-- [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
-    - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
-    - 🏛️ Institutions: Zhejiang University, Nankai University, The Chinese University of Hong Kong, Shanghai Jiao Tong University, vivo AI Lab
-    - 📅 Date: February 03, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [MemGUI-Eval], [MemGUI-Bench]
-    - 📖 TLDR: MemGUI-Bench is a memory-focused benchmark for mobile GUI agents covering dynamic tasks that require cross-temporal and cross-spatial retention. Paired with MemGUI-Eval, it reveals large hidden memory deficits in current agents that standard benchmarks miss.
-
 - [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
     - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
-    - 🏛️ Institutions: ShanghaiTech University, Shanghai Artificial Intelligence Laboratory, Rice University
+    - 🏛️ Institutions: ShanghaiTech University, Shanghai AI Laboratory, Rice University
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
     - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
 
+- [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
+    - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
+    - 🏛️ Institutions: Zhejiang University, Nankai University, CUHK, Shanghai Jiao Tong University, vivo AI Lab
+    - 📅 Date: February 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [MemGUI-Eval], [MemGUI-Bench]
+    - 📖 TLDR: MemGUI-Bench is a memory-focused benchmark for mobile GUI agents covering dynamic tasks that require cross-temporal and cross-spatial retention. Paired with MemGUI-Eval, it reveals large hidden memory deficits in current agents that standard benchmarks miss.
+
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
     - Jing Wu, Daphne Barretto, Yiye Chen, Nicholas Gydé, Yanan Jian, Yuhang He, Vibhav Vineet
-    - 🏛️ Institutions: University of Oxford, Microsoft, Georgia Institute of Technology
+    - 🏛️ Institutions: University of Oxford, Microsoft, Georgia Tech
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -200,7 +200,7 @@
 
 - [MobileBench-OL: A Comprehensive Chinese Benchmark for Evaluating Mobile GUI Agents in Real-World Environment](https://arxiv.org/abs/2601.20335)
     - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Pengzhi Gao, Wei Liu, Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc, Peking University, Chinese University of Hong Kong
+    - 🏛️ Institutions: MiLM Plus, Xiaomi, Peking University, CUHK
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -218,7 +218,7 @@
 
 - [LongHorizonUI: A Unified Framework for Robust long-horizon Task Automation of GUI Agent](https://openreview.net/forum?id=BK7Mk5d4WE)
     - Bin Kang, Shaoguo Wen, Yifei Bi, Shunlong Wu, Xinbin Yuan, Rui Shao, Junle Wang, Zhuotao Tian
-    - 🏛️ Institutions: Chengdu Institute of Computer Applications, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tencent Turing Lab, Georgia Institute of Technology, Tsinghua University, Nankai University, Shenzhen Loop Area Institute
+    - 🏛️ Institutions: Chengdu Institute of Computer Applications, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tencent Turing Lab, Georgia Tech, Tsinghua University, Nankai University, Shenzhen Loop Area Institute
     - 📅 Date: January 26, 2026
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [General GUI]
@@ -227,7 +227,7 @@
 
 - [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://openreview.net/forum?id=IWDpCaSF9Q)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yunxin Liu, Yuanchun Li, Bin Wang, Bo An
-    - 🏛️ Institutions: Nanyang Technological University, University of Electronic Science and Technology of China, Gaoling School of Artificial Intelligence, Renmin University of China, MiLM Plus, Xiaomi Inc., Institute for AI Industry Research, Tsinghua University
+    - 🏛️ Institutions: NTU, University of Electronic Science and Technology of China, Gaoling School of Artificial Intelligence, Renmin University of China, MiLM Plus, Xiaomi, Institute for AI Industry Research, Tsinghua University
     - 📅 Date: January 26, 2026
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Mobile]
@@ -263,7 +263,7 @@
 
 - [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636)
     - Yibo Lyu, Gongwei Chen, Rui Shao, Weili Guan, Liqiang Nie
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen
+    - 🏛️ Institutions: HIT-Shenzhen
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -281,7 +281,7 @@
 
 - [GUITester: Enabling GUI Agents for Exploratory Defect Discovery](https://arxiv.org/abs/2601.04500)
     - Yifei Gao, Jiang Wu, Xiaoyi Chen, Yifan Yang, Zhe Cui, Tianyi Ma, Jiaming Zhang, Jitao Sang
-    - 🏛️ Institutions: Beijing Jiaotong University, Hithink Research, Nanyang Technological University
+    - 🏛️ Institutions: Beijing Jiaotong University, Hithink Research, NTU
     - 📅 Date: January 08, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -290,7 +290,7 @@
 
 - [WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks](https://arxiv.org/abs/2601.02439)
     - Hao Bai, Alexey Taymanov, Tong Zhang, Aviral Kumar, Spencer Whitehead
-    - 🏛️ Institutions: Microsoft, University of Illinois Urbana-Champaign, Carnegie Mellon University
+    - 🏛️ Institutions: Microsoft, UIUC, CMU
     - 📅 Date: January 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -326,7 +326,7 @@
 
 - [MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments](https://arxiv.org/abs/2512.19432)
     - Quyu Kong, Xu Zhang, Zhenyu Yang, Nolan Gao, Chen Liu, Panrong Tong, Chenglin Cai, Hanzhang Zhou, Jianan Zhang, Liangyu Chen, Zhidan Liu, Steven Hoi, Yue Wang
-    - 🏛️ Institutions: Tongyi Lab, Alibaba Group, The Hong Kong University of Science and Technology (Guangzhou), University of Florida
+    - 🏛️ Institutions: Tongyi Lab, Alibaba Group, HKUST(GZ), University of Florida
     - 📅 Date: December 22, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -335,7 +335,7 @@
 
 - [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
     - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
-    - 🏛️ Institutions: Venus Team, AntGroup, iMean AI
+    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
     - 📅 Date: December 18, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -344,7 +344,7 @@
 
 - [OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models](https://arxiv.org/abs/2512.16295)
     - Zhenyu Wu, Jingjing Xie, Zehao Li, Bowen Yang, Qiushi Sun, Zhaoyang Liu, Zhoumianze Liu, Yu Qiao, Xiangyu Yue, Zun Wang, Zichen Ding
-    - 🏛️ Institutions: Shanghai Jiaotong University, Shanghai AI Laboratory, CUHK MMLab, The University of Hong Kong, The Hong Kong University of Science and Technology
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Shanghai AI Laboratory, CUHK MMLab, HKU, HKUST
     - 📅 Date: December 18, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -371,7 +371,7 @@
 
 - [Using GUI Agent for Electronic Design Automation](https://arxiv.org/abs/2512.11611)
     - Chunyi Li, Longfei Li, Zicheng Zhang, Xiaohong Liu, Min Tang, Weisi Lin, Guangtao Zhai
-    - 🏛️ Institutions: College of Computing and Data Science, Nanyang Technological University, Center of AI Evaluation, Shanghai AI Laboratory, School of Integrated Circuit Design, Shanghai Jiao Tong University, John Hopcroft Center, Shanghai Jiao Tong University
+    - 🏛️ Institutions: College of Computing and Data Science, NTU, Center of AI Evaluation, Shanghai AI Laboratory, School of Integrated Circuit Design, Shanghai Jiao Tong University, John Hopcroft Center, Shanghai Jiao Tong University
     - 📅 Date: December 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -389,7 +389,7 @@
 
 - [MPR-GUI: Benchmarking and Enhancing Multilingual Perception and Reasoning in GUI Agents](https://arxiv.org/abs/2512.00756)
     - Ruihan Chen, Qiming Li, Xiaocheng Feng, Xiaoliang Yang, Weihong Zhong, Yuxuan Gu, Zekun Zhou, Bing Qin
-    - 🏛️ Institutions: Harbin Institute of Technology, Peng Cheng Laboratory
+    - 🏛️ Institutions: Harbin Institute of Technology, Pengcheng Laboratory
     - 📅 Date: November 30, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -398,7 +398,7 @@
 
 - [LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents](https://arxiv.org/abs/2512.04105)
     - Jinzhe Tan, Karim Benyekhlef
-    - 🏛️ Institutions: University of Montreal
+    - 🏛️ Institutions: Université de Montréal
     - 📅 Date: November 28, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -407,7 +407,7 @@
 
 - [Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging](https://arxiv.org/abs/2601.06031)
     - Zeyi Liao, Yadong Lu, Boyu Gou, Huan Sun, Ahmed Awadallah
-    - 🏛️ Institutions: The Ohio State University, Microsoft Research, Redmond
+    - 🏛️ Institutions: OSU, Microsoft Research, Redmond
     - 📅 Date: November 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -425,7 +425,7 @@
 
 - [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
     - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
-    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Institute of Technology
+    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Tech
     - 📅 Date: October 20, 2025
     - 📑 Publisher: IEEE S&P 2026
     - 💻 Env: [Web]
@@ -434,7 +434,7 @@
 
 - [HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities](https://arxiv.org/abs/2510.12200)
     - Xiaoxue Ren, Penghao Jiang, Kaixin Li, Zhiyong Huang, Xiaoning Du, Jiaojiao Jiang, Zhenchang Xing, Jiamou Sun, Terry Yue Zhuo
-    - 🏛️ Institutions: Zhejiang University, University of New South Wales, National University of Singapore, Monash University, CSIRO’s Data61, Australian National University
+    - 🏛️ Institutions: Zhejiang University, University of New South Wales, NUS, Monash University, CSIRO’s Data61, Australian National University
     - 📅 Date: October 14, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
@@ -443,7 +443,7 @@
 
 - [SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents](https://arxiv.org/abs/2510.11035)
     - Longjie Guo, Chenjie Yuan, Mingyuan Zhong, Robert Wolfe, Ruican Zhong, Yue Xu, Bingbing Wen, Hua Shen, Lucy Lu Wang, Alexis Hiniker
-    - 🏛️ Institutions: University of Washington, Rutgers University, Carnegie Mellon University, New York University Shanghai
+    - 🏛️ Institutions: University of Washington, Rutgers University, CMU, New York University Shanghai
     - 📅 Date: October 13, 2025
     - 📑 Publisher: IUI 2026
     - 💻 Env: [Web]
@@ -452,7 +452,7 @@
 
 - [SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents](https://arxiv.org/abs/2510.10073)
     - Zonghao Ying, Yangguang Shao, Jianle Gan, Gan Xu, Junjie Shen, Wenxin Zhang, Quanchen Zou, Junzheng Shi, Zhenfei Yin, Mingchuan Zhang, Aishan Liu, Xianglong Liu
-    - 🏛️ Institutions: SKLCCSE, Beihang University, Institute of Information Engineering, Chinese Academy of Sciences, China University of Petroleum (East China), Zhejiang University of Technology, University of Chinese Academy of Science, 360 AI Security Lab, The University of Sydney, Henan University of Science and Technology, Zhongguancun Laboratory, Institute of Dataspace
+    - 🏛️ Institutions: SKLCCSE, Beihang University, Institute of Information Engineering, Chinese Academy of Sciences, China University of Petroleum (East China), Zhejiang University of Technology, University of Chinese Academy of Sciences, 360 AI Security Lab, The University of Sydney, Henan University of Science and Technology, Zhongguancun Laboratory, Institute of Dataspace
     - 📅 Date: October 11, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -479,7 +479,7 @@
 
 - [Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](https://arxiv.org/abs/2508.01858)
     - Yuhan Guo, Cong Guo, Aiwen Sun, Hongliang He, Xinyu Yang, Yue Lu, Yingji Zhang, Xuntao Guo, Dong Zhang, Jianzhuang Liu, Jiang Duan, Yijia Xiao, Liangjian Wen, Hai-Ming Xu, Yong Dai
-    - 🏛️ Institutions: Southwestern University of Finance and Economics, Shanghai Jiao Tong University, Central South University, Hithink Research, Westlake University, Harbin Institute of Technology, University of Manchester, University of California, Los Angeles, University of Adelaide, Fudan University, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+    - 🏛️ Institutions: Southwestern University of Finance and Economics, Shanghai Jiao Tong University, Central South University, Hithink Research, Westlake University, Harbin Institute of Technology, University of Manchester, UCLA, University of Adelaide, Fudan University, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
     - 📅 Date: August 03, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
@@ -515,12 +515,21 @@
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: June 04, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [multilingual], [safety], [macOSWorld]
     - 📖 TLDR: macOSWorld is the first interactive benchmark for GUI agents on macOS, covering 202 multilingual tasks across 30 applications and a dedicated safety subset for deception attacks. The evaluation shows large performance gaps between proprietary and open-source agents, substantial multilingual degradation, and unresolved safety weaknesses on macOS-specific workflows.
+
+- [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
+    - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
+    - 🏛️ Institutions: NUS, Cyber Emerging Tech and R&D
+    - 📅 Date: June 03, 2025
+    - 📑 Publisher: ICLR 2026
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [visual prompt injection], [security], [attack], [browser-use agents], [VPI-Bench]
+    - 📖 TLDR: VPI-Bench studies visual prompt injection attacks on computer-use agents, where malicious instructions are embedded directly into rendered user interfaces rather than hidden in HTML. Across 306 cases on five platforms, it shows that both full-system-access CUAs and browser-use agents remain highly vulnerable, and that prompt-only defenses offer limited protection.
 
 - [DeepShop: A Benchmark for Deep Research Shopping Agents](https://arxiv.org/abs/2506.02839)
     - Yougang Lyu, Xiaoyu Zhang, Lingyong Yan, Maarten de Rijke, Zhaochun Ren, Xiuying Chen
@@ -530,15 +539,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [shopping agents], [query complexity], [attribute-filter-sort evaluation], [DeepShop]
     - 📖 TLDR: DeepShop is a web benchmark for shopping agents that models realistic query complexity instead of simple deterministic lookups. It evolves real shopping queries across five domains, scores attribute matching, filters, and sorting separately, and shows that current systems struggle most on the filter-and-sort aspects of shopping workflows.
-
-- [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
-    - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
-    - 🏛️ Institutions: National University of Singapore, Cyber Emerging Tech and R&D
-    - 📅 Date: June 03, 2025
-    - 📑 Publisher: ICLR 2026
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [visual prompt injection], [security], [attack], [browser-use agents], [VPI-Bench]
-    - 📖 TLDR: VPI-Bench studies visual prompt injection attacks on computer-use agents, where malicious instructions are embedded directly into rendered user interfaces rather than hidden in HTML. Across 306 cases on five platforms, it shows that both full-system-access CUAs and browser-use agents remain highly vulnerable, and that prompt-only defenses offer limited protection.
 
 - [AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning](https://aclanthology.org/2025.emnlp-demos.12/)
     - Zhong Zhang, Yaxi Lu, Yikun Fu, Yupeng Huo, Shenzhi Yang, Yesai Wu, Han Si, Xin Cong, Haotian Chen, Yankai Lin, Jie Xie, Wei Zhou, Wang Xu, Yuanheng Zhang, Zhou Su, Zhongwu Zhai, Xiaoming Liu, Yudong Mei, Jianming Xu, Hongyan Tian, Chongyi Wang, Chi Chen, Yuan Yao, Zhiyuan Liu, Maosong Sun
@@ -551,7 +551,7 @@
 
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
-    - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
+    - 🏛️ Institutions: Shanghai AI Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
     - 📅 Date: May 31, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -569,7 +569,7 @@
 
 - [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
     - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: May 28, 2025
     - 📑 Publisher: ICLR 2026 (Oral)
     - 💻 Env: [Desktop], [Web]
@@ -578,7 +578,7 @@
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
-    - 🏛️ Institutions: The University of Hong Kong, Shanghai AI Laboratory, Fudan University, Peking University, Nanjing University, East China Normal University, Yale University
+    - 🏛️ Institutions: HKU, Shanghai AI Laboratory, Fudan University, Peking University, Nanjing University, East China Normal University, Yale University
     - 📅 Date: May 26, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
@@ -587,7 +587,7 @@
 
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Huawei Noah’s Ark Lab
+    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah’s Ark Lab
     - 📅 Date: May 22, 2025
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Mobile]
@@ -596,7 +596,7 @@
 
 - [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277)
     - Hyungjoo Chae, Sunghwan Kim, Junhee Cho, Seungone Kim, Seungjun Moon, Gyeom Hwangbo, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, Taeyoon Kwon, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo
-    - 🏛️ Institutions: Yonsei University, Carnegie Mellon University
+    - 🏛️ Institutions: Yonsei University, CMU
     - 📅 Date: May 21, 2025
     - 📑 Publisher: NeurIPS 2025 (Spotlight)
     - 💻 Env: [Web]
@@ -614,7 +614,7 @@
 
 - [Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis](https://arxiv.org/abs/2505.13227)
     - Tianbao Xie, Jiaqi Deng, Xiaochuan Li, Junlin Yang, Haoyuan Wu, Jixuan Chen, Wenjing Hu, Xinyuan Wang, Yuhui Xu, Zekun Wang, Yiheng Xu, Junli Wang, Doyen Sahoo, Tao Yu, Caiming Xiong
-    - 🏛️ Institutions: The University of Hong Kong, Salesforce Research
+    - 🏛️ Institutions: HKU, Salesforce AI Research
     - 📅 Date: May 19, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Spotlight)
     - 💻 Env: [General GUI]
@@ -623,7 +623,7 @@
 
 - [Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents](https://arxiv.org/abs/2505.11891)
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
-    - 🏛️ Institutions: Nanyang Technological University, University of Electronic Science and Technology of China, Gaoling School of Artificial Intelligence, Renmin University of China, XiaoMi AI Lab, Institute for AI Industry Research (AIR), Tsinghua University
+    - 🏛️ Institutions: NTU, University of Electronic Science and Technology of China, Gaoling School of Artificial Intelligence, Renmin University of China, XiaoMi AI Lab, Institute for AI Industry Research (AIR), Tsinghua University
     - 📅 Date: May 17, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Mobile]
@@ -648,15 +648,6 @@
     - 🔑 Key: [framework], [dataset], [benchmark], [few-shot learning], [LearnAct], [LearnGUI]
     - 📖 TLDR: LearnAct studies demonstration-based learning for mobile GUI agents rather than scaling generic pretraining alone. It introduces the LearnGUI dataset and benchmark for offline and online demonstration reuse, and uses a DemoParser-KnowSeeker-ActExecutor pipeline to extract, retrieve, and execute demonstration-derived knowledge in unseen mobile tasks.
 
-- [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://aclanthology.org/2025.findings-acl.809/)
-    - Xinyi Liu, Xiaoyi Zhang, Ziyun Zhang, Yan Lu
-    - 🏛️ Institutions: Microsoft Research Asia, School of Software and Microelectronics, Peking University
-    - 📅 Date: April 15, 2025
-    - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [dataset], [benchmark], [instruction synthesis], [GUI grounding], [UI-E2I-Synth], [UI-I2E-Bench]
-    - 📖 TLDR: UI-E2I-Synth addresses the annotation bottleneck in vision-based GUI grounding by using GPT-4o to synthesize large-scale grounding instructions with varied difficulty and annotation properties. The paper also introduces the UI-I2E-Bench benchmark for evaluating GUI instruction grounding under challenges such as implicit instructions, small elements, and underrepresented element types.
-
 - [REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites](https://arxiv.org/abs/2504.11543)
     - Divyansh Garg, Shaun VanWeelden, Diego Caples, Andis Draguns, Nikil Ravi, Pranav Putta, Naman Garg, Tomas Abraham, Michael Lara, Federico Lopez, James Liu, Atharva Gundawar, Prannay Hebbar, Youngchul Joo, Jindong Gu, Charles London, Christian Schroeder de Witt, Sumeet Motwani
     - 🏛️ Institutions: The AGI Company, Stanford University, University of Oxford, Mercor, Contramont Research, Plato, Independent
@@ -665,6 +656,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [deterministic website replicas], [automatic evaluation], [evaluation harness], [reproducibility], [REAL]
     - 📖 TLDR: REAL benchmarks autonomous web agents on deterministic replicas of 11 real websites so evaluation stays realistic while remaining safe and reproducible. It pairs 112 practical multi-turn tasks with an evaluation harness that mixes programmatic state checks and rubric-guided LLM judgments, and reports frontier agents reaching only about 41% success.
+
+- [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://aclanthology.org/2025.findings-acl.809/)
+    - Xinyi Liu, Xiaoyi Zhang, Ziyun Zhang, Yan Lu
+    - 🏛️ Institutions: Microsoft Research Asia, School of Software and Microelectronics, Peking University
+    - 📅 Date: April 15, 2025
+    - 📑 Publisher: Findings of ACL 2025
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [dataset], [benchmark], [instruction synthesis], [GUI grounding], [UI-E2I-Synth], [UI-I2E-Bench]
+    - 📖 TLDR: UI-E2I-Synth addresses the annotation bottleneck in vision-based GUI grounding by using GPT-4o to synthesize large-scale grounding instructions with varied difficulty and annotation properties. The paper also introduces the UI-I2E-Bench benchmark for evaluating GUI instruction grounding under challenges such as implicit instructions, small elements, and underrepresented element types.
 
 - [RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users](https://arxiv.org/abs/2504.10445)
     - Suyu Ye, Haojun Shi, Darren Shih, Hyokun Yun, Tanya G. Roosta, Tianmin Shu
@@ -695,7 +695,7 @@
 
 - [ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use](https://arxiv.org/abs/2504.07981)
     - Kaixin Li, Ziyang Meng, Hongzhan Lin, Ziyang Luo, Yuchen Tian, Jing Ma, Zhiyong Huang, Tat-Seng Chua
-    - 🏛️ Institutions: National University of Singapore, East China Normal University, Hong Kong Baptist University
+    - 🏛️ Institutions: NUS, East China Normal University, Hong Kong Baptist University
     - 📅 Date: April 04, 2025
     - 📑 Publisher: ACM Multimedia 2025
     - 💻 Env: [Desktop]
@@ -704,7 +704,7 @@
 
 - [An Illusion of Progress? Assessing the Current State of Web Agents](https://openreview.net/forum?id=6jZi4HSs6o)
     - Tianci Xue, Weijian Qi, Tianneng Shi, Chan Hee Song, Boyu Gou, Dawn Song, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, University of California, Berkeley
+    - 🏛️ Institutions: OSU, UC Berkeley
     - 📅 Date: April 02, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
@@ -713,7 +713,7 @@
 
 - [UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction](https://arxiv.org/abs/2503.15661)
     - Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Juan A. Rodriguez, Montek Kalsi, Rabiul Awal, Nicolas Chapados, M. Tamer Özsu, Aishwarya Agrawal, David Vazquez, Christopher Pal, Perouz Taslakian, Spandana Gella, Sai Rajeswar
-    - 🏛️ Institutions: Mila - Quebec AI Institute, Université de Montréal, ServiceNow, University of Waterloo, National University of Singapore, École de Technologie Supérieure, Polytechnique Montréal
+    - 🏛️ Institutions: Mila, Université de Montréal, ServiceNow, University of Waterloo, NUS, École de Technologie Supérieure, Polytechnique Montréal
     - 📅 Date: March 19, 2025
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Desktop]
@@ -749,7 +749,7 @@
 
 - [Programming with Pixels: Can Computer-Use Agents do Software Engineering?](https://arxiv.org/abs/2502.18525)
     - Pranjal Aggarwal, Sean Welleck
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: February 24, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
@@ -758,7 +758,7 @@
 
 - [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047)
     - Henry Hengyuan Zhao, Kaiming Yang, Wendi Yu, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: February 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -785,7 +785,7 @@
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://openreview.net/forum?id=5298fKGmv3)
     - Thibault Le Sellier de Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo Caccia, Alexandre Drouin, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart, Russ Salakhutdinov, Nicolas Chapados
-    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, Carnegie Mellon University, École Polytechnique de Montréal, Université de Montréal
+    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, CMU, Polytechnique Montréal, Université de Montréal
     - 📅 Date: December 06, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
@@ -803,7 +803,7 @@
 
 - [Evaluating Cultural and Social Awareness of LLM Web Agents](https://aclanthology.org/2025.findings-naacl.222/)
     - Haoyi Qiu, Alexander Richard Fabbri, Divyansh Agarwal, Kung-Hsiang Huang, Sarah Tan, Nanyun Peng, Chien-Sheng Wu
-    - 🏛️ Institutions: University of California, Los Angeles, Salesforce AI Research
+    - 🏛️ Institutions: UCLA, Salesforce AI Research
     - 📅 Date: October 30, 2024
     - 📑 Publisher: Findings of NAACL 2025
     - 💻 Env: [Web]
@@ -812,7 +812,7 @@
 
 - [VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html)
     - Lawrence Jang, Yinheng Li, Dan Zhao, Charles Ding, Justin Lin, Paul Pu Liang, Rogerio Bonatti, Kazuhito Koishida
-    - 🏛️ Institutions: Carnegie Mellon University, Massachusetts Institute of Technology, Microsoft
+    - 🏛️ Institutions: CMU, MIT, Microsoft
     - 📅 Date: October 24, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Web]
@@ -830,7 +830,7 @@
 
 - [Large Language Models Empowered Personalized Web Agents](https://doi.org/10.1145/3696410.3714842)
     - Hongru Cai, Yongqi Li, Wenjie Wang, Fengbin Zhu, Xiaoyu Shen, Wenjie Li, Tat-Seng Chua
-    - 🏛️ Institutions: National University of Singapore, The Hong Kong Polytechnic University, University of Science and Technology of China, Eastern Institute of Technology, Ningbo
+    - 🏛️ Institutions: NUS, PolyU, University of Science and Technology of China, Eastern Institute of Technology, Ningbo
     - 📅 Date: October 22, 2024
     - 📑 Publisher: WWW 2025
     - 💻 Env: [Web]
@@ -848,7 +848,7 @@
 
 - [SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation](https://proceedings.iclr.cc/paper_files/paper/2025/hash/9a75f4dd9679aa4ff80a4e6f0a1dc700-Abstract-Conference.html)
     - Jingxuan Chen, Derek Yuen, Bin Xie, Yuhao Yang, Gongwei Chen, Zhihao Wu, Yixing Li, Xurui Zhou, Weiwen Liu, Shuai Wang, Kaiwen Zhou, Rui Shao, Liqiang Nie, Yasheng Wang, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Huawei Noah's Ark Lab, Harbin Institute of Technology, Shenzhen, Tianjin University, University College London
+    - 🏛️ Institutions: Huawei Noah's Ark Lab, HIT-Shenzhen, Tianjin University, University College London
     - 📅 Date: October 19, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Mobile]
@@ -857,7 +857,7 @@
 
 - [Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents](https://arxiv.org/abs/2410.13886)
     - Priyanshu Kumar, Elaine Lau, Saranya Vijayakumar, Tu Trinh, Scale Red Team, Elaine Chang, Vaughn Robinson, Sean Hendryx, Shuyan Zhou, Matt Fredrikson, Summer Yue, Zifan Wang
-    - 🏛️ Institutions: Carnegie Mellon University, Scale AI, GraySwan AI
+    - 🏛️ Institutions: CMU, Scale AI, GraySwan AI
     - 📅 Date: October 11, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -875,7 +875,7 @@
 
 - [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://proceedings.mlr.press/v267/bonatti25a.html)
     - Rogerio Bonatti, Dan Zhao, Francesco Bonacci, Dillon Dupont, Sara Abdali, Yinheng Li, Yadong Lu, Justin Wagle, Kazuhito Koishida, Arthur Bucker, Lawrence Keunho Jang, Zheng Hui
-    - 🏛️ Institutions: Microsoft, Carnegie Mellon University, Columbia University
+    - 🏛️ Institutions: Microsoft, CMU, Columbia University
     - 📅 Date: September 12, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Desktop]
@@ -893,7 +893,7 @@
 
 - [OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation](https://arxiv.org/abs/2407.19056)
     - Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, Jingbo Shang
-    - 🏛️ Institutions: University of California San Diego, University of California Los Angeles, Allen Institute for AI
+    - 🏛️ Institutions: UC San Diego, UCLA, Allen Institute for AI
     - 📅 Date: July 26, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -902,7 +902,7 @@
 
 - [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html)
     - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Yuchen Mao, Wenjing Hu, Tianbao Xie, Hongsheng Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, Shanghai Jiao Tong University, Google Cloud AI Research, Google DeepMind, Salesforce Research, Yale University, Sea AI Lab, University of Waterloo
+    - 🏛️ Institutions: HKU, Shanghai Jiao Tong University, Google Cloud AI Research, Google DeepMind, Salesforce AI Research, Yale University, Sea AI Lab, University of Waterloo
     - 📅 Date: July 15, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Desktop]
@@ -929,7 +929,7 @@
 
 - [Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding](https://aclanthology.org/2024.emnlp-main.533/)
     - Yue Fan, Lei Ding, Ching-Chen Kuo, Shan Jiang, Yang Zhao, Xinze Guan, Jie Yang, Yi Zhang, Xin Eric Wang
-    - 🏛️ Institutions: University of California, Santa Cruz, eBay Inc., Cybever
+    - 🏛️ Institutions: UC Santa Cruz, eBay Inc., Cybever
     - 📅 Date: June 27, 2024
     - 📑 Publisher: EMNLP 2024
     - 💻 Env: [General GUI]
@@ -938,7 +938,7 @@
 
 - [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
     - Qinchen Wu, Difei Gao, Kevin Qinghong Lin, Zhuoyu Wu, Xiangwu Guo, Peiran Li, Weichen Zhang, Hengxu Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore, Chinese Academy of Sciences, Shenzhen
+    - 🏛️ Institutions: Show Lab, NUS, Chinese Academy of Sciences, Shenzhen
     - 📅 Date: June 19, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -947,7 +947,7 @@
 
 - [WebCanvas: Benchmarking Web Agents in Online Environments](https://arxiv.org/abs/2406.12373)
     - Yichen Pan, Dehan Kong, Sida Zhou, Cheng Cui, Yifei Leng, Bing Jiang, Hangyu Liu, Yanyi Shang, Shuyan Zhou, Tongshuang Wu, Zhengyang Wu
-    - 🏛️ Institutions: iMean AI, Carnegie Mellon University
+    - 🏛️ Institutions: iMean AI, CMU
     - 📅 Date: June 18, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -956,7 +956,7 @@
 
 - [Dissecting Adversarial Robustness of Multimodal LM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/460a1d8eac34125dad453b28d6d64446-Abstract-Conference.html)
     - Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: June 18, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Web]
@@ -974,7 +974,7 @@
 
 - [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://proceedings.neurips.cc/paper_files/paper/2024/hash/804e757b7d7043c26701c3a313032101-Abstract-Datasets_and_Benchmarks_Track.html)
     - Kevin Qinghong Lin, Linjie Li, Difei Gao, Qinchen Wu, Mingyi Yan, Zhengyuan Yang, Lijuan Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore, Microsoft
+    - 🏛️ Institutions: Show Lab, NUS, Microsoft
     - 📅 Date: June 14, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
     - 💻 Env: [Desktop]
@@ -983,7 +983,7 @@
 
 - [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
     - Luyuan Wang, Yongyu Deng, Yiwei Zha, Guodong Mao, Qinmin Wang, Tianchen Min, Wei Chen, Shoufa Chen
-    - 🏛️ Institutions: Carnegie Mellon University, University of Michigan, Northeastern University, The University of Hong Kong
+    - 🏛️ Institutions: CMU, University of Michigan, Northeastern University, HKU
     - 📅 Date: June 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1010,7 +1010,7 @@
 
 - [Benchmarking Mobile Device Control Agents across Diverse Configurations](https://arxiv.org/abs/2404.16660)
     - Juyong Lee, Taywon Min, Minyong An, Dongyoon Hahm, Haeone Lee, Changyeon Kim, Kimin Lee
-    - 🏛️ Institutions: KAIST, Seoul National University, Yonsei University
+    - 🏛️ Institutions: KAIST, SNU, Yonsei University
     - 📅 Date: April 25, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1019,7 +1019,7 @@
 
 - [MMInA: Benchmarking Multihop Multimodal Internet Agents](https://aclanthology.org/2025.findings-acl.703/)
     - Shulin Tian, Ziniu Zhang, Liangyu Chen, Ziwei Liu
-    - 🏛️ Institutions: Nanyang Technological University
+    - 🏛️ Institutions: NTU
     - 📅 Date: April 15, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Web]
@@ -1037,7 +1037,7 @@
 
 - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html)
     - Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng Cao, Jing Hua Toh, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu, Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, Carnegie Mellon University, Salesforce Research, University of Waterloo
+    - 🏛️ Institutions: HKU, CMU, Salesforce AI Research, University of Waterloo
     - 📅 Date: April 11, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
     - 💻 Env: [Desktop], [Web]
@@ -1046,7 +1046,7 @@
 
 - [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://openreview.net/forum?id=egVSgtJJAx)
     - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
-    - 🏛️ Institutions: Carnegie Mellon University, The Chinese University of Hong Kong, School of Computer Science, Peking University, MBZUAI, Allen Institute for AI
+    - 🏛️ Institutions: CMU, CUHK, School of Computer Science, Peking University, MBZUAI, Allen Institute for AI
     - 📅 Date: April 09, 2024
     - 📑 Publisher: COLM 2024
     - 💻 Env: [Web]
@@ -1082,7 +1082,7 @@
 
 - [WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?](https://proceedings.mlr.press/v235/drouin24a.html)
     - Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam H. Laradji, Manuel Del Verme, Tom Marty, David Vazquez, Nicolas Chapados, Alexandre Lacoste
-    - 🏛️ Institutions: ServiceNow Research, Mila - Quebec AI Research Institute
+    - 🏛️ Institutions: ServiceNow Research, Mila
     - 📅 Date: March 11, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -1091,7 +1091,7 @@
 
 - [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://eccv.ecva.net/virtual/2024/poster/1107)
     - Raghav Kapoor, Yash Parag Butala, Melisa A Russak, Jing Yu Koh, Kiran Kamble, Waseem AlShikh, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: February 29, 2024
     - 📑 Publisher: ECCV 2024 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -1100,7 +1100,7 @@
 
 - [On the Multi-turn Instruction Following for Conversational Web Agents](https://aclanthology.org/2024.acl-long.477/)
     - Yang Deng, Xuan Zhang, Wenxuan Zhang, Yifei Yuan, See-Kiong Ng, Tat-Seng Chua
-    - 🏛️ Institutions: Singapore Management University, National University of Singapore, University of Copenhagen
+    - 🏛️ Institutions: Singapore Management University, NUS, University of Copenhagen
     - 📅 Date: February 23, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
@@ -1109,7 +1109,7 @@
 
 - [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://proceedings.mlr.press/v235/lu24e.html)
     - Xing Han Lù, Zdeněk Kasner, Siva Reddy
-    - 🏛️ Institutions: Mila Quebec AI Institute, McGill University, Institute of Formal and Applied Linguistics, Charles University, Facebook CIFAR AI Chair
+    - 🏛️ Institutions: Mila, McGill University, Institute of Formal and Applied Linguistics, Charles University, Facebook CIFAR AI Chair
     - 📅 Date: February 08, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -1136,7 +1136,7 @@
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://aclanthology.org/2024.acl-long.50/)
     - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: January 24, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
@@ -1163,7 +1163,7 @@
 
 - [ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
     - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: December 20, 2023
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Desktop]
@@ -1172,7 +1172,7 @@
 
 - [GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation](https://arxiv.org/abs/2311.07562)
     - An Yan, Zhengyuan Yang, Wanrong Zhu, Kevin Lin, Linjie Li, Jianfeng Wang, Jianwei Yang, Yiwu Zhong, Julian McAuley, Jianfeng Gao, Zicheng Liu, Lijuan Wang
-    - 🏛️ Institutions: University of California San Diego, Microsoft, University of California, Santa Barbara, University of Wisconsin-Madison
+    - 🏛️ Institutions: UC San Diego, Microsoft, UC Santa Barbara, University of Wisconsin-Madison
     - 📅 Date: November 13, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1199,7 +1199,7 @@
 
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
     - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University, Inspired Cognition
+    - 🏛️ Institutions: CMU, Inspired Cognition
     - 📅 Date: July 25, 2023
     - 📑 Publisher: NeurIPS 2024 (Oral)
     - 💻 Env: [Web]
@@ -1217,7 +1217,7 @@
 
 - [Mind2Web: Towards a Generalist Agent for the Web](https://proceedings.neurips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html)
     - Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: June 09, 2023
     - 📑 Publisher: NeurIPS 2023 Datasets and Benchmarks Track
     - 💻 Env: [Web]
@@ -1226,7 +1226,7 @@
 
 - [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract-Conference.html)
     - Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang
-    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences, The Hong Kong Polytechnic University, Shanghai AI Laboratory
+    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences, PolyU, Shanghai AI Laboratory
     - 📅 Date: May 30, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [General GUI]
@@ -1235,7 +1235,7 @@
 
 - [Mobile-Env: A Universal Platform for Training and Evaluation of Mobile Interaction](https://arxiv.org/abs/2305.08144)
     - Danyang Zhang, Zhennan Shen, Rui Xie, Situo Zhang, Tianbao Xie, Zihan Zhao, Siyuan Chen, Lu Chen, Hongshen Xu, Ruisheng Cao, Kai Yu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, The University of Hong Kong
+    - 🏛️ Institutions: Shanghai Jiao Tong University, HKU
     - 📅 Date: May 14, 2023
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1253,7 +1253,7 @@
 
 - [A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5327_ECCV_2022_paper.php)
     - Andrea Burns, Deniz Arsan, Sanjna Agrawal, Ranjitha Kumar, Kate Saenko, Bryan A. Plummer
-    - 🏛️ Institutions: Boston University, University of Illinois Urbana-Champaign, MIT-IBM Watson AI Lab
+    - 🏛️ Institutions: Boston University, UIUC, MIT-IBM Watson AI Lab
     - 📅 Date: February 04, 2022
     - 📑 Publisher: ECCV 2022
     - 💻 Env: [Mobile]
@@ -1289,7 +1289,7 @@
 
 - [Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements](https://aclanthology.org/2020.emnlp-main.443/)
     - Yang Li, Gang Li, Luheng He, Jingjie Zheng, Hong Li, Zhiwei Guan
-    - 🏛️ Institutions: Google Research, Georgia Institute of Technology
+    - 🏛️ Institutions: Google Research, Georgia Tech
     - 📅 Date: November 30, 2020
     - 📑 Publisher: EMNLP 2020
     - 💻 Env: [Mobile]

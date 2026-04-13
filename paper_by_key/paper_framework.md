@@ -20,7 +20,7 @@
 
 - [GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models](https://arxiv.org/abs/2601.18197)
     - Shaokang Wang, Pei Fu, Ruoceng Zhang, Shaojie Zhang, Xiuwen Xi, Jiahui Yang, Bin Qin, Ying Huang, Zhenbo Luo, Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
+    - 🏛️ Institutions: MiLM Plus, Xiaomi
     - 📅 Date: January 26, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -29,7 +29,7 @@
 
 - [LongHorizonUI: A Unified Framework for Robust long-horizon Task Automation of GUI Agent](https://openreview.net/forum?id=BK7Mk5d4WE)
     - Bin Kang, Shaoguo Wen, Yifei Bi, Shunlong Wu, Xinbin Yuan, Rui Shao, Junle Wang, Zhuotao Tian
-    - 🏛️ Institutions: Chengdu Institute of Computer Applications, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tencent Turing Lab, Georgia Institute of Technology, Tsinghua University, Nankai University, Shenzhen Loop Area Institute
+    - 🏛️ Institutions: Chengdu Institute of Computer Applications, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Tencent Turing Lab, Georgia Tech, Tsinghua University, Nankai University, Shenzhen Loop Area Institute
     - 📅 Date: January 26, 2026
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [General GUI]
@@ -56,7 +56,7 @@
 
 - [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876)
     - Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu
-    - 🏛️ Institutions: Meituan, Fudan University, Tongji University, The Hong Kong University of Science and Technology
+    - 🏛️ Institutions: Meituan, Fudan University, Tongji University, HKUST
     - 📅 Date: January 22, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -83,7 +83,7 @@
 
 - [Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents](https://arxiv.org/abs/2601.11631)
     - Yurun Song, Jiong Yin, Rongjunchen Zhang, Ian G. Harris
-    - 🏛️ Institutions: HiThink Research, University of California, Irvine, Hangzhou Dianzi University
+    - 🏛️ Institutions: HiThink Research, UC Irvine, Hangzhou Dianzi University
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -99,6 +99,15 @@
     - 🔑 Key: [framework], [experience seeking], [entropy-based triggering], [experience intervention], [ExpSeek]
     - 📖 TLDR: ExpSeek turns experience intervention from a passive pre-task context into a step-level mechanism that is triggered only when the agent’s own entropy signal indicates uncertainty. It also generates tailored experience content per step, improving Qwen3-8B and 32B web agents by 9.3 and 7.5 absolute points across four benchmarks.
 
+- [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
+    - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou
+    - 🏛️ Institutions: Show Lab, NUS
+    - 📅 Date: January 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [learning from demonstration], [screen recording], [human teaching], [ShowUI-Aloha]
+    - 📖 TLDR: ShowUI-Aloha converts in-the-wild desktop screen recordings into structured teaching trajectories through a recorder, learner, planner, and executor pipeline. The goal is to let GUI agents learn complex desktop tasks from ordinary human demonstrations rather than curated annotations or synthetic traces.
+
 - [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
     - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
     - 🏛️ Institutions: OPPO Research Institute, Shanghai Jiao Tong University
@@ -107,15 +116,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [human-in-the-loop], [knowledge adaptation], [progress summarization], [WebArena], [ColorBrowserAgent]
     - 📖 TLDR: ColorBrowserAgent targets site heterogeneity and long-horizon instability in web automation with two mechanisms: human-in-the-loop knowledge adaptation and progressive progress summarization. On WebArena it reaches 71.2% success, and the paper also reports transfer to WebChoreArena and gains in industrial deployment.
-
-- [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
-    - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
-    - 📅 Date: January 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [learning from demonstration], [screen recording], [human teaching], [ShowUI-Aloha]
-    - 📖 TLDR: ShowUI-Aloha converts in-the-wild desktop screen recordings into structured teaching trajectories through a recorder, learner, planner, and executor pipeline. The goal is to let GUI agents learn complex desktop tasks from ordinary human demonstrations rather than curated annotations or synthetic traces.
 
 - [From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation](https://arxiv.org/abs/2601.05787)
     - Zezhou Wang, Ziyun Zhang, Xiaoyi Zhang, Zhuzhong Qian, Yan Lu
@@ -128,7 +128,7 @@
 
 - [GUITester: Enabling GUI Agents for Exploratory Defect Discovery](https://arxiv.org/abs/2601.04500)
     - Yifei Gao, Jiang Wu, Xiaoyi Chen, Yifan Yang, Zhe Cui, Tianyi Ma, Jiaming Zhang, Jitao Sang
-    - 🏛️ Institutions: Beijing Jiaotong University, Hithink Research, Nanyang Technological University
+    - 🏛️ Institutions: Beijing Jiaotong University, Hithink Research, NTU
     - 📅 Date: January 08, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -218,7 +218,7 @@
 
 - [BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism](https://arxiv.org/abs/2505.20660)
     - Qinzhuo Wu, Pengzhi Gao, Wei Liu, Jian Luan
-    - 🏛️ Institutions: MiLM Plus, Xiaomi Inc
+    - 🏛️ Institutions: MiLM Plus, Xiaomi
     - 📅 Date: May 27, 2025
     - 📑 Publisher: EMNLP 2025
     - 💻 Env: [Mobile]
@@ -234,6 +234,15 @@
     - 🔑 Key: [framework], [MCP server], [environmental contextualization], [OSWorld], [LiteCUA]
     - 📖 TLDR: LiteCUA argues that computer-use agents need better environment contextualization rather than only larger models or heavier agent stacks. It introduces AIOS 1.0, which exposes computer states and actions through an MCP server, and shows that the resulting lightweight desktop agent outperforms several stronger baselines on OSWorld.
 
+- [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
+    - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
+    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah’s Ark Lab
+    - 📅 Date: May 22, 2025
+    - 📑 Publisher: ACL 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [benchmark], [autonomous exploration], [transition-aware knowledge], [GUI-KRB], [GUI-explorer]
+    - 📖 TLDR: GUI-explorer is a training-free mobile GUI agent that automatically explores app functionality and mines transition-aware knowledge from observed state changes. It also introduces the GUI-KRB benchmark for mobile GUI reasoning, and shows strong gains on SPA-Bench and AndroidWorld without parameter updates for new apps.
+
 - [Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach](https://arxiv.org/abs/2505.16422)
     - Xiaoran Yin, Xu Luo, Hao Wu, Lianli Gao, Jingkuan Song
     - 🏛️ Institutions: University of Electronic Science and Technology of China, Tongji University, University of Trento
@@ -243,18 +252,9 @@
     - 🔑 Key: [framework], [world model], [executable code], [self‑verification], [self‑refinement], [FPWC]
     - 📖 TLDR: FPWC targets the myopic decision-making of reactive mobile agents by constructing a task-oriented world model before execution and expressing plans as executable code. It then self-verifies and refines both the plan and world model during execution, yielding large gains on simulated and real-device mobile control tasks.
 
-- [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
-    - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, Huawei Noah’s Ark Lab
-    - 📅 Date: May 22, 2025
-    - 📑 Publisher: ACL 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [autonomous exploration], [transition-aware knowledge], [GUI-KRB], [GUI-explorer]
-    - 📖 TLDR: GUI-explorer is a training-free mobile GUI agent that automatically explores app functionality and mines transition-aware knowledge from observed state changes. It also introduces the GUI-KRB benchmark for mobile GUI reasoning, and shows strong gains on SPA-Bench and AndroidWorld without parameter updates for new apps.
-
 - [Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent](https://arxiv.org/abs/2505.14141)
     - Fanglin Mo, Junzhe Chen, Haoxuan Zhu, Xuming Hu
-    - 🏛️ Institutions: Hong Kong University of Science and Technology (Guangzhou), School of Computer Science & Engineering, South China University of Technology
+    - 🏛️ Institutions: HKUST(GZ), School of Computer Science & Engineering, South China University of Technology
     - 📅 Date: May 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -281,7 +281,7 @@
 
 - [CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation](https://aclanthology.org/2025.naacl-demo.17/)
     - Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig
-    - 🏛️ Institutions: School of Computer Science, Carnegie Mellon University
+    - 🏛️ Institutions: School of Computer Science, CMU
     - 📅 Date: April 30, 2025
     - 📑 Publisher: NAACL 2025 (System Demonstrations)
     - 💻 Env: [Web]
@@ -290,7 +290,7 @@
 
 - [Infogent: An Agent-Based Framework for Web Information Aggregation](https://aclanthology.org/2025.findings-naacl.318/)
     - Revanth Gangi Reddy, Sagnik Mukherjee, Jeonghwan Kim, Zhenhailong Wang, Dilek Hakkani-Tur, Heng Ji
-    - 🏛️ Institutions: University of Illinois at Urbana-Champaign
+    - 🏛️ Institutions: UIUC
     - 📅 Date: April 29, 2025
     - 📑 Publisher: Findings of NAACL 2025
     - 💻 Env: [Web]
@@ -317,7 +317,7 @@
 
 - [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
     - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
+    - 🏛️ Institutions: CMU, Microsoft
     - 📅 Date: April 09, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
@@ -326,7 +326,7 @@
 
 - [SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills](https://arxiv.org/abs/2504.07079)
     - Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Carnegie Mellon University, University of Virginia, Purdue University, Cisco Research
+    - 🏛️ Institutions: OSU, CMU, University of Virginia, Purdue University, Cisco Research
     - 📅 Date: April 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -353,7 +353,7 @@
 
 - [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047)
     - Henry Hengyuan Zhao, Kaiming Yang, Wendi Yu, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: February 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -380,7 +380,7 @@
 
 - [Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents](https://proceedings.mlr.press/v267/zhou25ah.html)
     - Yifei Zhou, Qianlan Yang, Kaixiang Lin, Min Bai, Xiong Zhou, Yu-Xiong Wang, Sergey Levine, Li Erran Li
-    - 🏛️ Institutions: University of California, Berkeley, University of Illinois Urbana-Champaign, Amazon
+    - 🏛️ Institutions: UC Berkeley, UIUC, Amazon
     - 📅 Date: December 17, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Web]
@@ -389,7 +389,7 @@
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://openreview.net/forum?id=5298fKGmv3)
     - Thibault Le Sellier de Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo Caccia, Alexandre Drouin, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart, Russ Salakhutdinov, Nicolas Chapados
-    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, Carnegie Mellon University, École Polytechnique de Montréal, Université de Montréal
+    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, CMU, Polytechnique Montréal, Université de Montréal
     - 📅 Date: December 06, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
@@ -407,7 +407,7 @@
 
 - [AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations](https://aclanthology.org/2025.acl-long.1008/)
     - Gaurav Verma, Rachneet Kaur, Nishan Srishankar, Zhen Zeng, Tucker Balch, Manuela Veloso
-    - 🏛️ Institutions: Georgia Institute of Technology, J.P. Morgan AI Research
+    - 🏛️ Institutions: Georgia Tech, J.P. Morgan AI Research
     - 📅 Date: November 24, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Web]
@@ -425,7 +425,7 @@
 
 - [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603)
     - Chengyou Jia, Minnan Luo, Zhuohang Dang, Qiushi Sun, Fangzhi Xu, Junlin Hu, Tianbao Xie, Zhiyong Wu
-    - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Laboratory, The University of Hong Kong
+    - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Laboratory, HKU
     - 📅 Date: October 24, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Desktop]
@@ -497,7 +497,7 @@
 
 - [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.03913)
     - Jiayi Zhang, Chuang Zhao, Yihan Zhao, Zhaoyang Yu, Ming He, Jianping Fan
-    - 🏛️ Institutions: AI Lab at Lenovo Research, Renmin University of China, The Hong Kong University of Science and Technology
+    - 🏛️ Institutions: AI Lab at Lenovo Research, Renmin University of China, HKUST
     - 📅 Date: July 04, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -506,7 +506,7 @@
 
 - [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://openreview.net/forum?id=3WWFrg8UjJ)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
-    - 🏛️ Institutions: Shanghai AI Laboratory, East China Normal University, Princeton University, The University of Hong Kong
+    - 🏛️ Institutions: Shanghai AI Laboratory, East China Normal University, Princeton University, HKU
     - 📅 Date: February 12, 2024
     - 📑 Publisher: LLMAgents @ ICLR 2024
     - 💻 Env: [Desktop], [Web]
@@ -515,7 +515,7 @@
 
 - [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://proceedings.mlr.press/v235/zheng24e.html)
     - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: January 03, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -578,7 +578,7 @@
 
 - [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://openreview.net/forum?id=Pc8AU1aF5e)
     - Longtao Zheng, Rundong Wang, Xinrun Wang, Bo An
-    - 🏛️ Institutions: Nanyang Technological University
+    - 🏛️ Institutions: NTU
     - 📅 Date: June 13, 2023
     - 📑 Publisher: ICLR 2024 (Poster)
     - 💻 Env: [Desktop]
@@ -587,7 +587,7 @@
 
 - [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract-Conference.html)
     - Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang
-    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences, The Hong Kong Polytechnic University, Shanghai AI Laboratory
+    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences, PolyU, Shanghai AI Laboratory
     - 📅 Date: May 30, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [General GUI]
@@ -614,7 +614,7 @@
 
 - [Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations](https://aclanthology.org/2020.acl-demos.25/)
     - Toby Jia-Jun Li, Tom Mitchell, Brad Myers
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: July 31, 2020
     - 📑 Publisher: ACL 2020 Demo Track
     - 💻 Env: [Mobile]
@@ -623,7 +623,7 @@
 
 - [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899)
     - Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom M. Mitchell, Brad A. Myers
-    - 🏛️ Institutions: Carnegie Mellon University, Amherst College
+    - 🏛️ Institutions: CMU, Amherst College
     - 📅 Date: August 30, 2019
     - 📑 Publisher: UIST 2019
     - 💻 Env: [Mobile]
@@ -641,7 +641,7 @@
 
 - [SUGILITE: Creating Multimodal Smartphone Automation by Demonstration](https://dl.acm.org/doi/abs/10.1145/3025453.3025483)
     - Toby Jia-Jun Li, Amos Azaria, Brad A. Myers
-    - 🏛️ Institutions: Carnegie Mellon University, Ariel University
+    - 🏛️ Institutions: CMU, Ariel University
     - 📅 Date: May 06, 2017
     - 📑 Publisher: CHI 2017
     - 💻 Env: [Mobile]

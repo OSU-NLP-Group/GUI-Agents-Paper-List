@@ -2,7 +2,7 @@
 
 - [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
     - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
-    - 🏛️ Institutions: Zhejiang University, Nankai University, The Chinese University of Hong Kong, Shanghai Jiao Tong University, vivo AI Lab
+    - 🏛️ Institutions: Zhejiang University, Nankai University, CUHK, Shanghai Jiao Tong University, vivo AI Lab
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -47,7 +47,7 @@
 
 - [UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/abs/2503.21620)
     - Zhengxi Lu, Yuxiang Chai, Yaxuan Guo, Xi Yin, Liang Liu, Hao Wang, Han Xiao, Shuai Ren, Guanjing Xiong, Hongsheng Li
-    - 🏛️ Institutions: vivo AI Lab, MMLab, The Chinese University of Hong Kong
+    - 🏛️ Institutions: vivo AI Lab, MMLab, CUHK
     - 📅 Date: March 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

@@ -63,7 +63,7 @@
 
 - [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](https://arxiv.org/abs/2603.12138)
     - Rui Shao, Ruize Gao, Bin Xie, Yixing Li, Kaiwen Zhou, Shuai Wang, Weili Guan, Gongwei Chen
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, National University of Singapore, CNRS@CREATE, Shenzhen Loop Area Institute, Huawei Noah's Ark Lab
+    - 🏛️ Institutions: HIT-Shenzhen, NUS, CNRS@CREATE, Shenzhen Loop Area Institute, Huawei Noah's Ark Lab
     - 📅 Date: March 12, 2026
     - 📑 Publisher: CVPR 2026
     - 💻 Env: [Web], [Mobile]
@@ -72,7 +72,7 @@
 
 - [Safe and Scalable Web Agent Learning via Recreated Websites](https://arxiv.org/abs/2603.10505)
     - Hyungjoo Chae, Jungsoo Park, Alan Ritter
-    - 🏛️ Institutions: School of Interactive Computing, Georgia Institute of Technology
+    - 🏛️ Institutions: School of Interactive Computing, Georgia Tech
     - 📅 Date: March 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -108,7 +108,7 @@
 
 - [WebFactory: Automated Compression of Foundational Language Intelligence into Grounded Web Agents](https://arxiv.org/abs/2603.05044)
     - Sicheng Fan, Qingyun Shi, Shengze Xu, Shengbo Cai, Tieyong Zeng, Li Ling, Yanyi Shang, Dehan Kong
-    - 🏛️ Institutions: Fudan University, IMean AI, The Chinese University of Hong Kong, Tsinghua University
+    - 🏛️ Institutions: Fudan University, IMean AI, CUHK, Tsinghua University
     - 📅 Date: March 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -142,24 +142,6 @@
     - 🔑 Key: [memory augmentation], [trajectory summarization], [insight retrieval], [training-free], [long-horizon tasks], [M^2]
     - 📖 TLDR: M^2 is a training-free memory augmentation method for long-horizon web agents that combines dynamic trajectory summarization with offline insight retrieval. It improves success rates on WebVoyager and OnlineMind2Web while substantially reducing token usage.
 
-- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
-    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
-    - 🏛️ Institutions: Carnegie Mellon University, Duke University
-    - 📅 Date: February 19, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
-    - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
-
-- [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
-    - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
-    - 🏛️ Institutions: The Ohio State University, University of British Columbia, Microsoft Research
-    - 📅 Date: February 19, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
-    - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
-
 - [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
     - Serin Kim, Sangam Lee, Dongha Lee
     - 🏛️ Institutions: Department of Artificial Intelligence, Yonsei University - DLI Lab
@@ -168,6 +150,24 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
     - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
+
+- [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
+    - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
+    - 🏛️ Institutions: OSU, University of British Columbia, Microsoft Research
+    - 📅 Date: February 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
+    - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
+
+- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
+    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
+    - 🏛️ Institutions: CMU, Duke University
+    - 📅 Date: February 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
+    - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
 
 - [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
     - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
@@ -207,7 +207,7 @@
 
 - [GUI-GENESIS: Automated Synthesis of Efficient Environments with Verifiable Rewards for GUI Agent Post-Training](https://arxiv.org/abs/2602.14093)
     - Yuan Cao, Dezhi Ran, Mengzhou Wu, Yuzhe Guo, Xin Chen, Ang Li, Gang Cao, Gong Zhi, Hao Yu, Linyi Li, Wei Yang, Tao Xie
-    - 🏛️ Institutions: Key Lab of HCST (PKU), MOE, School of Computer Science, Peking University, Tencent Inc., Hong Kong University of Science and Technology, School of Computing Science, Simon Fraser University, Department of Computer Science, University of Texas at Dallas
+    - 🏛️ Institutions: Key Lab of HCST (PKU), MOE, School of Computer Science, Peking University, Tencent Inc., HKUST, School of Computing Science, Simon Fraser University, Department of Computer Science, University of Texas at Dallas
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -216,7 +216,7 @@
 
 - [AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines](https://arxiv.org/abs/2602.14296)
     - Yifan Wu, Yiran Peng, Yiyu Chen, Jianhao Ruan, Zijie Zhuang, Cheng Yang, Jiayi Zhang, Man Chen, Yenchi Tseng, Zhaoyang Yu, Liang Chen, Yuyao Zhai, Bang Liu, Chenglin Wu, Yuyu Luo
-    - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), DeepWisdom, Peking University, Universite de Montreal, Mila
+    - 🏛️ Institutions: HKUST(GZ), DeepWisdom, Peking University, Université de Montréal, Mila
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -250,6 +250,15 @@
     - 🔑 Key: [data generation], [fine-grained evaluation], [constraint-based evaluator], [BookingArena], [knowledge distillation], [partial progress]
     - 📖 TLDR: This paper builds a scalable web-agent training pipeline around a constraint-based evaluator that scores partial progress instead of only final success. It introduces BookingArena and shows that using automatically generated data plus fine-grained evaluation can train smaller web agents that match or exceed much larger systems.
 
+- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
+    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
+    - 🏛️ Institutions: NUS, Shanghai Jiao Tong University
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
+    - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
+
 - [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
     - Nicholas Lee, Lutfi Eren Erdogan, Chris Joseph John, Surya Krishnapillai, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
     - 🏛️ Institutions: UC Berkeley, ICSI, LBNL
@@ -258,15 +267,6 @@
     - 💻 Env: [Web]
     - 🔑 Key: [test-time scaling], [CATTS], [inference-time compute], [uncertainty estimation], [LLM arbiter], [WebArena-Lite]
     - 📖 TLDR: CATTS dynamically allocates test-time compute for multi-step web agents by using vote-based uncertainty signals to invoke an LLM arbiter only on contentious decisions. It improves performance on WebArena-Lite and GoBrowse while using fewer tokens than uniform scaling.
-
-- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
-    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
-    - 🏛️ Institutions: National University of Singapore, Shanghai Jiao Tong University
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
-    - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
 
 - [PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents](https://arxiv.org/abs/2602.05354)
     - Shifat E. Arman, Syed Nazmus Sakib, Tapodhir Karmakar Taton, Nafiul Haque, Shahrear Bin Amin
@@ -295,18 +295,9 @@
     - 🔑 Key: [mixture of grounding experts], [experience-imitation planning], [adaptive memory], [online-Mind2Web], [Avenir-Web], [multimodal LLM]
     - 📖 TLDR: Avenir-Web combines mixture-of-grounding experts, experience-imitation planning, task-tracking checklists, and adaptive memory for live web tasks. It reaches strong open-source performance on Online-Mind2Web and narrows the gap to proprietary systems.
 
-- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
-    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, Hong Kong University of Science and Technology, McGill University, Shanghai AI Lab, Gradient, University of Toronto, Mila - Quebec AI Institute
-    - 📅 Date: January 29, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
-    - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
-
 - [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
     - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
-    - 🏛️ Institutions: Columbia University, University of California San Diego, University of Illinois Urbana-Champaign
+    - 🏛️ Institutions: Columbia University, UC San Diego, UIUC
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -321,6 +312,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
     - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
+
+- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
+    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, HKUST, McGill University, Shanghai AI Laboratory, Gradient, University of Toronto, Mila
+    - 📅 Date: January 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
+    - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
 
 - [The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes](https://arxiv.org/abs/2601.16356)
     - Simret Araya Gebreegziabher, Yukun Yang, Charles Chiang, Hojun Yoo, Chaoran Chen, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, Toby Jia-Jun Li
@@ -369,7 +369,7 @@
 
 - [WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks](https://arxiv.org/abs/2601.02439)
     - Hao Bai, Alexey Taymanov, Tong Zhang, Aviral Kumar, Spencer Whitehead
-    - 🏛️ Institutions: Microsoft, University of Illinois Urbana-Champaign, Carnegie Mellon University
+    - 🏛️ Institutions: Microsoft, UIUC, CMU
     - 📅 Date: January 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -405,7 +405,7 @@
 
 - [VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks](https://arxiv.org/abs/2512.16501)
     - Beitong Zhou, Zhexiao Huang, Yuan Guo, Zhangxuan Gu, Tianyu Xia, Zichen Luo, Fei Tang, Dehan Kong, Yanyi Shang, Suling Ou, Zhenlin Guo, Changhua Meng, Shuheng Shen
-    - 🏛️ Institutions: Venus Team, AntGroup, iMean AI
+    - 🏛️ Institutions: Venus Team, Ant Group, iMean AI
     - 📅 Date: December 18, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -414,7 +414,7 @@
 
 - [OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models](https://arxiv.org/abs/2512.16295)
     - Zhenyu Wu, Jingjing Xie, Zehao Li, Bowen Yang, Qiushi Sun, Zhaoyang Liu, Zhoumianze Liu, Yu Qiao, Xiangyu Yue, Zun Wang, Zichen Ding
-    - 🏛️ Institutions: Shanghai Jiaotong University, Shanghai AI Laboratory, CUHK MMLab, The University of Hong Kong, The Hong Kong University of Science and Technology
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Shanghai AI Laboratory, CUHK MMLab, HKU, HKUST
     - 📅 Date: December 18, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -432,7 +432,7 @@
 
 - [Privacy Practices of Browser Agents](https://arxiv.org/abs/2512.07725)
     - Alisha Ukani, Hamed Haddadi, Ali Shahin Shamsabadi, Peter Snyder
-    - 🏛️ Institutions: University of California, San Diego, Brave Software, Imperial College London
+    - 🏛️ Institutions: UC San Diego, Brave Software, Imperial College London
     - 📅 Date: December 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -450,7 +450,7 @@
 
 - [LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents](https://arxiv.org/abs/2512.04105)
     - Jinzhe Tan, Karim Benyekhlef
-    - 🏛️ Institutions: University of Montreal
+    - 🏛️ Institutions: Université de Montréal
     - 📅 Date: November 28, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -468,7 +468,7 @@
 
 - [Adapting Web Agents with Synthetic Supervision](https://arxiv.org/abs/2511.06101)
     - Zhaoyang Wang, Yiming Liang, Xuchao Zhang, Qianhui Wu, Siwei Han, Anson Bastos, Rujia Wang, Chetan Bansal, Baolin Peng, Jianfeng Gao, Saravan Rajmohan, Huaxiu Yao
-    - 🏛️ Institutions: UNC-Chapel Hill, Purdue University, Microsoft
+    - 🏛️ Institutions: UNC Chapel Hill, Purdue University, Microsoft
     - 📅 Date: November 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -495,7 +495,7 @@
 
 - [WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation](https://arxiv.org/abs/2510.19205)
     - Yaoyao Qian, Yuanli Wang, Jinda Zhang, Yun Zong, Meixu Chen, Hanhan Zhou, Jindan Huang, Yifan Zeng, Xinyu Hu, Chan Hee Song, Danqing Zhang
-    - 🏛️ Institutions: Northeastern University, Boston University, University of Victoria, University of Minnesota, George Washington University, Tufts University, Oregon State University, University of Texas at San Antonio, The Ohio State University, PathOnAI.org
+    - 🏛️ Institutions: Northeastern University, Boston University, University of Victoria, University of Minnesota, George Washington University, Tufts University, Oregon State University, University of Texas at San Antonio, OSU, PathOnAI.org
     - 📅 Date: October 22, 2025
     - 📑 Publisher: NeurIPS 2025 Workshop on Multi-Turn Interactions in Large Language Models
     - 💻 Env: [Web]
@@ -504,30 +504,30 @@
 
 - [Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming](https://arxiv.org/abs/2510.18314)
     - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
-    - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Tencent, Shanghai Jiao Tong University, Alibaba Group
+    - 🏛️ Institutions: HKUST(GZ), Tencent, Shanghai Jiao Tong University, Alibaba Group
     - 📅 Date: October 21, 2025
     - 📑 Publisher: ICME 2026
     - 💻 Env: [Web]
     - 🔑 Key: [safety], [attack], [prompt injection], [genetic algorithm], [red-teaming], [Genesis]
     - 📖 TLDR: Genesis studies automated red-teaming for web agents by evolving attack strategies over repeated interactions instead of relying on fixed prompts or manually designed attacks. Its attacker-scorer-strategist loop builds and reuses a growing strategy library, yielding stronger adversarial injections across web tasks.
 
-- [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
-    - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
-    - 🏛️ Institutions: Apple, The University of Hong Kong
-    - 📅 Date: October 20, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [UltraCUA]
-    - 📖 TLDR: UltraCUA bridges low-level GUI actions and higher-level tool use in one computer-use model instead of forcing every task through clicks, typing, and scrolling alone. Its pipeline combines automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online RL, and the resulting hybrid-action models improve both OSWorld performance and transfer to WindowsAgentArena.
-
 - [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
     - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
-    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Institute of Technology
+    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Tech
     - 📅 Date: October 20, 2025
     - 📑 Publisher: IEEE S&P 2026
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [safety], [dark patterns], [TrickyArena], [LiteAgent]
     - 📖 TLDR: This paper studies how deceptive interface designs affect web agents, introducing LiteAgent for controlled execution and TrickyArena as a dark-pattern test environment. Across six agent frameworks and three underlying models, it finds that agents are frequently steered by dark patterns and that both visual and HTML-level manipulations can change susceptibility.
+
+- [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
+    - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
+    - 🏛️ Institutions: Apple, HKU
+    - 📅 Date: October 20, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [UltraCUA]
+    - 📖 TLDR: UltraCUA bridges low-level GUI actions and higher-level tool use in one computer-use model instead of forcing every task through clicks, typing, and scrolling alone. Its pipeline combines automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online RL, and the resulting hybrid-action models improve both OSWorld performance and transfer to WindowsAgentArena.
 
 - [WebServ: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale](https://arxiv.org/abs/2510.16252)
     - Yuxuan Lu, Jing Huang, Hui Liu, Jiri Gesi, Yan Han, Shihan Fu, Tianqi Zheng, Dakuo Wang
@@ -558,7 +558,7 @@
 
 - [HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities](https://arxiv.org/abs/2510.12200)
     - Xiaoxue Ren, Penghao Jiang, Kaixin Li, Zhiyong Huang, Xiaoning Du, Jiaojiao Jiang, Zhenchang Xing, Jiamou Sun, Terry Yue Zhuo
-    - 🏛️ Institutions: Zhejiang University, University of New South Wales, National University of Singapore, Monash University, CSIRO’s Data61, Australian National University
+    - 🏛️ Institutions: Zhejiang University, University of New South Wales, NUS, Monash University, CSIRO’s Data61, Australian National University
     - 📅 Date: October 14, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
@@ -576,7 +576,7 @@
 
 - [SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents](https://arxiv.org/abs/2510.11035)
     - Longjie Guo, Chenjie Yuan, Mingyuan Zhong, Robert Wolfe, Ruican Zhong, Yue Xu, Bingbing Wen, Hua Shen, Lucy Lu Wang, Alexis Hiniker
-    - 🏛️ Institutions: University of Washington, Rutgers University, Carnegie Mellon University, New York University Shanghai
+    - 🏛️ Institutions: University of Washington, Rutgers University, CMU, New York University Shanghai
     - 📅 Date: October 13, 2025
     - 📑 Publisher: IUI 2026
     - 💻 Env: [Web]
@@ -594,7 +594,7 @@
 
 - [SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents](https://arxiv.org/abs/2510.10073)
     - Zonghao Ying, Yangguang Shao, Jianle Gan, Gan Xu, Junjie Shen, Wenxin Zhang, Quanchen Zou, Junzheng Shi, Zhenfei Yin, Mingchuan Zhang, Aishan Liu, Xianglong Liu
-    - 🏛️ Institutions: SKLCCSE, Beihang University, Institute of Information Engineering, Chinese Academy of Sciences, China University of Petroleum (East China), Zhejiang University of Technology, University of Chinese Academy of Science, 360 AI Security Lab, The University of Sydney, Henan University of Science and Technology, Zhongguancun Laboratory, Institute of Dataspace
+    - 🏛️ Institutions: SKLCCSE, Beihang University, Institute of Information Engineering, Chinese Academy of Sciences, China University of Petroleum (East China), Zhejiang University of Technology, University of Chinese Academy of Sciences, 360 AI Security Lab, The University of Sydney, Henan University of Science and Technology, Zhongguancun Laboratory, Institute of Dataspace
     - 📅 Date: October 11, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -612,7 +612,7 @@
 
 - [JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation](https://arxiv.org/abs/2510.04373)
     - Hadi Nekoei, Aman Jaiswal, Patrice Bechard, Oleh Shliazhko, Orlando Marquez Ayala, Mathieu Reymond, Massimo Caccia, Alexandre Drouin, Sarath Chandar, Alexandre Lacoste
-    - 🏛️ Institutions: ServiceNow Research, Mila - Quebec AI Institute, Université de Montréal, Dalhousie University, Polytechnique Montréal, Canada CIFAR AI Chair
+    - 🏛️ Institutions: ServiceNow Research, Mila, Université de Montréal, Dalhousie University, Polytechnique Montréal, Canada CIFAR AI Chair
     - 📅 Date: October 05, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -630,7 +630,7 @@
 
 - [FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents](https://arxiv.org/abs/2510.03204)
     - Imene Kerboua, Sahar Omidi Shayegan, Megh Thakkar, Xing Han Lù, Léo Boisvert, Massimo Caccia, Jérémy Espinas, Alexandre Aussem, Véronique Eglin, Alexandre Lacoste
-    - 🏛️ Institutions: LIRIS - CNRS, INSA Lyon, Universite Claude Bernard Lyon 1, Esker, ServiceNow Research, Mila - Quebec AI Institute, McGill University, Polytechnique Montréal
+    - 🏛️ Institutions: LIRIS - CNRS, INSA Lyon, Universite Claude Bernard Lyon 1, Esker, ServiceNow Research, Mila, McGill University, Polytechnique Montréal
     - 📅 Date: October 03, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -648,7 +648,7 @@
 
 - [PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents](https://arxiv.org/abs/2510.00413)
     - Zikang Liu, Junyi Li, Wayne Xin Zhao, Dawei Gao, Yaliang Li, Ji-rong Wen
-    - 🏛️ Institutions: Gaoling School of Artificial Intelligence, Renmin University of China, Department of Computer Science, National University of Singapore, Alibaba Group
+    - 🏛️ Institutions: Gaoling School of Artificial Intelligence, Renmin University of China, Department of Computer Science, NUS, Alibaba Group
     - 📅 Date: October 01, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile], [Web]
@@ -675,7 +675,7 @@
 
 - [Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge](https://openreview.net/forum?id=AUaW6DS9si)
     - Boyu Gou, Zanming Huang, Yuting Ning, Yu Gu, Michael Lin, Weijian Qi, Andrei Kopanev, Botao Yu, Bernal Jiménez Gutiérrez, Yiheng Shu, Chan Hee Song, Jiaman Wu, Shijie Chen, Hanane Nour Moussa, Tianshu Zhang, Jian Xie, Yifei Li, Tianci Xue, Zeyi Liao, Kai Zhang, Boyuan Zheng, Zhaowei Cai, Viktor Rozgic, Morteza Ziyadi, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Amazon AGI
+    - 🏛️ Institutions: OSU, Amazon AGI
     - 📅 Date: September 18, 2025
     - 📑 Publisher: NeurIPS 2025 Datasets & Benchmarks Track (Poster)
     - 💻 Env: [Web]
@@ -702,7 +702,7 @@
 
 - [Throttling Web Agents Using Reasoning Gates](https://arxiv.org/abs/2509.01619)
     - Abhinav Kumar, Jaechul Roh, Ali Naseh, Amir Houmansadr, Eugene Bagdasarian
-    - 🏛️ Institutions: University of Massachusetts Amherst
+    - 🏛️ Institutions: UMass Amherst
     - 📅 Date: September 01, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -738,7 +738,7 @@
 
 - [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123)
     - Xinyuan Wang, Bowen Wang, Dunjie Lu, Junlin Yang, Tianbao Xie, Junli Wang, Jiaqi Deng, Xiaole Guo, Yiheng Xu, Chen Henry Wu, Zhennan Shen, Zhuokai Li, Ryan Li, Xiaochuan Li, Junda Chen, Boyuan Zheng, Peihang Li, Fangyu Lei, Ruisheng Cao, Yeqiao Fu, Dongchan Shin, Martin Shin, Jiarui Hu, Yuyan Wang, Jixuan Chen, Yuxiao Ye, Danyang Zhang, Dikang Du, Hao Hu, Huarong Chen, Zaida Zhou, Haotian Yao, Ziwei Chen, Qizheng Gu, Yipu Wang, Heng Wang, Diyi Yang, Victor Zhong, Flood Sung, Y.Charles, Zhilin Yang, Tao Yu
-    - 🏛️ Institutions: XLANG Lab, University of Hong Kong, Moonshot AI, Stanford University, University of Waterloo, Carnegie Mellon University
+    - 🏛️ Institutions: XLANG Lab, HKU, Moonshot AI, Stanford University, University of Waterloo, CMU
     - 📅 Date: August 12, 2025
     - 📑 Publisher: NeurIPS 2025 (Spotlight)
     - 💻 Env: [Desktop], [Web]
@@ -754,14 +754,14 @@
     - 🔑 Key: [GUI-RC], [GUI-RCPO], [region consistency], [test-time scaling], [test-time reinforcement learning]
     - 📖 TLDR: This paper uses consistency across multiple grounding predictions as a test-time signal for GUI grounding. GUI-RC aggregates sampled outputs into consensus regions without extra training, while GUI-RCPO turns the same signal into rewards for test-time policy optimization on unlabeled data, improving ScreenSpot results across several model families.
 
-- [GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](https://arxiv.org/abs/2508.04389)
-    - Weitai Kang, Bin Lei, Gaowen Liu, Caiwen Ding, Yan Yan
-    - 🏛️ Institutions: University of Illinois Chicago, University of Minnesota, Cisco Research
+- [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026)
+    - Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Jialiang Gao, Heng Zhou, Yunhao Yang, Wendong Fan, puzhen zhang, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Junjie Wang, Aosong Feng, Jindi Lv, Sicong Jiang, Ziqi Ren, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao
+    - 🏛️ Institutions: NTU, Zhejiang University, University of Tokyo, Shanghai AI Laboratory, Google DeepMind, University of Alberta
     - 📅 Date: August 06, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI visual grounding], [reinforcement fine-tuning], [Adversarial KL Factor], [ScreenSpot], [GuirlVG]
-    - 📖 TLDR: GuirlVG studies how to make reinforcement fine-tuning work for GUI visual grounding instead of naively applying standard rule-based RL. It systematically tunes reward design, prediction format, and training setup, adds an Adversarial KL Factor for stabilization, and reports stronger ScreenSpot-family results with only 5.2K training samples.
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [long-chain web benchmark], [subtask-level verifiability], [breadth-and-depth search], [human demonstrations], [VeriWeb]
+    - 📖 TLDR: VeriWeb is a web benchmark for long-chain information-seeking tasks that decomposes each problem into interdependent, verifiable subtasks instead of relying only on final-answer checks. It contains 302 human-annotated tasks across five domains and is designed to stress both coverage-oriented search and multi-hop context tracking in realistic web environments.
 
 - [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037)
     - Yuhao Cheng, Liang Tang, Shuxian Li, Yukang Huo, Tiaonan Duan, Kaer Huang, Yanzhe Jing, Yiqiang Yan
@@ -772,14 +772,14 @@
     - 🔑 Key: [Self-Evolution Agent], [step-wise reinforcement learning], [grounding-based generalization enhancement], [temporal compressed sensing], [OSWorld]
     - 📖 TLDR: This paper proposes the Self-Evolution Agent (SEA) for computer use, combining automatic verifiable trajectory generation, efficient step-wise reinforcement learning, and a model-enhancement path that merges grounding and planning ability. It evaluates the resulting agent on grounding benchmarks and OSWorld and frames the method as a way to improve computer-use performance without relying purely on manually curated data.
 
-- [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026)
-    - Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Jialiang Gao, Heng Zhou, Yunhao Yang, Wendong Fan, puzhen zhang, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Junjie Wang, Aosong Feng, Jindi Lv, Sicong Jiang, Ziqi Ren, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao
-    - 🏛️ Institutions: NTU, Zhejiang University, University of Tokyo, Shanghai AI Lab, Google DeepMind, University of Alberta
+- [GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](https://arxiv.org/abs/2508.04389)
+    - Weitai Kang, Bin Lei, Gaowen Liu, Caiwen Ding, Yan Yan
+    - 🏛️ Institutions: University of Illinois Chicago, University of Minnesota, Cisco Research
     - 📅 Date: August 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [long-chain web benchmark], [subtask-level verifiability], [breadth-and-depth search], [human demonstrations], [VeriWeb]
-    - 📖 TLDR: VeriWeb is a web benchmark for long-chain information-seeking tasks that decomposes each problem into interdependent, verifiable subtasks instead of relying only on final-answer checks. It contains 302 human-annotated tasks across five domains and is designed to stress both coverage-oriented search and multi-hop context tracking in realistic web environments.
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Desktop], [Mobile], [Web]
+    - 🔑 Key: [GUI visual grounding], [reinforcement fine-tuning], [Adversarial KL Factor], [ScreenSpot], [GuirlVG]
+    - 📖 TLDR: GuirlVG studies how to make reinforcement fine-tuning work for GUI visual grounding instead of naively applying standard rule-based RL. It systematically tunes reward design, prediction format, and training setup, adds an Adversarial KL Factor for stabilization, and reports stronger ScreenSpot-family results with only 5.2K training samples.
 
 - [NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks](https://arxiv.org/abs/2508.02046)
     - Zhihao Luo, Wentao Yan, Jingyu Gong, Min Wang, Zhizhong Zhang, Xuhong Wang, Yuan Xie, Xin Tan
@@ -792,7 +792,7 @@
 
 - [Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](https://arxiv.org/abs/2508.01858)
     - Yuhan Guo, Cong Guo, Aiwen Sun, Hongliang He, Xinyu Yang, Yue Lu, Yingji Zhang, Xuntao Guo, Dong Zhang, Jianzhuang Liu, Jiang Duan, Yijia Xiao, Liangjian Wen, Hai-Ming Xu, Yong Dai
-    - 🏛️ Institutions: Southwestern University of Finance and Economics, Shanghai Jiao Tong University, Central South University, Hithink Research, Westlake University, Harbin Institute of Technology, University of Manchester, University of California, Los Angeles, University of Adelaide, Fudan University, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+    - 🏛️ Institutions: Southwestern University of Finance and Economics, Shanghai Jiao Tong University, Central South University, Hithink Research, Westlake University, Harbin Institute of Technology, University of Manchester, UCLA, University of Adelaide, Fudan University, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
     - 📅 Date: August 03, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
@@ -801,7 +801,7 @@
 
 - [Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents](https://aclanthology.org/2025.findings-acl.326/)
     - Vardaan Pahuja, Yadong Lu, Corby Rosset, Boyu Gou, Arindam Mitra, Spencer Whitehead, Yu Su, Ahmed Hassan Awadallah
-    - 🏛️ Institutions: Microsoft Research, Redmond, The Ohio State University
+    - 🏛️ Institutions: Microsoft Research, Redmond, OSU
     - 📅 Date: July 2025
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Web]
@@ -810,7 +810,7 @@
 
 - [Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction](https://arxiv.org/abs/2506.07976)
     - Junhong Shen, Hao Bai, Lunjun Zhang, Yifei Zhou, Amrith Setlur, Shengbang Tong, Diego Caples, Nan Jiang, Tong Zhang, Ameet Talwalkar, Aviral Kumar
-    - 🏛️ Institutions: Carnegie Mellon University, Scribe, University of Illinois Urbana-Champaign, University of Toronto, University of California, Berkeley, The AGI Company, New York University
+    - 🏛️ Institutions: CMU, Scribe, UIUC, University of Toronto, UC Berkeley, The AGI Company, New York University
     - 📅 Date: June 09, 2025
     - 📑 Publisher: SEA @ NeurIPS 2025 (Oral)
     - 💻 Env: [Web]
@@ -819,7 +819,7 @@
 
 - [Go-Browse: Training Web Agents with Structured Exploration](https://arxiv.org/abs/2506.03533)
     - Apurva Gandhi, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: June 04, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Web]
@@ -837,7 +837,7 @@
 
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
-    - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
+    - 🏛️ Institutions: Shanghai AI Laboratory, University of Science and Technology of China, Shanghai Jiao Tong University
     - 📅 Date: May 31, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -864,7 +864,7 @@
 
 - [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
     - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: May 28, 2025
     - 📑 Publisher: ICLR 2026 (Oral)
     - 💻 Env: [Desktop], [Web]
@@ -873,7 +873,7 @@
 
 - [WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2505.16421)
     - Zhepei Wei, Wenlin Yao, Yao Liu, Weizhi Zhang, Qin Lu, Liang Qiu, Changlong Yu, Puyang Xu, Chao Zhang, Bing Yin, Hyokun Yun, Lihong Li
-    - 🏛️ Institutions: University of Virginia, Amazon, Georgia Institute of Technology
+    - 🏛️ Institutions: University of Virginia, Amazon, Georgia Tech
     - 📅 Date: May 22, 2025
     - 📑 Publisher: EMNLP 2025
     - 💻 Env: [Web]
@@ -882,7 +882,7 @@
 
 - [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277)
     - Hyungjoo Chae, Sunghwan Kim, Junhee Cho, Seungone Kim, Seungjun Moon, Gyeom Hwangbo, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, Taeyoon Kwon, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo
-    - 🏛️ Institutions: Yonsei University, Carnegie Mellon University
+    - 🏛️ Institutions: Yonsei University, CMU
     - 📅 Date: May 21, 2025
     - 📑 Publisher: NeurIPS 2025 (Spotlight)
     - 💻 Env: [Web]
@@ -918,7 +918,7 @@
 
 - [CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation](https://aclanthology.org/2025.naacl-demo.17/)
     - Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig
-    - 🏛️ Institutions: School of Computer Science, Carnegie Mellon University
+    - 🏛️ Institutions: School of Computer Science, CMU
     - 📅 Date: April 30, 2025
     - 📑 Publisher: NAACL 2025 (System Demonstrations)
     - 💻 Env: [Web]
@@ -927,7 +927,7 @@
 
 - [Infogent: An Agent-Based Framework for Web Information Aggregation](https://aclanthology.org/2025.findings-naacl.318/)
     - Revanth Gangi Reddy, Sagnik Mukherjee, Jeonghwan Kim, Zhenhailong Wang, Dilek Hakkani-Tur, Heng Ji
-    - 🏛️ Institutions: University of Illinois at Urbana-Champaign
+    - 🏛️ Institutions: UIUC
     - 📅 Date: April 29, 2025
     - 📑 Publisher: Findings of NAACL 2025
     - 💻 Env: [Web]
@@ -945,7 +945,7 @@
 
 - [WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms](https://arxiv.org/abs/2504.11788)
     - Zhisong Zhang, Tianqing Fang, Kaixin Ma, Wenhao Yu, Hongming Zhang, Haitao Mi, Dong Yu
-    - 🏛️ Institutions: City University of Hong Kong, Tencent AI Lab
+    - 🏛️ Institutions: CityU, Tencent AI Lab
     - 📅 Date: April 16, 2025
     - 📑 Publisher: EACL 2026
     - 💻 Env: [Web]
@@ -963,7 +963,7 @@
 
 - [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/abs/2504.10458)
     - Run Luo, Lu Wang, Wanwei He, Longze Chen, Jiaming Li, Min Yang, Xiaobo Xia
-    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, National University of Singapore
+    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, NUS
     - 📅 Date: April 14, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -999,7 +999,7 @@
 
 - [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
     - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
+    - 🏛️ Institutions: CMU, Microsoft
     - 📅 Date: April 09, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
@@ -1008,7 +1008,7 @@
 
 - [SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills](https://arxiv.org/abs/2504.07079)
     - Boyuan Zheng, Michael Y. Fatemi, Xiaolong Jin, Zora Zhiruo Wang, Apurva Gandhi, Yueqi Song, Yu Gu, Jayanth Srinivasa, Gaowen Liu, Graham Neubig, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Carnegie Mellon University, University of Virginia, Purdue University, Cisco Research
+    - 🏛️ Institutions: OSU, CMU, University of Virginia, Purdue University, Cisco Research
     - 📅 Date: April 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1026,7 +1026,7 @@
 
 - [An Illusion of Progress? Assessing the Current State of Web Agents](https://openreview.net/forum?id=6jZi4HSs6o)
     - Tianci Xue, Weijian Qi, Tianneng Shi, Chan Hee Song, Boyu Gou, Dawn Song, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, University of California, Berkeley
+    - 🏛️ Institutions: OSU, UC Berkeley
     - 📅 Date: April 02, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
@@ -1035,7 +1035,7 @@
 
 - [A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models](https://arxiv.org/abs/2503.23350)
     - Liangbo Ning, Ziran Liang, Zhuohang Jiang, Haohao Qu, Yujuan Ding, Wenqi Fan, Xiao-yong Wei, Shanru Lin, Hui Liu, Philip S. Yu, Qing Li
-    - 🏛️ Institutions: The Hong Kong Polytechnic University, City University of Hong Kong, Michigan State University, University of Illinois Chicago
+    - 🏛️ Institutions: PolyU, CityU, Michigan State University, University of Illinois Chicago
     - 📅 Date: March 30, 2025
     - 📑 Publisher: KDD 2025
     - 💻 Env: [Web]
@@ -1053,7 +1053,7 @@
 
 - [In-Context Defense in Computer Agents: An Empirical Study](https://arxiv.org/abs/2503.09241)
     - Pei Yang, Hai Ci, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: March 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -1098,7 +1098,7 @@
 
 - [Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis](https://arxiv.org/abs/2502.20383)
     - Jeffrey Yang Fan Chiang, Seungjae Lee, Jia-Bin Huang, Furong Huang, Yizheng Chen
-    - 🏛️ Institutions: University of Maryland
+    - 🏛️ Institutions: UMD
     - 📅 Date: February 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1107,7 +1107,7 @@
 
 - [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047)
     - Henry Hengyuan Zhao, Kaiming Yang, Wendi Yu, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore
+    - 🏛️ Institutions: Show Lab, NUS
     - 📅 Date: February 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -1143,7 +1143,7 @@
 
 - [Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents](https://proceedings.mlr.press/v267/zhou25ah.html)
     - Yifei Zhou, Qianlan Yang, Kaixiang Lin, Min Bai, Xiong Zhou, Yu-Xiong Wang, Sergey Levine, Li Erran Li
-    - 🏛️ Institutions: University of California, Berkeley, University of Illinois Urbana-Champaign, Amazon
+    - 🏛️ Institutions: UC Berkeley, UIUC, Amazon
     - 📅 Date: December 17, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Web]
@@ -1152,7 +1152,7 @@
 
 - [Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining](https://arxiv.org/abs/2412.10342)
     - Zhiqi Ge, Juncheng Li, Xinglei Pang, Minghe Gao, Kaihang Pan, Wang Lin, Hao Fei, Wenqiao Zhang, Siliang Tang, Yueting Zhuang
-    - 🏛️ Institutions: Zhejiang University, National University of Singapore
+    - 🏛️ Institutions: Zhejiang University, NUS
     - 📅 Date: December 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -1161,7 +1161,7 @@
 
 - [The BrowserGym Ecosystem for Web Agent Research](https://openreview.net/forum?id=5298fKGmv3)
     - Thibault Le Sellier de Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo Caccia, Alexandre Drouin, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart, Russ Salakhutdinov, Nicolas Chapados
-    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, Carnegie Mellon University, École Polytechnique de Montréal, Université de Montréal
+    - 🏛️ Institutions: ServiceNow Research, ServiceNow, Laval University, imean.ai, Microsoft, CMU, Polytechnique Montréal, Université de Montréal
     - 📅 Date: December 06, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
@@ -1179,7 +1179,7 @@
 
 - [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html)
     - Kevin Qinghong Lin, Linjie Li, Difei Gao, Zhengyuan Yang, Shiwei Wu, Zechen Bai, Weixian Lei, Lijuan Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore, Microsoft
+    - 🏛️ Institutions: Show Lab, NUS, Microsoft
     - 📅 Date: November 26, 2024
     - 📑 Publisher: CVPR 2025
     - 💻 Env: [Mobile], [Web]
@@ -1188,7 +1188,7 @@
 
 - [AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations](https://aclanthology.org/2025.acl-long.1008/)
     - Gaurav Verma, Rachneet Kaur, Nishan Srishankar, Zhen Zeng, Tucker Balch, Manuela Veloso
-    - 🏛️ Institutions: Georgia Institute of Technology, J.P. Morgan AI Research
+    - 🏛️ Institutions: Georgia Tech, J.P. Morgan AI Research
     - 📅 Date: November 24, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Web]
@@ -1215,7 +1215,7 @@
 
 - [WebOlympus: An Open Platform for Web Agents on Live Websites](https://aclanthology.org/2024.emnlp-demo.20/)
     - Boyuan Zheng, Boyu Gou, Scott Salisbury, Zheng Du, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: November 12, 2024
     - 📑 Publisher: EMNLP 2024 System Demonstrations
     - 💻 Env: [Web]
@@ -1224,7 +1224,7 @@
 
 - [Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents](https://openreview.net/forum?id=c6l7yA0HSq)
     - Yu Gu, Kai Zhang, Yuting Ning, Boyuan Zheng, Boyu Gou, Tianci Xue, Cheng Chang, Sanjari Srivastava, Yanan Xie, Peng Qi, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Uniphore, Orby AI
+    - 🏛️ Institutions: OSU, Uniphore, Orby AI
     - 📅 Date: November 10, 2024
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
@@ -1242,7 +1242,7 @@
 
 - [Attacking Vision-Language Computer Agents via Pop-ups](https://aclanthology.org/2025.acl-long.411/)
     - Yanzhe Zhang, Tao Yu, Diyi Yang
-    - 🏛️ Institutions: Georgia Tech, The University of Hong Kong, Stanford University
+    - 🏛️ Institutions: Georgia Tech, HKU, Stanford University
     - 📅 Date: November 04, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Desktop], [Web]
@@ -1251,7 +1251,7 @@
 
 - [From Context to Action: Analysis of the Impact of State Representation and Context on the Generalization of Multi-Turn Web Navigation Agents](https://openreview.net/forum?id=8ocBIbsN6I)
     - Nalin Tiwary, Vardhan Dongre, Sanil Arun Chawla, Ashwin Lamani, Dilek Hakkani-Tür
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign
+    - 🏛️ Institutions: UIUC
     - 📅 Date: October 31, 2024
     - 📑 Publisher: Open-World Agents @ NeurIPS 2024 (Poster)
     - 💻 Env: [Web]
@@ -1260,7 +1260,7 @@
 
 - [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218)
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
-    - 🏛️ Institutions: Shanghai AI Laboratory, Shanghai Jiaotong University, The University of Hong Kong, MIT
+    - 🏛️ Institutions: Shanghai AI Laboratory, Shanghai Jiao Tong University, HKU, MIT
     - 📅 Date: October 30, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -1269,7 +1269,7 @@
 
 - [Evaluating Cultural and Social Awareness of LLM Web Agents](https://aclanthology.org/2025.findings-naacl.222/)
     - Haoyi Qiu, Alexander Richard Fabbri, Divyansh Agarwal, Kung-Hsiang Huang, Sarah Tan, Nanyun Peng, Chien-Sheng Wu
-    - 🏛️ Institutions: University of California, Los Angeles, Salesforce AI Research
+    - 🏛️ Institutions: UCLA, Salesforce AI Research
     - 📅 Date: October 30, 2024
     - 📑 Publisher: Findings of NAACL 2025
     - 💻 Env: [Web]
@@ -1305,7 +1305,7 @@
 
 - [VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html)
     - Lawrence Jang, Yinheng Li, Dan Zhao, Charles Ding, Justin Lin, Paul Pu Liang, Rogerio Bonatti, Kazuhito Koishida
-    - 🏛️ Institutions: Carnegie Mellon University, Massachusetts Institute of Technology, Microsoft
+    - 🏛️ Institutions: CMU, MIT, Microsoft
     - 📅 Date: October 24, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Web]
@@ -1314,7 +1314,7 @@
 
 - [Beyond Browsing: API-Based Web Agents](https://aclanthology.org/2025.findings-acl.577/)
     - Yueqi Song, Frank F. Xu, Shuyan Zhou, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: October 24, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Web]
@@ -1323,7 +1323,7 @@
 
 - [Large Language Models Empowered Personalized Web Agents](https://doi.org/10.1145/3696410.3714842)
     - Hongru Cai, Yongqi Li, Wenjie Wang, Fengbin Zhu, Xiaoyu Shen, Wenjie Li, Tat-Seng Chua
-    - 🏛️ Institutions: National University of Singapore, The Hong Kong Polytechnic University, University of Science and Technology of China, Eastern Institute of Technology, Ningbo
+    - 🏛️ Institutions: NUS, PolyU, University of Science and Technology of China, Eastern Institute of Technology, Ningbo
     - 📅 Date: October 22, 2024
     - 📑 Publisher: WWW 2025
     - 💻 Env: [Web]
@@ -1332,7 +1332,7 @@
 
 - [AdvAgent: Controllable Blackbox Red-teaming on Web Agents](https://proceedings.mlr.press/v267/xu25m.html)
     - Chejian Xu, Mintong Kang, Jiawei Zhang, Zeyi Liao, Lingbo Mo, Mengqi Yuan, Huan Sun, Bo Li
-    - 🏛️ Institutions: University of Illinois Urbana-Champaign, University of Chicago, The Ohio State University
+    - 🏛️ Institutions: UIUC, University of Chicago, OSU
     - 📅 Date: October 22, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Web]
@@ -1350,7 +1350,7 @@
 
 - [Harnessing Webpage UIs for Text-Rich Visual Understanding](https://proceedings.iclr.cc/paper_files/paper/2025/hash/2da53cd1abdae59150e35f4693834f32-Abstract-Conference.html)
     - Junpeng Liu, Tianyue Ou, Yifan Song, Yuxiao Qu, Wai Lam, Chenyan Xiong, Wenhu Chen, Graham Neubig, Xiang Yue
-    - 🏛️ Institutions: Carnegie Mellon University, The Chinese University of Hong Kong, Peking University, University of Waterloo
+    - 🏛️ Institutions: CMU, CUHK, Peking University, University of Waterloo
     - 📅 Date: October 17, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Web]
@@ -1359,7 +1359,7 @@
 
 - [Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents](https://arxiv.org/abs/2410.13886)
     - Priyanshu Kumar, Elaine Lau, Saranya Vijayakumar, Tu Trinh, Scale Red Team, Elaine Chang, Vaughn Robinson, Sean Hendryx, Shuyan Zhou, Matt Fredrikson, Summer Yue, Zifan Wang
-    - 🏛️ Institutions: Carnegie Mellon University, Scale AI, GraySwan AI
+    - 🏛️ Institutions: CMU, Scale AI, GraySwan AI
     - 📅 Date: October 11, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1386,7 +1386,7 @@
 
 - [Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html)
     - Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University, Orby AI
+    - 🏛️ Institutions: OSU, Orby AI
     - 📅 Date: October 07, 2024
     - 📑 Publisher: ICLR 2025 (Oral)
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -1404,7 +1404,7 @@
 
 - [Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale](https://proceedings.neurips.cc/paper_files/paper/2024/hash/a6a6891cf1dfc64d664f086cf5976e93-Abstract-Conference.html)
     - Tianyue Ou, Frank F. Xu, Aman Madaan, Jiarui Liu, Robert Lo, Abishek Sridhar, Sudipta Sengupta, Dan Roth, Graham Neubig, Shuyan Zhou
-    - 🏛️ Institutions: Carnegie Mellon University, Amazon AWS AI, xAI
+    - 🏛️ Institutions: CMU, Amazon AWS AI, xAI
     - 📅 Date: September 24, 2024
     - 📑 Publisher: NeurIPS 2024
     - 💻 Env: [Web]
@@ -1413,7 +1413,7 @@
 
 - [EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://openreview.net/forum?id=xMOLUzo2Lk)
     - Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, Amazon, University of Illinois Urbana-Champaign, University of Chicago, Johns Hopkins University, University of Virginia
+    - 🏛️ Institutions: OSU, Amazon, UIUC, University of Chicago, Johns Hopkins University, University of Virginia
     - 📅 Date: September 17, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
@@ -1422,7 +1422,7 @@
 
 - [Agent Workflow Memory](https://proceedings.mlr.press/v267/wang25bx.html)
     - Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University, Massachusetts Institute of Technology
+    - 🏛️ Institutions: CMU, MIT
     - 📅 Date: September 11, 2024
     - 📑 Publisher: ICML 2025
     - 💻 Env: [Web]
@@ -1476,7 +1476,7 @@
 
 - [Tree Search for Language Model Agents](https://arxiv.org/abs/2407.01476)
     - Jing Yu Koh, Stephen McAleer, Daniel Fried, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: July 01, 2024
     - 📑 Publisher: TMLR 2025
     - 💻 Env: [Web]
@@ -1494,7 +1494,7 @@
 
 - [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
     - Qinchen Wu, Difei Gao, Kevin Qinghong Lin, Zhuoyu Wu, Xiangwu Guo, Peiran Li, Weichen Zhang, Hengxu Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, National University of Singapore, Chinese Academy of Sciences, Shenzhen
+    - 🏛️ Institutions: Show Lab, NUS, Chinese Academy of Sciences, Shenzhen
     - 📅 Date: June 19, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -1503,7 +1503,7 @@
 
 - [WebCanvas: Benchmarking Web Agents in Online Environments](https://arxiv.org/abs/2406.12373)
     - Yichen Pan, Dehan Kong, Sida Zhou, Cheng Cui, Yifei Leng, Bing Jiang, Hangyu Liu, Yanyi Shang, Shuyan Zhou, Tongshuang Wu, Zhengyang Wu
-    - 🏛️ Institutions: iMean AI, Carnegie Mellon University
+    - 🏛️ Institutions: iMean AI, CMU
     - 📅 Date: June 18, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1512,7 +1512,7 @@
 
 - [Dissecting Adversarial Robustness of Multimodal LM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/460a1d8eac34125dad453b28d6d64446-Abstract-Conference.html)
     - Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: June 18, 2024
     - 📑 Publisher: ICLR 2025
     - 💻 Env: [Web]
@@ -1575,7 +1575,7 @@
 
 - [MMInA: Benchmarking Multihop Multimodal Internet Agents](https://aclanthology.org/2025.findings-acl.703/)
     - Shulin Tian, Ziniu Zhang, Liangyu Chen, Ziwei Liu
-    - 🏛️ Institutions: Nanyang Technological University
+    - 🏛️ Institutions: NTU
     - 📅 Date: April 15, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Web]
@@ -1584,7 +1584,7 @@
 
 - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html)
     - Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng Cao, Jing Hua Toh, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu, Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, Carnegie Mellon University, Salesforce Research, University of Waterloo
+    - 🏛️ Institutions: HKU, CMU, Salesforce AI Research, University of Waterloo
     - 📅 Date: April 11, 2024
     - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track
     - 💻 Env: [Desktop], [Web]
@@ -1602,7 +1602,7 @@
 
 - [VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://openreview.net/forum?id=egVSgtJJAx)
     - Junpeng Liu, Yifan Song, Bill Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li, Xiang Yue
-    - 🏛️ Institutions: Carnegie Mellon University, The Chinese University of Hong Kong, School of Computer Science, Peking University, MBZUAI, Allen Institute for AI
+    - 🏛️ Institutions: CMU, CUHK, School of Computer Science, Peking University, MBZUAI, Allen Institute for AI
     - 📅 Date: April 09, 2024
     - 📑 Publisher: COLM 2024
     - 💻 Env: [Web]
@@ -1629,7 +1629,7 @@
 
 - [WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?](https://proceedings.mlr.press/v235/drouin24a.html)
     - Alexandre Drouin, Maxime Gasse, Massimo Caccia, Issam H. Laradji, Manuel Del Verme, Tom Marty, David Vazquez, Nicolas Chapados, Alexandre Lacoste
-    - 🏛️ Institutions: ServiceNow Research, Mila - Quebec AI Research Institute
+    - 🏛️ Institutions: ServiceNow Research, Mila
     - 📅 Date: March 11, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -1638,7 +1638,7 @@
 
 - [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://eccv.ecva.net/virtual/2024/poster/1107)
     - Raghav Kapoor, Yash Parag Butala, Melisa A Russak, Jing Yu Koh, Kiran Kamble, Waseem AlShikh, Ruslan Salakhutdinov
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: February 29, 2024
     - 📑 Publisher: ECCV 2024 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -1647,7 +1647,7 @@
 
 - [On the Multi-turn Instruction Following for Conversational Web Agents](https://aclanthology.org/2024.acl-long.477/)
     - Yang Deng, Xuan Zhang, Wenxuan Zhang, Yifei Yuan, See-Kiong Ng, Tat-Seng Chua
-    - 🏛️ Institutions: Singapore Management University, National University of Singapore, University of Copenhagen
+    - 🏛️ Institutions: Singapore Management University, NUS, University of Copenhagen
     - 📅 Date: February 23, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
@@ -1656,7 +1656,7 @@
 
 - [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://openreview.net/forum?id=3WWFrg8UjJ)
     - Zhiyong Wu, Chengcheng Han, Zichen Ding, Zhenmin Weng, Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng Kong
-    - 🏛️ Institutions: Shanghai AI Laboratory, East China Normal University, Princeton University, The University of Hong Kong
+    - 🏛️ Institutions: Shanghai AI Laboratory, East China Normal University, Princeton University, HKU
     - 📅 Date: February 12, 2024
     - 📑 Publisher: LLMAgents @ ICLR 2024
     - 💻 Env: [Desktop], [Web]
@@ -1665,7 +1665,7 @@
 
 - [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://proceedings.mlr.press/v235/lu24e.html)
     - Xing Han Lù, Zdeněk Kasner, Siva Reddy
-    - 🏛️ Institutions: Mila Quebec AI Institute, McGill University, Institute of Formal and Applied Linguistics, Charles University, Facebook CIFAR AI Chair
+    - 🏛️ Institutions: Mila, McGill University, Institute of Formal and Applied Linguistics, Charles University, Facebook CIFAR AI Chair
     - 📅 Date: February 08, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -1674,7 +1674,7 @@
 
 - [Dual-View Visual Contextualization for Web Navigation](https://doi.org/10.1109/CVPR52733.2024.01369)
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: February 06, 2024
     - 📑 Publisher: CVPR 2024
     - 💻 Env: [Web]
@@ -1692,7 +1692,7 @@
 
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://aclanthology.org/2024.acl-long.50/)
     - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: January 24, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Web]
@@ -1710,7 +1710,7 @@
 
 - [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://proceedings.mlr.press/v235/zheng24e.html)
     - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: January 03, 2024
     - 📑 Publisher: ICML 2024
     - 💻 Env: [Web]
@@ -1755,7 +1755,7 @@
 
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
     - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University, Inspired Cognition
+    - 🏛️ Institutions: CMU, Inspired Cognition
     - 📅 Date: July 25, 2023
     - 📑 Publisher: NeurIPS 2024 (Oral)
     - 💻 Env: [Web]
@@ -1773,7 +1773,7 @@
 
 - [Mind2Web: Towards a Generalist Agent for the Web](https://proceedings.neurips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html)
     - Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, Yu Su
-    - 🏛️ Institutions: The Ohio State University
+    - 🏛️ Institutions: OSU
     - 📅 Date: June 09, 2023
     - 📑 Publisher: NeurIPS 2023 Datasets and Benchmarks Track
     - 💻 Env: [Web]
@@ -1791,7 +1791,7 @@
 
 - [WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics](https://dl.acm.org/doi/10.1145/3544548.3581158)
     - Jason Wu, Siyan Wang, Siman Shen, Yi-Hao Peng, Jeffrey Nichols, Jeffrey P. Bigham
-    - 🏛️ Institutions: Carnegie Mellon University, Wellesley College, Grinnell College, Snooty Bird LLC
+    - 🏛️ Institutions: CMU, Wellesley College, Grinnell College, Snooty Bird LLC
     - 📅 Date: January 30, 2023
     - 📑 Publisher: CHI 2023
     - 💻 Env: [Web]

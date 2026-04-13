@@ -11,7 +11,7 @@
 
 - [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](https://arxiv.org/abs/2603.12138)
     - Rui Shao, Ruize Gao, Bin Xie, Yixing Li, Kaiwen Zhou, Shuai Wang, Weili Guan, Gongwei Chen
-    - 🏛️ Institutions: Harbin Institute of Technology, Shenzhen, National University of Singapore, CNRS@CREATE, Shenzhen Loop Area Institute, Huawei Noah's Ark Lab
+    - 🏛️ Institutions: HIT-Shenzhen, NUS, CNRS@CREATE, Shenzhen Loop Area Institute, Huawei Noah's Ark Lab
     - 📅 Date: March 12, 2026
     - 📑 Publisher: CVPR 2026
     - 💻 Env: [Web], [Mobile]
@@ -38,7 +38,7 @@
 
 - [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
     - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, Hong Kong University of Science and Technology, McGill University, Shanghai AI Lab, Gradient, University of Toronto, Mila - Quebec AI Institute
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Sichuan University, HKUST, McGill University, Shanghai AI Laboratory, Gradient, University of Toronto, Mila
     - 📅 Date: January 29, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -83,7 +83,7 @@
 
 - [Go-Browse: Training Web Agents with Structured Exploration](https://arxiv.org/abs/2506.03533)
     - Apurva Gandhi, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: June 04, 2025
     - 📑 Publisher: ICLR 2026
     - 💻 Env: [Web]
@@ -92,7 +92,7 @@
 
 - [Inducing Programmatic Skills for Agentic Tasks](https://openreview.net/forum?id=lsAY6fWsog)
     - Zora Zhiruo Wang, Apurva Gandhi, Graham Neubig, Daniel Fried
-    - 🏛️ Institutions: Carnegie Mellon University, Microsoft
+    - 🏛️ Institutions: CMU, Microsoft
     - 📅 Date: April 09, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
@@ -101,7 +101,7 @@
 
 - [Beyond Browsing: API-Based Web Agents](https://aclanthology.org/2025.findings-acl.577/)
     - Yueqi Song, Frank F. Xu, Shuyan Zhou, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University
+    - 🏛️ Institutions: CMU
     - 📅 Date: October 24, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Web]
@@ -128,7 +128,7 @@
 
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
     - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
-    - 🏛️ Institutions: Carnegie Mellon University, Inspired Cognition
+    - 🏛️ Institutions: CMU, Inspired Cognition
     - 📅 Date: July 25, 2023
     - 📑 Publisher: NeurIPS 2024 (Oral)
     - 💻 Env: [Web]

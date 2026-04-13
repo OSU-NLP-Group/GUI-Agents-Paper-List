@@ -11,7 +11,7 @@
 
 - [SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization](https://arxiv.org/abs/2601.22491)
     - Jinyang Wu, Changpeng Yang, Yuhao Shen, Fangzhi Xu, Bolin Ni, Chonghua Liao, Yuchen Liu, Hongzhen Wang, Shuai Nie, Shuai Zhang, Haoran Luo, Jiaming Xu
-    - 🏛️ Institutions: Tsinghua University, Xiaomi Corporation, Zhejiang University, Nanyang Technological University, Institute of Automation, Chinese Academy of Sciences
+    - 🏛️ Institutions: Tsinghua University, Xiaomi, Zhejiang University, NTU, Institute of Automation, Chinese Academy of Sciences
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -38,7 +38,7 @@
 
 - [Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent](https://arxiv.org/abs/2505.14141)
     - Fanglin Mo, Junzhe Chen, Haoxuan Zhu, Xuming Hu
-    - 🏛️ Institutions: Hong Kong University of Science and Technology (Guangzhou), School of Computer Science & Engineering, South China University of Technology
+    - 🏛️ Institutions: HKUST(GZ), School of Computer Science & Engineering, South China University of Technology
     - 📅 Date: May 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -56,7 +56,7 @@
 
 - [WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms](https://arxiv.org/abs/2504.11788)
     - Zhisong Zhang, Tianqing Fang, Kaixin Ma, Wenhao Yu, Hongming Zhang, Haitao Mi, Dong Yu
-    - 🏛️ Institutions: City University of Hong Kong, Tencent AI Lab
+    - 🏛️ Institutions: CityU, Tencent AI Lab
     - 📅 Date: April 16, 2025
     - 📑 Publisher: EACL 2026
     - 💻 Env: [Web]

@@ -38,7 +38,7 @@
 
 - [Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming](https://arxiv.org/abs/2510.18314)
     - Zheng Zhang, Jiarui He, Yuchen Cai, Deheng Ye, Peilin Zhao, Ruili Feng, Hao Wang
-    - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Tencent, Shanghai Jiao Tong University, Alibaba Group
+    - 🏛️ Institutions: HKUST(GZ), Tencent, Shanghai Jiao Tong University, Alibaba Group
     - 📅 Date: October 21, 2025
     - 📑 Publisher: ICME 2026
     - 💻 Env: [Web]
@@ -83,7 +83,7 @@
 
 - [EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://openreview.net/forum?id=xMOLUzo2Lk)
     - Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun
-    - 🏛️ Institutions: The Ohio State University, Amazon, University of Illinois Urbana-Champaign, University of Chicago, Johns Hopkins University, University of Virginia
+    - 🏛️ Institutions: OSU, Amazon, UIUC, University of Chicago, Johns Hopkins University, University of Virginia
     - 📅 Date: September 17, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
