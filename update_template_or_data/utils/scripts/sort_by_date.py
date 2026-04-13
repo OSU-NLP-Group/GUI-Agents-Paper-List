@@ -332,20 +332,14 @@ def process_markdown():
                 entries = build_empty_env_page(env_key)
             write_file(os.path.join("paper_by_env", file_name), entries)
 
-        # Generate env grouping as card-style HTML table
+        # Generate env grouping as emoji links on one line
         env_emoji = {"Web": "🌐", "Desktop": "🖥️", "Mobile": "📱", "General GUI": "🖼️"}
-        env_cells = []
+        env_parts = []
         for env_key, file_name in env_keywords.items():
             emoji = env_emoji.get(env_key, "")
             count = env_counts[env_key]
-            env_cells.append(
-                f'<td align="center" width="25%">'
-                f'<a href="paper_by_env/{file_name}">'
-                f'<b>{emoji} {env_key}</b><br>{count} papers'
-                f'</a></td>'
-            )
-        env_html = "<table>\n<tr>\n" + "\n".join(env_cells) + "\n</tr>\n</table>"
-        write_file("update_template_or_data/env_grouping.md", env_html)
+            env_parts.append(f"{emoji} [{env_key} ({count})](paper_by_env/{file_name})")
+        write_file("update_template_or_data/env_grouping.md", " · ".join(env_parts))
     except Exception as e:
         logging.error(f"Error generating environment-specific files: {str(e)}", exc_info=True)
 
@@ -382,23 +376,14 @@ def process_markdown():
         combined_keywords.sort(
             key=lambda x: (-x[1], predefined_keywords_list.index(x[0]) if x[0] in predefined_keywords_list else float('inf')))
 
-        # Generate keyword grouping as 4-column HTML table
-        cols = 4
-        rows_html = []
-        for i in range(0, len(combined_keywords), cols):
-            cells = []
-            for keyword, count in combined_keywords[i:i+cols]:
-                kw_file = f"paper_{keyword.replace(' ', '_')}.md"
-                cells.append(
-                    f'<td><a href="paper_by_key/{kw_file}">'
-                    f'<b>{keyword}</b> ({count})</a></td>'
-                )
-            # Pad incomplete rows
-            while len(cells) < cols:
-                cells.append("<td></td>")
-            rows_html.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
-        kw_html = "<table>\n" + "\n".join(rows_html) + "\n</table>"
-        write_file("update_template_or_data/keyword_grouping.md", kw_html)
+        # Generate keyword grouping as pipe-separated links
+        grouped_keywords_markdown = []
+        for keyword, count in combined_keywords:
+            keyword_filename = f"paper_{keyword.replace(' ', '_')}.md"
+            keyword_link = f"paper_by_key/{keyword_filename}"
+            grouped_keywords_markdown.append(f"[{keyword} ({count})]({keyword_link})")
+        write_file("update_template_or_data/keyword_grouping.md",
+                    " · ".join(grouped_keywords_markdown))
     except Exception as e:
         logging.error(f"Error generating sorted keyword grouping Markdown: {str(e)}", exc_info=True)
 
