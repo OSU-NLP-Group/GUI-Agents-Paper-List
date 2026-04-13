@@ -166,7 +166,7 @@
     - Yiheng Xu, Zekun Wang, Junli Wang, Dunjie Lu, Tianbao Xie, Amrita Saha, Doyen Sahoo, Tao Yu, Caiming Xiong
     - 🏛️ Institutions: HKU, Salesforce AI Research
     - 📅 Date: December 05, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [pure vision], [inner monologue], [two-stage training], [Aguvis]
     - 📖 TLDR: Aguvis is a pure-vision GUI agent that removes textual interface representations and operates directly on screen images. It combines a large grounding-and-reasoning dataset with a two-stage training pipeline and inner-monologue reasoning, reporting strong offline and online performance without relying on closed-source models.
@@ -184,7 +184,7 @@
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
     - 🏛️ Institutions: Shanghai AI Laboratory, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [GUI grounding], [cross-platform corpus], [OS-Atlas]
     - 📖 TLDR: OS-Atlas is a foundation action model for GUI agents built on a multi-platform grounding-data synthesis toolkit and a corpus with more than 13 million GUI elements. It improves GUI grounding and zero-shot out-of-distribution agent performance across desktop, mobile, and web benchmarks.

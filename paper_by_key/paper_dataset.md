@@ -166,7 +166,7 @@
     - Apurva Gandhi, Graham Neubig
     - 🏛️ Institutions: CMU
     - 📅 Date: June 04, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [structured exploration], [graph search], [WebArena], [Go-Browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.
@@ -292,7 +292,7 @@
     - Shravan Nayak, Xiangru Jian, Kevin Qinghong Lin, Juan A. Rodriguez, Montek Kalsi, Rabiul Awal, Nicolas Chapados, M. Tamer Özsu, Aishwarya Agrawal, David Vazquez, Christopher Pal, Perouz Taslakian, Spandana Gella, Sai Rajeswar
     - 🏛️ Institutions: Mila, Université de Montréal, ServiceNow, University of Waterloo, NUS, École de Technologie Supérieure, Polytechnique Montréal
     - 📅 Date: March 19, 2025
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [dataset], [UI-Vision], [element grounding], [layout grounding], [action prediction], [drag-and-drop], [spatial reasoning]
     - 📖 TLDR: UI-Vision is a desktop GUI benchmark with dense human-demonstration annotations over 83 applications, covering element grounding, layout grounding, and action prediction. It exposes persistent weaknesses of current agents on professional software, spatial reasoning, and actions such as drag-and-drop, while providing an open benchmark for desktop-centric GUI evaluation.
@@ -346,7 +346,7 @@
     - Yiheng Xu, Zekun Wang, Junli Wang, Dunjie Lu, Tianbao Xie, Amrita Saha, Doyen Sahoo, Tao Yu, Caiming Xiong
     - 🏛️ Institutions: HKU, Salesforce AI Research
     - 📅 Date: December 05, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [General GUI]
     - 🔑 Key: [model], [dataset], [pure vision], [inner monologue], [two-stage training], [Aguvis]
     - 📖 TLDR: Aguvis is a pure-vision GUI agent that removes textual interface representations and operates directly on screen images. It combines a large grounding-and-reasoning dataset with a two-stage training pipeline and inner-monologue reasoning, reporting strong offline and online performance without relying on closed-source models.
@@ -373,7 +373,7 @@
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
     - 🏛️ Institutions: Shanghai AI Laboratory, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [GUI grounding], [cross-platform corpus], [OS-Atlas]
     - 📖 TLDR: OS-Atlas is a foundation action model for GUI agents built on a multi-platform grounding-data synthesis toolkit and a corpus with more than 13 million GUI elements. It improves GUI grounding and zero-shot out-of-distribution agent performance across desktop, mobile, and web benchmarks.
@@ -391,7 +391,7 @@
     - Junpeng Liu, Tianyue Ou, Yifan Song, Yuxiao Qu, Wai Lam, Chenyan Xiong, Wenhu Chen, Graham Neubig, Xiang Yue
     - 🏛️ Institutions: CMU, CUHK, PKU, University of Waterloo
     - 📅 Date: October 17, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [instruction synthesis], [text-rich visual understanding], [web accessibility tree], [MultiUI]
     - 📖 TLDR: This paper builds MultiUI, a 7.3M-sample dataset synthesized from 1M websites by pairing webpage screenshots with instructions generated from cleaned accessibility trees. Training on MultiUI improves web UI understanding and also transfers to broader text-rich visual tasks such as OCR, document understanding, and chart interpretation.
@@ -526,7 +526,7 @@
     - Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
     - 🏛️ Institutions: Huazhong University of Science and Technology, University of Notre Dame, Microsoft Research, Lehigh University
     - 📅 Date: June 16, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [benchmark], [dataset], [video GUI], [dynamic GUI understanding], [GUI-Vid]
     - 📖 TLDR: GUI-World is a benchmark and dataset for GUI-oriented multimodal understanding built around dynamic video content rather than static screenshots. It covers six GUI scenarios and eight question types across desktop, mobile, and web settings, and shows that current image and video MLLMs still struggle without manually selected keyframes or operation history.

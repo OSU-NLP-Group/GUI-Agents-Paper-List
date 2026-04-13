@@ -58,7 +58,7 @@
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
     - 🏛️ Institutions: Shanghai AI Laboratory, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [GUI grounding], [cross-platform corpus], [OS-Atlas]
     - 📖 TLDR: OS-Atlas is a foundation action model for GUI agents built on a multi-platform grounding-data synthesis toolkit and a corpus with more than 13 million GUI elements. It improves GUI grounding and zero-shot out-of-distribution agent performance across desktop, mobile, and web benchmarks.

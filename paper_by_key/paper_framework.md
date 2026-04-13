@@ -99,15 +99,6 @@
     - 🔑 Key: [framework], [experience seeking], [entropy-based triggering], [experience intervention], [ExpSeek]
     - 📖 TLDR: ExpSeek turns experience intervention from a passive pre-task context into a step-level mechanism that is triggered only when the agent’s own entropy signal indicates uncertainty. It also generates tailored experience content per step, improving Qwen3-8B and 32B web agents by 9.3 and 7.5 absolute points across four benchmarks.
 
-- [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
-    - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, NUS
-    - 📅 Date: January 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [framework], [learning from demonstration], [screen recording], [human teaching], [ShowUI-Aloha]
-    - 📖 TLDR: ShowUI-Aloha converts in-the-wild desktop screen recordings into structured teaching trajectories through a recorder, learner, planner, and executor pipeline. The goal is to let GUI agents learn complex desktop tasks from ordinary human demonstrations rather than curated annotations or synthetic traces.
-
 - [ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution](https://arxiv.org/abs/2601.07262)
     - Jihong Wang, Jiamu Zhou, Weiming Zhang, Weiwen Liu, Zhuosheng Zhang, Xingyu Lou, Weinan Zhang, Huarong Deng, Jun Wang
     - 🏛️ Institutions: OPPO Research Institute, SJTU
@@ -116,6 +107,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [human-in-the-loop], [knowledge adaptation], [progress summarization], [WebArena], [ColorBrowserAgent]
     - 📖 TLDR: ColorBrowserAgent targets site heterogeneity and long-horizon instability in web automation with two mechanisms: human-in-the-loop knowledge adaptation and progressive progress summarization. On WebArena it reaches 71.2% success, and the paper also reports transfer to WebChoreArena and gains in industrial deployment.
+
+- [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
+    - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou
+    - 🏛️ Institutions: Show Lab, NUS
+    - 📅 Date: January 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [learning from demonstration], [screen recording], [human teaching], [ShowUI-Aloha]
+    - 📖 TLDR: ShowUI-Aloha converts in-the-wild desktop screen recordings into structured teaching trajectories through a recorder, learner, planner, and executor pipeline. The goal is to let GUI agents learn complex desktop tasks from ordinary human demonstrations rather than curated annotations or synthetic traces.
 
 - [From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation](https://arxiv.org/abs/2601.05787)
     - Zezhou Wang, Ziyun Zhang, Xiaoyi Zhang, Zhuzhong Qian, Yan Lu
@@ -234,15 +234,6 @@
     - 🔑 Key: [framework], [MCP server], [environmental contextualization], [OSWorld], [LiteCUA]
     - 📖 TLDR: LiteCUA argues that computer-use agents need better environment contextualization rather than only larger models or heavier agent stacks. It introduces AIOS 1.0, which exposes computer states and actions through an MCP server, and shows that the resulting lightweight desktop agent outperforms several stronger baselines on OSWorld.
 
-- [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
-    - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
-    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah’s Ark Lab
-    - 📅 Date: May 22, 2025
-    - 📑 Publisher: ACL 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [autonomous exploration], [transition-aware knowledge], [GUI-KRB], [GUI-explorer]
-    - 📖 TLDR: GUI-explorer is a training-free mobile GUI agent that automatically explores app functionality and mines transition-aware knowledge from observed state changes. It also introduces the GUI-KRB benchmark for mobile GUI reasoning, and shows strong gains on SPA-Bench and AndroidWorld without parameter updates for new apps.
-
 - [Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach](https://arxiv.org/abs/2505.16422)
     - Xiaoran Yin, Xu Luo, Hao Wu, Lianli Gao, Jingkuan Song
     - 🏛️ Institutions: University of Electronic Science and Technology of China, Tongji University, University of Trento
@@ -251,6 +242,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [world model], [executable code], [self‑verification], [self‑refinement], [FPWC]
     - 📖 TLDR: FPWC targets the myopic decision-making of reactive mobile agents by constructing a task-oriented world model before execution and expressing plans as executable code. It then self-verifies and refines both the plan and world model during execution, yielding large gains on simulated and real-device mobile control tasks.
+
+- [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
+    - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
+    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah’s Ark Lab
+    - 📅 Date: May 22, 2025
+    - 📑 Publisher: ACL 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [framework], [benchmark], [autonomous exploration], [transition-aware knowledge], [GUI-KRB], [GUI-explorer]
+    - 📖 TLDR: GUI-explorer is a training-free mobile GUI agent that automatically explores app functionality and mines transition-aware knowledge from observed state changes. It also introduces the GUI-KRB benchmark for mobile GUI reasoning, and shows strong gains on SPA-Bench and AndroidWorld without parameter updates for new apps.
 
 - [Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent](https://arxiv.org/abs/2505.14141)
     - Fanglin Mo, Junzhe Chen, Haoxuan Zhu, Xuming Hu
@@ -382,7 +382,7 @@
     - Yifei Zhou, Qianlan Yang, Kaixiang Lin, Min Bai, Xiong Zhou, Yu-Xiong Wang, Sergey Levine, Li Erran Li
     - 🏛️ Institutions: UC Berkeley, UIUC, Amazon
     - 📅 Date: December 17, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [reinforcement learning], [skill discovery], [autonomous task proposal], [VLM-based success evaluator], [PAE]
     - 📖 TLDR: PAE is a web-agent learning system that lets foundation-model agents autonomously propose tasks, attempt them, and score the resulting trajectories with a VLM-based evaluator. By turning those evaluations into RL signals, it improves zero-shot generalization on unseen websites and tasks for vision-based internet agents.
@@ -436,7 +436,7 @@
     - Taiyi Wang, Zhihao Wu, Jianheng Liu, Jianye Hao, Jun Wang, Kun Shao
     - 🏛️ Institutions: University of Cambridge, Powersense Technology Limited, Huawei Noah's Ark Lab, UCL, Tianjin University
     - 📅 Date: October 18, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [distributed RL fine-tuning], [centralized training], [decentralized data acquisition], [A-RIDE], [DistRL]
     - 📖 TLDR: DistRL is a distributed RL fine-tuning framework for mobile control agents that separates centralized training from decentralized data collection across worker devices. It is paired with the A-RIDE off-policy RL algorithm, and the paper reports 3x higher training efficiency, 2.4x faster data collection, and a 20% relative success-rate gain on open Android control tasks.
@@ -445,7 +445,7 @@
     - Saaket Agashe, Jiuzhou Han, Shuyu Gan, Jiachen Yang, Ang Li, Xin Eric Wang
     - 🏛️ Institutions: Simular Research
     - 📅 Date: October 10, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Desktop]
     - 🔑 Key: [framework], [hierarchical planning], [retrieval-augmented planning], [agent-computer interface], [Agent S]
     - 📖 TLDR: Agent S is an open computer-use framework built around an Agent-Computer Interface plus experience-augmented hierarchical planning that combines online web knowledge with narrative and episodic memory. The paper reports state-of-the-art OSWorld results and shows transfer to WindowsAgentArena without explicit adaptation.

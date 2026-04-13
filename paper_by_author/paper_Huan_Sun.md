@@ -85,7 +85,7 @@
     - Chejian Xu, Mintong Kang, Jiawei Zhang, Zeyi Liao, Lingbo Mo, Mengqi Yuan, Huan Sun, Bo Li
     - 🏛️ Institutions: UIUC, University of Chicago, OSU
     - 📅 Date: October 22, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [safety], [red teaming], [black-box attack], [DPO], [AdvAgent]
     - 📖 TLDR: AdvAgent is a black-box red-teaming method for web agents that trains an adversarial prompter with DPO to generate stealthy, controllable attacks against frontier browser agents. The paper shows high attack success rates across realistic web tasks and finds that existing prompt-based defenses provide limited protection.

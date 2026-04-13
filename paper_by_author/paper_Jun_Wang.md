@@ -67,7 +67,7 @@
     - Filippos Christianos, Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
     - 🏛️ Institutions: Huawei Noah's Ark Lab, UCL
     - 📅 Date: October 23, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Mobile]
     - 🔑 Key: [LiMAC], [mobile control], [action transformer], [vision-language model]
     - 📖 TLDR: Introduces LiMAC, a lightweight neural framework for Android app control that combines an Action Transformer with fine-tuned vision-language models. The paper reports large gains over prompt-only baselines on mobile control benchmarks while keeping the control stack compact.
@@ -76,7 +76,7 @@
     - Jingxuan Chen, Derek Yuen, Bin Xie, Yuhao Yang, Gongwei Chen, Zhihao Wu, Yixing Li, Xurui Zhou, Weiwen Liu, Shuai Wang, Kaiwen Zhou, Rui Shao, Liqiang Nie, Yasheng Wang, Jianye Hao, Jun Wang, Kun Shao
     - 🏛️ Institutions: Huawei Noah's Ark Lab, HIT-Shenzhen, Tianjin University, UCL
     - 📅 Date: October 19, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [automatic evaluation], [cross-app tasks], [smartphone agent evaluation], [SPA-Bench]
     - 📖 TLDR: SPA-Bench is a smartphone-agent benchmark built around 340 Android tasks spanning single-app and cross-app settings in both English and Chinese, with system and third-party apps. It also provides a plug-and-play execution framework and an automatic evaluation pipeline with seven task-completion and resource-usage metrics, exposing persistent difficulties in mobile UI interpretation, grounding, and long-horizon execution.
@@ -85,7 +85,7 @@
     - Taiyi Wang, Zhihao Wu, Jianheng Liu, Jianye Hao, Jun Wang, Kun Shao
     - 🏛️ Institutions: University of Cambridge, Powersense Technology Limited, Huawei Noah's Ark Lab, UCL, Tianjin University
     - 📅 Date: October 18, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [distributed RL fine-tuning], [centralized training], [decentralized data acquisition], [A-RIDE], [DistRL]
     - 📖 TLDR: DistRL is a distributed RL fine-tuning framework for mobile control agents that separates centralized training from decentralized data collection across worker devices. It is paired with the A-RIDE off-policy RL algorithm, and the paper reports 3x higher training efficiency, 2.4x faster data collection, and a 20% relative success-rate gain on open Android control tasks.

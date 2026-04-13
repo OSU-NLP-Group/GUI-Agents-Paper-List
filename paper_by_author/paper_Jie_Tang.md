@@ -31,7 +31,7 @@
     - Zehan Qi, Xiao Liu, Iat Long Iong, Hanyu Lai, Xueqiao Sun, Jiadai Sun, Xinyue Yang, Yu Yang, Shuntian Yao, Wei Xu, Jie Tang, Yuxiao Dong
     - 🏛️ Institutions: Tsinghua, Zhipu
     - 📅 Date: November 04, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [reinforcement learning], [self-evolving curriculum], [outcome-supervised reward model], [online learning], [WebRL]
     - 📖 TLDR: WebRL trains open web agents with online reinforcement learning rather than static supervised data, combining self-evolving task generation, an outcome-supervised reward model, and adaptive policy updates. It substantially improves Llama-3.1-based and GLM-4-based agents on WebArena-Lite and narrows the gap to proprietary systems.

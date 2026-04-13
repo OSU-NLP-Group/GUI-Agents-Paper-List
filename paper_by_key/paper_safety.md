@@ -175,7 +175,7 @@
     - Chejian Xu, Mintong Kang, Jiawei Zhang, Zeyi Liao, Lingbo Mo, Mengqi Yuan, Huan Sun, Bo Li
     - 🏛️ Institutions: UIUC, University of Chicago, OSU
     - 📅 Date: October 22, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [safety], [red teaming], [black-box attack], [DPO], [AdvAgent]
     - 📖 TLDR: AdvAgent is a black-box red-teaming method for web agents that trains an adversarial prompter with DPO to generate stealthy, controllable attacks against frontier browser agents. The paper shows high attack success rates across realistic web tasks and finds that existing prompt-based defenses provide limited protection.
@@ -193,7 +193,7 @@
     - Ido Levy, Ben Wiesel, Sami Marreed, Alon Oved, Avi Yaeli, Nir Mashkif, Segev Shlomov
     - 🏛️ Institutions: IBM Research
     - 📅 Date: October 09, 2024
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [safety], [trustworthiness], [policy compliance], [CuP], [ST-WebAgentBench]
     - 📖 TLDR: ST-WebAgentBench is a benchmark for enterprise-style web-agent evaluation that pairs 375 tasks with 3,057 safety and trustworthiness policies and introduces policy-aware metrics such as Completion Under Policy (CuP) and Risk Ratio. The paper shows that strong agents lose a large fraction of their nominal completion rate once policy compliance is required.
@@ -211,7 +211,7 @@
     - Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan
     - 🏛️ Institutions: CMU
     - 📅 Date: June 18, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [attack], [ARE], [VisualWebArena], [safety]
     - 📖 TLDR: The paper builds an adversarial extension of VisualWebArena with 200 targeted tasks and introduces the Agent Robustness Evaluation (ARE) framework for analyzing how attacks propagate through compound agent systems. It shows that small visual or textual perturbations can reliably hijack strong multimodal web agents, including variants that use reflection or tree search.

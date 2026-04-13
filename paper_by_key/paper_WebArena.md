@@ -85,7 +85,7 @@
     - Apurva Gandhi, Graham Neubig
     - 🏛️ Institutions: CMU
     - 📅 Date: June 04, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [structured exploration], [graph search], [WebArena], [Go-Browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.

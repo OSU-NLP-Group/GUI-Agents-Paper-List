@@ -67,7 +67,7 @@
     - Christopher Rawles, Sarah Clinckemaillie, Yifan Chang, Jonathan Waltz, Gabrielle Lau, Marybeth Fair, Alice Li, William E Bishop, Wei Li, Folawiyo Campbell-Ajala, Daniel Kenji Toyama, Robert James Berry, Divya Tyamagundlu, Timothy P Lillicrap, Oriana Riva
     - 🏛️ Institutions: Google DeepMind, Google
     - 📅 Date: May 23, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [programmatic tasks], [task parameterization], [dynamic environment], [AndroidWorld]
     - 📖 TLDR: AndroidWorld is a dynamic Android benchmark with reward-bearing programmatic tasks across 20 real-world apps. Its tasks are parameterized and expressed in natural language, and each one includes initialization, success-checking, and teardown logic so agents can be evaluated reproducibly under many realistic task variations.

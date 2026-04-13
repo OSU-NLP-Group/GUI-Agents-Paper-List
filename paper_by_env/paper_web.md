@@ -142,14 +142,14 @@
     - 🔑 Key: [memory augmentation], [trajectory summarization], [insight retrieval], [training-free], [long-horizon tasks], [M^2]
     - 📖 TLDR: M^2 is a training-free memory augmentation method for long-horizon web agents that combines dynamic trajectory summarization with offline insight retrieval. It improves success rates on WebVoyager and OnlineMind2Web while substantially reducing token usage.
 
-- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
-    - Serin Kim, Sangam Lee, Dongha Lee
-    - 🏛️ Institutions: Yonsei University
+- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
+    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
+    - 🏛️ Institutions: CMU, Duke University
     - 📅 Date: February 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
-    - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
+    - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
+    - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
 
 - [Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web](https://arxiv.org/abs/2602.17245)
     - Linxi Jiang, Rui Xi, Zhijie Liu, Shuo Chen, Zhiqiang Lin, Suman Nath
@@ -160,14 +160,14 @@
     - 🔑 Key: [typed action abstraction], [task composition], [semantic action layer], [typed contracts], [agentic web], [Web Verbs]
     - 📖 TLDR: Web Verbs proposes a semantic action layer for web agents built from typed, composable actions with explicit contracts, policies, and logging. It aims to replace brittle low-level clicks and keystrokes with more reliable, efficient, and auditable task composition.
 
-- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588)
-    - Faria Huq, Zora Zhiruo Wang, Zhanqiu Guo, Venu Arvind Arangarajan, Tianyue Ou, Frank Xu, Shuyan Zhou, Graham Neubig, Jeffrey P. Bigham
-    - 🏛️ Institutions: CMU, Duke University
+- [Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History](https://arxiv.org/abs/2602.17003)
+    - Serin Kim, Sangam Lee, Dongha Lee
+    - 🏛️ Institutions: Yonsei University
     - 📅 Date: February 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [dataset], [human-agent interaction], [intervention prediction], [interaction styles], [CowCorpus], [collaborative web agents]
-    - 📖 TLDR: This paper studies collaborative web agents through human intervention patterns, introducing CowCorpus with 400 real-user trajectories that mix human and agent actions. Modeling four distinct interaction styles substantially improves intervention prediction and raises user-rated usefulness in live agents.
+    - 🔑 Key: [benchmark], [personalization], [user history], [contextual reasoning], [clarify-to-personalize], [Persona2Web]
+    - 📖 TLDR: Persona2Web benchmarks personalized web agents on ambiguous tasks that require inferring user preferences from browsing history rather than explicit instructions. It highlights the difficulty of contextual reasoning with user-specific state across multiple web-agent architectures and backbone models.
 
 - [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
     - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
@@ -250,15 +250,6 @@
     - 🔑 Key: [data generation], [fine-grained evaluation], [constraint-based evaluator], [BookingArena], [knowledge distillation], [partial progress]
     - 📖 TLDR: This paper builds a scalable web-agent training pipeline around a constraint-based evaluator that scores partial progress instead of only final success. It introduces BookingArena and shows that using automatically generated data plus fine-grained evaluation can train smaller web agents that match or exceed much larger systems.
 
-- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
-    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
-    - 🏛️ Institutions: NUS, SJTU
-    - 📅 Date: February 12, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
-    - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
-
 - [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
     - Nicholas Lee, Lutfi Eren Erdogan, Chris Joseph John, Surya Krishnapillai, Michael W. Mahoney, Kurt Keutzer, Amir Gholami
     - 🏛️ Institutions: UC Berkeley, ICSI, LBNL
@@ -267,6 +258,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [test-time scaling], [CATTS], [inference-time compute], [uncertainty estimation], [LLM arbiter], [WebArena-Lite]
     - 📖 TLDR: CATTS dynamically allocates test-time compute for multi-step web agents by using vote-based uncertainty signals to invoke an LLM arbiter only on contentious decisions. It improves performance on WebArena-Lite and GoBrowse while using fewer tokens than uniform scaling.
+
+- [WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements](https://arxiv.org/abs/2602.11724)
+    - Xiwen Teoh, Yun Lin, Duc-Minh Nguyen, Ruofei Ren, Wenjie Zhang, Jin Song Dong
+    - 🏛️ Institutions: NUS, SJTU
+    - 📅 Date: February 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [web testing], [bug detection], [GUI grounding], [test oracle], [symbolized GUI elements], [WebTestPilot]
+    - 📖 TLDR: WebTestPilot is an agentic end-to-end web-testing system that symbolizes GUI elements and infers test oracles from natural-language specifications. It achieves high precision and recall on bug-injected web apps and outperforms existing baselines in automated web testing.
 
 - [PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents](https://arxiv.org/abs/2602.05354)
     - Shifat E. Arman, Syed Nazmus Sakib, Tapodhir Karmakar Taton, Nafiul Haque, Shahrear Bin Amin
@@ -295,14 +295,14 @@
     - 🔑 Key: [mixture of grounding experts], [experience-imitation planning], [adaptive memory], [online-Mind2Web], [Avenir-Web], [multimodal LLM]
     - 📖 TLDR: Avenir-Web combines mixture-of-grounding experts, experience-imitation planning, task-tracking checklists, and adaptive memory for live web tasks. It reaches strong open-source performance on Online-Mind2Web and narrows the gap to proprietary systems.
 
-- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
-    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
-    - 🏛️ Institutions: LMU Munich, TUM, Munich Center for Machine Learning (MCML)
+- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
+    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
+    - 🏛️ Institutions: SJTU, Sichuan University, HKUST, McGill University, Shanghai AI Laboratory, Gradient, University of Toronto, Mila
     - 📅 Date: January 29, 2026
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
-    - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
+    - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
+    - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
 
 - [How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors](https://arxiv.org/abs/2601.21961)
     - Kuai Yu, Naicheng Yu, Han Wang, Rui Yang, Huan Zhang
@@ -313,14 +313,14 @@
     - 🔑 Key: [evaluation pipeline], [visual attribute factors], [VAF], [visual grounding], [robustness]
     - 📖 TLDR: This paper introduces VAF, a controlled evaluation pipeline for measuring how benign UI visual attributes affect web-agent choices while preserving page semantics. Across 48 variants, 5 real websites, and 4 agents, it shows that contrast, size, position, and card clarity strongly influence agent behavior, while several text-style factors matter much less.
 
-- [DynaWeb: Model-Based Reinforcement Learning of Web Agents](https://arxiv.org/abs/2601.22149)
-    - Hang Ding, Peidong Liu, Junqiao Wang, Ziwei Ji, Meng Cao, Rongzhao Zhang, Lynn Ai, Eric Yang, Tianyu Shi, Lei Yu
-    - 🏛️ Institutions: SJTU, Sichuan University, HKUST, McGill University, Shanghai AI Laboratory, Gradient, University of Toronto, Mila
+- [WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents](https://arxiv.org/abs/2601.21872)
+    - Yao Zhang, Shijie Tang, Zeyu Li, Zhen Han, Volker Tresp
+    - 🏛️ Institutions: LMU Munich, TUM, Munich Center for Machine Learning (MCML)
     - 📅 Date: January 29, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
-    - 🔑 Key: [model-based reinforcement learning], [world model], [imagined rollouts], [WebArena], [WebVoyager], [DynaWeb]
-    - 📖 TLDR: DynaWeb trains web agents with model-based reinforcement learning by learning a web world model that supports imagined rollouts, then interleaving those rollouts with real expert trajectories. This synthetic-environment training loop improves open-source web agents on both WebArena and WebVoyager.
+    - 🔑 Key: [process reward model], [reasoning verifier], [WebPRMBench], [reward-guided search], [WebArbiter]
+    - 📖 TLDR: WebArbiter is a reasoning-first web process reward model that generates structured justifications, a preference verdict, and the better next action instead of a single scalar score. It also introduces WebPRMBench and outperforms prior web PRMs on both benchmark evaluation and reward-guided trajectory search.
 
 - [The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes](https://arxiv.org/abs/2601.16356)
     - Simret Araya Gebreegziabher, Yukun Yang, Charles Chiang, Hojun Yoo, Chaoran Chen, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, Toby Jia-Jun Li
@@ -511,15 +511,6 @@
     - 🔑 Key: [safety], [attack], [prompt injection], [genetic algorithm], [red-teaming], [Genesis]
     - 📖 TLDR: Genesis studies automated red-teaming for web agents by evolving attack strategies over repeated interactions instead of relying on fixed prompts or manually designed attacks. Its attacker-scorer-strategist loop builds and reuses a growing strategy library, yielding stronger adversarial injections across web tasks.
 
-- [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
-    - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
-    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Tech
-    - 📅 Date: October 20, 2025
-    - 📑 Publisher: IEEE S&P 2026
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [safety], [dark patterns], [TrickyArena], [LiteAgent]
-    - 📖 TLDR: This paper studies how deceptive interface designs affect web agents, introducing LiteAgent for controlled execution and TrickyArena as a dark-pattern test environment. Across six agent frameworks and three underlying models, it finds that agents are frequently steered by dark patterns and that both visual and HTML-level manipulations can change susceptibility.
-
 - [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790)
     - Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, Zhe Gan
     - 🏛️ Institutions: Apple, HKU
@@ -528,6 +519,15 @@
     - 💻 Env: [Desktop], [Web]
     - 🔑 Key: [model], [hybrid action], [tool calls], [synthetic tasks], [online reinforcement learning], [UltraCUA]
     - 📖 TLDR: UltraCUA bridges low-level GUI actions and higher-level tool use in one computer-use model instead of forcing every task through clicks, typing, and scrolling alone. Its pipeline combines automated tool extraction, synthetic verifiable tasks, supervised fine-tuning, and online RL, and the resulting hybrid-action models improve both OSWorld performance and transfer to WindowsAgentArena.
+
+- [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://arxiv.org/abs/2510.18113)
+    - Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad Ibrahim, Antonio Bianchi, Z. Berkay Celik
+    - 🏛️ Institutions: Purdue University, Florida International University, Georgia Tech
+    - 📅 Date: October 20, 2025
+    - 📑 Publisher: IEEE S&P 2026
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [safety], [dark patterns], [TrickyArena], [LiteAgent]
+    - 📖 TLDR: This paper studies how deceptive interface designs affect web agents, introducing LiteAgent for controlled execution and TrickyArena as a dark-pattern test environment. Across six agent frameworks and three underlying models, it finds that agents are frequently steered by dark patterns and that both visual and HTML-level manipulations can change susceptibility.
 
 - [WebServ: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale](https://arxiv.org/abs/2510.16252)
     - Yuxuan Lu, Jing Huang, Hui Liu, Jiri Gesi, Yan Han, Shihan Fu, Tianqi Zheng, Dakuo Wang
@@ -754,15 +754,6 @@
     - 🔑 Key: [GUI-RC], [GUI-RCPO], [region consistency], [test-time scaling], [test-time reinforcement learning]
     - 📖 TLDR: This paper uses consistency across multiple grounding predictions as a test-time signal for GUI grounding. GUI-RC aggregates sampled outputs into consensus regions without extra training, while GUI-RCPO turns the same signal into rewards for test-time policy optimization on unlabeled data, improving ScreenSpot results across several model families.
 
-- [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026)
-    - Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Jialiang Gao, Heng Zhou, Yunhao Yang, Wendong Fan, puzhen zhang, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Junjie Wang, Aosong Feng, Jindi Lv, Sicong Jiang, Ziqi Ren, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao
-    - 🏛️ Institutions: NTU, ZJU, University of Tokyo, Shanghai AI Laboratory, Google DeepMind, University of Alberta
-    - 📅 Date: August 06, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [long-chain web benchmark], [subtask-level verifiability], [breadth-and-depth search], [human demonstrations], [VeriWeb]
-    - 📖 TLDR: VeriWeb is a web benchmark for long-chain information-seeking tasks that decomposes each problem into interdependent, verifiable subtasks instead of relying only on final-answer checks. It contains 302 human-annotated tasks across five domains and is designed to stress both coverage-oriented search and multi-hop context tracking in realistic web environments.
-
 - [GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](https://arxiv.org/abs/2508.04389)
     - Weitai Kang, Bin Lei, Gaowen Liu, Caiwen Ding, Yan Yan
     - 🏛️ Institutions: University of Illinois Chicago, University of Minnesota, Cisco Research
@@ -780,6 +771,15 @@
     - 💻 Env: [Desktop], [Web]
     - 🔑 Key: [Self-Evolution Agent], [step-wise reinforcement learning], [grounding-based generalization enhancement], [temporal compressed sensing], [OSWorld]
     - 📖 TLDR: This paper proposes the Self-Evolution Agent (SEA) for computer use, combining automatic verifiable trajectory generation, efficient step-wise reinforcement learning, and a model-enhancement path that merges grounding and planning ability. It evaluates the resulting agent on grounding benchmarks and OSWorld and frames the method as a way to improve computer-use performance without relying purely on manually curated data.
+
+- [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026)
+    - Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Jialiang Gao, Heng Zhou, Yunhao Yang, Wendong Fan, puzhen zhang, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Junjie Wang, Aosong Feng, Jindi Lv, Sicong Jiang, Ziqi Ren, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao
+    - 🏛️ Institutions: NTU, ZJU, University of Tokyo, Shanghai AI Laboratory, Google DeepMind, University of Alberta
+    - 📅 Date: August 06, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [long-chain web benchmark], [subtask-level verifiability], [breadth-and-depth search], [human demonstrations], [VeriWeb]
+    - 📖 TLDR: VeriWeb is a web benchmark for long-chain information-seeking tasks that decomposes each problem into interdependent, verifiable subtasks instead of relying only on final-answer checks. It contains 302 human-annotated tasks across five domains and is designed to stress both coverage-oriented search and multi-hop context tracking in realistic web environments.
 
 - [NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks](https://arxiv.org/abs/2508.02046)
     - Zhihao Luo, Wentao Yan, Jingyu Gong, Min Wang, Zhizhong Zhang, Xuhong Wang, Yuan Xie, Xin Tan
@@ -821,7 +821,7 @@
     - Apurva Gandhi, Graham Neubig
     - 🏛️ Institutions: CMU
     - 📅 Date: June 04, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [structured exploration], [graph search], [WebArena], [Go-Browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.
@@ -1064,7 +1064,7 @@
     - Arman Zharmagambetov, Chuan Guo, Ivan Evtimov, Maya Pavlova, Ruslan Salakhutdinov, Kamalika Chaudhuri
     - 🏛️ Institutions: FAIR at Meta, Meta
     - 📅 Date: March 12, 2025
-    - 📑 Publisher: NeurIPS 2025 (D&B Track)
+    - 📑 Publisher: NeurIPS 2025 Datasets and Benchmarks Track (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [privacy], [data minimization], [prompting-based defense], [AgentDAM]
     - 📖 TLDR: AgentDAM is an end-to-end web benchmark for testing whether autonomous agents obey data minimization and avoid accessing sensitive information unless it is necessary for the task. It shows that current agents frequently over-consume private data, while a prompting-based defense can reduce leakage.
@@ -1145,7 +1145,7 @@
     - Yifei Zhou, Qianlan Yang, Kaixiang Lin, Min Bai, Xiong Zhou, Yu-Xiong Wang, Sergey Levine, Li Erran Li
     - 🏛️ Institutions: UC Berkeley, UIUC, Amazon
     - 📅 Date: December 17, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [framework], [reinforcement learning], [skill discovery], [autonomous task proposal], [VLM-based success evaluator], [PAE]
     - 📖 TLDR: PAE is a web-agent learning system that lets foundation-model agents autonomously propose tasks, attempt them, and score the resulting trajectories with a VLM-based evaluator. By turning those evaluations into RL signals, it improves zero-shot generalization on unseen websites and tasks for vision-based internet agents.
@@ -1235,7 +1235,7 @@
     - Zehan Qi, Xiao Liu, Iat Long Iong, Hanyu Lai, Xueqiao Sun, Jiadai Sun, Xinyue Yang, Yu Yang, Shuntian Yao, Wei Xu, Jie Tang, Yuxiao Dong
     - 🏛️ Institutions: Tsinghua, Zhipu
     - 📅 Date: November 04, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [reinforcement learning], [self-evolving curriculum], [outcome-supervised reward model], [online learning], [WebRL]
     - 📖 TLDR: WebRL trains open web agents with online reinforcement learning rather than static supervised data, combining self-evolving task generation, an outcome-supervised reward model, and adaptive policy updates. It substantially improves Llama-3.1-based and GLM-4-based agents on WebArena-Lite and narrows the gap to proprietary systems.
@@ -1262,7 +1262,7 @@
     - Zhiyong Wu, Zhenyu Wu, Fangzhi Xu, Yian Wang, Qiushi Sun, Chengyou Jia, Kanzhi Cheng, Zichen Ding, Liheng Chen, Paul Pu Liang, Yu Qiao
     - 🏛️ Institutions: Shanghai AI Laboratory, SJTU, HKU, MIT
     - 📅 Date: October 30, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Spotlight)
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [GUI grounding], [cross-platform corpus], [OS-Atlas]
     - 📖 TLDR: OS-Atlas is a foundation action model for GUI agents built on a multi-platform grounding-data synthesis toolkit and a corpus with more than 13 million GUI elements. It improves GUI grounding and zero-shot out-of-distribution agent performance across desktop, mobile, and web benchmarks.
@@ -1307,7 +1307,7 @@
     - Lawrence Jang, Yinheng Li, Dan Zhao, Charles Ding, Justin Lin, Paul Pu Liang, Rogerio Bonatti, Kazuhito Koishida
     - 🏛️ Institutions: CMU, MIT, Microsoft
     - 📅 Date: October 24, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [video understanding], [long-context], [VideoWebArena]
     - 📖 TLDR: VideoWebArena is a benchmark of 2,021 web-agent tasks grounded in manually created video tutorials that test whether agents can retain demonstrated skills and factual information over long contexts. The paper shows that current multimodal agents remain far below humans on these video-conditioned web tasks and often perform worse when long video context is added.
@@ -1334,7 +1334,7 @@
     - Chejian Xu, Mintong Kang, Jiawei Zhang, Zeyi Liao, Lingbo Mo, Mengqi Yuan, Huan Sun, Bo Li
     - 🏛️ Institutions: UIUC, University of Chicago, OSU
     - 📅 Date: October 22, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [safety], [red teaming], [black-box attack], [DPO], [AdvAgent]
     - 📖 TLDR: AdvAgent is a black-box red-teaming method for web agents that trains an adversarial prompter with DPO to generate stealthy, controllable attacks against frontier browser agents. The paper shows high attack success rates across realistic web tasks and finds that existing prompt-based defenses provide limited protection.
@@ -1352,7 +1352,7 @@
     - Junpeng Liu, Tianyue Ou, Yifan Song, Yuxiao Qu, Wai Lam, Chenyan Xiong, Wenhu Chen, Graham Neubig, Xiang Yue
     - 🏛️ Institutions: CMU, CUHK, PKU, University of Waterloo
     - 📅 Date: October 17, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [instruction synthesis], [text-rich visual understanding], [web accessibility tree], [MultiUI]
     - 📖 TLDR: This paper builds MultiUI, a 7.3M-sample dataset synthesized from 1M websites by pairing webpage screenshots with instructions generated from cleaned accessibility trees. Training on MultiUI improves web UI understanding and also transfers to broader text-rich visual tasks such as OCR, document understanding, and chart interpretation.
@@ -1370,7 +1370,7 @@
     - Ido Levy, Ben Wiesel, Sami Marreed, Alon Oved, Avi Yaeli, Nir Mashkif, Segev Shlomov
     - 🏛️ Institutions: IBM Research
     - 📅 Date: October 09, 2024
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [safety], [trustworthiness], [policy compliance], [CuP], [ST-WebAgentBench]
     - 📖 TLDR: ST-WebAgentBench is a benchmark for enterprise-style web-agent evaluation that pairs 375 tasks with 3,057 safety and trustworthiness policies and introduces policy-aware metrics such as Completion Under Policy (CuP) and Risk Ratio. The paper shows that strong agents lose a large fraction of their nominal completion rate once policy compliance is required.
@@ -1397,7 +1397,7 @@
     - Xiao Yu, Baolin Peng, Vineeth Vajipey, Hao Cheng, Michel Galley, Jianfeng Gao, Zhou Yu
     - 🏛️ Institutions: Columbia, Microsoft Research
     - 📅 Date: October 02, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [Reflective-MCTS], [exploratory learning], [test-time search], [contrastive reflection], [VisualWebArena], [ExACT]
     - 📖 TLDR: ExACT combines Reflective-MCTS test-time search with Exploratory Learning to teach web agents to explore, evaluate states, and backtrack. On VisualWebArena, the GPT-4o-based search agent improves substantially over prior methods, and the fine-tuned model recovers 87% of the search agent's performance while using much less inference compute.
@@ -1424,7 +1424,7 @@
     - Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
     - 🏛️ Institutions: CMU, MIT
     - 📅 Date: September 11, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [workflow memory], [workflow induction], [experience reuse], [online adaptation], [AWM]
     - 📖 TLDR: Agent Workflow Memory (AWM) induces reusable workflows from past trajectories and feeds them back to web agents either from offline examples or on the fly at test time. On Mind2Web and WebArena, it improves relative success by 24.6% and 51.1% respectively while also generalizing better across tasks, websites, and domains.
@@ -1514,7 +1514,7 @@
     - Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan
     - 🏛️ Institutions: CMU
     - 📅 Date: June 18, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [attack], [ARE], [VisualWebArena], [safety]
     - 📖 TLDR: The paper builds an adversarial extension of VisualWebArena with 200 targeted tasks and introduces the Agent Robustness Evaluation (ARE) framework for analyzing how attacks propagate through compound agent systems. It shows that small visual or textual perturbations can reliably hijack strong multimodal web agents, including variants that use reflection or tree search.
@@ -1523,7 +1523,7 @@
     - Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
     - 🏛️ Institutions: Huazhong University of Science and Technology, University of Notre Dame, Microsoft Research, Lehigh University
     - 📅 Date: June 16, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Desktop], [Mobile], [Web]
     - 🔑 Key: [benchmark], [dataset], [video GUI], [dynamic GUI understanding], [GUI-Vid]
     - 📖 TLDR: GUI-World is a benchmark and dataset for GUI-oriented multimodal understanding built around dynamic video content rather than static screenshots. It covers six GUI scenarios and eight question types across desktop, mobile, and web settings, and shows that current image and video MLLMs still struggle without manually selected keyframes or operation history.

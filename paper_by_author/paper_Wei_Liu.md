@@ -49,7 +49,7 @@
     - Longxi Gao, Li Zhang, Pengzhi Gao, Wei Liu, Jian Luan, Mengwei Xu
     - 🏛️ Institutions: Beijing University of Posts and Telecommunications
     - 📅 Date: May 18, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Mobile]
     - 🔑 Key: [reinforcement learning], [self-supervised learning], [K-step GUI Transition], [inverse dynamics], [GUI-Shift]
     - 📖 TLDR: GUI-Shift studies how to train GUI agents from unlabeled trajectories instead of expensive instruction annotations. It introduces the K-step GUI Transition inverse-dynamics task and a self-supervised RL pipeline, improving both mobile GUI automation and grounding performance across multiple benchmarks.
@@ -58,7 +58,7 @@
     - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
     - 🏛️ Institutions: NTU, University of Electronic Science and Technology of China, Renmin University of China, XiaoMi AI Lab, Institute for AI Industry Research (AIR), Tsinghua
     - 📅 Date: May 17, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [multi-path evaluation], [noisy environments], [ambiguous instructions], [Mobile-Bench-v2]
     - 📖 TLDR: Mobile-Bench-v2 is a more realistic mobile-agent benchmark that fixes three weaknesses of earlier evaluation: single-path scoring, unrealistically clean environments, and over-specified instructions. It adds multi-path offline evaluation, noisy app settings with pop-ups and ads, and ambiguous-instruction splits for testing proactive interaction.

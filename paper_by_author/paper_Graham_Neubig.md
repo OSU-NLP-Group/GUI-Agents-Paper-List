@@ -13,7 +13,7 @@
     - Apurva Gandhi, Graham Neubig
     - 🏛️ Institutions: CMU
     - 📅 Date: June 04, 2025
-    - 📑 Publisher: ICLR 2026
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [structured exploration], [graph search], [WebArena], [Go-Browse]
     - 📖 TLDR: This paper frames web-agent data collection as structured exploration over website graphs so agents can reuse information gathered across trajectories instead of exploring each task from scratch. On WebArena, Go-Browse collects 10K successful trajectories and 40K interaction steps across 100 URLs, then uses them to fine-tune a 7B model that surpasses GPT-4o mini and sets a new sub-10B result on the benchmark.
@@ -67,7 +67,7 @@
     - Junpeng Liu, Tianyue Ou, Yifan Song, Yuxiao Qu, Wai Lam, Chenyan Xiong, Wenhu Chen, Graham Neubig, Xiang Yue
     - 🏛️ Institutions: CMU, CUHK, PKU, University of Waterloo
     - 📅 Date: October 17, 2024
-    - 📑 Publisher: ICLR 2025
+    - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dataset], [instruction synthesis], [text-rich visual understanding], [web accessibility tree], [MultiUI]
     - 📖 TLDR: This paper builds MultiUI, a 7.3M-sample dataset synthesized from 1M websites by pairing webpage screenshots with instructions generated from cleaned accessibility trees. Training on MultiUI improves web UI understanding and also transfers to broader text-rich visual tasks such as OCR, document understanding, and chart interpretation.
@@ -85,7 +85,7 @@
     - Zora Zhiruo Wang, Jiayuan Mao, Daniel Fried, Graham Neubig
     - 🏛️ Institutions: CMU, MIT
     - 📅 Date: September 11, 2024
-    - 📑 Publisher: ICML 2025
+    - 📑 Publisher: ICML 2025 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [workflow memory], [workflow induction], [experience reuse], [online adaptation], [AWM]
     - 📖 TLDR: Agent Workflow Memory (AWM) induces reusable workflows from past trajectories and feeds them back to web agents either from offline examples or on the fly at test time. On Mind2Web and WebArena, it improves relative success by 24.6% and 51.1% respectively while also generalizing better across tasks, websites, and domains.
