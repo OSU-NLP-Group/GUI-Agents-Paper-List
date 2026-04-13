@@ -1,5 +1,14 @@
 # Papers with Keyword: WebArena
 
+- [When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation](https://arxiv.org/abs/2604.00892)
+    - Henry Peng Zou, Chunyu Miao, Wei-Chieh Huang, Yankai Chen, Yue Zhou, Hanrong Zhang, Yaozu Wu, Liancheng Fang, Zhengyao Gu, Zhen Zhang, Kening Zheng, Fangxin Wang, Yi Nian, Shanghao Li, Wenzhe Fan, Langzhou He, Weizhi Zhang, Xue Liu, Philip S. Yu
+    - 🏛️ Institutions: UIC, McGill, MBZUAI, UCSB, USC
+    - 📅 Date: April 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [interruptibility], [InterruptBench], [WebArena]
+    - 📖 TLDR: The first systematic study of interruptible agents in long-horizon web navigation. It formalizes three interruption types (addition, revision, retraction) and introduces InterruptBench derived from WebArena-Lite, showing that handling mid-task user interruptions remains challenging for current LLMs.
+
 - [AI Planning Framework for LLM-Based Web Agents](https://arxiv.org/abs/2603.12710)
     - Orit Shahnovsky, Rotem Dror
     - 🏛️ Institutions: University of Haifa

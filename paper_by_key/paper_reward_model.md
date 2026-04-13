@@ -1,5 +1,14 @@
 # Papers with Keyword: reward model
 
+- [The Art of Building Verifiers for Computer Use Agents](https://arxiv.org/abs/2604.06240)
+    - Corby Rosset, Pratyusha Sharma, Andrew Zhao, Miguel Gonzalez-Fernandez, Ahmed Awadallah
+    - 🏛️ Institutions: Microsoft Research
+    - 📅 Date: April 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [reward model], [verification], [CUAVerifierBench]
+    - 📖 TLDR: Presents lessons from building Universal Verifier for web agent trajectories, based on four principles: meaningful rubrics, separated process/outcome rewards, controllable vs. uncontrollable failure distinction, and divide-and-conquer context management. Reduces false positive rates to near zero compared to WebVoyager (45%+) and WebJudge (22%+).
+
 - [OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards](https://arxiv.org/abs/2603.19191)
     - Zehao Li, Zhenyu Wu, Yibo Zhao, Bowen Yang, Jingjing Xie, Zhaoyang Liu, Zhoumianze Liu, Kaiming Jin, Jianze Liang, Zonglin Li, Feng Wu, Bowen Zhou, Zun Wang, Zichen Ding
     - 🏛️ Institutions: USTC, Shanghai AI Laboratory, CUHK MMLab, HKUST, NUS
