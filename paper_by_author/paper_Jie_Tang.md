@@ -67,7 +67,7 @@
     - Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan Wang, Zihan Wang, Yuxiao Dong, Ming Ding, Jie Tang
     - 🏛️ Institutions: Tsinghua, Zhipu
     - 📅 Date: December 14, 2023
-    - 📑 Publisher: CVPR 2024
+    - 📑 Publisher: CVPR 2024 (Highlight)
     - 💻 Env: [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [high-resolution GUI understanding], [dual-resolution encoders], [Mind2Web], [AITW], [CogAgent]
     - 📖 TLDR: CogAgent is an 18B visual language model specialized for GUI understanding and navigation. It combines low- and high-resolution image encoders, trains on a large GUI-and-OCR dataset, and outperforms HTML-consuming baselines on Mind2Web and AITW using screenshots alone.

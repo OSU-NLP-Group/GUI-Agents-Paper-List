@@ -103,7 +103,7 @@
     - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
     - 🏛️ Institutions: OSU
     - 📅 Date: February 06, 2024
-    - 📑 Publisher: CVPR 2024
+    - 📑 Publisher: CVPR 2024 (Poster)
     - 💻 Env: [Web]
     - 🔑 Key: [dual-view contextualization], [visual grounding], [web element neighborhood], [Mind2Web]
     - 📖 TLDR: This paper contextualizes each HTML element with its corresponding screenshot region and nearby elements, combining textual and visual features to represent webpage elements more informatively. It evaluates the approach on Mind2Web and reports consistent gains in cross-task, cross-website, and cross-domain settings.
