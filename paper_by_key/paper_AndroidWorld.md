@@ -29,7 +29,7 @@
 
 - [Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction](https://arxiv.org/abs/2602.00575)
     - Chaoqun Cui, Jing Huang, Shijing Wang, Liming Zheng, Qingchao Kong, Zhixiong Zeng
-    - 🏛️ Institutions: MAIS, Institute of Automation, Chinese Academy of Sciences, School of Artificial Intelligence, University of Chinese Academy of Sciences, Meituan, School of Computer Science & Technology, Beijing Jiaotong University
+    - 🏛️ Institutions: MAIS, Institute of Automation, CAS, School of Artificial Intelligence, University of Chinese Academy of Sciences, Meituan, School of Computer Science & Technology, Beijing Jiaotong University
     - 📅 Date: January 31, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -47,7 +47,7 @@
 
 - [Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](https://arxiv.org/abs/2509.01720)
     - Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Huawei Noah’s Ark Lab, University College London
+    - 🏛️ Institutions: Huawei Noah’s Ark Lab, UCL
     - 📅 Date: September 01, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Mobile]
@@ -56,7 +56,7 @@
 
 - [AppVLM: A Lightweight Vision Language Model for Online App Control](https://arxiv.org/abs/2502.06395)
     - Georgios Papoudakis, Thomas Coste, Zhihao Wu, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Huawei Noah’s Ark Lab, University College London
+    - 🏛️ Institutions: Huawei Noah’s Ark Lab, UCL
     - 📅 Date: February 10, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

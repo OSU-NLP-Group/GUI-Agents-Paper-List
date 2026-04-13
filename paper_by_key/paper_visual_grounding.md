@@ -2,7 +2,7 @@
 
 - [FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair](https://arxiv.org/abs/2603.17826)
     - Ruize Ma, Yilei Jiang, Shilin Zhang, Zheng Ma, Yi Feng, Vincent Ng, Zhi Wang, Xiangyu Yue, Chuanyi Li, Lewei Lu
-    - 🏛️ Institutions: Nanjing University, SenseTime, CUHK, University of Texas at Dallas
+    - 🏛️ Institutions: NJU, SenseTime, CUHK, University of Texas at Dallas
     - 📅 Date: March 18, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]

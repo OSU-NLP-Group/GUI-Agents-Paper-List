@@ -20,7 +20,7 @@
 
 - [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856)
     - Yuhao Zheng, Li'an Zhong, Yi Wang, Rui Dai, Kaikui Liu, Xiangxiang Chu, Linyuan Lv, Philip Torr, Kevin Qinghong Lin
-    - 🏛️ Institutions: University of Science and Technology of China, AMAP, Alibaba Group, Sun Yat-sen University, Oxford
+    - 🏛️ Institutions: USTC, AMAP, Alibaba Group, Sun Yat-sen University, Oxford
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -56,7 +56,7 @@
 
 - [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
     - Qinchen Wu, Difei Gao, Kevin Qinghong Lin, Zhuoyu Wu, Xiangwu Guo, Peiran Li, Weichen Zhang, Hengxu Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, NUS, Chinese Academy of Sciences, Shenzhen
+    - 🏛️ Institutions: Show Lab, NUS, CAS, Shenzhen
     - 📅 Date: June 19, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]

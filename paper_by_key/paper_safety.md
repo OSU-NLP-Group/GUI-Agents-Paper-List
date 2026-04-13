@@ -38,7 +38,7 @@
 
 - [CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents](https://arxiv.org/abs/2601.09923)
     - Hanna Foerster, Tom Blanchard, Kristina Nikolić, Ilia Shumailov, Cheng Zhang, Robert Mullins, Nicolas Papernot, Florian Tramèr, Yiren Zhao
-    - 🏛️ Institutions: University of Cambridge, University of Toronto, Vector Institute, ETH Zurich, AI Sequrity Company
+    - 🏛️ Institutions: University of Cambridge, University of Toronto, Vector Institute, ETH, AI Sequrity Company
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -47,7 +47,7 @@
 
 - [WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents](https://arxiv.org/abs/2601.08406)
     - Xinyi Wu, Jiagui Chen, Geng Hong, Jiayi Dong, Xudong Pan, Jiarun Dai, Min Yang
-    - 🏛️ Institutions: Fudan University, Shanghai Innovation Institute
+    - 🏛️ Institutions: Fudan, Shanghai Innovation Institute
     - 📅 Date: January 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -74,7 +74,7 @@
 
 - [Permission Manifests for Web Agents](https://arxiv.org/abs/2601.02371)
     - Samuele Marro, Alan Chan, Xinxing Ren, Lewis Hammond, Jesse Wright, Gurjyot Wanga, Tiziano Piccardi, Nuno Campos, Tobin South, Jialin Yu, Sunando Sengupta, Eric Sommerlade, Alex Pentland, Philip Torr, Jiaxin Pei
-    - 🏛️ Institutions: Oxford, Institute for Decentralized AI, Centre for the Governance of AI, Coral Protocol, Cooperative AI Foundation, Webair, Johns Hopkins University, Witan Labs, Anthropic, Stanford, The University of Texas at Austin
+    - 🏛️ Institutions: Oxford, Institute for Decentralized AI, Centre for the Governance of AI, Coral Protocol, Cooperative AI Foundation, Webair, JHU, Witan Labs, Anthropic, Stanford, UT Austin
     - 📅 Date: December 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -110,7 +110,7 @@
 
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
-    - 🏛️ Institutions: Shanghai AI Laboratory, University of Science and Technology of China, SJTU
+    - 🏛️ Institutions: Shanghai AI Laboratory, USTC, SJTU
     - 📅 Date: May 31, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -128,7 +128,7 @@
 
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
-    - 🏛️ Institutions: CMU, CUHK, KAUST, Johns Hopkins University, NTU, HKUST
+    - 🏛️ Institutions: CMU, CUHK, KAUST, JHU, NTU, HKUST
     - 📅 Date: May 16, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -146,7 +146,7 @@
 
 - [OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](https://aclanthology.org/2025.acl-long.369/)
     - Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shenzhi Wang, Xinchen Xu, Shuofei Qiao, Zhaokai Wang, Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, Fei Wu
-    - 🏛️ Institutions: ZJU, Fudan University, OPPO AI Center, University of Chinese Academy of Sciences, Institute of Automation, Chinese Academy of Sciences, CUHK, Tsinghua, SJTU, 01.AI, PolyU
+    - 🏛️ Institutions: ZJU, Fudan, OPPO AI Center, University of Chinese Academy of Sciences, Institute of Automation, CAS, CUHK, Tsinghua, SJTU, 01.AI, PolyU
     - 📅 Date: December 20, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [General GUI]
@@ -164,7 +164,7 @@
 
 - [MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control](https://arxiv.org/abs/2410.17520)
     - Juyong Lee, Dongyoon Hahm, June Suk Choi, W. Bradley Knox, Kimin Lee
-    - 🏛️ Institutions: KAIST, The University of Texas at Austin
+    - 🏛️ Institutions: KAIST, UT Austin
     - 📅 Date: October 23, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -200,7 +200,7 @@
 
 - [EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://openreview.net/forum?id=xMOLUzo2Lk)
     - Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun
-    - 🏛️ Institutions: OSU, Amazon, UIUC, University of Chicago, Johns Hopkins University, University of Virginia
+    - 🏛️ Institutions: OSU, Amazon, UIUC, University of Chicago, JHU, University of Virginia
     - 📅 Date: September 17, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Web]

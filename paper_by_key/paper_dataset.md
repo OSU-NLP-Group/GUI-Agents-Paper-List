@@ -20,7 +20,7 @@
 
 - [WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces](https://arxiv.org/abs/2603.05295)
     - Sicheng Fan, Rui Wan, Yifei Leng, Gaoning Liang, Li Ling, Yanyi Shang, Dehan Kong
-    - 🏛️ Institutions: Fudan University, IMean AI
+    - 🏛️ Institutions: Fudan, IMean AI
     - 📅 Date: March 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -38,7 +38,7 @@
 
 - [Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision](https://arxiv.org/abs/2602.14276)
     - A. Said Gurbuz, Sunghwan Hong, Ahmed Nassar, Marc Pollefeys, Peter Staar
-    - 🏛️ Institutions: IBM Research, ETH Zurich, KAIST
+    - 🏛️ Institutions: IBM Research, ETH, KAIST
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -47,7 +47,7 @@
 
 - [AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild](https://arxiv.org/abs/2602.11750)
     - Jiazheng Sun, Mingxuan Li, Yingying Zhang, Jiayang Niu, Yachen Wu, Ruihan Jin, Shuyu Lei, Pengrongrui Tan, Zongyu Zhang, Ruoyi Wang, Jiachen Yang, Boyu Yang, Jiacheng Liu, Xin Peng
-    - 🏛️ Institutions: Fudan University, Jilin University
+    - 🏛️ Institutions: Fudan, Jilin University
     - 📅 Date: February 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -74,7 +74,7 @@
 
 - [MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution](https://arxiv.org/abs/2601.19199)
     - Libo Sun, Jiwen Zhang, Siyuan Wang, Zhongyu Wei
-    - 🏛️ Institutions: Fudan University, University of Southern California, Shanghai Innovation Institute
+    - 🏛️ Institutions: Fudan, USC, Shanghai Innovation Institute
     - 📅 Date: January 27, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -83,7 +83,7 @@
 
 - [SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis](https://arxiv.org/abs/2601.18305)
     - Xuan Wang, Siyuan Su, Quantong Fu, Yongxiang Hu, Yangfan Zhou
-    - 🏛️ Institutions: College of Computer Science and Artificial Intelligence, Fudan University, Shanghai Key Laboratory of Intelligent Information Processing, China
+    - 🏛️ Institutions: College of Computer Science and Artificial Intelligence, Fudan, Shanghai Key Laboratory of Intelligent Information Processing, China
     - 📅 Date: January 26, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -101,7 +101,7 @@
 
 - [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/abs/2601.18842)
     - Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He
-    - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, University of Science and Technology of China, A*STAR, Zhongguancun Institution of Artificial Intelligence
+    - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, USTC, A*STAR, Zhongguancun Institution of Artificial Intelligence
     - 📅 Date: January 26, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -128,7 +128,7 @@
 
 - [Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents](https://arxiv.org/abs/2508.01858)
     - Yuhan Guo, Cong Guo, Aiwen Sun, Hongliang He, Xinyu Yang, Yue Lu, Yingji Zhang, Xuntao Guo, Dong Zhang, Jianzhuang Liu, Jiang Duan, Yijia Xiao, Liangjian Wen, Hai-Ming Xu, Yong Dai
-    - 🏛️ Institutions: Southwestern University of Finance and Economics, SJTU, Central South University, Hithink Research, Westlake University, Harbin Institute of Technology, University of Manchester, UCLA, University of Adelaide, Fudan University, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+    - 🏛️ Institutions: Southwestern University of Finance and Economics, SJTU, Central South University, Hithink Research, Westlake University, Harbin Institute of Technology, University of Manchester, UCLA, University of Adelaide, Fudan, Shenzhen Institutes of Advanced Technology, CAS
     - 📅 Date: August 03, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Web]
@@ -263,7 +263,7 @@
 
 - [RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users](https://arxiv.org/abs/2504.10445)
     - Suyu Ye, Haojun Shi, Darren Shih, Hyokun Yun, Tanya G. Roosta, Tianmin Shu
-    - 🏛️ Institutions: Johns Hopkins University, Amazon
+    - 🏛️ Institutions: JHU, Amazon
     - 📅 Date: April 14, 2025
     - 📑 Publisher: AAAI 2026
     - 💻 Env: [Web]
@@ -326,7 +326,7 @@
 
 - [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://aclanthology.org/2025.acl-long.277/)
     - Qiushi Sun, Kanzhi Cheng, Zichen Ding, Chuanyang Jin, Yian Wang, Fangzhi Xu, Zhenyu Wu, Chengyou Jia, Liheng Chen, Zhoumianze Liu, Ben Kao, Guohao Li, Junxian He, Yu Qiao, Zhiyong Wu
-    - 🏛️ Institutions: Shanghai AI Laboratory, HKU, Johns Hopkins University, SJTU, Oxford, HKUST
+    - 🏛️ Institutions: Shanghai AI Laboratory, HKU, JHU, SJTU, Oxford, HKUST
     - 📅 Date: December 27, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [General GUI]
@@ -335,7 +335,7 @@
 
 - [Falcon-UI: Understanding GUI Before Following User Instructions](https://arxiv.org/abs/2412.09362)
     - Huawen Shen, Chang Liu, Gengluo Li, Xinlong Wang, Yu Zhou, Can Ma, Xiangyang Ji
-    - 🏛️ Institutions: Institute of Information Engineering, Chinese Academy of Sciences, Nankai University, Tsinghua, Beijing Academy of Artificial Intelligence, University of Chinese Academy of Sciences
+    - 🏛️ Institutions: Institute of Information Engineering, CAS, Nankai University, Tsinghua, Beijing Academy of Artificial Intelligence, University of Chinese Academy of Sciences
     - 📅 Date: December 12, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -380,7 +380,7 @@
 
 - [EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data](https://arxiv.org/abs/2410.19461)
     - Xuetian Chen, Hangcheng Li, Jiaqing Liang, Sihang Jiang, Deqing Yang
-    - 🏛️ Institutions: Fudan University
+    - 🏛️ Institutions: Fudan
     - 📅 Date: October 25, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -497,7 +497,7 @@
 
 - [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
     - Qinchen Wu, Difei Gao, Kevin Qinghong Lin, Zhuoyu Wu, Xiangwu Guo, Peiran Li, Weichen Zhang, Hengxu Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, NUS, Chinese Academy of Sciences, Shenzhen
+    - 🏛️ Institutions: Show Lab, NUS, CAS, Shenzhen
     - 📅 Date: June 19, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -515,7 +515,7 @@
 
 - [GUICourse: From General Vision Language Model to Versatile GUI Agent](https://aclanthology.org/2025.acl-long.1065/)
     - Wentong Chen, Junbo Cui, Jinyi Hu, Yujia Qin, Junjie Fang, Yue Zhao, Chongyi Wang, Jun Liu, Guirong Chen, Yupeng Huo, Yuan Yao, Yankai Lin, Zhiyuan Liu, Maosong Sun
-    - 🏛️ Institutions: Renmin University of China, Tsinghua, Xiamen University, Beijing University of Posts and Telecommunications, ModelBest, Chinese Academy of Sciences, NUS, Shanghai Qi Zhi Institute
+    - 🏛️ Institutions: Renmin University of China, Tsinghua, Xiamen University, Beijing University of Posts and Telecommunications, ModelBest, CAS, NUS, Shanghai Qi Zhi Institute
     - 📅 Date: June 17, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [General GUI]
@@ -533,7 +533,7 @@
 
 - [GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices](https://arxiv.org/abs/2406.08451)
     - Quanfeng Lu, Wenqi Shao, Zitao Liu, Lingxiao Du, Fanqing Meng, Boxuan Li, Botong Chen, Siyuan Huang, Kaipeng Zhang, Ping Luo
-    - 🏛️ Institutions: Shanghai AI Laboratory, HKU, Nanjing University, SJTU, HIT-Shenzhen
+    - 🏛️ Institutions: Shanghai AI Laboratory, HKU, NJU, SJTU, HIT-Shenzhen
     - 📅 Date: June 12, 2024
     - 📑 Publisher: ICCV 2025
     - 💻 Env: [Mobile]
@@ -569,7 +569,7 @@
 
 - [Android in the Zoo: Chain-of-Action-Thought for GUI Agents](https://aclanthology.org/2024.findings-emnlp.702/)
     - Jiwen Zhang, Jihao Wu, Teng Yihua, Minghui Liao, Nuo Xu, Xiao Xiao, Zhongyu Wei, Duyu Tang
-    - 🏛️ Institutions: Fudan University, Huawei
+    - 🏛️ Institutions: Fudan, Huawei
     - 📅 Date: March 05, 2024
     - 📑 Publisher: Findings of EMNLP 2024
     - 💻 Env: [Mobile]
@@ -623,7 +623,7 @@
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
     - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
-    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, Nanjing University, Shanghai AI Laboratory
+    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, NJU, Shanghai AI Laboratory
     - 📅 Date: January 17, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -677,7 +677,7 @@
 
 - [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract-Conference.html)
     - Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang
-    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, Chinese Academy of Sciences, PolyU, Shanghai AI Laboratory
+    - 🏛️ Institutions: University of Chinese Academy of Sciences, Hong Kong Institute of Science and Innovation, CAS, PolyU, Shanghai AI Laboratory
     - 📅 Date: May 30, 2023
     - 📑 Publisher: NeurIPS 2023
     - 💻 Env: [General GUI]

@@ -20,7 +20,7 @@
 
 - [Zoom to Essence: Trainless GUI Grounding by Inferring upon Interface Elements](https://arxiv.org/abs/2603.14448)
     - Ziwei Liu, Tao Feng, Borui Kang, Yanbing Yang, Jun Luo
-    - 🏛️ Institutions: Department of Computer Science and Technology, Sichuan University, Department of Computer Science and Technology, Tsinghua, School of Computer Science, Nanjing University, College of Computing and Data Science, NTU
+    - 🏛️ Institutions: Department of Computer Science and Technology, Sichuan University, Department of Computer Science and Technology, Tsinghua, School of Computer Science, NJU, College of Computing and Data Science, NTU
     - 📅 Date: March 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -29,7 +29,7 @@
 
 - [Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision](https://arxiv.org/abs/2602.14276)
     - A. Said Gurbuz, Sunghwan Hong, Ahmed Nassar, Marc Pollefeys, Peter Staar
-    - 🏛️ Institutions: IBM Research, ETH Zurich, KAIST
+    - 🏛️ Institutions: IBM Research, ETH, KAIST
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -65,7 +65,7 @@
 
 - [SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization](https://arxiv.org/abs/2601.22491)
     - Jinyang Wu, Changpeng Yang, Yuhao Shen, Fangzhi Xu, Bolin Ni, Chonghua Liao, Yuchen Liu, Hongzhen Wang, Shuai Nie, Shuai Zhang, Haoran Luo, Jiaming Xu
-    - 🏛️ Institutions: Tsinghua, Xiaomi, ZJU, NTU, Institute of Automation, Chinese Academy of Sciences
+    - 🏛️ Institutions: Tsinghua, Xiaomi, ZJU, NTU, Institute of Automation, CAS
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -164,7 +164,7 @@
 
 - [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/abs/2505.12370)
     - Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, Enguang Wang, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
-    - 🏛️ Institutions: VCIP, School of Computer Science, NKU, vivo Mobile Communication Co., Ltd, NUS, Fudan University, East China University of Science and Technology
+    - 🏛️ Institutions: VCIP, School of Computer Science, NKU, vivo Mobile Communication Co., Ltd, NUS, Fudan, East China University of Science and Technology
     - 📅 Date: May 18, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [General GUI]
@@ -263,7 +263,7 @@
 
 - [EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data](https://arxiv.org/abs/2410.19461)
     - Xuetian Chen, Hangcheng Li, Jiaqing Liang, Sihang Jiang, Deqing Yang
-    - 🏛️ Institutions: Fudan University
+    - 🏛️ Institutions: Fudan
     - 📅 Date: October 25, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -335,7 +335,7 @@
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
     - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
-    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, Nanjing University, Shanghai AI Laboratory
+    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, NJU, Shanghai AI Laboratory
     - 📅 Date: January 17, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Desktop], [Mobile], [Web]

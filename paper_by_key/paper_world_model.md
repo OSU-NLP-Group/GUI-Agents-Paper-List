@@ -20,7 +20,7 @@
 
 - [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856)
     - Yuhao Zheng, Li'an Zhong, Yi Wang, Rui Dai, Kaikui Liu, Xiangxiang Chu, Linyuan Lv, Philip Torr, Kevin Qinghong Lin
-    - 🏛️ Institutions: University of Science and Technology of China, AMAP, Alibaba Group, Sun Yat-sen University, Oxford
+    - 🏛️ Institutions: USTC, AMAP, Alibaba Group, Sun Yat-sen University, Oxford
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -47,7 +47,7 @@
 
 - [MobileDreamer: Generative Sketch World Model for GUI Agent](https://arxiv.org/abs/2601.04035)
     - Yilin Cao, Yufeng Zhong, Zhixiong Zeng, Liming Zheng, Jing Huang, Haibo Qiu, Peng Shi, Wenji Mao, Wan Guanglu
-    - 🏛️ Institutions: State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, School of Artificial Intelligence, University of Chinese Academy of Sciences, Meituan
+    - 🏛️ Institutions: State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, CAS, School of Artificial Intelligence, University of Chinese Academy of Sciences, Meituan
     - 📅 Date: January 07, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

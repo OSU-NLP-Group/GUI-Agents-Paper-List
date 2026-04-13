@@ -11,7 +11,7 @@
 
 - [SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization](https://arxiv.org/abs/2601.22491)
     - Jinyang Wu, Changpeng Yang, Yuhao Shen, Fangzhi Xu, Bolin Ni, Chonghua Liao, Yuchen Liu, Hongzhen Wang, Shuai Nie, Shuai Zhang, Haoran Luo, Jiaming Xu
-    - 🏛️ Institutions: Tsinghua, Xiaomi, ZJU, NTU, Institute of Automation, Chinese Academy of Sciences
+    - 🏛️ Institutions: Tsinghua, Xiaomi, ZJU, NTU, Institute of Automation, CAS
     - 📅 Date: January 30, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -65,7 +65,7 @@
 
 - [LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications](https://aclanthology.org/2025.naacl-demo.36/)
     - Danqing Zhang, Balaji Rama, Jingyi Ni, Shiying He, Fu Zhao, Kunyu Chen, Arnold Chen, Junyu Cao
-    - 🏛️ Institutions: PathOnAI.org, Rutgers University, The University of Texas at Austin
+    - 🏛️ Institutions: PathOnAI.org, Rutgers University, UT Austin
     - 📅 Date: March 04, 2025
     - 📑 Publisher: NAACL 2025 System Demonstrations
     - 💻 Env: [Web]

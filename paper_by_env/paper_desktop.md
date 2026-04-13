@@ -36,21 +36,12 @@
 
 - [Video-Based Reward Modeling for Computer-Use Agents](https://arxiv.org/abs/2603.10178)
     - Linxin Song, Jieyu Zhang, Huanxin Sheng, Taiwei Shi, Gupta Rahul, Yang Liu, Ranjay Krishna, Jian Kang, Jieyu Zhao
-    - 🏛️ Institutions: University of Southern California, University of Washington, MBZUAI, Amazon AGI
+    - 🏛️ Institutions: USC, University of Washington, MBZUAI, Amazon AGI
     - 📅 Date: March 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile]
     - 🔑 Key: [reward model], [execution video], [trajectory evaluation], [spatiotemporal token pruning], [ExeVR-53k], [ExeVRM]
     - 📖 TLDR: This paper studies reward modeling from execution video rather than agent internals, introducing the ExeVR-53k dataset and an execution-video reward model that predicts success from keyframes plus the user instruction. The model scales evaluation across Ubuntu, macOS, Windows, and Android, outperforming strong proprietary models while providing finer temporal attribution.
-
-- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
-    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
-    - 🏛️ Institutions: The Chinese University of Hong Kong (MMLab @ CUHK), Nankai University, Huawei Research
-    - 📅 Date: March 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
-    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
 
 - [AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem](https://arxiv.org/abs/2603.08938)
     - Rui Liu, Tao Zhe, Dongjie Wang, Zijun Yao, Kunpeng Liu, Yanjie Fu, Huan Liu, Jian Pei
@@ -69,6 +60,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
     - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
+
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
+    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
+    - 🏛️ Institutions: The Chinese University of Hong Kong (MMLab @ CUHK), Nankai University, Huawei Research
+    - 📅 Date: March 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
+    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
 
 - [IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents](https://arxiv.org/abs/2602.17049)
     - Seoyoung Lee, Seobin Yoon, Seongbeen Lee, Yoojung Chun, Dayoung Park, Doyeon Kim, Joo Yong Sim
@@ -162,7 +162,7 @@
 
 - [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876)
     - Taofeng Xue, Chong Peng, Mianqiu Huang, Linsen Guo, Tiancheng Han, Haozhe Wang, Jianing Wang, Xiaocheng Zhang, Xin Yang, Dengchang Zhao, Jinrui Ding, Xiandi Ma, Yuchen Xie, Peng Pei, Xunliang Cai, Xipeng Qiu
-    - 🏛️ Institutions: Meituan, Fudan University, Tongji University, HKUST
+    - 🏛️ Institutions: Meituan, Fudan, Tongji University, HKUST
     - 📅 Date: January 22, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -171,7 +171,7 @@
 
 - [MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction](https://arxiv.org/abs/2601.12822)
     - Wenqi Zhang, Yulin Shen, Changyue Jiang, Jiarun Dai, Geng Hong, Xudong Pan
-    - 🏛️ Institutions: Fudan University, Shanghai Innovation Institute
+    - 🏛️ Institutions: Fudan, Shanghai Innovation Institute
     - 📅 Date: January 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -180,7 +180,7 @@
 
 - [CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents](https://arxiv.org/abs/2601.09923)
     - Hanna Foerster, Tom Blanchard, Kristina Nikolić, Ilia Shumailov, Cheng Zhang, Robert Mullins, Nicolas Papernot, Florian Tramèr, Yiren Zhao
-    - 🏛️ Institutions: University of Cambridge, University of Toronto, Vector Institute, ETH Zurich, AI Sequrity Company
+    - 🏛️ Institutions: University of Cambridge, University of Toronto, Vector Institute, ETH, AI Sequrity Company
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -261,7 +261,7 @@
 
 - [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596)
     - Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Chaoyou Fu, Ke Li, Xing Sun
-    - 🏛️ Institutions: Tencent Youtu Lab, PKU, Nanjing University
+    - 🏛️ Institutions: Tencent Youtu Lab, PKU, NJU
     - 📅 Date: October 21, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -279,12 +279,21 @@
 
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
-    - 🏛️ Institutions: University of Georgia, University of Wisconsin–Madison, Johns Hopkins University, UMD, HKUST, CUHK, Apple, Arizona State University
+    - 🏛️ Institutions: University of Georgia, University of Wisconsin–Madison, JHU, UMD, HKUST, CUHK, Apple, Arizona State University
     - 📅 Date: October 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
     - 🔑 Key: [security benchmark], [MITRE ATT&CK], [kill chain], [multi-host sandbox], [hard-coded evaluation], [AdvCUA]
     - 📖 TLDR: This paper introduces AdvCUA, a security benchmark for desktop computer-use agents aligned with MITRE ATT&CK Enterprise tactics, techniques, and procedures. It evaluates 140 malicious tasks in a realistic multi-host sandbox with encrypted credentials and hard-coded judgment, showing that current CUAs still fail to cover many OS security threats even as they lower the skill needed for complex intrusions.
+
+- [From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents](https://arxiv.org/abs/2510.04607)
+    - Yuan Wang, Mingyu Li, Haibo Chen
+    - 🏛️ Institutions: Key Laboratory of System Software, Institute of Software, CAS, University of Chinese Academy of Sciences, SJTU
+    - 📅 Date: October 06, 2025
+    - 📑 Publisher: EuroSys 2026
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [declarative interface], [policy-mechanism separation], [accessibility APIs], [Microsoft Office], [DMI]
+    - 📖 TLDR: DMI transforms human-oriented GUIs into three declarative primitives, letting LLMs focus on semantic planning while the system handles low-level navigation and interaction through accessibility interfaces. On Microsoft Office tasks in Windows, it improves success rate by 67%, reduces interaction steps by 43.5%, and completes over 61% of successful tasks with a single LLM call.
 
 - [Watch and Learn: Learning to Use Computers from Online Videos](https://arxiv.org/abs/2510.04673)
     - Chan Hee Song, Yiwen Song, Palash Goyal, Yu Su, Oriana Riva, Hamid Palangi, Tomas Pfister
@@ -294,15 +303,6 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [video demonstrations], [inverse dynamics], [trajectory annotation], [OSWorld], [WindowsAgentArena], [Watch & Learn]
     - 📖 TLDR: Watch & Learn converts Internet videos of human computer use into more than 53K executable UI trajectories by framing annotation as an inverse dynamics problem over consecutive screen states. The resulting data improves both general-purpose and specialized CUAs on OSWorld and yields state-of-the-art 7B-scale performance on WindowsAgentArena under the 15-step limit.
-
-- [From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents](https://arxiv.org/abs/2510.04607)
-    - Yuan Wang, Mingyu Li, Haibo Chen
-    - 🏛️ Institutions: Key Laboratory of System Software, Institute of Software, Chinese Academy of Sciences, University of Chinese Academy of Sciences, SJTU
-    - 📅 Date: October 06, 2025
-    - 📑 Publisher: EuroSys 2026
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [declarative interface], [policy-mechanism separation], [accessibility APIs], [Microsoft Office], [DMI]
-    - 📖 TLDR: DMI transforms human-oriented GUIs into three declarative primitives, letting LLMs focus on semantic planning while the system handles low-level navigation and interaction through accessibility interfaces. On Microsoft Office tasks in Windows, it improves success rate by 67%, reduces interaction steps by 43.5%, and completes over 61% of successful tasks with a single LLM call.
 
 - [Scaling Agents for Computer Use](https://arxiv.org/abs/2510.02250)
     - Gonzalo Gonzalez-Pumariega, Vincent Tu, Chih-Lun Lee, Jiachen Yang, Ang Li, Xin Eric Wang
@@ -412,14 +412,14 @@
     - 🔑 Key: [GUI-RC], [GUI-RCPO], [region consistency], [test-time scaling], [test-time reinforcement learning]
     - 📖 TLDR: This paper uses consistency across multiple grounding predictions as a test-time signal for GUI grounding. GUI-RC aggregates sampled outputs into consensus regions without extra training, while GUI-RCPO turns the same signal into rewards for test-time policy optimization on unlabeled data, improving ScreenSpot results across several model families.
 
-- [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037)
-    - Yuhao Cheng, Liang Tang, Shuxian Li, Yukang Huo, Tiaonan Duan, Kaer Huang, Yanzhe Jing, Yiqiang Yan
-    - 🏛️ Institutions: Lenovo, College of Information and Electrical Engineering, China Agricultural University
+- [SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://arxiv.org/abs/2508.04700)
+    - Zeyi Sun, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Tong Wu, Dahua Lin, Jiaqi Wang
+    - 🏛️ Institutions: SJTU, Shanghai AI Laboratory, CUHK
     - 📅 Date: August 06, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [Self-Evolution Agent], [step-wise reinforcement learning], [grounding-based generalization enhancement], [temporal compressed sensing], [OSWorld]
-    - 📖 TLDR: This paper proposes the Self-Evolution Agent (SEA) for computer use, combining automatic verifiable trajectory generation, efficient step-wise reinforcement learning, and a model-enhancement path that merges grounding and planning ability. It evaluates the resulting agent on grounding benchmarks and OSWorld and frames the method as a way to improve computer-use performance without relying purely on manually curated data.
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [world state model], [curriculum generator], [specialist-to-generalist], [experiential learning], [SEAgent]
+    - 📖 TLDR: SEAgent is a self-evolving computer-use framework for unfamiliar software environments that learns from autonomous exploration and reinforcement from experience instead of relying on new human labels. Its main ingredients are a world state model for step-wise assessment, a curriculum generator for task growth, and a specialist-to-generalist training strategy that consolidates software-specific experience.
 
 - [GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](https://arxiv.org/abs/2508.04389)
     - Weitai Kang, Bin Lei, Gaowen Liu, Caiwen Ding, Yan Yan
@@ -430,18 +430,18 @@
     - 🔑 Key: [GUI visual grounding], [reinforcement fine-tuning], [Adversarial KL Factor], [ScreenSpot], [GuirlVG]
     - 📖 TLDR: GuirlVG studies how to make reinforcement fine-tuning work for GUI visual grounding instead of naively applying standard rule-based RL. It systematically tunes reward design, prediction format, and training setup, adds an Adversarial KL Factor for stabilization, and reports stronger ScreenSpot-family results with only 5.2K training samples.
 
-- [SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://arxiv.org/abs/2508.04700)
-    - Zeyi Sun, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Tong Wu, Dahua Lin, Jiaqi Wang
-    - 🏛️ Institutions: SJTU, Shanghai AI Laboratory, CUHK
+- [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037)
+    - Yuhao Cheng, Liang Tang, Shuxian Li, Yukang Huo, Tiaonan Duan, Kaer Huang, Yanzhe Jing, Yiqiang Yan
+    - 🏛️ Institutions: Lenovo, College of Information and Electrical Engineering, China Agricultural University
     - 📅 Date: August 06, 2025
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [world state model], [curriculum generator], [specialist-to-generalist], [experiential learning], [SEAgent]
-    - 📖 TLDR: SEAgent is a self-evolving computer-use framework for unfamiliar software environments that learns from autonomous exploration and reinforcement from experience instead of relying on new human labels. Its main ingredients are a world state model for step-wise assessment, a curriculum generator for task growth, and a specialist-to-generalist training strategy that consolidates software-specific experience.
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [Self-Evolution Agent], [step-wise reinforcement learning], [grounding-based generalization enhancement], [temporal compressed sensing], [OSWorld]
+    - 📖 TLDR: This paper proposes the Self-Evolution Agent (SEA) for computer use, combining automatic verifiable trajectory generation, efficient step-wise reinforcement learning, and a model-enhancement path that merges grounding and planning ability. It evaluates the resulting agent on grounding benchmarks and OSWorld and frames the method as a way to improve computer-use performance without relying purely on manually curated data.
 
 - [CoAct-1: Computer-using Multi-Agent System with Coding Actions](https://arxiv.org/abs/2508.03923)
     - Linxin Song, Yutong Dai, Viraj Prabhu, Jieyu Zhang, Taiwei Shi, Li Li, Junnan Li, Silvio Savarese, Zeyuan Chen, Jieyu Zhao, Ran Xu, Caiming Xiong
-    - 🏛️ Institutions: University of Southern California, Salesforce AI Research, University of Washington
+    - 🏛️ Institutions: USC, Salesforce AI Research, University of Washington
     - 📅 Date: August 05, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
@@ -477,7 +477,7 @@
 
 - [BIMgent: Towards Autonomous Building Modeling via Computer-use Agents](https://arxiv.org/abs/2506.07217)
     - Zihan Deng, Changyu Du, Stavros Nousias, André Borrmann
-    - 🏛️ Institutions: Technical University of Munich, TUM Georg Nemetschek Institute
+    - 🏛️ Institutions: TUM, TUM Georg Nemetschek Institute
     - 📅 Date: June 08, 2025
     - 📑 Publisher: ICML 2025 Workshop on Computer-use Agents
     - 💻 Env: [Desktop]
@@ -493,15 +493,6 @@
     - 🔑 Key: [benchmark], [multilingual], [safety], [macOSWorld]
     - 📖 TLDR: macOSWorld is the first interactive benchmark for GUI agents on macOS, covering 202 multilingual tasks across 30 applications and a dedicated safety subset for deception attacks. The evaluation shows large performance gaps between proprietary and open-source agents, substantial multilingual degradation, and unresolved safety weaknesses on macOS-specific workflows.
 
-- [DPO Learning with LLMs-Judge Signal for Computer Use Agents](https://arxiv.org/abs/2506.03095)
-    - Man Luo, David Cobbley, Xin Su, Shachar Rosenman, Vasudev Lal, Shao-Yen Tseng, Phillip Howard
-    - 🏛️ Institutions: Intel, Thoughtworks
-    - 📅 Date: June 03, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [model], [DPO], [LLM-as-Judge], [local inference], [synthetic trajectories]
-    - 📖 TLDR: This paper targets privacy and compute constraints in computer-use agents by training a lightweight VLM that runs entirely on local machines. It uses an LLM-as-Judge pipeline to score synthetic GUI trajectories and construct DPO preference pairs, then shows that the resulting local agent outperforms baselines on OSWorld.
-
 - [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
     - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
     - 🏛️ Institutions: NUS, Cyber Emerging Tech and R&D
@@ -511,9 +502,18 @@
     - 🔑 Key: [benchmark], [visual prompt injection], [security], [attack], [browser-use agents], [VPI-Bench]
     - 📖 TLDR: VPI-Bench studies visual prompt injection attacks on computer-use agents, where malicious instructions are embedded directly into rendered user interfaces rather than hidden in HTML. Across 306 cases on five platforms, it shows that both full-system-access CUAs and browser-use agents remain highly vulnerable, and that prompt-only defenses offer limited protection.
 
+- [DPO Learning with LLMs-Judge Signal for Computer Use Agents](https://arxiv.org/abs/2506.03095)
+    - Man Luo, David Cobbley, Xin Su, Shachar Rosenman, Vasudev Lal, Shao-Yen Tseng, Phillip Howard
+    - 🏛️ Institutions: Intel, Thoughtworks
+    - 📅 Date: June 03, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [model], [DPO], [LLM-as-Judge], [local inference], [synthetic trajectories]
+    - 📖 TLDR: This paper targets privacy and compute constraints in computer-use agents by training a lightweight VLM that runs entirely on local machines. It uses an LLM-as-Judge pipeline to score synthetic GUI trajectories and construct DPO preference pairs, then shows that the resulting local agent outperforms baselines on OSWorld.
+
 - [RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents](https://arxiv.org/abs/2506.00618)
     - Jingyi Yang, Shuai Shao, Dongrui Liu, Jing Shao
-    - 🏛️ Institutions: Shanghai AI Laboratory, University of Science and Technology of China, SJTU
+    - 🏛️ Institutions: Shanghai AI Laboratory, USTC, SJTU
     - 📅 Date: May 31, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Desktop], [Web]
@@ -549,7 +549,7 @@
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
     - Qiushi Sun, Zhoumianze Liu, Chang Ma, Zichen Ding, Fangzhi Xu, Zhangyue Yin, Haiteng Zhao, Zhenyu Wu, Kanzhi Cheng, Zhaoyang Liu, Jianing Wang, Qintong Li, Xiangru Tang, Tianbao Xie, Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu
-    - 🏛️ Institutions: HKU, Shanghai AI Laboratory, Fudan University, PKU, Nanjing University, East China Normal University, Yale University
+    - 🏛️ Institutions: HKU, Shanghai AI Laboratory, Fudan, PKU, NJU, East China Normal University, Yale University
     - 📅 Date: May 26, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
@@ -594,7 +594,7 @@
 
 - [UFO2: The Desktop AgentOS](https://arxiv.org/abs/2504.14603)
     - Chaoyun Zhang, He Huang, Chiming Ni, Jian Mu, Si Qin, Shilin He, Lu Wang, Fangkai Yang, Pu Zhao, Chao Du, Liqun Li, Yu Kang, Zhao Jiang, Suzhen Zheng, Rujia Wang, Jiaxu Qian, Minghua Ma, Jian-Guang Lou, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
-    - 🏛️ Institutions: Microsoft, ZJU-UIUC Institute, Nanjing University, PKU
+    - 🏛️ Institutions: Microsoft, ZJU-UIUC Institute, NJU, PKU
     - 📅 Date: April 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -603,7 +603,7 @@
 
 - [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/abs/2504.10458)
     - Run Luo, Lu Wang, Wanwei He, Longze Chen, Jiaming Li, Min Yang, Xiaobo Xia
-    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, NUS
+    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, CAS, University of Chinese Academy of Sciences, NUS
     - 📅 Date: April 14, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -828,7 +828,7 @@
 
 - [AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents](https://aclanthology.org/2025.acl-long.381/)
     - Junting Lu, Zhiyang Zhang, Fangkai Yang, Jue Zhang, Lu Wang, Chao Du, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
-    - 🏛️ Institutions: PKU, Nanjing University, Microsoft
+    - 🏛️ Institutions: PKU, NJU, Microsoft
     - 📅 Date: September 26, 2024
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Desktop]
@@ -873,7 +873,7 @@
 
 - [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719)
     - Qinchen Wu, Difei Gao, Kevin Qinghong Lin, Zhuoyu Wu, Xiangwu Guo, Peiran Li, Weichen Zhang, Hengxu Wang, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, NUS, Chinese Academy of Sciences, Shenzhen
+    - 🏛️ Institutions: Show Lab, NUS, CAS, Shenzhen
     - 📅 Date: June 19, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -963,7 +963,7 @@
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
     - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
-    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, Nanjing University, Shanghai AI Laboratory
+    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, NJU, Shanghai AI Laboratory
     - 📅 Date: January 17, 2024
     - 📑 Publisher: ACL 2024
     - 💻 Env: [Desktop], [Mobile], [Web]

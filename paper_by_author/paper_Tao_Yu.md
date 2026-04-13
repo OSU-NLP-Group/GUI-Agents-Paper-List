@@ -11,7 +11,7 @@
 
 - [BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions](https://arxiv.org/abs/2510.10666)
     - Tao Yu, Zhengbo Zhang, Zhiheng Lyu, Junhao Gong, Hongzhu Yi, Xinming Wang, Yuxuan Zhou, Jiabing Yang, Ping Nie, Yan Huang, Wenhu Chen
-    - 🏛️ Institutions: Chinese Academy of Sciences, University of Waterloo, PKU, Tsinghua, Independent Researcher
+    - 🏛️ Institutions: CAS, University of Waterloo, PKU, Tsinghua, Independent Researcher
     - 📅 Date: October 12, 2025
     - 📑 Publisher: TMLR
     - 💻 Env: [Web]
