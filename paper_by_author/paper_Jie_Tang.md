@@ -24,7 +24,7 @@
     - 📅 Date: August 19, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
-    - 🔑 Key: [API-GUI paradigm], [distributed RL infrastructure], [parallel virtual desktops], [Entropulse], [OSWorld], [ComputerRL]
+    - 🔑 Key: [model], [reinforcement learning], [API-GUI paradigm], [distributed RL infrastructure], [parallel virtual desktops], [Entropulse], [OSWorld], [ComputerRL]
     - 📖 TLDR: ComputerRL is a desktop-agent training framework that combines direct GUI interaction with programmatic APIs and scales online RL through a distributed infrastructure over thousands of parallel virtual desktops. Its Entropulse schedule alternates RL and supervised fine-tuning to stabilize long training runs, and the resulting GLM-ComputerRL-9B reaches 48.9% on OSWorld.
 
 - [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://openreview.net/forum?id=oVKEAFjEqv)
@@ -60,7 +60,7 @@
     - 📅 Date: April 04, 2024
     - 📑 Publisher: KDD 2024
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [AutoWebBench], [HTML simplification], [curriculum training], [reinforcement learning]
+    - 🔑 Key: [model], [benchmark], [AutoWebBench], [HTML simplification], [curriculum training], [reinforcement learning]
     - 📖 TLDR: AutoWebGLM is a web-navigation agent built on ChatGLM3-6B that combines HTML simplification, hybrid human-AI trajectory construction, and reinforcement learning with rejection sampling. The paper also introduces the bilingual AutoWebBench benchmark for real-world web navigation and uses it together with other benchmarks to evaluate the system.
 
 - [CogAgent: A Visual Language Model for GUI Agents](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.html)

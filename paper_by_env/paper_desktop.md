@@ -13,7 +13,7 @@
     - 📅 Date: April 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [process automation], [GPA], [robotic process automation]
+    - 🔑 Key: [training-free], [process automation], [long-horizon tasks], [GPA], [robotic process automation]
     - 📖 TLDR: GPA is a vision-based GUI process automation system that enables fast and stable process replay from a single demonstration. Using Sequential Monte Carlo-based localization and readiness calibration, it achieves higher success rates with 10x faster execution than Gemini 3 Pro on long-horizon GUI tasks, running entirely locally without cloud LLMs.
 
 - [GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation](https://arxiv.org/abs/2603.26266)
@@ -61,14 +61,14 @@
     - 🔑 Key: [reward model], [dataset], [execution video], [trajectory evaluation], [spatiotemporal token pruning], [ExeVR-53k], [ExeVRM]
     - 📖 TLDR: This paper studies reward modeling from execution video rather than agent internals, introducing the ExeVR-53k dataset and an execution-video reward model that predicts success from keyframes plus the user instruction. The model scales evaluation across Ubuntu, macOS, Windows, and Android, outperforming strong proprietary models while providing finer temporal attribution.
 
-- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
-    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
-    - 🏛️ Institutions: CUHK MMLab, Nankai University, Huawei Research
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
+    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
-    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
+    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
 
 - [AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem](https://arxiv.org/abs/2603.08938)
     - Rui Liu, Tao Zhe, Dongjie Wang, Zijun Yao, Kunpeng Liu, Yanjie Fu, Huan Liu, Jian Pei
@@ -79,14 +79,14 @@
     - 🔑 Key: [operating system], [natural user interface], [agent kernel], [skill modules], [knowledge discovery], [AgentOS]
     - 📖 TLDR: AgentOS proposes replacing application silos and traditional desktops with a natural-language-driven operating system centered on an Agent Kernel and modular skill components. The paper frames this system as a knowledge discovery problem involving intent mining, workflow automation, recommender systems, and personal knowledge graphs.
 
-- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
-    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
-    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
+    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
+    - 🏛️ Institutions: CUHK MMLab, Nankai University, Huawei Research
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
-    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
+    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
 
 - [IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents](https://arxiv.org/abs/2602.17049)
     - Seoyoung Lee, Seobin Yoon, Seongbeen Lee, Yoojung Chun, Dayoung Park, Doyeon Kim, Joo Yong Sim
@@ -103,7 +103,7 @@
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI-Owl-1.5], [multi-platform], [tool use], [memory], [MRPO], [data flywheel]
+    - 🔑 Key: [model], [GUI-Owl-1.5], [multi-platform], [tool use], [memory], [MRPO], [data flywheel]
     - 📖 TLDR: Mobile-Agent-v3.5 introduces GUI-Owl-1.5, a family of native GUI agents spanning desktop, mobile, and browser settings. The work combines a hybrid data flywheel, stronger memory and tool use, and multi-platform RL with MRPO to improve results across many open GUI benchmarks.
 
 - [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
@@ -130,7 +130,7 @@
     - 📅 Date: February 07, 2026
     - 📑 Publisher: IUI 2026
     - 💻 Env: [Desktop]
-    - 🔑 Key: [UX design], [human-computer interaction], [user study], [taxonomy], [wizard-of-oz], [computer use]
+    - 🔑 Key: [UX design], [human-computer interaction], [user study], [taxonomy], [wizard-of-oz]
     - 📖 TLDR: This paper maps the UX design space for computer-use agents through expert interviews and Wizard-of-Oz studies. It contributes a taxonomy covering prompts, explainability, control, and mental models for agent-driven software interaction.
 
 - [ANCHOR: Branch-Point Data Generation for GUI Agents](https://arxiv.org/abs/2602.07153)
@@ -157,7 +157,7 @@
     - 📅 Date: January 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [synthetic data], [Mixture-of-Experts], [GRPO], [OS-Nav], [ChiM-Nav], [Ubu-Nav], [OmegaUse]
+    - 🔑 Key: [model], [synthetic data], [Mixture-of-Experts], [GRPO], [OS-Nav], [ChiM-Nav], [Ubu-Nav], [OmegaUse]
     - 📖 TLDR: OmegaUse is a general-purpose GUI agent for both phone-use and computer-use settings trained with a curated-plus-synthetic data pipeline and a two-stage SFT-then-GRPO recipe on an MoE backbone. It also introduces the OS-Nav suite and reports strong cross-terminal results on ScreenSpot-v2, AndroidControl, ChiM-Nav, and Ubu-Nav.
 
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
@@ -256,7 +256,7 @@
     - 📅 Date: December 17, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [Calibrated Step Reward System], [self-evolving training], [GUI-MCP], [AndroidDaily], [Step-GUI]
+    - 🔑 Key: [model], [Calibrated Step Reward System], [self-evolving training], [GUI-MCP], [AndroidDaily], [Step-GUI]
     - 📖 TLDR: Step-GUI centers on a self-evolving training pipeline built around the Calibrated Step Reward System, which calibrates model-generated GUI trajectories against trajectory-level signals to produce high-quality supervision at much lower annotation cost. On top of that pipeline, the paper introduces 4B and 8B GUI specialist models, the GUI-MCP protocol, and the AndroidDaily benchmark.
 
 - [Using GUI Agent for Electronic Design Automation](https://arxiv.org/abs/2512.11611)
@@ -355,7 +355,7 @@
     - 📅 Date: September 18, 2025
     - 📑 Publisher: ICLR 2026 (Oral)
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [cross-platform data], [closed-loop data pipeline], [six operating systems], [grounding mode], [reasoned action], [ScaleCUA]
+    - 🔑 Key: [model], [cross-platform data], [closed-loop data pipeline], [six operating systems], [grounding mode], [reasoned action], [ScaleCUA]
     - 📖 TLDR: ScaleCUA builds an open computer-use dataset across six operating systems and three GUI task families through a closed-loop pipeline that combines automated agents with human experts. Models trained on this corpus support grounding, direct-action, and reasoned-action inference modes and reach strong cross-platform results on WebArena-Lite-v2, OSWorld-G, and MMBench-GUI.
 
 - [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
@@ -364,7 +364,7 @@
     - 📅 Date: September 09, 2025
     - 📑 Publisher: CCS 2025
     - 💻 Env: [Desktop]
-    - 🔑 Key: [real-time defense], [security audit], [system traces], [sensitive operations], [BadComputerUse], [AgentSentinel]
+    - 🔑 Key: [security], [real-time defense], [security audit], [system traces], [sensitive operations], [BadComputerUse], [AgentSentinel]
     - 📖 TLDR: AgentSentinel is a real-time defense layer for computer-use agents that intercepts sensitive operations and pauses execution until they are audited against both task context and system traces. The companion BadComputerUse benchmark contains 60 attacks across six categories, and the paper reports that AgentSentinel substantially improves defense success over baseline protections.
 
 - [Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows](https://arxiv.org/abs/2509.04198)
@@ -391,7 +391,7 @@
     - 📅 Date: August 21, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [GUI-Owl], [self-evolving trajectory production], [trajectory correctness judgment], [TRPO], [multi-agent framework], [Mobile-Agent-v3]
+    - 🔑 Key: [model], [GUI-Owl], [self-evolving trajectory production], [trajectory correctness judgment], [TRPO], [multi-agent framework], [Mobile-Agent-v3]
     - 📖 TLDR: This paper introduces GUI-Owl as a foundation model for GUI automation and builds Mobile-Agent-v3 as a multi-agent framework on top of it. The work combines cross-OS trajectory production, diverse GUI data synthesis, reasoning enhancement, and trajectory-aware RL, and reports stronger open-source results on both AndroidWorld and OSWorld.
 
 - [ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents](https://arxiv.org/abs/2508.14040)
@@ -400,7 +400,7 @@
     - 📅 Date: August 19, 2025
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Desktop]
-    - 🔑 Key: [API-GUI paradigm], [distributed RL infrastructure], [parallel virtual desktops], [Entropulse], [OSWorld], [ComputerRL]
+    - 🔑 Key: [model], [reinforcement learning], [API-GUI paradigm], [distributed RL infrastructure], [parallel virtual desktops], [Entropulse], [OSWorld], [ComputerRL]
     - 📖 TLDR: ComputerRL is a desktop-agent training framework that combines direct GUI interaction with programmatic APIs and scales online RL through a distributed infrastructure over thousands of parallel virtual desktops. Its Entropulse schedule alternates RL and supervised fine-tuning to stabilize long training runs, and the resulting GLM-ComputerRL-9B reaches 48.9% on OSWorld.
 
 - [UI-Venus Technical Report: Building High-performance UI Agents with RFT](https://arxiv.org/abs/2508.10833)
@@ -409,7 +409,7 @@
     - 📅 Date: August 14, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [reinforcement fine-tuning], [trajectory history alignment], [sparse action enhancement], [Qwen2.5-VL], [UI-Venus]
+    - 🔑 Key: [model], [reinforcement fine-tuning], [trajectory history alignment], [sparse action enhancement], [Qwen2.5-VL], [UI-Venus]
     - 📖 TLDR: UI-Venus is a screenshot-only UI agent built on Qwen2.5-VL and trained with reinforcement fine-tuning plus data-cleaning pipelines for both grounding and navigation. The report attributes its gains to reward design and a self-evolving history-alignment and sparse-action mechanism, and reports strong results on ScreenSpot benchmarks and AndroidWorld.
 
 - [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123)
@@ -517,7 +517,7 @@
     - 📅 Date: June 03, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
-    - 🔑 Key: [model], [DPO], [LLM-as-Judge], [local inference], [synthetic trajectories]
+    - 🔑 Key: [model], [reinforcement learning], [DPO], [LLM-as-Judge], [local inference], [synthetic trajectories]
     - 📖 TLDR: This paper targets privacy and compute constraints in computer-use agents by training a lightweight VLM that runs entirely on local machines. It uses an LLM-as-Judge pipeline to score synthetic GUI trajectories and construct DPO preference pairs, then shows that the resulting local agent outperforms baselines on OSWorld.
 
 - [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
@@ -544,12 +544,12 @@
     - 📅 Date: May 29, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [model-free online learning], [automatic task generation], [automatic reward estimation], [test-time adaptation], [ZeroGUI]
+    - 🔑 Key: [reinforcement learning], [model-free online learning], [automatic task generation], [automatic reward estimation], [test-time adaptation], [ZeroGUI]
     - 📖 TLDR: ZeroGUI studies how to train GUI agents online without human labels instead of relying on static offline supervision. It uses VLMs to generate tasks, estimate rewards, and support two-stage online reinforcement learning, improving both desktop and mobile GUI agents on OSWorld and AndroidLab.
 
 - [UI-Evol: Automatic Knowledge Evolving for Computer Use Agents](https://arxiv.org/abs/2505.21964)
     - Ziyun Zhang, Xinyi Liu, Xiaoyi Zhang, Jun Wang, Gang Chen, Yan Lu
-    - 🏛️ Institutions: PKU, Microsoft Research Asia
+    - 🏛️ Institutions: PKU, MSR Asia
     - 📅 Date: May 28, 2025
     - 📑 Publisher: ICML 2025 Workshop on Computer Use Agents
     - 💻 Env: [Desktop]
@@ -562,7 +562,7 @@
     - 📅 Date: May 28, 2025
     - 📑 Publisher: ICLR 2026 (Oral)
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [benchmark], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
+    - 🔑 Key: [benchmark], [security], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
     - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
 
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897)
@@ -769,7 +769,7 @@
     - 📅 Date: November 18, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [visual prompting], [iterative narrowing]
+    - 🔑 Key: [training-free], [GUI grounding], [visual prompting], [iterative narrowing]
     - 📖 TLDR: Iterative Narrowing is a visual-prompting framework for GUI grounding that repeatedly zooms into smaller image regions to refine predictions. The paper shows that this simple test-time strategy improves both general and fine-tuned VLMs on one-shot grounding across multiple UI platforms.
 
 - [Generalist Virtual Agents: A Survey on Autonomous Agents Across Digital Platforms](https://arxiv.org/abs/2411.10943)
@@ -900,7 +900,7 @@
 
 - [GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding](https://arxiv.org/abs/2406.10819)
     - Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
-    - 🏛️ Institutions: Huazhong University of Science and Technology, University of Notre Dame, Microsoft Research, Lehigh University
+    - 🏛️ Institutions: Huazhong University of Science and Technology, University of Notre Dame, MSR, Lehigh University
     - 📅 Date: June 16, 2024
     - 📑 Publisher: ICLR 2025 (Poster)
     - 💻 Env: [Desktop], [Mobile], [Web]

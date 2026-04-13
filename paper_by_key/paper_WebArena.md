@@ -1,5 +1,14 @@
 # Papers with Keyword: WebArena
 
+- [The Tool Illusion: Rethinking Tool Use in Web Agents](https://arxiv.org/abs/2604.03465)
+    - Renze Lou, Baolin Peng, Wenlin Yao, Qianhui Wu, Hao Cheng, Suman Nath, Wenpeng Yin, Jianfeng Gao
+    - 🏛️ Institutions: Penn State, MSR
+    - 📅 Date: April 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [empirical study], [tool use], [WebArena]
+    - 📖 TLDR: An extensive controlled study across diverse tool sources, backbone models, tool-use frameworks, and evaluation benchmarks to determine whether tools provide consistent gains for web agents. Findings revise some prior conclusions and complement others with broader evidence.
+
 - [When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation](https://arxiv.org/abs/2604.00892)
     - Henry Peng Zou, Chunyu Miao, Wei-Chieh Huang, Yankai Chen, Yue Zhou, Hanrong Zhang, Yaozu Wu, Liancheng Fang, Zhengyao Gu, Zhen Zhang, Kening Zheng, Fangxin Wang, Yi Nian, Shanghao Li, Wenzhe Fan, Langzhou He, Weizhi Zhang, Xue Liu, Philip S. Yu
     - 🏛️ Institutions: UIC, McGill, MBZUAI, UCSB, USC

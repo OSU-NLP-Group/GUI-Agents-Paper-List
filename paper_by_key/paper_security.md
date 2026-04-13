@@ -36,6 +36,15 @@
     - 🔑 Key: [backdoor attack], [response latency], [reward-level backdoor injection], [popup trigger], [security], [SlowBA]
     - 📖 TLDR: SlowBA studies a backdoor attack on VLM-based GUI agents that targets response efficiency rather than action correctness, using realistic pop-up triggers to induce excessively long reasoning chains. Its two-stage reward-level backdoor injection stays stealthy, preserves task accuracy, and substantially increases latency under trigger conditions.
 
+- [Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks](https://arxiv.org/abs/2603.04364)
+    - Haoyu Liu, Dingcheng Li, Lukas Rutishauser, Zeyu Zheng
+    - 🏛️ Institutions: UC Berkeley, IEOR & BAIR, Google, Google DeepMind
+    - 📅 Date: March 04, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [security], [safety], [defense], [adversarial training], [cross-modal attack], [DOM injection], [DMAST], [GRPO]
+    - 📖 TLDR: DMAST is a three-stage adversarial safety training pipeline for multimodal web agents that jointly reasons over screenshots and accessibility trees. It targets cross-modal DOM injection attacks, substantially reducing adversarial risk while improving efficiency on out-of-distribution MiniWob++ tasks.
+
 - [WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents](https://arxiv.org/abs/2602.03792)
     - Xilong Wang, Yinuo Liu, Zhun Wang, Dawn Song, Neil Gong
     - 🏛️ Institutions: Duke University, UC Berkeley
@@ -63,6 +72,24 @@
     - 🔑 Key: [benchmark], [security], [web vulnerabilities], [CTF], [penetration testing], [HackWorld]
     - 📖 TLDR: HackWorld uses a CTF-style setup over 36 vulnerable web applications spanning 11 frameworks and 7 languages to test whether computer-use agents can discover and exploit realistic web flaws through GUI interaction. Current agents achieve exploitation rates below 12% and often fail at multi-step attack planning and security-tool use.
 
+- [Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments](https://arxiv.org/abs/2509.11250)
+    - Yitong Zhang, Ximo Li, Liyi Cai, Jia Li
+    - 🏛️ Institutions: Tsinghua, Beihang University, PKU
+    - 📅 Date: September 14, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [security], [environmental injection attack], [dynamic environments], [LLM-driven environment simulation], [attention black hole], [trigger optimization], [Chameleon]
+    - 📖 TLDR: This paper studies environmental injection attacks on GUI agents under dynamic web conditions where trigger position and surrounding context vary across pages and sessions. It shows prior attacks degrade sharply under this more realistic threat model, then proposes Chameleon with LLM-driven environment simulation and Attention Black Hole supervision to recover attack effectiveness across six websites and four LVLM agents.
+
+- [AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents](https://arxiv.org/abs/2509.07764)
+    - Haitao Hu, Peng Chen, Yanpeng Zhao, Yuqi Chen
+    - 🏛️ Institutions: ShanghaiTech University, Independent Researcher
+    - 📅 Date: September 09, 2025
+    - 📑 Publisher: CCS 2025
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [real-time defense], [security audit], [system traces], [sensitive operations], [BadComputerUse], [AgentSentinel]
+    - 📖 TLDR: AgentSentinel is a real-time defense layer for computer-use agents that intercepts sensitive operations and pauses execution until they are audited against both task context and system traces. The companion BadComputerUse benchmark contains 60 attacks across six categories, and the paper reports that AgentSentinel substantially improves defense success over baseline protections.
+
 - [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
     - Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi
     - 🏛️ Institutions: NUS, Cyber Emerging Tech and R&D
@@ -71,6 +98,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [visual prompt injection], [security], [attack], [browser-use agents], [VPI-Bench]
     - 📖 TLDR: VPI-Bench studies visual prompt injection attacks on computer-use agents, where malicious instructions are embedded directly into rendered user interfaces rather than hidden in HTML. Across 306 cases on five platforms, it shows that both full-system-access CUAs and browser-use agents remain highly vulnerable, and that prompt-only defenses offer limited protection.
+
+- [RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments](https://openreview.net/forum?id=yWwrgcBoK3)
+    - Zeyi Liao, Jaylen Jones, Linxi Jiang, Yuting Ning, Eric Fosler‑Lussier, Yu Su, Zhiqiang Lin, Huan Sun
+    - 🏛️ Institutions: OSU
+    - 📅 Date: May 28, 2025
+    - 📑 Publisher: ICLR 2026 (Oral)
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [benchmark], [security], [indirect prompt injection], [hybrid web-OS sandbox], [RTC-Bench], [RedTeamCUA]
+    - 📖 TLDR: RedTeamCUA introduces a hybrid OS-and-web sandbox for realistic adversarial testing of computer-use agents under indirect prompt injection. Its RTC-Bench benchmark contains 864 hybrid attack scenarios and shows that current frontier agents still exhibit substantial attack success rates in both initialized and end-to-end settings.
 
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang

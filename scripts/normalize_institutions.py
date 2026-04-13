@@ -102,6 +102,8 @@ CANONICAL_MAP: list[tuple[str, str]] = [
     (r"^University of Science and Technology of China$", "USTC"),
     (r"^Chinese Academy of Sciences$", "CAS"),
     (r"^University of Southern California$", "USC"),
+    (r"^Microsoft Research$", "MSR"),
+    (r"^Microsoft Research Asia$", "MSR Asia"),
     (r"^The University of Texas at Austin$", "UT Austin"),
     (r"^University of Texas at Austin$", "UT Austin"),
     (r"^Technical University of Munich$", "TUM"),

@@ -78,7 +78,7 @@
     - 📅 Date: September 23, 2024
     - 📑 Publisher: Findings of EMNLP 2024
     - 💻 Env: [Mobile]
-    - 🔑 Key: [dataset], [Mobile3M], [intra-UI understanding], [inter-UI understanding], [MobileVLM]
+    - 🔑 Key: [model], [dataset], [Mobile3M], [intra-UI understanding], [inter-UI understanding], [MobileVLM]
     - 📖 TLDR: MobileVLM is a mobile-focused vision-language model trained with two extra UI-specific pretraining stages designed to improve both intra-UI element understanding and inter-UI transition understanding. The paper also introduces the 3M-page Chinese mobile corpus Mobile3M with real transition-action graphs, and reports stronger performance than prior VLMs on in-house and public mobile benchmarks.
 
 - [MobileViews: A Million-scale and Diverse Mobile GUI Dataset](https://arxiv.org/abs/2409.14337)

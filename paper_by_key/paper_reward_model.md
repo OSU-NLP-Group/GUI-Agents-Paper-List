@@ -2,11 +2,11 @@
 
 - [The Art of Building Verifiers for Computer Use Agents](https://arxiv.org/abs/2604.06240)
     - Corby Rosset, Pratyusha Sharma, Andrew Zhao, Miguel Gonzalez-Fernandez, Ahmed Awadallah
-    - 🏛️ Institutions: Microsoft Research
+    - 🏛️ Institutions: MSR
     - 📅 Date: April 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
-    - 🔑 Key: [reward model], [verification], [CUAVerifierBench]
+    - 🔑 Key: [benchmark], [reward model], [verification], [CUAVerifierBench]
     - 📖 TLDR: Presents lessons from building Universal Verifier for web agent trajectories, based on four principles: meaningful rubrics, separated process/outcome rewards, controllable vs. uncontrollable failure distinction, and divide-and-conquer context management. Reduces false positive rates to near zero compared to WebVoyager (45%+) and WebJudge (22%+).
 
 - [OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards](https://arxiv.org/abs/2603.19191)
@@ -60,7 +60,7 @@
     - 📅 Date: May 23, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
-    - 🔑 Key: [reward model], [progress reward], [dense rewards], [LCS self-annotation], [ProgRM]
+    - 🔑 Key: [reinforcement learning], [reward model], [progress reward], [dense rewards], [LCS self-annotation], [ProgRM]
     - 📖 TLDR: ProgRM studies how to replace coarse outcome-only rewards with dense step-level progress signals for GUI-agent reinforcement learning. It uses an LCS-based self-annotation method to assign progress labels from successful trajectories and shows that progress rewards outperform outcome reward models across GUI benchmarks.
 
 - [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277)

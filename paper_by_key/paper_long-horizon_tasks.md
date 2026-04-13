@@ -1,5 +1,14 @@
 # Papers with Keyword: long-horizon tasks
 
+- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
+    - Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Wendong Xu, Yunzhuo Hao, Songcheng Cai, Xiaochen Wang, Huaisong Zhang, Xian Wu, Yi Lu, Minyi Lei, Kai Zou, Huifeng Yin, Ping Nie, Liang Chen, Dongfu Jiang, Wenhu Chen, Kelsey R. Allen
+    - 🏛️ Institutions: UBC, Vector Institute, CMU, UWaterloo, SJTU, ZJU, HKUST, Tsinghua
+    - 📅 Date: April 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [real-world tasks], [long-horizon tasks], [ClawBench]
+    - 📖 TLDR: ClawBench evaluates AI agents on 153 everyday online tasks across 144 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation. The best model (Claude Sonnet 4.6) achieves only 33.3%, exposing a large gap in real-world web automation.
+
 - [Gym-Anything: Turn any Software into an Agent Environment](https://arxiv.org/abs/2604.06126)
     - Pranjal Aggarwal, Graham Neubig, Sean Welleck
     - 🏛️ Institutions: CMU
@@ -8,6 +17,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [dataset], [Gym-Anything], [CUA-World], [long-horizon tasks]
     - 📖 TLDR: Gym-Anything converts any software into an interactive computer-use environment via multi-agent setup and audit. It produces CUA-World with 10K+ long-horizon tasks spanning medical science, astronomy, and enterprise systems, plus CUA-World-Long with tasks requiring 500+ steps, far exceeding existing benchmarks.
+
+- [GPA: Learning GUI Process Automation from Demonstrations](https://arxiv.org/abs/2604.01676)
+    - Zirui Zhao, Jun Hao Liew, Yan Yang, Wenzhuo Yang, Ziyang Luo, Doyen Sahoo, Silvio Savarese, Junnan Li
+    - 🏛️ Institutions: Salesforce AI Research
+    - 📅 Date: April 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [training-free], [process automation], [long-horizon tasks], [GPA], [robotic process automation]
+    - 📖 TLDR: GPA is a vision-based GUI process automation system that enables fast and stable process replay from a single demonstration. Using Sequential Monte Carlo-based localization and readiness calibration, it achieves higher success rates with 10x faster execution than Gemini 3 Pro on long-horizon GUI tasks, running entirely locally without cloud LLMs.
 
 - [AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents](https://arxiv.org/abs/2603.18429)
     - Yibo Shi, Jungang Li, Linghao Zhang, Zihao Dongfang, Biao Wu, Sicheng Tao, Yibo Yan, Chenxi Qin, Weiting Liu, Zhixin Lin, Hanqian Li, Yu Huang, Song Dai, Yonghua Hei, Yue Ding, Xiang Li, Shikang Wang, Chengdong Xu, Jingqi Liu, Xueying Ma, Zhiwen Zheng, Xiaofei Zhang, Bincheng Wang, Nichen Yang, Jie Wu, Lihua Tian, Chen Li, Xuming Hu

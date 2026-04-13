@@ -9,6 +9,15 @@
     - 🔑 Key: [safety], [red teaming], [visual grounding], [UI injection]
     - 📖 TLDR: This paper proposes Semantic-level UI Element Injection, a red-teaming method that overlays safety-aligned UI elements onto screenshots to misdirect GUI agents' visual grounding. Using a modular Editor-Overlapper-Victim pipeline with iterative search, optimized attacks improve attack success rate by up to 4.4x over random injection and transfer across models.
 
+- [Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks](https://arxiv.org/abs/2603.04364)
+    - Haoyu Liu, Dingcheng Li, Lukas Rutishauser, Zeyu Zheng
+    - 🏛️ Institutions: UC Berkeley, IEOR & BAIR, Google, Google DeepMind
+    - 📅 Date: March 04, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [security], [safety], [defense], [adversarial training], [cross-modal attack], [DOM injection], [DMAST], [GRPO]
+    - 📖 TLDR: DMAST is a three-stage adversarial safety training pipeline for multimodal web agents that jointly reasons over screenshots and accessibility trees. It targets cross-modal DOM injection attacks, substantially reducing adversarial risk while improving efficiency on out-of-distribution MiniWob++ tasks.
+
 - [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
     - Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
     - 🏛️ Institutions: OSU, LawZero, Mila, UdeM, UC Berkeley
@@ -33,7 +42,7 @@
     - 📅 Date: February 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
-    - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
+    - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LPS-Bench]
     - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
 
 - [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)

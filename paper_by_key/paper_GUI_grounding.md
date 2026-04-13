@@ -123,12 +123,12 @@
     - 📅 Date: November 30, 2025
     - 📑 Publisher: WACV 2026
     - 💻 Env: [Mobile]
-    - 🔑 Key: [GUI grounding], [smartphone automation], [adaptive feature renormalization], [instruct-BLIP], [AFRAgent]
+    - 🔑 Key: [model], [GUI grounding], [smartphone automation], [adaptive feature renormalization], [instruct-BLIP], [AFRAgent]
     - 📖 TLDR: AFRAgent targets the loss of spatial detail that hurts mobile GUI automation models built on low-resolution vision features. It adds an adaptive feature renormalization module to enrich instruct-BLIP image embeddings with high-resolution information, and reports state-of-the-art results on Meta-GUI and AITW with a much smaller model than prior baselines.
 
 - [Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging](https://arxiv.org/abs/2601.06031)
     - Zeyi Liao, Yadong Lu, Boyu Gou, Huan Sun, Ahmed Awadallah
-    - 🏛️ Institutions: OSU, Microsoft Research, Redmond
+    - 🏛️ Institutions: OSU, MSR, Redmond
     - 📅 Date: November 07, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -200,7 +200,7 @@
 
 - [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://aclanthology.org/2025.findings-acl.809/)
     - Xinyi Liu, Xiaoyi Zhang, Ziyun Zhang, Yan Lu
-    - 🏛️ Institutions: Microsoft Research Asia, PKU
+    - 🏛️ Institutions: MSR Asia, PKU
     - 📅 Date: April 15, 2025
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [General GUI]
@@ -218,7 +218,7 @@
 
 - [Think Twice, Click Once: Enhancing GUI Grounding via Fast and Slow Systems](https://arxiv.org/abs/2503.06470)
     - Fei Tang, Yongliang Shen, Hang Zhang, Siqi Chen, Guiyang Hou, Wenqi Zhang, Wenqiao Zhang, Kaitao Song, Weiming Lu, Yueting Zhuang
-    - 🏛️ Institutions: ZJU, Microsoft Research Asia
+    - 🏛️ Institutions: ZJU, MSR Asia
     - 📅 Date: March 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -267,7 +267,7 @@
     - 📅 Date: November 18, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [GUI grounding], [visual prompting], [iterative narrowing]
+    - 🔑 Key: [training-free], [GUI grounding], [visual prompting], [iterative narrowing]
     - 📖 TLDR: Iterative Narrowing is a visual-prompting framework for GUI grounding that repeatedly zooms into smaller image regions to refine predictions. The paper shows that this simple test-time strategy improves both general and fine-tuned VLMs on one-shot grounding across multiple UI platforms.
 
 - [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218)
@@ -335,7 +335,7 @@
 
 - [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
     - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
-    - 🏛️ Institutions: Microsoft Research, Microsoft GenAI
+    - 🏛️ Institutions: MSR, Microsoft GenAI
     - 📅 Date: August 01, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]

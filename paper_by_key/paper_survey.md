@@ -38,7 +38,7 @@
 
 - [Towards Trustworthy GUI Agents: A Survey](https://arxiv.org/abs/2503.23434)
     - Yucheng Shi, Wenhao Yu, Jingyuan Huang, Wenlin Yao, Wenhu Chen, Ninghao Liu
-    - 🏛️ Institutions: University of Georgia, Tencent AI Seattle Lab, Microsoft Research, University of Waterloo, PolyU
+    - 🏛️ Institutions: University of Georgia, Tencent AI Seattle Lab, MSR, University of Waterloo, PolyU
     - 📅 Date: March 30, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
