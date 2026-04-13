@@ -61,14 +61,14 @@
     - 🔑 Key: [reward model], [dataset], [execution video], [trajectory evaluation], [spatiotemporal token pruning], [ExeVR-53k], [ExeVRM]
     - 📖 TLDR: This paper studies reward modeling from execution video rather than agent internals, introducing the ExeVR-53k dataset and an execution-video reward model that predicts success from keyframes plus the user instruction. The model scales evaluation across Ubuntu, macOS, Windows, and Android, outperforming strong proprietary models while providing finer temporal attribution.
 
-- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
-    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
-    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
+    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
+    - 🏛️ Institutions: CUHK MMLab, Nankai University, Huawei Research
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
-    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
+    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
 
 - [AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem](https://arxiv.org/abs/2603.08938)
     - Rui Liu, Tao Zhe, Dongjie Wang, Zijun Yao, Kunpeng Liu, Yanjie Fu, Huan Liu, Jian Pei
@@ -79,14 +79,14 @@
     - 🔑 Key: [operating system], [natural user interface], [agent kernel], [skill modules], [knowledge discovery], [AgentOS]
     - 📖 TLDR: AgentOS proposes replacing application silos and traditional desktops with a natural-language-driven operating system centered on an Agent Kernel and modular skill components. The paper frames this system as a knowledge discovery problem involving intent mining, workflow automation, recommender systems, and personal knowledge graphs.
 
-- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
-    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
-    - 🏛️ Institutions: CUHK MMLab, Nankai University, Huawei Research
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
+    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
-    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
+    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
 
 - [IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents](https://arxiv.org/abs/2602.17049)
     - Seoyoung Lee, Seobin Yoon, Seongbeen Lee, Yoojung Chun, Dayoung Park, Doyeon Kim, Joo Yong Sim
@@ -751,7 +751,7 @@
     - 📅 Date: December 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
+    - 🔑 Key: [model], [GUI grounding], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
     - 📖 TLDR: Iris targets the visual-perception bottleneck of GUI agents in high-resolution, visually complex interfaces. It combines information-sensitive cropping with a self-refining dual-learning loop between referring and grounding, and the resulting gains transfer to both web and OS downstream tasks.
 
 - [Ponder & Press: Advancing Visual GUI Agent towards General Computer Control](https://aclanthology.org/2025.findings-acl.76/)

@@ -1,14 +1,5 @@
 # Papers with Keyword: benchmark
 
-- [KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation](https://arxiv.org/abs/2604.08455)
-    - Tongbo Chen, Zhengxi Lu, Zhan Xu, Guocheng Shao, Shaohan Zhao, Fei Tang, Yong Du, Kaitao Song, Yizhou Liu, Yuchen Yan, Wenqi Zhang, Xu Tan, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
-    - 🏛️ Institutions: ZJU, Apple, Tencent
-    - 📅 Date: April 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [personalization], [proactive agents], [KnowU-Bench]
-    - 📖 TLDR: KnowU-Bench is an online benchmark for personalized mobile agents on Android emulation with 42 general, 86 personalized, and 64 proactive tasks. It hides user profiles from the agent and forces genuine preference inference through multi-turn dialogues. Even frontier models fall below 50% under vague instructions requiring preference inference.
-
 - [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
     - Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Wendong Xu, Yunzhuo Hao, Songcheng Cai, Xiaochen Wang, Huaisong Zhang, Xian Wu, Yi Lu, Minyi Lei, Kai Zou, Huifeng Yin, Ping Nie, Liang Chen, Dongfu Jiang, Wenhu Chen, Kelsey R. Allen
     - 🏛️ Institutions: UBC, Vector Institute, CMU, UWaterloo, SJTU, ZJU, HKUST, Tsinghua
@@ -17,6 +8,15 @@
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [real-world tasks], [ClawBench]
     - 📖 TLDR: ClawBench evaluates AI agents on 153 everyday online tasks across 144 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation. The best model (Claude Sonnet 4.6) achieves only 33.3%, exposing a large gap in real-world web automation.
+
+- [KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation](https://arxiv.org/abs/2604.08455)
+    - Tongbo Chen, Zhengxi Lu, Zhan Xu, Guocheng Shao, Shaohan Zhao, Fei Tang, Yong Du, Kaitao Song, Yizhou Liu, Yuchen Yan, Wenqi Zhang, Xu Tan, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
+    - 🏛️ Institutions: ZJU, Apple, Tencent
+    - 📅 Date: April 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [personalization], [proactive agents], [KnowU-Bench]
+    - 📖 TLDR: KnowU-Bench is an online benchmark for personalized mobile agents on Android emulation with 42 general, 86 personalized, and 64 proactive tasks. It hides user profiles from the agent and forces genuine preference inference through multi-turn dialogues. Even frontier models fall below 50% under vague instructions requiring preference inference.
 
 - [What's Missing in Screen-to-Action? Towards a UI-in-the-Loop Paradigm for Multimodal GUI Reasoning](https://arxiv.org/abs/2604.06995)
     - Songze Li, Xiaoke Guo, Tianqi Liu, Biao Yi, Zhaoyan Gong, Zhiqiang Liu, Huajun Chen, Wen Zhang
@@ -81,15 +81,6 @@
     - 🔑 Key: [benchmark], [website development], [agent verification], [UI-to-code], [full-stack development], [Vision2Web]
     - 📖 TLDR: Vision2Web is a hierarchical benchmark for visual website development that spans static UI-to-code, interactive frontend reproduction, and full-stack website construction. It evaluates coding agents with workflow-based verification using a GUI agent verifier and a VLM judge, and shows that current models still struggle badly on full-stack tasks.
 
-- [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226)
-    - Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
-    - 🏛️ Institutions: Northeastern University, Kuaishou Technology
-    - 📅 Date: March 26, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [automated testing], [defect detection], [checklist generation], [latent logical defects], [WebTestBench], [WebTester]
-    - 📖 TLDR: WebTestBench studies end-to-end automated web testing rather than ordinary task completion, decomposing the problem into checklist generation and defect detection across diverse web applications. Its WebTester baseline shows that current systems still struggle with test completeness, latent logical defects, and long-horizon reliability.
-
 - [GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](https://arxiv.org/abs/2603.25864)
     - Saelyne Yang, Jaesang Yu, Yi-Hao Peng, Kevin Qinghong Lin, Jae Won Cho, Yale Song, Juho Kim
     - 🏛️ Institutions: KAIST, CMU, Oxford, Konkuk University, Google, SkillBench
@@ -98,6 +89,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [collaborative assistance], [behavior state detection], [intent prediction], [help prediction], [think-aloud data], [GUIDE]
     - 📖 TLDR: GUIDE studies collaborative GUI assistance rather than pure task automation, using 67.5 hours of think-aloud recordings from 120 novice users across 10 software applications. It benchmarks behavior-state detection, intent prediction, and help prediction, and shows that current multimodal models still struggle to infer what users are doing and when intervention would be useful.
+
+- [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226)
+    - Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
+    - 🏛️ Institutions: Northeastern University, Kuaishou Technology
+    - 📅 Date: March 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [automated testing], [defect detection], [checklist generation], [latent logical defects], [WebTestBench], [WebTester]
+    - 📖 TLDR: WebTestBench studies end-to-end automated web testing rather than ordinary task completion, decomposing the problem into checklist generation and defect detection across diverse web applications. Its WebTester baseline shows that current systems still struggle with test completeness, latent logical defects, and long-horizon reliability.
 
 - [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://arxiv.org/abs/2603.22529)
     - Shoubin Yu, Lei Shu, Antoine Yang, Yao Fu, Srinivas Sunkara, Maria Wang, Jindong Chen, Mohit Bansal, Boqing Gong
@@ -135,14 +135,14 @@
     - 🔑 Key: [benchmark], [chinese], [hierarchical evaluation], [physical-device evaluation], [GUI-CEval]
     - 📖 TLDR: GUI-CEval is the first comprehensive Chinese benchmark for mobile GUI agents, spanning 201 apps across four device types with a hierarchical two-level evaluation structure (atomic abilities and application-level tasks) along five dimensions (perception, planning, reflection, execution, evaluation), revealing that most MLLMs still struggle with reflective decision-making and post-action self-evaluation.
 
-- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
-    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
-    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
+- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
+    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
+    - 🏛️ Institutions: CUHK MMLab, Nankai University, Huawei Research
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
-    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
+    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
 
 - [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
     - Yiping Xie, Song Chen, Jingxuan Xing, Wei Jiang, Zekun Zhu, Yingyao Wang, Pi Bu, Jun Song, Yuning Jiang, Bo Zheng
@@ -153,14 +153,14 @@
     - 🔑 Key: [semantic context], [dataset], [benchmark], [history summarization], [chinese mobile apps], [SecAgent]
     - 📖 TLDR: SecAgent is a 3B mobile GUI agent that summarizes history screenshots and actions into concise semantic context, reducing computation while preserving task-relevant information. It also introduces a human-verified Chinese mobile GUI dataset and benchmark, and reaches performance comparable to 7B-8B models through supervised and reinforcement fine-tuning.
 
-- [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013)
-    - Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
-    - 🏛️ Institutions: CUHK MMLab, Nankai University, Huawei Research
+- [OSExpert: Computer-Use Agents Learning Professional Skills via Exploration](https://arxiv.org/abs/2603.07978)
+    - Jiateng Liu, Zhenhailong Wang, Rushi Wang, Bingxuan Li, Jeonghwan Kim, Aditi Tiwari, Pengfei Yu, Denghui Zhang, Heng Ji
+    - 🏛️ Institutions: UIUC, Stevens Institute of Technology
     - 📅 Date: March 09, 2026
     - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [benchmark], [proactive recommendation], [intent inference], [continuous screenshots], [PIRF], [multithreaded trajectories]
-    - 📖 TLDR: PIRA-Bench studies proactive GUI assistance, where an agent infers user intent from continuous visual streams instead of waiting for explicit commands. It focuses on long, noisy, interleaved trajectories with user-profile context, and introduces PIRF as a memory-aware baseline for proactive intent recommendation.
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [exploration], [skill learning], [benchmark], [action primitives], [GUI-DFS], [OSExpert-Eval]
+    - 📖 TLDR: OSExpert studies how computer-use agents can learn professional software skills through exploration, introducing GUI-DFS to verify unit functions, discover action primitives, and compose them into longer workflows. The learned skill library improves performance on OSExpert-Eval by about 20% and closes roughly 80% of the efficiency gap to human experts.
 
 - [Generalization in Online Reinforcement Learning for Mobile Agents](https://arxiv.org/abs/2603.07432)
     - Li Gu, Zihuan Jiang, Zhixiang Chi, Huan Liu, Ziqiang Wang, Yuanhao Yu, Glen Berseth, Yang Wang
@@ -243,15 +243,6 @@
     - 🔑 Key: [benchmark], [context discovery], [investigation], [hallucination], [PATHWAYS]
     - 📖 TLDR: PATHWAYS is a benchmark of 250 multi-step web decision tasks designed to test whether agents can uncover and correctly use hidden contextual information instead of stopping at surface cues. The results show that agents often fail to retrieve decisive hidden evidence, hallucinate investigative reasoning, and struggle to incorporate discovered context into final decisions.
 
-- [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
-    - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
-    - 🏛️ Institutions: ShanghaiTech University, Shanghai AI Laboratory, Rice University
-    - 📅 Date: February 03, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
-    - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
-
 - [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
     - Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao, WenHao Wang, Siheng Chen, Zhengxi Lu, Gao Wu, Hao Wang, Liang Liu, Yong Liu
     - 🏛️ Institutions: ZJU, Nankai University, CUHK, SJTU, vivo AI Lab
@@ -260,6 +251,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [memory], [evaluation], [MemGUI-Eval], [MemGUI-Bench]
     - 📖 TLDR: MemGUI-Bench is a memory-focused benchmark for mobile GUI agents covering dynamic tasks that require cross-temporal and cross-spatial retention. Paired with MemGUI-Eval, it reveals large hidden memory deficits in current agents that standard benchmarks miss.
+
+- [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
+    - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu
+    - 🏛️ Institutions: ShanghaiTech University, Shanghai AI Laboratory, Rice University
+    - 📅 Date: February 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [safety], [MCP], [long-horizon planning], [LLM agent]
+    - 📖 TLDR: LPS-Bench is a benchmark evaluating the planning-time safety awareness of MCP-based computer-use agents under long-horizon tasks, covering 65 scenarios across 7 task domains and 9 risk types with both benign and adversarial interactions, revealing substantial safety deficiencies in existing agents.
 
 - [OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks](https://arxiv.org/abs/2601.20650)
     - Jing Wu, Daphne Barretto, Yiye Chen, Nicholas Gydé, Yanan Jian, Yuhang He, Vibhav Vineet
@@ -576,15 +576,6 @@
     - 🔑 Key: [benchmark], [dataset], [causal pathways], [LightManus], [NaturalGAIA]
     - 📖 TLDR: NaturalGAIA is a GUI benchmark that decomposes long-horizon tasks into causally structured, programmatically verifiable atomic steps and evaluates them with Weighted Pathway Success Rate. The paper pairs the benchmark with a human-verified trajectory dataset collected through the hierarchical LightManus framework and shows that even strong models struggle on the resulting desktop-and-mobile tasks.
 
-- [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
-    - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
-    - 🏛️ Institutions: Tsinghua
-    - 📅 Date: June 09, 2025
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [proactive assistance], [personalized execution], [FingerTip 20K]
-    - 📖 TLDR: FingerTip 20K is a mobile benchmark built from 20K real-life Android demonstrations collected over long-term usage rather than isolated tasks. It focuses on proactive task suggestion and personalized execution, and shows that current mobile agents make poor use of user context and preference information compared with humans.
-
 - [MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents](https://arxiv.org/abs/2506.07672)
     - Yunhe Yan, Shihe Wang, Jiajun Du, Yexuan Yang, Yuxuan Shan, Qichen Qiu, Xianqing Jia, Xinge Wang, Xin Yuan, Xu Han, Mao Qin, Yinxiao Chen, Chen Peng, Shangguang Wang, Mengwei Xu
     - 🏛️ Institutions: Beijing University of Posts and Telecommunications, Pengcheng Laboratory
@@ -593,6 +584,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [white-box apps], [automatic verification], [API-GUI hybrid agents], [MCPWorld]
     - 📖 TLDR: MCPWorld is a desktop computer-use benchmark built around white-box applications whose internals can be instrumented and exposed through MCP-style APIs. That setup lets the paper compare API-only, GUI-only, and hybrid agents under a common task suite with deterministic programmatic verification.
+
+- [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
+    - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
+    - 🏛️ Institutions: Tsinghua
+    - 📅 Date: June 09, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dataset], [proactive assistance], [personalized execution], [FingerTip 20K]
+    - 📖 TLDR: FingerTip 20K is a mobile benchmark built from 20K real-life Android demonstrations collected over long-term usage rather than isolated tasks. It focuses on proactive task suggestion and personalized execution, and shows that current mobile agents make poor use of user context and preference information compared with humans.
 
 - [macOSWorld: A Multilingual Interactive Benchmark for GUI Agents](https://arxiv.org/abs/2506.04135)
     - Pei Yang, Hai Ci, Mike Zheng Shou

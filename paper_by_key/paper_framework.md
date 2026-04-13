@@ -72,15 +72,6 @@
     - 🔑 Key: [framework], [cross-platform], [hierarchical context management], [self-verification], [adaptive recovery], [Surfer 2]
     - 📖 TLDR: Surfer 2 is a visual-only cross-platform computer-use agent designed to work across web, desktop, and mobile without task-specific fine-tuning. It combines hierarchical context management, decoupled planning and execution, and self-verification with adaptive recovery, and reports state-of-the-art results on WebVoyager, WebArena, OSWorld, and AndroidWorld.
 
-- [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction](https://arxiv.org/abs/2510.15863)
-    - Simon Yu, Gang Li, Weiyan Shi, Peng Qi
-    - 🏛️ Institutions: Northeastern University, Uniphore
-    - 📅 Date: October 17, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [skill learning], [compositional skills], [transfer generalization], [polymorphism], [PolySkill], [continual learning]
-    - 📖 TLDR: PolySkill targets the tendency of web-agent skills to overfit one site by separating each skill's abstract goal from its concrete site-specific implementation. This polymorphic abstraction improves skill reuse, cross-site transfer, and continual learning behavior on Mind2Web-style settings.
-
 - [CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs](https://arxiv.org/abs/2510.15455)
     - Gucongcong Fan, Chaoyue Niu, Chengfei Lyu, Fan Wu, Guihai Chen
     - 🏛️ Institutions: SJTU, Alibaba Group
@@ -89,6 +80,15 @@
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [privacy], [cloud-local collaboration], [UI exposure reduction], [CORE]
     - 📖 TLDR: CORE studies how to reduce unnecessary screen exposure when mobile agents depend on cloud LLMs for planning and action selection. It partitions the UI into layout-aware blocks and lets local and cloud models collaborate on planning and decision-making so only task-relevant UI subsets are sent to the cloud, substantially reducing exposure while keeping accuracy close to cloud-only systems.
+
+- [PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction](https://arxiv.org/abs/2510.15863)
+    - Simon Yu, Gang Li, Weiyan Shi, Peng Qi
+    - 🏛️ Institutions: Northeastern University, Uniphore
+    - 📅 Date: October 17, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [framework], [skill learning], [compositional skills], [transfer generalization], [polymorphism], [PolySkill], [continual learning]
+    - 📖 TLDR: PolySkill targets the tendency of web-agent skills to overfit one site by separating each skill's abstract goal from its concrete site-specific implementation. This polymorphic abstraction improves skill reuse, cross-site transfer, and continual learning behavior on Mind2Web-style settings.
 
 - [BIMgent: Towards Autonomous Building Modeling via Computer-use Agents](https://arxiv.org/abs/2506.07217)
     - Zihan Deng, Changyu Du, Stavros Nousias, André Borrmann

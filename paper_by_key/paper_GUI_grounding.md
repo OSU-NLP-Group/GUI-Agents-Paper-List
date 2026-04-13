@@ -243,6 +243,15 @@
     - 🔑 Key: [model], [GUI grounding], [pure vision], [instruction synthesis], [context-aware grounding], [Aria-UI]
     - 📖 TLDR: Aria-UI is a GUI-grounding model that deliberately avoids HTML or AXTree inputs and instead works from pure visual observations. It pairs a scalable instruction-synthesis pipeline with interleaved textual and text-image action histories for context-aware grounding, and reports state-of-the-art results across offline and online grounding benchmarks.
 
+- [Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining](https://arxiv.org/abs/2412.10342)
+    - Zhiqi Ge, Juncheng Li, Xinglei Pang, Minghe Gao, Kaihang Pan, Wang Lin, Hao Fei, Wenqiao Zhang, Siliang Tang, Yueting Zhuang
+    - 🏛️ Institutions: ZJU, NUS
+    - 📅 Date: December 13, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop], [Web]
+    - 🔑 Key: [model], [GUI grounding], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
+    - 📖 TLDR: Iris targets the visual-perception bottleneck of GUI agents in high-resolution, visually complex interfaces. It combines information-sensitive cropping with a self-refining dual-learning loop between referring and grounding, and the resulting gains transfer to both web and OS downstream tasks.
+
 - [Ponder & Press: Advancing Visual GUI Agent towards General Computer Control](https://aclanthology.org/2025.findings-acl.76/)
     - Yiqin Wang, Haoji Zhang, Jingqi Tian, Yansong Tang
     - 🏛️ Institutions: Shenzhen International Graduate School, Tsinghua
@@ -333,6 +342,15 @@
     - 🔑 Key: [dataset], [screen parsing], [GUI grounding], [icon detection], [icon captioning], [OmniParser]
     - 📖 TLDR: OmniParser parses UI screenshots into structured screen elements by combining interactable icon detection with element captioning. The paper also curates icon-related datasets and shows that this screen parsing layer improves GPT-4V grounding on ScreenSpot, Mind2Web, and AITW.
 
+- [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
+    - Yijun Qian, Yujie Lu, Alexander Hauptmann, Oriana Riva
+    - 🏛️ Institutions: CMU, UC Santa Barbara, Google Research
+    - 📅 Date: June 16, 2024
+    - 📑 Publisher: NAACL 2024 Industry Track
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI grounding], [visual grounding], [UI element localization], [layout-guided contrastive learning], [multi-context learning], [LVG]
+    - 📖 TLDR: This paper defines visual UI grounding, where a model must localize the UI element referenced by a natural-language command directly from a screenshot without relying on UI metadata. It proposes LVG, which combines layout-guided contrastive learning with synthetic-to-real multi-context learning and improves top-1 accuracy by more than 4.9 points over strong baselines.
+
 - [Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces](https://arxiv.org/abs/2407.01558)
     - El Hassane Ettifouri, Jessica López Espejel, Laura Minkova, Tassnim Dardouri, Walid Dahhane
     - 🏛️ Institutions: Novelis
@@ -341,6 +359,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [GUI grounding], [instruction visual grounding], [IVGocr], [IVGdirect], [CPV metric]
     - 📖 TLDR: Studies instruction visual grounding for desktop GUIs, where a model must locate the screen element implied by a natural-language command. The paper proposes both modular and end-to-end grounding methods, introduces dedicated datasets, and adds the CPV metric for relaxed point-based evaluation.
+
+- [Dual-View Visual Contextualization for Web Navigation](https://doi.org/10.1109/CVPR52733.2024.01369)
+    - Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao
+    - 🏛️ Institutions: OSU
+    - 📅 Date: February 06, 2024
+    - 📑 Publisher: CVPR 2024 (Poster)
+    - 💻 Env: [Web]
+    - 🔑 Key: [GUI grounding], [dual-view contextualization], [visual grounding], [web element neighborhood], [Mind2Web]
+    - 📖 TLDR: This paper contextualizes each HTML element with its corresponding screenshot region and nearby elements, combining textual and visual features to represent webpage elements more informatively. It evaluates the approach on Mind2Web and reports consistent gains in cross-task, cross-website, and cross-domain settings.
 
 - [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
     - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu

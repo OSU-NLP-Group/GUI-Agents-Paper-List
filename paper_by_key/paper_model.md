@@ -168,7 +168,7 @@
     - 📅 Date: December 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
+    - 🔑 Key: [model], [GUI grounding], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
     - 📖 TLDR: Iris targets the visual-perception bottleneck of GUI agents in high-resolution, visually complex interfaces. It combines information-sensitive cropping with a self-refining dual-learning loop between referring and grounding, and the resulting gains transfer to both web and OS downstream tasks.
 
 - [Falcon-UI: Understanding GUI Before Following User Instructions](https://arxiv.org/abs/2412.09362)

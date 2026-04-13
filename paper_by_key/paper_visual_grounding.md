@@ -9,15 +9,6 @@
     - 🔑 Key: [safety], [red teaming], [visual grounding], [UI injection]
     - 📖 TLDR: This paper proposes Semantic-level UI Element Injection, a red-teaming method that overlays safety-aligned UI elements onto screenshots to misdirect GUI agents' visual grounding. Using a modular Editor-Overlapper-Victim pipeline with iterative search, optimized attacks improve attack success rate by up to 4.4x over random injection and transfer across models.
 
-- [FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair](https://arxiv.org/abs/2603.17826)
-    - Ruize Ma, Yilei Jiang, Shilin Zhang, Zheng Ma, Yi Feng, Vincent Ng, Zhi Wang, Xiangyu Yue, Chuanyi Li, Lewei Lu
-    - 🏛️ Institutions: NJU, SenseTime, CUHK, University of Texas at Dallas
-    - 📅 Date: March 18, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [multimodal program repair], [software engineering], [program repair], [failure memory], [visual grounding], [SWE-bench Multimodal], [FailureMem]
-    - 📖 TLDR: FailureMem is a multimodal automated program repair framework for settings where repair requires joint reasoning over code, issue text, and GUI screenshots. It combines hybrid workflow-agent control, region-level visual grounding, and a Failure Memory Bank that converts failed repair attempts into reusable guidance, improving resolved rate over GUIRepair on SWE-bench Multimodal.
-
 - [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/abs/2602.02548)
     - Xiaoce Wang, Guibin Zhang, Junzhe Li, Jinzhe Tu, Chun Li, Ming Li
     - 🏛️ Institutions: Tsinghua, NUS, PKU, Shenzhen MSU-BIT University, Guangming Laboratory
@@ -51,7 +42,7 @@
     - 📅 Date: December 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [model], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
+    - 🔑 Key: [model], [GUI grounding], [information-sensitive cropping], [self-refining dual learning], [visual grounding], [Iris]
     - 📖 TLDR: Iris targets the visual-perception bottleneck of GUI agents in high-resolution, visually complex interfaces. It combines information-sensitive cropping with a self-refining dual-learning loop between referring and grounding, and the resulting gains transfer to both web and OS downstream tasks.
 
 - [Visual Grounding for User Interfaces](https://aclanthology.org/2024.naacl-industry.9/)
@@ -60,7 +51,7 @@
     - 📅 Date: June 16, 2024
     - 📑 Publisher: NAACL 2024 Industry Track
     - 💻 Env: [General GUI]
-    - 🔑 Key: [visual grounding], [UI element localization], [layout-guided contrastive learning], [multi-context learning], [LVG]
+    - 🔑 Key: [GUI grounding], [visual grounding], [UI element localization], [layout-guided contrastive learning], [multi-context learning], [LVG]
     - 📖 TLDR: This paper defines visual UI grounding, where a model must localize the UI element referenced by a natural-language command directly from a screenshot without relying on UI metadata. It proposes LVG, which combines layout-guided contrastive learning with synthetic-to-real multi-context learning and improves top-1 accuracy by more than 4.9 points over strong baselines.
 
 - [Dual-View Visual Contextualization for Web Navigation](https://doi.org/10.1109/CVPR52733.2024.01369)
@@ -69,5 +60,5 @@
     - 📅 Date: February 06, 2024
     - 📑 Publisher: CVPR 2024 (Poster)
     - 💻 Env: [Web]
-    - 🔑 Key: [dual-view contextualization], [visual grounding], [web element neighborhood], [Mind2Web]
+    - 🔑 Key: [GUI grounding], [dual-view contextualization], [visual grounding], [web element neighborhood], [Mind2Web]
     - 📖 TLDR: This paper contextualizes each HTML element with its corresponding screenshot region and nearby elements, combining textual and visual features to represent webpage elements more informatively. It evaluates the approach on Mind2Web and reports consistent gains in cross-task, cross-website, and cross-domain settings.
