@@ -632,7 +632,7 @@
 
 - [WebVLN: Vision-and-Language Navigation on Websites](https://ojs.aaai.org/index.php/AAAI/article/view/27878)
     - Qi Chen, Dileepa Pitawela, Chongyang Zhao, Gengze Zhou, Hsiang-Ting Chen, Qi Wu
-    - 🏛️ Institutions: Australian Institute for Machine Learning, The University of Adelaide
+    - 🏛️ Institutions: Australian Institute for Machine Learning, University of Adelaide
     - 📅 Date: December 25, 2023
     - 📑 Publisher: AAAI 2024
     - 💻 Env: [Web]
@@ -686,7 +686,7 @@
 
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
-    - 🏛️ Institutions: The University of Tokyo, Google DeepMind
+    - 🏛️ Institutions: University of Tokyo, Google DeepMind
     - 📅 Date: May 19, 2023
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [Web]

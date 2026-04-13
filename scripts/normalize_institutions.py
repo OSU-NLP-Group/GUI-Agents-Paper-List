@@ -74,6 +74,8 @@ CANONICAL_MAP: list[tuple[str, str]] = [
     (r"^Hong Kong University of Science and Technology$", "HKUST"),
     (r"^The Chinese University of Hong Kong,?\s*Shenzhen$", "CUHK-Shenzhen"),
     (r"^Chinese University of Hong Kong,?\s*Shenzhen$", "CUHK-Shenzhen"),
+    (r"^The Chinese University of Hong Kong \(Shenzhen\)$", "CUHK-Shenzhen"),
+    (r"^Chinese University of Hong Kong \(Shenzhen\)$", "CUHK-Shenzhen"),
     (r"^The Chinese University of Hong Kong$", "CUHK"),
     (r"^Chinese University of Hong Kong$", "CUHK"),
     (r"^The University of Hong Kong$", "HKU"),
@@ -177,6 +179,16 @@ def normalize_institution(name: str) -> str:
     for pattern, replacement in _COMPILED:
         if pattern.match(stripped):
             return replacement
+    # Fallback: strip unnecessary "The " prefix from academic institutions and retry.
+    # e.g. "The University of Tokyo" → "University of Tokyo"
+    if stripped.startswith("The ") and re.match(
+        r"The (University|Institute|College|School|Academy) ", stripped
+    ):
+        without_the = stripped[4:]
+        for pattern, replacement in _COMPILED:
+            if pattern.match(without_the):
+                return replacement
+        return without_the
     return stripped
 
 

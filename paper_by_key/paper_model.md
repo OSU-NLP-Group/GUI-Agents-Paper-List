@@ -227,7 +227,7 @@
 
 - [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html)
     - Hiroki Furuta, Kuang-Huei Lee, Ofir Nachum, Yutaka Matsuo, Aleksandra Faust, Shixiang Shane Gu, Izzeddin Gur
-    - 🏛️ Institutions: The University of Tokyo, Google DeepMind
+    - 🏛️ Institutions: University of Tokyo, Google DeepMind
     - 📅 Date: May 19, 2023
     - 📑 Publisher: ICLR 2024
     - 💻 Env: [Web]

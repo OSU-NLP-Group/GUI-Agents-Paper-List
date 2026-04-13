@@ -74,7 +74,7 @@
 
 - [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8)
     - Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust
-    - 🏛️ Institutions: Google DeepMind, The University of Tokyo
+    - 🏛️ Institutions: Google DeepMind, University of Tokyo
     - 📅 Date: July 24, 2023
     - 📑 Publisher: ICLR 2024 (Oral)
     - 💻 Env: [Web]
