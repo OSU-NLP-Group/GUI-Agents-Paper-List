@@ -11,13 +11,13 @@ This repo covers **{{insert_paper_count_here}}** direct GUI-agent papers, such a
 
 ![Top 25 research keywords](update_template_or_data/statistics/keyword_bar_chart.png)
 
-## Papers Grouped by Environments
+## Browse by Environment
 {{insert_env_groups_here}}
 
-## Papers Grouped by Keywords
+## Browse by Keyword
 {{insert_keyword_groups_here}}
 
-## Papers Grouped by Authors
+## Browse by Author
 {{insert_author_groups_here}}
 
 {{insert_paper_list_section_here}}
