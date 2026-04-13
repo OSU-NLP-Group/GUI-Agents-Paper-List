@@ -2,7 +2,7 @@
 
 - [K²-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control](https://arxiv.org/abs/2603.00676)
     - Zhe Wu, Donglin Mo, Hongjin Lu, Junliang Xing, Jianheng Liu, Yuheng Jing, Kai Li, Kun Shao, Jianye Hao, Yuanchun Shi
-    - 🏛️ Institutions: Department of Computer Science and Technology, Tsinghua University, Huawei Noah’s Ark Lab, Institute of Automation, Chinese Academy of Sciences
+    - 🏛️ Institutions: Department of Computer Science and Technology, Tsinghua, Huawei Noah’s Ark Lab, Institute of Automation, Chinese Academy of Sciences
     - 📅 Date: February 28, 2026
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Mobile]

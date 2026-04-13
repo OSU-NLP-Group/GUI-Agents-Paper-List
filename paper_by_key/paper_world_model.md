@@ -2,7 +2,7 @@
 
 - [World-Model-Augmented Web Agents with Action Correction](https://arxiv.org/abs/2602.15384)
     - Zhouzhou Shen, Xueyu Hu, Xiyun Li, Tianqing Fang, Juncheng Li, Shengyu Zhang
-    - 🏛️ Institutions: Zhejiang University, Tencent AI Lab
+    - 🏛️ Institutions: ZJU, Tencent AI Lab
     - 📅 Date: February 17, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -11,7 +11,7 @@
 
 - [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.14721)
     - Zikai Xiao, Jianhong Tu, Chuhang Zou, Yuxin Zuo, Zhi Li, Peng Wang, Bowen Yu, Fei Huang, Junyang Lin, Zuozhu Liu
-    - 🏛️ Institutions: Qwen Team, Alibaba Group, Zhejiang University
+    - 🏛️ Institutions: Qwen Team, Alibaba Group, ZJU
     - 📅 Date: February 16, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -20,7 +20,7 @@
 
 - [Code2World: A GUI World Model via Renderable Code Generation](https://arxiv.org/abs/2602.09856)
     - Yuhao Zheng, Li'an Zhong, Yi Wang, Rui Dai, Kaikui Liu, Xiangxiang Chu, Linyuan Lv, Philip Torr, Kevin Qinghong Lin
-    - 🏛️ Institutions: University of Science and Technology of China, AMAP, Alibaba Group, Sun Yat-sen University, University of Oxford
+    - 🏛️ Institutions: University of Science and Technology of China, AMAP, Alibaba Group, Sun Yat-sen University, Oxford
     - 📅 Date: February 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -29,7 +29,7 @@
 
 - [SafePred: A Predictive Guardrail for Computer-Using Agents via World Models](https://arxiv.org/abs/2602.01725)
     - Yurun Chen, Zeyi Liao, Ping Yin, Taotao Xie, Keting Yin, Shengyu Zhang
-    - 🏛️ Institutions: Tsinghua University, OSU, CUHK-Shenzhen
+    - 🏛️ Institutions: Tsinghua, OSU, CUHK-Shenzhen
     - 📅 Date: February 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]

@@ -2,7 +2,7 @@
 
 - [Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System](https://arxiv.org/abs/2602.10915)
     - Zhenhua Zou, Sheng Guo, Qiuyang Zhan, Lepeng Zhao, Shuo Li, Qi Li, Ke Xu, Mingwei Xu, Zhuotao Liu
-    - 🏛️ Institutions: Tsinghua University
+    - 🏛️ Institutions: Tsinghua
     - 📅 Date: February 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -29,7 +29,7 @@
 
 - [It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents](https://arxiv.org/abs/2512.23128)
     - Karolina Korgul, Yushi Yang, Arkadiusz Drohomirecki, Piotr Błaszczyk, Will Howard, Lukas Aichberger, Chris Russell, Philip H.S. Torr, Adam Mahdi, Adel Bibi
-    - 🏛️ Institutions: University of Oxford, SoftServe, Independent, Johannes Kepler University Linz
+    - 🏛️ Institutions: Oxford, SoftServe, Independent, Johannes Kepler University Linz
     - 📅 Date: December 29, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]

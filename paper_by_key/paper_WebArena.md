@@ -20,7 +20,7 @@
 
 - [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.14721)
     - Zikai Xiao, Jianhong Tu, Chuhang Zou, Yuxin Zuo, Zhi Li, Peng Wang, Bowen Yu, Fei Huang, Junyang Lin, Zuozhu Liu
-    - 🏛️ Institutions: Qwen Team, Alibaba Group, Zhejiang University
+    - 🏛️ Institutions: Qwen Team, Alibaba Group, ZJU
     - 📅 Date: February 16, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -119,7 +119,7 @@
 
 - [SteP: Stacked LLM Policies for Web Actions](https://openreview.net/forum?id=5fg0VtRxgi)
     - Paloma Sodhi, S.R.K Branavan, Yoav Artzi, Ryan McDonald
-    - 🏛️ Institutions: ASAPP Research, Cornell University
+    - 🏛️ Institutions: ASAPP Research, Cornell
     - 📅 Date: October 05, 2023
     - 📑 Publisher: COLM 2024
     - 💻 Env: [Web]

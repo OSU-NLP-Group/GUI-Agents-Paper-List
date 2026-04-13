@@ -81,10 +81,24 @@ CANONICAL_MAP: list[tuple[str, str]] = [
     (r"^Hong Kong Polytechnic University$", "PolyU"),
     (r"^City University of Hong Kong$", "CityU"),
 
+    # Drop "University" for globally unambiguous names
+    (r"^Tsinghua University$", "Tsinghua"),
+    (r"^Stanford University$", "Stanford"),
+    (r"^Princeton University$", "Princeton"),
+    (r"^Harvard University$", "Harvard"),
+    (r"^Columbia University$", "Columbia"),
+    (r"^Cornell University$", "Cornell"),
+    (r"^University of Oxford$", "Oxford"),
+    (r"^Zhejiang University$", "ZJU"),
+
     # Shanghai
     (r"^Shanghai Jiaotong University$", "Shanghai Jiao Tong University"),
     (r"^Shanghai Artificial Intelligence Laboratory$", "Shanghai AI Laboratory"),
     (r"^Shanghai AI Lab$", "Shanghai AI Laboratory"),
+
+    # Companies / labs
+    (r"^Zhipu AI$", "Zhipu"),
+    (r"^Z\.AI$", "Zhipu"),
 
     # Montréal
     (r"^Universit[eé] de Montr[eé]al$", "Université de Montréal"),
