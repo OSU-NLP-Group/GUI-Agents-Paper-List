@@ -3,9 +3,6 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-CACHE_ROOT="${XDG_CACHE_HOME:-$REPO_ROOT/.cache}"
-MPL_CACHE_DIR="${MPLCONFIGDIR:-$CACHE_ROOT/matplotlib}"
-FONTCONFIG_CACHE_DIR="$CACHE_ROOT/fontconfig"
 
 # Use uv run if available, otherwise fall back to python3
 if command -v uv >/dev/null 2>&1 && [ -f "$REPO_ROOT/pyproject.toml" ]; then
@@ -19,10 +16,6 @@ else
 fi
 
 cd "$REPO_ROOT"
-mkdir -p "$MPL_CACHE_DIR" "$FONTCONFIG_CACHE_DIR"
-
-export XDG_CACHE_HOME="$CACHE_ROOT"
-export MPLCONFIGDIR="$MPL_CACHE_DIR"
 
 echo "Normalizing institutions and keywords..."
 $RUN scripts/normalize_institutions.py --write

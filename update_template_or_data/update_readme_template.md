@@ -9,7 +9,7 @@ This repo covers **{{insert_paper_count_here}}** direct GUI-agent papers, such a
 
 ![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
 
-![Keyword frequency word cloud](update_template_or_data/statistics/keyword_wordcloud_long.png)
+![Top 25 research keywords](update_template_or_data/statistics/keyword_bar_chart.png)
 
 ## Papers Grouped by Environments
 {{insert_env_groups_here}}

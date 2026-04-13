@@ -1,5 +1,3 @@
 pandas
-matplotlib
-wordcloud
 plotly
 kaleido

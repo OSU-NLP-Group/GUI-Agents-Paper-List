@@ -7,12 +7,6 @@ import calendar
 from collections import Counter
 
 import pandas as pd
-import matplotlib
-from wordcloud import WordCloud
-
-# Force a non-interactive backend so generation works in headless environments.
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
 
 # Configure logging
 log_dir = "update_template_or_data/logs"
@@ -376,20 +370,51 @@ def process_markdown():
     except Exception as e:
         logging.error(f"Error generating sorted keyword grouping Markdown: {str(e)}", exc_info=True)
 
-    # --- Generate keyword word cloud ---
+    # --- Generate keyword bar chart ---
     try:
-        wordcloud = WordCloud(
-            width=2000, height=1000, background_color="white",
-            max_font_size=140, min_font_size=10
-        ).generate_from_frequencies(keyword_counts)
-        plt.figure(figsize=(20, 10))
-        plt.imshow(wordcloud, interpolation='bilinear')
-        plt.axis('off')
-        plt.tight_layout(pad=0)
-        plt.savefig("update_template_or_data/statistics/keyword_wordcloud_long.png", dpi=400)
-        plt.close()
+        try:
+            import plotly.graph_objects as go
+            _has_plotly_kw = True
+        except ImportError:
+            _has_plotly_kw = False
+
+        if _has_plotly_kw:
+            top_kw = keyword_counts.most_common(25)
+            top_kw.reverse()
+            kw_labels = [k for k, _ in top_kw]
+            kw_values = [v for _, v in top_kw]
+
+            fig_kw = go.Figure()
+            fig_kw.add_trace(go.Bar(
+                y=kw_labels, x=kw_values, orientation='h',
+                text=kw_values, textposition='outside',
+                textfont=dict(size=12, color='#444'),
+                marker=dict(
+                    color=kw_values,
+                    colorscale=[[0, '#BFDBFE'], [0.4, '#3B82F6'], [1, '#1E3A8A']],
+                    line=dict(width=0), cornerradius=3,
+                ),
+            ))
+            fig_kw.update_layout(
+                title=dict(text='Top 25 Research Keywords',
+                           font=dict(size=20, color='#1a1a1a'), x=0.5),
+                xaxis=dict(
+                    title=dict(text='Number of papers', font=dict(size=13, color='#666')),
+                    gridcolor='rgba(0,0,0,0.06)', zeroline=False,
+                    tickfont=dict(size=11, color='#888'),
+                    range=[0, max(kw_values) * 1.15],
+                ),
+                yaxis=dict(tickfont=dict(size=12, color='#444'), showgrid=False),
+                plot_bgcolor='white', paper_bgcolor='white', showlegend=False,
+                margin=dict(l=160, r=50, t=60, b=50),
+                width=900, height=650, bargap=0.25,
+            )
+            fig_kw.write_image(
+                'update_template_or_data/statistics/keyword_bar_chart.png', scale=2)
+        else:
+            warn("plotly not installed, skipping keyword bar chart")
     except Exception as e:
-        logging.error(f"Error generating keyword word cloud: {str(e)}", exc_info=True)
+        logging.error(f"Error generating keyword bar chart: {str(e)}", exc_info=True)
 
     # --- Generate quarterly publication trend chart ---
     try:
