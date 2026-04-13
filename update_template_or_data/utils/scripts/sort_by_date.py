@@ -269,13 +269,17 @@ def process_markdown():
 
     # --- Generate author grouping markdown ---
     try:
-        # Generate author grouping as dot-separated links (same style as keywords)
-        author_parts = []
+        # Generate author grouping as dot-separated links, 5 per line
+        author_links = []
         for author, count in top_authors_sorted:
-            author_filename = f"paper_{author.replace(' ', '_')}.md"
-            author_parts.append(f"[{author} ({count})](paper_by_author/{author_filename})")
+            a_file = f"paper_{author.replace(' ', '_')}.md"
+            author_links.append(f"[{author} ({count})](paper_by_author/{a_file})")
+        per_line = 5
+        author_lines = []
+        for i in range(0, len(author_links), per_line):
+            author_lines.append(" · ".join(author_links[i:i+per_line]))
         write_file("update_template_or_data/author_grouping.md",
-                    " · ".join(author_parts))
+                    "<br>".join(author_lines))
     except Exception as e:
         logging.error(f"Error generating sorted author grouping Markdown: {str(e)}", exc_info=True)
 
@@ -362,14 +366,17 @@ def process_markdown():
         combined_keywords.sort(
             key=lambda x: (-x[1], predefined_keywords_list.index(x[0]) if x[0] in predefined_keywords_list else float('inf')))
 
-        # Generate keyword grouping as pipe-separated links
-        grouped_keywords_markdown = []
+        # Generate keyword grouping as dot-separated links, 5 per line
+        kw_links = []
         for keyword, count in combined_keywords:
-            keyword_filename = f"paper_{keyword.replace(' ', '_')}.md"
-            keyword_link = f"paper_by_key/{keyword_filename}"
-            grouped_keywords_markdown.append(f"[{keyword} ({count})]({keyword_link})")
+            kw_file = f"paper_{keyword.replace(' ', '_')}.md"
+            kw_links.append(f"[{keyword} ({count})](paper_by_key/{kw_file})")
+        per_line = 5
+        kw_lines = []
+        for i in range(0, len(kw_links), per_line):
+            kw_lines.append(" · ".join(kw_links[i:i+per_line]))
         write_file("update_template_or_data/keyword_grouping.md",
-                    " · ".join(grouped_keywords_markdown))
+                    "<br>".join(kw_lines))
     except Exception as e:
         logging.error(f"Error generating sorted keyword grouping Markdown: {str(e)}", exc_info=True)
 
