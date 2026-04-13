@@ -90,6 +90,7 @@ CANONICAL_MAP: list[tuple[str, str]] = [
     (r"^Cornell University$", "Cornell"),
     (r"^University of Oxford$", "Oxford"),
     (r"^Zhejiang University$", "ZJU"),
+    (r"^Peking University$", "PKU"),
 
     # Shanghai
     (r"^Shanghai Jiaotong University$", "Shanghai Jiao Tong University"),
