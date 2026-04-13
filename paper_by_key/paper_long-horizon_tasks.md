@@ -2,7 +2,7 @@
 
 - [AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents](https://arxiv.org/abs/2603.18429)
     - Yibo Shi, Jungang Li, Linghao Zhang, Zihao Dongfang, Biao Wu, Sicheng Tao, Yibo Yan, Chenxi Qin, Weiting Liu, Zhixin Lin, Hanqian Li, Yu Huang, Song Dai, Yonghua Hei, Yue Ding, Xiang Li, Shikang Wang, Chengdong Xu, Jingqi Liu, Xueying Ma, Zhiwen Zheng, Xiaofei Zhang, Bincheng Wang, Nichen Yang, Jie Wu, Lihua Tian, Chen Li, Xuming Hu
-    - 🏛️ Institutions: Xi'an Jiaotong University, HKUST(GZ), HKUST, CityU, University of Technology Sydney, Tianjin University, Fudan, Shandong University, CAS, Sun Yat-sen University, Northwestern Polytechnical University
+    - 🏛️ Institutions: XJTU, HKUST(GZ), HKUST, CityU, University of Technology Sydney, Tianjin University, Fudan, Shandong University, CAS, Sun Yat-sen University, Northwestern Polytechnical University
     - 📅 Date: March 19, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

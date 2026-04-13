@@ -65,7 +65,7 @@
 
 - [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603)
     - Chengyou Jia, Minnan Luo, Zhuohang Dang, Qiushi Sun, Fangzhi Xu, Junlin Hu, Tianbao Xie, Zhiyong Wu
-    - 🏛️ Institutions: Xi'an Jiaotong University, Shanghai AI Laboratory, HKU
+    - 🏛️ Institutions: XJTU, Shanghai AI Laboratory, HKU
     - 📅 Date: October 24, 2024
     - 📑 Publisher: Findings of ACL 2025
     - 💻 Env: [Desktop]
