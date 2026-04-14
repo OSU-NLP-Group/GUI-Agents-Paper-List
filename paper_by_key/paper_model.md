@@ -9,6 +9,15 @@
     - 🔑 Key: [model], [dataset], [MolmoWeb], [open-source]
     - 📖 TLDR: MolmoWeb is a family of fully open multimodal web agents (4B and 8B) trained on MolmoWebMix (100K+ synthetic trajectories and 30K+ human demonstrations). Operating as screenshot-only visual-language action policies without HTML or accessibility tree access, it achieves SOTA on WebVoyager, Online-Mind2Web, and DeepShop, outperforming larger closed models like GPT-4o.
 
+- [IntentScore: Intent-Conditioned Action Evaluation for Computer-Use Agents](https://arxiv.org/abs/2604.05157)
+    - Rongqian Chen, Yu Li, Zeyu Fang, Sizhe Tang, Weidong Cao, Tian Lan
+    - 🏛️ Institutions: George Washington University
+    - 📅 Date: April 06, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [reward model], [model], [plan-aware reward], [contrastive alignment], [margin ranking], [OSWorld], [IntentScore]
+    - 📖 TLDR: IntentScore is a plan-aware reward model for computer-use agents trained from 398K offline GUI interaction steps across three OSes, using contrastive alignment and margin ranking objectives. It achieves 97.5% pairwise discrimination and, when used as a re-ranker for Agent S3 on OSWorld, improves task success rate by 6.9 points.
+
 - [SecAgent: Efficient Mobile GUI Agent with Semantic Context](https://arxiv.org/abs/2603.08533)
     - Yiping Xie, Song Chen, Jingxuan Xing, Wei Jiang, Zekun Zhu, Yingyao Wang, Pi Bu, Jun Song, Yuning Jiang, Bo Zheng
     - 🏛️ Institutions: Taobao & Tmall Group of Alibaba
