@@ -1,5 +1,23 @@
 # Papers with Keyword: safety
 
+- [The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents](https://arxiv.org/abs/2604.10577)
+    - Xuwei Ding, Skylar Zhai, Linxin Song, Jiate Li, Taiwei Shi, Nicholas Meade, Siva Reddy, Jian Kang, Jieyu Zhao
+    - 🏛️ Institutions: USC, McGill, Mila
+    - 📅 Date: April 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [safety], [security], [unintended attacks], [OS-BLIND]
+    - 📖 TLDR: OS-BLIND benchmarks computer-use agents under unintended attack scenarios where benign instructions trigger harmful outcomes through environmental context. Most agents exceed 90% attack success rate, and even safety-aligned Claude 4.5 Sonnet reaches 73%. Existing safety defenses activate only initially and fail to re-engage during execution, especially when subtask decomposition obscures harmful intent.
+
+- [CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation](https://arxiv.org/abs/2604.09155)
+    - Yushi Feng, Junye Du, Qifan Wang, Zizhan Ma, Qian Niu, Yutaka Matsuo, Long Feng, Lequan Yu
+    - 🏛️ Institutions: HKU, University of Tokyo
+    - 📅 Date: April 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [safety], [benchmark], [conformal risk control], [Phone-Harm], [CORA]
+    - 📖 TLDR: CORA reformulates safety as selective action execution: a Guardian model estimates action-conditional risk, Conformal Risk Control calibrates an execute/abstain boundary under a user-specified risk budget, and a Diagnostician proposes interventions for rejected actions. A Goal-Lock mechanism resists visual injection. Phone-Harm benchmark with step-level harm labels is also released.
+
 - [Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection](https://arxiv.org/abs/2604.07831)
     - Wenkui Yang, Chao Jin, Haisu Zhu, Weilin Luo, Derek Yuen, Kun Shao, Huaibo Huang, Junxian Duan, Jie Cao, Ran He
     - 🏛️ Institutions: UCAS, CASIA, Huawei, ShanghaiTech

@@ -1,5 +1,14 @@
 # Kun Shao's Papers
 
+- [EE-MCP: Self-Evolving MCP-GUI Agents via Automated Environment Generation and Experience Learning](https://arxiv.org/abs/2604.09815)
+    - Tiantian He, Yihang Chen, Keyue Jiang, Ka Yiu Lee, Kaiwen Zhou, Kun Shao, Shuai Wang
+    - 🏛️ Institutions: Huawei Noah's Ark Lab
+    - 📅 Date: April 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [MCP], [self-evolving], [experience learning], [hybrid policy], [EE-MCP]
+    - 📖 TLDR: EE-MCP frames computer-use agent design as hybrid policy learning that balances GUI interaction and MCP API calls, with an automated pipeline for environment generation, trajectory collection, and gap-driven task synthesis. An experience bank of LLM-learned rules enables inference-time improvement: distillation wins on MCP-dominant tasks (+17.8pp) while the experience bank excels on GUI-intensive tasks (+10.0pp).
+
 - [Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection](https://arxiv.org/abs/2604.07831)
     - Wenkui Yang, Chao Jin, Haisu Zhu, Weilin Luo, Derek Yuen, Kun Shao, Huaibo Huang, Junxian Duan, Jie Cao, Ran He
     - 🏛️ Institutions: UCAS, CASIA, Huawei, ShanghaiTech
