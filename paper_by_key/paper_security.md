@@ -9,6 +9,15 @@
     - 🔑 Key: [benchmark], [safety], [security], [unintended attacks], [OS-BLIND]
     - 📖 TLDR: OS-BLIND benchmarks computer-use agents under unintended attack scenarios where benign instructions trigger harmful outcomes through environmental context. Most agents exceed 90% attack success rate, and even safety-aligned Claude 4.5 Sonnet reaches 73%. Existing safety defenses activate only initially and fail to re-engage during execution, especially when subtask decomposition obscures harmful intent.
 
+- [Preference Redirection via Attention Concentration: An Attack on Computer Use Agents](https://arxiv.org/abs/2604.08005)
+    - Dominik Seip, Matthias Hein
+    - 🏛️ Institutions: University of Tübingen
+    - 📅 Date: April 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [safety], [attack], [adversarial patch], [attention manipulation], [PRAC]
+    - 📖 TLDR: PRAC is a novel attack on Computer Use Agents that redirects model attention toward a stealthy adversarial patch to alter internal preferences rather than directly manipulating outputs. The attack influences product selection on online shopping platforms and generalizes across fine-tuned variants of the same backbone, highlighting risks for CUAs built on open-weight models.
+
 - [WebSP-Eval: Evaluating Web Agents on Website Security and Privacy Tasks](https://arxiv.org/abs/2604.06367)
     - Guruprasad Viswanathan Ramesh, Asmit Nayak, Basieem Siddique, Kassem Fawaz
     - 🏛️ Institutions: UW-Madison

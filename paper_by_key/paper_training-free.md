@@ -1,5 +1,14 @@
 # Papers with Keyword: training-free
 
+- [UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding](https://arxiv.org/abs/2604.14113)
+    - Fei Tang, Bofan Chen, Zhengxi Lu, Tongbo Chen, Songqin Nong, Tao Jiang, Wenhao Xu, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
+    - 🏛️ Institutions: ZJU
+    - 📅 Date: April 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI grounding], [training-free], [uncertainty quantification], [adaptive zoom], [UI-Zoomer]
+    - 📖 TLDR: UI-Zoomer treats the trigger and scale of zoom-in as a prediction uncertainty quantification problem. A confidence-aware gate activates zoom-in only when needed, while an uncertainty-driven module picks per-instance crop sizes via variance decomposition. The training-free method improves GUI grounding by 4.2-13.4% on three benchmarks and is compatible with multiple model architectures.
+
 - [GPA: Learning GUI Process Automation from Demonstrations](https://arxiv.org/abs/2604.01676)
     - Zirui Zhao, Jun Hao Liew, Yan Yang, Wenzhuo Yang, Ziyang Luo, Doyen Sahoo, Silvio Savarese, Junnan Li
     - 🏛️ Institutions: Salesforce AI Research

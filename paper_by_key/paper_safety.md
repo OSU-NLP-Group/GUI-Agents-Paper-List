@@ -27,6 +27,15 @@
     - 🔑 Key: [safety], [red teaming], [visual grounding], [UI injection]
     - 📖 TLDR: This paper proposes Semantic-level UI Element Injection, a red-teaming method that overlays safety-aligned UI elements onto screenshots to misdirect GUI agents' visual grounding. Using a modular Editor-Overlapper-Victim pipeline with iterative search, optimized attacks improve attack success rate by up to 4.4x over random injection and transfer across models.
 
+- [Preference Redirection via Attention Concentration: An Attack on Computer Use Agents](https://arxiv.org/abs/2604.08005)
+    - Dominik Seip, Matthias Hein
+    - 🏛️ Institutions: University of Tübingen
+    - 📅 Date: April 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [safety], [attack], [adversarial patch], [attention manipulation], [PRAC]
+    - 📖 TLDR: PRAC is a novel attack on Computer Use Agents that redirects model attention toward a stealthy adversarial patch to alter internal preferences rather than directly manipulating outputs. The attack influences product selection on online shopping platforms and generalizes across fine-tuned variants of the same backbone, highlighting risks for CUAs built on open-weight models.
+
 - [Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks](https://arxiv.org/abs/2603.04364)
     - Haoyu Liu, Dingcheng Li, Lukas Rutishauser, Zeyu Zheng
     - 🏛️ Institutions: UC Berkeley, IEOR & BAIR, Google, Google DeepMind
