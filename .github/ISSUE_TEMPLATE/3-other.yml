@@ -1,0 +1,12 @@
+name: Other suggestion or question
+description: Structural suggestions, feature requests, or general questions.
+title: "[Other] "
+labels: ["other"]
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: Your suggestion or question
+      description: Go ahead — structural ideas, feature requests, repo improvements, questions, anything.
+    validations:
+      required: true

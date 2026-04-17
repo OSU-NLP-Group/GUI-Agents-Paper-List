@@ -1,0 +1,24 @@
+name: Report an error or metadata correction
+description: Incorrect author/institution/date, broken link, wrong keyword or env tag, etc.
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Which paper
+      description: Paper title or link.
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's wrong and what's correct
+      description: Describe the incorrect field (authors, institutions, date, publisher, link, Env, keywords, TLDR, …) and the correct value.
+      placeholder: |
+        Currently: [current value]
+        Should be: [correct value]
+        Reason / source: ...
+    validations:
+      required: true

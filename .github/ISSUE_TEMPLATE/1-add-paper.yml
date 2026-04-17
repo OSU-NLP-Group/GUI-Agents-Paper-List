@@ -1,0 +1,58 @@
+name: Add a new paper
+description: Suggest a paper to add to the list
+title: "[Add Paper] "
+labels: ["add-paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a paper! Please fill in the fields below. If you leave the optional fields blank, we'll fill them in automatically.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The paper's exact, canonical title.
+      placeholder: "e.g., OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: A single link — prefer project homepage > arXiv > OpenReview > publisher page.
+      placeholder: "https://arxiv.org/abs/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: authors
+    attributes:
+      label: Authors
+      description: The complete author list, comma-separated.
+      placeholder: "Alice Author, Bob Author, Charlie Author"
+    validations:
+      required: true
+
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher
+      description: "Venue and year. Examples: `arXiv`, `ICLR 2026 (Poster)`, `CVPR 2026`, `Findings of ACL 2026`, `NeurIPS 2025 (Spotlight)`."
+      placeholder: "arXiv"
+    validations:
+      required: true
+
+  - type: input
+    id: keywords
+    attributes:
+      label: Suggested keywords (optional)
+      description: "Comma-separated keywords like `[benchmark], [dataset], [model], [safety]`. Leave blank and we'll auto-generate them."
+      placeholder: "[benchmark], [GUI grounding], ..."
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes (optional)
+      description: "Institutions, date, TLDR, conflict-of-interest disclosure, or anything else that would help us create a good entry."
