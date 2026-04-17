@@ -60,7 +60,7 @@
     - 📅 Date: April 02, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [evaluation], [online-Mind2Web], [WebJudge], [LLM-as-a-judge]
+    - 🔑 Key: [benchmark], [realistic website], [evaluation], [online-Mind2Web], [WebJudge], [LLM-as-a-judge]
     - 📖 TLDR: This paper argues that reported web-agent progress is overstated once agents are evaluated on more realistic online tasks. It introduces Online-Mind2Web with 300 tasks across 136 live websites, pairs it with the WebJudge automatic evaluation method, and uses that setup to show a much weaker picture of current web-agent capability than prior benchmarks suggest.
 
 - [WebOlympus: An Open Platform for Web Agents on Live Websites](https://aclanthology.org/2024.emnlp-demo.20/)
