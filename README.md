@@ -10,7 +10,7 @@ A curated list of **526** research papers on GUI agents — models, frameworks, 
 🌐 [Web (217)](paper_by_env/paper_web.md) · 🖥️ [Desktop (119)](paper_by_env/paper_desktop.md) · 📱 [Mobile (159)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (108)](paper_by_env/paper_general_gui.md)
 
 ## Browse by Keyword
-[benchmark (167)](paper_by_key/paper_benchmark.md) · [dataset (99)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (46)](paper_by_key/paper_model.md)<br>[GUI grounding (45)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
+[benchmark (167)](paper_by_key/paper_benchmark.md) · [dataset (100)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (47)](paper_by_key/paper_model.md)<br>[GUI grounding (45)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
 
 ## Browse by Author
 [Graham Neubig (14)](paper_by_author/paper_Graham_Neubig.md) · [Yu Su (14)](paper_by_author/paper_Yu_Su.md) · [Huan Sun (14)](paper_by_author/paper_Huan_Sun.md) · [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) · [Mike Zheng Shou (11)](paper_by_author/paper_Mike_Zheng_Shou.md)<br>[Shuyan Zhou (11)](paper_by_author/paper_Shuyan_Zhou.md) · [Zhuosheng Zhang (11)](paper_by_author/paper_Zhuosheng_Zhang.md) · [Jian Luan (11)](paper_by_author/paper_Jian_Luan.md) · [Kun Shao (10)](paper_by_author/paper_Kun_Shao.md) · [Jun Wang (10)](paper_by_author/paper_Jun_Wang.md)<br>[Wei Liu (10)](paper_by_author/paper_Wei_Liu.md) · [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) · [Kevin Qinghong Lin (9)](paper_by_author/paper_Kevin_Qinghong_Lin.md) · [Yuxiang Chai (9)](paper_by_author/paper_Yuxiang_Chai.md) · [Qiushi Sun (9)](paper_by_author/paper_Qiushi_Sun.md)<br>[Zhengxi Lu (8)](paper_by_author/paper_Zhengxi_Lu.md) · [Jie Tang (8)](paper_by_author/paper_Jie_Tang.md) · [Zichen Ding (8)](paper_by_author/paper_Zichen_Ding.md) · [Han Xiao (8)](paper_by_author/paper_Han_Xiao.md) · [Jianye Hao (8)](paper_by_author/paper_Jianye_Hao.md)
@@ -85,7 +85,7 @@ We welcome contributions from the community!
 
 - [CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation](https://arxiv.org/abs/2604.09155)
     - Yushi Feng, Junye Du, Qifan Wang, Zizhan Ma, Qian Niu, Yutaka Matsuo, Long Feng, Lequan Yu
-    - 🏛️ Institutions: HKU, University of Tokyo
+    - 🏛️ Institutions: HKU, CUHK, University of Tokyo
     - 📅 Date: April 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -2375,7 +2375,7 @@ We welcome contributions from the community!
     - 📅 Date: August 12, 2025
     - 📑 Publisher: NeurIPS 2025 (Spotlight)
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [AgentNet], [AgentNet Tool], [reflective long CoT], [OSWorld-Verified], [OpenCUA]
+    - 🔑 Key: [model], [dataset], [AgentNet], [AgentNet Tool], [reflective long CoT], [OSWorld-Verified], [OpenCUA]
     - 📖 TLDR: OpenCUA is an open-source computer-use stack centered on AgentNet Tool for demonstration capture, AgentNet for large-scale cross-platform trajectories, and a training pipeline that adds reflective long chain-of-thought supervision. The paper reports strong open-model results on OSWorld-Verified and argues that cross-platform data and test-time reasoning both materially improve agent performance.
 
 - [Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency](https://arxiv.org/abs/2508.05615)

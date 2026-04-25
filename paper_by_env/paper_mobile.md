@@ -9,7 +9,7 @@
 
 - [CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation](https://arxiv.org/abs/2604.09155)
     - Yushi Feng, Junye Du, Qifan Wang, Zizhan Ma, Qian Niu, Yutaka Matsuo, Long Feng, Lequan Yu
-    - 🏛️ Institutions: HKU, University of Tokyo
+    - 🏛️ Institutions: HKU, CUHK, University of Tokyo
     - 📅 Date: April 10, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]

@@ -463,7 +463,7 @@
     - 📅 Date: August 12, 2025
     - 📑 Publisher: NeurIPS 2025 (Spotlight)
     - 💻 Env: [Desktop], [Web]
-    - 🔑 Key: [AgentNet], [AgentNet Tool], [reflective long CoT], [OSWorld-Verified], [OpenCUA]
+    - 🔑 Key: [model], [dataset], [AgentNet], [AgentNet Tool], [reflective long CoT], [OSWorld-Verified], [OpenCUA]
     - 📖 TLDR: OpenCUA is an open-source computer-use stack centered on AgentNet Tool for demonstration capture, AgentNet for large-scale cross-platform trajectories, and a training pipeline that adds reflective long chain-of-thought supervision. The paper reports strong open-model results on OSWorld-Verified and argues that cross-platform data and test-time reasoning both materially improve agent performance.
 
 - [Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency](https://arxiv.org/abs/2508.05615)
