@@ -1,5 +1,14 @@
 # Mike Zheng Shou's Papers
 
+- [GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents](https://gameworld-project.github.io/)
+    - Mingyu Ouyang, Siyuan Hu, Kevin Qinghong Lin, Hwee Tou Ng, Mike Zheng Shou
+    - 🏛️ Institutions: NUS, Oxford
+    - 📅 Date: April 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [game agent], [computer-use control], [semantic control], [GameWorld]
+    - 📖 TLDR: GameWorld is a standardized browser-based benchmark for multimodal game agents with 34 games and 170 tasks. Two game agent interfaces are studied: (i) computer-use agents that directly emit keyboard and mouse controls, and (ii) generalist multimodal agents that act in a semantic action space.
+
 - [ShowUI-Aloha: Human-Taught GUI Agent](https://arxiv.org/abs/2601.07181)
     - Yichun Zhang, Xiangwu Guo, Yauhong Goh, Jessica Hu, Zhiheng Chen, Xin Wang, Difei Gao, Mike Zheng Shou
     - 🏛️ Institutions: Show Lab, NUS
