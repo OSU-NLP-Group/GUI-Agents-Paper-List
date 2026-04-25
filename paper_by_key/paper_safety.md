@@ -18,15 +18,6 @@
     - 🔑 Key: [safety], [benchmark], [conformal risk control], [Phone-Harm], [CORA]
     - 📖 TLDR: CORA reformulates safety as selective action execution: a Guardian model estimates action-conditional risk, Conformal Risk Control calibrates an execute/abstain boundary under a user-specified risk budget, and a Diagnostician proposes interventions for rejected actions. A Goal-Lock mechanism resists visual injection. Phone-Harm benchmark with step-level harm labels is also released.
 
-- [Preference Redirection via Attention Concentration: An Attack on Computer Use Agents](https://arxiv.org/abs/2604.08005)
-    - Dominik Seip, Matthias Hein
-    - 🏛️ Institutions: University of Tübingen
-    - 📅 Date: April 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [security], [safety], [attack], [adversarial patch], [attention manipulation], [PRAC]
-    - 📖 TLDR: PRAC is a novel attack on Computer Use Agents that redirects model attention toward a stealthy adversarial patch to alter internal preferences rather than directly manipulating outputs. The attack influences product selection on online shopping platforms and generalizes across fine-tuned variants of the same backbone, highlighting risks for CUAs built on open-weight models.
-
 - [Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection](https://arxiv.org/abs/2604.07831)
     - Wenkui Yang, Chao Jin, Haisu Zhu, Weilin Luo, Derek Yuen, Kun Shao, Huaibo Huang, Junxian Duan, Jie Cao, Ran He
     - 🏛️ Institutions: UCAS, CASIA, Huawei, ShanghaiTech
@@ -35,6 +26,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [safety], [red teaming], [visual grounding], [UI injection]
     - 📖 TLDR: This paper proposes Semantic-level UI Element Injection, a red-teaming method that overlays safety-aligned UI elements onto screenshots to misdirect GUI agents' visual grounding. Using a modular Editor-Overlapper-Victim pipeline with iterative search, optimized attacks improve attack success rate by up to 4.4x over random injection and transfer across models.
+
+- [Preference Redirection via Attention Concentration: An Attack on Computer Use Agents](https://arxiv.org/abs/2604.08005)
+    - Dominik Seip, Matthias Hein
+    - 🏛️ Institutions: University of Tübingen
+    - 📅 Date: April 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [security], [safety], [attack], [adversarial patch], [attention manipulation], [PRAC]
+    - 📖 TLDR: PRAC is a novel attack on Computer Use Agents that redirects model attention toward a stealthy adversarial patch to alter internal preferences rather than directly manipulating outputs. The attack influences product selection on online shopping platforms and generalizes across fine-tuned variants of the same backbone, highlighting risks for CUAs built on open-weight models.
 
 - [Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks](https://arxiv.org/abs/2603.04364)
     - Haoyu Liu, Dingcheng Li, Lukas Rutishauser, Zeyu Zheng
@@ -45,15 +45,6 @@
     - 🔑 Key: [security], [safety], [defense], [adversarial training], [cross-modal attack], [DOM injection], [DMAST], [GRPO]
     - 📖 TLDR: DMAST is a three-stage adversarial safety training pipeline for multimodal web agents that jointly reasons over screenshots and accessibility trees. It targets cross-modal DOM injection attacks, substantially reducing adversarial risk while improving efficiency on out-of-distribution MiniWob++ tasks.
 
-- [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
-    - Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
-    - 🏛️ Institutions: OSU, LawZero, Mila, UdeM, UC Berkeley
-    - 📅 Date: February 09, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [safety], [unintended behaviors], [AutoElicit], [benchmark], [red teaming]
-    - 📖 TLDR: AutoElicit is an agentic framework that iteratively perturbs benign instructions using CUA execution feedback to surface unintended harmful behaviors while keeping inputs realistic. It elicits severe harms from frontier CUAs like Claude 4.5 and Operator in up to 72.5% of OS-domain seeds, and evaluates cross-model transferability of verified perturbations.
-
 - [When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents](https://arxiv.org/abs/2602.08995)
     - Yuting Ning, Jaylen Jones, Zhehao Zhang, Chentao Ye, Weitong Ruan, Junyi Li, Rahul Gupta, Huan Sun
     - 🏛️ Institutions: OSU, Amazon AGI
@@ -62,6 +53,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [safety], [guardrail], [misaligned actions], [benchmark], [dataset], [MisActBench], [DeAction]
     - 📖 TLDR: This paper introduces MisActBench, a benchmark of 2,264 human-annotated action-level alignment labels covering malicious instruction following, harmful unintended behavior, and task-irrelevant actions. It proposes DeAction, a two-stage guardrail that detects misaligned actions before execution and iteratively corrects them, improving F1 by 15%+ over baselines and reducing attack success rate by over 90%.
+
+- [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents](https://arxiv.org/abs/2602.08235)
+    - Jaylen Jones, Zhehao Zhang, Yuting Ning, Eric Fosler-Lussier, Pierre-Luc St-Charles, Yoshua Bengio, Dawn Song, Yu Su, Huan Sun
+    - 🏛️ Institutions: OSU, LawZero, Mila, UdeM, UC Berkeley
+    - 📅 Date: February 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [safety], [unintended behaviors], [AutoElicit], [benchmark], [red teaming]
+    - 📖 TLDR: AutoElicit is an agentic framework that iteratively perturbs benign instructions using CUA execution feedback to surface unintended harmful behaviors while keeping inputs realistic. It elicits severe harms from frontier CUAs like Claude 4.5 and Operator in up to 72.5% of OS-domain seeds, and evaluates cross-model transferability of verified perturbations.
 
 - [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255)
     - Tianyu Chen, Chujia Hu, Ge Gao, Ruofeng Yu, Yao Lu

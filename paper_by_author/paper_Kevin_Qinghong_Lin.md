@@ -1,6 +1,6 @@
 # Kevin Qinghong Lin's Papers
 
-- [GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents](https://gameworld-project.github.io/)
+- [GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents](https://arxiv.org/abs/2604.07429)
     - Mingyu Ouyang, Siyuan Hu, Kevin Qinghong Lin, Hwee Tou Ng, Mike Zheng Shou
     - 🏛️ Institutions: NUS, Oxford
     - 📅 Date: April 08, 2026

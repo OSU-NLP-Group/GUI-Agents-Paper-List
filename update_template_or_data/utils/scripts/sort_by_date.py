@@ -205,7 +205,16 @@ def process_markdown():
     if dupes > 0:
         warn(f"{dupes} duplicate title(s) removed")
     papers_df = papers_df.drop_duplicates(subset='Title', keep='first')
-    papers_df.sort_values(by='Parsed Date', ascending=False, inplace=True)
+    # Stable sort with a deterministic tiebreaker on Title so papers
+    # sharing the same date keep a fixed order across runs. Without this,
+    # pandas' default quicksort reorders same-date entries on every run,
+    # producing huge spurious diffs in ALL_PAPERS.md and README.md.
+    papers_df.sort_values(
+        by=['Parsed Date', 'Title'],
+        ascending=[False, True],
+        kind='stable',
+        inplace=True,
+    )
 
     print(f"Processed {len(papers_df)} papers successfully.")
 
