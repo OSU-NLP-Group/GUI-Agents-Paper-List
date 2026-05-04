@@ -18,6 +18,15 @@
     - 🔑 Key: [benchmark], [GUI functionality understanding], [region semantics], [state prediction], [AutoGUI-v2]
     - 📖 TLDR: AutoGUI-v2 unifies region-level semantics, element grounding, and state prediction into 2,753 tasks spanning six operating systems, addressing the bifurcation between black-box task-completion and shallow grounding benchmarks. Open-source models excel at functional grounding while commercial models do better at functionality description, but all struggle with complex interaction logic in uncommon actions.
 
+- [Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks](https://arxiv.org/abs/2604.24964)
+    - Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov
+    - 🏛️ Institutions: CMU
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [long-horizon], [multi-site], [rubric evaluation], [Odysseys]
+    - 📖 TLDR: Odysseys targets the saturation of short single-site web-agent benchmarks by curating 200 realistic long-horizon multi-site workflows graded with 1,225 rubric items. The benchmark exposes large gaps between frontier computer-use agents and human performance on extended cross-site reasoning and persistent task state.
+
 - [GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models](https://arxiv.org/abs/2604.14262)
     - Yangyue Wang, Harshvardhan Sikka, Yash Mathur, Tony Zhou, Jinu Nyachhyon, Pranav Guruprasad
     - 🏛️ Institutions: Fig AI, Manifold Research

@@ -1,3 +1,12 @@
+- [A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction](https://arxiv.org/abs/2605.00551)
+    - Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, Hitoshi Iyatomi
+    - 🏛️ Institutions: Hosei University
+    - 📅 Date: May 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [accessibility tree], [observation compression], [efficiency], [A11y-Compressor]
+    - 📖 TLDR: A11y-Compressor reformats linearized accessibility-tree observations into compact, structured representations for GUI agents, addressing the cost and noise of raw a11y trees. The compression cuts input tokens to 22% of the original while improving OSWorld task success rate by an average of 5.1 percentage points.
+
 - [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](https://arxiv.org/abs/2604.27776)
     - Jinchao Li, Yunxin Li, Chenrui Zhao, Zhenran Xu, Baotian Hu, Min Zhang
     - 🏛️ Institutions: HIT-Shenzhen
@@ -24,6 +33,24 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [GUI functionality understanding], [region semantics], [state prediction], [AutoGUI-v2]
     - 📖 TLDR: AutoGUI-v2 unifies region-level semantics, element grounding, and state prediction into 2,753 tasks spanning six operating systems, addressing the bifurcation between black-box task-completion and shallow grounding benchmarks. Open-source models excel at functional grounding while commercial models do better at functionality description, but all struggle with complex interaction logic in uncommon actions.
+
+- [Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks](https://arxiv.org/abs/2604.24964)
+    - Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov
+    - 🏛️ Institutions: CMU
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [long-horizon], [multi-site], [rubric evaluation], [Odysseys]
+    - 📖 TLDR: Odysseys targets the saturation of short single-site web-agent benchmarks by curating 200 realistic long-horizon multi-site workflows graded with 1,225 rubric items. The benchmark exposes large gaps between frontier computer-use agents and human performance on extended cross-site reasoning and persistent task state.
+
+- [VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation](https://arxiv.org/abs/2604.21375)
+    - Qijun Han, Haoqin Tu, Zijun Wang, Haoyue Dai, Yiyang Zhou, Nancy Lau, Alvaro A. Cardenas, Yuhui Xu, Ran Xu, Caiming Xiong, Zeyu Zheng, Huaxiu Yao, Yuyin Zhou, Cihang Xie
+    - 🏛️ Institutions: UCSC, CMU, UNC, Salesforce, UC Berkeley
+    - 📅 Date: April 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [early stopping], [recovery], [VLAA-GUI]
+    - 📖 TLDR: VLAA-GUI tackles two recurring failure modes of autonomous GUI agents — premature task termination and unproductive action loops — with a modular framework that decides when to Stop, Recover, and Search. The system reaches 77.5% on OSWorld and 61.0% on WindowsAgentArena, top-performing on both with multiple LLM backbones.
 
 - [GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models](https://arxiv.org/abs/2604.14262)
     - Yangyue Wang, Harshvardhan Sikka, Yash Mathur, Tony Zhou, Jinu Nyachhyon, Pranav Guruprasad

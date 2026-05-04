@@ -1,5 +1,14 @@
 # Papers with Keyword: framework
 
+- [VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation](https://arxiv.org/abs/2604.21375)
+    - Qijun Han, Haoqin Tu, Zijun Wang, Haoyue Dai, Yiyang Zhou, Nancy Lau, Alvaro A. Cardenas, Yuhui Xu, Ran Xu, Caiming Xiong, Zeyu Zheng, Huaxiu Yao, Yuyin Zhou, Cihang Xie
+    - 🏛️ Institutions: UCSC, CMU, UNC, Salesforce, UC Berkeley
+    - 📅 Date: April 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [early stopping], [recovery], [VLAA-GUI]
+    - 📖 TLDR: VLAA-GUI tackles two recurring failure modes of autonomous GUI agents — premature task termination and unproductive action loops — with a modular framework that decides when to Stop, Recover, and Search. The system reaches 77.5% on OSWorld and 61.0% on WindowsAgentArena, top-performing on both with multiple LLM backbones.
+
 - [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://arxiv.org/abs/2604.11784)
     - Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
     - 🏛️ Institutions: ZJU

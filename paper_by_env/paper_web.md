@@ -1,3 +1,12 @@
+- [Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks](https://arxiv.org/abs/2604.24964)
+    - Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov
+    - 🏛️ Institutions: CMU
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [long-horizon], [multi-site], [rubric evaluation], [Odysseys]
+    - 📖 TLDR: Odysseys targets the saturation of short single-site web-agent benchmarks by curating 200 realistic long-horizon multi-site workflows graded with 1,225 rubric items. The benchmark exposes large gaps between frontier computer-use agents and human performance on extended cross-site reasoning and persistent task state.
+
 - [WebForge: Breaking the Realism-Reproducibility-Scalability Trilemma in Browser Agent Benchmark](https://arxiv.org/abs/2604.10988)
     - Peng Yuan, Yuyang Yin, Yuxuan Cai, Zheng Wei
     - 🏛️ Institutions: Unknown

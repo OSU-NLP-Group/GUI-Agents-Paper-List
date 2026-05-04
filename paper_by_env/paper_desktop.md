@@ -1,3 +1,12 @@
+- [A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction](https://arxiv.org/abs/2605.00551)
+    - Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, Hitoshi Iyatomi
+    - 🏛️ Institutions: Hosei University
+    - 📅 Date: May 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [accessibility tree], [observation compression], [efficiency], [A11y-Compressor]
+    - 📖 TLDR: A11y-Compressor reformats linearized accessibility-tree observations into compact, structured representations for GUI agents, addressing the cost and noise of raw a11y trees. The compression cuts input tokens to 22% of the original while improving OSWorld task success rate by an average of 5.1 percentage points.
+
 - [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](https://arxiv.org/abs/2604.27776)
     - Jinchao Li, Yunxin Li, Chenrui Zhao, Zhenran Xu, Baotian Hu, Min Zhang
     - 🏛️ Institutions: HIT-Shenzhen
@@ -6,6 +15,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [process-centric], [cross-application], [Windows], [WindowsWorld]
     - 📖 TLDR: WindowsWorld targets the gap that existing GUI benchmarks focus on isolated single-application tasks, presenting a process-centric suite of 181 cross-application desktop tasks (avg 5.0 sub-goals across 17 applications, 78% multi-application). Evaluated computer-use agents fall below 21% success on multi-application tasks, substantially trailing single-application performance and exposing weak workflow-level coordination.
+
+- [VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation](https://arxiv.org/abs/2604.21375)
+    - Qijun Han, Haoqin Tu, Zijun Wang, Haoyue Dai, Yiyang Zhou, Nancy Lau, Alvaro A. Cardenas, Yuhui Xu, Ran Xu, Caiming Xiong, Zeyu Zheng, Huaxiu Yao, Yuyin Zhou, Cihang Xie
+    - 🏛️ Institutions: UCSC, CMU, UNC, Salesforce, UC Berkeley
+    - 📅 Date: April 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [early stopping], [recovery], [VLAA-GUI]
+    - 📖 TLDR: VLAA-GUI tackles two recurring failure modes of autonomous GUI agents — premature task termination and unproductive action loops — with a modular framework that decides when to Stop, Recover, and Search. The system reaches 77.5% on OSWorld and 61.0% on WindowsAgentArena, top-performing on both with multiple LLM backbones.
 
 - [The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents](https://arxiv.org/abs/2604.10577)
     - Xuwei Ding, Skylar Zhai, Linxin Song, Jiate Li, Taiwei Shi, Nicholas Meade, Siva Reddy, Jian Kang, Jieyu Zhao

@@ -1,19 +1,19 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **534** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **537** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
 
 ![Top 25 research keywords](update_template_or_data/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (217)](paper_by_env/paper_web.md) · 🖥️ [Desktop (122)](paper_by_env/paper_desktop.md) · 📱 [Mobile (160)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (112)](paper_by_env/paper_general_gui.md)
+🌐 [Web (218)](paper_by_env/paper_web.md) · 🖥️ [Desktop (124)](paper_by_env/paper_desktop.md) · 📱 [Mobile (160)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (112)](paper_by_env/paper_general_gui.md)
 
 ## Browse by Keyword
-[benchmark (173)](paper_by_key/paper_benchmark.md) · [dataset (101)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (48)](paper_by_key/paper_model.md)<br>[GUI grounding (47)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
+[benchmark (174)](paper_by_key/paper_benchmark.md) · [dataset (101)](paper_by_key/paper_dataset.md) · [framework (60)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (48)](paper_by_key/paper_model.md)<br>[GUI grounding (47)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
 
 ## Browse by Author
-[Graham Neubig (14)](paper_by_author/paper_Graham_Neubig.md) · [Yu Su (14)](paper_by_author/paper_Yu_Su.md) · [Huan Sun (14)](paper_by_author/paper_Huan_Sun.md) · [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) · [Mike Zheng Shou (11)](paper_by_author/paper_Mike_Zheng_Shou.md)<br>[Shuyan Zhou (11)](paper_by_author/paper_Shuyan_Zhou.md) · [Zhuosheng Zhang (11)](paper_by_author/paper_Zhuosheng_Zhang.md) · [Jian Luan (11)](paper_by_author/paper_Jian_Luan.md) · [Kun Shao (10)](paper_by_author/paper_Kun_Shao.md) · [Jun Wang (10)](paper_by_author/paper_Jun_Wang.md)<br>[Wei Liu (10)](paper_by_author/paper_Wei_Liu.md) · [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) · [Kevin Qinghong Lin (9)](paper_by_author/paper_Kevin_Qinghong_Lin.md) · [Yuxiang Chai (9)](paper_by_author/paper_Yuxiang_Chai.md) · [Qiushi Sun (9)](paper_by_author/paper_Qiushi_Sun.md)<br>[Zhengxi Lu (8)](paper_by_author/paper_Zhengxi_Lu.md) · [Jie Tang (8)](paper_by_author/paper_Jie_Tang.md) · [Zichen Ding (8)](paper_by_author/paper_Zichen_Ding.md) · [Han Xiao (8)](paper_by_author/paper_Han_Xiao.md) · [Jianye Hao (8)](paper_by_author/paper_Jianye_Hao.md)
+[Graham Neubig (14)](paper_by_author/paper_Graham_Neubig.md) · [Yu Su (14)](paper_by_author/paper_Yu_Su.md) · [Huan Sun (14)](paper_by_author/paper_Huan_Sun.md) · [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) · [Mike Zheng Shou (11)](paper_by_author/paper_Mike_Zheng_Shou.md)<br>[Shuyan Zhou (11)](paper_by_author/paper_Shuyan_Zhou.md) · [Zhuosheng Zhang (11)](paper_by_author/paper_Zhuosheng_Zhang.md) · [Jian Luan (11)](paper_by_author/paper_Jian_Luan.md) · [Kun Shao (10)](paper_by_author/paper_Kun_Shao.md) · [Jun Wang (10)](paper_by_author/paper_Jun_Wang.md)<br>[Wei Liu (10)](paper_by_author/paper_Wei_Liu.md) · [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) · [Caiming Xiong (9)](paper_by_author/paper_Caiming_Xiong.md) · [Kevin Qinghong Lin (9)](paper_by_author/paper_Kevin_Qinghong_Lin.md) · [Yuxiang Chai (9)](paper_by_author/paper_Yuxiang_Chai.md)<br>[Qiushi Sun (9)](paper_by_author/paper_Qiushi_Sun.md) · [Zhengxi Lu (8)](paper_by_author/paper_Zhengxi_Lu.md) · [Jie Tang (8)](paper_by_author/paper_Jie_Tang.md) · [Zichen Ding (8)](paper_by_author/paper_Zichen_Ding.md) · [Han Xiao (8)](paper_by_author/paper_Han_Xiao.md)
 
 ## Contributing
 
@@ -28,6 +28,15 @@ We welcome contributions from the community!
 > For adjacent, non-GUI-specific papers frequently referenced in GUI agent research, see [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md).
 >
 > This README shows the 500 most recent papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for the full list.
+
+- [A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction](https://arxiv.org/abs/2605.00551)
+    - Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, Hitoshi Iyatomi
+    - 🏛️ Institutions: Hosei University
+    - 📅 Date: May 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [accessibility tree], [observation compression], [efficiency], [A11y-Compressor]
+    - 📖 TLDR: A11y-Compressor reformats linearized accessibility-tree observations into compact, structured representations for GUI agents, addressing the cost and noise of raw a11y trees. The compression cuts input tokens to 22% of the original while improving OSWorld task success rate by an average of 5.1 percentage points.
 
 - [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](https://arxiv.org/abs/2604.27776)
     - Jinchao Li, Yunxin Li, Chenrui Zhao, Zhenran Xu, Baotian Hu, Min Zhang
@@ -55,6 +64,24 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [benchmark], [GUI functionality understanding], [region semantics], [state prediction], [AutoGUI-v2]
     - 📖 TLDR: AutoGUI-v2 unifies region-level semantics, element grounding, and state prediction into 2,753 tasks spanning six operating systems, addressing the bifurcation between black-box task-completion and shallow grounding benchmarks. Open-source models excel at functional grounding while commercial models do better at functionality description, but all struggle with complex interaction logic in uncommon actions.
+
+- [Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks](https://arxiv.org/abs/2604.24964)
+    - Lawrence Keunho Jang, Jing Yu Koh, Daniel Fried, Ruslan Salakhutdinov
+    - 🏛️ Institutions: CMU
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [long-horizon], [multi-site], [rubric evaluation], [Odysseys]
+    - 📖 TLDR: Odysseys targets the saturation of short single-site web-agent benchmarks by curating 200 realistic long-horizon multi-site workflows graded with 1,225 rubric items. The benchmark exposes large gaps between frontier computer-use agents and human performance on extended cross-site reasoning and persistent task state.
+
+- [VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation](https://arxiv.org/abs/2604.21375)
+    - Qijun Han, Haoqin Tu, Zijun Wang, Haoyue Dai, Yiyang Zhou, Nancy Lau, Alvaro A. Cardenas, Yuhui Xu, Ran Xu, Caiming Xiong, Zeyu Zheng, Huaxiu Yao, Yuyin Zhou, Cihang Xie
+    - 🏛️ Institutions: UCSC, CMU, UNC, Salesforce, UC Berkeley
+    - 📅 Date: April 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [framework], [early stopping], [recovery], [VLAA-GUI]
+    - 📖 TLDR: VLAA-GUI tackles two recurring failure modes of autonomous GUI agents — premature task termination and unproductive action loops — with a modular framework that decides when to Stop, Recover, and Search. The system reaches 77.5% on OSWorld and 61.0% on WindowsAgentArena, top-performing on both with multiple LLM backbones.
 
 - [GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models](https://arxiv.org/abs/2604.14262)
     - Yangyue Wang, Harshvardhan Sikka, Yash Mathur, Tony Zhou, Jinu Nyachhyon, Pranav Guruprasad
@@ -4501,30 +4528,3 @@ We welcome contributions from the community!
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [dataset], [WebVLN-v1], [Website-aware VLN Network], [HTML grounding], [question-driven navigation]
     - 📖 TLDR: WebVLN extends vision-and-language navigation to websites by framing browsing as question-driven navigation over rendered pages plus underlying HTML. The paper introduces the WebVLN-v1 dataset and a Website-aware VLN Network that outperforms prior VLN and web-navigation baselines.
-
-- [AppAgent: Multimodal Agents as Smartphone Users](https://doi.org/10.1145/3706598.3713600)
-    - Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu
-    - 🏛️ Institutions: Tencent
-    - 📅 Date: December 21, 2023
-    - 📑 Publisher: CHI 2025
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [AppAgent], [knowledge base], [autonomous exploration], [human demonstrations], [tap-and-swipe control]
-    - 📖 TLDR: AppAgent is a smartphone-use agent that operates through a simple tap-and-swipe action space without backend app access. It learns app usage through autonomous exploration or human demonstrations, stores that knowledge in a reference document, and is evaluated on 50 tasks across 10 apps.
-
-- [ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
-    - Difei Gao, Lei Ji, Zechen Bai, Mingyu Ouyang, Peiran Li, Dongxing Mao, Qinchen Wu, Weichen Zhang, Peiyi Wang, Xiangwu Guo, Hengxu Wang, Luowei Zhou, Mike Zheng Shou
-    - 🏛️ Institutions: Show Lab, NUS
-    - 📅 Date: December 20, 2023
-    - 📑 Publisher: CVPR 2024 (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [AssistGUI], [desktop automation], [GUI parser], [actor-critic agent], [Windows productivity]
-    - 📖 TLDR: AssistGUI introduces a Windows desktop benchmark of 100 tasks across nine software applications, each paired with project files for evaluation. The paper also proposes an actor-critic agent with an LLM-driven GUI parser and reports that the best model still reaches only 46% success.
-
-- [CogAgent: A Visual Language Model for GUI Agents](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.html)
-    - Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan Wang, Zihan Wang, Yuxiao Dong, Ming Ding, Jie Tang
-    - 🏛️ Institutions: Tsinghua, Zhipu
-    - 📅 Date: December 14, 2023
-    - 📑 Publisher: CVPR 2024 (Highlight)
-    - 💻 Env: [Mobile], [Web]
-    - 🔑 Key: [model], [dataset], [high-resolution GUI understanding], [dual-resolution encoders], [Mind2Web], [AITW], [CogAgent]
-    - 📖 TLDR: CogAgent is an 18B visual language model specialized for GUI understanding and navigation. It combines low- and high-resolution image encoders, trains on a large GUI-and-OCR dataset, and outperforms HTML-consuming baselines on Mind2Web and AITW using screenshots alone.
