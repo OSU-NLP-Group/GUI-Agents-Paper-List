@@ -387,6 +387,15 @@
     - 🔑 Key: [safety], [unintended behaviors], [AutoElicit], [benchmark], [red teaming]
     - 📖 TLDR: AutoElicit is an agentic framework that iteratively perturbs benign instructions using CUA execution feedback to surface unintended harmful behaviors while keeping inputs realistic. It elicits severe harms from frontier CUAs like Claude 4.5 and Operator in up to 72.5% of OS-domain seeds, and evaluates cross-model transferability of verified perturbations.
 
+- [VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics](https://arxiv.org/abs/2604.06182)
+    - Yichen Gong, Zhuohan Cai, Sunhao Dai, Yuqi Zhou, Zhangxuan Gu, Changhua Meng, Shuheng Shen
+    - 🏛️ Institutions: Ant Group, RUC
+    - 📅 Date: February 06, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [user-centric], [capability diagnostics], [perception], [memory], [VenusBench-Mobile]
+    - 📖 TLDR: VenusBench-Mobile addresses the app-centric, task-homogeneous nature of prior mobile-GUI benchmarks with a user-intent-driven task design and a capability-oriented annotation scheme for fine-grained behavior analysis. SOTA mobile GUI agents see large drops relative to existing benchmarks, with failures dominated by perception and memory deficiencies and near-zero success under environment variations, signaling persistent brittleness in realistic conditions.
+
 - [PATHWAYS: Evaluating Investigation and Context Discovery in AI Web Agents](https://arxiv.org/abs/2602.05354)
     - Shifat E. Arman, Syed Nazmus Sakib, Tapodhir Karmakar Taton, Nafiul Haque, Shahrear Bin Amin
     - 🏛️ Institutions: Robotics and Mechatronics Engineering, University of Dhaka

@@ -1,16 +1,16 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **533** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **534** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
 
 ![Top 25 research keywords](update_template_or_data/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (217)](paper_by_env/paper_web.md) · 🖥️ [Desktop (122)](paper_by_env/paper_desktop.md) · 📱 [Mobile (159)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (112)](paper_by_env/paper_general_gui.md)
+🌐 [Web (217)](paper_by_env/paper_web.md) · 🖥️ [Desktop (122)](paper_by_env/paper_desktop.md) · 📱 [Mobile (160)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (112)](paper_by_env/paper_general_gui.md)
 
 ## Browse by Keyword
-[benchmark (172)](paper_by_key/paper_benchmark.md) · [dataset (101)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (48)](paper_by_key/paper_model.md)<br>[GUI grounding (47)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
+[benchmark (173)](paper_by_key/paper_benchmark.md) · [dataset (101)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (48)](paper_by_key/paper_model.md)<br>[GUI grounding (47)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
 
 ## Browse by Author
 [Graham Neubig (14)](paper_by_author/paper_Graham_Neubig.md) · [Yu Su (14)](paper_by_author/paper_Yu_Su.md) · [Huan Sun (14)](paper_by_author/paper_Huan_Sun.md) · [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) · [Mike Zheng Shou (11)](paper_by_author/paper_Mike_Zheng_Shou.md)<br>[Shuyan Zhou (11)](paper_by_author/paper_Shuyan_Zhou.md) · [Zhuosheng Zhang (11)](paper_by_author/paper_Zhuosheng_Zhang.md) · [Jian Luan (11)](paper_by_author/paper_Jian_Luan.md) · [Kun Shao (10)](paper_by_author/paper_Kun_Shao.md) · [Jun Wang (10)](paper_by_author/paper_Jun_Wang.md)<br>[Wei Liu (10)](paper_by_author/paper_Wei_Liu.md) · [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) · [Kevin Qinghong Lin (9)](paper_by_author/paper_Kevin_Qinghong_Lin.md) · [Yuxiang Chai (9)](paper_by_author/paper_Yuxiang_Chai.md) · [Qiushi Sun (9)](paper_by_author/paper_Qiushi_Sun.md)<br>[Zhengxi Lu (8)](paper_by_author/paper_Zhengxi_Lu.md) · [Jie Tang (8)](paper_by_author/paper_Jie_Tang.md) · [Zichen Ding (8)](paper_by_author/paper_Zichen_Ding.md) · [Han Xiao (8)](paper_by_author/paper_Han_Xiao.md) · [Jianye Hao (8)](paper_by_author/paper_Jianye_Hao.md)
@@ -1108,6 +1108,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [multimodal fusion], [attention mechanism], [training-free], [OCR], [Trifuse]
     - 📖 TLDR: Trifuse is a training-free GUI grounding method that fuses MLLM attention, OCR text, and icon caption signals through a consensus-based fusion strategy. It improves grounding across multiple benchmarks without task-specific fine-tuning.
+
+- [VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics](https://arxiv.org/abs/2604.06182)
+    - Yichen Gong, Zhuohan Cai, Sunhao Dai, Yuqi Zhou, Zhangxuan Gu, Changhua Meng, Shuheng Shen
+    - 🏛️ Institutions: Ant Group, RUC
+    - 📅 Date: February 06, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [user-centric], [capability diagnostics], [perception], [memory], [VenusBench-Mobile]
+    - 📖 TLDR: VenusBench-Mobile addresses the app-centric, task-homogeneous nature of prior mobile-GUI benchmarks with a user-intent-driven task design and a capability-oriented annotation scheme for fine-grained behavior analysis. SOTA mobile GUI agents see large drops relative to existing benchmarks, with failures dominated by perception and memory deficiencies and near-zero success under environment variations, signaling persistent brittleness in realistic conditions.
 
 - [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
     - Rui Lv, Juncheng Mo, Tianyi Chu, Chen Rao, Hongyi Jing, Jiajie Teng, Jiafu Chen, Shiqi Zhang, Liangzi Ding, Shuo Fang, Huaizhong Lin, Ziqiang Dang, Chenguang Ma, Lei Zhao
@@ -4519,12 +4528,3 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile], [Web]
     - 🔑 Key: [model], [dataset], [high-resolution GUI understanding], [dual-resolution encoders], [Mind2Web], [AITW], [CogAgent]
     - 📖 TLDR: CogAgent is an 18B visual language model specialized for GUI understanding and navigation. It combines low- and high-resolution image encoders, trains on a large GUI-and-OCR dataset, and outperforms HTML-consuming baselines on Mind2Web and AITW using screenshots alone.
-
-- [GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation](https://arxiv.org/abs/2311.07562)
-    - An Yan, Zhengyuan Yang, Wanrong Zhu, Kevin Lin, Linjie Li, Jianfeng Wang, Jianwei Yang, Yiwu Zhong, Julian McAuley, Jianfeng Gao, Zicheng Liu, Lijuan Wang
-    - 🏛️ Institutions: UC San Diego, Microsoft, UC Santa Barbara, University of Wisconsin-Madison
-    - 📅 Date: November 13, 2023
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [MM-Navigator], [MobileNav], [zero-shot GUI navigation], [iOS screen dataset]
-    - 📖 TLDR: This paper studies zero-shot smartphone GUI navigation with MM-Navigator, a GPT-4V-based mobile agent. It introduces an iOS screen dataset and benchmark, then evaluates transfer to Android by testing the model on a subset of an existing Android navigation dataset.

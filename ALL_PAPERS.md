@@ -1078,6 +1078,15 @@
     - 🔑 Key: [GUI grounding], [multimodal fusion], [attention mechanism], [training-free], [OCR], [Trifuse]
     - 📖 TLDR: Trifuse is a training-free GUI grounding method that fuses MLLM attention, OCR text, and icon caption signals through a consensus-based fusion strategy. It improves grounding across multiple benchmarks without task-specific fine-tuning.
 
+- [VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics](https://arxiv.org/abs/2604.06182)
+    - Yichen Gong, Zhuohan Cai, Sunhao Dai, Yuqi Zhou, Zhangxuan Gu, Changhua Meng, Shuheng Shen
+    - 🏛️ Institutions: Ant Group, RUC
+    - 📅 Date: February 06, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [user-centric], [capability diagnostics], [perception], [memory], [VenusBench-Mobile]
+    - 📖 TLDR: VenusBench-Mobile addresses the app-centric, task-homogeneous nature of prior mobile-GUI benchmarks with a user-intent-driven task design and a capability-oriented annotation scheme for fine-grained behavior analysis. SOTA mobile GUI agents see large drops relative to existing benchmarks, with failures dominated by perception and memory deficiencies and near-zero success under environment variations, signaling persistent brittleness in realistic conditions.
+
 - [M$^2$-Miner: Multi-Agent Enhanced MCTS for Mobile GUI Agent Data Mining](https://arxiv.org/abs/2602.05429)
     - Rui Lv, Juncheng Mo, Tianyi Chu, Chen Rao, Hongyi Jing, Jiajie Teng, Jiafu Chen, Shiqi Zhang, Liangzi Ding, Shuo Fang, Huaizhong Lin, Ziqiang Dang, Chenguang Ma, Lei Zhao
     - 🏛️ Institutions: Ant Group, ZJU
