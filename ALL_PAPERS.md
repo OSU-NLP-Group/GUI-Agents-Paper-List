@@ -1,3 +1,39 @@
+- [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](https://arxiv.org/abs/2604.27776)
+    - Jinchao Li, Yunxin Li, Chenrui Zhao, Zhenran Xu, Baotian Hu, Min Zhang
+    - 🏛️ Institutions: HIT-Shenzhen
+    - 📅 Date: April 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [process-centric], [cross-application], [Windows], [WindowsWorld]
+    - 📖 TLDR: WindowsWorld targets the gap that existing GUI benchmarks focus on isolated single-application tasks, presenting a process-centric suite of 181 cross-application desktop tasks (avg 5.0 sub-goals across 17 applications, 78% multi-application). Evaluated computer-use agents fall below 21% success on multi-application tasks, substantially trailing single-application performance and exposing weak workflow-level coordination.
+
+- [Training Computer Use Agents to Assess the Usability of Graphical User Interfaces](https://arxiv.org/abs/2604.26020)
+    - Alice Gao, Weixi Tong, Rishab Vempati, Katharina Reinecke, R. Benjamin Shapiro, Tianyi Zhang, Jason Wu
+    - 🏛️ Institutions: UW, Purdue
+    - 📅 Date: April 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [model], [usability], [interaction flow prioritization], [uxCUA]
+    - 📖 TLDR: uxCUA frames automated GUI usability assessment as a learned agent task by (i) prioritizing important interaction flows, (ii) executing them with human-like interactions, and (iii) predicting a numerical usability score. The trained agent outperforms larger general-purpose LLMs at scoring usability and generating actionable critiques on both experimental and production interfaces.
+
+- [AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark](https://arxiv.org/abs/2604.24441)
+    - Hongxin Li, Xiping Wang, Jingran Su, Zheng Ju, Yuntao Chen, Qing Li, Zhaoxiang Zhang
+    - 🏛️ Institutions: UCAS, CASIA, PolyU, Shanghai AI Laboratory
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [GUI functionality understanding], [region semantics], [state prediction], [AutoGUI-v2]
+    - 📖 TLDR: AutoGUI-v2 unifies region-level semantics, element grounding, and state prediction into 2,753 tasks spanning six operating systems, addressing the bifurcation between black-box task-completion and shallow grounding benchmarks. Open-source models excel at functional grounding while commercial models do better at functionality description, but all struggle with complex interaction logic in uncommon actions.
+
+- [GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models](https://arxiv.org/abs/2604.14262)
+    - Yangyue Wang, Harshvardhan Sikka, Yash Mathur, Tony Zhou, Jinu Nyachhyon, Pranav Guruprasad
+    - 🏛️ Institutions: Fig AI, Manifold Research
+    - 📅 Date: April 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [GUI grounding], [domain randomization], [robustness], [GUI-Perturbed]
+    - 📖 TLDR: GUI-Perturbed introduces a controlled perturbation framework that independently varies visual scenes and instructions to probe grounding robustness beyond static benchmarks. Models reporting >85% on standard benchmarks lose 27-56 points when spatial reasoning is required, exposing systematic brittleness rather than genuine grounding ability.
+
 - [UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding](https://arxiv.org/abs/2604.14113)
     - Fei Tang, Bofan Chen, Zhengxi Lu, Tongbo Chen, Songqin Nong, Tao Jiang, Wenhao Xu, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
     - 🏛️ Institutions: ZJU
@@ -6,6 +42,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [training-free], [uncertainty quantification], [adaptive zoom], [UI-Zoomer]
     - 📖 TLDR: UI-Zoomer treats the trigger and scale of zoom-in as a prediction uncertainty quantification problem. A confidence-aware gate activates zoom-in only when needed, while an uncertainty-driven module picks per-instance crop sizes via variance decomposition. The training-free method improves GUI grounding by 4.2-13.4% on three benchmarks and is compatible with multiple model architectures.
+
+- [See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback](https://arxiv.org/abs/2604.13019)
+    - Himangi Mittal, Gaurav Mittal, Nelson Daniel Troncoso, Yu Hu
+    - 🏛️ Institutions: Microsoft, CMU
+    - 📅 Date: April 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI grounding], [multi-turn], [visual feedback], [editing-level grounding], [See-Point-Refine]
+    - 📖 TLDR: See-Point-Refine reframes GUI grounding as an iterative loop where the agent points, observes visual feedback, and refines, targeting editing-level grounding in dense coding interfaces that require sub-pixel accuracy. The multi-turn formulation improves grounding precision over single-shot baselines by recovering from initial errors using closed-loop visual evidence.
 
 - [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://arxiv.org/abs/2604.11784)
     - Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
@@ -240,6 +285,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [training-free], [process automation], [long-horizon tasks], [GPA], [robotic process automation]
     - 📖 TLDR: GPA is a vision-based GUI process automation system that enables fast and stable process replay from a single demonstration. Using Sequential Monte Carlo-based localization and readiness calibration, it achieves higher success rates with 10x faster execution than Gemini 3 Pro on long-horizon GUI tasks, running entirely locally without cloud LLMs.
+
+- [HippoCamp: Benchmarking Contextual Agents on Personal Computers](https://arxiv.org/abs/2604.01221)
+    - Zhe Yang, Shulin Tian, Kairui Hu, Shuai Liu, Hoang-Nhat Nguyen, Yichi Zhang, Zujin Guo, Mengying Yu, Zinan Zhang, Jingkang Yang, Chen Change Loy, Ziwei Liu
+    - 🏛️ Institutions: NTU
+    - 📅 Date: April 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [contextual agent], [personal files], [multimodal file management], [HippoCamp]
+    - 📖 TLDR: HippoCamp evaluates contextual agents on personal computers by modeling individual user profiles and requiring search over massive personal file collections to support context-aware reasoning, going beyond app-isolated benchmarks. The benchmark emphasizes multimodal file management as a first-class capability for personal-computing assistants.
 
 - [Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants](https://arxiv.org/abs/2604.00842)
     - Deepak Nathani, Cheng Zhang, Chang Huan, Jiaming Shan, Yinfei Yang, Alkesh Patel, Zhe Gan, William Yang Wang, Michael Saxon, Xin Eric Wang
@@ -1797,6 +1851,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [dataset], [benchmark], [text dragging], [GUI-Drag], [ScreenDrag]
     - 📖 TLDR: This paper expands GUI grounding beyond click actions by focusing on text dragging, a common but previously underexplored mouse interaction. It introduces the GUI-Drag training set and the ScreenDrag benchmark, and shows that continual training for dragging can improve drag performance without sacrificing click grounding.
+
+- [GUI-360: A Comprehensive Dataset and Benchmark for Computer-Using Agents](https://arxiv.org/abs/2511.04307)
+    - Jian Mu, Chaoyun Zhang, Chiming Ni, Lu Wang, Bo Qiao, Kartik Mathur, Qianhui Wu, Yuhang Xie, Xiaojun Ma, Mengyu Zhou, Si Qin, Liqun Li, Yu Kang, Minghua Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+    - 🏛️ Institutions: Microsoft, NJU, ZJU-UIUC, PKU
+    - 📅 Date: November 06, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [benchmark], [Windows], [accessibility metadata], [reasoning supervision], [GUI-360]
+    - 📖 TLDR: GUI-360 addresses the lack of large real-world CUA data and unified evaluation by releasing 1.2M+ executed action steps across thousands of trajectories in popular Windows office applications, including full-resolution screenshots, accessibility metadata, intermediate reasoning, and both successful and failed trajectories. It is the first corpus to jointly cover GUI grounding, screen parsing, action prediction, and API-level actions, exposing cascading failures of off-the-shelf VLMs on heterogeneous layouts.
 
 - [WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation](https://arxiv.org/abs/2510.22732)
     - Jiali Cheng, Anjishnu Kumar, Roshan Lal, Rishi Rajasekaran, Hani Ramezani, Omar Zia Khan, Oleg Rokhlenko, Sunny Chiu-Webster, Gang Hua, Hadi Amiri

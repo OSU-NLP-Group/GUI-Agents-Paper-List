@@ -1,3 +1,12 @@
+- [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](https://arxiv.org/abs/2604.27776)
+    - Jinchao Li, Yunxin Li, Chenrui Zhao, Zhenran Xu, Baotian Hu, Min Zhang
+    - 🏛️ Institutions: HIT-Shenzhen
+    - 📅 Date: April 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [process-centric], [cross-application], [Windows], [WindowsWorld]
+    - 📖 TLDR: WindowsWorld targets the gap that existing GUI benchmarks focus on isolated single-application tasks, presenting a process-centric suite of 181 cross-application desktop tasks (avg 5.0 sub-goals across 17 applications, 78% multi-application). Evaluated computer-use agents fall below 21% success on multi-application tasks, substantially trailing single-application performance and exposing weak workflow-level coordination.
+
 - [The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents](https://arxiv.org/abs/2604.10577)
     - Xuwei Ding, Skylar Zhai, Linxin Song, Jiate Li, Taiwei Shi, Nicholas Meade, Siva Reddy, Jian Kang, Jieyu Zhao
     - 🏛️ Institutions: USC, McGill, Mila
@@ -60,6 +69,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [training-free], [process automation], [long-horizon tasks], [GPA], [robotic process automation]
     - 📖 TLDR: GPA is a vision-based GUI process automation system that enables fast and stable process replay from a single demonstration. Using Sequential Monte Carlo-based localization and readiness calibration, it achieves higher success rates with 10x faster execution than Gemini 3 Pro on long-horizon GUI tasks, running entirely locally without cloud LLMs.
+
+- [HippoCamp: Benchmarking Contextual Agents on Personal Computers](https://arxiv.org/abs/2604.01221)
+    - Zhe Yang, Shulin Tian, Kairui Hu, Shuai Liu, Hoang-Nhat Nguyen, Yichi Zhang, Zujin Guo, Mengying Yu, Zinan Zhang, Jingkang Yang, Chen Change Loy, Ziwei Liu
+    - 🏛️ Institutions: NTU
+    - 📅 Date: April 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [contextual agent], [personal files], [multimodal file management], [HippoCamp]
+    - 📖 TLDR: HippoCamp evaluates contextual agents on personal computers by modeling individual user profiles and requiring search over massive personal file collections to support context-aware reasoning, going beyond app-isolated benchmarks. The benchmark emphasizes multimodal file management as a first-class capability for personal-computing assistants.
 
 - [GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation](https://arxiv.org/abs/2603.26266)
     - Rui Xie, Zhi Gao, Chenrui Shi, Zirui Shang, Lu Chen, Qing Li
@@ -312,6 +330,15 @@
     - 💻 Env: [Desktop]
     - 🔑 Key: [benchmark], [EDA], [GUI-EDA], [EDAgent], [industrial CAD]
     - 📖 TLDR: This paper presents GUI-EDA, the first large-scale benchmark for deploying GUI agents in Electronic Design Automation workflows across 5 CAD tools and 5 physical domains, and proposes EDAgent, an EDA-specialized GUI agent with a reflection mechanism that outperforms PhD students in Electrical Engineering on industrial CAD software tasks.
+
+- [GUI-360: A Comprehensive Dataset and Benchmark for Computer-Using Agents](https://arxiv.org/abs/2511.04307)
+    - Jian Mu, Chaoyun Zhang, Chiming Ni, Lu Wang, Bo Qiao, Kartik Mathur, Qianhui Wu, Yuhang Xie, Xiaojun Ma, Mengyu Zhou, Si Qin, Liqun Li, Yu Kang, Minghua Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+    - 🏛️ Institutions: Microsoft, NJU, ZJU-UIUC, PKU
+    - 📅 Date: November 06, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [benchmark], [Windows], [accessibility metadata], [reasoning supervision], [GUI-360]
+    - 📖 TLDR: GUI-360 addresses the lack of large real-world CUA data and unified evaluation by releasing 1.2M+ executed action steps across thousands of trajectories in popular Windows office applications, including full-resolution screenshots, accessibility metadata, intermediate reasoning, and both successful and failed trajectories. It is the first corpus to jointly cover GUI grounding, screen parsing, action prediction, and API-level actions, exposing cascading failures of off-the-shelf VLMs on heterogeneous layouts.
 
 - [Surfer 2: The Next Generation of Cross-Platform Computer Use Agents](https://arxiv.org/abs/2510.19949)
     - Mathieu Andreux, Märt Bakler, Yanael Barbier, Hamza Benchekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquiere, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund, Michael Eickenberg, Armand Fatalot, Wissem Felissi, Isaac Herring, Xavier Koegler, Erwan Le Jumeau de Kergaradec, Aurélien Lac, Maxime Langevin, Corentin Lauverjat, Antonio Loison, Avshalom Manevich, Axel Moyal, Axel Nguyen Kerbel, Marinela Parovic, Julien Revelle, Guillaume Richard, Mats Richter, Ronan Riochet, María Santos, Romain Savidan, Laurent Sifre, Maxime Theillard, Marc Thibault, Ivan Valentini, Tony Wu, Laura Yie, Kai Yuan, Jevgenij Zubovskij

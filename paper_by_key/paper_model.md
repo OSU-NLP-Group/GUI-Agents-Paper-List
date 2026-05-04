@@ -1,5 +1,14 @@
 # Papers with Keyword: model
 
+- [Training Computer Use Agents to Assess the Usability of Graphical User Interfaces](https://arxiv.org/abs/2604.26020)
+    - Alice Gao, Weixi Tong, Rishab Vempati, Katharina Reinecke, R. Benjamin Shapiro, Tianyi Zhang, Jason Wu
+    - 🏛️ Institutions: UW, Purdue
+    - 📅 Date: April 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [model], [usability], [interaction flow prioritization], [uxCUA]
+    - 📖 TLDR: uxCUA frames automated GUI usability assessment as a learned agent task by (i) prioritizing important interaction flows, (ii) executing them with human-like interactions, and (iii) predicting a numerical usability score. The trained agent outperforms larger general-purpose LLMs at scoring usability and generating actionable critiques on both experimental and production interfaces.
+
 - [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://arxiv.org/abs/2604.11784)
     - Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
     - 🏛️ Institutions: ZJU

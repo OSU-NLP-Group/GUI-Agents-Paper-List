@@ -1,16 +1,16 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **526** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **533** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
 
 ![Top 25 research keywords](update_template_or_data/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (217)](paper_by_env/paper_web.md) · 🖥️ [Desktop (119)](paper_by_env/paper_desktop.md) · 📱 [Mobile (159)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (108)](paper_by_env/paper_general_gui.md)
+🌐 [Web (217)](paper_by_env/paper_web.md) · 🖥️ [Desktop (122)](paper_by_env/paper_desktop.md) · 📱 [Mobile (159)](paper_by_env/paper_mobile.md) · 🖼️ [General GUI (112)](paper_by_env/paper_general_gui.md)
 
 ## Browse by Keyword
-[benchmark (167)](paper_by_key/paper_benchmark.md) · [dataset (100)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (47)](paper_by_key/paper_model.md)<br>[GUI grounding (45)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
+[benchmark (172)](paper_by_key/paper_benchmark.md) · [dataset (101)](paper_by_key/paper_dataset.md) · [framework (59)](paper_by_key/paper_framework.md) · [reinforcement learning (55)](paper_by_key/paper_reinforcement_learning.md) · [model (48)](paper_by_key/paper_model.md)<br>[GUI grounding (47)](paper_by_key/paper_GUI_grounding.md) · [safety (29)](paper_by_key/paper_safety.md) · [security (23)](paper_by_key/paper_security.md) · [OSWorld (20)](paper_by_key/paper_OSWorld.md) · [WebArena (18)](paper_by_key/paper_WebArena.md)<br>[training-free (14)](paper_by_key/paper_training-free.md) · [reward model (13)](paper_by_key/paper_reward_model.md) · [long-horizon tasks (13)](paper_by_key/paper_long-horizon_tasks.md) · [world model (11)](paper_by_key/paper_world_model.md) · [GRPO (10)](paper_by_key/paper_GRPO.md)<br>[prompt injection (10)](paper_by_key/paper_prompt_injection.md) · [planning (10)](paper_by_key/paper_planning.md) · [survey (9)](paper_by_key/paper_survey.md) · [visual grounding (8)](paper_by_key/paper_visual_grounding.md) · [AndroidWorld (8)](paper_by_key/paper_AndroidWorld.md)
 
 ## Browse by Author
 [Graham Neubig (14)](paper_by_author/paper_Graham_Neubig.md) · [Yu Su (14)](paper_by_author/paper_Yu_Su.md) · [Huan Sun (14)](paper_by_author/paper_Huan_Sun.md) · [Boyuan Zheng (11)](paper_by_author/paper_Boyuan_Zheng.md) · [Mike Zheng Shou (11)](paper_by_author/paper_Mike_Zheng_Shou.md)<br>[Shuyan Zhou (11)](paper_by_author/paper_Shuyan_Zhou.md) · [Zhuosheng Zhang (11)](paper_by_author/paper_Zhuosheng_Zhang.md) · [Jian Luan (11)](paper_by_author/paper_Jian_Luan.md) · [Kun Shao (10)](paper_by_author/paper_Kun_Shao.md) · [Jun Wang (10)](paper_by_author/paper_Jun_Wang.md)<br>[Wei Liu (10)](paper_by_author/paper_Wei_Liu.md) · [Tao Yu (10)](paper_by_author/paper_Tao_Yu.md) · [Kevin Qinghong Lin (9)](paper_by_author/paper_Kevin_Qinghong_Lin.md) · [Yuxiang Chai (9)](paper_by_author/paper_Yuxiang_Chai.md) · [Qiushi Sun (9)](paper_by_author/paper_Qiushi_Sun.md)<br>[Zhengxi Lu (8)](paper_by_author/paper_Zhengxi_Lu.md) · [Jie Tang (8)](paper_by_author/paper_Jie_Tang.md) · [Zichen Ding (8)](paper_by_author/paper_Zichen_Ding.md) · [Han Xiao (8)](paper_by_author/paper_Han_Xiao.md) · [Jianye Hao (8)](paper_by_author/paper_Jianye_Hao.md)
@@ -29,6 +29,42 @@ We welcome contributions from the community!
 >
 > This README shows the 500 most recent papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for the full list.
 
+- [WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments](https://arxiv.org/abs/2604.27776)
+    - Jinchao Li, Yunxin Li, Chenrui Zhao, Zhenran Xu, Baotian Hu, Min Zhang
+    - 🏛️ Institutions: HIT-Shenzhen
+    - 📅 Date: April 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [process-centric], [cross-application], [Windows], [WindowsWorld]
+    - 📖 TLDR: WindowsWorld targets the gap that existing GUI benchmarks focus on isolated single-application tasks, presenting a process-centric suite of 181 cross-application desktop tasks (avg 5.0 sub-goals across 17 applications, 78% multi-application). Evaluated computer-use agents fall below 21% success on multi-application tasks, substantially trailing single-application performance and exposing weak workflow-level coordination.
+
+- [Training Computer Use Agents to Assess the Usability of Graphical User Interfaces](https://arxiv.org/abs/2604.26020)
+    - Alice Gao, Weixi Tong, Rishab Vempati, Katharina Reinecke, R. Benjamin Shapiro, Tianyi Zhang, Jason Wu
+    - 🏛️ Institutions: UW, Purdue
+    - 📅 Date: April 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [model], [usability], [interaction flow prioritization], [uxCUA]
+    - 📖 TLDR: uxCUA frames automated GUI usability assessment as a learned agent task by (i) prioritizing important interaction flows, (ii) executing them with human-like interactions, and (iii) predicting a numerical usability score. The trained agent outperforms larger general-purpose LLMs at scoring usability and generating actionable critiques on both experimental and production interfaces.
+
+- [AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark](https://arxiv.org/abs/2604.24441)
+    - Hongxin Li, Xiping Wang, Jingran Su, Zheng Ju, Yuntao Chen, Qing Li, Zhaoxiang Zhang
+    - 🏛️ Institutions: UCAS, CASIA, PolyU, Shanghai AI Laboratory
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [GUI functionality understanding], [region semantics], [state prediction], [AutoGUI-v2]
+    - 📖 TLDR: AutoGUI-v2 unifies region-level semantics, element grounding, and state prediction into 2,753 tasks spanning six operating systems, addressing the bifurcation between black-box task-completion and shallow grounding benchmarks. Open-source models excel at functional grounding while commercial models do better at functionality description, but all struggle with complex interaction logic in uncommon actions.
+
+- [GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models](https://arxiv.org/abs/2604.14262)
+    - Yangyue Wang, Harshvardhan Sikka, Yash Mathur, Tony Zhou, Jinu Nyachhyon, Pranav Guruprasad
+    - 🏛️ Institutions: Fig AI, Manifold Research
+    - 📅 Date: April 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [GUI grounding], [domain randomization], [robustness], [GUI-Perturbed]
+    - 📖 TLDR: GUI-Perturbed introduces a controlled perturbation framework that independently varies visual scenes and instructions to probe grounding robustness beyond static benchmarks. Models reporting >85% on standard benchmarks lose 27-56 points when spatial reasoning is required, exposing systematic brittleness rather than genuine grounding ability.
+
 - [UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding](https://arxiv.org/abs/2604.14113)
     - Fei Tang, Bofan Chen, Zhengxi Lu, Tongbo Chen, Songqin Nong, Tao Jiang, Wenhao Xu, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
     - 🏛️ Institutions: ZJU
@@ -37,6 +73,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [training-free], [uncertainty quantification], [adaptive zoom], [UI-Zoomer]
     - 📖 TLDR: UI-Zoomer treats the trigger and scale of zoom-in as a prediction uncertainty quantification problem. A confidence-aware gate activates zoom-in only when needed, while an uncertainty-driven module picks per-instance crop sizes via variance decomposition. The training-free method improves GUI grounding by 4.2-13.4% on three benchmarks and is compatible with multiple model architectures.
+
+- [See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback](https://arxiv.org/abs/2604.13019)
+    - Himangi Mittal, Gaurav Mittal, Nelson Daniel Troncoso, Yu Hu
+    - 🏛️ Institutions: Microsoft, CMU
+    - 📅 Date: April 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI grounding], [multi-turn], [visual feedback], [editing-level grounding], [See-Point-Refine]
+    - 📖 TLDR: See-Point-Refine reframes GUI grounding as an iterative loop where the agent points, observes visual feedback, and refines, targeting editing-level grounding in dense coding interfaces that require sub-pixel accuracy. The multi-turn formulation improves grounding precision over single-shot baselines by recovering from initial errors using closed-loop visual evidence.
 
 - [ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents](https://arxiv.org/abs/2604.11784)
     - Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
@@ -271,6 +316,15 @@ We welcome contributions from the community!
     - 💻 Env: [Desktop]
     - 🔑 Key: [training-free], [process automation], [long-horizon tasks], [GPA], [robotic process automation]
     - 📖 TLDR: GPA is a vision-based GUI process automation system that enables fast and stable process replay from a single demonstration. Using Sequential Monte Carlo-based localization and readiness calibration, it achieves higher success rates with 10x faster execution than Gemini 3 Pro on long-horizon GUI tasks, running entirely locally without cloud LLMs.
+
+- [HippoCamp: Benchmarking Contextual Agents on Personal Computers](https://arxiv.org/abs/2604.01221)
+    - Zhe Yang, Shulin Tian, Kairui Hu, Shuai Liu, Hoang-Nhat Nguyen, Yichi Zhang, Zujin Guo, Mengying Yu, Zinan Zhang, Jingkang Yang, Chen Change Loy, Ziwei Liu
+    - 🏛️ Institutions: NTU
+    - 📅 Date: April 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [contextual agent], [personal files], [multimodal file management], [HippoCamp]
+    - 📖 TLDR: HippoCamp evaluates contextual agents on personal computers by modeling individual user profiles and requiring search over massive personal file collections to support context-aware reasoning, going beyond app-isolated benchmarks. The benchmark emphasizes multimodal file management as a first-class capability for personal-computing assistants.
 
 - [Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants](https://arxiv.org/abs/2604.00842)
     - Deepak Nathani, Cheng Zhang, Chang Huan, Jiaming Shan, Yinfei Yang, Alkesh Patel, Zhe Gan, William Yang Wang, Michael Saxon, Xin Eric Wang
@@ -1828,6 +1882,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [dataset], [benchmark], [text dragging], [GUI-Drag], [ScreenDrag]
     - 📖 TLDR: This paper expands GUI grounding beyond click actions by focusing on text dragging, a common but previously underexplored mouse interaction. It introduces the GUI-Drag training set and the ScreenDrag benchmark, and shows that continual training for dragging can improve drag performance without sacrificing click grounding.
+
+- [GUI-360: A Comprehensive Dataset and Benchmark for Computer-Using Agents](https://arxiv.org/abs/2511.04307)
+    - Jian Mu, Chaoyun Zhang, Chiming Ni, Lu Wang, Bo Qiao, Kartik Mathur, Qianhui Wu, Yuhang Xie, Xiaojun Ma, Mengyu Zhou, Si Qin, Liqun Li, Yu Kang, Minghua Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+    - 🏛️ Institutions: Microsoft, NJU, ZJU-UIUC, PKU
+    - 📅 Date: November 06, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [dataset], [benchmark], [Windows], [accessibility metadata], [reasoning supervision], [GUI-360]
+    - 📖 TLDR: GUI-360 addresses the lack of large real-world CUA data and unified evaluation by releasing 1.2M+ executed action steps across thousands of trajectories in popular Windows office applications, including full-resolution screenshots, accessibility metadata, intermediate reasoning, and both successful and failed trajectories. It is the first corpus to jointly cover GUI grounding, screen parsing, action prediction, and API-level actions, exposing cascading failures of off-the-shelf VLMs on heterogeneous layouts.
 
 - [WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation](https://arxiv.org/abs/2510.22732)
     - Jiali Cheng, Anjishnu Kumar, Roshan Lal, Rishi Rajasekaran, Hani Ramezani, Omar Zia Khan, Oleg Rokhlenko, Sunny Chiu-Webster, Gang Hua, Hadi Amiri
@@ -4465,66 +4528,3 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [dataset], [MM-Navigator], [MobileNav], [zero-shot GUI navigation], [iOS screen dataset]
     - 📖 TLDR: This paper studies zero-shot smartphone GUI navigation with MM-Navigator, a GPT-4V-based mobile agent. It introduces an iOS screen dataset and benchmark, then evaluates transfer to Android by testing the model on a subset of an existing Android navigation dataset.
-
-- [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716)
-    - Zhizheng Zhang, Wenxuan Xie, Xiaoyi Zhang, Yan Lu
-    - 🏛️ Institutions: MSR Asia
-    - 📅 Date: October 07, 2023
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [model], [instruction grounding], [pixel-to-sequence], [reinforced decoding], [RUIG]
-    - 📖 TLDR: RUIG is a metadata-free grounding model that maps natural-language instructions to coordinates on UI screenshots with a pixel-to-sequence decoder. Its main contribution is an RL-style supervision method that strengthens coordinate decoding and positions the model as a generic UI automation executor rather than a full agent framework.
-
-- [SteP: Stacked LLM Policies for Web Actions](https://openreview.net/forum?id=5fg0VtRxgi)
-    - Paloma Sodhi, S.R.K Branavan, Yoav Artzi, Ryan McDonald
-    - 🏛️ Institutions: ASAPP Research, Cornell
-    - 📅 Date: October 05, 2023
-    - 📑 Publisher: COLM 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [policy composition], [control stack], [WebArena], [SteP]
-    - 📖 TLDR: SteP is a web-agent framework that composes LLM policies through an explicit control stack rather than a single monolithic prompt. It evaluates on WebArena, MiniWoB++, and a CRM environment, and substantially improves WebArena performance over prior GPT-4-based baselines.
-
-- [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://aclanthology.org/2024.findings-acl.186/)
-    - Zhuosheng Zhang, Aston Zhang
-    - 🏛️ Institutions: SJTU, Meta
-    - 📅 Date: September 20, 2023
-    - 📑 Publisher: Findings of ACL 2024
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [chain-of-action], [Auto-GUI], [AITW], [screenshot-only control]
-    - 📖 TLDR: Auto-GUI is a screenshot-only mobile GUI agent that avoids environment parsing and application-specific APIs. The paper introduces a chain-of-action prompting technique and evaluates the method on AITW, a device-control benchmark with 30K unique instructions.
-
-- [LASER: LLM Agent with State-Space Exploration for Web Navigation](https://arxiv.org/abs/2309.08172)
-    - Kaixin Ma, Hongming Zhang, Hongwei Wang, Xiaoman Pan, Wenhao Yu, Dong Yu
-    - 🏛️ Institutions: Tencent AI Lab
-    - 📅 Date: September 15, 2023
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [LASER], [state-space exploration], [backtracking], [WebShop], [amazon.com]
-    - 📖 TLDR: LASER reformulates web navigation as state-space exploration so an LLM agent can move among predefined states and backtrack after mistakes. It evaluates on both WebShop and amazon.com and shows stronger robustness than forward-only prompt baselines.
-
-- [AutoDroid: LLM-powered Task Automation in Android](https://doi.org/10.1145/3636534.3649379)
-    - Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu, Toby Jia-Jun Li, Shiqi Jiang, Yunhao Liu, Yaqin Zhang, Yunxin Liu
-    - 🏛️ Institutions: Tsinghua, Harbin Institute of Technology, University of Notre Dame, MSR Asia
-    - 📅 Date: August 29, 2023
-    - 📑 Publisher: MobiCom 2024
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [benchmark], [Android task automation], [dynamic analysis], [memory injection], [AutoDroid]
-    - 📖 TLDR: AutoDroid is an Android task-automation framework that combines LLM commonsense with app-specific knowledge collected through automated dynamic analysis. It introduces functionality-aware UI representations and exploration-based memory injection, and evaluates the system on a 158-task benchmark for memory-augmented Android automation.
-
-- [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
-    - Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig
-    - 🏛️ Institutions: CMU, Inspired Cognition
-    - 📅 Date: July 25, 2023
-    - 📑 Publisher: NeurIPS 2024 (Oral)
-    - 💻 Env: [Web]
-    - 🔑 Key: [environment], [benchmark], [functional correctness], [realistic web tasks], [WebArena]
-    - 📖 TLDR: Introduces WebArena, a realistic and reproducible web environment built from fully functional sites across several common domains. It helped establish the modern web-agent evaluation stack by pairing realistic websites, external tools and knowledge sources, and long-horizon benchmark tasks with functional correctness checks.
-
-- [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8)
-    - Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust
-    - 🏛️ Institutions: Google DeepMind, University of Tokyo
-    - 📅 Date: July 24, 2023
-    - 📑 Publisher: ICLR 2024 (Oral)
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [planning], [HTML-T5], [program synthesis], [WebAgent]
-    - 📖 TLDR: WebAgent is a modular real-world web agent that decomposes instructions into sub-instructions, summarizes long HTML into task-relevant snippets, and executes generated Python programs on websites. The paper pairs that agent design with HTML-T5, a long-context model for HTML planning and summarization.

@@ -1,3 +1,30 @@
+- [Training Computer Use Agents to Assess the Usability of Graphical User Interfaces](https://arxiv.org/abs/2604.26020)
+    - Alice Gao, Weixi Tong, Rishab Vempati, Katharina Reinecke, R. Benjamin Shapiro, Tianyi Zhang, Jason Wu
+    - 🏛️ Institutions: UW, Purdue
+    - 📅 Date: April 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [model], [usability], [interaction flow prioritization], [uxCUA]
+    - 📖 TLDR: uxCUA frames automated GUI usability assessment as a learned agent task by (i) prioritizing important interaction flows, (ii) executing them with human-like interactions, and (iii) predicting a numerical usability score. The trained agent outperforms larger general-purpose LLMs at scoring usability and generating actionable critiques on both experimental and production interfaces.
+
+- [AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark](https://arxiv.org/abs/2604.24441)
+    - Hongxin Li, Xiping Wang, Jingran Su, Zheng Ju, Yuntao Chen, Qing Li, Zhaoxiang Zhang
+    - 🏛️ Institutions: UCAS, CASIA, PolyU, Shanghai AI Laboratory
+    - 📅 Date: April 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [GUI functionality understanding], [region semantics], [state prediction], [AutoGUI-v2]
+    - 📖 TLDR: AutoGUI-v2 unifies region-level semantics, element grounding, and state prediction into 2,753 tasks spanning six operating systems, addressing the bifurcation between black-box task-completion and shallow grounding benchmarks. Open-source models excel at functional grounding while commercial models do better at functionality description, but all struggle with complex interaction logic in uncommon actions.
+
+- [GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models](https://arxiv.org/abs/2604.14262)
+    - Yangyue Wang, Harshvardhan Sikka, Yash Mathur, Tony Zhou, Jinu Nyachhyon, Pranav Guruprasad
+    - 🏛️ Institutions: Fig AI, Manifold Research
+    - 📅 Date: April 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [benchmark], [GUI grounding], [domain randomization], [robustness], [GUI-Perturbed]
+    - 📖 TLDR: GUI-Perturbed introduces a controlled perturbation framework that independently varies visual scenes and instructions to probe grounding robustness beyond static benchmarks. Models reporting >85% on standard benchmarks lose 27-56 points when spatial reasoning is required, exposing systematic brittleness rather than genuine grounding ability.
+
 - [UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding](https://arxiv.org/abs/2604.14113)
     - Fei Tang, Bofan Chen, Zhengxi Lu, Tongbo Chen, Songqin Nong, Tao Jiang, Wenhao Xu, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
     - 🏛️ Institutions: ZJU
@@ -6,6 +33,15 @@
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [training-free], [uncertainty quantification], [adaptive zoom], [UI-Zoomer]
     - 📖 TLDR: UI-Zoomer treats the trigger and scale of zoom-in as a prediction uncertainty quantification problem. A confidence-aware gate activates zoom-in only when needed, while an uncertainty-driven module picks per-instance crop sizes via variance decomposition. The training-free method improves GUI grounding by 4.2-13.4% on three benchmarks and is compatible with multiple model architectures.
+
+- [See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback](https://arxiv.org/abs/2604.13019)
+    - Himangi Mittal, Gaurav Mittal, Nelson Daniel Troncoso, Yu Hu
+    - 🏛️ Institutions: Microsoft, CMU
+    - 📅 Date: April 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI grounding], [multi-turn], [visual feedback], [editing-level grounding], [See-Point-Refine]
+    - 📖 TLDR: See-Point-Refine reframes GUI grounding as an iterative loop where the agent points, observes visual feedback, and refines, targeting editing-level grounding in dense coding interfaces that require sub-pixel accuracy. The multi-turn formulation improves grounding precision over single-shot baselines by recovering from initial errors using closed-loop visual evidence.
 
 - [CocoaBench: Evaluating Unified Digital Agents in the Wild](https://arxiv.org/abs/2604.11201)
     - Shibo Hao, Zhining Zhang, Zhiqi Liang, Tianyang Liu, Yuheng Zha, Qiyue Gao, Jixuan Chen, Zilong Wang, Zhoujun Cheng, Haoxiang Zhang, Junli Wang, Hexi Jin, Boyuan Zheng, Kun Zhou, Yu Wang, Feng Yao, Licheng Liu, Yijiang Li, Zhifei Li, Zhengtao Han, Pracha Promthaw, Tommaso Cerruti, Xiaohan Fu, Ziqiao Ma, Jingbo Shang, Lianhui Qin, Julian McAuley, Eric P. Xing, Zhengzhong Liu, Rupesh Kumar Srivastava, Zhiting Hu
