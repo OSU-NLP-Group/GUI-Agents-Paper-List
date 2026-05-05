@@ -44,7 +44,7 @@ We welcome contributions from the community!
 
 > For adjacent, non-GUI-specific papers frequently referenced in GUI agent research, see [ADJACENT_PAPERS.md](ADJACENT_PAPERS.md).
 >
-> This README shows the 500 most recent papers. See [ALL_PAPERS.md](ALL_PAPERS.md) for the full list.
+> This README shows the 500 most recent papers. See [`papers.yaml`](papers.yaml) for the full structured source, or [`ALL_PAPERS.md`](ALL_PAPERS.md) for a derived markdown view.
 
 - [A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction](https://arxiv.org/abs/2605.00551)
     - Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, Hitoshi Iyatomi

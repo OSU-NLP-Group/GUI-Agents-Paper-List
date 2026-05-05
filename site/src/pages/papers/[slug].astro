@@ -97,6 +97,13 @@ function escBib(s: string): string {
   return s.replace(/\\/g, '\\textbackslash ').replace(/([&%$#_{}])/g, '\\$1').replace(/~/g, '\\~{}').replace(/\^/g, '\\^{}');
 }
 function buildBib(p: Paper): string {
+  // Prefer the entry's stored bibtex (auto-generated migration output,
+  // optionally hand-corrected with bibtex_confirmed: true).
+  if (p.bibtex && p.bibtex.trim()) return p.bibtex;
+  return synthesizeBib(p);
+}
+
+function synthesizeBib(p: Paper): string {
   const key = bibKey(p);
   const authors = p.authors.length > 0 ? p.authors.map(escBib).join(' and ') : 'Unknown';
   const titleEsc = escBib(p.title);

@@ -1,0 +1,1253 @@
+# adjacent.yaml — non-canonical entries useful as supporting context.
+
+- title: 'Seed1.8 Model Card: Towards Generalized Real-World Agency'
+  link: https://arxiv.org/abs/2603.20633
+  authors:
+  - Bytedance Seed
+  institutions:
+  - ByteDance Seed
+  date: '2026-03-21'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - foundation model
+  - generalist agency
+  - tool use
+  - code execution
+  - GUI interaction
+  - Seed1.8
+  tldr: |-
+    Seed1.8 is a foundation model for generalized real-world agency that unifies search, code generation and execution, and GUI interaction under one agentic interface. The model card emphasizes strong language-vision performance plus latency- and cost-aware inference modes for deployment.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2603.20633'
+  sources:
+    arxiv: https://arxiv.org/abs/2603.20633
+- title: 'MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning'
+  link: https://arxiv.org/abs/2603.12266
+  authors:
+  - Haozhan Shen
+  - Shilin Yan
+  - Hongwei Xue
+  - Shuaiqi Lu
+  - Xiaojun Tang
+  - Guannan Zhang
+  - Tiancheng Zhao
+  - Jianwei Yin
+  institutions:
+  - Accio Team
+  - Alibaba Group
+  - Zhejiang University
+  - ZJU-BJ
+  date: '2026-03-12'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - benchmark
+  - compositional reasoning
+  - visual grounding
+  - VPIR
+  - programmatic verification
+  - MM-CondChain
+  tldr: |-
+    MM-CondChain is a benchmark for visually grounded deep compositional reasoning built from multi-layer conditional chains whose steps are programmatically verified through VPIR. It spans natural images, charts, and GUI trajectories, and shows that even the strongest MLLMs remain weak on deep chained reasoning.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2603.12266'
+  sources:
+    arxiv: https://arxiv.org/abs/2603.12266
+- title: 'You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents'
+  link: https://arxiv.org/abs/2603.11862
+  authors:
+  - Ching-Yu Kao
+  - Xinfeng Li
+  - Shenyu Dai
+  - Tianze Qiu
+  - Pengcheng Zhou
+  - Eric Hanchen Jiang
+  - Philip Sperl
+  institutions:
+  - Fraunhofer AISEC
+  - NTU
+  - KTH
+  - NUS
+  - UCLA
+  date: '2026-03-12'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - security
+  - documentation injection
+  - privacy
+  - data leakage
+  - ReadSecBench
+  - Trusted Executor Dilemma
+  tldr: |-
+    This paper studies documentation-embedded instruction injection in high-privilege LLM agents and frames the failure mode as the Trusted Executor Dilemma. It introduces ReadSecBench, shows exfiltration success up to 85%, and finds that both rule-based and LLM-based defenses still fail to catch the attacks reliably.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2603.11862'
+  sources:
+    arxiv: https://arxiv.org/abs/2603.11862
+- title: 'OpenClaw-RL: Train Any Agent Simply by Talking'
+  link: https://arxiv.org/abs/2603.10165
+  authors:
+  - Yinjie Wang
+  - Xuyang Chen
+  - Xiaolong Jin
+  - Mengdi Wang
+  - Ling Yang
+  institutions:
+  - University of Chicago
+  - Princeton University
+  - Peking University
+  date: '2026-03-10'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - reinforcement learning
+  - agent training
+  - next-state signals
+  - process reward model
+  - on-policy distillation
+  - OpenClaw-RL
+  tldr: |-
+    OpenClaw-RL is an asynchronous RL framework that treats next-state signals from live interactions as a universal learning source. It combines scalar rewards from a process-reward judge with hindsight-guided on-policy distillation, and trains agents across conversations, terminals, GUI tasks, SWE, and tool use in one online loop.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2603.10165'
+  sources:
+    arxiv: https://arxiv.org/abs/2603.10165
+- title: 'Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward'
+  link: https://arxiv.org/abs/2602.12430
+  authors:
+  - Renjun Xu
+  - Yang Yan
+  institutions:
+  - Zhejiang University
+  date: '2026-02-12'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - survey
+  - agent skills
+  - SKILL.md
+  - MCP
+  - skill acquisition
+  - agent security
+  tldr: |-
+    This survey reviews the emerging agent-skills ecosystem for LLMs, covering architectural foundations such as SKILL.md and MCP, methods for acquiring and refining skills, deployment patterns for agent systems, and the security problems introduced by portable, dynamically loaded capabilities.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2602.12430'
+  sources:
+    arxiv: https://arxiv.org/abs/2602.12430
+- title: Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
+  link: https://arxiv.org/abs/2512.09706
+  authors:
+  - Kaichen He
+  - Zihao Wang
+  - Muyao Li
+  - Anji Liu
+  - Yitao Liang
+  institutions:
+  - Peking University
+  - National University of Singapore
+  date: '2025-12-10'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - reinforcement learning
+  - heterogeneous action space
+  - multi-turn GRPO
+  - Minecraft agent
+  - cross-level actions
+  - CrossAgent
+  tldr: |-
+    CrossAgent studies how a single agent model can switch among heterogeneous action spaces, including APIs, GUI events, and lower-level commands, without hand-written routing rules. Its training pipeline combines supervised fine-tuning with multi-turn GRPO and reports state-of-the-art results on 800+ Minecraft tasks, making it relevant to GUI work as a broader action-space unification result rather than a direct GUI paper.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2512.09706'
+  sources:
+    arxiv: https://arxiv.org/abs/2512.09706
+- title: 'Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence'
+  link: https://arxiv.org/abs/2512.08743
+  authors:
+  - Shuyue Hu
+  - Haoyang Yan
+  - Yiqun Zhang
+  - Yang Chen
+  - Dongzhan Zhou
+  - Lei Bai
+  institutions:
+  - Shanghai Artificial Intelligence Laboratory
+  date: '2025-12-09'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - multi-agent systems
+  - foundation models
+  - multi-agent intelligence
+  - evaluation
+  - scaling
+  - survey
+  tldr: |-
+    This paper argues that stronger single-agent foundation models do not automatically become strong multi-agent systems, and evaluates 41 open models on seven single-agent and multi-agent benchmarks to show the gap directly. It uses GUI interaction as one example of native single-agent capability, but its main contribution is a broader multi-agent intelligence agenda rather than GUI research itself.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2512.08743'
+  sources:
+    arxiv: https://arxiv.org/abs/2512.08743
+- title: 'Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents'
+  link: https://arxiv.org/abs/2510.24702
+  authors:
+  - Yueqi Song
+  - Ketan Ramaneti
+  - Zaid Sheikh
+  - Ziru Chen
+  - Boyu Gou
+  - Tianbao Xie
+  - Yiheng Xu
+  - Danyang Zhang
+  - Apurva Gandhi
+  - Fan Yang
+  - Joseph Liu
+  - Tianyue Ou
+  - Zhihao Yuan
+  - Frank Xu
+  - Shuyan Zhou
+  - Xingyao Wang
+  - Xiang Yue
+  - Tao Yu
+  - Huan Sun
+  - Yu Su
+  - Graham Neubig
+  institutions:
+  - Carnegie Mellon University
+  - The Ohio State University
+  - University of Hong Kong
+  - Duke University
+  - Fujitsu Research
+  - All Hands AI
+  date: '2025-10-28'
+  publisher: ICLR 2026 (Oral)
+  envs: []
+  keywords:
+  - framework
+  - data protocol
+  - training data
+  - supervised fine-tuning
+  - dataset unification
+  - ADP
+  tldr: |-
+    Agent Data Protocol (ADP) standardizes heterogeneous agent trajectories into a lightweight schema and conversion pipeline so diverse agent datasets can plug into multiple SFT pipelines without per-dataset engineering. Converting 13 existing datasets into ADP and fine-tuning on the unified corpus improves base models by about 20% on average across coding, browsing, tool-use, and research benchmarks.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2510.24702'
+  sources:
+    arxiv: https://arxiv.org/abs/2510.24702
+    openreview: https://openreview.net/forum?id=tG6301ORHd
+    homepage: https://agentdataprotocol.com
+- title: Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms
+  link: https://arxiv.org/abs/2510.13913
+  authors:
+  - Shrey Pandit
+  - Xuan-Phi Nguyen
+  - Yifei Ming
+  - Austin Xu
+  - Jiayu Wang
+  - Caiming Xiong
+  - Shafiq Joty
+  institutions:
+  - Salesforce AI Research
+  - University of Wisconsin-Madison
+  date: '2025-10-15'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - training data
+  - data synthesis
+  - progressive difficulty
+  - deep research
+  - tool-use diversity
+  tldr: |-
+    This paper synthesizes training data for deep-research web agents by progressively increasing question difficulty until a baseline agent fails, then using that agent again for validation and filtering. The resulting corpus is aimed at long-horizon online-tool use rather than browser-native GUI interaction, but it is relevant as adjacent training-data work for agent systems.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2510.13913'
+  sources:
+    arxiv: https://arxiv.org/abs/2510.13913
+- title: 'Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation'
+  link: https://arxiv.org/abs/2510.11977
+  authors:
+  - Sayash Kapoor
+  - Benedikt Stroebl
+  - Peter Kirgis
+  - Nitya Nadgir
+  - Zachary S. Siegel
+  - Boyi Wei
+  - Tianci Xue
+  - Ziru Chen
+  - Felix Chen
+  - Saiteja Utpala
+  - Franck Ndzomga
+  - Dheeraj Oruganty
+  - Sophie Luskin
+  - Kangheng Liu
+  - Botao Yu
+  - Amit Arora
+  - Dongyoon Hahm
+  - Harsh Trivedi
+  - Huan Sun
+  - Juyong Lee
+  - Tengjun Jin
+  - Yifan Mai
+  - Yifei Zhou
+  - Yuxuan Zhu
+  - Rishi Bommasani
+  - Daniel Kang
+  - Dawn Song
+  - Peter Henderson
+  - Yu Su
+  - Percy Liang
+  - Arvind Narayanan
+  institutions:
+  - Princeton University
+  - Independent Researcher
+  - The Ohio State University
+  - Microsoft Research
+  - Amazon
+  - Georgetown University
+  - KAIST
+  - Stony Brook University
+  - University of Illinois Urbana-Champaign
+  - Stanford University
+  - xAI
+  - University of California
+  - Berkeley
+  date: '2025-10-13'
+  publisher: ICLR 2026 (Poster)
+  envs: []
+  keywords:
+  - evaluation infrastructure
+  - leaderboard
+  - evaluation harness
+  - cost tracking
+  - log inspection
+  - agent traces
+  - HAL
+  tldr: |-
+    HAL provides standardized infrastructure for evaluating agents across models, scaffolds, and benchmarks rather than introducing a new agent. It reports results from 21,730 rollouts across 9 models and 9 benchmarks, tracks costs and full traces, and uses LLM-aided log inspection to surface behaviors such as benchmark gaming and unsafe actions.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2510.11977'
+  sources:
+    arxiv: https://arxiv.org/abs/2510.11977
+- title: Reliable Weak-to-Strong Monitoring of LLM Agents
+  link: https://arxiv.org/abs/2508.19461
+  authors:
+  - Neil Kale
+  - Chen Bo Calvin Zhang
+  - Kevin Zhu
+  - Ankit Aich
+  - Paula Rodriguez
+  - Scale Red Team
+  - Christina Q. Knight
+  - Zifan Wang
+  institutions:
+  - Scale AI
+  - Carnegie Mellon University
+  - Massachusetts Institute of Technology
+  date: '2025-08-26'
+  publisher: ICLR 2025
+  envs: []
+  keywords:
+  - safety
+  - LLM agent
+  - monitoring
+  - red-teaming
+  tldr: |-
+    Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2508.19461'
+  sources:
+    arxiv: https://arxiv.org/abs/2508.19461
+- title: 'MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers'
+  link: https://arxiv.org/abs/2508.14704
+  authors:
+  - Ziyang Luo
+  - Zhiqi Shen
+  - Wenzhuo Yang
+  - Zirui Zhao
+  - Prathyusha Jwalapuram
+  - Amrita Saha
+  - Doyen Sahoo
+  - Silvio Savarese
+  - Caiming Xiong
+  - Junnan Li
+  institutions:
+  - Salesforce AI Research
+  date: '2025-08-20'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - benchmark
+  - dataset
+  - framework
+  - long-horizon reasoning
+  - unknown-tools challenge
+  - execution-based evaluation
+  - MCP-universe
+  tldr: |-
+    MCP-Universe introduces the first comprehensive benchmark for evaluating large language models (LLMs) through interactions with real-world Model Context Protocol (MCP) servers. It spans six core domains—Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching—across 11 MCP servers. The benchmark employs execution-based evaluators (format, static, dynamic) to rigorously assess agent performance. Despite progress, state-of-the-art models like GPT-5 (43.72% success), Grok-4 (33.33%), and Claude-4.0-Sonnet (29.44%) show significant limitations. The benchmark highlights challenges in long-context reasoning and unfamiliar tool handling, and provides an open-source extensible evaluation framework with UI support to accelerate future research.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2508.14704'
+  sources:
+    arxiv: https://arxiv.org/abs/2508.14704
+- title: 'BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent'
+  link: https://arxiv.org/abs/2508.06600
+  authors:
+  - Zijian Chen
+  - Xueguang Ma
+  - Shengyao Zhuang
+  - Ping Nie
+  - Kai Zou
+  - Andrew Liu
+  - Joshua Green
+  - Kshama Patel
+  - Ruoxi Meng
+  - Mingyi Su
+  - Sahel Sharifymoghaddam
+  - Yanxi Li
+  - Haoran Hong
+  - Xinyu Shi
+  - Xuye Liu
+  - Nandan Thakur
+  - Crystina Zhang
+  - Luyu Gao
+  - Wenhu Chen
+  - Jimmy Lin
+  institutions:
+  - University of Waterloo
+  - CSIRO
+  - Independent
+  - Carnegie Mellon University
+  - The University of Queensland
+  date: '2025-08-08'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - benchmark
+  - dataset
+  - agentic search
+  - deep research
+  - BrowseComp-plus
+  tldr: |-
+    Introduces **BrowseComp-Plus**, a fixed-corpus benchmark for evaluating deep-research agents. It enables controlled, fair, and transparent comparisons by providing human-verified supporting and challenging negative documents for each query. Results reveal significant performance variation—for example, an open-source model (Search-R1 + BM25) only achieves 3.86% accuracy, while GPT-5 reaches 55.9%, and GPT-5 with Qwen3-Embedding-8B retriever achieves 70.1% with fewer queries—highlighting the critical importance of retrieval quality and enabling disentangled analysis of retrieval vs. reasoning components.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2508.06600'
+  sources:
+    arxiv: https://arxiv.org/abs/2508.06600
+- title: 'Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training'
+  link: https://arxiv.org/abs/2508.00414
+  authors:
+  - Tianqing Fang
+  - Zhisong Zhang
+  - Xiaoyang Wang
+  - Rui Wang
+  - Can Qin
+  - Yuxuan Wan
+  - Jun-Yu Ma
+  - Ce Zhang
+  - Jiaqi Chen
+  - Xiyun Li
+  - Hongming Zhang
+  - Haitao Mi
+  - Dong Yu
+  institutions:
+  - Tencent AI Lab
+  date: '2025-08-01'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - framework
+  - dataset
+  - model
+  - deep research
+  - reflection
+  - voting
+  - agent foundation models
+  tldr: |-
+    This work introduces **Cognitive Kernel-Pro**, a fully open-source, multi-module agent framework designed to democratize advanced AI agent development. It curates high-quality training data across four domains—web, files, code, and general reasoning—and introduces test-time strategies like reflection and voting to enhance robustness. Evaluated on the GAIA benchmark, its open 8B-parameter model outperforms previous open-source agents such as WebDancer and WebSailor, setting a new performance standard. Code is publicly available.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2508.00414'
+  sources:
+    arxiv: https://arxiv.org/abs/2508.00414
+- title: 'Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation'
+  link: https://arxiv.org/abs/2505.11604
+  authors:
+  - Kyudan Jung
+  - Hojun Cho
+  - Jooyeol Yun
+  - Soyoung Yang
+  - Jaehyeok Jang
+  - Jaegul Choo
+  institutions:
+  - Chung-ang University
+  - KAIST AI
+  date: '2025-05-16'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - benchmark
+  - structured data manipulation
+  - slide editing
+  - object model editing
+  - TSBench
+  tldr: |-
+    Talk to Your Slides targets slide editing through language-driven manipulation of the underlying document object model rather than GUI-native visual interaction. It is relevant to GUI work because it compares against GUI-based baselines and introduces the TSBench benchmark, but its primary interaction mechanism is structured document editing rather than direct GUI control.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2505.11604'
+  sources:
+    arxiv: https://arxiv.org/abs/2505.11604
+- title: 'Magma: A Foundation Model for Multimodal AI Agents'
+  link: https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html
+  authors:
+  - Jianwei Yang
+  - Reuben Tan
+  - Qianhui Wu
+  - Ruijie Zheng
+  - Baolin Peng
+  - Yongyuan Liang
+  - Yu Gu
+  - Mu Cai
+  - Seonghyeon Ye
+  - Joel Jang
+  - Yuquan Deng
+  - Lars Liden
+  - Jianfeng Gao
+  institutions:
+  - Microsoft Research
+  - University of Maryland
+  - University of Wisconsin-Madison
+  - KAIST
+  - University of Washington
+  date: '2025-02-18'
+  publisher: CVPR 2025
+  envs: []
+  keywords:
+  - model
+  - foundation model
+  - SoM
+  - ToM
+  - UI navigation
+  - robot manipulation
+  - Magma
+  tldr: |-
+    Magma is a multimodal foundation model for agentic tasks spanning digital and physical environments rather than a GUI-specific paper. It is relevant here because it reports strong UI navigation results and uses Set-of-Mark and Trace-of-Mark supervision, but its main contribution is a broader agentic model covering robotics as well as GUI tasks.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    publisher_page: https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html
+- title: 'Language Agents: Foundations, Prospects, and Risks'
+  link: https://aclanthology.org/2024.emnlp-tutorials.3/
+  authors:
+  - Yu Su
+  - Diyi Yang
+  - Shunyu Yao
+  - Tao Yu
+  institutions:
+  - The Ohio State University
+  - Stanford University
+  - Princeton University
+  - The University of Hong Kong
+  date: '2024-11-30'
+  publisher: EMNLP 2024 Tutorial Abstracts
+  envs: []
+  keywords:
+  - survey
+  - tutorial
+  - reasoning
+  - planning
+  - memory
+  - multi-agent systems
+  - safety
+  tldr: |-
+    This tutorial provides a comprehensive exploration of language agents—autonomous systems powered by large language models capable of executing complex tasks through language instructions. It delves into their theoretical foundations, potential applications, associated risks, and future directions, covering topics such as reasoning, memory, planning, tool augmentation, grounding, multi-agent systems, and safety considerations.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    publisher_page: https://aclanthology.org/2024.emnlp-tutorials.3/
+    code: https://github.com/acl-org/acl-anthology/
+- title: 'MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning'
+  link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html
+  authors:
+  - Haotian Zhang
+  - Mingfei Gao
+  - Zhe Gan
+  - Philipp Dufter
+  - Nina Wenzel
+  - Forrest Huang
+  - Dhruti Shah
+  - Xianzhi Du
+  - Bowen Zhang
+  - Yanghao Li
+  - Sam Dodge
+  - Keen You
+  - Zhen Yang
+  - Aleksei Timofeev
+  - Mingze Xu
+  - Hong-You Chen
+  - Jean-Philippe Fauconnier
+  - Zhengfeng Lai
+  - Haoxuan You
+  - Zirui Wang
+  - Afshin Dehghan
+  - Peter Grasch
+  - Yinfei Yang
+  institutions:
+  - Apple
+  date: '2024-09-30'
+  publisher: ICLR 2025 (Poster)
+  envs: []
+  keywords:
+  - model
+  - MM1.5
+  - vision language model
+  - visual grounding
+  - reasoning
+  - data-centric
+  - analysis
+  tldr: |-
+    This paper introduces MM1.5, a family of multimodal large language models (MLLMs) ranging from 1B to 30B parameters, including dense and mixture-of-experts variants. MM1.5 enhances capabilities in text-rich image understanding, visual referring and grounding, and multi-image reasoning. The authors employ a data-centric training approach, utilizing high-quality OCR data and synthetic captions for continual pre-training, alongside an optimized visual instruction-tuning data mixture for supervised fine-tuning. Specialized variants, MM1.5-Video and MM1.5-UI, are designed for video understanding and mobile UI comprehension, respectively. Extensive empirical studies provide insights into the training processes, offering guidance for future MLLM development.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html
+- title: 'TinyAgent: Function Calling at the Edge'
+  link: https://aclanthology.org/2024.emnlp-demo.9/
+  authors:
+  - Lutfi Eren Erdogan
+  - Nicholas Lee
+  - Siddharth Jha
+  - Sehoon Kim
+  - Ryan Tabrizi
+  - Suhong Moon
+  - Coleman Richard Charles Hooper
+  - Gopala Anumanchipalli
+  - Kurt Keutzer
+  - Amir Gholami
+  institutions:
+  - UC Berkeley
+  - ICSI
+  date: '2024-09-01'
+  publisher: EMNLP 2024 System Demonstrations
+  envs: []
+  keywords:
+  - framework
+  - dataset
+  - function calling
+  - LLMCompiler
+  - quantization
+  - TinyAgent
+  tldr: |-
+    TinyAgent is an edge deployment framework for small function-calling language models, paired with a curated training dataset, tool retrieval, and quantization for local inference. Its GUI relevance comes mainly from the MacBook assistant demo and local agent deployment setting, not from a primary contribution to GUI interaction research itself.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    publisher_page: https://aclanthology.org/2024.emnlp-demo.9/
+    code: https://github.com/acl-org/acl-anthology/
+- title: 'VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents'
+  link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html
+  authors:
+  - Xiao Liu
+  - Tianjie Zhang
+  - Yu Gu
+  - Iat Long Iong
+  - Yifan Xu
+  - Xixuan Song
+  - Shudan Zhang
+  - Hanyu Lai
+  - Xinyi Liu
+  - Hanlin Zhao
+  - Jiadai Sun
+  - Xinyue Yang
+  - Yu Yang
+  - Zehan Qi
+  - Shuntian Yao
+  - Xueqiao Sun
+  - Siyi Cheng
+  - Qinkai Zheng
+  - Hao Yu
+  - Hanchen Zhang
+  - Wenyi Hong
+  - Ming Ding
+  - Lihang Pan
+  - Xiaotao Gu
+  - Aohan Zeng
+  - Zhengxiao Du
+  - Chan Hee Song
+  - Yu Su
+  - Yuxiao Dong
+  - Jie Tang
+  institutions:
+  - Tsinghua University
+  - Zhejiang University
+  - Peking University
+  - The Ohio State University
+  date: '2024-08-12'
+  publisher: ICLR 2025
+  envs: []
+  keywords:
+  - benchmark
+  - dataset
+  - visual foundation agents
+  - embodied tasks
+  - visual design
+  - VisualAgentBench
+  - VAB
+  tldr: |-
+    VisualAgentBench benchmarks large multimodal models as general visual foundation agents across embodied tasks, GUI tasks, and visual design rather than focusing only on GUI interaction. It also releases trajectory data for behavior cloning, making it relevant to GUI work as a broader visual-agent benchmark rather than a direct GUI paper.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html
+- title: 'Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions'
+  link: https://aclanthology.org/2025.acl-long.1087/
+  authors:
+  - Xinbei Ma
+  - Yiting Wang
+  - Yao Yao
+  - Tongxin Yuan
+  - Aston Zhang
+  - Zhuosheng Zhang
+  - Hai Zhao
+  institutions:
+  - Shanghai Jiao Tong University
+  - Meta
+  date: '2024-08-05'
+  publisher: ACL 2025
+  envs: []
+  keywords:
+  - safety
+  - robustness
+  - environmental distraction
+  - multimodal LLM agent
+  tldr: |-
+    This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    publisher_page: https://aclanthology.org/2025.acl-long.1087/
+    code: https://github.com/acl-org/acl-anthology/
+- title: 'MindSearch: Mimicking Human Minds Elicits Deep AI Searcher'
+  link: https://openreview.net/forum?id=xgtXkyqw1f
+  authors:
+  - Zehui Chen
+  - Kuikun Liu
+  - Qiuchen Wang
+  - Jiangning Liu
+  - Wenwei Zhang
+  - Kai Chen
+  - Feng Zhao
+  institutions:
+  - University of Science and Technology of China
+  - Shanghai AI Laboratory
+  date: '2024-07-29'
+  publisher: ICLR 2025 (Poster)
+  envs: []
+  keywords:
+  - framework
+  - information seeking
+  - planning
+  - AI search
+  - MindSearch
+  tldr: |-
+    This paper presents MindSearch, a novel approach to web information seeking and integration that mimics human cognitive processes. The system uses a multi-agent framework consisting of a WebPlanner and WebSearcher. The WebPlanner models multi-step information seeking as a dynamic graph construction process, decomposing complex queries into sub-questions. The WebSearcher performs hierarchical information retrieval for each sub-question. MindSearch demonstrates significant improvements in response quality and depth compared to existing AI search solutions, processing information from over 300 web pages in just 3 minutes.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    openreview: https://openreview.net/forum?id=xgtXkyqw1f
+- title: 'Octo-planner: On-device Language Model for Planner-Action Agents'
+  link: https://arxiv.org/abs/2406.18082
+  authors:
+  - Nexa AI Team
+  institutions:
+  - Nexa AI
+  date: '2024-06-26'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - model
+  - planner-action framework
+  - Octo-planner
+  - on-device planning
+  tldr: |-
+    Presents Octo-planner, an on-device planner for a planner-action agent framework that separates task decomposition from action execution. Built on Phi-3 Mini and paired with an Octopus action model, it targets low-latency planning and execution on resource-constrained devices.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2406.18082'
+  sources:
+    arxiv: https://arxiv.org/abs/2406.18082
+- title: 'VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought'
+  link: https://openreview.net/forum?id=5G7MRfPngt
+  authors:
+  - Gabriel Herbert Sarch
+  - Lawrence Jang
+  - Michael J. Tarr
+  - William W. Cohen
+  - Kenneth Marino
+  - Katerina Fragkiadaki
+  institutions:
+  - Carnegie Mellon University
+  - Google DeepMind
+  date: '2024-06-20'
+  publisher: NeurIPS 2024 (Spotlight)
+  envs: []
+  keywords:
+  - memory
+  - In-Context Abstraction Learning
+  - programs of thought
+  - retrieval augmentation
+  - ICAL
+  tldr: |-
+    ICAL turns sub-optimal demonstrations and feedback into reusable multimodal memories that improve VLM and LLM agents across TEACh, VisualWebArena, and Ego4D. It is relevant to GUI work because one evaluation domain is web agents, but the method itself is a broader embodied-agent memory approach rather than a direct GUI paper.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    openreview: https://openreview.net/forum?id=5G7MRfPngt
+- title: 'Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent'
+  link: https://arxiv.org/abs/2404.11459
+  authors:
+  - Wei Chen
+  - Zhiyuan Li
+  institutions:
+  - Stanford University
+  date: '2024-04-17'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - model
+  - functional tokens
+  - on-device agent
+  - edge deployment
+  - Octopus v3
+  tldr: |-
+    Octopus v3 is a sub-billion multimodal AI agent model designed for efficient on-device deployment, with the paper centered on its functional-token mechanism and edge-device constraints rather than GUI-native interaction. It is relevant to GUI research as a lightweight multimodal agent backbone, but it is broader than a direct GUI-agent paper.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2404.11459'
+  sources:
+    arxiv: https://arxiv.org/abs/2404.11459
+- title: Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking
+  link: https://arxiv.org/abs/2404.08860
+  authors:
+  - Lei Ding
+  - Jeshwanth Bheemanpally
+  - Yi Zhang
+  institutions:
+  - University of California
+  - Santa Cruz
+  date: '2024-04-13'
+  publisher: SIGIR 2024
+  envs: []
+  keywords:
+  - framework
+  - reranking
+  - verification
+  - technical support search
+  - instruction execution
+  tldr: |-
+    Targets mobile "how-to" search by automatically executing step-by-step instructions from retrieved pages in a controlled Android environment and reranking results based on actual success. The paper frames this as a verification-driven ranking pipeline for technical-support search rather than a pure mobile-control benchmark.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2404.08860'
+  sources:
+    arxiv: https://arxiv.org/abs/2404.08860
+- title: 'AgentStudio: A Toolkit for Building General Virtual Agents'
+  link: https://openreview.net/forum?id=axUf8BOjnH
+  authors:
+  - Longtao Zheng
+  - Zhiyuan Huang
+  - Zhenghai Xue
+  - Xinrun Wang
+  - Bo An
+  - Shuicheng Yan
+  institutions:
+  - Nanyang Technological University
+  - Skywork AI
+  - ETH Zurich
+  date: '2024-03-26'
+  publisher: ICLR 2025
+  envs: []
+  keywords:
+  - benchmark
+  - dataset
+  - general virtual agents
+  - GroundUI
+  - IDMBench
+  - CriticBench
+  tldr: |-
+    AgentStudio packages environments, tools, benchmarks, and datasets for general virtual agents with mixed GUI and API action spaces. It is relevant here because GUI interaction is one supported modality and because it contributes GroundUI, IDMBench, and CriticBench, but the paper is broader than a direct GUI-agent study.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    openreview: https://openreview.net/forum?id=axUf8BOjnH
+- title: 'Cradle: Empowering Foundation Agents Towards General Computer Control'
+  link: https://arxiv.org/abs/2403.03186
+  authors:
+  - Weihao Tan
+  - Wentao Zhang
+  - Xinrun Xu
+  - Haochong Xia
+  - Ziluo Ding
+  - Boyu Li
+  - Bohan Zhou
+  - Junpeng Yue
+  - Jiechuan Jiang
+  - Yewen Li
+  - Ruyi An
+  - Molei Qin
+  - Chuqiao Zong
+  - Longtao Zheng
+  - Yujie Wu
+  - Xiaoqiang Chai
+  - Yifei Bi
+  - Tianbao Xie
+  - Pengjie Gu
+  - Xiyun Li
+  - Ceyao Zhang
+  - Long Tian
+  - Chaojie Wang
+  - Xinrun Wang
+  - Börje F. Karlsson
+  - Bo An
+  - Shuicheng Yan
+  - Zongqing Lu
+  institutions:
+  - Skywork AI
+  - Beijing Academy of Artificial Intelligence
+  - Nanyang Technological University
+  - Peking University
+  - Institute of Software
+  - Chinese Academy of Sciences
+  - The University of Hong Kong
+  - The Chinese University of Hong Kong
+  - Shenzhen
+  date: '2024-03-05'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - framework
+  - Cradle
+  - general computer control
+  - screen-only control
+  - memory
+  - self-reflection
+  tldr: |-
+    Cradle formulates general computer control as screenshot input plus keyboard-and-mouse output, and instantiates that setting with a modular multimodal agent for software and video games. It matters to GUI work because it demonstrates screen-only control on real software and evaluates on OSWorld, but the paper is framed as a broader general-computer-control agenda rather than a direct GUI paper.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2403.03186'
+  sources:
+    arxiv: https://arxiv.org/abs/2403.03186
+- title: Improving Language Understanding from Screenshots
+  link: https://arxiv.org/abs/2402.14073
+  authors:
+  - Tianyu Gao
+  - Zirui Wang
+  - Adithya Bhaskar
+  - Danqi Chen
+  institutions:
+  - Princeton Language and Intelligence (PLI)
+  - Princeton University
+  date: '2024-02-21'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - screenshot language models
+  - PTP
+  - patch-and-text prediction
+  - language understanding
+  - plain-text-rendered screenshots
+  tldr: |-
+    This paper studies screenshot language models in a simplified plain-text-rendered setting and improves them with a patch-and-text prediction objective. It is relevant here because screenshot pretraining can transfer to UI-style inputs, but the paper is about general screenshot language understanding rather than direct GUI-agent behavior.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2402.14073'
+  sources:
+    arxiv: https://arxiv.org/abs/2402.14073
+- title: Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents
+  link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
+  authors:
+  - Wenkai Yang
+  - Xiaohan Bi
+  - Yankai Lin
+  - Sishuo Chen
+  - Jie Zhou
+  - Xu Sun
+  institutions:
+  - Renmin University of China
+  - Peking University
+  - Tencent
+  date: '2024-02-17'
+  publisher: NeurIPS 2024
+  envs: []
+  keywords:
+  - backdoor attacks
+  - agent security
+  - query-trigger attacks
+  - observation-trigger attacks
+  - reasoning-step attacks
+  tldr: |-
+    This paper analyzes backdoor attacks against generic LLM-based agents, including attacks that trigger from user queries or intermediate observations and attacks that alter intermediate reasoning while preserving the final answer. It matters for GUI work because web-shopping agents are one evaluation setting, but the contribution is a broader LLM-agent security analysis rather than a GUI-specific study.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    publisher_page: https://neurips.cc/Help/Contact?select=Conference
+    homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
+- title: A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents
+  link: https://arxiv.org/abs/2402.10196
+  authors:
+  - Lingbo Mo
+  - Zeyi Liao
+  - Boyuan Zheng
+  - Yu Su
+  - Chaowei Xiao
+  - Huan Sun
+  institutions:
+  - The Ohio State University
+  - University of Wisconsin-Madison
+  date: '2024-02-15'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - safety
+  - adversarial attacks
+  - security risks
+  - language agents
+  - perception-brain-action
+  tldr: |-
+    Maps adversarial attacks on language agents through a Perception-Brain-Action decomposition and surveys 12 attack types across those layers. The paper is mainly a threat-modeling taxonomy, useful as a security lens for later web and computer-use agents.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2402.10196'
+  sources:
+    arxiv: https://arxiv.org/abs/2402.10196
+- title: 'AgentBench: Evaluating LLMs as Agents'
+  link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html
+  authors:
+  - Xiao Liu
+  - Hao Yu
+  - Hanchen Zhang
+  - Yifan Xu
+  - Xuanyu Lei
+  - Hanyu Lai
+  - Yu Gu
+  - Hangliang Ding
+  - Kaiwen Men
+  - Kejuan Yang
+  - Shudan Zhang
+  - Xiang Deng
+  - Aohan Zeng
+  - Zhengxiao Du
+  - Chenhui Zhang
+  - Sheng Shen
+  - Tianjun Zhang
+  - Yu Su
+  - Huan Sun
+  - Minlie Huang
+  - Yuxiao Dong
+  - Jie Tang
+  institutions:
+  - Tsinghua University
+  - The Ohio State University
+  - ByteDance
+  date: '2024-01-01'
+  publisher: ICLR 2024
+  envs: []
+  keywords:
+  - benchmark
+  - evaluation
+  - multi-environment agents
+  - AgentBench
+  tldr: |-
+    Introduces AgentBench, a broad benchmark suite for evaluating LLMs as agents across eight environments, including but not limited to OS interaction. It belongs in this repo mainly as a general agent-evaluation reference rather than a pure GUI benchmark.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    homepage: https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html
+- title: 'GAIA: a benchmark for General AI Assistants'
+  link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html
+  authors:
+  - Grégoire Mialon
+  - Clémentine Fourrier
+  - Craig Swift
+  - Thomas Wolf
+  - Yann LeCun
+  - Thomas Scialom
+  institutions:
+  - Meta AI
+  - Hugging Face
+  - AutoGPT
+  date: '2023-11-21'
+  publisher: ICLR 2024
+  envs: []
+  keywords:
+  - benchmark
+  - multi-modality
+  - tool use
+  - reasoning
+  tldr: |-
+    GAIA is a benchmark developed for evaluating general-purpose AI assistants. It aims to test assistant models across multiple modalities and complex reasoning tasks in real-world settings, including scenarios that require tool usage and open-ended question answering. With a dataset comprising 466 questions across various domains, GAIA highlights gaps between current AI performance and human capability, presenting a significant challenge for large language models such as GPT-4.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    homepage: https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html
+- title: Exploring Mobile UI Layout Generation using Large Language Models Guided by UI Grammar
+  link: https://arxiv.org/abs/2310.15455
+  authors:
+  - Yuwen Lu
+  - Ziang Tong
+  - Qinyi Zhao
+  - Chengzhi Zhang
+  - Toby Jia-Jun Li
+  institutions:
+  - University of Notre Dame
+  - Fudan University
+  - Carnegie Mellon University
+  date: '2023-10-24'
+  publisher: AI & HCI @ ICML 2023
+  envs: []
+  keywords:
+  - position paper
+  - UI grammar
+  - mobile UI layout generation
+  - controllable generation
+  tldr: |-
+    This position paper studies mobile UI layout generation with LLMs and proposes a UI grammar to represent hierarchical screen structure. Its focus is controllable UI generation rather than GUI action or environment interaction, so it stays outside the direct-GUI agent main list.
+  relation: Adjacent to GUI research because it studies UI generation rather than GUI-agent control
+  arxiv_id: '2310.15455'
+  sources:
+    arxiv: https://arxiv.org/abs/2310.15455
+- title: Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
+  link: https://arxiv.org/abs/2310.11441
+  authors:
+  - Jianwei Yang
+  - Hao Zhang
+  - Feng Li
+  - Xueyan Zou
+  - Chunyuan Li
+  - Jianfeng Gao
+  institutions:
+  - Microsoft Research
+  date: '2023-10-17'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - visual prompting
+  - Set-of-Mark
+  - visual grounding
+  - zero-shot
+  - region marking
+  tldr: |-
+    Introduces Set-of-Mark prompting, where segmented image regions are overlaid with explicit marks before being passed to a multimodal model. The paper shows that simple region marking can unlock much stronger zero-shot grounding from GPT-4V without fine-tuning.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2310.11441'
+  sources:
+    arxiv: https://arxiv.org/abs/2310.11441
+- title: 'OpenAgents: An Open Platform for Language Agents in the Wild'
+  link: https://arxiv.org/abs/2310.10634
+  authors:
+  - Tianbao Xie
+  - Fan Zhou
+  - Zhoujun Cheng
+  - Peng Shi
+  - Luoxuan Weng
+  - Yitao Liu
+  - Toh Jing Hua
+  - Junning Zhao
+  - Qian Liu
+  - Che Liu
+  - Leo Z. Liu
+  - Yiheng Xu
+  - Hongjin Su
+  - Dongchan Shin
+  - Caiming Xiong
+  - Tao Yu
+  institutions:
+  - The University of Hong Kong
+  - Sea AI Lab
+  - Salesforce Research
+  date: '2023-10-16'
+  publisher: COLM 2024
+  envs: []
+  keywords:
+  - platform
+  - deployment
+  - web browsing
+  - data analysis
+  - API tools
+  - OpenAgents
+  tldr: |-
+    OpenAgents is a deployment-oriented platform for language agents in everyday use, spanning data analysis, API-tool use, and web browsing behind a shared user interface. It matters here because it includes a web-agent mode, but the paper is broader than direct GUI-agent research.
+  relation: Adjacent to GUI research because it is a broader language-agent platform with web browsing as only one mode
+  arxiv_id: '2310.10634'
+  sources:
+    arxiv: https://arxiv.org/abs/2310.10634
+- title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
+  link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html
+  authors:
+  - Noah Shinn
+  - Federico Cassano
+  - Ashwin Gopinath
+  - Karthik Narasimhan
+  - Shunyu Yao
+  institutions:
+  - Northeastern University
+  - Massachusetts Institute of Technology
+  - Princeton University
+  date: '2023-03-20'
+  publisher: NeurIPS 2023
+  envs: []
+  keywords:
+  - framework
+  - learning
+  - verbal reinforcement learning
+  - reflexion
+  tldr: |-
+    Introduces Reflexion, a framework where language agents learn from feedback by writing verbal reflections into episodic memory instead of updating model weights. The method is broad rather than GUI-specific, but it matters here because many later web and computer-use agents inherit its reflection-and-memory pattern.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    publisher_page: https://neurips.cc/Help/Contact?select=Conference
+    homepage: https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html
+- title: 'Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding'
+  link: https://proceedings.mlr.press/v202/lee23g.html
+  authors:
+  - Kenton Lee
+  - Mandar Joshi
+  - Iulia Turc
+  - Hexiang Hu
+  - Fangyu Liu
+  - Julian Eisenschlos
+  - Urvashi Khandelwal
+  - Peter Shaw
+  - Ming-Wei Chang
+  - Kristina Toutanova
+  institutions:
+  - Google
+  date: '2023-02-01'
+  publisher: ICML 2023
+  envs: []
+  keywords:
+  - model
+  - pretraining
+  - screenshot parsing
+  - image-to-text
+  - Pix2Struct
+  tldr: |-
+    Pix2Struct pretrains an image-to-text model by reconstructing simplified HTML from masked webpage screenshots, then transfers it across documents, illustrations, user interfaces, and natural images. It matters for GUI research because it improves UI understanding, but the paper is broader than direct GUI-agent work.
+  relation: Adjacent to GUI research because it is a general visually-situated language pretraining paper rather than a direct
+    GUI-agent paper
+  sources:
+    openreview: https://openreview.net/forum?id=bF1LVbP493
+    publisher_page: https://proceedings.mlr.press/v202/lee23g.html
+    homepage: https://proceedings.mlr.press/v202/lee23g.html
+    code: https://github.com/mlresearch/v202
+- title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
+  link: https://openreview.net/forum?id=WE_vluYUL-X
+  authors:
+  - Shunyu Yao
+  - Jeffrey Zhao
+  - Dian Yu
+  - Nan Du
+  - Izhak Shafran
+  - Karthik Narasimhan
+  - Yuan Cao
+  institutions:
+  - Princeton University
+  - Google Research
+  date: '2022-10-06'
+  publisher: ICLR 2023
+  envs: []
+  keywords:
+  - framework
+  - reasoning
+  - ReAct
+  tldr: |-
+    Introduces ReAct, the now-standard prompting pattern that interleaves reasoning traces with actions. It is not a GUI paper, but it is foundational because many later web and computer-use agents build directly on this reasoning-action decomposition.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  sources:
+    openreview: https://openreview.net/forum?id=WE_vluYUL-X

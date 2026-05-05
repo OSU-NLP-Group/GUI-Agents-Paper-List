@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Canonical pipeline: papers.yaml is the source of truth; everything
+# else (ALL_PAPERS.md, ADJACENT_PAPERS.md, the per-axis fragments,
+# the README) is regenerated from it.
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
-# Use uv run if available, otherwise fall back to python3
+# Use uv run if available, otherwise fall back to python3.
 if command -v uv >/dev/null 2>&1 && [ -f "$REPO_ROOT/pyproject.toml" ]; then
   RUN="uv run python3"
 else
@@ -17,12 +21,15 @@ fi
 
 cd "$REPO_ROOT"
 
-echo "Normalizing institutions and keywords..."
-$RUN scripts/normalize_institutions.py --write
-$RUN scripts/lint_keys.py --write
+if [ ! -f "$REPO_ROOT/papers.yaml" ]; then
+  echo "papers.yaml not found — running one-shot migration from ALL_PAPERS.md ..."
+  $RUN scripts/migrate_to_yaml.py
+fi
 
-echo "Updating generated repo artifacts..."
+echo "Sorting + regenerating derived artifacts from papers.yaml ..."
 $RUN update_template_or_data/utils/scripts/sort_by_date.py
+
+echo "Assembling README ..."
 $RUN scripts/assemble_readme.py --repo-root "$REPO_ROOT"
 
 echo

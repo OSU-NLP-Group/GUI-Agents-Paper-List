@@ -109,15 +109,6 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [safety], [LLM agent], [monitoring], [red-teaming]
     - 📖 TLDR: Stress-tests LLM agent monitoring systems for detecting covert misbehavior using a monitor red-teaming (MRT) workflow varying agent/monitor awareness and adversarial evasion strategies, evaluated on SHADE-Arena for tool-calling agents and CUA-SHADE-Arena for computer-use agents.
 
-- [BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
-    - Zijian Chen, Xueguang Ma, Shengyao Zhuang, Ping Nie, Kai Zou, Andrew Liu, Joshua Green, Kshama Patel, Ruoxi Meng, Mingyi Su, Sahel Sharifymoghaddam, Yanxi Li, Haoran Hong, Xinyu Shi, Xuye Liu, Nandan Thakur, Crystina Zhang, Luyu Gao, Wenhu Chen, Jimmy Lin
-    - 🏛️ Institutions: University of Waterloo, CSIRO, Independent, Carnegie Mellon University, The University of Queensland
-    - 📅 Date: August 08, 2025
-    - 📑 Publisher: arXiv
-    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
-    - 🔑 Key: [benchmark], [dataset], [agentic search], [deep research], [BrowseComp-plus]
-    - 📖 TLDR: Introduces **BrowseComp-Plus**, a fixed-corpus benchmark for evaluating deep-research agents. It enables controlled, fair, and transparent comparisons by providing human-verified supporting and challenging negative documents for each query. Results reveal significant performance variation—for example, an open-source model (Search-R1 + BM25) only achieves 3.86% accuracy, while GPT-5 reaches 55.9%, and GPT-5 with Qwen3-Embedding-8B retriever achieves 70.1% with fewer queries—highlighting the critical importance of retrieval quality and enabling disentangled analysis of retrieval vs. reasoning components.
-
 - [MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers](https://arxiv.org/abs/2508.14704)
     - Ziyang Luo, Zhiqi Shen, Wenzhuo Yang, Zirui Zhao, Prathyusha Jwalapuram, Amrita Saha, Doyen Sahoo, Silvio Savarese, Caiming Xiong, Junnan Li
     - 🏛️ Institutions: Salesforce AI Research
@@ -126,6 +117,15 @@ These entries are kept for reference only. The main list and generated environme
     - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [benchmark], [dataset], [framework], [long-horizon reasoning], [unknown-tools challenge], [execution-based evaluation], [MCP-universe]
     - 📖 TLDR: MCP-Universe introduces the first comprehensive benchmark for evaluating large language models (LLMs) through interactions with real-world Model Context Protocol (MCP) servers. It spans six core domains—Location Navigation, Repository Management, Financial Analysis, 3D Design, Browser Automation, and Web Searching—across 11 MCP servers. The benchmark employs execution-based evaluators (format, static, dynamic) to rigorously assess agent performance. Despite progress, state-of-the-art models like GPT-5 (43.72% success), Grok-4 (33.33%), and Claude-4.0-Sonnet (29.44%) show significant limitations. The benchmark highlights challenges in long-context reasoning and unfamiliar tool handling, and provides an open-source extensible evaluation framework with UI support to accelerate future research.
+
+- [BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
+    - Zijian Chen, Xueguang Ma, Shengyao Zhuang, Ping Nie, Kai Zou, Andrew Liu, Joshua Green, Kshama Patel, Ruoxi Meng, Mingyi Su, Sahel Sharifymoghaddam, Yanxi Li, Haoran Hong, Xinyu Shi, Xuye Liu, Nandan Thakur, Crystina Zhang, Luyu Gao, Wenhu Chen, Jimmy Lin
+    - 🏛️ Institutions: University of Waterloo, CSIRO, Independent, Carnegie Mellon University, The University of Queensland
+    - 📅 Date: August 08, 2025
+    - 📑 Publisher: arXiv
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [benchmark], [dataset], [agentic search], [deep research], [BrowseComp-plus]
+    - 📖 TLDR: Introduces **BrowseComp-Plus**, a fixed-corpus benchmark for evaluating deep-research agents. It enables controlled, fair, and transparent comparisons by providing human-verified supporting and challenging negative documents for each query. Results reveal significant performance variation—for example, an open-source model (Search-R1 + BM25) only achieves 3.86% accuracy, while GPT-5 reaches 55.9%, and GPT-5 with Qwen3-Embedding-8B retriever achieves 70.1% with fewer queries—highlighting the critical importance of retrieval quality and enabling disentangled analysis of retrieval vs. reasoning components.
 
 - [Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training](https://arxiv.org/abs/2508.00414)
     - Tianqing Fang, Zhisong Zhang, Xiaoyang Wang, Rui Wang, Can Qin, Yuxuan Wan, Jun-Yu Ma, Ce Zhang, Jiaqi Chen, Xiyun Li, Hongming Zhang, Haitao Mi, Dong Yu
@@ -172,15 +172,6 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [model], [MM1.5], [vision language model], [visual grounding], [reasoning], [data-centric], [analysis]
     - 📖 TLDR: This paper introduces MM1.5, a family of multimodal large language models (MLLMs) ranging from 1B to 30B parameters, including dense and mixture-of-experts variants. MM1.5 enhances capabilities in text-rich image understanding, visual referring and grounding, and multi-image reasoning. The authors employ a data-centric training approach, utilizing high-quality OCR data and synthetic captions for continual pre-training, alongside an optimized visual instruction-tuning data mixture for supervised fine-tuning. Specialized variants, MM1.5-Video and MM1.5-UI, are designed for video understanding and mobile UI comprehension, respectively. Extensive empirical studies provide insights into the training processes, offering guidance for future MLLM development.
 
-- [Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions](https://aclanthology.org/2025.acl-long.1087/)
-    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Meta
-    - 📅 Date: August 05, 2024
-    - 📑 Publisher: ACL 2025
-    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
-    - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
-    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
-
 - [TinyAgent: Function Calling at the Edge](https://aclanthology.org/2024.emnlp-demo.9/)
     - Lutfi Eren Erdogan, Nicholas Lee, Siddharth Jha, Sehoon Kim, Ryan Tabrizi, Suhong Moon, Coleman Richard Charles Hooper, Gopala Anumanchipalli, Kurt Keutzer, Amir Gholami
     - 🏛️ Institutions: UC Berkeley, ICSI
@@ -198,6 +189,15 @@ These entries are kept for reference only. The main list and generated environme
     - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [benchmark], [dataset], [visual foundation agents], [embodied tasks], [visual design], [VisualAgentBench], [VAB]
     - 📖 TLDR: VisualAgentBench benchmarks large multimodal models as general visual foundation agents across embodied tasks, GUI tasks, and visual design rather than focusing only on GUI interaction. It also releases trajectory data for behavior cloning, making it relevant to GUI work as a broader visual-agent benchmark rather than a direct GUI paper.
+
+- [Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions](https://aclanthology.org/2025.acl-long.1087/)
+    - Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang, Hai Zhao
+    - 🏛️ Institutions: Shanghai Jiao Tong University, Meta
+    - 📅 Date: August 05, 2024
+    - 📑 Publisher: ACL 2025
+    - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+    - 🔑 Key: [safety], [robustness], [environmental distraction], [multimodal LLM agent]
+    - 📖 TLDR: This paper highlights the vulnerability of multimodal agents to environmental distractions. The researchers demonstrate that these agents, which process multiple types of input (e.g., text, images, audio), can be significantly impacted by irrelevant or misleading environmental cues. The study provides insights into the limitations of current multimodal systems and emphasizes the need for more robust architectures that can filter out distractions and maintain focus on relevant information in complex, real-world environments.
 
 - [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://openreview.net/forum?id=xgtXkyqw1f)
     - Zehui Chen, Kuikun Liu, Qiuchen Wang, Jiangning Liu, Wenwei Zhang, Kai Chen, Feng Zhao
@@ -316,15 +316,6 @@ These entries are kept for reference only. The main list and generated environme
     - 🔑 Key: [position paper], [UI grammar], [mobile UI layout generation], [controllable generation]
     - 📖 TLDR: This position paper studies mobile UI layout generation with LLMs and proposes a UI grammar to represent hierarchical screen structure. Its focus is controllable UI generation rather than GUI action or environment interaction, so it stays outside the direct-GUI agent main list.
 
-- [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634)
-    - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu
-    - 🏛️ Institutions: The University of Hong Kong, Sea AI Lab, Salesforce Research
-    - 📅 Date: October 16, 2023
-    - 📑 Publisher: COLM 2024
-    - 📌 Relation: Adjacent to GUI research because it is a broader language-agent platform with web browsing as only one mode
-    - 🔑 Key: [platform], [deployment], [web browsing], [data analysis], [API tools], [OpenAgents]
-    - 📖 TLDR: OpenAgents is a deployment-oriented platform for language agents in everyday use, spanning data analysis, API-tool use, and web browsing behind a shared user interface. It matters here because it includes a web-agent mode, but the paper is broader than direct GUI-agent research.
-
 - [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)
     - Jianwei Yang, Hao Zhang, Feng Li, Xueyan Zou, Chunyuan Li, Jianfeng Gao
     - 🏛️ Institutions: Microsoft Research
@@ -333,6 +324,15 @@ These entries are kept for reference only. The main list and generated environme
     - 📌 Relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
     - 🔑 Key: [visual prompting], [Set-of-Mark], [visual grounding], [zero-shot], [region marking]
     - 📖 TLDR: Introduces Set-of-Mark prompting, where segmented image regions are overlaid with explicit marks before being passed to a multimodal model. The paper shows that simple region marking can unlock much stronger zero-shot grounding from GPT-4V without fine-tuning.
+
+- [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634)
+    - Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua, Junning Zhao, Qian Liu, Che Liu, Leo Z. Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Caiming Xiong, Tao Yu
+    - 🏛️ Institutions: The University of Hong Kong, Sea AI Lab, Salesforce Research
+    - 📅 Date: October 16, 2023
+    - 📑 Publisher: COLM 2024
+    - 📌 Relation: Adjacent to GUI research because it is a broader language-agent platform with web browsing as only one mode
+    - 🔑 Key: [platform], [deployment], [web browsing], [data analysis], [API tools], [OpenAgents]
+    - 📖 TLDR: OpenAgents is a deployment-oriented platform for language agents in everyday use, spanning data analysis, API-tool use, and web browsing behind a shared user interface. It matters here because it includes a web-agent mode, but the paper is broader than direct GUI-agent research.
 
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html)
     - Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao

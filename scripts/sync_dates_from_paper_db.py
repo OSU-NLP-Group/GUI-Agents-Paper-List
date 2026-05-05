@@ -1,24 +1,31 @@
 #!/usr/bin/env python3
 
+"""sync_dates_from_paper_db.py — push verified earliest-publication
+dates from `paper_db/papers/<id>/entity.json` into `papers.yaml`.
+
+Reads papers.yaml, looks up each entry in paper_db (by URL or title),
+takes the earliest of the candidate dates from any version, and
+writes the corrected ISO `date:` field back. Auto-applies only to
+arXiv-backed records (link-backed entries often mix venue dates,
+proceedings dates, and later archival snapshots and need manual
+review).
+"""
+
 from __future__ import annotations
 
 import argparse
 import json
-import re
 from dataclasses import dataclass
-from datetime import datetime
 from pathlib import Path
+from typing import Any
+
+import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTER_ROOT = ROOT.parent
-ALL_PAPERS_PATH = ROOT / "ALL_PAPERS.md"
+PAPERS_YAML = ROOT / "papers.yaml"
 PAPER_DB_DIR = OUTER_ROOT / "paper_db" / "papers"
-
-
-ENTRY_SPLIT_RE = re.compile(r"\n(?=- \[)")
-ENTRY_URL_RE = re.compile(r"^- \[(.*?)\]\((.*?)\)")
-ENTRY_DATE_RE = re.compile(r"^(\s*- 📅 Date: )(.*)$", re.MULTILINE)
 
 
 @dataclass
@@ -31,36 +38,30 @@ class PaperDbRecord:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--write", action="store_true", help="Write updates back to ALL_PAPERS.md")
+    parser.add_argument("--write", action="store_true", help="Write updates back to papers.yaml")
     parser.add_argument("--limit", type=int, default=None, help="Only apply the first N updates")
     return parser.parse_args()
 
 
-def iso_to_display(date_str: str) -> str:
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_str):
-        return datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
-    if re.fullmatch(r"\d{4}/\d{1,2}", date_str):
-        year, month = date_str.split("/")
-        return datetime(int(year), int(month), 1).strftime("%B %Y")
-    if re.fullmatch(r"\d{4}-\d{2}", date_str):
-        year, month = date_str.split("-")
-        return datetime(int(year), int(month), 1).strftime("%B %Y")
-    return date_str
-
-
 def normalize_title(title: str) -> str:
-    return " ".join(title.split()).strip()
+    return " ".join((title or "").split()).strip()
 
 
 def load_paper_db() -> tuple[dict[str, PaperDbRecord], dict[str, list[PaperDbRecord]]]:
     by_url: dict[str, PaperDbRecord] = {}
     by_title: dict[str, list[PaperDbRecord]] = {}
 
+    if not PAPER_DB_DIR.exists():
+        return by_url, by_title
+
     for paper_dir in sorted(PAPER_DB_DIR.iterdir()):
         if not paper_dir.is_dir() or paper_dir.name == "paper_template":
             continue
 
-        entity = json.loads((paper_dir / "entity.json").read_text(encoding="utf-8"))
+        entity_path = paper_dir / "entity.json"
+        if not entity_path.exists():
+            continue
+        entity = json.loads(entity_path.read_text(encoding="utf-8"))
         title = (entity.get("titles") or [{}])[0].get("text")
         urls: set[str] = set()
 
@@ -99,70 +100,81 @@ def load_paper_db() -> tuple[dict[str, PaperDbRecord], dict[str, list[PaperDbRec
     return by_url, by_title
 
 
+# ─── YAML I/O preserving block style ─────────────────────────────────
+
+class LiteralStr(str):
+    pass
+
+
+def _literal_representer(dumper, data):
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data, style="|")
+
+
+yaml.add_representer(LiteralStr, _literal_representer)
+
+
 def main() -> int:
     args = parse_args()
     by_url, by_title = load_paper_db()
-    text = ALL_PAPERS_PATH.read_text(encoding="utf-8")
-    chunks = ENTRY_SPLIT_RE.split(text)
+    if not PAPERS_YAML.exists():
+        raise SystemExit("papers.yaml not found")
+    papers: list[dict[str, Any]] = yaml.safe_load(PAPERS_YAML.read_text(encoding="utf-8")) or []
 
     updates: list[tuple[str, str, str, str, str]] = []
     applied_count = 0
-    updated_chunks: list[str] = []
 
-    for chunk in chunks:
-        if not chunk.startswith("- ["):
-            updated_chunks.append(chunk)
-            continue
-
-        lines = chunk.splitlines()
-        match = ENTRY_URL_RE.match(lines[0])
-        if not match:
-            updated_chunks.append(chunk)
-            continue
-
-        title, url = match.groups()
+    for entry in papers:
+        url = (entry.get("link") or "").strip()
+        title = (entry.get("title") or "").strip()
         record = by_url.get(url)
         if record is None:
             title_matches = by_title.get(normalize_title(title), [])
             if len(title_matches) == 1:
                 record = title_matches[0]
-
         if record is None or not record.earliest_date:
-            updated_chunks.append(chunk)
             continue
 
-        # Auto-sync only arXiv-backed records. Link-backed records often mix venue dates,
-        # proceedings dates, and later archival snapshots, which require manual review.
+        # Auto-sync only arXiv-backed records.
         if not record.paper_id.startswith("paper_arxiv_"):
-            updated_chunks.append(chunk)
             continue
 
-        date_match = ENTRY_DATE_RE.search(chunk)
-        if not date_match:
-            updated_chunks.append(chunk)
+        current = (entry.get("date") or "").strip()
+        target = record.earliest_date  # already YYYY-MM-DD
+        if current == target:
             continue
 
-        current_display = date_match.group(2).strip()
-        target_display = iso_to_display(record.earliest_date)
-        if current_display == target_display:
-            updated_chunks.append(chunk)
-            continue
-
-        updates.append((record.paper_id, title, current_display, target_display, url))
+        updates.append((record.paper_id, title, current, target, url))
         if args.limit is not None and applied_count >= args.limit:
-            updated_chunks.append(chunk)
             continue
-
-        updated_chunk = ENTRY_DATE_RE.sub(rf"\1{target_display}", chunk, count=1)
-        updated_chunks.append(updated_chunk)
-        applied_count += 1
+        if args.write:
+            entry["date"] = target
+            applied_count += 1
 
     print(f"date_updates {len(updates)}")
     for row in updates:
         print("\t".join(row))
 
     if args.write:
-        ALL_PAPERS_PATH.write_text("\n".join(updated_chunks), encoding="utf-8")
+        # Re-emit YAML with literal block scalars preserved.
+        out: list[dict[str, Any]] = []
+        for p in papers:
+            cp = dict(p)
+            if cp.get("tldr"):
+                cp["tldr"] = LiteralStr(str(cp["tldr"]))
+            if cp.get("bibtex"):
+                cp["bibtex"] = LiteralStr(str(cp["bibtex"]))
+            out.append(cp)
+        body = yaml.dump(out, sort_keys=False, allow_unicode=True, width=120, default_flow_style=False)
+        # Preserve the file header.
+        header_end = 0
+        existing = PAPERS_YAML.read_text(encoding="utf-8")
+        for line in existing.splitlines():
+            if line.startswith("#") or line.strip() == "":
+                header_end += len(line) + 1
+            else:
+                break
+        header = existing[:header_end]
+        PAPERS_YAML.write_text(header + body, encoding="utf-8")
 
     return 0
 

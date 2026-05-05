@@ -7,4 +7,5 @@ dependencies = [
     "kaleido>=1.2.0",
     "pandas>=3.0.2",
     "plotly>=6.7.0",
+    "pyyaml>=6.0.3",
 ]

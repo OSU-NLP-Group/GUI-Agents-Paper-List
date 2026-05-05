@@ -1,3 +1,4 @@
 pandas
 plotly
 kaleido
+pyyaml

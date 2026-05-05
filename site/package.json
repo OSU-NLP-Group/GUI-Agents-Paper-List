@@ -17,8 +17,10 @@
     "@fontsource-variable/fraunces": "^5.2.9",
     "@fontsource/ibm-plex-mono": "^5.2.7",
     "@fontsource/ibm-plex-sans": "^5.2.8",
+    "@types/js-yaml": "^4.0.9",
     "astro": "^4.16.18",
     "echarts": "^5.5.1",
+    "js-yaml": "^4.1.1",
     "minisearch": "^7.1.1",
     "solid-js": "^1.9.3",
     "tailwindcss": "^3.4.17"

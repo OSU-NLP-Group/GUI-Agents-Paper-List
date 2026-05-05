@@ -68,69 +68,56 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
             self.assertNotIn("{{insert_env_groups_here}}", readme)
             self.assertEqual((update_dir / "update_readme_template.md").read_text(), template)
 
-    def test_process_markdown_creates_general_gui_page_even_when_empty(self):
+    def test_process_round_trips_yaml_and_emits_derived_md(self):
+        """The new pipeline reads papers.yaml + adjacent.yaml, emits
+        derived ALL_PAPERS.md (no bibtex), generates the README
+        fragments, and removes any legacy paper_by_* dirs."""
         with tempfile.TemporaryDirectory() as tmpdir:
             repo = Path(tmpdir)
             (repo / "update_template_or_data").mkdir()
-            (repo / "paper_by_key").mkdir()
+            # Legacy dir that should get cleaned up.
             (repo / "paper_by_env").mkdir()
-            (repo / "paper_by_author").mkdir()
+            (repo / "paper_by_env" / "paper_legacy.md").write_text("legacy")
 
-            all_papers = textwrap.dedent(
+            papers_yaml = textwrap.dedent(
                 """\
-                - [Example Paper](https://example.com/paper)
-                    - Alice Author, Bob Author
-                    - 🏛️ Institutions: Example Lab
-                    - 📅 Date: March 01, 2026
-                    - 📑 Publisher: arXiv
-                    - 💻 Env: [Web]
-                    - 🔑 Key: [framework], [Example]
-                    - 📖 TLDR: Minimal example for testing.
+                - title: Example Paper
+                  link: https://example.com/paper
+                  authors: [Alice Author, Bob Author]
+                  institutions: [Example Lab]
+                  date: "2026-03-01"
+                  publisher: arXiv
+                  envs: [Web]
+                  keywords: [framework, Example]
+                  tldr: |
+                    Minimal example for testing.
+                  bibtex: |
+                    @misc{author2026example,
+                      title = {{Example Paper}},
+                      year = {2026}
+                    }
+                  bibtex_confirmed: false
                 """
             )
-            (repo / "ALL_PAPERS.md").write_text(all_papers)
+            (repo / "papers.yaml").write_text(papers_yaml)
+            (repo / "adjacent.yaml").write_text("[]\n")
 
             with chdir(repo):
-                module = load_module("sort_by_date_under_test", SORT_SCRIPT)
-                module.process_markdown()
+                module = load_module("sort_by_date_yaml_under_test", SORT_SCRIPT)
+                module.process()
 
-            general_gui_page = repo / "paper_by_env" / "paper_general_gui.md"
-            self.assertTrue(general_gui_page.exists())
-            self.assertIn("No papers currently tagged with [General GUI].", general_gui_page.read_text())
+            # Derived markdown was emitted, no bibtex inside.
+            md = (repo / "ALL_PAPERS.md").read_text()
+            self.assertIn("Example Paper", md)
+            self.assertIn("- 💻 Env: [Web]", md)
+            self.assertNotIn("@misc{", md)
 
-    def test_process_markdown_removes_legacy_env_pages(self):
-        with tempfile.TemporaryDirectory() as tmpdir:
-            repo = Path(tmpdir)
-            (repo / "update_template_or_data").mkdir()
-            (repo / "paper_by_key").mkdir()
-            env_dir = repo / "paper_by_env"
-            env_dir.mkdir()
-            (repo / "paper_by_author").mkdir()
+            # Fragments produced.
+            self.assertTrue((repo / "update_template_or_data" / "paper_list_section.md").exists())
+            self.assertTrue((repo / "update_template_or_data" / "env_grouping.md").exists())
 
-            for legacy_name in ("paper_gui.md", "paper_search.md", "paper_misc.md"):
-                (env_dir / legacy_name).write_text("legacy")
-
-            all_papers = textwrap.dedent(
-                """\
-                - [Example Paper](https://example.com/paper)
-                    - Alice Author, Bob Author
-                    - 🏛️ Institutions: Example Lab
-                    - 📅 Date: March 01, 2026
-                    - 📑 Publisher: arXiv
-                    - 💻 Env: [Web]
-                    - 🔑 Key: [framework], [Example]
-                    - 📖 TLDR: Minimal example for testing.
-                """
-            )
-            (repo / "ALL_PAPERS.md").write_text(all_papers)
-
-            with chdir(repo):
-                module = load_module("sort_by_date_cleanup_under_test", SORT_SCRIPT)
-                module.process_markdown()
-
-            self.assertFalse((env_dir / "paper_gui.md").exists())
-            self.assertFalse((env_dir / "paper_search.md").exists())
-            self.assertFalse((env_dir / "paper_misc.md").exists())
+            # Legacy dir cleaned up.
+            self.assertFalse((repo / "paper_by_env").exists())
 
 
 if __name__ == "__main__":
