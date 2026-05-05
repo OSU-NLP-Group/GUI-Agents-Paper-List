@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { ViewTransitions } from 'astro:transitions';
 import TopBar from '../components/TopBar.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../lib/site';
@@ -80,6 +81,8 @@ const jsonLdArr: unknown[] = jsonLd
 
     {extraHead && <Fragment set:html={extraHead} />}
 
+    <ViewTransitions fallback="swap" />
+
     {/* No-flash theme bootstrap. Default light, override only if user opted into dark. */}
     <script is:inline>
       (function () {
@@ -91,10 +94,10 @@ const jsonLdArr: unknown[] = jsonLd
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
-    <TopBar starCount={starCount} />
-    <main class="flex-1 relative z-10">
+    <TopBar starCount={starCount} transition:name="topbar" transition:persist />
+    <main class="flex-1 relative z-10" transition:animate="fade">
       <slot />
     </main>
-    <Footer />
+    <Footer transition:name="footer" />
   </body>
 </html>

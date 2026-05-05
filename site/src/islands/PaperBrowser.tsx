@@ -144,11 +144,18 @@ export default function PaperBrowser(props: Props) {
   const [authorFacetSearch, setAuthorFacetSearch] = createSignal('');
   const [instFacetSearch, setInstFacetSearch] = createSignal('');
   const [pubFacetSearch, setPubFacetSearch] = createSignal('');
+  const [toast, setToast] = createSignal<string | null>(null);
+  const showToast = (msg: string) => {
+    setToast(msg);
+    setTimeout(() => setToast(null), 1800);
+  };
 
   const PAGE_SIZE = 60;
   const [showLimit, setShowLimit] = createSignal(PAGE_SIZE);
   const [filtersOpen, setFiltersOpen] = createSignal(false);
+  const [shortcutHelpOpen, setShortcutHelpOpen] = createSignal(false);
   let sentinelEl: HTMLDivElement | undefined;
+  let searchInput: HTMLInputElement | undefined;
   let observer: IntersectionObserver | undefined;
 
   // Index search corpus
@@ -300,8 +307,50 @@ export default function PaperBrowser(props: Props) {
     setKeyMode(s.keyMode); setIncludeAdjacent(s.includeAdjacent);
     setShowLimit(PAGE_SIZE);
   };
+  // Keyboard shortcuts
+  const onKey = (e: KeyboardEvent) => {
+    const target = e.target as HTMLElement | null;
+    const inField = !!target && (
+      target.tagName === 'INPUT' ||
+      target.tagName === 'TEXTAREA' ||
+      (target as any).isContentEditable
+    );
+    if (!inField && e.key === '/' && !e.metaKey && !e.ctrlKey) {
+      e.preventDefault();
+      searchInput?.focus();
+      searchInput?.select();
+      return;
+    }
+    if (e.key === 'Escape') {
+      if (shortcutHelpOpen()) { setShortcutHelpOpen(false); return; }
+      if (target === searchInput) { (target as HTMLInputElement).blur(); return; }
+      if (q() || activeFilterCount() > 0) clearAll();
+      return;
+    }
+    if (!inField && (e.key === '?' || (e.shiftKey && e.key === '/'))) {
+      e.preventDefault();
+      setShortcutHelpOpen(!shortcutHelpOpen());
+      return;
+    }
+    if (!inField && (e.key === 'j' || e.key === 'k')) {
+      e.preventDefault();
+      const cards = Array.from(document.querySelectorAll('article.card'));
+      if (cards.length === 0) return;
+      const focused = document.activeElement?.closest('article.card');
+      let idx = focused ? cards.indexOf(focused) : -1;
+      idx = e.key === 'j' ? Math.min(idx + 1, cards.length - 1) : Math.max(idx - 1, 0);
+      const next = cards[idx] as HTMLElement | undefined;
+      if (next) {
+        next.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const link = next.querySelector('h3 a') as HTMLElement | null;
+        link?.focus();
+      }
+    }
+  };
+
   onMount(() => {
     window.addEventListener('popstate', onPop);
+    window.addEventListener('keydown', onKey);
     // Infinite-scroll sentinel: when within ~600px of the bottom marker, load
     // the next page. We rebind the observer whenever the sentinel ref changes
     // (Solid creates the element after mount).
@@ -322,6 +371,7 @@ export default function PaperBrowser(props: Props) {
   });
   onCleanup(() => {
     window.removeEventListener('popstate', onPop);
+    window.removeEventListener('keydown', onKey);
     observer?.disconnect();
   });
 
@@ -398,7 +448,7 @@ export default function PaperBrowser(props: Props) {
   };
 
   return (
-    <div class="grid grid-cols-1 lg:grid-cols-[18rem_1fr] gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-[18rem_1fr] gap-6 relative">
       {/* Mobile filter toggle */}
       <button
         class="lg:hidden btn-ghost border border-paper-300/80 dark:border-ink-600/60 self-start"
@@ -449,12 +499,16 @@ export default function PaperBrowser(props: Props) {
           <div class="flex-1 min-w-[14rem] relative">
             <input
               type="search"
-              placeholder="Search title, authors, TLDR, keywords…"
-              class="input pl-9"
+              placeholder="Search title, authors, TLDR, keywords…  ( / )"
+              class="input pl-9 pr-9"
               value={q()}
+              ref={(el) => (searchInput = el)}
               onInput={(e) => { setQ(e.currentTarget.value); setShowLimit(PAGE_SIZE); }}
             />
             <svg viewBox="0 0 24 24" width="16" height="16" class="absolute left-3 top-1/2 -translate-y-1/2 text-ink-400" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <Show when={!q()}>
+              <kbd class="hidden sm:inline-block absolute right-3 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] font-mono rounded border border-paper-300/80 dark:border-ink-600/60 text-ink-400 dark:text-ink-300 leading-none">/</kbd>
+            </Show>
           </div>
           <select value={sort()} onChange={(e) => setSort(e.currentTarget.value as any)} class="input w-auto py-2">
             <option value="date-desc">Newest first</option>
@@ -498,8 +552,35 @@ export default function PaperBrowser(props: Props) {
 
         <ul class="grid gap-4">
           <For each={filtered().slice(0, showLimit())}>
-            {(p) => <li><PaperCardClient paper={p} basePath={props.basePath} repoBlobUrl={props.repoBlobUrl} onChip={(kw) => toggle(keys, setKeys, kw)} /></li>}
+            {(p) => <li><PaperCardClient paper={p} basePath={props.basePath} repoBlobUrl={props.repoBlobUrl} onChip={(kw) => toggle(keys, setKeys, kw)} onToast={showToast} query={q().trim()} /></li>}
           </For>
+          {/* Skeleton placeholders shown while the next page is fetching */}
+          <Show when={filtered().length > showLimit()}>
+            <For each={Array.from({ length: Math.min(3, filtered().length - showLimit()) })}>
+              {() => (
+                <li>
+                  <article class="card p-5">
+                    <div class="flex items-start gap-3">
+                      <div class="flex-1 space-y-2">
+                        <div class="skeleton h-4 w-3/4"></div>
+                        <div class="skeleton h-4 w-1/2"></div>
+                        <div class="skeleton h-3 w-1/3 mt-3"></div>
+                      </div>
+                      <div class="skeleton h-5 w-5 rounded-full"></div>
+                    </div>
+                    <div class="skeleton h-3 w-full mt-4"></div>
+                    <div class="skeleton h-3 w-11/12 mt-2"></div>
+                    <div class="skeleton h-3 w-2/3 mt-2"></div>
+                    <div class="flex gap-2 mt-4">
+                      <div class="skeleton h-5 w-16 rounded-full"></div>
+                      <div class="skeleton h-5 w-20 rounded-full"></div>
+                      <div class="skeleton h-5 w-14 rounded-full"></div>
+                    </div>
+                  </article>
+                </li>
+              )}
+            </For>
+          </Show>
         </ul>
 
         {/* Infinite-scroll sentinel + lightweight progress indicator */}
@@ -511,14 +592,10 @@ export default function PaperBrowser(props: Props) {
               All {filtered().length.toLocaleString()} {filtered().length === 1 ? 'paper' : 'papers'} loaded.
             </div>
           }>
-            <div class="mt-2 text-center">
-              <div class="inline-flex items-center gap-2 text-xs text-ink-400 dark:text-ink-300">
-                <span class="inline-block w-3 h-3 rounded-full border-2 border-current border-r-transparent animate-spin"></span>
-                <span>Loading more · showing {showLimit().toLocaleString()} of {filtered().length.toLocaleString()}</span>
-              </div>
-              {/* Manual fallback for when IntersectionObserver isn't available */}
+            <div class="mt-2 text-center text-xs text-ink-400 dark:text-ink-300">
+              <span>Loading more · showing {showLimit().toLocaleString()} of {filtered().length.toLocaleString()}</span>
               <noscript>
-                <button class="btn-ghost border border-paper-300/80 dark:border-ink-600/60 mt-2" onClick={() => setShowLimit(showLimit() + PAGE_SIZE)}>
+                <button class="btn-ghost border border-paper-300/80 dark:border-ink-600/60 mt-2 ml-2" onClick={() => setShowLimit(showLimit() + PAGE_SIZE)}>
                   Show more
                 </button>
               </noscript>
@@ -526,6 +603,48 @@ export default function PaperBrowser(props: Props) {
           </Show>
         </Show>
       </div>
+
+      {/* Global toast portal — single global affordance for cross-card events */}
+      <Show when={toast()}>
+        <div class="toast" role="status" aria-live="polite">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12l5 5L20 7"/>
+          </svg>
+          <span>{toast()}</span>
+        </div>
+      </Show>
+
+      {/* Keyboard-shortcut cheatsheet (?) */}
+      <Show when={shortcutHelpOpen()}>
+        <div
+          class="fixed inset-0 z-[60] bg-ink-900/40 dark:bg-black/60 backdrop-blur-sm flex items-center justify-center p-4"
+          onClick={() => setShortcutHelpOpen(false)}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div
+            class="surface rounded-lg max-w-md w-full p-6 shadow-2xl"
+            onClick={(e: any) => e.stopPropagation()}
+          >
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-base font-semibold text-ink-700 dark:text-ink-50">Keyboard shortcuts</h3>
+              <button class="text-ink-400 hover:text-ink-600 dark:hover:text-ink-50" onClick={() => setShortcutHelpOpen(false)} aria-label="Close">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+              </button>
+            </div>
+            <dl class="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm">
+              <dt><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">/</kbd></dt>
+              <dd class="text-ink-600 dark:text-ink-100">Focus search</dd>
+              <dt class="flex gap-1"><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">j</kbd><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">k</kbd></dt>
+              <dd class="text-ink-600 dark:text-ink-100">Move between papers</dd>
+              <dt><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">Esc</kbd></dt>
+              <dd class="text-ink-600 dark:text-ink-100">Clear search & filters</dd>
+              <dt><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">?</kbd></dt>
+              <dd class="text-ink-600 dark:text-ink-100">Open this help</dd>
+            </dl>
+          </div>
+        </div>
+      </Show>
     </div>
   );
 }
@@ -535,6 +654,8 @@ interface CardProps {
   basePath: string;
   repoBlobUrl: string;
   onChip: (kw: string) => void;
+  onToast?: (msg: string) => void;
+  query?: string;
 }
 
 // LaTeX-ready BibTeX. Three cases:
@@ -545,6 +666,25 @@ interface CardProps {
 //   3. Journal-like venue (TMLR, JMLR, …) → @article with journal field.
 // Title is double-braced so LaTeX preserves capitalization on names like
 // "GUI", "OSWorld", "SeeAct".
+// Build a highlighted JSX-safe representation of `text` with all distinct
+// tokens of `query` wrapped in <mark>. Tokens shorter than 2 chars are
+// ignored so common letters don't paint over the whole string.
+function highlight(text: string, query: string | undefined): any {
+  if (!text) return text;
+  if (!query) return text;
+  const tokens = query
+    .split(/\s+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 2);
+  if (tokens.length === 0) return text;
+  const escaped = tokens.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const re = new RegExp(`(${escaped.join('|')})`, 'gi');
+  const parts = text.split(re);
+  return parts.map((part, idx) =>
+    idx % 2 === 1 ? <mark class="search-hl">{part}</mark> : part
+  );
+}
+
 function bibKey(p: BrowserPaper): string {
   const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '') || 'anon';
   const titleWord = p.title.split(/\s+/).find((w) => w.length > 3)?.toLowerCase().replace(/[^a-z0-9]/g, '') ?? 'paper';
@@ -656,11 +796,21 @@ function PaperCardClient(props: CardProps) {
   function copyBibtex(e: MouseEvent) {
     e.preventDefault();
     const text = buildBibtex(p);
+    const done = () => {
+      setBibCopied(true);
+      props.onToast?.('BibTeX copied');
+      setTimeout(() => setBibCopied(false), 1800);
+    };
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(() => {
-        setBibCopied(true);
-        setTimeout(() => setBibCopied(false), 1500);
+      navigator.clipboard.writeText(text).then(done).catch(() => {
+        const ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); } finally { ta.remove(); }
       });
+    } else {
+      const ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); } finally { ta.remove(); }
     }
   }
 
@@ -669,10 +819,10 @@ function PaperCardClient(props: CardProps) {
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
           <h3 class="text-base sm:text-[17px] font-semibold leading-snug text-ink-700 dark:text-ink-50 tracking-[-0.005em]">
-            <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{p.title}</a>
+            <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{highlight(p.title, props.query)}</a>
           </h3>
           <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words">
-            {visibleAuthors().join(', ')}
+            {highlight(visibleAuthors().join(', '), props.query)}
             <Show when={!expanded() && moreAuthors() > 0}>
               <button
                 class="ml-1 text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark"
@@ -723,7 +873,7 @@ function PaperCardClient(props: CardProps) {
       </p>
 
       <Show when={p.tldr}>
-        <p class={`mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed ${expanded() ? '' : 'clamp-3'}`}>{p.tldr}</p>
+        <p class={`mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed ${expanded() ? '' : 'clamp-3'}`}>{highlight(p.tldr, props.query)}</p>
       </Show>
 
       <Show when={p.keywords.length > 0}>
@@ -740,8 +890,9 @@ function PaperCardClient(props: CardProps) {
         </div>
       </Show>
 
-      <Show when={expanded()}>
-        <div class="mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60">
+      <div class="expand-section mt-0" data-open={expanded() ? 'true' : 'false'}>
+       <div class="expand-section__inner">
+        <div class={`mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60 ${bibCopied() ? 'copy-pulse copy-glow-source' : ''} rounded-md`}>
           <div class="flex flex-wrap items-center gap-2 text-xs">
             <a
               class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md bg-accent text-paper-50 dark:bg-accent-dark dark:text-ink-900 hover:opacity-90 font-medium"
@@ -754,11 +905,21 @@ function PaperCardClient(props: CardProps) {
             </Show>
             <button
               type="button"
-              class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40"
+              class={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border transition-colors ${
+                bibCopied()
+                  ? 'border-accent/60 dark:border-accent-dark/60 text-accent dark:text-accent-dark bg-accent/5 dark:bg-accent-dark/10'
+                  : 'border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40'
+              }`}
               onClick={copyBibtex}
               aria-label="Copy BibTeX to clipboard"
             >
-              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <Show when={bibCopied()} fallback={
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              }>
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path class="copied-check" d="M5 12l5 5L20 7"/>
+                </svg>
+              </Show>
               <span>{bibCopied() ? 'BibTeX copied' : 'Copy BibTeX'}</span>
             </button>
             <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={reportUrl} target="_blank" rel="noopener">
@@ -767,18 +928,20 @@ function PaperCardClient(props: CardProps) {
             </a>
           </div>
         </div>
-      </Show>
+       </div>
+      </div>
 
-      <Show when={!expanded()}>
-        <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
-          <button
-            class="link font-medium"
-            onClick={() => setExpanded(true)}
-            type="button"
-          >Expand ↓</button>
-          <a class="text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark" href={p.link} target="_blank" rel="noopener">Open ↗</a>
-        </div>
-      </Show>
+      <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
+        <button
+          class="link font-medium inline-flex items-center gap-1"
+          onClick={() => setExpanded(!expanded())}
+          type="button"
+        >
+          <span>{expanded() ? 'Collapse' : 'Expand'}</span>
+          <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={`transition-transform duration-200 ${expanded() ? 'rotate-180' : ''}`} aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg>
+        </button>
+        <a class="text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark" href={p.link} target="_blank" rel="noopener">Open ↗</a>
+      </div>
     </article>
   );
 }

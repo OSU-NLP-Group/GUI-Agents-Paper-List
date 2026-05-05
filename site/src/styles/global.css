@@ -153,6 +153,121 @@ html:not(.dark) body::before {
     radial-gradient(circle at 80% 80%, rgba(120,100,70,0.05), transparent 45%);
 }
 
+/* Animated expand/collapse: uses interpolate-size for height auto when
+   supported, falling back to grid-rows trick on older engines. */
+@keyframes expand-content {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.expand-section {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 280ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.expand-section[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+.expand-section > .expand-section__inner {
+  overflow: hidden;
+  min-height: 0;
+}
+.expand-section[data-open="true"] > .expand-section__inner > * {
+  animation: expand-content 360ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Animated checkmark: pen-stroke draw on success affordances. */
+@keyframes draw-check {
+  to { stroke-dashoffset: 0; }
+}
+.copied-check {
+  stroke-dasharray: 24;
+  stroke-dashoffset: 24;
+  animation: draw-check 380ms ease-out forwards;
+}
+
+/* Glow pulse on copy success. */
+@keyframes copy-glow {
+  0%   { box-shadow: 0 0 0 0 rgba(48, 87, 196, 0.0); }
+  30%  { box-shadow: 0 0 0 6px rgba(48, 87, 196, 0.16); }
+  100% { box-shadow: 0 0 0 0 rgba(48, 87, 196, 0.0); }
+}
+:global(html.dark) .copy-glow-source {
+  --glow: rgba(107, 140, 240, 0.22);
+}
+.copy-glow-source { --glow: rgba(48, 87, 196, 0.16); }
+@keyframes copy-glow-var {
+  0%   { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+  30%  { box-shadow: 0 0 0 6px var(--glow); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+}
+.copy-pulse {
+  animation: copy-glow-var 700ms ease-out;
+}
+
+/* Toast affordance for copy / etc. */
+@keyframes toast-in {
+  from { opacity: 0; transform: translate(-50%, 8px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+.toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background-color: #1d2129;
+  color: #f5f3ee;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.32);
+  animation: toast-in 220ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+:global(html:not(.dark)) .toast {
+  background-color: #23211c;
+  color: #fbf6ec;
+}
+
+/* Search-result highlight */
+mark.search-hl {
+  background-color: rgba(255, 207, 87, 0.36);
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 2px;
+}
+:global(html.dark) mark.search-hl {
+  background-color: rgba(255, 207, 87, 0.22);
+  color: #f5f3ee;
+}
+
+/* Skeleton card — content-shaped placeholder during infinite-scroll fetch. */
+@keyframes skeleton-shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  position: relative;
+  border-radius: 4px;
+  background: linear-gradient(90deg,
+    rgba(35, 33, 28, 0.06) 0%,
+    rgba(35, 33, 28, 0.10) 50%,
+    rgba(35, 33, 28, 0.06) 100%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.6s infinite linear;
+}
+:global(html.dark) .skeleton {
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0.04) 100%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.6s infinite linear;
+}
+
 /* Page-load entrance — staggered reveal driven entirely by CSS so it
    runs even before JS hydrates. Children with .reveal-stagger > * receive
    incrementing animation delays. */

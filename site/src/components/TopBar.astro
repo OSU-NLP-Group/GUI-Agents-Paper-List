@@ -17,7 +17,11 @@ const navItems = [
 ];
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 ---
-<header class="sticky top-0 z-40 backdrop-blur-md bg-paper-100/80 dark:bg-nightbg/80 border-b border-paper-300/60 dark:border-ink-600/60">
+<header
+  id="site-topbar"
+  class="sticky top-0 z-40 transition-[backdrop-filter,background-color,box-shadow,border-color,height] duration-200 ease-out backdrop-blur-md bg-paper-100/60 dark:bg-nightbg/60 border-b border-transparent"
+  data-scrolled="false"
+>
   <div class="mx-auto max-w-7xl px-4 sm:px-6 h-14 flex items-center gap-3">
     <a href={`${base}/`} class="flex items-center gap-2 group">
       <span aria-hidden="true" class="inline-flex items-center justify-center w-7 h-7 rounded-md bg-accent text-paper-50 dark:bg-accent-dark dark:text-ink-900 font-bold text-sm leading-none">G</span>
@@ -70,3 +74,41 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
     <ThemeToggle />
   </div>
 </header>
+
+<style>
+  #site-topbar[data-scrolled="true"] {
+    background-color: rgba(247, 239, 223, 0.86);
+    border-bottom-color: rgba(35, 33, 28, 0.08);
+    box-shadow: 0 6px 18px -10px rgba(35, 33, 28, 0.10);
+  }
+  :global(html.dark) #site-topbar[data-scrolled="true"] {
+    background-color: rgba(15, 18, 23, 0.78);
+    border-bottom-color: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 6px 18px -8px rgba(0, 0, 0, 0.45);
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    function bind() {
+      var bar = document.getElementById('site-topbar');
+      if (!bar) return;
+      var THRESH = 24;
+      var ticking = false;
+      function update() {
+        bar.dataset.scrolled = window.scrollY > THRESH ? 'true' : 'false';
+        ticking = false;
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(update);
+        }
+      }, { passive: true });
+      update();
+    }
+    bind();
+    // Re-bind after Astro view-transitions navigation
+    document.addEventListener('astro:after-swap', bind);
+  })();
+</script>
