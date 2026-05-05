@@ -359,10 +359,16 @@ export default function StatsCharts(props: Props) {
     charts.push(aChart);
 
     // === 6. Publication venues ===
+    // Collapse presentation variants — (Poster) / (Oral) / (Spotlight) etc.
+    // and "Findings of …" / workshop/track suffixes — into one venue bucket.
     const pCounter = new Map<string, number>();
     for (const p of props.papers) {
       if (!p.publisher || /^arxiv$/i.test(p.publisher.trim())) continue;
-      const v = p.publisher.replace(/\s*\(.*?\)\s*$/, '');
+      let v = p.publisher.trim();
+      v = v.replace(/\s*\([^)]*\)\s*$/g, '').trim();
+      v = v.replace(/^Findings of\s+/i, '').trim();
+      v = v.replace(/\s+(Workshop|Track|Datasets and Benchmarks Track|Findings)\b.*$/i, '').trim();
+      if (!v) continue;
       pCounter.set(v, (pCounter.get(v) ?? 0) + 1);
     }
     const topP = Array.from(pCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 15).reverse();

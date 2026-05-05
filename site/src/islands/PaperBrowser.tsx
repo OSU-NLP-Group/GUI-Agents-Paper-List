@@ -41,6 +41,23 @@ function uniqueCount<T extends string | number>(items: T[]): Map<T, number> {
   return m;
 }
 
+// Collapse presentation/track variants of the same venue for facet purposes.
+// Keeps the canonical "Venue Year" bucket and drops:
+//   - parenthetical presentation tags: (Poster), (Oral), (Spotlight), (Highlight), (Workshop), …
+//   - leading "Findings of " prefix on ACL/EMNLP/NAACL findings tracks
+//   - " Workshop" / " Track" / " Datasets and Benchmarks Track" tails (kept canonical to ACL/NeurIPS year)
+function normalizePublisher(raw: string): string {
+  let s = raw.trim();
+  if (!s) return s;
+  // strip trailing "(Poster)" / "(Oral)" / "(Spotlight)" / "(Highlight)" etc.
+  s = s.replace(/\s*\([^)]*\)\s*$/g, '').trim();
+  // drop "Findings of " prefix
+  s = s.replace(/^Findings of\s+/i, '').trim();
+  // collapse "ACL 2024 Workshop on X" / "NeurIPS 2024 Datasets and Benchmarks Track" → "ACL 2024" / "NeurIPS 2024"
+  s = s.replace(/\s+(Workshop|Track|Datasets and Benchmarks Track|Findings)\b.*$/i, '').trim();
+  return s;
+}
+
 function readUrlState(): {
   q: string;
   envs: Set<string>;
@@ -204,7 +221,7 @@ export default function PaperBrowser(props: Props) {
       }
       if (authorSel.size > 0 && !p.authors.some((a) => authorSel.has(a))) return false;
       if (instSel.size > 0 && !p.institutions.some((i) => instSel.has(i))) return false;
-      if (pubSel.size > 0 && !pubSel.has(p.publisher)) return false;
+      if (pubSel.size > 0 && !pubSel.has(normalizePublisher(p.publisher))) return false;
       if (yf != null && p.year < yf) return false;
       if (yt != null && p.year > yt) return false;
       return true;
@@ -235,7 +252,7 @@ export default function PaperBrowser(props: Props) {
     return Array.from(c.entries()).sort((a, b) => b[1] - a[1]);
   });
   const allPublishers = createMemo(() => {
-    const c = uniqueCount(candidates().map((p) => p.publisher));
+    const c = uniqueCount(candidates().map((p) => normalizePublisher(p.publisher)).filter(Boolean));
     return Array.from(c.entries()).sort((a, b) => b[1] - a[1]);
   });
   const yearBounds = createMemo(() => {
