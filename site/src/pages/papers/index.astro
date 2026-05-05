@@ -15,7 +15,10 @@ const lite = all.map((p) => ({
 }));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<Base title="Browse" description="Search and filter the GUI agent paper list.">
+<Base
+  title="Browse all GUI agent papers"
+  description={`Search and filter ${canonical.length}+ GUI agent papers by environment (web, mobile, desktop, general GUI), keyword, author, institution, year, and venue. Includes computer-use agents, GUI grounding, benchmarks, and datasets.`}
+>
   <section class="mx-auto max-w-7xl px-4 sm:px-6 py-8">
     <div class="mb-8 flex flex-wrap items-end gap-4 justify-between">
       <div>

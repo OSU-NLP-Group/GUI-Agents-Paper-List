@@ -45,8 +45,48 @@ export async function getStaticPaths() {
 
 const { paper, related } = Astro.props as { paper: Paper; related: RelatedLite[] };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const siteOrigin = (Astro.site ?? new URL('https://osu-nlp-group.github.io')).toString().replace(/\/$/, '');
+const detailUrl = `${siteOrigin}${base}/papers/${paper.slug}/`;
 
 const editUrl = repoFileUrl(paper);
+
+const tldrFallback = `${paper.title} — ${paper.publisher}, ${paper.date}. Authors: ${paper.authors.slice(0, 5).join(', ')}${paper.authors.length > 5 ? ', et al.' : ''}.`;
+const seoDescription = (paper.tldr || tldrFallback).slice(0, 300);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ScholarlyArticle',
+    headline: paper.title,
+    name: paper.title,
+    abstract: paper.tldr || undefined,
+    url: detailUrl,
+    sameAs: [paper.link, ...(paper.arxivId ? [`https://arxiv.org/abs/${paper.arxivId}`] : [])],
+    datePublished: paper.dateISO,
+    inLanguage: 'en',
+    author: paper.authors.map((name) => ({ '@type': 'Person', name })),
+    publisher: paper.publisher
+      ? { '@type': 'Organization', name: paper.publisher }
+      : undefined,
+    keywords: [...paper.envs, ...paper.keywords].join(', ') || undefined,
+    isPartOf: {
+      '@type': 'DataCatalog',
+      name: 'GUI Agents Paper List',
+      url: `${siteOrigin}${base}/`,
+    },
+    mainEntityOfPage: detailUrl,
+    identifier: paper.arxivId ? `arXiv:${paper.arxivId}` : undefined,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'GUI Agents Papers', item: `${siteOrigin}${base}/` },
+      { '@type': 'ListItem', position: 2, name: 'Browse', item: `${siteOrigin}${base}/papers/` },
+      { '@type': 'ListItem', position: 3, name: paper.title, item: detailUrl },
+    ],
+  },
+];
 
 function bibKey(p: Paper): string {
   const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '');
@@ -82,11 +122,18 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
   template: 'metadata-correction.yml',
 }).toString();
 ---
-<Base title={paper.title} description={paper.tldr || paper.title}>
-  <section class="mx-auto max-w-reading px-4 sm:px-6 py-10">
-    <a href={`${base}/papers`} class="text-sm link">← Browse</a>
+<Base
+  title={paper.title}
+  description={seoDescription}
+  ogType="article"
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-reading px-4 sm:px-6 py-10" itemscope itemtype="https://schema.org/ScholarlyArticle">
+    <nav class="text-xs text-ink-400 dark:text-ink-300" aria-label="Breadcrumb">
+      <a class="link" href={`${base}/papers`}>← Browse all papers</a>
+    </nav>
 
-    <h1 class="mt-4 text-2xl sm:text-3xl font-semibold tracking-tight text-ink-700 dark:text-ink-50 leading-tight">
+    <h1 class="mt-4 text-2xl sm:text-3xl font-semibold tracking-tight text-ink-700 dark:text-ink-50 leading-tight" itemprop="headline">
       <a href={paper.link} target="_blank" rel="noopener" class="hover:text-accent dark:hover:text-accent-dark">{paper.title}</a>
     </h1>
 
@@ -166,5 +213,5 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
         </ul>
       </section>
     )}
-  </section>
+  </article>
 </Base>

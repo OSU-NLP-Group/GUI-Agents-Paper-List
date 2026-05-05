@@ -5,32 +5,87 @@ import Footer from '../components/Footer.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../lib/site';
 import { getStarCount } from '../lib/star';
 
-const { title, description } = Astro.props as { title?: string; description?: string };
-const fullTitle = title ? `${title} · ${SITE_TITLE}` : SITE_TITLE;
+interface Props {
+  title?: string;
+  description?: string;
+  /** Path-only OG image (e.g. /og.png); defaults to site fallback. */
+  ogImage?: string;
+  /** "website" | "article" — default "website" */
+  ogType?: string;
+  /** Optional JSON-LD object(s) to inject as <script type="application/ld+json"> */
+  jsonLd?: unknown | unknown[];
+  /** Extra <meta>/<link> elements rendered into <head>. */
+  extraHead?: string;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  ogType = 'website',
+  jsonLd,
+  extraHead,
+} = Astro.props as Props;
+
+const fullTitle = title ? `${title} · ${SITE_TITLE}` : `${SITE_TITLE} · A curated list of GUI agent research`;
 const desc = description ?? SITE_DESCRIPTION;
 const starCount = await getStarCount();
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Ensure trailing slash on canonical for directory-format outputs.
+let canonicalPath = Astro.url.pathname;
+if (!canonicalPath.endsWith('/') && !/\.[a-z0-9]+$/i.test(canonicalPath)) canonicalPath += '/';
+const canonical = new URL(canonicalPath, Astro.site ?? 'https://osu-nlp-group.github.io').toString();
+const ogImageUrl = new URL(ogImage ?? `${base}/og.png`, Astro.site ?? 'https://osu-nlp-group.github.io').toString();
+
+const jsonLdArr: unknown[] = jsonLd
+  ? Array.isArray(jsonLd) ? jsonLd : [jsonLd]
+  : [];
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
+    <meta name="keywords" content="GUI agent, GUI agents, GUI agent papers, computer-use agent, web agent, mobile agent, desktop agent, GUI grounding, GUI benchmark, paper list, awesome list, OSU NLP" />
+    <meta name="author" content="OSU NLP Group" />
+    <link rel="canonical" href={canonical} />
+
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE_TITLE} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <meta name="theme-color" content="#f7efdf" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1217" media="(prefers-color-scheme: dark)" />
+
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
-    {/* No-flash theme bootstrap. Default: dark — overridden if user previously chose light. */}
+    <link rel="alternate" type="application/rss+xml" title="GUI Agents Papers — recent additions" href={`${base}/rss.xml`} />
+
+    {jsonLdArr.length > 0 && jsonLdArr.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
+
+    {extraHead && <Fragment set:html={extraHead} />}
+
+    {/* No-flash theme bootstrap. Default light, override only if user opted into dark. */}
     <script is:inline>
       (function () {
         try {
           var saved = localStorage.getItem('theme');
-          // Default to LIGHT (warm paper) if user has no preference yet.
-          var dark = saved === 'dark';
-          if (dark) document.documentElement.classList.add('dark');
+          if (saved === 'dark') document.documentElement.classList.add('dark');
         } catch (e) {}
       })();
     </script>

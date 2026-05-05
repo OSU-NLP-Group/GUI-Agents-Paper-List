@@ -3,7 +3,10 @@ import Base from '../layouts/Base.astro';
 import { REPO_URL, REPO_RAW_BLOB } from '../lib/site';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<Base title="About" description="About the GUI Agents Paper List.">
+<Base
+  title="About the GUI Agents Paper List"
+  description="An openly maintained, curated index of research on GUI agents — what's included, how papers are added, and how to contribute."
+>
   <section class="mx-auto max-w-reading px-4 sm:px-6 py-10">
     <p class="heading-eyebrow">About</p>
     <h1 class="text-3xl font-semibold tracking-tight mt-1 text-ink-700 dark:text-ink-50">About this list</h1>

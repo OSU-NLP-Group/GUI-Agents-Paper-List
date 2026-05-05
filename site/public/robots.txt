@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osu-nlp-group.github.io/GUI-Agents-Paper-List/sitemap-index.xml

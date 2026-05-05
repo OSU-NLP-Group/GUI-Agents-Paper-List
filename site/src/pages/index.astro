@@ -13,8 +13,49 @@ const thisYear = canonical.filter((p) => p.year === lastYear).length;
 const stars = await getStarCount();
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const siteUrl = (Astro.site ?? new URL('https://osu-nlp-group.github.io')).toString().replace(/\/$/, '') + base;
+
+const description = `A curated, searchable list of ${canonical.length}+ research papers on GUI agents — including web agents, mobile agents, desktop computer-use agents, GUI grounding, planning, safety, benchmarks, datasets, and reinforcement learning. Maintained openly by OSU NLP.`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'GUI Agents Papers',
+    alternateName: 'GUI Agents Paper List',
+    url: siteUrl + '/',
+    description,
+    inLanguage: 'en',
+    publisher: {
+      '@type': 'Organization',
+      name: 'OSU NLP Group',
+      url: 'https://github.com/OSU-NLP-Group',
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteUrl}/papers/?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'DataCatalog',
+    name: 'GUI Agents Paper List',
+    description,
+    url: siteUrl + '/',
+    keywords: 'GUI agent, web agent, mobile agent, desktop agent, computer-use agent, GUI grounding, GUI benchmark',
+    creator: { '@type': 'Organization', name: 'OSU NLP Group' },
+  },
+];
 ---
-<Base>
+<Base
+  title="A curated list of GUI agent research papers"
+  description={description}
+  jsonLd={jsonLd}
+>
   {/* Hero — single focused message */}
   <section class="mx-auto max-w-5xl px-4 sm:px-6 pt-20 sm:pt-28 pb-10">
     <p class="heading-eyebrow">A curated paper list</p>

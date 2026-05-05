@@ -12,7 +12,10 @@ const lite = canonical.map((p) => ({
 }));
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<Base title="Stats" description="Trends and breakdowns across the GUI agent paper list.">
+<Base
+  title="GUI agent research trends and statistics"
+  description={`Quarterly publication trends, top keywords, environment splits, top institutions and authors, and venue breakdowns across ${canonical.length}+ GUI agent papers.`}
+>
   <section class="mx-auto max-w-7xl px-4 sm:px-6 py-10">
     <p class="heading-eyebrow">Stats</p>
     <h1 class="text-3xl font-semibold tracking-tight mt-1 text-ink-700 dark:text-ink-50">Trends across {canonical.length} papers</h1>
