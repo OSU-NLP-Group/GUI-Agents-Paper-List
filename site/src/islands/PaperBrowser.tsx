@@ -1169,46 +1169,13 @@ function buildReportUrl(p: BrowserPaper): string {
   return `https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues/new?${params.toString()}`;
 }
 
-// Persist the collapse choice across navigations. Default is expanded
-// — researchers want everything in front of them. If a user explicitly
-// collapses a card, every card on subsequent visits starts collapsed
-// until they expand again.
-function readDefaultExpanded(): boolean {
-  if (typeof window === 'undefined') return true;
-  try {
-    const v = window.localStorage.getItem('paper-card-default');
-    if (v === 'collapsed') return false;
-  } catch {}
-  return true;
-}
-function writeDefaultExpanded(v: boolean) {
-  try {
-    window.localStorage.setItem('paper-card-default', v ? 'expanded' : 'collapsed');
-  } catch {}
-}
-
 function PaperCardClient(props: CardProps) {
   const p = props.paper;
   const detailHref = `${props.basePath}/papers/${p.slug}`;
   const reportUrl = buildReportUrl(p);
-  const [expanded, setExpanded] = createSignal(readDefaultExpanded());
   const [bibCopied, setBibCopied] = createSignal(false);
 
-  function toggleExpand() {
-    const next = !expanded();
-    setExpanded(next);
-    writeDefaultExpanded(next);
-  }
-
-  // The single primary "open the paper" target. Prefer the arXiv abstract
-  // when known (most stable). Otherwise use the canonical link.
-  const primaryUrl = (): string => {
-    if (p.sources?.arxiv) return p.sources.arxiv;
-    if (p.arxivId) return `https://arxiv.org/abs/${p.arxivId}`;
-    return p.link;
-  };
-
-  // Source-pill list used in the expanded action row. Whichever source
+  // Source-pill list used in the action row. Whichever source
   // is present *first* (per SOURCE_LABELS order) is rendered as the
   // primary "Open paper" CTA; the rest become outline pills. If no
   // sources are populated we fall back to the contributor-supplied
@@ -1222,11 +1189,6 @@ function PaperCardClient(props: CardProps) {
     return [];
   };
 
-  const visibleAuthors = () => expanded() ? p.authors : p.authors.slice(0, 3);
-  const moreAuthors = () => Math.max(0, p.authors.length - 3);
-  const visibleInstitutions = () => expanded() ? p.institutions : p.institutions.slice(0, 3);
-  const moreInstitutions = () => Math.max(0, p.institutions.length - 3);
-  const visibleKeywords = () => expanded() ? p.keywords : p.keywords.slice(0, 8);
 
   function copyBibtex(e: MouseEvent) {
     e.preventDefault();
@@ -1249,27 +1211,15 @@ function PaperCardClient(props: CardProps) {
     }
   }
 
-  // Click handler used on every "body" region of the card. Ignores
-  // clicks that originated on a real link/button so chip clicks,
-  // source links, and the title link still behave normally.
-  function bodyClick(e: MouseEvent) {
-    const t = e.target as HTMLElement;
-    if (t.closest('a, button, summary, input, select, textarea')) return;
-    toggleExpand();
-  }
-
   return (
-    <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''} ${expanded() ? 'border-paper-400/80 dark:border-ink-400/40' : ''}`}>
+    <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''}`}>
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
           <h3 class="text-base sm:text-[17px] font-semibold leading-snug text-ink-700 dark:text-ink-50 tracking-[-0.005em]">
             <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{highlight(p.title, props.query)}</a>
           </h3>
-          <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words cursor-pointer" onClick={bodyClick}>
-            {highlight(visibleAuthors().join(', '), props.query)}
-            <Show when={!expanded() && moreAuthors() > 0}>
-              <span class="ml-1 text-ink-400 dark:text-ink-300"> +{moreAuthors()} more</span>
-            </Show>
+          <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words">
+            {highlight(p.authors.join(', '), props.query)}
           </p>
         </div>
         <div class="shrink-0 flex items-center gap-2">
@@ -1282,49 +1232,40 @@ function PaperCardClient(props: CardProps) {
         </div>
       </div>
 
-      <p class="mt-2 text-xs text-ink-400 dark:text-ink-300 tabular-nums cursor-pointer" onClick={bodyClick}>
+      <p class="mt-2 text-xs text-ink-400 dark:text-ink-300 tabular-nums">
         <span>{p.date}</span>
         <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
         <span>{p.publisher}</span>
         <Show when={p.institutions.length > 0}>
           <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
-          <For each={visibleInstitutions()}>{(inst, i) => (
+          <For each={p.institutions}>{(inst, i) => (
             <>
               <Show when={i() > 0}><span class="text-ink-300/60 dark:text-ink-400/60">, </span></Show>
               <button
                 class="text-ink-500 dark:text-ink-200 hover:text-accent dark:hover:text-accent-dark transition-colors cursor-pointer"
-                onClick={(e: MouseEvent) => { e.stopPropagation(); props.onInstitution?.(inst); }}
+                onClick={() => props.onInstitution?.(inst)}
                 title={`Filter by institution: ${inst}`}
               >{inst}</button>
             </>
           )}</For>
-          <Show when={!expanded() && moreInstitutions() > 0}>
-            <span class="ml-1 text-ink-400 dark:text-ink-300"> +{moreInstitutions()}</span>
-          </Show>
         </Show>
       </p>
 
       <Show when={p.tldr}>
-        <p
-          class={`mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed cursor-pointer ${expanded() ? '' : 'clamp-3'}`}
-          onClick={bodyClick}
-        >{highlight(p.tldr, props.query)}</p>
+        <p class="mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed">
+          {highlight(p.tldr, props.query)}
+        </p>
       </Show>
 
       <Show when={p.keywords.length > 0}>
-        <div class="mt-3 flex flex-wrap gap-1.5" onClick={bodyClick}>
-          <For each={visibleKeywords()}>{(kw) => (
-            <button class="chip" onClick={(e: MouseEvent) => { e.stopPropagation(); props.onChip(kw); }}>{kw}</button>
+        <div class="mt-3 flex flex-wrap gap-1.5">
+          <For each={p.keywords}>{(kw) => (
+            <button class="chip" onClick={() => props.onChip(kw)}>{kw}</button>
           )}</For>
-          <Show when={!expanded() && p.keywords.length > 8}>
-            <span class="text-xs text-ink-400 dark:text-ink-300"> +{p.keywords.length - 8} more</span>
-          </Show>
         </div>
       </Show>
 
-      <div class="expand-section mt-0" data-open={expanded() ? 'true' : 'false'}>
-       <div class="expand-section__inner">
-        <div class={`mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60 ${bibCopied() ? 'copy-pulse copy-glow-source' : ''} rounded-md`}>
+      <div class={`mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60 ${bibCopied() ? 'copy-pulse copy-glow-source' : ''} rounded-md`}>
           {/* Single consolidated action row.
               The "Sources" pills cover every off-site destination
               (arXiv / OpenReview / Publisher / Homepage / Code /
@@ -1379,23 +1320,6 @@ function PaperCardClient(props: CardProps) {
               </a>
             </span>
           </div>
-        </div>
-       </div>
-      </div>
-
-      <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
-        <button
-          class="font-medium inline-flex items-center gap-1 text-accent dark:text-accent-dark hover:opacity-90"
-          onClick={toggleExpand}
-          aria-expanded={expanded() ? 'true' : 'false'}
-          type="button"
-        >
-          <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={`transition-transform duration-200 ${expanded() ? 'rotate-180' : ''}`} aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg>
-          <span>{expanded() ? 'Hide details' : 'Show details'}</span>
-        </button>
-        <Show when={!expanded()}>
-          <a class="text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark" href={primaryUrl()} target="_blank" rel="noopener">Open ↗</a>
-        </Show>
       </div>
     </article>
   );

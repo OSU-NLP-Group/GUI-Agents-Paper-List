@@ -49,8 +49,7 @@ paper_repo/
 ├── scripts/
 │   ├── update_repo.sh           ← entrypoint; regenerates everything
 │   ├── regen.py                 ← single-pass: sort YAML + render README + emit charts
-│   ├── sync_dates_from_paper_db.py   ← push verified dates from paper_db into papers.yaml
-│   └── enrich_from_paper_db.py       ← fill missing sources/institutions/etc. from paper_db
+│   └── sync_dates_from_paper_db.py   ← push verified dates from paper_db into papers.yaml
 ├── readme_template/
 │   ├── template.md              ← README template with {{placeholders}}
 │   ├── statistics/*.png         ← auto-generated stats charts
