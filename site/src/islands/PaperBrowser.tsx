@@ -422,7 +422,10 @@ export default function PaperBrowser(props: Props) {
             if (cur < total) setShowLimit(Math.min(cur + PAGE_SIZE, total));
           }
         },
-        { rootMargin: '600px 0px 600px 0px' },
+        // Prefetch ~2 viewports ahead so the next page renders well before
+        // the reader actually reaches the bottom — avoids any visible
+        // "pop" of newly-appended cards.
+        { rootMargin: '1600px 0px 1600px 0px' },
       );
       observer.observe(sentinelEl);
     }
@@ -628,7 +631,7 @@ export default function PaperBrowser(props: Props) {
 
         <ul class="grid gap-4">
           <For each={filtered().slice(0, showLimit())}>
-            {(p) => <li><PaperCardClient
+            {(p) => <li class="card-enter"><PaperCardClient
               paper={p}
               basePath={props.basePath}
               repoBlobUrl={props.repoBlobUrl}
@@ -639,33 +642,6 @@ export default function PaperBrowser(props: Props) {
               query={q().trim()}
             /></li>}
           </For>
-          {/* Skeleton placeholders shown while the next page is fetching */}
-          <Show when={filtered().length > showLimit()}>
-            <For each={Array.from({ length: Math.min(3, filtered().length - showLimit()) })}>
-              {() => (
-                <li>
-                  <article class="card p-5">
-                    <div class="flex items-start gap-3">
-                      <div class="flex-1 space-y-2">
-                        <div class="skeleton h-4 w-3/4"></div>
-                        <div class="skeleton h-4 w-1/2"></div>
-                        <div class="skeleton h-3 w-1/3 mt-3"></div>
-                      </div>
-                      <div class="skeleton h-5 w-5 rounded-full"></div>
-                    </div>
-                    <div class="skeleton h-3 w-full mt-4"></div>
-                    <div class="skeleton h-3 w-11/12 mt-2"></div>
-                    <div class="skeleton h-3 w-2/3 mt-2"></div>
-                    <div class="flex gap-2 mt-4">
-                      <div class="skeleton h-5 w-16 rounded-full"></div>
-                      <div class="skeleton h-5 w-20 rounded-full"></div>
-                      <div class="skeleton h-5 w-14 rounded-full"></div>
-                    </div>
-                  </article>
-                </li>
-              )}
-            </For>
-          </Show>
         </ul>
 
         {/* Infinite-scroll sentinel + lightweight progress indicator */}
