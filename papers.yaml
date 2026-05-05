@@ -27,6 +27,7 @@
   arxiv_id: '2605.00551'
   sources:
     arxiv: https://arxiv.org/abs/2605.00551
+    homepage: https://iyatomilab.github.io/a11y-compressor/
   bibtex: |-
     @misc{takeshita2026a11ycompressor,
       title = {A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction},
@@ -63,6 +64,7 @@
   arxiv_id: '2604.27776'
   sources:
     arxiv: https://arxiv.org/abs/2604.27776
+    code: http://github.com/HITsz-TMG/WindowsWorld
   bibtex: |-
     @misc{li2026windowsworld,
       title = {WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments},
@@ -299,6 +301,8 @@
   arxiv_id: '2604.14113'
   sources:
     arxiv: https://arxiv.org/abs/2604.14113
+    homepage: https://zju-real.github.io/UI-Zoomer
+    code: https://github.com/ZJU-REAL/UI-Zoomer
   bibtex: |-
     @misc{tang2026uizoomer,
       title = {UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding},
@@ -334,6 +338,7 @@
   arxiv_id: '2604.13019'
   sources:
     arxiv: https://arxiv.org/abs/2604.13019
+    code: https://github.com/microsoft/precision-cua-bench
   bibtex: |-
     @misc{mittal2026see,
       title = {See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback},
@@ -437,6 +442,7 @@
   arxiv_id: '2604.11201'
   sources:
     arxiv: https://arxiv.org/abs/2604.11201
+    homepage: https://cocoabench.github.io/
   bibtex: |-
     @misc{hao2026cocoabench,
       title = {CocoaBench: Evaluating Unified Digital Agents in the Wild},
@@ -471,6 +477,8 @@
   arxiv_id: '2604.10988'
   sources:
     arxiv: https://arxiv.org/abs/2604.10988
+    code: https://github.com/yuandaxia2001/WebForge
+    dataset: https://huggingface.co/datasets/yuandaxia/WebForge
   bibtex: |-
     @misc{yuan2026webforge,
       title = {WebForge: Breaking the Realism-Reproducibility-Scalability Trilemma in Browser Agent Benchmark},
@@ -548,6 +556,7 @@
   arxiv_id: '2604.10261'
   sources:
     arxiv: https://arxiv.org/abs/2604.10261
+    homepage: https://minnesotanlp.github.io/the-amazing-agent-race
   bibtex: |-
     @misc{kim2026amazing,
       title = {The Amazing Agent Race: Strong Tool Users, Weak Navigators},
@@ -588,6 +597,7 @@
   arxiv_id: '2604.09155'
   sources:
     arxiv: https://arxiv.org/abs/2604.09155
+    homepage: http://cora-agent.github.io
   bibtex: |-
     @misc{feng2026cora,
       title = {CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation},
@@ -713,6 +723,7 @@
   arxiv_id: '2604.07831'
   sources:
     arxiv: https://arxiv.org/abs/2604.07831
+    code: https://github.com/HashTAG00002/UI-Injection
   bibtex: |-
     @misc{yang2026agents,
       title = {Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection},
@@ -1005,6 +1016,7 @@
   arxiv_id: '2604.07429'
   sources:
     arxiv: https://arxiv.org/abs/2604.07429
+    homepage: https://gameworld-bench.github.io
   bibtex: |-
     @misc{ouyang2026gameworld,
       title = {GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents},
@@ -1300,6 +1312,7 @@
   arxiv_id: '2604.06240'
   sources:
     arxiv: https://arxiv.org/abs/2604.06240
+    code: https://github.com/microsoft/fara
   bibtex: |-
     @misc{rosset2026building,
       title = {The Art of Building Verifiers for Computer Use Agents},
@@ -1417,6 +1430,7 @@
   arxiv_id: '2604.01221'
   sources:
     arxiv: https://arxiv.org/abs/2604.01221
+    homepage: https://hippocamp-ai.github.io/
   bibtex: |-
     @misc{yang2026hippocamp,
       title = {HippoCamp: Benchmarking Contextual Agents on Personal Computers},
@@ -1508,6 +1522,7 @@
   arxiv_id: '2604.00892'
   sources:
     arxiv: https://arxiv.org/abs/2604.00892
+    code: https://github.com/HenryPengZou/InterruptBench
   bibtex: |-
     @misc{zou2026when,
       title = {When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation},
@@ -1864,6 +1879,7 @@
   arxiv_id: '2603.25226'
   sources:
     arxiv: https://arxiv.org/abs/2603.25226
+    code: https://github.com/friedrichor/WebTestBench
   bibtex: |-
     @misc{kong2026webtestbench,
       title = {WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing},
@@ -1911,6 +1927,7 @@
   arxiv_id: '2603.24440'
   sources:
     arxiv: https://arxiv.org/abs/2603.24440
+    homepage: https://cua-suite.github.io/
   bibtex: |-
     @misc{jian2026cuasuite,
       title = {CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents},
@@ -1993,6 +2010,7 @@
   arxiv_id: '2603.24533'
   sources:
     arxiv: https://arxiv.org/abs/2603.24533
+    code: https://github.com/ui-voyager/UI-Voyager
   bibtex: |-
     @misc{lin2026uivoyager,
       title = {UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience},
@@ -2154,6 +2172,7 @@
   arxiv_id: '2603.20340'
   sources:
     arxiv: https://arxiv.org/abs/2603.20340
+    code: https://github.com/underfitting-lu/contractskill.git
   bibtex: |-
     @misc{lu2026contractskill,
       title = {ContractSkill: Repairable Contract-Based Skills for Multimodal Web Agents},
@@ -2223,6 +2242,7 @@
   arxiv_id: '2603.18429'
   sources:
     arxiv: https://arxiv.org/abs/2603.18429
+    code: https://github.com/CVC2233/AndroTMem
   bibtex: |-
     @misc{shi2026androtmem,
       title = {AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents},
@@ -2475,6 +2495,7 @@
   arxiv_id: '2603.14707'
   sources:
     arxiv: https://arxiv.org/abs/2603.14707
+    code: https://github.com/vllm-project/semantic-router
   bibtex: |-
     @misc{liu2026visual,
       title = {Visual Confused Deputy: Exploiting and Defending Perception Failures in Computer-Using Agents},
@@ -2620,6 +2641,7 @@
   arxiv_id: '2603.12823'
   sources:
     arxiv: https://arxiv.org/abs/2603.12823
+    code: https://github.com/vllm-project/semantic-router
   bibtex: |-
     @misc{liu2026adaptive,
       title = {Adaptive Vision-Language Model Routing for Computer Use Agents},
@@ -2769,6 +2791,7 @@
   arxiv_id: '2603.10505'
   sources:
     arxiv: https://arxiv.org/abs/2603.10505
+    code: https://github.com/kyle8581/VeriEnv
   bibtex: |-
     @misc{chae2026safe,
       title = {Safe and Scalable Web Agent Learning via Recreated Websites},
@@ -3014,6 +3037,7 @@
   arxiv_id: '2603.08533'
   sources:
     arxiv: https://arxiv.org/abs/2603.08533
+    dataset: https://huggingface.co/datasets/alibabagroup/CMGUI
   bibtex: |-
     @misc{xie2026secagent,
       title = {SecAgent: Efficient Mobile GUI Agent with Semantic Context},
@@ -3050,6 +3074,7 @@
   arxiv_id: '2603.08316'
   sources:
     arxiv: https://arxiv.org/abs/2603.08316
+    code: https://github.com/tu-tuing/SlowBA
   bibtex: |-
     @misc{li2026slowba,
       title = {SlowBA: An efficiency backdoor attack towards VLM-based GUI agents},
@@ -3094,6 +3119,7 @@
   arxiv_id: '2603.07432'
   sources:
     arxiv: https://arxiv.org/abs/2603.07432
+    code: https://github.com/zihuanjiang/AndroidWorld-Generalization
   bibtex: |-
     @misc{gu2026generalization,
       title = {Generalization in Online Reinforcement Learning for Mobile Agents},
@@ -3531,6 +3557,7 @@
   arxiv_id: '2604.09581'
   sources:
     arxiv: https://arxiv.org/abs/2604.09581
+    code: https://github.com/Onflow-AI/Avenir-UX
   bibtex: |-
     @misc{tan2026opeflo,
       title = {OpeFlo: Automated UX Evaluation via Simulated Human Web Interaction with GUI Grounding},
@@ -4033,6 +4060,7 @@
   arxiv_id: '2602.16855'
   sources:
     arxiv: https://arxiv.org/abs/2602.16855
+    code: https://github.com/X-PLUG/MobileAgent
   bibtex: |-
     @misc{xu2026mobileagentv35,
       title = {Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents},
@@ -4071,6 +4099,7 @@
   arxiv_id: '2602.14276'
   sources:
     arxiv: https://arxiv.org/abs/2602.14276
+    homepage: https://saidgurbuz.github.io/screenparse/
   bibtex: |-
     @misc{gurbuz2026moving,
       title = {Moving Beyond Sparse Grounding with Complete Screen Parsing Supervision},
@@ -4490,6 +4519,7 @@
   arxiv_id: '2602.11858'
   sources:
     arxiv: https://arxiv.org/abs/2602.11858
+    code: https://github.com/inclusionAI/Zooming-without-Zooming
   bibtex: |-
     @misc{wei2026zooming,
       title = {Zooming without Zooming: Region-to-Image Distillation for Fine-Grained Multimodal Perception},
@@ -4656,6 +4686,7 @@
   arxiv_id: '2602.10356'
   sources:
     arxiv: https://arxiv.org/abs/2602.10356
+    code: https://github.com/OSU-NLP-Group/ACuRL
   bibtex: |-
     @misc{xue2026autonomous,
       title = {Autonomous Continual Learning of Computer-Use Agents for Environment Adaptation},
@@ -4700,6 +4731,8 @@
   arxiv_id: '2602.09856'
   sources:
     arxiv: https://arxiv.org/abs/2602.09856
+    code: https://github.com/AMAP-ML/Code2World
+    homepage: https://amap-ml.github.io/Code2World/
   bibtex: |-
     @misc{zheng2026code2world,
       title = {Code2World: A GUI World Model via Renderable Code Generation},
@@ -4740,6 +4773,7 @@
   arxiv_id: '2602.09662'
   sources:
     arxiv: https://arxiv.org/abs/2602.09662
+    code: https://github.com/UITron-hub/TreeCUA
   bibtex: |-
     @misc{jiang2026treecua,
       title = {TreeCUA: Efficiently Scaling GUI Automation with Tree-Structured Verifiable Evolution},
@@ -4781,6 +4815,7 @@
   arxiv_id: '2602.08995'
   sources:
     arxiv: https://arxiv.org/abs/2602.08995
+    homepage: https://osu-nlp-group.github.io/Misaligned-Action-Detection/
   bibtex: |-
     @misc{ning2026when,
       title = {When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents},
@@ -4824,6 +4859,7 @@
   arxiv_id: '2602.08235'
   sources:
     arxiv: https://arxiv.org/abs/2602.08235
+    homepage: https://osu-nlp-group.github.io/AutoElicit/
   bibtex: |-
     @misc{jones2026when,
       title = {When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents},
@@ -5013,6 +5049,7 @@
   arxiv_id: '2604.06182'
   sources:
     arxiv: https://arxiv.org/abs/2604.06182
+    code: https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile
   bibtex: |-
     @misc{gong2026venusbenchmobile,
       title = {VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics},
@@ -5183,6 +5220,7 @@
   arxiv_id: '2602.05832'
   sources:
     arxiv: https://arxiv.org/abs/2602.05832
+    homepage: https://ui-mem.github.io
   bibtex: |-
     @misc{xiao2026uimem,
       title = {UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents},
@@ -5255,6 +5293,7 @@
   arxiv_id: '2602.03255'
   sources:
     arxiv: https://arxiv.org/abs/2602.03255
+    code: https://github.com/tychenn/LPS-Bench
   bibtex: |-
     @misc{chen2026lpsbench,
       title = {LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios},
@@ -5305,6 +5344,7 @@
   arxiv_id: '2602.06075'
   sources:
     arxiv: https://arxiv.org/abs/2602.06075
+    homepage: https://lgy0404.github.io/MemGUI-Bench/
   bibtex: |-
     @misc{liu2026memguibench,
       title = {MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments},
@@ -5341,6 +5381,7 @@
   arxiv_id: '2602.03792'
   sources:
     arxiv: https://arxiv.org/abs/2602.03792
+    code: https://github.com/wxl-lxw/WebSentinel
   bibtex: |-
     @misc{wang2026websentinel,
       title = {WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents},
@@ -5636,6 +5677,7 @@
   arxiv_id: '2602.02548'
   sources:
     arxiv: https://arxiv.org/abs/2602.02548
+    code: https://github.com/ZephinueCode/ToolTok
   bibtex: |-
     @misc{wang2026tooltok,
       title = {ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents},
@@ -5894,6 +5936,7 @@
   arxiv_id: '2601.21123'
   sources:
     arxiv: https://arxiv.org/abs/2601.21123
+    homepage: https://microsoft.github.io/cua_skill/
   bibtex: |-
     @misc{chen2026cuaskill,
       title = {CUA-Skill: Develop Skills for Computer Using Agent},
@@ -5934,6 +5977,7 @@
   arxiv_id: '2601.20732'
   sources:
     arxiv: https://arxiv.org/abs/2601.20732
+    code: https://github.com/xavierliu34/GUI-AiF
   bibtex: |-
     @misc{liu2026continual,
       title = {Continual GUI Agents},
@@ -6013,6 +6057,7 @@
   arxiv_id: '2601.20650'
   sources:
     arxiv: https://arxiv.org/abs/2601.20650
+    homepage: https://os-marathon.github.io/
   bibtex: |-
     @misc{wu2026osmarathon,
       title = {OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks},
@@ -6185,6 +6230,7 @@
   arxiv_id: '2601.18842'
   sources:
     arxiv: https://arxiv.org/abs/2601.18842
+    homepage: https://futuresis.github.io/GUIGuard-page/
   bibtex: |-
     @misc{wang2026guiguard,
       title = {GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents},
@@ -6560,6 +6606,7 @@
   arxiv_id: '2601.12822'
   sources:
     arxiv: https://arxiv.org/abs/2601.12822
+    homepage: https://bmz-q-q.github.io/MirrorGuard/
   bibtex: |-
     @misc{zhang2026mirrorguard,
       title = {MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction},
@@ -6804,6 +6851,7 @@
   arxiv_id: '2601.08605'
   sources:
     arxiv: https://arxiv.org/abs/2601.08605
+    code: https://github.com/WYRipple/ExpSeek
   bibtex: |-
     @misc{zhang2026expseek,
       title = {ExpSeek: Self-Triggered Experience Seeking for Web Agents},
@@ -7000,6 +7048,7 @@
   arxiv_id: '2601.05787'
   sources:
     arxiv: https://arxiv.org/abs/2601.05787
+    code: https://github.com/LEON-gittech/Verl_GUI.git
   bibtex: |-
     @misc{wang2026from,
       title = {From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation},
@@ -7041,6 +7090,7 @@
   arxiv_id: '2601.04500'
   sources:
     arxiv: https://arxiv.org/abs/2601.04500
+    code: https://github.com/ADaM-BJTU/GUITestBench
   bibtex: |-
     @misc{gao2026guitester,
       title = {GUITester: Enabling GUI Agents for Exploratory Defect Discovery},
@@ -7080,6 +7130,7 @@
   arxiv_id: '2601.03641'
   sources:
     arxiv: https://arxiv.org/abs/2601.03641
+    code: https://github.com/Wuzheng02/Agent-Dice
   bibtex: |-
     @misc{wu2026agentdice,
       title = {Agent-Dice: Disentangling Knowledge Updates via Geometric Consensus for Agent Continual Learning},
@@ -7234,6 +7285,7 @@
   arxiv_id: '2512.24965'
   sources:
     arxiv: https://arxiv.org/abs/2512.24965
+    code: https://github.com/showlab/showui-pi
   bibtex: |-
     @misc{hu2025showui,
       title = {ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands},
@@ -7399,6 +7451,7 @@
   arxiv_id: '2512.22322'
   sources:
     arxiv: https://arxiv.org/abs/2512.22322
+    code: https://github.com/TencentYoutuResearch/SmartSnap
   bibtex: |-
     @misc{cai2025smartsnap,
       title = {SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents},
@@ -7655,6 +7708,7 @@
   arxiv_id: '2512.16295'
   sources:
     arxiv: https://arxiv.org/abs/2512.16295
+    code: https://github.com/numbmelon/OS-Oracle
   bibtex: |-
     @misc{wu2025osoracle,
       title = {OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models},
@@ -7871,6 +7925,7 @@
   arxiv_id: '2512.14014'
   sources:
     arxiv: https://arxiv.org/abs/2512.14014
+    code: https://github.com/jacklishufan/MobileWorld
   bibtex: |-
     @misc{li2025mobileworldbench,
       title = {MobileWorldBench: Towards Semantic World Modeling For Mobile Agents},
@@ -7949,6 +8004,7 @@
   arxiv_id: '2512.12692'
   sources:
     arxiv: https://arxiv.org/abs/2512.12692
+    homepage: https://kagnlp.github.io/WebOperator/
   bibtex: |-
     @misc{dihan2025weboperator,
       title = {WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment},
@@ -7988,6 +8044,7 @@
   arxiv_id: '2512.11611'
   sources:
     arxiv: https://arxiv.org/abs/2512.11611
+    code: https://github.com/aiben-ch/GUI-EDA
   bibtex: |-
     @misc{li2025using,
       title = {Using GUI Agent for Electronic Design Automation},
@@ -8028,6 +8085,7 @@
   arxiv_id: '2512.10371'
   sources:
     arxiv: https://arxiv.org/abs/2512.10371
+    code: https://github.com/MobileLLM/AgentProg
   bibtex: |-
     @misc{tian2025agentprog,
       title = {AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management},
@@ -8107,6 +8165,7 @@
   arxiv_id: '2512.08529'
   sources:
     arxiv: https://arxiv.org/abs/2512.08529
+    code: https://github.com/ZJUSCL/MVP
   bibtex: |-
     @misc{zhang2025mvp,
       title = {MVP: Multiple View Prediction Improves GUI Grounding},
@@ -8245,6 +8304,7 @@
   arxiv_id: '2512.05941'
   sources:
     arxiv: https://arxiv.org/abs/2512.05941
+    code: https://github.com/Princeton-AI2-Lab/ZoomClick
   bibtex: |-
     @misc{jiang2025zoom,
       title = {Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding},
@@ -8326,6 +8386,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2512.01174
     openreview: https://openreview.net/forum?id=wAsqP4XTsY
+    code: https://github.com/hyunjun1121/DrawingBench
   bibtex: |-
     @inproceedings{kim2025drawingbench,
       title = {DrawingBench: Evaluating Spatial Reasoning and UI Interaction Capabilities of Large Language Models through Mouse-Based Drawing Tasks},
@@ -8513,6 +8574,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2511.22235
     homepage: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217232150217
+    code: https://github.com/hehehahi4/CES
   bibtex: |-
     @inproceedings{deng2025training,
       title = {Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation},
@@ -8596,6 +8658,7 @@
   arxiv_id: '2511.06101'
   sources:
     arxiv: https://arxiv.org/abs/2511.06101
+    code: https://github.com/aiming-lab/SynthAgent
   bibtex: |-
     @misc{wang2025adapting,
       title = {Adapting Web Agents with Synthetic Supervision},
@@ -8634,6 +8697,7 @@
   arxiv_id: '2601.06031'
   sources:
     arxiv: https://arxiv.org/abs/2601.06031
+    homepage: https://osu-nlp-group.github.io/GUI-Drag
   bibtex: |-
     @misc{liao2025beyond,
       title = {Beyond Clicking: A Step Towards Generalist GUI Grounding via Text Dragging},
@@ -8685,6 +8749,7 @@
   arxiv_id: '2511.04307'
   sources:
     arxiv: https://arxiv.org/abs/2511.04307
+    dataset: https://huggingface.co/datasets/vyokky/GUI-360
   bibtex: |-
     @misc{mu2025gui360,
       title = {GUI-360: A Comprehensive Dataset and Benchmark for Computer-Using Agents},
@@ -9001,6 +9066,7 @@
   arxiv_id: '2510.18314'
   sources:
     arxiv: https://arxiv.org/abs/2510.18314
+    code: https://github.com/CjangCjengh/web_agent_attack
   bibtex: |-
     @inproceedings{zhang2025genesis,
       title = {Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming},
@@ -9124,6 +9190,7 @@
   arxiv_id: '2510.15455'
   sources:
     arxiv: https://arxiv.org/abs/2510.15455
+    code: https://github.com/Entropy-Fighter/CORE
   bibtex: |-
     @inproceedings{fan2025core,
       title = {CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs},
@@ -9162,6 +9229,7 @@
   arxiv_id: '2510.15863'
   sources:
     arxiv: https://arxiv.org/abs/2510.15863
+    code: https://github.com/simonucl/PolySkill
   bibtex: |-
     @misc{yu2025polyskill,
       title = {PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction},
@@ -10107,6 +10175,7 @@
   arxiv_id: '2510.01354'
   sources:
     arxiv: https://arxiv.org/abs/2510.01354
+    code: https://github.com/Norrrrrrr-lyn/WAInjectBench
   bibtex: |-
     @misc{liu2025wainjectbench,
       title = {WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents},
@@ -10331,6 +10400,7 @@
   arxiv_id: '2509.23866'
   sources:
     arxiv: https://arxiv.org/abs/2509.23866
+    homepage: http://computer-use-agents.github.io/dart-gui
   bibtex: |-
     @misc{li2025efficient,
       title = {Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation},
@@ -10374,6 +10444,7 @@
   arxiv_id: '2509.21823'
   sources:
     arxiv: https://arxiv.org/abs/2509.21823
+    code: https://github.com/V-Droid-Agent/ProRe
   bibtex: |-
     @inproceedings{dai2025prore,
       title = {ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration},
@@ -10572,6 +10643,7 @@
   arxiv_id: '2509.15221'
   sources:
     arxiv: https://arxiv.org/abs/2509.15221
+    code: https://github.com/OpenGVLab/ScaleCUA
   bibtex: |-
     @inproceedings{liu2025scalecua,
       title = {ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data},
@@ -10654,6 +10726,7 @@
   arxiv_id: '2509.18119'
   sources:
     arxiv: https://arxiv.org/abs/2509.18119
+    code: https://github.com/THUDM/MobileRL
   bibtex: |-
     @inproceedings{xu2025mobilerl,
       title = {MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents},
@@ -10737,6 +10810,7 @@
   arxiv_id: '2509.06477'
   sources:
     arxiv: https://arxiv.org/abs/2509.06477
+    homepage: https://pengxiang-zhao.github.io/MAS-Bench
   bibtex: |-
     @misc{zhao2025masbench,
       title = {MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents},
@@ -11065,6 +11139,7 @@
   arxiv_id: '2510.06223'
   sources:
     arxiv: https://arxiv.org/abs/2510.06223
+    code: https://github.com/hansvdam/langbar
   bibtex: |-
     @misc{dam2025multimodal,
       title = {A Multimodal GUI Architecture for Interfacing with LLM-Based Conversational Assistants},
@@ -11111,6 +11186,7 @@
   arxiv_id: '2508.20096'
   sources:
     arxiv: https://arxiv.org/abs/2508.20096
+    code: https://github.com/OpenIXCLab/CODA
   bibtex: |-
     @misc{sun2025coda,
       title = {CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning},
@@ -11160,6 +11236,7 @@
   arxiv_id: '2508.15144'
   sources:
     arxiv: https://arxiv.org/abs/2508.15144
+    code: https://github.com/X-PLUG/MobileAgent
   bibtex: |-
     @misc{ye2025mobileagentv3,
       title = {Mobile-Agent-v3: Fundamental Agents for GUI Automation},
@@ -11205,6 +11282,7 @@
   arxiv_id: '2508.14040'
   sources:
     arxiv: https://arxiv.org/abs/2508.14040
+    code: https://github.com/thudm/ComputerRL
   bibtex: |-
     @inproceedings{lai2025computerrl,
       title = {ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents},
@@ -11354,6 +11432,7 @@
   arxiv_id: '2508.13186'
   sources:
     arxiv: https://arxiv.org/abs/2508.13186
+    code: https://github.com/MMBrowseComp/MM-BrowseComp
   bibtex: |-
     @misc{li2025mmbrowsecomp,
       title = {MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents},
@@ -11411,6 +11490,7 @@
   arxiv_id: '2508.10833'
   sources:
     arxiv: https://arxiv.org/abs/2508.10833
+    code: https://github.com/inclusionAI/UI-Venus
   bibtex: |-
     @misc{gu2025uivenus,
       title = {UI-Venus Technical Report: Building High-performance UI Agents with RFT},
@@ -11536,6 +11616,8 @@
   sources:
     arxiv: https://arxiv.org/abs/2508.05615
     publisher_page: https://ojs.aaai.org/index.php/AAAI/article/view/40314
+    homepage: https://zju-real.github.io/gui-rcpo
+    code: https://github.com/zju-real/gui-rcpo
   bibtex: |-
     @inproceedings{du2025testtime,
       title = {Test‑Time Reinforcement Learning for GUI Grounding via Region Consistency},
@@ -11657,6 +11739,7 @@
   arxiv_id: '2508.04700'
   sources:
     arxiv: https://arxiv.org/abs/2508.04700
+    code: https://github.com/SunzeY/SEAgent
   bibtex: |-
     @misc{sun2025seagent,
       title = {SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience},
@@ -11814,6 +11897,7 @@
   arxiv_id: '2508.02046'
   sources:
     arxiv: https://arxiv.org/abs/2508.02046
+    homepage: https://iron-boyy.github.io/navimaster-page/
   bibtex: |-
     @misc{luo2025navimaster,
       title = {NaviMaster: Learning a Unified Policy for GUI and Embodied Navigation Tasks},
@@ -11871,6 +11955,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2508.01858
     openreview: https://openreview.net/forum?id=siXHlHBYIe
+    code: https://github.com/Gnonymous/Web-CogReasoner
   bibtex: |-
     @inproceedings{guo2025webcogreasoner,
       title = {Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents},
@@ -11911,6 +11996,7 @@
   arxiv_id: '2508.01330'
   sources:
     arxiv: https://arxiv.org/abs/2508.01330
+    code: https://github.com/KeLes-Coding/NatureGAIA
   bibtex: |-
     @misc{zheng2025naturalgaia,
       title = {NaturalGAIA: Pushing the Frontiers of GUI Agents with a Challenging Benchmark and High-Quality Trajectory Dataset},
@@ -11992,6 +12078,7 @@
   arxiv_id: '2507.22025'
   sources:
     arxiv: https://arxiv.org/abs/2507.22025
+    code: https://github.com/KDEGroup/UI-AGILE
   bibtex: |-
     @inproceedings{lian2025uiagile,
       title = {UI-AGILE: Advancing GUI Agents with Effective Reinforcement Learning and Precise Inference-Time Grounding},
@@ -12031,6 +12118,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2507.21071
     openreview: https://openreview.net/forum?id=n3iFV0gLMc
+    code: https://github.com/tsinghua-fib-lab/FingerTip-20K
   bibtex: |-
     @inproceedings{yang2025fingertip,
       title = {FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents},
@@ -12070,6 +12158,7 @@
   arxiv_id: '2506.08012'
   sources:
     arxiv: https://arxiv.org/abs/2506.08012
+    homepage: https://penghao-wu.github.io/GUI_Reflection/
   bibtex: |-
     @inproceedings{wu2025guireflection,
       title = {GUI-Reflection: Empowering Multimodal GUI Models with Self-Reflection Behavior},
@@ -12117,6 +12206,7 @@
   arxiv_id: '2506.07672'
   sources:
     arxiv: https://arxiv.org/abs/2506.07672
+    code: https://github.com/SAAgent/MCPWorld
   bibtex: |-
     @misc{yan2025mcpworld,
       title = {MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents},
@@ -12202,6 +12292,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2506.07217
     openreview: https://openreview.net/forum?id=vQCFwXAl2A
+    homepage: https://tumcms.github.io/BIMgent.github.io/
   bibtex: |-
     @inproceedings{deng2025bimgent,
       title = {BIMgent: Towards Autonomous Building Modeling via Computer-use Agents},
@@ -12435,6 +12526,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2506.02456
     openreview: https://openreview.net/forum?id=UMauKu2azg
+    code: https://github.com/cua-framework/agents
   bibtex: |-
     @inproceedings{cao2025vpibench,
       title = {VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents},
@@ -12532,6 +12624,7 @@
   arxiv_id: '2506.00618'
   sources:
     arxiv: https://arxiv.org/abs/2506.00618
+    homepage: https://yjyddq.github.io/RiOSWorld.github.io/
   bibtex: |-
     @inproceedings{yang2025riosworld,
       title = {RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents},
@@ -12571,6 +12664,7 @@
   arxiv_id: '2505.24878'
   sources:
     arxiv: https://arxiv.org/abs/2505.24878
+    code: https://github.com/MetaAgentX/OpenCaptchaWorld
   bibtex: |-
     @inproceedings{luo2025open,
       title = {Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents},
@@ -12660,6 +12754,7 @@
   arxiv_id: '2505.23762'
   sources:
     arxiv: https://arxiv.org/abs/2505.23762
+    code: https://github.com/OpenGVLab/ZeroGUI
   bibtex: |-
     @misc{yang2025zerogui,
       title = {ZeroGUI: Automating Online GUI Learning at Zero Human Cost},
@@ -12781,6 +12876,7 @@
   arxiv_id: '2505.22648'
   sources:
     arxiv: https://arxiv.org/abs/2505.22648
+    code: https://github.com/Alibaba-NLP/WebAgent
   bibtex: |-
     @inproceedings{wu2025webdancer,
       title = {WebDancer: Towards Autonomous Information Seeking Agency},
@@ -12867,6 +12963,7 @@
   arxiv_id: '2505.21496'
   sources:
     arxiv: https://arxiv.org/abs/2505.21496
+    code: https://github.com/Euphoria16/UI-Genie
   bibtex: |-
     @inproceedings{xiao2025uigenie,
       title = {UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents},
@@ -12966,6 +13063,7 @@
   arxiv_id: '2505.19897'
   sources:
     arxiv: https://arxiv.org/abs/2505.19897
+    homepage: https://qiushisun.github.io/ScienceBoard-Home/
   bibtex: |-
     @inproceedings{sun2025scienceboard,
       title = {ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows},
@@ -13082,6 +13180,7 @@
   arxiv_id: '2505.16282'
   sources:
     arxiv: https://arxiv.org/abs/2505.16282
+    code: https://github.com/dvlab-research/ARPO.git
   bibtex: |-
     @misc{lu2025arpoendtoend,
       title = {ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay},
@@ -13246,6 +13345,7 @@
   arxiv_id: '2505.15810'
   sources:
     arxiv: https://arxiv.org/abs/2505.15810
+    code: https://github.com/Yuqi-Zhou/GUI-G1
   bibtex: |-
     @inproceedings{zhou2025guig1,
       title = {GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents},
@@ -13415,6 +13515,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.13909
     openreview: https://openreview.net/forum?id=cDuA6ZNvCl
+    code: https://github.com/GAIR-NLP/PC-Agent-E
   bibtex: |-
     @inproceedings{he2025efficient,
       title = {Efficient Agent Training for Computer Use},
@@ -13451,6 +13552,7 @@
   arxiv_id: '2505.12842'
   sources:
     arxiv: https://arxiv.org/abs/2505.12842
+    code: https://github.com/Wuzheng02/GEM-OODforGUIagents
   bibtex: |-
     @misc{wu2025gem,
       title = {GEM: Gaussian Embedding Modeling for Out-of-Distribution Detection in GUI Agents},
@@ -13498,6 +13600,7 @@
   arxiv_id: '2505.13227'
   sources:
     arxiv: https://arxiv.org/abs/2505.13227
+    homepage: https://osworld-grounding.github.io
   bibtex: |-
     @inproceedings{xie2025scaling,
       title = {Scaling Computer‑Use Grounding via User Interface Decomposition and Synthesis},
@@ -13670,6 +13773,7 @@
   arxiv_id: '2505.11891'
   sources:
     arxiv: https://arxiv.org/abs/2505.11891
+    dataset: https://huggingface.co/datasets/xwk123/MobileBench-v2
   bibtex: |-
     @misc{xu2025mobilebenchv2,
       title = {Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents},
@@ -13832,6 +13936,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.00684
     publisher_page: https://openaccess.thecvf.com/content/ICCV2025/html/Luo_Visual_Test-time_Scaling_for_GUI_Agent_Grounding_ICCV_2025_paper.html
+    code: https://github.com/tiangeluo/RegionFocus
   bibtex: |-
     @inproceedings{luo2025visual,
       title = {Visual Test-time Scaling for GUI Agent Grounding},
@@ -14073,6 +14178,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2504.19838
     openreview: https://openreview.net/forum?id=yWQqoi1G1K
+    code: https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents
   bibtex: |-
     @article{liu2025llmpowered,
       title = {LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects},
@@ -14108,6 +14214,7 @@
   arxiv_id: '2504.18575'
   sources:
     arxiv: https://arxiv.org/abs/2504.18575
+    code: https://github.com/facebookresearch/wasp
   bibtex: |-
     @inproceedings{evtimov2025wasp,
       title = {WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks},
@@ -14164,6 +14271,8 @@
   arxiv_id: '2504.14603'
   sources:
     arxiv: https://arxiv.org/abs/2504.14603
+    code: https://github.com/microsoft/UFO/
+    homepage: https://microsoft.github.io/UFO/
   bibtex: |-
     @misc{zhang2025ufo2,
       title = {UFO2: The Desktop AgentOS},
@@ -14206,6 +14315,7 @@
   arxiv_id: '2504.14239'
   sources:
     arxiv: https://arxiv.org/abs/2504.14239
+    code: https://github.com/Reallm-Labs/InfiGUI-R1
   bibtex: |-
     @misc{liu2025infiguir1,
       title = {InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners},
@@ -14247,6 +14357,7 @@
   arxiv_id: '2504.13805'
   sources:
     arxiv: https://arxiv.org/abs/2504.13805
+    homepage: https://lgy0404.github.io/LearnAct
   bibtex: |-
     @misc{liu2025learnact,
       title = {LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark},
@@ -14391,6 +14502,7 @@
   arxiv_id: '2504.11543'
   sources:
     arxiv: https://arxiv.org/abs/2504.11543
+    code: https://github.com/agi-inc/REAL
   bibtex: |-
     @misc{garg2025real,
       title = {REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites},
@@ -14546,6 +14658,8 @@
   arxiv_id: '2504.10445'
   sources:
     arxiv: https://arxiv.org/abs/2504.10445
+    homepage: https://scai.cs.jhu.edu/projects/RealWebAssist/
+    code: https://github.com/SCAI-JHU/RealWebAssist
   bibtex: |-
     @inproceedings{ye2025realwebassist,
       title = {RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users},
@@ -14636,6 +14750,7 @@
   arxiv_id: '2504.08942'
   sources:
     arxiv: https://arxiv.org/abs/2504.08942
+    homepage: https://agent-reward-bench.github.io
   bibtex: |-
     @inproceedings{l2025agentrewardbench,
       title = {AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories},
@@ -14754,6 +14869,7 @@
   arxiv_id: '2504.04716'
   sources:
     arxiv: https://arxiv.org/abs/2504.04716
+    code: https://github.com/ZZZhr-1/Robust_GUI_Grounding
   bibtex: |-
     @misc{zhao2025robustness,
       title = {On the Robustness of GUI Grounding Models Against Image Attacks},
@@ -14794,6 +14910,7 @@
   arxiv_id: '2504.07981'
   sources:
     arxiv: https://arxiv.org/abs/2504.07981
+    homepage: https://gui-agent.github.io/grounding-leaderboard
   bibtex: |-
     @inproceedings{li2025screenspotpro,
       title = {ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use},
@@ -14998,6 +15115,7 @@
   arxiv_id: '2503.21620'
   sources:
     arxiv: https://arxiv.org/abs/2503.21620
+    code: https://github.com/lll6gg/UI-R1
   bibtex: |-
     @misc{lu2025uir1,
       title = {UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning},
@@ -15225,6 +15343,7 @@
   arxiv_id: '2503.12532'
   sources:
     arxiv: https://arxiv.org/abs/2503.12532
+    code: https://github.com/FanbinLu/STEVE
   bibtex: |-
     @misc{lu2025steve,
       title = {STEVE: A Step Verification Pipeline for Computer-use Agent Training},
@@ -15339,6 +15458,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2503.09780
     openreview: https://openreview.net/forum?id=SP0X5rm6f3
+    code: https://github.com/facebookresearch/ai-agent-privacy
   bibtex: |-
     @inproceedings{zharmagambetov2025agentdam,
       title = {AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents},
@@ -15497,6 +15617,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2503.03196
     publisher_page: https://openaccess.thecvf.com/content/CVPR2025/html/Huang_SpiritSight_Agent_Advanced_GUI_Agent_with_One_Look_CVPR_2025_paper.html
+    homepage: https://hzhiyuan.github.io/SpiritSight-Agent
   bibtex: |-
     @inproceedings{huang2025spiritsight,
       title = {SpiritSight Agent: Advanced GUI Agent with One Look},
@@ -15573,6 +15694,7 @@
   arxiv_id: '2502.20383'
   sources:
     arxiv: https://arxiv.org/abs/2502.20383
+    homepage: http://vulnerable-ai-agents.github.io
   bibtex: |-
     @misc{chiang2025agents,
       title = {Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis},
@@ -15681,6 +15803,7 @@
   arxiv_id: '2502.08047'
   sources:
     arxiv: https://arxiv.org/abs/2502.08047
+    code: https://github.com/showlab/WorldGUI
   bibtex: |-
     @misc{zhao2025worldgui,
       title = {WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point},
@@ -16536,6 +16659,7 @@
   sources:
     publisher_page: https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html
     arxiv: https://arxiv.org/abs/2411.17465
+    code: https://github.com/showlab/ShowUI
   bibtex: |-
     @inproceedings{lin2024showui,
       title = {ShowUI: One Vision-Language-Action Model for GUI Visual Agent},
@@ -16604,6 +16728,7 @@
   arxiv_id: '2411.13591'
   sources:
     arxiv: https://arxiv.org/abs/2411.13591
+    code: https://github.com/ant-8/GUI-Grounding-via-Iterative-Narrowing
   bibtex: |-
     @misc{nguyen2024improved,
       title = {Improved GUI Grounding via Iterative Narrowing},
@@ -16683,6 +16808,7 @@
   arxiv_id: '2411.10323'
   sources:
     arxiv: https://arxiv.org/abs/2411.10323
+    code: https://github.com/showlab/computer_use_ootb
   bibtex: |-
     @misc{hu2024dawn,
       title = {The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use},
@@ -17255,6 +17381,7 @@
     arxiv: https://arxiv.org/abs/2410.18603
     publisher_page: https://aclanthology.org/2025.findings-acl.466/
     code: https://github.com/acl-org/acl-anthology/
+    homepage: https://chengyou-jia.github.io/AgentStore-Home
   bibtex: |-
     @inproceedings{jia2024agentstore,
       title = {AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant},
@@ -18105,6 +18232,7 @@
   arxiv_id: '2409.14337'
   sources:
     arxiv: https://arxiv.org/abs/2409.14337
+    dataset: https://huggingface.co/datasets/mllmTeam/MobileViews
   bibtex: |-
     @misc{gao2024mobileviews,
       title = {MobileViews: A Million-scale and Diverse Mobile GUI Dataset},
@@ -18544,6 +18672,7 @@
   arxiv_id: '2407.13032'
   sources:
     arxiv: https://arxiv.org/abs/2407.13032
+    code: https://github.com/EmergenceAI/Agent-E
   bibtex: |-
     @misc{abuelsaad2024agente,
       title = {Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems},
@@ -18690,6 +18819,7 @@
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html
     arxiv: https://arxiv.org/abs/2407.05291
+    code: https://github.com/ServiceNow/WorkArena
   bibtex: |-
     @inproceedings{boisvert2024workarena,
       title = {WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks},
@@ -19217,6 +19347,7 @@
   arxiv_id: '2406.12373'
   sources:
     arxiv: https://arxiv.org/abs/2406.12373
+    dataset: https://huggingface.co/datasets/iMeanAI/Mind2Web-Live/
   bibtex: |-
     @misc{pan2024webcanvas,
       title = {WebCanvas: Benchmarking Web Agents in Online Environments},
@@ -19323,6 +19454,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2406.10819
     openreview: https://openreview.net/forum?id=QarKTT5brZ
+    homepage: https://gui-world.github.io
   bibtex: |-
     @inproceedings{chen2024guiworld,
       title = {GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding},
@@ -19525,6 +19657,7 @@
   arxiv_id: '2406.08184'
   sources:
     arxiv: https://arxiv.org/abs/2406.08184
+    homepage: https://MobileAgentBench.github.io
   bibtex: |-
     @misc{wang2024mobileagentbench,
       title = {MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents},
@@ -19898,6 +20031,7 @@
   arxiv_id: '2404.16660'
   sources:
     arxiv: https://arxiv.org/abs/2404.16660
+    homepage: https://b-moca.github.io
   bibtex: |-
     @misc{lee2024benchmarking,
       title = {Benchmarking Mobile Device Control Agents across Diverse Configurations},
@@ -19931,6 +20065,7 @@
   arxiv_id: '2404.10887'
   sources:
     arxiv: https://arxiv.org/abs/2404.10887
+    code: https://github.com/MultifacetedNLP/WebAgents-Unsupervised
   bibtex: |-
     @inproceedings{fereidouni2024grounded,
       title = {Grounded Language Agent for Product Search via Intelligent Web Interactions},
@@ -20004,6 +20139,7 @@
   arxiv_id: '2404.16054'
   sources:
     arxiv: https://arxiv.org/abs/2404.16054
+    code: https://github.com/LlamaTouch/LlamaTouch
   bibtex: |-
     @inproceedings{zhang2024llamatouch,
       title = {LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation},
@@ -20095,6 +20231,7 @@
   sources:
     openreview: https://openreview.net/forum?id=Y9uGznsgIU
     arxiv: https://arxiv.org/abs/2404.06474
+    code: https://github.com/Berkeley-NLP/Agent-Eval-Refine
   bibtex: |-
     @inproceedings{pan2024autonomous,
       title = {Autonomous Evaluation and Refinement of Digital Agents},
@@ -20710,6 +20847,7 @@
   sources:
     openreview: https://openreview.net/forum?id=jE6pDYCnVF
     arxiv: https://arxiv.org/abs/2401.16158
+    code: https://github.com/X-PLUG/MobileAgent
   bibtex: |-
     @inproceedings{wang2024mobileagent,
       title = {Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception},
@@ -21038,6 +21176,7 @@
   sources:
     publisher_page: https://openaccess.thecvf.com/content/CVPR2024/html/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.html
     arxiv: https://arxiv.org/abs/2312.08914
+    code: https://github.com/THUDM/CogVLM
   bibtex: |-
     @inproceedings{hong2023cogagent,
       title = {CogAgent: A Visual Language Model for GUI Agents},
@@ -21084,6 +21223,7 @@
   arxiv_id: '2311.07562'
   sources:
     arxiv: https://arxiv.org/abs/2311.07562
+    code: https://github.com/zzxslp/MM-Navigator
   bibtex: |-
     @misc{yan2023gpt4v,
       title = {GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation},
@@ -21153,6 +21293,7 @@
   sources:
     openreview: https://openreview.net/forum?id=5fg0VtRxgi
     arxiv: https://arxiv.org/abs/2310.03720
+    homepage: https://asappresearch.github.io/webagents-step
   bibtex: |-
     @inproceedings{sodhi2023step,
       title = {SteP: Stacked LLM Policies for Web Actions},
