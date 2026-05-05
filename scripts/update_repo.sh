@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Canonical pipeline: papers.yaml is the source of truth; everything
-# else (ALL_PAPERS.md, ADJACENT_PAPERS.md, the per-axis fragments,
-# the README) is regenerated from it.
+# Canonical pipeline: papers.yaml is the source of truth; the README
+# and per-axis statistics are regenerated from it.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"

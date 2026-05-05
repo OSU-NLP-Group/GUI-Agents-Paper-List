@@ -7,8 +7,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ─────────────────────────────────────────────────────────────────
 // Source store: papers.yaml + adjacent.yaml in the repo root.
-// (ALL_PAPERS.md / ADJACENT_PAPERS.md are now derived, no-bibtex
-// mirrors written for back-compat with paper_db.)
+// (The legacy ALL_PAPERS.md / ADJACENT_PAPERS.md mirrors were
+// retired; everything reads YAML directly.)
 // ─────────────────────────────────────────────────────────────────
 
 export interface PaperSources {

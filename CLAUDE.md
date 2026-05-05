@@ -45,13 +45,12 @@ paper_repo/
 ├── papers.yaml                  ← canonical source of truth (canonical entries)
 ├── adjacent.yaml                ← canonical source of truth (adjacent entries)
 ├── README.md                    ← auto-generated; do not edit
-├── REVIEW_TODO.md               ← auto-generated checklist
 ├── CLAUDE.md                    ← this file
 ├── scripts/
 │   ├── update_repo.sh           ← entrypoint; regenerates everything
 │   ├── regen.py                 ← single-pass: sort YAML + render README + emit charts
-│   ├── sync_dates_from_paper_db.py
-│   └── generate_review_todo.py
+│   ├── sync_dates_from_paper_db.py   ← push verified dates from paper_db into papers.yaml
+│   └── enrich_from_paper_db.py       ← fill missing sources/institutions/etc. from paper_db
 ├── readme_template/
 │   ├── template.md              ← README template with {{placeholders}}
 │   ├── statistics/*.png         ← auto-generated stats charts

@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-The dev server reads `../ALL_PAPERS.md` and `../ADJACENT_PAPERS.md` directly. Edit either, refresh, see the change.
+The dev server reads `../papers.yaml` and `../adjacent.yaml` directly. Edit either, save, refresh.
 
 ## Build
 
