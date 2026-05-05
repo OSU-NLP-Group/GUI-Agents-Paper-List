@@ -6,7 +6,7 @@ const { canonical } = loadAllPapers();
 const lite = canonical.map((p) => ({
   slug: p.slug, title: p.title, link: p.link,
   authors: p.authors, institutions: p.institutions,
-  date: p.date, dateISO: p.dateISO, year: p.year,
+  date: p.date, dateISO: p.dateISO, year: p.year, month: p.month,
   publisher: p.publisher, envs: p.envs, keywords: p.keywords,
   tldr: p.tldr, arxivId: p.arxivId, source: p.source, sourceLine: p.sourceLine,
 }));

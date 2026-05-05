@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { loadAllPapers, type Paper } from '../../lib/parsePapers';
 import { ENV_EMOJI, REPO_URL } from '../../lib/site';
+import { normalizePublisher, bibtexVenueKind } from '../../lib/venues';
 
 interface RelatedLite {
   slug: string;
@@ -100,26 +101,24 @@ function buildBib(p: Paper): string {
   const authors = p.authors.length > 0 ? p.authors.map(escBib).join(' and ') : 'Unknown';
   const titleEsc = escBib(p.title);
   const year = p.year > 0 ? String(p.year) : '';
-  let venue = (p.publisher || '').trim();
-  venue = venue.replace(/\s*\([^)]*\)\s*$/g, '').trim();
-  const isArxivOnly = !venue || /^arxiv$/i.test(venue);
-  const isJournal = /^(TMLR|JMLR|TPAMI|TASLP|TACL|Nature|Science|PNAS|IEEE\s|ACM\s)/i.test(venue);
+  const venue = normalizePublisher(p.publisher);
+  const kindLabel = bibtexVenueKind(p.publisher);
 
   const f: Array<[string, string]> = [];
   f.push(['title', `{${titleEsc}}`]);
   f.push(['author', `{${authors}}`]);
   if (year) f.push(['year', `{${year}}`]);
   let kind = '@inproceedings';
-  if (isArxivOnly && p.arxivId) {
+  if (kindLabel === 'misc' && p.arxivId) {
     kind = '@misc';
     f.push(['eprint', `{${p.arxivId}}`]);
     f.push(['archivePrefix', `{arXiv}`]);
     f.push(['url', `{https://arxiv.org/abs/${p.arxivId}}`]);
-  } else if (isArxivOnly) {
+  } else if (kindLabel === 'misc') {
     kind = '@misc';
     f.push(['howpublished', `{${escBib(p.publisher || 'Preprint')}}`]);
     f.push(['url', `{${p.link}}`]);
-  } else if (isJournal) {
+  } else if (kindLabel === 'article') {
     kind = '@article';
     f.push(['journal', `{${escBib(venue)}}`]);
     if (p.arxivId) f.push(['eprint', `{${p.arxivId}}`]);

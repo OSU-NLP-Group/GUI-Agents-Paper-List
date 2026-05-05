@@ -1,6 +1,7 @@
 /** @jsxImportSource solid-js */
 import { createEffect, createMemo, createSignal, For, Show, onMount, onCleanup, untrack } from 'solid-js';
 import MiniSearch from 'minisearch';
+import { normalizePublisher, bibtexVenueKind } from '../lib/venues';
 
 export interface BrowserPaper {
   slug: string;
@@ -11,6 +12,7 @@ export interface BrowserPaper {
   date: string;
   dateISO: string;
   year: number;
+  month: number;
   publisher: string;
   envs: string[];
   keywords: string[];
@@ -41,21 +43,17 @@ function uniqueCount<T extends string | number>(items: T[]): Map<T, number> {
   return m;
 }
 
-// Collapse presentation/track variants of the same venue for facet purposes.
-// Keeps the canonical "Venue Year" bucket and drops:
-//   - parenthetical presentation tags: (Poster), (Oral), (Spotlight), (Highlight), (Workshop), …
-//   - leading "Findings of " prefix on ACL/EMNLP/NAACL findings tracks
-//   - " Workshop" / " Track" / " Datasets and Benchmarks Track" tails (kept canonical to ACL/NeurIPS year)
-function normalizePublisher(raw: string): string {
-  let s = raw.trim();
-  if (!s) return s;
-  // strip trailing "(Poster)" / "(Oral)" / "(Spotlight)" / "(Highlight)" etc.
-  s = s.replace(/\s*\([^)]*\)\s*$/g, '').trim();
-  // drop "Findings of " prefix
-  s = s.replace(/^Findings of\s+/i, '').trim();
-  // collapse "ACL 2024 Workshop on X" / "NeurIPS 2024 Datasets and Benchmarks Track" → "ACL 2024" / "NeurIPS 2024"
-  s = s.replace(/\s+(Workshop|Track|Datasets and Benchmarks Track|Findings)\b.*$/i, '').trim();
-  return s;
+
+// "YYYY-MM" — also accepts a bare "YYYY" for back-compat.
+function isValidMonthStr(s: string): boolean {
+  return /^\d{4}-(?:0[1-9]|1[0-2])$/.test(s);
+}
+function coerceMonthStr(raw: string | null): string | null {
+  if (!raw) return null;
+  const s = raw.trim();
+  if (isValidMonthStr(s)) return s;
+  if (/^\d{4}$/.test(s)) return `${s}-01`;
+  return null;
 }
 
 function readUrlState(): {
@@ -65,8 +63,8 @@ function readUrlState(): {
   authors: Set<string>;
   institutions: Set<string>;
   publishers: Set<string>;
-  yearFrom: number | null;
-  yearTo: number | null;
+  fromMonth: string | null;
+  toMonth: string | null;
   sort: 'date-desc' | 'date-asc' | 'title';
   keyMode: ChipMode;
   includeAdjacent: boolean;
@@ -75,12 +73,6 @@ function readUrlState(): {
   const ps = url.searchParams;
   const csv = (k: string) =>
     new Set((ps.getAll(k).flatMap((v) => v.split(',')).map((v) => v.trim()).filter(Boolean)));
-  const num = (k: string) => {
-    const v = ps.get(k);
-    if (!v) return null;
-    const n = parseInt(v, 10);
-    return Number.isFinite(n) ? n : null;
-  };
   return {
     q: ps.get('q') ?? '',
     envs: csv('env'),
@@ -88,8 +80,8 @@ function readUrlState(): {
     authors: csv('author'),
     institutions: csv('inst'),
     publishers: csv('pub'),
-    yearFrom: num('from'),
-    yearTo: num('to'),
+    fromMonth: coerceMonthStr(ps.get('from')),
+    toMonth: coerceMonthStr(ps.get('to')),
     sort: (ps.get('sort') as any) ?? 'date-desc',
     keyMode: (ps.get('keyMode') as ChipMode) ?? 'AND',
     includeAdjacent: ps.get('adj') === '1',
@@ -110,12 +102,21 @@ function writeUrlState(state: ReturnType<typeof readUrlState>) {
   setOrDelete('author', join(state.authors));
   setOrDelete('inst', join(state.institutions));
   setOrDelete('pub', join(state.publishers));
-  setOrDelete('from', state.yearFrom != null ? String(state.yearFrom) : '');
-  setOrDelete('to', state.yearTo != null ? String(state.yearTo) : '');
+  setOrDelete('from', state.fromMonth ?? '');
+  setOrDelete('to', state.toMonth ?? '');
   setOrDelete('sort', state.sort === 'date-desc' ? '' : state.sort);
   setOrDelete('keyMode', state.keyMode === 'AND' ? '' : state.keyMode);
   setOrDelete('adj', state.includeAdjacent ? '1' : '');
   history.replaceState(null, '', url.toString());
+}
+
+const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtMonth(m: string): string {
+  // "YYYY-MM" → "Mon YYYY"
+  const mm = /^(\d{4})-(\d{2})$/.exec(m);
+  if (!mm) return m;
+  const idx = parseInt(mm[2], 10) - 1;
+  return `${MONTH_NAMES[idx]} ${mm[1]}`;
 }
 
 export default function PaperBrowser(props: Props) {
@@ -123,7 +124,7 @@ export default function PaperBrowser(props: Props) {
     q: '', envs: new Set<string>(), keys: new Set<string>(),
     authors: new Set<string>(), institutions: new Set<string>(),
     publishers: new Set<string>(),
-    yearFrom: null, yearTo: null,
+    fromMonth: null as string | null, toMonth: null as string | null,
     sort: 'date-desc' as const, keyMode: 'AND' as ChipMode,
     includeAdjacent: false,
   };
@@ -134,8 +135,8 @@ export default function PaperBrowser(props: Props) {
   const [authors, setAuthors] = createSignal<Set<string>>(initial.authors);
   const [institutions, setInstitutions] = createSignal<Set<string>>(initial.institutions);
   const [publishers, setPublishers] = createSignal<Set<string>>(initial.publishers);
-  const [yearFrom, setYearFrom] = createSignal<number | null>(initial.yearFrom);
-  const [yearTo, setYearTo] = createSignal<number | null>(initial.yearTo);
+  const [fromMonth, setFromMonth] = createSignal<string | null>(initial.fromMonth);
+  const [toMonth, setToMonth] = createSignal<string | null>(initial.toMonth);
   const [sort, setSort] = createSignal<'date-desc' | 'date-asc' | 'title'>(initial.sort);
   const [keyMode, setKeyMode] = createSignal<ChipMode>(initial.keyMode);
   const [includeAdjacent, setIncludeAdjacent] = createSignal<boolean>(initial.includeAdjacent);
@@ -188,7 +189,7 @@ export default function PaperBrowser(props: Props) {
       writeUrlState({
         q: q(), envs: envs(), keys: keys(), authors: authors(),
         institutions: institutions(), publishers: publishers(),
-        yearFrom: yearFrom(), yearTo: yearTo(), sort: sort(),
+        fromMonth: fromMonth(), toMonth: toMonth(), sort: sort(),
         keyMode: keyMode(), includeAdjacent: includeAdjacent(),
       });
     }, 200);
@@ -206,14 +207,22 @@ export default function PaperBrowser(props: Props) {
     return new Set(results.map((r) => String(r.id)));
   });
 
+  // "YYYY-MM" of a paper, derived from its year+month fields. Falls
+  // back to "YYYY-12" for entries with year only.
+  const paperMonth = (p: BrowserPaper): string => {
+    const y = p.year > 0 ? p.year : 0;
+    const m = p.month > 0 ? p.month : 12;
+    return `${y}-${String(m).padStart(2, '0')}`;
+  };
+
   const filtered = createMemo<BrowserPaper[]>(() => {
     const envSel = envs();
     const keySel = keys();
     const authorSel = authors();
     const instSel = institutions();
     const pubSel = publishers();
-    const yf = yearFrom();
-    const yt = yearTo();
+    const fm = fromMonth();
+    const tm = toMonth();
     const hits = searchHits();
     const adjOn = includeAdjacent();
     const km = keyMode();
@@ -232,8 +241,11 @@ export default function PaperBrowser(props: Props) {
       if (authorSel.size > 0 && !p.authors.some((a) => authorSel.has(a))) return false;
       if (instSel.size > 0 && !p.institutions.some((i) => instSel.has(i))) return false;
       if (pubSel.size > 0 && !pubSel.has(normalizePublisher(p.publisher))) return false;
-      if (yf != null && p.year < yf) return false;
-      if (yt != null && p.year > yt) return false;
+      if (fm || tm) {
+        const pm = paperMonth(p);
+        if (fm && pm < fm) return false;
+        if (tm && pm > tm) return false;
+      }
       return true;
     });
 
@@ -265,10 +277,20 @@ export default function PaperBrowser(props: Props) {
     const c = uniqueCount(candidates().map((p) => normalizePublisher(p.publisher)).filter(Boolean));
     return Array.from(c.entries()).sort((a, b) => b[1] - a[1]);
   });
-  const yearBounds = createMemo(() => {
-    const ys = candidates().map((p) => p.year).filter((y) => y > 0);
-    if (ys.length === 0) return [2018, new Date().getFullYear()] as [number, number];
-    return [Math.min(...ys), Math.max(...ys)] as [number, number];
+  // Month-grain histogram of all candidate papers, used both for the
+  // bounds of the date slider and for the inline preview chart.
+  const monthHistogram = createMemo<{
+    months: string[];                 // sorted "YYYY-MM"
+    counts: Record<string, number>;
+  }>(() => {
+    const counts: Record<string, number> = {};
+    for (const p of candidates()) {
+      if (p.year <= 0) continue;
+      const k = paperMonth(p);
+      counts[k] = (counts[k] ?? 0) + 1;
+    }
+    const months = Object.keys(counts).sort();
+    return { months, counts };
   });
 
   const toggle = (s: () => Set<string>, setS: (v: Set<string>) => void, val: string) => {
@@ -280,21 +302,19 @@ export default function PaperBrowser(props: Props) {
   const clearAll = () => {
     setQ(''); setEnvs(new Set<string>()); setKeys(new Set<string>()); setAuthors(new Set<string>());
     setInstitutions(new Set<string>()); setPublishers(new Set<string>());
-    setYearFrom(null); setYearTo(null); setSort('date-desc');
+    setFromMonth(null); setToMonth(null); setSort('date-desc');
     setKeyMode('AND'); setShowLimit(PAGE_SIZE);
   };
 
   const activeFilterCount = createMemo(() =>
     envs().size + keys().size + authors().size + institutions().size + publishers().size +
-    (yearFrom() != null ? 1 : 0) + (yearTo() != null ? 1 : 0)
+    (fromMonth() != null || toMonth() != null ? 1 : 0)
   );
 
   // Reset the visible-page limit whenever the active filter set / sort changes.
-  // (Year / institution / publisher / etc. all flow through this.)
   createEffect(() => {
-    // Track each filter signal explicitly.
     envs(); keys(); authors(); institutions(); publishers();
-    yearFrom(); yearTo(); sort(); includeAdjacent(); keyMode();
+    fromMonth(); toMonth(); sort(); includeAdjacent(); keyMode();
     untrack(() => setShowLimit(PAGE_SIZE));
   });
 
@@ -303,7 +323,7 @@ export default function PaperBrowser(props: Props) {
     const s = readUrlState();
     setQ(s.q); setEnvs(s.envs); setKeys(s.keys); setAuthors(s.authors);
     setInstitutions(s.institutions); setPublishers(s.publishers);
-    setYearFrom(s.yearFrom); setYearTo(s.yearTo); setSort(s.sort);
+    setFromMonth(s.fromMonth); setToMonth(s.toMonth); setSort(s.sort);
     setKeyMode(s.keyMode); setIncludeAdjacent(s.includeAdjacent);
     setShowLimit(PAGE_SIZE);
   };
@@ -476,14 +496,13 @@ export default function PaperBrowser(props: Props) {
         {filterSection('Institution', allInstitutions as any, institutions, setInstitutions, instFacetSearch, setInstFacetSearch)}
         {filterSection('Publisher', allPublishers as any, publishers, setPublishers, pubFacetSearch, setPubFacetSearch)}
 
-        <section class="py-3">
-          <div class="text-xs font-semibold uppercase tracking-[0.16em] text-ink-500 dark:text-ink-200 mb-2">Year</div>
-          <div class="flex items-center gap-2 text-sm">
-            <input type="number" min={yearBounds()[0]} max={yearBounds()[1]} placeholder={String(yearBounds()[0])} value={yearFrom() ?? ''} onInput={(e) => setYearFrom(e.currentTarget.value ? parseInt(e.currentTarget.value, 10) : null)} class="input text-sm py-1.5 w-20" />
-            <span class="text-ink-400">–</span>
-            <input type="number" min={yearBounds()[0]} max={yearBounds()[1]} placeholder={String(yearBounds()[1])} value={yearTo() ?? ''} onInput={(e) => setYearTo(e.currentTarget.value ? parseInt(e.currentTarget.value, 10) : null)} class="input text-sm py-1.5 w-20" />
-          </div>
-        </section>
+        <DateRangeSection
+          histogram={monthHistogram()}
+          from={fromMonth()}
+          to={toMonth()}
+          setFrom={setFromMonth}
+          setTo={setToMonth}
+        />
 
         <section class="py-3">
           <label class="flex items-center gap-2 text-sm text-ink-600 dark:text-ink-100 cursor-pointer">
@@ -540,6 +559,12 @@ export default function PaperBrowser(props: Props) {
             <For each={Array.from(publishers())}>{(v) => (
               <button class="chip chip-active" onClick={() => toggle(publishers, setPublishers, v)}>{v} <span class="ml-1">×</span></button>
             )}</For>
+            <Show when={fromMonth() || toMonth()}>
+              <button class="chip chip-active" onClick={() => { setFromMonth(null); setToMonth(null); }}>
+                {fromMonth() ? fmtMonth(fromMonth()!) : '…'} – {toMonth() ? fmtMonth(toMonth()!) : '…'}
+                <span class="ml-1">×</span>
+              </button>
+            </Show>
           </div>
         </Show>
 
@@ -649,6 +674,291 @@ export default function PaperBrowser(props: Props) {
   );
 }
 
+// ────────────────────────────────────────────────────────────────────────
+// DateRangeSection — month-grain dual-thumb slider with a paper-count
+// histogram preview, presets, and live YYYY-MM labels.
+// ────────────────────────────────────────────────────────────────────────
+
+interface DateRangeProps {
+  histogram: { months: string[]; counts: Record<string, number> };
+  from: string | null;
+  to: string | null;
+  setFrom: (v: string | null) => void;
+  setTo: (v: string | null) => void;
+}
+
+function monthAddOffset(ym: string, offset: number): string {
+  const [y, m] = ym.split('-').map((x) => parseInt(x, 10));
+  const total = (y * 12 + (m - 1)) + offset;
+  const ny = Math.floor(total / 12);
+  const nm = (total % 12 + 12) % 12;
+  return `${ny}-${String(nm + 1).padStart(2, '0')}`;
+}
+
+function DateRangeSection(props: DateRangeProps) {
+  const [open, setOpen] = createSignal(true);
+
+  // axis = months from the candidate set, padded to a full year on each
+  // side so the bars don't crowd the very edges of the track.
+  const axis = createMemo<string[]>(() => {
+    const { months } = props.histogram;
+    if (months.length === 0) {
+      // fallback: 5 years up to current
+      const now = new Date();
+      const end = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+      const out: string[] = [];
+      for (let i = 60; i >= 0; i--) out.push(monthAddOffset(end, -i));
+      return out;
+    }
+    const start = months[0];
+    const end = months[months.length - 1];
+    // span end - start in months
+    const [sy, sm] = start.split('-').map((x) => parseInt(x, 10));
+    const [ey, em] = end.split('-').map((x) => parseInt(x, 10));
+    const span = (ey - sy) * 12 + (em - sm);
+    const out: string[] = [];
+    for (let i = 0; i <= span; i++) out.push(monthAddOffset(start, i));
+    return out;
+  });
+
+  const minIdx = 0;
+  const maxIdx = () => Math.max(0, axis().length - 1);
+  const ymToIdx = (ym: string | null): number => {
+    if (!ym) return -1;
+    const i = axis().indexOf(ym);
+    if (i >= 0) return i;
+    // closest within bounds
+    if (axis().length === 0) return -1;
+    if (ym < axis()[0]) return 0;
+    if (ym > axis()[axis().length - 1]) return maxIdx();
+    return 0;
+  };
+  const idxToYm = (idx: number): string | null => {
+    if (idx < 0 || idx >= axis().length) return null;
+    return axis()[idx];
+  };
+
+  const fromIdx = () => {
+    const v = ymToIdx(props.from);
+    return v < 0 ? minIdx : v;
+  };
+  const toIdx = () => {
+    const v = ymToIdx(props.to);
+    return v < 0 ? maxIdx() : v;
+  };
+
+  const [hoverIdx, setHoverIdx] = createSignal<number | null>(null);
+  let trackEl: HTMLDivElement | undefined;
+
+  const widthPct = (idx: number) => (idx / Math.max(1, maxIdx())) * 100;
+
+  function setFromIdx(idx: number) {
+    const clamped = Math.max(minIdx, Math.min(idx, toIdx()));
+    const ym = idxToYm(clamped);
+    if (clamped === minIdx) props.setFrom(null);
+    else props.setFrom(ym);
+  }
+  function setToIdx(idx: number) {
+    const clamped = Math.max(fromIdx(), Math.min(idx, maxIdx()));
+    const ym = idxToYm(clamped);
+    if (clamped === maxIdx()) props.setTo(null);
+    else props.setTo(ym);
+  }
+
+  function trackPosToIdx(clientX: number): number {
+    if (!trackEl) return 0;
+    const rect = trackEl.getBoundingClientRect();
+    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    return Math.round(ratio * maxIdx());
+  }
+
+  // bar heights
+  const histBars = createMemo(() => {
+    const counts = props.histogram.counts;
+    const max = Math.max(1, ...axis().map((m) => counts[m] ?? 0));
+    return axis().map((m) => ({
+      m,
+      count: counts[m] ?? 0,
+      h: ((counts[m] ?? 0) / max) * 100,
+    }));
+  });
+
+  // pointer drag for thumbs
+  function startDrag(thumb: 'from' | 'to', e: PointerEvent) {
+    e.preventDefault();
+    const move = (ev: PointerEvent) => {
+      const idx = trackPosToIdx(ev.clientX);
+      if (thumb === 'from') setFromIdx(idx);
+      else setToIdx(idx);
+    };
+    const up = () => {
+      window.removeEventListener('pointermove', move);
+      window.removeEventListener('pointerup', up);
+      window.removeEventListener('pointercancel', up);
+    };
+    window.addEventListener('pointermove', move);
+    window.addEventListener('pointerup', up);
+    window.addEventListener('pointercancel', up);
+  }
+
+  function trackClick(e: MouseEvent) {
+    const idx = trackPosToIdx(e.clientX);
+    // snap to nearer thumb
+    const dFrom = Math.abs(idx - fromIdx());
+    const dTo = Math.abs(idx - toIdx());
+    if (dFrom <= dTo) setFromIdx(idx);
+    else setToIdx(idx);
+  }
+
+  function trackKey(thumb: 'from' | 'to', e: KeyboardEvent) {
+    let delta = 0;
+    if (e.key === 'ArrowLeft') delta = -1;
+    else if (e.key === 'ArrowRight') delta = 1;
+    else if (e.key === 'PageDown') delta = -12;
+    else if (e.key === 'PageUp') delta = 12;
+    else if (e.key === 'Home') {
+      e.preventDefault();
+      thumb === 'from' ? setFromIdx(minIdx) : setToIdx(minIdx);
+      return;
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      thumb === 'from' ? setFromIdx(maxIdx()) : setToIdx(maxIdx());
+      return;
+    } else { return; }
+    e.preventDefault();
+    if (thumb === 'from') setFromIdx(fromIdx() + delta);
+    else setToIdx(toIdx() + delta);
+  }
+
+  // Presets
+  function applyPreset(months: number) {
+    const last = axis()[maxIdx()];
+    if (!last) return;
+    const start = monthAddOffset(last, -(months - 1));
+    props.setFrom(start);
+    props.setTo(null);
+  }
+  function applyYear(year: number) {
+    props.setFrom(`${year}-01`);
+    props.setTo(null);
+  }
+  function clearRange() {
+    props.setFrom(null);
+    props.setTo(null);
+  }
+
+  const labelLeft = () => fmtMonth(idxToYm(fromIdx()) ?? '');
+  const labelRight = () => fmtMonth(idxToYm(toIdx()) ?? '');
+  const isActive = () => props.from != null || props.to != null;
+
+  return (
+    <section class="border-b border-paper-300/60 dark:border-ink-600/60 py-3">
+      <div class="flex items-center justify-between gap-2">
+        <button
+          class="flex-1 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-ink-500 dark:text-ink-200 hover:text-ink-700 dark:hover:text-ink-50"
+          onClick={() => setOpen(!open())}
+        >
+          <span>Date <Show when={isActive()}><span class="ml-1 text-accent dark:text-accent-dark normal-case tracking-normal font-medium">· {labelLeft()} – {labelRight()}</span></Show></span>
+          <span class="text-ink-400 mr-2">{open() ? '−' : '+'}</span>
+        </button>
+        <Show when={isActive()}>
+          <button class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={clearRange}>Reset</button>
+        </Show>
+      </div>
+
+      <Show when={open()}>
+        <div class="mt-3 select-none">
+          {/* Histogram */}
+          <div class="relative h-12 mb-1.5">
+            <div class="absolute inset-x-0 bottom-0 top-0 flex items-end gap-[1px]">
+              <For each={histBars()}>
+                {(bar, i) => {
+                  const inRange = () => i() >= fromIdx() && i() <= toIdx();
+                  return (
+                    <div
+                      class={`flex-1 ${inRange() ? 'bg-accent/55 dark:bg-accent-dark/55' : 'bg-ink-300/30 dark:bg-ink-400/20'} transition-colors`}
+                      style={{ height: `${Math.max(2, bar.h)}%` }}
+                      title={`${fmtMonth(bar.m)} · ${bar.count} ${bar.count === 1 ? 'paper' : 'papers'}`}
+                    />
+                  );
+                }}
+              </For>
+            </div>
+            <Show when={hoverIdx() != null}>
+              <div
+                class="pointer-events-none absolute -top-6 px-1.5 py-0.5 rounded text-[10px] bg-ink-700 text-paper-50 dark:bg-paper-50 dark:text-ink-700 whitespace-nowrap"
+                style={{ left: `calc(${widthPct(hoverIdx()!)}% - 1.5rem)` }}
+              >
+                {fmtMonth(idxToYm(hoverIdx()!) ?? '')}
+              </div>
+            </Show>
+          </div>
+
+          {/* Track + thumbs */}
+          <div
+            class="relative h-5 cursor-pointer"
+            ref={(el) => (trackEl = el)}
+            onClick={trackClick}
+            onMouseMove={(e) => setHoverIdx(trackPosToIdx(e.clientX))}
+            onMouseLeave={() => setHoverIdx(null)}
+          >
+            {/* Background track */}
+            <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-1 rounded-full bg-ink-200/50 dark:bg-ink-700/60"></div>
+            {/* Active range */}
+            <div
+              class="absolute top-1/2 -translate-y-1/2 h-1 rounded-full bg-accent dark:bg-accent-dark"
+              style={{ left: `${widthPct(fromIdx())}%`, right: `${100 - widthPct(toIdx())}%` }}
+            ></div>
+            {/* Thumbs */}
+            <button
+              type="button"
+              class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-paper-50 dark:bg-nightbg-soft border-2 border-accent dark:border-accent-dark shadow-sm hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 dark:focus-visible:ring-accent-dark/50 transition-transform"
+              style={{ left: `${widthPct(fromIdx())}%` }}
+              onPointerDown={(e: PointerEvent) => startDrag('from', e)}
+              onKeyDown={(e: KeyboardEvent) => trackKey('from', e)}
+              aria-label="Start month"
+              aria-valuemin={minIdx}
+              aria-valuemax={maxIdx()}
+              aria-valuenow={fromIdx()}
+              aria-valuetext={labelLeft()}
+              role="slider"
+            />
+            <button
+              type="button"
+              class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-paper-50 dark:bg-nightbg-soft border-2 border-accent dark:border-accent-dark shadow-sm hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 dark:focus-visible:ring-accent-dark/50 transition-transform"
+              style={{ left: `${widthPct(toIdx())}%` }}
+              onPointerDown={(e: PointerEvent) => startDrag('to', e)}
+              onKeyDown={(e: KeyboardEvent) => trackKey('to', e)}
+              aria-label="End month"
+              aria-valuemin={minIdx}
+              aria-valuemax={maxIdx()}
+              aria-valuenow={toIdx()}
+              aria-valuetext={labelRight()}
+              role="slider"
+            />
+          </div>
+
+          {/* Range labels under thumbs */}
+          <div class="mt-2 flex items-center justify-between text-[11px] tabular-nums text-ink-500 dark:text-ink-200">
+            <span>{labelLeft()}</span>
+            <span class="text-ink-400 dark:text-ink-300">to</span>
+            <span>{labelRight()}</span>
+          </div>
+
+          {/* Presets */}
+          <div class="mt-3 flex flex-wrap gap-1">
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyPreset(3)}>3 mo</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyPreset(6)}>6 mo</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyPreset(12)}>12 mo</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyYear(new Date().getFullYear())}>This year</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyYear(new Date().getFullYear() - 1)}>Last year</button>
+          </div>
+        </div>
+      </Show>
+    </section>
+  );
+}
+
 interface CardProps {
   paper: BrowserPaper;
   basePath: string;
@@ -701,42 +1011,32 @@ function escapeBibValue(s: string): string {
     .replace(/\^/g, '\\^{}');
 }
 
-function normalizeBibVenue(publisher: string): string {
-  let v = publisher.trim();
-  v = v.replace(/\s*\([^)]*\)\s*$/g, '').trim();          // drop (Poster) etc.
-  return v;
-}
-
-const JOURNAL_VENUES = /^(TMLR|JMLR|TPAMI|TASLP|TACL|Nature|Science|PNAS|IEEE\s|ACM\s)/i;
-
 function buildBibtex(p: BrowserPaper): string {
   const key = bibKey(p);
   const authors = p.authors.length > 0 ? p.authors.map(escapeBibValue).join(' and ') : 'Unknown';
   const titleEsc = escapeBibValue(p.title);
   const year = p.year > 0 ? String(p.year) : '';
 
-  const venue = normalizeBibVenue(p.publisher || '');
-  const isArxivOnly = !venue || /^arxiv$/i.test(venue);
-  const isJournal = JOURNAL_VENUES.test(venue);
+  const venue = normalizePublisher(p.publisher);
+  const kind = bibtexVenueKind(p.publisher);
 
   const fields: Array<[string, string]> = [];
   fields.push(['title', `{${titleEsc}}`]);
   fields.push(['author', `{${authors}}`]);
   if (year) fields.push(['year', `{${year}}`]);
 
-  if (isArxivOnly && p.arxivId) {
+  if (kind === 'misc' && p.arxivId) {
     fields.push(['eprint', `{${p.arxivId}}`]);
     fields.push(['archivePrefix', `{arXiv}`]);
-    // primaryClass is a best-guess; we don't have it parsed, so leave omitted.
     fields.push(['url', `{https://arxiv.org/abs/${p.arxivId}}`]);
     return formatBib('@misc', key, fields);
   }
-  if (isArxivOnly) {
+  if (kind === 'misc') {
     fields.push(['howpublished', `{${escapeBibValue(p.publisher || 'Preprint')}}`]);
     fields.push(['url', `{${p.link}}`]);
     return formatBib('@misc', key, fields);
   }
-  if (isJournal) {
+  if (kind === 'article') {
     fields.push(['journal', `{${escapeBibValue(venue)}}`]);
     if (p.arxivId) fields.push(['eprint', `{${p.arxivId}}`]);
     fields.push(['url', `{${p.link}}`]);

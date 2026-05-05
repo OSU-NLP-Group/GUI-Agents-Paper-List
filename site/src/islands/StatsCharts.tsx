@@ -2,6 +2,7 @@
 import { onMount, onCleanup, createSignal } from 'solid-js';
 import * as echarts from 'echarts';
 import type { BrowserPaper } from './PaperBrowser';
+import { normalizePublisher } from '../lib/venues';
 
 interface Props {
   papers: BrowserPaper[];
@@ -359,16 +360,13 @@ export default function StatsCharts(props: Props) {
     charts.push(aChart);
 
     // === 6. Publication venues ===
-    // Collapse presentation variants — (Poster) / (Oral) / (Spotlight) etc.
-    // and "Findings of …" / workshop/track suffixes — into one venue bucket.
+    // Use the maintained venues list to normalize — anything unknown
+    // (workshops, sub-tracks, bespoke venues) keeps its own bucket
+    // rather than getting accidentally collapsed by a generic regex.
     const pCounter = new Map<string, number>();
     for (const p of props.papers) {
-      if (!p.publisher || /^arxiv$/i.test(p.publisher.trim())) continue;
-      let v = p.publisher.trim();
-      v = v.replace(/\s*\([^)]*\)\s*$/g, '').trim();
-      v = v.replace(/^Findings of\s+/i, '').trim();
-      v = v.replace(/\s+(Workshop|Track|Datasets and Benchmarks Track|Findings)\b.*$/i, '').trim();
-      if (!v) continue;
+      const v = normalizePublisher(p.publisher);
+      if (!v || /^arxiv$/i.test(v)) continue;
       pCounter.set(v, (pCounter.get(v) ?? 0) + 1);
     }
     const topP = Array.from(pCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 15).reverse();
