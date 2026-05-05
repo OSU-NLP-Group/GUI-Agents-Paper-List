@@ -1,5 +1,5 @@
 /** @jsxImportSource solid-js */
-import { onMount, onCleanup, createSignal } from 'solid-js';
+import { onMount, onCleanup, createSignal, For, Show } from 'solid-js';
 import * as echarts from 'echarts';
 import type { BrowserPaper } from './PaperBrowser';
 import { normalizePublisher } from '../lib/venues';
@@ -116,6 +116,7 @@ export default function StatsCharts(props: Props) {
   const charts: echarts.ECharts[] = [];
 
   const [, setTick] = createSignal(0);
+  const [longTail, setLongTail] = createSignal<Array<{ k: string; v: number }>>([]);
 
   function build() {
     for (const c of charts) c.dispose();
@@ -171,61 +172,70 @@ export default function StatsCharts(props: Props) {
     });
     charts.push(trend);
 
-    // === 2. Keyword treemap — limited, clean, single-hue ===
+    // === 2. Keyword bar — top 12 horizontal stacked, every segment
+    //        always labeled. Avoids the treemap "empty tile" problem.
+    //        The long tail (next 40) lives below the chart as a chip
+    //        cloud rendered in JSX (see render block at the bottom).
     const kwCounter = new Map<string, number>();
     for (const p of props.papers) for (const k of p.keywords) kwCounter.set(k, (kwCounter.get(k) ?? 0) + 1);
-    const topKw = Array.from(kwCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 30);
-    const maxKw = topKw[0]?.[1] ?? 1;
+    const sortedKw = Array.from(kwCounter.entries()).sort((a, b) => b[1] - a[1]);
+    const topBarKw = sortedKw.slice(0, 12);
+    const maxKw = topBarKw[0]?.[1] ?? 1;
+    const totalBar = topBarKw.reduce((s, [, v]) => s + v, 0);
     const kwChart = echarts.init(kwEl, null, { renderer: 'canvas' });
     kwChart.setOption({
       backgroundColor: c.bg,
       textStyle: SHARED_TEXT,
       tooltip: {
         ...tooltipBase(c),
-        formatter: (info: any) => `<span style="font-weight:600">${info.name}</span><br/><span style="color:${c.muted}">${info.value} papers</span>`,
+        trigger: 'item',
+        formatter: (info: any) => {
+          const pct = totalBar ? ((info.value / totalBar) * 100).toFixed(1) : '0';
+          return `<span style="font-weight:600">${info.name}</span><br/><span style="color:${c.muted}">${info.value} papers · ${pct}%</span>`;
+        },
       },
-      series: [{
-        type: 'treemap', roam: false, nodeClick: false, breadcrumb: { show: false },
-        width: '100%', height: '100%',
+      grid: { left: 4, right: 4, top: 26, bottom: 8, containLabel: false },
+      xAxis: { type: 'value', show: false, max: totalBar },
+      yAxis: { type: 'category', show: false, data: ['Keywords'] },
+      series: topBarKw.map(([k, v], i) => ({
+        name: k,
+        type: 'bar',
+        stack: 'kw',
+        data: [v],
+        barWidth: 36,
+        itemStyle: {
+          color: c.treemapTones[Math.min(c.treemapTones.length - 1, Math.floor((1 - v / maxKw) * (c.treemapTones.length - 1)))],
+          borderColor: isDark() ? '#0f1217' : '#f7efdf',
+          borderWidth: 2,
+        },
         label: {
-          show: true,
+          show: true, position: 'inside', align: 'left',
           formatter: (info: any) => {
-            const v = info.value as number;
-            const ratio = v / maxKw;
-            // hide labels on smallest tiles
-            if (ratio < 0.15) return '';
-            return ratio > 0.4 ? `{name|${info.name}}\n{count|${v}}` : `{name|${info.name}}`;
+            const pct = info.value / totalBar;
+            // Wide enough → name + count. Medium → name only.
+            // Narrow → just the count. Very narrow → nothing (rely on tooltip).
+            const name = info.seriesName.length > 14 ? info.seriesName.slice(0, 13) + '…' : info.seriesName;
+            if (pct >= 0.09) return `{n|${name}}  {v|${info.value}}`;
+            if (pct >= 0.05) return `{n|${name}}`;
+            if (pct >= 0.028) return `{v|${info.value}}`;
+            return '';
           },
           rich: {
-            name: { color: '#fbf6ec', fontSize: 12, fontWeight: 600, ...SHARED_TEXT, lineHeight: 18 },
-            count: { color: 'rgba(251,246,236,0.7)', fontSize: 11, ...SHARED_TEXT },
+            n: { color: '#fbf6ec', fontSize: 11, fontWeight: 600, ...SHARED_TEXT },
+            v: { color: 'rgba(251,246,236,0.78)', fontSize: 10, ...SHARED_TEXT },
           },
+          padding: [0, 6],
         },
-        upperLabel: { show: false },
-        itemStyle: {
-          borderColor: isDark() ? '#0f1217' : '#f7efdf',
-          borderWidth: 3,
-          gapWidth: 3,
-        },
-        levels: [{
-          itemStyle: {
-            borderColor: isDark() ? '#0f1217' : '#f7efdf',
-            borderWidth: 3, gapWidth: 3,
-          },
-        }],
-        data: topKw.map(([k, v], i) => {
-          // Map by count to a tone in the palette (more prominent → darker)
-          const toneIdx = Math.max(0, Math.min(c.treemapTones.length - 1,
-            c.treemapTones.length - 1 - Math.floor((v / maxKw) * c.treemapTones.length)));
-          return { name: k, value: v, itemStyle: { color: c.treemapTones[toneIdx] } };
-        }),
-      }],
+        emphasis: { focus: 'self', itemStyle: { opacity: 0.92 } },
+      })),
     });
     kwChart.on('click', (params: any) => {
-      if (!params || !params.name) return;
-      window.location.href = `${props.basePath}/papers?key=${encodeURIComponent(params.name)}`;
+      if (!params || !params.seriesName) return;
+      window.location.href = `${props.basePath}/papers?key=${encodeURIComponent(params.seriesName)}`;
     });
     charts.push(kwChart);
+    // Stash the long-tail list for the chip cloud rendered below.
+    setLongTail(sortedKw.slice(12, 60).map(([k, v]) => ({ k, v })));
 
     // === 3. Environment donut — minimal, no inline labels, no legend marker noise ===
     const envCounter = new Map<string, number>();
@@ -437,8 +447,14 @@ export default function StatsCharts(props: Props) {
         </div>
         <div>
           <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top keywords</h2>
-          <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Tile area is paper count. Darker tiles are more frequent. Click to filter.</p>
-          <div ref={(el) => (kwEl = el)} class="w-full h-[480px]"></div>
+          <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Width is paper count, darker is more frequent. Click any segment or chip to filter.</p>
+          <div ref={(el) => (kwEl = el)} class="w-full h-[60px]"></div>
+          <Show when={longTail().length > 0}>
+            <div class="mt-5">
+              <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-400 dark:text-ink-300 mb-3">Long tail</div>
+              <KeywordCloud items={longTail()} basePath={props.basePath} />
+            </div>
+          </Show>
         </div>
       </section>
 
@@ -460,6 +476,42 @@ export default function StatsCharts(props: Props) {
         <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Top 15 venues, excluding arXiv-only entries.</p>
         <div ref={(el) => (pubEl = el)} class="w-full h-[400px]"></div>
       </section>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────
+// KeywordCloud — sized chips for the long-tail keywords below the
+// horizontal-bar visualization. Font scales sublinearly with count
+// so popular tags read large but rare tags still get a visible chip.
+// ─────────────────────────────────────────────────────────────────
+function KeywordCloud(props: { items: Array<{ k: string; v: number }>; basePath: string }) {
+  const max = Math.max(1, ...props.items.map((x) => x.v));
+  const min = Math.max(1, Math.min(...props.items.map((x) => x.v)));
+  const range = Math.max(1, max - min);
+  // Map count → font size 12px–18px and color weight.
+  const size = (v: number) => {
+    const t = (v - min) / range; // 0..1
+    return 12 + t * 6;            // 12..18
+  };
+  const opacity = (v: number) => 0.65 + ((v - min) / range) * 0.35;
+  return (
+    <div class="flex flex-wrap items-baseline gap-x-2 gap-y-2">
+      <For each={props.items}>
+        {(item) => (
+          <a
+            class="inline-flex items-baseline gap-1 px-2.5 py-1 rounded-full bg-paper-200/60 dark:bg-ink-700/40 hover:bg-paper-200 dark:hover:bg-ink-700/70 border border-paper-300/60 dark:border-ink-600/60 text-ink-700 dark:text-ink-50 transition-colors"
+            href={`${props.basePath}/papers?key=${encodeURIComponent(item.k)}`}
+            style={{
+              'font-size': `${size(item.v)}px`,
+              'opacity': opacity(item.v),
+            }}
+          >
+            <span>{item.k}</span>
+            <span class="text-[0.78em] text-ink-400 dark:text-ink-300 tabular-nums">{item.v}</span>
+          </a>
+        )}
+      </For>
     </div>
   );
 }

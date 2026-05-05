@@ -135,21 +135,6 @@ def df_to_markdown_list(df):
     return [build_markdown_entry(row) for _, row in df.iterrows()]
 
 
-def filter_by_keyword(df, keyword):
-    """Filter DataFrame to rows containing an exact keyword match."""
-    return df[df['Keywords'].apply(lambda kws: has_keyword(kws, keyword))]
-
-
-def filter_by_author(df, author):
-    """Filter DataFrame to rows containing an exact author match."""
-    return df[df['Authors'].apply(lambda authors: has_author(authors, author))]
-
-
-def build_empty_env_page(env_key):
-    """Build fallback content for an empty environment grouping page."""
-    return f"# {env_key} Papers\n\nNo papers currently tagged with [{env_key}].\n"
-
-
 # Main logic
 def process_markdown():
     """Processes markdown input, generates categorized outputs, and saves data."""
@@ -257,11 +242,14 @@ def process_markdown():
 
     write_file("update_template_or_data/paper_list_section.md", "\n".join(section_lines))
 
-    # Clear and recreate output directories
-    for folder in ["update_template_or_data/statistics/", "paper_by_key",
-                    "paper_by_env", "paper_by_author"]:
+    # Clear and recreate output directories. paper_by_* dirs were
+    # retired in favour of website deep-links; remove if present.
+    for folder in ["update_template_or_data/statistics/"]:
         clear_folder(folder)
     os.makedirs("update_template_or_data/statistics/", exist_ok=True)
+    for legacy_dir in ["paper_by_env", "paper_by_key", "paper_by_author"]:
+        if os.path.isdir(legacy_dir):
+            shutil.rmtree(legacy_dir)
 
     # Count authors once for reuse (exact name matching)
     author_counter = Counter()
@@ -278,92 +266,50 @@ def process_markdown():
         all_keywords.extend(extract_keywords(row['Keywords']))
     keyword_counts = Counter(all_keywords)
 
-    # --- Generate author grouping markdown ---
+    # ─────────────────────────────────────────────────────────────
+    # README "Browse by …" links now point at the website's filtered
+    # views, not at per-axis markdown files we used to maintain in
+    # the repo. The website handles search, multi-axis composition,
+    # and pretty visualization out of the box.
+    # ─────────────────────────────────────────────────────────────
+    SITE_BASE = "https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/"
+
+    def _qparam(value):
+        """Encode a query-param value the way URLSearchParams does."""
+        from urllib.parse import quote_plus
+        return quote_plus(value)
+
+    # --- Generate author grouping markdown (links → site) ---
     try:
-        # Generate author grouping as dot-separated links, 5 per line
-        author_links = []
-        for author, count in top_authors_sorted:
-            a_file = f"paper_{author.replace(' ', '_')}.md"
-            author_links.append(f"[{author} ({count})](paper_by_author/{a_file})")
+        author_links = [
+            f"[{author} ({count})]({SITE_BASE}?author={_qparam(author)})"
+            for author, count in top_authors_sorted
+        ]
         per_line = 5
-        author_lines = []
-        for i in range(0, len(author_links), per_line):
-            author_lines.append(" · ".join(author_links[i:i+per_line]))
+        author_lines = [
+            " · ".join(author_links[i:i+per_line])
+            for i in range(0, len(author_links), per_line)
+        ]
         write_file("update_template_or_data/author_grouping.md",
                     "<br>".join(author_lines))
     except Exception as e:
-        logging.error(f"Error generating sorted author grouping Markdown: {str(e)}", exc_info=True)
+        logging.error(f"Error generating author grouping markdown: {str(e)}", exc_info=True)
 
-    # --- Generate author-specific files ---
+    # --- Generate environment grouping (links → site) ---
     try:
-        os.makedirs("paper_by_author", exist_ok=True)
-        top_author_names = [author for author, _ in top_authors_sorted]
-        for author in top_author_names:
-            filtered_df = filter_by_author(papers_df, author)
-            if not filtered_df.empty:
-                entries = "\n".join(df_to_markdown_list(filtered_df))
-                author_filename = f"paper_{author.replace(' ', '_')}.md"
-                write_file(os.path.join("paper_by_author", author_filename),
-                           f"# {author}'s Papers\n\n{entries}")
-    except Exception as e:
-        logging.error(f"Error generating author-specific files: {str(e)}", exc_info=True)
-
-    # --- Generate environment-specific files ---
-    try:
-        os.makedirs("paper_by_env", exist_ok=True)
-        env_keywords = {
-            "Web": "paper_web.md",
-            "Desktop": "paper_desktop.md",
-            "Mobile": "paper_mobile.md",
-            "General GUI": "paper_general_gui.md",
-        }
-        legacy_env_files = {"paper_gui.md", "paper_search.md", "paper_misc.md"}
-        for legacy_file in legacy_env_files:
-            legacy_path = os.path.join("paper_by_env", legacy_file)
-            if os.path.exists(legacy_path):
-                os.remove(legacy_path)
-        env_counts = {}
-        for env_key, file_name in env_keywords.items():
-            # Env field uses [brackets], so match the exact bracket token
-            filtered_df = papers_df[papers_df['Env'].str.contains(rf'\[{env_key}\]', case=False, na=False, regex=True)]
-            env_counts[env_key] = len(filtered_df)
-            if not filtered_df.empty:
-                entries = "\n".join(df_to_markdown_list(filtered_df))
-            else:
-                entries = build_empty_env_page(env_key)
-            write_file(os.path.join("paper_by_env", file_name), entries)
-
-        # Generate env grouping as emoji links on one line
+        env_keywords = ["Web", "Desktop", "Mobile", "General GUI"]
         env_emoji = {"Web": "🌐", "Desktop": "🖥️", "Mobile": "📱", "General GUI": "🖼️"}
         env_parts = []
-        for env_key, file_name in env_keywords.items():
+        for env_key in env_keywords:
+            filtered_df = papers_df[papers_df['Env'].str.contains(rf'\[{env_key}\]', case=False, na=False, regex=True)]
+            count = len(filtered_df)
             emoji = env_emoji.get(env_key, "")
-            count = env_counts[env_key]
-            env_parts.append(f"{emoji} [{env_key} ({count})](paper_by_env/{file_name})")
+            env_parts.append(f"{emoji} [{env_key} ({count})]({SITE_BASE}?env={_qparam(env_key)})")
         write_file("update_template_or_data/env_grouping.md", " · ".join(env_parts))
     except Exception as e:
-        logging.error(f"Error generating environment-specific files: {str(e)}", exc_info=True)
+        logging.error(f"Error generating environment grouping markdown: {str(e)}", exc_info=True)
 
-    # --- Generate keyword-specific files ---
-    try:
-        predefined_keywords = {"framework", "dataset", "benchmark", "model", "safety", "survey"}
-        top_keywords = [
-            kw for kw, _ in keyword_counts.most_common()
-            if kw not in predefined_keywords
-        ][:14]
-        keywords_to_group = predefined_keywords.union(top_keywords)
-
-        os.makedirs("paper_by_key", exist_ok=True)
-        for keyword in keywords_to_group:
-            filtered_df = filter_by_keyword(papers_df, keyword)
-            if not filtered_df.empty:
-                entries = "\n".join(df_to_markdown_list(filtered_df))
-                file_path = os.path.join("paper_by_key", f"paper_{keyword.replace(' ', '_')}.md")
-                write_file(file_path, f"# Papers with Keyword: {keyword}\n\n{entries}")
-    except Exception as e:
-        logging.error(f"Error generating keyword-based Markdown files: {str(e)}", exc_info=True)
-
-    # --- Generate keyword grouping markdown ---
+    # --- Generate keyword grouping (links → site) ---
     try:
         predefined_keywords_list = ["model", "framework", "benchmark", "dataset", "safety", "survey"]
         predefined_keyword_counts = [(kw, keyword_counts[kw]) for kw in predefined_keywords_list if kw in keyword_counts]
@@ -377,19 +323,19 @@ def process_markdown():
         combined_keywords.sort(
             key=lambda x: (-x[1], predefined_keywords_list.index(x[0]) if x[0] in predefined_keywords_list else float('inf')))
 
-        # Generate keyword grouping as dot-separated links, 5 per line
-        kw_links = []
-        for keyword, count in combined_keywords:
-            kw_file = f"paper_{keyword.replace(' ', '_')}.md"
-            kw_links.append(f"[{keyword} ({count})](paper_by_key/{kw_file})")
+        kw_links = [
+            f"[{kw} ({count})]({SITE_BASE}?key={_qparam(kw)})"
+            for kw, count in combined_keywords
+        ]
         per_line = 5
-        kw_lines = []
-        for i in range(0, len(kw_links), per_line):
-            kw_lines.append(" · ".join(kw_links[i:i+per_line]))
+        kw_lines = [
+            " · ".join(kw_links[i:i+per_line])
+            for i in range(0, len(kw_links), per_line)
+        ]
         write_file("update_template_or_data/keyword_grouping.md",
                     "<br>".join(kw_lines))
     except Exception as e:
-        logging.error(f"Error generating sorted keyword grouping Markdown: {str(e)}", exc_info=True)
+        logging.error(f"Error generating keyword grouping markdown: {str(e)}", exc_info=True)
 
     # --- Generate keyword bar chart ---
     try:
