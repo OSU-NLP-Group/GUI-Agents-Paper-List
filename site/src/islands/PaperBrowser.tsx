@@ -593,9 +593,20 @@ export default function PaperBrowser(props: Props) {
           </div>
         </div>
 
-        {/* Active filter chips */}
-        <Show when={activeFilterCount() > 0}>
-          <div class="mb-4 flex flex-wrap gap-1.5">
+        {/* Active filter chips. Surfaces a one-click reset whenever
+            anything is filtering the list — including a bare search
+            query with no facet chips set. */}
+        <Show when={activeFilterCount() > 0 || q().trim().length > 0}>
+          <div class="mb-4 flex flex-wrap items-center gap-1.5">
+            <Show when={q().trim().length > 0}>
+              <button
+                class="chip chip-active"
+                onClick={() => setQ('')}
+                title="Clear search query"
+              >
+                <span class="opacity-70 mr-1">search:</span>“{q().trim()}” <span class="ml-1">×</span>
+              </button>
+            </Show>
             <For each={Array.from(envs())}>{(v) => (
               <button class="chip chip-active" onClick={() => toggle(envs, setEnvs, v)}>
                 {ENV_ICON[v] ?? '·'} {v} <span class="ml-1">×</span>
@@ -619,6 +630,15 @@ export default function PaperBrowser(props: Props) {
                 <span class="ml-1">×</span>
               </button>
             </Show>
+            <button
+              class="ml-1 inline-flex items-center gap-1 text-xs px-2 py-1 rounded-md border border-paper-300/80 dark:border-ink-600/60 text-ink-500 dark:text-ink-200 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 hover:text-accent dark:hover:text-accent-dark transition-colors"
+              onClick={clearAll}
+              title="Clear search and all filters (Esc)"
+              aria-label="Clear search and all filters"
+            >
+              <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg>
+              <span>Clear all</span>
+            </button>
           </div>
         </Show>
 
