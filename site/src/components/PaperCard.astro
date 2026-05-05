@@ -1,11 +1,12 @@
 ---
 import type { Paper } from '../lib/parsePapers';
-import { ENV_EMOJI, REPO_RAW_BLOB } from '../lib/site';
+import { ENV_EMOJI } from '../lib/site';
 const { paper, compact = false } = Astro.props as { paper: Paper; compact?: boolean };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const editUrl = `${REPO_RAW_BLOB}/${paper.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${paper.sourceLine}`;
 const moreAuthors = Math.max(0, paper.authors.length - 4);
 const isAdj = paper.source === 'adjacent';
+const linkIsArxiv = /arxiv\.org/.test(paper.link);
+const showArxiv = !linkIsArxiv && !!paper.arxivId;
 ---
 <article class={`card p-5 group ${isAdj ? 'opacity-95' : ''}`}>
   <div class="flex items-start gap-3">
@@ -54,9 +55,8 @@ const isAdj = paper.source === 'adjacent';
 
   <div class="mt-4 flex items-center gap-3 text-xs">
     <a class="link" href={`${base}/papers/${paper.slug}`}>Details →</a>
-    {paper.arxivId && (
+    {showArxiv && (
       <a class="link" href={`https://arxiv.org/abs/${paper.arxivId}`} target="_blank" rel="noopener">arXiv</a>
     )}
-    <a class="link" href={editUrl} target="_blank" rel="noopener">Edit on GitHub ↗</a>
   </div>
 </article>

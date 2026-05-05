@@ -637,7 +637,6 @@ function buildReportUrl(p: BrowserPaper): string {
 
 function PaperCardClient(props: CardProps) {
   const p = props.paper;
-  const editUrl = `${props.repoBlobUrl}/${p.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${p.sourceLine}`;
   const detailHref = `${props.basePath}/papers/${p.slug}`;
   const reportUrl = buildReportUrl(p);
   // Show a separate arXiv button only when the canonical paper link isn't
@@ -762,7 +761,6 @@ function PaperCardClient(props: CardProps) {
               <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
               <span>{bibCopied() ? 'BibTeX copied' : 'Copy BibTeX'}</span>
             </button>
-            <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={editUrl} target="_blank" rel="noopener">Edit on GitHub</a>
             <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={reportUrl} target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="12" height="12" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
               Report issue

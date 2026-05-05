@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { loadAllPapers, repoFileUrl, type Paper } from '../../lib/parsePapers';
+import { loadAllPapers, type Paper } from '../../lib/parsePapers';
 import { ENV_EMOJI, REPO_URL } from '../../lib/site';
 
 interface RelatedLite {
@@ -47,8 +47,6 @@ const { paper, related } = Astro.props as { paper: Paper; related: RelatedLite[]
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteOrigin = (Astro.site ?? new URL('https://osu-nlp-group.github.io')).toString().replace(/\/$/, '');
 const detailUrl = `${siteOrigin}${base}/papers/${paper.slug}/`;
-
-const editUrl = repoFileUrl(paper);
 
 const tldrFallback = `${paper.title} — ${paper.publisher}, ${paper.date}. Authors: ${paper.authors.slice(0, 5).join(', ')}${paper.authors.length > 5 ? ', et al.' : ''}.`;
 const seoDescription = (paper.tldr || tldrFallback).slice(0, 300);
@@ -227,7 +225,6 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
         <span id="copy-bib-label">Copy BibTeX</span>
       </button>
-      <a href={editUrl} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">Edit on GitHub</a>
       <a href={reportUrl} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
         Report issue

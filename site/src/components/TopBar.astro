@@ -57,11 +57,11 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
     </a>
 
     <a
-      href={`${REPO_URL}/stargazers`}
+      href={REPO_URL}
       target="_blank"
       rel="noopener"
       class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium bg-accent text-paper-50 dark:bg-accent-dark dark:text-ink-900 hover:opacity-90 transition-opacity"
-      aria-label="Star on GitHub"
+      aria-label="Open repo to star on GitHub"
     >
       <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 2l2.96 6.55 7.04.74-5.27 4.84 1.55 6.97L12 17.77 5.72 21.1l1.55-6.97L2 9.29l7.04-.74L12 2z"/></svg>
       <span>Star{starCount != null ? ` · ${fmt(starCount)}` : ''}</span>

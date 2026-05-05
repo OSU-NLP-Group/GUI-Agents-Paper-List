@@ -104,7 +104,7 @@ const jsonLd = [
       <div class="flex-1 text-sm text-ink-600 dark:text-ink-100 leading-relaxed">
         Maintained openly on GitHub by <a class="link" href="https://github.com/OSU-NLP-Group" target="_blank" rel="noopener">OSU NLP</a>. If this list helps your work, <strong>star the repo</strong> so others can find it too.
       </div>
-      <a href={`${REPO_URL}/stargazers`} target="_blank" rel="noopener" class="btn-primary shrink-0">
+      <a href={REPO_URL} target="_blank" rel="noopener" class="btn-primary shrink-0">
         {stars != null ? `Star · ${stars >= 1000 ? (stars/1000).toFixed(1).replace(/\.0$/, '') + 'k' : stars}` : 'Star on GitHub'}
       </a>
     </div>
