@@ -1,5 +1,5 @@
 /** @jsxImportSource solid-js */
-import { createMemo, createSignal, For, Show, onMount, onCleanup } from 'solid-js';
+import { createEffect, createMemo, createSignal, For, Show, onMount, onCleanup, untrack } from 'solid-js';
 import MiniSearch from 'minisearch';
 
 export interface BrowserPaper {
@@ -145,8 +145,11 @@ export default function PaperBrowser(props: Props) {
   const [instFacetSearch, setInstFacetSearch] = createSignal('');
   const [pubFacetSearch, setPubFacetSearch] = createSignal('');
 
-  const [showLimit, setShowLimit] = createSignal(60);
+  const PAGE_SIZE = 60;
+  const [showLimit, setShowLimit] = createSignal(PAGE_SIZE);
   const [filtersOpen, setFiltersOpen] = createSignal(false);
+  let sentinelEl: HTMLDivElement | undefined;
+  let observer: IntersectionObserver | undefined;
 
   // Index search corpus
   const ms = new MiniSearch<BrowserPaper>({
@@ -265,19 +268,28 @@ export default function PaperBrowser(props: Props) {
     const next = new Set(s());
     if (next.has(val)) next.delete(val); else next.add(val);
     setS(next);
-    setShowLimit(60);
+    setShowLimit(PAGE_SIZE);
   };
   const clearAll = () => {
-    setQ(''); setEnvs(new Set()); setKeys(new Set()); setAuthors(new Set());
-    setInstitutions(new Set()); setPublishers(new Set());
+    setQ(''); setEnvs(new Set<string>()); setKeys(new Set<string>()); setAuthors(new Set<string>());
+    setInstitutions(new Set<string>()); setPublishers(new Set<string>());
     setYearFrom(null); setYearTo(null); setSort('date-desc');
-    setKeyMode('AND'); setShowLimit(60);
+    setKeyMode('AND'); setShowLimit(PAGE_SIZE);
   };
 
   const activeFilterCount = createMemo(() =>
     envs().size + keys().size + authors().size + institutions().size + publishers().size +
     (yearFrom() != null ? 1 : 0) + (yearTo() != null ? 1 : 0)
   );
+
+  // Reset the visible-page limit whenever the active filter set / sort changes.
+  // (Year / institution / publisher / etc. all flow through this.)
+  createEffect(() => {
+    // Track each filter signal explicitly.
+    envs(); keys(); authors(); institutions(); publishers();
+    yearFrom(); yearTo(); sort(); includeAdjacent(); keyMode();
+    untrack(() => setShowLimit(PAGE_SIZE));
+  });
 
   // popstate sync (back/forward)
   const onPop = () => {
@@ -286,9 +298,32 @@ export default function PaperBrowser(props: Props) {
     setInstitutions(s.institutions); setPublishers(s.publishers);
     setYearFrom(s.yearFrom); setYearTo(s.yearTo); setSort(s.sort);
     setKeyMode(s.keyMode); setIncludeAdjacent(s.includeAdjacent);
+    setShowLimit(PAGE_SIZE);
   };
-  onMount(() => window.addEventListener('popstate', onPop));
-  onCleanup(() => window.removeEventListener('popstate', onPop));
+  onMount(() => {
+    window.addEventListener('popstate', onPop);
+    // Infinite-scroll sentinel: when within ~600px of the bottom marker, load
+    // the next page. We rebind the observer whenever the sentinel ref changes
+    // (Solid creates the element after mount).
+    if (typeof IntersectionObserver !== 'undefined' && sentinelEl) {
+      observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue;
+            const total = filtered().length;
+            const cur = showLimit();
+            if (cur < total) setShowLimit(Math.min(cur + PAGE_SIZE, total));
+          }
+        },
+        { rootMargin: '600px 0px 600px 0px' },
+      );
+      observer.observe(sentinelEl);
+    }
+  });
+  onCleanup(() => {
+    window.removeEventListener('popstate', onPop);
+    observer?.disconnect();
+  });
 
   const filterSection = (
     label: string,
@@ -417,7 +452,7 @@ export default function PaperBrowser(props: Props) {
               placeholder="Search title, authors, TLDR, keywords…"
               class="input pl-9"
               value={q()}
-              onInput={(e) => { setQ(e.currentTarget.value); setShowLimit(60); }}
+              onInput={(e) => { setQ(e.currentTarget.value); setShowLimit(PAGE_SIZE); }}
             />
             <svg viewBox="0 0 24 24" width="16" height="16" class="absolute left-3 top-1/2 -translate-y-1/2 text-ink-400" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
           </div>
@@ -467,13 +502,28 @@ export default function PaperBrowser(props: Props) {
           </For>
         </ul>
 
-        <Show when={filtered().length > showLimit()}>
-          <div class="mt-6 text-center">
-            <button class="btn-ghost border border-paper-300/80 dark:border-ink-600/60" onClick={() => setShowLimit(showLimit() + 60)}>
-              Show {Math.min(60, filtered().length - showLimit())} more
-            </button>
-            <div class="text-xs text-ink-400 mt-1">Showing {showLimit().toLocaleString()} of {filtered().length.toLocaleString()}</div>
-          </div>
+        {/* Infinite-scroll sentinel + lightweight progress indicator */}
+        <div ref={(el) => (sentinelEl = el)} aria-hidden="true" class="h-10"></div>
+
+        <Show when={filtered().length > 0}>
+          <Show when={filtered().length > showLimit()} fallback={
+            <div class="mt-2 text-center text-xs text-ink-400 dark:text-ink-300">
+              All {filtered().length.toLocaleString()} {filtered().length === 1 ? 'paper' : 'papers'} loaded.
+            </div>
+          }>
+            <div class="mt-2 text-center">
+              <div class="inline-flex items-center gap-2 text-xs text-ink-400 dark:text-ink-300">
+                <span class="inline-block w-3 h-3 rounded-full border-2 border-current border-r-transparent animate-spin"></span>
+                <span>Loading more · showing {showLimit().toLocaleString()} of {filtered().length.toLocaleString()}</span>
+              </div>
+              {/* Manual fallback for when IntersectionObserver isn't available */}
+              <noscript>
+                <button class="btn-ghost border border-paper-300/80 dark:border-ink-600/60 mt-2" onClick={() => setShowLimit(showLimit() + PAGE_SIZE)}>
+                  Show more
+                </button>
+              </noscript>
+            </div>
+          </Show>
         </Show>
       </div>
     </div>
@@ -487,20 +537,84 @@ interface CardProps {
   onChip: (kw: string) => void;
 }
 
+function bibKey(p: BrowserPaper): string {
+  const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '');
+  const titleWord = p.title.split(/\s+/).find((w) => w.length > 3)?.toLowerCase().replace(/[^a-z0-9]/g, '') ?? 'paper';
+  return `${lastName}${p.year}${titleWord}`;
+}
+function venueShort(p: BrowserPaper): string {
+  const m = /^([A-Za-z\-\s]+)\s+(\d{4})/.exec(p.publisher);
+  return m ? m[1].trim() : p.publisher;
+}
+function buildBibtex(p: BrowserPaper): string {
+  return `@inproceedings{${bibKey(p)},
+  title={${p.title}},
+  author={${p.authors.join(' and ')}},
+  year={${p.year}},
+  booktitle={${venueShort(p)}},
+  url={${p.link}}
+}`;
+}
+function buildReportUrl(p: BrowserPaper): string {
+  const issueBody = [
+    `**Paper title:** ${p.title}`,
+    `**Paper link:** ${p.link}`,
+    `**Source line:** ${p.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${p.sourceLine}`,
+    '',
+    '### What is incorrect or missing?',
+    '<!-- Please describe the issue (e.g., wrong authors, wrong date, wrong publisher, missing keyword, broken link). -->',
+    '',
+  ].join('\n');
+  const params = new URLSearchParams({
+    title: `[Metadata] ${p.title}`,
+    body: issueBody,
+    labels: 'metadata-correction',
+    template: 'metadata-correction.yml',
+  });
+  return `https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues/new?${params.toString()}`;
+}
+
 function PaperCardClient(props: CardProps) {
   const p = props.paper;
-  const moreAuthors = Math.max(0, p.authors.length - 3);
   const editUrl = `${props.repoBlobUrl}/${p.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${p.sourceLine}`;
   const detailHref = `${props.basePath}/papers/${p.slug}`;
+  const reportUrl = buildReportUrl(p);
+  const [expanded, setExpanded] = createSignal(false);
+  const [bibCopied, setBibCopied] = createSignal(false);
+
+  const visibleAuthors = () => expanded() ? p.authors : p.authors.slice(0, 3);
+  const moreAuthors = () => Math.max(0, p.authors.length - 3);
+  const visibleInstitutions = () => expanded() ? p.institutions : p.institutions.slice(0, 3);
+  const moreInstitutions = () => Math.max(0, p.institutions.length - 3);
+  const visibleKeywords = () => expanded() ? p.keywords : p.keywords.slice(0, 8);
+
+  function copyBibtex(e: MouseEvent) {
+    e.preventDefault();
+    const text = buildBibtex(p);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => {
+        setBibCopied(true);
+        setTimeout(() => setBibCopied(false), 1500);
+      });
+    }
+  }
+
   return (
-    <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''}`}>
+    <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''} ${expanded() ? 'border-paper-400/80 dark:border-ink-400/40' : ''}`}>
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
           <h3 class="text-base sm:text-lg font-semibold leading-snug text-ink-700 dark:text-ink-50">
             <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{p.title}</a>
           </h3>
-          <p class="mt-1 text-sm text-ink-500 dark:text-ink-200">
-            {p.authors.slice(0, 3).join(', ')}{moreAuthors > 0 ? ` +${moreAuthors} more` : ''}
+          <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words">
+            {visibleAuthors().join(', ')}
+            <Show when={!expanded() && moreAuthors() > 0}>
+              <button
+                class="ml-1 text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark"
+                onClick={() => setExpanded(true)}
+                aria-label="Show all authors"
+              >+{moreAuthors()} more</button>
+            </Show>
           </p>
         </div>
         <div class="shrink-0 flex items-center gap-2">
@@ -510,6 +624,17 @@ function PaperCardClient(props: CardProps) {
           <Show when={p.source === 'adjacent'}>
             <span class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-paper-200 dark:bg-ink-700 text-ink-500 dark:text-ink-200 border border-paper-300/60 dark:border-ink-600/60">adj</span>
           </Show>
+          <button
+            type="button"
+            class="ml-1 inline-flex items-center justify-center w-6 h-6 rounded text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark hover:bg-paper-200/60 dark:hover:bg-ink-700/40"
+            onClick={() => setExpanded(!expanded())}
+            aria-label={expanded() ? 'Collapse' : 'Expand'}
+            aria-expanded={expanded() ? 'true' : 'false'}
+          >
+            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={`transition-transform ${expanded() ? 'rotate-180' : ''}`} aria-hidden="true">
+              <path d="M3 6l5 5 5-5"/>
+            </svg>
+          </button>
         </div>
       </div>
 
@@ -519,29 +644,93 @@ function PaperCardClient(props: CardProps) {
         <span>{p.publisher}</span>
         <Show when={p.institutions.length > 0}>
           <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
-          <span class="text-ink-500 dark:text-ink-200">{p.institutions.slice(0, 3).join(', ')}{p.institutions.length > 3 ? ` +${p.institutions.length - 3}` : ''}</span>
+          <span class="text-ink-500 dark:text-ink-200">
+            {visibleInstitutions().join(', ')}
+            <Show when={!expanded() && moreInstitutions() > 0}>
+              <button
+                class="ml-1 text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark"
+                onClick={() => setExpanded(true)}
+                aria-label="Show all institutions"
+              >+{moreInstitutions()}</button>
+            </Show>
+          </span>
         </Show>
       </p>
 
       <Show when={p.tldr}>
-        <p class="mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed clamp-3">{p.tldr}</p>
+        <p class={`mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed ${expanded() ? '' : 'clamp-3'}`}>{p.tldr}</p>
       </Show>
 
       <Show when={p.keywords.length > 0}>
         <div class="mt-3 flex flex-wrap gap-1.5">
-          <For each={p.keywords.slice(0, 8)}>{(kw) => (
+          <For each={visibleKeywords()}>{(kw) => (
             <button class="chip" onClick={() => props.onChip(kw)}>{kw}</button>
           )}</For>
+          <Show when={!expanded() && p.keywords.length > 8}>
+            <button
+              class="text-xs text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark"
+              onClick={() => setExpanded(true)}
+            >+{p.keywords.length - 8} more</button>
+          </Show>
         </div>
       </Show>
 
-      <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
-        <a class="link font-medium" href={detailHref}>Details →</a>
-        <div class="flex items-center gap-3 text-ink-400 dark:text-ink-300">
-          <a class="hover:text-accent dark:hover:text-accent-dark" href={p.link} target="_blank" rel="noopener">Open ↗</a>
-          <a class="hover:text-accent dark:hover:text-accent-dark" href={editUrl} target="_blank" rel="noopener">Edit</a>
+      <Show when={expanded()}>
+        <div class="mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60 space-y-3">
+          {/* Quick action row */}
+          <div class="flex flex-wrap items-center gap-2 text-xs">
+            <a
+              class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md bg-accent text-paper-50 dark:bg-accent-dark dark:text-ink-900 hover:opacity-90 font-medium"
+              href={p.link} target="_blank" rel="noopener"
+            >
+              <span>Open paper</span><span aria-hidden="true">↗</span>
+            </a>
+            <Show when={!!p.arxivId}>
+              <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={`https://arxiv.org/abs/${p.arxivId}`} target="_blank" rel="noopener">arXiv</a>
+            </Show>
+            <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={detailHref}>Permalink</a>
+            <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={editUrl} target="_blank" rel="noopener">Edit on GitHub</a>
+            <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={reportUrl} target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="12" height="12" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+              Report issue
+            </a>
+          </div>
+
+          {/* BibTeX block */}
+          <details class="group">
+            <summary class="text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-400 dark:text-ink-300 cursor-pointer hover:text-accent dark:hover:text-accent-dark inline-flex items-center gap-1.5">
+              <svg viewBox="0 0 16 16" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="transition-transform group-open:rotate-90" aria-hidden="true"><path d="M5 3l5 5-5 5"/></svg>
+              BibTeX (auto-generated)
+            </summary>
+            <div class="relative mt-2">
+              <pre class="p-3 pr-12 rounded-md bg-paper-200/40 dark:bg-ink-800 text-[11px] overflow-x-auto font-mono text-ink-600 dark:text-ink-100 border border-paper-300/60 dark:border-ink-600/60 leading-snug">{buildBibtex(p)}</pre>
+              <button
+                type="button"
+                class="absolute top-2 right-2 text-[10px] uppercase tracking-wider px-2 py-1 rounded bg-paper-50 dark:bg-nightbg-soft border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200 dark:hover:bg-ink-700/40"
+                onClick={copyBibtex}
+                aria-label="Copy BibTeX"
+              >
+                {bibCopied() ? 'Copied' : 'Copy'}
+              </button>
+            </div>
+            <p class="mt-1 text-[11px] text-ink-400 dark:text-ink-300">Synthesized from list metadata; verify before citing.</p>
+          </details>
         </div>
-      </div>
+      </Show>
+
+      <Show when={!expanded()}>
+        <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
+          <button
+            class="link font-medium"
+            onClick={() => setExpanded(true)}
+            type="button"
+          >Expand ↓</button>
+          <div class="flex items-center gap-3 text-ink-400 dark:text-ink-300">
+            <a class="hover:text-accent dark:hover:text-accent-dark" href={p.link} target="_blank" rel="noopener">Open ↗</a>
+            <a class="hover:text-accent dark:hover:text-accent-dark" href={detailHref}>Permalink</a>
+          </div>
+        </div>
+      </Show>
     </article>
   );
 }
