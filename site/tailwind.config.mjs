@@ -44,16 +44,24 @@ export default {
       },
       fontFamily: {
         sans: [
+          '"IBM Plex Sans"',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',
           'Segoe UI',
-          'Inter',
           'Helvetica',
-          'Arial',
           'sans-serif',
         ],
+        display: [
+          '"Fraunces Variable"',
+          'ui-serif',
+          'Iowan Old Style',
+          'Charter',
+          'Georgia',
+          'serif',
+        ],
         serif: [
+          '"Fraunces Variable"',
           'ui-serif',
           'Iowan Old Style',
           'Charter',
@@ -61,13 +69,16 @@ export default {
           'serif',
         ],
         mono: [
+          '"IBM Plex Mono"',
           'ui-monospace',
           'SFMono-Regular',
           'Menlo',
           'Monaco',
-          'Consolas',
           'monospace',
         ],
+      },
+      fontFeatureSettings: {
+        'tabular-nums': '"tnum"',
       },
       maxWidth: {
         'reading': '72ch',

@@ -19,13 +19,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   title="Browse all GUI agent papers"
   description={`Search and filter ${canonical.length}+ GUI agent papers by environment (web, mobile, desktop, general GUI), keyword, author, institution, year, and venue. Includes computer-use agents, GUI grounding, benchmarks, and datasets.`}
 >
-  <section class="mx-auto max-w-7xl px-4 sm:px-6 py-8">
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 py-8 reveal-stagger">
     <div class="mb-8 flex flex-wrap items-end gap-4 justify-between">
       <div>
         <p class="heading-eyebrow">Browse</p>
-        <h1 class="text-3xl font-semibold tracking-tight mt-1 text-ink-700 dark:text-ink-50">All papers</h1>
-        <p class="text-ink-500 dark:text-ink-200 mt-1.5 max-w-2xl">
-          {canonical.length} canonical papers — search across titles, authors, institutions, TLDRs, and keywords. Click any chip to drill in.
+        <h1 class="display-lg mt-2 text-ink-700 dark:text-ink-50">All papers</h1>
+        <p class="text-ink-500 dark:text-ink-200 mt-2 max-w-2xl">
+          <span class="font-display tabular-nums text-ink-700 dark:text-ink-50" style="font-variation-settings:'opsz' 18,'SOFT' 100,'wght' 600">{canonical.length}</span>
+          canonical papers — search across titles, authors, institutions, TLDRs, and keywords. Click any chip to drill in.
         </p>
       </div>
     </div>

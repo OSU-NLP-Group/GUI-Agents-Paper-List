@@ -603,7 +603,7 @@ function PaperCardClient(props: CardProps) {
     <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''} ${expanded() ? 'border-paper-400/80 dark:border-ink-400/40' : ''}`}>
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
-          <h3 class="text-base sm:text-lg font-semibold leading-snug text-ink-700 dark:text-ink-50">
+          <h3 class="display-md text-ink-700 dark:text-ink-50 leading-tight">
             <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{p.title}</a>
           </h3>
           <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words">
@@ -639,7 +639,7 @@ function PaperCardClient(props: CardProps) {
       </div>
 
       <p class="mt-2 text-xs text-ink-400 dark:text-ink-300">
-        <span>{p.date}</span>
+        <span class="editorial-italic text-[13px] tabular-nums text-ink-500 dark:text-ink-200">{p.date}</span>
         <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
         <span>{p.publisher}</span>
         <Show when={p.institutions.length > 0}>

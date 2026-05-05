@@ -1,14 +1,29 @@
+/* Webfonts — full variable Fraunces (opsz axis) + IBM Plex Sans/Mono */
+@import "@fontsource-variable/fraunces/index.css";
+@import "@fontsource-variable/fraunces/opsz-italic.css";
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-sans/400-italic.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   color-scheme: light;
+  --font-display: 'Fraunces Variable', ui-serif, 'Iowan Old Style', Charter, Georgia, serif;
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
 }
 
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: var(--font-sans);
+  font-feature-settings: 'ss01', 'ss02', 'cv01', 'cv03';
 }
 
 html.dark {
@@ -19,6 +34,49 @@ html.dark {
 html, body {
   background-color: #f7efdf; /* paper.100 */
   color: #23211c; /* ink.700 */
+  font-family: var(--font-sans);
+}
+
+/* Display typography uses Fraunces with the optical-size axis pushed for
+   large headlines. The opsz/SOFT/wght axes are dialed in per role. */
+.font-display, h1.font-display, h2.font-display, .display-xl, .display-lg, .display-md {
+  font-family: var(--font-display);
+  font-feature-settings: 'ss01', 'tnum';
+  letter-spacing: -0.02em;
+}
+.display-xl {
+  font-family: var(--font-display);
+  font-weight: 480;
+  font-size: clamp(2.6rem, 6vw, 4.6rem);
+  line-height: 1.0;
+  letter-spacing: -0.035em;
+  font-variation-settings: 'opsz' 144, 'SOFT' 30, 'wght' 480;
+}
+.display-lg {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  font-variation-settings: 'opsz' 100, 'SOFT' 30, 'wght' 520;
+}
+.display-md {
+  font-family: var(--font-display);
+  font-weight: 540;
+  font-size: 1.5rem;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  font-variation-settings: 'opsz' 36, 'SOFT' 30, 'wght' 540;
+}
+.tabular-nums {
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+}
+/* Italic Fraunces for editorial accents (paper dates, etc.) */
+.editorial-italic {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-variation-settings: 'opsz' 14, 'SOFT' 100, 'wght' 380;
+  letter-spacing: 0;
 }
 
 html.dark, html.dark body {
@@ -72,13 +130,22 @@ html.dark, html.dark body {
   .card {
     @apply rounded-lg border border-paper-300/60 dark:border-ink-600/60
            bg-paper-50/80 dark:bg-nightbg-soft
-           hover:border-paper-400/80 dark:hover:border-ink-400/60
-           transition-colors;
+           transition-all duration-200 ease-out;
+    box-shadow: 0 1px 0 rgba(35, 33, 28, 0.02);
+  }
+  .card:hover {
+    @apply border-paper-400/80 dark:border-ink-400/60;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px -12px rgba(35, 33, 28, 0.10), 0 1px 0 rgba(35, 33, 28, 0.04);
+  }
+  :global(html.dark) .card:hover {
+    box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.02) inset;
   }
 
   .heading-eyebrow {
-    @apply text-xs font-semibold tracking-[0.18em] uppercase
+    @apply text-[11px] font-medium tracking-[0.22em] uppercase
            text-ink-400 dark:text-ink-300;
+    font-feature-settings: 'tnum';
   }
 
   .clamp-3 {
@@ -99,6 +166,43 @@ html:not(.dark) body::before {
   background-image:
     radial-gradient(circle at 20% 10%, rgba(160,140,100,0.06), transparent 40%),
     radial-gradient(circle at 80% 80%, rgba(120,100,70,0.05), transparent 45%);
+}
+
+/* Page-load entrance — staggered reveal driven entirely by CSS so it
+   runs even before JS hydrates. Children with .reveal-stagger > * receive
+   incrementing animation delays. */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal,
+.reveal-stagger > * {
+  opacity: 0;
+  animation: rise 720ms cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+.reveal { animation-delay: 60ms; }
+.reveal-stagger > *:nth-child(1) { animation-delay: 80ms; }
+.reveal-stagger > *:nth-child(2) { animation-delay: 180ms; }
+.reveal-stagger > *:nth-child(3) { animation-delay: 280ms; }
+.reveal-stagger > *:nth-child(4) { animation-delay: 380ms; }
+.reveal-stagger > *:nth-child(5) { animation-delay: 480ms; }
+.reveal-stagger > *:nth-child(6) { animation-delay: 580ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal-stagger > * {
+    animation: none;
+    opacity: 1;
+  }
+  .card { transition: none !important; transform: none !important; }
+}
+
+/* Decorative editorial rule */
+.rule {
+  position: relative;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.12;
 }
 
 /* scrollbar */
