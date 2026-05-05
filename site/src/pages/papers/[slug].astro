@@ -89,21 +89,55 @@ const jsonLd = [
 ];
 
 function bibKey(p: Paper): string {
-  const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '');
+  const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '') || 'anon';
   const titleWord = p.title.split(/\s+/).find((w) => w.length > 3)?.toLowerCase().replace(/[^a-z0-9]/g, '') ?? 'paper';
-  return `${lastName}${p.year}${titleWord}`;
+  const year = p.year > 0 ? p.year : '';
+  return `${lastName}${year}${titleWord}`;
 }
-function venue(p: Paper): string {
-  const m = /^([A-Za-z\-\s]+)\s+(\d{4})/.exec(p.publisher);
-  return m ? m[1].trim() : p.publisher;
+function escBib(s: string): string {
+  return s.replace(/\\/g, '\\textbackslash ').replace(/([&%$#_{}])/g, '\\$1').replace(/~/g, '\\~{}').replace(/\^/g, '\\^{}');
 }
-const bibtex = `@inproceedings{${bibKey(paper)},
-  title={${paper.title}},
-  author={${paper.authors.join(' and ')}},
-  year={${paper.year}},
-  booktitle={${venue(paper)}},
-  url={${paper.link}}
-}`;
+function buildBib(p: Paper): string {
+  const key = bibKey(p);
+  const authors = p.authors.length > 0 ? p.authors.map(escBib).join(' and ') : 'Unknown';
+  const titleEsc = escBib(p.title);
+  const year = p.year > 0 ? String(p.year) : '';
+  let venue = (p.publisher || '').trim();
+  venue = venue.replace(/\s*\([^)]*\)\s*$/g, '').trim();
+  const isArxivOnly = !venue || /^arxiv$/i.test(venue);
+  const isJournal = /^(TMLR|JMLR|TPAMI|TASLP|TACL|Nature|Science|PNAS|IEEE\s|ACM\s)/i.test(venue);
+
+  const f: Array<[string, string]> = [];
+  f.push(['title', `{${titleEsc}}`]);
+  f.push(['author', `{${authors}}`]);
+  if (year) f.push(['year', `{${year}}`]);
+  let kind = '@inproceedings';
+  if (isArxivOnly && p.arxivId) {
+    kind = '@misc';
+    f.push(['eprint', `{${p.arxivId}}`]);
+    f.push(['archivePrefix', `{arXiv}`]);
+    f.push(['url', `{https://arxiv.org/abs/${p.arxivId}}`]);
+  } else if (isArxivOnly) {
+    kind = '@misc';
+    f.push(['howpublished', `{${escBib(p.publisher || 'Preprint')}}`]);
+    f.push(['url', `{${p.link}}`]);
+  } else if (isJournal) {
+    kind = '@article';
+    f.push(['journal', `{${escBib(venue)}}`]);
+    if (p.arxivId) f.push(['eprint', `{${p.arxivId}}`]);
+    f.push(['url', `{${p.link}}`]);
+  } else {
+    f.push(['booktitle', `{${escBib(venue)}}`]);
+    if (p.arxivId) {
+      f.push(['eprint', `{${p.arxivId}}`]);
+      f.push(['archivePrefix', `{arXiv}`]);
+    }
+    f.push(['url', `{${p.link}}`]);
+  }
+  const indented = f.map(([k, v]) => `  ${k} = ${v}`).join(',\n');
+  return `${kind}{${key},\n${indented}\n}`;
+}
+const bibtex = buildBib(paper);
 
 const issueBody = [
   `**Paper title:** ${paper.title}`,
@@ -183,6 +217,16 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
       {paper.arxivId && (
         <a href={`https://arxiv.org/abs/${paper.arxivId}`} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">arXiv</a>
       )}
+      <button
+        type="button"
+        id="copy-bib-btn"
+        data-bib={bibtex}
+        class="btn-ghost border border-paper-300/80 dark:border-ink-600/60 inline-flex items-center gap-1.5"
+        aria-label="Copy BibTeX to clipboard"
+      >
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span id="copy-bib-label">Copy BibTeX</span>
+      </button>
       <a href={editUrl} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">Edit on GitHub</a>
       <a href={reportUrl} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
@@ -190,13 +234,32 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
       </a>
     </section>
 
-    <section class="mt-10">
-      <details class="group">
-        <summary class="heading-eyebrow cursor-pointer hover:text-accent dark:hover:text-accent-dark">BibTeX (auto-generated)</summary>
-        <pre class="mt-2 p-4 rounded-md bg-paper-200/40 dark:bg-ink-800 text-xs overflow-x-auto font-mono text-ink-600 dark:text-ink-100 border border-paper-300/60 dark:border-ink-600/60">{bibtex}</pre>
-        <p class="mt-1 text-xs text-ink-400">Synthesized from list metadata; verify before citing.</p>
-      </details>
-    </section>
+    <script is:inline>
+      (function () {
+        var btn = document.getElementById('copy-bib-btn');
+        var label = document.getElementById('copy-bib-label');
+        if (!btn || !label) return;
+        btn.addEventListener('click', function () {
+          var bib = btn.getAttribute('data-bib') || '';
+          var done = function () {
+            label.textContent = 'BibTeX copied';
+            setTimeout(function () { label.textContent = 'Copy BibTeX'; }, 1600);
+          };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(bib).then(done).catch(function () {
+              // fallback
+              var ta = document.createElement('textarea');
+              ta.value = bib; document.body.appendChild(ta); ta.select();
+              try { document.execCommand('copy'); done(); } finally { ta.remove(); }
+            });
+          } else {
+            var ta = document.createElement('textarea');
+            ta.value = bib; document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); done(); } finally { ta.remove(); }
+          }
+        });
+      })();
+    </script>
 
     {related.length > 0 && (
       <section class="mt-12">

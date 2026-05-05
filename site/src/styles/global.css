@@ -37,46 +37,31 @@ html, body {
   font-family: var(--font-sans);
 }
 
-/* Display typography uses Fraunces with the optical-size axis pushed for
-   large headlines. The opsz/SOFT/wght axes are dialed in per role. */
-.font-display, h1.font-display, h2.font-display, .display-xl, .display-lg, .display-md {
+/* Display typography — Fraunces for headings only.
+   Single optical-size + weight per role, no variation-axis gymnastics. */
+.font-display, .display-xl, .display-lg, .display-md {
   font-family: var(--font-display);
-  font-feature-settings: 'ss01', 'tnum';
-  letter-spacing: -0.02em;
+  font-feature-settings: 'ss01';
+  letter-spacing: -0.015em;
+  font-weight: 520;
 }
 .display-xl {
-  font-family: var(--font-display);
-  font-weight: 480;
-  font-size: clamp(2.6rem, 6vw, 4.6rem);
-  line-height: 1.0;
-  letter-spacing: -0.035em;
-  font-variation-settings: 'opsz' 144, 'SOFT' 30, 'wght' 480;
-}
-.display-lg {
-  font-family: var(--font-display);
-  font-weight: 500;
-  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
   line-height: 1.05;
   letter-spacing: -0.025em;
-  font-variation-settings: 'opsz' 100, 'SOFT' 30, 'wght' 520;
+}
+.display-lg {
+  font-size: clamp(1.8rem, 3.6vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 .display-md {
-  font-family: var(--font-display);
-  font-weight: 540;
-  font-size: 1.5rem;
-  line-height: 1.15;
-  letter-spacing: -0.015em;
-  font-variation-settings: 'opsz' 36, 'SOFT' 30, 'wght' 540;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.012em;
 }
 .tabular-nums {
   font-feature-settings: 'tnum' 1, 'lnum' 1;
-}
-/* Italic Fraunces for editorial accents (paper dates, etc.) */
-.editorial-italic {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-variation-settings: 'opsz' 14, 'SOFT' 100, 'wght' 380;
-  letter-spacing: 0;
 }
 
 html.dark, html.dark body {

@@ -56,20 +56,17 @@ const jsonLd = [
   description={description}
   jsonLd={jsonLd}
 >
-  {/* Hero — editorial display type, staggered reveal */}
+  {/* Hero */}
   <section class="mx-auto max-w-5xl px-4 sm:px-6 pt-20 sm:pt-28 pb-12 reveal-stagger">
-    <p class="heading-eyebrow">A curated paper list · est. 2024</p>
-    <h1 class="display-xl mt-5 text-ink-700 dark:text-ink-50 max-w-4xl">
-      Research on <em class="not-italic text-accent dark:text-accent-dark" style="font-variation-settings:'opsz' 144,'SOFT' 100,'wght' 480">GUI agents</em>,
-      <span class="block sm:inline italic" style="font-variation-settings:'opsz' 144,'SOFT' 100,'wght' 380">kept current</span>
-      and easy to search.
+    <p class="heading-eyebrow">A curated paper list</p>
+    <h1 class="display-xl mt-4 text-ink-700 dark:text-ink-50 max-w-4xl">
+      Research on <span class="text-accent dark:text-accent-dark">GUI agents</span>, kept up to date and easy to search.
     </h1>
-    <p class="mt-7 max-w-2xl text-lg text-ink-500 dark:text-ink-200 leading-relaxed">
-      <span class="display-md font-display tabular-nums text-ink-700 dark:text-ink-50" style="font-variation-settings:'opsz' 36,'SOFT' 100,'wght' 600">{canonical.length}</span>
-      papers spanning models, frameworks, benchmarks, datasets, GUI grounding, planning, safety, and reinforcement learning.
+    <p class="mt-6 max-w-2xl text-lg text-ink-500 dark:text-ink-200 leading-relaxed">
+      <strong class="tabular-nums text-ink-700 dark:text-ink-50">{canonical.length}</strong> papers spanning models, frameworks, benchmarks, datasets, GUI grounding, planning, safety, and reinforcement learning.
     </p>
 
-    <div class="mt-9 flex flex-wrap items-center gap-3">
+    <div class="mt-8 flex flex-wrap items-center gap-3">
       <a href={`${base}/papers`} class="btn-primary text-base px-5 py-2.5">Browse all papers →</a>
       <a href={`${base}/stats`} class="btn-ghost border border-paper-300/80 dark:border-ink-600/60 px-4 py-2.5 text-base">View stats</a>
     </div>
@@ -90,10 +87,7 @@ const jsonLd = [
           <span aria-hidden="true" class="text-2xl shrink-0 self-center">{ENV_EMOJI[env]}</span>
           <div class="min-w-0 flex-1">
             <div class="font-semibold text-ink-700 dark:text-ink-50">{env}</div>
-            <div class="text-sm text-ink-400 dark:text-ink-300 mt-0.5 tabular-nums">
-              <span class="font-display text-ink-600 dark:text-ink-100" style="font-variation-settings:'opsz' 18,'SOFT' 100,'wght' 540">{envCount[env] ?? 0}</span>
-              <span class="ml-1">papers</span>
-            </div>
+            <div class="text-sm text-ink-400 dark:text-ink-300 mt-0.5 tabular-nums">{envCount[env] ?? 0} papers</div>
           </div>
           <span aria-hidden="true" class="text-ink-300 dark:text-ink-400 group-hover:text-accent dark:group-hover:text-accent-dark transition-colors">→</span>
         </a>

@@ -537,23 +537,84 @@ interface CardProps {
   onChip: (kw: string) => void;
 }
 
+// LaTeX-ready BibTeX. Three cases:
+//   1. arXiv-only (no formal venue) → @misc with eprint / archivePrefix /
+//      primaryClass; never include booktitle.
+//   2. Conference / workshop publication → @inproceedings with normalized
+//      booktitle (no "(Poster)" / "(Oral)" / "(Spotlight)" / etc.).
+//   3. Journal-like venue (TMLR, JMLR, …) → @article with journal field.
+// Title is double-braced so LaTeX preserves capitalization on names like
+// "GUI", "OSWorld", "SeeAct".
 function bibKey(p: BrowserPaper): string {
-  const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '');
+  const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '') || 'anon';
   const titleWord = p.title.split(/\s+/).find((w) => w.length > 3)?.toLowerCase().replace(/[^a-z0-9]/g, '') ?? 'paper';
-  return `${lastName}${p.year}${titleWord}`;
+  const year = p.year > 0 ? p.year : '';
+  return `${lastName}${year}${titleWord}`;
 }
-function venueShort(p: BrowserPaper): string {
-  const m = /^([A-Za-z\-\s]+)\s+(\d{4})/.exec(p.publisher);
-  return m ? m[1].trim() : p.publisher;
+
+function escapeBibValue(s: string): string {
+  // BibTeX special chars that are safer escaped inside a brace value.
+  return s
+    .replace(/\\/g, '\\textbackslash ')
+    .replace(/([&%$#_{}])/g, '\\$1')
+    .replace(/~/g, '\\~{}')
+    .replace(/\^/g, '\\^{}');
 }
+
+function normalizeBibVenue(publisher: string): string {
+  let v = publisher.trim();
+  v = v.replace(/\s*\([^)]*\)\s*$/g, '').trim();          // drop (Poster) etc.
+  return v;
+}
+
+const JOURNAL_VENUES = /^(TMLR|JMLR|TPAMI|TASLP|TACL|Nature|Science|PNAS|IEEE\s|ACM\s)/i;
+
 function buildBibtex(p: BrowserPaper): string {
-  return `@inproceedings{${bibKey(p)},
-  title={${p.title}},
-  author={${p.authors.join(' and ')}},
-  year={${p.year}},
-  booktitle={${venueShort(p)}},
-  url={${p.link}}
-}`;
+  const key = bibKey(p);
+  const authors = p.authors.length > 0 ? p.authors.map(escapeBibValue).join(' and ') : 'Unknown';
+  const titleEsc = escapeBibValue(p.title);
+  const year = p.year > 0 ? String(p.year) : '';
+
+  const venue = normalizeBibVenue(p.publisher || '');
+  const isArxivOnly = !venue || /^arxiv$/i.test(venue);
+  const isJournal = JOURNAL_VENUES.test(venue);
+
+  const fields: Array<[string, string]> = [];
+  fields.push(['title', `{${titleEsc}}`]);
+  fields.push(['author', `{${authors}}`]);
+  if (year) fields.push(['year', `{${year}}`]);
+
+  if (isArxivOnly && p.arxivId) {
+    fields.push(['eprint', `{${p.arxivId}}`]);
+    fields.push(['archivePrefix', `{arXiv}`]);
+    // primaryClass is a best-guess; we don't have it parsed, so leave omitted.
+    fields.push(['url', `{https://arxiv.org/abs/${p.arxivId}}`]);
+    return formatBib('@misc', key, fields);
+  }
+  if (isArxivOnly) {
+    fields.push(['howpublished', `{${escapeBibValue(p.publisher || 'Preprint')}}`]);
+    fields.push(['url', `{${p.link}}`]);
+    return formatBib('@misc', key, fields);
+  }
+  if (isJournal) {
+    fields.push(['journal', `{${escapeBibValue(venue)}}`]);
+    if (p.arxivId) fields.push(['eprint', `{${p.arxivId}}`]);
+    fields.push(['url', `{${p.link}}`]);
+    return formatBib('@article', key, fields);
+  }
+  // Conference / workshop default
+  fields.push(['booktitle', `{${escapeBibValue(venue)}}`]);
+  if (p.arxivId) {
+    fields.push(['eprint', `{${p.arxivId}}`]);
+    fields.push(['archivePrefix', `{arXiv}`]);
+  }
+  fields.push(['url', `{${p.link}}`]);
+  return formatBib('@inproceedings', key, fields);
+}
+
+function formatBib(kind: string, key: string, fields: Array<[string, string]>): string {
+  const indented = fields.map(([k, v]) => `  ${k} = ${v}`).join(',\n');
+  return `${kind}{${key},\n${indented}\n}`;
 }
 function buildReportUrl(p: BrowserPaper): string {
   const issueBody = [
@@ -603,7 +664,7 @@ function PaperCardClient(props: CardProps) {
     <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''} ${expanded() ? 'border-paper-400/80 dark:border-ink-400/40' : ''}`}>
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
-          <h3 class="display-md text-ink-700 dark:text-ink-50 leading-tight">
+          <h3 class="text-base sm:text-[17px] font-semibold leading-snug text-ink-700 dark:text-ink-50 tracking-[-0.005em]">
             <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{p.title}</a>
           </h3>
           <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words">
@@ -638,8 +699,8 @@ function PaperCardClient(props: CardProps) {
         </div>
       </div>
 
-      <p class="mt-2 text-xs text-ink-400 dark:text-ink-300">
-        <span class="editorial-italic text-[13px] tabular-nums text-ink-500 dark:text-ink-200">{p.date}</span>
+      <p class="mt-2 text-xs text-ink-400 dark:text-ink-300 tabular-nums">
+        <span>{p.date}</span>
         <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
         <span>{p.publisher}</span>
         <Show when={p.institutions.length > 0}>
@@ -676,8 +737,8 @@ function PaperCardClient(props: CardProps) {
       </Show>
 
       <Show when={expanded()}>
-        <div class="mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60 space-y-3">
-          {/* Quick action row */}
+        <div class="mt-4 pt-4 border-t border-paper-300/60 dark:border-ink-600/60">
+          {/* Single action row — primary actions + Copy BibTeX */}
           <div class="flex flex-wrap items-center gap-2 text-xs">
             <a
               class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md bg-accent text-paper-50 dark:bg-accent-dark dark:text-ink-900 hover:opacity-90 font-medium"
@@ -688,6 +749,15 @@ function PaperCardClient(props: CardProps) {
             <Show when={!!p.arxivId}>
               <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={`https://arxiv.org/abs/${p.arxivId}`} target="_blank" rel="noopener">arXiv</a>
             </Show>
+            <button
+              type="button"
+              class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40"
+              onClick={copyBibtex}
+              aria-label="Copy BibTeX to clipboard"
+            >
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span>{bibCopied() ? 'BibTeX copied' : 'Copy BibTeX'}</span>
+            </button>
             <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={detailHref}>Permalink</a>
             <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={editUrl} target="_blank" rel="noopener">Edit on GitHub</a>
             <a class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" href={reportUrl} target="_blank" rel="noopener">
@@ -695,26 +765,6 @@ function PaperCardClient(props: CardProps) {
               Report issue
             </a>
           </div>
-
-          {/* BibTeX block */}
-          <details class="group">
-            <summary class="text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-400 dark:text-ink-300 cursor-pointer hover:text-accent dark:hover:text-accent-dark inline-flex items-center gap-1.5">
-              <svg viewBox="0 0 16 16" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="transition-transform group-open:rotate-90" aria-hidden="true"><path d="M5 3l5 5-5 5"/></svg>
-              BibTeX (auto-generated)
-            </summary>
-            <div class="relative mt-2">
-              <pre class="p-3 pr-12 rounded-md bg-paper-200/40 dark:bg-ink-800 text-[11px] overflow-x-auto font-mono text-ink-600 dark:text-ink-100 border border-paper-300/60 dark:border-ink-600/60 leading-snug">{buildBibtex(p)}</pre>
-              <button
-                type="button"
-                class="absolute top-2 right-2 text-[10px] uppercase tracking-wider px-2 py-1 rounded bg-paper-50 dark:bg-nightbg-soft border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200 dark:hover:bg-ink-700/40"
-                onClick={copyBibtex}
-                aria-label="Copy BibTeX"
-              >
-                {bibCopied() ? 'Copied' : 'Copy'}
-              </button>
-            </div>
-            <p class="mt-1 text-[11px] text-ink-400 dark:text-ink-300">Synthesized from list metadata; verify before citing.</p>
-          </details>
         </div>
       </Show>
 
