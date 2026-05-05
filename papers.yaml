@@ -16272,6 +16272,7 @@
     publisher_page: https://proceedings.mlr.press/v267/zhou25ah.html
     homepage: https://proceedings.mlr.press/v267/zhou25ah.html
     code: https://github.com/amazon-science/PAE
+    arxiv: https://arxiv.org/abs/2412.13194
   bibtex: |-
     @inproceedings{zhou2024proposeragentevaluator,
       title = {Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents},
@@ -16281,6 +16282,7 @@
       url = {https://proceedings.mlr.press/v267/zhou25ah.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2412.13194'
 - title: 'Iris: Breaking GUI Complexity with Adaptive Focus and Self-Refining'
   link: https://arxiv.org/abs/2412.10342
   authors:
@@ -16533,6 +16535,7 @@
     ShowUI is a lightweight vision-language-action model for GUI visual agents that targets efficient screenshot perception and action-history modeling. It introduces UI-guided visual token selection and interleaved vision-language-action streaming, reaching 75.1% zero-shot screenshot grounding while remaining competitive on web and mobile GUI tasks.
   sources:
     publisher_page: https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html
+    arxiv: https://arxiv.org/abs/2411.17465
   bibtex: |-
     @inproceedings{lin2024showui,
       title = {ShowUI: One Vision-Language-Action Model for GUI Visual Agent},
@@ -16542,6 +16545,7 @@
       url = {https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2411.17465'
 - title: 'AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations'
   link: https://aclanthology.org/2025.acl-long.1008/
   authors:
@@ -18229,6 +18233,7 @@
     publisher_page: https://proceedings.mlr.press/v267/bonatti25a.html
     homepage: https://proceedings.mlr.press/v267/bonatti25a.html
     code: https://github.com/microsoft/WindowsAgentArena
+    arxiv: https://arxiv.org/abs/2409.08264
   bibtex: |-
     @inproceedings{bonatti2024windows,
       title = {Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale},
@@ -18238,6 +18243,7 @@
       url = {https://proceedings.mlr.press/v267/bonatti25a.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2409.08264'
 - title: Agent Workflow Memory
   link: https://proceedings.mlr.press/v267/wang25bx.html
   authors:
@@ -18265,6 +18271,7 @@
     publisher_page: https://proceedings.mlr.press/v267/wang25bx.html
     homepage: https://proceedings.mlr.press/v267/wang25bx.html
     code: https://github.com/mlresearch/v267
+    arxiv: https://arxiv.org/abs/2409.07429
   bibtex: |-
     @inproceedings{wang2024agent,
       title = {Agent Workflow Memory},
@@ -18274,6 +18281,7 @@
       url = {https://proceedings.mlr.press/v267/wang25bx.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2409.07429'
 - title: 'From Grounding to Planning: Benchmarking Bottlenecks in Web Agents'
   link: https://ebooks.iospress.nl/doi/10.3233/FAIA251390
   authors:
@@ -18300,6 +18308,7 @@
   sources:
     publisher_page: https://ebooks.iospress.nl/doi/10.3233/FAIA251390
     homepage: https://cris.haifa.ac.il/en/publications/from-grounding-to-planning-benchmarking-bottlenecks-inweb-agents/
+    arxiv: https://arxiv.org/abs/2409.01927
   bibtex: |-
     @inproceedings{shlomov2024from,
       title = {From Grounding to Planning: Benchmarking Bottlenecks in Web Agents},
@@ -18309,6 +18318,7 @@
       url = {https://ebooks.iospress.nl/doi/10.3233/FAIA251390}
     }
   bibtex_confirmed: false
+  arxiv_id: '2409.01927'
 - title: 'WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/34505
   authors:
@@ -18336,6 +18346,8 @@
     WebPilot is a web-agent system that splits decision making into a global planning phase and a local MCTS-based execution phase to handle uncertain web environments. On WebArena and MiniWoB++, it reports stronger performance than prior tree-search baselines, including a 93% relative success-rate gain on WebArena with GPT-4.
   sources:
     publisher_page: https://ojs.aaai.org/index.php/AAAI/article/view/34505
+    arxiv: https://arxiv.org/abs/2408.15978
+    homepage: https://ojs.aaai.org/index.php/AAAI/article/view/34505
   bibtex: |-
     @inproceedings{zhang2024webpilot,
       title = {WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration},
@@ -18345,6 +18357,7 @@
       url = {https://ojs.aaai.org/index.php/AAAI/article/view/34505}
     }
   bibtex_confirmed: false
+  arxiv_id: '2408.15978'
 - title: 'Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents'
   link: https://arxiv.org/abs/2408.07199
   authors:
@@ -18592,6 +18605,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html
+    arxiv: https://arxiv.org/abs/2407.10956
   bibtex: |-
     @inproceedings{cao2024spider2v,
       title = {Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?},
@@ -18601,6 +18615,7 @@
       url = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2407.10956'
 - title: 'AUITestAgent: Automatic Requirements Oriented GUI Function Testing'
   link: https://arxiv.org/abs/2407.09018
   authors:
@@ -18674,6 +18689,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html
+    arxiv: https://arxiv.org/abs/2407.05291
   bibtex: |-
     @inproceedings{boisvert2024workarena,
       title = {WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks},
@@ -18683,6 +18699,7 @@
       url = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2407.05291'
 - title: 'MobileFlow: A Multimodal LLM for Mobile GUI Agent'
   link: https://arxiv.org/abs/2407.04346
   authors:
@@ -18792,6 +18809,7 @@
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.110/
     code: https://github.com/acl-org/acl-anthology/
+    arxiv: https://arxiv.org/abs/2407.17490
   bibtex: |-
     @inproceedings{chai2024amex,
       title = {AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents},
@@ -18801,6 +18819,7 @@
       url = {https://aclanthology.org/2025.findings-acl.110/}
     }
   bibtex_confirmed: false
+  arxiv_id: '2407.17490'
 - title: 'Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps'
   link: https://arxiv.org/abs/2407.03037
   authors:
@@ -18891,6 +18910,7 @@
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.1113/
     code: https://github.com/acl-org/acl-anthology/
+    arxiv: https://arxiv.org/abs/2407.01511
   bibtex: |-
     @inproceedings{xu2024crab,
       title = {CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents},
@@ -18900,6 +18920,7 @@
       url = {https://aclanthology.org/2025.findings-acl.1113/}
     }
   bibtex_confirmed: false
+  arxiv_id: '2407.01511'
 - title: Tree Search for Language Model Agents
   link: https://arxiv.org/abs/2407.01476
   authors:
@@ -20035,6 +20056,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html
+    arxiv: https://arxiv.org/abs/2404.07972
   bibtex: |-
     @inproceedings{xie2024osworld,
       title = {OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments},
@@ -20044,6 +20066,7 @@
       url = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets_and_Benchmarks_Track.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2404.07972'
 - title: Autonomous Evaluation and Refinement of Digital Agents
   link: https://openreview.net/forum?id=Y9uGznsgIU
   authors:
@@ -20071,6 +20094,7 @@
     This paper studies domain-general automatic evaluators for web-navigation and device-control agents, showing 74.4% to 92.9% agreement with oracle evaluation metrics across popular digital-agent benchmarks. It then uses those evaluators for fine-tuning and inference-time guidance, improving WebArena performance by 29% and device-control settings by around 75% relative.
   sources:
     openreview: https://openreview.net/forum?id=Y9uGznsgIU
+    arxiv: https://arxiv.org/abs/2404.06474
   bibtex: |-
     @inproceedings{pan2024autonomous,
       title = {Autonomous Evaluation and Refinement of Digital Agents},
@@ -20080,6 +20104,7 @@
       url = {https://openreview.net/forum?id=Y9uGznsgIU}
     }
   bibtex_confirmed: false
+  arxiv_id: '2404.06474'
 - title: 'VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?'
   link: https://openreview.net/forum?id=egVSgtJJAx
   authors:
@@ -20147,6 +20172,7 @@
     Ferret-UI is a mobile-screen MLLM that adds an any-resolution screen encoding scheme together with curated training data for elementary UI tasks and advanced reasoning tasks. The paper also releases a benchmark covering those tasks and reports that Ferret-UI outperforms most open UI MLLMs and exceeds GPT-4V on all elementary UI tasks.
   sources:
     homepage: https://eccv.ecva.net/virtual/2024/poster/749
+    arxiv: https://arxiv.org/abs/2404.05719
   bibtex: |-
     @inproceedings{you2024ferretui,
       title = {Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs},
@@ -20156,6 +20182,7 @@
       url = {https://eccv.ecva.net/virtual/2024/poster/749}
     }
   bibtex_confirmed: false
+  arxiv_id: '2404.05719'
 - title: 'AutoWebGLM: A Large Language Model-based Web Navigating Agent'
   link: https://dl.acm.org/doi/10.1145/3637528.3671620
   authors:
@@ -20416,6 +20443,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.findings-acl.539/
     code: https://github.com/acl-org/acl-anthology/
+    arxiv: https://arxiv.org/abs/2402.11941
   bibtex: |-
     @inproceedings{ma2024cocoagent,
       title = {CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation},
@@ -20425,6 +20453,7 @@
       url = {https://aclanthology.org/2024.findings-acl.539}
     }
   bibtex_confirmed: false
+  arxiv_id: '2402.11941'
 - title: 'UFO: A UI-Focused Agent for Windows OS Interaction'
   link: https://aclanthology.org/2025.naacl-long.26/
   authors:
@@ -20680,6 +20709,7 @@
     Mobile-Agent is a mobile device agent that operates from screenshots without relying on XML trees or system metadata. It pairs visual perception with stepwise task decomposition and introduces the Mobile-Eval benchmark for evaluating mobile device operations.
   sources:
     openreview: https://openreview.net/forum?id=jE6pDYCnVF
+    arxiv: https://arxiv.org/abs/2401.16158
   bibtex: |-
     @inproceedings{wang2024mobileagent,
       title = {Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception},
@@ -20689,6 +20719,7 @@
       url = {https://openreview.net/forum?id=jE6pDYCnVF}
     }
   bibtex_confirmed: false
+  arxiv_id: '2401.16158'
 - title: 'WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models'
   link: https://aclanthology.org/2024.acl-long.371/
   authors:
@@ -20719,6 +20750,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.371/
     code: https://github.com/acl-org/acl-anthology/
+    arxiv: https://arxiv.org/abs/2401.13919
   bibtex: |-
     @inproceedings{he2024webvoyager,
       title = {WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models},
@@ -20728,6 +20760,7 @@
       url = {https://aclanthology.org/2024.acl-long.371/}
     }
   bibtex_confirmed: false
+  arxiv_id: '2401.13919'
 - title: 'VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks'
   link: https://aclanthology.org/2024.acl-long.50/
   authors:
@@ -20758,6 +20791,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.50/
     code: https://github.com/acl-org/acl-anthology/
+    arxiv: https://arxiv.org/abs/2401.13649
   bibtex: |-
     @inproceedings{koh2024visualwebarena,
       title = {VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks},
@@ -20767,6 +20801,7 @@
       url = {https://aclanthology.org/2024.acl-long.50/}
     }
   bibtex_confirmed: false
+  arxiv_id: '2401.13649'
 - title: 'SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents'
   link: https://aclanthology.org/2024.acl-long.505/
   authors:
@@ -20799,6 +20834,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.505/
     code: https://github.com/acl-org/acl-anthology/
+    arxiv: https://arxiv.org/abs/2401.10935
   bibtex: |-
     @inproceedings{cheng2024seeclick,
       title = {SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents},
@@ -20808,6 +20844,7 @@
       url = {https://aclanthology.org/2024.acl-long.505/}
     }
   bibtex_confirmed: false
+  arxiv_id: '2401.10935'
 - title: GPT-4V(ision) is a Generalist Web Agent, if Grounded
   link: https://proceedings.mlr.press/v235/zheng24e.html
   authors:
@@ -20835,6 +20872,7 @@
     publisher_page: https://proceedings.mlr.press/v235/zheng24e.html
     homepage: https://proceedings.mlr.press/v235/zheng24e.html
     code: https://github.com/mlresearch/v235
+    arxiv: https://arxiv.org/abs/2401.01614
   bibtex: |-
     @inproceedings{zheng2024gpt4vision,
       title = {GPT-4V(ision) is a Generalist Web Agent, if Grounded},
@@ -20844,6 +20882,7 @@
       url = {https://proceedings.mlr.press/v235/zheng24e.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2401.01614'
 - title: 'WebVLN: Vision-and-Language Navigation on Websites'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/27878
   authors:
@@ -20998,6 +21037,7 @@
     CogAgent is an 18B visual language model specialized for GUI understanding and navigation. It combines low- and high-resolution image encoders, trains on a large GUI-and-OCR dataset, and outperforms HTML-consuming baselines on Mind2Web and AITW using screenshots alone.
   sources:
     publisher_page: https://openaccess.thecvf.com/content/CVPR2024/html/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.html
+    arxiv: https://arxiv.org/abs/2312.08914
   bibtex: |-
     @inproceedings{hong2023cogagent,
       title = {CogAgent: A Visual Language Model for GUI Agents},
@@ -21007,6 +21047,7 @@
       url = {https://openaccess.thecvf.com/content/CVPR2024/html/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2312.08914'
 - title: 'GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation'
   link: https://arxiv.org/abs/2311.07562
   authors:
@@ -21111,6 +21152,7 @@
     SteP is a web-agent framework that composes LLM policies through an explicit control stack rather than a single monolithic prompt. It evaluates on WebArena, MiniWoB++, and a CRM environment, and substantially improves WebArena performance over prior GPT-4-based baselines.
   sources:
     openreview: https://openreview.net/forum?id=5fg0VtRxgi
+    arxiv: https://arxiv.org/abs/2310.03720
   bibtex: |-
     @inproceedings{sodhi2023step,
       title = {SteP: Stacked LLM Policies for Web Actions},
@@ -21120,6 +21162,7 @@
       url = {https://openreview.net/forum?id=5fg0VtRxgi}
     }
   bibtex_confirmed: false
+  arxiv_id: '2310.03720'
 - title: 'You Only Look at Screens: Multimodal Chain-of-Action Agents'
   link: https://aclanthology.org/2024.findings-acl.186/
   authors:
@@ -21304,6 +21347,7 @@
     WebAgent is a modular real-world web agent that decomposes instructions into sub-instructions, summarizes long HTML into task-relevant snippets, and executes generated Python programs on websites. The paper pairs that agent design with HTML-T5, a long-context model for HTML planning and summarization.
   sources:
     openreview: https://openreview.net/forum?id=9JQtrumvg8
+    arxiv: https://arxiv.org/abs/2307.12856
   bibtex: |-
     @inproceedings{gur2023realworld,
       title = {A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis},
@@ -21313,6 +21357,7 @@
       url = {https://openreview.net/forum?id=9JQtrumvg8}
     }
   bibtex_confirmed: false
+  arxiv_id: '2307.12856'
 - title: 'Android in the Wild: A Large-Scale Dataset for Android Device Control'
   link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbbb6308b402fe909c39dd29950c32e0-Abstract-Datasets_and_Benchmarks.html
   authors:
@@ -21485,6 +21530,7 @@
   sources:
     publisher_page: https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html
     homepage: https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html
+    arxiv: https://arxiv.org/abs/2305.11854
   bibtex: |-
     @inproceedings{furuta2023multimodal,
       title = {Multimodal Web Navigation with Instruction-Finetuned Foundation Models},
@@ -21494,6 +21540,7 @@
       url = {https://proceedings.iclr.cc/paper_files/paper/2024/hash/7ef7d8359036afd8c2378d82c21058a4-Abstract-Conference.html}
     }
   bibtex_confirmed: false
+  arxiv_id: '2305.11854'
 - title: 'Mobile-Env: A Universal Platform for Training and Evaluation of Mobile Interaction'
   link: https://arxiv.org/abs/2305.08144
   authors:

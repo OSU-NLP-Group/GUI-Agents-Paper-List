@@ -22,15 +22,12 @@ fi
 cd "$REPO_ROOT"
 
 if [ ! -f "$REPO_ROOT/papers.yaml" ]; then
-  echo "papers.yaml not found — running one-shot migration from ALL_PAPERS.md ..."
-  $RUN scripts/migrate_to_yaml.py
+  echo "Error: papers.yaml not found in $REPO_ROOT" >&2
+  exit 1
 fi
 
-echo "Sorting + regenerating derived artifacts from papers.yaml ..."
-$RUN update_template_or_data/utils/scripts/sort_by_date.py
-
-echo "Assembling README ..."
-$RUN scripts/assemble_readme.py --repo-root "$REPO_ROOT"
+echo "Regenerating derived artifacts from papers.yaml ..."
+$RUN scripts/regen.py
 
 echo
 echo "Generated artifacts are up to date. Review the diff with:"

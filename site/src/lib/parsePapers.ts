@@ -73,14 +73,33 @@ function lastDayOfMonth(y: number, mZeroBased: number): number {
   return new Date(y, mZeroBased + 1, 0).getDate();
 }
 
+/** Expand a YAML date string into the metadata the site needs.
+ *
+ * Accepted forms:
+ *   "YYYY-MM-DD"    full date, day known
+ *   "YYYY-MM"       month known, day unknown   → monthOnly = true
+ *   "YYYY"          year only                  → yearOnly  = true
+ *   ""              missing                    → missing   = true
+ *   "Month DD, YYYY"  legacy display passthrough
+ *
+ * For sorting/histogram we still produce an `iso` placeholder for
+ * partial dates: "YYYY-MM-31" / "YYYY-12-31". The flags let the UI
+ * render "March 2024" / "2024" / "Date unknown" appropriately.
+ */
 function expandDate(raw: string): {
   iso: string;
   year: number;
   month: number;
   monthOnly: boolean;
+  yearOnly: boolean;
+  missing: boolean;
   display: string;
 } {
   const s = (raw ?? '').trim();
+  // Empty / missing
+  if (!s) {
+    return { iso: '', year: 0, month: 0, monthOnly: false, yearOnly: false, missing: true, display: 'Date unknown' };
+  }
   // ISO YYYY-MM-DD
   let m = /^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(s);
   if (m) {
@@ -90,7 +109,8 @@ function expandDate(raw: string): {
     const monthName = MONTHS[monthIdx] ?? 'january';
     return {
       iso: `${year}-${String(monthIdx + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`,
-      year, month: monthIdx + 1, monthOnly: false,
+      year, month: monthIdx + 1,
+      monthOnly: false, yearOnly: false, missing: false,
       display: `${monthName.charAt(0).toUpperCase() + monthName.slice(1)} ${day}, ${year}`,
     };
   }
@@ -103,8 +123,19 @@ function expandDate(raw: string): {
     const monthName = MONTHS[monthIdx] ?? 'january';
     return {
       iso: `${year}-${String(monthIdx + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`,
-      year, month: monthIdx + 1, monthOnly: true,
+      year, month: monthIdx + 1,
+      monthOnly: true, yearOnly: false, missing: false,
       display: `${monthName.charAt(0).toUpperCase() + monthName.slice(1)} ${year}`,
+    };
+  }
+  // Year-only "YYYY"
+  m = /^(\d{4})$/.exec(s);
+  if (m) {
+    const y = parseInt(m[1], 10);
+    return {
+      iso: `${y}-12-31`, year: y, month: 12,
+      monthOnly: false, yearOnly: true, missing: false,
+      display: `${y}`,
     };
   }
   // Month DD, YYYY (legacy display string passthrough)
@@ -116,18 +147,14 @@ function expandDate(raw: string): {
       const year = parseInt(m[3], 10);
       return {
         iso: `${year}-${String(idx + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`,
-        year, month: idx + 1, monthOnly: false,
+        year, month: idx + 1,
+        monthOnly: false, yearOnly: false, missing: false,
         display: s,
       };
     }
   }
-  // Year only
-  m = /\b(20\d{2})\b/.exec(s);
-  if (m) {
-    const y = parseInt(m[1], 10);
-    return { iso: `${y}-12-31`, year: y, month: 12, monthOnly: false, display: s || `${y}` };
-  }
-  return { iso: '0000-01-01', year: 0, month: 0, monthOnly: false, display: s };
+  // Anything else — treat as missing rather than guessing.
+  return { iso: '', year: 0, month: 0, monthOnly: false, yearOnly: false, missing: true, display: 'Date unknown' };
 }
 
 function arrayOfStrings(v: unknown): string[] {

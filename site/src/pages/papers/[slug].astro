@@ -146,7 +146,7 @@ const bibtex = buildBib(paper);
 const issueBody = [
   `**Paper title:** ${paper.title}`,
   `**Paper link:** ${paper.link}`,
-  `**Source line:** ${paper.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${paper.sourceLine}`,
+  `**Source line:** ${paper.source === 'adjacent' ? 'adjacent.yaml' : 'papers.yaml'}#L${paper.sourceLine}`,
   '',
   '### What is incorrect or missing?',
   '<!-- Please describe the issue (e.g., wrong authors, wrong date, wrong publisher, missing keyword, broken link). -->',

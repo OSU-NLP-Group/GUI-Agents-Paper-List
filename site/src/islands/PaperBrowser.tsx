@@ -579,7 +579,10 @@ export default function PaperBrowser(props: Props) {
               { value: 'title-asc',  label: 'Title  A → Z' },
               { value: 'title-desc', label: 'Title  Z → A' },
               { value: 'random',     label: 'Random' },
-              { value: 'relevance',  label: 'Best match', disabled: !q().trim(), hint: q().trim() ? '' : 'type to search' },
+              // "Best match" only makes sense with an active query.
+              ...(q().trim()
+                ? [{ value: 'relevance' as SortKey, label: 'Best match' }]
+                : []),
             ]}
           />
           <div class="text-sm text-ink-400 dark:text-ink-300 ml-auto">
@@ -1140,7 +1143,7 @@ function buildReportUrl(p: BrowserPaper): string {
   const issueBody = [
     `**Paper title:** ${p.title}`,
     `**Paper link:** ${p.link}`,
-    `**Source line:** ${p.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${p.sourceLine}`,
+    `**Source line:** ${p.source === 'adjacent' ? 'adjacent.yaml' : 'papers.yaml'}#L${p.sourceLine}`,
     '',
     '### What is incorrect or missing?',
     '<!-- Please describe the issue (e.g., wrong authors, wrong date, wrong publisher, missing keyword, broken link). -->',

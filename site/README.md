@@ -1,6 +1,6 @@
 # GUI Agents Paper List — Static Site
 
-Astro site that presents `ALL_PAPERS.md` and `ADJACENT_PAPERS.md` as a searchable, filterable web UI. Deployed to GitHub Pages.
+Astro site that presents `papers.yaml` and `adjacent.yaml` as a searchable, filterable web UI. Deployed to GitHub Pages.
 
 The site is a **presentation layer only** — it reads from the markdown source of truth in this repo and never adds metadata of its own.
 
@@ -60,7 +60,7 @@ To enable on first use:
 site/
 ├── src/
 │   ├── lib/
-│   │   ├── parsePapers.ts   # 9-field markdown parser, mirrors sort_by_date.py
+│   │   ├── parsePapers.ts   # YAML loader (papers.yaml + adjacent.yaml)
 │   │   ├── site.ts          # repo URLs, env metadata
 │   │   └── star.ts          # GitHub star fetcher
 │   ├── layouts/Base.astro   # top bar + footer + theme bootstrap

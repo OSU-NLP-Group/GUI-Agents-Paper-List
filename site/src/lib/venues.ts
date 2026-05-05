@@ -143,56 +143,88 @@ export function lookupVenueFamily(head: string): VenueFamily | null {
 /**
  * Normalize a paper publisher string for facet / chart bucketing.
  *
- * The function only collapses a string into a canonical bucket when
- * we are *confident* it's the main track of a known venue. Anything
- * else — workshops, sub-tracks, unknown venues — is preserved as-is
- * so it shows up under its own facet entry. This is intentional: the
- * cost of being conservative is a slightly longer facet list; the
- * cost of being clever was, e.g., merging "LLMAgents @ ICLR 2024"
- * into "ICLR 2024".
+ * Different tracks of the same conference — Findings, Workshops,
+ * Datasets and Benchmarks, Demo, Tutorial, Industry, etc., as well
+ * as the various presentation parentheticals (Poster / Oral /
+ * Spotlight / Highlight) — are all collapsed into the parent venue.
+ * The fundamental bucket is "<venue> <year>".
  *
  * Rules (in order):
- *   1. Empty / arXiv / arxiv → "arXiv"
- *   2. "<family-alias> <year>"            → "<canonical> <year>"
- *      (presentation parentheticals are stripped first)
- *   3. "Findings of <family-alias> <year>" → "Findings of <canonical> <year>"
- *   4. yearless journals (TMLR, JMLR, …)  → canonical
- *   5. anything else                       → original (trimmed)
+ *   1. Empty / "arXiv"                    → "arXiv" (or empty)
+ *   2. Strip trailing presentation tag    "(Poster)" / "(Oral)" / …
+ *   3. "Findings of <family> <year>"      → "<canonical> <year>"
+ *   4. "<X> @ <family> <year>"            → "<canonical> <year>"   (colocated workshops)
+ *   5. "<family> <year> {Workshop|Track|Datasets and Benchmarks|Demo|Tutorial|Industry}…"
+ *                                         → "<canonical> <year>"
+ *   6. "<family> <year>"                  → "<canonical> <year>"
+ *   7. yearless journals (TMLR, JMLR, …)  → canonical
+ *   8. anything else                       → original (trimmed)
+ *
+ * For 3–6 we only collapse when the head matches a known venue
+ * family from VENUE_FAMILIES. Truly bespoke venues fall through to
+ * rule 8 and keep their own bucket.
  */
+const TRACK_TAIL_RE =
+  /\s+(?:Workshop|Workshops|Track|Datasets\s+and\s+Benchmarks(?:\s+Track)?|Demo(?:nstration)?s?|Tutorials?|Industry(?:\s+Track)?|Findings|Co-located|Companion|Late[-\s]?Breaking|Short[-\s]?Paper)s?\b.*$/i;
+
 export function normalizePublisher(raw: string | null | undefined): string {
   const trimmed = (raw ?? '').trim();
   if (!trimmed) return '';
 
   if (/^arxiv$/i.test(trimmed)) return 'arXiv';
 
-  const stripped = stripPresentation(trimmed);
-  if (!stripped) return trimmed;
+  let s = stripPresentation(trimmed);
+  if (!s) return trimmed;
 
-  // "<head> <year>"
-  const m = /^(.+?)\s+(19|20)(\d{2})$/.exec(stripped);
+  // 3. "Findings of <family> <year>"  →  "<family> <year>"
+  let fm = /^Findings of\s+(.+?)\s+(19|20\d{2})$/i.exec(s);
+  if (fm) {
+    const inner = fm[1].trim();
+    const year = fm[2];
+    const fam = lookupVenueFamily(inner);
+    return `${fam ? fam.canonical : inner} ${year}`;
+  }
+
+  // 4. "<X> @ <family> <year>"  →  "<family> <year>"
+  fm = /^(?:.+?)\s+@\s+(.+?)\s+(19|20\d{2})$/i.exec(s);
+  if (fm) {
+    const inner = fm[1].trim();
+    const year = fm[2];
+    const fam = lookupVenueFamily(inner);
+    if (fam) return `${fam.canonical} ${year}`;
+  }
+
+  // 5. "<family> <year> {Workshop|Track|Demo|…} on …"  →  "<family> <year>"
+  //    Try to find "<head> <year>" followed by a track suffix.
+  const trackMatch = /^(.+?)\s+(19|20\d{2})(?=\s+\w)/.exec(s);
+  if (trackMatch && TRACK_TAIL_RE.test(s.slice(trackMatch[0].length))) {
+    const head = trackMatch[1].trim();
+    const year = trackMatch[2];
+    const fam = lookupVenueFamily(head);
+    if (fam && !fam.yearless) return `${fam.canonical} ${year}`;
+  }
+
+  // After stripping a track suffix outright, retry as plain "<family> <year>".
+  const stripped = s.replace(TRACK_TAIL_RE, '').trim();
+  if (stripped !== s) s = stripped;
+
+  // 6. "<head> <year>"
+  const m = /^(.+?)\s+(19|20)(\d{2})$/.exec(s);
   if (m) {
     const head = m[1].trim();
     const year = m[2] + m[3];
-    // 3. "Findings of X 2024"
-    const fm = /^Findings of\s+(.+)$/i.exec(head);
-    if (fm) {
-      const inner = fm[1].trim();
-      const fam = lookupVenueFamily(inner);
-      return `Findings of ${fam ? fam.canonical : inner} ${year}`;
-    }
-    // 2. exact family match
     const fam = lookupVenueFamily(head);
     if (fam && !fam.yearless) return `${fam.canonical} ${year}`;
-    // not a known main-track venue — keep original (workshop / track / etc.)
-    return stripped;
+    // Not a known main-track venue — keep original.
+    return s;
   }
 
-  // 4. yearless journals / preprints (e.g. "TMLR")
-  const fam = lookupVenueFamily(stripped);
+  // 7. yearless journals / preprints (e.g. "TMLR")
+  const fam = lookupVenueFamily(s);
   if (fam && fam.yearless) return fam.canonical;
 
-  // 5. fall through
-  return stripped;
+  // 8. fall through
+  return s;
 }
 
 /** Variant used in BibTeX `journal` / `booktitle` / nothing logic. */

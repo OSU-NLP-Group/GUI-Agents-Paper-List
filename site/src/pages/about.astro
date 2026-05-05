@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         The <a class="link" href={REPO_URL} target="_blank" rel="noopener">GUI Agents Paper List</a> is a curated, openly maintained index of research on agents that interact with graphical user interfaces — on the web, on mobile, on desktop, and across general-GUI settings.
       </p>
       <p>
-        This site is a <strong>presentation layer</strong>: every paper, link, author, and tag here lives in <a class="link" href={`${REPO_RAW_BLOB}/ALL_PAPERS.md`} target="_blank" rel="noopener"><code>ALL_PAPERS.md</code></a>. The site adds search, filters, and visualizations, but the source of truth is the markdown file in the repo.
+        This site is a <strong>presentation layer</strong>: every paper, link, author, and tag here lives in <a class="link" href={`${REPO_RAW_BLOB}/papers.yaml`} target="_blank" rel="noopener"><code>papers.yaml</code></a>. The site adds search, filters, and visualizations, but the source of truth is the structured YAML file in the repo. Each entry also carries an auto-generated BibTeX block and optional source links (OpenReview, publisher page, homepage, code, dataset).
       </p>
 
       <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">Scope</h2>
@@ -39,7 +39,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <ul class="list-disc pl-5 space-y-1.5">
         <li><strong>Suggest a paper</strong>: <a class="link" href={`${REPO_URL}/issues/new`} target="_blank" rel="noopener">open an issue</a> with the title, link, and any relevant details.</li>
         <li><strong>Fix metadata</strong>: every paper card has an "Edit on GitHub" link that takes you to the entry's exact line in the markdown source.</li>
-        <li><strong>Add yourself</strong>: edit <code>ALL_PAPERS.md</code>, run the repo's update script, and submit a PR with the regenerated artifacts. The format is strict; see the contribution guide.</li>
+        <li><strong>Add yourself</strong>: edit <code>papers.yaml</code>, run <code>bash scripts/update_repo.sh</code>, and submit a PR with the regenerated diff. The schema is documented in the repo's <code>CLAUDE.md</code>.</li>
       </ul>
 
       <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">A note on the site</h2>

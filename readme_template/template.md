@@ -17,11 +17,11 @@ What it adds over the raw markdown:
 - **Interactive stats** — quarterly publication trend by environment, top keywords / institutions / authors / venues
 - Warm-paper light theme + dark theme, keyboard shortcuts (`/`, `j`/`k`, `Esc`, `?`), no tracking
 
-The markdown files in this repo remain the source of truth — everything on the website is generated from `ALL_PAPERS.md`.
+The structured store [`papers.yaml`](papers.yaml) (and [`adjacent.yaml`](adjacent.yaml)) is the source of truth — everything on the website and the README is generated from it.
 
-![Quarterly publication trend](update_template_or_data/statistics/quarterly_trend.png)
+![Quarterly publication trend](readme_template/statistics/quarterly_trend.png)
 
-![Top 25 research keywords](update_template_or_data/statistics/keyword_bar_chart.png)
+![Top 25 research keywords](readme_template/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
 {{insert_env_groups_here}}
@@ -37,7 +37,7 @@ The markdown files in this repo remain the source of truth — everything on the
 We welcome contributions from the community!
 
 - **Missing a paper?** Open an [issue](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues) with the paper title, link, and any relevant details — we'll add it.
-- **Want to add papers yourself?** Edit [`ALL_PAPERS.md`](ALL_PAPERS.md), run `./scripts/update_repo.sh`, then submit the full generated diff. See [CLAUDE.md](CLAUDE.md) for the required entry format and local update workflow.
+- **Want to add papers yourself?** Edit [`papers.yaml`](papers.yaml), run `bash scripts/update_repo.sh`, then submit the regenerated diff. See [CLAUDE.md](CLAUDE.md) for the YAML schema and local update workflow.
 - **Spotted an error?** Feel free to open an issue or PR to correct any paper metadata (authors, dates, institutions, etc.).
 
 {{insert_paper_list_section_here}}
