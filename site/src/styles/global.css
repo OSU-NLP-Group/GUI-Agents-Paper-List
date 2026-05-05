@@ -23,7 +23,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: var(--font-sans);
-  font-feature-settings: 'ss01', 'ss02', 'cv01', 'cv03';
+  /* No font-feature-settings here: stylistic-set / character-variant
+     codes (ss01/ss02/cv01/cv03) are face-specific. Applying them
+     globally caused IBM Plex Sans to substitute mangled glyphs for
+     certain uppercase letters (most visibly F and E). Each face's
+     defaults are correct on their own. */
 }
 
 html.dark {

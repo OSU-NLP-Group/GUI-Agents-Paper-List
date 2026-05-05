@@ -179,7 +179,9 @@ export default function StatsCharts(props: Props) {
     const kwCounter = new Map<string, number>();
     for (const p of props.papers) for (const k of p.keywords) kwCounter.set(k, (kwCounter.get(k) ?? 0) + 1);
     const sortedKw = Array.from(kwCounter.entries()).sort((a, b) => b[1] - a[1]);
-    const topBarKw = sortedKw.slice(0, 12);
+    // Top 6 carry ~90% of all keyword mass — wider segments, every
+    // segment labelable with name + count.
+    const topBarKw = sortedKw.slice(0, 6);
     const maxKw = topBarKw[0]?.[1] ?? 1;
     const totalBar = topBarKw.reduce((s, [, v]) => s + v, 0);
     const kwChart = echarts.init(kwEl, null, { renderer: 'canvas' });
@@ -212,13 +214,9 @@ export default function StatsCharts(props: Props) {
           show: true, position: 'inside', align: 'left',
           formatter: (info: any) => {
             const pct = info.value / totalBar;
-            // Wide enough → name + count. Medium → name only.
-            // Narrow → just the count. Very narrow → nothing (rely on tooltip).
-            const name = info.seriesName.length > 14 ? info.seriesName.slice(0, 13) + '…' : info.seriesName;
-            if (pct >= 0.09) return `{n|${name}}  {v|${info.value}}`;
-            if (pct >= 0.05) return `{n|${name}}`;
-            if (pct >= 0.028) return `{v|${info.value}}`;
-            return '';
+            const name = info.seriesName.length > 18 ? info.seriesName.slice(0, 17) + '…' : info.seriesName;
+            // With 6 segments each is ≥ ~8% by construction.
+            return pct >= 0.07 ? `{n|${name}}  {v|${info.value}}` : `{n|${name}}`;
           },
           rich: {
             n: { color: '#fbf6ec', fontSize: 11, fontWeight: 600, ...SHARED_TEXT },
@@ -235,7 +233,7 @@ export default function StatsCharts(props: Props) {
     });
     charts.push(kwChart);
     // Stash the long-tail list for the chip cloud rendered below.
-    setLongTail(sortedKw.slice(12, 60).map(([k, v]) => ({ k, v })));
+    setLongTail(sortedKw.slice(6, 56).map(([k, v]) => ({ k, v })));
 
     // === 3. Environment donut — minimal, no inline labels, no legend marker noise ===
     const envCounter = new Map<string, number>();

@@ -2,6 +2,7 @@
 import { createEffect, createMemo, createSignal, For, Show, onMount, onCleanup, untrack } from 'solid-js';
 import MiniSearch from 'minisearch';
 import { normalizePublisher, bibtexVenueKind } from '../lib/venues';
+import { Select, Toggle } from './UiPrimitives';
 
 export interface BrowserPaper {
   slug: string;
@@ -36,6 +37,19 @@ const ENV_ICON: Record<string, string> = {
 };
 
 type ChipMode = 'AND' | 'OR';
+type SortKey = 'date-desc' | 'date-asc' | 'title-asc' | 'title-desc' | 'random' | 'relevance';
+
+// Deterministic PRNG so "Random" shuffle is stable while filters
+// don't change. Tiny — no dependency.
+function mulberry32(a: number): () => number {
+  return function () {
+    a = (a + 0x6D2B79F5) | 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
 
 function uniqueCount<T extends string | number>(items: T[]): Map<T, number> {
   const m = new Map<T, number>();
@@ -65,7 +79,7 @@ function readUrlState(): {
   publishers: Set<string>;
   fromMonth: string | null;
   toMonth: string | null;
-  sort: 'date-desc' | 'date-asc' | 'title';
+  sort: SortKey;
   keyMode: ChipMode;
   includeAdjacent: boolean;
 } {
@@ -137,7 +151,7 @@ export default function PaperBrowser(props: Props) {
   const [publishers, setPublishers] = createSignal<Set<string>>(initial.publishers);
   const [fromMonth, setFromMonth] = createSignal<string | null>(initial.fromMonth);
   const [toMonth, setToMonth] = createSignal<string | null>(initial.toMonth);
-  const [sort, setSort] = createSignal<'date-desc' | 'date-asc' | 'title'>(initial.sort);
+  const [sort, setSort] = createSignal<SortKey>(initial.sort);
   const [keyMode, setKeyMode] = createSignal<ChipMode>(initial.keyMode);
   const [includeAdjacent, setIncludeAdjacent] = createSignal<boolean>(initial.includeAdjacent);
 
@@ -250,8 +264,29 @@ export default function PaperBrowser(props: Props) {
     });
 
     const s = sort();
-    if (s === 'date-asc') out = [...out].sort((a, b) => (a.dateISO < b.dateISO ? -1 : 1));
-    else if (s === 'title') out = [...out].sort((a, b) => a.title.localeCompare(b.title));
+    if (s === 'date-asc') {
+      out = [...out].sort((a, b) => (a.dateISO < b.dateISO ? -1 : 1));
+    } else if (s === 'title-asc') {
+      out = [...out].sort((a, b) => a.title.localeCompare(b.title));
+    } else if (s === 'title-desc') {
+      out = [...out].sort((a, b) => b.title.localeCompare(a.title));
+    } else if (s === 'random') {
+      // Deterministic shuffle keyed by current filter set so the order
+      // is stable across rerenders within the same filter, but changes
+      // when the user interacts.
+      const seed = (q() + Array.from(envs()).join() + Array.from(keys()).join()).length || 1;
+      const r = mulberry32(seed);
+      out = [...out].map((x) => [r(), x] as [number, BrowserPaper])
+        .sort((a, b) => a[0] - b[0])
+        .map(([, x]) => x);
+    } else if (s === 'relevance' && hits) {
+      // MiniSearch already returns results in descending score order;
+      // we filtered to hits but lost the order. Re-rank by score map.
+      const scoreMap = new Map<string, number>();
+      const ranked = ms.search(q(), { fuzzy: 0.18, prefix: true, combineWith: 'AND' });
+      ranked.forEach((r, i) => scoreMap.set(String(r.id), ranked.length - i));
+      out = [...out].sort((a, b) => (scoreMap.get(b.slug) ?? 0) - (scoreMap.get(a.slug) ?? 0));
+    }
     // date-desc is the default order
     return out;
   });
@@ -504,11 +539,13 @@ export default function PaperBrowser(props: Props) {
           setTo={setToMonth}
         />
 
-        <section class="py-3">
-          <label class="flex items-center gap-2 text-sm text-ink-600 dark:text-ink-100 cursor-pointer">
-            <input type="checkbox" checked={includeAdjacent()} onChange={(e) => setIncludeAdjacent(e.currentTarget.checked)} class="rounded border-paper-300 dark:border-ink-600" />
-            <span>Include adjacent papers</span>
-          </label>
+        <section class="py-4">
+          <Toggle
+            checked={includeAdjacent()}
+            onChange={setIncludeAdjacent}
+            label="Include adjacent papers"
+            hint="Non-canonical entries that inform GUI research"
+          />
         </section>
       </aside>
 
@@ -529,11 +566,19 @@ export default function PaperBrowser(props: Props) {
               <kbd class="hidden sm:inline-block absolute right-3 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] font-mono rounded border border-paper-300/80 dark:border-ink-600/60 text-ink-400 dark:text-ink-300 leading-none">/</kbd>
             </Show>
           </div>
-          <select value={sort()} onChange={(e) => setSort(e.currentTarget.value as any)} class="input w-auto py-2">
-            <option value="date-desc">Newest first</option>
-            <option value="date-asc">Oldest first</option>
-            <option value="title">Title (A–Z)</option>
-          </select>
+          <Select<SortKey>
+            ariaLabel="Sort papers"
+            value={sort()}
+            onChange={setSort}
+            options={[
+              { value: 'date-desc',  label: 'Newest first' },
+              { value: 'date-asc',   label: 'Oldest first' },
+              { value: 'title-asc',  label: 'Title  A → Z' },
+              { value: 'title-desc', label: 'Title  Z → A' },
+              { value: 'random',     label: 'Random' },
+              { value: 'relevance',  label: 'Best match', disabled: !q().trim(), hint: q().trim() ? '' : 'type to search' },
+            ]}
+          />
           <div class="text-sm text-ink-400 dark:text-ink-300 ml-auto">
             {filtered().length.toLocaleString()} {filtered().length === 1 ? 'paper' : 'papers'}
           </div>
@@ -663,7 +708,7 @@ export default function PaperBrowser(props: Props) {
               <dt class="flex gap-1"><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">j</kbd><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">k</kbd></dt>
               <dd class="text-ink-600 dark:text-ink-100">Move between papers</dd>
               <dt><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">Esc</kbd></dt>
-              <dd class="text-ink-600 dark:text-ink-100">Clear search & filters</dd>
+              <dd class="text-ink-600 dark:text-ink-100">Clear filters &amp; close</dd>
               <dt><kbd class="px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 text-xs font-mono">?</kbd></dt>
               <dd class="text-ink-600 dark:text-ink-100">Open this help</dd>
             </dl>
@@ -772,15 +817,16 @@ function DateRangeSection(props: DateRangeProps) {
     return Math.round(ratio * maxIdx());
   }
 
-  // bar heights
+  // bar heights — log-ish scale (sqrt) so the long tail of low-count
+  // early months doesn't collapse to invisible.
   const histBars = createMemo(() => {
     const counts = props.histogram.counts;
     const max = Math.max(1, ...axis().map((m) => counts[m] ?? 0));
-    return axis().map((m) => ({
-      m,
-      count: counts[m] ?? 0,
-      h: ((counts[m] ?? 0) / max) * 100,
-    }));
+    return axis().map((m) => {
+      const c = counts[m] ?? 0;
+      const h = c === 0 ? 0 : Math.max(8, (Math.sqrt(c / max)) * 100);
+      return { m, count: c, h };
+    });
   });
 
   // pointer drag for thumbs
@@ -868,90 +914,105 @@ function DateRangeSection(props: DateRangeProps) {
 
       <Show when={open()}>
         <div class="mt-3 select-none">
-          {/* Histogram */}
-          <div class="relative h-12 mb-1.5">
-            <div class="absolute inset-x-0 bottom-0 top-0 flex items-end gap-[1px]">
-              <For each={histBars()}>
-                {(bar, i) => {
-                  const inRange = () => i() >= fromIdx() && i() <= toIdx();
-                  return (
-                    <div
-                      class={`flex-1 ${inRange() ? 'bg-accent/55 dark:bg-accent-dark/55' : 'bg-ink-300/30 dark:bg-ink-400/20'} transition-colors`}
-                      style={{ height: `${Math.max(2, bar.h)}%` }}
-                      title={`${fmtMonth(bar.m)} · ${bar.count} ${bar.count === 1 ? 'paper' : 'papers'}`}
-                    />
-                  );
-                }}
-              </For>
-            </div>
+          {/* Presets */}
+          <div class="mb-3 flex flex-wrap gap-1">
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors" onClick={() => applyPreset(3)}>3 mo</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors" onClick={() => applyPreset(6)}>6 mo</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors" onClick={() => applyPreset(12)}>12 mo</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors" onClick={() => applyYear(new Date().getFullYear())}>{new Date().getFullYear()}</button>
+            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors" onClick={() => applyYear(new Date().getFullYear() - 1)}>{new Date().getFullYear() - 1}</button>
+          </div>
+
+          {/* Slider — track + histogram + thumbs all share the same
+              horizontal padding so thumbs never escape the track and
+              histogram bars line up with the track exactly. */}
+          <div class="relative px-2.5">
+            {/* Hover tooltip floats above the histogram */}
             <Show when={hoverIdx() != null}>
               <div
-                class="pointer-events-none absolute -top-6 px-1.5 py-0.5 rounded text-[10px] bg-ink-700 text-paper-50 dark:bg-paper-50 dark:text-ink-700 whitespace-nowrap"
-                style={{ left: `calc(${widthPct(hoverIdx()!)}% - 1.5rem)` }}
+                class="pointer-events-none absolute -top-1 px-1.5 py-0.5 rounded text-[10px] bg-ink-700 text-paper-50 dark:bg-paper-50 dark:text-ink-700 whitespace-nowrap shadow-sm z-10"
+                style={{ left: `calc(${widthPct(hoverIdx()!)}% + 0.625rem)`, transform: 'translateX(-50%)' }}
               >
-                {fmtMonth(idxToYm(hoverIdx()!) ?? '')}
+                {fmtMonth(idxToYm(hoverIdx()!) ?? '')} · {props.histogram.counts[idxToYm(hoverIdx()!) ?? ''] ?? 0}
               </div>
             </Show>
-          </div>
 
-          {/* Track + thumbs */}
-          <div
-            class="relative h-5 cursor-pointer"
-            ref={(el) => (trackEl = el)}
-            onClick={trackClick}
-            onMouseMove={(e) => setHoverIdx(trackPosToIdx(e.clientX))}
-            onMouseLeave={() => setHoverIdx(null)}
-          >
-            {/* Background track */}
-            <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-1 rounded-full bg-ink-200/50 dark:bg-ink-700/60"></div>
-            {/* Active range */}
+            {/* Histogram, anchored flush above the track */}
+            <div class="relative h-10">
+              <div class="absolute inset-x-0 bottom-0 top-0 flex items-end gap-px">
+                <For each={histBars()}>
+                  {(bar, i) => {
+                    const inRange = () => i() >= fromIdx() && i() <= toIdx();
+                    return (
+                      <div
+                        class={`flex-1 rounded-t-sm transition-colors ${
+                          bar.count === 0
+                            ? 'bg-transparent'
+                            : inRange()
+                              ? 'bg-accent/65 dark:bg-accent-dark/65'
+                              : 'bg-ink-300/35 dark:bg-ink-400/25'
+                        }`}
+                        style={{ height: `${bar.h}%` }}
+                        title={`${fmtMonth(bar.m)} · ${bar.count} ${bar.count === 1 ? 'paper' : 'papers'}`}
+                      />
+                    );
+                  }}
+                </For>
+              </div>
+            </div>
+
+            {/* Track + thumbs */}
             <div
-              class="absolute top-1/2 -translate-y-1/2 h-1 rounded-full bg-accent dark:bg-accent-dark"
-              style={{ left: `${widthPct(fromIdx())}%`, right: `${100 - widthPct(toIdx())}%` }}
-            ></div>
-            {/* Thumbs */}
-            <button
-              type="button"
-              class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-paper-50 dark:bg-nightbg-soft border-2 border-accent dark:border-accent-dark shadow-sm hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 dark:focus-visible:ring-accent-dark/50 transition-transform"
-              style={{ left: `${widthPct(fromIdx())}%` }}
-              onPointerDown={(e: PointerEvent) => startDrag('from', e)}
-              onKeyDown={(e: KeyboardEvent) => trackKey('from', e)}
-              aria-label="Start month"
-              aria-valuemin={minIdx}
-              aria-valuemax={maxIdx()}
-              aria-valuenow={fromIdx()}
-              aria-valuetext={labelLeft()}
-              role="slider"
-            />
-            <button
-              type="button"
-              class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-paper-50 dark:bg-nightbg-soft border-2 border-accent dark:border-accent-dark shadow-sm hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 dark:focus-visible:ring-accent-dark/50 transition-transform"
-              style={{ left: `${widthPct(toIdx())}%` }}
-              onPointerDown={(e: PointerEvent) => startDrag('to', e)}
-              onKeyDown={(e: KeyboardEvent) => trackKey('to', e)}
-              aria-label="End month"
-              aria-valuemin={minIdx}
-              aria-valuemax={maxIdx()}
-              aria-valuenow={toIdx()}
-              aria-valuetext={labelRight()}
-              role="slider"
-            />
+              class="relative h-5 cursor-pointer"
+              ref={(el) => (trackEl = el)}
+              onClick={trackClick}
+              onMouseMove={(e) => setHoverIdx(trackPosToIdx(e.clientX))}
+              onMouseLeave={() => setHoverIdx(null)}
+            >
+              {/* Background track */}
+              <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-1 rounded-full bg-ink-200/50 dark:bg-ink-700/60"></div>
+              {/* Active range */}
+              <div
+                class="absolute top-1/2 -translate-y-1/2 h-1 rounded-full bg-accent dark:bg-accent-dark"
+                style={{ left: `${widthPct(fromIdx())}%`, right: `${100 - widthPct(toIdx())}%` }}
+              ></div>
+              {/* Thumbs — translate-x-1/2 keeps the thumb visually
+                  centered on its track position even at the extremes
+                  (the parent's px-2.5 gives the gutter room). */}
+              <button
+                type="button"
+                class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-paper-50 dark:bg-nightbg-soft border-2 border-accent dark:border-accent-dark shadow hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 dark:focus-visible:ring-accent-dark/50 transition-transform"
+                style={{ left: `${widthPct(fromIdx())}%` }}
+                onPointerDown={(e: PointerEvent) => startDrag('from', e)}
+                onKeyDown={(e: KeyboardEvent) => trackKey('from', e)}
+                aria-label="Start month"
+                aria-valuemin={minIdx}
+                aria-valuemax={maxIdx()}
+                aria-valuenow={fromIdx()}
+                aria-valuetext={labelLeft()}
+                role="slider"
+              />
+              <button
+                type="button"
+                class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-paper-50 dark:bg-nightbg-soft border-2 border-accent dark:border-accent-dark shadow hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 dark:focus-visible:ring-accent-dark/50 transition-transform"
+                style={{ left: `${widthPct(toIdx())}%` }}
+                onPointerDown={(e: PointerEvent) => startDrag('to', e)}
+                onKeyDown={(e: KeyboardEvent) => trackKey('to', e)}
+                aria-label="End month"
+                aria-valuemin={minIdx}
+                aria-valuemax={maxIdx()}
+                aria-valuenow={toIdx()}
+                aria-valuetext={labelRight()}
+                role="slider"
+              />
+            </div>
           </div>
 
-          {/* Range labels under thumbs */}
-          <div class="mt-2 flex items-center justify-between text-[11px] tabular-nums text-ink-500 dark:text-ink-200">
+          {/* Range labels — placed inside the same gutter as the slider */}
+          <div class="mt-1 px-2.5 flex items-center justify-between text-[11px] tabular-nums text-ink-500 dark:text-ink-200">
             <span>{labelLeft()}</span>
-            <span class="text-ink-400 dark:text-ink-300">to</span>
+            <span class="text-ink-400 dark:text-ink-300">→</span>
             <span>{labelRight()}</span>
-          </div>
-
-          {/* Presets */}
-          <div class="mt-3 flex flex-wrap gap-1">
-            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyPreset(3)}>3 mo</button>
-            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyPreset(6)}>6 mo</button>
-            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyPreset(12)}>12 mo</button>
-            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyYear(new Date().getFullYear())}>This year</button>
-            <button class="text-[11px] px-2 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => applyYear(new Date().getFullYear() - 1)}>Last year</button>
           </div>
         </div>
       </Show>
@@ -1139,17 +1200,6 @@ function PaperCardClient(props: CardProps) {
           <Show when={p.source === 'adjacent'}>
             <span class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-paper-200 dark:bg-ink-700 text-ink-500 dark:text-ink-200 border border-paper-300/60 dark:border-ink-600/60">adj</span>
           </Show>
-          <button
-            type="button"
-            class="ml-1 inline-flex items-center justify-center w-6 h-6 rounded text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark hover:bg-paper-200/60 dark:hover:bg-ink-700/40"
-            onClick={() => setExpanded(!expanded())}
-            aria-label={expanded() ? 'Collapse' : 'Expand'}
-            aria-expanded={expanded() ? 'true' : 'false'}
-          >
-            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={`transition-transform ${expanded() ? 'rotate-180' : ''}`} aria-hidden="true">
-              <path d="M3 6l5 5 5-5"/>
-            </svg>
-          </button>
         </div>
       </div>
 
@@ -1233,12 +1283,13 @@ function PaperCardClient(props: CardProps) {
 
       <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
         <button
-          class="link font-medium inline-flex items-center gap-1"
+          class="font-medium inline-flex items-center gap-1 text-accent dark:text-accent-dark hover:opacity-90"
           onClick={() => setExpanded(!expanded())}
+          aria-expanded={expanded() ? 'true' : 'false'}
           type="button"
         >
-          <span>{expanded() ? 'Collapse' : 'Expand'}</span>
           <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class={`transition-transform duration-200 ${expanded() ? 'rotate-180' : ''}`} aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg>
+          <span>{expanded() ? 'Hide details' : 'Show details'}</span>
         </button>
         <a class="text-ink-400 dark:text-ink-300 hover:text-accent dark:hover:text-accent-dark" href={p.link} target="_blank" rel="noopener">Open ↗</a>
       </div>
