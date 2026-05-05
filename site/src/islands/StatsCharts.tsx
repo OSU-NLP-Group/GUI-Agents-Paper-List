@@ -12,24 +12,70 @@ function isDark(): boolean {
   return document.documentElement.classList.contains('dark');
 }
 
+// Two themed palettes — earthy warm tones for light, cool muted tones for dark.
+// Each theme uses a single hue family per chart for visual quietness.
 function paperColors() {
   return isDark()
     ? {
         bg: 'transparent',
         text: '#e9e6df',
         muted: '#a39e92',
-        grid: 'rgba(255,255,255,0.06)',
-        accent: '#6b8cf0',
-        palette: ['#6b8cf0', '#e0b25b', '#85c5a3', '#d09080', '#9aa6c2', '#c79bd0', '#7fb3c6', '#cabf86'],
+        faint: 'rgba(255,255,255,0.04)',
+        bar: '#6b8cf0',                 // accent dark
+        barAlt: '#9ab0d4',
+        line: '#8aa5e8',
+        envColors: {                    // for the trend chart by env
+          Web: '#6b8cf0',
+          Mobile: '#d49363',
+          Desktop: '#7fb39a',
+          'General GUI': '#c79bd0',
+        } as Record<string, string>,
+        donut: ['#6b8cf0', '#7fb39a', '#d49363', '#c79bd0'],
+        treemapTones: ['#3a4878', '#43547e', '#4d5f84', '#576b8b', '#617791', '#6c8298', '#778d9e', '#8198a4'],
+        cardBorder: 'rgba(233,230,223,0.08)',
+        tooltipBg: '#1a1f29',
+        tooltipBorder: 'rgba(255,255,255,0.08)',
       }
     : {
         bg: 'transparent',
         text: '#33312a',
-        muted: '#6b6759',
-        grid: 'rgba(0,0,0,0.06)',
-        accent: '#3057c4',
-        palette: ['#3057c4', '#a36b1e', '#3f7a55', '#a04a3a', '#5b6791', '#8a527e', '#3d6a78', '#7a6c2d'],
+        muted: '#8a8472',
+        faint: 'rgba(0,0,0,0.04)',
+        bar: '#3057c4',
+        barAlt: '#7388be',
+        line: '#3057c4',
+        envColors: {
+          Web: '#3057c4',
+          Mobile: '#a6622b',
+          Desktop: '#3f7a55',
+          'General GUI': '#8a527e',
+        } as Record<string, string>,
+        donut: ['#3057c4', '#3f7a55', '#a6622b', '#8a527e'],
+        // single-hue earthy treemap progression (dark → light terracotta)
+        treemapTones: ['#5e3a2a', '#6e4530', '#7e5037', '#8e5b3e', '#9e6745', '#ad734d', '#bb8056', '#c98e62'],
+        cardBorder: 'rgba(35,33,28,0.08)',
+        tooltipBg: '#fbf6ec',
+        tooltipBorder: 'rgba(35,33,28,0.12)',
       };
+}
+
+const SHARED_TEXT = {
+  fontFamily: 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter, sans-serif',
+};
+
+function tooltipBase(c: ReturnType<typeof paperColors>) {
+  return {
+    backgroundColor: c.tooltipBg,
+    borderColor: c.tooltipBorder,
+    borderWidth: 1,
+    padding: [8, 12],
+    textStyle: {
+      color: c.text,
+      fontSize: 12,
+      ...SHARED_TEXT,
+    },
+    extraCssText: 'box-shadow: 0 4px 14px rgba(0,0,0,0.06); border-radius: 6px;',
+  };
 }
 
 function quarterKey(iso: string): string {
@@ -75,78 +121,103 @@ export default function StatsCharts(props: Props) {
     charts.length = 0;
     const c = paperColors();
 
-    // 1. Quarterly trend stacked
-    const { keys, envs } = buildQuarterly(props.papers);
-    const buckets = buildQuarterly(props.papers).buckets;
+    // === 1. Quarterly trend — clean stacked area, no rainbow ===
+    const { keys, envs, buckets } = buildQuarterly(props.papers);
     const trend = echarts.init(trendEl, null, { renderer: 'canvas' });
     trend.setOption({
       backgroundColor: c.bg,
-      tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
-      legend: { data: ['Total', ...envs], textStyle: { color: c.text }, top: 0 },
-      grid: { left: 40, right: 16, top: 36, bottom: 60 },
-      xAxis: {
-        type: 'category', data: keys,
-        axisLabel: { color: c.muted, rotate: 45 },
-        axisLine: { lineStyle: { color: c.grid } },
+      textStyle: SHARED_TEXT,
+      tooltip: {
+        ...tooltipBase(c),
+        trigger: 'axis',
+        axisPointer: { type: 'line', lineStyle: { color: c.muted, type: 'dashed' } },
       },
-      yAxis: { type: 'value', axisLabel: { color: c.muted }, splitLine: { lineStyle: { color: c.grid } } },
-      series: [
-        {
-          name: 'Total',
-          type: 'line', smooth: true, symbol: 'circle', symbolSize: 5,
-          lineStyle: { width: 2.2, color: c.accent },
-          itemStyle: { color: c.accent },
-          areaStyle: { color: c.accent, opacity: 0.08 },
-          data: keys.map((k) => buckets.get(k)!.Total),
-          z: 3,
-        },
-        ...envs.map((e, idx) => ({
-          name: e, type: 'line' as const, smooth: true, symbol: 'none' as const,
-          lineStyle: { width: 1.4, color: c.palette[(idx + 1) % c.palette.length] },
-          itemStyle: { color: c.palette[(idx + 1) % c.palette.length] },
-          data: keys.map((k) => buckets.get(k)![e]),
-          emphasis: { focus: 'series' as const },
-        })),
-      ],
+      legend: {
+        data: envs,
+        textStyle: { color: c.muted, fontSize: 11, ...SHARED_TEXT },
+        top: 4,
+        right: 12,
+        icon: 'roundRect',
+        itemWidth: 10,
+        itemHeight: 10,
+        itemGap: 14,
+      },
+      grid: { left: 36, right: 16, top: 36, bottom: 48, containLabel: true },
+      xAxis: {
+        type: 'category', data: keys, boundaryGap: false,
+        axisLabel: { color: c.muted, fontSize: 10, ...SHARED_TEXT, rotate: 45, margin: 12 },
+        axisLine: { lineStyle: { color: c.faint } },
+        axisTick: { show: false },
+      },
+      yAxis: {
+        type: 'value',
+        axisLabel: { color: c.muted, fontSize: 10, ...SHARED_TEXT },
+        axisLine: { show: false },
+        axisTick: { show: false },
+        splitLine: { lineStyle: { color: c.faint, type: 'solid' } },
+      },
+      series: envs.map((e) => ({
+        name: e, type: 'area', stack: 'env',
+        type_: 'line',
+      })).map((s, i) => ({
+        name: s.name, type: 'line' as const, stack: 'env',
+        smooth: 0.5, symbol: 'none' as const,
+        lineStyle: { width: 0, color: c.envColors[s.name] },
+        areaStyle: { color: c.envColors[s.name], opacity: isDark() ? 0.55 : 0.7 },
+        emphasis: { focus: 'series' as const },
+        data: keys.map((k) => buckets.get(k)![s.name]),
+      })),
     });
     charts.push(trend);
 
-    // 2. Keyword treemap — area scaled to count, click to filter
+    // === 2. Keyword treemap — limited, clean, single-hue ===
     const kwCounter = new Map<string, number>();
     for (const p of props.papers) for (const k of p.keywords) kwCounter.set(k, (kwCounter.get(k) ?? 0) + 1);
-    const topKw = Array.from(kwCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 50);
+    const topKw = Array.from(kwCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 30);
+    const maxKw = topKw[0]?.[1] ?? 1;
     const kwChart = echarts.init(kwEl, null, { renderer: 'canvas' });
     kwChart.setOption({
       backgroundColor: c.bg,
-      tooltip: { formatter: (info: any) => `<strong>${info.name}</strong><br/>${info.value} papers` },
+      textStyle: SHARED_TEXT,
+      tooltip: {
+        ...tooltipBase(c),
+        formatter: (info: any) => `<span style="font-weight:600">${info.name}</span><br/><span style="color:${c.muted}">${info.value} papers</span>`,
+      },
       series: [{
-        type: 'treemap',
-        roam: false,
-        nodeClick: 'link',
-        breadcrumb: { show: false },
+        type: 'treemap', roam: false, nodeClick: false, breadcrumb: { show: false },
+        width: '100%', height: '100%',
         label: {
           show: true,
-          formatter: '{b}',
-          color: c.text,
-          fontSize: 12,
+          formatter: (info: any) => {
+            const v = info.value as number;
+            const ratio = v / maxKw;
+            // hide labels on smallest tiles
+            if (ratio < 0.15) return '';
+            return ratio > 0.4 ? `{name|${info.name}}\n{count|${v}}` : `{name|${info.name}}`;
+          },
+          rich: {
+            name: { color: '#fbf6ec', fontSize: 12, fontWeight: 600, ...SHARED_TEXT, lineHeight: 18 },
+            count: { color: 'rgba(251,246,236,0.7)', fontSize: 11, ...SHARED_TEXT },
+          },
         },
         upperLabel: { show: false },
         itemStyle: {
-          borderColor: isDark() ? '#0f1217' : '#fbf6ec',
-          borderWidth: 2,
-          gapWidth: 2,
+          borderColor: isDark() ? '#0f1217' : '#f7efdf',
+          borderWidth: 3,
+          gapWidth: 3,
         },
         levels: [{
           itemStyle: {
-            borderColor: isDark() ? '#0f1217' : '#fbf6ec',
-            borderWidth: 2,
-            gapWidth: 2,
+            borderColor: isDark() ? '#0f1217' : '#f7efdf',
+            borderWidth: 3, gapWidth: 3,
           },
         }],
-        data: topKw.map(([k, v], i) => ({
-          name: k, value: v,
-          itemStyle: { color: c.palette[i % c.palette.length] },
-        })),
+        data: topKw.map(([k, v], i) => {
+          // Map by count to a tone in the palette (more prominent → darker)
+          const toneIdx = Math.max(0, Math.min(c.treemapTones.length - 1,
+            c.treemapTones.length - 1 - Math.floor((v / maxKw) * c.treemapTones.length)));
+          return { name: k, value: v, itemStyle: { color: c.treemapTones[toneIdx] } };
+        }),
       }],
     });
     kwChart.on('click', (params: any) => {
@@ -155,21 +226,43 @@ export default function StatsCharts(props: Props) {
     });
     charts.push(kwChart);
 
-    // 3. Env donut
+    // === 3. Environment donut — minimal, no inline labels, no legend marker noise ===
     const envCounter = new Map<string, number>();
     for (const p of props.papers) for (const e of p.envs) envCounter.set(e, (envCounter.get(e) ?? 0) + 1);
     const envChart = echarts.init(envEl, null, { renderer: 'canvas' });
+    const envEntries = Array.from(envCounter.entries());
     envChart.setOption({
       backgroundColor: c.bg,
-      tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
-      legend: { bottom: 0, textStyle: { color: c.text } },
+      textStyle: SHARED_TEXT,
+      tooltip: {
+        ...tooltipBase(c),
+        formatter: (p: any) => `<span style="font-weight:600">${p.name}</span><br/><span style="color:${c.muted}">${p.value} papers (${p.percent}%)</span>`,
+      },
+      legend: {
+        bottom: 6, left: 'center',
+        textStyle: { color: c.muted, fontSize: 11, ...SHARED_TEXT },
+        icon: 'circle', itemWidth: 8, itemHeight: 8, itemGap: 16,
+      },
       series: [{
-        type: 'pie', radius: ['45%', '72%'], center: ['50%', '46%'],
+        type: 'pie', radius: ['54%', '78%'], center: ['50%', '46%'],
         avoidLabelOverlap: true,
-        itemStyle: { borderColor: isDark() ? '#0f1217' : '#f7efdf', borderWidth: 3 },
-        label: { color: c.text, formatter: '{b}\n{c}' },
-        data: Array.from(envCounter.entries()).map(([k, v], i) => ({
-          name: k, value: v, itemStyle: { color: c.palette[i % c.palette.length] },
+        itemStyle: {
+          borderColor: isDark() ? '#161a21' : '#fbf6ec',
+          borderWidth: 4,
+        },
+        label: {
+          show: true,
+          formatter: (p: any) => `{n|${p.name}}\n{v|${p.value}}`,
+          rich: {
+            n: { color: c.text, fontSize: 12, fontWeight: 600, ...SHARED_TEXT, lineHeight: 18 },
+            v: { color: c.muted, fontSize: 11, ...SHARED_TEXT },
+          },
+          alignTo: 'edge', edgeDistance: 6,
+        },
+        labelLine: { lineStyle: { color: c.muted, width: 1 }, length: 10, length2: 10 },
+        data: envEntries.map(([k, v], i) => ({
+          name: k, value: v,
+          itemStyle: { color: c.envColors[k] ?? c.donut[i % c.donut.length] },
         })),
       }],
     });
@@ -178,43 +271,94 @@ export default function StatsCharts(props: Props) {
     });
     charts.push(envChart);
 
-    // 4. Top institutions (25)
+    // === 4. Top institutions — single accent hue, count labels at end of bars ===
     const instCounter = new Map<string, number>();
     for (const p of props.papers) for (const i of p.institutions) instCounter.set(i, (instCounter.get(i) ?? 0) + 1);
     const topInst = Array.from(instCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 25).reverse();
     const instChart = echarts.init(instEl, null, { renderer: 'canvas' });
     instChart.setOption({
       backgroundColor: c.bg,
-      tooltip: { trigger: 'item' },
-      grid: { left: 180, right: 24, top: 8, bottom: 24 },
-      xAxis: { type: 'value', axisLabel: { color: c.muted }, splitLine: { lineStyle: { color: c.grid } } },
-      yAxis: { type: 'category', data: topInst.map(([k]) => k), axisLabel: { color: c.text, fontSize: 11 }, axisLine: { lineStyle: { color: c.grid } } },
-      series: [{ type: 'bar', data: topInst.map(([, v]) => v), itemStyle: { color: c.palette[2], borderRadius: [0, 3, 3, 0] } }],
+      textStyle: SHARED_TEXT,
+      tooltip: {
+        ...tooltipBase(c),
+        formatter: (p: any) => `<span style="font-weight:600">${p.name}</span><br/><span style="color:${c.muted}">${p.value} papers</span>`,
+      },
+      grid: { left: 4, right: 36, top: 4, bottom: 8, containLabel: true },
+      xAxis: { type: 'value', show: false },
+      yAxis: {
+        type: 'category', data: topInst.map(([k]) => k),
+        axisLabel: { color: c.text, fontSize: 11, ...SHARED_TEXT, margin: 12 },
+        axisLine: { show: false }, axisTick: { show: false },
+      },
+      series: [{
+        type: 'bar', data: topInst.map(([, v]) => v),
+        barWidth: '60%',
+        itemStyle: {
+          color: {
+            type: 'linear', x: 0, y: 0, x2: 1, y2: 0,
+            colorStops: [
+              { offset: 0, color: c.bar + (isDark() ? '88' : '40') },
+              { offset: 1, color: c.bar },
+            ],
+          },
+          borderRadius: [0, 3, 3, 0],
+        },
+        label: {
+          show: true, position: 'right',
+          color: c.muted, fontSize: 10, ...SHARED_TEXT, distance: 6,
+        },
+        emphasis: { itemStyle: { color: c.bar } },
+      }],
     });
     instChart.on('click', (params: any) => {
       window.location.href = `${props.basePath}/papers?inst=${encodeURIComponent(params.name)}`;
     });
     charts.push(instChart);
 
-    // 5. Top authors (25)
+    // === 5. Top authors ===
     const aCounter = new Map<string, number>();
     for (const p of props.papers) for (const a of p.authors) aCounter.set(a, (aCounter.get(a) ?? 0) + 1);
     const topA = Array.from(aCounter.entries()).sort((a, b) => b[1] - a[1]).slice(0, 25).reverse();
     const aChart = echarts.init(authorEl, null, { renderer: 'canvas' });
     aChart.setOption({
       backgroundColor: c.bg,
-      tooltip: { trigger: 'item' },
-      grid: { left: 140, right: 24, top: 8, bottom: 24 },
-      xAxis: { type: 'value', axisLabel: { color: c.muted }, splitLine: { lineStyle: { color: c.grid } } },
-      yAxis: { type: 'category', data: topA.map(([k]) => k), axisLabel: { color: c.text, fontSize: 11 }, axisLine: { lineStyle: { color: c.grid } } },
-      series: [{ type: 'bar', data: topA.map(([, v]) => v), itemStyle: { color: c.palette[3], borderRadius: [0, 3, 3, 0] } }],
+      textStyle: SHARED_TEXT,
+      tooltip: {
+        ...tooltipBase(c),
+        formatter: (p: any) => `<span style="font-weight:600">${p.name}</span><br/><span style="color:${c.muted}">${p.value} papers</span>`,
+      },
+      grid: { left: 4, right: 36, top: 4, bottom: 8, containLabel: true },
+      xAxis: { type: 'value', show: false },
+      yAxis: {
+        type: 'category', data: topA.map(([k]) => k),
+        axisLabel: { color: c.text, fontSize: 11, ...SHARED_TEXT, margin: 12 },
+        axisLine: { show: false }, axisTick: { show: false },
+      },
+      series: [{
+        type: 'bar', data: topA.map(([, v]) => v),
+        barWidth: '60%',
+        itemStyle: {
+          color: {
+            type: 'linear', x: 0, y: 0, x2: 1, y2: 0,
+            colorStops: [
+              { offset: 0, color: c.bar + (isDark() ? '88' : '40') },
+              { offset: 1, color: c.bar },
+            ],
+          },
+          borderRadius: [0, 3, 3, 0],
+        },
+        label: {
+          show: true, position: 'right',
+          color: c.muted, fontSize: 10, ...SHARED_TEXT, distance: 6,
+        },
+      }],
     });
     aChart.on('click', (params: any) => {
       window.location.href = `${props.basePath}/papers?author=${encodeURIComponent(params.name)}`;
     });
     charts.push(aChart);
 
-    // 6. Publishers (top 15, excluding arXiv)
+    // === 6. Publication venues ===
     const pCounter = new Map<string, number>();
     for (const p of props.papers) {
       if (!p.publisher || /^arxiv$/i.test(p.publisher.trim())) continue;
@@ -225,11 +369,36 @@ export default function StatsCharts(props: Props) {
     const pChart = echarts.init(pubEl, null, { renderer: 'canvas' });
     pChart.setOption({
       backgroundColor: c.bg,
-      tooltip: { trigger: 'item' },
-      grid: { left: 180, right: 24, top: 8, bottom: 24 },
-      xAxis: { type: 'value', axisLabel: { color: c.muted }, splitLine: { lineStyle: { color: c.grid } } },
-      yAxis: { type: 'category', data: topP.map(([k]) => k), axisLabel: { color: c.text, fontSize: 11 }, axisLine: { lineStyle: { color: c.grid } } },
-      series: [{ type: 'bar', data: topP.map(([, v]) => v), itemStyle: { color: c.palette[5], borderRadius: [0, 3, 3, 0] } }],
+      textStyle: SHARED_TEXT,
+      tooltip: {
+        ...tooltipBase(c),
+        formatter: (p: any) => `<span style="font-weight:600">${p.name}</span><br/><span style="color:${c.muted}">${p.value} papers</span>`,
+      },
+      grid: { left: 4, right: 36, top: 4, bottom: 8, containLabel: true },
+      xAxis: { type: 'value', show: false },
+      yAxis: {
+        type: 'category', data: topP.map(([k]) => k),
+        axisLabel: { color: c.text, fontSize: 11, ...SHARED_TEXT, margin: 12 },
+        axisLine: { show: false }, axisTick: { show: false },
+      },
+      series: [{
+        type: 'bar', data: topP.map(([, v]) => v),
+        barWidth: '60%',
+        itemStyle: {
+          color: {
+            type: 'linear', x: 0, y: 0, x2: 1, y2: 0,
+            colorStops: [
+              { offset: 0, color: c.bar + (isDark() ? '88' : '40') },
+              { offset: 1, color: c.bar },
+            ],
+          },
+          borderRadius: [0, 3, 3, 0],
+        },
+        label: {
+          show: true, position: 'right',
+          color: c.muted, fontSize: 10, ...SHARED_TEXT, distance: 6,
+        },
+      }],
     });
     charts.push(pChart);
   }
@@ -246,38 +415,46 @@ export default function StatsCharts(props: Props) {
   });
 
   return (
-    <div class="space-y-12">
+    <div class="space-y-14">
       <section>
-        <h2 class="text-lg font-semibold mb-3 text-ink-700 dark:text-ink-50">Quarterly publication trend</h2>
-        <p class="text-sm text-ink-500 dark:text-ink-200 mb-3">Total + per-environment counts. Hover for breakdown.</p>
-        <div ref={(el) => (trendEl = el)} class="w-full h-[360px] surface rounded-lg p-4"></div>
+        <div class="flex items-baseline justify-between mb-1">
+          <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50">Quarterly publication trend</h2>
+          <span class="text-xs text-ink-400 dark:text-ink-300">stacked by environment</span>
+        </div>
+        <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Number of papers added to the list per calendar quarter, from the earliest preprint date.</p>
+        <div ref={(el) => (trendEl = el)} class="w-full h-[340px]"></div>
       </section>
-      <section class="grid lg:grid-cols-[1fr_1.4fr] gap-8">
+
+      <section class="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-12">
         <div>
-          <h2 class="text-lg font-semibold mb-3 text-ink-700 dark:text-ink-50">Environment split</h2>
-          <p class="text-sm text-ink-500 dark:text-ink-200 mb-3">Click a slice to filter.</p>
-          <div ref={(el) => (envEl = el)} class="w-full h-[360px] surface rounded-lg p-4"></div>
+          <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Environment split</h2>
+          <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Click a slice to filter the browse.</p>
+          <div ref={(el) => (envEl = el)} class="w-full h-[360px]"></div>
         </div>
         <div>
-          <h2 class="text-lg font-semibold mb-3 text-ink-700 dark:text-ink-50">Top keywords</h2>
-          <p class="text-sm text-ink-500 dark:text-ink-200 mb-3">Tile area is paper count. Click a tile to filter the browse.</p>
-          <div ref={(el) => (kwEl = el)} class="w-full h-[640px] surface rounded-lg p-4"></div>
-        </div>
-      </section>
-      <section class="grid lg:grid-cols-2 gap-8">
-        <div>
-          <h2 class="text-lg font-semibold mb-3 text-ink-700 dark:text-ink-50">Top 25 institutions</h2>
-          <div ref={(el) => (instEl = el)} class="w-full h-[600px] surface rounded-lg p-4"></div>
-        </div>
-        <div>
-          <h2 class="text-lg font-semibold mb-3 text-ink-700 dark:text-ink-50">Top 25 authors</h2>
-          <div ref={(el) => (authorEl = el)} class="w-full h-[600px] surface rounded-lg p-4"></div>
+          <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top keywords</h2>
+          <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Tile area is paper count. Darker tiles are more frequent. Click to filter.</p>
+          <div ref={(el) => (kwEl = el)} class="w-full h-[480px]"></div>
         </div>
       </section>
+
+      <section class="grid lg:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top 25 institutions</h2>
+          <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Click a name to filter.</p>
+          <div ref={(el) => (instEl = el)} class="w-full h-[560px]"></div>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top 25 authors</h2>
+          <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Click a name to filter.</p>
+          <div ref={(el) => (authorEl = el)} class="w-full h-[560px]"></div>
+        </div>
+      </section>
+
       <section>
-        <h2 class="text-lg font-semibold mb-3 text-ink-700 dark:text-ink-50">Publication venues</h2>
-        <p class="text-sm text-ink-500 dark:text-ink-200 mb-3">Top 15 venues, excluding arXiv-only entries.</p>
-        <div ref={(el) => (pubEl = el)} class="w-full h-[420px] surface rounded-lg p-4"></div>
+        <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Publication venues</h2>
+        <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Top 15 venues, excluding arXiv-only entries.</p>
+        <div ref={(el) => (pubEl = el)} class="w-full h-[400px]"></div>
       </section>
     </div>
   );
