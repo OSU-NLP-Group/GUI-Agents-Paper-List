@@ -428,18 +428,6 @@ def process() -> None:
     print(f"Processed {len(canonical)} canonical and {len(adjacent)} adjacent papers.")
 
     emit_yaml(canonical, adjacent)
-    # Drop legacy paper_by_* dirs and the retired ALL_PAPERS.md /
-    # ADJACENT_PAPERS.md mirrors if they're still around. The pipeline
-    # no longer emits them.
-    import shutil
-    for legacy in ["paper_by_env", "paper_by_key", "paper_by_author"]:
-        legacy_path = REPO_ROOT / legacy
-        if legacy_path.is_dir():
-            shutil.rmtree(legacy_path)
-    for legacy_md in ["ALL_PAPERS.md", "ADJACENT_PAPERS.md"]:
-        p = REPO_ROOT / legacy_md
-        if p.exists():
-            p.unlink()
     render_readme(canonical)
     emit_keyword_chart(canonical)
 

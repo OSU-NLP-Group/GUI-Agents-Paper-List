@@ -7,8 +7,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ─────────────────────────────────────────────────────────────────
 // Source store: papers.yaml + adjacent.yaml in the repo root.
-// (The legacy ALL_PAPERS.md / ADJACENT_PAPERS.md mirrors were
-// retired; everything reads YAML directly.)
 // ─────────────────────────────────────────────────────────────────
 
 export interface PaperSources {
@@ -80,10 +78,9 @@ function lastDayOfMonth(y: number, mZeroBased: number): number {
  *   "YYYY-MM"       month known, day unknown   → monthOnly = true
  *   "YYYY"          year only                  → yearOnly  = true
  *   ""              missing                    → missing   = true
- *   "Month DD, YYYY"  legacy display passthrough
  *
- * For sorting/histogram we still produce an `iso` placeholder for
- * partial dates: "YYYY-MM-31" / "YYYY-12-31". The flags let the UI
+ * For sorting/histogram we produce an `iso` anchor for partial
+ * dates: "YYYY-MM-<last day>" / "YYYY-12-31". The flags let the UI
  * render "March 2024" / "2024" / "Date unknown" appropriately.
  */
 function expandDate(raw: string): {
@@ -137,21 +134,6 @@ function expandDate(raw: string): {
       monthOnly: false, yearOnly: true, missing: false,
       display: `${y}`,
     };
-  }
-  // Month DD, YYYY (legacy display string passthrough)
-  m = /^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/.exec(s);
-  if (m) {
-    const idx = MONTHS.indexOf(m[1].toLowerCase());
-    if (idx >= 0) {
-      const day = parseInt(m[2], 10);
-      const year = parseInt(m[3], 10);
-      return {
-        iso: `${year}-${String(idx + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`,
-        year, month: idx + 1,
-        monthOnly: false, yearOnly: false, missing: false,
-        display: s,
-      };
-    }
   }
   // Anything else — treat as missing rather than guessing.
   return { iso: '', year: 0, month: 0, monthOnly: false, yearOnly: false, missing: true, display: 'Date unknown' };

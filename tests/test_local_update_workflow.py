@@ -35,7 +35,7 @@ def load_module(module_name: str, path: Path) -> types.ModuleType:
 class LocalUpdateWorkflowTests(unittest.TestCase):
     def test_pipeline_round_trips_yaml_and_renders_readme(self):
         """End-to-end: papers.yaml + adjacent.yaml + readme_template/template.md
-        in → papers.yaml (re-sorted) + README.md (rendered) out, with no
+        in → papers.yaml (re-sorted) + README.md (rendered) out, no
         intermediate fragment files."""
         with tempfile.TemporaryDirectory() as tmpdir:
             repo = Path(tmpdir)
@@ -74,9 +74,6 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
                   bibtex_confirmed: false
                 """))
             (repo / "adjacent.yaml").write_text("[]\n")
-            # Legacy dir that should be cleaned up.
-            (repo / "paper_by_env").mkdir()
-            (repo / "paper_by_env" / "paper_legacy.md").write_text("legacy")
 
             with chdir(repo):
                 module = load_module("regen_under_test", REGEN_SCRIPT)
@@ -87,19 +84,14 @@ class LocalUpdateWorkflowTests(unittest.TestCase):
             self.assertIn("Example Paper", readme)
             self.assertNotIn("{{insert_paper_count_here}}", readme)
 
-            # No intermediate fragments are written anymore.
+            # The pipeline writes the README directly — it does not
+            # create intermediate fragment files.
             for f in [
                 "paper_count.md", "env_grouping.md", "keyword_grouping.md",
                 "author_grouping.md", "paper_list_section.md",
             ]:
                 self.assertFalse((repo / "readme_template" / f).exists(),
                                  f"intermediate fragment {f} should not exist")
-
-            # No legacy markdown mirrors.
-            self.assertFalse((repo / "ALL_PAPERS.md").exists())
-            self.assertFalse((repo / "ADJACENT_PAPERS.md").exists())
-            # Legacy paper_by_* dirs cleaned up.
-            self.assertFalse((repo / "paper_by_env").exists())
 
 
 if __name__ == "__main__":
