@@ -628,7 +628,15 @@ export default function PaperBrowser(props: Props) {
 
         <ul class="grid gap-4">
           <For each={filtered().slice(0, showLimit())}>
-            {(p) => <li><PaperCardClient paper={p} basePath={props.basePath} repoBlobUrl={props.repoBlobUrl} onChip={(kw) => toggle(keys, setKeys, kw)} onToast={showToast} query={q().trim()} /></li>}
+            {(p) => <li><PaperCardClient
+              paper={p}
+              basePath={props.basePath}
+              repoBlobUrl={props.repoBlobUrl}
+              onChip={(kw) => toggle(keys, setKeys, kw)}
+              onInstitution={(inst) => toggle(institutions, setInstitutions, inst)}
+              onToast={showToast}
+              query={q().trim()}
+            /></li>}
           </For>
           {/* Skeleton placeholders shown while the next page is fetching */}
           <Show when={filtered().length > showLimit()}>
@@ -1031,6 +1039,7 @@ interface CardProps {
   basePath: string;
   repoBlobUrl: string;
   onChip: (kw: string) => void;
+  onInstitution?: (inst: string) => void;
   onToast?: (msg: string) => void;
   query?: string;
 }
@@ -1279,12 +1288,19 @@ function PaperCardClient(props: CardProps) {
         <span>{p.publisher}</span>
         <Show when={p.institutions.length > 0}>
           <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
-          <span class="text-ink-500 dark:text-ink-200">
-            {visibleInstitutions().join(', ')}
-            <Show when={!expanded() && moreInstitutions() > 0}>
-              <span class="ml-1 text-ink-400 dark:text-ink-300"> +{moreInstitutions()}</span>
-            </Show>
-          </span>
+          <For each={visibleInstitutions()}>{(inst, i) => (
+            <>
+              <Show when={i() > 0}><span class="text-ink-300/60 dark:text-ink-400/60">, </span></Show>
+              <button
+                class="text-ink-500 dark:text-ink-200 hover:text-accent dark:hover:text-accent-dark transition-colors cursor-pointer"
+                onClick={(e: MouseEvent) => { e.stopPropagation(); props.onInstitution?.(inst); }}
+                title={`Filter by institution: ${inst}`}
+              >{inst}</button>
+            </>
+          )}</For>
+          <Show when={!expanded() && moreInstitutions() > 0}>
+            <span class="ml-1 text-ink-400 dark:text-ink-300"> +{moreInstitutions()}</span>
+          </Show>
         </Show>
       </p>
 
