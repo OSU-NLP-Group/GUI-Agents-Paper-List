@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="Not found">
+  <section class="mx-auto max-w-reading px-4 sm:px-6 py-24 text-center">
+    <p class="heading-eyebrow">404</p>
+    <h1 class="mt-3 text-3xl font-semibold tracking-tight text-ink-700 dark:text-ink-50">Page not found</h1>
+    <p class="mt-3 text-ink-500 dark:text-ink-200">The page you were looking for doesn't exist or was moved.</p>
+    <a href={`${base}/papers`} class="btn-primary mt-6">Browse all papers →</a>
+  </section>
+</Base>

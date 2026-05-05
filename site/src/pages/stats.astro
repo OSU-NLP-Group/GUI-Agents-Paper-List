@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import StatsCharts from '../islands/StatsCharts';
+import { loadAllPapers } from '../lib/parsePapers';
+const { canonical } = loadAllPapers();
+const lite = canonical.map((p) => ({
+  slug: p.slug, title: p.title, link: p.link,
+  authors: p.authors, institutions: p.institutions,
+  date: p.date, dateISO: p.dateISO, year: p.year,
+  publisher: p.publisher, envs: p.envs, keywords: p.keywords,
+  tldr: p.tldr, arxivId: p.arxivId, source: p.source, sourceLine: p.sourceLine,
+}));
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="Stats" description="Trends and breakdowns across the GUI agent paper list.">
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 py-10">
+    <p class="heading-eyebrow">Stats</p>
+    <h1 class="text-3xl font-semibold tracking-tight mt-1 text-ink-700 dark:text-ink-50">Trends across {canonical.length} papers</h1>
+    <p class="text-ink-500 dark:text-ink-200 mt-2 max-w-2xl">
+      Stats reflect canonical entries only — adjacent papers are excluded so the picture stays scoped to direct GUI-agent research.
+    </p>
+    <div class="mt-10">
+      <StatsCharts client:only="solid-js" papers={lite} basePath={base} />
+      <noscript>
+        <p class="text-sm text-ink-500 dark:text-ink-200">
+          Interactive charts need JavaScript. You can still browse the full list on the
+          <a class="link" href={`${base}/papers`}>papers page</a>.
+        </p>
+      </noscript>
+    </div>
+  </section>
+</Base>

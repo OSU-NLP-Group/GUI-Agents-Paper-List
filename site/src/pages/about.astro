@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import { REPO_URL, REPO_RAW_BLOB } from '../lib/site';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="About" description="About the GUI Agents Paper List.">
+  <section class="mx-auto max-w-reading px-4 sm:px-6 py-10">
+    <p class="heading-eyebrow">About</p>
+    <h1 class="text-3xl font-semibold tracking-tight mt-1 text-ink-700 dark:text-ink-50">About this list</h1>
+
+    <div class="prose prose-paper mt-8 text-ink-700 dark:text-ink-50 leading-relaxed space-y-5 max-w-none">
+      <p>
+        The <a class="link" href={REPO_URL} target="_blank" rel="noopener">GUI Agents Paper List</a> is a curated, openly maintained index of research on agents that interact with graphical user interfaces — on the web, on mobile, on desktop, and across general-GUI settings.
+      </p>
+      <p>
+        This site is a <strong>presentation layer</strong>: every paper, link, author, and tag here lives in <a class="link" href={`${REPO_RAW_BLOB}/ALL_PAPERS.md`} target="_blank" rel="noopener"><code>ALL_PAPERS.md</code></a>. The site adds search, filters, and visualizations, but the source of truth is the markdown file in the repo.
+      </p>
+
+      <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">Scope</h2>
+      <p>
+        The main list ("canonical") only includes papers whose <em>main contribution</em> directly studies GUI agents — including models, frameworks, benchmarks, datasets, GUI grounding, planning, memory, safety, security, and reinforcement learning for GUI tasks.
+      </p>
+      <p>
+        Papers that are useful supporting context but not directly about GUI agents — for instance reused foundation models, general multimodal methods, generic agent infrastructure, or non-browser search agents — go into a separate list, <a class="link" href={`${base}/adjacent`}>adjacent papers</a>. They are intentionally excluded from browse defaults and stats so the main signal stays scoped.
+      </p>
+
+      <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">How papers are added</h2>
+      <p>
+        Each entry has a fixed nine-field structure: <code>title · link · authors · institutions · date · publisher · env · keywords · TLDR</code>. The repository's <a class="link" href={`${REPO_RAW_BLOB}/CLAUDE.md`} target="_blank" rel="noopener">contribution guide</a> describes the canonical formatting rules — keyword conventions, environment tags, date format — and a local pipeline regenerates the README, the per-env / per-keyword / per-author groupings, and the statistics figures whenever the source markdown changes.
+      </p>
+      <p>
+        For dates, we always use the <strong>earliest known public release</strong>: arXiv v1 / first preprint over a later venue version, so the date reflects the work's true age rather than the latest revision.
+      </p>
+
+      <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">Contribute</h2>
+      <ul class="list-disc pl-5 space-y-1.5">
+        <li><strong>Suggest a paper</strong>: <a class="link" href={`${REPO_URL}/issues/new`} target="_blank" rel="noopener">open an issue</a> with the title, link, and any relevant details.</li>
+        <li><strong>Fix metadata</strong>: every paper card has an "Edit on GitHub" link that takes you to the entry's exact line in the markdown source.</li>
+        <li><strong>Add yourself</strong>: edit <code>ALL_PAPERS.md</code>, run the repo's update script, and submit a PR with the regenerated artifacts. The format is strict; see the contribution guide.</li>
+      </ul>
+
+      <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">A note on the site</h2>
+      <p>
+        This site is intentionally narrow. It only shows what's in the public markdown — no abstracts, no extra metadata, no opaque scoring. If you'd like to see something added, the path is the same as adding any other change: edit the source, open a PR.
+      </p>
+
+      <p class="text-sm text-ink-400 dark:text-ink-300 mt-12">
+        If this list helps your work, please consider <a class="link" href={`${REPO_URL}/stargazers`} target="_blank" rel="noopener">starring the repo</a> — it's the simplest signal that helps others find it.
+      </p>
+    </div>
+  </section>
+</Base>

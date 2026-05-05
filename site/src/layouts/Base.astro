@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import TopBar from '../components/TopBar.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../lib/site';
+import { getStarCount } from '../lib/star';
+
+const { title, description } = Astro.props as { title?: string; description?: string };
+const fullTitle = title ? `${title} · ${SITE_TITLE}` : SITE_TITLE;
+const desc = description ?? SITE_DESCRIPTION;
+const starCount = await getStarCount();
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    {/* No-flash theme bootstrap. Default: dark — overridden if user previously chose light. */}
+    <script is:inline>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          // Default to LIGHT (warm paper) if user has no preference yet.
+          var dark = saved === 'dark';
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <TopBar starCount={starCount} />
+    <main class="flex-1 relative z-10">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

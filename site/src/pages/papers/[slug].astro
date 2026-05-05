@@ -1,0 +1,170 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadAllPapers, repoFileUrl, type Paper } from '../../lib/parsePapers';
+import { ENV_EMOJI, REPO_URL } from '../../lib/site';
+
+interface RelatedLite {
+  slug: string;
+  title: string;
+  date: string;
+  publisher: string;
+}
+
+export async function getStaticPaths() {
+  const { canonical, adjacent } = loadAllPapers();
+  const all = [...canonical, ...adjacent];
+
+  // Pre-compute related papers per paper at build time, keep slim.
+  const related = new Map<string, RelatedLite[]>();
+  for (const target of all) {
+    const kwSet = new Set(target.keywords);
+    const envSet = new Set(target.envs);
+    const scored = canonical
+      .filter((p) => p.slug !== target.slug)
+      .map((p) => {
+        let kw = 0;
+        for (const k of p.keywords) if (kwSet.has(k)) kw++;
+        let env = 0;
+        for (const e of p.envs) if (envSet.has(e)) env++;
+        return { p, score: kw * 2 + env };
+      })
+      .filter((x) => x.score >= 2)
+      .sort((a, b) => b.score - a.score || (a.p.dateISO < b.p.dateISO ? 1 : -1))
+      .slice(0, 6)
+      .map((x) => ({
+        slug: x.p.slug, title: x.p.title, date: x.p.date, publisher: x.p.publisher,
+      }));
+    related.set(target.slug, scored);
+  }
+
+  return all.map((p) => ({
+    params: { slug: p.slug },
+    props: { paper: p, related: related.get(p.slug) ?? [] },
+  }));
+}
+
+const { paper, related } = Astro.props as { paper: Paper; related: RelatedLite[] };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const editUrl = repoFileUrl(paper);
+
+function bibKey(p: Paper): string {
+  const lastName = (p.authors[0] ?? 'unknown').split(/\s+/).pop()!.toLowerCase().replace(/[^a-z]/g, '');
+  const titleWord = p.title.split(/\s+/).find((w) => w.length > 3)?.toLowerCase().replace(/[^a-z0-9]/g, '') ?? 'paper';
+  return `${lastName}${p.year}${titleWord}`;
+}
+function venue(p: Paper): string {
+  const m = /^([A-Za-z\-\s]+)\s+(\d{4})/.exec(p.publisher);
+  return m ? m[1].trim() : p.publisher;
+}
+const bibtex = `@inproceedings{${bibKey(paper)},
+  title={${paper.title}},
+  author={${paper.authors.join(' and ')}},
+  year={${paper.year}},
+  booktitle={${venue(paper)}},
+  url={${paper.link}}
+}`;
+
+const issueBody = [
+  `**Paper title:** ${paper.title}`,
+  `**Paper link:** ${paper.link}`,
+  `**Source line:** ${paper.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${paper.sourceLine}`,
+  '',
+  '### What is incorrect or missing?',
+  '<!-- Please describe the issue (e.g., wrong authors, wrong date, wrong publisher, missing keyword, broken link). -->',
+  '',
+].join('\n');
+
+const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
+  title: `[Metadata] ${paper.title}`,
+  body: issueBody,
+  labels: 'metadata-correction',
+  template: 'metadata-correction.yml',
+}).toString();
+---
+<Base title={paper.title} description={paper.tldr || paper.title}>
+  <section class="mx-auto max-w-reading px-4 sm:px-6 py-10">
+    <a href={`${base}/papers`} class="text-sm link">← Browse</a>
+
+    <h1 class="mt-4 text-2xl sm:text-3xl font-semibold tracking-tight text-ink-700 dark:text-ink-50 leading-tight">
+      <a href={paper.link} target="_blank" rel="noopener" class="hover:text-accent dark:hover:text-accent-dark">{paper.title}</a>
+    </h1>
+
+    <p class="mt-3 text-ink-500 dark:text-ink-200">{paper.authors.join(', ')}</p>
+
+    <dl class="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
+      <dt class="text-ink-400 dark:text-ink-300">🏛 Institutions</dt>
+      <dd class="text-ink-600 dark:text-ink-100">{paper.institutions.join(', ') || '—'}</dd>
+
+      <dt class="text-ink-400 dark:text-ink-300">📅 Date</dt>
+      <dd class="text-ink-600 dark:text-ink-100">{paper.date}</dd>
+
+      <dt class="text-ink-400 dark:text-ink-300">📑 Publisher</dt>
+      <dd class="text-ink-600 dark:text-ink-100">{paper.publisher}</dd>
+
+      <dt class="text-ink-400 dark:text-ink-300">💻 Env</dt>
+      <dd class="text-ink-600 dark:text-ink-100 flex flex-wrap gap-3">
+        {paper.envs.map((env) => (
+          <span class="inline-flex items-center gap-1.5">
+            <span aria-hidden="true">{ENV_EMOJI[env] ?? '🖼️'}</span>
+            <a class="link" href={`${base}/papers?env=${encodeURIComponent(env)}`}>{env}</a>
+          </span>
+        ))}
+      </dd>
+
+      <dt class="text-ink-400 dark:text-ink-300">🔑 Keywords</dt>
+      <dd>
+        <div class="flex flex-wrap gap-1.5">
+          {paper.keywords.map((kw) => (
+            <a class="chip" href={`${base}/papers?key=${encodeURIComponent(kw)}`}>{kw}</a>
+          ))}
+        </div>
+      </dd>
+    </dl>
+
+    {paper.tldr && (
+      <section class="mt-8">
+        <div class="heading-eyebrow mb-2">TLDR</div>
+        <p class="text-base leading-relaxed text-ink-700 dark:text-ink-50">{paper.tldr}</p>
+      </section>
+    )}
+
+    <section class="mt-8 flex flex-wrap items-center gap-3">
+      <a href={paper.link} target="_blank" rel="noopener" class="btn-primary">
+        <span>Open paper</span><span aria-hidden="true">↗</span>
+      </a>
+      {paper.arxivId && (
+        <a href={`https://arxiv.org/abs/${paper.arxivId}`} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">arXiv</a>
+      )}
+      <a href={editUrl} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">Edit on GitHub</a>
+      <a href={reportUrl} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        Report issue
+      </a>
+    </section>
+
+    <section class="mt-10">
+      <details class="group">
+        <summary class="heading-eyebrow cursor-pointer hover:text-accent dark:hover:text-accent-dark">BibTeX (auto-generated)</summary>
+        <pre class="mt-2 p-4 rounded-md bg-paper-200/40 dark:bg-ink-800 text-xs overflow-x-auto font-mono text-ink-600 dark:text-ink-100 border border-paper-300/60 dark:border-ink-600/60">{bibtex}</pre>
+        <p class="mt-1 text-xs text-ink-400">Synthesized from list metadata; verify before citing.</p>
+      </details>
+    </section>
+
+    {related.length > 0 && (
+      <section class="mt-12">
+        <div class="heading-eyebrow mb-3">Related papers</div>
+        <ul class="grid sm:grid-cols-2 gap-3">
+          {related.map((p) => (
+            <li>
+              <a href={`${base}/papers/${p.slug}`} class="block card p-4 hover:border-accent/60 dark:hover:border-accent-dark/60">
+                <div class="text-sm font-medium text-ink-700 dark:text-ink-50 line-clamp-2">{p.title}</div>
+                <div class="mt-1 text-xs text-ink-400 dark:text-ink-300">{p.date} · {p.publisher}</div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </section>
+</Base>

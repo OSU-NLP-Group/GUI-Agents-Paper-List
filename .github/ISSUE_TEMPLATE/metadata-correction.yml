@@ -1,0 +1,40 @@
+name: Metadata correction
+description: Report incorrect or missing information for a paper in the list.
+title: "[Metadata] <paper title>"
+labels: ["metadata-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this list accurate. If you arrived here from the website's "Report issue" button on a paper card, the title and body should already be partially filled in.
+  - type: input
+    id: paper-title
+    attributes:
+      label: Paper title
+      description: Title of the paper as it appears in the list (or as it should appear).
+      placeholder: e.g. OSWorld&#58; Benchmarking Multimodal Agents…
+    validations:
+      required: true
+  - type: input
+    id: paper-link
+    attributes:
+      label: Paper link
+      description: Canonical link (project page, arXiv, or venue).
+      placeholder: https://arxiv.org/abs/...
+  - type: input
+    id: source-line
+    attributes:
+      label: Source line in markdown
+      description: Optional. e.g. ALL_PAPERS.md#L1234
+  - type: textarea
+    id: details
+    attributes:
+      label: What is incorrect or missing?
+      description: Describe the issue (e.g., wrong authors, wrong date, missing keyword, broken link, wrong env).
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested correction (optional)
+      description: If you know the correct value, paste it here.

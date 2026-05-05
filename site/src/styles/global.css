@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* light = warm paper */
+html, body {
+  background-color: #f7efdf; /* paper.100 */
+  color: #23211c; /* ink.700 */
+}
+
+html.dark, html.dark body {
+  background-color: #0f1217; /* nightbg */
+  color: #e9e6df; /* ink.100 */
+}
+
+@layer components {
+  .link {
+    @apply text-accent dark:text-accent-dark hover:underline underline-offset-2;
+  }
+
+  .surface {
+    @apply bg-paper-50 dark:bg-nightbg-soft border border-paper-300/60 dark:border-ink-600/60;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs leading-none
+           bg-chip-light dark:bg-chip-dark text-ink-600 dark:text-ink-100
+           border border-paper-300/60 dark:border-ink-600/60
+           hover:bg-chip-light-hover dark:hover:bg-chip-dark-hover transition-colors;
+  }
+
+  .chip-active {
+    @apply bg-accent text-paper-50 border-accent
+           dark:bg-accent-dark dark:text-ink-900 dark:border-accent-dark;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md text-sm font-medium
+           bg-accent text-paper-50 hover:bg-accent/90
+           dark:bg-accent-dark dark:text-ink-900 dark:hover:bg-accent-dark/90
+           transition-colors;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm
+           text-ink-600 dark:text-ink-100
+           hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors;
+  }
+
+  .input {
+    @apply w-full px-3 py-2 rounded-md text-sm
+           bg-paper-50 dark:bg-nightbg-soft
+           border border-paper-300/80 dark:border-ink-600/60
+           focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent
+           dark:focus:ring-accent-dark/50 dark:focus:border-accent-dark
+           placeholder:text-ink-400/70;
+  }
+
+  .card {
+    @apply rounded-lg border border-paper-300/60 dark:border-ink-600/60
+           bg-paper-50/80 dark:bg-nightbg-soft
+           hover:border-paper-400/80 dark:hover:border-ink-400/60
+           transition-colors;
+  }
+
+  .heading-eyebrow {
+    @apply text-xs font-semibold tracking-[0.18em] uppercase
+           text-ink-400 dark:text-ink-300;
+  }
+
+  .clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* subtle paper grain */
+html:not(.dark) body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(160,140,100,0.06), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(120,100,70,0.05), transparent 45%);
+}
+
+/* scrollbar */
+html.dark ::-webkit-scrollbar { width: 10px; height: 10px; }
+html.dark ::-webkit-scrollbar-track { background: #0f1217; }
+html.dark ::-webkit-scrollbar-thumb { background: #2a2f3a; border-radius: 5px; }
+html.dark ::-webkit-scrollbar-thumb:hover { background: #3a4150; }

@@ -1,0 +1,49 @@
+---
+import { REPO_URL } from '../lib/site';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const year = new Date().getFullYear();
+---
+<footer class="mt-24 border-t border-paper-300/60 dark:border-ink-600/60">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 py-10 grid gap-8 md:grid-cols-3 text-sm">
+    <div>
+      <div class="heading-eyebrow mb-3">The Repo</div>
+      <p class="text-ink-500 dark:text-ink-200 max-w-md">
+        This site is generated from <a class="link" href={`${REPO_URL}/blob/main/ALL_PAPERS.md`} target="_blank" rel="noopener"><code>ALL_PAPERS.md</code></a>.
+        It's a presentation layer — every paper, link, and tag here lives in the markdown source of truth.
+      </p>
+      <a href={`${REPO_URL}/stargazers`} target="_blank" rel="noopener" class="btn-primary mt-4">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 2l2.96 6.55 7.04.74-5.27 4.84 1.55 6.97L12 17.77 5.72 21.1l1.55-6.97L2 9.29l7.04-.74L12 2z"/></svg>
+        Star the repo
+      </a>
+    </div>
+    <div>
+      <div class="heading-eyebrow mb-3">Browse</div>
+      <ul class="space-y-1.5">
+        <li><a class="link" href={`${base}/papers`}>All papers</a></li>
+        <li><a class="link" href={`${base}/papers?env=Web`}>Web agents</a></li>
+        <li><a class="link" href={`${base}/papers?env=Mobile`}>Mobile agents</a></li>
+        <li><a class="link" href={`${base}/papers?env=Desktop`}>Desktop agents</a></li>
+        <li><a class="link" href={`${base}/papers?env=General+GUI`}>General GUI</a></li>
+        <li><a class="link" href={`${base}/stats`}>Stats</a></li>
+        <li><a class="link" href={`${base}/adjacent`}>Adjacent papers</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="heading-eyebrow mb-3">Contribute</div>
+      <ul class="space-y-1.5">
+        <li><a class="link" href={`${REPO_URL}/issues/new`} target="_blank" rel="noopener">Suggest a paper</a></li>
+        <li><a class="link" href={`${REPO_URL}/blob/main/CLAUDE.md`} target="_blank" rel="noopener">Entry format</a></li>
+        <li><a class="link" href={`${REPO_URL}/pulls`} target="_blank" rel="noopener">Open PRs</a></li>
+        <li><a class="link" href={`${base}/about`}>About this list</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-paper-300/60 dark:border-ink-600/60 py-5">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 flex flex-col md:flex-row items-start md:items-center gap-2 justify-between text-xs text-ink-400 dark:text-ink-300">
+      <div>© {year} OSU NLP Group · Open source under the repo's license.</div>
+      <div>
+        Built with Astro · <a class="link" href={REPO_URL} target="_blank" rel="noopener">source on GitHub</a>
+      </div>
+    </div>
+  </div>
+</footer>

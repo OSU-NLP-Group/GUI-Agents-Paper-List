@@ -1,0 +1,62 @@
+---
+import type { Paper } from '../lib/parsePapers';
+import { ENV_EMOJI, REPO_RAW_BLOB } from '../lib/site';
+const { paper, compact = false } = Astro.props as { paper: Paper; compact?: boolean };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const editUrl = `${REPO_RAW_BLOB}/${paper.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${paper.sourceLine}`;
+const moreAuthors = Math.max(0, paper.authors.length - 4);
+const isAdj = paper.source === 'adjacent';
+---
+<article class={`card p-5 group ${isAdj ? 'opacity-95' : ''}`}>
+  <div class="flex items-start gap-3">
+    <div class="flex-1 min-w-0">
+      <h3 class="text-base sm:text-lg font-semibold leading-snug text-ink-700 dark:text-ink-50">
+        <a href={paper.link} target="_blank" rel="noopener" class="hover:text-accent dark:hover:text-accent-dark transition-colors">
+          {paper.title}
+        </a>
+      </h3>
+      <p class="mt-1 text-sm text-ink-500 dark:text-ink-200">
+        {paper.authors.slice(0, 4).join(', ')}{moreAuthors > 0 ? ` +${moreAuthors} more` : ''}
+      </p>
+    </div>
+    {isAdj && (
+      <span class="shrink-0 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-paper-200 dark:bg-ink-700 text-ink-500 dark:text-ink-200 border border-paper-300/60 dark:border-ink-600/60">adjacent</span>
+    )}
+  </div>
+
+  <div class="mt-3 grid sm:grid-cols-2 gap-x-6 gap-y-1 text-xs text-ink-500 dark:text-ink-200">
+    {paper.institutions.length > 0 && (
+      <div class="flex items-start gap-1.5"><span aria-hidden="true">🏛</span><span>{paper.institutions.join(' · ')}</span></div>
+    )}
+    <div class="flex items-start gap-1.5"><span aria-hidden="true">📅</span><span>{paper.date}</span></div>
+    <div class="flex items-start gap-1.5"><span aria-hidden="true">📑</span><span>{paper.publisher}</span></div>
+    <div class="flex items-start gap-1.5">
+      {paper.envs.map((env) => (
+        <span class="inline-flex items-center gap-1">
+          <span aria-hidden="true">{ENV_EMOJI[env] ?? '🖼️'}</span>
+          <span>{env}</span>
+        </span>
+      ))}
+    </div>
+  </div>
+
+  {paper.keywords.length > 0 && (
+    <div class="mt-3 flex flex-wrap gap-1.5">
+      {paper.keywords.slice(0, compact ? 5 : 10).map((kw) => (
+        <a class="chip" href={`${base}/papers?key=${encodeURIComponent(kw)}`}>{kw}</a>
+      ))}
+    </div>
+  )}
+
+  {!compact && paper.tldr && (
+    <p class="mt-3 text-sm text-ink-600 dark:text-ink-100 leading-relaxed clamp-3">{paper.tldr}</p>
+  )}
+
+  <div class="mt-4 flex items-center gap-3 text-xs">
+    <a class="link" href={`${base}/papers/${paper.slug}`}>Details →</a>
+    {paper.arxivId && (
+      <a class="link" href={`https://arxiv.org/abs/${paper.arxivId}`} target="_blank" rel="noopener">arXiv</a>
+    )}
+    <a class="link" href={editUrl} target="_blank" rel="noopener">Edit on GitHub ↗</a>
+  </div>
+</article>

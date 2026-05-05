@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import PaperCard from '../components/PaperCard.astro';
+import { loadAllPapers } from '../lib/parsePapers';
+const { adjacent } = loadAllPapers();
+---
+<Base title="Adjacent papers" description="Non-canonical but useful papers adjacent to GUI agent research.">
+  <section class="mx-auto max-w-5xl px-4 sm:px-6 py-10">
+    <p class="heading-eyebrow">Adjacent</p>
+    <h1 class="text-3xl font-semibold tracking-tight mt-1 text-ink-700 dark:text-ink-50">Adjacent papers</h1>
+    <p class="text-ink-500 dark:text-ink-200 mt-2 max-w-2xl leading-relaxed">
+      These are <strong>non-canonical</strong> entries — useful supporting context like reused foundation models, general multimodal methods, agent infrastructure, or non-browser search agents that materially inform GUI research. They are intentionally excluded from the main browse, the stats, and the per-environment / per-keyword groupings.
+    </p>
+    <p class="text-sm text-ink-400 dark:text-ink-300 mt-3">{adjacent.length} entries.</p>
+
+    <ul class="mt-8 grid gap-4">
+      {adjacent.map((p) => (
+        <li><PaperCard paper={p} /></li>
+      ))}
+    </ul>
+  </section>
+</Base>
