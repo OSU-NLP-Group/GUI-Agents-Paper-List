@@ -2,7 +2,7 @@
 
 A curated list of **537** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
-> 🌐 **For the easiest way to read this list, visit the website: <https://OSU-NLP-Group.github.io/GUI-Agents-Paper-List/>**
+> 🌐 **For the easiest way to read this list, visit the website: <https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/>**
 >
 > The site offers full search, multi-axis filtering (env / keyword / author / institution / year / publisher), per-paper detail pages, and an interactive stats view. The markdown files in this repo remain the source of truth.
 
