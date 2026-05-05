@@ -186,7 +186,7 @@ export default function StatsCharts(props: Props) {
     instChart.setOption({
       backgroundColor: c.bg,
       tooltip: { trigger: 'item' },
-      grid: { left: 130, right: 24, top: 8, bottom: 24 },
+      grid: { left: 180, right: 24, top: 8, bottom: 24 },
       xAxis: { type: 'value', axisLabel: { color: c.muted }, splitLine: { lineStyle: { color: c.grid } } },
       yAxis: { type: 'category', data: topInst.map(([k]) => k), axisLabel: { color: c.text, fontSize: 11 }, axisLine: { lineStyle: { color: c.grid } } },
       series: [{ type: 'bar', data: topInst.map(([, v]) => v), itemStyle: { color: c.palette[2], borderRadius: [0, 3, 3, 0] } }],
@@ -226,7 +226,7 @@ export default function StatsCharts(props: Props) {
     pChart.setOption({
       backgroundColor: c.bg,
       tooltip: { trigger: 'item' },
-      grid: { left: 130, right: 24, top: 8, bottom: 24 },
+      grid: { left: 180, right: 24, top: 8, bottom: 24 },
       xAxis: { type: 'value', axisLabel: { color: c.muted }, splitLine: { lineStyle: { color: c.grid } } },
       yAxis: { type: 'category', data: topP.map(([k]) => k), axisLabel: { color: c.text, fontSize: 11 }, axisLine: { lineStyle: { color: c.grid } } },
       series: [{ type: 'bar', data: topP.map(([, v]) => v), itemStyle: { color: c.palette[5], borderRadius: [0, 3, 3, 0] } }],

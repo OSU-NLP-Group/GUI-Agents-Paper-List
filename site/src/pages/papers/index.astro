@@ -27,9 +27,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </div>
 
-    <div class="text-sm text-ink-400 dark:text-ink-300" id="js-fallback-msg">
-      Loading interactive browser…
-    </div>
     <PaperBrowser client:only="solid-js" papers={lite} basePath={base} repoBlobUrl={REPO_RAW_BLOB} />
     <noscript>
       <div class="surface rounded-lg p-6 mt-4 text-sm text-ink-600 dark:text-ink-100">

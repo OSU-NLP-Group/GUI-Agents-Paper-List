@@ -282,6 +282,7 @@ export default function PaperBrowser(props: Props) {
     setFacetSearch: (v: string) => void,
     showSearch = true,
     cap = 12,
+    headerExtra: (() => any) | null = null,
   ) => {
     const [open, setOpen] = createSignal(true);
     const [showAll, setShowAll] = createSignal(false);
@@ -297,10 +298,13 @@ export default function PaperBrowser(props: Props) {
     });
     return (
       <section class="border-b border-paper-300/60 dark:border-ink-600/60 py-3">
-        <button class="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-ink-500 dark:text-ink-200 hover:text-ink-700 dark:hover:text-ink-50" onClick={() => setOpen(!open())}>
-          <span>{label} <Show when={selected().size > 0}><span class="ml-1 text-accent dark:text-accent-dark normal-case tracking-normal font-medium">· {selected().size}</span></Show></span>
-          <span class="text-ink-400">{open() ? '−' : '+'}</span>
-        </button>
+        <div class="flex items-center justify-between gap-2">
+          <button class="flex-1 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-ink-500 dark:text-ink-200 hover:text-ink-700 dark:hover:text-ink-50" onClick={() => setOpen(!open())}>
+            <span>{label} <Show when={selected().size > 0}><span class="ml-1 text-accent dark:text-accent-dark normal-case tracking-normal font-medium">· {selected().size}</span></Show></span>
+            <span class="text-ink-400 mr-2">{open() ? '−' : '+'}</span>
+          </button>
+          {headerExtra && headerExtra()}
+        </div>
         <Show when={open()}>
           <div class="mt-2.5 space-y-1.5">
             <Show when={showSearch && items().length > cap}>
@@ -361,16 +365,11 @@ export default function PaperBrowser(props: Props) {
         </div>
 
         {filterSection('Environment', allEnvs as any, envs, setEnvs, () => '', () => {}, false, 8)}
-
-        <section class="border-b border-paper-300/60 dark:border-ink-600/60 py-3">
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-semibold uppercase tracking-[0.16em] text-ink-500 dark:text-ink-200">Keywords <Show when={keys().size > 0}><span class="ml-1 text-accent dark:text-accent-dark normal-case tracking-normal font-medium">· {keys().size}</span></Show></span>
-            <Show when={keys().size > 1}>
-              <button class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={() => setKeyMode(keyMode() === 'AND' ? 'OR' : 'AND')}>{keyMode()}</button>
-            </Show>
-          </div>
-        </section>
-        {filterSection('', allKeys as any, keys, setKeys, keyFacetSearch, setKeyFacetSearch)}
+        {filterSection('Keywords', allKeys as any, keys, setKeys, keyFacetSearch, setKeyFacetSearch, true, 12, () => (
+          <Show when={keys().size > 1}>
+            <button class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={(e: any) => { e.stopPropagation(); setKeyMode(keyMode() === 'AND' ? 'OR' : 'AND'); }}>{keyMode()}</button>
+          </Show>
+        ))}
         {filterSection('Author', allAuthors as any, authors, setAuthors, authorFacetSearch, setAuthorFacetSearch)}
         {filterSection('Institution', allInstitutions as any, institutions, setInstitutions, instFacetSearch, setInstFacetSearch)}
         {filterSection('Publisher', allPublishers as any, publishers, setPublishers, pubFacetSearch, setPubFacetSearch)}
@@ -473,58 +472,58 @@ interface CardProps {
 
 function PaperCardClient(props: CardProps) {
   const p = props.paper;
-  const moreAuthors = Math.max(0, p.authors.length - 4);
+  const moreAuthors = Math.max(0, p.authors.length - 3);
   const editUrl = `${props.repoBlobUrl}/${p.source === 'adjacent' ? 'ADJACENT_PAPERS.md' : 'ALL_PAPERS.md'}#L${p.sourceLine}`;
+  const detailHref = `${props.basePath}/papers/${p.slug}`;
   return (
     <article class={`card p-5 ${p.source === 'adjacent' ? 'opacity-95' : ''}`}>
       <div class="flex items-start gap-3">
         <div class="flex-1 min-w-0">
           <h3 class="text-base sm:text-lg font-semibold leading-snug text-ink-700 dark:text-ink-50">
-            <a href={p.link} target="_blank" rel="noopener" class="hover:text-accent dark:hover:text-accent-dark transition-colors">{p.title}</a>
+            <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{p.title}</a>
           </h3>
           <p class="mt-1 text-sm text-ink-500 dark:text-ink-200">
-            {p.authors.slice(0, 4).join(', ')}{moreAuthors > 0 ? ` +${moreAuthors} more` : ''}
+            {p.authors.slice(0, 3).join(', ')}{moreAuthors > 0 ? ` +${moreAuthors} more` : ''}
           </p>
         </div>
-        <Show when={p.source === 'adjacent'}>
-          <span class="shrink-0 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-paper-200 dark:bg-ink-700 text-ink-500 dark:text-ink-200 border border-paper-300/60 dark:border-ink-600/60">adjacent</span>
-        </Show>
-      </div>
-
-      <div class="mt-3 grid sm:grid-cols-2 gap-x-6 gap-y-1 text-xs text-ink-500 dark:text-ink-200">
-        <Show when={p.institutions.length > 0}>
-          <div class="flex items-start gap-1.5"><span aria-hidden="true">🏛</span><span class="truncate">{p.institutions.join(' · ')}</span></div>
-        </Show>
-        <div class="flex items-start gap-1.5"><span aria-hidden="true">📅</span><span>{p.date}</span></div>
-        <div class="flex items-start gap-1.5"><span aria-hidden="true">📑</span><span>{p.publisher}</span></div>
-        <div class="flex items-start gap-1.5">
+        <div class="shrink-0 flex items-center gap-2">
           <For each={p.envs}>{(env) => (
-            <span class="inline-flex items-center gap-1">
-              <span aria-hidden="true">{ENV_ICON[env] ?? '🖼️'}</span>
-              <span>{env}</span>
-            </span>
+            <span class="text-base" title={env} aria-label={env}>{ENV_ICON[env] ?? '🖼️'}</span>
           )}</For>
+          <Show when={p.source === 'adjacent'}>
+            <span class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-paper-200 dark:bg-ink-700 text-ink-500 dark:text-ink-200 border border-paper-300/60 dark:border-ink-600/60">adj</span>
+          </Show>
         </div>
       </div>
+
+      <p class="mt-2 text-xs text-ink-400 dark:text-ink-300">
+        <span>{p.date}</span>
+        <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
+        <span>{p.publisher}</span>
+        <Show when={p.institutions.length > 0}>
+          <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
+          <span class="text-ink-500 dark:text-ink-200">{p.institutions.slice(0, 3).join(', ')}{p.institutions.length > 3 ? ` +${p.institutions.length - 3}` : ''}</span>
+        </Show>
+      </p>
+
+      <Show when={p.tldr}>
+        <p class="mt-2.5 text-sm text-ink-600 dark:text-ink-100 leading-relaxed clamp-3">{p.tldr}</p>
+      </Show>
 
       <Show when={p.keywords.length > 0}>
         <div class="mt-3 flex flex-wrap gap-1.5">
-          <For each={p.keywords.slice(0, 10)}>{(kw) => (
+          <For each={p.keywords.slice(0, 8)}>{(kw) => (
             <button class="chip" onClick={() => props.onChip(kw)}>{kw}</button>
           )}</For>
         </div>
       </Show>
 
-      <Show when={p.tldr}>
-        <p class="mt-3 text-sm text-ink-600 dark:text-ink-100 leading-relaxed clamp-3">{p.tldr}</p>
-      </Show>
-
-      <div class="mt-4 flex items-center gap-3 text-xs">
-        <a class="link" href={`${props.basePath}/papers/${p.slug}`}>Details →</a>
-        <Show when={!!p.arxivId}>
-          <a class="link" href={`https://arxiv.org/abs/${p.arxivId}`} target="_blank" rel="noopener">arXiv</a>
-        </Show>
-        <a class="link" href={editUrl} target="_blank" rel="noopener">Edit on GitHub ↗</a>
+      <div class="mt-3.5 flex items-center justify-between gap-3 text-xs">
+        <a class="link font-medium" href={detailHref}>Details →</a>
+        <div class="flex items-center gap-3 text-ink-400 dark:text-ink-300">
+          <a class="hover:text-accent dark:hover:text-accent-dark" href={p.link} target="_blank" rel="noopener">Open ↗</a>
+          <a class="hover:text-accent dark:hover:text-accent-dark" href={editUrl} target="_blank" rel="noopener">Edit</a>
+        </div>
       </div>
     </article>
   );
