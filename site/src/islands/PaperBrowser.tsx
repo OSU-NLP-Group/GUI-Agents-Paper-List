@@ -634,6 +634,7 @@ export default function PaperBrowser(props: Props) {
               repoBlobUrl={props.repoBlobUrl}
               onChip={(kw) => toggle(keys, setKeys, kw)}
               onInstitution={(inst) => toggle(institutions, setInstitutions, inst)}
+              onAuthor={(a) => toggle(authors, setAuthors, a)}
               onToast={showToast}
               query={q().trim()}
             /></li>}
@@ -1040,6 +1041,7 @@ interface CardProps {
   repoBlobUrl: string;
   onChip: (kw: string) => void;
   onInstitution?: (inst: string) => void;
+  onAuthor?: (author: string) => void;
   onToast?: (msg: string) => void;
   query?: string;
 }
@@ -1219,7 +1221,16 @@ function PaperCardClient(props: CardProps) {
             <a href={detailHref} class="hover:text-accent dark:hover:text-accent-dark transition-colors">{highlight(p.title, props.query)}</a>
           </h3>
           <p class="mt-1 text-sm text-ink-500 dark:text-ink-200 break-words">
-            {highlight(p.authors.join(', '), props.query)}
+            <For each={p.authors}>{(author, i) => (
+              <>
+                <Show when={i() > 0}><span class="text-ink-300/60 dark:text-ink-400/60">, </span></Show>
+                <button
+                  class="hover:text-accent dark:hover:text-accent-dark transition-colors cursor-pointer"
+                  onClick={() => props.onAuthor?.(author)}
+                  title={`Filter by author: ${author}`}
+                >{highlight(author, props.query)}</button>
+              </>
+            )}</For>
           </p>
         </div>
         <div class="shrink-0 flex items-center gap-2">
