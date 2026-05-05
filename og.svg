@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf6ec"/>
+      <stop offset="1" stop-color="#ede4d0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3057c4"/>
+      <stop offset="1" stop-color="#5b78d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Inter, Arial, sans-serif">
+    <rect x="64" y="64" width="60" height="60" rx="14" fill="url(#accent)"/>
+    <text x="94" y="106" text-anchor="middle" font-size="36" font-weight="700" fill="#fbf6ec">G</text>
+    <text x="146" y="106" font-size="26" font-weight="600" fill="#33312a">GUI Agents Papers</text>
+
+    <text x="64" y="260" font-size="68" font-weight="700" fill="#23211c">Research on GUI agents,</text>
+    <text x="64" y="334" font-size="68" font-weight="700" fill="#23211c">searchable and up to date.</text>
+
+    <text x="64" y="424" font-size="30" fill="#4a473d">537 papers · web · mobile · desktop · general GUI</text>
+    <text x="64" y="466" font-size="24" fill="#6b6759">Models · frameworks · benchmarks · datasets · grounding · planning · safety · RL</text>
+
+    <g>
+      <text x="64" y="566" font-size="22" fill="#6b6759">osu-nlp-group.github.io/GUI-Agents-Paper-List</text>
+    </g>
+    <g transform="translate(990, 540)">
+      <rect x="0" y="0" width="146" height="40" rx="8" fill="url(#accent)"/>
+      <text x="73" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#fbf6ec">★ Star on GitHub</text>
+    </g>
+  </g>
+</svg>
