@@ -39,7 +39,6 @@ const ENV_ICON: Record<string, string> = {
   'General GUI': '🖼️',
 };
 
-type ChipMode = 'AND' | 'OR';
 type SortKey = 'date-desc' | 'date-asc' | 'title-asc' | 'title-desc' | 'random' | 'relevance';
 
 // Deterministic PRNG so "Random" shuffle is stable while filters
@@ -83,7 +82,6 @@ function readUrlState(): {
   fromMonth: string | null;
   toMonth: string | null;
   sort: SortKey;
-  keyMode: ChipMode;
   includeAdjacent: boolean;
 } {
   const url = new URL(window.location.href);
@@ -100,7 +98,6 @@ function readUrlState(): {
     fromMonth: coerceMonthStr(ps.get('from')),
     toMonth: coerceMonthStr(ps.get('to')),
     sort: (ps.get('sort') as any) ?? 'date-desc',
-    keyMode: (ps.get('keyMode') as ChipMode) ?? 'AND',
     includeAdjacent: ps.get('adj') === '1',
   };
 }
@@ -122,7 +119,6 @@ function writeUrlState(state: ReturnType<typeof readUrlState>) {
   setOrDelete('from', state.fromMonth ?? '');
   setOrDelete('to', state.toMonth ?? '');
   setOrDelete('sort', state.sort === 'date-desc' ? '' : state.sort);
-  setOrDelete('keyMode', state.keyMode === 'AND' ? '' : state.keyMode);
   setOrDelete('adj', state.includeAdjacent ? '1' : '');
   history.replaceState(null, '', url.toString());
 }
@@ -142,7 +138,7 @@ export default function PaperBrowser(props: Props) {
     authors: new Set<string>(), institutions: new Set<string>(),
     publishers: new Set<string>(),
     fromMonth: null as string | null, toMonth: null as string | null,
-    sort: 'date-desc' as const, keyMode: 'AND' as ChipMode,
+    sort: 'date-desc' as const,
     includeAdjacent: false,
   };
 
@@ -155,7 +151,6 @@ export default function PaperBrowser(props: Props) {
   const [fromMonth, setFromMonth] = createSignal<string | null>(initial.fromMonth);
   const [toMonth, setToMonth] = createSignal<string | null>(initial.toMonth);
   const [sort, setSort] = createSignal<SortKey>(initial.sort);
-  const [keyMode, setKeyMode] = createSignal<ChipMode>(initial.keyMode);
   const [includeAdjacent, setIncludeAdjacent] = createSignal<boolean>(initial.includeAdjacent);
 
   const [keyFacetSearch, setKeyFacetSearch] = createSignal('');
@@ -207,7 +202,7 @@ export default function PaperBrowser(props: Props) {
         q: q(), envs: envs(), keys: keys(), authors: authors(),
         institutions: institutions(), publishers: publishers(),
         fromMonth: fromMonth(), toMonth: toMonth(), sort: sort(),
-        keyMode: keyMode(), includeAdjacent: includeAdjacent(),
+        includeAdjacent: includeAdjacent(),
       });
     }, 200);
   };
@@ -242,19 +237,17 @@ export default function PaperBrowser(props: Props) {
     const tm = toMonth();
     const hits = searchHits();
     const adjOn = includeAdjacent();
-    const km = keyMode();
     persist();
+    // Within any one facet we use OR ("Web OR Mobile"); across
+    // facets we AND ("Web AND benchmark"). This is the universally-
+    // expected faceted-search model — users who want AND-on-keywords
+    // can express the same intent in the search box, which combines
+    // its own terms with AND across title/keywords/tldr.
     let out = candidates().filter((p) => {
       if (hits && !hits.has(p.slug)) return false;
       if (!adjOn && p.source !== 'canonical') return false;
       if (envSel.size > 0 && !p.envs.some((e) => envSel.has(e))) return false;
-      if (keySel.size > 0) {
-        if (km === 'AND') {
-          for (const k of keySel) if (!p.keywords.includes(k)) return false;
-        } else {
-          if (!p.keywords.some((k) => keySel.has(k))) return false;
-        }
-      }
+      if (keySel.size > 0 && !p.keywords.some((k) => keySel.has(k))) return false;
       if (authorSel.size > 0 && !p.authors.some((a) => authorSel.has(a))) return false;
       if (instSel.size > 0 && !p.institutions.some((i) => instSel.has(i))) return false;
       if (pubSel.size > 0 && !pubSel.has(normalizePublisher(p.publisher))) return false;
@@ -341,7 +334,7 @@ export default function PaperBrowser(props: Props) {
     setQ(''); setEnvs(new Set<string>()); setKeys(new Set<string>()); setAuthors(new Set<string>());
     setInstitutions(new Set<string>()); setPublishers(new Set<string>());
     setFromMonth(null); setToMonth(null); setSort('date-desc');
-    setKeyMode('AND'); setShowLimit(PAGE_SIZE);
+    setShowLimit(PAGE_SIZE);
   };
 
   const activeFilterCount = createMemo(() =>
@@ -352,7 +345,7 @@ export default function PaperBrowser(props: Props) {
   // Reset the visible-page limit whenever the active filter set / sort changes.
   createEffect(() => {
     envs(); keys(); authors(); institutions(); publishers();
-    fromMonth(); toMonth(); sort(); includeAdjacent(); keyMode();
+    fromMonth(); toMonth(); sort(); includeAdjacent();
     untrack(() => setShowLimit(PAGE_SIZE));
   });
 
@@ -362,7 +355,7 @@ export default function PaperBrowser(props: Props) {
     setQ(s.q); setEnvs(s.envs); setKeys(s.keys); setAuthors(s.authors);
     setInstitutions(s.institutions); setPublishers(s.publishers);
     setFromMonth(s.fromMonth); setToMonth(s.toMonth); setSort(s.sort);
-    setKeyMode(s.keyMode); setIncludeAdjacent(s.includeAdjacent);
+    setIncludeAdjacent(s.includeAdjacent);
     setShowLimit(PAGE_SIZE);
   };
   // Keyboard shortcuts
@@ -523,16 +516,19 @@ export default function PaperBrowser(props: Props) {
         <div class="flex items-center justify-between pb-2">
           <span class="text-xs font-semibold uppercase tracking-[0.18em] text-ink-400 dark:text-ink-300">Filters</span>
           <Show when={activeFilterCount() > 0 || q()}>
-            <button class="text-xs link" onClick={clearAll}>Clear all</button>
+            <button
+              class="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-md border border-paper-300/80 dark:border-ink-600/60 text-ink-500 dark:text-ink-200 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 hover:text-accent dark:hover:text-accent-dark transition-colors"
+              onClick={clearAll}
+              title="Clear search and all filters (Esc)"
+            >
+              <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg>
+              <span>Clear all</span>
+            </button>
           </Show>
         </div>
 
         {filterSection('Environment', allEnvs as any, envs, setEnvs, () => '', () => {}, false, 8)}
-        {filterSection('Keywords', allKeys as any, keys, setKeys, keyFacetSearch, setKeyFacetSearch, true, 12, () => (
-          <Show when={keys().size > 1}>
-            <button class="text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40" onClick={(e: any) => { e.stopPropagation(); setKeyMode(keyMode() === 'AND' ? 'OR' : 'AND'); }}>{keyMode()}</button>
-          </Show>
-        ))}
+        {filterSection('Keywords', allKeys as any, keys, setKeys, keyFacetSearch, setKeyFacetSearch, true, 12)}
         {filterSection('Author', allAuthors as any, authors, setAuthors, authorFacetSearch, setAuthorFacetSearch)}
         {filterSection('Institution', allInstitutions as any, institutions, setInstitutions, instFacetSearch, setInstFacetSearch)}
         {filterSection('Publisher', allPublishers as any, publishers, setPublishers, pubFacetSearch, setPubFacetSearch)}
@@ -645,7 +641,13 @@ export default function PaperBrowser(props: Props) {
         <Show when={filtered().length === 0}>
           <div class="surface rounded-lg p-8 text-center">
             <p class="text-ink-500 dark:text-ink-200">No papers match these filters.</p>
-            <button class="btn-ghost mt-3" onClick={clearAll}>Clear all filters</button>
+            <button
+              class="mt-3 inline-flex items-center gap-1.5 text-xs px-2.5 py-1.5 rounded-md border border-paper-300/80 dark:border-ink-600/60 text-ink-500 dark:text-ink-200 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 hover:text-accent dark:hover:text-accent-dark transition-colors"
+              onClick={clearAll}
+            >
+              <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg>
+              <span>Clear all filters</span>
+            </button>
           </div>
         </Show>
 
