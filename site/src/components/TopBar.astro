@@ -12,9 +12,9 @@ function fmt(n: number): string {
 const navItems = [
   { href: `${base}/papers`, label: 'Browse' },
   { href: `${base}/stats`, label: 'Stats' },
-  { href: `${base}/adjacent`, label: 'Adjacent' },
   { href: `${base}/about`, label: 'About' },
 ];
+const addPaperUrl = `${REPO_URL}/issues/new?template=1-add-paper.yml`;
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 ---
 <header
@@ -48,6 +48,17 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
     </nav>
 
     <div class="flex-1"></div>
+
+    <a
+      href={addPaperUrl}
+      target="_blank"
+      rel="noopener"
+      class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium border border-accent/60 dark:border-accent-dark/60 text-accent dark:text-accent-dark hover:bg-accent/8 dark:hover:bg-accent-dark/10 transition-colors"
+      aria-label="Suggest a paper to add"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+      <span>Add a Paper</span>
+    </a>
 
     <a
       href={REPO_URL}
