@@ -136,7 +136,7 @@ We welcome contributions from the community!
 
 - [CocoaBench: Evaluating Unified Digital Agents in the Wild](https://arxiv.org/abs/2604.11201)
     - Shibo Hao, Zhining Zhang, Zhiqi Liang, Tianyang Liu, Yuheng Zha, Qiyue Gao, Jixuan Chen, Zilong Wang, Zhoujun Cheng, Haoxiang Zhang, Junli Wang, Hexi Jin, Boyuan Zheng, Kun Zhou, Yu Wang, Feng Yao, Licheng Liu, Yijiang Li, Zhifei Li, Zhengtao Han, Pracha Promthaw, Tommaso Cerruti, Xiaohan Fu, Ziqiao Ma, Jingbo Shang, Lianhui Qin, Julian McAuley, Eric P. Xing, Zhengzhong Liu, Rupesh Kumar Srivastava, Zhiting Hu
-    - 🏛️ Institutions: UC San Diego, OSU, CMU, MBZUAI
+    - 🏛️ Institutions: UC San Diego, MBZUAI, University of Michigan, UC Berkeley, ETH, University of Cambridge, Gray Swan AI
     - 📅 Date: April 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]

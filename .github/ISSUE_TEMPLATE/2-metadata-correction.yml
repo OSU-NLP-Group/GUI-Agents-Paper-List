@@ -1,24 +1,144 @@
 name: Report an error or metadata correction
-description: Incorrect author/institution/date, broken link, wrong keyword or env tag, etc.
-title: "[Correction] "
-labels: ["correction"]
+description: Incorrect author/institution/date, broken link, wrong keyword, env tag, BibTeX, etc.
+title: "[Metadata] "
+labels: ["metadata-correction"]
 body:
-  - type: input
-    id: paper
+  - type: markdown
     attributes:
-      label: Which paper
-      description: Paper title or link.
+      value: |
+        Thanks for helping keep this list accurate. Fill in only the fields you know — everything except the first two is optional. If you arrived from the website's **Report issue** button on a paper card, the paper link and source-line fields are already noted in the issue title.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of report
+      options:
+        - Metadata is wrong
+        - Missing information / want to add a field
+        - Verify / replace BibTeX (set bibtex_confirmed)
+        - Other
     validations:
       required: true
 
-  - type: textarea
-    id: issue
+  - type: input
+    id: paper-link
     attributes:
-      label: What's wrong and what's correct
-      description: Describe the incorrect field (authors, institutions, date, publisher, link, Env, keywords, TLDR, …) and the correct value.
+      label: Paper link
+      description: arXiv URL, project homepage, or any stable link that uniquely identifies the paper.
+      placeholder: https://arxiv.org/abs/2404.07972
+    validations:
+      required: true
+
+  - type: input
+    id: source-line
+    attributes:
+      label: Source location in papers.yaml
+      description: Optional. e.g. `papers.yaml#L1234`. Pre-noted if you arrived from the website.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What is incorrect, missing, or to add?
+      description: Describe the issue (e.g., wrong authors, wrong date, missing keyword, broken link).
       placeholder: |
         Currently: [current value]
         Should be: [correct value]
         Reason / source: ...
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "## Corrected values — fill in any you have"
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated. Include all of them.
+      placeholder: "Tianbao Xie, Danyang Zhang, Jixuan Chen, …"
+
+  - type: input
+    id: institutions
+    attributes:
+      label: Institutions
+      description: Comma-separated, common abbreviations preferred (OSU, MIT, CMU).
+      placeholder: "HKU, OSU, CMU, Salesforce"
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: "`YYYY-MM-DD`. Use the **earliest known public release** (arXiv v1 / first preprint)."
+      placeholder: "2024-04-11"
+
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher / venue
+      description: e.g. `NeurIPS 2024`, `ICLR 2025`, `ACL 2024`, `TMLR`, `arXiv`.
+      placeholder: "NeurIPS 2024"
+
+  - type: input
+    id: envs
+    attributes:
+      label: Env
+      description: One or more of Web, Mobile, Desktop, General GUI. Comma-separated.
+      placeholder: "Desktop"
+
+  - type: input
+    id: keywords
+    attributes:
+      label: Keywords
+      description: Comma-separated. See `CLAUDE.md` for guidance.
+      placeholder: "benchmark, OSWorld"
+
+  - type: textarea
+    id: tldr
+    attributes:
+      label: TLDR
+      description: 1–3 sentences, factual and contribution-first.
+
+  - type: input
+    id: src-arxiv
+    attributes:
+      label: sources.arxiv
+      placeholder: https://arxiv.org/abs/2404.07972
+
+  - type: input
+    id: src-openreview
+    attributes:
+      label: sources.openreview
+      placeholder: https://openreview.net/forum?id=…
+
+  - type: input
+    id: src-publisher
+    attributes:
+      label: sources.publisher_page
+      description: ACL Anthology, NeurIPS Proceedings, etc. Skip when OpenReview is the official page.
+      placeholder: https://aclanthology.org/2024.acl-long.123/
+
+  - type: input
+    id: src-homepage
+    attributes:
+      label: sources.homepage
+      placeholder: https://os-world.github.io/
+
+  - type: input
+    id: src-code
+    attributes:
+      label: sources.code
+      placeholder: https://github.com/org/repo
+
+  - type: input
+    id: src-dataset
+    attributes:
+      label: sources.dataset
+      placeholder: https://huggingface.co/datasets/…
+
+  - type: textarea
+    id: bibtex
+    attributes:
+      label: Verified BibTeX
+      description: Paste an official BibTeX export here to set `bibtex_confirmed: true`.
+      render: bibtex

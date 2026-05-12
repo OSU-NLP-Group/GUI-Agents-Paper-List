@@ -423,9 +423,12 @@
   - Zhiting Hu
   institutions:
   - UC San Diego
-  - OSU
-  - CMU
   - MBZUAI
+  - University of Michigan
+  - UC Berkeley
+  - ETH
+  - University of Cambridge
+  - Gray Swan AI
   date: '2026-04-13'
   publisher: arXiv
   envs:
@@ -21435,7 +21438,7 @@
   - CMU
   - Inspired Cognition
   date: '2023-07-25'
-  publisher: NeurIPS 2024 (Oral)
+  publisher: ICLR 2024 (Poster)
   envs:
   - Web
   keywords:
@@ -21449,13 +21452,14 @@
   arxiv_id: '2307.13854'
   sources:
     arxiv: https://arxiv.org/abs/2307.13854
+    openreview: https://openreview.net/forum?id=oKn9c6ytLx
     homepage: https://webarena.dev/
   bibtex: |-
     @inproceedings{zhou2023webarena,
       title = {WebArena: A Realistic Web Environment for Building Autonomous Agents},
       author = {Shuyan Zhou and Frank F. Xu and Hao Zhu and Xuhui Zhou and Robert Lo and Abishek Sridhar and Xianyi Cheng and Tianyue Ou and Yonatan Bisk and Daniel Fried and Uri Alon and Graham Neubig},
-      year = {2023},
-      booktitle = {NeurIPS 2024},
+      year = {2024},
+      booktitle = {ICLR 2024},
       eprint = {2307.13854},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2307.13854}

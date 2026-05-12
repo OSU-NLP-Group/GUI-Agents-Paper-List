@@ -22,7 +22,7 @@ The pipeline runs `scripts/regen.py`, which:
 3. Renders `README.md` directly from `readme_template/template.md` (no intermediate fragment files).
 4. Emits `readme_template/statistics/{quarterly_trend,keyword_bar_chart}.png`.
 
-Then review the diff and push:
+Then review the diff, push, and deploy the site:
 
 ```bash
 git status --short
@@ -30,6 +30,7 @@ git diff --stat
 git add papers.yaml adjacent.yaml README.md readme_template/statistics scripts tests requirements.txt pyproject.toml uv.lock .gitignore CLAUDE.md
 git commit -m "..."
 git push
+bash site/scripts/deploy.sh   # always deploy after any papers.yaml or site/ change
 ```
 
 Dependencies are in `requirements.txt` and `pyproject.toml`. With `uv`:
@@ -163,9 +164,21 @@ Auto-generated BibTeX may be approximate (especially the cite-key, booktitle/jou
 
 The website displays a **verified** badge on the Copy-BibTeX button when `bibtex_confirmed: true`.
 
+## Task: Update the Website (site/)
+
+Any change to files under `site/` (components, pages, styles, templates, issue templates) must be deployed to GitHub Pages after building. The site is **not** automatically deployed — a manual push is required every time.
+
+```bash
+cd paper_repo
+bash site/scripts/deploy.sh
+```
+
+This script builds the Astro site and force-pushes the output to the `gh-pages` branch. It must be run after **every** site change — including UI tweaks, component edits, and `.github/ISSUE_TEMPLATE/` changes — not just after `papers.yaml` updates.
+
+The live site is at https://osu-nlp-group.github.io/GUI-Agents-Paper-List/.
+
 ## Other Workflow Notes
 
-- The website is hosted at https://osu-nlp-group.github.io/GUI-Agents-Paper-List/ via a separate GitHub Pages branch. Rebuild it locally with `bash site/scripts/deploy.sh` after running `update_repo.sh`.
 - Errors during regen are logged to `readme_template/logs/error.log`.
 - The README only renders the 500 most recent papers (GitHub truncates rendering at ~512KB). The full list is `papers.yaml`.
 - `paper_db` (a separate workspace) reads `papers.yaml` directly.

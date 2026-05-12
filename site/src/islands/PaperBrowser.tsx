@@ -132,6 +132,14 @@ function fmtMonth(m: string): string {
   return `${MONTH_NAMES[idx]} ${mm[1]}`;
 }
 
+// "YYYY-MM" of a paper, derived from its year+month fields.
+// Falls back to "YYYY-12" for entries with year only.
+function paperMonth(p: BrowserPaper): string {
+  const y = p.year > 0 ? p.year : 0;
+  const m = p.month > 0 ? p.month : 12;
+  return `${y}-${String(m).padStart(2, '0')}`;
+}
+
 export default function PaperBrowser(props: Props) {
   const initial = typeof window !== 'undefined' ? readUrlState() : {
     q: '', envs: new Set<string>(), keys: new Set<string>(),
@@ -218,14 +226,6 @@ export default function PaperBrowser(props: Props) {
     const results = ms.search(query, { fuzzy: 0.18, prefix: true, combineWith: 'AND' });
     return new Set(results.map((r) => String(r.id)));
   });
-
-  // "YYYY-MM" of a paper, derived from its year+month fields. Falls
-  // back to "YYYY-12" for entries with year only.
-  const paperMonth = (p: BrowserPaper): string => {
-    const y = p.year > 0 ? p.year : 0;
-    const m = p.month > 0 ? p.month : 12;
-    return `${y}-${String(m).padStart(2, '0')}`;
-  };
 
   const filtered = createMemo<BrowserPaper[]>(() => {
     const envSel = envs();
@@ -660,6 +660,15 @@ export default function PaperBrowser(props: Props) {
               onChip={(kw) => toggle(keys, setKeys, kw)}
               onInstitution={(inst) => toggle(institutions, setInstitutions, inst)}
               onAuthor={(a) => toggle(authors, setAuthors, a)}
+              onPublisher={(pub) => {
+                const normalized = normalizePublisher(pub);
+                if (normalized) toggle(publishers, setPublishers, normalized);
+              }}
+              onMonth={(month) => {
+                setFromMonth(month);
+                setToMonth(month);
+                setShowLimit(PAGE_SIZE);
+              }}
               onToast={showToast}
               query={q().trim()}
             /></li>}
@@ -1040,6 +1049,8 @@ interface CardProps {
   onChip: (kw: string) => void;
   onInstitution?: (inst: string) => void;
   onAuthor?: (author: string) => void;
+  onPublisher?: (publisher: string) => void;
+  onMonth?: (month: string) => void;
   onToast?: (msg: string) => void;
   query?: string;
 }
@@ -1152,19 +1163,17 @@ function formatBib(kind: string, key: string, fields: Array<[string, string]>): 
 }
 function buildReportUrl(p: BrowserPaper): string {
   const issueBody = [
-    `**Paper title:** ${p.title}`,
     `**Paper link:** ${p.link}`,
     `**Source line:** ${p.source === 'adjacent' ? 'adjacent.yaml' : 'papers.yaml'}#L${p.sourceLine}`,
     '',
     '### What is incorrect or missing?',
-    '<!-- Please describe the issue (e.g., wrong authors, wrong date, wrong publisher, missing keyword, broken link). -->',
+    '<!-- Describe the issue: wrong authors, wrong date, wrong publisher, missing keyword, broken link, etc. -->',
     '',
   ].join('\n');
   const params = new URLSearchParams({
     title: `[Metadata] ${p.title}`,
     body: issueBody,
     labels: 'metadata-correction',
-    template: 'metadata-correction.yml',
   });
   return `https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues/new?${params.toString()}`;
 }
@@ -1242,9 +1251,17 @@ function PaperCardClient(props: CardProps) {
       </div>
 
       <p class="mt-2 text-xs text-ink-400 dark:text-ink-300 tabular-nums">
-        <span>{p.date}</span>
+        <button
+          class="hover:text-accent dark:hover:text-accent-dark transition-colors cursor-pointer"
+          onClick={() => props.onMonth?.(paperMonth(p))}
+          title={`Filter by month: ${fmtMonth(paperMonth(p))}`}
+        >{p.date}</button>
         <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
-        <span>{p.publisher}</span>
+        <button
+          class="hover:text-accent dark:hover:text-accent-dark transition-colors cursor-pointer"
+          onClick={() => props.onPublisher?.(p.publisher)}
+          title={`Filter by publisher: ${p.publisher}`}
+        >{p.publisher}</button>
         <Show when={p.institutions.length > 0}>
           <span class="mx-1.5 text-ink-300/60 dark:text-ink-400/60">·</span>
           <For each={p.institutions}>{(inst, i) => (
