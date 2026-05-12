@@ -622,7 +622,10 @@ export default function PaperBrowser(props: Props) {
             )}</For>
             <Show when={fromMonth() || toMonth()}>
               <button class="chip chip-active" onClick={() => { setFromMonth(null); setToMonth(null); }}>
-                {fromMonth() ? fmtMonth(fromMonth()!) : '…'} – {toMonth() ? fmtMonth(toMonth()!) : '…'}
+                {fromMonth() === toMonth()
+                  ? fmtMonth(fromMonth()!)
+                  : `${fromMonth() ? fmtMonth(fromMonth()!) : '…'} – ${toMonth() ? fmtMonth(toMonth()!) : '…'}`
+                }
                 <span class="ml-1">×</span>
               </button>
             </Show>
@@ -926,7 +929,7 @@ function DateRangeSection(props: DateRangeProps) {
           class="flex-1 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.16em] text-ink-500 dark:text-ink-200 hover:text-ink-700 dark:hover:text-ink-50"
           onClick={() => setOpen(!open())}
         >
-          <span>Date <Show when={isActive()}><span class="ml-1 text-accent dark:text-accent-dark normal-case tracking-normal font-medium">· {labelLeft()} – {labelRight()}</span></Show></span>
+          <span>Date <Show when={isActive()}><span class="ml-1 text-accent dark:text-accent-dark normal-case tracking-normal font-medium">· {labelLeft() === labelRight() ? labelLeft() : `${labelLeft()} – ${labelRight()}`}</span></Show></span>
           <span class="text-ink-400 mr-2">{open() ? '−' : '+'}</span>
         </button>
         <Show when={isActive()}>
@@ -1162,17 +1165,12 @@ function formatBib(kind: string, key: string, fields: Array<[string, string]>): 
   return `${kind}{${key},\n${indented}\n}`;
 }
 function buildReportUrl(p: BrowserPaper): string {
-  const issueBody = [
-    `**Paper link:** ${p.link}`,
-    `**Source line:** ${p.source === 'adjacent' ? 'adjacent.yaml' : 'papers.yaml'}#L${p.sourceLine}`,
-    '',
-    '### What is incorrect or missing?',
-    '<!-- Describe the issue: wrong authors, wrong date, wrong publisher, missing keyword, broken link, etc. -->',
-    '',
-  ].join('\n');
+  // GitHub structured forms honor `title` and `labels` from URL params but
+  // ignore `body`. We pre-fill the title so the paper is identified without
+  // requiring a separate "paper title" field inside the form.
   const params = new URLSearchParams({
+    template: '2-metadata-correction.yml',
     title: `[Metadata] ${p.title}`,
-    body: issueBody,
     labels: 'metadata-correction',
   });
   return `https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List/issues/new?${params.toString()}`;

@@ -1,12 +1,14 @@
 name: Report an error or metadata correction
 description: Incorrect author/institution/date, broken link, wrong keyword, env tag, BibTeX, etc.
-title: "[Metadata] "
+title: "[Metadata] <paper title here>"
 labels: ["metadata-correction"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping keep this list accurate. Fill in only the fields you know — everything except the first two is optional. If you arrived from the website's **Report issue** button on a paper card, the paper link and source-line fields are already noted in the issue title.
+        Thanks for helping keep this list accurate. The paper is identified by the **issue title** — please put the full paper title there. The link below is optional but helps with disambiguation.
+
+        Fill in only the fields you know. Everything except "What is wrong" is optional.
 
   - type: dropdown
     id: kind
@@ -23,11 +25,9 @@ body:
   - type: input
     id: paper-link
     attributes:
-      label: Paper link
-      description: arXiv URL, project homepage, or any stable link that uniquely identifies the paper.
+      label: Paper link (optional)
+      description: arXiv URL, project homepage, or any stable link. Helpful for disambiguation when multiple papers share a similar title.
       placeholder: https://arxiv.org/abs/2404.07972
-    validations:
-      required: true
 
   - type: input
     id: source-line
