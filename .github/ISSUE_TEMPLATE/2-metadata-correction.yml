@@ -1,144 +1,42 @@
 name: Report an error or metadata correction
-description: Incorrect author/institution/date, broken link, wrong keyword, env tag, BibTeX, etc.
+description: Wrong author/institution/date/publisher/keyword/env, broken link, BibTeX fix, etc.
 title: "[Metadata] <paper title here>"
 labels: ["metadata-correction"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping keep this list accurate. The paper is identified by the **issue title** — please put the full paper title there. The link below is optional but helps with disambiguation.
+        Thanks for helping keep this list accurate! Please put the **full paper title** in the issue title above.
 
-        Fill in only the fields you know. Everything except "What is wrong" is optional.
-
-  - type: dropdown
-    id: kind
-    attributes:
-      label: Type of report
-      options:
-        - Metadata is wrong
-        - Missing information / want to add a field
-        - Verify / replace BibTeX (set bibtex_confirmed)
-        - Other
-    validations:
-      required: true
-
-  - type: input
-    id: paper-link
-    attributes:
-      label: Paper link (optional)
-      description: arXiv URL, project homepage, or any stable link. Helpful for disambiguation when multiple papers share a similar title.
-      placeholder: https://arxiv.org/abs/2404.07972
-
-  - type: input
-    id: source-line
-    attributes:
-      label: Source location in papers.yaml
-      description: Optional. e.g. `papers.yaml#L1234`. Pre-noted if you arrived from the website.
+        Describe what is wrong and provide corrected values below. Delete any lines you don't need.
 
   - type: textarea
     id: details
     attributes:
-      label: What is incorrect, missing, or to add?
-      description: Describe the issue (e.g., wrong authors, wrong date, missing keyword, broken link).
-      placeholder: |
-        Currently: [current value]
-        Should be: [correct value]
-        Reason / source: ...
+      label: Correction details
+      description: |
+        **What is wrong / what to fix** (required): describe the issue and the correct value.
+        **Corrected metadata** (fill in only what you know): authors · institutions · date · publisher · env · keywords · tldr · sources
+      value: |
+        paper_link:
+        what_is_wrong:
+
+        authors:
+        institutions:
+        date:
+        publisher:
+        env:
+        keywords:
+        tldr:
+
+        sources.homepage:
+        sources.arxiv:
+        sources.openreview:
+        sources.publisher_page:
+        sources.code:
+        sources.dataset:
+        bibtex_verified: |
+
+        notes:
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: "## Corrected values — fill in any you have"
-
-  - type: input
-    id: authors
-    attributes:
-      label: Authors
-      description: Comma-separated. Include all of them.
-      placeholder: "Tianbao Xie, Danyang Zhang, Jixuan Chen, …"
-
-  - type: input
-    id: institutions
-    attributes:
-      label: Institutions
-      description: Comma-separated, common abbreviations preferred (OSU, MIT, CMU).
-      placeholder: "HKU, OSU, CMU, Salesforce"
-
-  - type: input
-    id: date
-    attributes:
-      label: Date
-      description: "`YYYY-MM-DD`. Use the **earliest known public release** (arXiv v1 / first preprint)."
-      placeholder: "2024-04-11"
-
-  - type: input
-    id: publisher
-    attributes:
-      label: Publisher / venue
-      description: e.g. `NeurIPS 2024`, `ICLR 2025`, `ACL 2024`, `TMLR`, `arXiv`.
-      placeholder: "NeurIPS 2024"
-
-  - type: input
-    id: envs
-    attributes:
-      label: Env
-      description: One or more of Web, Mobile, Desktop, General GUI. Comma-separated.
-      placeholder: "Desktop"
-
-  - type: input
-    id: keywords
-    attributes:
-      label: Keywords
-      description: Comma-separated. See `CLAUDE.md` for guidance.
-      placeholder: "benchmark, OSWorld"
-
-  - type: textarea
-    id: tldr
-    attributes:
-      label: TLDR
-      description: 1–3 sentences, factual and contribution-first.
-
-  - type: input
-    id: src-arxiv
-    attributes:
-      label: sources.arxiv
-      placeholder: https://arxiv.org/abs/2404.07972
-
-  - type: input
-    id: src-openreview
-    attributes:
-      label: sources.openreview
-      placeholder: https://openreview.net/forum?id=…
-
-  - type: input
-    id: src-publisher
-    attributes:
-      label: sources.publisher_page
-      description: ACL Anthology, NeurIPS Proceedings, etc. Skip when OpenReview is the official page.
-      placeholder: https://aclanthology.org/2024.acl-long.123/
-
-  - type: input
-    id: src-homepage
-    attributes:
-      label: sources.homepage
-      placeholder: https://os-world.github.io/
-
-  - type: input
-    id: src-code
-    attributes:
-      label: sources.code
-      placeholder: https://github.com/org/repo
-
-  - type: input
-    id: src-dataset
-    attributes:
-      label: sources.dataset
-      placeholder: https://huggingface.co/datasets/…
-
-  - type: textarea
-    id: bibtex
-    attributes:
-      label: Verified BibTeX
-      description: Paste an official BibTeX export here to set `bibtex_confirmed: true`.
-      render: bibtex

@@ -8,47 +8,30 @@ body:
       value: |
         Thanks for suggesting a paper! Please put the **full paper title** in the issue title above (replace `<paper title here>`).
 
-        Fill in as much as you can below. At least one source link is required. The primary `link:` in the database is derived automatically: **homepage → arXiv → OpenReview → publisher page**.
+        Fill in as much as you can below — at least one source link is required. The primary `link:` is derived automatically by priority: **homepage → arXiv → OpenReview → publisher page**. Delete any lines you don't have.
 
   - type: textarea
     id: details
     attributes:
       label: Paper details
       description: |
-        Fill in whatever you have — the more the better. Unlisted fields will be inferred or left blank.
-
-        **Sources** (at least one required — include every link you have):
-        - `sources.homepage` — project / paper homepage (highest priority for primary link)
-        - `sources.arxiv` — arXiv abstract page
-        - `sources.openreview` — OpenReview forum (ICLR / NeurIPS / COLM etc.)
-        - `sources.publisher_page` — ACL Anthology, NeurIPS Proceedings, CVPR open-access, etc. Skip if OpenReview is the official page.
-        - `sources.code` — GitHub or other code repo
-        - `sources.dataset` — HuggingFace, Zenodo, etc.
-
-        **Metadata** (all optional but encouraged):
-        - `authors` — full list, comma-separated, in paper order
-        - `institutions` — comma-separated, use abbreviations (OSU, CMU, MIT, FAIR, …)
-        - `date` — earliest public release (arXiv v1 / first preprint). Format: `YYYY-MM-DD`, `YYYY-MM`, or `YYYY`
-        - `publisher` — `arXiv`, `ICLR 2025 (Poster)`, `NeurIPS 2024 (Oral)`, `ACL 2025`, `TMLR`, …
-        - `env` — one or more of: `Web`, `Mobile`, `Desktop`, `General GUI`
-        - `keywords` — paper abbreviation + artifact type (benchmark/model/dataset/framework/survey) + 1–3 technical concepts
-        - `tldr` — 1–3 sentences: what problem, what contribution, what result
-        - `notes` — COI disclosure if you're an author, scope notes, etc.
-      placeholder: |
-        sources.homepage: https://os-world.github.io/
-        sources.arxiv: https://arxiv.org/abs/2404.07972
+        **Sources** (at least one required): homepage → arXiv → OpenReview → publisher page → code → dataset
+        **Metadata**: authors · institutions · date (earliest public release, YYYY-MM-DD) · publisher (e.g. `ICLR 2025 (Poster)`) · env (Web/Mobile/Desktop/General GUI) · keywords · tldr (1–3 sentences)
+      value: |
+        sources.homepage:
+        sources.arxiv:
         sources.openreview:
         sources.publisher_page:
-        sources.code: https://github.com/xlang-ai/OSWorld
-        sources.dataset: https://huggingface.co/datasets/xlangai/osworld
+        sources.code:
+        sources.dataset:
 
-        authors: Tianbao Xie, Danyang Zhang, …
-        institutions: HKU, OSU, CMU, Salesforce
-        date: 2024-04-11
-        publisher: NeurIPS 2024
-        env: Desktop
-        keywords: OSWorld, benchmark, visual grounding
-        tldr: Introduces OSWorld, a scalable real-OS environment…
+        authors:
+        institutions:
+        date:
+        publisher:
+        env:
+        keywords:
+        tldr:
 
         notes:
     validations:
