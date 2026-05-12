@@ -8,111 +8,48 @@ body:
       value: |
         Thanks for suggesting a paper! Please put the **full paper title** in the issue title above (replace `<paper title here>`).
 
-        Only **Link** is required in the form below. Everything else is optional but the more you fill in, the less likely errors are introduced during ingestion.
+        Fill in as much as you can below. At least one source link is required. The primary `link:` in the database is derived automatically: **homepage → arXiv → OpenReview → publisher page**.
 
-  - type: input
-    id: link
+  - type: textarea
+    id: details
     attributes:
-      label: Primary link
-      description: "Prefer: project homepage > arXiv > OpenReview > publisher page. Only one link here — extras go in Sources below."
-      placeholder: "https://arxiv.org/abs/..."
+      label: Paper details
+      description: |
+        Fill in whatever you have — the more the better. Unlisted fields will be inferred or left blank.
+
+        **Sources** (at least one required — include every link you have):
+        - `sources.homepage` — project / paper homepage (highest priority for primary link)
+        - `sources.arxiv` — arXiv abstract page
+        - `sources.openreview` — OpenReview forum (ICLR / NeurIPS / COLM etc.)
+        - `sources.publisher_page` — ACL Anthology, NeurIPS Proceedings, CVPR open-access, etc. Skip if OpenReview is the official page.
+        - `sources.code` — GitHub or other code repo
+        - `sources.dataset` — HuggingFace, Zenodo, etc.
+
+        **Metadata** (all optional but encouraged):
+        - `authors` — full list, comma-separated, in paper order
+        - `institutions` — comma-separated, use abbreviations (OSU, CMU, MIT, FAIR, …)
+        - `date` — earliest public release (arXiv v1 / first preprint). Format: `YYYY-MM-DD`, `YYYY-MM`, or `YYYY`
+        - `publisher` — `arXiv`, `ICLR 2025 (Poster)`, `NeurIPS 2024 (Oral)`, `ACL 2025`, `TMLR`, …
+        - `env` — one or more of: `Web`, `Mobile`, `Desktop`, `General GUI`
+        - `keywords` — paper abbreviation + artifact type (benchmark/model/dataset/framework/survey) + 1–3 technical concepts
+        - `tldr` — 1–3 sentences: what problem, what contribution, what result
+        - `notes` — COI disclosure if you're an author, scope notes, etc.
+      placeholder: |
+        sources.homepage: https://os-world.github.io/
+        sources.arxiv: https://arxiv.org/abs/2404.07972
+        sources.openreview:
+        sources.publisher_page:
+        sources.code: https://github.com/xlang-ai/OSWorld
+        sources.dataset: https://huggingface.co/datasets/xlangai/osworld
+
+        authors: Tianbao Xie, Danyang Zhang, …
+        institutions: HKU, OSU, CMU, Salesforce
+        date: 2024-04-11
+        publisher: NeurIPS 2024
+        env: Desktop
+        keywords: OSWorld, benchmark, visual grounding
+        tldr: Introduces OSWorld, a scalable real-OS environment…
+
+        notes:
     validations:
       required: true
-
-  - type: input
-    id: authors
-    attributes:
-      label: Authors (optional)
-      description: Complete list, comma-separated, in the order they appear on the paper.
-      placeholder: "Tianbao Xie, Danyang Zhang, Jixuan Chen, …"
-
-  - type: input
-    id: institutions
-    attributes:
-      label: Institutions (optional)
-      description: Comma-separated. Use common abbreviations when unambiguous (OSU, CMU, MIT, FAIR, DeepMind, …).
-      placeholder: "HKU, OSU, CMU, Salesforce"
-
-  - type: input
-    id: date
-    attributes:
-      label: Date (optional)
-      description: "**Earliest** known public release — arXiv v1 or first preprint date. Format: `YYYY-MM-DD`, or `YYYY-MM` / `YYYY` if day/month unknown."
-      placeholder: "2024-04-11"
-
-  - type: input
-    id: publisher
-    attributes:
-      label: Publisher / venue (optional)
-      description: "Format: `Venue Year` or `Venue Year (Type)`. E.g. `arXiv`, `ICLR 2025 (Poster)`, `NeurIPS 2024 (Oral)`, `ACL 2025`, `TMLR`."
-      placeholder: "ICLR 2025 (Poster)"
-
-  - type: input
-    id: envs
-    attributes:
-      label: Env (optional)
-      description: "One or more of: `Web`, `Mobile`, `Desktop`, `General GUI`. Comma-separated."
-      placeholder: "Web, Desktop"
-
-  - type: input
-    id: keywords
-    attributes:
-      label: Keywords (optional)
-      description: "Comma-separated. Include the paper's short name/abbreviation + 1–3 technical concepts + artifact type (benchmark, model, framework, dataset, survey). See CLAUDE.md for guidance."
-      placeholder: "OSWorld, benchmark, visual grounding"
-
-  - type: textarea
-    id: tldr
-    attributes:
-      label: TLDR (optional)
-      description: "1–3 sentences, factual and contribution-first: what problem, what contribution, what result."
-      placeholder: "Introduces X, a … that …"
-
-  - type: markdown
-    attributes:
-      value: "## Sources — fill in every link you have"
-
-  - type: input
-    id: src-arxiv
-    attributes:
-      label: sources.arxiv
-      placeholder: "https://arxiv.org/abs/2404.07972"
-
-  - type: input
-    id: src-openreview
-    attributes:
-      label: sources.openreview
-      description: "ICLR / NeurIPS / COLM / ICLR papers often have OpenReview as the official page."
-      placeholder: "https://openreview.net/forum?id=…"
-
-  - type: input
-    id: src-publisher
-    attributes:
-      label: sources.publisher_page
-      description: "ACL Anthology, NeurIPS Proceedings, CVPR/ICCV/ECCV open-access page, etc. Skip if OpenReview is the official page."
-      placeholder: "https://aclanthology.org/2024.acl-long.123/"
-
-  - type: input
-    id: src-homepage
-    attributes:
-      label: sources.homepage
-      description: "Project / paper homepage (separate from arXiv)."
-      placeholder: "https://os-world.github.io/"
-
-  - type: input
-    id: src-code
-    attributes:
-      label: sources.code
-      placeholder: "https://github.com/org/repo"
-
-  - type: input
-    id: src-dataset
-    attributes:
-      label: sources.dataset
-      placeholder: "https://huggingface.co/datasets/…"
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Other notes (optional)
-      description: "Conflict-of-interest disclosure if you're an author, scope clarification, or anything else."

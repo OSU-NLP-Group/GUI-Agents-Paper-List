@@ -102,7 +102,7 @@ After editing, run `bash scripts/update_repo.sh`.
 
 **Title.** Use the paper's canonical public title from the linked source. Normalize LaTeX or typography artifacts (e.g. `\textsc{...}`, `$^2$`) into readable plain text. Keep official abbreviations (`WALT`, `OS-ATLAS`, `Agent Q`) but don't invent new ones.
 
-**Link.** Prefer project homepage > arXiv > venue page. Only one. If you have multiple official links, the others go in `sources:`.
+**Link.** Derived from `sources:` using this fixed priority: `homepage` → `arxiv` → `openreview` → `publisher_page`. Use the first populated source as `link:`. Only one link goes here — all known links go in `sources:`.
 
 **Authors.** Include all of them.
 
