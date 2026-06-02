@@ -7657,6 +7657,7 @@
   publisher: arXiv
   envs:
   - Mobile
+  homepage: https://tongyi-mai.github.io/MobileWorld/
   keywords:
   - benchmark
   - agent-user interaction
@@ -7792,6 +7793,7 @@
   - Desktop
   - Mobile
   - Web
+  homepage: https://ui-venus.github.io/VenusBench-GD/
   keywords:
   - benchmark
   - GUI grounding
