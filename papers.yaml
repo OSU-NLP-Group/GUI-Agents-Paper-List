@@ -11854,6 +11854,8 @@
   arxiv_id: '2508.04026'
   sources:
     arxiv: https://arxiv.org/abs/2508.04026
+    homepage: https://www.2077ai.com/dataset/dataset-veriweb
+    dataset: https://huggingface.co/datasets/2077AIDataFoundation/VeriWeb
   bibtex: |-
     @misc{liu2025veriweb,
       title = {VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking},
@@ -16037,6 +16039,8 @@
   arxiv_id: '2501.12326'
   sources:
     arxiv: https://arxiv.org/abs/2501.12326
+    homepage: https://github.com/bytedance/UI-TARS
+    code: https://github.com/bytedance/UI-TARS
   bibtex: |-
     @misc{qin2025uitars,
       title = {UI-TARS: Pioneering Automated GUI Interaction with Native Agents},
