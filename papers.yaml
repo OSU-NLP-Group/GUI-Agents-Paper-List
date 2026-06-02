@@ -16586,6 +16586,8 @@
   - BrowserGym
   - AgentLab
   - evaluation ecosystem
+  homepage: https://mcgill-nlp.github.io/publications/2412.05467/
+  code: https://github.com/ServiceNow/BrowserGym
   tldr: |-
     BrowserGym is a unified ecosystem for web-agent research that standardizes observation and action spaces while wrapping multiple existing benchmarks under one interface. The paper also introduces AgentLab for agent creation and analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
   sources:
@@ -17054,6 +17056,7 @@
   - outcome-supervised reward model
   - online learning
   - WebRL
+  code: https://github.com/THUDM/WebRL
   tldr: |-
     WebRL trains open web agents with online reinforcement learning rather than static supervised data, combining self-evolving task generation, an outcome-supervised reward model, and adaptive policy updates. It substantially improves Llama-3.1-based and GLM-4-based agents on WebArena-Lite and narrows the gap to proprietary systems.
   sources:
@@ -19935,6 +19938,8 @@
   - task parameterization
   - dynamic environment
   - AndroidWorld
+  homepage: https://google-research.github.io/android_world/
+  code: https://github.com/google-research/android_world
   tldr: |-
     AndroidWorld is a dynamic Android benchmark with reward-bearing programmatic tasks across 20 real-world apps. Its tasks are parameterized and expressed in natural language, and each one includes initialization, success-checking, and teardown logic so agents can be evaluated reproducibly under many realistic task variations.
   sources:
