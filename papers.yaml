@@ -819,6 +819,7 @@
   arxiv_id: '2604.08523'
   sources:
     arxiv: https://arxiv.org/abs/2604.08523
+    code: https://github.com/TIGER-AI-Lab/ClawBench
   bibtex: |-
     @misc{zhang2026clawbench,
       title = {ClawBench: Can AI Agents Complete Everyday Online Tasks?},
@@ -7924,6 +7925,7 @@
   arxiv_id: '2512.15431'
   sources:
     arxiv: https://arxiv.org/abs/2512.15431
+    code: https://github.com/stepfun-ai/gelab-zero
   bibtex: |-
     @misc{yan2025stepgui,
       title = {Step-GUI Technical Report},
@@ -11070,6 +11072,8 @@
   arxiv_id: '2509.02544'
   sources:
     arxiv: https://arxiv.org/abs/2509.02544
+    homepage: https://seed-tars.com
+    code: https://github.com/bytedance/UI-TARS
   bibtex: |-
     @misc{wang2025uitars2,
       title = {UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning},
@@ -11609,6 +11613,7 @@
   arxiv_id: '2508.09123'
   sources:
     arxiv: https://arxiv.org/abs/2508.09123
+    code: https://github.com/xlang-ai/OpenCUA
   bibtex: |-
     @inproceedings{wang2025opencua,
       title = {OpenCUA: Open Foundations for Computer-Use Agents},
