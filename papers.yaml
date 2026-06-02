@@ -11104,6 +11104,7 @@
     arxiv: https://arxiv.org/abs/2509.02544
     homepage: https://seed-tars.com
     code: https://github.com/bytedance/UI-TARS
+    dataset: https://github.com/bytedance/UI-TARS/tree/main/data
   bibtex: |-
     @misc{wang2025uitars2,
       title = {UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning},
@@ -16631,6 +16632,7 @@
     BrowserGym is a unified ecosystem for web-agent research that standardizes observation and action spaces while wrapping multiple existing benchmarks under one interface. The paper also introduces AgentLab for agent creation and analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
   sources:
     openreview: https://openreview.net/forum?id=5298fKGmv3
+    dataset: https://huggingface.co/datasets/McGill-NLP/weblinx-browsergym
   bibtex: |-
     @article{chezelles2024browsergym,
       title = {The BrowserGym Ecosystem for Web Agent Research},
