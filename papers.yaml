@@ -18833,6 +18833,9 @@
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html
     arxiv: https://arxiv.org/abs/2407.10956
+    code: https://github.com/xlang-ai/Spider2-V
+    dataset: https://github.com/xlang-ai/Spider2-V/tree/main/evaluation_examples
+    docs: https://drive.usercontent.google.com/download?id=1aGaHXDkBeoUZ9EOIPj7iIRFra_2FjJoZ&export=download&authuser=0&confirm=t
   bibtex: |-
     @inproceedings{cao2024spider2v,
       title = {Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?},
