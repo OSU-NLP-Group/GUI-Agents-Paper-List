@@ -864,6 +864,7 @@
   - personalization
   - proactive agents
   - KnowU-Bench
+  code: https://github.com/ZJU-REAL/KnowU-Bench
   tldr: |-
     KnowU-Bench is an online benchmark for personalized mobile agents on Android emulation with 42 general, 86 personalized, and 64 proactive tasks. It hides user profiles from the agent and forces genuine preference inference through multi-turn dialogues. Even frontier models fall below 50% under vague instructions requiring preference inference.
   arxiv_id: '2604.08455'
@@ -4226,6 +4227,8 @@
   - hierarchical multitask fine-tuning
   - WebArena
   - OpAgent
+  homepage: https://github.com/codefuse-ai/OpAgent
+  code: https://github.com/codefuse-ai/OpAgent
   tldr: |-
     OpAgent combines a modular planner-grounder-reflector-summarizer design with online reinforcement learning on unconstrained web environments. The paper reports strong WebArena performance and studies how modular coordination and RL improve web navigation.
   arxiv_id: '2602.13559'
@@ -17742,6 +17745,8 @@
   - cross-app tasks
   - smartphone agent evaluation
   - SPA-Bench
+  homepage: https://ai-agents-2030.github.io/SPA-Bench/
+  code: https://github.com/ai-agents-2030/SPA-Bench
   tldr: |-
     SPA-Bench is a smartphone-agent benchmark built around 340 Android tasks spanning single-app and cross-app settings in both English and Chinese, with system and third-party apps. It also provides a plug-and-play execution framework and an automatic evaluation pipeline with seven task-completion and resource-usage metrics, exposing persistent difficulties in mobile UI interpretation, grounding, and long-horizon execution.
   sources:
