@@ -17361,6 +17361,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2411.00820
     homepage: https://autoglm.z.ai/blog/
+    code: https://github.com/zai-org/Open-AutoGLM
   bibtex: |-
     @misc{liu2024autoglm,
       title = {AutoGLM: Autonomous Foundation Agents for GUIs},
