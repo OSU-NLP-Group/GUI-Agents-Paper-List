@@ -10708,6 +10708,7 @@
   arxiv_id: '2509.15221'
   sources:
     arxiv: https://arxiv.org/abs/2509.15221
+    homepage: https://github.com/OpenGVLab/ScaleCUA
     code: https://github.com/OpenGVLab/ScaleCUA
     dataset: https://huggingface.co/datasets/OpenGVLab/ScaleCUA-Data
   bibtex: |-
