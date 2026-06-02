@@ -11504,7 +11504,9 @@
   arxiv_id: '2508.13186'
   sources:
     arxiv: https://arxiv.org/abs/2508.13186
+    homepage: https://github.com/MMBrowseComp/MM-BrowseComp
     code: https://github.com/MMBrowseComp/MM-BrowseComp
+    dataset: https://github.com/MMBrowseComp/MM-BrowseComp/tree/main/data
   bibtex: |-
     @misc{li2025mmbrowsecomp,
       title = {MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents},
