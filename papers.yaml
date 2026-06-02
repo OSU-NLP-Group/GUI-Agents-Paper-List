@@ -2293,6 +2293,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2603.18429
     code: https://github.com/CVC2233/AndroTMem
+    dataset: https://huggingface.co/datasets/CVC2233/AndroTMem-Bench
   bibtex: |-
     @misc{shi2026androtmem,
       title = {AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents},
@@ -6622,8 +6623,6 @@
   arxiv_id: '2601.13060'
   sources:
     arxiv: https://arxiv.org/abs/2601.13060
-    code: https://github.com/kyle8581/Web-Shepherd
-    dataset: https://huggingface.co/datasets/LangAGI-Lab/WebPRMCollection_preference_pair
   bibtex: |-
     @misc{li2026magicguirms,
       title = {MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux},
@@ -10708,6 +10707,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2509.15221
     code: https://github.com/OpenGVLab/ScaleCUA
+    dataset: https://huggingface.co/datasets/OpenGVLab/ScaleCUA-Data
   bibtex: |-
     @inproceedings{liu2025scalecua,
       title = {ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data},
