@@ -719,6 +719,8 @@
   arxiv_id: '2604.09937'
   sources:
     arxiv: https://arxiv.org/abs/2604.09937
+    homepage: https://healthadminbench.stanford.edu/
+    code: https://github.com/som-shahlab/health-admin-bench
   bibtex: |-
     @misc{bedi2026healthadminbench,
       title = {HealthAdminBench: Evaluating Computer-Use Agents on Healthcare Administration Tasks},
@@ -8922,6 +8924,7 @@
   arxiv_id: '2510.19949'
   sources:
     arxiv: https://arxiv.org/abs/2510.19949
+    homepage: https://lp.hcompany.ai/blog/surfer-2
   bibtex: |-
     @misc{andreux2025surfer,
       title = {Surfer 2: The Next Generation of Cross-Platform Computer Use Agents},
