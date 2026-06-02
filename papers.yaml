@@ -914,6 +914,7 @@
   arxiv_id: '2604.08516'
   sources:
     arxiv: https://arxiv.org/abs/2604.08516
+    code: https://github.com/allenai/molmoweb
   bibtex: |-
     @misc{gupta2026molmoweb,
       title = {MolmoWeb: Open Visual Web Agent and Open Data for the Open Web},
@@ -3561,6 +3562,7 @@
   arxiv_id: '2602.22190'
   sources:
     arxiv: https://arxiv.org/abs/2602.22190
+    code: https://github.com/GUI-Libra/GUI-Libra
   bibtex: |-
     @misc{yang2026guilibra,
       title = {GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL},
