@@ -7945,6 +7945,7 @@
     arxiv: https://arxiv.org/abs/2512.15431
     homepage: https://platform.stepfun.com/docs/zh/llm/model-lab
     code: https://github.com/stepfun-ai/gelab-zero
+    dataset: https://huggingface.co/datasets/stepfun-ai/AndroidDaily
   bibtex: |-
     @misc{yan2025stepgui,
       title = {Step-GUI Technical Report},
@@ -12661,6 +12662,7 @@
     publisher_page: https://aclanthology.org/2025.emnlp-demos.12/
     homepage: https://huggingface.co/openbmb/AgentCPM-GUI
     code: https://github.com/OpenBMB/AgentCPM-GUI
+    dataset: https://huggingface.co/datasets/openbmb/CAGUI
   bibtex: |-
     @inproceedings{zhang2025agentcpmgui,
       title = {AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning},
