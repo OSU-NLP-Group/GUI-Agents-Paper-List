@@ -11876,6 +11876,7 @@
     arxiv: https://arxiv.org/abs/2508.04026
     homepage: https://www.2077ai.com/dataset/dataset-veriweb
     dataset: https://huggingface.co/datasets/2077AIDataFoundation/VeriWeb
+    code: https://github.com/VeriGUI-Team/VeriWeb
   bibtex: |-
     @misc{liu2025veriweb,
       title = {VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking},
