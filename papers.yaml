@@ -2294,6 +2294,7 @@
     arxiv: https://arxiv.org/abs/2603.18429
     code: https://github.com/CVC2233/AndroTMem
     dataset: https://huggingface.co/datasets/CVC2233/AndroTMem-Bench
+    homepage: https://huggingface.co/papers/2603.18429
   bibtex: |-
     @misc{shi2026androtmem,
       title = {AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents},
