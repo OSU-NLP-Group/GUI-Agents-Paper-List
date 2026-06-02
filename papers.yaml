@@ -412,6 +412,9 @@
   arxiv_id: '2604.11784'
   sources:
     arxiv: https://arxiv.org/abs/2604.11784
+    homepage: https://zju-real.github.io/ClawGUI-Page/
+    code: https://github.com/ZJU-REAL/ClawGUI
+    dataset: https://modelscope.cn/datasets/Matrix0602/clawgui-eval
   bibtex: |-
     @misc{tang2026clawgui,
       title = {ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents},
@@ -18088,6 +18091,9 @@
     This paper introduces UGround, a universal GUI visual grounding model trained on 10M element-expression pairs over 1.3M screenshots from web, mobile, and desktop interfaces. It argues for vision-only GUI agents with pixel-level actions and shows that UGround improves grounding, offline-agent, and online-agent performance across six benchmarks.
   sources:
     publisher_page: https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html
+    homepage: https://osu-nlp-group.github.io/UGround/
+    code: https://github.com/OSU-NLP-Group/UGround
+    dataset: https://huggingface.co/datasets/osunlp/UGround-V1-Data
   bibtex: |-
     @inproceedings{gou2024navigating,
       title = {Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents},
