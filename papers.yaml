@@ -19541,6 +19541,7 @@
     arxiv: https://arxiv.org/abs/2406.10819
     openreview: https://openreview.net/forum?id=QarKTT5brZ
     homepage: https://gui-world.github.io
+    dataset: https://huggingface.co/datasets/ONE-Lab/GUI-World
   bibtex: |-
     @inproceedings{chen2024guiworld,
       title = {GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding},
