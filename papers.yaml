@@ -10629,9 +10629,6 @@
   - Morteza Ziyadi
   - Huan Sun
   - Yu Su
-  homepage: https://osu-nlp-group.github.io/Mind2Web-2/
-  code: https://github.com/OSU-NLP-Group/Mind2Web-2
-  dataset: https://huggingface.co/datasets/osunlp/Mind2Web-2
   institutions:
   - OSU
   - Amazon AGI
@@ -10648,6 +10645,11 @@
   - Mind2Web 2
   tldr: |-
     Mind2Web 2 benchmarks long-horizon agentic search with 130 human-crafted tasks that require real-time browsing and citation-backed synthesis. It evaluates systems with task-specific judge agents built from tree-structured rubrics that score both answer correctness and source attribution, and compares ten frontier systems against human performance.
+  sources:
+    openreview: https://openreview.net/forum?id=AUaW6DS9si
+    homepage: https://osu-nlp-group.github.io/Mind2Web-2/
+    code: https://github.com/OSU-NLP-Group/Mind2Web-2
+    dataset: https://huggingface.co/datasets/osunlp/Mind2Web-2
   bibtex: |-
     @inproceedings{gou2025mind2web,
       title = {Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge},
