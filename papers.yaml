@@ -923,6 +923,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2604.08516
     code: https://github.com/allenai/molmoweb
+    dataset: https://huggingface.co/collections/allenai/molmoweb-data
   bibtex: |-
     @misc{gupta2026molmoweb,
       title = {MolmoWeb: Open Visual Web Agent and Open Data for the Open Web},
