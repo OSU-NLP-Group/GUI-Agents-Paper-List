@@ -6516,6 +6516,7 @@
   - verifiable synthesis
   - OSWorld
   - EvoCUA
+  code: https://github.com/meituan/EvoCUA
   tldr: |-
     EvoCUA replaces static imitation with an evolving training loop built on verifiable task synthesis, high-throughput sandbox rollouts, and iterative policy optimization from both successful and failed trajectories. On OSWorld it reaches 56.7% success, outperforming prior open-source computer-use agents and even some leading closed-weight systems.
   arxiv_id: '2601.15876'
