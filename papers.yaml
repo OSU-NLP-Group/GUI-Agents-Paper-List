@@ -11634,6 +11634,7 @@
   arxiv_id: '2508.09123'
   sources:
     arxiv: https://arxiv.org/abs/2508.09123
+    homepage: https://opencua.xlang.ai/
     code: https://github.com/xlang-ai/OpenCUA
   bibtex: |-
     @inproceedings{wang2025opencua,
