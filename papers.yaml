@@ -13141,6 +13141,8 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.19897
     homepage: https://qiushisun.github.io/ScienceBoard-Home/
+    code: https://github.com/OS-Copilot/ScienceBoard
+    dataset: https://huggingface.co/datasets/OS-Copilot/ScienceBoard-Traj
   bibtex: |-
     @inproceedings{sun2025scienceboard,
       title = {ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows},
