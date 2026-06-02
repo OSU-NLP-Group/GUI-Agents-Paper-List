@@ -4683,7 +4683,6 @@
   - model
   - world model
   - data generation
-  - UI-Oceanus
   tldr: |-
     UI-Oceanus shifts learning from mimicking trajectories to mastering interaction physics via forward dynamics prediction. Using synthetic environmental dynamics as supervision, it improves GUI agents by 7% on offline benchmarks and 16.8% in online navigation, with performance scaling log-linearly with data volume.
   arxiv_id: '2604.02345'
@@ -10609,6 +10608,7 @@
   - Morteza Ziyadi
   - Huan Sun
   - Yu Su
+  code: https://github.com/OSU-NLP-Group/Mind2Web-2
   institutions:
   - OSU
   - Amazon AGI
@@ -17298,6 +17298,8 @@
   - Zehan Qi
   - Yuxiao Dong
   - Jie Tang
+  homepage: https://www.zhipuai.cn/en/autoglm
+  code: https://github.com/zai-org/Open-AutoGLM
   institutions:
   - Zhipu
   - Tsinghua

@@ -1076,7 +1076,7 @@ We welcome contributions from the community!
     - 📅 Date: February 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [world model], [data generation], [UI-Oceanus]
+    - 🔑 Key: [model], [world model], [data generation]
     - 📖 TLDR: UI-Oceanus shifts learning from mimicking trajectories to mastering interaction physics via forward dynamics prediction. Using synthetic environmental dynamics as supervision, it improves GUI agents by 7% on offline benchmarks and 16.8% in online navigation, with performance scaling log-linearly with data volume.
 
 - [Autonomous Continual Learning of Computer-Use Agents for Environment Adaptation](https://arxiv.org/abs/2602.10356)
