@@ -10309,6 +10309,7 @@
   - ScreenSpot-V2
   - OSWorld-G
   - Ferret-UI Lite
+  homepage: https://machinelearning.apple.com/research/ferret-ui
   tldr: |-
     Ferret-UI Lite is a compact 3B end-to-end GUI agent for on-device use across mobile, web, and desktop environments. Built from a mixed real-and-synthetic data recipe plus chain-of-thought, visual tool-use, and reward-designed RL, it reaches competitive grounding scores and navigation success despite the constraints of small on-device models.
   arxiv_id: '2509.26539'
