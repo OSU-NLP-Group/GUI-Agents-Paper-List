@@ -922,6 +922,7 @@
   arxiv_id: '2604.08516'
   sources:
     arxiv: https://arxiv.org/abs/2604.08516
+    homepage: https://allenai.org/blog/molmoweb
     code: https://github.com/allenai/molmoweb
     dataset: https://huggingface.co/collections/allenai/molmoweb-data
   bibtex: |-
