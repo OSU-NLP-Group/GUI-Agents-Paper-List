@@ -6622,6 +6622,8 @@
   arxiv_id: '2601.13060'
   sources:
     arxiv: https://arxiv.org/abs/2601.13060
+    code: https://github.com/kyle8581/Web-Shepherd
+    dataset: https://huggingface.co/datasets/LangAGI-Lab/WebPRMCollection_preference_pair
   bibtex: |-
     @misc{li2026magicguirms,
       title = {MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux},
@@ -17342,6 +17344,7 @@
   arxiv_id: '2411.00820'
   sources:
     arxiv: https://arxiv.org/abs/2411.00820
+    homepage: https://autoglm.z.ai/blog/
   bibtex: |-
     @misc{liu2024autoglm,
       title = {AutoGLM: Autonomous Foundation Agents for GUIs},
