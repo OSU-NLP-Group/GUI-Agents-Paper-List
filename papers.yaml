@@ -14364,6 +14364,7 @@
   arxiv_id: '2504.14603'
   sources:
     arxiv: https://arxiv.org/abs/2504.14603
+    publisher_page: https://www.microsoft.com/en-us/research/publication/ufo2-the-desktop-agentos/
     code: https://github.com/microsoft/UFO/
     homepage: https://microsoft.github.io/UFO/
   bibtex: |-
