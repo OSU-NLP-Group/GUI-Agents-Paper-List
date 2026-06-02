@@ -16439,7 +16439,8 @@
   sources:
     arxiv: https://arxiv.org/abs/2412.13501
     publisher_page: https://aclanthology.org/2025.findings-acl.1158/
-    code: https://github.com/acl-org/acl-anthology/
+    homepage: https://vyokky.github.io/LLM-Brained-GUI-Agents-Survey/
+    code: https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey
   bibtex: |-
     @inproceedings{nguyen2024agents,
       title = {GUI Agents: A Survey},
