@@ -12659,7 +12659,8 @@
     AgentCPM-GUI is an 8B mobile GUI model aimed at robust on-device interaction, especially for Chinese and English interfaces. It combines grounding-aware pre-training, supervised trajectory imitation, and GRPO-based reinforcement fine-tuning, and reports strong results on five public benchmarks plus the newly proposed Chinese benchmark CAGUI.
   sources:
     publisher_page: https://aclanthology.org/2025.emnlp-demos.12/
-    code: https://github.com/acl-org/acl-anthology/
+    homepage: https://huggingface.co/openbmb/AgentCPM-GUI
+    code: https://github.com/OpenBMB/AgentCPM-GUI
   bibtex: |-
     @inproceedings{zhang2025agentcpmgui,
       title = {AgentCPM‑GUI: Building Mobile‑Use Agents with Reinforcement Fine‑Tuning},
