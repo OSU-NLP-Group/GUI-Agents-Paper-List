@@ -864,6 +864,7 @@
   - personalization
   - proactive agents
   - KnowU-Bench
+  homepage: https://zju-real.github.io/KnowU-Bench
   code: https://github.com/ZJU-REAL/KnowU-Bench
   tldr: |-
     KnowU-Bench is an online benchmark for personalized mobile agents on Android emulation with 42 general, 86 personalized, and 64 proactive tasks. It hides user profiles from the agent and forces genuine preference inference through multi-turn dialogues. Even frontier models fall below 50% under vague instructions requiring preference inference.
@@ -10613,7 +10614,9 @@
   - Morteza Ziyadi
   - Huan Sun
   - Yu Su
+  homepage: https://osu-nlp-group.github.io/Mind2Web-2/
   code: https://github.com/OSU-NLP-Group/Mind2Web-2
+  dataset: https://huggingface.co/datasets/osunlp/Mind2Web-2
   institutions:
   - OSU
   - Amazon AGI
