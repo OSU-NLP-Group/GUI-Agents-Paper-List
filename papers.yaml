@@ -481,6 +481,8 @@
   sources:
     arxiv: https://arxiv.org/abs/2604.11201
     homepage: https://cocoabench.github.io/
+    code: https://github.com/cocoabench/CocoaAgent
+    dataset: https://huggingface.co/datasets/cocoabench/CocoaBench
   bibtex: |-
     @misc{hao2026cocoabench,
       title = {CocoaBench: Evaluating Unified Digital Agents in the Wild},
@@ -821,7 +823,9 @@
   arxiv_id: '2604.08523'
   sources:
     arxiv: https://arxiv.org/abs/2604.08523
+    homepage: https://claw-bench.com/
     code: https://github.com/TIGER-AI-Lab/ClawBench
+    dataset: https://huggingface.co/datasets/TIGER-Lab/ClawBench
   bibtex: |-
     @misc{zhang2026clawbench,
       title = {ClawBench: Can AI Agents Complete Everyday Online Tasks?},
