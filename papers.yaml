@@ -16080,6 +16080,7 @@
     arxiv: https://arxiv.org/abs/2501.12326
     homepage: https://github.com/bytedance/UI-TARS
     code: https://github.com/bytedance/UI-TARS
+    dataset: https://github.com/bytedance/UI-TARS/tree/main/data
   bibtex: |-
     @misc{qin2025uitars,
       title = {UI-TARS: Pioneering Automated GUI Interaction with Native Agents},
