@@ -14265,6 +14265,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2504.19838
     openreview: https://openreview.net/forum?id=yWQqoi1G1K
+    homepage: https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents
     code: https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents
   bibtex: |-
     @article{liu2025llmpowered,
