@@ -11562,7 +11562,9 @@
   arxiv_id: '2508.10833'
   sources:
     arxiv: https://arxiv.org/abs/2508.10833
+    homepage: https://github.com/inclusionAI/UI-Venus
     code: https://github.com/inclusionAI/UI-Venus
+    dataset: https://huggingface.co/datasets/inclusionAI/VenusBench-GD
   bibtex: |-
     @misc{gu2025uivenus,
       title = {UI-Venus Technical Report: Building High-performance UI Agents with RFT},
