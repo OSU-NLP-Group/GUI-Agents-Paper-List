@@ -188,7 +188,7 @@ const keywordBrowseUrl = (keyword: string) => buildBrowseUrl(base, { key: keywor
       {paper.authors.map((author, i) => (
         <>
           {i > 0 && <span class="text-ink-300/60 dark:text-ink-400/60">, </span>}
-          <a class="link" href={authorBrowseUrl(author)}>{author}</a>
+          <a class="link-muted" href={authorBrowseUrl(author)}>{author}</a>
         </>
       ))}
     </p>
@@ -199,7 +199,7 @@ const keywordBrowseUrl = (keyword: string) => buildBrowseUrl(base, { key: keywor
         {paper.institutions.length > 0 ? paper.institutions.map((inst, i) => (
           <>
             {i > 0 && <span class="text-ink-300/60 dark:text-ink-400/60">, </span>}
-            <a class="link" href={instBrowseUrl(inst)}>{inst}</a>
+            <a class="link-muted" href={instBrowseUrl(inst)}>{inst}</a>
           </>
         )) : '—'}
       </dd>
@@ -209,7 +209,7 @@ const keywordBrowseUrl = (keyword: string) => buildBrowseUrl(base, { key: keywor
 
       <dt class="text-ink-400 dark:text-ink-300">📑 Publisher</dt>
       <dd class="text-ink-600 dark:text-ink-100">
-        <a class="link" href={publisherBrowseUrl(paper.publisher)}>{paper.publisher}</a>
+        <a class="link-muted" href={publisherBrowseUrl(paper.publisher)}>{paper.publisher}</a>
       </dd>
 
       <dt class="text-ink-400 dark:text-ink-300">💻 Env</dt>
@@ -217,7 +217,7 @@ const keywordBrowseUrl = (keyword: string) => buildBrowseUrl(base, { key: keywor
         {paper.envs.map((env) => (
           <span class="inline-flex items-center gap-1.5">
             <span aria-hidden="true">{ENV_EMOJI[env] ?? '🖼️'}</span>
-            <a class="link" href={envBrowseUrl(env)}>{env}</a>
+            <a class="link-muted" href={envBrowseUrl(env)}>{env}</a>
           </span>
         ))}
       </dd>

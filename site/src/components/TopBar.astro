@@ -53,7 +53,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
       href={addPaperUrl}
       target="_blank"
       rel="noopener"
-      class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium border border-accent/60 dark:border-accent-dark/60 text-accent dark:text-accent-dark hover:bg-accent/8 dark:hover:bg-accent-dark/10 transition-colors"
+      class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium border border-accent/60 dark:border-accent-dark/60 text-accent dark:text-accent-dark hover:bg-accent/8 dark:hover:bg-accent-dark/10 transition-colors"
       aria-label="Suggest a paper to add"
     >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
@@ -64,7 +64,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
       href={REPO_URL}
       target="_blank"
       rel="noopener"
-      class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm text-ink-600 dark:text-ink-100 border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors"
+      class="hidden md:inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm text-ink-600 dark:text-ink-100 border border-paper-300/80 dark:border-ink-600/60 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors"
       aria-label="View on GitHub"
     >
       <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.63 22.41c.58.1.79-.25.79-.56v-2.04c-3.2.7-3.88-1.36-3.88-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.8.55A11.5 11.5 0 0 0 12 .5z"/></svg>
@@ -83,6 +83,60 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
     </a>
 
     <ThemeToggle />
+
+    <button
+      id="mobile-menu-btn"
+      type="button"
+      class="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-md text-ink-600 dark:text-ink-100 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg data-icon="open" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg data-icon="close" class="hidden" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  {/* Mobile dropdown — surfaces the nav + actions that are hidden from the
+      bar below md. Toggled by #mobile-menu-btn; closes on select/Esc/outside. */}
+  <div id="mobile-menu" class="md:hidden hidden border-t border-paper-300/60 dark:border-ink-600/60 bg-paper-100/95 dark:bg-nightbg/95 backdrop-blur-md">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 py-3 flex flex-col gap-0.5" aria-label="Primary">
+      {navItems.map((item) => {
+        const active = currentPath === item.href.replace(/\/$/, '') ||
+          (item.href !== `${base}/` && currentPath.startsWith(item.href));
+        return (
+          <a
+            href={item.href}
+            class={`px-3 py-2.5 rounded-md text-sm transition-colors ${
+              active
+                ? 'text-accent dark:text-accent-dark font-medium bg-accent/8 dark:bg-accent-dark/10'
+                : 'text-ink-600 dark:text-ink-100 hover:bg-paper-200/60 dark:hover:bg-ink-700/40'
+            }`}
+          >
+            {item.label}
+          </a>
+        );
+      })}
+      <div class="my-1.5 h-px bg-paper-300/60 dark:bg-ink-600/60"></div>
+      <a
+        href={addPaperUrl}
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-2 px-3 py-2.5 rounded-md text-sm font-medium text-accent dark:text-accent-dark hover:bg-accent/8 dark:hover:bg-accent-dark/10 transition-colors"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        <span>Add a Paper</span>
+      </a>
+      <a
+        href={REPO_URL}
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center gap-2 px-3 py-2.5 rounded-md text-sm text-ink-600 dark:text-ink-100 hover:bg-paper-200/60 dark:hover:bg-ink-700/40 transition-colors"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.63 22.41c.58.1.79-.25.79-.56v-2.04c-3.2.7-3.88-1.36-3.88-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.8.55A11.5 11.5 0 0 0 12 .5z"/></svg>
+        <span>GitHub</span>
+      </a>
+    </nav>
   </div>
 </header>
 
@@ -121,5 +175,46 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '');
     bind();
     // Re-bind after Astro view-transitions navigation
     document.addEventListener('astro:after-swap', bind);
+  })();
+</script>
+
+<script is:inline>
+  (function () {
+    function init() {
+      var btn = document.getElementById('mobile-menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (!btn || !menu) return;
+      // The topbar persists across view transitions; guard against
+      // binding the same button twice.
+      if (btn.dataset.bound === '1') return;
+      btn.dataset.bound = '1';
+      var openIcon = btn.querySelector('[data-icon="open"]');
+      var closeIcon = btn.querySelector('[data-icon="close"]');
+      function setOpen(open) {
+        menu.classList.toggle('hidden', !open);
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        if (openIcon) openIcon.classList.toggle('hidden', open);
+        if (closeIcon) closeIcon.classList.toggle('hidden', !open);
+      }
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        setOpen(menu.classList.contains('hidden'));
+      });
+      menu.addEventListener('click', function (e) {
+        if (e.target && e.target.closest('a')) setOpen(false);
+      });
+      document.addEventListener('click', function (e) {
+        if (menu.classList.contains('hidden')) return;
+        if (!menu.contains(e.target) && !btn.contains(e.target)) setOpen(false);
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') setOpen(false);
+      });
+      // Collapse before navigating away so it never lingers open.
+      document.addEventListener('astro:before-swap', function () { setOpen(false); });
+    }
+    init();
+    document.addEventListener('astro:after-swap', init);
   })();
 </script>
