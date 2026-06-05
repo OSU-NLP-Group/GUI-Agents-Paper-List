@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { loadAllPapers, type Paper } from '../../lib/parsePapers';
-import { ENV_EMOJI, REPO_URL } from '../../lib/site';
+import { buildBrowseUrl, ENV_EMOJI, REPO_URL } from '../../lib/site';
 import { normalizePublisher, bibtexVenueKind } from '../../lib/venues';
 
 interface RelatedLite {
@@ -29,13 +29,16 @@ export async function getStaticPaths() {
         for (const e of p.envs) if (envSet.has(e)) env++;
         return { p, score: kw * 2 + env };
       })
-      .filter((x) => x.score >= 2)
-      .sort((a, b) => b.score - a.score || (a.p.dateISO < b.p.dateISO ? 1 : -1))
-      .slice(0, 6)
-      .map((x) => ({
-        slug: x.p.slug, title: x.p.title, date: x.p.date, publisher: x.p.publisher,
-      }));
-    related.set(target.slug, scored);
+      .filter((x) => x.score >= 1)
+      .sort((a, b) => b.score - a.score || (a.p.dateISO < b.p.dateISO ? 1 : -1));
+    const limit = Math.min(24, Math.max(8, Math.ceil(scored.length * 0.2)));
+    const selected = scored.slice(0, limit).map((x) => ({
+      slug: x.p.slug,
+      title: x.p.title,
+      date: x.p.date,
+      publisher: x.p.publisher,
+    }));
+    related.set(target.slug, selected);
   }
 
   return all.map((p) => ({
@@ -159,6 +162,12 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
   labels: 'metadata-correction',
   template: 'metadata-correction.yml',
 }).toString();
+
+const authorBrowseUrl = (author: string) => buildBrowseUrl(base, { author });
+const instBrowseUrl = (inst: string) => buildBrowseUrl(base, { inst });
+const publisherBrowseUrl = (publisher: string) => buildBrowseUrl(base, { pub: normalizePublisher(publisher) });
+const envBrowseUrl = (env: string) => buildBrowseUrl(base, { env });
+const keywordBrowseUrl = (keyword: string) => buildBrowseUrl(base, { key: keyword });
 ---
 <Base
   title={paper.title}
@@ -175,24 +184,40 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
       <a href={paper.link} target="_blank" rel="noopener" class="hover:text-accent dark:hover:text-accent-dark">{paper.title}</a>
     </h1>
 
-    <p class="mt-4 text-ink-500 dark:text-ink-200 leading-relaxed">{paper.authors.join(', ')}</p>
+    <p class="mt-4 text-ink-500 dark:text-ink-200 leading-relaxed">
+      {paper.authors.map((author, i) => (
+        <>
+          {i > 0 && <span class="text-ink-300/60 dark:text-ink-400/60">, </span>}
+          <a class="link" href={authorBrowseUrl(author)}>{author}</a>
+        </>
+      ))}
+    </p>
 
     <dl class="mt-6 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
       <dt class="text-ink-400 dark:text-ink-300">🏛 Institutions</dt>
-      <dd class="text-ink-600 dark:text-ink-100">{paper.institutions.join(', ') || '—'}</dd>
+      <dd class="text-ink-600 dark:text-ink-100">
+        {paper.institutions.length > 0 ? paper.institutions.map((inst, i) => (
+          <>
+            {i > 0 && <span class="text-ink-300/60 dark:text-ink-400/60">, </span>}
+            <a class="link" href={instBrowseUrl(inst)}>{inst}</a>
+          </>
+        )) : '—'}
+      </dd>
 
       <dt class="text-ink-400 dark:text-ink-300">📅 Date</dt>
       <dd class="text-ink-600 dark:text-ink-100">{paper.date}</dd>
 
       <dt class="text-ink-400 dark:text-ink-300">📑 Publisher</dt>
-      <dd class="text-ink-600 dark:text-ink-100">{paper.publisher}</dd>
+      <dd class="text-ink-600 dark:text-ink-100">
+        <a class="link" href={publisherBrowseUrl(paper.publisher)}>{paper.publisher}</a>
+      </dd>
 
       <dt class="text-ink-400 dark:text-ink-300">💻 Env</dt>
       <dd class="text-ink-600 dark:text-ink-100 flex flex-wrap gap-3">
         {paper.envs.map((env) => (
           <span class="inline-flex items-center gap-1.5">
             <span aria-hidden="true">{ENV_EMOJI[env] ?? '🖼️'}</span>
-            <a class="link" href={`${base}/papers?env=${encodeURIComponent(env)}`}>{env}</a>
+            <a class="link" href={envBrowseUrl(env)}>{env}</a>
           </span>
         ))}
       </dd>
@@ -201,7 +226,7 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
       <dd>
         <div class="flex flex-wrap gap-1.5">
           {paper.keywords.map((kw) => (
-            <a class="chip" href={`${base}/papers?key=${encodeURIComponent(kw)}`}>{kw}</a>
+            <a class="chip" href={keywordBrowseUrl(kw)}>{kw}</a>
           ))}
         </div>
       </dd>
@@ -266,7 +291,7 @@ const reportUrl = `${REPO_URL}/issues/new?` + new URLSearchParams({
 
     {related.length > 0 && (
       <section class="mt-12">
-        <div class="heading-eyebrow mb-3">Related papers</div>
+        <div class="heading-eyebrow mb-3">Related papers <span class="ml-1 opacity-70">({related.length})</span></div>
         <ul class="grid sm:grid-cols-2 gap-3">
           {related.map((p) => (
             <li>

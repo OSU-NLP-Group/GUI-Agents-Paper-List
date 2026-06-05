@@ -13,3 +13,13 @@ export const ENV_EMOJI: Record<string, string> = {
   Desktop: '🖥️',
   'General GUI': '🖼️',
 };
+
+export function buildBrowseUrl(basePath: string, params: Record<string, string | undefined>): string {
+  const query = new URLSearchParams();
+  for (const [key, value] of Object.entries(params)) {
+    if (value) query.set(key, value);
+  }
+  const base = basePath.replace(/\/$/, '');
+  const qs = query.toString();
+  return qs ? `${base}/papers?${qs}` : `${base}/papers`;
+}
