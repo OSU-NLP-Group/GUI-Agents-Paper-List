@@ -2,6 +2,87 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms
+  link: https://arxiv.org/abs/2606.04701
+  authors:
+  - Jiashu Yao
+  - Heyan Huang
+  - Daiqing Wu
+  - Wangke Chen
+  - Huaxi Ai
+  - Haoyu Wen
+  - Zeming Liu
+  - Yuhang Guo
+  institutions:
+  - BIT
+  - THU
+  - Beihang
+  date: '2026-06-03'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - dynamic interface
+  - short-video platform
+  - observation control
+  - LivingScreen
+  tldr: |-
+    LivingScreen is a benchmark for "living-screen-native" GUI agents that must act on continuously updating interfaces such as short-video platforms, where on-screen content changes between agent actions. Evaluating frontier models, it finds none reaches human cost-accuracy performance and identifies over- and under-observation as key failure modes, motivating better observation-control capabilities.
+  arxiv_id: '2606.04701'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.04701
+    code: https://github.com/BITHLP/LivingScreen
+  bibtex: |-
+    @misc{yao2026livingscreen,
+      title = {Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms},
+      author = {Jiashu Yao and Heyan Huang and Daiqing Wu and Wangke Chen and Huaxi Ai and Haoyu Wen and Zeming Liu and Yuhang Guo},
+      year = {2026},
+      eprint = {2606.04701},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.04701}
+    }
+  bibtex_confirmed: false
+- title: 'STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models'
+  link: https://arxiv.org/abs/2606.01790
+  authors:
+  - Yuhang Han
+  - Wenzheng Yang
+  - Yujie Chen
+  - Xiangqi Jin
+  - Yaojie Zhang
+  - Siteng Huang
+  - Linfeng Zhang
+  institutions:
+  - SJTU
+  - HKUST (GZ)
+  - ZJU
+  date: '2026-06-01'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - efficiency
+  - KV cache compression
+  - vision-language model
+  - training-free
+  - STaR-KV
+  tldr: |-
+    STaR-KV is a training-free KV cache compression framework for GUI vision-language models, whose cache grows linearly with interaction steps. It combines subspace-aware spatial scoring with temporal-stability re-weighting to retain salient tokens, reducing memory while preserving accuracy across GUI agent benchmarks.
+  arxiv_id: '2606.01790'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.01790
+    code: https://github.com/kawhiiiileo/STaR-KV
+  bibtex: |-
+    @misc{han2026starkv,
+      title = {STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models},
+      author = {Yuhang Han and Wenzheng Yang and Yujie Chen and Xiangqi Jin and Yaojie Zhang and Siteng Huang and Linfeng Zhang},
+      year = {2026},
+      eprint = {2606.01790},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.01790}
+    }
+  bibtex_confirmed: false
 - title: 'GUI-C²: Coarse-to-Fine GUI Grounding via Difficulty-Aware Reinforcement Learning'
   link: https://z1oong.github.io/GUI-C2/
   authors:
@@ -35,6 +116,102 @@
       eprint = {2605.30884},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2605.30884}
+    }
+  bibtex_confirmed: false
+- title: 'AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications'
+  link: https://arxiv.org/abs/2605.27761
+  authors:
+  - Yifan Sui
+  - Xin Huang
+  - Hongbing Li
+  - Fang Xu
+  - Jiahe Lv
+  - Haolong Yan
+  - Yeqing Shen
+  - Litao Liu
+  - Zhimin Fan
+  - Ziyang Meng
+  - Jia Wang
+  - Junbo Qi
+  - Kaijun Tan
+  - Zheng Ge
+  - Xiangyu Zhang
+  - Daxin Jiang
+  - Osamu Yoshie
+  institutions:
+  - BUPT
+  - StepFun
+  - Waseda
+  date: '2026-05-26'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - mobile GUI agent
+  - closed-source apps
+  - trajectory evaluation
+  - AndroidDaily
+  - GRADE
+  tldr: |-
+    AndroidDaily is a verifiable benchmark of 350 daily-use tasks across 94 commercial, closed-source Android apps for evaluating mobile GUI agents. It introduces GRADE, an evaluator that judges agents by tracking the visual trajectory against observable external guidelines rather than internal app state, reaching 87.37% agreement with human judgment.
+  arxiv_id: '2605.27761'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.27761
+  bibtex: |-
+    @misc{sui2026androiddaily,
+      title = {AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications},
+      author = {Yifan Sui and Xin Huang and Hongbing Li and Fang Xu and Jiahe Lv and Haolong Yan and Yeqing Shen and Litao Liu and Zhimin Fan and Ziyang Meng and Jia Wang and Junbo Qi and Kaijun Tan and Zheng Ge and Xiangyu Zhang and Daxin Jiang and Osamu Yoshie},
+      year = {2026},
+      eprint = {2605.27761},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.27761}
+    }
+  bibtex_confirmed: false
+- title: 'MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research'
+  link: https://arxiv.org/abs/2605.26114
+  authors:
+  - Dingbang Wu
+  - Rui Hao
+  - Haiyang Wang
+  - Shuzhe Wu
+  - Han Xiao
+  - Zhenghong Li
+  - Bojiang Zhou
+  - Zheng Ju
+  - Zichen Liu
+  - Lue Fan
+  - Zhaoxiang Zhang
+  institutions:
+  - CASIA
+  - PKU
+  - CUHK
+  date: '2026-05-25'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - framework
+  - reinforcement learning
+  - simulation platform
+  - sim-to-real
+  - MobileGym
+  tldr: |-
+    MobileGym is a browser-hosted Android-like simulation platform for mobile GUI agent research that represents full environment state as structured JSON, enabling deterministic state-based judging, snapshot/reset/fork, side-effect detection, and highly parallel rollouts for online RL. Its MobileGym-Bench provides 416 parameterized task templates over 28 apps, and GRPO training on Qwen3-VL-4B-Instruct improves a 256-task test set by +12.8 points with 95.1% sim-to-real gain retention on a real-device subset.
+  arxiv_id: '2605.26114'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.26114
+    homepage: https://mobilegym.dev
+    code: https://github.com/Purewhiter/mobilegym
+  bibtex: |-
+    @misc{wu2026mobilegym,
+      title = {MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research},
+      author = {Dingbang Wu and Rui Hao and Haiyang Wang and Shuzhe Wu and Han Xiao and Zhenghong Li and Bojiang Zhou and Zheng Ju and Zichen Liu and Lue Fan and Zhaoxiang Zhang},
+      year = {2026},
+      eprint = {2605.26114},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.26114}
     }
   bibtex_confirmed: false
 - title: 'A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction

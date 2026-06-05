@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **538** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **542** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ## 🌐 Read this list on the web
 
@@ -24,13 +24,13 @@ The structured store [`papers.yaml`](papers.yaml) (and [`adjacent.yaml`](adjacen
 ![Top 25 research keywords](readme_template/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (218)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (124)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (160)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (113)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
+🌐 [Web (218)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (124)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (163)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (114)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
 
 ## Browse by Keyword
-[benchmark (174)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (101)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (60)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (56)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (48)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (48)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (29)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [WebArena (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena)<br>[training-free (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [reward model (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [long-horizon tasks (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [world model (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [GRPO (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO)<br>[prompt injection (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [planning (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey) · [visual grounding (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=visual+grounding) · [AndroidWorld (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld)
+[benchmark (177)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (101)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (61)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (57)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (48)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (48)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (29)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [WebArena (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena)<br>[training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [reward model (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [long-horizon tasks (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [world model (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [GRPO (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO)<br>[prompt injection (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [planning (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey) · [visual grounding (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=visual+grounding) · [AndroidWorld (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld)
 
 ## Browse by Author
-[Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig) · [Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su) · [Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Mike Zheng Shou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou)<br>[Shuyan Zhou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou) · [Zhuosheng Zhang (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Jian Luan (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan) · [Kun Shao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kun+Shao) · [Jun Wang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jun+Wang)<br>[Wei Liu (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Tao Yu (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Caiming Xiong (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Caiming+Xiong) · [Kevin Qinghong Lin (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin) · [Yuxiang Chai (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai)<br>[Qiushi Sun (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Zhengxi Lu (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhengxi+Lu) · [Jie Tang (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jie+Tang) · [Zichen Ding (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zichen+Ding) · [Han Xiao (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Han+Xiao)
+[Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig) · [Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su) · [Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Mike Zheng Shou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou)<br>[Shuyan Zhou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou) · [Zhuosheng Zhang (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Jian Luan (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan) · [Kun Shao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kun+Shao) · [Jun Wang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jun+Wang)<br>[Wei Liu (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Tao Yu (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Han Xiao (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Han+Xiao) · [Caiming Xiong (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Caiming+Xiong) · [Kevin Qinghong Lin (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin)<br>[Yuxiang Chai (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai) · [Qiushi Sun (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Zhengxi Lu (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhengxi+Lu) · [Jie Tang (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jie+Tang) · [Zichen Ding (8)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zichen+Ding)
 
 ## Contributing
 
@@ -44,6 +44,24 @@ We welcome contributions from the community!
 
 > This README shows the 500 most recent papers. See [`papers.yaml`](papers.yaml) for the full structured source — including BibTeX, OpenReview / publisher / homepage / code / dataset links, and the `bibtex_confirmed` flag. For non-canonical adjacent papers see [`adjacent.yaml`](adjacent.yaml).
 
+- [Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms](https://arxiv.org/abs/2606.04701)
+    - Jiashu Yao, Heyan Huang, Daiqing Wu, Wangke Chen, Huaxi Ai, Haoyu Wen, Zeming Liu, Yuhang Guo
+    - 🏛️ Institutions: BIT, THU, Beihang
+    - 📅 Date: June 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [dynamic interface], [short-video platform], [observation control], [LivingScreen]
+    - 📖 TLDR: LivingScreen is a benchmark for "living-screen-native" GUI agents that must act on continuously updating interfaces such as short-video platforms, where on-screen content changes between agent actions. Evaluating frontier models, it finds none reaches human cost-accuracy performance and identifies over- and under-observation as key failure modes, motivating better observation-control capabilities.
+
+- [STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models](https://arxiv.org/abs/2606.01790)
+    - Yuhang Han, Wenzheng Yang, Yujie Chen, Xiangqi Jin, Yaojie Zhang, Siteng Huang, Linfeng Zhang
+    - 🏛️ Institutions: SJTU, HKUST (GZ), ZJU
+    - 📅 Date: June 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [efficiency], [KV cache compression], [vision-language model], [training-free], [STaR-KV]
+    - 📖 TLDR: STaR-KV is a training-free KV cache compression framework for GUI vision-language models, whose cache grows linearly with interaction steps. It combines subspace-aware spatial scoring with temporal-stability re-weighting to retain salient tokens, reducing memory while preserving accuracy across GUI agent benchmarks.
+
 - [GUI-C²: Coarse-to-Fine GUI Grounding via Difficulty-Aware Reinforcement Learning](https://z1oong.github.io/GUI-C2/)
     - Junlong Li, Chao Hao, Lap-Pui Chau, Yi Wang
     - 🏛️ Institutions: PolyU
@@ -52,6 +70,24 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [GUI grounding], [reinforcement learning], [difficulty-aware data curation], [coarse-to-fine refinement], [GUI-C²]
     - 📖 TLDR: GUI-C² targets data efficiency and inference overhead in RL-based GUI grounding by combining GUI-D, a difficulty-scored data curation pipeline, with area-gated coarse-to-fine visual refinement. Its improvement-aware stage rewards and simplified decision process achieve 46.4% on ScreenSpot-Pro with a 3B model while adding minimal inference time.
+
+- [AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications](https://arxiv.org/abs/2605.27761)
+    - Yifan Sui, Xin Huang, Hongbing Li, Fang Xu, Jiahe Lv, Haolong Yan, Yeqing Shen, Litao Liu, Zhimin Fan, Ziyang Meng, Jia Wang, Junbo Qi, Kaijun Tan, Zheng Ge, Xiangyu Zhang, Daxin Jiang, Osamu Yoshie
+    - 🏛️ Institutions: BUPT, StepFun, Waseda
+    - 📅 Date: May 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [mobile GUI agent], [closed-source apps], [trajectory evaluation], [AndroidDaily], [GRADE]
+    - 📖 TLDR: AndroidDaily is a verifiable benchmark of 350 daily-use tasks across 94 commercial, closed-source Android apps for evaluating mobile GUI agents. It introduces GRADE, an evaluator that judges agents by tracking the visual trajectory against observable external guidelines rather than internal app state, reaching 87.37% agreement with human judgment.
+
+- [MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research](https://arxiv.org/abs/2605.26114)
+    - Dingbang Wu, Rui Hao, Haiyang Wang, Shuzhe Wu, Han Xiao, Zhenghong Li, Bojiang Zhou, Zheng Ju, Zichen Liu, Lue Fan, Zhaoxiang Zhang
+    - 🏛️ Institutions: CASIA, PKU, CUHK
+    - 📅 Date: May 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [benchmark], [framework], [reinforcement learning], [simulation platform], [sim-to-real], [MobileGym]
+    - 📖 TLDR: MobileGym is a browser-hosted Android-like simulation platform for mobile GUI agent research that represents full environment state as structured JSON, enabling deterministic state-based judging, snapshot/reset/fork, side-effect detection, and highly parallel rollouts for online RL. Its MobileGym-Bench provides 416 parameterized task templates over 28 apps, and GRPO training on Qwen3-VL-4B-Instruct improves a 256-task test set by +12.8 points with 95.1% sim-to-real gain retention on a real-device subset.
 
 - [A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction](https://arxiv.org/abs/2605.00551)
     - Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, Hitoshi Iyatomi
@@ -4507,39 +4543,3 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [Mobile-Eval], [vision-centric control], [task decomposition], [Mobile-Agent]
     - 📖 TLDR: Mobile-Agent is a mobile device agent that operates from screenshots without relying on XML trees or system metadata. It pairs visual perception with stepwise task decomposition and introduces the Mobile-Eval benchmark for evaluating mobile device operations.
-
-- [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://aclanthology.org/2024.acl-long.371/)
-    - Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, Dong Yu
-    - 🏛️ Institutions: ZJU, Tencent AI Lab, Westlake University
-    - 📅 Date: January 25, 2024
-    - 📑 Publisher: ACL 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [automatic evaluation], [GPT-4V judge], [real-world website tasks], [WebVoyager]
-    - 📖 TLDR: WebVoyager is an end-to-end multimodal web agent evaluated on a benchmark built from tasks over 15 live websites. The paper also introduces a GPT-4V-based automatic evaluation protocol and reports 85.3% agreement with human judgment.
-
-- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://aclanthology.org/2024.acl-long.50/)
-    - Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, Daniel Fried
-    - 🏛️ Institutions: CMU
-    - 📅 Date: January 24, 2024
-    - 📑 Publisher: ACL 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [VisualWebArena], [visually grounded web tasks], [self-hosted environments], [multimodal agent evaluation]
-    - 📖 TLDR: VisualWebArena is a benchmark of 910 visually grounded web tasks across Classifieds, Shopping, and Reddit environments. Built on WebArena's self-hosted setup, it targets multimodal web agents that must use image-text inputs rather than text alone.
-
-- [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://aclanthology.org/2024.acl-long.505/)
-    - Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, Zhiyong Wu
-    - 🏛️ Institutions: National Key Laboratory for Novel Software Technology, NJU, Shanghai AI Laboratory
-    - 📅 Date: January 17, 2024
-    - 📑 Publisher: ACL 2024
-    - 💻 Env: [Desktop], [Mobile], [Web]
-    - 🔑 Key: [benchmark], [dataset], [GUI grounding], [grounding pre-training], [ScreenSpot], [SeeClick]
-    - 📖 TLDR: SeeClick is a screenshot-only GUI agent built around the GUI grounding problem rather than structured trees such as HTML. The paper adds automated GUI-grounding data curation and introduces ScreenSpot, a grounding benchmark spanning mobile, desktop, and web environments.
-
-- [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://proceedings.mlr.press/v235/zheng24e.html)
-    - Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su
-    - 🏛️ Institutions: OSU
-    - 📅 Date: January 03, 2024
-    - 📑 Publisher: ICML 2024
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [grounding], [SeeAct], [live website evaluation], [Mind2Web]
-    - 📖 TLDR: SeeAct studies GPT-4V as a generalist web agent and adds an online evaluation setup for running agents on live websites. It shows that GPT-4V is strong when grounding is handled manually, and identifies grounding as the main remaining bottleneck.
