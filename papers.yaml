@@ -2,6 +2,137 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents'
+  link: https://arxiv.org/abs/2606.14106
+  authors:
+  - Seoyoung Choi
+  - Minseok Ko
+  - Hyunseok Lee
+  - Kunwoong Kim
+  - Woomin Song
+  - Chanseok Jeon
+  - Jinwoo Shin
+  institutions:
+  - Unknown
+  date: '2026-06-12'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - visual memory
+  - failure modes
+  - experiential memory
+  - grounding error
+  tldr: |-
+    This paper studies how visual memory affects GUI agents by classifying failures into cognitive failure, visual state misunderstanding, hidden operation blindness, and grounding error. It finds that full-image memory can reduce state-level failures while worsening action-level failures such as hidden operation blindness and grounding errors.
+  arxiv_id: '2606.14106'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.14106
+  bibtex: |-
+    @misc{choi2026naive,
+      title = {Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents},
+      author = {Seoyoung Choi and Minseok Ko and Hyunseok Lee and Kunwoong Kim and Woomin Song and Chanseok Jeon and Jinwoo Shin},
+      year = {2026},
+      eprint = {2606.14106},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.14106}
+    }
+  bibtex_confirmed: false
+- title: 'Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields'
+  link: https://arxiv.org/abs/2606.11042
+  authors:
+  - Liya Zhu
+  - Jingzhe Ding
+  - Jian Zhang
+  - Jianbo Xue
+  - Shihao Liang
+  - Ge Zhang
+  - Yi Zhu
+  - Duju Zeng
+  - Xiang Gao
+  - Qingshui Gu
+  - Mailun Gao
+  - Huimin Che
+  - Yan Zhao
+  - Peiheng Zhou
+  - Haojun Wang
+  - Chaobo Xian
+  - Lili Le
+  - Chi Wu
+  - Yiwei Liu
+  - Shengda Long
+  - Jiale Yang
+  - Fangzhi Xu
+  - Sijin Wu
+  - Haodong Duan
+  - Chao He
+  - Zhaojian Li
+  - Minchao Wang
+  - Huan Zhou
+  - Jiani Hou
+  - Chuqian Yu
+  - Weiran Shi
+  - Hongwan Gao
+  - Jiamin Chen
+  - Guanhong Chen
+  - Tingqin Luo
+  - Kaiyuan Zhang
+  - Zhixin Yao
+  - Qing Hua
+  - Yuhao Jiang
+  - Jin Chen
+  - Pu Chen
+  - Zhenyu Hu
+  - Xingyu Li
+  - Zhengxuan Jiang
+  - Meng Cao
+  - Tianfeng Long
+  - Haozhe Wang
+  - Mingzhang Wang
+  - Yichen Zhang
+  - Yiming Dai
+  - Chenchen Zhang
+  - Jiaying Wang
+  - Xinying Liu
+  - Xingzu Liu
+  - Lingling Zhang
+  - Xinjie Chen
+  - Yujia Qin
+  - Wangchunshu Zhou
+  - Zhiyong Wu
+  - Yang Liu
+  - Jiaheng Liu
+  - Lei Zhang
+  - Shen Yan
+  - Wenhao Huang
+  - Zaiyuan Wang
+  - Xiaolong Chang
+  institutions:
+  - Unknown
+  date: '2026-06-09'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - benchmark
+  - long-horizon tasks
+  - professional workflows
+  - Workflow-GYM
+  tldr: |-
+    Workflow-GYM is a benchmark for long-horizon computer-use tasks in professional software environments. It evaluates whether agents can complete domain-specific workflows through GUIs and reports that current state-of-the-art models still struggle with end-to-end professional tasks.
+  arxiv_id: '2606.11042'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.11042
+  bibtex: |-
+    @misc{zhu2026workflowgym,
+      title = {Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields},
+      author = {Liya Zhu and Jingzhe Ding and Jian Zhang and Jianbo Xue and Shihao Liang and Ge Zhang and Yi Zhu and Duju Zeng and Xiang Gao and Qingshui Gu and Mailun Gao and Huimin Che and Yan Zhao and Peiheng Zhou and Haojun Wang and Chaobo Xian and Lili Le and Chi Wu and Yiwei Liu and Shengda Long and Jiale Yang and Fangzhi Xu and Sijin Wu and Haodong Duan and Chao He and Zhaojian Li and Minchao Wang and Huan Zhou and Jiani Hou and Chuqian Yu and Weiran Shi and Hongwan Gao and Jiamin Chen and Guanhong Chen and Tingqin Luo and Kaiyuan Zhang and Zhixin Yao and Qing Hua and Yuhao Jiang and Jin Chen and Pu Chen and Zhenyu Hu and Xingyu Li and Zhengxuan Jiang and Meng Cao and Tianfeng Long and Haozhe Wang and Mingzhang Wang and Yichen Zhang and Yiming Dai and Chenchen Zhang and Jiaying Wang and Xinying Liu and Xingzu Liu and Lingling Zhang and Xinjie Chen and Yujia Qin and Wangchunshu Zhou and Zhiyong Wu and Yang Liu and Jiaheng Liu and Lei Zhang and Shen Yan and Wenhao Huang and Zaiyuan Wang and Xiaolong Chang},
+      year = {2026},
+      eprint = {2606.11042},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.11042}
+    }
+  bibtex_confirmed: false
 - title: Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms
   link: https://arxiv.org/abs/2606.04701
   authors:
@@ -41,6 +172,76 @@
       eprint = {2606.04701},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2606.04701}
+    }
+  bibtex_confirmed: false
+- title: 'Demo2Tutorial: From Human Experience to Multimodal Software Tutorials'
+  link: https://arxiv.org/abs/2606.03951
+  authors:
+  - Zechen Bai
+  - Zhiheng Chen
+  - Yiqi Lin
+  - Kevin Qinghong Lin
+  - Difei Gao
+  - Xiangwu Guo
+  - Xin Wang
+  - Mike Zheng Shou
+  institutions:
+  - Unknown
+  date: '2026-06-02'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - software tutorials
+  - task graphs
+  - planning
+  - Demo2Tutorial
+  tldr: |-
+    Demo2Tutorial converts screen recordings and interaction logs into structured multimodal software tutorials with parsed actions, intents, and hierarchical task graphs. The paper evaluates tutorial generation quality and shows that the resulting representations improve downstream GUI-agent planning and generalization.
+  arxiv_id: '2606.03951'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.03951
+  bibtex: |-
+    @misc{bai2026demo2tutorial,
+      title = {Demo2Tutorial: From Human Experience to Multimodal Software Tutorials},
+      author = {Zechen Bai and Zhiheng Chen and Yiqi Lin and Kevin Qinghong Lin and Difei Gao and Xiangwu Guo and Xin Wang and Mike Zheng Shou},
+      year = {2026},
+      eprint = {2606.03951},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.03951}
+    }
+  bibtex_confirmed: false
+- title: Context-Aware Workflow Decomposition for Automated Mobile UI Annotation Using Multimodal Large Language Models
+  link: https://arxiv.org/abs/2606.02208
+  authors:
+  - Athar Parvez
+  - Muhammad Jawad Mufti
+  - Muqaddas Gull
+  - Omar Hammad
+  institutions:
+  - Unknown
+  date: '2026-06-01'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - UI annotation
+  - mobile UI understanding
+  - workflow decomposition
+  - MUIAnno
+  tldr: |-
+    This paper studies automated mobile UI annotation for UI understanding, accessibility, testing, dataset construction, and GUI agents. It decomposes annotation into context-aware stages with structured prompts and schema-constrained outputs, improving precision on expert-annotated MUIAnno mobile screens.
+  arxiv_id: '2606.02208'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.02208
+  bibtex: |-
+    @misc{parvez2026context,
+      title = {Context-Aware Workflow Decomposition for Automated Mobile UI Annotation Using Multimodal Large Language Models},
+      author = {Athar Parvez and Muhammad Jawad Mufti and Muqaddas Gull and Omar Hammad},
+      year = {2026},
+      eprint = {2606.02208},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.02208}
     }
   bibtex_confirmed: false
 - title: 'STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models'
@@ -116,6 +317,81 @@
       eprint = {2605.30884},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2605.30884}
+    }
+  bibtex_confirmed: false
+- title: 'UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents'
+  link: https://arxiv.org/abs/2605.29534
+  authors:
+  - Yuxiang Chai
+  - Han Xiao
+  - Xinyu Fu
+  - Jinpeng Chen
+  - Rui Liu
+  - Hongsheng Li
+  institutions:
+  - Unknown
+  date: '2026-05-28'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - lightweight agents
+  - knowledge graph
+  - app exploration
+  - UI-KOBE
+  tldr: |-
+    UI-KOBE improves lightweight mobile GUI agents by autonomously exploring apps and building reusable app knowledge graphs. At runtime, the agent uses the graph to identify UI states and choose executable transitions, reducing reliance on large vision-language models for long-horizon planning.
+  arxiv_id: '2605.29534'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.29534
+  bibtex: |-
+    @misc{chai2026uikobe,
+      title = {UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents},
+      author = {Yuxiang Chai and Han Xiao and Xinyu Fu and Jinpeng Chen and Rui Liu and Hongsheng Li},
+      year = {2026},
+      eprint = {2605.29534},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.29534}
+    }
+  bibtex_confirmed: false
+- title: GUI Agents for Continual Game Generation
+  link: https://arxiv.org/abs/2605.28258
+  authors:
+  - Yixu Huang
+  - Bo Li
+  - Na Li
+  - Zhe Wang
+  - Kaijie Chen
+  - Haonan Ge
+  - Qingyi Si
+  - Yuanzhe Shen
+  - Ruihan Yang
+  - Guangjing Wang
+  - Hongcheng Guo
+  institutions:
+  - Unknown
+  date: '2026-05-27'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - game generation
+  - PlaytestArena
+  - Play2Code
+  - browser games
+  tldr: |-
+    This paper studies GUI agents as playtesters for continual browser-game generation. It introduces PlaytestArena, where a GUI agent plays generated games against rubrics, and Play2Code, a loop where game and GUI agents use play feedback to improve generated games.
+  arxiv_id: '2605.28258'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.28258
+  bibtex: |-
+    @misc{huang2026gui,
+      title = {GUI Agents for Continual Game Generation},
+      author = {Yixu Huang and Bo Li and Na Li and Zhe Wang and Kaijie Chen and Haonan Ge and Qingyi Si and Yuanzhe Shen and Ruihan Yang and Guangjing Wang and Hongcheng Guo},
+      year = {2026},
+      eprint = {2605.28258},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.28258}
     }
   bibtex_confirmed: false
 - title: 'AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications'
@@ -214,6 +490,217 @@
       url = {https://arxiv.org/abs/2605.26114}
     }
   bibtex_confirmed: false
+- title: 'SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking'
+  link: https://arxiv.org/abs/2605.25160
+  authors:
+  - Guohong Liu
+  - Jialei Ye
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Yunxin Liu
+  - Yuanchun Li
+  institutions:
+  - Unknown
+  date: '2026-05-24'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - simulation
+  - long-horizon tasks
+  - SimuWoB
+  tldr: |-
+    SimuWoB is a synthetic benchmark for mobile GUI agents with 120 tasks spanning diverse interaction types and difficulty levels. It generates high-fidelity mobile environments as backend-free webpages with automatic rewards, revealing low success rates for current mobile GUI agents, especially on long-horizon tasks.
+  arxiv_id: '2605.25160'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.25160
+  bibtex: |-
+    @misc{liu2026simuwob,
+      title = {SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking},
+      author = {Guohong Liu and Jialei Ye and Pengzhi Gao and Wei Liu and Jian Luan and Yunxin Liu and Yuanchun Li},
+      year = {2026},
+      eprint = {2605.25160},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.25160}
+    }
+  bibtex_confirmed: false
+- title: 'MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents'
+  link: https://arxiv.org/abs/2605.18652
+  authors:
+  - Ziyun Zeng
+  - Hang Hua
+  - Bocheng Zou
+  - Mu Cai
+  - Rogerio Feris
+  - Jiebo Luo
+  institutions:
+  - Unknown
+  date: '2026-05-18'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - memory control
+  - long-horizon tasks
+  - MementoGUI
+  - MementoGUI-Bench
+  tldr: |-
+    MementoGUI is a plug-in memory framework for long-horizon GUI agents. It introduces MementoCore for online memory selection, compression, and retrieval, plus MementoGUI-Bench and metrics for evaluating semantic action matching, task progress, and memory consistency.
+  arxiv_id: '2605.18652'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.18652
+  bibtex: |-
+    @misc{zeng2026mementogui,
+      title = {MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents},
+      author = {Ziyun Zeng and Hang Hua and Bocheng Zou and Mu Cai and Rogerio Feris and Jiebo Luo},
+      year = {2026},
+      eprint = {2605.18652},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.18652}
+    }
+  bibtex_confirmed: false
+- title: 'SE-GA: Memory-Augmented Self-Evolution for GUI Agents'
+  link: https://arxiv.org/abs/2605.16883
+  authors:
+  - Shilong Jin
+  - Lanjun Wang
+  - Zhuosheng Zhang
+  institutions:
+  - Unknown
+  date: '2026-05-16'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - memory
+  - self-evolution
+  - AndroidWorld
+  - SE-GA
+  tldr: |-
+    SE-GA is a memory-augmented self-evolving GUI agent framework for multi-step tasks. It combines Test-Time Memory Extension with a Memory-Augmented Self-Evolution training pipeline and reports improved results on ScreenSpot, AndroidControl-High, and AndroidWorld.
+  arxiv_id: '2605.16883'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.16883
+  bibtex: |-
+    @misc{jin2026sega,
+      title = {SE-GA: Memory-Augmented Self-Evolution for GUI Agents},
+      author = {Shilong Jin and Lanjun Wang and Zhuosheng Zhang},
+      year = {2026},
+      eprint = {2605.16883},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.16883}
+    }
+  bibtex_confirmed: false
+- title: 'Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining'
+  link: https://arxiv.org/abs/2605.14747
+  authors:
+  - Weimin Xiong
+  - Shuhao Gu
+  - Bowen Ye
+  - Zihao Yue
+  - Lei Li
+  - Feifan Song
+  - Sujian Li
+  - Hao Tian
+  institutions:
+  - Unknown
+  date: '2026-05-14'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - pretraining
+  - trajectory synthesis
+  - dataset
+  - WildGUI
+  - Video2GUI
+  tldr: |-
+    Video2GUI is an automated pipeline for extracting grounded GUI interaction trajectories from unlabeled Internet videos. It constructs WildGUI, a dataset of 12 million interaction trajectories across more than 1,500 applications and websites, and uses it for generalized GUI-agent pretraining.
+  arxiv_id: '2605.14747'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.14747
+  bibtex: |-
+    @misc{xiong2026video2gui,
+      title = {Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining},
+      author = {Weimin Xiong and Shuhao Gu and Bowen Ye and Zihao Yue and Lei Li and Feifan Song and Sujian Li and Hao Tian},
+      year = {2026},
+      eprint = {2605.14747},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.14747}
+    }
+  bibtex_confirmed: false
+- title: Executable Agentic Memory for GUI Agent
+  link: https://arxiv.org/abs/2605.12294
+  authors:
+  - Zerui Qin
+  - Sheng Yue
+  - Xingyuan Hua
+  - Yongjian Fu
+  - Ju Ren
+  institutions:
+  - Unknown
+  date: '2026-05-12'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - memory
+  - knowledge graph
+  - planning
+  - EAM
+  tldr: |-
+    Executable Agentic Memory (EAM) represents reusable GUI routines as a structured knowledge graph. It uses state-aware exploration, action-group mining, and value-guided graph search to shift GUI planning from repeated free-form model calls toward retrieval and execution over learned routines.
+  arxiv_id: '2605.12294'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.12294
+  bibtex: |-
+    @misc{qin2026executable,
+      title = {Executable Agentic Memory for GUI Agent},
+      author = {Zerui Qin and Sheng Yue and Xingyuan Hua and Yongjian Fu and Ju Ren},
+      year = {2026},
+      eprint = {2605.12294},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.12294}
+    }
+  bibtex_confirmed: false
+- title: 'LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning'
+  link: https://arxiv.org/abs/2605.07505
+  authors:
+  - Yubin Wu
+  - Zicheng Cai
+  - Liping Ning
+  - Hua Wang
+  - Zhi Chen
+  - Yaohua Tang
+  - Hao Chen
+  institutions:
+  - Unknown
+  date: '2026-05-08'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - lightweight agents
+  - reinforcement learning
+  - distillation
+  - LiteGUI
+  tldr: |-
+    LiteGUI proposes an SFT-free training paradigm for compact on-device vision-language GUI agents. It uses Guided On-policy Distillation with oracle trajectories and dynamic retrieval to improve small GUI-agent performance while reducing hallucination and cognitive misalignment.
+  arxiv_id: '2605.07505'
+  sources:
+    arxiv: https://arxiv.org/abs/2605.07505
+  bibtex: |-
+    @misc{wu2026litegui,
+      title = {LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning},
+      author = {Yubin Wu and Zicheng Cai and Liping Ning and Hua Wang and Zhi Chen and Yaohua Tang and Hao Chen},
+      year = {2026},
+      eprint = {2605.07505},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2605.07505}
+    }
+  bibtex_confirmed: false
 - title: 'A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction
     and Redundancy Reduction'
   link: https://arxiv.org/abs/2605.00551
@@ -285,6 +772,40 @@
       eprint = {2604.27776},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2604.27776}
+    }
+  bibtex_confirmed: false
+- title: Step-level Optimization for Efficient Computer-use Agents
+  link: https://arxiv.org/abs/2604.27151
+  authors:
+  - Jinbiao Wei
+  - Kangqi Ni
+  - Yilun Zhao
+  - Guo Gan
+  - Arman Cohan
+  institutions:
+  - Unknown
+  date: '2026-04-29'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - efficiency
+  - step-level optimization
+  - model routing
+  - computer-use agents
+  tldr: |-
+    This paper targets the cost and latency of computer-use agents that call large multimodal models at nearly every GUI step. It argues that long-horizon trajectories have heterogeneous step difficulty and studies step-level optimization so routine actions can be handled by cheaper policies while high-risk moments receive stronger compute.
+  arxiv_id: '2604.27151'
+  sources:
+    arxiv: https://arxiv.org/abs/2604.27151
+  bibtex: |-
+    @misc{wei2026step,
+      title = {Step-level Optimization for Efficient Computer-use Agents},
+      author = {Jinbiao Wei and Kangqi Ni and Yilun Zhao and Guo Gan and Arman Cohan},
+      year = {2026},
+      eprint = {2604.27151},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2604.27151}
     }
   bibtex_confirmed: false
 - title: Training Computer Use Agents to Assess the Usability of Graphical User Interfaces
@@ -443,6 +964,39 @@
       eprint = {2604.21375},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2604.21375}
+    }
+  bibtex_confirmed: false
+- title: Human-Guided Harm Recovery for Computer Use Agents
+  link: https://arxiv.org/abs/2604.18847
+  authors:
+  - Christy Li
+  - Sky CH-Wang
+  - Andi Peng
+  - Andreea Bobu
+  institutions:
+  - Unknown
+  date: '2026-04-20'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - safety
+  - harm recovery
+  - human preferences
+  - recovery planning
+  tldr: |-
+    This paper formalizes harm recovery for computer-use agents: steering an agent from a harmful post-execution state back to a safe one aligned with human preferences. It builds a user-study-derived rubric, collects pairwise recovery judgments, and uses a reward model to rank recovery plans.
+  arxiv_id: '2604.18847'
+  sources:
+    arxiv: https://arxiv.org/abs/2604.18847
+  bibtex: |-
+    @misc{li2026human,
+      title = {Human-Guided Harm Recovery for Computer Use Agents},
+      author = {Christy Li and Sky CH-Wang and Andi Peng and Andreea Bobu},
+      year = {2026},
+      eprint = {2604.18847},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2604.18847}
     }
   bibtex_confirmed: false
 - title: 'GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models'
@@ -1551,6 +2105,44 @@
       eprint = {2604.06240},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2604.06240}
+    }
+  bibtex_confirmed: false
+- title: 'AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents'
+  link: https://arxiv.org/abs/2604.02947
+  authors:
+  - Yunhao Feng
+  - Yifan Ding
+  - Yingshui Tan
+  - Xingjun Ma
+  - Yige Li
+  - Yutao Wu
+  - Yifeng Gao
+  - Kun Zhai
+  - Yanming Guo
+  institutions:
+  - Unknown
+  date: '2026-04-03'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - safety benchmark
+  - harmful behavior
+  - multi-step risk
+  - AgentHazard
+  tldr: |-
+    AgentHazard is a benchmark for harmful behavior in computer-use agents. It contains 2,653 instances across risk categories and attack strategies, pairing harmful objectives with locally legitimate steps to test whether agents recognize and interrupt unsafe multi-step behavior.
+  arxiv_id: '2604.02947'
+  sources:
+    arxiv: https://arxiv.org/abs/2604.02947
+  bibtex: |-
+    @misc{feng2026agenthazard,
+      title = {AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents},
+      author = {Yunhao Feng and Yifan Ding and Yingshui Tan and Xingjun Ma and Yige Li and Yutao Wu and Yifeng Gao and Kun Zhai and Yanming Guo},
+      year = {2026},
+      eprint = {2604.02947},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2604.02947}
     }
   bibtex_confirmed: false
 - title: 'The Tool Illusion: Rethinking Tool Use in Web Agents'
