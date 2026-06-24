@@ -398,6 +398,8 @@
   arxiv_id: '2508.14704'
   sources:
     arxiv: https://arxiv.org/abs/2508.14704
+    homepage: https://mcp-universe.github.io/
+    code: https://github.com/SalesforceAIResearch/MCP-Universe
 - title: 'BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent'
   link: https://arxiv.org/abs/2508.06600
   authors:
@@ -1136,6 +1138,8 @@
   arxiv_id: '2310.11441'
   sources:
     arxiv: https://arxiv.org/abs/2310.11441
+    homepage: https://som-gpt4v.github.io/
+    code: https://github.com/microsoft/SoM
 - title: 'OpenAgents: An Open Platform for Language Agents in the Wild'
   link: https://arxiv.org/abs/2310.10634
   authors:

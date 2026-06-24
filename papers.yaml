@@ -236,6 +236,7 @@
   arxiv_id: '2606.02208'
   sources:
     arxiv: https://arxiv.org/abs/2606.02208
+    homepage: https://annota-nine.vercel.app/
   bibtex: |-
     @misc{parvez2026context,
       title = {Context-Aware Workflow Decomposition for Automated Mobile UI Annotation Using Multimodal Large Language Models},
@@ -311,6 +312,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2605.30884
     homepage: https://z1oong.github.io/GUI-C2/
+    code: https://github.com/z1oong/GUI-C2
   bibtex: |-
     @misc{li2026guic2,
       title = {GUI-C²: Coarse-to-Fine GUI Grounding via Difficulty-Aware Reinforcement Learning},
@@ -915,6 +917,7 @@
   arxiv_id: '2604.24964'
   sources:
     arxiv: https://arxiv.org/abs/2604.24964
+    homepage: https://odysseysbench.com/
   bibtex: |-
     @misc{jang2026odysseys,
       title = {Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks},
@@ -4768,6 +4771,7 @@
   arxiv_id: '2602.14721'
   sources:
     arxiv: https://arxiv.org/abs/2602.14721
+    dataset: https://huggingface.co/datasets/LangAGI-Lab/world_model_for_wa_desc_with_tao_formatted_w_cot
   bibtex: |-
     @misc{xiao2026webworld,
       title = {WebWorld: A Large-Scale World Model for Web Agent Training},
@@ -7385,6 +7389,7 @@
   arxiv_id: '2601.16356'
   sources:
     arxiv: https://arxiv.org/abs/2601.16356
+    code: https://github.com/ND-SaNDwichLAB/LLM-agents-website-replicas
   bibtex: |-
     @inproceedings{gebreegziabher2026behavioral,
       title = {The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes},
@@ -9865,6 +9870,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2510.19205
     openreview: https://openreview.net/forum?id=IPpOtWGmdf
+    homepage: https://web-graph-eval.vercel.app/
   bibtex: |-
     @inproceedings{qian2025webgrapheval,
       title = {WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation},
@@ -10234,6 +10240,7 @@
   arxiv_id: '2510.12200'
   sources:
     arxiv: https://arxiv.org/abs/2510.12200
+    code: https://github.com/GUI-Agent/HackWorld
   bibtex: |-
     @inproceedings{ren2025hackworld,
       title = {HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities},
@@ -10586,6 +10593,7 @@
   arxiv_id: '2510.04607'
   sources:
     arxiv: https://arxiv.org/abs/2510.04607
+    code: https://github.com/dmi-interface/DMI
   bibtex: |-
     @inproceedings{wang2025from,
       title = {From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents},
@@ -11418,6 +11426,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2509.15566
     openreview: https://openreview.net/forum?id=B0Gfxhr8V5
+    code: https://github.com/xiaomi-research/btl-ui
   bibtex: |-
     @inproceedings{zhang2025btlui,
       title = {BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent},
@@ -11667,6 +11676,7 @@
   arxiv_id: '2509.07764'
   sources:
     arxiv: https://arxiv.org/abs/2509.07764
+    code: https://github.com/m4p1e/agent-sentinel
   bibtex: |-
     @inproceedings{hu2025agentsentinel,
       title = {AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents},
@@ -12227,6 +12237,7 @@
   arxiv_id: '2508.13024'
   sources:
     arxiv: https://arxiv.org/abs/2508.13024
+    code: https://github.com/wbsg-uni-mannheim/WebMall
   bibtex: |-
     @misc{peeters2025webmall,
       title = {WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents [Technical Report]},
@@ -16090,6 +16101,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2503.20279
     publisher_page: https://aclanthology.org/2025.acl-industry.75/
+    code: https://github.com/AIM-Intelligence/SUDO
   bibtex: |-
     @inproceedings{lee2025sudo,
       title = {sudo rm -rf agentic\_security},
@@ -16236,6 +16248,8 @@
     openreview: https://openreview.net/forum?id=5Rtj4mYH1C
     publisher_page: https://proceedings.mlr.press/v267/nayak25a.html
     homepage: https://proceedings.mlr.press/v267/nayak25a.html
+    code: https://github.com/uivision/UI-Vision
+    dataset: https://huggingface.co/datasets/ServiceNow/ui-vision
   bibtex: |-
     @inproceedings{nayak2025uivision,
       title = {UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction},
@@ -17107,6 +17121,8 @@
   arxiv_id: '2412.17589'
   sources:
     arxiv: https://arxiv.org/abs/2412.17589
+    homepage: https://gair-nlp.github.io/PC-Agent/
+    code: https://github.com/GAIR-NLP/PC-Agent
   bibtex: |-
     @misc{he2024agent,
       title = {PC Agent: While You Sleep, AI Works -- A Cognitive Journey into Digital World},
@@ -17987,6 +18003,7 @@
     AndroidLab provides a reproducible Android agent environment plus a benchmark with predefined virtual devices, shared action spaces, and 138 tasks across nine apps. It also builds an Android Instruction dataset from that environment and shows that the resulting data materially improves both open LLM and VLM mobile agents.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.107/
+    code: https://github.com/THUDM/Android-Lab
   bibtex: |-
     @inproceedings{xu2024androidlab,
       title = {AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents},
@@ -18102,6 +18119,9 @@
   arxiv_id: '2410.23218'
   sources:
     arxiv: https://arxiv.org/abs/2410.23218
+    homepage: https://osatlas.github.io/
+    code: https://github.com/OS-Copilot/OS-Atlas
+    dataset: https://huggingface.co/datasets/OS-Copilot/OS-Atlas-data
   bibtex: |-
     @inproceedings{wu2024osatlas,
       title = {OS-ATLAS: A Foundation Action Model for Generalist GUI Agents},
@@ -19344,6 +19364,7 @@
     publisher_page: https://proceedings.mlr.press/v267/wang25bx.html
     homepage: https://proceedings.mlr.press/v267/wang25bx.html
     arxiv: https://arxiv.org/abs/2409.07429
+    code: https://github.com/zorazrw/agent-workflow-memory
   bibtex: |-
     @inproceedings{wang2024agent,
       title = {Agent Workflow Memory},
@@ -20178,6 +20199,7 @@
     VGA is a GUI-understanding model fine-tuned to reduce hallucinations caused by relying on textual priors instead of screen evidence. The paper builds a 63.8k GUI VQA dataset with the Referent Method and uses a two-stage Foundation-and-Advanced-Comprehension training scheme to improve visually grounded answers.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.68/
+    code: https://github.com/Linziyang1999/Vision-GUI-assistant
   bibtex: |-
     @inproceedings{meng2024vga,
       title = {VGA: Vision GUI Assistant - Minimizing Hallucinations through Image-Centric Fine-Tuning},
@@ -20648,6 +20670,7 @@
   arxiv_id: '2406.08340'
   sources:
     arxiv: https://arxiv.org/abs/2406.08340
+    dataset: https://zenodo.org/records/11118420
   bibtex: |-
     @inproceedings{yu2024practical,
       title = {Practical, Automated Scenario-based Mobile App Testing},
@@ -20916,6 +20939,7 @@
   arxiv_id: '2407.01558'
   sources:
     arxiv: https://arxiv.org/abs/2407.01558
+    dataset: https://huggingface.co/datasets/Novylab/GUI_grounding
   bibtex: |-
     @misc{ettifouri2024visual,
       title = {Visual Grounding Methods for Efficient Interaction with Desktop Graphical User Interfaces},
@@ -21231,6 +21255,9 @@
     VisualWebBench is a web-page understanding benchmark with 1.5K human-curated instances from 139 real websites covering seven fine-grained tasks such as OCR, understanding, and grounding. The paper uses it to show that current multimodal models still struggle on text-rich pages, especially on grounding and low-resolution inputs.
   sources:
     openreview: https://openreview.net/forum?id=egVSgtJJAx
+    homepage: https://visualwebbench.github.io/
+    code: https://github.com/VisualWebBench/VisualWebBench
+    dataset: https://huggingface.co/datasets/visualwebbench/VisualWebBench
   bibtex: |-
     @inproceedings{liu2024visualwebbench,
       title = {VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?},
@@ -21737,6 +21764,7 @@
     ScreenAI is a vision-language model for UI and infographics understanding that combines a PaLI-style architecture with pix2struct-style flexible patching. It introduces a screen-annotation task, uses it to generate large-scale UI training data, and releases three datasets for screen annotation and screen question answering.
   sources:
     homepage: https://www.ijcai.org/proceedings/2024/339
+    dataset: https://github.com/google-research-datasets/screen_annotation
   bibtex: |-
     @inproceedings{baechler2024screenai,
       title = {ScreenAI: A Vision-Language Model for UI and Infographics Understanding},
@@ -22927,6 +22955,7 @@
     This paper introduces MoTIF, a mobile-app navigation dataset where commands may be infeasible or ambiguous in the current UI state. In addition to action demonstrations, it adds feasibility labels and follow-up questions, making it a benchmark for both navigation and uncertainty resolution.
   sources:
     homepage: https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5327_ECCV_2022_paper.php
+    code: https://github.com/aburns4/MoTIF
   bibtex: |-
     @inproceedings{burns2022dataset,
       title = {A Dataset for Interactive Vision-Language Navigation with Unknown Command Feasibility},
