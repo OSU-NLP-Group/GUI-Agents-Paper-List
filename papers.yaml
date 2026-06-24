@@ -387,6 +387,7 @@
   arxiv_id: '2605.28258'
   sources:
     arxiv: https://arxiv.org/abs/2605.28258
+    homepage: https://continual-game-generation.vercel.app/
   bibtex: |-
     @misc{huang2026gui,
       title = {GUI Agents for Continual Game Generation},
@@ -2548,6 +2549,7 @@
   arxiv_id: '2603.26041'
   sources:
     arxiv: https://arxiv.org/abs/2603.26041
+    code: https://github.com/ldq20040602/HistPrune-GUI
   bibtex: |-
     @misc{li2026rethinking,
       title = {Rethinking Token Pruning for Historical Screenshots in GUI Visual Agents: Semantic, Spatial, and Temporal Perspectives},
@@ -4573,6 +4575,7 @@
   arxiv_id: '2602.17588'
   sources:
     arxiv: https://arxiv.org/abs/2602.17588
+    code: https://github.com/oaishi/PlowPilot
   bibtex: |-
     @misc{huq2026modeling,
       title = {Modeling Distinct Human Interaction in Web Agents},
@@ -6360,6 +6363,7 @@
   arxiv_id: '2602.00575'
   sources:
     arxiv: https://arxiv.org/abs/2602.00575
+    code: https://github.com/CcQunResearch/VAGEN
   bibtex: |-
     @misc{cui2026agentic,
       title = {Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction},
@@ -8845,6 +8849,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2512.12634
     code: https://github.com/fclab-skku/Mobi-Bench
+    dataset: https://github.com/fclab-skku/Mobi-Bench
   bibtex: |-
     @misc{im2025modular,
       title = {Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents},
@@ -9989,6 +9994,7 @@
   arxiv_id: '2510.18113'
   sources:
     arxiv: https://arxiv.org/abs/2510.18113
+    code: https://github.com/purseclab/liteagent
   bibtex: |-
     @inproceedings{ersoy2025investigating,
       title = {Investigating the Impact of Dark Patterns on LLM-Based Web Agents},
@@ -10313,6 +10319,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2510.11035
     code: https://github.com/SusBench-creator/SusBench
+    dataset: https://github.com/SusBench-creator/SusBench
   bibtex: |-
     @inproceedings{guo2025susbench,
       title = {SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents},
@@ -10661,6 +10668,7 @@
   arxiv_id: '2510.04039'
   sources:
     arxiv: https://arxiv.org/abs/2510.04039
+    code: https://github.com/bin123apple/GUI_Spotlight
   bibtex: |-
     @misc{lei2025guispotlight,
       title = {GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding},
@@ -10825,6 +10833,7 @@
   arxiv_id: '2510.02418'
   sources:
     arxiv: https://arxiv.org/abs/2510.02418
+    code: https://github.com/sagnikanupam/browserarena
   bibtex: |-
     @misc{anupam2025browserarena,
       title = {BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks},
@@ -10910,6 +10919,7 @@
   arxiv_id: '2510.02204'
   sources:
     arxiv: https://arxiv.org/abs/2510.02204
+    code: https://github.com/LZ-Dong/Reasoning-Executing-Gaps
   bibtex: |-
     @misc{dong2025thing,
       title = {Say One Thing, Do Another? Diagnosing Reasoning-Execution Gaps in VLM-Powered Mobile-Use Agents},
@@ -11574,6 +11584,7 @@
   arxiv_id: '2509.11250'
   sources:
     arxiv: https://arxiv.org/abs/2509.11250
+    code: https://github.com/zhangyitonggg/attack2gui
   bibtex: |-
     @misc{zhang2025environmental,
       title = {Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments},
@@ -11737,6 +11748,7 @@
   arxiv_id: '2509.04198'
   sources:
     arxiv: https://arxiv.org/abs/2509.04198
+    code: https://github.com/Scherifow/LLM-agents-Research
   bibtex: |-
     @misc{prcha2025agents,
       title = {Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows},
@@ -13024,6 +13036,7 @@
     arxiv: https://arxiv.org/abs/2507.21071
     openreview: https://openreview.net/forum?id=n3iFV0gLMc
     code: https://github.com/tsinghua-fib-lab/FingerTip-20K
+    dataset: https://github.com/tsinghua-fib-lab/FingerTip-20K
   bibtex: |-
     @inproceedings{yang2025fingertip,
       title = {FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents},
@@ -13200,6 +13213,7 @@
     arxiv: https://arxiv.org/abs/2506.07217
     openreview: https://openreview.net/forum?id=vQCFwXAl2A
     homepage: https://tumcms.github.io/BIMgent.github.io/
+    code: https://github.com/ZihanDDD/BIMgent
   bibtex: |-
     @inproceedings{deng2025bimgent,
       title = {BIMgent: Towards Autonomous Building Modeling via Computer-use Agents},
@@ -13272,6 +13286,7 @@
   arxiv_id: '2506.03533'
   sources:
     arxiv: https://arxiv.org/abs/2506.03533
+    code: https://github.com/ApGa/Go-Browse
   bibtex: |-
     @inproceedings{gandhi2025gobrowse,
       title = {Go-Browse: Training Web Agents with Structured Exploration},
@@ -13916,6 +13931,7 @@
   arxiv_id: '2505.21279'
   sources:
     arxiv: https://arxiv.org/abs/2505.21279
+    code: https://github.com/sqzhang-lazy/XBOUND
   bibtex: |-
     @misc{zhang2025xbound,
       title = {XBOUND: Exploring Capability Boundaries of Device-Control Agents at the State Level},
@@ -14216,6 +14232,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.16421
     publisher_page: https://aclanthology.org/2025.emnlp-main.401/
+    code: https://github.com/weizhepei/WebAgent-R1
   bibtex: |-
     @inproceedings{wei2025webagentr1,
       title = {WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning},
@@ -14560,6 +14577,7 @@
   arxiv_id: '2505.12370'
   sources:
     arxiv: https://arxiv.org/abs/2505.12370
+    code: https://github.com/YXB-NKU/SE-GUI
   bibtex: |-
     @inproceedings{yuan2025enhancing,
       title = {Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning},
@@ -14934,6 +14952,7 @@
     MobA is a mobile assistant system for complex GUI tasks in dynamic app contexts where execution capabilities vary across pages. It combines reflection-based adaptive planning with a multifaceted memory module, and introduces the MobBench dataset for complex mobile interactions alongside results on MobBench and AndroidArena.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-demo.43/
+    code: https://github.com/OpenDFM/MobA
   bibtex: |-
     @inproceedings{zhu2025moba,
       title = {MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation},
@@ -15532,6 +15551,7 @@
   arxiv_id: '2504.10458'
   sources:
     arxiv: https://arxiv.org/abs/2504.10458
+    code: https://github.com/ritzz-ai/GUI-R1
   bibtex: |-
     @misc{luo2025guir1,
       title = {GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents},
@@ -15899,6 +15919,7 @@
     Agent S2 is a compositional generalist-specialist framework that splits computer-use responsibilities across specialized and generalist models rather than using a single monolithic agent. Its core methods are Mixture-of-Grounding for precise localization and Proactive Hierarchical Planning for long-horizon control, yielding strong gains on OSWorld, WindowsAgentArena, and AndroidWorld.
   sources:
     openreview: https://openreview.net/forum?id=zg5is4GJ3R
+    code: https://github.com/simular-ai/Agent-S
   bibtex: |-
     @inproceedings{agashe2025agent,
       title = {Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents},
@@ -16111,6 +16132,7 @@
   arxiv_id: '2503.18492'
   sources:
     arxiv: https://arxiv.org/abs/2503.18492
+    dataset: https://github.com/VeriSafeAgent/VeriSafeAgent
   bibtex: |-
     @inproceedings{lee2025verisafe,
       title = {VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification},
@@ -16214,7 +16236,6 @@
     openreview: https://openreview.net/forum?id=5Rtj4mYH1C
     publisher_page: https://proceedings.mlr.press/v267/nayak25a.html
     homepage: https://proceedings.mlr.press/v267/nayak25a.html
-    code: https://github.com/mlresearch/v267
   bibtex: |-
     @inproceedings{nayak2025uivision,
       title = {UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction},
@@ -17497,8 +17518,9 @@
   sources:
     openreview: https://openreview.net/forum?id=PlihOwfx4r
     publisher_page: https://proceedings.mlr.press/v267/xu25ae.html
-    homepage: https://proceedings.mlr.press/v267/xu25ae.html
-    code: https://github.com/mlresearch/v267
+    homepage: https://aguvis-project.github.io/
+    code: https://github.com/xlang-ai/aguvis
+    dataset: https://huggingface.co/collections/ranpox/aguvis-unified-pure-vision-gui-agents-6764e2bc343c62af95c209d8
   bibtex: |-
     @inproceedings{xu2024aguvis,
       title = {Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction},
@@ -17761,6 +17783,7 @@
     Presents WebOlympus, an open platform for running web agents directly on live websites through a Chrome extension interface. The system is designed to support research and deployment workflows while adding a safety monitor for human- or model-mediated intervention and supporting applications like trajectory annotation and data collection.
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-demo.20/
+    code: https://github.com/THUDM/OpenWebAgent
   bibtex: |-
     @inproceedings{zheng2024webolympus,
       title = {WebOlympus: An Open Platform for Web Agents on Live Websites},
@@ -17881,6 +17904,7 @@
     Shows that vision-language computer agents can be reliably distracted by adversarial pop-ups that human users would typically ignore. On OSWorld and VisualWebArena, these pop-ups achieve high attack success rates and sharply reduce task completion, while simple defenses like warning prompts remain ineffective.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.411/
+    code: https://github.com/SALT-NLP/PopupAttack
   bibtex: |-
     @inproceedings{zhang2024attacking,
       title = {Attacking Vision-Language Computer Agents via Pop-ups},
@@ -18436,6 +18460,9 @@
   arxiv_id: '2410.17520'
   sources:
     arxiv: https://arxiv.org/abs/2410.17520
+    homepage: https://mobilesafetybench.github.io/
+    code: https://github.com/jylee425/mobilesafetybench
+    dataset: https://mobilesafetybench.github.io/datasets
   bibtex: |-
     @misc{lee2024mobilesafetybench,
       title = {MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control},
@@ -18476,7 +18503,8 @@
   sources:
     openreview: https://openreview.net/forum?id=bwidSkOyWF
     publisher_page: https://proceedings.mlr.press/v267/xu25m.html
-    code: https://github.com/mlresearch/v267
+    homepage: https://ai-secure.github.io/AdvAgent/
+    code: https://github.com/AI-secure/AdvAgent
   bibtex: |-
     @inproceedings{xu2024advagent,
       title = {AdvAgent: Controllable Blackbox Red-teaming on Web Agents},
@@ -18988,6 +19016,7 @@
     This paper proposes Dynamic Planning of Thoughts (D-PoT), which updates a mobile GUI agent's plan using execution history and environmental feedback instead of relying on a long static reasoning trace. The paper reports a 12.7-point accuracy gain over a strong GPT-4V baseline and attributes the improvement to better adaptation to unseen tasks and fewer hallucinations.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.70/
+    code: https://github.com/sqzhang-lazy/D-PoT
   bibtex: |-
     @inproceedings{zhang2024dynamic,
       title = {Dynamic Planning for LLM-based Graphical User Interface Automation},
@@ -19109,6 +19138,7 @@
     MobileVLM is a mobile-focused vision-language model trained with two extra UI-specific pretraining stages designed to improve both intra-UI element understanding and inter-UI transition understanding. The paper also introduces the 3M-page Chinese mobile corpus Mobile3M with real transition-action graphs, and reports stronger performance than prior VLMs on in-house and public mobile benchmarks.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.599/
+    code: https://github.com/XiaoMi/mobilevlm
   bibtex: |-
     @inproceedings{wu2024mobilevlm,
       title = {MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding},
@@ -19313,7 +19343,6 @@
     openreview: https://openreview.net/forum?id=NTAhi2JEEE
     publisher_page: https://proceedings.mlr.press/v267/wang25bx.html
     homepage: https://proceedings.mlr.press/v267/wang25bx.html
-    code: https://github.com/mlresearch/v267
     arxiv: https://arxiv.org/abs/2409.07429
   bibtex: |-
     @inproceedings{wang2024agent,
@@ -19550,6 +19579,7 @@
   arxiv_id: '2407.19056'
   sources:
     arxiv: https://arxiv.org/abs/2407.19056
+    code: https://github.com/zlwang-cs/OfficeBench
   bibtex: |-
     @misc{wang2024officebench,
       title = {OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation},
@@ -19901,6 +19931,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2407.03037
     homepage: https://portal.fis.tum.de/en/publications/seeing-is-believing-vision-driven-non-crash-functional-bug-detect/
+    code: https://github.com/testtestA6/VisionDroid
   bibtex: |-
     @misc{liu2024seeing,
       title = {Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps},
@@ -19994,6 +20025,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2407.01476
     openreview: https://openreview.net/forum?id=QF0N3x2XVm
+    code: https://github.com/kohjingyu/search-agents
   bibtex: |-
     @article{koh2024tree,
       title = {Tree Search for Language Model Agents},
@@ -20035,6 +20067,7 @@
     This paper introduces the Screen Point-and-Read task, where a model must explain the region indicated by a user point on a GUI screenshot, and proposes the Tree-of-Lens agent to solve it. It also releases the ScreenPR benchmark across mobile, web, and operating-system GUIs plus the ASHL dataset for hierarchical screen-region detection.
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-main.533/
+    homepage: https://screen-point-and-read.github.io
   bibtex: |-
     @inproceedings{fan2024read,
       title = {Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding},
@@ -20490,6 +20523,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/804e757b7d7043c26701c3a313032101-Abstract-Datasets_and_Benchmarks_Track.html
+    code: https://github.com/showlab/videogui
   bibtex: |-
     @inproceedings{lin2024videogui,
       title = {VideoGUI: A Benchmark for GUI Automation from Instructional Videos},
@@ -20652,6 +20686,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/a79f3ef3b445fd4659f44648f7ea8ffd-Abstract-Datasets_and_Benchmarks_Track.html
+    dataset: https://github.com/google-research/google-research/tree/master/android_control
   bibtex: |-
     @inproceedings{li2024effects,
       title = {On the Effects of Data Scale on UI Control Agents},
@@ -20690,6 +20725,7 @@
     Mobile-Agent-v2 is a mobile operation assistant that decomposes control into planning, decision, and reflection agents to handle long history navigation more effectively. It also maintains a memory unit for focus content from prior screens and reports over 30% task-completion improvement over the earlier single-agent Mobile-Agent setup.
   sources:
     openreview: https://openreview.net/forum?id=O0nBMRlkc8
+    code: https://github.com/X-PLUG/MobileAgent
   bibtex: |-
     @inproceedings{wang2024mobileagentv2,
       title = {Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration},
@@ -20721,6 +20757,7 @@
   arxiv_id: '2406.01623'
   sources:
     arxiv: https://arxiv.org/abs/2406.01623
+    code: https://github.com/erichli1/websuite
   bibtex: |-
     @misc{li2024websuite,
       title = {WebSuite: Systematically Evaluating Why Web Agents Fail},
@@ -20953,6 +20990,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2404.16660
     homepage: https://b-moca.github.io
+    code: https://github.com/jimmy-yilong-li/PalmBench.github.io
   bibtex: |-
     @misc{lee2024benchmarking,
       title = {Benchmarking Mobile Device Control Agents across Diverse Configurations},
@@ -21021,6 +21059,7 @@
     MMInA is a benchmark of 1,050 multihop multimodal Internet tasks that operate on evolving real-world websites rather than static environments. It emphasizes compositional browsing across multiple sites, introduces a holistic protocol for tracking progress over multihop tasks, and shows that replaying past action trajectories helps current agents reflect and recover.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.703/
+    code: https://github.com/shulin16/MMInA
   bibtex: |-
     @inproceedings{tian2024mmina,
       title = {MMInA: Benchmarking Multihop Multimodal Internet Agents},
@@ -21356,7 +21395,7 @@
     openreview: https://openreview.net/forum?id=BRfqYrikdo
     publisher_page: https://proceedings.mlr.press/v235/drouin24a.html
     homepage: https://proceedings.mlr.press/v235/drouin24a.html
-    code: https://github.com/mlresearch/v235
+    code: https://github.com/ServiceNow/AgentLab
   bibtex: |-
     @inproceedings{drouin2024workarena,
       title = {WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?},
@@ -21659,7 +21698,7 @@
   sources:
     openreview: https://openreview.net/forum?id=mUSPhG4uDW
     publisher_page: https://proceedings.mlr.press/v235/lu24e.html
-    code: https://github.com/mlresearch/v235
+    code: https://github.com/McGill-NLP/weblinx
   bibtex: |-
     @inproceedings{l2024weblinx,
       title = {WebLINX: Real-World Website Navigation with Multi-Turn Dialogue},
@@ -21811,6 +21850,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.371/
     arxiv: https://arxiv.org/abs/2401.13919
+    code: https://github.com/MinorJerry/WebVoyager
   bibtex: |-
     @inproceedings{he2024webvoyager,
       title = {WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models},
@@ -21893,6 +21933,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.505/
     arxiv: https://arxiv.org/abs/2401.10935
+    code: https://github.com/njucckevin/SeeClick
   bibtex: |-
     @inproceedings{cheng2024seeclick,
       title = {SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents},
@@ -21929,8 +21970,9 @@
     openreview: https://openreview.net/forum?id=piecKJ2DlB
     publisher_page: https://proceedings.mlr.press/v235/zheng24e.html
     homepage: https://proceedings.mlr.press/v235/zheng24e.html
-    code: https://github.com/mlresearch/v235
     arxiv: https://arxiv.org/abs/2401.01614
+    dataset: https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web
+    code: https://github.com/OSU-NLP-Group/SeeAct
   bibtex: |-
     @inproceedings{zheng2024gpt4vision,
       title = {GPT-4V(ision) is a Generalist Web Agent, if Grounded},
@@ -22674,6 +22716,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2023/hash/7cc1005ec73cfbaac9fa21192b622507-Abstract-Conference.html
+    code: https://github.com/posgnu/rci-agent
   bibtex: |-
     @inproceedings{kim2023language,
       title = {Language Models can Solve Computer Tasks},
@@ -22848,7 +22891,6 @@
   sources:
     publisher_page: https://proceedings.mlr.press/v162/humphreys22a.html
     homepage: https://proceedings.mlr.press/v162/humphreys22a.html
-    code: https://github.com/mlresearch/v162
   bibtex: |-
     @inproceedings{humphreys2022datadriven,
       title = {A Data-Driven Approach for Learning to Control Computers},
@@ -23316,7 +23358,6 @@
   sources:
     publisher_page: https://proceedings.mlr.press/v70/shi17a.html
     homepage: https://proceedings.mlr.press/v70/shi17a.html
-    code: https://github.com/mlresearch/v70
   bibtex: |-
     @inproceedings{shi2017world,
       title = {World of Bits: An Open-Domain Platform for Web-Based Agents},

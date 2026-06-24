@@ -167,6 +167,7 @@
   arxiv_id: '2512.09706'
   sources:
     arxiv: https://arxiv.org/abs/2512.09706
+    code: https://github.com/CraftJarvis/OpenHA
 - title: 'Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence'
   link: https://arxiv.org/abs/2512.08743
   authors:
@@ -541,6 +542,7 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     publisher_page: https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html
+    homepage: https://microsoft.github.io/Magma
 - title: 'Language Agents: Foundations, Prospects, and Risks'
   link: https://aclanthology.org/2024.emnlp-tutorials.3/
   authors:
@@ -569,7 +571,6 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-tutorials.3/
-    code: https://github.com/acl-org/acl-anthology/
 - title: 'MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning'
   link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html
   authors:
@@ -645,7 +646,7 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-demo.9/
-    code: https://github.com/acl-org/acl-anthology/
+    code: https://github.com/SqueezeAILab/TinyAgent
 - title: 'VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents'
   link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html
   authors:
@@ -700,6 +701,7 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html
+    code: https://github.com/THUDM/VisualAgentBench
 - title: 'Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions'
   link: https://aclanthology.org/2025.acl-long.1087/
   authors:
@@ -726,7 +728,6 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.1087/
-    code: https://github.com/acl-org/acl-anthology/
 - title: 'MindSearch: Mimicking Human Minds Elicits Deep AI Searcher'
   link: https://openreview.net/forum?id=xgtXkyqw1f
   authors:
@@ -931,6 +932,8 @@
   arxiv_id: '2403.03186'
   sources:
     arxiv: https://arxiv.org/abs/2403.03186
+    homepage: https://baai-agents.github.io/Cradle
+    code: https://github.com/BAAI-Agents/Cradle
 - title: Improving Language Understanding from Screenshots
   link: https://arxiv.org/abs/2402.14073
   authors:
@@ -1231,7 +1234,7 @@
     openreview: https://openreview.net/forum?id=bF1LVbP493
     publisher_page: https://proceedings.mlr.press/v202/lee23g.html
     homepage: https://proceedings.mlr.press/v202/lee23g.html
-    code: https://github.com/mlresearch/v202
+    code: https://github.com/google-research/pix2struct
 - title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
   link: https://openreview.net/forum?id=WE_vluYUL-X
   authors:
