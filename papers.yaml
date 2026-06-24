@@ -2804,6 +2804,7 @@
   arxiv_id: '2603.24160'
   sources:
     arxiv: https://arxiv.org/abs/2603.24160
+    homepage: https://sites.google.com/view/personatester
   bibtex: |-
     @inproceedings{yu2026towards,
       title = {Towards Automated Crowdsourced Testing via Personified-LLM},
@@ -3220,6 +3221,7 @@
   arxiv_id: '2603.17826'
   sources:
     arxiv: https://arxiv.org/abs/2603.17826
+    code: https://github.com/Ruize-Ma/FailureMem
   bibtex: |-
     @misc{ma2026failuremem,
       title = {FailureMem: A Failure-Aware Multimodal Framework for Autonomous Software Repair},
@@ -4372,6 +4374,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2602.22190
     code: https://github.com/GUI-Libra/GUI-Libra
+    homepage: https://gui-libra.github.io
   bibtex: |-
     @misc{yang2026guilibra,
       title = {GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL},
@@ -4643,6 +4646,7 @@
   arxiv_id: '2602.17245'
   sources:
     arxiv: https://arxiv.org/abs/2602.17245
+    code: https://github.com/nlweb-ai/MSR-Web-Verbs
   bibtex: |-
     @misc{jiang2026verbs,
       title = {Web Verbs: Typed Abstractions for Reliable Task Composition on the Agentic Web},
@@ -5328,6 +5332,7 @@
   arxiv_id: '2602.11724'
   sources:
     arxiv: https://arxiv.org/abs/2602.11724
+    homepage: https://sites.google.com/view/webtestpilot
   bibtex: |-
     @misc{teoh2026webtestpilot,
       title = {WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements},
@@ -7791,6 +7796,7 @@
   arxiv_id: '2601.07262'
   sources:
     arxiv: https://arxiv.org/abs/2601.07262
+    code: https://github.com/MadeAgents/browser-agent
   bibtex: |-
     @misc{wang2026colorbrowseragent,
       title = {ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution},
@@ -7830,6 +7836,7 @@
   arxiv_id: '2601.07181'
   sources:
     arxiv: https://arxiv.org/abs/2601.07181
+    homepage: https://showlab.github.io/Aloha_Page/
   bibtex: |-
     @misc{zhang2026showuialoha,
       title = {ShowUI-Aloha: Human-Taught GUI Agent},
@@ -8313,6 +8320,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2512.22322
     code: https://github.com/TencentYoutuResearch/SmartSnap
+    dataset: https://huggingface.co/collections/yolay/smartsnap
   bibtex: |-
     @misc{cai2025smartsnap,
       title = {SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents},
@@ -9126,6 +9134,7 @@
   arxiv_id: '2601.02371'
   sources:
     arxiv: https://arxiv.org/abs/2601.02371
+    code: https://github.com/las-wg/agent-permissions.json
   bibtex: |-
     @misc{marro2025permission,
       title = {Permission Manifests for Web Agents},
@@ -12929,7 +12938,6 @@
     This paper targets the shortage of large, diverse web-agent trajectories by synthesizing a 94K-trajectory multimodal dataset through scalable exploration and refinement over 49K URLs. Training on this dataset yields a strong web agent, Explorer, and shows that data scaling is a major driver of web-agent performance.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.326/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{pahuja2025explorer,
       title = {Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents},
@@ -14118,7 +14126,6 @@
     GUI-explorer is a training-free mobile GUI agent that automatically explores app functionality and mines transition-aware knowledge from observed state changes. It also introduces the GUI-KRB benchmark for mobile GUI reasoning, and shows strong gains on SPA-Bench and AndroidWorld without parameter updates for new apps.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.282/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{xie2025guiexplorer,
       title = {GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent},
@@ -14156,7 +14163,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.16422
     publisher_page: https://aclanthology.org/2025.findings-emnlp.213/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{yin2025unlocking,
       title = {Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach},
@@ -14203,7 +14209,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.16421
     publisher_page: https://aclanthology.org/2025.emnlp-main.401/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{wei2025webagentr1,
       title = {WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning},
@@ -14756,7 +14761,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2505.11717
     publisher_page: https://aclanthology.org/2025.emnlp-main.104/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{wang2025webinject,
       title = {WebInject: Prompt Injection Attack to Web Agents},
@@ -14874,7 +14878,6 @@
     CowPilot is a mixed-initiative web-navigation framework where an agent proposes next steps while the user can pause, reject, override, or hand control back at any time. Across five websites, the collaborative mode reaches the highest success rate while requiring humans to perform only a small fraction of the total steps, and the system is also positioned as a data-collection and evaluation tool.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-demo.17/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{huq2025cowpilot,
       title = {CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation},
@@ -14921,7 +14924,6 @@
     MobA is a mobile assistant system for complex GUI tasks in dynamic app contexts where execution capabilities vary across pages. It combines reflection-based adaptive planning with a multifaceted memory module, and introduces the MobBench dataset for complex mobile interactions alongside results on MobBench and AndroidArena.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-demo.43/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zhu2025moba,
       title = {MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation},
@@ -14955,7 +14957,6 @@
     ReachAgent addresses the tendency of mobile agents to optimize for the next local action while ignoring the larger GUI flow. It introduces the MobileReach training dataset, which decomposes tasks into page-reaching and page-operation subtasks, and uses those subtasks together with reward-based preference GUI flows to train a two-stage mobile agent.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-long.244/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{wu2025reachagent,
       title = {ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation},
@@ -15023,7 +15024,6 @@
     Infogent studies web information aggregation rather than single-site completion, asking agents to visit multiple websites and decide when enough evidence has been collected for a complex query. Its Navigator-Extractor-Aggregator design is evaluated in both direct API-driven and browser-based visual settings, including gains on AssistantBench under interactive visual access.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-naacl.318/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{reddy2025infogent,
       title = {Infogent: An Agent-Based Framework for Web Information Aggregation},
@@ -15347,7 +15347,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2504.11788
     publisher_page: https://aclanthology.org/2026.eacl-short.12/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zhang2025webrollback,
       title = {WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms},
@@ -15440,7 +15439,6 @@
     UI-E2I-Synth addresses the annotation bottleneck in vision-based GUI grounding by using GPT-4o to synthesize large-scale grounding instructions with varied difficulty and annotation properties. The paper also introduces the UI-I2E-Bench benchmark for evaluating GUI instruction grounding under challenges such as implicit instructions, small elements, and underrepresented element types.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.809/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{liu2025uie2isynth,
       title = {UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis},
@@ -16058,7 +16056,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2503.20279
     publisher_page: https://aclanthology.org/2025.acl-industry.75/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{lee2025sudo,
       title = {sudo rm -rf agentic\_security},
@@ -16561,7 +16558,6 @@
     LiteWebAgent is an open-source suite for web-agent applications built around a modular framework that decouples action generation from action grounding. It integrates planning, workflow memory, and tree search, and ships both as a remote-browser web app and as a Chrome extension controlled through CDP.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-demo.36/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zhang2025litewebagent,
       title = {LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications},
@@ -17036,7 +17032,6 @@
     OS-Genesis tackles the lack of high-quality GUI trajectories by synthesizing them without preset tasks or human demonstrations. It first explores with step-level interactions, then retrospectively derives tasks and filters the resulting trajectories with a reward model, producing more diverse training data for GUI agents.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.277/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{sun2024osgenesis,
       title = {OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis},
@@ -17117,7 +17112,6 @@
     Aria-UI is a GUI-grounding model that deliberately avoids HTML or AXTree inputs and instead works from pure visual observations. It pairs a scalable instruction-synthesis pipeline with interleaved textual and text-image action histories for context-aware grounding, and reports state-of-the-art results across offline and online grounding benchmarks.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.1152/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{yang2024ariaui,
       title = {Aria-UI: Visual Grounding for GUI Instructions},
@@ -17526,7 +17520,6 @@
     Ponder & Press is a pure-vision divide-and-conquer GUI-control framework that separates high-level instruction interpretation from element localization. It pairs a general-purpose MLLM interpreter with a GUI-specific locator, improves ScreenSpot grounding by 22.5%, and reports strong performance across web, desktop, and mobile GUI benchmarks.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.76/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{wang2024ponder,
       title = {Ponder \& Press: Advancing Visual GUI Agent towards General Computer Control},
@@ -17606,7 +17599,6 @@
     AdaptAgent studies how multimodal web agents can adapt to unseen websites with only a few human demonstrations instead of relying solely on broad pretraining or large-scale fine-tuning. It shows that both proprietary and open-weight agents benefit from few-shot demonstrations, with clear gains on Mind2Web and VisualWebArena.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.1008/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{verma2024adaptagent,
       title = {AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations},
@@ -17754,7 +17746,6 @@
     Presents WebOlympus, an open platform for running web agents directly on live websites through a Chrome extension interface. The system is designed to support research and deployment workflows while adding a safety monitor for human- or model-mediated intervention and supporting applications like trajectory annotation and data collection.
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-demo.20/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zheng2024webolympus,
       title = {WebOlympus: An Open Platform for Web Agents on Live Websites},
@@ -17874,7 +17865,6 @@
     Shows that vision-language computer agents can be reliably distracted by adversarial pop-ups that human users would typically ignore. On OSWorld and VisualWebArena, these pop-ups achieve high attack success rates and sharply reduce task completion, while simple defenses like warning prompts remain ineffective.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.411/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zhang2024attacking,
       title = {Attacking Vision-Language Computer Agents via Pop-ups},
@@ -17957,7 +17947,6 @@
     AndroidLab provides a reproducible Android agent environment plus a benchmark with predefined virtual devices, shared action spaces, and 138 tasks across nine apps. It also builds an Android Instruction dataset from that environment and shows that the resulting data materially improves both open LLM and VLM mobile agents.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.107/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{xu2024androidlab,
       title = {AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents},
@@ -18028,7 +18017,6 @@
     Introduces CASA, a benchmark for testing whether web agents can recognize and respond appropriately to culture- and norm-sensitive situations in shopping and forum tasks. The paper finds that current agents have very limited awareness coverage and high violation rates, and shows that prompting and fine-tuning help in complementary ways.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-naacl.222/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{qiu2024evaluating,
       title = {Evaluating Cultural and Social Awareness of LLM Web Agents},
@@ -18112,7 +18100,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2410.22552
     publisher_page: https://aclanthology.org/2024.findings-emnlp.964/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{kim2024autointent,
       title = {Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents},
@@ -18252,7 +18239,6 @@
     OpenWebVoyager is a multimodal web agent that improves itself through repeated cycles of real-world exploration, feedback collection, and policy optimization. It starts from imitation learning, mines open-web trajectories, and shows stronger performance after each optimization round.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.1336/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{he2024openwebvoyager,
       title = {OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization},
@@ -18293,7 +18279,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2410.18603
     publisher_page: https://aclanthology.org/2025.findings-acl.466/
-    code: https://github.com/acl-org/acl-anthology/
     homepage: https://chengyou-jia.github.io/AgentStore-Home
   bibtex: |-
     @inproceedings{jia2024agentstore,
@@ -18328,7 +18313,6 @@
     Studies what happens when web-agent tasks are solved through APIs instead of only through browsers. The paper proposes both API-only and hybrid agents, and shows that hybrid access to APIs plus browsing substantially outperforms browsing alone on WebArena.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.577/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{song2024beyond,
       title = {Beyond Browsing: API-Based Web Agents},
@@ -18553,7 +18537,6 @@
     Introduces AssistantBench, a benchmark of 214 realistic and time-consuming web tasks that require sustained planning, retrieval, and synthesis rather than short web interactions. The paper also proposes the SPA agent and shows that even strong models still struggle on these open-web tasks.
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-main.505/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{yoran2024assistantbench,
       title = {AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?},
@@ -18795,7 +18778,6 @@
     Proposes ClickAgent, a mobile agent framework that separates high-level reasoning from precise UI element localization. By pairing an MLLM planner with a dedicated grounding component, it improves task success on AITW and on real-device Android evaluations.
   sources:
     publisher_page: https://aclanthology.org/2025.sigdial-1.38/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{hoscilowicz2024clickagent,
       title = {ClickAgent: Enhancing UI Location Capabilities of Autonomous Agents},
@@ -18987,7 +18969,6 @@
     This paper proposes Dynamic Planning of Thoughts (D-PoT), which updates a mobile GUI agent's plan using execution history and environmental feedback instead of relying on a long static reasoning trace. The paper reports a 12.7-point accuracy gain over a strong GPT-4V baseline and attributes the improvement to better adaptation to unseen tasks and fewer hallucinations.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.70/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zhang2024dynamic,
       title = {Dynamic Planning for LLM-based Graphical User Interface Automation},
@@ -19028,7 +19009,6 @@
     AXIS is an API-first agent framework that prioritizes application APIs over direct UI actions and also expands API coverage through automated exploration. On Microsoft Word tasks, it reduces completion time by 65-70% and cognitive workload by 38-53% while maintaining 97-98% accuracy relative to human performance, and it motivates a Human-Agent-Computer Interaction design framework for agent-centric software.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.381/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{lu2024axis,
       title = {AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents},
@@ -19110,7 +19090,6 @@
     MobileVLM is a mobile-focused vision-language model trained with two extra UI-specific pretraining stages designed to improve both intra-UI element understanding and inter-UI transition understanding. The paper also introduces the 3M-page Chinese mobile corpus Mobile3M with real transition-action graphs, and reports stronger performance than prior VLMs on in-house and public mobile benchmarks.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.599/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{wu2024mobilevlm,
       title = {MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding},
@@ -19858,7 +19837,6 @@
     AMEX is a mobile GUI-control dataset with over 104K high-resolution screenshots annotated at three levels: interactive element grounding, screen and element functionality descriptions, and instruction-action chains. The paper positions it as a supplementary training resource for generalist mobile agents and shows gains after fine-tuning SPHINX Agent on the collected annotations.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.110/
-    code: https://github.com/acl-org/acl-anthology/
     arxiv: https://arxiv.org/abs/2407.17490
   bibtex: |-
     @inproceedings{chai2024amex,
@@ -19959,7 +19937,6 @@
     CRAB is a benchmark framework for multimodal agents that supports cross-environment tasks and graph-based fine-grained evaluation instead of single-platform end-state scoring. Its CRAB Benchmark-v0 release contains 120 desktop and mobile tasks, and the paper reports a best completion ratio of 38.01% from a single GPT-4o agent.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.1113/
-    code: https://github.com/acl-org/acl-anthology/
     arxiv: https://arxiv.org/abs/2407.01511
   bibtex: |-
     @inproceedings{xu2024crab,
@@ -20037,7 +20014,6 @@
     This paper introduces the Screen Point-and-Read task, where a model must explain the region indicated by a user point on a GUI screenshot, and proposes the Tree-of-Lens agent to solve it. It also releases the ScreenPR benchmark across mobile, web, and operating-system GUIs plus the ASHL dataset for hierarchical screen-region detection.
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-main.533/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{fan2024read,
       title = {Read Anywhere Pointed: Layout-aware GUI Screen Reading with Tree-of-Lens Grounding},
@@ -20148,7 +20124,6 @@
     VGA is a GUI-understanding model fine-tuned to reduce hallucinations caused by relying on textual priors instead of screen evidence. The paper builds a 63.8k GUI VQA dataset with the Referent Method and uses a two-stage Foundation-and-Advanced-Comprehension training scheme to improve visually grounded answers.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.68/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{meng2024vga,
       title = {VGA: Vision GUI Assistant - Minimizing Hallucinations through Image-Centric Fine-Tuning},
@@ -20318,7 +20293,6 @@
     GUICourse introduces a staged dataset suite for turning general vision-language models into GUI agents, with GUIEnv for OCR and grounding, GUIAct for GUI navigation, and GUIChat for GUI-related dialogue. The paper shows that these datasets let even a 3.1B model perform effectively on single-step and multi-step GUI tasks and transfer better to AITW and Mind2Web than the original VLM baselines.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.1065/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{chen2024guicourse,
       title = {GUICourse: From General Vision Language Model to Versatile GUI Agent},
@@ -20414,7 +20388,6 @@
     This paper defines visual UI grounding, where a model must localize the UI element referenced by a natural-language command directly from a screenshot without relying on UI metadata. It proposes LVG, which combines layout-guided contrastive learning with synthetic-to-real multi-context learning and improves top-1 accuracy by more than 4.9 points over strong baselines.
   sources:
     publisher_page: https://aclanthology.org/2024.naacl-industry.9/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{qian2024visual,
       title = {Visual Grounding for User Interfaces},
@@ -21023,7 +20996,6 @@
     MMInA is a benchmark of 1,050 multihop multimodal Internet tasks that operate on evolving real-world websites rather than static environments. It emphasizes compositional browsing across multiple sites, introduces a holistic protocol for tracking progress over multihop tasks, and shows that replaying past action trajectories helps current agents reflect and recover.
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.703/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{tian2024mmina,
       title = {MMInA: Benchmarking Multihop Multimodal Internet Agents},
@@ -21317,7 +21289,7 @@
     TurkingBench is a web-agent benchmark built from real crowdsourcing task pages instead of synthetic websites, with 158 tasks and 32.2K instantiated examples. It evaluates both language-only and multimodal models through an action-execution layer that maps model outputs to webpage actions, and shows large remaining performance gaps on these realistic web tasks.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-long.188/
-    code: https://github.com/acl-org/acl-anthology/
+    homepage: https://turkingbench.github.io/
   bibtex: |-
     @inproceedings{xu2024turkingbench,
       title = {TurkingBench: A Challenge Benchmark for Web Agents},
@@ -21396,7 +21368,7 @@
     This paper introduces Chain-of-Action-Thought (CoAT), which conditions mobile GUI action prediction on prior actions, the current screen, and explicit reasoning about the next action and its outcome. It also releases the Android-In-The-Zoo (AitZ) dataset with 18,643 screen-action pairs and chain-of-action-thought annotations, and reports both zero-shot gains for off-the-shelf LMMs and strong fine-tuning gains for smaller GUI agents.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-emnlp.702/
-    code: https://github.com/acl-org/acl-anthology/
+    code: https://github.com/IMNearth/CoAT
   bibtex: |-
     @inproceedings{zhang2024android,
       title = {Android in the Zoo: Chain-of-Action-Thought for GUI Agents},
@@ -21433,6 +21405,7 @@
     OmniACT introduces a dataset and benchmark for agents that must generate executable programs from a screenshot and a visually grounded natural-language task. It covers both desktop and web applications, and the paper reports that GPT-4 reaches only about 15% of human proficiency on the benchmark.
   sources:
     homepage: https://eccv.ecva.net/virtual/2024/poster/1107
+    dataset: https://huggingface.co/datasets/Writer/omniact
   bibtex: |-
     @inproceedings{kapoor2024omniact,
       title = {OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web},
@@ -21469,7 +21442,6 @@
     This paper introduces conversational web navigation as a multi-turn instruction-following setting and releases the MT-Mind2Web dataset for it. It also proposes Self-MAP, a self-reflective memory-augmented planning method, and uses the new dataset to benchmark models under this conversational setting.
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.477/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{deng2024multiturn,
       title = {On the Multi-turn Instruction Following for Conversational Web Agents},
@@ -21502,7 +21474,6 @@
     CoCo-Agent is a smartphone GUI agent built around comprehensive environment perception (CEP) and conditional action prediction (CAP). The paper reports state-of-the-art performance on AITW and META-GUI, arguing that richer multimodal environment modeling improves mobile action selection.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-acl.539/
-    code: https://github.com/acl-org/acl-anthology/
     arxiv: https://arxiv.org/abs/2402.11941
   bibtex: |-
     @inproceedings{ma2024cocoagent,
@@ -21545,7 +21516,6 @@
     UFO is a Windows-focused agent that decomposes user requests through a hierarchical dual-agent design and uses a control interaction module tailored to Windows applications. The paper evaluates it on nine popular Windows applications and positions it as an early UI agent for cross-application Windows task completion.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-long.26/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{zhang2024ufo,
       title = {UFO: A UI-Focused Agent for Windows OS Interaction},
@@ -21583,6 +21553,7 @@
     ScreenAgent builds a real computer-control environment where a vision-language agent interacts with screenshots through mouse and keyboard actions, and pairs it with a planning-acting-reflecting control pipeline. The paper also releases the ScreenAgent Dataset and reports computer-control performance comparable to GPT-4V with more precise UI positioning.
   sources:
     homepage: https://www.ijcai.org/proceedings/2024/711
+    code: https://github.com/niuzaisheng/ScreenAgent
   bibtex: |-
     @inproceedings{niu2024screenagent,
       title = {ScreenAgent: A Vision Language Model-driven Computer Control Agent},
@@ -21810,7 +21781,6 @@
     WebVoyager is an end-to-end multimodal web agent evaluated on a benchmark built from tasks over 15 live websites. The paper also introduces a GPT-4V-based automatic evaluation protocol and reports 85.3% agreement with human judgment.
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.371/
-    code: https://github.com/acl-org/acl-anthology/
     arxiv: https://arxiv.org/abs/2401.13919
   bibtex: |-
     @inproceedings{he2024webvoyager,
@@ -21851,7 +21821,6 @@
     VisualWebArena is a benchmark of 910 visually grounded web tasks across Classifieds, Shopping, and Reddit environments. Built on WebArena's self-hosted setup, it targets multimodal web agents that must use image-text inputs rather than text alone.
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.50/
-    code: https://github.com/acl-org/acl-anthology/
     arxiv: https://arxiv.org/abs/2401.13649
   bibtex: |-
     @inproceedings{koh2024visualwebarena,
@@ -21894,7 +21863,6 @@
     SeeClick is a screenshot-only GUI agent built around the GUI grounding problem rather than structured trees such as HTML. The paper adds automated GUI-grounding data curation and introduces ScreenSpot, a grounding benchmark spanning mobile, desktop, and web environments.
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.505/
-    code: https://github.com/acl-org/acl-anthology/
     arxiv: https://arxiv.org/abs/2401.10935
   bibtex: |-
     @inproceedings{cheng2024seeclick,
@@ -21971,6 +21939,7 @@
     WebVLN extends vision-and-language navigation to websites by framing browsing as question-driven navigation over rendered pages plus underlying HTML. The paper introduces the WebVLN-v1 dataset and a Website-aware VLN Network that outperforms prior VLN and web-navigation baselines.
   sources:
     publisher_page: https://ojs.aaai.org/index.php/AAAI/article/view/27878
+    code: https://github.com/WebVLN/WebVLN
   bibtex: |-
     @inproceedings{chen2023webvln,
       title = {WebVLN: Vision-and-Language Navigation on Websites},
@@ -22052,7 +22021,7 @@
   arxiv_id: '2312.13108'
   sources:
     arxiv: https://arxiv.org/abs/2312.13108
-    homepage: https://www.microsoft.com/en-us/research/publication/assistgui-task-oriented-desktop-graphical-user-interface-automation/
+    homepage: https://showlab.github.io/assistgui/
   bibtex: |-
     @inproceedings{gao2023assistgui,
       title = {ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation},
@@ -22250,7 +22219,7 @@
     Auto-GUI is a screenshot-only mobile GUI agent that avoids environment parsing and application-specific APIs. The paper introduces a chain-of-action prompting technique and evaluates the method on AITW, a device-control benchmark with 30K unique instructions.
   sources:
     publisher_page: https://aclanthology.org/2024.findings-acl.186/
-    code: https://github.com/acl-org/acl-anthology/
+    code: https://github.com/cooelf/Auto-GUI
   bibtex: |-
     @inproceedings{zhang2023only,
       title = {You Only Look at Screens: Multimodal Chain-of-Action Agents},
@@ -22518,6 +22487,8 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2023/hash/5950bf290a1570ea401bf98882128160-Abstract-Datasets_and_Benchmarks.html
+    code: https://github.com/OSU-NLP-Group/Mind2Web
+    dataset: https://huggingface.co/datasets/osunlp/Mind2Web
   bibtex: |-
     @inproceedings{deng2023mind2web,
       title = {Mind2Web: Towards a Generalist Agent for the Web},
@@ -22556,7 +22527,7 @@
     SheetCopilot studies spreadsheet control with an LLM agent that plans over a state-machine abstraction of spreadsheet operations. The paper also releases a 221-task spreadsheet-control dataset and an automated evaluation pipeline for benchmarking software-control performance.
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
-    homepage: https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract-Conference.html
+    homepage: https://sheetcopilot.github.io/
   bibtex: |-
     @inproceedings{li2023sheetcopilot,
       title = {SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models},
@@ -22638,6 +22609,7 @@
   arxiv_id: '2305.08144'
   sources:
     arxiv: https://arxiv.org/abs/2305.08144
+    code: https://github.com/X-LANCE/Mobile-Env
   bibtex: |-
     @misc{zhang2023mobileenv,
       title = {Mobile-Env: A Universal Platform for Training and Evaluation of Mobile Interaction},
@@ -22771,7 +22743,7 @@
     Introduces WebShop, an e-commerce web environment with over one million products and 12,087 shopping instructions for grounded language agents. It became an early standard benchmark for web agents by combining realistic web interaction, compositional search, and sim-to-real evaluation.
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
-    homepage: https://proceedings.neurips.cc/paper_files/paper/2022/hash/82ad13ec01f9fe44c01cb91814fd7b8c-Abstract-Conference.html
+    homepage: https://webshop-pnlp.github.io
   bibtex: |-
     @inproceedings{yao2022webshop,
       title = {WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents},
@@ -22806,7 +22778,6 @@
     META-GUI introduces a GUI-based task-oriented dialogue architecture in which the assistant acts on real mobile apps instead of calling task-specific backend APIs. The paper also releases a dataset for training multimodal conversational agents under that GUI-TOD setup.
   sources:
     publisher_page: https://aclanthology.org/2022.emnlp-main.449/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{sun2022metagui,
       title = {META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI},
@@ -22954,6 +22925,7 @@
     UIBert is a transformer model for UI understanding trained with five UI-specific pretraining tasks over screenshots, text, and structural metadata. Its core idea is that the heterogeneous modalities inside a UI are self-aligned and can supervise one another to learn generic UI representations.
   sources:
     homepage: https://www.ijcai.org/proceedings/2021/235
+    dataset: https://github.com/google-research-datasets/uibert
   bibtex: |-
     @inproceedings{bai2021uibert,
       title = {UIBert: Learning Generic Multimodal Representations for UI Understanding},
@@ -22992,6 +22964,7 @@
   arxiv_id: '2105.13231'
   sources:
     arxiv: https://arxiv.org/abs/2105.13231
+    code: https://github.com/deepmind/android_env
   bibtex: |-
     @misc{toyama2021androidenv,
       title = {AndroidEnv: A Reinforcement Learning Platform for Android},
@@ -23031,7 +23004,7 @@
     This paper introduces RUSS, a system for executing open-domain customer-support instructions on websites by parsing them into a ThingTalk representation and grounding webpage elements. It also contributes a dataset of 80 support problems with 741 step-by-step instructions and their corresponding actions.
   sources:
     publisher_page: https://aclanthology.org/2021.naacl-main.80/
-    code: https://github.com/acl-org/acl-anthology/
+    code: https://github.com/xnancy/russ
   bibtex: |-
     @inproceedings{xu2021grounding,
       title = {Grounding Open-Domain Instructions to Automate Web Support Tasks},
@@ -23068,7 +23041,7 @@
     WebSRC introduces structural reading comprehension over real webpages, with 400K question-answer pairs drawn from 6.4K pages and accompanied by HTML, screenshots, and metadata. It is a benchmark for answering questions that require reasoning over page structure rather than plain text alone.
   sources:
     publisher_page: https://aclanthology.org/2021.emnlp-main.343/
-    code: https://github.com/acl-org/acl-anthology/
+    homepage: https://x-lance.github.io/WebSRC/
   bibtex: |-
     @inproceedings{chen2021websrc,
       title = {WebSRC: A Dataset for Web-Based Structural Reading Comprehension},
@@ -23105,7 +23078,6 @@
     This paper formulates widget captioning as generating natural-language descriptions for mobile UI elements from screenshot and structural input. It contributes a large dataset with 162,859 phrases for 61,285 UI elements and positions caption generation as a foundation for accessibility and language-based UI interaction.
   sources:
     publisher_page: https://aclanthology.org/2020.emnlp-main.443/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{li2020widget,
       title = {Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements},
@@ -23137,7 +23109,7 @@
     This demo paper presents an interactive version of Sugilite in which users teach Android automation tasks through natural-language instructions plus GUI demonstrations. Its focus is learning reusable task procedures and concepts through conversational clarification grounded in app interfaces.
   sources:
     publisher_page: https://aclanthology.org/2020.acl-demos.25/
-    code: https://github.com/acl-org/acl-anthology/
+    code: https://github.com/tobyli/Sugilite
   bibtex: |-
     @inproceedings{li2020interactive,
       title = {Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations},
@@ -23172,7 +23144,6 @@
     This paper formulates mobile instruction grounding as mapping natural-language how-to instructions into executable UI action sequences. It introduces the PixelHelp, AndroidHowTo, and RicoSCA datasets, and factors the problem into action-phrase extraction plus UI grounding.
   sources:
     publisher_page: https://aclanthology.org/2020.acl-main.729/
-    code: https://github.com/acl-org/acl-anthology/
   bibtex: |-
     @inproceedings{li2020mapping,
       title = {Mapping Natural Language Instructions to Mobile UI Action Sequences},
