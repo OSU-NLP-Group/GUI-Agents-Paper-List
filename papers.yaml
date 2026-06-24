@@ -6713,6 +6713,7 @@
   arxiv_id: '2601.21961'
   sources:
     arxiv: https://arxiv.org/abs/2601.21961
+    code: https://github.com/ASTRAL-Group/WebAgent_Visual_Attribution
   bibtex: |-
     @misc{yu2026visual,
       title = {How do Visual Attributes Influence Web Agents? A Comprehensive Evaluation of User Interface Design Factors},
@@ -10311,6 +10312,7 @@
   arxiv_id: '2510.11035'
   sources:
     arxiv: https://arxiv.org/abs/2510.11035
+    code: https://github.com/SusBench-creator/SusBench
   bibtex: |-
     @inproceedings{guo2025susbench,
       title = {SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents},
@@ -12000,6 +12002,7 @@
   arxiv_id: '2509.01619'
   sources:
     arxiv: https://arxiv.org/abs/2509.01619
+    code: https://github.com/umass-aisec/throttling-web-agent
   bibtex: |-
     @misc{kumar2025throttling,
       title = {Throttling Web Agents Using Reasoning Gates},
@@ -12756,6 +12759,7 @@
   arxiv_id: '2508.03923'
   sources:
     arxiv: https://arxiv.org/abs/2508.03923
+    code: https://github.com/SalesforceAIResearch/CoAct-1
   bibtex: |-
     @inproceedings{song2025coact1,
       title = {CoAct-1: Computer-using Multi-Agent System with Coding Actions},
@@ -13156,6 +13160,8 @@
   arxiv_id: '2506.07976'
   sources:
     arxiv: https://arxiv.org/abs/2506.07976
+    homepage: https://test-time-interaction.github.io
+    code: https://github.com/test-time-interaction/TTI
   bibtex: |-
     @inproceedings{shen2025thinking,
       title = {Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction},
@@ -13428,6 +13434,7 @@
     arxiv: https://arxiv.org/abs/2506.02456
     openreview: https://openreview.net/forum?id=UMauKu2azg
     code: https://github.com/cua-framework/agents
+    dataset: https://huggingface.co/datasets/VPI-Bench/vpi-bench
   bibtex: |-
     @inproceedings{cao2025vpibench,
       title = {VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents},
@@ -14590,6 +14597,7 @@
   arxiv_id: '2505.12493'
   sources:
     arxiv: https://arxiv.org/abs/2505.12493
+    code: https://github.com/UbiquitousLearning/GUI-Shift
   bibtex: |-
     @inproceedings{gao2025guishift,
       title = {GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning},
@@ -14632,6 +14640,7 @@
   arxiv_id: '2505.12299'
   sources:
     arxiv: https://arxiv.org/abs/2505.12299
+    dataset: https://huggingface.co/datasets/xwk123/MobileIPL-dataset
   bibtex: |-
     @inproceedings{huang2025mobileipl,
       title = {MobileIPL: Enhancing Mobile Agents Thinking Process via Iterative Preference Learning},
@@ -14878,6 +14887,7 @@
     CowPilot is a mixed-initiative web-navigation framework where an agent proposes next steps while the user can pause, reject, override, or hand control back at any time. Across five websites, the collaborative mode reaches the highest success rate while requiring humans to perform only a small fraction of the total steps, and the system is also positioned as a data-collection and evaluation tool.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-demo.17/
+    homepage: https://oaishi.github.io/cowpilot.html
   bibtex: |-
     @inproceedings{huq2025cowpilot,
       title = {CowPilot: A Framework for Autonomous and Human-Agent Collaborative Web Navigation},
@@ -15306,6 +15316,9 @@
   sources:
     arxiv: https://arxiv.org/abs/2504.12679
     publisher_page: https://ojs.aaai.org/index.php/AAAI/article/view/38229
+    homepage: https://computer-use-agents.github.io/tongui/
+    code: https://github.com/TongUI-agent/TongUI-agent
+    dataset: https://huggingface.co/datasets/Bofeee5675/GUI-Net-1M
   bibtex: |-
     @inproceedings{zhang2025tongui,
       title = {TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents},
@@ -16318,6 +16331,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2503.10809
     openreview: https://openreview.net/forum?id=ToNRHqX6xq
+    code: https://github.com/AIchberger/mip-against-agent
   bibtex: |-
     @inproceedings{aichberger2025against,
       title = {MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents},
@@ -16431,6 +16445,7 @@
   arxiv_id: '2503.07919'
   sources:
     arxiv: https://arxiv.org/abs/2503.07919
+    homepage: https://bear-cubs.github.io/
   bibtex: |-
     @inproceedings{song2025bearcubs,
       title = {BEARCUBS: A benchmark for computer-using web agents},
@@ -17787,6 +17802,7 @@
     This paper argues that web agents should use model-based planning instead of relying heavily on backtracking search in irreversible web environments. The proposed WebDreamer framework uses an LLM world model to simulate candidate action outcomes before acting, improving over reactive baselines on benchmarks such as VisualWebArena, Online-Mind2Web, and Mind2Web-Live.
   sources:
     openreview: https://openreview.net/forum?id=c6l7yA0HSq
+    code: https://github.com/OSU-NLP-Group/WebDreamer
   bibtex: |-
     @article{gu2024your,
       title = {Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents},
@@ -18350,6 +18366,7 @@
     VideoWebArena is a benchmark of 2,021 web-agent tasks grounded in manually created video tutorials that test whether agents can retain demonstrated skills and factual information over long contexts. The paper shows that current multimodal agents remain far below humans on these video-conditioned web tasks and often perform worse when long video context is added.
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/5b555804d495321df2e3208cc27f4fbc-Abstract-Conference.html
+    code: https://github.com/ljang0/videowebarena
   bibtex: |-
     @inproceedings{jang2024videowebarena,
       title = {VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks},
@@ -18537,6 +18554,7 @@
     Introduces AssistantBench, a benchmark of 214 realistic and time-consuming web tasks that require sustained planning, retrieval, and synthesis rather than short web interactions. The paper also proposes the SPA agent and shows that even strong models still struggle on these open-web tasks.
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-main.505/
+    homepage: https://assistantbench.github.io
   bibtex: |-
     @inproceedings{yoran2024assistantbench,
       title = {AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?},
@@ -18744,6 +18762,7 @@
     Agent S is an open computer-use framework built around an Agent-Computer Interface plus experience-augmented hierarchical planning that combines online web knowledge with narrative and episodic memory. The paper reports state-of-the-art OSWorld results and shows transfer to WindowsAgentArena without explicit adaptation.
   sources:
     publisher_page: https://proceedings.iclr.cc/paper_files/paper/2025/hash/394c7c30ea87b5c3521b4d9e9d419071-Abstract-Conference.html
+    code: https://github.com/simular-ai/Agent-S
   bibtex: |-
     @inproceedings{agashe2024agent,
       title = {Agent S: An Open Agentic Framework that Uses Computers Like a Human},
@@ -19673,6 +19692,7 @@
   arxiv_id: '2407.09018'
   sources:
     arxiv: https://arxiv.org/abs/2407.09018
+    code: https://github.com/bz-lab/AUITestAgent
   bibtex: |-
     @misc{hu2024auitestagent,
       title = {AUITestAgent: Automatic Requirements Oriented GUI Function Testing},
@@ -19938,6 +19958,7 @@
   sources:
     publisher_page: https://aclanthology.org/2025.findings-acl.1113/
     arxiv: https://arxiv.org/abs/2407.01511
+    code: https://github.com/camel-ai/crab
   bibtex: |-
     @inproceedings{xu2024crab,
       title = {CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents},
@@ -20201,6 +20222,7 @@
     The paper builds an adversarial extension of VisualWebArena with 200 targeted tasks and introduces the Agent Robustness Evaluation (ARE) framework for analyzing how attacks propagate through compound agent systems. It shows that small visual or textual perturbations can reliably hijack strong multimodal web agents, including variants that use reflection or tree search.
   sources:
     publisher_page: https://proceedings.iclr.cc/paper_files/paper/2025/hash/460a1d8eac34125dad453b28d6d64446-Abstract-Conference.html
+    code: https://github.com/ChenWu98/agent-attack
   bibtex: |-
     @inproceedings{wu2024dissecting,
       title = {Dissecting Adversarial Robustness of Multimodal LM Agents},
@@ -20293,6 +20315,7 @@
     GUICourse introduces a staged dataset suite for turning general vision-language models into GUI agents, with GUIEnv for OCR and grounding, GUIAct for GUI navigation, and GUIChat for GUI-related dialogue. The paper shows that these datasets let even a 3.1B model perform effectively on single-step and multi-step GUI tasks and transfer better to AITW and Mind2Web than the original VLM baselines.
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.1065/
+    code: https://github.com/RUCBM/GUICourse
   bibtex: |-
     @inproceedings{chen2024guicourse,
       title = {GUICourse: From General Vision Language Model to Versatile GUI Agent},
@@ -20425,8 +20448,9 @@
   tldr: |-
     DigiRL trains mobile device-control agents with a two-stage reinforcement learning pipeline that starts from offline RL and continues with offline-to-online RL on real Android interactions. It pairs that training loop with a scalable Android learning environment and a VLM-based evaluator, and reports a large gain over supervised fine-tuning on AitW.
   sources:
-    publisher_page: https://neurips.cc/Help/Contact?select=Conference
-    homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/1704ddd0bb89f159dfe609b32c889995-Abstract-Conference.html
+    publisher_page: https://proceedings.neurips.cc/paper_files/paper/2024/hash/1704ddd0bb89f159dfe609b32c889995-Abstract-Conference.html
+    homepage: https://digirl-agent.github.io/
+    code: https://github.com/DigiRL-agent/digirl
   bibtex: |-
     @inproceedings{bai2024digirl,
       title = {DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning},
@@ -20510,6 +20534,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2406.08451
     publisher_page: https://openaccess.thecvf.com/content/ICCV2025/html/Lu_GUIOdyssey_A_Comprehensive_Dataset_for_Cross-App_GUI_Navigation_on_Mobile_ICCV_2025_paper.html
+    code: https://github.com/OpenGVLab/GUI-Odyssey
   bibtex: |-
     @inproceedings{lu2024guiodyssey,
       title = {GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices},
@@ -21249,6 +21274,7 @@
     AutoWebGLM is a web-navigation agent built on ChatGLM3-6B that combines HTML simplification, hybrid human-AI trajectory construction, and reinforcement learning with rejection sampling. The paper also introduces the bilingual AutoWebBench benchmark for real-world web navigation and uses it together with other benchmarks to evaluate the system.
   sources:
     homepage: https://dl.acm.org/doi/10.1145/3637528.3671620
+    code: https://github.com/THUDM/AutoWebGLM
   bibtex: |-
     @inproceedings{lai2024autowebglm,
       title = {AutoWebGLM: A Large Language Model-based Web Navigating Agent},
@@ -21442,6 +21468,7 @@
     This paper introduces conversational web navigation as a multi-turn instruction-following setting and releases the MT-Mind2Web dataset for it. It also proposes Self-MAP, a self-reflective memory-augmented planning method, and uses the new dataset to benchmark models under this conversational setting.
   sources:
     publisher_page: https://aclanthology.org/2024.acl-long.477/
+    code: https://github.com/magicgh/self-map
   bibtex: |-
     @inproceedings{deng2024multiturn,
       title = {On the Multi-turn Instruction Following for Conversational Web Agents},
@@ -21475,6 +21502,7 @@
   sources:
     publisher_page: https://aclanthology.org/2024.findings-acl.539/
     arxiv: https://arxiv.org/abs/2402.11941
+    code: https://github.com/xbmxb/CoCo-Agent
   bibtex: |-
     @inproceedings{ma2024cocoagent,
       title = {CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation},
@@ -21516,6 +21544,7 @@
     UFO is a Windows-focused agent that decomposes user requests through a hierarchical dual-agent design and uses a control interaction module tailored to Windows applications. The paper evaluates it on nine popular Windows applications and positions it as an early UI agent for cross-application Windows task completion.
   sources:
     publisher_page: https://aclanthology.org/2025.naacl-long.26/
+    code: https://github.com/microsoft/UFO
   bibtex: |-
     @inproceedings{zhang2024ufo,
       title = {UFO: A UI-Focused Agent for Windows OS Interaction},
@@ -22418,6 +22447,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbbb6308b402fe909c39dd29950c32e0-Abstract-Datasets_and_Benchmarks.html
+    dataset: https://github.com/google-research/google-research/tree/master/android_in_the_wild
   bibtex: |-
     @inproceedings{rawles2023android,
       title = {Android in the Wild: A Large-Scale Dataset for Android Device Control},

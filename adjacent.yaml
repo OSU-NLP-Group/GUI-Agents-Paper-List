@@ -54,6 +54,9 @@
   arxiv_id: '2603.12266'
   sources:
     arxiv: https://arxiv.org/abs/2603.12266
+    homepage: https://accio-lab.github.io/MM-CondChain
+    code: https://github.com/Accio-Lab/MM-CondChain
+    dataset: https://huggingface.co/datasets/Accio-Lab/MM-CondChain
 - title: 'You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents'
   link: https://arxiv.org/abs/2603.11862
   authors:
@@ -953,6 +956,7 @@
   arxiv_id: '2402.14073'
   sources:
     arxiv: https://arxiv.org/abs/2402.14073
+    code: https://github.com/princeton-nlp/PTP
 - title: Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents
   link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
   authors:
@@ -981,6 +985,7 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
+    code: https://github.com/lancopku/agent-backdoor-attacks
 - title: A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents
   link: https://arxiv.org/abs/2402.10196
   authors:
@@ -1167,6 +1172,7 @@
   arxiv_id: '2310.10634'
   sources:
     arxiv: https://arxiv.org/abs/2310.10634
+    code: https://github.com/xlang-ai/OpenAgents
 - title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
   link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html
   authors:
