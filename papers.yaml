@@ -123,6 +123,7 @@
   arxiv_id: '2606.11042'
   sources:
     arxiv: https://arxiv.org/abs/2606.11042
+    homepage: https://workflow-gym.github.io/
   bibtex: |-
     @misc{zhu2026workflowgym,
       title = {Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields},
@@ -201,6 +202,7 @@
   arxiv_id: '2606.03951'
   sources:
     arxiv: https://arxiv.org/abs/2606.03951
+    code: https://github.com/showlab/Demo2Tutorial
   bibtex: |-
     @misc{bai2026demo2tutorial,
       title = {Demo2Tutorial: From Human Experience to Multimodal Software Tutorials},
@@ -344,6 +346,7 @@
   arxiv_id: '2605.29534'
   sources:
     arxiv: https://arxiv.org/abs/2605.29534
+    code: https://github.com/YuxiangChai/UI-KOBE
   bibtex: |-
     @misc{chai2026uikobe,
       title = {UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents},
@@ -583,6 +586,7 @@
   arxiv_id: '2605.16883'
   sources:
     arxiv: https://arxiv.org/abs/2605.16883
+    code: https://github.com/jinshilong-dev/SE-GA
   bibtex: |-
     @misc{jin2026sega,
       title = {SE-GA: Memory-Augmented Self-Evolution for GUI Agents},
@@ -875,6 +879,7 @@
   arxiv_id: '2604.24441'
   sources:
     arxiv: https://arxiv.org/abs/2604.24441
+    code: https://github.com/ZJULiHongxin/AutoGUI-v2
   bibtex: |-
     @misc{li2026autoguiv2,
       title = {AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark},
@@ -956,6 +961,8 @@
   arxiv_id: '2604.21375'
   sources:
     arxiv: https://arxiv.org/abs/2604.21375
+    homepage: https://ucsc-vlaa.github.io/VLAA-GUI
+    code: https://github.com/UCSC-VLAA/VLAA-GUI
   bibtex: |-
     @misc{han2026vlaagui,
       title = {VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation},
@@ -989,6 +996,7 @@
   arxiv_id: '2604.18847'
   sources:
     arxiv: https://arxiv.org/abs/2604.18847
+    homepage: https://christykl.github.io/cua-harm-recovery-site/
   bibtex: |-
     @misc{li2026human,
       title = {Human-Guided Harm Recovery for Computer Use Agents},
@@ -1026,6 +1034,8 @@
   arxiv_id: '2604.14262'
   sources:
     arxiv: https://arxiv.org/abs/2604.14262
+    code: https://github.com/ManifoldRG/GUI-DR
+    dataset: https://huggingface.co/datasets/figai/GUI-Perturbed
   bibtex: |-
     @misc{wang2026guiperturbed,
       title = {GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models},
@@ -1331,6 +1341,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2604.10261
     homepage: https://minnesotanlp.github.io/the-amazing-agent-race
+    code: https://github.com/minnesotanlp/the-amazing-agent-race
   bibtex: |-
     @misc{kim2026amazing,
       title = {The Amazing Agent Race: Strong Tool Users, Weak Navigators},
@@ -1602,13 +1613,13 @@
   - personalization
   - proactive agents
   - KnowU-Bench
-  homepage: https://zju-real.github.io/KnowU-Bench
-  code: https://github.com/ZJU-REAL/KnowU-Bench
   tldr: |-
     KnowU-Bench is an online benchmark for personalized mobile agents on Android emulation with 42 general, 86 personalized, and 64 proactive tasks. It hides user profiles from the agent and forces genuine preference inference through multi-turn dialogues. Even frontier models fall below 50% under vague instructions requiring preference inference.
   arxiv_id: '2604.08455'
   sources:
     arxiv: https://arxiv.org/abs/2604.08455
+    homepage: https://zju-real.github.io/KnowU-Bench
+    code: https://github.com/ZJU-REAL/KnowU-Bench
   bibtex: |-
     @misc{chen2026knowubench,
       title = {KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation},
@@ -1764,6 +1775,7 @@
   arxiv_id: '2604.07277'
   sources:
     arxiv: https://arxiv.org/abs/2604.07277
+    code: https://github.com/SweetGUOguo/Android_Coach
   bibtex: |-
     @misc{gan2026android,
       title = {Android Coach: Improve Online Agentic Training Efficiency with Single State Multiple Actions},
@@ -1916,6 +1928,7 @@
   arxiv_id: '2604.06126'
   sources:
     arxiv: https://arxiv.org/abs/2604.06126
+    homepage: https://cmu-l3.github.io/gym-anything
   bibtex: |-
     @misc{aggarwal2026gymanything,
       title = {Gym-Anything: Turn any Software into an Agent Environment},
@@ -2135,6 +2148,7 @@
   arxiv_id: '2604.02947'
   sources:
     arxiv: https://arxiv.org/abs/2604.02947
+    homepage: https://yunhao-feng.github.io/AgentHazard/
   bibtex: |-
     @misc{feng2026agenthazard,
       title = {AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents},
@@ -2491,6 +2505,8 @@
   arxiv_id: '2603.26266'
   sources:
     arxiv: https://arxiv.org/abs/2603.26266
+    code: https://github.com/sharryXR/GUIDE
+    dataset: https://huggingface.co/datasets/sharryXR/GUIDE-dataset
   bibtex: |-
     @misc{xie2026guide,
       title = {GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation},
@@ -2609,6 +2625,7 @@
   arxiv_id: '2603.26648'
   sources:
     arxiv: https://arxiv.org/abs/2603.26648
+    homepage: https://vision2web-bench.github.io/
   bibtex: |-
     @misc{he2026vision2web,
       title = {Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification},
@@ -3236,6 +3253,7 @@
   arxiv_id: '2603.17357'
   sources:
     arxiv: https://arxiv.org/abs/2603.17357
+    homepage: https://webpii.github.io/
   bibtex: |-
     @misc{zhao2026webpii,
       title = {WebPII: Benchmarking Visual PII Detection for Computer-Use Agents},
@@ -3511,6 +3529,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2603.12138
     homepage: https://www.catalyzex.com/paper/hats-hardness-aware-trajectory-synthesis-for
+    code: https://github.com/JiuTian-VL/HATS
   bibtex: |-
     @inproceedings{shao2026hats,
       title = {HATS: Hardness-Aware Trajectory Synthesis for GUI Agents},
@@ -3653,6 +3672,7 @@
   arxiv_id: '2603.10268'
   sources:
     arxiv: https://arxiv.org/abs/2603.10268
+    code: https://github.com/yusf1013/SpecOps
   bibtex: |-
     @inproceedings{ahmed2026specops,
       title = {SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments},
@@ -3699,6 +3719,8 @@
   arxiv_id: '2603.10178'
   sources:
     arxiv: https://arxiv.org/abs/2603.10178
+    code: https://github.com/limenlp/ExeVRM
+    dataset: https://huggingface.co/datasets/lime-nlp/ExeVR-53K
   bibtex: |-
     @misc{song2026videobased,
       title = {Video-Based Reward Modeling for Computer-Use Agents},
@@ -3780,6 +3802,8 @@
   arxiv_id: '2603.07978'
   sources:
     arxiv: https://arxiv.org/abs/2603.07978
+    homepage: https://oppugno-rushi.github.io/OSExpert
+    code: https://github.com/Lumos-Jiateng/OSExpert
   bibtex: |-
     @misc{liu2026osexpert,
       title = {OSExpert: Computer-Use Agents Learning Professional Skills via Exploration},
@@ -4302,6 +4326,7 @@
   arxiv_id: '2604.09587'
   sources:
     arxiv: https://arxiv.org/abs/2604.09587
+    code: https://github.com/nanookfyf/MobiBench
   bibtex: |-
     @misc{feng2026mobiflow,
       title = {MobiFlow: Real-World Mobile Agent Benchmarking through Trajectory Fusion},
@@ -4462,6 +4487,8 @@
   arxiv_id: '2604.09574'
   sources:
     arxiv: https://arxiv.org/abs/2604.09574
+    code: https://github.com/Gebro13/Passing-the-Turing-Test-on-Screen-Agent-Humanization-Benchmark
+    dataset: https://huggingface.co/datasets/lyyang2766/Passing-the-Turing-Test-on-Screen-Agent-Humanization-Benchmark
   bibtex: |-
     @misc{zhu2026turing,
       title = {Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization},
@@ -4784,6 +4811,7 @@
   arxiv_id: '2602.14296'
   sources:
     arxiv: https://arxiv.org/abs/2602.14296
+    homepage: https://evanwu1125.github.io/AWW_homepage/
   bibtex: |-
     @misc{wu2026autowebworld,
       title = {AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines},
@@ -5008,13 +5036,13 @@
   - hierarchical multitask fine-tuning
   - WebArena
   - OpAgent
-  homepage: https://github.com/codefuse-ai/OpAgent
-  code: https://github.com/codefuse-ai/OpAgent
   tldr: |-
     OpAgent combines a modular planner-grounder-reflector-summarizer design with online reinforcement learning on unconstrained web environments. The paper reports strong WebArena performance and studies how modular coordination and RL improve web navigation.
   arxiv_id: '2602.13559'
   sources:
     arxiv: https://arxiv.org/abs/2602.13559
+    homepage: https://github.com/codefuse-ai/OpAgent
+    code: https://github.com/codefuse-ai/OpAgent
   bibtex: |-
     @misc{guo2026opagent,
       title = {OpAgent: Operator Agent for Web Navigation},
@@ -5424,6 +5452,7 @@
   arxiv_id: '2602.10814'
   sources:
     arxiv: https://arxiv.org/abs/2602.10814
+    code: https://github.com/astarforbae/ScratchWorld
   bibtex: |-
     @misc{zhang2026see,
       title = {See, Plan, Snap: Evaluating Multimodal GUI Agents in Scratch},
@@ -5799,6 +5828,7 @@
   arxiv_id: '2602.06391'
   sources:
     arxiv: https://arxiv.org/abs/2602.06391
+    code: https://github.com/Tencent/POINTS-GUI
   bibtex: |-
     @misc{zhao2026pointsguig,
       title = {POINTS-GUI-G: GUI-Grounding Journey},
@@ -6000,6 +6030,7 @@
   arxiv_id: '2602.06090'
   sources:
     arxiv: https://arxiv.org/abs/2602.06090
+    code: https://github.com/codefuse-ai/CodeFuse-SVR
   bibtex: |-
     @misc{tang2026svrepair,
       title = {SVRepair: Structured Visual Reasoning for Automated Program Repair},
@@ -7297,12 +7328,12 @@
   - verifiable synthesis
   - OSWorld
   - EvoCUA
-  code: https://github.com/meituan/EvoCUA
   tldr: |-
     EvoCUA replaces static imitation with an evolving training loop built on verifiable task synthesis, high-throughput sandbox rollouts, and iterative policy optimization from both successful and failed trajectories. On OSWorld it reaches 56.7% success, outperforming prior open-source computer-use agents and even some leading closed-weight systems.
   arxiv_id: '2601.15876'
   sources:
     arxiv: https://arxiv.org/abs/2601.15876
+    code: https://github.com/meituan/EvoCUA
   bibtex: |-
     @misc{xue2026evocua,
       title = {EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience},
@@ -7560,6 +7591,7 @@
   arxiv_id: '2601.11631'
   sources:
     arxiv: https://arxiv.org/abs/2601.11631
+    homepage: https://hithink-research.github.io/CCPO
   bibtex: |-
     @misc{song2026compress,
       title = {Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents},
@@ -7637,6 +7669,7 @@
   arxiv_id: '2601.09636'
   sources:
     arxiv: https://arxiv.org/abs/2601.09636
+    code: https://github.com/JiuTian-VL/PersonalAlign
   bibtex: |-
     @misc{lyu2026personalalign,
       title = {PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records},
@@ -8113,6 +8146,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2512.24965
     code: https://github.com/showlab/showui-pi
+    homepage: https://showlab.github.io/showui-pi
   bibtex: |-
     @misc{hu2025showui,
       title = {ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands},
@@ -8362,6 +8396,7 @@
   arxiv_id: '2512.21302'
   sources:
     arxiv: https://arxiv.org/abs/2512.21302
+    dataset: https://huggingface.co/datasets/yuecao0119/AndroidLens
   bibtex: |-
     @misc{cao2025androidlens,
       title = {AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents},
@@ -8437,7 +8472,6 @@
   publisher: arXiv
   envs:
   - Mobile
-  homepage: https://tongyi-mai.github.io/MobileWorld/
   keywords:
   - benchmark
   - agent-user interaction
@@ -8450,6 +8484,7 @@
   arxiv_id: '2512.19432'
   sources:
     arxiv: https://arxiv.org/abs/2512.19432
+    homepage: https://tongyi-mai.github.io/MobileWorld/
   bibtex: |-
     @misc{kong2025mobileworld,
       title = {MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments},
@@ -8573,7 +8608,6 @@
   - Desktop
   - Mobile
   - Web
-  homepage: https://ui-venus.github.io/VenusBench-GD/
   keywords:
   - benchmark
   - GUI grounding
@@ -8585,6 +8619,7 @@
   arxiv_id: '2512.16501'
   sources:
     arxiv: https://arxiv.org/abs/2512.16501
+    homepage: https://ui-venus.github.io/VenusBench-GD
   bibtex: |-
     @misc{zhou2025venusbenchgd,
       title = {VenusBench-GD: A Comprehensive Multi-Platform GUI Benchmark for Diverse Grounding Tasks},
@@ -8800,6 +8835,7 @@
   arxiv_id: '2512.12634'
   sources:
     arxiv: https://arxiv.org/abs/2512.12634
+    code: https://github.com/fclab-skku/Mobi-Bench
   bibtex: |-
     @misc{im2025modular,
       title = {Modular and Multi-Path-Aware Offline Benchmarking for Mobile GUI Agents},
@@ -8837,6 +8873,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2512.12692
     homepage: https://kagnlp.github.io/WebOperator/
+    code: https://github.com/kagnlp/WebOperator
   bibtex: |-
     @misc{dihan2025weboperator,
       title = {WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment},
@@ -9260,6 +9297,7 @@
   arxiv_id: '2512.01763'
   sources:
     arxiv: https://arxiv.org/abs/2512.01763
+    code: https://github.com/JiuTian-VL/HiconAgent
   bibtex: |-
     @misc{zhou2025hiconagent,
       title = {HiconAgent: History Context-aware Policy Optimization for GUI Agents},
@@ -9296,6 +9334,7 @@
   arxiv_id: '2512.00846'
   sources:
     arxiv: https://arxiv.org/abs/2512.00846
+    code: https://github.com/neerajanand321/AFRAgent
   bibtex: |-
     @inproceedings{anand2025afragent,
       title = {AFRAgent : An Adaptive Feature Renormalization Based High Resolution Aware GUI agent},
@@ -11094,12 +11133,12 @@
   - ScreenSpot-V2
   - OSWorld-G
   - Ferret-UI Lite
-  homepage: https://machinelearning.apple.com/research/ferret-ui
   tldr: |-
     Ferret-UI Lite is a compact 3B end-to-end GUI agent for on-device use across mobile, web, and desktop environments. Built from a mixed real-and-synthetic data recipe plus chain-of-thought, visual tool-use, and reward-designed RL, it reaches competitive grounding scores and navigation success despite the constraints of small on-device models.
   arxiv_id: '2509.26539'
   sources:
     arxiv: https://arxiv.org/abs/2509.26539
+    homepage: https://machinelearning.apple.com/research/ferret-ui
   bibtex: |-
     @misc{yang2025ferretui,
       title = {Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents},
@@ -17402,8 +17441,6 @@
   - BrowserGym
   - AgentLab
   - evaluation ecosystem
-  homepage: https://mcgill-nlp.github.io/publications/2412.05467/
-  code: https://github.com/ServiceNow/BrowserGym
   tldr: |-
     BrowserGym is a unified ecosystem for web-agent research that standardizes observation and action spaces while wrapping multiple existing benchmarks under one interface. The paper also introduces AgentLab for agent creation and analysis, and uses the ecosystem to run a large cross-benchmark comparison of six frontier LLMs.
   sources:
@@ -17875,11 +17912,11 @@
   - outcome-supervised reward model
   - online learning
   - WebRL
-  code: https://github.com/THUDM/WebRL
   tldr: |-
     WebRL trains open web agents with online reinforcement learning rather than static supervised data, combining self-evolving task generation, an outcome-supervised reward model, and adaptive policy updates. It substantially improves Llama-3.1-based and GLM-4-based agents on WebArena-Lite and narrows the gap to proprietary systems.
   sources:
     openreview: https://openreview.net/forum?id=oVKEAFjEqv
+    code: https://github.com/THUDM/WebRL
   bibtex: |-
     @inproceedings{qi2024webrl,
       title = {WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning},
@@ -18120,8 +18157,6 @@
   - Zehan Qi
   - Yuxiao Dong
   - Jie Tang
-  homepage: https://www.zhipuai.cn/en/autoglm
-  code: https://github.com/zai-org/Open-AutoGLM
   institutions:
   - Zhipu
   - Tsinghua
@@ -18563,12 +18598,11 @@
   - cross-app tasks
   - smartphone agent evaluation
   - SPA-Bench
-  homepage: https://ai-agents-2030.github.io/SPA-Bench/
-  code: https://github.com/ai-agents-2030/SPA-Bench
   tldr: |-
     SPA-Bench is a smartphone-agent benchmark built around 340 Android tasks spanning single-app and cross-app settings in both English and Chinese, with system and third-party apps. It also provides a plug-and-play execution framework and an automatic evaluation pipeline with seven task-completion and resource-usage metrics, exposing persistent difficulties in mobile UI interpretation, grounding, and long-horizon execution.
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/9a75f4dd9679aa4ff80a4e6f0a1dc700-Abstract-Conference.html
+    code: https://github.com/ai-agents-2030/SPA-Bench
   bibtex: |-
     @inproceedings{chen2024spabench,
       title = {SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation},
@@ -20769,12 +20803,11 @@
   - task parameterization
   - dynamic environment
   - AndroidWorld
-  homepage: https://google-research.github.io/android_world/
-  code: https://github.com/google-research/android_world
   tldr: |-
     AndroidWorld is a dynamic Android benchmark with reward-bearing programmatic tasks across 20 real-world apps. Its tasks are parameterized and expressed in natural language, and each one includes initialization, success-checking, and teardown logic so agents can be evaluated reproducibly under many realistic task variations.
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html
+    code: https://github.com/google-research/android_world
   bibtex: |-
     @inproceedings{rawles2024androidworld,
       title = {AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents},
