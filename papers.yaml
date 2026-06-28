@@ -38,6 +38,42 @@
       url = {https://arxiv.org/abs/2606.14106}
     }
   bibtex_confirmed: false
+- title: 'WebChallenger: A Reliable and Efficient Generalist Web Agent'
+  link: https://arxiv.org/abs/2606.10423
+  authors:
+  - Jayoo Hwang
+  - Xiaowen Zhang
+  - Vedant Padwal
+  institutions:
+  - Independent
+  date: '2026-06-09'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - PageMem
+  - selective observation
+  - site memory
+  - compound actions
+  - WebChallenger
+  tldr: |-
+    WebChallenger is a web-agent framework built around PageMem, a structured page representation that supports selective observation, persistent site memory, and compound action workflows. Without additional training, it combines a 32B LLM and 7B VLM to improve performance across WebArena, VisualWebArena, Online-Mind2Web, and WorkArena.
+  arxiv_id: '2606.10423'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.10423
+    homepage: https://jayoohwang1.github.io/webchallenger-site/
+    code: https://github.com/jayoohwang1/webchallenger
+  bibtex: |-
+    @misc{hwang2026webchallenger,
+      title = {WebChallenger: A Reliable and Efficient Generalist Web Agent},
+      author = {Jayoo Hwang and Xiaowen Zhang and Vedant Padwal},
+      year = {2026},
+      eprint = {2606.10423},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.10423}
+    }
+  bibtex_confirmed: false
 - title: 'Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields'
   link: https://arxiv.org/abs/2606.11042
   authors:
@@ -16838,6 +16874,46 @@
       eprint = {2502.06395},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2502.06395}
+    }
+  bibtex_confirmed: false
+- title: 'InSTA: Towards Internet-Scale Training For Agents'
+  link: https://arxiv.org/abs/2502.06776
+  authors:
+  - Brandon Trabucco
+  - Gunnar A. Sigurdsson
+  - Robinson Piramuthu
+  - Ruslan Salakhutdinov
+  institutions:
+  - CMU
+  - Amazon
+  date: '2025-02-10'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - internet-scale training
+  - web agents
+  - synthetic tasks
+  - trajectory data
+  - browser automation
+  - InSTA
+  tldr: |-
+    InSTA studies how to scale web-agent training by turning large numbers of live websites into instruction-following browser tasks. It builds a 150K trajectory dataset with automated task generation, execution, and filtering, then trains agents that improve web navigation performance across multiple benchmarks.
+  arxiv_id: '2502.06776'
+  sources:
+    arxiv: https://arxiv.org/abs/2502.06776
+    openreview: https://openreview.net/forum?id=zibL9wu2LI
+    homepage: https://data-for-agents.github.io/
+    code: https://github.com/data-for-agents/insta
+    dataset: https://huggingface.co/datasets/data-for-agents/insta-150k-v3
+  bibtex: |-
+    @misc{trabucco2025insta,
+      title = {InSTA: Towards Internet-Scale Training For Agents},
+      author = {Brandon Trabucco and Gunnar A. Sigurdsson and Robinson Piramuthu and Ruslan Salakhutdinov},
+      year = {2025},
+      eprint = {2502.06776},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2502.06776}
     }
   bibtex_confirmed: false
 - title: 'MobileA3gent: Training Mobile GUI Agents Using Decentralized Self-Sourced Data from Diverse Users'
