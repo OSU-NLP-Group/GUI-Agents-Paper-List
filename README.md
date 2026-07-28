@@ -393,7 +393,7 @@ We welcome contributions from the community!
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
     - 🔑 Key: [benchmark], [realistic website], [long-horizon tasks], [ClawBench]
-    - 📖 TLDR: ClawBench evaluates AI agents on 153 everyday online tasks across 144 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation. The best model (Claude Sonnet 4.6) achieves only 33.3%, exposing a large gap in real-world web automation.
+    - 📖 TLDR: ClawBench evaluates browser agents on 283 everyday online tasks (V1 153 + V2 130) across 163 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation while preserving end-to-end interaction. Its two-stage interception and judge protocol exposes a persistent gap in real-world web automation.
 
 - [KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation](https://arxiv.org/abs/2604.08455)
     - Tongbo Chen, Zhengxi Lu, Zhan Xu, Guocheng Shao, Shaohan Zhao, Fei Tang, Yong Du, Kaitao Song, Yizhou Liu, Yuchen Yan, Wenqi Zhang, Xu Tan, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen

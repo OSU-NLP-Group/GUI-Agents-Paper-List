@@ -1604,7 +1604,7 @@
   - long-horizon tasks
   - ClawBench
   tldr: |-
-    ClawBench evaluates AI agents on 153 everyday online tasks across 144 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation. The best model (Claude Sonnet 4.6) achieves only 33.3%, exposing a large gap in real-world web automation.
+    ClawBench evaluates browser agents on 283 everyday online tasks (V1 153 + V2 130) across 163 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation while preserving end-to-end interaction. Its two-stage interception and judge protocol exposes a persistent gap in real-world web automation.
   arxiv_id: '2604.08523'
   sources:
     arxiv: https://arxiv.org/abs/2604.08523
