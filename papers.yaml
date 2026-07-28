@@ -1354,6 +1354,62 @@
       url = {https://arxiv.org/abs/2604.10577}
     }
   bibtex_confirmed: false
+- title: 'ClawBench: Can AI Agents Complete Everyday Online Tasks?'
+  link: https://arxiv.org/abs/2604.08523
+  authors:
+  - Yuxuan Zhang
+  - Yubo Wang
+  - Yipeng Zhu
+  - Penghui Du
+  - Junwen Miao
+  - Xuan Lu
+  - Wendong Xu
+  - Yunzhuo Hao
+  - Songcheng Cai
+  - Xiaochen Wang
+  - Huaisong Zhang
+  - Xian Wu
+  - Yi Lu
+  - Minyi Lei
+  - Kai Zou
+  - Huifeng Yin
+  - Ping Nie
+  - Liang Chen
+  - Dongfu Jiang
+  - Wenhu Chen
+  - Kelsey R. Allen
+  institutions:
+  - University of British Columbia
+  - NAIL Group
+  date: '2026-04-11'
+  publisher: arXiv
+  envs:
+  - Web
+  - General GUI
+  keywords:
+  - benchmark
+  - web agents
+  - computer-use agents
+  - long-horizon tasks
+  - real-world websites
+  tldr: |-
+    ClawBench evaluates AI browser agents on 283 everyday online tasks spanning 163 live websites. It combines isolated web environments with five-layer interaction evidence and agentic judging to measure end-to-end task completion and diagnose failures.
+  arxiv_id: '2604.08523'
+  sources:
+    arxiv: https://arxiv.org/abs/2604.08523
+    homepage: https://claw-bench.com/
+    code: https://github.com/reacher-z/ClawBench
+    dataset: https://huggingface.co/spaces/TIGER-Lab/ClawBench
+  bibtex: |-
+    @misc{zhang2026clawbenchaiagentscomplete,
+      title = {ClawBench: Can AI Agents Complete Everyday Online Tasks?},
+      author = {Yuxuan Zhang and Yubo Wang and Yipeng Zhu and Penghui Du and Junwen Miao and Xuan Lu and Wendong Xu and Yunzhuo Hao and Songcheng Cai and Xiaochen Wang and Huaisong Zhang and Xian Wu and Yi Lu and Minyi Lei and Kai Zou and Huifeng Yin and Ping Nie and Liang Chen and Dongfu Jiang and Wenhu Chen and Kelsey R. Allen},
+      year = {2026},
+      eprint = {2604.08523},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2604.08523}
+    }
+  bibtex_confirmed: false
 - title: 'The Amazing Agent Race: Strong Tool Users, Weak Navigators'
   link: https://arxiv.org/abs/2604.10261
   authors:
