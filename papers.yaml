@@ -2,6 +2,54 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction'
+  link: https://arxiv.org/abs/2606.23449
+  authors:
+  - Shanhui Zhao
+  - Jiacheng Liu
+  - Guohong Liu
+  - Jichao Yan
+  - Jialei Ye
+  - Yuhao Yang
+  - Hao Wen
+  - Shizuo Tian
+  - Yizhen Yuan
+  - Yuxuan Chen
+  - Yunxin Liu
+  - Ju Ren
+  - Ya-Qin Zhang
+  - Chao Huang
+  - Yao Guo
+  - Yuanchun Li
+  institutions:
+  - Tsinghua
+  - PKU
+  - HKU
+  date: '2026-06-22'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - AOHP
+  - framework
+  - agent-native OS
+  - information-flow tracking
+  tldr: |-
+    AOHP is an open-source OS-level agent harness built on AOSP that treats agents as first-class OS actors, introducing personalized service composition, efficient agent interfaces, and secure information-flow tracking while preserving the existing Android software and hardware ecosystem. On tasks covering key OS-agent capabilities it improves task completion by 21.12 points and cuts token cost by 51.55% versus baseline, while enforcing security-policy compliance.
+  arxiv_id: '2606.23449'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.23449
+    code: https://github.com/aohp-os/aohp
+  bibtex: |-
+    @misc{zhao2026aohp,
+      title = {AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction},
+      author = {Shanhui Zhao and Jiacheng Liu and Guohong Liu and Jichao Yan and Jialei Ye and Yuhao Yang and Hao Wen and Shizuo Tian and Yizhen Yuan and Yuxuan Chen and Yunxin Liu and Ju Ren and Ya-Qin Zhang and Chao Huang and Yao Guo and Yuanchun Li},
+      year = {2026},
+      eprint = {2606.23449},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.23449}
+    }
+  bibtex_confirmed: false
 - title: 'Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents'
   link: https://arxiv.org/abs/2606.14106
   authors:
@@ -1604,7 +1652,7 @@
   - long-horizon tasks
   - ClawBench
   tldr: |-
-    ClawBench evaluates AI agents on 153 everyday online tasks across 144 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation. The best model (Claude Sonnet 4.6) achieves only 33.3%, exposing a large gap in real-world web automation.
+    ClawBench evaluates browser agents on 283 everyday online tasks (V1 153 + V2 130) across 163 live production websites spanning purchases, bookings, and job applications. A lightweight interception layer blocks final submissions for safe evaluation while preserving end-to-end interaction. Its two-stage interception and judge protocol exposes a persistent gap in real-world web automation.
   arxiv_id: '2604.08523'
   sources:
     arxiv: https://arxiv.org/abs/2604.08523
