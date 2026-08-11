@@ -313,6 +313,82 @@
       url = {https://arxiv.org/abs/2608.03327}
     }
   bibtex_confirmed: false
+- title: 'Qwen-CUA: Native Computer Use for (almost) Everything'
+  link: https://arxiv.org/abs/2608.02352
+  authors:
+  - Dunjie Lu
+  - Shuai Bai
+  - Tianyi Bai
+  - Sicheng Fan
+  - Chang Gao
+  - Jian Guan
+  - Feng Hu
+  - Mianqiu Huang
+  - Xingyang Huang
+  - Yizhen Jiang
+  - Yuheng Jing
+  - Dehui Kong
+  - Ning Li
+  - Dayiheng Liu
+  - Shixuan Liu
+  - Zheng Liu
+  - Que Shen
+  - Bowen Wang
+  - Junli Wang
+  - Chencan Wu
+  - Rui Xie
+  - Tianbao Xie
+  - Zhihui Xie
+  - Haiyang Xu
+  - An Yang
+  - Tao Yu
+  - Wenzhen Yuan
+  - Xi Zhang
+  - Zhenru Zhang
+  - Mingkang Zhu
+  - Zhaoqing Zhu
+  - Yizhong Cao
+  - Kai Dang
+  - Binyuan Hui
+  - Kaixin Li
+  - Junyang Lin
+  - Haiquan Wang
+  - Zekun Wang
+  - Yiheng Xu
+  - Fan Yan
+  - Mengqi Yuan
+  - Danyang Zhang
+  - Jiajun Zhang
+  - Zhipeng Zhang
+  - Fan Zhou
+  institutions:
+  - Unknown
+  date: '2026-08-03'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Web
+  keywords:
+  - model
+  - computer use
+  - online reinforcement learning
+  - verifiable tasks
+  - Qwen-CUA
+  tldr: |-
+    Qwen-CUA is a screenshot-only native computer-use agent that controls software through keyboard and mouse events without DOM, accessibility, or task-specific APIs. It combines large-scale verifiable task construction, long-horizon trajectory optimization, and visual-history management, and evaluates across desktop and browser computer-use benchmarks.
+  arxiv_id: '2608.02352'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.02352
+  bibtex: |-
+    @misc{arxiv260802352,
+      title = {Qwen-CUA: Native Computer Use for (almost) Everything},
+      author = {Dunjie Lu and Shuai Bai and Tianyi Bai and Sicheng Fan and Chang Gao and Jian Guan and Feng Hu and Mianqiu Huang and Xingyang Huang and Yizhen Jiang and Yuheng Jing and Dehui Kong and Ning Li and Dayiheng Liu and Shixuan Liu and Zheng Liu and Que Shen and Bowen Wang and Junli Wang and Chencan Wu and Rui Xie and Tianbao Xie and Zhihui Xie and Haiyang Xu and An Yang and Tao Yu and Wenzhen Yuan and Xi Zhang and Zhenru Zhang and Mingkang Zhu and Zhaoqing Zhu and Yizhong Cao and Kai Dang and Binyuan Hui and Kaixin Li and Junyang Lin and Haiquan Wang and Zekun Wang and Yiheng Xu and Fan Yan and Mengqi Yuan and Danyang Zhang and Jiajun Zhang and Zhipeng Zhang and Fan Zhou},
+      year = {2026},
+      eprint = {2608.02352},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.02352}
+    }
+  bibtex_confirmed: false
 - title: 'CUADebug: Diagnosing and Repairing Computer-Use Agent Failures'
   link: https://arxiv.org/abs/2608.02643
   authors:
