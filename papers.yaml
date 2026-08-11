@@ -2,6 +2,844 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching
+  link: https://arxiv.org/abs/2608.09654
+  authors:
+  - Yuke Li
+  - Xuehan Hou
+  institutions:
+  - Unknown
+  date: '2026-08-10'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - layout-aware matching
+  - coordinate hallucination
+  tldr: |-
+    A regression-free GUI grounding pipeline lets a frozen MLLM turn an instruction into a structured visual description, then matches that description against layout-prior candidates. The paper reports gains on ScreenSpot-Pro and Mind2Web while avoiding coordinate-regression fine-tuning.
+  arxiv_id: '2608.09654'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.09654
+  bibtex: |-
+    @misc{arxiv260809654,
+      title = {Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching},
+      author = {Yuke Li and Xuehan Hou},
+      year = {2026},
+      eprint = {2608.09654},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.09654}
+    }
+  bibtex_confirmed: false
+- title: Software Engineering for and with GUI Agent
+  link: https://arxiv.org/abs/2608.09278
+  authors:
+  - Shengcheng Yu
+  - Yuchen Ling
+  - Junyang Xing
+  - Quan Zhou
+  - Chunrong Fang
+  - Zhenyu Chen
+  institutions:
+  - Unknown
+  date: '2026-08-10'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - survey
+  - software engineering
+  - reliability
+  - lifecycle
+  tldr: |-
+    This survey reviews 336 GUI-agent papers through a software-engineering lens, covering architectures, evaluation, lifecycle concerns, and deployment gaps. It identifies recurring weaknesses in recovery, safety enforcement, auditability, testing, and maintenance.
+  arxiv_id: '2608.09278'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.09278
+  bibtex: |-
+    @misc{arxiv260809278,
+      title = {Software Engineering for and with GUI Agent},
+      author = {Shengcheng Yu and Yuchen Ling and Junyang Xing and Quan Zhou and Chunrong Fang and Zhenyu Chen},
+      year = {2026},
+      eprint = {2608.09278},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.09278}
+    }
+  bibtex_confirmed: false
+- title: 'AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents'
+  link: https://arxiv.org/abs/2608.05891
+  authors:
+  - Weikai Xu
+  - Yunren Feng
+  - Haoxiang Lei
+  - Kun Huang
+  - Yuxuan Liu
+  - Kang Zhao
+  - Xiaolin Hu
+  - Shuo Shang
+  - Bo An
+  institutions:
+  - Unknown
+  date: '2026-08-06'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - world model
+  - executable HTML
+  - mobile agents
+  - AppDeltaWorld
+  tldr: |-
+    AppDeltaWorld models mobile GUI transitions as constrained executable HTML updates rather than unconstrained next-screen generation. It uses retrieved app structures and predicted next-screen content to support a mobile-agent training environment and test-time adaptation.
+  arxiv_id: '2608.05891'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.05891
+  bibtex: |-
+    @misc{arxiv260805891,
+      title = {AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents},
+      author = {Weikai Xu and Yunren Feng and Haoxiang Lei and Kun Huang and Yuxuan Liu and Kang Zhao and Xiaolin Hu and Shuo Shang and Bo An},
+      year = {2026},
+      eprint = {2608.05891},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.05891}
+    }
+  bibtex_confirmed: false
+- title: 'Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents'
+  link: https://arxiv.org/abs/2608.06171
+  authors:
+  - Jiaming Wei
+  - Zekun Wu
+  - Adriano Koshiyama
+  - Maria Perez-Ortiz
+  institutions:
+  - Unknown
+  date: '2026-08-06'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - observation routing
+  - multimodal observation
+  - WebArena
+  - VisualWebArena
+  tldr: |-
+    This paper measures when web agents should use text, pixels, or both. Repeated runs show that apparent oracle routing gains are heavily affected by execution noise; learned routers do not consistently beat a fixed mode, while unsolved-task routing can still reduce cost without lowering success.
+  arxiv_id: '2608.06171'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.06171
+  bibtex: |-
+    @misc{arxiv260806171,
+      title = {Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents},
+      author = {Jiaming Wei and Zekun Wu and Adriano Koshiyama and Maria Perez-Ortiz},
+      year = {2026},
+      eprint = {2608.06171},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.06171}
+    }
+  bibtex_confirmed: false
+- title: 'StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection'
+  link: https://arxiv.org/abs/2608.06477
+  authors:
+  - Zhuoxin Zhan
+  - Akbar Rafiey
+  - Avery Ma
+  - Leila Pishdad
+  - Layla El Asri
+  institutions:
+  - Unknown
+  date: '2026-08-06'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - safety
+  - indirect prompt injection
+  - StepJack
+  tldr: |-
+    StepJack studies indirect prompt injection chains in which a harmful goal is split into seemingly innocuous steps across linked pages. Its 480-example benchmark evaluates whether computer-use agents follow these multi-step attacks and releases the attack-generation pipeline.
+  arxiv_id: '2608.06477'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.06477
+    code: https://github.com/BorealisAI/StepJack
+  bibtex: |-
+    @misc{arxiv260806477,
+      title = {StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection},
+      author = {Zhuoxin Zhan and Akbar Rafiey and Avery Ma and Leila Pishdad and Layla El Asri},
+      year = {2026},
+      eprint = {2608.06477},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.06477}
+    }
+  bibtex_confirmed: false
+- title: 'StepReflect: Structured UI Transition Reflection for Mobile GUI Agents'
+  link: https://arxiv.org/abs/2608.05587
+  authors:
+  - Linqiang Guo
+  - Wei Liu
+  - Li Gu
+  - Yang Wang
+  - Tse-Hsun (Peter) Chen
+  institutions:
+  - Unknown
+  date: '2026-08-06'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - reflection
+  - UI transitions
+  - structured prediction
+  - StepReflect
+  tldr: |-
+    StepReflect recasts after-action reflection for mobile GUI agents as structured transition prediction over paired visual evidence. Its staged training recipe produces a local reflection model that improves several evaluated agent configurations while reducing dependence on repeated frontier-model calls.
+  arxiv_id: '2608.05587'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.05587
+  bibtex: |-
+    @misc{arxiv260805587,
+      title = {StepReflect: Structured UI Transition Reflection for Mobile GUI Agents},
+      author = {Linqiang Guo and Wei Liu and Li Gu and Yang Wang and Tse-Hsun (Peter) Chen},
+      year = {2026},
+      eprint = {2608.05587},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.05587}
+    }
+  bibtex_confirmed: false
+- title: 'The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents'
+  link: https://arxiv.org/abs/2608.06065
+  authors:
+  - Weiwei Li
+  - Junzhuo Liu
+  - Tong Chu
+  - Hengfu Yu
+  - Wen Li
+  institutions:
+  - Unknown
+  date: '2026-08-06'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - hindsight distillation
+  - mobile agents
+  - privileged information
+  - GHD
+  tldr: |-
+    Gated Hindsight Distillation uses the next screenshot as training-only privileged information to rescore an on-policy student's actions. It distills the signal only when that view recovers a missed demonstrated action, improving mobile-agent task success over the compared GRPO baseline.
+  arxiv_id: '2608.06065'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.06065
+  bibtex: |-
+    @misc{arxiv260806065,
+      title = {The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents},
+      author = {Weiwei Li and Junzhuo Liu and Tong Chu and Hengfu Yu and Wen Li},
+      year = {2026},
+      eprint = {2608.06065},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.06065}
+    }
+  bibtex_confirmed: false
+- title: 'LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents'
+  link: https://arxiv.org/abs/2608.04741
+  authors:
+  - Longtao Guo
+  - Zelin Zhang
+  - Kaifeng Huang
+  - Yang Shi
+  institutions:
+  - Unknown
+  date: '2026-08-05'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - security
+  - indirect prompt injection
+  - authentication
+  - LoginTrap
+  tldr: |-
+    LoginTrap is a black-box, task-agnostic attack that uses page-specific indirect instructions to make a controlled login flow appear necessary. The paper evaluates end-to-end credential-oriented attack success across web-agent configurations and defenses.
+  arxiv_id: '2608.04741'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.04741
+  bibtex: |-
+    @misc{arxiv260804741,
+      title = {LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents},
+      author = {Longtao Guo and Zelin Zhang and Kaifeng Huang and Yang Shi},
+      year = {2026},
+      eprint = {2608.04741},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.04741}
+    }
+  bibtex_confirmed: false
+- title: Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents
+  link: https://arxiv.org/abs/2608.03327
+  authors:
+  - Siqi Fan
+  - Minghao Li
+  - Xiaoqian Ma
+  - Wenhui Tan
+  - Xiusheng Huang
+  - Juntong Wu
+  - Liujie Zhang
+  - Shuo Shang
+  - Weihang Chen
+  institutions:
+  - Unknown
+  date: '2026-08-04'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - MCP
+  - tool use
+  - multimodal context
+  - OSWorld-MCP
+  tldr: |-
+    This work examines hybrid computer-use agents that can choose screenshots or text tools on OSWorld-MCP. It identifies an adoption gap in tool use and shows that training with a compatible post-tool observation policy can reduce image-context cost while improving the reported operating point.
+  arxiv_id: '2608.03327'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.03327
+    code: https://github.com/redai-infra/hybrid-routing-agent
+  bibtex: |-
+    @misc{arxiv260803327,
+      title = {Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents},
+      author = {Siqi Fan and Minghao Li and Xiaoqian Ma and Wenhui Tan and Xiusheng Huang and Juntong Wu and Liujie Zhang and Shuo Shang and Weihang Chen},
+      year = {2026},
+      eprint = {2608.03327},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.03327}
+    }
+  bibtex_confirmed: false
+- title: 'CUADebug: Diagnosing and Repairing Computer-Use Agent Failures'
+  link: https://arxiv.org/abs/2608.02643
+  authors:
+  - Weijia Zhang
+  - Kunlun Zhu
+  - Zeyi Liu
+  - Yinting Chen
+  - Tianyi Ma
+  - Jiateng Liu
+  - Jiaxun Zhang
+  - Bingxuan Li
+  - Xiangru Tang
+  - Heng Ji
+  - Jiaxuan You
+  institutions:
+  - Unknown
+  date: '2026-07-31'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - debugging
+  - benchmark
+  - error diagnosis
+  - CUAErrorBench
+  tldr: |-
+    CUADebug introduces a computer-use failure taxonomy, an OSWorld failure benchmark with human annotations, and an active debugger that inspects suspect before-and-after steps. Its structured diagnoses identify root-cause actions and corrective strategies for subsequent execution.
+  arxiv_id: '2608.02643'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.02643
+  bibtex: |-
+    @misc{arxiv260802643,
+      title = {CUADebug: Diagnosing and Repairing Computer-Use Agent Failures},
+      author = {Weijia Zhang and Kunlun Zhu and Zeyi Liu and Yinting Chen and Tianyi Ma and Jiateng Liu and Jiaxun Zhang and Bingxuan Li and Xiangru Tang and Heng Ji and Jiaxuan You},
+      year = {2026},
+      eprint = {2608.02643},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.02643}
+    }
+  bibtex_confirmed: false
+- title: 'MAGA: Multi-Platform Self-Fusion of GUI Agents via Structured Action Distillation'
+  link: https://arxiv.org/abs/2607.29320
+  authors:
+  - Hang Yan
+  - Zhangxuan Gu
+  - Beitong Zhou
+  - Jiaxuan Chen
+  - Runze Li
+  - Yusong Hu
+  - Shuheng Shen
+  - Changhua Meng
+  institutions:
+  - Unknown
+  date: '2026-07-31'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Mobile
+  - Web
+  keywords:
+  - model fusion
+  - action distillation
+  - cross-platform agents
+  - MAGA
+  tldr: |-
+    MAGA consolidates domain-specific GUI agents into a cross-platform policy using structured action distillation. It emphasizes incorrectly generated actions while suppressing invalid or unnecessary teacher signals, improving average task success over the compared fusion baselines.
+  arxiv_id: '2607.29320'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.29320
+  bibtex: |-
+    @misc{arxiv260729320,
+      title = {MAGA: Multi-Platform Self-Fusion of GUI Agents via Structured Action Distillation},
+      author = {Hang Yan and Zhangxuan Gu and Beitong Zhou and Jiaxuan Chen and Runze Li and Yusong Hu and Shuheng Shen and Changhua Meng},
+      year = {2026},
+      eprint = {2607.29320},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.29320}
+    }
+  bibtex_confirmed: false
+- title: 'OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models'
+  link: https://os-copilot.github.io/OSReward-Home/
+  authors:
+  - Qiushi Sun
+  - Kanzhi Cheng
+  - Yian Wang
+  - Bowen Yang
+  - Hang Yan
+  - Liheng Chen
+  - Fangzhi Xu
+  - Zichen Ding
+  - Nuo Chen
+  - Jialin Cao
+  - Xingdong Gong
+  - Zehao Li
+  - Kaiming Jin
+  - Xinfeng Yuan
+  - Zhoumianze Liu
+  - Jingyang Gong
+  - Zhangyue Yin
+  - Jiahui Gao
+  - Zhiyong Wu
+  - Tianbao Xie
+  - Jianbing Zhang
+  - Ben Kao
+  - Lingpeng Kong
+  institutions:
+  - Unknown
+  date: '2026-07-30'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Mobile
+  - Web
+  keywords:
+  - benchmark
+  - reward model
+  - trajectory evaluation
+  - OSReward
+  tldr: |-
+    OSReward evaluates vision-language reward models for computer-use trajectories across platforms, including a hard subset and fine-grained efficiency/alignment assessment. It also releases OS-Shepherd, an open corpus and reward-model family for lower-cost trajectory judgment.
+  arxiv_id: '2607.28609'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.28609
+    homepage: https://os-copilot.github.io/OSReward-Home/
+  bibtex: |-
+    @misc{arxiv260728609,
+      title = {OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models},
+      author = {Qiushi Sun and Kanzhi Cheng and Yian Wang and Bowen Yang and Hang Yan and Liheng Chen and Fangzhi Xu and Zichen Ding and Nuo Chen and Jialin Cao and Xingdong Gong and Zehao Li and Kaiming Jin and Xinfeng Yuan and Zhoumianze Liu and Jingyang Gong and Zhangyue Yin and Jiahui Gao and Zhiyong Wu and Tianbao Xie and Jianbing Zhang and Ben Kao and Lingpeng Kong},
+      year = {2026},
+      eprint = {2607.28609},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.28609}
+    }
+  bibtex_confirmed: false
+- title: 'Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents'
+  link: https://arxiv.org/abs/2607.28227
+  authors:
+  - Hanzhang Zhou
+  - Panrong Tong
+  - Xu Zhang
+  - Quyu Kong
+  - Chenglin Cai
+  - Tianyu Xia
+  - Gongjie Zhang
+  - Jianan Zhang
+  - Long Li
+  - Long Chen
+  - Lei Wang
+  - Gaole Dai
+  - Pengxiang Li
+  - Liangyu Chen
+  - Yue Wang
+  - Steven Hoi
+  institutions:
+  - Unknown
+  date: '2026-07-30'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Mobile
+  - Web
+  keywords:
+  - model
+  - online reinforcement learning
+  - real-device training
+  - Qwen-UI-Agent
+  tldr: |-
+    Qwen-UI-Agent is a cross-platform foundation GUI agent spanning mobile, computer, and browser use. It combines sandbox and real-device runtimes, mixed GUI/CLI actions, batched action generation, an automated data flywheel, and long-horizon online RL.
+  arxiv_id: '2607.28227'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.28227
+  bibtex: |-
+    @misc{arxiv260728227,
+      title = {Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents},
+      author = {Hanzhang Zhou and Panrong Tong and Xu Zhang and Quyu Kong and Chenglin Cai and Tianyu Xia and Gongjie Zhang and Jianan Zhang and Long Li and Long Chen and Lei Wang and Gaole Dai and Pengxiang Li and Liangyu Chen and Yue Wang and Steven Hoi},
+      year = {2026},
+      eprint = {2607.28227},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.28227}
+    }
+  bibtex_confirmed: false
+- title: 'OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding'
+  link: https://omegause-officeval.github.io
+  authors:
+  - Jingbo Zhou
+  - Yusai Zhao
+  - Qi Bao
+  - Jingjia Cao
+  - Zhenghai Chen
+  - Chang Gao
+  - Kaiqi Guo
+  - Muxin Guo
+  - Mingxuan Li
+  - Xinjiang Lu
+  - Yanru Ma
+  - Yixiong Xiao
+  - Zenghui Zhang
+  - Le Zhang
+  - Hua Wu
+  institutions:
+  - Unknown
+  date: '2026-07-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - benchmark
+  - office suite
+  - economic grounding
+  - OmegaUse-OfficeVal
+  tldr: |-
+    OmegaUse-OfficeVal benchmarks agents on 100 long-horizon office-suite tasks with code-based verifiers and task-level human labor and price signals. The economic annotations enable comparisons of deliverable quality, inference cost, and execution time against human work.
+  arxiv_id: '2607.27155'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.27155
+    homepage: https://omegause-officeval.github.io
+  bibtex: |-
+    @misc{arxiv260727155,
+      title = {OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding},
+      author = {Jingbo Zhou and Yusai Zhao and Qi Bao and Jingjia Cao and Zhenghai Chen and Chang Gao and Kaiqi Guo and Muxin Guo and Mingxuan Li and Xinjiang Lu and Yanru Ma and Yixiong Xiao and Zenghui Zhang and Le Zhang and Hua Wu},
+      year = {2026},
+      eprint = {2607.27155},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.27155}
+    }
+  bibtex_confirmed: false
+- title: Scaling GUI Agents with Visual State Transitions
+  link: https://arxiv.org/abs/2607.24112
+  authors:
+  - Xiangyan Liu
+  - Kaixin Li
+  - Haonan Wang
+  - Biao Wu
+  - Meng Fang
+  - Longxu Dou
+  - Chao Du
+  - Michael Qizhe Shieh
+  - Tianyu Pang
+  institutions:
+  - Unknown
+  date: '2026-07-27'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Mobile
+  keywords:
+  - pretraining
+  - visual state transitions
+  - world model
+  - STP
+  tldr: |-
+    State Transition Pretraining jointly learns inverse dynamics and forward GUI dynamics from visual state transitions before instruction-conditioned trajectory fine-tuning. The paper evaluates the resulting models on desktop and mobile agent benchmarks and releases its official implementation.
+  arxiv_id: '2607.24112'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.24112
+    code: https://github.com/xyliugo/gui-state-transition-pretraining
+  bibtex: |-
+    @misc{arxiv260724112,
+      title = {Scaling GUI Agents with Visual State Transitions},
+      author = {Xiangyan Liu and Kaixin Li and Haonan Wang and Biao Wu and Meng Fang and Longxu Dou and Chao Du and Michael Qizhe Shieh and Tianyu Pang},
+      year = {2026},
+      eprint = {2607.24112},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.24112}
+    }
+  bibtex_confirmed: false
+- title: 'SeekJudge: A Practical Reward Framework for Reinforcement Learning in Computer-Use Agents'
+  link: https://arxiv.org/abs/2607.23263
+  authors:
+  - Yang Wan
+  - Zhenhao Zhang
+  - Jierui Wang
+  - Linchao Zhu
+  institutions:
+  - Unknown
+  date: '2026-07-25'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - reward model
+  - reinforcement learning
+  - trajectory evaluation
+  - SeekJudge
+  tldr: |-
+    SeekJudge uses specialized Condense, Ground, Seek, and Analyze roles to judge whether long computer-use trajectories satisfy their instructions. Its distilled shared-backbone design supplies step-level reward signals intended to make model-based supervision practical for online RL.
+  arxiv_id: '2607.23263'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.23263
+  bibtex: |-
+    @misc{arxiv260723263,
+      title = {SeekJudge: A Practical Reward Framework for Reinforcement Learning in Computer-Use Agents},
+      author = {Yang Wan and Zhenhao Zhang and Jierui Wang and Linchao Zhu},
+      year = {2026},
+      eprint = {2607.23263},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.23263}
+    }
+  bibtex_confirmed: false
+- title: 'StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents'
+  link: https://arxiv.org/abs/2607.22798
+  authors:
+  - Yan Yang
+  - Xiangru Jian
+  - Ziyang Luo
+  - Zirui Zhao
+  - Yutong Dai
+  - Ziji Shi
+  - Hanshu Yan
+  - Jun Hao Liew
+  - Silvio Savarese
+  - Junnan Li
+  institutions:
+  - Unknown
+  date: '2026-07-24'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - program state
+  - multi-agent harness
+  - verification
+  - StateAct
+  tldr: |-
+    StateAct is a code-first computer-use harness that lets a main agent directly inspect and edit program state, reserving GUI interaction for subgoals that require it. An independent finish gate validates results, and fresh subagents keep long-horizon context focused.
+  arxiv_id: '2607.22798'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.22798
+  bibtex: |-
+    @misc{arxiv260722798,
+      title = {StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents},
+      author = {Yan Yang and Xiangru Jian and Ziyang Luo and Zirui Zhao and Yutong Dai and Ziji Shi and Hanshu Yan and Jun Hao Liew and Silvio Savarese and Junnan Li},
+      year = {2026},
+      eprint = {2607.22798},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.22798}
+    }
+  bibtex_confirmed: false
+- title: 'SEE: Structure-aware Exploring and Exploiting for Long-horizon GUI Agent Trajectory Synthesis'
+  link: https://arxiv.org/abs/2607.18046
+  authors:
+  - Zhuohang Fan
+  - Beichen Zhang
+  - Yuanfa Li
+  - Changqiao Wu
+  - Wei Liu
+  - Jian Luan
+  - Weigang Zhang
+  institutions:
+  - Unknown
+  date: '2026-07-20'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - trajectory synthesis
+  - UI transition graph
+  - data generation
+  - SEE
+  tldr: |-
+    SEE builds UI transition graphs through structured exploration, then synthesizes diverse long-horizon mobile trajectories with graph-based planning and controlled sampling. The method targets coverage of rare transitions while avoiding spurious interaction cycles.
+  arxiv_id: '2607.18046'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.18046
+  bibtex: |-
+    @misc{arxiv260718046,
+      title = {SEE: Structure-aware Exploring and Exploiting for Long-horizon GUI Agent Trajectory Synthesis},
+      author = {Zhuohang Fan and Beichen Zhang and Yuanfa Li and Changqiao Wu and Wei Liu and Jian Luan and Weigang Zhang},
+      year = {2026},
+      eprint = {2607.18046},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.18046}
+    }
+  bibtex_confirmed: false
+- title: 'EvoGUI: An Evolution-Aware Benchmark for GUI State-Transition Understanding'
+  link: https://arxiv.org/abs/2607.17050
+  authors:
+  - Yaohan Yang
+  - Minglei Shi
+  - Borui Zhang
+  - Jie Zhou
+  - Jiwen Lu
+  institutions:
+  - Unknown
+  date: '2026-07-19'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - state transitions
+  - visual question answering
+  - EvoGUI
+  tldr: |-
+    EvoGUI turns normalized web GUI trajectories into temporal ordering, inverse action/value prediction, and successor-state discrimination tasks. The benchmark is constructed from Mind2Web and WebLINX to isolate state-transition understanding from end-to-end agent success.
+  arxiv_id: '2607.17050'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.17050
+    code: https://github.com/Yyhhh6/EvoGUI
+  bibtex: |-
+    @misc{arxiv260717050,
+      title = {EvoGUI: An Evolution-Aware Benchmark for GUI State-Transition Understanding},
+      author = {Yaohan Yang and Minglei Shi and Borui Zhang and Jie Zhou and Jiwen Lu},
+      year = {2026},
+      eprint = {2607.17050},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.17050}
+    }
+  bibtex_confirmed: false
+- title: 'SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction'
+  link: https://arxiv.org/abs/2607.15550
+  authors:
+  - Xue Yu
+  - Bo Yuan
+  - Pengshuai Yang
+  - Kailin Zhao
+  - Hong Hu
+  - Junlan Feng
+  institutions:
+  - Unknown
+  date: '2026-07-17'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - safety
+  - world model
+  - risk assessment
+  - SeerGuard
+  tldr: |-
+    SeerGuard combines instruction screening with pre-execution action risk assessment for mobile GUI agents. Its safety-augmented world model jointly predicts likely next states and action risk so the agent can reject harmful actions before execution.
+  arxiv_id: '2607.15550'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.15550
+  bibtex: |-
+    @misc{arxiv260715550,
+      title = {SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction},
+      author = {Xue Yu and Bo Yuan and Pengshuai Yang and Kailin Zhao and Hong Hu and Junlan Feng},
+      year = {2026},
+      eprint = {2607.15550},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.15550}
+    }
+  bibtex_confirmed: false
+- title: 'SCALECUA: Scaling Computer Use Agents with Verifiable Task Synthesis and Efficient Online RL'
+  link: https://arxiv.org/abs/2607.11185
+  authors:
+  - Bowen Lv
+  - Xiao Liu
+  - Yanyu Ren
+  - Hanyu Lai
+  - Bohao Jing
+  - Hanchen Zhang
+  - Yanxiao Zhao
+  - Shuntian Yao
+  - Jie Tang
+  - Yuxiao Dong
+  institutions:
+  - Unknown
+  date: '2026-07-13'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Web
+  keywords:
+  - reinforcement learning
+  - verifiable task synthesis
+  - training framework
+  - SCALECUA
+  tldr: |-
+    SCALECUA couples Docker-based verifiable task synthesis with frontier sampling and a visual-context segmentation training system for online CUA reinforcement learning. The released framework covers task generation, RL training, and OSWorld/ScienceBoard evaluation.
+  arxiv_id: '2607.11185'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.11185
+    code: https://github.com/THUDM/SCALE-CUA
+  bibtex: |-
+    @misc{arxiv260711185,
+      title = {SCALECUA: Scaling Computer Use Agents with Verifiable Task Synthesis and Efficient Online RL},
+      author = {Bowen Lv and Xiao Liu and Yanyu Ren and Hanyu Lai and Bohao Jing and Hanchen Zhang and Yanxiao Zhao and Shuntian Yao and Jie Tang and Yuxiao Dong},
+      year = {2026},
+      eprint = {2607.11185},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.11185}
+    }
+  bibtex_confirmed: false
+- title: 'WebRetriever: A Large-Scale Comprehensive Benchmark for Efficient Web Agent Evaluation'
+  link: https://arxiv.org/abs/2607.06118
+  authors:
+  - Wei Dong
+  - Tianyu Fu
+  - Zhe Yu
+  - Hanning Wang
+  - Anyang Su
+  - Zhizhou Fang
+  - Yuyang Chen
+  - Shuo Wang
+  - Minghui Wu
+  - Ping Jiang
+  - Zhen Lei
+  - Chenxu Zhao
+  institutions:
+  - Unknown
+  date: '2026-07-07'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - web agent evaluation
+  - navigation evaluation
+  - WebRetriever
+  tldr: |-
+    WebRetriever provides 1,550 web-agent tasks across 800 websites and evaluates navigation, knowledge-assisted interaction, and end-to-end information extraction. Its NavEval judge incorporates richer interaction context than screenshots alone for fine-grained evaluation.
+  arxiv_id: '2607.06118'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.06118
+    code: https://github.com/Mininglamp-AI/WebRetriever
+  bibtex: |-
+    @misc{arxiv260706118,
+      title = {WebRetriever: A Large-Scale Comprehensive Benchmark for Efficient Web Agent Evaluation},
+      author = {Wei Dong and Tianyu Fu and Zhe Yu and Hanning Wang and Anyang Su and Zhizhou Fang and Yuyang Chen and Shuo Wang and Minghui Wu and Ping Jiang and Zhen Lei and Chenxu Zhao},
+      year = {2026},
+      eprint = {2607.06118},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.06118}
+    }
+  bibtex_confirmed: false
 - title: 'AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction'
   link: https://arxiv.org/abs/2606.23449
   authors:
@@ -271,9 +1109,9 @@
   - Xin Wang
   - Mike Zheng Shou
   institutions:
-  - Unknown
+  - NUS
   date: '2026-06-02'
-  publisher: arXiv
+  publisher: CVPR 2026
   envs:
   - General GUI
   keywords:
@@ -320,7 +1158,6 @@
   arxiv_id: '2606.02208'
   sources:
     arxiv: https://arxiv.org/abs/2606.02208
-    homepage: https://annota-nine.vercel.app/
   bibtex: |-
     @misc{parvez2026context,
       title = {Context-Aware Workflow Decomposition for Automated Mobile UI Annotation Using Multimodal Large Language Models},
@@ -397,6 +1234,7 @@
     arxiv: https://arxiv.org/abs/2605.30884
     homepage: https://z1oong.github.io/GUI-C2/
     code: https://github.com/z1oong/GUI-C2
+    dataset: https://huggingface.co/datasets/z1oong/GUI-C2-4K
   bibtex: |-
     @misc{li2026guic2,
       title = {GUI-C²: Coarse-to-Fine GUI Grounding via Difficulty-Aware Reinforcement Learning},
@@ -660,7 +1498,7 @@
   institutions:
   - Unknown
   date: '2026-05-16'
-  publisher: arXiv
+  publisher: ICML 2026
   envs:
   - Mobile
   keywords:
@@ -674,6 +1512,8 @@
   sources:
     arxiv: https://arxiv.org/abs/2605.16883
     code: https://github.com/jinshilong-dev/SE-GA
+    dataset: https://huggingface.co/datasets/waterphd/SE-GA-dataset
+    homepage: https://jinshilong-dev.github.io/SE-GA-project/
   bibtex: |-
     @misc{jin2026sega,
       title = {SE-GA: Memory-Augmented Self-Evolution for GUI Agents},
@@ -1313,7 +2153,7 @@
   sources:
     arxiv: https://arxiv.org/abs/2604.11201
     homepage: https://cocoabench.github.io/
-    code: https://github.com/cocoabench/CocoaAgent
+    code: https://github.com/cocoabench/cocoa-agent
     dataset: https://huggingface.co/datasets/cocoabench/CocoaBench
   bibtex: |-
     @misc{hao2026cocoabench,
@@ -1598,7 +2438,6 @@
   arxiv_id: '2604.07831'
   sources:
     arxiv: https://arxiv.org/abs/2604.07831
-    code: https://github.com/HashTAG00002/UI-Injection
   bibtex: |-
     @misc{yang2026agents,
       title = {Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection},
@@ -7563,7 +8402,6 @@
   arxiv_id: '2601.12822'
   sources:
     arxiv: https://arxiv.org/abs/2601.12822
-    homepage: https://bmz-q-q.github.io/MirrorGuard/
   bibtex: |-
     @misc{zhang2026mirrorguard,
       title = {MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction},
@@ -9016,7 +9854,6 @@
   arxiv_id: '2512.11611'
   sources:
     arxiv: https://arxiv.org/abs/2512.11611
-    code: https://github.com/aiben-ch/GUI-EDA
   bibtex: |-
     @misc{li2025using,
       title = {Using GUI Agent for Electronic Design Automation},
@@ -12625,7 +13462,6 @@
   sources:
     arxiv: https://arxiv.org/abs/2508.05615
     publisher_page: https://ojs.aaai.org/index.php/AAAI/article/view/40314
-    homepage: https://zju-real.github.io/gui-rcpo
     code: https://github.com/zju-real/gui-rcpo
   bibtex: |-
     @inproceedings{du2025testtime,
@@ -12818,7 +13654,6 @@
   arxiv_id: '2508.04026'
   sources:
     arxiv: https://arxiv.org/abs/2508.04026
-    homepage: https://www.2077ai.com/dataset/dataset-veriweb
     dataset: https://huggingface.co/datasets/2077AIDataFoundation/VeriWeb
     code: https://github.com/VeriGUI-Team/VeriWeb
   bibtex: |-
@@ -21172,7 +22007,6 @@
   arxiv_id: '2404.10887'
   sources:
     arxiv: https://arxiv.org/abs/2404.10887
-    code: https://github.com/MultifacetedNLP/WebAgents-Unsupervised
   bibtex: |-
     @inproceedings{fereidouni2024grounded,
       title = {Grounded Language Agent for Product Search via Intelligent Web Interactions},
