@@ -2,6 +2,7 @@
 import { onMount, onCleanup, createSignal, For, Show } from 'solid-js';
 import * as echarts from 'echarts';
 import type { BrowserPaper } from './PaperBrowser';
+import { ENV_ORDER } from '../lib/site';
 import { normalizePublisher } from '../lib/venues';
 
 interface Props {
@@ -13,8 +14,7 @@ function isDark(): boolean {
   return document.documentElement.classList.contains('dark');
 }
 
-// Two themed palettes — earthy warm tones for light, cool muted tones for dark.
-// Each theme uses a single hue family per chart for visual quietness.
+// Restrained chart-specific palettes for light and dark themes.
 function paperColors() {
   return isDark()
     ? {
@@ -25,11 +25,17 @@ function paperColors() {
         bar: '#6b8cf0',                 // accent dark
         barAlt: '#9ab0d4',
         line: '#8aa5e8',
-        envColors: {                    // for the trend chart by env
+        envColors: {
           Web: '#6b8cf0',
           Mobile: '#d49363',
           Desktop: '#7fb39a',
           'General GUI': '#c79bd0',
+        } as Record<string, string>,
+        trendColors: {
+          Web: '#42558e',
+          Mobile: '#7b5941',
+          Desktop: '#4d6b5f',
+          'General GUI': '#745d7d',
         } as Record<string, string>,
         donut: ['#6b8cf0', '#7fb39a', '#d49363', '#c79bd0'],
         treemapTones: ['#3a4878', '#43547e', '#4d5f84', '#576b8b', '#617791', '#6c8298', '#778d9e', '#8198a4'],
@@ -50,6 +56,12 @@ function paperColors() {
           Mobile: '#a6622b',
           Desktop: '#3f7a55',
           'General GUI': '#8a527e',
+        } as Record<string, string>,
+        trendColors: {
+          Web: '#6c85cc',
+          Mobile: '#be8c61',
+          Desktop: '#769d7e',
+          'General GUI': '#ab819b',
         } as Record<string, string>,
         donut: ['#3057c4', '#3f7a55', '#a6622b', '#8a527e'],
         // single-hue earthy treemap progression (dark → light terracotta)
@@ -86,7 +98,7 @@ function quarterKey(iso: string): string {
 }
 
 function buildQuarterly(papers: BrowserPaper[]) {
-  const envs = ['Web', 'Mobile', 'Desktop', 'General GUI'];
+  const envs = [...ENV_ORDER];
   const buckets = new Map<string, Record<string, number>>();
   for (const p of papers) {
     if (!p.dateISO || p.year < 2000) continue;
@@ -128,6 +140,7 @@ export default function StatsCharts(props: Props) {
     const trend = echarts.init(trendEl, null, { renderer: 'canvas' });
     trend.setOption({
       backgroundColor: c.bg,
+      color: envs.map((env) => c.trendColors[env]),
       textStyle: SHARED_TEXT,
       tooltip: {
         ...tooltipBase(c),
@@ -158,16 +171,15 @@ export default function StatsCharts(props: Props) {
         axisTick: { show: false },
         splitLine: { lineStyle: { color: c.faint, type: 'solid' } },
       },
-      series: envs.map((e) => ({
-        name: e, type: 'area', stack: 'env',
-        type_: 'line',
-      })).map((s, i) => ({
-        name: s.name, type: 'line' as const, stack: 'env',
+      series: envs.map((name) => ({
+        name, type: 'line' as const, stack: 'env',
         smooth: 0.5, symbol: 'none' as const,
-        lineStyle: { width: 0, color: c.envColors[s.name] },
-        areaStyle: { color: c.envColors[s.name], opacity: isDark() ? 0.55 : 0.7 },
+        itemStyle: { color: c.trendColors[name] },
+        lineStyle: { width: 0, color: c.trendColors[name] },
+        // Use the final composited color directly so the legend swatch and area match.
+        areaStyle: { color: c.trendColors[name], opacity: 1 },
         emphasis: { focus: 'series' as const },
-        data: keys.map((k) => buckets.get(k)![s.name]),
+        data: keys.map((k) => buckets.get(k)![name]),
       })),
     });
     charts.push(trend);
@@ -239,7 +251,9 @@ export default function StatsCharts(props: Props) {
     const envCounter = new Map<string, number>();
     for (const p of props.papers) for (const e of p.envs) envCounter.set(e, (envCounter.get(e) ?? 0) + 1);
     const envChart = echarts.init(envEl, null, { renderer: 'canvas' });
-    const envEntries = Array.from(envCounter.entries());
+    const envEntries = ENV_ORDER
+      .map((env) => [env, envCounter.get(env) ?? 0] as const)
+      .filter(([, count]) => count > 0);
     envChart.setOption({
       backgroundColor: c.bg,
       textStyle: SHARED_TEXT,
@@ -427,26 +441,26 @@ export default function StatsCharts(props: Props) {
   });
 
   return (
-    <div class="space-y-14">
-      <section>
-        <div class="flex items-baseline justify-between mb-1">
+    <div class="space-y-14 min-w-0">
+      <section class="min-w-0">
+        <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-1">
           <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50">Quarterly publication trend</h2>
           <span class="text-xs text-ink-400 dark:text-ink-300">stacked by environment</span>
         </div>
         <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Number of papers added to the list per calendar quarter, from the earliest preprint date.</p>
-        <div ref={(el) => (trendEl = el)} class="w-full h-[340px]"></div>
+        <div ref={(el) => (trendEl = el)} class="w-full min-w-0 h-[340px]"></div>
       </section>
 
-      <section class="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-12">
-        <div>
+      <section class="grid min-w-0 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-12">
+        <div class="min-w-0">
           <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Environment split</h2>
           <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Click a slice to filter the browse.</p>
-          <div ref={(el) => (envEl = el)} class="w-full h-[360px]"></div>
+          <div ref={(el) => (envEl = el)} class="w-full min-w-0 h-[360px]"></div>
         </div>
-        <div>
+        <div class="min-w-0">
           <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top keywords</h2>
           <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Width is paper count, darker is more frequent. Click any segment or chip to filter.</p>
-          <div ref={(el) => (kwEl = el)} class="w-full h-[60px]"></div>
+          <div ref={(el) => (kwEl = el)} class="w-full min-w-0 h-[60px]"></div>
           <Show when={longTail().length > 0}>
             <div class="mt-5">
               <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-400 dark:text-ink-300 mb-3">Long tail</div>
@@ -456,23 +470,23 @@ export default function StatsCharts(props: Props) {
         </div>
       </section>
 
-      <section class="grid lg:grid-cols-2 gap-12">
-        <div>
+      <section class="grid min-w-0 lg:grid-cols-2 gap-12">
+        <div class="min-w-0">
           <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top 25 institutions</h2>
           <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Click a name to filter.</p>
-          <div ref={(el) => (instEl = el)} class="w-full h-[560px]"></div>
+          <div ref={(el) => (instEl = el)} class="w-full min-w-0 h-[560px]"></div>
         </div>
-        <div>
+        <div class="min-w-0">
           <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Top 25 authors</h2>
           <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Click a name to filter.</p>
-          <div ref={(el) => (authorEl = el)} class="w-full h-[560px]"></div>
+          <div ref={(el) => (authorEl = el)} class="w-full min-w-0 h-[560px]"></div>
         </div>
       </section>
 
-      <section>
+      <section class="min-w-0">
         <h2 class="text-base font-semibold text-ink-700 dark:text-ink-50 mb-1">Publication venues</h2>
         <p class="text-xs text-ink-400 dark:text-ink-300 mb-4">Top 15 venues, excluding arXiv-only entries.</p>
-        <div ref={(el) => (pubEl = el)} class="w-full h-[400px]"></div>
+        <div ref={(el) => (pubEl = el)} class="w-full min-w-0 h-[400px]"></div>
       </section>
     </div>
   );

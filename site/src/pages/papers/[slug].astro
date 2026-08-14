@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { loadAllPapers, type Paper } from '../../lib/parsePapers';
 import { buildBrowseUrl, ENV_EMOJI, REPO_URL } from '../../lib/site';
+import { buildSourceActions } from '../../lib/sourceLinks';
 import { normalizePublisher, bibtexVenueKind } from '../../lib/venues';
 
 interface RelatedLite {
@@ -51,6 +52,8 @@ const { paper, related } = Astro.props as { paper: Paper; related: RelatedLite[]
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteOrigin = (Astro.site ?? new URL('https://osu-nlp-group.github.io')).toString().replace(/\/$/, '');
 const detailUrl = `${siteOrigin}${base}/papers/${paper.slug}/`;
+const sourceActions = buildSourceActions(paper.sources, paper.link);
+const sameAs = Array.from(new Set([paper.link, ...sourceActions.map((source) => source.url)].filter(Boolean)));
 
 const tldrFallback = `${paper.title} — ${paper.publisher}, ${paper.date}. Authors: ${paper.authors.slice(0, 5).join(', ')}${paper.authors.length > 5 ? ', et al.' : ''}.`;
 const seoDescription = (paper.tldr || tldrFallback).slice(0, 300);
@@ -63,7 +66,7 @@ const jsonLd = [
     name: paper.title,
     abstract: paper.tldr || undefined,
     url: detailUrl,
-    sameAs: [paper.link, ...(paper.arxivId ? [`https://arxiv.org/abs/${paper.arxivId}`] : [])],
+    sameAs,
     datePublished: paper.dateISO,
     inLanguage: 'en',
     author: paper.authors.map((name) => ({ '@type': 'Person', name })),
@@ -240,12 +243,18 @@ const keywordBrowseUrl = (keyword: string) => buildBrowseUrl(base, { key: keywor
     )}
 
     <section class="mt-8 flex flex-wrap items-center gap-3">
-      <a href={paper.link} target="_blank" rel="noopener" class="btn-primary">
-        <span>Open paper</span><span aria-hidden="true">↗</span>
-      </a>
-      {paper.arxivId && (
-        <a href={`https://arxiv.org/abs/${paper.arxivId}`} target="_blank" rel="noopener" class="btn-ghost border border-paper-300/80 dark:border-ink-600/60">arXiv</a>
-      )}
+      {sourceActions.map((source, index) => (
+        <a
+          href={source.url}
+          target="_blank"
+          rel="noopener"
+          class={index === 0 ? 'btn-primary' : 'btn-ghost border border-paper-300/80 dark:border-ink-600/60'}
+        >
+          <span aria-hidden="true">{source.glyph}</span>
+          <span>{index === 0 ? 'Open paper' : source.label}</span>
+          {index === 0 && <span aria-hidden="true">↗</span>}
+        </a>
+      ))}
       <button
         type="button"
         id="copy-bib-btn"

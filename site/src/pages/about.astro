@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         The <a class="link" href={REPO_URL} target="_blank" rel="noopener">GUI Agents Paper List</a> is a curated, openly maintained index of research on agents that interact with graphical user interfaces — on the web, on mobile, on desktop, and across general-GUI settings.
       </p>
       <p>
-        This site is a <strong>presentation layer</strong>: every paper, link, author, and tag here lives in <a class="link" href={`${REPO_RAW_BLOB}/papers.yaml`} target="_blank" rel="noopener"><code>papers.yaml</code></a>. The site adds search, filters, and visualizations, but the source of truth is the structured YAML file in the repo. Each entry also carries an auto-generated BibTeX block and optional source links (OpenReview, publisher page, homepage, code, dataset).
+        This site is a <strong>presentation layer</strong>: every paper, link, author, and tag here lives in <a class="link" href={`${REPO_RAW_BLOB}/papers.yaml`} target="_blank" rel="noopener"><code>papers.yaml</code></a>. The site adds search, filters, visualizations, and an auto-generated BibTeX export, while the structured YAML file remains the source of truth. Entries can also include source links for OpenReview, publisher pages, homepages, code, and datasets.
       </p>
 
       <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">Scope</h2>
@@ -29,7 +29,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">How papers are added</h2>
       <p>
-        Each entry has a fixed nine-field structure: <code>title · link · authors · institutions · date · publisher · env · keywords · TLDR</code>. The repository's <a class="link" href={`${REPO_RAW_BLOB}/CLAUDE.md`} target="_blank" rel="noopener">contribution guide</a> describes the canonical formatting rules — keyword conventions, environment tags, date format — and a local pipeline regenerates the README, the per-env / per-keyword / per-author groupings, and the statistics figures whenever the source markdown changes.
+        Each entry has a fixed nine-field structure: <code>title · link · authors · institutions · date · publisher · envs · keywords · TLDR</code>. The repository's <a class="link" href={`${REPO_RAW_BLOB}/CLAUDE.md`} target="_blank" rel="noopener">contribution guide</a> describes the canonical formatting rules — keyword conventions, environment tags, date format — and a local pipeline regenerates the README, its groupings, and the statistics figures whenever the structured YAML changes.
       </p>
       <p>
         For dates, we always use the <strong>earliest known public release</strong>: arXiv v1 / first preprint over a later venue version, so the date reflects the work's true age rather than the latest revision.
@@ -38,13 +38,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">Contribute</h2>
       <ul class="list-disc pl-5 space-y-1.5">
         <li><strong>Suggest a paper</strong>: <a class="link" href={`${REPO_URL}/issues/new`} target="_blank" rel="noopener">open an issue</a> with the title, link, and any relevant details.</li>
-        <li><strong>Fix metadata</strong>: every paper card has an "Edit on GitHub" link that takes you to the entry's exact line in the markdown source.</li>
+        <li><strong>Fix metadata</strong>: every paper card has an "Edit on GitHub" link that takes you to the entry's exact line in <code>papers.yaml</code>.</li>
         <li><strong>Add yourself</strong>: edit <code>papers.yaml</code>, run <code>bash scripts/update_repo.sh</code>, and submit a PR with the regenerated diff. The schema is documented in the repo's <code>CLAUDE.md</code>.</li>
       </ul>
 
       <h2 class="text-xl font-semibold text-ink-700 dark:text-ink-50 mt-10">A note on the site</h2>
       <p>
-        This site is intentionally narrow. It only shows what's in the public markdown — no abstracts, no extra metadata, no opaque scoring. If you'd like to see something added, the path is the same as adding any other change: edit the source, open a PR.
+        This site is intentionally narrow. It only shows what's in the public YAML — no abstracts, no hidden metadata, no opaque scoring. If you'd like to see something added, the path is the same as adding any other change: edit the source, open a PR.
       </p>
 
       <p class="text-sm text-ink-400 dark:text-ink-300 mt-12">

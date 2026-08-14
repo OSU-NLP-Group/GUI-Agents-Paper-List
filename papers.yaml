@@ -274,6 +274,43 @@
       url = {https://arxiv.org/abs/2608.04741}
     }
   bibtex_confirmed: false
+- title: 'GUI-Lens: Coarse-to-Fine Cropping for GUI Grounding with General-Purpose VLMs'
+  link: https://arxiv.org/abs/2608.03270
+  authors:
+  - Zichuan Fu
+  - Shirong Wang
+  - Wenlin Zhang
+  - Guojing Li
+  - Yimin Deng
+  - Jingtong Gao
+  - Junjia Qi
+  - Hanyu Yan
+  - Yefeng Zheng
+  - Xiaopeng Li
+  - Wanyu Wang
+  - Xian Wu
+  - Xiangyu Zhao
+  institutions:
+  - CityU
+  - Tencent Jarvis Lab
+  - Westlake University
+  date: '2026-08-04'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI-Lens
+  - GUI grounding
+  - coarse-to-fine cropping
+  - coordinate priming
+  - visual verification
+  tldr: |-
+    GUI-Lens turns GUI grounding into an iterative visual-search process: OCR and detected components provide coordinate references, a general-purpose VLM selects progressively enlarged crops, and separate verification gates reject bad crop or click proposals. Across four grounding benchmarks and three VLM backends, the paper reports gains of up to 24.9 percentage points, with GPT-5.5 reaching 87.9% on ScreenSpot-Pro.
+  arxiv_id: '2608.03270'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.03270
+    code: https://github.com/Fzkuji/GUI-Agent-Harness
+  bibtex_confirmed: false
 - title: Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents
   link: https://arxiv.org/abs/2608.03327
   authors:
@@ -1212,6 +1249,39 @@
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2606.04701}
     }
+  bibtex_confirmed: false
+- title: Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval
+  link: https://arxiv.org/abs/2606.04391
+  authors:
+  - Jiaxi Li
+  - Ke Deng
+  - Yun Wang
+  - Jingyuan Huang
+  - Yucheng Shi
+  - Qiaoyu Tan
+  - Jin Lu
+  - Ninghao Liu
+  institutions:
+  - University of Georgia
+  - Tencent America
+  - New York University
+  - PolyU
+  date: '2026-06-03'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - SGDR
+  - online skill learning
+  - dynamic retrieval
+  - executable skills
+  - WebArena
+  tldr: |-
+    SGDR converts successful WebArena trajectories into verified, executable text-code subprocedures using sliding windows, then retrieves a diverse skill set at every step from both the current page state and task goal rather than once per task. It raises average success to 37.5% with GPT-4.1 and 24.3% with Qwen3-4B, improvements of 3.6 and 2.2 percentage points over the strongest compared baseline.
+  arxiv_id: '2606.04391'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.04391
+    code: https://github.com/plusnli/online-skill-learning
   bibtex_confirmed: false
 - title: 'Demo2Tutorial: From Human Experience to Multimodal Software Tutorials'
   link: https://arxiv.org/abs/2606.03951
@@ -9334,7 +9404,7 @@
     }
   bibtex_confirmed: false
 - title: 'MAI-UI Technical Report: Real-World Centric Foundation GUI Agents'
-  link: https://arxiv.org/abs/2512.22047
+  link: https://tongyi-mai.github.io/MAI-UI-blog/
   authors:
   - Hanzhang Zhou
   - Xu Zhang
@@ -9367,6 +9437,8 @@
   arxiv_id: '2512.22047'
   sources:
     arxiv: https://arxiv.org/abs/2512.22047
+    homepage: https://tongyi-mai.github.io/MAI-UI-blog/
+    code: https://github.com/Tongyi-MAI/MAI-UI/tree/main/MAI-UI
   bibtex: |-
     @misc{zhou2025maiui,
       title = {MAI-UI Technical Report: Real-World Centric Foundation GUI Agents},
