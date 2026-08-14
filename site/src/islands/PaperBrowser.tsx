@@ -42,6 +42,21 @@ const ENV_ICON: Record<string, string> = {
 
 type SortKey = 'date-desc' | 'date-asc' | 'title-asc' | 'title-desc' | 'random' | 'relevance';
 
+const SORT_KEYS = new Set<SortKey>([
+  'date-desc', 'date-asc', 'title-asc', 'title-desc', 'random', 'relevance',
+]);
+
+function defaultSortForQuery(query: string): SortKey {
+  return query.trim() ? 'relevance' : 'date-desc';
+}
+
+function readSort(raw: string | null, query: string): SortKey {
+  const fallback = defaultSortForQuery(query);
+  if (!raw || !SORT_KEYS.has(raw as SortKey)) return fallback;
+  if (raw === 'relevance' && !query.trim()) return fallback;
+  return raw as SortKey;
+}
+
 // Deterministic PRNG so "Random" shuffle is stable while filters
 // don't change. Tiny — no dependency.
 function mulberry32(a: number): () => number {
@@ -87,10 +102,11 @@ function readUrlState(): {
 } {
   const url = new URL(window.location.href);
   const ps = url.searchParams;
+  const q = ps.get('q') ?? '';
   const csv = (k: string) =>
     new Set((ps.getAll(k).flatMap((v) => v.split(',')).map((v) => v.trim()).filter(Boolean)));
   return {
-    q: ps.get('q') ?? '',
+    q,
     envs: csv('env'),
     keys: csv('key'),
     authors: csv('author'),
@@ -98,7 +114,7 @@ function readUrlState(): {
     publishers: csv('pub'),
     fromMonth: coerceMonthStr(ps.get('from')),
     toMonth: coerceMonthStr(ps.get('to')),
-    sort: (ps.get('sort') as any) ?? 'date-desc',
+    sort: readSort(ps.get('sort'), q),
     includeAdjacent: ps.get('adj') === '1',
   };
 }
@@ -119,7 +135,7 @@ function writeUrlState(state: ReturnType<typeof readUrlState>) {
   setOrDelete('pub', join(state.publishers));
   setOrDelete('from', state.fromMonth ?? '');
   setOrDelete('to', state.toMonth ?? '');
-  setOrDelete('sort', state.sort === 'date-desc' ? '' : state.sort);
+  setOrDelete('sort', state.sort === defaultSortForQuery(state.q) ? '' : state.sort);
   setOrDelete('adj', state.includeAdjacent ? '1' : '');
   history.replaceState(null, '', url.toString());
 }
@@ -335,6 +351,17 @@ export default function PaperBrowser(props: Props) {
     setQ(''); setEnvs(new Set<string>()); setKeys(new Set<string>()); setAuthors(new Set<string>());
     setInstitutions(new Set<string>()); setPublishers(new Set<string>());
     setFromMonth(null); setToMonth(null); setSort('date-desc');
+    setShowLimit(PAGE_SIZE);
+  };
+
+  const setSearchQuery = (value: string) => {
+    const hadQuery = q().trim().length > 0;
+    const hasQuery = value.trim().length > 0;
+    const currentSort = sort();
+
+    setQ(value);
+    if (!hadQuery && hasQuery && currentSort === 'date-desc') setSort('relevance');
+    if (hadQuery && !hasQuery && currentSort === 'relevance') setSort('date-desc');
     setShowLimit(PAGE_SIZE);
   };
 
@@ -562,7 +589,7 @@ export default function PaperBrowser(props: Props) {
               class="input pl-9 pr-9"
               value={q()}
               ref={(el) => (searchInput = el)}
-              onInput={(e) => { setQ(e.currentTarget.value); setShowLimit(PAGE_SIZE); }}
+              onInput={(e) => setSearchQuery(e.currentTarget.value)}
             />
             <svg viewBox="0 0 24 24" width="16" height="16" class="absolute left-3 top-1/2 -translate-y-1/2 text-ink-400" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
             <Show when={!q()}>
@@ -574,15 +601,15 @@ export default function PaperBrowser(props: Props) {
             value={sort()}
             onChange={setSort}
             options={[
+              // Relevance is the contextual default whenever a query is active.
+              ...(q().trim()
+                ? [{ value: 'relevance' as SortKey, label: 'Best match' }]
+                : []),
               { value: 'date-desc',  label: 'Newest first' },
               { value: 'date-asc',   label: 'Oldest first' },
               { value: 'title-asc',  label: 'Title  A → Z' },
               { value: 'title-desc', label: 'Title  Z → A' },
               { value: 'random',     label: 'Random' },
-              // "Best match" only makes sense with an active query.
-              ...(q().trim()
-                ? [{ value: 'relevance' as SortKey, label: 'Best match' }]
-                : []),
             ]}
           />
           <div class="text-sm text-ink-400 dark:text-ink-300 ml-auto">
@@ -598,7 +625,7 @@ export default function PaperBrowser(props: Props) {
             <Show when={q().trim().length > 0}>
               <button
                 class="chip chip-active"
-                onClick={() => setQ('')}
+                onClick={() => setSearchQuery('')}
                 title="Clear search query"
               >
                 <span class="opacity-70 mr-1">search:</span>“{q().trim()}” <span class="ml-1">×</span>
