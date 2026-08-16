@@ -2,6 +2,49 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications'
+  link: https://arxiv.org/abs/2608.11588
+  authors:
+  - Linqiang Guo
+  - Li Gu
+  - Zihuan Jiang
+  - Zhixiang Chi
+  - Siobhan Reid
+  - Ziqiang Wang
+  - Yuanhao Yu
+  - Wei Liu
+  - Yang Wang
+  - Tse-Hsun (Peter) Chen
+  institutions:
+  - Concordia University
+  - Mila
+  - University of Toronto
+  - McMaster University
+  date: '2026-08-12'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - CoAdapt-GUI
+  - test-time adaptation
+  - workflow context
+  - GRPO
+  - AndroidWorld-Generalization
+  tldr: |-
+    Mobile GUI agents stay brittle on applications absent from source training, so CoAdapt-GUI performs test-time adaptation that jointly updates a structured workflow context and the policy from the agent's own target-app rollouts and rewards. The workflow context retains transferable procedures, failure modes, and verification rules while excluding app-bound source details, and policy adaptation uses a task-context-matched group-relative objective over a LoRA adapter on a frozen VLM. It reaches 45.0% on AndroidWorld-Generalization against 37.5% for the reported Policy-Only TTA baseline, and lifts AndroidWorld Plus from 38.6% to 52.9%.
+  arxiv_id: '2608.11588'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.11588
+  bibtex: |-
+    @misc{guo2026coadapt,
+      title = {CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications},
+      author = {Linqiang Guo and Li Gu and Zihuan Jiang and Zhixiang Chi and Siobhan Reid and Ziqiang Wang and Yuanhao Yu and Wei Liu and Yang Wang and Tse-Hsun Chen},
+      year = {2026},
+      eprint = {2608.11588},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.11588}
+    }
+  bibtex_confirmed: false
 - title: Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching
   link: https://arxiv.org/abs/2608.09654
   authors:
