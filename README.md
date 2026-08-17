@@ -2870,14 +2870,14 @@ We welcome contributions from the community!
     - 🔑 Key: [MCP], [MVVM], [GUI tree router], [speech-enabled assistants], [voice accessibility]
     - 📖 TLDR: This paper proposes an MCP-driven GUI architecture that lets existing applications expose navigation structure and action semantics to speech-enabled assistants through ViewModels and a GUI tree router. The design targets multimodal interaction with aligned spoken and visual feedback, and the paper also reports a small evaluation of locally deployable open-weight models for this setting.
 
-- [Are CAPTCHAs Still Bot-hard? Generalized Visual CAPTCHA Solving with Agentic Vision Language Model](https://www.usenix.org/conference/usenixsecurity25/presentation/teoh)
+- [Are CAPTCHAs Still Bot-hard? Generalized Visual CAPTCHA Solving with Agentic Vision Language Model](https://halligan.pages.dev/)
     - Xiwen Teoh, Yun Lin, Siqi Li, Ruofan Liu, Avi Sollomoni, Yaniv Harel, Jin Song Dong
-    - 🏛️ Institutions: NUS
+    - 🏛️ Institutions: SJTU, NUS, Tel Aviv University
     - 📅 Date: August 2025
     - 📑 Publisher: USENIX Security 2025
     - 💻 Env: [Web]
-    - 🔑 Key: [Halligan], [CAPTCHA], [benchmark], [visual reasoning], [web agents]
-    - 📖 TLDR: The paper studies whether modern visual CAPTCHAs remain difficult for autonomous agents and introduces Halligan, a generalized visual CAPTCHA solver built on a vision-language model without per-challenge adaptation. Across diverse unseen visual CAPTCHA tasks, Halligan solves challenges through agentic visual reasoning and interaction, showing that current CAPTCHA defenses can be vulnerable to general-purpose AI agents.
+    - 🔑 Key: [Halligan], [CAPTCHA], [benchmark], [visual reasoning]
+    - 📖 TLDR: Halligan reduces visual CAPTCHA solving to a search problem over a standardized metamodel of frames, elements, and keypoints, letting one agentic vision-language model generalize across CAPTCHA types without per-challenge adaptation. It solves 60.7% of 2,600 challenges spanning 26 visual CAPTCHAs, and 70.6% of previously unseen CAPTCHAs in a 30-day field study, arguing that current visual CAPTCHA defenses are no longer reliably bot-hard.
 
 - [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://arxiv.org/abs/2508.20096)
     - Zeyi Sun, Yuhang Cao, Jianze Liang, Qiushi Sun, Ziyu Liu, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
@@ -3050,15 +3050,6 @@ We welcome contributions from the community!
     - 🔑 Key: [model], [reinforcement learning], [GUI grounding], [continuous reward], [cropping-based resampling], [decomposed grounding], [ScreenSpot-pro], [UI-AGILE]
     - 📖 TLDR: UI-AGILE improves GUI agents through a continuous reward function that incentivizes high-precision grounding, a cropping-based resampling strategy for data efficiency, and decomposed grounding with selection for inference-time accuracy on high-resolution displays. It achieves 23% grounding accuracy improvement over baselines on ScreenSpot-Pro.
 
-- [GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs](https://arxiv.org/abs/2506.07385)
-    - Ruofan Liu, Xiwen Teoh, Yun Lin, Guanjie Chen, Ruofei Ren, Denys Poshyvanyk, Jin Song Dong
-    - 🏛️ Institutions: NUS, William & Mary
-    - 📅 Date: June 2025
-    - 📑 Publisher: Proc. ACM Softw. Eng. (ISSTA 2025)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [GUIPilot], [GUI testing], [model-based testing], [visual grounding], [application-specific bugs]
-    - 📖 TLDR: GUIPilot detects application-specific mobile GUI bugs by checking both screen-level and process-level consistency between design mock-ups and the implemented app. It aligns widgets to identify layout inconsistencies and uses a vision-language model to execute and validate specified GUI transitions, achieving 99.8% precision and 98.6% recall on 80 apps and 160 mock-ups.
-
 - [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
     - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
     - 🏛️ Institutions: Tsinghua
@@ -3076,6 +3067,15 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile]
     - 🔑 Key: [self-reflection], [error correction], [reflection tuning], [GUI-Reflection Task Suite], [GUI-Reflection]
     - 📖 TLDR: GUI-Reflection adds explicit self-reflection and error-correction behavior to mobile GUI models through GUI-specific pretraining, offline reflection supervision, and online reflection tuning. It also introduces the GUI-Reflection Task Suite and a mobile online-training environment for studying reflection-oriented abilities directly.
+
+- [GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs](https://arxiv.org/abs/2506.07385)
+    - Ruofan Liu, Xiwen Teoh, Yun Lin, Guanjie Chen, Ruofei Ren, Denys Poshyvanyk, Jin Song Dong
+    - 🏛️ Institutions: SJTU, NUS, William & Mary
+    - 📅 Date: June 09, 2025
+    - 📑 Publisher: ISSTA 2025
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [GUIPilot], [GUI testing], [model-based testing], [visual grounding], [application-specific bugs]
+    - 📖 TLDR: GUIPilot detects application-specific mobile GUI bugs by checking both screen-level and process-level consistency between design mock-ups and the implemented app. It solves a widget alignment problem to find layout inconsistencies and uses a vision-language model with visual prompts to execute and validate specified GUI transitions, reaching 94.5% precision and 99.6% recall on 80 apps and 160 mock-ups and surfacing nine confirmed bugs in a trading app with 32 million users.
 
 - [MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents](https://arxiv.org/abs/2506.07672)
     - Yunhe Yan, Shihe Wang, Jiajun Du, Yexuan Yang, Yuxuan Shan, Qichen Qiu, Xianqing Jia, Xinge Wang, Xin Yuan, Xu Han, Mao Qin, Yinxiao Chen, Chen Peng, Shangguang Wang, Mengwei Xu

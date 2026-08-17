@@ -13265,7 +13265,7 @@
     }
   bibtex_confirmed: false
 - title: Are CAPTCHAs Still Bot-hard? Generalized Visual CAPTCHA Solving with Agentic Vision Language Model
-  link: https://www.usenix.org/conference/usenixsecurity25/presentation/teoh
+  link: https://halligan.pages.dev/
   authors:
   - Xiwen Teoh
   - Yun Lin
@@ -13275,7 +13275,9 @@
   - Yaniv Harel
   - Jin Song Dong
   institutions:
+  - SJTU
   - NUS
+  - Tel Aviv University
   date: 2025-08
   publisher: USENIX Security 2025
   envs:
@@ -13285,9 +13287,8 @@
   - CAPTCHA
   - benchmark
   - visual reasoning
-  - web agents
   tldr: |-
-    The paper studies whether modern visual CAPTCHAs remain difficult for autonomous agents and introduces Halligan, a generalized visual CAPTCHA solver built on a vision-language model without per-challenge adaptation. Across diverse unseen visual CAPTCHA tasks, Halligan solves challenges through agentic visual reasoning and interaction, showing that current CAPTCHA defenses can be vulnerable to general-purpose AI agents.
+    Halligan reduces visual CAPTCHA solving to a search problem over a standardized metamodel of frames, elements, and keypoints, letting one agentic vision-language model generalize across CAPTCHA types without per-challenge adaptation. It solves 60.7% of 2,600 challenges spanning 26 visual CAPTCHAs, and 70.6% of previously unseen CAPTCHAs in a 30-day field study, arguing that current visual CAPTCHA defenses are no longer reliably bot-hard.
   sources:
     publisher_page: https://www.usenix.org/conference/usenixsecurity25/presentation/teoh
     code: https://github.com/code-philia/Halligan
@@ -14255,54 +14256,6 @@
       url = {https://arxiv.org/abs/2507.22025}
     }
   bibtex_confirmed: false
-- title: 'GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs'
-  link: https://arxiv.org/abs/2506.07385
-  authors:
-  - Ruofan Liu
-  - Xiwen Teoh
-  - Yun Lin
-  - Guanjie Chen
-  - Ruofei Ren
-  - Denys Poshyvanyk
-  - Jin Song Dong
-  institutions:
-  - NUS
-  - William & Mary
-  date: 2025-06
-  publisher: Proc. ACM Softw. Eng. (ISSTA 2025)
-  envs:
-  - Mobile
-  keywords:
-  - GUIPilot
-  - GUI testing
-  - model-based testing
-  - visual grounding
-  - application-specific bugs
-  tldr: |-
-    GUIPilot detects application-specific mobile GUI bugs by checking both screen-level and process-level consistency between design mock-ups and the implemented app. It aligns widgets to identify layout inconsistencies and uses a vision-language model to execute and validate specified GUI transitions, achieving 99.8% precision and 98.6% recall on 80 apps and 160 mock-ups.
-  sources:
-    arxiv: https://arxiv.org/abs/2506.07385
-    publisher_page: https://doi.org/10.1145/3728909
-    code: https://github.com/code-philia/GUIPilot
-  bibtex: |-
-    @article{10.1145/3728909,
-      author = {Liu, Ruofan and Teoh, Xiwen and Lin, Yun and Chen, Guanjie and Ren, Ruofei and Poshyvanyk, Denys and Dong, Jin Song},
-      title = {GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs},
-      year = {2025},
-      issue_date = {July 2025},
-      publisher = {Association for Computing Machinery},
-      address = {New York, NY, USA},
-      volume = {2},
-      number = {ISSTA},
-      url = {https://doi.org/10.1145/3728909},
-      doi = {10.1145/3728909},
-      journal = {Proc. ACM Softw. Eng.},
-      month = jun,
-      articleno = {ISSTA034},
-      numpages = {24},
-      keywords = {GUI Testing, Mockup Violation}
-    }
-  bibtex_confirmed: true
 - title: 'FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents'
   link: https://arxiv.org/abs/2507.21071
   authors:
@@ -14384,6 +14337,55 @@
       url = {https://arxiv.org/abs/2506.08012}
     }
   bibtex_confirmed: false
+- title: 'GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs'
+  link: https://arxiv.org/abs/2506.07385
+  authors:
+  - Ruofan Liu
+  - Xiwen Teoh
+  - Yun Lin
+  - Guanjie Chen
+  - Ruofei Ren
+  - Denys Poshyvanyk
+  - Jin Song Dong
+  institutions:
+  - SJTU
+  - NUS
+  - William & Mary
+  date: '2025-06-09'
+  publisher: ISSTA 2025
+  envs:
+  - Mobile
+  keywords:
+  - GUIPilot
+  - GUI testing
+  - model-based testing
+  - visual grounding
+  - application-specific bugs
+  tldr: |-
+    GUIPilot detects application-specific mobile GUI bugs by checking both screen-level and process-level consistency between design mock-ups and the implemented app. It solves a widget alignment problem to find layout inconsistencies and uses a vision-language model with visual prompts to execute and validate specified GUI transitions, reaching 94.5% precision and 99.6% recall on 80 apps and 160 mock-ups and surfacing nine confirmed bugs in a trading app with 32 million users.
+  sources:
+    arxiv: https://arxiv.org/abs/2506.07385
+    publisher_page: https://doi.org/10.1145/3728909
+    code: https://github.com/code-philia/GUIPilot
+  bibtex: |-
+    @article{10.1145/3728909,
+      author = {Liu, Ruofan and Teoh, Xiwen and Lin, Yun and Chen, Guanjie and Ren, Ruofei and Poshyvanyk, Denys and Dong, Jin Song},
+      title = {GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs},
+      year = {2025},
+      issue_date = {July 2025},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      volume = {2},
+      number = {ISSTA},
+      url = {https://doi.org/10.1145/3728909},
+      doi = {10.1145/3728909},
+      journal = {Proc. ACM Softw. Eng.},
+      month = jun,
+      articleno = {ISSTA034},
+      numpages = {24},
+      keywords = {GUI Testing, Mockup Violation}
+    }
+  bibtex_confirmed: true
 - title: 'MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents'
   link: https://arxiv.org/abs/2506.07672
   authors:
