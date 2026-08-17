@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **588** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **590** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ## 🌐 Read this list on the web
 
@@ -24,10 +24,10 @@ The structured store [`papers.yaml`](papers.yaml) (and [`adjacent.yaml`](adjacen
 ![Top 25 research keywords](readme_template/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (235)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (138)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (178)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (125)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
+🌐 [Web (236)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (138)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (179)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (125)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
 
 ## Browse by Keyword
-[benchmark (185)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (102)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (62)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (60)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (32)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (24)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [WebArena (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena) · [OSWorld (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld)<br>[long-horizon tasks (17)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [reward model (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [world model (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [planning (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning)<br>[GRPO (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO) · [survey (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey) · [memory (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [prompt injection (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [AndroidWorld (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld)
+[benchmark (186)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (102)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (62)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (60)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (32)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (24)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [WebArena (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena) · [OSWorld (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld)<br>[long-horizon tasks (17)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [reward model (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [world model (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [planning (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning)<br>[GRPO (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO) · [survey (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey) · [memory (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [prompt injection (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [AndroidWorld (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld)
 
 ## Browse by Author
 [Wei Liu (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig) · [Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su) · [Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Jian Luan (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan)<br>[Mike Zheng Shou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou) · [Zhuosheng Zhang (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Tao Yu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Shuyan Zhou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou)<br>[Tianbao Xie (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tianbao+Xie) · [Qiushi Sun (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Yuanchun Li (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuanchun+Li) · [Kevin Qinghong Lin (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin) · [Yuxiang Chai (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai)<br>[Han Xiao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Han+Xiao) · [Kun Shao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kun+Shao) · [Jun Wang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jun+Wang) · [Zichen Ding (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zichen+Ding) · [Zhiyong Wu (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhiyong+Wu)
@@ -2870,6 +2870,15 @@ We welcome contributions from the community!
     - 🔑 Key: [MCP], [MVVM], [GUI tree router], [speech-enabled assistants], [voice accessibility]
     - 📖 TLDR: This paper proposes an MCP-driven GUI architecture that lets existing applications expose navigation structure and action semantics to speech-enabled assistants through ViewModels and a GUI tree router. The design targets multimodal interaction with aligned spoken and visual feedback, and the paper also reports a small evaluation of locally deployable open-weight models for this setting.
 
+- [Are CAPTCHAs Still Bot-hard? Generalized Visual CAPTCHA Solving with Agentic Vision Language Model](https://www.usenix.org/conference/usenixsecurity25/presentation/teoh)
+    - Xiwen Teoh, Yun Lin, Siqi Li, Ruofan Liu, Avi Sollomoni, Yaniv Harel, Jin Song Dong
+    - 🏛️ Institutions: NUS
+    - 📅 Date: August 2025
+    - 📑 Publisher: USENIX Security 2025
+    - 💻 Env: [Web]
+    - 🔑 Key: [Halligan], [CAPTCHA], [benchmark], [visual reasoning], [web agents]
+    - 📖 TLDR: The paper studies whether modern visual CAPTCHAs remain difficult for autonomous agents and introduces Halligan, a generalized visual CAPTCHA solver built on a vision-language model without per-challenge adaptation. Across diverse unseen visual CAPTCHA tasks, Halligan solves challenges through agentic visual reasoning and interaction, showing that current CAPTCHA defenses can be vulnerable to general-purpose AI agents.
+
 - [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://arxiv.org/abs/2508.20096)
     - Zeyi Sun, Yuhang Cao, Jianze Liang, Qiushi Sun, Ziyu Liu, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
     - 🏛️ Institutions: SJTU, Shanghai AI Laboratory, CUHK, HKU
@@ -3040,6 +3049,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [model], [reinforcement learning], [GUI grounding], [continuous reward], [cropping-based resampling], [decomposed grounding], [ScreenSpot-pro], [UI-AGILE]
     - 📖 TLDR: UI-AGILE improves GUI agents through a continuous reward function that incentivizes high-precision grounding, a cropping-based resampling strategy for data efficiency, and decomposed grounding with selection for inference-time accuracy on high-resolution displays. It achieves 23% grounding accuracy improvement over baselines on ScreenSpot-Pro.
+
+- [GUIPilot: A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs](https://arxiv.org/abs/2506.07385)
+    - Ruofan Liu, Xiwen Teoh, Yun Lin, Guanjie Chen, Ruofei Ren, Denys Poshyvanyk, Jin Song Dong
+    - 🏛️ Institutions: NUS, William & Mary
+    - 📅 Date: June 2025
+    - 📑 Publisher: Proc. ACM Softw. Eng. (ISSTA 2025)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [GUIPilot], [GUI testing], [model-based testing], [visual grounding], [application-specific bugs]
+    - 📖 TLDR: GUIPilot detects application-specific mobile GUI bugs by checking both screen-level and process-level consistency between design mock-ups and the implemented app. It aligns widgets to identify layout inconsistencies and uses a vision-language model to execute and validate specified GUI transitions, achieving 99.8% precision and 98.6% recall on 80 apps and 160 mock-ups.
 
 - [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
     - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
@@ -4525,21 +4543,3 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile]
     - 🔑 Key: [dataset], [mobile GUI control], [multi-level annotations], [element grounding], [GUI-action chains], [AMEX]
     - 📖 TLDR: AMEX is a mobile GUI-control dataset with over 104K high-resolution screenshots annotated at three levels: interactive element grounding, screen and element functionality descriptions, and instruction-action chains. The paper positions it as a supplementary training resource for generalist mobile agents and shows gains after fine-tuning SPHINX Agent on the collected annotations.
-
-- [Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps](https://arxiv.org/abs/2407.03037)
-    - Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Mengzhuo Chen, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
-    - 🏛️ Institutions: Institute of Software, CAS, University of Chinese Academy of Sciences, TUM
-    - 📅 Date: July 03, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [GUI testing], [non-crash bug detection], [vision-driven testing], [multi-agent collaboration], [Trident]
-    - 📖 TLDR: This paper introduces Trident, a vision-driven mobile GUI testing system with Explorer, Monitor, and Detector agents for finding non-crash functional bugs from screenshot sequences and transition logic. It evaluates on 590 non-crash bugs, reports large recall and precision gains over 12 baselines, and finds 43 new Google Play bugs, 31 of which were fixed.
-
-- [CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents](https://aclanthology.org/2025.findings-acl.1113/)
-    - Tianqi Xu, Linyao Chen, Dai-Jie Wu, Yanjun Chen, Zecheng Zhang, Xiang Yao, Zhiqiang Xie, Yongchao Chen, Shilong Liu, Bochen Qian, Anjie Yang, Zhaoxuan Jin, Jianbo Deng, Philip Torr, Bernard Ghanem, Guohao Li
-    - 🏛️ Institutions: KAUST, Eigent.AI, CAMEL-AI.org, UTokyo, CMU, Stanford, Harvard, Tsinghua, SUSTech, Oxford, NU
-    - 📅 Date: July 01, 2024
-    - 📑 Publisher: Findings of ACL 2025
-    - 💻 Env: [Desktop], [Mobile]
-    - 🔑 Key: [benchmark], [cross-environment tasks], [graph-based evaluation], [task generation], [CRAB]
-    - 📖 TLDR: CRAB is a benchmark framework for multimodal agents that supports cross-environment tasks and graph-based fine-grained evaluation instead of single-platform end-state scoring. Its CRAB Benchmark-v0 release contains 120 desktop and mobile tasks, and the paper reports a best completion ratio of 38.01% from a single GPT-4o agent.
