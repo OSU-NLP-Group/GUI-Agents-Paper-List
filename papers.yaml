@@ -2,6 +2,51 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'Are Android GUI Agents Robust Against Runtime Anomalies? AnTrap: Evaluating Agents in Dynamic Adversarial Environments'
+  link: https://arxiv.org/abs/2608.24099
+  authors:
+  - Guo Gan
+  - Yilun Zhao
+  - Cong Chen
+  - Jinbiao Wei
+  - Tingyu Song
+  - Zheyuan Yang
+  - Lin Fu
+  - Hong Zhou
+  institutions:
+  - Zhejiang University
+  - Yale University
+  - University of Chinese Academy of Sciences
+  - Tongji University
+  date: '2026-08-25'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - AnTrap
+  - benchmark
+  - reinforcement learning
+  - safety
+  - security
+  - GRPO
+  - AndroidWorld
+  tldr: |-
+    AnTrap is an AndroidWorld-based benchmark that injects controllable runtime anomalies, organized into four categories with ten subcategories, into Android GUI-agent trajectories. Testing 16 leading GUI agents reveals substantial robustness degradation under these anomalies, and adversarial RL training can address many single-step traps but struggles with deep contextual failures such as state deadlock.
+  arxiv_id: '2608.24099'
+  sources:
+    arxiv: https://arxiv.org/abs/2608.24099
+    code: https://github.com/gguogan/AnTrap
+    dataset: https://github.com/gguogan/AnTrap
+  bibtex: |-
+    @misc{gan2026antrap,
+      title = {Are Android GUI Agents Robust Against Runtime Anomalies? AnTrap: Evaluating Agents in Dynamic Adversarial Environments},
+      author = {Guo Gan and Yilun Zhao and Cong Chen and Jinbiao Wei and Tingyu Song and Zheyuan Yang and Lin Fu and Hong Zhou},
+      year = {2026},
+      eprint = {2608.24099},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.24099}
+    }
+  bibtex_confirmed: false
 - title: 'CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications'
   link: https://arxiv.org/abs/2608.11588
   authors:
