@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **591** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **599** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ## 🌐 Read this list on the web
 
@@ -24,13 +24,13 @@ The structured store [`papers.yaml`](papers.yaml) (and [`adjacent.yaml`](adjacen
 ![Top 25 research keywords](readme_template/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (236)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (138)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (180)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (125)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
+🌐 [Web (236)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (139)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (187)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (126)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
 
 ## Browse by Keyword
-[benchmark (187)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (102)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (62)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (61)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (33)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (25)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [WebArena (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena) · [OSWorld (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld)<br>[long-horizon tasks (17)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [reward model (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [world model (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [GRPO (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO)<br>[planning (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey) · [AndroidWorld (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld) · [memory (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [prompt injection (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection)
+[benchmark (187)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (103)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [reinforcement learning (64)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [framework (63)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [model (52)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (50)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (34)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (26)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [WebArena (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena)<br>[reward model (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [long-horizon tasks (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [world model (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [GRPO (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO)<br>[planning (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [AndroidWorld (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld) · [survey (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey) · [memory (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [prompt injection (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection)
 
 ## Browse by Author
-[Wei Liu (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig) · [Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su) · [Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Jian Luan (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan)<br>[Mike Zheng Shou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou) · [Zhuosheng Zhang (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Tao Yu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Shuyan Zhou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou)<br>[Tianbao Xie (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tianbao+Xie) · [Qiushi Sun (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Yuanchun Li (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuanchun+Li) · [Kevin Qinghong Lin (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin) · [Yuxiang Chai (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai)<br>[Han Xiao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Han+Xiao) · [Kun Shao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kun+Shao) · [Jun Wang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jun+Wang) · [Zichen Ding (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zichen+Ding) · [Zhiyong Wu (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhiyong+Wu)
+[Wei Liu (22)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Jian Luan (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan) · [Pengzhi Gao (16)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Pengzhi+Gao) · [Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig) · [Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su)<br>[Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Mike Zheng Shou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou) · [Zhuosheng Zhang (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Tao Yu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng)<br>[Shuyan Zhou (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou) · [Tianbao Xie (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tianbao+Xie) · [Qiushi Sun (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Yuanchun Li (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuanchun+Li) · [Kevin Qinghong Lin (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin)<br>[Yuxiang Chai (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai) · [Han Xiao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Han+Xiao) · [Kun Shao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kun+Shao) · [Jun Wang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jun+Wang) · [Zichen Ding (9)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zichen+Ding)
 
 ## Contributing
 
@@ -52,6 +52,24 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile]
     - 🔑 Key: [AnTrap], [benchmark], [reinforcement learning], [safety], [security], [GRPO], [AndroidWorld]
     - 📖 TLDR: AnTrap is an AndroidWorld-based benchmark that injects controllable runtime anomalies, organized into four categories with ten subcategories, into Android GUI-agent trajectories. Testing 16 leading GUI agents reveals substantial robustness degradation under these anomalies, and adversarial RL training can address many single-step traps but struggles with deep contextual failures such as state deadlock.
+
+- [Task-Adaptive Rubrics for GUI Reward Modeling](https://arxiv.org/abs/2608.24174)
+    - Tao Xiong, Xavier Hu, Wenkai Wang, Qinzhuo Wu, Changqiao Wu, Pengzhi Gao, Wei Liu, Jian Luan, Shengyu Zhang
+    - 🏛️ Institutions: Zhejiang University, MiLM Plus, Xiaomi
+    - 📅 Date: August 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [reward model], [task-adaptive rubric], [outcome verification], [reinforcement learning], [AdaptRubric]
+    - 📖 TLDR: AdaptRubric makes GUI reward verification task-adaptive by routing each instruction to a task family for coarse rubric retrieval and then generating instance-level checks for concrete values, scopes, and constraints. It improves offline reward F1 by 3.6 points over the matched baseline average and raises downstream task success by 4.23 points in online reinforcement learning.
+
+- [GSAR: Goal-State-Anchor Rewards for Mobile GUI Agents with Self-Evolving Data Synthesis](https://arxiv.org/abs/2608.22847)
+    - Long Zhang, Yuhan Chen, Chaoran Zhang, Wanxia Cao, Kun Huang, Pengzhi Gao, Wei Liu, Jian Luan, Chenliang Li, Lixin Zou
+    - 🏛️ Institutions: Wuhan University, Xiaomi
+    - 📅 Date: August 24, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [reinforcement learning], [reward model], [data synthesis], [goal-state anchors], [GSAR]
+    - 📖 TLDR: GSAR addresses the limited diversity of GUI-agent training environments and the unreliability of scalable evaluators with self-evolving task synthesis and goal-state anchors. The anchors identify task-relevant UI elements in successful states to provide accurate rewards, achieving over 90% offline trajectory-verification accuracy and improving agents on AndroidWorld and a new benchmark.
 
 - [CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications](https://arxiv.org/abs/2608.11588)
     - Linqiang Guo, Li Gu, Zihuan Jiang, Zhixiang Chi, Siobhan Reid, Ziqiang Wang, Yuanhao Yu, Wei Liu, Yang Wang, Tse-Hsun (Peter) Chen
@@ -287,6 +305,15 @@ We welcome contributions from the community!
     - 🔑 Key: [benchmark], [web agent evaluation], [navigation evaluation], [WebRetriever]
     - 📖 TLDR: WebRetriever provides 1,550 web-agent tasks across 800 websites and evaluates navigation, knowledge-assisted interaction, and end-to-end information extraction. Its NavEval judge incorporates richer interaction context than screenshots alone for fine-grained evaluation.
 
+- [Xiaomi-GUI-0 Technical Report](https://seerray-lab.github.io/Xiaomi-GUI-0/)
+    - Wanxia Cao, Chengzhen Duan, Pei Fu, Pengzhi Gao, Niu Lian, Fazhan Liu, Hui Liu, Heng Qu, Qinzhuo Wu, Zhehao Yu, Tongbo Chen, Shiqi Cui, Anan Du, Shukai Jia, Yuanfa Li, Wei Liu, Yike Liu, Wenchao Lu, Zhenbo Luo, Haoyuan Sun, Jiatong Sun, Cheng Tan, Yajie Wang, Changqiao Wu, Tao Xiong, Jiahui Yang, Yuxuan Yuan, Ruoceng Zhang, Shaojie Zhang, Jian Zhu, Jian Luan, Cong Zou
+    - 🏛️ Institutions: Xiaomi
+    - 📅 Date: June 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [real-device training], [real-world deployment], [error recovery], [Xiaomi-GUI-0]
+    - 📖 TLDR: Xiaomi-GUI-0 trains and evaluates a native multimodal mobile GUI agent in a real-device-dominant closed loop instead of relying only on offline trajectories and simulated environments. Its multi-source data, error-driven flywheel, and progressive SFT/step-RL/agentic-RL pipeline reach 72.0% on the RealMobile benchmark and 78.9% on AndroidWorld, while improving abnormal-state recognition and recovery.
+
 - [AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction](https://arxiv.org/abs/2606.23449)
     - Shanhui Zhao, Jiacheng Liu, Guohong Liu, Jichao Yan, Jialei Ye, Yuhao Yang, Hao Wen, Shizuo Tian, Yizhen Yuan, Yuxuan Chen, Yunxin Liu, Ju Ren, Ya-Qin Zhang, Chao Huang, Yao Guo, Yuanchun Li
     - 🏛️ Institutions: Tsinghua, PKU, HKU
@@ -404,6 +431,15 @@ We welcome contributions from the community!
     - 🔑 Key: [benchmark], [mobile GUI agent], [closed-source apps], [trajectory evaluation], [AndroidDaily], [GRADE]
     - 📖 TLDR: AndroidDaily is a verifiable benchmark of 350 daily-use tasks across 94 commercial, closed-source Android apps for evaluating mobile GUI agents. It introduces GRADE, an evaluator that judges agents by tracking the visual trajectory against observable external guidelines rather than internal app state, reaching 87.37% agreement with human judgment.
 
+- [Scaling, Benchmarking, and Reasoning of Vision-Language Agents for Mobile GUI Navigation](https://arxiv.org/abs/2605.27134)
+    - Heng Qu, Yike Liu, Renren Jin, Wenzong Zhang, Pengzhi Gao, Wei Liu, Jian Luan
+    - 🏛️ Institutions: MiLM Plus, Xiaomi
+    - 📅 Date: May 26, 2026
+    - 📑 Publisher: ICML 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [dataset], [benchmark], [data scaling], [reasoning], [HyperTrack], [GUIEvalKit]
+    - 📖 TLDR: This study examines data scaling, benchmarking, and reasoning for VLM-based mobile GUI agents. It introduces HyperTrack, a dataset of more than 16,000 tasks across over 650 Chinese mobile apps, and GUIEvalKit for unified offline evaluation, finding that reinforcement-based fine-tuning is especially effective for out-of-domain generalization.
+
 - [MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research](https://arxiv.org/abs/2605.26114)
     - Dingbang Wu, Rui Hao, Haiyang Wang, Shuzhe Wu, Han Xiao, Zhenghong Li, Bojiang Zhou, Zheng Ju, Zichen Liu, Lue Fan, Zhaoxiang Zhang
     - 🏛️ Institutions: CASIA, PKU, CUHK
@@ -413,14 +449,14 @@ We welcome contributions from the community!
     - 🔑 Key: [benchmark], [framework], [reinforcement learning], [simulation platform], [sim-to-real], [MobileGym]
     - 📖 TLDR: MobileGym is a browser-hosted Android-like simulation platform for mobile GUI agent research that represents full environment state as structured JSON, enabling deterministic state-based judging, snapshot/reset/fork, side-effect detection, and highly parallel rollouts for online RL. Its MobileGym-Bench provides 416 parameterized task templates over 28 apps, and GRPO training on Qwen3-VL-4B-Instruct improves a 256-task test set by +12.8 points with 95.1% sim-to-real gain retention on a real-device subset.
 
-- [SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking](https://arxiv.org/abs/2605.25160)
+- [ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis](https://scalewob.github.io)
     - Guohong Liu, Jialei Ye, Pengzhi Gao, Wei Liu, Jian Luan, Yunxin Liu, Yuanchun Li
-    - 🏛️ Institutions: Unknown
+    - 🏛️ Institutions: AIR, Tsinghua, University of Electronic Science and Technology of China, MiLM Plus, Xiaomi
     - 📅 Date: May 24, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [simulation], [long-horizon tasks], [SimuWoB]
-    - 📖 TLDR: SimuWoB is a synthetic benchmark for mobile GUI agents with 120 tasks spanning diverse interaction types and difficulty levels. It generates high-fidelity mobile environments as backend-free webpages with automatic rewards, revealing low success rates for current mobile GUI agents, especially on long-horizon tasks.
+    - 🔑 Key: [framework], [benchmark], [environment synthesis], [verifiable rewards], [long-horizon tasks], [ScaleWoB]
+    - 📖 TLDR: ScaleWoB uses coding agents to synthesize high-fidelity, backend-free interactive environments with verifiable rewards for GUI-agent evaluation and training across mobile, desktop, and automotive interfaces. Its release covers more than 100 environments and 1,000 tasks, including a 120-task mobile benchmark where current agents average 27.92% success and only 17.82% on long-horizon tasks, compared with 92.08% for humans.
 
 - [MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents](https://arxiv.org/abs/2605.18652)
     - Ziyun Zeng, Hang Hua, Bocheng Zou, Mu Cai, Rogerio Feris, Jiebo Luo
@@ -457,6 +493,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [memory], [knowledge graph], [planning], [EAM]
     - 📖 TLDR: Executable Agentic Memory (EAM) represents reusable GUI routines as a structured knowledge graph. It uses state-aware exploration, action-group mining, and value-guided graph search to shift GUI planning from repeated free-form model calls toward retrieval and execution over learned routines.
+
+- [How Mobile World Model Guides GUI Agents?](https://arxiv.org/abs/2605.10347)
+    - Weikai Xu, Kun Huang, Yunren Feng, Jiaxing Li, Yuhan Chen, Yuxuan Liu, Zhizheng Jiang, Heng Qu, Pengzhi Gao, Wei Liu, Jian Luan, Xiaolin Hu, Bo An
+    - 🏛️ Institutions: Nanyang Technological University, MiLM Plus, Xiaomi, Renmin University of China, Wuhan University, Xiamen University
+    - 📅 Date: May 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [world model], [model-based planning], [data synthesis], [test-time guidance]
+    - 📖 TLDR: This study compares delta-text, full-text, diffusion-image, and renderable-code mobile world models and evaluates how their generated rollouts guide GUI agents. Renderable code gives strong in-distribution fidelity and training supervision, while text feedback is more robust for online out-of-distribution execution; generated trajectories also improve end-to-end training, but do not preserve the original data distribution.
 
 - [LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning](https://arxiv.org/abs/2605.07505)
     - Yubin Wu, Zicheng Cai, Liping Ning, Hua Wang, Zhi Chen, Yaohua Tang, Hao Chen
@@ -1277,6 +1322,15 @@ We welcome contributions from the community!
     - 🔑 Key: [benchmark], [trajectory fusion], [third-party apps], [MobiFlow]
     - 📖 TLDR: MobiFlow benchmarks mobile agents on third-party Android applications without relying on system-level APIs, using a graph-construction algorithm based on multi-trajectory fusion to compress state space and support dynamic interaction. It covers 20 widely used apps and 240 real-world tasks, with evaluation results better aligned to human assessments than AndroidWorld.
 
+- [CoME: Empowering Channel-of-Mobile-Experts with Informative Hybrid-Capabilities Reasoning](https://arxiv.org/abs/2602.24142)
+    - Yuxuan Liu, Weikai Xu, Kun Huang, Changyu Chen, Jiankun Zhao, Pengzhi Gao, Wei Liu, Jian Luan, Shuo Shang, Bo Du, Ji-Rong Wen, Rui Yan
+    - 🏛️ Institutions: Renmin University of China, MiLM Plus, Xiaomi, Nanyang Technological University, Wuhan University
+    - 📅 Date: February 27, 2026
+    - 📑 Publisher: ICML 2026 (Poster)
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [model], [mixture of experts], [hybrid-capabilities reasoning], [progressive training], [Info-DPO], [CoME]
+    - 📖 TLDR: CoME aligns four output-oriented experts with the screen-summary, subtask-planning, action-decision, and action-function stages of mobile-agent reasoning. Progressive expert, router, and chain-of-thought training plus information-gain-driven DPO improve the balance and informativeness of intermediate reasoning, outperforming dense mobile agents and other MoE methods on AITZ and AMEX.
+
 - [GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL](https://arxiv.org/abs/2602.22190)
     - Rui Yang, Qianhui Wu, Zhaoyang Wang, Hanyang Chen, Ke Yang, Hao Cheng, Huaxiu Yao, Baoling Peng, Huan Zhang, Jianfeng Gao, Tong Zhang
     - 🏛️ Institutions: UIUC, Microsoft, UNC
@@ -1821,7 +1875,7 @@ We welcome contributions from the community!
     - Qinzhuo Wu, Zhizhuo Yang, Hanhao Li, Pengzhi Gao, Wei Liu, Jian Luan
     - 🏛️ Institutions: MiLM Plus, Xiaomi, PKU, CUHK
     - 📅 Date: January 28, 2026
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: Findings of ACL 2026
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [chinese benchmark], [long-horizon tasks], [noise robustness], [auto-evaluation], [MobileBench-OL]
     - 📖 TLDR: MobileBench-OL benchmarks mobile GUI agents on 1,080 online tasks from 80 Chinese apps. It extends evaluation beyond instruction following to long-horizon execution, reasoning and exploration, and robustness to real-world noise, and pairs the benchmark with an automatic evaluation pipeline that supports environment reset.
@@ -1879,15 +1933,6 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [framework], [benchmark], [long-horizon tasks], [reflection], [rollback], [LongGUIBench], [LongHorizonUI]
     - 📖 TLDR: LongHorizonUI targets error accumulation in long-horizon GUI control by combining indexed multimodal perception, structured reflective decision-making, and rollback-based compensatory execution. It also introduces LongGUIBench for tasks longer than 15 steps across games and complex applications, and reports substantial gains on long-horizon evaluation while staying competitive on public benchmarks.
-
-- [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://openreview.net/forum?id=IWDpCaSF9Q)
-    - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yunxin Liu, Yuanchun Li, Bin Wang, Bo An
-    - 🏛️ Institutions: NTU, University of Electronic Science and Technology of China, Renmin University of China, MiLM Plus, Xiaomi, Institute for AI Industry Research, Tsinghua
-    - 📅 Date: January 26, 2026
-    - 📑 Publisher: ICLR 2026 (Poster)
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [dataset], [multi-path evaluation], [ambiguous instructions], [noisy environment], [SMAN-Bench]
-    - 📖 TLDR: SMAN-Bench evaluates mobile agents under single-path, multi-path, ambiguous, and noisy task settings that are poorly covered by prior benchmarks. It builds these splits from a graph-structured unlabeled mobile corpus, adds offline multi-path reward evaluation, and includes both contaminated noisy environments and preset Q&A interactions for ambiguous instructions.
 
 - [SwipeGen: Bridging the Execution Gap in GUI Agents via Human-like Swipe Synthesis](https://arxiv.org/abs/2601.18305)
     - Xuan Wang, Siyuan Su, Quantong Fu, Yongxiang Hu, Yangfan Zhou
@@ -2375,6 +2420,15 @@ We welcome contributions from the community!
     - 🔑 Key: [DOM pruning], [code generation], [observation simplification], [programmatic filtering], [Prune4Web]
     - 📖 TLDR: Prune4Web tackles oversized web DOMs by having the model generate executable Python scoring programs that prune irrelevant elements before grounding and action selection. This shifts work from raw DOM reading to programmatic filtering and substantially improves grounding accuracy while shrinking candidate sets by 25x to 50x.
 
+- [STEP: Success-Rate-Aware Trajectory-Efficient Policy Optimization](https://arxiv.org/abs/2511.13091)
+    - Yuhan Chen, Yuxuan Liu, Long Zhang, Pengzhi Gao, Jian Luan, Wei Liu
+    - 🏛️ Institutions: MiLM Plus, Xiaomi, Renmin University of China, Wuhan University
+    - 📅 Date: November 17, 2025
+    - 📑 Publisher: Findings of ACL 2026
+    - 💻 Env: [Desktop], [Mobile]
+    - 🔑 Key: [reinforcement learning], [sample efficiency], [trajectory optimization], [step-level optimization], [OSWorld], [AndroidWorld], [STEP]
+    - 📖 TLDR: STEP improves the efficiency of online GUI-agent reinforcement learning by using per-task success rates to resample difficult tasks and decomposing trajectories into step-level training samples. Its success-rate-weighted advantages and step-level GRPO augmentation improve sample efficiency and training stability over trajectory-level GRPO on OSWorld and AndroidWorld.
+
 - [Adapting Web Agents with Synthetic Supervision](https://arxiv.org/abs/2511.06101)
     - Zhaoyang Wang, Yiming Liang, Xuchao Zhang, Qianhui Wu, Siwei Han, Anson Bastos, Rujia Wang, Chetan Bansal, Baolin Peng, Jianfeng Gao, Saravan Rajmohan, Huaxiu Yao
     - 🏛️ Institutions: UNC, Purdue University, Microsoft
@@ -2744,6 +2798,15 @@ We welcome contributions from the community!
     - 🔑 Key: [reinforcement learning], [decoupled training], [adaptive data curation], [asynchronous modules], [OSWorld], [DART]
     - 📖 TLDR: DART is a decoupled RL training framework for GUI agents that separates environment execution, rollout service, data management, and training into asynchronous modules to improve multi-turn learning efficiency. It pairs that system design with adaptive data curation, including difficulty-aware rollout control and high-entropy step selection, and substantially improves OSWorld performance over the base model.
 
+- [GUI-PRA: Process Reward Agent for GUI Tasks](https://arxiv.org/abs/2509.23263)
+    - Tao Xiong, Xavier Hu, Yurun Chen, Yuhang Liu, Changqiao Wu, Pengzhi Gao, Wei Liu, Jian Luan, Shengyu Zhang
+    - 🏛️ Institutions: Zhejiang University, MiLM Plus, Xiaomi
+    - 📅 Date: September 27, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [reward model], [process reward], [visual verification], [long-horizon tasks], [GUI-PRA]
+    - 📖 TLDR: GUI-PRA turns GUI process-reward evaluation from passive scoring into active investigation. It synthesizes state-specific verification criteria from experience and uses them to navigate visual tools and gather grounded evidence, improving success over standard process reward models on AndroidWorld and Mobile-MiniWoB++.
+
 - [ProRe: A Proactive Reward System for GUI Agents via Reasoner-Actor Collaboration](https://arxiv.org/abs/2509.21823)
     - Gaole Dai, Shiqi Jiang, Ting Cao, Yuqing Yang, Yuanchun Li, Rui Tan, Mo Li, Lili Qiu
     - 🏛️ Institutions: NTU, MSR, Institute for AI Industry Research (AIR), Tsinghua, HKUST
@@ -3058,6 +3121,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [model], [reinforcement learning], [GUI grounding], [continuous reward], [cropping-based resampling], [decomposed grounding], [ScreenSpot-pro], [UI-AGILE]
     - 📖 TLDR: UI-AGILE improves GUI agents through a continuous reward function that incentivizes high-precision grounding, a cropping-based resampling strategy for data efficiency, and decomposed grounding with selection for inference-time accuracy on high-resolution displays. It achieves 23% grounding accuracy improvement over baselines on ScreenSpot-Pro.
+
+- [Mobile GUI Agents under Real-world Threats: Are We There Yet?](https://agenthazard.github.io)
+    - Guohong Liu, Jialei Ye, Jiacheng Liu, Wei Liu, Pengzhi Gao, Jian Luan, Yuanchun Li, Yunxin Liu
+    - 🏛️ Institutions: AIR, Tsinghua, University of Electronic Science and Technology of China, PKU, MiLM Plus, Xiaomi
+    - 📅 Date: July 06, 2025
+    - 📑 Publisher: MobiSys 2026
+    - 💻 Env: [Mobile]
+    - 🔑 Key: [safety], [security], [adversarial attacks], [third-party content], [AgentHazard]
+    - 📖 TLDR: AgentHazard evaluates mobile GUI agents when untrusted third-party content appears inside otherwise legitimate app regions, a threat missing from standard static-content benchmarks. Its instrumentation framework supports a dynamic environment with 122 tasks and a static dataset with more than 3,000 scenarios; evaluated agents show average misleading rates of 42.0% and 36.1% in the two settings.
 
 - [FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents](https://arxiv.org/abs/2507.21071)
     - Qinglong Yang, Haoming Li, Haotian Zhao, Xiaokai Yan, Jingtao Ding, Fengli Xu, Yong Li
@@ -3419,14 +3491,14 @@ We welcome contributions from the community!
     - 🔑 Key: [DPO], [iterative preference learning], [CoAT], [instruction evolution], [MobileIPL]
     - 📖 TLDR: MobileIPL improves the reasoning process of mobile agents by constructing Chain-of-Action-Planning-Thought trees, scoring sampled outcomes with rule-based rewards, and deriving thinking-level DPO preferences. It also adds staged instruction evolution to improve layout understanding and reports state-of-the-art results on standard mobile GUI benchmarks.
 
-- [Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents](https://arxiv.org/abs/2505.11891)
-    - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yuanchun Li, Yunxin Liu, Bin Wang, Bo An
-    - 🏛️ Institutions: NTU, University of Electronic Science and Technology of China, Renmin University of China, XiaoMi AI Lab, Institute for AI Industry Research (AIR), Tsinghua
+- [SMAN-Bench: A Cross-System Benchmark for Mobile Agents under Single- and Multi-path, Ambiguous, and Noisy Tasks](https://arxiv.org/abs/2505.11891)
+    - Weikai Xu, Zhizheng Jiang, Yuxuan Liu, Pengzhi Gao, Wei Liu, Jian Luan, Yunxin Liu, Yuanchun Li, Bin Wang, Bo An
+    - 🏛️ Institutions: NTU, University of Electronic Science and Technology of China, Renmin University of China, MiLM Plus, Xiaomi, Institute for AI Industry Research, Tsinghua
     - 📅 Date: May 17, 2025
-    - 📑 Publisher: arXiv
+    - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Mobile]
-    - 🔑 Key: [benchmark], [multi-path evaluation], [noisy environments], [ambiguous instructions], [Mobile-Bench-v2]
-    - 📖 TLDR: Mobile-Bench-v2 is a more realistic mobile-agent benchmark that fixes three weaknesses of earlier evaluation: single-path scoring, unrealistically clean environments, and over-specified instructions. It adds multi-path offline evaluation, noisy app settings with pop-ups and ads, and ambiguous-instruction splits for testing proactive interaction.
+    - 🔑 Key: [benchmark], [dataset], [multi-path evaluation], [ambiguous instructions], [noisy environment], [SMAN-Bench]
+    - 📖 TLDR: SMAN-Bench evaluates mobile agents under single-path, multi-path, ambiguous, and noisy task settings that are poorly covered by prior benchmarks. It builds these splits from a graph-structured unlabeled mobile corpus, adds offline multi-path reward evaluation, and includes both contaminated noisy environments and preset Q&A interactions for ambiguous instructions.
 
 - [A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?](https://arxiv.org/abs/2505.10924)
     - Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
@@ -4471,75 +4543,3 @@ We welcome contributions from the community!
     - 💻 Env: [Mobile]
     - 🔑 Key: [framework], [knowledge base], [RAG], [exploration phase], [flexible action space], [AppAgent v2]
     - 📖 TLDR: AppAgent v2 is a mobile agent framework with separate exploration and deployment phases, where explored UI functionality is written into a structured knowledge base and later retrieved with RAG. The paper argues that this combination of flexible actions and reusable app knowledge improves cross-app mobile task execution on several benchmarks.
-
-- [OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
-    - Yadong Lu, Jianwei Yang, Yelong Shen, Ahmed Awadallah
-    - 🏛️ Institutions: MSR, Microsoft GenAI
-    - 📅 Date: August 01, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [dataset], [screen parsing], [GUI grounding], [icon detection], [icon captioning], [OmniParser]
-    - 📖 TLDR: OmniParser parses UI screenshots into structured screen elements by combining interactable icon detection with element captioning. The paper also curates icon-related datasets and shows that this screen parsing layer improves GPT-4V grounding on ScreenSpot, Mind2Web, and AITW.
-
-- [OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation](https://arxiv.org/abs/2407.19056)
-    - Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, Jingbo Shang
-    - 🏛️ Institutions: UC San Diego, UCLA, Allen Institute for AI
-    - 📅 Date: July 26, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [office automation], [multi-application workflows], [application switching], [execution-based evaluation], [OfficeBench]
-    - 📖 TLDR: OfficeBench is a benchmark for office automation tasks that require agents to plan across multiple applications, switch contexts correctly, and ground actions inside a large combined action space. The paper reports only 47% pass rate for GPT-4 Omni and highlights redundancy, hallucination, and application-switching errors as core failure modes.
-
-- [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032)
-    - Tamer Abuelsaad, Deepak Akkil, Prasenjit Dey, Ashish Jagmohan, Aditya Vempaty, Ravi Kokku
-    - 🏛️ Institutions: Emergence AI
-    - 📅 Date: July 17, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [framework], [hierarchical architecture], [DOM distillation], [change observation], [self-improvement], [Agent-E]
-    - 📖 TLDR: Agent-E is a web-agent architecture built around hierarchical control, DOM distillation and denoising, and explicit change observation. The paper reports 10-30% gains over prior web agents on WebVoyager and then distills the implementation lessons into broader agent-system design principles.
-
-- [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c2f71567cd53464161cab3336e8fc865-Abstract-Datasets_and_Benchmarks_Track.html)
-    - Ruisheng Cao, Fangyu Lei, Haoyuan Wu, Jixuan Chen, Yeqiao Fu, Hongcheng Gao, Xinzhuang Xiong, Hanchong Zhang, Yuchen Mao, Wenjing Hu, Tianbao Xie, Hongsheng Xu, Danyang Zhang, Sida Wang, Ruoxi Sun, Pengcheng Yin, Caiming Xiong, Ansong Ni, Qian Liu, Victor Zhong, Lu Chen, Kai Yu, Tao Yu
-    - 🏛️ Institutions: HKU, SJTU, Google Cloud AI Research, Google DeepMind, Salesforce AI Research, Yale University, Sea AI Lab, University of Waterloo
-    - 📅 Date: July 15, 2024
-    - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [benchmark], [dataset], [enterprise data software], [code and GUI], [data workflows], [Spider2-V]
-    - 📖 TLDR: Spider2-V is a benchmark for automating professional data science and engineering workflows that require both code generation and GUI control in enterprise software. It contains 494 real-world tasks across 20 applications and finds that current multimodal agents still struggle badly with full workflows, fine-grained GUI actions, and remote cloud-hosted workspaces.
-
-- [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.09018)
-    - Yongxiang Hu, Xuan Wang, Yingchuan Wang, Yu Zhang, Shiyu Guo, Chaoyi Chen, Xin Wang, Yangfan Zhou
-    - 🏛️ Institutions: Fudan, Meituan
-    - 📅 Date: July 12, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [GUI testing], [requirements-driven testing], [verification oracles], [interaction trace extraction], [AUITestAgent]
-    - 📖 TLDR: AUITestAgent is a mobile GUI testing system that executes natural-language test requirements by extracting interaction steps and then verifying outcomes from the resulting interaction trace. On customized benchmarks it improves interaction quality and reaches 94% verification accuracy, and a Meituan deployment found 4 new functional bugs across 10 regression tests in two months.
-
-- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0b82662b6c32e887bb252a74d8cb2d5e-Abstract-Datasets_and_Benchmarks_Track.html)
-    - Léo Boisvert, Megh Thakkar, Maxime Gasse, Massimo Caccia, Thibault Le Sellier De Chezelles, Quentin Cappart, Nicolas Chapados, Alexandre Lacoste, Alexandre Drouin
-    - 🏛️ Institutions: ServiceNow Research, Mila, Polytechnique Montréal, Chandar Research Lab
-    - 📅 Date: July 07, 2024
-    - 📑 Publisher: NeurIPS 2024 Datasets and Benchmarks Track (Poster)
-    - 💻 Env: [Web]
-    - 🔑 Key: [benchmark], [dataset], [planning], [knowledge work], [compositional tasks], [oracle traces], [WorkArena++]
-    - 📖 TLDR: WorkArena++ is a web benchmark of 682 enterprise knowledge-work tasks built on ServiceNow to stress compositional planning, retrieval, reasoning, and contextual understanding. Besides the benchmark itself, it adds a mechanism for generating thousands of oracle observation-action traces that can be used to fine-tune web agents.
-
-- [MobileFlow: A Multimodal LLM for Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
-    - Songqin Nong, Jiali Zhu, Rui Wu, Jiongchao Jin, Shuo Shan, Xiutian Huang, Wenhao Xu
-    - 🏛️ Institutions: Ant Group
-    - 📅 Date: July 05, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [model], [hybrid visual encoders], [multilingual GUI], [Mixture of Experts], [GUI alignment], [MobileFlow]
-    - 📖 TLDR: MobileFlow adapts Qwen-VL-Chat into a 21B mobile GUI model with hybrid visual encoders, MoE expansion, and GUI-specific alignment and chain-of-thought training. The model is built to handle variable-resolution screens and multilingual interfaces without depending on system APIs for page layout access.
-
-- [MobileExperts: A Dynamic Tool-Enabled Agent Team in Mobile Devices](https://arxiv.org/abs/2407.03913)
-    - Jiayi Zhang, Chuang Zhao, Yihan Zhao, Zhaoyang Yu, Ming He, Jianping Fan
-    - 🏛️ Institutions: AI Lab at Lenovo Research, Renmin University of China, HKUST
-    - 📅 Date: July 04, 2024
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [tool formulation], [multi-agent collaboration], [double-layer planning], [Expert-Eval], [MobileExperts]
-    - 📖 TLDR: MobileExperts is a mobile multi-agent framework that forms tool-enabled expert teams through device-specific exploration and then coordinates them with dual-layer planning. The paper also introduces the Expert-Eval benchmark and reports better performance across task difficulty levels with about 22% lower reasoning cost.
