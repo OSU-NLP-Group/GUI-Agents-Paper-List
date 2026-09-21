@@ -519,50 +519,6 @@
       url = {https://arxiv.org/abs/2609.16251}
     }
   bibtex_confirmed: false
-- title: 'HazardAuditor: From Executable Threats to Safer Computer-Use Agents'
-  link: https://arxiv.org/abs/2609.15134
-  authors:
-  - Yunhao Feng
-  - Ruixiao Lin
-  - Ming Wen
-  - Yanming Guo
-  - Xingjun Ma
-  - Yutao Wu
-  - Xinhao Deng
-  - Shouling Ji
-  institutions:
-  - Ant Group
-  - ZJU
-  - Fudan
-  - Hunan Institute of Advanced Technology
-  - Shanghai Innovation Institute
-  - Deakin University
-  date: '2026-09-14'
-  publisher: arXiv
-  envs:
-  - Desktop
-  keywords:
-  - safety
-  - guard model
-  - HazardAuditor
-  - GuardPO
-  - runtime supervision
-  tldr: |-
-    HazardAuditor is an execution-grounded framework that runs heterogeneous computer-use agents in controlled environments and normalizes their interactions into a canonical event representation, giving guard models cross-framework supervision that static prompt-response guards lack. Its Guard Policy Optimization converts deterministic safety outcomes into sequence-level advantages so the safety decision rather than token count drives optimization, improving accuracy by up to 16.5 points over the strongest prior guard.
-  arxiv_id: '2609.15134'
-  sources:
-    arxiv: https://arxiv.org/abs/2609.15134
-    homepage: https://yunhao-feng.github.io/HazardAuditor/
-  bibtex: |-
-    @misc{feng2026hazardauditor,
-      title = {HazardAuditor: From Executable Threats to Safer Computer-Use Agents},
-      author = {Yunhao Feng and Ruixiao Lin and Ming Wen and Yanming Guo and Xingjun Ma and Yutao Wu and Xinhao Deng and Shouling Ji},
-      year = {2026},
-      eprint = {2609.15134},
-      archivePrefix = {arXiv},
-      url = {https://arxiv.org/abs/2609.15134}
-    }
-  bibtex_confirmed: false
 - title: 'Learning from Reliable Negatives: Confidence-Anchored Test-Time Adaptation for GUI Grounding'
   link: https://arxiv.org/abs/2609.15307
   authors:
@@ -722,7 +678,7 @@
   - Adriana Szekeres
   - Fazle Elahi Faisal
   institutions:
-  - University of Michigan
+  - UMich
   - MSR
   date: '2026-09-11'
   publisher: arXiv
@@ -5404,7 +5360,7 @@
   institutions:
   - UC San Diego
   - MBZUAI
-  - University of Michigan
+  - UMich
   - UC Berkeley
   - ETH
   - University of Cambridge
@@ -19326,7 +19282,7 @@
   - Justin Johnson
   - Honglak Lee
   institutions:
-  - University of Michigan
+  - UMich
   - LG AI Research
   date: '2025-05-01'
   publisher: ICCV 2025
@@ -22650,7 +22606,7 @@
   institutions:
   - LG AI Research
   - Field AI
-  - University of Michigan
+  - UMich
   date: '2024-10-29'
   publisher: Findings of EMNLP 2024
   envs:
@@ -25121,7 +25077,7 @@
   - Shoufa Chen
   institutions:
   - CMU
-  - University of Michigan
+  - UMich
   - Northeastern University
   - HKU
   date: '2024-06-12'
@@ -25702,7 +25658,7 @@
   - Alane Suhr
   institutions:
   - UC Berkeley
-  - University of Michigan
+  - UMich
   date: '2024-04-09'
   publisher: COLM 2024
   envs:

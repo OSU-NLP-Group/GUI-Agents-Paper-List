@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **669** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **668** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ## 🌐 Read this list on the web
 
@@ -24,10 +24,10 @@ The structured store [`papers.yaml`](papers.yaml) (and [`adjacent.yaml`](adjacen
 ![Top 25 research keywords](readme_template/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (257)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (164)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (209)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (143)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
+🌐 [Web (257)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (163)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (209)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (143)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
 
 ## Browse by Keyword
-[benchmark (201)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (105)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (73)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (67)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (56)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (55)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (43)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (35)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (22)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [WebArena (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena)<br>[long-horizon tasks (19)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [world model (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [reward model (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [prompt injection (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free)<br>[memory (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [AndroidWorld (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld) · [GRPO (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO) · [planning (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey)
+[benchmark (201)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (105)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (73)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (67)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (56)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (55)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (42)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (35)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (22)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [WebArena (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena)<br>[long-horizon tasks (19)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks) · [world model (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [reward model (18)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model) · [prompt injection (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [training-free (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free)<br>[memory (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [AndroidWorld (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld) · [GRPO (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO) · [planning (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey)
 
 ## Browse by Author
 [Wei Liu (22)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Jian Luan (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan) · [Pengzhi Gao (16)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Pengzhi+Gao) · [Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig) · [Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su)<br>[Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Zhuosheng Zhang (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Shuyan Zhou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou) · [Mike Zheng Shou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou) · [Zhengxi Lu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhengxi+Lu)<br>[Tao Yu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Fei Tang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Fei+Tang) · [Tianbao Xie (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tianbao+Xie) · [Qiushi Sun (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun)<br>[Yuanchun Li (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuanchun+Li) · [Kevin Qinghong Lin (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin) · [Yuxiang Chai (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai) · [Han Xiao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Han+Xiao) · [Kun Shao (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kun+Shao)
@@ -161,15 +161,6 @@ We welcome contributions from the community!
     - 🔑 Key: [benchmark], [CADWorld], [computer-aided design], [long-horizon task], [FreeCAD]
     - 📖 TLDR: CADWorld is a 200-task benchmark for long-horizon computer use in FreeCAD, spanning 11 mechanical-CAD workflow categories from sketching and part modeling to CAM, FEM, and technical drawing. Agents act through screenshots and GUI actions while success is decided by executable checks over saved FreeCAD artifacts, and the strongest of seven agents reaches 17.5% against an 87.0% expert reference pass rate.
 
-- [HazardAuditor: From Executable Threats to Safer Computer-Use Agents](https://arxiv.org/abs/2609.15134)
-    - Yunhao Feng, Ruixiao Lin, Ming Wen, Yanming Guo, Xingjun Ma, Yutao Wu, Xinhao Deng, Shouling Ji
-    - 🏛️ Institutions: Ant Group, ZJU, Fudan, Hunan Institute of Advanced Technology, Shanghai Innovation Institute, Deakin University
-    - 📅 Date: September 14, 2026
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Desktop]
-    - 🔑 Key: [safety], [guard model], [HazardAuditor], [GuardPO], [runtime supervision]
-    - 📖 TLDR: HazardAuditor is an execution-grounded framework that runs heterogeneous computer-use agents in controlled environments and normalizes their interactions into a canonical event representation, giving guard models cross-framework supervision that static prompt-response guards lack. Its Guard Policy Optimization converts deterministic safety outcomes into sequence-level advantages so the safety decision rather than token count drives optimization, improving accuracy by up to 16.5 points over the strongest prior guard.
-
 - [Learning from Reliable Negatives: Confidence-Anchored Test-Time Adaptation for GUI Grounding](https://arxiv.org/abs/2609.15307)
     - Yizhou Liu, Fei Tang, Yuchen Yan, Zhengxi Lu, Songqin Nong, Tao Jiang, Wenhao Xu, Wenqi Zhang, Weiming Lu, Jun Xiao, Yongliang Shen
     - 🏛️ Institutions: ZJU, Ant Group
@@ -208,7 +199,7 @@ We welcome contributions from the community!
 
 - [AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents](https://arxiv.org/abs/2609.13548)
     - Xinyun Cao, Adriana Szekeres, Fazle Elahi Faisal
-    - 🏛️ Institutions: University of Michigan, MSR
+    - 🏛️ Institutions: UMich, MSR
     - 📅 Date: September 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1261,7 +1252,7 @@ We welcome contributions from the community!
 
 - [CocoaBench: Evaluating Unified Digital Agents in the Wild](https://arxiv.org/abs/2604.11201)
     - Shibo Hao, Zhining Zhang, Zhiqi Liang, Tianyang Liu, Yuheng Zha, Qiyue Gao, Jixuan Chen, Zilong Wang, Zhoujun Cheng, Haoxiang Zhang, Junli Wang, Hexi Jin, Boyuan Zheng, Kun Zhou, Yu Wang, Feng Yao, Licheng Liu, Yijiang Li, Zhifei Li, Zhengtao Han, Pracha Promthaw, Tommaso Cerruti, Xiaohan Fu, Ziqiao Ma, Jingbo Shang, Lianhui Qin, Julian McAuley, Eric P. Xing, Zhengzhong Liu, Rupesh Kumar Srivastava, Zhiting Hu
-    - 🏛️ Institutions: UC San Diego, MBZUAI, University of Michigan, UC Berkeley, ETH, University of Cambridge, Gray Swan AI
+    - 🏛️ Institutions: UC San Diego, MBZUAI, UMich, UC Berkeley, ETH, University of Cambridge, Gray Swan AI
     - 📅 Date: April 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -4159,7 +4150,7 @@ We welcome contributions from the community!
 
 - [Visual Test-time Scaling for GUI Agent Grounding](https://arxiv.org/abs/2505.00684)
     - Tiange Luo, Lajanugen Logeswaran, Justin Johnson, Honglak Lee
-    - 🏛️ Institutions: University of Michigan, LG AI Research
+    - 🏛️ Institutions: UMich, LG AI Research
     - 📅 Date: May 01, 2025
     - 📑 Publisher: ICCV 2025
     - 💻 Env: [General GUI]
@@ -4543,3 +4534,12 @@ We welcome contributions from the community!
     - 💻 Env: [Web]
     - 🔑 Key: [security], [component-level analysis], [harmfulness taxonomy], [observational capabilities], [OpenHands]
     - 📖 TLDR: This paper analyzes why web AI agents are more vulnerable than standalone LLMs even when they use the same underlying models. It attributes the gap to user-goal embedding in system prompts, multi-step action generation, and observational signals, and proposes a more granular evaluation taxonomy for studying those failures.
+
+- [Programming with Pixels: Can Computer-Use Agents do Software Engineering?](https://arxiv.org/abs/2502.18525)
+    - Pranjal Aggarwal, Sean Welleck
+    - 🏛️ Institutions: CMU
+    - 📅 Date: February 24, 2025
+    - 📑 Publisher: ICLR 2026 (Poster)
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [benchmark], [software engineering], [IDE control], [API augmentation], [PwP], [PwP-Bench]
+    - 📖 TLDR: This paper introduces Programming with Pixels, a visual IDE environment for evaluating whether generalist computer-use agents can handle software engineering tasks rather than only simple desktop or web interactions. It also presents PwP-Bench, a benchmark spanning 15 software-engineering tasks across languages and modalities. The results show that purely visual computer-use agents lag behind specialist coding agents, but narrow text APIs such as file editing and bash dramatically narrow that gap.
