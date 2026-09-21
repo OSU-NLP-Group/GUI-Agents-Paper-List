@@ -31,10 +31,13 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+# The host is matched loosely because `remote get-url` applies any url.insteadOf
+# rewrite, so a multi-account setup can hand back an alias such as
+# git@github-boyugou: rather than git@github.com:.
 REPO_OWNER="$(git -C "$REPO_ROOT" remote get-url "$REMOTE" 2>/dev/null \
-  | sed -E 's#.*github\.com[:/]([^/]+)/.*#\1#')"
+  | sed -E 's#.*github[^:/]*[:/]([^/]+)/.*#\1#')"
 REPO_NAME="$(git -C "$REPO_ROOT" remote get-url "$REMOTE" 2>/dev/null \
-  | sed -E 's#.*github\.com[:/][^/]+/([^/.]+).*#\1#')"
+  | sed -E 's#.*github[^:/]*[:/][^/]+/([^/.]+).*#\1#')"
 
 if [[ -z "${REPO_OWNER:-}" || -z "${REPO_NAME:-}" ]]; then
   echo "warn: could not derive owner/name from remote '$REMOTE'." >&2
