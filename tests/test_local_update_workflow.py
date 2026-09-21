@@ -181,6 +181,23 @@ class InstitutionNormalizationTests(unittest.TestCase):
     def setUpClass(cls):
         cls.ni = load_module("normalize_under_test", NORMALIZE_SCRIPT)
 
+    def test_michigan_spellings_collapse_to_one_form(self):
+        for spelling in (
+            ["University of Michigan"],
+            ["The University of Michigan"],
+            ["University of Michigan, Ann Arbor"],
+            ["University of Michigan", "Ann Arbor"],
+            ["UMich"],
+        ):
+            with self.subTest(spelling=spelling):
+                self.assertEqual(self.ni.normalize_entry(list(spelling)), ["UMich"])
+
+    def test_michigan_state_is_a_different_school(self):
+        self.assertEqual(
+            self.ni.normalize_entry(["Michigan State University", "University of Michigan"]),
+            ["Michigan State University", "UMich"],
+        )
+
     def test_known_names_are_canonicalised(self):
         self.assertEqual(
             self.ni.normalize_entry(

@@ -82,6 +82,14 @@ CANONICAL_MAP: list[tuple[str, str]] = [
     (r"^UNC-Chapel Hill$", "UNC"),
     (r"^UNC Chapel Hill$", "UNC"),
 
+    # UMich. "Michigan State University" is a different school and has no
+    # rule here, so it passes through under its full name.
+    (r"^The University of Michigan,?\s*Ann Arbor$", "UMich"),
+    (r"^University of Michigan,?\s*Ann Arbor$", "UMich"),
+    (r"^The University of Michigan$", "UMich"),
+    (r"^University of Michigan$", "UMich"),
+    (r"^UMich$", "UMich"),
+
     # UMass / UMD
     (r"^University of Massachusetts Amherst$", "UMass Amherst"),
     (r"^University of Maryland,?\s*College Park$", "UMD"),
@@ -210,6 +218,7 @@ _COMMA_INSTITUTIONS: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"University of California,\s*Davis"), "UC Davis"),
     (re.compile(r"University of California,\s*Irvine"), "UC Irvine"),
     (re.compile(r"University of Maryland,\s*College Park"), "UMD"),
+    (re.compile(r"University of Michigan,\s*Ann Arbor"), "UMich"),
     (re.compile(r"The Chinese University of Hong Kong,\s*Shenzhen"), "CUHK-Shenzhen"),
     (re.compile(r"Chinese University of Hong Kong,\s*Shenzhen"), "CUHK-Shenzhen"),
     (re.compile(r"Harbin Institute of Technology,\s*Shenzhen"), "HIT-Shenzhen"),
