@@ -22,6 +22,15 @@
   arxiv_id: '2603.20633'
   sources:
     arxiv: https://arxiv.org/abs/2603.20633
+  bibtex: |-
+    @misc{seed2026seed18,
+      title = {Seed1.8 Model Card: Towards Generalized Real-World Agency},
+      author = {Bytedance Seed},
+      year = {2026},
+      eprint = {2603.20633},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2603.20633}
+    }
 - title: 'MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning'
   link: https://arxiv.org/abs/2603.12266
   authors:
@@ -36,7 +45,7 @@
   institutions:
   - Accio Team
   - Alibaba Group
-  - Zhejiang University
+  - ZJU
   - ZJU-BJ
   date: '2026-03-12'
   publisher: arXiv
@@ -57,6 +66,15 @@
     homepage: https://accio-lab.github.io/MM-CondChain
     code: https://github.com/Accio-Lab/MM-CondChain
     dataset: https://huggingface.co/datasets/Accio-Lab/MM-CondChain
+  bibtex: |-
+    @misc{shen2026mmcondchain,
+      title = {MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning},
+      author = {Haozhan Shen and Shilin Yan and Hongwei Xue and Shuaiqi Lu and Xiaojun Tang and Guannan Zhang and Tiancheng Zhao and Jianwei Yin},
+      year = {2026},
+      eprint = {2603.12266},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2603.12266}
+    }
 - title: 'You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents'
   link: https://arxiv.org/abs/2603.11862
   authors:
@@ -89,6 +107,15 @@
   arxiv_id: '2603.11862'
   sources:
     arxiv: https://arxiv.org/abs/2603.11862
+  bibtex: |-
+    @misc{kao2026you,
+      title = {You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents},
+      author = {Ching-Yu Kao and Xinfeng Li and Shenyu Dai and Tianze Qiu and Pengcheng Zhou and Eric Hanchen Jiang and Philip Sperl},
+      year = {2026},
+      eprint = {2603.11862},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2603.11862}
+    }
 - title: 'OpenClaw-RL: Train Any Agent Simply by Talking'
   link: https://arxiv.org/abs/2603.10165
   authors:
@@ -99,8 +126,8 @@
   - Ling Yang
   institutions:
   - University of Chicago
-  - Princeton University
-  - Peking University
+  - Princeton
+  - PKU
   date: '2026-03-10'
   publisher: arXiv
   envs: []
@@ -117,13 +144,22 @@
   arxiv_id: '2603.10165'
   sources:
     arxiv: https://arxiv.org/abs/2603.10165
+  bibtex: |-
+    @misc{wang2026openclawrl,
+      title = {OpenClaw-RL: Train Any Agent Simply by Talking},
+      author = {Yinjie Wang and Xuyang Chen and Xiaolong Jin and Mengdi Wang and Ling Yang},
+      year = {2026},
+      eprint = {2603.10165},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2603.10165}
+    }
 - title: 'Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward'
   link: https://arxiv.org/abs/2602.12430
   authors:
   - Renjun Xu
   - Yang Yan
   institutions:
-  - Zhejiang University
+  - ZJU
   date: '2026-02-12'
   publisher: arXiv
   envs: []
@@ -140,6 +176,15 @@
   arxiv_id: '2602.12430'
   sources:
     arxiv: https://arxiv.org/abs/2602.12430
+  bibtex: |-
+    @misc{xu2026agent,
+      title = {Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward},
+      author = {Renjun Xu and Yang Yan},
+      year = {2026},
+      eprint = {2602.12430},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2602.12430}
+    }
 - title: Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
   link: https://arxiv.org/abs/2512.09706
   authors:
@@ -149,8 +194,8 @@
   - Anji Liu
   - Yitao Liang
   institutions:
-  - Peking University
-  - National University of Singapore
+  - PKU
+  - NUS
   date: '2025-12-10'
   publisher: arXiv
   envs: []
@@ -168,6 +213,15 @@
   sources:
     arxiv: https://arxiv.org/abs/2512.09706
     code: https://github.com/CraftJarvis/OpenHA
+  bibtex: |-
+    @misc{he2025training,
+      title = {Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning},
+      author = {Kaichen He and Zihao Wang and Muyao Li and Anji Liu and Yitao Liang},
+      year = {2025},
+      eprint = {2512.09706},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2512.09706}
+    }
 - title: 'Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence'
   link: https://arxiv.org/abs/2512.08743
   authors:
@@ -178,7 +232,7 @@
   - Dongzhan Zhou
   - Lei Bai
   institutions:
-  - Shanghai Artificial Intelligence Laboratory
+  - Shanghai AI Laboratory
   date: '2025-12-09'
   publisher: arXiv
   envs: []
@@ -195,6 +249,15 @@
   arxiv_id: '2512.08743'
   sources:
     arxiv: https://arxiv.org/abs/2512.08743
+  bibtex: |-
+    @misc{hu2025singleagent,
+      title = {Single-Agent Scaling Fails Multi-Agent Intelligence: Towards Foundation Models with Native Multi-Agent Intelligence},
+      author = {Shuyue Hu and Haoyang Yan and Yiqun Zhang and Yang Chen and Dongzhan Zhou and Lei Bai},
+      year = {2025},
+      eprint = {2512.08743},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2512.08743}
+    }
 - title: 'Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents'
   link: https://arxiv.org/abs/2510.24702
   authors:
@@ -220,9 +283,9 @@
   - Yu Su
   - Graham Neubig
   institutions:
-  - Carnegie Mellon University
-  - The Ohio State University
-  - University of Hong Kong
+  - CMU
+  - OSU
+  - HKU
   - Duke University
   - Fujitsu Research
   - All Hands AI
@@ -244,6 +307,16 @@
     arxiv: https://arxiv.org/abs/2510.24702
     openreview: https://openreview.net/forum?id=tG6301ORHd
     homepage: https://agentdataprotocol.com
+  bibtex: |-
+    @inproceedings{song2025agent,
+      title = {Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents},
+      author = {Yueqi Song and Ketan Ramaneti and Zaid Sheikh and Ziru Chen and Boyu Gou and Tianbao Xie and Yiheng Xu and Danyang Zhang and Apurva Gandhi and Fan Yang and Joseph Liu and Tianyue Ou and Zhihao Yuan and Frank Xu and Shuyan Zhou and Xingyao Wang and Xiang Yue and Tao Yu and Huan Sun and Yu Su and Graham Neubig},
+      year = {2025},
+      booktitle = {ICLR 2026},
+      eprint = {2510.24702},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2510.24702}
+    }
 - title: Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms
   link: https://arxiv.org/abs/2510.13913
   authors:
@@ -272,6 +345,15 @@
   arxiv_id: '2510.13913'
   sources:
     arxiv: https://arxiv.org/abs/2510.13913
+  bibtex: |-
+    @misc{pandit2025synthesizing,
+      title = {Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms},
+      author = {Shrey Pandit and Xuan-Phi Nguyen and Yifei Ming and Austin Xu and Jiayu Wang and Caiming Xiong and Shafiq Joty},
+      year = {2025},
+      eprint = {2510.13913},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2510.13913}
+    }
 - title: 'Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation'
   link: https://arxiv.org/abs/2510.11977
   authors:
@@ -307,19 +389,18 @@
   - Percy Liang
   - Arvind Narayanan
   institutions:
-  - Princeton University
+  - Princeton
   - Independent Researcher
-  - The Ohio State University
-  - Microsoft Research
+  - OSU
+  - MSR
   - Amazon
   - Georgetown University
   - KAIST
   - Stony Brook University
-  - University of Illinois Urbana-Champaign
-  - Stanford University
+  - UIUC
+  - Stanford
   - xAI
-  - University of California
-  - Berkeley
+  - UC Berkeley
   date: '2025-10-13'
   publisher: ICLR 2026 (Poster)
   envs: []
@@ -337,6 +418,16 @@
   arxiv_id: '2510.11977'
   sources:
     arxiv: https://arxiv.org/abs/2510.11977
+  bibtex: |-
+    @inproceedings{kapoor2025holistic,
+      title = {Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation},
+      author = {Sayash Kapoor and Benedikt Stroebl and Peter Kirgis and Nitya Nadgir and Zachary S. Siegel and Boyi Wei and Tianci Xue and Ziru Chen and Felix Chen and Saiteja Utpala and Franck Ndzomga and Dheeraj Oruganty and Sophie Luskin and Kangheng Liu and Botao Yu and Amit Arora and Dongyoon Hahm and Harsh Trivedi and Huan Sun and Juyong Lee and Tengjun Jin and Yifan Mai and Yifei Zhou and Yuxuan Zhu and Rishi Bommasani and Daniel Kang and Dawn Song and Peter Henderson and Yu Su and Percy Liang and Arvind Narayanan},
+      year = {2025},
+      booktitle = {ICLR 2026},
+      eprint = {2510.11977},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2510.11977}
+    }
 - title: Reliable Weak-to-Strong Monitoring of LLM Agents
   link: https://arxiv.org/abs/2508.19461
   authors:
@@ -350,8 +441,8 @@
   - Zifan Wang
   institutions:
   - Scale AI
-  - Carnegie Mellon University
-  - Massachusetts Institute of Technology
+  - CMU
+  - MIT
   date: '2025-08-26'
   publisher: ICLR 2025
   envs: []
@@ -366,6 +457,16 @@
   arxiv_id: '2508.19461'
   sources:
     arxiv: https://arxiv.org/abs/2508.19461
+  bibtex: |-
+    @inproceedings{kale2025reliable,
+      title = {Reliable Weak-to-Strong Monitoring of LLM Agents},
+      author = {Neil Kale and Chen Bo Calvin Zhang and Kevin Zhu and Ankit Aich and Paula Rodriguez and Scale Red Team and Christina Q. Knight and Zifan Wang},
+      year = {2025},
+      booktitle = {ICLR 2025},
+      eprint = {2508.19461},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2508.19461}
+    }
 - title: 'MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers'
   link: https://arxiv.org/abs/2508.14704
   authors:
@@ -400,6 +501,15 @@
     arxiv: https://arxiv.org/abs/2508.14704
     homepage: https://mcp-universe.github.io/
     code: https://github.com/SalesforceAIResearch/MCP-Universe
+  bibtex: |-
+    @misc{luo2025mcpuniverse,
+      title = {MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers},
+      author = {Ziyang Luo and Zhiqi Shen and Wenzhuo Yang and Zirui Zhao and Prathyusha Jwalapuram and Amrita Saha and Doyen Sahoo and Silvio Savarese and Caiming Xiong and Junnan Li},
+      year = {2025},
+      eprint = {2508.14704},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2508.14704}
+    }
 - title: 'BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent'
   link: https://arxiv.org/abs/2508.06600
   authors:
@@ -427,7 +537,7 @@
   - University of Waterloo
   - CSIRO
   - Independent
-  - Carnegie Mellon University
+  - CMU
   - The University of Queensland
   date: '2025-08-08'
   publisher: arXiv
@@ -444,6 +554,15 @@
   arxiv_id: '2508.06600'
   sources:
     arxiv: https://arxiv.org/abs/2508.06600
+  bibtex: |-
+    @misc{chen2025browsecompplus,
+      title = {BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent},
+      author = {Zijian Chen and Xueguang Ma and Shengyao Zhuang and Ping Nie and Kai Zou and Andrew Liu and Joshua Green and Kshama Patel and Ruoxi Meng and Mingyi Su and Sahel Sharifymoghaddam and Yanxi Li and Haoran Hong and Xinyu Shi and Xuye Liu and Nandan Thakur and Crystina Zhang and Luyu Gao and Wenhu Chen and Jimmy Lin},
+      year = {2025},
+      eprint = {2508.06600},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2508.06600}
+    }
 - title: 'Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training'
   link: https://arxiv.org/abs/2508.00414
   authors:
@@ -479,6 +598,15 @@
   arxiv_id: '2508.00414'
   sources:
     arxiv: https://arxiv.org/abs/2508.00414
+  bibtex: |-
+    @misc{fang2025cognitive,
+      title = {Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training},
+      author = {Tianqing Fang and Zhisong Zhang and Xiaoyang Wang and Rui Wang and Can Qin and Yuxuan Wan and Jun-Yu Ma and Ce Zhang and Jiaqi Chen and Xiyun Li and Hongming Zhang and Haitao Mi and Dong Yu},
+      year = {2025},
+      eprint = {2508.00414},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2508.00414}
+    }
 - title: 'Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation'
   link: https://arxiv.org/abs/2505.11604
   authors:
@@ -506,6 +634,15 @@
   arxiv_id: '2505.11604'
   sources:
     arxiv: https://arxiv.org/abs/2505.11604
+  bibtex: |-
+    @misc{jung2025talk,
+      title = {Talk to Your Slides: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation},
+      author = {Kyudan Jung and Hojun Cho and Jooyeol Yun and Soyoung Yang and Jaehyeok Jang and Jaegul Choo},
+      year = {2025},
+      eprint = {2505.11604},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2505.11604}
+    }
 - title: 'Magma: A Foundation Model for Multimodal AI Agents'
   link: https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html
   authors:
@@ -523,8 +660,8 @@
   - Lars Liden
   - Jianfeng Gao
   institutions:
-  - Microsoft Research
-  - University of Maryland
+  - MSR
+  - UMD
   - University of Wisconsin-Madison
   - KAIST
   - University of Washington
@@ -545,6 +682,14 @@
   sources:
     publisher_page: https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html
     homepage: https://microsoft.github.io/Magma
+  bibtex: |-
+    @inproceedings{yang2025magma,
+      title = {Magma: A Foundation Model for Multimodal AI Agents},
+      author = {Jianwei Yang and Reuben Tan and Qianhui Wu and Ruijie Zheng and Baolin Peng and Yongyuan Liang and Yu Gu and Mu Cai and Seonghyeon Ye and Joel Jang and Yuquan Deng and Lars Liden and Jianfeng Gao},
+      year = {2025},
+      booktitle = {CVPR 2025},
+      url = {https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Magma_A_Foundation_Model_for_Multimodal_AI_Agents_CVPR_2025_paper.html}
+    }
 - title: 'Language Agents: Foundations, Prospects, and Risks'
   link: https://aclanthology.org/2024.emnlp-tutorials.3/
   authors:
@@ -553,10 +698,10 @@
   - Shunyu Yao
   - Tao Yu
   institutions:
-  - The Ohio State University
-  - Stanford University
-  - Princeton University
-  - The University of Hong Kong
+  - OSU
+  - Stanford
+  - Princeton
+  - HKU
   date: '2024-11-30'
   publisher: EMNLP 2024 Tutorial Abstracts
   envs: []
@@ -573,6 +718,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-tutorials.3/
+  bibtex: |-
+    @inproceedings{su2024language,
+      title = {Language Agents: Foundations, Prospects, and Risks},
+      author = {Yu Su and Diyi Yang and Shunyu Yao and Tao Yu},
+      year = {2024},
+      booktitle = {EMNLP 2024 Tutorial Abstracts},
+      url = {https://aclanthology.org/2024.emnlp-tutorials.3/}
+    }
 - title: 'MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning'
   link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html
   authors:
@@ -617,6 +770,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html
+  bibtex: |-
+    @inproceedings{zhang2024mm15,
+      title = {MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning},
+      author = {Haotian Zhang and Mingfei Gao and Zhe Gan and Philipp Dufter and Nina Wenzel and Forrest Huang and Dhruti Shah and Xianzhi Du and Bowen Zhang and Yanghao Li and Sam Dodge and Keen You and Zhen Yang and Aleksei Timofeev and Mingze Xu and Hong-You Chen and Jean-Philippe Fauconnier and Zhengfeng Lai and Haoxuan You and Zirui Wang and Afshin Dehghan and Peter Grasch and Yinfei Yang},
+      year = {2024},
+      booktitle = {ICLR 2025},
+      url = {https://proceedings.iclr.cc/paper_files/paper/2025/hash/a2c3c86679300047c740c9900f19ddac-Abstract-Conference.html}
+    }
 - title: 'TinyAgent: Function Calling at the Edge'
   link: https://aclanthology.org/2024.emnlp-demo.9/
   authors:
@@ -649,6 +810,14 @@
   sources:
     publisher_page: https://aclanthology.org/2024.emnlp-demo.9/
     code: https://github.com/SqueezeAILab/TinyAgent
+  bibtex: |-
+    @inproceedings{erdogan2024tinyagent,
+      title = {TinyAgent: Function Calling at the Edge},
+      author = {Lutfi Eren Erdogan and Nicholas Lee and Siddharth Jha and Sehoon Kim and Ryan Tabrizi and Suhong Moon and Coleman Richard Charles Hooper and Gopala Anumanchipalli and Kurt Keutzer and Amir Gholami},
+      year = {2024},
+      booktitle = {EMNLP 2024 System Demonstrations},
+      url = {https://aclanthology.org/2024.emnlp-demo.9/}
+    }
 - title: 'VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents'
   link: https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html
   authors:
@@ -683,10 +852,10 @@
   - Yuxiao Dong
   - Jie Tang
   institutions:
-  - Tsinghua University
-  - Zhejiang University
-  - Peking University
-  - The Ohio State University
+  - Tsinghua
+  - ZJU
+  - PKU
+  - OSU
   date: '2024-08-12'
   publisher: ICLR 2025
   envs: []
@@ -704,6 +873,14 @@
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html
     code: https://github.com/THUDM/VisualAgentBench
+  bibtex: |-
+    @inproceedings{liu2024visualagentbench,
+      title = {VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents},
+      author = {Xiao Liu and Tianjie Zhang and Yu Gu and Iat Long Iong and Yifan Xu and Xixuan Song and Shudan Zhang and Hanyu Lai and Xinyi Liu and Hanlin Zhao and Jiadai Sun and Xinyue Yang and Yu Yang and Zehan Qi and Shuntian Yao and Xueqiao Sun and Siyi Cheng and Qinkai Zheng and Hao Yu and Hanchen Zhang and Wenyi Hong and Ming Ding and Lihang Pan and Xiaotao Gu and Aohan Zeng and Zhengxiao Du and Chan Hee Song and Yu Su and Yuxiao Dong and Jie Tang},
+      year = {2024},
+      booktitle = {ICLR 2025},
+      url = {https://proceedings.iclr.cc/paper_files/paper/2025/hash/eea71dc576381b88f2a0ca4dedc2140d-Abstract-Conference.html}
+    }
 - title: 'Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions'
   link: https://aclanthology.org/2025.acl-long.1087/
   authors:
@@ -715,7 +892,7 @@
   - Zhuosheng Zhang
   - Hai Zhao
   institutions:
-  - Shanghai Jiao Tong University
+  - SJTU
   - Meta
   date: '2024-08-05'
   publisher: ACL 2025
@@ -730,6 +907,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     publisher_page: https://aclanthology.org/2025.acl-long.1087/
+  bibtex: |-
+    @inproceedings{ma2024caution,
+      title = {Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions},
+      author = {Xinbei Ma and Yiting Wang and Yao Yao and Tongxin Yuan and Aston Zhang and Zhuosheng Zhang and Hai Zhao},
+      year = {2024},
+      booktitle = {ACL 2025},
+      url = {https://aclanthology.org/2025.acl-long.1087/}
+    }
 - title: 'MindSearch: Mimicking Human Minds Elicits Deep AI Searcher'
   link: https://openreview.net/forum?id=xgtXkyqw1f
   authors:
@@ -741,7 +926,7 @@
   - Kai Chen
   - Feng Zhao
   institutions:
-  - University of Science and Technology of China
+  - USTC
   - Shanghai AI Laboratory
   date: '2024-07-29'
   publisher: ICLR 2025 (Poster)
@@ -757,6 +942,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     openreview: https://openreview.net/forum?id=xgtXkyqw1f
+  bibtex: |-
+    @inproceedings{chen2024mindsearch,
+      title = {MindSearch: Mimicking Human Minds Elicits Deep AI Searcher},
+      author = {Zehui Chen and Kuikun Liu and Qiuchen Wang and Jiangning Liu and Wenwei Zhang and Kai Chen and Feng Zhao},
+      year = {2024},
+      booktitle = {ICLR 2025},
+      url = {https://openreview.net/forum?id=xgtXkyqw1f}
+    }
 - title: 'Octo-planner: On-device Language Model for Planner-Action Agents'
   link: https://arxiv.org/abs/2406.18082
   authors:
@@ -777,6 +970,15 @@
   arxiv_id: '2406.18082'
   sources:
     arxiv: https://arxiv.org/abs/2406.18082
+  bibtex: |-
+    @misc{team2024octoplanner,
+      title = {Octo-planner: On-device Language Model for Planner-Action Agents},
+      author = {Nexa AI Team},
+      year = {2024},
+      eprint = {2406.18082},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2406.18082}
+    }
 - title: 'VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought'
   link: https://openreview.net/forum?id=5G7MRfPngt
   authors:
@@ -787,7 +989,7 @@
   - Kenneth Marino
   - Katerina Fragkiadaki
   institutions:
-  - Carnegie Mellon University
+  - CMU
   - Google DeepMind
   date: '2024-06-20'
   publisher: NeurIPS 2024 (Spotlight)
@@ -803,13 +1005,21 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     openreview: https://openreview.net/forum?id=5G7MRfPngt
+  bibtex: |-
+    @inproceedings{sarch2024vlm,
+      title = {VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought},
+      author = {Gabriel Herbert Sarch and Lawrence Jang and Michael J. Tarr and William W. Cohen and Kenneth Marino and Katerina Fragkiadaki},
+      year = {2024},
+      booktitle = {NeurIPS 2024},
+      url = {https://openreview.net/forum?id=5G7MRfPngt}
+    }
 - title: 'Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent'
   link: https://arxiv.org/abs/2404.11459
   authors:
   - Wei Chen
   - Zhiyuan Li
   institutions:
-  - Stanford University
+  - Stanford
   date: '2024-04-17'
   publisher: arXiv
   envs: []
@@ -825,6 +1035,15 @@
   arxiv_id: '2404.11459'
   sources:
     arxiv: https://arxiv.org/abs/2404.11459
+  bibtex: |-
+    @misc{chen2024octopus,
+      title = {Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent},
+      author = {Wei Chen and Zhiyuan Li},
+      year = {2024},
+      eprint = {2404.11459},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2404.11459}
+    }
 - title: Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking
   link: https://arxiv.org/abs/2404.08860
   authors:
@@ -832,8 +1051,7 @@
   - Jeshwanth Bheemanpally
   - Yi Zhang
   institutions:
-  - University of California
-  - Santa Cruz
+  - UC Santa Cruz
   date: '2024-04-13'
   publisher: SIGIR 2024
   envs: []
@@ -849,6 +1067,16 @@
   arxiv_id: '2404.08860'
   sources:
     arxiv: https://arxiv.org/abs/2404.08860
+  bibtex: |-
+    @inproceedings{ding2024enhancing,
+      title = {Enhancing Mobile "How-to" Queries with Automated Search Results Verification and Reranking},
+      author = {Lei Ding and Jeshwanth Bheemanpally and Yi Zhang},
+      year = {2024},
+      booktitle = {SIGIR 2024},
+      eprint = {2404.08860},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2404.08860}
+    }
 - title: 'AgentStudio: A Toolkit for Building General Virtual Agents'
   link: https://openreview.net/forum?id=axUf8BOjnH
   authors:
@@ -859,9 +1087,9 @@
   - Bo An
   - Shuicheng Yan
   institutions:
-  - Nanyang Technological University
+  - NTU
   - Skywork AI
-  - ETH Zurich
+  - ETH
   date: '2024-03-26'
   publisher: ICLR 2025
   envs: []
@@ -877,6 +1105,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     openreview: https://openreview.net/forum?id=axUf8BOjnH
+  bibtex: |-
+    @inproceedings{zheng2024agentstudio,
+      title = {AgentStudio: A Toolkit for Building General Virtual Agents},
+      author = {Longtao Zheng and Zhiyuan Huang and Zhenghai Xue and Xinrun Wang and Bo An and Shuicheng Yan},
+      year = {2024},
+      booktitle = {ICLR 2025},
+      url = {https://openreview.net/forum?id=axUf8BOjnH}
+    }
 - title: 'Cradle: Empowering Foundation Agents Towards General Computer Control'
   link: https://arxiv.org/abs/2403.03186
   authors:
@@ -911,13 +1147,12 @@
   institutions:
   - Skywork AI
   - Beijing Academy of Artificial Intelligence
-  - Nanyang Technological University
-  - Peking University
+  - NTU
+  - PKU
   - Institute of Software
-  - Chinese Academy of Sciences
-  - The University of Hong Kong
-  - The Chinese University of Hong Kong
-  - Shenzhen
+  - CAS
+  - HKU
+  - CUHK-Shenzhen
   date: '2024-03-05'
   publisher: arXiv
   envs: []
@@ -936,6 +1171,15 @@
     arxiv: https://arxiv.org/abs/2403.03186
     homepage: https://baai-agents.github.io/Cradle
     code: https://github.com/BAAI-Agents/Cradle
+  bibtex: |-
+    @misc{tan2024cradle,
+      title = {Cradle: Empowering Foundation Agents Towards General Computer Control},
+      author = {Weihao Tan and Wentao Zhang and Xinrun Xu and Haochong Xia and Ziluo Ding and Boyu Li and Bohan Zhou and Junpeng Yue and Jiechuan Jiang and Yewen Li and Ruyi An and Molei Qin and Chuqiao Zong and Longtao Zheng and Yujie Wu and Xiaoqiang Chai and Yifei Bi and Tianbao Xie and Pengjie Gu and Xiyun Li and Ceyao Zhang and Long Tian and Chaojie Wang and Xinrun Wang and Börje F. Karlsson and Bo An and Shuicheng Yan and Zongqing Lu},
+      year = {2024},
+      eprint = {2403.03186},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2403.03186}
+    }
 - title: Improving Language Understanding from Screenshots
   link: https://arxiv.org/abs/2402.14073
   authors:
@@ -945,7 +1189,7 @@
   - Danqi Chen
   institutions:
   - Princeton Language and Intelligence (PLI)
-  - Princeton University
+  - Princeton
   date: '2024-02-21'
   publisher: arXiv
   envs: []
@@ -962,6 +1206,15 @@
   sources:
     arxiv: https://arxiv.org/abs/2402.14073
     code: https://github.com/princeton-nlp/PTP
+  bibtex: |-
+    @misc{gao2024improving,
+      title = {Improving Language Understanding from Screenshots},
+      author = {Tianyu Gao and Zirui Wang and Adithya Bhaskar and Danqi Chen},
+      year = {2024},
+      eprint = {2402.14073},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2402.14073}
+    }
 - title: Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents
   link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
   authors:
@@ -973,7 +1226,7 @@
   - Xu Sun
   institutions:
   - Renmin University of China
-  - Peking University
+  - PKU
   - Tencent
   date: '2024-02-17'
   publisher: NeurIPS 2024
@@ -991,6 +1244,14 @@
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html
     code: https://github.com/lancopku/agent-backdoor-attacks
+  bibtex: |-
+    @inproceedings{yang2024watch,
+      title = {Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents},
+      author = {Wenkai Yang and Xiaohan Bi and Yankai Lin and Sishuo Chen and Jie Zhou and Xu Sun},
+      year = {2024},
+      booktitle = {NeurIPS 2024},
+      url = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html}
+    }
 - title: A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents
   link: https://arxiv.org/abs/2402.10196
   authors:
@@ -1001,7 +1262,7 @@
   - Chaowei Xiao
   - Huan Sun
   institutions:
-  - The Ohio State University
+  - OSU
   - University of Wisconsin-Madison
   date: '2024-02-15'
   publisher: arXiv
@@ -1018,6 +1279,15 @@
   arxiv_id: '2402.10196'
   sources:
     arxiv: https://arxiv.org/abs/2402.10196
+  bibtex: |-
+    @misc{mo2024a,
+      title = {A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents},
+      author = {Lingbo Mo and Zeyi Liao and Boyuan Zheng and Yu Su and Chaowei Xiao and Huan Sun},
+      year = {2024},
+      eprint = {2402.10196},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2402.10196}
+    }
 - title: 'AgentBench: Evaluating LLMs as Agents'
   link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html
   authors:
@@ -1044,8 +1314,8 @@
   - Yuxiao Dong
   - Jie Tang
   institutions:
-  - Tsinghua University
-  - The Ohio State University
+  - Tsinghua
+  - OSU
   - ByteDance
   date: '2024-01-01'
   publisher: ICLR 2024
@@ -1060,6 +1330,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html
+  bibtex: |-
+    @inproceedings{liu2024agentbench,
+      title = {AgentBench: Evaluating LLMs as Agents},
+      author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Hangliang Ding and Kaiwen Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and Sheng Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},
+      year = {2024},
+      booktitle = {ICLR 2024},
+      url = {https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html}
+    }
 - title: 'GAIA: a benchmark for General AI Assistants'
   link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html
   authors:
@@ -1086,6 +1364,14 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     homepage: https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html
+  bibtex: |-
+    @inproceedings{mialon2023gaia,
+      title = {GAIA: a benchmark for General AI Assistants},
+      author = {Grégoire Mialon and Clémentine Fourrier and Craig Swift and Thomas Wolf and Yann LeCun and Thomas Scialom},
+      year = {2023},
+      booktitle = {ICLR 2024},
+      url = {https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html}
+    }
 - title: Exploring Mobile UI Layout Generation using Large Language Models Guided by UI Grammar
   link: https://arxiv.org/abs/2310.15455
   authors:
@@ -1096,8 +1382,8 @@
   - Toby Jia-Jun Li
   institutions:
   - University of Notre Dame
-  - Fudan University
-  - Carnegie Mellon University
+  - Fudan
+  - CMU
   date: '2023-10-24'
   publisher: AI & HCI @ ICML 2023
   envs: []
@@ -1112,6 +1398,16 @@
   arxiv_id: '2310.15455'
   sources:
     arxiv: https://arxiv.org/abs/2310.15455
+  bibtex: |-
+    @inproceedings{lu2023exploring,
+      title = {Exploring Mobile UI Layout Generation using Large Language Models Guided by UI Grammar},
+      author = {Yuwen Lu and Ziang Tong and Qinyi Zhao and Chengzhi Zhang and Toby Jia-Jun Li},
+      year = {2023},
+      booktitle = {AI & HCI @ ICML 2023},
+      eprint = {2310.15455},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2310.15455}
+    }
 - title: Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
   link: https://arxiv.org/abs/2310.11441
   authors:
@@ -1122,7 +1418,7 @@
   - Chunyuan Li
   - Jianfeng Gao
   institutions:
-  - Microsoft Research
+  - MSR
   date: '2023-10-17'
   publisher: arXiv
   envs: []
@@ -1140,6 +1436,15 @@
     arxiv: https://arxiv.org/abs/2310.11441
     homepage: https://som-gpt4v.github.io/
     code: https://github.com/microsoft/SoM
+  bibtex: |-
+    @misc{yang2023setofmark,
+      title = {Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V},
+      author = {Jianwei Yang and Hao Zhang and Feng Li and Xueyan Zou and Chunyuan Li and Jianfeng Gao},
+      year = {2023},
+      eprint = {2310.11441},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2310.11441}
+    }
 - title: 'OpenAgents: An Open Platform for Language Agents in the Wild'
   link: https://arxiv.org/abs/2310.10634
   authors:
@@ -1160,9 +1465,9 @@
   - Caiming Xiong
   - Tao Yu
   institutions:
-  - The University of Hong Kong
+  - HKU
   - Sea AI Lab
-  - Salesforce Research
+  - Salesforce AI Research
   date: '2023-10-16'
   publisher: COLM 2024
   envs: []
@@ -1180,6 +1485,16 @@
   sources:
     arxiv: https://arxiv.org/abs/2310.10634
     code: https://github.com/xlang-ai/OpenAgents
+  bibtex: |-
+    @inproceedings{xie2023openagents,
+      title = {OpenAgents: An Open Platform for Language Agents in the Wild},
+      author = {Tianbao Xie and Fan Zhou and Zhoujun Cheng and Peng Shi and Luoxuan Weng and Yitao Liu and Toh Jing Hua and Junning Zhao and Qian Liu and Che Liu and Leo Z. Liu and Yiheng Xu and Hongjin Su and Dongchan Shin and Caiming Xiong and Tao Yu},
+      year = {2023},
+      booktitle = {COLM 2024},
+      eprint = {2310.10634},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2310.10634}
+    }
 - title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
   link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html
   authors:
@@ -1190,8 +1505,8 @@
   - Shunyu Yao
   institutions:
   - Northeastern University
-  - Massachusetts Institute of Technology
-  - Princeton University
+  - MIT
+  - Princeton
   date: '2023-03-20'
   publisher: NeurIPS 2023
   envs: []
@@ -1206,6 +1521,14 @@
   sources:
     publisher_page: https://neurips.cc/Help/Contact?select=Conference
     homepage: https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html
+  bibtex: |-
+    @inproceedings{shinn2023reflexion,
+      title = {Reflexion: Language Agents with Verbal Reinforcement Learning},
+      author = {Noah Shinn and Federico Cassano and Ashwin Gopinath and Karthik Narasimhan and Shunyu Yao},
+      year = {2023},
+      booktitle = {NeurIPS 2023},
+      url = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html}
+    }
 - title: 'Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding'
   link: https://proceedings.mlr.press/v202/lee23g.html
   authors:
@@ -1239,6 +1562,14 @@
     publisher_page: https://proceedings.mlr.press/v202/lee23g.html
     homepage: https://proceedings.mlr.press/v202/lee23g.html
     code: https://github.com/google-research/pix2struct
+  bibtex: |-
+    @inproceedings{lee2023pix2struct,
+      title = {Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding},
+      author = {Kenton Lee and Mandar Joshi and Iulia Turc and Hexiang Hu and Fangyu Liu and Julian Eisenschlos and Urvashi Khandelwal and Peter Shaw and Ming-Wei Chang and Kristina Toutanova},
+      year = {2023},
+      booktitle = {ICML 2023},
+      url = {https://proceedings.mlr.press/v202/lee23g.html}
+    }
 - title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
   link: https://openreview.net/forum?id=WE_vluYUL-X
   authors:
@@ -1250,7 +1581,7 @@
   - Karthik Narasimhan
   - Yuan Cao
   institutions:
-  - Princeton University
+  - Princeton
   - Google Research
   date: '2022-10-06'
   publisher: ICLR 2023
@@ -1264,3 +1595,11 @@
   relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
   sources:
     openreview: https://openreview.net/forum?id=WE_vluYUL-X
+  bibtex: |-
+    @inproceedings{yao2022react,
+      title = {ReAct: Synergizing Reasoning and Acting in Language Models},
+      author = {Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},
+      year = {2022},
+      booktitle = {ICLR 2023},
+      url = {https://openreview.net/forum?id=WE_vluYUL-X}
+    }

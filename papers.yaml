@@ -870,7 +870,7 @@
   - Li Li
   institutions:
   - Zhongguancun Laboratory
-  - Tsinghua University
+  - Tsinghua
   - Network Management Center, China Mobile
   date: '2026-09-11'
   publisher: arXiv
@@ -1045,7 +1045,7 @@
   institutions:
   - Dalian University of Technology
   - OPPO Research Institute
-  - The Hong Kong Polytechnic University
+  - PolyU
   date: '2026-09-09'
   publisher: arXiv
   envs:
@@ -1278,8 +1278,8 @@
   - Siheng Chen
   - Yanfeng Wang
   institutions:
-  - Shanghai Jiao Tong University
-  - Zhejiang University
+  - SJTU
+  - ZJU
   date: '2026-09-04'
   publisher: arXiv
   envs:
@@ -1317,7 +1317,7 @@
   - Zhan Hu
   - Tun Lu
   institutions:
-  - Fudan University
+  - Fudan
   date: '2026-09-04'
   publisher: arXiv
   envs:
@@ -1350,7 +1350,7 @@
   - Linchao Zhu
   institutions:
   - University of Electronic Science and Technology of China
-  - Zhejiang University
+  - ZJU
   date: '2026-09-04'
   publisher: arXiv
   envs:
@@ -1389,7 +1389,7 @@
   - Weiqiang Wang
   - Zhuosheng Zhang
   institutions:
-  - Shanghai Jiao Tong University
+  - SJTU
   - Ant Group
   date: '2026-09-03'
   publisher: arXiv
@@ -1502,7 +1502,7 @@
   - Huafeng Qin
   - Tao Chen
   institutions:
-  - Fudan University
+  - Fudan
   - Shanghai Innovation Institute
   - Chongqing Technology and Business University
   date: '2026-09-02'
@@ -1542,7 +1542,7 @@
   institutions:
   - University of Minnesota
   - Purdue University
-  - The Pennsylvania State University
+  - Pennsylvania State University
   date: '2026-09-02'
   publisher: arXiv
   envs:
@@ -1582,7 +1582,7 @@
   - Jingbo Zhou
   - Hua Wu
   institutions:
-  - Baidu, Inc.
+  - Baidu Inc.
   - Ningxia Electric Power Engineering Co., Ltd.
   date: '2026-09-02'
   publisher: arXiv
@@ -1685,7 +1685,7 @@
   institutions:
   - MBZUAI
   - McGill University
-  - City University of Hong Kong
+  - CityU
   - UMass Boston
   date: '2026-08-31'
   publisher: arXiv
@@ -1720,7 +1720,7 @@
   - Stjepan Picek
   - Tsung-Yi Ho
   institutions:
-  - The Chinese University of Hong Kong
+  - CUHK
   - IBM Research
   - University of Zagreb
   - Radboud University
@@ -1839,7 +1839,7 @@
   - Yu Rong
   institutions:
   - Yale University
-  - Zhejiang University
+  - ZJU
   - China University of Geosciences
   - DAMO Academy, Alibaba Group
   - Tongji University
@@ -1880,7 +1880,7 @@
   - Yang Liu
   institutions:
   - Jilin University
-  - Tsinghua University
+  - Tsinghua
   - Institute for AI Industry Research, Tsinghua
   - Beijing Jiaotong University
   - Tongyi Lab, Alibaba Group
@@ -1959,8 +1959,8 @@
   - Juncheng Li
   - Siliang Tang
   institutions:
-  - Fudan University
-  - Zhejiang University
+  - Fudan
+  - ZJU
   date: '2026-08-28'
   publisher: arXiv
   envs:
@@ -2189,7 +2189,7 @@
   - Lin Fu
   - Hong Zhou
   institutions:
-  - Zhejiang University
+  - ZJU
   - Yale University
   - University of Chinese Academy of Sciences
   - Tongji University
@@ -2236,7 +2236,7 @@
   - Yueting Zhuang
   - Yongliang Shen
   institutions:
-  - Zhejiang University
+  - ZJU
   - Tencent
   date: '2026-08-25'
   publisher: arXiv
@@ -2269,7 +2269,7 @@
   - Fan Wu
   - Guihai Chen
   institutions:
-  - Shanghai Jiao Tong University
+  - SJTU
   date: '2026-08-25'
   publisher: arXiv
   envs:
@@ -2306,7 +2306,7 @@
   - Jian Luan
   - Shengyu Zhang
   institutions:
-  - Zhejiang University
+  - ZJU
   - MiLM Plus
   - Xiaomi
   date: '2026-08-25'
@@ -2495,7 +2495,7 @@
   - Hua Wu
   - Hui Xiong
   institutions:
-  - The Hong Kong University of Science and Technology (Guangzhou)
+  - HKUST(GZ)
   - Baidu Inc.
   - University of Alberta
   date: '2026-08-22'
@@ -2528,7 +2528,7 @@
   - Md Abrar Jahin
   - Md Rizwan Parvez
   institutions:
-  - University of Southern California
+  - USC
   - Qatar Computing Research Institute
   date: '2026-08-22'
   publisher: arXiv
@@ -2598,7 +2598,7 @@
   - Daniel Yue Zhang
   institutions:
   - Scale AI
-  - Johns Hopkins University
+  - JHU
   - University of Texas at Dallas
   date: '2026-08-22'
   publisher: arXiv
@@ -2705,7 +2705,7 @@
   - Ming Yan
   - Yang Liu
   institutions:
-  - Tsinghua University
+  - Tsinghua
   - Alibaba Group
   date: '2026-08-21'
   publisher: arXiv
@@ -2738,8 +2738,8 @@
   - Ruishi Chen
   - Diyi Yang
   institutions:
-  - Stanford University
-  - Carnegie Mellon University
+  - Stanford
+  - CMU
   date: '2026-08-20'
   publisher: arXiv
   envs:
@@ -2806,7 +2806,7 @@
   - Tianyi Du
   - Jing Shao
   institutions:
-  - Shanghai Artificial Intelligence Laboratory
+  - Shanghai AI Laboratory
   date: '2026-08-18'
   publisher: arXiv
   envs:
@@ -3183,6 +3183,15 @@
     arxiv: https://arxiv.org/abs/2608.03270
     code: https://github.com/Fzkuji/GUI-Agent-Harness
   bibtex_confirmed: false
+  bibtex: |-
+    @misc{fu2026guilens,
+      title = {GUI-Lens: Coarse-to-Fine Cropping for GUI Grounding with General-Purpose VLMs},
+      author = {Zichuan Fu and Shirong Wang and Wenlin Zhang and Guojing Li and Yimin Deng and Jingtong Gao and Junjia Qi and Hanyu Yan and Yefeng Zheng and Xiaopeng Li and Wanyu Wang and Xian Wu and Xiangyu Zhao},
+      year = {2026},
+      eprint = {2608.03270},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2608.03270}
+    }
 - title: Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents
   link: https://arxiv.org/abs/2608.03327
   authors:
@@ -3794,7 +3803,7 @@
   - Biwei Huang
   institutions:
   - UC San Diego
-  - Aether AI Lab
+  - Aether AI
   date: '2026-07-13'
   publisher: arXiv
   envs:
@@ -4159,7 +4168,7 @@
   institutions:
   - BIT
   - THU
-  - Beihang
+  - Beihang University
   date: '2026-06-03'
   publisher: arXiv
   envs:
@@ -4219,6 +4228,15 @@
     arxiv: https://arxiv.org/abs/2606.04391
     code: https://github.com/plusnli/online-skill-learning
   bibtex_confirmed: false
+  bibtex: |-
+    @misc{li2026online,
+      title = {Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval},
+      author = {Jiaxi Li and Ke Deng and Yun Wang and Jingyuan Huang and Yucheng Shi and Qiaoyu Tan and Jin Lu and Ninghao Liu},
+      year = {2026},
+      eprint = {2606.04391},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.04391}
+    }
 - title: 'Demo2Tutorial: From Human Experience to Multimodal Software Tutorials'
   link: https://arxiv.org/abs/2606.03951
   authors:
@@ -4302,7 +4320,7 @@
   - Linfeng Zhang
   institutions:
   - SJTU
-  - HKUST (GZ)
+  - HKUST(GZ)
   - ZJU
   date: '2026-06-01'
   publisher: arXiv
@@ -4467,7 +4485,7 @@
   institutions:
   - BUPT
   - StepFun
-  - Waseda
+  - Waseda University
   date: '2026-05-26'
   publisher: arXiv
   envs:
@@ -4784,7 +4802,7 @@
   - Xiaolin Hu
   - Bo An
   institutions:
-  - Nanyang Technological University
+  - NTU
   - MiLM Plus
   - Xiaomi
   - Renmin University of China
@@ -5006,7 +5024,7 @@
   - Jason Wu
   institutions:
   - UW
-  - Purdue
+  - Purdue University
   date: '2026-04-28'
   publisher: arXiv
   envs:
@@ -5470,7 +5488,7 @@
   - Jieyu Zhao
   institutions:
   - USC
-  - McGill
+  - McGill University
   - Mila
   date: '2026-04-12'
   publisher: arXiv
@@ -5678,7 +5696,7 @@
   - UCAS
   - CASIA
   - Huawei
-  - ShanghaiTech
+  - ShanghaiTech University
   date: '2026-04-09'
   publisher: arXiv
   envs:
@@ -6522,7 +6540,7 @@
   - Philip S. Yu
   institutions:
   - UIC
-  - McGill
+  - McGill University
   - MBZUAI
   - UCSB
   - USC
@@ -8250,7 +8268,7 @@
   - Dehan Kong
   institutions:
   - Fudan
-  - IMean AI
+  - iMean AI
   date: '2026-03-05'
   publisher: arXiv
   envs:
@@ -8290,7 +8308,7 @@
   - Dehan Kong
   institutions:
   - Fudan
-  - IMean AI
+  - iMean AI
   - CUHK
   - Tsinghua
   date: '2026-03-05'
@@ -8417,7 +8435,7 @@
   - Yuanchun Shi
   institutions:
   - Tsinghua
-  - Huawei Noah’s Ark Lab
+  - Huawei Noah's Ark Lab
   - Institute of Automation
   - CAS
   date: '2026-02-28'
@@ -8549,7 +8567,7 @@
   - Renmin University of China
   - MiLM Plus
   - Xiaomi
-  - Nanyang Technological University
+  - NTU
   - Wuhan University
   date: '2026-02-27'
   publisher: ICML 2026 (Poster)
@@ -9085,7 +9103,7 @@
   - Tao Xie
   institutions:
   - PKU
-  - Tencent Inc.
+  - Tencent
   - HKUST
   - Simon Fraser University
   - University of Texas at Dallas
@@ -11787,7 +11805,7 @@
   - Rongjunchen Zhang
   - Ian G. Harris
   institutions:
-  - HiThink Research
+  - Hithink Research
   - UC Irvine
   - Hangzhou Dianzi University
   date: '2026-01-14'
@@ -13501,7 +13519,7 @@
   - Rui Shao
   institutions:
   - HIT-Shenzhen
-  - Huawei Noah’s Ark Lab
+  - Huawei Noah's Ark Lab
   date: '2025-12-01'
   publisher: arXiv
   envs:
@@ -14790,7 +14808,7 @@
   - Chaowei Xiao
   institutions:
   - University of Georgia
-  - University of Wisconsin–Madison
+  - University of Wisconsin-Madison
   - JHU
   - UMD
   - HKUST
@@ -15583,7 +15601,7 @@
   - Jian Luan
   - Shengyu Zhang
   institutions:
-  - Zhejiang University
+  - ZJU
   - MiLM Plus
   - Xiaomi
   date: '2025-09-27'
@@ -16266,7 +16284,7 @@
   - Jun Wang
   - Kun Shao
   institutions:
-  - Huawei Noah’s Ark Lab
+  - Huawei Noah's Ark Lab
   - UCL
   date: '2025-09-01'
   publisher: NeurIPS 2025 (Poster)
@@ -18585,7 +18603,7 @@
   - Liqiang Nie
   institutions:
   - HIT-Shenzhen
-  - Huawei Noah’s Ark Lab
+  - Huawei Noah's Ark Lab
   date: '2025-05-22'
   publisher: ACL 2025
   envs:
@@ -19641,7 +19659,7 @@
   - Dongmei Zhang
   institutions:
   - Microsoft
-  - ZJU-UIUC Institute
+  - ZJU-UIUC
   - NJU
   - PKU
   date: '2025-04-20'
@@ -19989,7 +20007,7 @@
   - Min Yang
   - Xiaobo Xia
   institutions:
-  - Shenzhen Institute of Advanced Technology
+  - Shenzhen Institutes of Advanced Technology
   - CAS
   - University of Chinese Academy of Sciences
   - NUS
@@ -20121,7 +20139,7 @@
   - Christopher J. Pal
   - Siva Reddy
   institutions:
-  - McGill
+  - McGill University
   - Mila
   - Google DeepMind
   - Polytechnique Montréal
@@ -21260,7 +21278,7 @@
   - Jun Wang
   - Kun Shao
   institutions:
-  - Huawei Noah’s Ark Lab
+  - Huawei Noah's Ark Lab
   - UCL
   date: '2025-02-10'
   publisher: arXiv
@@ -21960,7 +21978,7 @@
   - ServiceNow Research
   - ServiceNow
   - Laval University
-  - imean.ai
+  - iMean AI
   - Microsoft
   - CMU
   - Polytechnique Montréal
@@ -22771,7 +22789,7 @@
   - Dong Yu
   institutions:
   - ZJU
-  - Tencent AI Lab (Seattle)
+  - Tencent AI Seattle Lab
   - Westlake University
   date: '2024-10-25'
   publisher: ACL 2025
@@ -23247,7 +23265,7 @@
   institutions:
   - CMU
   - Scale AI
-  - GraySwan AI
+  - Gray Swan AI
   date: '2024-10-11'
   publisher: arXiv
   envs:

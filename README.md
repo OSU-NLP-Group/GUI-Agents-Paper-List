@@ -235,7 +235,7 @@ We welcome contributions from the community!
 
 - [VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets](https://arxiv.org/abs/2609.12404)
     - Yu Bai, Yukai Miao, Dawei Wang, Li Chen, Yanyu Ren, Yuqian Shi, Dan Li, Ying Xiong, Chengqiu Tan, Run Zhou, Li Li
-    - 🏛️ Institutions: Zhongguancun Laboratory, Tsinghua University, Network Management Center, China Mobile
+    - 🏛️ Institutions: Zhongguancun Laboratory, Tsinghua, Network Management Center, China Mobile
     - 📅 Date: September 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web], [General GUI]
@@ -271,7 +271,7 @@ We welcome contributions from the community!
 
 - [TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents](https://arxiv.org/abs/2609.10297)
     - Yuhao Wang, Mu Qiao, Xindong Zhang, Yunzhi Zhuge, Lei Zhang, Huchuan Lu
-    - 🏛️ Institutions: Dalian University of Technology, OPPO Research Institute, The Hong Kong Polytechnic University
+    - 🏛️ Institutions: Dalian University of Technology, OPPO Research Institute, PolyU
     - 📅 Date: September 09, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -325,7 +325,7 @@ We welcome contributions from the community!
 
 - [CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents](https://arxiv.org/abs/2609.05374)
     - Haoting Shi, Wenhao Wang, Weicheng Fang, Yaozhong Liang, Tian Jin, Pengxiang Zhao, Guangyi Liu, Siheng Chen, Yanfeng Wang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Zhejiang University
+    - 🏛️ Institutions: SJTU, ZJU
     - 📅 Date: September 04, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -334,7 +334,7 @@ We welcome contributions from the community!
 
 - [ElderBench: Benchmarking Autonomous Mobile Agents for Older Adults](https://arxiv.org/abs/2609.04850)
     - Weide Zhan, Qumu Shaqu, Yuanqing Liu, Peng Zhang, Jiahao Liu, Kam Him Lam, Ning Gu, Zhan Hu, Tun Lu
-    - 🏛️ Institutions: Fudan University
+    - 🏛️ Institutions: Fudan
     - 📅 Date: September 04, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -343,7 +343,7 @@ We welcome contributions from the community!
 
 - [From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents](https://arxiv.org/abs/2609.04869)
     - Longtao Hu, Xiao Liang, Linchao Zhu
-    - 🏛️ Institutions: University of Electronic Science and Technology of China, Zhejiang University
+    - 🏛️ Institutions: University of Electronic Science and Technology of China, ZJU
     - 📅 Date: September 04, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [General GUI]
@@ -352,7 +352,7 @@ We welcome contributions from the community!
 
 - [Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents](https://arxiv.org/abs/2609.03438)
     - Zhaoyuan Huang, Tianjie Ju, Pengzhou Cheng, Zheng Wu, Yansi Li, Chuanbiao Song, Jun Lan, Huijia Zhu, Weiqiang Wang, Zhuosheng Zhang
-    - 🏛️ Institutions: Shanghai Jiao Tong University, Ant Group
+    - 🏛️ Institutions: SJTU, Ant Group
     - 📅 Date: September 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -379,7 +379,7 @@ We welcome contributions from the community!
 
 - [Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization](https://arxiv.org/abs/2609.02309)
     - Bizhe Bai, Jiakang Yuan, Hongming Wu, Xinyue Wang, Jie Ren, Siyao Chen, Yuchen Ya, Fan Bai, Pai Peng, Huafeng Qin, Tao Chen
-    - 🏛️ Institutions: Fudan University, Shanghai Innovation Institute, Chongqing Technology and Business University
+    - 🏛️ Institutions: Fudan, Shanghai Innovation Institute, Chongqing Technology and Business University
     - 📅 Date: September 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -388,7 +388,7 @@ We welcome contributions from the community!
 
 - [Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision](https://arxiv.org/abs/2609.02057)
     - Sitong Pan, Yipeng Shen, Yilin Lu, Caiwen Ding, Lu Cheng, Qianwen Wang
-    - 🏛️ Institutions: University of Minnesota, Purdue University, The Pennsylvania State University
+    - 🏛️ Institutions: University of Minnesota, Purdue University, Pennsylvania State University
     - 📅 Date: September 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -397,7 +397,7 @@ We welcome contributions from the community!
 
 - [OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations](https://arxiv.org/abs/2609.02149)
     - Yixiong Xiao, Lang An, Hucheng Yang, Pinxue Ma, Yongquan Chen, Jingjia Cao, Yusai Zhao, Ting Wang, Ting Liu, Siqi Bao, Jingbo Zhou, Hua Wu
-    - 🏛️ Institutions: Baidu, Inc., Ningxia Electric Power Engineering Co., Ltd.
+    - 🏛️ Institutions: Baidu Inc., Ningxia Electric Power Engineering Co., Ltd.
     - 📅 Date: September 02, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -424,7 +424,7 @@ We welcome contributions from the community!
 
 - [SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction](https://arxiv.org/abs/2609.05511)
     - Bowei He, Xiaokun Zhang, Meng Ding, Xue Liu
-    - 🏛️ Institutions: MBZUAI, McGill University, City University of Hong Kong, UMass Boston
+    - 🏛️ Institutions: MBZUAI, McGill University, CityU, UMass Boston
     - 📅 Date: August 31, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -433,7 +433,7 @@ We welcome contributions from the community!
 
 - [SIR: Self-improving Red-teaming for Compute Use Agents](https://arxiv.org/abs/2608.30207)
     - Chen Xiong, Zhiyuan He, Pin-Yu Chen, Stjepan Picek, Tsung-Yi Ho
-    - 🏛️ Institutions: The Chinese University of Hong Kong, IBM Research, University of Zagreb, Radboud University
+    - 🏛️ Institutions: CUHK, IBM Research, University of Zagreb, Radboud University
     - 📅 Date: August 31, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [General GUI]
@@ -460,7 +460,7 @@ We welcome contributions from the community!
 
 - [GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments](https://arxiv.org/abs/2609.00048)
     - Lin Fu, Zheyuan Yang, Tianhui Zhang, Jinbiao Wei, Guo Gan, Boxu Liu, Yilun Zhao, Yu Rong
-    - 🏛️ Institutions: Yale University, Zhejiang University, China University of Geosciences, DAMO Academy, Alibaba Group, Tongji University, UC San Diego
+    - 🏛️ Institutions: Yale University, ZJU, China University of Geosciences, DAMO Academy, Alibaba Group, Tongji University, UC San Diego
     - 📅 Date: August 30, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -469,7 +469,7 @@ We welcome contributions from the community!
 
 - [Learning Simple Test-Time Environments for LLM Web Agents](https://arxiv.org/abs/2608.29305)
     - Junxuan Li, Zijun Liu, Ziyi Huang, Peng Li, Yuzhou Liu, Ming Yan, Yang Liu
-    - 🏛️ Institutions: Jilin University, Tsinghua University, Institute for AI Industry Research, Tsinghua, Beijing Jiaotong University, Tongyi Lab, Alibaba Group
+    - 🏛️ Institutions: Jilin University, Tsinghua, Institute for AI Industry Research, Tsinghua, Beijing Jiaotong University, Tongyi Lab, Alibaba Group
     - 📅 Date: August 29, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -487,7 +487,7 @@ We welcome contributions from the community!
 
 - [Iron: Intent-Aligned and Retrospective Dual Learning Framework for Enhancing Generalist Virtual Agents](https://arxiv.org/abs/2608.27866)
     - Jiahe Ying, Wendong Bu, Kaihang Pan, Bingchen Miao, Siyu Chen, Wen Wang, Xueming Jiang, Juncheng Li, Siliang Tang
-    - 🏛️ Institutions: Fudan University, Zhejiang University
+    - 🏛️ Institutions: Fudan, ZJU
     - 📅 Date: August 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -541,7 +541,7 @@ We welcome contributions from the community!
 
 - [Are Android GUI Agents Robust Against Runtime Anomalies? AnTrap: Evaluating Agents in Dynamic Adversarial Environments](https://arxiv.org/abs/2608.24099)
     - Guo Gan, Yilun Zhao, Cong Chen, Jinbiao Wei, Tingyu Song, Zheyuan Yang, Lin Fu, Hong Zhou
-    - 🏛️ Institutions: Zhejiang University, Yale University, University of Chinese Academy of Sciences, Tongji University
+    - 🏛️ Institutions: ZJU, Yale University, University of Chinese Academy of Sciences, Tongji University
     - 📅 Date: August 25, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -550,7 +550,7 @@ We welcome contributions from the community!
 
 - [BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes](https://arxiv.org/abs/2608.24848)
     - Fei Tang, Huawen Shen, Zhiqiong Lu, Zhengxi Lu, Pengyuan Lyu, Chengquan Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
-    - 🏛️ Institutions: Zhejiang University, Tencent
+    - 🏛️ Institutions: ZJU, Tencent
     - 📅 Date: August 25, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -559,7 +559,7 @@ We welcome contributions from the community!
 
 - [Reflection with Action-Induced Visual Differences for Desktop GUI Agents](https://arxiv.org/abs/2608.24015)
     - Yijie Ma, Chaoyue Niu, Fan Wu, Guihai Chen
-    - 🏛️ Institutions: Shanghai Jiao Tong University
+    - 🏛️ Institutions: SJTU
     - 📅 Date: August 25, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -568,7 +568,7 @@ We welcome contributions from the community!
 
 - [Task-Adaptive Rubrics for GUI Reward Modeling](https://arxiv.org/abs/2608.24174)
     - Tao Xiong, Xavier Hu, Wenkai Wang, Qinzhuo Wu, Changqiao Wu, Pengzhi Gao, Wei Liu, Jian Luan, Shengyu Zhang
-    - 🏛️ Institutions: Zhejiang University, MiLM Plus, Xiaomi
+    - 🏛️ Institutions: ZJU, MiLM Plus, Xiaomi
     - 📅 Date: August 25, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -613,7 +613,7 @@ We welcome contributions from the community!
 
 - [Beyond Success and Failure: Length-Aware Contrastive Learning for GUI Agents](https://arxiv.org/abs/2608.21830)
     - Chengyang Gu, Le Zhang, Jingbo Zhou, Yize Chen, Yu Shi, Siqi Bao, Zheng-Fan Wu, Hua Wu, Hui Xiong
-    - 🏛️ Institutions: The Hong Kong University of Science and Technology (Guangzhou), Baidu Inc., University of Alberta
+    - 🏛️ Institutions: HKUST(GZ), Baidu Inc., University of Alberta
     - 📅 Date: August 22, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -622,7 +622,7 @@ We welcome contributions from the community!
 
 - [GUI-Primitives: Diagnosing Spatial Reasoning Failures in Vision-Language GUI Grounding](https://arxiv.org/abs/2608.21832)
     - Md Abrar Jahin, Md Rizwan Parvez
-    - 🏛️ Institutions: University of Southern California, Qatar Computing Research Institute
+    - 🏛️ Institutions: USC, Qatar Computing Research Institute
     - 📅 Date: August 22, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -640,7 +640,7 @@ We welcome contributions from the community!
 
 - [Spine-Branch Coordination for Multi-agent Computer Use](https://arxiv.org/abs/2608.22077)
     - Mian Zhang, Manasi Sharma, Sheng Zhang, Minglai Yang, Kejian Shi, Ying Liu, Zhiyu Zoey Chen, Daniel Yue Zhang
-    - 🏛️ Institutions: Scale AI, Johns Hopkins University, University of Texas at Dallas
+    - 🏛️ Institutions: Scale AI, JHU, University of Texas at Dallas
     - 📅 Date: August 22, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -667,7 +667,7 @@ We welcome contributions from the community!
 
 - [Benchmarking General Mobile Assistants in Challenging Real-World Scenarios](https://arxiv.org/abs/2608.27477)
     - Yiqi Zhu, Feiyu Gao, Jiaxing Fan, Jiahui Zeng, Minggang Wu, Chenliang Li, Haiyang Xu, Peng Li, Ming Yan, Yang Liu
-    - 🏛️ Institutions: Tsinghua University, Alibaba Group
+    - 🏛️ Institutions: Tsinghua, Alibaba Group
     - 📅 Date: August 21, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -676,7 +676,7 @@ We welcome contributions from the community!
 
 - [Inducing Task Models from Computer-Use Traces](https://arxiv.org/abs/2608.20319)
     - Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen, Diyi Yang
-    - 🏛️ Institutions: Stanford University, Carnegie Mellon University
+    - 🏛️ Institutions: Stanford, CMU
     - 📅 Date: August 20, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -694,7 +694,7 @@ We welcome contributions from the community!
 
 - [MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps](https://arxiv.org/abs/2608.17659)
     - Sujin Chen, Lijun Li, Tianyi Du, Jing Shao
-    - 🏛️ Institutions: Shanghai Artificial Intelligence Laboratory
+    - 🏛️ Institutions: Shanghai AI Laboratory
     - 📅 Date: August 18, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -919,7 +919,7 @@ We welcome contributions from the community!
 
 - [StructAgent: Harness Long-horizon Digital Agents with Unified Causal Structure](https://arxiv.org/abs/2607.11388)
     - Wenyi Wu, Sibo Zhu, Kun Zhou, Aayush Salvi, Zixuan Song, Biwei Huang
-    - 🏛️ Institutions: UC San Diego, Aether AI Lab
+    - 🏛️ Institutions: UC San Diego, Aether AI
     - 📅 Date: July 13, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Web]
@@ -982,7 +982,7 @@ We welcome contributions from the community!
 
 - [Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms](https://arxiv.org/abs/2606.04701)
     - Jiashu Yao, Heyan Huang, Daiqing Wu, Wangke Chen, Huaxi Ai, Haoyu Wen, Zeming Liu, Yuhang Guo
-    - 🏛️ Institutions: BIT, THU, Beihang
+    - 🏛️ Institutions: BIT, THU, Beihang University
     - 📅 Date: June 03, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1018,7 +1018,7 @@ We welcome contributions from the community!
 
 - [STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models](https://arxiv.org/abs/2606.01790)
     - Yuhang Han, Wenzheng Yang, Yujie Chen, Xiangqi Jin, Yaojie Zhang, Siteng Huang, Linfeng Zhang
-    - 🏛️ Institutions: SJTU, HKUST (GZ), ZJU
+    - 🏛️ Institutions: SJTU, HKUST(GZ), ZJU
     - 📅 Date: June 01, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -1054,7 +1054,7 @@ We welcome contributions from the community!
 
 - [AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications](https://arxiv.org/abs/2605.27761)
     - Yifan Sui, Xin Huang, Hongbing Li, Fang Xu, Jiahe Lv, Haolong Yan, Yeqing Shen, Litao Liu, Zhimin Fan, Ziyang Meng, Jia Wang, Junbo Qi, Kaijun Tan, Zheng Ge, Xiangyu Zhang, Daxin Jiang, Osamu Yoshie
-    - 🏛️ Institutions: BUPT, StepFun, Waseda
+    - 🏛️ Institutions: BUPT, StepFun, Waseda University
     - 📅 Date: May 26, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1126,7 +1126,7 @@ We welcome contributions from the community!
 
 - [How Mobile World Model Guides GUI Agents?](https://arxiv.org/abs/2605.10347)
     - Weikai Xu, Kun Huang, Yunren Feng, Jiaxing Li, Yuhan Chen, Yuxuan Liu, Zhizheng Jiang, Heng Qu, Pengzhi Gao, Wei Liu, Jian Luan, Xiaolin Hu, Bo An
-    - 🏛️ Institutions: Nanyang Technological University, MiLM Plus, Xiaomi, Renmin University of China, Wuhan University, Xiamen University
+    - 🏛️ Institutions: NTU, MiLM Plus, Xiaomi, Renmin University of China, Wuhan University, Xiamen University
     - 📅 Date: May 11, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -1180,7 +1180,7 @@ We welcome contributions from the community!
 
 - [Training Computer Use Agents to Assess the Usability of Graphical User Interfaces](https://arxiv.org/abs/2604.26020)
     - Alice Gao, Weixi Tong, Rishab Vempati, Katharina Reinecke, R. Benjamin Shapiro, Tianyi Zhang, Jason Wu
-    - 🏛️ Institutions: UW, Purdue
+    - 🏛️ Institutions: UW, Purdue University
     - 📅 Date: April 28, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -1279,7 +1279,7 @@ We welcome contributions from the community!
 
 - [The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents](https://arxiv.org/abs/2604.10577)
     - Xuwei Ding, Skylar Zhai, Linxin Song, Jiate Li, Taiwei Shi, Nicholas Meade, Siva Reddy, Jian Kang, Jieyu Zhao
-    - 🏛️ Institutions: USC, McGill, Mila
+    - 🏛️ Institutions: USC, McGill University, Mila
     - 📅 Date: April 12, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -1324,7 +1324,7 @@ We welcome contributions from the community!
 
 - [Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection](https://arxiv.org/abs/2604.07831)
     - Wenkui Yang, Chao Jin, Haisu Zhu, Weilin Luo, Derek Yuen, Kun Shao, Huaibo Huang, Junxian Duan, Jie Cao, Ran He
-    - 🏛️ Institutions: UCAS, CASIA, Huawei, ShanghaiTech
+    - 🏛️ Institutions: UCAS, CASIA, Huawei, ShanghaiTech University
     - 📅 Date: April 09, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -1513,7 +1513,7 @@ We welcome contributions from the community!
 
 - [When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation](https://arxiv.org/abs/2604.00892)
     - Henry Peng Zou, Chunyu Miao, Wei-Chieh Huang, Yankai Chen, Yue Zhou, Hanrong Zhang, Yaozu Wu, Liancheng Fang, Zhengyao Gu, Zhen Zhang, Kening Zheng, Fangxin Wang, Yi Nian, Shanghao Li, Wenzhe Fan, Langzhou He, Weizhi Zhang, Xue Liu, Philip S. Yu
-    - 🏛️ Institutions: UIC, McGill, MBZUAI, UCSB, USC
+    - 🏛️ Institutions: UIC, McGill University, MBZUAI, UCSB, USC
     - 📅 Date: April 01, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1891,7 +1891,7 @@ We welcome contributions from the community!
 
 - [WebChain: A Large-Scale Human-Annotated Dataset of Real-World Web Interaction Traces](https://arxiv.org/abs/2603.05295)
     - Sicheng Fan, Rui Wan, Yifei Leng, Gaoning Liang, Li Ling, Yanyi Shang, Dehan Kong
-    - 🏛️ Institutions: Fudan, IMean AI
+    - 🏛️ Institutions: Fudan, iMean AI
     - 📅 Date: March 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1900,7 +1900,7 @@ We welcome contributions from the community!
 
 - [WebFactory: Automated Compression of Foundational Language Intelligence into Grounded Web Agents](https://arxiv.org/abs/2603.05044)
     - Sicheng Fan, Qingyun Shi, Shengze Xu, Shengbo Cai, Tieyong Zeng, Li Ling, Yanyi Shang, Dehan Kong
-    - 🏛️ Institutions: Fudan, IMean AI, CUHK, Tsinghua
+    - 🏛️ Institutions: Fudan, iMean AI, CUHK, Tsinghua
     - 📅 Date: March 05, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -1927,7 +1927,7 @@ We welcome contributions from the community!
 
 - [K²-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control](https://arxiv.org/abs/2603.00676)
     - Zhe Wu, Donglin Mo, Hongjin Lu, Junliang Xing, Jianheng Liu, Yuheng Jing, Kai Li, Kun Shao, Jianye Hao, Yuanchun Shi
-    - 🏛️ Institutions: Tsinghua, Huawei Noah’s Ark Lab, Institute of Automation, CAS
+    - 🏛️ Institutions: Tsinghua, Huawei Noah's Ark Lab, Institute of Automation, CAS
     - 📅 Date: February 28, 2026
     - 📑 Publisher: ICLR 2026 (Poster)
     - 💻 Env: [Mobile]
@@ -1954,7 +1954,7 @@ We welcome contributions from the community!
 
 - [CoME: Empowering Channel-of-Mobile-Experts with Informative Hybrid-Capabilities Reasoning](https://arxiv.org/abs/2602.24142)
     - Yuxuan Liu, Weikai Xu, Kun Huang, Changyu Chen, Jiankun Zhao, Pengzhi Gao, Wei Liu, Jian Luan, Shuo Shang, Bo Du, Ji-Rong Wen, Rui Yan
-    - 🏛️ Institutions: Renmin University of China, MiLM Plus, Xiaomi, Nanyang Technological University, Wuhan University
+    - 🏛️ Institutions: Renmin University of China, MiLM Plus, Xiaomi, NTU, Wuhan University
     - 📅 Date: February 27, 2026
     - 📑 Publisher: ICML 2026 (Poster)
     - 💻 Env: [Mobile]
@@ -2071,7 +2071,7 @@ We welcome contributions from the community!
 
 - [GUI-GENESIS: Automated Synthesis of Efficient Environments with Verifiable Rewards for GUI Agent Post-Training](https://arxiv.org/abs/2602.14093)
     - Yuan Cao, Dezhi Ran, Mengzhou Wu, Yuzhe Guo, Xin Chen, Ang Li, Gang Cao, Gong Zhi, Hao Yu, Linyi Li, Wei Yang, Tao Xie
-    - 🏛️ Institutions: PKU, Tencent Inc., HKUST, Simon Fraser University, University of Texas at Dallas
+    - 🏛️ Institutions: PKU, Tencent, HKUST, Simon Fraser University, University of Texas at Dallas
     - 📅 Date: February 15, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [Web]
@@ -2647,7 +2647,7 @@ We welcome contributions from the community!
 
 - [Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents](https://arxiv.org/abs/2601.11631)
     - Yurun Song, Jiong Yin, Rongjunchen Zhang, Ian G. Harris
-    - 🏛️ Institutions: HiThink Research, UC Irvine, Hangzhou Dianzi University
+    - 🏛️ Institutions: Hithink Research, UC Irvine, Hangzhou Dianzi University
     - 📅 Date: January 14, 2026
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -2998,7 +2998,7 @@ We welcome contributions from the community!
 
 - [HiconAgent: History Context-aware Policy Optimization for GUI Agents](https://arxiv.org/abs/2512.01763)
     - Xurui Zhou, Gongwei Chen, Yuquan Xie, Zaijing Li, Kaiwen Zhou, Shuai Wang, Shuo Yang, Zhuotao Tian, Rui Shao
-    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah’s Ark Lab
+    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah's Ark Lab
     - 📅 Date: December 01, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [General GUI]
@@ -3259,7 +3259,7 @@ We welcome contributions from the community!
 
 - [Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent](https://arxiv.org/abs/2510.06607)
     - Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
-    - 🏛️ Institutions: University of Georgia, University of Wisconsin–Madison, JHU, UMD, HKUST, CUHK, Apple, Arizona State University
+    - 🏛️ Institutions: University of Georgia, University of Wisconsin-Madison, JHU, UMD, HKUST, CUHK, Apple, Arizona State University
     - 📅 Date: October 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -3430,7 +3430,7 @@ We welcome contributions from the community!
 
 - [GUI-PRA: Process Reward Agent for GUI Tasks](https://arxiv.org/abs/2509.23263)
     - Tao Xiong, Xavier Hu, Yurun Chen, Yuhang Liu, Changqiao Wu, Pengzhi Gao, Wei Liu, Jian Luan, Shengyu Zhang
-    - 🏛️ Institutions: Zhejiang University, MiLM Plus, Xiaomi
+    - 🏛️ Institutions: ZJU, MiLM Plus, Xiaomi
     - 📅 Date: September 27, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
@@ -3547,7 +3547,7 @@ We welcome contributions from the community!
 
 - [Succeed or Learn Slowly: Sample Efficient Off-Policy Reinforcement Learning for Mobile App Control](https://arxiv.org/abs/2509.01720)
     - Georgios Papoudakis, Thomas Coste, Jianye Hao, Jun Wang, Kun Shao
-    - 🏛️ Institutions: Huawei Noah’s Ark Lab, UCL
+    - 🏛️ Institutions: Huawei Noah's Ark Lab, UCL
     - 📅 Date: September 01, 2025
     - 📑 Publisher: NeurIPS 2025 (Poster)
     - 💻 Env: [Mobile]
@@ -4006,7 +4006,7 @@ We welcome contributions from the community!
 
 - [GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent](https://aclanthology.org/2025.acl-long.282/)
     - Bin Xie, Rui Shao, Gongwei Chen, Kaiwen Zhou, Yinchuan Li, Jie Liu, Min Zhang, Liqiang Nie
-    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah’s Ark Lab
+    - 🏛️ Institutions: HIT-Shenzhen, Huawei Noah's Ark Lab
     - 📅 Date: May 22, 2025
     - 📑 Publisher: ACL 2025
     - 💻 Env: [Mobile]
@@ -4231,7 +4231,7 @@ We welcome contributions from the community!
 
 - [UFO2: The Desktop AgentOS](https://arxiv.org/abs/2504.14603)
     - Chaoyun Zhang, He Huang, Chiming Ni, Jian Mu, Si Qin, Shilin He, Lu Wang, Fangkai Yang, Pu Zhao, Chao Du, Liqun Li, Yu Kang, Zhao Jiang, Suzhen Zheng, Rujia Wang, Jiaxu Qian, Minghua Ma, Jian-Guang Lou, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
-    - 🏛️ Institutions: Microsoft, ZJU-UIUC Institute, NJU, PKU
+    - 🏛️ Institutions: Microsoft, ZJU-UIUC, NJU, PKU
     - 📅 Date: April 20, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop]
@@ -4303,7 +4303,7 @@ We welcome contributions from the community!
 
 - [GUI-R1: A Generalist R1-Style Vision-Language Action Model for GUI Agents](https://arxiv.org/abs/2504.10458)
     - Run Luo, Lu Wang, Wanwei He, Longze Chen, Jiaming Li, Min Yang, Xiaobo Xia
-    - 🏛️ Institutions: Shenzhen Institute of Advanced Technology, CAS, University of Chinese Academy of Sciences, NUS
+    - 🏛️ Institutions: Shenzhen Institutes of Advanced Technology, CAS, University of Chinese Academy of Sciences, NUS
     - 📅 Date: April 14, 2025
     - 📑 Publisher: arXiv
     - 💻 Env: [Desktop], [Mobile], [Web]
@@ -4330,7 +4330,7 @@ We welcome contributions from the community!
 
 - [AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories](https://arxiv.org/abs/2504.08942)
     - Xing Han Lù, Amirhossein Kazemnejad, Nicholas Meade, Arkil Patel, Dongchan Shin, Alejandra Zambrano, Karolina Stańczak, Peter Shaw, Christopher J. Pal, Siva Reddy
-    - 🏛️ Institutions: McGill, Mila, Google DeepMind, Polytechnique Montréal, ServiceNow Research
+    - 🏛️ Institutions: McGill University, Mila, Google DeepMind, Polytechnique Montréal, ServiceNow Research
     - 📅 Date: April 11, 2025
     - 📑 Publisher: COLM 2025
     - 💻 Env: [Web]
