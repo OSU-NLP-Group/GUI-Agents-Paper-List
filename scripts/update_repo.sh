@@ -25,6 +25,9 @@ if [ ! -f "$REPO_ROOT/papers.yaml" ]; then
   exit 1
 fi
 
+echo "Canonicalising institution names ..."
+$RUN scripts/normalize_institutions.py --write
+
 echo "Regenerating derived artifacts from papers.yaml ..."
 $RUN scripts/regen.py
 

@@ -29,6 +29,7 @@ import calendar
 import logging
 import re
 import sys
+import unicodedata
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -182,6 +183,110 @@ def md_entry_for_readme(p: dict[str, Any]) -> str:
         f"    - 🔑 Key: {kw_string(p.get('keywords', []) or [])}\n"
         f"    - 📖 TLDR: {p.get('tldr', '')}\n"
     )
+
+
+# ─── BibTeX ─────────────────────────────────────────────────────────
+
+def _ascii_token(text: str) -> str:
+    """Fold to ASCII and keep only alphanumerics, lowercased."""
+    folded = unicodedata.normalize("NFKD", text)
+    folded = "".join(c for c in folded if not unicodedata.combining(c))
+    return "".join(c for c in folded if c.isalnum()).lower()
+
+
+def _cite_key(paper: dict[str, Any], taken: set[str]) -> str:
+    """Build a cite key of the form ``surnameYEARfirstword``.
+
+    The surname comes from the first author, the year from ``date``, and the
+    last part from the title's first whitespace-delimited token stripped of
+    punctuation, so "VRL-Bench: Benchmarking ..." contributes "vrlbench". A
+    numeric suffix is appended if the key is already taken.
+    """
+    authors = paper.get("authors") or []
+    surname = _ascii_token(str(authors[0]).split()[-1]) if authors else "anon"
+    year = str(paper.get("date", ""))[:4] or "0000"
+    title = str(paper.get("title", "")).split()
+    word = _ascii_token(title[0]) if title else "untitled"
+    base = f"{surname}{year}{word}" or "entry"
+    key = base
+    n = 2
+    while key in taken:
+        key = f"{base}{n}"
+        n += 1
+    return key
+
+
+def _venue_booktitle(publisher: str) -> str | None:
+    """Return the booktitle for a venue, or None for preprints.
+
+    A trailing presentation qualifier is dropped, so "ICLR 2025 (Poster)"
+    yields "ICLR 2025".
+    """
+    pub = (publisher or "").strip()
+    if not pub or pub.lower() in {"arxiv", "preprint"}:
+        return None
+    return re.sub(r"\s*\([^)]*\)\s*$", "", pub).strip() or None
+
+
+def build_bibtex(paper: dict[str, Any], taken: set[str]) -> str:
+    """Render a BibTeX entry for a paper that has none.
+
+    Venue papers become ``@inproceedings`` with a ``booktitle``; everything
+    else becomes ``@misc``. An arXiv identifier adds ``eprint`` and
+    ``archivePrefix`` and supplies the URL; otherwise the entry's ``link`` is
+    used.
+    """
+    key = _cite_key(paper, taken)
+    title = str(paper.get("title", "")).strip()
+    authors = " and ".join(str(a).strip() for a in (paper.get("authors") or []))
+    year = str(paper.get("date", ""))[:4]
+    booktitle = _venue_booktitle(str(paper.get("publisher", "")))
+    arxiv_id = str(paper.get("arxiv_id", "") or "").strip()
+
+    lines = [f"@{'inproceedings' if booktitle else 'misc'}{{{key},"]
+    lines.append(f"  title = {{{title}}},")
+    if authors:
+        lines.append(f"  author = {{{authors}}},")
+    if year:
+        lines.append(f"  year = {{{year}}},")
+    if booktitle:
+        lines.append(f"  booktitle = {{{booktitle}}},")
+    if arxiv_id:
+        lines.append(f"  eprint = {{{arxiv_id}}},")
+        lines.append("  archivePrefix = {arXiv},")
+        lines.append(f"  url = {{https://arxiv.org/abs/{arxiv_id}}}")
+    else:
+        lines.append(f"  url = {{{paper.get('link', '')}}}")
+    lines.append("}")
+    return "\n".join(lines)
+
+
+def fill_bibtex(groups: list[list[dict[str, Any]]]) -> int:
+    """Populate ``bibtex`` on entries that lack it. Returns how many were added.
+
+    Existing values are never overwritten, so hand-verified entries carrying
+    ``bibtex_confirmed: true`` keep their text. Cite keys are made unique
+    across every group passed in.
+    """
+    taken: set[str] = set()
+    for papers in groups:
+        for p in papers:
+            existing = str(p.get("bibtex") or "")
+            m = re.match(r"@\w+\{([^,]+),", existing.strip())
+            if m:
+                taken.add(m.group(1).strip())
+    added = 0
+    for papers in groups:
+        for p in papers:
+            if p.get("bibtex"):
+                continue
+            key_before = len(taken)
+            entry = build_bibtex(p, taken)
+            taken.add(re.match(r"@\w+\{([^,]+),", entry).group(1))
+            p["bibtex"] = entry
+            added += 1
+            assert len(taken) > key_before
+    return added
 
 
 # ─── Main pipeline ──────────────────────────────────────────────────
@@ -425,7 +530,10 @@ def process() -> None:
     canonical = normalize_papers(canonical)
     adjacent = normalize_papers(adjacent)
 
+    added = fill_bibtex([canonical, adjacent])
     print(f"Processed {len(canonical)} canonical and {len(adjacent)} adjacent papers.")
+    if added:
+        print(f"Generated BibTeX for {added} entr{'y' if added == 1 else 'ies'}.")
 
     emit_yaml(canonical, adjacent)
     render_readme(canonical)
