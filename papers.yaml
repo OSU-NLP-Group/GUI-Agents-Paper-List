@@ -2,6 +2,426 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks'
+  link: https://arxiv.org/abs/2609.30887
+  authors:
+  - Yuchen Sun
+  - Chenglin Cai
+  - Gongjie Zhang
+  - Tianyu Xia
+  - Quyu Kong
+  - Panrong Tong
+  - Zhengwen Zeng
+  - Long Chen
+  - Steven Hoi
+  - Chongyang Zhang
+  - Yue Wang
+  institutions:
+  - SJTU
+  - Tongyi Lab
+  date: '2026-09-25'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - GUI-Hopper
+  - deeplink
+  - hybrid interaction
+  tldr: |-
+    GUI-Hopper lets a mobile GUI agent jump to a target screen through an app-native deeplink and fall back to taps and swipes for everything else. Deeplinks are found by static analysis, validated on real devices, and stored with descriptions of their landing screens as a verified catalog; using this catalog improves task success in commercial apps on real devices.
+  arxiv_id: '2609.30887'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.30887
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{sun2026from,
+      title = {From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks},
+      author = {Yuchen Sun and Chenglin Cai and Gongjie Zhang and Tianyu Xia and Quyu Kong and Panrong Tong and Zhengwen Zeng and Long Chen and Steven Hoi and Chongyang Zhang and Yue Wang},
+      year = {2026},
+      eprint = {2609.30887},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.30887}
+    }
+- title: 'Jev-Mobile: Jev as an Executor for Mobile GUI Agents'
+  link: https://arxiv.org/abs/2609.30186
+  authors:
+  - Linghua Zhang
+  institutions:
+  - Rice University
+  date: '2026-09-24'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - Jev-Mobile
+  - Jev
+  - accessibility tree
+  - efficiency
+  tldr: |-
+    Jev-Mobile splits a mobile GUI agent into low-frequency VLM planning and high-frequency execution: the VLM sets local goals, the accessibility tree defines the executable action space, and Jev, a fast typed decision model, selects actions inside it. On the full AndroidWorld suite it reaches 79% task success against 84% for a step-wise VLM baseline, while cutting execution time by 32.7% and model API cost by 73.4% on successful trajectories.
+  arxiv_id: '2609.30186'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.30186
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026jevmobile,
+      title = {Jev-Mobile: Jev as an Executor for Mobile GUI Agents},
+      author = {Linghua Zhang},
+      year = {2026},
+      eprint = {2609.30186},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.30186}
+    }
+- title: 'The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge'
+  link: https://arxiv.org/abs/2609.30604
+  authors:
+  - Alexander Gill
+  - Md Farhan Ishmam
+  - Xuyen Nguyen
+  - Neha Bhat
+  - Parker Henry DeYoung
+  - Fateme Hashemi Chaleshtori
+  - Nathan Stringham
+  - Kenneth Marino
+  - Ana Marasović
+  institutions:
+  - University of Utah
+  date: '2026-09-24'
+  publisher: Findings of EMNLP 2026
+  envs:
+  - Web
+  keywords:
+  - KNOWS
+  - benchmark
+  - long-horizon tasks
+  - artifact generation
+  tldr: |-
+    KNOWS is a benchmark of open-ended, long-horizon, browser-based tasks in which an agent retrieves information, synthesizes it, and produces an artifact such as a document, presentation, or spreadsheet, scored by evaluators that combine deterministic checks with LLM judgments. The best frontier computer-use agent or browser harness fully succeeds on fewer than 3% of tasks, and failures on visual steps make the produced artifacts unusable.
+  arxiv_id: '2609.30604'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.30604
+    homepage: https://alexgill321.github.io/KNOWS-benchmark/
+    code: https://github.com/alexgill321/KNOWS-benchmark
+    dataset: https://huggingface.co/datasets/utahnlp/knows-benchmark
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{gill2026the,
+      title = {The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge},
+      author = {Alexander Gill and Md Farhan Ishmam and Xuyen Nguyen and Neha Bhat and Parker Henry DeYoung and Fateme Hashemi Chaleshtori and Nathan Stringham and Kenneth Marino and Ana Marasović},
+      year = {2026},
+      booktitle = {Findings of EMNLP 2026},
+      eprint = {2609.30604},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.30604}
+    }
+- title: 'CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments'
+  link: https://arxiv.org/abs/2609.27273
+  authors:
+  - Yuxuan Li
+  - Will Epperson
+  - Wesley Deng
+  - Zezhou Huang
+  institutions:
+  - CMU
+  - MSR
+  date: '2026-09-23'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - CAVEAT
+  - CAVEAT-Harness
+  - benchmark
+  - incentive robustness
+  tldr: |-
+    CAVEAT is a benchmark of nine marketplace environments and eight steering mechanisms that tests whether computer-use agents keep the user's objective when the environment itself has a stake in the outcome. Agents buy the user-optimal product in 78.6% of matched-control episodes but only 17.3% when steering is enabled, and CAVEAT-Harness, which targets the diagnosed failure modes, raises user-optimal purchasing by 55.0%.
+  arxiv_id: '2609.27273'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.27273
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{li2026caveat,
+      title = {CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments},
+      author = {Yuxuan Li and Will Epperson and Wesley Deng and Zezhou Huang},
+      year = {2026},
+      eprint = {2609.27273},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.27273}
+    }
+- title: 'Guides That Cause Actions: An Offline Study of Guide-Action Mutual Reinforcement in Multimodal Web Agents'
+  link: https://arxiv.org/abs/2609.27353
+  authors:
+  - Chengguang Gan
+  - Yunhao Liang
+  - QingHao Zhang
+  - Shiwen Ni
+  institutions:
+  - Independent Researcher
+  - University of Chinese Academy of Sciences
+  - Pusan National University
+  - Shenzhen University of Advanced Technology
+  date: '2026-09-23'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - WebMRE
+  - benchmark
+  - WebArena
+  - offline evaluation
+  - mutual reinforcement
+  tldr: |-
+    WebMRE is an offline benchmark of 541 tasks and 5,293 steps derived from successful WebArena trajectories that scores a web agent checkpoint deterministically without an environment, with each step pairing a guide sentence with a grounded action. Decoding the guide causally improves action accuracy (forcing the gold guide lifts it from .422 to .684), and the mutual reinforcement effect grows from the 4B to the 9B model.
+  arxiv_id: '2609.27353'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.27353
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{gan2026guides,
+      title = {Guides That Cause Actions: An Offline Study of Guide-Action Mutual Reinforcement in Multimodal Web Agents},
+      author = {Chengguang Gan and Yunhao Liang and QingHao Zhang and Shiwen Ni},
+      year = {2026},
+      eprint = {2609.27353},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.27353}
+    }
+- title: 'Invisible in Space, Visible in Time: Motion Vision CAPTCHA against GUI Agents'
+  link: https://arxiv.org/abs/2609.27461
+  authors:
+  - Zeyu Zhang
+  - Dingyi Rong
+  - Zijian Chen
+  - Zicheng Zhang
+  - Xiongkuo Min
+  - Guangtao Zhai
+  institutions:
+  - SJTU
+  - Shanghai AI Laboratory
+  date: '2026-09-23'
+  publisher: ACM MM 2026
+  envs:
+  - Web
+  keywords:
+  - MVCAP
+  - MVCAP-Bench
+  - benchmark
+  - CAPTCHA
+  tldr: |-
+    Motion Vision CAPTCHA (MVCAP) hides target semantics in motion-defined foreground structures that can only be recovered by temporal segregation from a dynamic background, at three levels from coherent to biological motion. On MVCAP-Bench, a browser-based benchmark of 600 live instances, humans reach 99.6% while the best GUI agent reaches 16.8%, close to six-way chance.
+  arxiv_id: '2609.27461'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.27461
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{zhang2026invisible,
+      title = {Invisible in Space, Visible in Time: Motion Vision CAPTCHA against GUI Agents},
+      author = {Zeyu Zhang and Dingyi Rong and Zijian Chen and Zicheng Zhang and Xiongkuo Min and Guangtao Zhai},
+      year = {2026},
+      booktitle = {ACM MM 2026},
+      eprint = {2609.27461},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.27461}
+    }
+- title: 'Learn How to Act from Your Own Interactions: On-Policy Self-Distillation for GUI Agents'
+  link: https://arxiv.org/abs/2609.27307
+  authors:
+  - Yan Zhang
+  - Daiqing Wu
+  - Huawen Shen
+  - Liang Li
+  - Gang Cao
+  - Zhi Gong
+  - Wei Dai
+  - Xiaode Zhang
+  - Can Ma
+  - Yu Zhou
+  institutions:
+  - Institute of Information Engineering
+  - Tencent
+  - Tsinghua
+  - University of Chinese Academy of Sciences
+  - Nankai University
+  date: '2026-09-23'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - GUI-SD-v2
+  - self-distillation
+  - model
+  tldr: |-
+    GUI-SD-v2 extends on-policy self-distillation from GUI grounding to multi-turn GUI agents in two stages: it first strengthens the self-teacher's ability to follow privileged guidance, then selectively distills step-specific reasoning and memory guidance. It outperforms existing on-policy self-distillation baselines and the evaluated state-of-the-art methods on AndroidWorld and MobileWorld in Pass@1 and Pass@3.
+  arxiv_id: '2609.27307'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.27307
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026learn,
+      title = {Learn How to Act from Your Own Interactions: On-Policy Self-Distillation for GUI Agents},
+      author = {Yan Zhang and Daiqing Wu and Huawen Shen and Liang Li and Gang Cao and Zhi Gong and Wei Dai and Xiaode Zhang and Can Ma and Yu Zhou},
+      year = {2026},
+      eprint = {2609.27307},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.27307}
+    }
+- title: Towards Omni-dimensional GUI Agent Navigation with Masked Trajectory Prediction
+  link: https://arxiv.org/abs/2609.25769
+  authors:
+  - Yan Zhang
+  - Pei Fu
+  - Daiqing Wu
+  - Huawen Shen
+  - Ruoceng Zhang
+  - Shaojie Zhang
+  - Jiahui Yang
+  - Yu Zhou
+  - Can Ma
+  - Zhenbo Luo
+  - Jian Luan
+  institutions:
+  - Institute of Information Engineering
+  - Xiaomi
+  - University of Chinese Academy of Sciences
+  - Nankai University
+  date: '2026-09-22'
+  publisher: EMNLP 2026
+  envs:
+  - Mobile
+  - Web
+  keywords:
+  - MaP
+  - masked trajectory prediction
+  - multi-task
+  - model
+  tldr: |-
+    MaP (Masked Trajectory Prediction) casts multi-turn GUI interaction as a trajectory and defines training objectives by masking and predicting its components, unifying step-wise decision-making, state-action alignment, and long-horizon planning under one objective. A role-aware adapter routes tokens to specialised representation spaces, and MaP outperforms direct mixture training on five GUI navigation benchmarks.
+  arxiv_id: '2609.25769'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.25769
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{zhang2026towards,
+      title = {Towards Omni-dimensional GUI Agent Navigation with Masked Trajectory Prediction},
+      author = {Yan Zhang and Pei Fu and Daiqing Wu and Huawen Shen and Ruoceng Zhang and Shaojie Zhang and Jiahui Yang and Yu Zhou and Can Ma and Zhenbo Luo and Jian Luan},
+      year = {2026},
+      booktitle = {EMNLP 2026},
+      eprint = {2609.25769},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.25769}
+    }
+- title: How Many Pixels Is a Digit Worth? Place-Aware Coordinate Entropy for GUI Agent Confidence Estimation
+  link: https://arxiv.org/abs/2609.24277
+  authors:
+  - Yunxiang Li
+  - Xixin Wu
+  - Helen Meng
+  institutions:
+  - CUHK
+  date: '2026-09-21'
+  publisher: EMNLP 2026
+  envs:
+  - General GUI
+  keywords:
+  - PACE
+  - confidence estimation
+  - GUI grounding
+  - ScreenSpot-Pro
+  tldr: |-
+    GUI agents emit click coordinates as digit tokens, and Place-Aware Coordinate Entropy (PACE) weights each digit's Shannon entropy by its place value to estimate per-click confidence in a single forward pass. On ScreenSpot-Pro and ScreenSpot-v2 it wins AUROC and selective accuracy on all primary comparisons, matching or outperforming K-sample baselines at a fraction of the cost.
+  arxiv_id: '2609.24277'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.24277
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{li2026how,
+      title = {How Many Pixels Is a Digit Worth? Place-Aware Coordinate Entropy for GUI Agent Confidence Estimation},
+      author = {Yunxiang Li and Xixin Wu and Helen Meng},
+      year = {2026},
+      booktitle = {EMNLP 2026},
+      eprint = {2609.24277},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.24277}
+    }
+- title: 'OSWorld-Pro: Process-based Evaluation for Computer Use Agents'
+  link: https://arxiv.org/abs/2609.24890
+  authors:
+  - Zhilin Wang
+  - Shaokun Zhang
+  - Yifan Zhang
+  - Hao Zhang
+  - Jin Xu
+  - Binfeng Xu
+  - Jian Hu
+  - Yunheng Zou
+  - Karan Sapra
+  - Andrew Tao
+  - Jan Kautz
+  - Yi Dong
+  institutions:
+  - NVIDIA
+  date: '2026-09-21'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - OSWorld-Pro
+  - benchmark
+  - process evaluation
+  - OSWorld
+  tldr: |-
+    OSWorld-Pro is a set of over 300 tasks with over 2,800 subgoals, grounded in more than 67,000 human annotations, that evaluates computer-use agents on the process rather than only the end state, using human-aligned LLM judges. The top performer, Claude Opus 5, reaches 75.7% against 83.4% on OSWorld, and the analysis surfaces process failures such as subgoal-irrelevant actions and click mistakes.
+  arxiv_id: '2609.24890'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.24890
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026osworldpro,
+      title = {OSWorld-Pro: Process-based Evaluation for Computer Use Agents},
+      author = {Zhilin Wang and Shaokun Zhang and Yifan Zhang and Hao Zhang and Jin Xu and Binfeng Xu and Jian Hu and Yunheng Zou and Karan Sapra and Andrew Tao and Jan Kautz and Yi Dong},
+      year = {2026},
+      eprint = {2609.24890},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.24890}
+    }
+- title: 'MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning'
+  link: https://arxiv.org/abs/2609.22724
+  authors:
+  - Changyue Jiang
+  - Jiayi Wang
+  - Xin Wen
+  - Jiarun Dai
+  - Geng Hong
+  - Xudong Pan
+  institutions:
+  - Fudan
+  - Shanghai Innovation Institute
+  date: '2026-09-19'
+  publisher: USENIX Security 2026
+  envs:
+  - Mobile
+  keywords:
+  - MATE
+  - MATEBench
+  - benchmark
+  - security
+  - model
+  tldr: |-
+    MATE is a policy-conditioned auditor that reads a mobile agent's trajectory together with a natural-language security policy, decides whether the trajectory violates it, and explains why, so policies can change without retraining. It is trained on more than 140K synthesized trajectories built from hundreds of apps, is evaluated on the released MATEBench, and audits AutoGLM and Mobile-Agent trajectories on real devices with over 95% accuracy.
+  arxiv_id: '2609.22724'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.22724
+    homepage: https://jiangchangyue.github.io/MATE
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{jiang2026mate,
+      title = {MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning},
+      author = {Changyue Jiang and Jiayi Wang and Xin Wen and Jiarun Dai and Geng Hong and Xudong Pan},
+      year = {2026},
+      booktitle = {USENIX Security 2026},
+      eprint = {2609.22724},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.22724}
+    }
 - title: 'MintAct: A Unified Visual Agent for Digital Environments'
   link: https://arxiv.org/abs/2609.22083
   authors:
