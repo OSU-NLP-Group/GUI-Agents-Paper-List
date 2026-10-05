@@ -2,6 +2,1722 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Securing Computer-Use Agents Against Branch Steering Attacks
+  link: https://arxiv.org/abs/2610.03089
+  authors:
+  - Giulio Zingrillo
+  - Hanna Foerster
+  - Ilia Shumailov
+  - Yiren Zhao
+  - Robert Mullins
+  institutions:
+  - ETH
+  - University of Cambridge
+  - AI Sequrity Company
+  - Imperial College London
+  date: '2026-10-02'
+  publisher: NeurIPS 2026 Workshop on Agents in the Wild
+  envs:
+  - Web
+  keywords:
+  - STEER-Bench
+  - COBRA
+  - benchmark
+  - security
+  - indirect prompt injection
+  - branch steering
+  tldr: |-
+    Studies branch steering attacks, in which untrusted page content pushes a computer-use agent down a hazardous but pre-approved branch of a Dual-LLM plan without injecting explicit instructions, and introduces STEER-Bench (101 tasks across 9 domains) to measure them. Proposes COBRA, which pairs trusted branching plans with ahead-of-time capability constraints on the parameters and destinations each branch may use; it reduces attack success on STEER-Bench to 0% while retaining 97% benign utility.
+  arxiv_id: '2610.03089'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.03089
+    code: https://github.com/giuliozing/securing-cuas-against-branch-steering
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{zingrillo2026securing,
+      title = {Securing Computer-Use Agents Against Branch Steering Attacks},
+      author = {Giulio Zingrillo and Hanna Foerster and Ilia Shumailov and Yiren Zhao and Robert Mullins},
+      year = {2026},
+      booktitle = {NeurIPS 2026 Workshop on Agents in the Wild},
+      eprint = {2610.03089},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.03089}
+    }
+- title: 'WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on
+    Live Websites'
+  link: https://arxiv.org/abs/2610.03036
+  authors:
+  - Jiangang Han
+  institutions:
+  - Independent Researcher
+  date: '2026-10-02'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - WebFovea
+  - WebRetriever Challenge
+  - vision-based agent
+  - harness
+  - failure analysis
+  tldr: |-
+    Technical report of WebFovea, a vision-based web agent that placed 2nd in the WebRetriever Challenge 2026 on live websites. Many failures it observed occur in the harness between the model and the browser (action parsing, action execution, result reporting, and observation) rather than in model reasoning; hardening each stage raised the official hidden-set score from 31.0 to 57.0 with the same model.
+  arxiv_id: '2610.03036'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.03036
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{han2026webfovea,
+      title = {WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites},
+      author = {Jiangang Han},
+      year = {2026},
+      eprint = {2610.03036},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.03036}
+    }
+- title: When to Compile a Computer-Use Agent? Measuring Payback and Making Compilation Decisions for Token Efficiency
+  link: https://arxiv.org/abs/2610.02932
+  authors:
+  - Yulong Ming
+  - Jie Xu
+  - Zihan Wu
+  - Xiaohua Jia
+  institutions:
+  - CityU
+  date: '2026-10-02'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - PACE
+  - efficiency
+  - workflow compilation
+  - token cost
+  tldr: |-
+    Studies when it pays to compile a GUI procedure that an agent executes repeatedly into a program, given uncertain compilation cost and unknown future reuse. Proposes PACE, which combines a measurement protocol for payback counts with an online compilation algorithm that bounds total cost to at most 1+ε times that of running every task with the agent.
+  arxiv_id: '2610.02932'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.02932
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{ming2026when,
+      title = {When to Compile a Computer-Use Agent? Measuring Payback and Making Compilation Decisions for Token Efficiency},
+      author = {Yulong Ming and Jie Xu and Zihan Wu and Xiaohua Jia},
+      year = {2026},
+      eprint = {2610.02932},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.02932}
+    }
+- title: 'Auditing Web Agent Evaluation on WebArena-Lite: Human Review of Outcomes and Trajectories'
+  link: https://arxiv.org/abs/2610.01491
+  authors:
+  - Chengguang Gan
+  - Zimeng He
+  - Yoshihiro Tsujii
+  - Ken-ichiro Kobayashi
+  - Hiroki Itoh
+  - Kotaro Funakoshi
+  institutions:
+  - Techtouch
+  - Institute of Science Tokyo
+  date: '2026-10-01'
+  publisher: NeurIPS 2026 Workshop on Who Verifies the Agents? Toward Reliable Agent Development
+  envs:
+  - Web
+  keywords:
+  - WebArena-Lite
+  - evaluation
+  - human review
+  - trajectory evaluation
+  - failure analysis
+  - memory
+  tldr: |-
+    Audits all 165 WebArena-Lite tasks under six evaluation conditions with human review of outcomes and trajectories. Human review recovers successes the automatic evaluator missed, a failure analysis of 102 trajectories identifies recurring error patterns, and a memory-and-analysis mechanism and guide text improve success.
+  arxiv_id: '2610.01491'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.01491
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{gan2026auditing,
+      title = {Auditing Web Agent Evaluation on WebArena-Lite: Human Review of Outcomes and Trajectories},
+      author = {Chengguang Gan and Zimeng He and Yoshihiro Tsujii and Ken-ichiro Kobayashi and Hiroki Itoh and Kotaro Funakoshi},
+      year = {2026},
+      booktitle = {NeurIPS 2026 Workshop on Who Verifies the Agents? Toward Reliable Agent Development},
+      eprint = {2610.01491},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.01491}
+    }
+- title: 'AutoGUIWorld: Image Generators as Visual World Models for GUI Agent'
+  link: https://arxiv.org/abs/2610.01215
+  authors:
+  - Cheng Yang
+  - Yifan Wu
+  - Yutao Huang
+  - Zhaohua Zhang
+  - Beiduo Chen
+  - Muxi Chen
+  - Chenchen Zhao
+  - Hexuan Deng
+  - Haolin Yang
+  - Geyuan Zhu
+  - Sa Zhu
+  - Jianhuan Zhuo
+  - Qiuyong Xiao
+  - Jianhao Ruan
+  - Yiran Peng
+  - Jiayi Zhang
+  - Tian Ye
+  - Xinlei Yu
+  - Tianwen Jiang
+  - Jihong Zhang
+  - Yuyu Luo
+  institutions:
+  - Tencent Hunyuan
+  date: '2026-10-01'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - AutoGUIWorld
+  - model
+  - world model
+  - data generation
+  - trajectory synthesis
+  - OSWorld
+  - ScienceBoard
+  tldr: |-
+    AutoGUIWorld synthesizes GUI interaction trajectories without running the corresponding software: a planner specifies atomic actions and their intended visual consequences, and an image generator iteratively edits the current screenshot to produce the next observation. The 79,266 step-level samples across Ubuntu, Windows, macOS, and Chrome raise Qwen3.5-35B-A3B from 33.0% to 40.8% on OSWorld and from 14.0% to 32.2% on ScienceBoard.
+  arxiv_id: '2610.01215'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.01215
+    code: https://github.com/ImYangC7/AutoGUIWorld
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026autoguiworld,
+      title = {AutoGUIWorld: Image Generators as Visual World Models for GUI Agent},
+      author = {Cheng Yang and Yifan Wu and Yutao Huang and Zhaohua Zhang and Beiduo Chen and Muxi Chen and Chenchen Zhao and Hexuan Deng and Haolin Yang and Geyuan Zhu and Sa Zhu and Jianhuan Zhuo and Qiuyong Xiao and Jianhao Ruan and Yiran Peng and Jiayi Zhang and Tian Ye and Xinlei Yu and Tianwen Jiang and Jihong Zhang and Yuyu Luo},
+      year = {2026},
+      eprint = {2610.01215},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.01215}
+    }
+- title: 'DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents'
+  link: https://arxiv.org/abs/2610.02320
+  authors:
+  - A. Said Gurbuz
+  - Ahmed Nassar
+  - Sunghwan Hong
+  - Marc Pollefeys
+  - Peter W. J. Staar
+  institutions:
+  - ETH
+  - IBM Research
+  - Microsoft
+  date: '2026-10-01'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - DeskForge
+  - dataset
+  - model
+  - GUI grounding
+  - environment synthesis
+  - long-horizon tasks
+  tldr: |-
+    DeskForge is a controllable desktop environment that composes real applications under varied states, window layouts, appearances, and resolutions, and fuses screenshots, accessibility trees, and window geometry into dense element annotations. The resulting DeskForge-1M corpus (1.2M annotated observations) improves four fine-tuned vision-language models on five GUI grounding benchmarks and on the long-horizon WebArena-Infinity and OpenApps tasks.
+  arxiv_id: '2610.02320'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.02320
+    homepage: https://saidgurbuz.github.io/deskforge/
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{gurbuz2026deskforge,
+      title = {DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents},
+      author = {A. Said Gurbuz and Ahmed Nassar and Sunghwan Hong and Marc Pollefeys and Peter W. J. Staar},
+      year = {2026},
+      eprint = {2610.02320},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.02320}
+    }
+- title: 'GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution'
+  link: https://arxiv.org/abs/2610.00948
+  authors:
+  - Geyi Yang
+  - Zikun Qu
+  - Xiang Li
+  - Zhiyong Wang
+  - Min Zhang
+  - Shipei Zeng
+  - Zhongxiang Dai
+  institutions:
+  - CUHK-Shenzhen
+  - Tianjin University
+  - HIT-Shenzhen
+  - East China Normal University
+  - Shenzhen Research Institute of Big Data
+  date: '2026-10-01'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - GUI-HARVEST
+  - harness optimization
+  - self-improvement
+  - OSWorld
+  - WindowsAgentArena
+  tldr: |-
+    GUI-HARVEST automatically optimizes the executable harness around a frozen GUI model by aligning actions with before-and-after screenshots, treating repeated runs of a task as one evidence unit, and mapping recurring failure patterns to bounded source-code edits. It yields held-out gains on OSWorld-Verified across six backbones and transfers a frozen harness to WindowsAgentArena.
+  arxiv_id: '2610.00948'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.00948
+    code: https://github.com/GaryYang12345/GUI-HARVEST
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026guiharvest,
+      title = {GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution},
+      author = {Geyi Yang and Zikun Qu and Xiang Li and Zhiyong Wang and Min Zhang and Shipei Zeng and Zhongxiang Dai},
+      year = {2026},
+      eprint = {2610.00948},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.00948}
+    }
+- title: 'Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents'
+  link: https://arxiv.org/abs/2610.01787
+  authors:
+  - Beining Wu
+  - Zihao Ding
+  - Jun Huang
+  institutions:
+  - South Dakota State University
+  date: '2026-10-01'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - component routing
+  - self-improvement
+  - memory
+  - experience
+  tldr: |-
+    Studies where a self-improving GUI agent should put its experience, in the weights or in the prompt context, by splitting trajectories into locators, procedures, state facts, and lessons. Locators and lessons are better placed in the weights and procedures and state facts in the context; a rule based on recurrence and state-conditionality routes components accordingly and beats every whole-trajectory baseline.
+  arxiv_id: '2610.01787'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.01787
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wu2026not,
+      title = {Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents},
+      author = {Beining Wu and Zihao Ding and Jun Huang},
+      year = {2026},
+      eprint = {2610.01787},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.01787}
+    }
+- title: Action Conditioned Bisimulation For GUI Agent Memory
+  link: https://arxiv.org/abs/2609.38778
+  authors:
+  - Hongbo Zhang
+  - Liuyang Song
+  - Quanquan Li
+  - Daqian Yang
+  - Yan Wen
+  - Zhengtao Yao
+  institutions:
+  - PKU
+  - East China Normal University
+  - USC
+  date: '2026-09-30'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - bisimulation
+  - memory
+  - state abstraction
+  - MiniWoB
+  - training-free
+  tldr: |-
+    Defines when a web agent's memory should treat two pages as the same state using an action-conditioned bisimulation over the empirical state graph a frozen agent builds as it acts: two states merge only when their shared actions lead to agreeing outcomes. Nothing is trained, and replacing an outcome-value memory's merge rule with it raises success on MiniWoB++.
+  arxiv_id: '2609.38778'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.38778
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026action,
+      title = {Action Conditioned Bisimulation For GUI Agent Memory},
+      author = {Hongbo Zhang and Liuyang Song and Quanquan Li and Daqian Yang and Yan Wen and Zhengtao Yao},
+      year = {2026},
+      eprint = {2609.38778},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.38778}
+    }
+- title: 'ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents'
+  link: https://arxiv.org/abs/2609.40253
+  authors:
+  - Yong Du
+  - Tongbo Chen
+  - Zhengxi Lu
+  - Yizhou Liu
+  - Bofan Chen
+  - Tao Jiang
+  - Wenhao Xu
+  - Yongliang Shen
+  institutions:
+  - ZJU
+  - Ant Group
+  date: '2026-09-30'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - ComputerSD
+  - self-distillation
+  - online reinforcement learning
+  - GRPO
+  - OSWorld
+  tldr: |-
+    ComputerSD is an online self-distillation method that turns real-time feedback from executed GUI transitions into token-level guidance for computer-use agents. A fine-tuned GUI analyzer supplies guidance and a step-level value score, and training jointly optimizes on-policy self-distillation and trajectory-level GRPO, outperforming outcome-only GRPO on OSWorld-Verified.
+  arxiv_id: '2609.40253'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.40253
+    code: https://github.com/ZJU-REAL/ComputerSD
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{du2026computersd,
+      title = {ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents},
+      author = {Yong Du and Tongbo Chen and Zhengxi Lu and Yizhou Liu and Bofan Chen and Tao Jiang and Wenhao Xu and Yongliang Shen},
+      year = {2026},
+      eprint = {2609.40253},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.40253}
+    }
+- title: Learning Reliable GUI Agents under Imperfect Priors
+  link: https://arxiv.org/abs/2609.39547
+  authors:
+  - Bo Han
+  - Qianyi Wang
+  - Shuai Liu
+  - Xiong Zifan
+  - Changqiao Wu
+  - Yuanfa Li
+  - Pengzhi Gao
+  - Wei Liu
+  - Jian Luan
+  - Heng Qu
+  - Yunpeng Song
+  - Zhongmin Cai
+  institutions:
+  - XJTU
+  - Xiaomi
+  date: '2026-09-30'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - imperfect priors
+  - exploration
+  - data synthesis
+  - robustness
+  - UI state-transition graph
+  tldr: |-
+    Argues that GUI agents should act correctly under imperfect, drifting priors rather than pursue perfect app knowledge. Structured exploration builds a UI state-transition graph and synthesizes task-trajectory pairs without human annotation, and a noise-aware training strategy injects five types of realistic errors so the agent learns to assess prior reliability before acting.
+  arxiv_id: '2609.39547'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.39547
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{han2026learning,
+      title = {Learning Reliable GUI Agents under Imperfect Priors},
+      author = {Bo Han and Qianyi Wang and Shuai Liu and Xiong Zifan and Changqiao Wu and Yuanfa Li and Pengzhi Gao and Wei Liu and Jian Luan and Heng Qu and Yunpeng Song and Zhongmin Cai},
+      year = {2026},
+      eprint = {2609.39547},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.39547}
+    }
+- title: 'OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software'
+  link: https://arxiv.org/abs/2609.39903
+  authors:
+  - Dingyuan Dai
+  - Heli Qi
+  - Lei Liu
+  - Yinxi Li
+  - Baiding Chen
+  - Zijun Dou
+  - Qingcheng Zeng
+  - Qi Kang
+  - Oliver Sun
+  - Eric Wang
+  - Bo Zhou
+  - Haixin Wang
+  - Yufan Du
+  - Shi Bo
+  - Ruihan Lin
+  - Mengqi Yuan
+  - Dunjie Lu
+  - Steven Dillmann
+  - Yiming Shi
+  - Tina Su
+  - Amy Xin
+  - Minghao Liu
+  - Xi Wang
+  - Xu Huang
+  - Ge Zhang
+  - Pengyu Nie
+  - Zhen Yang
+  - Jie Tang
+  - Juanzi Li
+  - Weihao Xuan
+  - Tianyu Liu
+  institutions:
+  - Tsinghua
+  - UCLA
+  - RIKEN AIP
+  - University of Waterloo
+  - CMU
+  - Yale University
+  - Northwestern University
+  - ZJU
+  - UC Berkeley
+  - University of Illinois Chicago
+  - Boston University
+  - HKU
+  - Stanford
+  - New York University
+  - TokenWave.AI
+  - University of Tokyo
+  date: '2026-09-30'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - OSWorld-Science
+  - benchmark
+  - scientific software
+  - OSWorld
+  tldr: |-
+    OSWorld-Science is a benchmark of 146 expert-proposed tasks for computer-use agents on scientific software, covering workflows such as molecular drawing, pathology image analysis, statistical computing, and physical simulation. Execution-based evaluators inspect application states and generated artifacts with partial credit, and 12 vision-language models still struggle even with a strong harness.
+  arxiv_id: '2609.39903'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.39903
+    homepage: https://discoailab.github.io/osworld-science-page/
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{dai2026osworldscience,
+      title = {OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software},
+      author = {Dingyuan Dai and Heli Qi and Lei Liu and Yinxi Li and Baiding Chen and Zijun Dou and Qingcheng Zeng and Qi Kang and Oliver Sun and Eric Wang and Bo Zhou and Haixin Wang and Yufan Du and Shi Bo and Ruihan Lin and Mengqi Yuan and Dunjie Lu and Steven Dillmann and Yiming Shi and Tina Su and Amy Xin and Minghao Liu and Xi Wang and Xu Huang and Ge Zhang and Pengyu Nie and Zhen Yang and Jie Tang and Juanzi Li and Weihao Xuan and Tianyu Liu},
+      year = {2026},
+      eprint = {2609.39903},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.39903}
+    }
+- title: 'Talk2Agent: Benchmarking Voice Interfaces for Text Agents'
+  link: https://arxiv.org/abs/2609.38867
+  authors:
+  - Terumi Chiba
+  - Guangzhi Sun
+  - Zheqi Yuan
+  - Chao Zhang
+  institutions:
+  - Tsinghua
+  - University of Cambridge
+  date: '2026-09-30'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - Talk2Agent
+  - benchmark
+  - voice interface
+  - speech recognition
+  - OSWorld
+  - WildClawBench
+  tldr: |-
+    Talk2Agent benchmarks how well voice interfaces convey human-spoken instructions to computer-use agents, using spoken versions of WildClawBench and OSWorld tasks. It proposes an execution-free, task-conditioned evaluation that measures how much task-relevant information survives transcription, correlating with downstream completion better than WER/CER.
+  arxiv_id: '2609.38867'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.38867
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{chiba2026talk2agent,
+      title = {Talk2Agent: Benchmarking Voice Interfaces for Text Agents},
+      author = {Terumi Chiba and Guangzhi Sun and Zheqi Yuan and Chao Zhang},
+      year = {2026},
+      eprint = {2609.38867},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.38867}
+    }
+- title: 'cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents'
+  link: https://arxiv.org/abs/2609.40284
+  authors:
+  - Pranjal Aggarwal
+  - Lawrence Keunho Jang
+  - Sean Welleck
+  - Daniel Fried
+  - Ruslan Salakhutdinov
+  - Jing Yu Koh
+  institutions:
+  - CMU
+  date: '2026-09-30'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - cua-speedrun
+  - benchmark
+  - efficiency
+  - evaluation
+  - latency
+  tldr: |-
+    cua-speedrun provides standardized virtual-machine infrastructure, a common agent interface, and task sets for measuring the speed and cost of computer-use agents across four benchmarks. It shows how reasoning effort, agent harness, and environment latency affect speed, and that most benchmark task sets can be reduced without losing statistical power.
+  arxiv_id: '2609.40284'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.40284
+    homepage: https://cuaspeedrun.com
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{aggarwal2026cuaspeedrun,
+      title = {cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents},
+      author = {Pranjal Aggarwal and Lawrence Keunho Jang and Sean Welleck and Daniel Fried and Ruslan Salakhutdinov and Jing Yu Koh},
+      year = {2026},
+      eprint = {2609.40284},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.40284}
+    }
+- title: 'Absorbed in Inertia: Activation Analysis for Computer-Use Agents'
+  link: https://arxiv.org/abs/2609.37176
+  authors:
+  - Giulio Segalini
+  - Zhi Wen Soi
+  - Jérémie Decouchant
+  - Lydia Chen
+  institutions:
+  - University of Neuchâtel
+  - Delft University of Technology
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - inertia
+  - activation analysis
+  - failure analysis
+  - R3
+  - training-free
+  tldr: |-
+    Shows that computer-use agents can exhibit inertia, repeating fruitless actions while recognizing that they are ineffective, and that inertia corresponds to an absorbing region of the underlying model's activation space. Proposes R3 (Reset, Reroute, Restore), which temporarily resets the context trajectory and then restores it, lowering measured inertia by 17-55% across models.
+  arxiv_id: '2609.37176'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.37176
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{segalini2026absorbed,
+      title = {Absorbed in Inertia: Activation Analysis for Computer-Use Agents},
+      author = {Giulio Segalini and Zhi Wen Soi and Jérémie Decouchant and Lydia Chen},
+      year = {2026},
+      eprint = {2609.37176},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.37176}
+    }
+- title: 'AdaptArena: Evaluating Test-Time Personalization of Web Agents'
+  link: https://arxiv.org/abs/2609.36488
+  authors:
+  - Dongchan Shin
+  - Xing Han Lù
+  - Jiaqi Deng
+  - Jay Gala
+  - Tomás Vergara Browne
+  - Jaewon Moon
+  - Fengyuan Liu
+  - Alexandre Drouin
+  - Siva Reddy
+  - Alexandre Lacoste
+  institutions:
+  - Mila
+  - McGill University
+  - ServiceNow Research
+  - Laval University
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - AdaptArena
+  - benchmark
+  - personalization
+  - preference inference
+  tldr: |-
+    AdaptArena is a benchmark of 480 tasks for test-time personalization of web agents, where the agent must infer a latent user preference from a relevant historical trajectory. Oracle agents given the true preference succeed on 82.92% of tasks while evaluated agents reach at most 15.62%, and correct preference inference does not guarantee downstream execution success.
+  arxiv_id: '2609.36488'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.36488
+    code: https://github.com/McGill-NLP/web-agents-test-time-adaptations
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{shin2026adaptarena,
+      title = {AdaptArena: Evaluating Test-Time Personalization of Web Agents},
+      author = {Dongchan Shin and Xing Han Lù and Jiaqi Deng and Jay Gala and Tomás Vergara Browne and Jaewon Moon and Fengyuan Liu and Alexandre Drouin and Siva Reddy and Alexandre Lacoste},
+      year = {2026},
+      eprint = {2609.36488},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.36488}
+    }
+- title: 'EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?'
+  link: https://arxiv.org/abs/2609.37686
+  authors:
+  - Hongcheng Gao
+  - Hailong Qu
+  - Yu Lei
+  - Henghui Sun
+  - Haoyang Li
+  - Yipeng Wei
+  - Naihao Xue
+  - Xiaohan Yu
+  - Zhuo Tao
+  - Yihe Zang
+  - Yajiao Wang
+  - Jingyi Tang
+  - Yi Li
+  - Jingjing Zhou
+  - Jie Luo
+  - Bohan Zeng
+  - Chengyu Shen
+  - Hao Jiang
+  - Chong Chen
+  - Bowen Qu
+  - Olive Huang
+  - Zeqiang Wang
+  institutions:
+  - Tsinghua
+  - Zhiman Inc.
+  - Chongqing University
+  - University of Chinese Academy of Sciences
+  - Shandong University
+  - BUPT
+  - Fudan
+  - Henan Polytechnic University
+  - XJTU
+  - PKU
+  - ZJU
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - EngiWorld
+  - benchmark
+  - professional software
+  - engineering
+  - CAD
+  tldr: |-
+    EngiWorld is a benchmark of 1,301 expert-curated tasks across six engineering domains (CAD, CAE, CAM, BIM, EDA, and 3D visualization) and 26 professional software platforms, with both GUI and CLI interfaces. Domain verifiers check the geometric validity, physical feasibility, and rule compliance of artifacts; the strongest of seven frontier models reaches an EngiScore of 44.3.
+  arxiv_id: '2609.37686'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.37686
+    homepage: https://engiworld.github.io
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{gao2026engiworld,
+      title = {EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?},
+      author = {Hongcheng Gao and Hailong Qu and Yu Lei and Henghui Sun and Haoyang Li and Yipeng Wei and Naihao Xue and Xiaohan Yu and Zhuo Tao and Yihe Zang and Yajiao Wang and Jingyi Tang and Yi Li and Jingjing Zhou and Jie Luo and Bohan Zeng and Chengyu Shen and Hao Jiang and Chong Chen and Bowen Qu and Olive Huang and Zeqiang Wang},
+      year = {2026},
+      eprint = {2609.37686},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.37686}
+    }
+- title: 'HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents'
+  link: https://arxiv.org/abs/2609.38008
+  authors:
+  - Tongbo Chen
+  - Junbo Niu
+  - Zhengxi Lu
+  - Niu Lian
+  - Fei Tang
+  - Yuchen Yan
+  - Yike Hong
+  - Yong Du
+  - Yizhou Liu
+  - Bofan Chen
+  - Yongliang Shen
+  institutions:
+  - ZJU
+  - PKU
+  - Tsinghua
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - HybridCUA
+  - dataset
+  - model
+  - CLI
+  - reinforcement learning
+  - verifiable rewards
+  - OSWorld
+  - WindowsAgentArena
+  tldr: |-
+    HybridCUA trains computer-use agents to combine GUI interaction with the command line, using a data pipeline that produces GUI-only, CLI-only, and interleaved trajectories (HybridCUA-8K), followed by supervised fine-tuning and reinforcement learning with CLI-aware rewards. HybridCUA-9B reaches 53.6% on OSWorld, 14.8 points above its base model.
+  arxiv_id: '2609.38008'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.38008
+    homepage: https://zjureal.com/HybridCUA/
+    code: https://github.com/ZJU-REAL/HybridCUA
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{chen2026hybridcua,
+      title = {HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents},
+      author = {Tongbo Chen and Junbo Niu and Zhengxi Lu and Niu Lian and Fei Tang and Yuchen Yan and Yike Hong and Yong Du and Yizhou Liu and Bofan Chen and Yongliang Shen},
+      year = {2026},
+      eprint = {2609.38008},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.38008}
+    }
+- title: 'MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows'
+  link: https://arxiv.org/abs/2609.37053
+  authors:
+  - Mei Wu
+  - Rui Xie
+  - Runyu Zhang
+  - Yuqiang Li
+  - Tianfan Fu
+  - Bo Chen
+  - Kai Yu
+  - Xin Chen
+  - Lu Chen
+  institutions:
+  - SJTU
+  - Suzhou Laboratory
+  - Shanghai AI Laboratory
+  - BIGAI
+  - Shanghai Innovation Institute
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - MatToolBench
+  - benchmark
+  - scientific software
+  - materials science
+  - OriginPro
+  tldr: |-
+    MatToolBench is a real-environment benchmark of 204 tasks across 10 professional materials science tools, covering GUI operation, OriginPro scripting, and database queries in a Windows 11 VM, with expert-defined sub-criteria for partial credit. The best model reaches 25% on GUI tasks, and failures stem from missing domain-specific operational knowledge rather than visual grounding alone.
+  arxiv_id: '2609.37053'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.37053
+    homepage: https://mattoolbench.github.io/
+    code: https://github.com/meiwu5/MatToolBench
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wu2026mattoolbench,
+      title = {MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows},
+      author = {Mei Wu and Rui Xie and Runyu Zhang and Yuqiang Li and Tianfan Fu and Bo Chen and Kai Yu and Xin Chen and Lu Chen},
+      year = {2026},
+      eprint = {2609.37053},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.37053}
+    }
+- title: 'Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution'
+  link: https://arxiv.org/abs/2609.36927
+  authors:
+  - Hyewon Suh
+  - Thanh Minh Nguyen
+  - Chih-Lun Lee
+  - Darrow Hartman
+  - Lizhao Liu
+  - Xin Eric Wang
+  - Ang Li
+  - Jiachen Yang
+  institutions:
+  - Georgia Tech
+  - Stanford
+  - Simular Research
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - neuro-symbolic computer use
+  - reusable policies
+  - efficiency
+  - OSWorld
+  - ScienceBoard
+  tldr: |-
+    Executes recurring computer workflows with a learned neuro-symbolic policy instead of re-planning every run: executable code fixes the stable decisions (ordering, variables, loops, branches) and neural models handle observation-dependent ones such as grounding and state checks. On OSWorld-Verified and ScienceBoard the policies reach the highest Pass^3 among compared methods while cutting per-run cost by 15-217x.
+  arxiv_id: '2609.36927'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.36927
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{suh2026neurosymbolic,
+      title = {Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution},
+      author = {Hyewon Suh and Thanh Minh Nguyen and Chih-Lun Lee and Darrow Hartman and Lizhao Liu and Xin Eric Wang and Ang Li and Jiachen Yang},
+      year = {2026},
+      eprint = {2609.36927},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.36927}
+    }
+- title: 'PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval'
+  link: https://arxiv.org/abs/2609.36923
+  authors:
+  - Bin Kang
+  - Jiarui Ouyang
+  - Li Jiang
+  - Bin Chen
+  - Zhuotao Tian
+  institutions:
+  - University of Chinese Academy of Sciences
+  - HKUST
+  - Harbin Institute of Technology
+  - CUHK
+  - Shenzhen Loop Area Institute
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - PrecogUI
+  - benchmark
+  - InterfereBench
+  - world model
+  - memory
+  - long-horizon tasks
+  tldr: |-
+    PrecogUI moves GUI agents from reactive to proactive decision-making with an experience pool of anomaly and success patterns, a simulator that forecasts the next symbolic UI layout for a candidate action, and a controller that fuses both with closed-loop error correction. It also builds InterfereBench for long-horizon tasks with strong disturbances, where PrecogUI surpasses prior methods.
+  arxiv_id: '2609.36923'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.36923
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{kang2026precogui,
+      title = {PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval},
+      author = {Bin Kang and Jiarui Ouyang and Li Jiang and Bin Chen and Zhuotao Tian},
+      year = {2026},
+      eprint = {2609.36923},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.36923}
+    }
+- title: 'SCA: Spatial Credit Assignment for Reinforcement Learning of GUI Agents'
+  link: https://arxiv.org/abs/2609.36939
+  authors:
+  - Shengtian Yang
+  - Ziyu Xiong
+  - Kaibing Yang
+  - Guangfeng Cai
+  - Yewen Li
+  - Peng Jiang
+  - Gai Kun
+  - Qingpeng Cai
+  - Lei Feng
+  institutions:
+  - Southeast University
+  - Kuaishou Technology
+  date: '2026-09-29'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - SCA
+  - reinforcement learning
+  - GRPO
+  - GUI grounding
+  - credit assignment
+  tldr: |-
+    Spatial Credit Assignment (SCA) refines group-relative reinforcement learning for GUI agents using the screen coordinates of sampled clicks. It predicts each response's reward from the others in mixed groups, and when every sampled click fails it ranks them by distance to the target, improving grounding and offline action prediction.
+  arxiv_id: '2609.36939'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.36939
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026sca,
+      title = {SCA: Spatial Credit Assignment for Reinforcement Learning of GUI Agents},
+      author = {Shengtian Yang and Ziyu Xiong and Kaibing Yang and Guangfeng Cai and Yewen Li and Peng Jiang and Gai Kun and Qingpeng Cai and Lei Feng},
+      year = {2026},
+      eprint = {2609.36939},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.36939}
+    }
+- title: 'Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces'
+  link: https://arxiv.org/abs/2609.34974
+  authors:
+  - Ruozhao Yang
+  - Mingfei Cheng
+  - Xiaofei Xie
+  institutions:
+  - Singapore Management University
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - Veer
+  - dark patterns
+  - safety
+  - runtime defense
+  - TrickyArena
+  - WebDecept
+  tldr: |-
+    Treats task-relevant web state as a runtime control target for defending web agents against deceptive interfaces, since a task-valid action can still realize an unauthorized consequence. Veer constructs and verifies a prospective intervention trajectory toward a safe state before the action executes, and it achieves the highest safe task completion on TrickyArena and WebDecept.
+  arxiv_id: '2609.34974'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.34974
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026before,
+      title = {Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces},
+      author = {Ruozhao Yang and Mingfei Cheng and Xiaofei Xie},
+      year = {2026},
+      eprint = {2609.34974},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.34974}
+    }
+- title: 'GUITAR: Structured Failure Diagnosis of GUI Agents via State Transitions'
+  link: https://arxiv.org/abs/2609.34113
+  authors:
+  - Shaoqing Zhang
+  - Kehai Chen
+  - Xuefeng Bai
+  - Zhuosheng Zhang
+  - Pengfei Zhang
+  - Yang Xiang
+  - Min Zhang
+  institutions:
+  - HIT-Shenzhen
+  - Pengcheng Laboratory
+  - SJTU
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Mobile
+  - Web
+  keywords:
+  - GUITAR
+  - failure analysis
+  - state transition graph
+  - offline evaluation
+  - AndroidControl
+  - Mind2Web
+  tldr: |-
+    GUITAR is a state-centric diagnostic framework that maps visually diverse screens to shared functional states in a State Transition Graph and analyzes GUI-agent failures over states and transitions. On AndroidControl and Mind2Web it finds that 60.4% of failures occur in 20% of states, and bottleneck-targeted guidance improves success rate.
+  arxiv_id: '2609.34113'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.34113
+    code: https://github.com/sqzhang-lazy/GUITAR
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026guitar,
+      title = {GUITAR: Structured Failure Diagnosis of GUI Agents via State Transitions},
+      author = {Shaoqing Zhang and Kehai Chen and Xuefeng Bai and Zhuosheng Zhang and Pengfei Zhang and Yang Xiang and Min Zhang},
+      year = {2026},
+      eprint = {2609.34113},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.34113}
+    }
+- title: 'LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles'
+  link: https://arxiv.org/abs/2609.34769
+  authors:
+  - Bingo Zhang
+  - Haochuan Lu
+  - Zongjie Li
+  - Genjian Li
+  - Ari Yu Zhang
+  - Chaozheng Wang
+  institutions:
+  - Vera Praxis
+  - Tencent
+  - HKUST
+  - Independent Researcher
+  - CUHK
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - LongPuzzleBench
+  - benchmark
+  - long-horizon tasks
+  - puzzle games
+  - planning
+  tldr: |-
+    LongPuzzleBench evaluates GUI agents on 114 levels of six puzzle games played through native GUI actions, where a legal move can make the puzzle unsolvable several moves later. Seven of ten general-purpose agents solve nothing harder than Medium, and diagnostics show agents judge a move by its visible progress rather than the future options it leaves.
+  arxiv_id: '2609.34769'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.34769
+    code: https://github.com/AzureStarz/LongPuzzleBench
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026longpuzzlebench,
+      title = {LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles},
+      author = {Bingo Zhang and Haochuan Lu and Zongjie Li and Genjian Li and Ari Yu Zhang and Chaozheng Wang},
+      year = {2026},
+      eprint = {2609.34769},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.34769}
+    }
+- title: 'One Rollout Is All You Get: Fully Test-Time Adaptation for GUI Agents'
+  link: https://arxiv.org/abs/2609.34321
+  authors:
+  - Ziqiang Wang
+  - Li Gu
+  - Zhixiang Chi
+  - Linlian Jiang
+  - Zihuan Jiang
+  - Linqiang Guo
+  - Siobhan Reid
+  - Zhi Liu
+  - Yang Wang
+  institutions:
+  - Concordia University
+  - Mila
+  - University of Toronto
+  - Shanghai University
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Web
+  - Mobile
+  keywords:
+  - SOLO
+  - test-time adaptation
+  - self-distillation
+  - continual learning
+  - WebArena
+  - VisualWebArena
+  - MobileWorld
+  tldr: |-
+    Defines fully test-time adaptation for GUI agents, where a deployed agent gets one attempt per task and no ground truth, and proposes SOLO. A judge selects episodes it deems successful, a proposer-verifier pair relabels failed prefixes, and a small adapter is updated by top-K self-distillation, improving UI-TARS-7B and Qwen3-VL-8B by three to six points on recurring web and mobile task streams.
+  arxiv_id: '2609.34321'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.34321
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026one,
+      title = {One Rollout Is All You Get: Fully Test-Time Adaptation for GUI Agents},
+      author = {Ziqiang Wang and Li Gu and Zhixiang Chi and Linlian Jiang and Zihuan Jiang and Linqiang Guo and Siobhan Reid and Zhi Liu and Yang Wang},
+      year = {2026},
+      eprint = {2609.34321},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.34321}
+    }
+- title: 'PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents'
+  link: https://arxiv.org/abs/2609.35671
+  authors:
+  - Yangqin Jiang
+  - Lingrui Xu
+  - Chao Huang
+  institutions:
+  - HKU
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - PhoneCLI
+  - compilation
+  - efficiency
+  - AndroidLab
+  - AndroidWorld
+  - training-free
+  tldr: |-
+    PhoneCLI compiles a mobile app's GUI navigation into callable commands by exploring the app offline into an annotated screen map; online, the agent verifies and replays a command deterministically and falls back to the VLM for open-ended interaction. It needs no app-internal API or training and improves success while cutting steps and tokens on AndroidLab.
+  arxiv_id: '2609.35671'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.35671
+    code: https://github.com/HKUDS/OpenPhone
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{jiang2026phonecli,
+      title = {PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents},
+      author = {Yangqin Jiang and Lingrui Xu and Chao Huang},
+      year = {2026},
+      eprint = {2609.35671},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.35671}
+    }
+- title: 'SCOUT: Synergizing Reasoning and Tool-Use for Computer-Use Safety'
+  link: https://arxiv.org/abs/2609.36201
+  authors:
+  - Jianxing Chen
+  - Xiao Yu
+  - Shipra Agrawal
+  - Zhou Yu
+  institutions:
+  - Columbia
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - SCOUT
+  - safety
+  - verification
+  - agent-as-a-judge
+  - AutoElicit-Bench
+  - OS-Blind
+  tldr: |-
+    SCOUT is a two-stage agentic safety verifier for computer-use agents: a rubric generator reasons over the task and trajectory to define safe and complete execution, and a probing agent interacts with the post-execution environment to collect grounded evidence. It outperforms LLM-as-a-judge verifiers on AutoElicit-Bench and OS-Blind, and test-time reflection lowers the unsafe execution rate from 30.2% to 17.2%.
+  arxiv_id: '2609.36201'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.36201
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{chen2026scout,
+      title = {SCOUT: Synergizing Reasoning and Tool-Use for Computer-Use Safety},
+      author = {Jianxing Chen and Xiao Yu and Shipra Agrawal and Zhou Yu},
+      year = {2026},
+      eprint = {2609.36201},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.36201}
+    }
+- title: 'Same Tasks, Different Apps: Why Mobile GUI Agents Fail to Generalize?'
+  link: https://arxiv.org/abs/2609.34139
+  authors:
+  - Tien Tran
+  - Namho Koh
+  - Daiki E. Matsunaga
+  - Ayush Jain
+  - Kee Eung Kim
+  institutions:
+  - KAIST
+  - CMU
+  date: '2026-09-28'
+  publisher: Findings of EMNLP 2026
+  envs:
+  - Mobile
+  keywords:
+  - AnyAppBench
+  - benchmark
+  - cross-application generalization
+  - failure analysis
+  - Android
+  tldr: |-
+    AnyAppBench is a live Android benchmark with 100 task templates and 520 task-application pairs over 52 applications that keeps the user goal fixed across apps. Across 13 agents, success on the original application does not transfer reliably to new applications with the same goal, and sub-goal decomposition does not close the gap.
+  arxiv_id: '2609.34139'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.34139
+    homepage: https://anyappbench.github.io/
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{tran2026same,
+      title = {Same Tasks, Different Apps: Why Mobile GUI Agents Fail to Generalize?},
+      author = {Tien Tran and Namho Koh and Daiki E. Matsunaga and Ayush Jain and Kee Eung Kim},
+      year = {2026},
+      booktitle = {Findings of EMNLP 2026},
+      eprint = {2609.34139},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.34139}
+    }
+- title: 'Structured Interaction, Visual Localization, and Robust Execution for Complex Web Tasks: A Technical Report on the
+    WebRetriever Challenge'
+  link: https://arxiv.org/abs/2609.35904
+  authors:
+  - Ziqi Zhang
+  - Shaohui Li
+  - Bing Li
+  institutions:
+  - Beijing Key Laboratory of Multimodal Super-Intelligent Security
+  - People AI
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - WebRetriever Challenge
+  - technical report
+  - visual localization
+  - context management
+  tldr: |-
+    Technical report of the winning system in the WebRetriever Challenge. It uses semantic webpage information for routine browser operations and invokes vision only when structured representations fall short, with grid-assisted visual localization, hierarchical context management, and fault-aware execution across eight concurrent browser workers; it achieved a 59% pass rate on the official Protocol 3.
+  arxiv_id: '2609.35904'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.35904
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026structured,
+      title = {Structured Interaction, Visual Localization, and Robust Execution for Complex Web Tasks: A Technical Report on the WebRetriever Challenge},
+      author = {Ziqi Zhang and Shaohui Li and Bing Li},
+      year = {2026},
+      eprint = {2609.35904},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.35904}
+    }
+- title: 'WebPageBench: Event-Level Verification and Controlled UI-Variant Generation for Web Agents'
+  link: https://arxiv.org/abs/2609.35026
+  authors:
+  - Anton Emelyanov
+  - Maria Tikhonova
+  - Zaven Martirosian
+  - Sergei Averkiev
+  - Alena Fenogenova
+  institutions:
+  - DAIMLD
+  - HSE University
+  - NUST MISIS
+  date: '2026-09-28'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - WebPageBench
+  - benchmark
+  - event-level verification
+  - UI variation
+  - evaluation
+  tldr: |-
+    WebPageBench verifies each web-agent task from the interface's own event log across six instrumented mock sites, with no judge model, and supports controlled UI variation that re-renders one control while keeping the prompt and success conditions fixed. On its 152-task leaderboard, the gap between what agents declare finished and what the log confirms reaches 41 points.
+  arxiv_id: '2609.35026'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.35026
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{emelyanov2026webpagebench,
+      title = {WebPageBench: Event-Level Verification and Controlled UI-Variant Generation for Web Agents},
+      author = {Anton Emelyanov and Maria Tikhonova and Zaven Martirosian and Sergei Averkiev and Alena Fenogenova},
+      year = {2026},
+      eprint = {2609.35026},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.35026}
+    }
+- title: 'Probe to Act: Elevating Browser-Use Agent via Active Visual Probing'
+  link: https://arxiv.org/abs/2609.33646
+  authors:
+  - Keliang Li
+  - Heng Wang
+  - Chen Hu
+  - Daxin Jiang
+  - Hong Chang
+  - Shiguang Shan
+  institutions:
+  - Institute of Computing Technology, CAS
+  - University of Chinese Academy of Sciences
+  - StepFun
+  date: '2026-09-27'
+  publisher: Findings of EMNLP 2026
+  envs:
+  - Web
+  keywords:
+  - P2A
+  - Set-of-Marks
+  - memory
+  - VisualWebArena
+  - long-horizon tasks
+  tldr: |-
+    Probe to Act (P2A) lets a browser-use agent issue lightweight probes at decision time that translate DOM handles into pixel evidence and map screen regions back to DOM candidates, keeping only probed or committed observations as memory. It works as a prompting strategy for proprietary models and can be distilled into open-weight models, improving results on three browser-use benchmarks.
+  arxiv_id: '2609.33646'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.33646
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{li2026probe,
+      title = {Probe to Act: Elevating Browser-Use Agent via Active Visual Probing},
+      author = {Keliang Li and Heng Wang and Chen Hu and Daxin Jiang and Hong Chang and Shiguang Shan},
+      year = {2026},
+      booktitle = {Findings of EMNLP 2026},
+      eprint = {2609.33646},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.33646}
+    }
+- title: 'Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents'
+  link: https://arxiv.org/abs/2609.33304
+  authors:
+  - Fuyao Zhang
+  - Xuan Wang
+  - Zherui Li
+  - Jiaming Zhang
+  - Longtao Huang
+  - Wei Yang Bryan Lim
+  institutions:
+  - NTU
+  - Alibaba Group
+  date: '2026-09-27'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - ExpActivator
+  - personalization
+  - memory
+  - training-free
+  - proactive agent
+  tldr: |-
+    Argues that relevance does not imply applicability for personal GUI agents: retrieved history mainly helps the first step of an episode. ExpActivator is a training-free framework that matches each screen to historical states in the backbone's latent space and activates a recurring intent only when time and scenario support it, improving within-trajectory step success on four backbones.
+  arxiv_id: '2609.33304'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.33304
+    homepage: https://fyzhang1.github.io/ExpActivator
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026relevance,
+      title = {Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents},
+      author = {Fuyao Zhang and Xuan Wang and Zherui Li and Jiaming Zhang and Longtao Huang and Wei Yang Bryan Lim},
+      year = {2026},
+      eprint = {2609.33304},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.33304}
+    }
+- title: 'AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents'
+  link: https://arxiv.org/abs/2609.32915
+  authors:
+  - Asif Shahriar
+  - Md Nafiu Rahman
+  - Sadif Ahmed
+  - Farig Sadeque
+  - Md Rizwan Parvez
+  institutions:
+  - BRAC University
+  - Qatar Computing Research Institute
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - AgentTell
+  - benchmark
+  - privacy
+  - side-channel leakage
+  - browser-use agent
+  tldr: |-
+    AgentTell studies behavioural side-channel leakage, where a browser-use agent's actions reveal a private fact learned on a prior website despite an instruction not to disclose it. Across 9,760 sessions on six backbones, agents reveal the secret through their actions in 61.1% of sessions.
+  arxiv_id: '2609.32915'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32915
+    code: https://github.com/kagnlp/AgentTell
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{shahriar2026agenttell,
+      title = {AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents},
+      author = {Asif Shahriar and Md Nafiu Rahman and Sadif Ahmed and Farig Sadeque and Md Rizwan Parvez},
+      year = {2026},
+      eprint = {2609.32915},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32915}
+    }
+- title: 'CUA-SWE: When Computer-Use Agents Meet Visual Software Engineering'
+  link: https://arxiv.org/abs/2609.32600
+  authors:
+  - Prince Zizhuang Wang
+  - Chenhao Liang
+  - Zelong Xu
+  - Aojie Yuan
+  - Xiaolin Zhou
+  - Haiyue Zhang
+  - Yue Zhao
+  - Xiyang Hu
+  - Shuli Jiang
+  institutions:
+  - CMU
+  - USC
+  - University of Wisconsin-Madison
+  - Arizona State University
+  - AWS Agentic AI
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - CUA-SWE
+  - benchmark
+  - software engineering
+  - environment
+  - visual feedback
+  tldr: |-
+    CUA-SWE is a benchmark, environment, and evaluation pipeline for software engineering with computer use, in which agents modify code, run commands, interact with the running application, and inspect visual feedback within one task. It spans four software engineering domains with deterministic task-specific tests, and includes tasks where required information is available only through the application's interface.
+  arxiv_id: '2609.32600'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32600
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026cuaswe,
+      title = {CUA-SWE: When Computer-Use Agents Meet Visual Software Engineering},
+      author = {Prince Zizhuang Wang and Chenhao Liang and Zelong Xu and Aojie Yuan and Xiaolin Zhou and Haiyue Zhang and Yue Zhao and Xiyang Hu and Shuli Jiang},
+      year = {2026},
+      eprint = {2609.32600},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32600}
+    }
+- title: 'CUA-Sandbox: Efficient Environments for Computer-Use Agent Reinforcement Learning'
+  link: https://arxiv.org/abs/2609.32750
+  authors:
+  - Xin Yan
+  - Zhengbo Jiao
+  - Jiaqi Liu
+  - Zhenglin Wan
+  - SiYuan Ma
+  - Xuliang Yu
+  - Tianyi Jiang
+  - Chubin Zhang
+  - Pengfei Zhou
+  - Wangbo Zhao
+  - Xingrui Yu
+  - Bo An
+  - Yang You
+  - Ivor Tsang
+  institutions:
+  - A*STAR
+  - HKUST
+  - Beijing Normal University
+  - NUS
+  - NTU
+  - ZJU
+  - PKU
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Web
+  - Desktop
+  keywords:
+  - CUA-Sandbox
+  - training environment
+  - reinforcement learning
+  - efficiency
+  tldr: |-
+    CUA-Sandbox makes computer-use reinforcement learning cheaper by sharing initialized application runtimes across concurrent rollouts while keeping each trajectory's mutable state in a private capsule with transactional resets and branches. It matches or improves task success relative to Docker with up to 6.20x rollout throughput and 9.2x lower per-environment memory.
+  arxiv_id: '2609.32750'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32750
+    code: https://github.com/QQQQQQ11234/CUA-Sandbox-Efficient-Environments-for-Computer-Use-Reinforcement-Learning
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yan2026cuasandbox,
+      title = {CUA-Sandbox: Efficient Environments for Computer-Use Agent Reinforcement Learning},
+      author = {Xin Yan and Zhengbo Jiao and Jiaqi Liu and Zhenglin Wan and SiYuan Ma and Xuliang Yu and Tianyi Jiang and Chubin Zhang and Pengfei Zhou and Wangbo Zhao and Xingrui Yu and Bo An and Yang You and Ivor Tsang},
+      year = {2026},
+      eprint = {2609.32750},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32750}
+    }
+- title: 'DashAct: A Progressive Diagnostic Benchmark for GUI Agents in Interactive Dashboard Analysis'
+  link: https://arxiv.org/abs/2609.32385
+  authors:
+  - Chuhan Zhang
+  - Qi Xie
+  - Ziyue Wang
+  - Jianing Yin
+  - Yunfan Zhou
+  - Dazhen Deng
+  - Yingcai Wu
+  institutions:
+  - ZJU
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - DashAct
+  - benchmark
+  - dashboard analysis
+  - diagnostic evaluation
+  - visual grounding
+  tldr: |-
+    DashAct is a diagnostic benchmark of 357 human-verified trajectories for GUI agents on interactive dashboards. A progressive cascade evaluates end-to-end execution, then restores verified context for next-action prediction, then adds target semantics and a local view for grounding, revealing bottlenecks hidden by end-to-end scores.
+  arxiv_id: '2609.32385'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32385
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026dashact,
+      title = {DashAct: A Progressive Diagnostic Benchmark for GUI Agents in Interactive Dashboard Analysis},
+      author = {Chuhan Zhang and Qi Xie and Ziyue Wang and Jianing Yin and Yunfan Zhou and Dazhen Deng and Yingcai Wu},
+      year = {2026},
+      eprint = {2609.32385},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32385}
+    }
+- title: 'From Trajectories to Grounded Preferences: Process Preference Synthesis via Interaction Element Graphs for Web PRMs'
+  link: https://arxiv.org/abs/2609.32351
+  authors:
+  - Yangzhe Peng
+  - Xiaoyang Wang
+  - Yiyang Zhao
+  - Lijun Wu
+  - Kun He
+  institutions:
+  - HUST
+  - Shanghai AI Laboratory
+  - ZJU
+  - Shanghai Innovation Institute
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - SurfPRM
+  - dataset
+  - process reward model
+  - reward model
+  - data synthesis
+  - WebArena-Lite
+  - WebPRMBench
+  tldr: |-
+    SurfPRM synthesizes process preference data for comparative web process reward models by building an Interaction Element Graph from demonstrations and using it to propose grounded contrastive negative actions, raising the share of grounded minimal contrastive pairs from 24.19% to 74.60%. PRMs trained on the resulting data improve on WebPRMBench and guide step-level search on WebArena-Lite.
+  arxiv_id: '2609.32351'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32351
+    code: https://github.com/PoloWitty/surfPRM
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{peng2026from,
+      title = {From Trajectories to Grounded Preferences: Process Preference Synthesis via Interaction Element Graphs for Web PRMs},
+      author = {Yangzhe Peng and Xiaoyang Wang and Yiyang Zhao and Lijun Wu and Kun He},
+      year = {2026},
+      eprint = {2609.32351},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32351}
+    }
+- title: 'PastForward: Faster On-Device GUI Agents via Computational Experience Reuse'
+  link: https://arxiv.org/abs/2609.32166
+  authors:
+  - Taehwan Park
+  - Changmin Lee
+  - Hayeon Lee
+  - Taesik Gong
+  institutions:
+  - UNIST
+  - Meta
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - PastForward
+  - efficiency
+  - on-device agents
+  - speculative decoding
+  - AndroidWorld
+  tldr: |-
+    PastForward speeds up on-device GUI agents by reusing computation from earlier task executions: it retrieves prior outputs as multi-token proposals verified in one forward pass, and begins next-step inference from predicted screens while the current action runs. It cuts action-step latency by 1.63-2.36x on AndroidWorld workloads while maintaining task success.
+  arxiv_id: '2609.32166'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32166
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{park2026pastforward,
+      title = {PastForward: Faster On-Device GUI Agents via Computational Experience Reuse},
+      author = {Taehwan Park and Changmin Lee and Hayeon Lee and Taesik Gong},
+      year = {2026},
+      eprint = {2609.32166},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32166}
+    }
+- title: 'REBASE: Device-Cloud Experience Coherence for GUI Agents Across App Updates'
+  link: https://arxiv.org/abs/2609.32130
+  authors:
+  - Beining Wu
+  - Jun Huang
+  - Yanxiao Zhao
+  institutions:
+  - South Dakota State University
+  - Virginia Commonwealth University
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - REBASE
+  - app updates
+  - device-cloud collaboration
+  - experience reuse
+  - robustness
+  tldr: |-
+    REBASE keeps the device and cloud copies of a mobile GUI agent's recorded experience coherent across app updates: the cloud replays experience on the new version, the device verifies each step, and failures trigger escalating evidence, starting from an accessibility-subtree diff, until a version-keyed patch is derived. On two Jetson devices it restores the success rate of stale experience to that of fresh experience within one episode.
+  arxiv_id: '2609.32130'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32130
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wu2026rebase,
+      title = {REBASE: Device-Cloud Experience Coherence for GUI Agents Across App Updates},
+      author = {Beining Wu and Jun Huang and Yanxiao Zhao},
+      year = {2026},
+      eprint = {2609.32130},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32130}
+    }
+- title: 'The GUI Is Not the State: Diagnosing State Aliasing in GUI World Models'
+  link: https://arxiv.org/abs/2609.32679
+  authors:
+  - Dongsheng Liu
+  - Chao Jin
+  - Wenkui Yang
+  - Hejin Wang
+  - Junwei Yang
+  - Zeren Zhang
+  - Ziwei Chen
+  - Huaibo Huang
+  - Jie Cao
+  - Ran He
+  institutions:
+  - University of Chinese Academy of Sciences
+  - CASIA
+  - Huawei Noah's Ark Lab
+  date: '2026-09-26'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - StateAliasBench
+  - benchmark
+  - world model
+  - state aliasing
+  - AndroidWorld
+  tldr: |-
+    Identifies state aliasing in GUI world models, where the visible interface omits transition-relevant environment state so identical observations can lead to different valid futures. Introduces StateAliasBench to isolate it and a lightweight predictive-state recovery that augments frozen world models, restoring state-sensitive prediction and improving agents on AndroidWorld.
+  arxiv_id: '2609.32679'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32679
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{liu2026the,
+      title = {The GUI Is Not the State: Diagnosing State Aliasing in GUI World Models},
+      author = {Dongsheng Liu and Chao Jin and Wenkui Yang and Hejin Wang and Junwei Yang and Zeren Zhang and Ziwei Chen and Huaibo Huang and Jie Cao and Ran He},
+      year = {2026},
+      eprint = {2609.32679},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32679}
+    }
+- title: 'CaptchaArena: A Large-Scale, Fine-Grained Dataset for Training Computer-Use Agents on Interactive CAPTCHAs'
+  link: https://arxiv.org/abs/2609.31957
+  authors:
+  - Zhenhao Zhang
+  - Zhaoyu Fan
+  - Haohan Ying
+  - Jingwen Hu
+  - Hancen Fan
+  - Junhao Zhou
+  - Zitian Chen
+  - Linchao Zhu
+  institutions:
+  - Columbia
+  - ZJU
+  - University of Rochester
+  - UIUC
+  date: '2026-09-25'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - CaptchaArena
+  - CAPTCHA
+  - dataset
+  - model
+  - reinforcement learning
+  tldr: |-
+    CaptchaArena is a training dataset of 50K execution-verified interactive CAPTCHA puzzles across 20 types and 5 interaction modes, with screenshot-action trajectories, step-by-step reasoning annotations, and pixel-mask annotations. Supervised fine-tuning followed by reinforcement learning on it yields CaptchaAgent, a single 9B policy for all 20 types.
+  arxiv_id: '2609.31957'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.31957
+    code: https://github.com/X0X0X00/CaptchaArena
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026captchaarena,
+      title = {CaptchaArena: A Large-Scale, Fine-Grained Dataset for Training Computer-Use Agents on Interactive CAPTCHAs},
+      author = {Zhenhao Zhang and Zhaoyu Fan and Haohan Ying and Jingwen Hu and Hancen Fan and Junhao Zhou and Zitian Chen and Linchao Zhu},
+      year = {2026},
+      eprint = {2609.31957},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.31957}
+    }
 - title: 'From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks'
   link: https://arxiv.org/abs/2609.30887
   authors:
@@ -41,6 +1757,45 @@
       eprint = {2609.30887},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2609.30887}
+    }
+- title: 'ScreenHaystack: Finding Blind Zones in GUI Grounding'
+  link: https://arxiv.org/abs/2609.32036
+  authors:
+  - Chenyue Li
+  - Xiaoxiao Sun
+  - Yubo Deng
+  - Qinlin Zhao
+  - Serena Yeung-Levy
+  - Yuhui Zhang
+  institutions:
+  - Stanford
+  date: '2026-09-25'
+  publisher: EMNLP 2026
+  envs:
+  - General GUI
+  keywords:
+  - ScreenHaystack
+  - benchmark
+  - GUI grounding
+  - ScreenSpot-Pro
+  - blind zones
+  tldr: |-
+    ScreenHaystack is a needle-in-a-haystack benchmark that relocates controlled target icons across high-resolution GUI backgrounds, revealing blind zones where grounding accuracy drops sharply for models including Qwen3-VL, UI-TARS, GTA, and UI-Venus. The blind zones transfer to ScreenSpot-Pro, and augmenting training data in them improves accuracy.
+  arxiv_id: '2609.32036'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.32036
+    code: https://github.com/JigglypuffStitch/ScreenHaystack
+    dataset: https://huggingface.co/datasets/Charlotte188/ScreenHaystack
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{li2026screenhaystack,
+      title = {ScreenHaystack: Finding Blind Zones in GUI Grounding},
+      author = {Chenyue Li and Xiaoxiao Sun and Yubo Deng and Qinlin Zhao and Serena Yeung-Levy and Yuhui Zhang},
+      year = {2026},
+      booktitle = {EMNLP 2026},
+      eprint = {2609.32036},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.32036}
     }
 - title: 'Jev-Mobile: Jev as an Executor for Mobile GUI Agents'
   link: https://arxiv.org/abs/2609.30186
