@@ -1,6 +1,6 @@
 # Awesome GUI Agent Paper List
 
-A curated list of **722** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
+A curated list of **726** research papers on GUI agents — models, frameworks, benchmarks, datasets, and more — spanning topics like GUI grounding, planning, memory, safety, and reinforcement learning.
 
 ## 🌐 Read this list on the web
 
@@ -24,13 +24,13 @@ The structured store [`papers.yaml`](papers.yaml) (and [`adjacent.yaml`](adjacen
 ![Top 25 research keywords](readme_template/statistics/keyword_bar_chart.png)
 
 ## Browse by Environment
-🌐 [Web (278)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (178)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (221)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (153)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
+🌐 [Web (281)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Web) · 🖥️ [Desktop (178)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Desktop) · 📱 [Mobile (221)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=Mobile) · 🖼️ [General GUI (154)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?env=General+GUI)
 
 ## Browse by Keyword
-[benchmark (223)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (109)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (73)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (71)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (63)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (59)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (44)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (37)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (30)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [long-horizon tasks (24)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks)<br>[WebArena (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena) · [world model (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [memory (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [training-free (19)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [reward model (19)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model)<br>[AndroidWorld (16)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld) · [GRPO (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO) · [prompt injection (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [planning (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey)
+[benchmark (224)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=benchmark) · [dataset (109)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=dataset) · [framework (73)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=framework) · [reinforcement learning (71)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reinforcement+learning) · [model (64)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=model)<br>[GUI grounding (60)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GUI+grounding) · [safety (44)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=safety) · [security (38)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=security) · [OSWorld (30)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=OSWorld) · [long-horizon tasks (24)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=long-horizon+tasks)<br>[WebArena (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=WebArena) · [world model (21)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=world+model) · [memory (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=memory) · [training-free (20)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=training-free) · [reward model (19)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=reward+model)<br>[AndroidWorld (16)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=AndroidWorld) · [GRPO (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=GRPO) · [prompt injection (15)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=prompt+injection) · [planning (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=planning) · [survey (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?key=survey)
 
 ## Browse by Author
-[Wei Liu (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Jian Luan (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan) · [Pengzhi Gao (17)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Pengzhi+Gao) · [Zhuosheng Zhang (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig)<br>[Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su) · [Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Zhengxi Lu (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhengxi+Lu) · [Shuyan Zhou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou) · [Mike Zheng Shou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou)<br>[Fei Tang (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Fei+Tang) · [Tao Yu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Yongliang Shen (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yongliang+Shen) · [Jie Tang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jie+Tang)<br>[Tianbao Xie (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tianbao+Xie) · [Qiushi Sun (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Yuanchun Li (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuanchun+Li) · [Kevin Qinghong Lin (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin) · [Yuxiang Chai (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai)
+[Wei Liu (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Wei+Liu) · [Jian Luan (23)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jian+Luan) · [Pengzhi Gao (17)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Pengzhi+Gao) · [Zhuosheng Zhang (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhuosheng+Zhang) · [Graham Neubig (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Graham+Neubig)<br>[Yu Su (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yu+Su) · [Huan Sun (14)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Huan+Sun) · [Zhengxi Lu (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Zhengxi+Lu) · [Shuyan Zhou (13)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Shuyan+Zhou) · [Mike Zheng Shou (12)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Mike+Zheng+Shou)<br>[Fei Tang (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Fei+Tang) · [Tao Yu (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tao+Yu) · [Boyuan Zheng (11)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Boyuan+Zheng) · [Yongliang Shen (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yongliang+Shen) · [Jie Tang (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Jie+Tang)<br>[Tianbao Xie (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Tianbao+Xie) · [Qiushi Sun (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Qiushi+Sun) · [Yuanchun Li (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuanchun+Li) · [Kevin Qinghong Lin (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Kevin+Qinghong+Lin) · [Yuxiang Chai (10)](https://osu-nlp-group.github.io/GUI-Agents-Paper-List/papers/?author=Yuxiang+Chai)
 
 ## Contributing
 
@@ -70,6 +70,15 @@ We welcome contributions from the community!
     - 💻 Env: [General GUI]
     - 🔑 Key: [PACE], [efficiency], [workflow compilation], [token cost]
     - 📖 TLDR: Studies when it pays to compile a GUI procedure that an agent executes repeatedly into a program, given uncertain compilation cost and unknown future reuse. Proposes PACE, which combines a measurement protocol for payback counts with an online compilation algorithm that bounds total cost to at most 1+ε times that of running every task with the agent.
+
+- [AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents](https://doi.org/10.1145/3832165)
+    - Yongbi Son, Changoo Lee, Dongwon Shin, Byoungyoung Lee, Sanghyun Hong, Sooel Son
+    - 🏛️ Institutions: KAIST, SNU, Oregon State University
+    - 📅 Date: October 01, 2026
+    - 📑 Publisher: ISSTA 2026
+    - 💻 Env: [Web]
+    - 🔑 Key: [AgentBreaker], [security], [indirect prompt injection], [attack], [online-Mind2Web]
+    - 📖 TLDR: AgentBreaker is an indirect prompt injection attack framework that composes adversarial phrases tailored to page-specific context and embeds them as HTML elements that web agents process, inducing actions such as clicking attacker-designated elements, posting attacker-provided text, and disclosing internal agent secrets. It reaches attack success rates of 71.7%-100% against five web agents on 60 Online-Mind2Web pages, and the proposed defenses lower the rate to 1.7%.
 
 - [Auditing Web Agent Evaluation on WebArena-Lite: Human Review of Outcomes and Trajectories](https://arxiv.org/abs/2610.01491)
     - Chengguang Gan, Zimeng He, Yoshihiro Tsujii, Ken-ichiro Kobayashi, Hiroki Itoh, Kotaro Funakoshi
@@ -133,6 +142,15 @@ We welcome contributions from the community!
     - 💻 Env: [Desktop]
     - 🔑 Key: [ComputerSD], [self-distillation], [online reinforcement learning], [GRPO], [OSWorld]
     - 📖 TLDR: ComputerSD is an online self-distillation method that turns real-time feedback from executed GUI transitions into token-level guidance for computer-use agents. A fine-tuned GUI analyzer supplies guidance and a step-level value score, and training jointly optimizes on-policy self-distillation and trajectory-level GRPO, outperforming outcome-only GRPO on OSWorld-Verified.
+
+- [In-Context Teacher–Student Guidance for Open-Weight Browser Agents](https://sol.sbc.org.br/index.php/kdmile/article/view/44978)
+    - Wéwerthon Silva Cardoso, Ricardo Marcacini
+    - 🏛️ Institutions: University of São Paulo
+    - 📅 Date: September 2026
+    - 📑 Publisher: KDMiLe 2026
+    - 💻 Env: [Web]
+    - 🔑 Key: [ICLG], [browser agent], [training-free], [teacher-student guidance], [MiniWoB]
+    - 📖 TLDR: In-Context Learning Guidance (ICLG) has a stronger teacher model solve representative browser tasks offline and converts its reasoning into reusable prompt-level guidance for open-weight student agents, without fine-tuning. On MiniWoB++ with GPT-5.1 as the teacher and ten open-weight students, the number of solved student-task pairs rises from 208 to 271.
 
 - [Learning Reliable GUI Agents under Imperfect Priors](https://arxiv.org/abs/2609.39547)
     - Bo Han, Qianyi Wang, Shuai Liu, Xiong Zifan, Changqiao Wu, Yuanfa Li, Pengzhi Gao, Wei Liu, Jian Luan, Heng Qu, Yunpeng Song, Zhongmin Cai
@@ -520,6 +538,15 @@ We welcome contributions from the community!
     - 💻 Env: [Desktop]
     - 🔑 Key: [OSWorld-Pro], [benchmark], [process evaluation], [OSWorld]
     - 📖 TLDR: OSWorld-Pro is a set of over 300 tasks with over 2,800 subgoals, grounded in more than 67,000 human annotations, that evaluates computer-use agents on the process rather than only the end state, using human-aligned LLM judges. The top performer, Claude Opus 5, reaches 75.7% against 83.4% on OSWorld, and the analysis surfaces process failures such as subgoal-irrelevant actions and click mistakes.
+
+- [Constructing Challenging Browser-Use Tasks by Controlled Environment Interventions](https://arxiv.org/abs/2609.35814)
+    - Xunjian Yin, Tianchen Guan, Jinao Wang, Weili Cao, Daisy Xinlei Lin, Royce Cheng-Yue, Keagan Long, Kyle Wong, Bhuwan Dhingra, Xiangjun Wang, Shuyan Zhou
+    - 🏛️ Institutions: Duke University, Amazon
+    - 📅 Date: September 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [BreakingWeb], [benchmark], [browser-use agent], [robustness], [failure analysis]
+    - 📖 TLDR: BreakingWeb builds harder browser-use tasks from tasks that agents already solve, by pairing each base task with a deterministic environment intervention at one web stack layer that keeps the instruction and the backend success criterion unchanged. Its 519 clean/intervention task pairs over seven self-hosted websites lower agent pass rates by 22.9% on average, and 75% of the failures of six browser-use agents end with a declared success although the required change never happened.
 
 - [MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning](https://arxiv.org/abs/2609.22724)
     - Changyue Jiang, Jiayi Wang, Xin Wen, Jiarun Dai, Geng Hong, Xudong Pan
@@ -3563,6 +3590,15 @@ We welcome contributions from the community!
     - 🔑 Key: [dataset], [benchmark], [Windows], [accessibility metadata], [reasoning supervision], [GUI-360]
     - 📖 TLDR: GUI-360 addresses the lack of large real-world CUA data and unified evaluation by releasing 1.2M+ executed action steps across thousands of trajectories in popular Windows office applications, including full-resolution screenshots, accessibility metadata, intermediate reasoning, and both successful and failed trajectories. It is the first corpus to jointly cover GUI grounding, screen parsing, action prediction, and API-level actions, exposing cascading failures of off-the-shelf VLMs on heterogeneous layouts.
 
+- [GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding](https://arxiv.org/abs/2511.00810)
+    - Shijie Zhou, Viet Dac Lai, Hao Tan, Jihyung Kil, Wanrong Zhu, Changyou Chen, Ruiyi Zhang
+    - 🏛️ Institutions: State University of New York at Buffalo, Adobe Research
+    - 📅 Date: November 02, 2025
+    - 📑 Publisher: ECCV 2026
+    - 💻 Env: [General GUI]
+    - 🔑 Key: [GUI-AIMA], [model], [GUI grounding], [attention], [coordinate-free], [ScreenSpot-Pro], [OSWorld-G]
+    - 📖 TLDR: GUI-AIMA is an attention-based, coordinate-free supervised fine-tuning framework for GUI grounding that aligns the intrinsic multimodal attention of an MLLM with patch-wise grounding signals and supports a plug-and-play zoom-in stage. GUI-AIMA-3B, trained on about 101k screenshots, reaches 61.5% on ScreenSpot-Pro and 68.1% on OSWorld-G.
+
 - [WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation](https://arxiv.org/abs/2510.22732)
     - Jiali Cheng, Anjishnu Kumar, Roshan Lal, Rishi Rajasekaran, Hani Ramezani, Omar Zia Khan, Oleg Rokhlenko, Sunny Chiu-Webster, Gang Hua, Hadi Amiri
     - 🏛️ Institutions: University of Massachusetts Lowell, Amazon Alexa AI
@@ -4507,39 +4543,3 @@ We welcome contributions from the community!
     - 💻 Env: [Web]
     - 🔑 Key: [reinforcement learning], [multi-turn interaction], [WebArena-Lite], [test-time scaling], [WebAgent-R1]
     - 📖 TLDR: WebAgent-R1 studies end-to-end multi-turn reinforcement learning for web agents rather than single-turn reasoning tasks. It learns directly from online browser interactions with binary success rewards and substantially improves small open models on WebArena-Lite, surpassing prior methods and some proprietary baselines.
-
-- [GUI-G1: Understanding R1-Zero-Like Training for Visual Grounding in GUI Agents](https://arxiv.org/abs/2505.15810)
-    - Yuqi Zhou, Sunhao Dai, Shuai Wang, Kaiwen Zhou, Qinglin Jia, Jun Xu
-    - 🏛️ Institutions: Renmin University of China, Huawei Noah's Ark Lab
-    - 📅 Date: May 21, 2025
-    - 📑 Publisher: NeurIPS 2025 (Poster)
-    - 💻 Env: [General GUI]
-    - 🔑 Key: [GUI grounding], [reinforcement learning], [fast thinking template], [difficulty-aware scaling], [GUI-G1]
-    - 📖 TLDR: This paper analyzes why blindly copying R1-Zero-style online RL pipelines into GUI grounding leads to poor behavior, including overlong reasoning, reward hacking on box size, and under-optimization on hard examples. It then proposes targeted fixes in prompt design, reward shaping, and difficulty-aware policy optimization. The resulting GUI-G1 model sets a new state of the art for its scale on ScreenSpot-style GUI grounding benchmarks.
-
-- [ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search](https://arxiv.org/abs/2505.15259)
-    - Hyunseok Lee, Jeonghoon Kim, Beomjun Kim, Jihoon Tack, Chansong Jo, Jaehong Lee, Cheonbok Park, Sookyo In, Jinwoo Shin, Kang Min Yoo
-    - 🏛️ Institutions: KAIST, NAVER Cloud
-    - 📅 Date: May 21, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Web]
-    - 🔑 Key: [GUI grounding], [spatial reasoning], [data efficiency], [test-time scaling], [ReGUIDE]
-    - 📖 TLDR: ReGUIDE improves web GUI grounding under limited data by combining self-generated reasoning, spatially aware criticism, and test-time spatial search. It substantially outperforms baselines while using only a tiny fraction of the training data required by prior web-grounding approaches.
-
-- [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277)
-    - Hyungjoo Chae, Sunghwan Kim, Junhee Cho, Seungone Kim, Seungjun Moon, Gyeom Hwangbo, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, Taeyoon Kwon, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo
-    - 🏛️ Institutions: Yonsei University, CMU
-    - 📅 Date: May 21, 2025
-    - 📑 Publisher: NeurIPS 2025 (Spotlight)
-    - 💻 Env: [Web]
-    - 🔑 Key: [model], [dataset], [benchmark], [reward model], [WebRewardBench], [Web-Shepherd]
-    - 📖 TLDR: Web-Shepherd introduces the first process reward model specialized for web navigation, along with the WebPRM Collection of 40K step-level preference pairs and the WebRewardBench meta-evaluation benchmark. It substantially outperforms generic frontier-model verifiers on web trajectories while reducing verification cost enough for both RL training and test-time use.
-
-- [Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent](https://arxiv.org/abs/2505.14141)
-    - Fanglin Mo, Junzhe Chen, Haoxuan Zhu, Xuming Hu
-    - 🏛️ Institutions: HKUST(GZ), South China University of Technology
-    - 📅 Date: May 20, 2025
-    - 📑 Publisher: arXiv
-    - 💻 Env: [Mobile]
-    - 🔑 Key: [framework], [EFSM], [planning], [plug-and-play planner], [SPlanner]
-    - 📖 TLDR: SPlanner addresses the instability of step-by-step mobile planning by modeling apps as extended finite state machines and converting traversed execution paths into natural-language plans. As a plug-and-play planning module, it substantially improves mobile-agent task completion on AndroidWorld.

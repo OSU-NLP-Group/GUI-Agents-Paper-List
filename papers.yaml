@@ -108,6 +108,42 @@
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.02932}
     }
+- title: 'AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents'
+  link: https://doi.org/10.1145/3832165
+  authors:
+  - Yongbi Son
+  - Changoo Lee
+  - Dongwon Shin
+  - Byoungyoung Lee
+  - Sanghyun Hong
+  - Sooel Son
+  institutions:
+  - KAIST
+  - SNU
+  - Oregon State University
+  date: '2026-10-01'
+  publisher: ISSTA 2026
+  envs:
+  - Web
+  keywords:
+  - AgentBreaker
+  - security
+  - indirect prompt injection
+  - attack
+  - online-Mind2Web
+  tldr: |-
+    AgentBreaker is an indirect prompt injection attack framework that composes adversarial phrases tailored to page-specific context and embeds them as HTML elements that web agents process, inducing actions such as clicking attacker-designated elements, posting attacker-provided text, and disclosing internal agent secrets. It reaches attack success rates of 71.7%-100% against five web agents on 60 Online-Mind2Web pages, and the proposed defenses lower the rate to 1.7%.
+  sources:
+    publisher_page: https://doi.org/10.1145/3832165
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{son2026agentbreaker,
+      title = {AgentBreaker: Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents},
+      author = {Yongbi Son and Changoo Lee and Dongwon Shin and Byoungyoung Lee and Sanghyun Hong and Sooel Son},
+      year = {2026},
+      booktitle = {ISSTA 2026},
+      url = {https://doi.org/10.1145/3832165}
+    }
 - title: 'Auditing Web Agent Evaluation on WebArena-Lite: Human Review of Outcomes and Trajectories'
   link: https://arxiv.org/abs/2610.01491
   authors:
@@ -391,6 +427,36 @@
       eprint = {2609.40253},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2609.40253}
+    }
+- title: In-Context Teacher–Student Guidance for Open-Weight Browser Agents
+  link: https://sol.sbc.org.br/index.php/kdmile/article/view/44978
+  authors:
+  - Wéwerthon Silva Cardoso
+  - Ricardo Marcacini
+  institutions:
+  - University of São Paulo
+  date: 2026-09
+  publisher: KDMiLe 2026
+  envs:
+  - Web
+  keywords:
+  - ICLG
+  - browser agent
+  - training-free
+  - teacher-student guidance
+  - MiniWoB
+  tldr: |-
+    In-Context Learning Guidance (ICLG) has a stronger teacher model solve representative browser tasks offline and converts its reasoning into reusable prompt-level guidance for open-weight student agents, without fine-tuning. On MiniWoB++ with GPT-5.1 as the teacher and ten open-weight students, the number of solved student-task pairs rises from 208 to 271.
+  sources:
+    publisher_page: https://sol.sbc.org.br/index.php/kdmile/article/view/44978
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{cardoso2026incontext,
+      title = {In-Context Teacher–Student Guidance for Open-Weight Browser Agents},
+      author = {Wéwerthon Silva Cardoso and Ricardo Marcacini},
+      year = {2026},
+      booktitle = {KDMiLe 2026},
+      url = {https://sol.sbc.org.br/index.php/kdmile/article/view/44978}
     }
 - title: Learning Reliable GUI Agents under Imperfect Priors
   link: https://arxiv.org/abs/2609.39547
@@ -2137,6 +2203,49 @@
       eprint = {2609.24890},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2609.24890}
+    }
+- title: Constructing Challenging Browser-Use Tasks by Controlled Environment Interventions
+  link: https://arxiv.org/abs/2609.35814
+  authors:
+  - Xunjian Yin
+  - Tianchen Guan
+  - Jinao Wang
+  - Weili Cao
+  - Daisy Xinlei Lin
+  - Royce Cheng-Yue
+  - Keagan Long
+  - Kyle Wong
+  - Bhuwan Dhingra
+  - Xiangjun Wang
+  - Shuyan Zhou
+  institutions:
+  - Duke University
+  - Amazon
+  date: '2026-09-20'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - BreakingWeb
+  - benchmark
+  - browser-use agent
+  - robustness
+  - failure analysis
+  tldr: |-
+    BreakingWeb builds harder browser-use tasks from tasks that agents already solve, by pairing each base task with a deterministic environment intervention at one web stack layer that keeps the instruction and the backend success criterion unchanged. Its 519 clean/intervention task pairs over seven self-hosted websites lower agent pass rates by 22.9% on average, and 75% of the failures of six browser-use agents end with a declared success although the required change never happened.
+  arxiv_id: '2609.35814'
+  sources:
+    arxiv: https://arxiv.org/abs/2609.35814
+    homepage: https://www.breakingweb.app
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yin2026constructing,
+      title = {Constructing Challenging Browser-Use Tasks by Controlled Environment Interventions},
+      author = {Xunjian Yin and Tianchen Guan and Jinao Wang and Weili Cao and Daisy Xinlei Lin and Royce Cheng-Yue and Keagan Long and Kyle Wong and Bhuwan Dhingra and Xiangjun Wang and Shuyan Zhou},
+      year = {2026},
+      eprint = {2609.35814},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2609.35814}
     }
 - title: 'MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning'
   link: https://arxiv.org/abs/2609.22724
@@ -16057,6 +16166,49 @@
       url = {https://arxiv.org/abs/2511.04307}
     }
   bibtex_confirmed: false
+- title: 'GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding'
+  link: https://arxiv.org/abs/2511.00810
+  authors:
+  - Shijie Zhou
+  - Viet Dac Lai
+  - Hao Tan
+  - Jihyung Kil
+  - Wanrong Zhu
+  - Changyou Chen
+  - Ruiyi Zhang
+  institutions:
+  - State University of New York at Buffalo
+  - Adobe Research
+  date: '2025-11-02'
+  publisher: ECCV 2026
+  envs:
+  - General GUI
+  keywords:
+  - GUI-AIMA
+  - model
+  - GUI grounding
+  - attention
+  - coordinate-free
+  - ScreenSpot-Pro
+  - OSWorld-G
+  tldr: |-
+    GUI-AIMA is an attention-based, coordinate-free supervised fine-tuning framework for GUI grounding that aligns the intrinsic multimodal attention of an MLLM with patch-wise grounding signals and supports a plug-and-play zoom-in stage. GUI-AIMA-3B, trained on about 101k screenshots, reaches 61.5% on ScreenSpot-Pro and 68.1% on OSWorld-G.
+  arxiv_id: '2511.00810'
+  sources:
+    arxiv: https://arxiv.org/abs/2511.00810
+    code: https://github.com/sjz5202/GUI-AIMA
+    publisher_page: https://doi.org/10.1007/978-3-032-37016-7_5
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{zhou2025guiaima,
+      title = {GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding},
+      author = {Shijie Zhou and Viet Dac Lai and Hao Tan and Jihyung Kil and Wanrong Zhu and Changyou Chen and Ruiyi Zhang},
+      year = {2025},
+      booktitle = {ECCV 2026},
+      eprint = {2511.00810},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2511.00810}
+    }
 - title: 'WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation'
   link: https://arxiv.org/abs/2510.22732
   authors:
