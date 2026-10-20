@@ -2,6 +2,363 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'Agent World Model in the Wild: Computer-Use Agent Environment Synthesis'
+  link: https://arxiv.org/abs/2610.26828
+  authors:
+  - Zhaoyang Wang
+  - Qianhui Wu
+  - Haorui Wang
+  - Simon Yu
+  - Baolin Peng
+  - Canwen Xu
+  - Hao Cheng
+  - Wenlin Yao
+  - Boyi Liu
+  - Yite Wang
+  - Jianfeng Gao
+  - Huaxiu Yao
+  institutions:
+  - UNC
+  - MSR
+  - Georgia Tech
+  - Northeastern University
+  - Independent Researcher
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - General GUI
+  keywords:
+  - world model
+  - environment synthesis
+  - computer-use
+  - WildAWM
+  - OSWorld
+  tldr: |-
+    Proposes WildAWM, an agent world model framework that synthesizes interactive computer-use environments and validates task state transitions, providing scalable and secure training environments for computer-use agents.
+  arxiv_id: '2610.26828'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26828
+    code: https://github.com/MSR-Orchard/WildAWM
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026agent,
+      title = {Agent World Model in the Wild: Computer-Use Agent Environment Synthesis},
+      author = {Zhaoyang Wang and Qianhui Wu and Haorui Wang and Simon Yu and Baolin Peng and Canwen Xu and Hao Cheng and Wenlin Yao and Boyi Liu and Yite Wang and Jianfeng Gao and Huaxiu Yao},
+      year = {2026},
+      eprint = {2610.26828},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26828}
+    }
+- title: 'CUA-Lite: An Open Platform for Computer Use Agents'
+  link: https://arxiv.org/abs/2610.26071
+  authors:
+  - Zhanhui Zhou
+  - Weichen Zhang
+  - Haoran Liu
+  - Lingjie Chen
+  - Tianneng Shi
+  - Kevin Lin
+  - Zhengyuan Yang
+  - Lijuan Wang
+  - Dawn Song
+  institutions:
+  - UC Berkeley
+  - Microsoft
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - platform
+  - benchmark
+  - computer-use
+  - OSWorld
+  - CUA-Lite
+  tldr: |-
+    Presents CUA-Lite, an open platform standardizing computer-use agent development with a unified environment interface across 12 benchmarks, lightweight sandboxes with over 30,000 verifiable tasks, and shared model harnesses for evaluation, RL, and SFT.
+  arxiv_id: '2610.26071'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26071
+    homepage: https://cua-lite.github.io
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhou2026cualite,
+      title = {CUA-Lite: An Open Platform for Computer Use Agents},
+      author = {Zhanhui Zhou and Weichen Zhang and Haoran Liu and Lingjie Chen and Tianneng Shi and Kevin Lin and Zhengyuan Yang and Lijuan Wang and Dawn Song},
+      year = {2026},
+      eprint = {2610.26071},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26071}
+    }
+- title: Comparing Computer Use Behavior Across Multiple Levels of Abstraction
+  link: https://arxiv.org/abs/2610.26703
+  authors:
+  - Ananya Gubbi Mohanbabu
+  - Rosiana Natalie
+  - Anhong Guo
+  - Amy Pavel
+  institutions:
+  - UC Berkeley
+  - UMich
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - General GUI
+  keywords:
+  - analysis
+  - interaction traces
+  - computer-use
+  - human-agent comparison
+  - abstraction
+  tldr: |-
+    Introduces Multi-level Action Parsing (MAP), a hierarchical semantic pipeline that maps human and computer-use agent interaction traces across linked levels of abstraction to diagnose behavioral gaps, navigation differences, and recovery behaviors.
+  arxiv_id: '2610.26703'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26703
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{mohanbabu2026comparing,
+      title = {Comparing Computer Use Behavior Across Multiple Levels of Abstraction},
+      author = {Ananya Gubbi Mohanbabu and Rosiana Natalie and Anhong Guo and Amy Pavel},
+      year = {2026},
+      eprint = {2610.26703},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26703}
+    }
+- title: Focused Omni-Modal GUI Agents
+  link: https://arxiv.org/abs/2610.26203
+  authors:
+  - Fuyao Zhang
+  - Wenwen He
+  - Jiaming Zhang
+  - Yurong Hao
+  - Xuan Wang
+  - Guowei Guan
+  - Che Wang
+  - Longtao Huang
+  - Wei Yang Bryan Lim
+  institutions:
+  - NTU
+  - Alibaba Group
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - framework
+  - omni-modal
+  - focused perception
+  - sequential distraction
+  - GUI agent
+  tldr: |-
+    Formulates Focused Perception to mitigate Sequential Distraction in omni-modal GUI agents by adaptively pruning transient streaming context across screenshots, audio, video, and device states to maintain action-sufficient representation.
+  arxiv_id: '2610.26203'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26203
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026focused,
+      title = {Focused Omni-Modal GUI Agents},
+      author = {Fuyao Zhang and Wenwen He and Jiaming Zhang and Yurong Hao and Xuan Wang and Guowei Guan and Che Wang and Longtao Huang and Wei Yang Bryan Lim},
+      year = {2026},
+      eprint = {2610.26203},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26203}
+    }
+- title: 'ScopeMem: Latent Memory That Learns Where to Revise Frozen GUI Agents'
+  link: https://arxiv.org/abs/2610.26503
+  authors:
+  - Zhicheng Zheng
+  - Cheng Zhang
+  - Shengping Yu
+  - Tianxiang Zhao
+  institutions:
+  - HKUST
+  - Imperial College London
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Mobile
+  - General GUI
+  keywords:
+  - memory
+  - latent memory
+  - frozen VLM
+  - GUI agent
+  - AndroidWorld
+  tldr: |-
+    Introduces ScopeMem, a latent memory mechanism for GUI agents that identifies which layers of a frozen vision-language model benefit from history prefix vectors, avoiding uniform token injection and improving task completion on AndroidWorld.
+  arxiv_id: '2610.26503'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26503
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zheng2026scopemem,
+      title = {ScopeMem: Latent Memory That Learns Where to Revise Frozen GUI Agents},
+      author = {Zhicheng Zheng and Cheng Zhang and Shengping Yu and Tianxiang Zhao},
+      year = {2026},
+      eprint = {2610.26503},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26503}
+    }
+- title: Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing
+  link: https://arxiv.org/abs/2610.25601
+  authors:
+  - Hridya Dhulipala
+  - Xiaokai Rong
+  - Aashish Yadavally
+  - Tien N. Nguyen
+  institutions:
+  - UT Dallas
+  - UCF
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - framework
+  - web agent
+  - testing
+  - Playwright
+  - test generation
+  tldr: |-
+    Presents TESSARA, an adaptive web agent framework that converts natural-language test intents into replayable Playwright scripts with step-aligned provenance, goal-state assertions, and three-level verification and recovery.
+  arxiv_id: '2610.25601'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.25601
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{dhulipala2026stepaligned,
+      title = {Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing},
+      author = {Hridya Dhulipala and Xiaokai Rong and Aashish Yadavally and Tien N. Nguyen},
+      year = {2026},
+      eprint = {2610.25601},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.25601}
+    }
+- title: 'Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs'
+  link: https://arxiv.org/abs/2610.26660
+  authors:
+  - Zhuomin Chen
+  - Jingchao Ni
+  - Xu Zheng
+  - Yong Chen
+  - Mo Sha
+  - Wei Cheng
+  - Dongsheng Luo
+  institutions:
+  - FIU
+  - University of Houston
+  - Independent Researcher
+  - NEC Labs America
+  - Singapore Management University
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - efficiency
+  - mobile NPU
+  - on-device
+  - linear attention
+  - mobile agent
+  tldr: |-
+    Presents Tandem, an on-device runtime for serving hybrid linear-attention GUI agents on mobile NPUs that saves recurrent state at prompt divergence points to reuse context prefixes, reducing per-step latency by up to 30% on Snapdragon 8 Elite.
+  arxiv_id: '2610.26660'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26660
+    code: https://github.com/flyingdoog/tandem
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{chen2026tandem,
+      title = {Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs},
+      author = {Zhuomin Chen and Jingchao Ni and Xu Zheng and Yong Chen and Mo Sha and Wei Cheng and Dongsheng Luo},
+      year = {2026},
+      eprint = {2610.26660},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26660}
+    }
+- title: 'VeriCUA: Learning Proactive Verification for Reliable GUI Agent Rewards'
+  link: https://arxiv.org/abs/2610.26469
+  authors:
+  - Zhizhou Wang
+  - Yaxi Lu
+  - Zhong Zhang
+  - Zikun Hu
+  - Xin Cong
+  - Yankai Lin
+  - Fangming Liu
+  institutions:
+  - Southwest Jiaotong University
+  - Tsinghua
+  - UESTC
+  - NUS
+  - Renmin University of China
+  - Pengcheng Laboratory
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - framework
+  - reinforcement learning
+  - verification
+  - reward model
+  - computer-use
+  tldr: |-
+    Proposes VeriCUA, a proactive verification framework for computer-use agents that trains reward agents to interact with post-execution GUI environments to verify hidden task outcomes and determine reliable RL rewards.
+  arxiv_id: '2610.26469'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.26469
+    code: https://github.com/Jeffjeno/VeriCUA
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026vericua,
+      title = {VeriCUA: Learning Proactive Verification for Reliable GUI Agent Rewards},
+      author = {Zhizhou Wang and Yaxi Lu and Zhong Zhang and Zikun Hu and Xin Cong and Yankai Lin and Fangming Liu},
+      year = {2026},
+      eprint = {2610.26469},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.26469}
+    }
+- title: 'Beyond Next-Screen Prediction: The Decision Value of GUI World Models'
+  link: https://arxiv.org/abs/2610.24372
+  authors:
+  - Sizhe Tang
+  - Hanhan Zhou
+  - Jeffrey Svajlenko
+  - Rashmi Gangadharaiah
+  institutions:
+  - George Washington University
+  - AWS
+  date: '2026-10-17'
+  publisher: arXiv
+  envs:
+  - Mobile
+  - General GUI
+  keywords:
+  - world model
+  - GUI grounding
+  - AndroidWorld
+  - action selection
+  - evaluation
+  tldr: |-
+    Analyzes the decision value of GUI world models and finds lookahead benefits stem primarily from candidate evaluators rather than future screen prediction, introducing Direct Action Ranking (DAR) which outperforms world model rollouts on AndroidWorld.
+  arxiv_id: '2610.24372'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.24372
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{tang2026beyond,
+      title = {Beyond Next-Screen Prediction: The Decision Value of GUI World Models},
+      author = {Sizhe Tang and Hanhan Zhou and Jeffrey Svajlenko and Rashmi Gangadharaiah},
+      year = {2026},
+      eprint = {2610.24372},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.24372}
+    }
 - title: Adaptation of Computer Use Agents to New Software with User Manuals
   link: https://arxiv.org/abs/2610.23012
   authors:
@@ -194,6 +551,46 @@
       eprint = {2610.22990},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.22990}
+    }
+- title: 'SPIDES: Information-Flow Control for Browser Agents'
+  link: https://arxiv.org/abs/2610.24277
+  authors:
+  - Egor Zverev
+  - Juhee Kim
+  - Leon Trampert
+  - Boris Köpf
+  - Aashish Kolluri
+  - Shruti Tople
+  - Santiago Zanella-Béguelin
+  institutions:
+  - ISTA
+  - Microsoft
+  - CISPA Helmholtz Center for Information Security
+  date: '2026-10-16'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - security
+  - browser agent
+  - prompt injection
+  - information-flow control
+  - data exfiltration
+  tldr: |-
+    Introduces SPIDES, an information-flow control architecture for LLM browser agents that tracks provenance and web security boundaries to prevent prompt injection and confidential data exfiltration during web navigation.
+  arxiv_id: '2610.24277'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.24277
+    code: https://github.com/microsoft/SPIDES
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zverev2026spides,
+      title = {SPIDES: Information-Flow Control for Browser Agents},
+      author = {Egor Zverev and Juhee Kim and Leon Trampert and Boris Köpf and Aashish Kolluri and Shruti Tople and Santiago Zanella-Béguelin},
+      year = {2026},
+      eprint = {2610.24277},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.24277}
     }
 - title: 'LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents'
   link: https://arxiv.org/abs/2610.22280
@@ -16628,6 +17025,45 @@
       url = {https://arxiv.org/abs/2601.07181}
     }
   bibtex_confirmed: false
+- title: Web Agent Agentic Reinforcement Learning Decision Model Under Multi-Cost and Failure Risk
+  link: https://arxiv.org/abs/2610.23857
+  authors:
+  - Qianli Ma
+  - Limengxi Yue
+  - Shuyang Xu
+  - Yanpei Shi
+  - Hongrui Liu
+  institutions:
+  - UMass Boston
+  - UMass Amherst
+  - Cornell
+  - USC
+  - UMich
+  date: '2026-01-12'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - reinforcement learning
+  - web agent
+  - constrained optimization
+  - cost budget
+  - failure risk
+  tldr: |-
+    Proposes a constrained reinforcement learning model for web agents incorporating request budget constraints via Lagrange dual updates and tail failure risk control via CVaR, reducing cost-per-success and failure rates across complex web tasks.
+  arxiv_id: '2610.23857'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.23857
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{ma2026web,
+      title = {Web Agent Agentic Reinforcement Learning Decision Model Under Multi-Cost and Failure Risk},
+      author = {Qianli Ma and Limengxi Yue and Shuyang Xu and Yanpei Shi and Hongrui Liu},
+      year = {2026},
+      eprint = {2610.23857},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.23857}
+    }
 - title: 'V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking'
   link: https://arxiv.org/abs/2601.06899
   authors:
