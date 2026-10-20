@@ -2,6 +2,682 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Adaptation of Computer Use Agents to New Software with User Manuals
+  link: https://arxiv.org/abs/2610.23012
+  authors:
+  - Chulhoon Yoon
+  - Kyungri Park
+  - Jinyeong Yun
+  - Daeyun Jeong
+  - Sukmin Yun
+  - Woohwan Jung
+  institutions:
+  - Hanyang University
+  - Korea University
+  date: '2026-10-16'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - framework
+  - MAGE
+  - computer-use
+  - user manuals
+  - policy adaptation
+  tldr: |-
+    Proposes MAGE, a framework that utilizes application user manuals to generate explicit procedural guidance during inference and self-guided rollouts for training, improving computer-use agent generalization to unseen desktop software.
+  arxiv_id: '2610.23012'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.23012
+    code: https://github.com/ku-autoai/MAGE
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yoon2026adaptation,
+      title = {Adaptation of Computer Use Agents to New Software with User Manuals},
+      author = {Chulhoon Yoon and Kyungri Park and Jinyeong Yun and Daeyun Jeong and Sukmin Yun and Woohwan Jung},
+      year = {2026},
+      eprint = {2610.23012},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.23012}
+    }
+- title: 'MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency
+    Injection'
+  link: https://arxiv.org/abs/2610.23307
+  authors:
+  - Songping Wang
+  - Peiyang Li
+  - Yi Huang
+  - Fengting Li
+  - Xuhao Ran
+  - Yueming Lyu
+  - Chao Feng
+  - Caifeng Shan
+  institutions:
+  - NJU
+  - Ant Group
+  - PKU
+  date: '2026-10-16'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - security
+  - prompt injection
+  - mobile agent
+  - cross-modal
+  tldr: |-
+    Introduces MobileInject, a benchmark evaluating multimodal mobile agents against Cross-Modal Consistency Injection attacks across 11 scenarios and 9 security-risk categories to identify early-stage reasoning hijacking.
+  arxiv_id: '2610.23307'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.23307
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026mobileinject,
+      title = {MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency Injection},
+      author = {Songping Wang and Peiyang Li and Yi Huang and Fengting Li and Xuhao Ran and Yueming Lyu and Chao Feng and Caifeng Shan},
+      year = {2026},
+      eprint = {2610.23307},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.23307}
+    }
+- title: 'MobileJailBench: Red Queen Jailbreak Benchmarking for Mobile Agents'
+  link: https://arxiv.org/abs/2610.23303
+  authors:
+  - Songping Wang
+  - Borui Li
+  - Qinglong Liu
+  - Yueming Lyu
+  - Yi Huang
+  - Fengting Li
+  - Chao Feng
+  - Caifeng Shan
+  institutions:
+  - NJU
+  - Ant Group
+  - PKU
+  - NUS
+  date: '2026-10-16'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - security
+  - jailbreak
+  - mobile agent
+  - safety
+  tldr: |-
+    Presents MobileJailBench, a dynamically evolving jailbreak benchmark comprising 520 tasks across 14 risk categories on a realistic mobile sandbox to evaluate mobile agent vulnerabilities against multi-step jailbreak attacks.
+  arxiv_id: '2610.23303'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.23303
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026mobilejailbench,
+      title = {MobileJailBench: Red Queen Jailbreak Benchmarking for Mobile Agents},
+      author = {Songping Wang and Borui Li and Qinglong Liu and Yueming Lyu and Yi Huang and Fengting Li and Chao Feng and Caifeng Shan},
+      year = {2026},
+      eprint = {2610.23303},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.23303}
+    }
+- title: 'PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas'
+  link: https://arxiv.org/abs/2610.22990
+  authors:
+  - Haoming Li
+  - Defu Cao
+  - Xu Hu
+  - Yingtao Luo
+  - Yiyang Wang
+  - Xianghe Xu
+  - Jiashu He
+  - Wanting Jiang
+  - Yifan Zhang
+  - Yunhan Zhao
+  - Siyang Wu
+  - Chen Yang
+  - Haixin Wang
+  - Zheyuan Deng
+  - Taoran Li
+  - Jingwen Zhang
+  - Zhejian Peng
+  - Shushu Liang
+  - Yue Zhao
+  - Bingzhe Li
+  - Feng Chen
+  - Yifan Wang
+  - Jintao Huang
+  - Yijun Wang
+  - Yuexing Hao
+  - Xiaomin Li
+  institutions:
+  - UT Dallas
+  - USC
+  - CMU
+  - Georgia Tech
+  - UCLA
+  - UPenn
+  - Amherst College
+  - Vanderbilt University
+  - UC Irvine
+  - University of Chicago
+  - Harvard
+  - Brown University
+  - Texas A&M
+  - UIUC
+  - Purdue University
+  - OSU
+  - MIT
+  date: '2026-10-16'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - benchmark
+  - PersonaCUABench
+  - computer-use
+  - evaluation
+  - personas
+  tldr: |-
+    Introduces PersonaCUABench, an evaluation suite assessing computer-use agents across 44 user personas to examine how colloquial expressions, ambiguous constraints, and personalized requirements degrade agent success in desktop environments.
+  arxiv_id: '2610.22990'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.22990
+    code: https://github.com/MatrAIx-ai/PersonaCUABench
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{li2026personacuabench,
+      title = {PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas},
+      author = {Haoming Li and Defu Cao and Xu Hu and Yingtao Luo and Yiyang Wang and Xianghe Xu and Jiashu He and Wanting Jiang and Yifan Zhang and Yunhan Zhao and Siyang Wu and Chen Yang and Haixin Wang and Zheyuan Deng and Taoran Li and Jingwen Zhang and Zhejian Peng and Shushu Liang and Yue Zhao and Bingzhe Li and Feng Chen and Yifan Wang and Jintao Huang and Yijun Wang and Yuexing Hao and Xiaomin Li},
+      year = {2026},
+      eprint = {2610.22990},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.22990}
+    }
+- title: 'LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents'
+  link: https://arxiv.org/abs/2610.22280
+  authors:
+  - Qingni Wang
+  - Changdae Oh
+  - Yuzhe Yang
+  - Sharon Li
+  - Jiachen Yang
+  - Ang Li
+  - Xin Eric Wang
+  institutions:
+  - Simular
+  - UW-Madison
+  date: '2026-10-15'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - framework
+  - computer-use
+  - OSWorld
+  - weak-to-strong
+  - oversight
+  tldr: |-
+    Introduces LEASH, a training-free weak-to-strong escalation framework for computer-use agents that uses internal hidden state uncertainty to dynamically trigger handoff to a strong model and supervise it via a shadow observer on OSWorld.
+  arxiv_id: '2610.22280'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.22280
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026leash,
+      title = {LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents},
+      author = {Qingni Wang and Changdae Oh and Yuzhe Yang and Sharon Li and Jiachen Yang and Ang Li and Xin Eric Wang},
+      year = {2026},
+      eprint = {2610.22280},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.22280}
+    }
+- title: 'Not All Graphs Are Maps: A Task-Agnostic Exploration Framework for Mobile GUI Navigation'
+  link: https://arxiv.org/abs/2610.22672
+  authors:
+  - Adamo Orsini
+  - Seyed Mehdi Ayyoubzadeh
+  - Sadman Rakib Pinon
+  - Hannuo Zhang
+  - Koosha Gholipour Baradari
+  - Yuanhao Yu
+  - Xinxin Zuo
+  - Yang Wang
+  institutions:
+  - Concordia University
+  - Mila
+  - McMaster University
+  date: '2026-10-15'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - framework
+  - benchmark
+  - mobile agent
+  - TAG-Nav
+  - DestBench
+  tldr: |-
+    Presents TAG-Nav, a task-agnostic exploration framework creating persistent graph memory of mobile app destinations, and DestBench, a navigation benchmark isolating destination discovery from task completion.
+  arxiv_id: '2610.22672'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.22672
+    homepage: https://tag-nav-authors.github.io/tag_nav/
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{orsini2026not,
+      title = {Not All Graphs Are Maps: A Task-Agnostic Exploration Framework for Mobile GUI Navigation},
+      author = {Adamo Orsini and Seyed Mehdi Ayyoubzadeh and Sadman Rakib Pinon and Hannuo Zhang and Koosha Gholipour Baradari and Yuanhao Yu and Xinxin Zuo and Yang Wang},
+      year = {2026},
+      eprint = {2610.22672},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.22672}
+    }
+- title: 'OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents'
+  link: https://arxiv.org/abs/2610.22234
+  authors:
+  - Bowen Yang
+  - Kaiming Jin
+  - Zichen Ding
+  - Zhenyu Wu
+  - Zehao Li
+  - Zhoumianze Liu
+  - Kanzhi Cheng
+  - Fangzhi Xu
+  - Yanan Sun
+  - Qiushi Sun
+  - Yu Qiao
+  institutions:
+  - USTC
+  - Shanghai AI Laboratory
+  - NUS
+  - SJTU
+  - Fudan
+  - NJU
+  - XJTU
+  - HKU
+  date: '2026-10-15'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - model
+  - framework
+  - reinforcement learning
+  - computer-use
+  - OSWorld
+  tldr: |-
+    Proposes OS-Helix, an end-to-end trained multimodal computer-using agent uniting GUI actions and bash code execution in one unified action space, trained with Step-balanced GSPO on live desktop environments and achieving 66.44% on OSWorld-Verified.
+  arxiv_id: '2610.22234'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.22234
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026oshelix,
+      title = {OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents},
+      author = {Bowen Yang and Kaiming Jin and Zichen Ding and Zhenyu Wu and Zehao Li and Zhoumianze Liu and Kanzhi Cheng and Fangzhi Xu and Yanan Sun and Qiushi Sun and Yu Qiao},
+      year = {2026},
+      eprint = {2610.22234},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.22234}
+    }
+- title: 'OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use'
+  link: https://arxiv.org/abs/2610.22200
+  authors:
+  - Hanzhang Zhou
+  - Long Li
+  - Quyu Kong
+  - Lei Wang
+  - Panrong Tong
+  - Long Chen
+  - Tianyu Xia
+  - Gongjie Zhang
+  - Xu Zhang
+  - Chen Liu
+  - Jianan Zhang
+  - Chenglin Cai
+  - Zhengwen Zeng
+  - Steven Hoi
+  - Yue Wang
+  institutions:
+  - Alibaba Group
+  date: '2026-10-15'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - framework
+  - generalist agent
+  - computer-use
+  - OSWorld
+  - OpenGCUA
+  tldr: |-
+    Introduces OpenGCUA, an open stack for generalist computer-use agents that integrates visual GUI action with programmatic code execution, demonstrating substantial partial-score gains across eight frontier models on OSWorld-v2.
+  arxiv_id: '2610.22200'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.22200
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhou2026opengcua,
+      title = {OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use},
+      author = {Hanzhang Zhou and Long Li and Quyu Kong and Lei Wang and Panrong Tong and Long Chen and Tianyu Xia and Gongjie Zhang and Xu Zhang and Chen Liu and Jianan Zhang and Chenglin Cai and Zhengwen Zeng and Steven Hoi and Yue Wang},
+      year = {2026},
+      eprint = {2610.22200},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.22200}
+    }
+- title: 'What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics'
+  link: https://arxiv.org/abs/2610.22697
+  authors:
+  - Umar Iqbal
+  institutions:
+  - Washington University in St. Louis
+  date: '2026-10-15'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - framework
+  - security
+  - web browsing
+  - prompt injection
+  - web semantics
+  tldr: |-
+    Proposes Intact, a web agent defense architecture that leverages browser origin and structural semantics through GenTree to isolate untrusted web elements and block visual prompt injection attacks during autonomous web browsing.
+  arxiv_id: '2610.22697'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.22697
+    code: https://github.com/llm-platform-security/intact
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{iqbal2026what,
+      title = {What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics},
+      author = {Umar Iqbal},
+      year = {2026},
+      eprint = {2610.22697},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.22697}
+    }
+- title: 'How GUI Agents Fail: GraceBench for Execution Stability Diagnosis'
+  link: https://arxiv.org/abs/2610.19900
+  authors:
+  - Ridong Zhang
+  - Shuxian Liang
+  - Chaoqun Wan
+  - Zhen Huang
+  - Xian-Sheng Hua
+  institutions:
+  - Tongji University
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - failure analysis
+  - GraceBench
+  - execution stability
+  - mobile agent
+  tldr: |-
+    Introduces GraceBench, an online evaluation benchmark that maps mobile apps as UI Transition Graphs (UTGs) to diagnose step-level execution stability, measuring deviation, loop burden, and recovery dynamics beyond binary task success.
+  arxiv_id: '2610.19900'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.19900
+    homepage: https://iaie-physicalai.github.io/GraceBench
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026how,
+      title = {How GUI Agents Fail: GraceBench for Execution Stability Diagnosis},
+      author = {Ridong Zhang and Shuxian Liang and Chaoqun Wan and Zhen Huang and Xian-Sheng Hua},
+      year = {2026},
+      eprint = {2610.19900},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.19900}
+    }
+- title: 'MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments'
+  link: https://arxiv.org/abs/2610.20939
+  authors:
+  - Panrong Tong
+  - Quyu Kong
+  - Pengxiang Li
+  - Tianyu Xia
+  - Hanzhang Zhou
+  - Lei Wang
+  - Chenglin Cai
+  - Long Li
+  - Long Chen
+  - Jianan Zhang
+  - Zhengwen Zeng
+  - Xu Zhang
+  - Gongjie Zhang
+  - Yue Wang
+  - Steven Hoi
+  institutions:
+  - Alibaba Group
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Mobile
+  keywords:
+  - platform
+  - reinforcement learning
+  - benchmark
+  - MAI-Gym
+  - OSWorld
+  tldr: |-
+    Presents MAI-Gym, an open platform unifying GUI agent evaluation, task synthesis, and online RL across mobile and computer environments, scaling to 20,000 parallel instances and training a 9B model that scores 78.4% on MobileWorld and 76.2% on OSWorld-Verified.
+  arxiv_id: '2610.20939'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.20939
+    code: https://github.com/Tongyi-MAI/MAI-Gym
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{tong2026maigym,
+      title = {MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments},
+      author = {Panrong Tong and Quyu Kong and Pengxiang Li and Tianyu Xia and Hanzhang Zhou and Lei Wang and Chenglin Cai and Long Li and Long Chen and Jianan Zhang and Zhengwen Zeng and Xu Zhang and Gongjie Zhang and Yue Wang and Steven Hoi},
+      year = {2026},
+      eprint = {2610.20939},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.20939}
+    }
+- title: 'MMA-SafetyBench: A Benchmark for Multimodal Agent Safety Evaluation'
+  link: https://arxiv.org/abs/2610.19384
+  authors:
+  - Yuke Wang
+  - Benlei Cui
+  - Shen Pang
+  - Xuemei Dong
+  - Longtao Huang
+  - Hui Xue
+  - Yuwen Zhai
+  - Junjie Li
+  - Jingqun Tang
+  - Haiwen Hong
+  institutions:
+  - Alibaba Group
+  - Zhejiang Gongshang University
+  - Jinshengyuliang AI
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - benchmark
+  - safety
+  - security
+  - prompt injection
+  - visual semantic hijacking
+  tldr: |-
+    Presents MMA-SafetyBench, a safety benchmark assessing Visual Semantic Hijacking in multimodal agents through 1,083 adversarial trajectories spanning web automation, desktop GUI, mobile navigation, and document tasks.
+  arxiv_id: '2610.19384'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.19384
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026mmasafetybench,
+      title = {MMA-SafetyBench: A Benchmark for Multimodal Agent Safety Evaluation},
+      author = {Yuke Wang and Benlei Cui and Shen Pang and Xuemei Dong and Longtao Huang and Hui Xue and Yuwen Zhai and Junjie Li and Jingqun Tang and Haiwen Hong},
+      year = {2026},
+      eprint = {2610.19384},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.19384}
+    }
+- title: 'STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents'
+  link: https://arxiv.org/abs/2610.20390
+  authors:
+  - Shuo Wang
+  - Sifan Zhou
+  - Xiaobo Wang
+  - Tianyu Fu
+  - Chenxu Zhao
+  - Anyang Su
+  - Hanning Wang
+  - Ping Jiang
+  - Minghui Wu
+  institutions:
+  - Southeast University
+  - Shenzhen University of Advanced Technology
+  - Mininglamp
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - efficiency
+  - token pruning
+  - web agent
+  - GUI grounding
+  - WebArena
+  tldr: |-
+    Presents STP-GUI, a spatially aware token pruning method that identifies task-critical web elements and discards redundant background visual tokens, reducing computational latency while preserving navigation accuracy on WebArena.
+  arxiv_id: '2610.20390'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.20390
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026stpgui,
+      title = {STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents},
+      author = {Shuo Wang and Sifan Zhou and Xiaobo Wang and Tianyu Fu and Chenxu Zhao and Anyang Su and Hanning Wang and Ping Jiang and Minghui Wu},
+      year = {2026},
+      eprint = {2610.20390},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.20390}
+    }
+- title: 'Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution'
+  link: https://arxiv.org/abs/2610.20100
+  authors:
+  - Wenkui Yang
+  - Yiming Hao
+  - Kai Zhou
+  - Chengyu Pu
+  - Yuzhe Zhang
+  - Jie Cao
+  - Jin Huang
+  - Shuai Ma
+  - Feng Tian
+  institutions:
+  - CAS
+  - UCAS
+  - PKU
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - framework
+  - TaskVM
+  - task-state governance
+  - recovery
+  - verification
+  tldr: |-
+    Proposes task-state governance and TaskVM, an interaction virtual machine that represents GUI agent tasks as editable contracts linking desired outcomes and application states, enabling verifiable execution and user-controlled error recovery.
+  arxiv_id: '2610.20100'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.20100
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026taskstate,
+      title = {Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution},
+      author = {Wenkui Yang and Yiming Hao and Kai Zhou and Chengyu Pu and Yuzhe Zhang and Jie Cao and Jin Huang and Shuai Ma and Feng Tian},
+      year = {2026},
+      eprint = {2610.20100},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.20100}
+    }
+- title: 'Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents'
+  link: https://arxiv.org/abs/2610.19834
+  authors:
+  - Md Farhan Ishmam
+  - Kenneth Marino
+  institutions:
+  - University of Utah
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - distillation
+  - framework
+  - web agent
+  - WebArena
+  - Mind2Web
+  tldr: |-
+    Proposes a blackbox distillation framework for web agents where student models generate candidate plans and a closed teacher model edits them into the student's formatting style, substantially improving performance on WebArena and Mind2Web without access to teacher logits.
+  arxiv_id: '2610.19834'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.19834
+    homepage: https://web-teach-kd.github.io/
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{ishmam2026teaching,
+      title = {Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents},
+      author = {Md Farhan Ishmam and Kenneth Marino},
+      year = {2026},
+      eprint = {2610.19834},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.19834}
+    }
+- title: Why Generate a Click? Plug-in Decision Heads for Web Agents
+  link: https://arxiv.org/abs/2610.20107
+  authors:
+  - Chengguang Gan
+  - Yunhao Liang
+  - Hanjun Wei
+  - Qinghao Zhang
+  - Zhixi Cai
+  - Shiwen Ni
+  institutions:
+  - UCAS
+  - Shenzhen University of Advanced Technology
+  - Monash University
+  - Pusan National University
+  date: '2026-10-14'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - framework
+  - model
+  - web agent
+  - decision head
+  - WebArena
+  tldr: |-
+    Analyzes token generation overhead in web agents and proposes replacing autoregressive action text generation with specialized plug-in classification and regression decision heads, speeding up inference and improving action accuracy on WebArena.
+  arxiv_id: '2610.20107'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.20107
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{gan2026why,
+      title = {Why Generate a Click? Plug-in Decision Heads for Web Agents},
+      author = {Chengguang Gan and Yunhao Liang and Hanjun Wei and Qinghao Zhang and Zhixi Cai and Shiwen Ni},
+      year = {2026},
+      eprint = {2610.20107},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.20107}
+    }
 - title: Adaptive-Group Process Rewards for GUI Agents
   link: https://arxiv.org/abs/2610.17710
   authors:
@@ -42,6 +718,46 @@
       eprint = {2610.17710},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.17710}
+    }
+- title: 'GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning'
+  link: https://arxiv.org/abs/2610.19100
+  authors:
+  - Qingsong Xie
+  - Jiahao Tian
+  - Jiacheng Tang
+  - Zhifeng Li
+  - Madalina Ciobanu
+  - Navan Preet Singh
+  - Qingqing Mao
+  - Ritankar Das
+  institutions:
+  - Prentis AI
+  - Westlake University
+  date: '2026-10-13'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - ScreenRef
+  - reinforcement learning
+  - distillation
+  - dataset
+  tldr: |-
+    Introduces ScreenRef, a high-quality multi-platform GUI referring expression dataset, and GroundGUI, an agent trained via distillation from large VLMs followed by reinforcement learning, achieving superior grounding accuracy across desktop, web, and mobile environments.
+  arxiv_id: '2610.19100'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.19100
+    code: https://github.com/PrentisAI/GroundGUI
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{xie2026groundgui,
+      title = {GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning},
+      author = {Qingsong Xie and Jiahao Tian and Jiacheng Tang and Zhifeng Li and Madalina Ciobanu and Navan Preet Singh and Qingqing Mao and Ritankar Das},
+      year = {2026},
+      eprint = {2610.19100},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.19100}
     }
 - title: Interaction-as-a-Judge
   link: https://arxiv.org/abs/2610.17895
@@ -429,6 +1145,40 @@
       eprint = {2610.16234},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.16234}
+    }
+- title: 'A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution'
+  link: https://arxiv.org/abs/2610.15765
+  authors:
+  - Alan Wu
+  - Wei Tao
+  - Yiwen Guo
+  institutions:
+  - Independent Researcher
+  - LIGHTSPEED
+  date: '2026-10-11'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - benchmark
+  - framework
+  - DeskIF-Bench
+  - ANIS
+  - desktop agent
+  tldr: |-
+    Investigates how software evolution impacts agent usability and introduces DeskIF-Bench across six desktop applications, along with ANIS, a framework synthesizing agent-native interfaces from installed software capabilities to enhance success rates and reduce token costs.
+  arxiv_id: '2610.15765'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.15765
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wu2026a,
+      title = {A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution},
+      author = {Alan Wu and Wei Tao and Yiwen Guo},
+      year = {2026},
+      eprint = {2610.15765},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.15765}
     }
 - title: 'The Agent Clicks Approve: Injected Page Text Makes Browser Agents Authorize Access the Task Never Named'
   link: https://arxiv.org/abs/2610.15138
@@ -25000,6 +25750,47 @@
       url = {https://arxiv.org/abs/2502.18525}
     }
   bibtex_confirmed: false
+- title: Towards Enterprise-Ready Computer Using Generalist Agent
+  link: https://arxiv.org/abs/2503.01861
+  authors:
+  - Sami Marreed
+  - Alon Oved
+  - Avi Yaeli
+  - Segev Shlomov
+  - Ido Levy
+  - Offer Akrabi
+  - Aviad Sela
+  - Asaf Adi
+  - Nir Mashkif
+  institutions:
+  - IBM Research
+  date: '2025-02-24'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - framework
+  - generalist agent
+  - enterprise
+  - WebArena
+  - CUGA
+  tldr: |-
+    Introduces CUGA (Computer Using Generalist Agent), an enterprise-ready generalist web agent developed by pairing agentic techniques with a systematic, iterative evaluation and analysis loop, achieving top performance on WebArena.
+  arxiv_id: '2503.01861'
+  sources:
+    arxiv: https://arxiv.org/abs/2503.01861
+    homepage: https://cuga.dev
+    code: https://github.com/cuga-project/cuga-agent
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{marreed2025towards,
+      title = {Towards Enterprise-Ready Computer Using Generalist Agent},
+      author = {Sami Marreed and Alon Oved and Avi Yaeli and Segev Shlomov and Ido Levy and Offer Akrabi and Aviad Sela and Asaf Adi and Nir Mashkif},
+      year = {2025},
+      eprint = {2503.01861},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2503.01861}
+    }
 - title: Evaluating the Robustness of Multimodal Agents Against Active Environmental Injection Attacks
   link: https://arxiv.org/abs/2502.13053
   authors:
