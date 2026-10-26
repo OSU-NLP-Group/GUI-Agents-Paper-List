@@ -153,6 +153,43 @@
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2603.10165}
     }
+- title: 'TabAgent: Distilling LLM Agent Components into Cheap Classifiers'
+  link: https://arxiv.org/abs/2602.16429
+  authors:
+  - Ido Levy
+  - Segev Shlomov
+  - Avi Yaeli
+  - Nir Mashkif
+  - Asaf Adi
+  - Yinon Goldstein
+  - Eilam Shapira
+  - Leshem Choshen
+  institutions:
+  - IBM Research
+  date: '2026-02-18'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - TabAgent
+  - classifier distillation
+  - tool shortlisting
+  - Mind2Web
+  tldr: |-
+    TabAgent replaces an LLM agent's repeated closed-set decisions, such as tool shortlisting, skill selection, routing and verification, with a small CatBoost classifier trained on features extracted from the agent's own successful execution traces. It is evaluated on seven agent benchmarks including AppWorld, tau2-bench, SkillsBench and Mind2Web, and on AppWorld tool shortlisting it recovers essentially all tools the GPT-5.4 shortlister used on successful runs (Recall@9) at about 1,000x lower latency and 100,000x lower cost per decision.
+  relation: Adjacent to GUI research (not part of the canonical direct-GUI main list)
+  arxiv_id: '2602.16429'
+  sources:
+    arxiv: https://arxiv.org/abs/2602.16429
+    code: https://github.com/dolev31/TabAgent
+  bibtex: |-
+    @misc{levy2026tabagent,
+      title = {TabAgent: Distilling LLM Agent Components into Cheap Classifiers},
+      author = {Ido Levy and Segev Shlomov and Avi Yaeli and Nir Mashkif and Asaf Adi and Yinon Goldstein and Eilam Shapira and Leshem Choshen},
+      year = {2026},
+      eprint = {2602.16429},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2602.16429}
+    }
 - title: 'Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward'
   link: https://arxiv.org/abs/2602.12430
   authors:
