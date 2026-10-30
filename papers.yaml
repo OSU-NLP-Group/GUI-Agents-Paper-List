@@ -2,6 +2,1263 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'AgentHeal: Evaluating Goal-Preserving Resource Recovery of Web Agents under Access Barriers'
+  link: https://arxiv.org/abs/2610.39234
+  authors:
+  - Zhiyi Liu
+  - Haohua Du
+  - Haoqi Sun
+  - Haisheng Tan
+  institutions:
+  - USTC
+  - Beihang University
+  - PKU
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - resource recovery
+  - web agent
+  - access barriers
+  - AgentHeal
+  tldr: |-
+    AgentHeal benchmarks web agent error recovery across realistic online access barriers (dead links, auth walls, rate limits), evaluating whether agents can preserve overall goals through alternative workflows.
+  arxiv_id: '2610.39234'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.39234
+    code: https://github.com/Lzzzzzzzzzzy/AgentHeal
+  bibtex: |-
+    @misc{liu2026agentheal,
+      title = {AgentHeal: Evaluating Goal-Preserving Resource Recovery of Web Agents under Access Barriers},
+      author = {Zhiyi Liu and Haohua Du and Haoqi Sun and Haisheng Tan},
+      year = {2026},
+      eprint = {2610.39234},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.39234}
+    }
+- title: 'InterA11y: Interactive Web Accessibility Error Detection with LLM Agents'
+  link: https://arxiv.org/abs/2610.39488
+  authors:
+  - Mingyuan Zhong
+  - Mengqi Shi
+  - Davin Win Kyi
+  - Ajit Mallavarapu
+  - Xia Chen
+  - James Fogarty
+  - Jacob O. Wobbrock
+  institutions:
+  - University of Washington
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web accessibility
+  - accessibility testing
+  - interactive tools
+  - web agent
+  - InterA11y
+  tldr: |-
+    InterA11y combines structured WCAG rubrics with deterministic interactive tools to enable LLM agents to detect accessibility issues across dynamic, interactive web states with high precision and recall.
+  arxiv_id: '2610.39488'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.39488
+  bibtex: |-
+    @misc{zhong2026intera11y,
+      title = {InterA11y: Interactive Web Accessibility Error Detection with LLM Agents},
+      author = {Mingyuan Zhong and Mengqi Shi and Davin Win Kyi and Ajit Mallavarapu and Xia Chen and James Fogarty and Jacob O. Wobbrock},
+      year = {2026},
+      eprint = {2610.39488},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.39488}
+    }
+- title: Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps
+  link: https://arxiv.org/abs/2610.39264
+  authors:
+  - Peitong Duan
+  - Khashayar Gatmiry
+  - Jeffrey Nichols
+  - Samy Bengio
+  - Emmanuel Abbe
+  institutions:
+  - Apple
+  - EPFL
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - reinforcement learning
+  - PPO
+  - dense reward
+  - iOS
+  - mobile agent
+  - UI navigation
+  tldr: |-
+    Trains decoupled planning and UI grounding agents via online PPO with dense step rewards and neighbor-conditioned value estimation across hundreds of concurrent live iOS devices, outperforming Gemini-3.5-Flash.
+  arxiv_id: '2610.39264'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.39264
+  bibtex: |-
+    @misc{duan2026online,
+      title = {Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps},
+      author = {Peitong Duan and Khashayar Gatmiry and Jeffrey Nichols and Samy Bengio and Emmanuel Abbe},
+      year = {2026},
+      eprint = {2610.39264},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.39264}
+    }
+- title: What Does "Now" Mean to Your Computer-Use Agent? Stale Screenshots, Page Loads, and Which Check to Run Before a Click
+  link: https://arxiv.org/abs/2610.39282
+  authors:
+  - Vasundra Srinivasan
+  institutions:
+  - Stanford
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - computer-use agents
+  - stale screenshots
+  - page loads
+  - preflight check
+  - latency
+  tldr: |-
+    Analyzes the risk of stale clicks due to asynchronous page loading in computer-use agents, demonstrating that preflight pixel checks eliminate misclicks with minimal latency overhead compared to full VLM re-planning.
+  arxiv_id: '2610.39282'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.39282
+    code: https://github.com/multimodal-ai-engineering/preflight-bench
+  bibtex: |-
+    @misc{srinivasan2026what,
+      title = {What Does "Now" Mean to Your Computer-Use Agent? Stale Screenshots, Page Loads, and Which Check to Run Before a Click},
+      author = {Vasundra Srinivasan},
+      year = {2026},
+      eprint = {2610.39282},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.39282}
+    }
+- title: 'Where to Learn and How Far to Roll Out: Efficient Adaptive Training for GUI Agents'
+  link: https://arxiv.org/abs/2610.39251
+  authors:
+  - Yuxiang Chai
+  - Quyu Kong
+  - Panrong Tong
+  - Steven Hoi
+  - Yue Wang
+  institutions:
+  - Alibaba
+  - CUHK
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - reinforcement learning
+  - GRPO
+  - adaptive rollout
+  - training efficiency
+  - GUI agent
+  tldr: |-
+    Introduces an adaptive two-stage training framework for multi-step GUI agents that selects informative intermediate checkpoints via action disagreement and optimizes rollouts to avoid redundant prefix re-execution.
+  arxiv_id: '2610.39251'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.39251
+  bibtex: |-
+    @misc{chai2026where,
+      title = {Where to Learn and How Far to Roll Out: Efficient Adaptive Training for GUI Agents},
+      author = {Yuxiang Chai and Quyu Kong and Panrong Tong and Steven Hoi and Yue Wang},
+      year = {2026},
+      eprint = {2610.39251},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.39251}
+    }
+- title: 'AdaGround: Token-Normalized Adaptive Zooming with Verifier-in-the-Loop Refinement for GUI Grounding'
+  link: https://arxiv.org/abs/2610.36874
+  authors:
+  - Zheyuan Liu
+  - Xinyu Chen
+  - Yongcheng Jing
+  - Chengyu Wang
+  - Jun Huang
+  - Dacheng Tao
+  institutions:
+  - NTU
+  - SJTU
+  - Alibaba
+  date: '2026-10-27'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - adaptive zooming
+  - verifier-in-the-loop
+  - AdaGround
+  tldr: |-
+    AdaGround addresses high-resolution screen grounding failures via token-normalized adaptive zooming and an interactive verifier-in-the-loop that re-evaluates ambiguous targets.
+  arxiv_id: '2610.36874'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.36874
+    code: https://github.com/Alibaba-NLP/AdaGround
+  bibtex: |-
+    @misc{liu2026adaground,
+      title = {AdaGround: Token-Normalized Adaptive Zooming with Verifier-in-the-Loop Refinement for GUI Grounding},
+      author = {Zheyuan Liu and Xinyu Chen and Yongcheng Jing and Chengyu Wang and Jun Huang and Dacheng Tao},
+      year = {2026},
+      eprint = {2610.36874},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.36874}
+    }
+- title: 'From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents'
+  link: https://arxiv.org/abs/2610.37482
+  authors:
+  - Ziyang Chen
+  - Qian Li
+  - Chengwei Qin
+  institutions:
+  - HKUST
+  - Shandong University
+  date: '2026-10-27'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - memory
+  - task advancement
+  - supervision
+  - GUI agent
+  - long-horizon tasks
+  tldr: |-
+    Introduces Task Advancement Memory (TAM), defining task progress states as dense supervision to help GUI agents retain valuable operation milestones and avoid cascading errors in cross-application workflows.
+  arxiv_id: '2610.37482'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.37482
+  bibtex: |-
+    @misc{chen2026from,
+      title = {From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents},
+      author = {Ziyang Chen and Qian Li and Chengwei Qin},
+      year = {2026},
+      eprint = {2610.37482},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.37482}
+    }
+- title: 'GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents'
+  link: https://arxiv.org/abs/2610.36877
+  authors:
+  - Bingchao Wang
+  - Yongcheng Jing
+  - Shunyu Liu
+  - Chengyu Wang
+  - Jun Huang
+  - Jie Yang
+  - Wei Liu
+  - Dacheng Tao
+  institutions:
+  - SJTU
+  - NTU
+  - Alibaba
+  date: '2026-10-27'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - action policy
+  - JEPA
+  - fast inference
+  - mobile agent
+  - GUI-JEPA
+  tldr: |-
+    GUI-JEPA replaces slow autoregressive token decoding with candidate-conditioned Joint-Embedding Predictive Architecture (JEPA) latents, speeding up mobile GUI action selection by up to 8x.
+  arxiv_id: '2610.36877'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.36877
+    code: https://github.com/bcwang-sjtu/GUI-JEPA
+  bibtex: |-
+    @misc{wang2026guijepa,
+      title = {GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents},
+      author = {Bingchao Wang and Yongcheng Jing and Shunyu Liu and Chengyu Wang and Jun Huang and Jie Yang and Wei Liu and Dacheng Tao},
+      year = {2026},
+      eprint = {2610.36877},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.36877}
+    }
+- title: 'Learning to Look Beyond Screens: Transferable Visual Observation from GUI Grounding'
+  link: https://arxiv.org/abs/2610.37093
+  authors:
+  - Ruilin Yao
+  - Xinyu Qiu
+  - Tianyu Zou
+  - Yi Rong
+  - Shengwu Xiong
+  - Shuheng Shen
+  - Changhua Meng
+  institutions:
+  - Wuhan University of Technology
+  - CAS
+  - ZJU
+  - Ant Group
+  date: '2026-10-27'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - visual observation
+  - active perception
+  - Look Beyond Screens
+  tldr: |-
+    LBS leverages GUI grounding trajectories as spatial supervision to train vision-language models for active visual perception and multi-turn crop-and-inspect exploration that transfers beyond screens to complex multimodal benchmarks.
+  arxiv_id: '2610.37093'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.37093
+    code: https://github.com/inclusionAI/UI-Venus/tree/LBS
+  bibtex: |-
+    @misc{yao2026learning,
+      title = {Learning to Look Beyond Screens: Transferable Visual Observation from GUI Grounding},
+      author = {Ruilin Yao and Xinyu Qiu and Tianyu Zou and Yi Rong and Shengwu Xiong and Shuheng Shen and Changhua Meng},
+      year = {2026},
+      eprint = {2610.37093},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.37093}
+    }
+- title: 'Right Click, Wrong Box: Grading GUI Grounding by What a Click Does'
+  link: https://arxiv.org/abs/2610.36831
+  authors:
+  - Boyuan Chen
+  - Zihan Wang
+  - Shengcheng Yu
+  - Zhenyu Chen
+  institutions:
+  - NJU
+  - NUS
+  - ZJU
+  date: '2026-10-27'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - evaluation metric
+  - click outcome
+  - ScreenSpot-v2
+  tldr: |-
+    Demonstrates that bounding-box overlap metrics misjudge GUI grounding performance, proposing an outcome-grounded grading metric that assesses whether a predicted click actually triggers the intended UI behavior.
+  arxiv_id: '2610.36831'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.36831
+  bibtex: |-
+    @misc{chen2026right,
+      title = {Right Click, Wrong Box: Grading GUI Grounding by What a Click Does},
+      author = {Boyuan Chen and Zihan Wang and Shengcheng Yu and Zhenyu Chen},
+      year = {2026},
+      eprint = {2610.36831},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.36831}
+    }
+- title: 'WebAnything: From the Wild Web to Scalable Agent Environments'
+  link: https://arxiv.org/abs/2610.37786
+  authors:
+  - Tianci Xie
+  - Zikun Cai
+  - Chaoyun Zhang
+  - Pinxue Guo
+  - Bingxuan Li
+  - Rui Zheng
+  - Hang Yan
+  institutions:
+  - ZJU
+  - NTU
+  - Shanghai Qiji Zhifeng
+  date: '2026-10-27'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - environment reconstruction
+  - web agent
+  - automated synthesis
+  - WebAnything
+  tldr: |-
+    WebAnything automatically reconstructs source-grounded, executable, and resettable web environments directly from live URLs via an Explorer-Builder loop and independent verification without per-site engineering.
+  arxiv_id: '2610.37786'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.37786
+  bibtex: |-
+    @misc{xie2026webanything,
+      title = {WebAnything: From the Wild Web to Scalable Agent Environments},
+      author = {Tianci Xie and Zikun Cai and Chaoyun Zhang and Pinxue Guo and Bingxuan Li and Rui Zheng and Hang Yan},
+      year = {2026},
+      eprint = {2610.37786},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.37786}
+    }
+- title: 'Back to Basics: A Skill-Centric Approach to Generalist Web Agents'
+  link: https://arxiv.org/abs/2610.35823
+  authors:
+  - Md Shariful Islam
+  - Hasan Mahmud
+  - Md Rizwan Parvez
+  institutions:
+  - University of Utah
+  - Islamic University of Technology
+  date: '2026-10-26'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - skill library
+  - web agent
+  - WebArena
+  - WorkArena
+  - generalist agent
+  tldr: |-
+    Proposes a skill-centric modular architecture that decomposes web navigation into atomic visual and programmatic skills, achieving strong generalization across WebArena and WorkArena benchmarks.
+  arxiv_id: '2610.35823'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.35823
+  bibtex: |-
+    @misc{islam2026back,
+      title = {Back to Basics: A Skill-Centric Approach to Generalist Web Agents},
+      author = {Md Shariful Islam and Hasan Mahmud and Md Rizwan Parvez},
+      year = {2026},
+      eprint = {2610.35823},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.35823}
+    }
+- title: 'Chart the Invisible: Interactive Perception for Hidden-Target Exploration in GUI Agents'
+  link: https://arxiv.org/abs/2610.35237
+  authors:
+  - Yongxiang Hu
+  - Ruiyang Liu
+  - Qining He
+  - Xuan Wang
+  - Yangfan Zhou
+  institutions:
+  - Fudan
+  date: '2026-10-26'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - scrollable perception
+  - swipe planning
+  - hidden-target exploration
+  - mobile agent
+  - Hagasu
+  tldr: |-
+    Presents Hagasu, a multimodal model for scrollable-region perception that helps mobile GUI agents detect hidden elements and execute targeted swipe exploration, boosting task completion from 64.8% to 82.7%.
+  arxiv_id: '2610.35237'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.35237
+  bibtex: |-
+    @misc{hu2026chart,
+      title = {Chart the Invisible: Interactive Perception for Hidden-Target Exploration in GUI Agents},
+      author = {Yongxiang Hu and Ruiyang Liu and Qining He and Xuan Wang and Yangfan Zhou},
+      year = {2026},
+      eprint = {2610.35237},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.35237}
+    }
+- title: 'GUIFlow: Temporal Redundancy-Aware Incremental Inference for GUI Agents'
+  link: https://arxiv.org/abs/2610.34959
+  authors:
+  - Zhengxi Lu
+  - Tianhao Shen
+  - Yongchao Chen
+  - Hao Wang
+  - Keqing He
+  - Guangtao Zeng
+  institutions:
+  - Tsinghua
+  - HKU
+  - Meituan
+  date: '2026-10-26'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - efficiency
+  - incremental inference
+  - temporal redundancy
+  - KV cache
+  - GUIFlow
+  tldr: |-
+    GUIFlow exploits temporal redundancy across successive GUI screenshots, using localized bounding-box delta encoding and token reuse to accelerate multi-step VLM inference by over 2.5x without accuracy loss.
+  arxiv_id: '2610.34959'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.34959
+  bibtex: |-
+    @misc{lu2026guiflow,
+      title = {GUIFlow: Temporal Redundancy-Aware Incremental Inference for GUI Agents},
+      author = {Zhengxi Lu and Tianhao Shen and Yongchao Chen and Hao Wang and Keqing He and Guangtao Zeng},
+      year = {2026},
+      eprint = {2610.34959},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.34959}
+    }
+- title: 'SkillLifeBench: Benchmarking Security Across the Lifecycle of Agent Skills'
+  link: https://arxiv.org/abs/2610.35215
+  authors:
+  - Zeyu Zhang
+  - Hao Dong
+  - Xiang Gao
+  - Bozhen Fan
+  - Bolei Zhou
+  institutions:
+  - PKU
+  - UCL
+  date: '2026-10-26'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - security
+  - skill lifecycle
+  - web agent
+  - SkillLifeBench
+  tldr: |-
+    SkillLifeBench benchmarks security across the lifecycle of agent skills in web environments, assessing vulnerability to malicious skill reconfiguration, execution divergence, and provenance spoofing across 388 scenarios.
+  arxiv_id: '2610.35215'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.35215
+  bibtex: |-
+    @misc{zhang2026skilllifebench,
+      title = {SkillLifeBench: Benchmarking Security Across the Lifecycle of Agent Skills},
+      author = {Zeyu Zhang and Hao Dong and Xiang Gao and Bozhen Fan and Bolei Zhou},
+      year = {2026},
+      eprint = {2610.35215},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.35215}
+    }
+- title: 'iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents'
+  link: https://arxiv.org/abs/2610.34735
+  authors:
+  - Yuting Ning
+  - Ruijia Cheng
+  - Sushobhan Ghosh
+  - Peitong Duan
+  - HungShi Lin
+  - Abhishek Sundararajan
+  - Shreyash Pandey
+  - Huan Sun
+  - Jeffrey Nichols
+  - Eldon Schoop
+  institutions:
+  - OSU
+  - Apple
+  date: '2026-10-26'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - personalized agent
+  - iOS
+  - mobile agent
+  - clarification
+  - iPrefBench
+  tldr: |-
+    iPrefBench evaluates infer-and-ask capabilities of personalized mobile agents in an executable iOS environment across 26 apps and 130 underspecified tasks, revealing that current frontier models struggle with ask-only requirements.
+  arxiv_id: '2610.34735'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.34735
+  bibtex: |-
+    @misc{ning2026iprefbench,
+      title = {iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents},
+      author = {Yuting Ning and Ruijia Cheng and Sushobhan Ghosh and Peitong Duan and HungShi Lin and Abhishek Sundararajan and Shreyash Pandey and Huan Sun and Jeffrey Nichols and Eldon Schoop},
+      year = {2026},
+      eprint = {2610.34735},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.34735}
+    }
+- title: 'AgentProofBench: Benchmarking Reusable Verifiers for Web Agents'
+  link: https://arxiv.org/abs/2610.34634
+  authors:
+  - Jingjie Ning
+  - Xueqi Li
+  - Yi Lu
+  - Yibo Kong
+  institutions:
+  - CMU
+  date: '2026-10-25'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - verifier
+  - web agent
+  - acceptance check
+  - AgentProofBench
+  tldr: |-
+    AgentProofBench benchmarks reusable verifiers for web agents, evaluating whether programmatic acceptance checks can verify variable business states without suffering from state leakage or false acceptance.
+  arxiv_id: '2610.34634'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.34634
+  bibtex: |-
+    @misc{ning2026agentproofbench,
+      title = {AgentProofBench: Benchmarking Reusable Verifiers for Web Agents},
+      author = {Jingjie Ning and Xueqi Li and Yi Lu and Yibo Kong},
+      year = {2026},
+      eprint = {2610.34634},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.34634}
+    }
+- title: 'AndroidFlux: Evaluating Failure Recovery and Recovery Action Reward Modeling in Mobile-Use Multimodal Agents'
+  link: https://arxiv.org/abs/2610.34384
+  authors:
+  - Gyubeum Lim
+  - Yemo Koo
+  - Guhnwoo Jang
+  - Zsolt Kira
+  institutions:
+  - Georgia Tech
+  - Konkuk University
+  date: '2026-10-25'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - benchmark
+  - mobile agent
+  - failure recovery
+  - reward model
+  - AndroidWorld
+  - AndroidFlux
+  tldr: |-
+    AndroidFlux benchmarks failure recovery across 247 Android tasks and trains a recovery action reward model that significantly enhances mobile agent resilience on AndroidWorld.
+  arxiv_id: '2610.34384'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.34384
+  bibtex: |-
+    @misc{lim2026androidflux,
+      title = {AndroidFlux: Evaluating Failure Recovery and Recovery Action Reward Modeling in Mobile-Use Multimodal Agents},
+      author = {Gyubeum Lim and Yemo Koo and Guhnwoo Jang and Zsolt Kira},
+      year = {2026},
+      eprint = {2610.34384},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.34384}
+    }
+- title: Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing
+  link: https://arxiv.org/abs/2610.33636
+  authors:
+  - Arsham Gholamzadeh Khoee
+  - Ruyu Fu
+  - Jiaqi Wei
+  - Ruikun Deng
+  - Robert Feldt
+  - Dhasarathy Parthasarathy
+  - Yinan Yu
+  institutions:
+  - Chalmers University of Technology
+  - Volvo Group
+  date: '2026-10-24'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - automotive GUI
+  - GUI testing
+  - agent harness
+  - empirical study
+  tldr: |-
+    Empirically compares a custom production agent harness against general-purpose agent harnesses for Android-based automotive in-vehicle infotainment (IVI) GUI testing at Volvo Group.
+  arxiv_id: '2610.33636'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.33636
+  bibtex: |-
+    @misc{khoee2026build,
+      title = {Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing},
+      author = {Arsham Gholamzadeh Khoee and Ruyu Fu and Jiaqi Wei and Ruikun Deng and Robert Feldt and Dhasarathy Parthasarathy and Yinan Yu},
+      year = {2026},
+      eprint = {2610.33636},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.33636}
+    }
+- title: 'OS-Wizard: Scaling Computer-Using Agents to Specialized Software via Knowledge-Guided Exploration'
+  link: https://arxiv.org/abs/2610.33907
+  authors:
+  - Zhiwen Fan
+  - Rui Wang
+  - Xinyi Shang
+  - Xiaohan Zhao
+  - Zhiqiang Shen
+  - Hao Zhang
+  - Tianfan Xue
+  - Yu Qiao
+  institutions:
+  - Fudan
+  - Shanghai AI Laboratory
+  - HKU
+  - ECNU
+  - USTC
+  - SJTU
+  - NJU
+  - NUS
+  date: '2026-10-24'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - desktop agent
+  - trajectory collection
+  - specialized software
+  - hybrid action space
+  - OS-Wizard
+  tldr: |-
+    OS-Wizard combines tutorial-guided exploration with a hybrid GUI-Code action space to automate high-quality trajectory collection for specialized desktop software like CAD and GIS tools.
+  arxiv_id: '2610.33907'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.33907
+  bibtex: |-
+    @misc{fan2026oswizard,
+      title = {OS-Wizard: Scaling Computer-Using Agents to Specialized Software via Knowledge-Guided Exploration},
+      author = {Zhiwen Fan and Rui Wang and Xinyi Shang and Xiaohan Zhao and Zhiqiang Shen and Hao Zhang and Tianfan Xue and Yu Qiao},
+      year = {2026},
+      eprint = {2610.33907},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.33907}
+    }
+- title: 'PreView: Enhancing GUI Grounding with Preprocessed Views and Cues'
+  link: https://arxiv.org/abs/2610.33645
+  authors:
+  - Wenjun Hou
+  - Kaishuai Xu
+  institutions:
+  - Independent Researcher
+  date: '2026-10-24'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - preprocessor
+  - visual cues
+  - PreView
+  tldr: |-
+    PreView is an auxiliary preprocessor that improves inputs to frozen grounding models via localized visual crops and contextual cues, boosting grounding accuracy on small and dense controls without retraining.
+  arxiv_id: '2610.33645'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.33645
+  bibtex: |-
+    @misc{hou2026preview,
+      title = {PreView: Enhancing GUI Grounding with Preprocessed Views and Cues},
+      author = {Wenjun Hou and Kaishuai Xu},
+      year = {2026},
+      eprint = {2610.33645},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.33645}
+    }
+- title: 'Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory'
+  link: https://arxiv.org/abs/2610.33702
+  authors:
+  - Fengxin Li
+  institutions:
+  - Harbin Institute of Technology
+  date: '2026-10-24'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - candidate grounding
+  - visual options
+  - Multimodal-Mind2Web
+  - order invariance
+  - Iris
+  tldr: |-
+    Introduces Iris, an architecture for typed decisions over visual candidates (e.g. element screenshot crops on Multimodal-Mind2Web) that guarantees candidate order-invariance and cuts latency up to 191x via reusable option memory.
+  arxiv_id: '2610.33702'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.33702
+  bibtex: |-
+    @misc{li2026seeing,
+      title = {Seeing the Options: Typed Decisions over Visual Candidates with Reusable Option Memory},
+      author = {Fengxin Li},
+      year = {2026},
+      eprint = {2610.33702},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.33702}
+    }
+- title: 'SkillShift-Bench: Benchmarking Skill Learning under Environment Evolution for Web Agents'
+  link: https://arxiv.org/abs/2610.33528
+  authors:
+  - Guanqi Yang
+  - Zihan Wang
+  - Shengcheng Yu
+  - Zhenyu Chen
+  institutions:
+  - NJU
+  date: '2026-10-24'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - skill learning
+  - environment evolution
+  - web agent
+  - SkillShift-Bench
+  tldr: |-
+    SkillShift-Bench evaluates whether learned web agent skills remain effective as websites undergo interface redesigns, DOM restructuring, and workflow changes over time.
+  arxiv_id: '2610.33528'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.33528
+    code: https://github.com/SkillShift-Bench/SkillShift-Bench
+  bibtex: |-
+    @misc{yang2026skillshiftbench,
+      title = {SkillShift-Bench: Benchmarking Skill Learning under Environment Evolution for Web Agents},
+      author = {Guanqi Yang and Zihan Wang and Shengcheng Yu and Zhenyu Chen},
+      year = {2026},
+      eprint = {2610.33528},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.33528}
+    }
+- title: 'Correct Answers, Closed Gates: SolveBind for GUI Agents at the Verification Barrier'
+  link: https://arxiv.org/abs/2610.32223
+  authors:
+  - Xinhao Song
+  - Haoxuan Peng
+  - Su Su
+  - Hongliang Wu
+  - Sirui Song
+  - Gongshen Liu
+  - Linfeng Zhang
+  - Dongrui Liu
+  institutions:
+  - SJTU
+  - University of Sydney
+  - Shandong University
+  date: '2026-10-23'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - verification barrier
+  - CAPTCHA
+  - human-like trajectory
+  - SolveBind
+  tldr: |-
+    SolveBind bridges solver reasoning with behavioral verification in protected GUI environments, generating human-like interaction trajectories to satisfy anti-automation defense mechanisms.
+  arxiv_id: '2610.32223'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.32223
+  bibtex: |-
+    @misc{song2026correct,
+      title = {Correct Answers, Closed Gates: SolveBind for GUI Agents at the Verification Barrier},
+      author = {Xinhao Song and Haoxuan Peng and Su Su and Hongliang Wu and Sirui Song and Gongshen Liu and Linfeng Zhang and Dongrui Liu},
+      year = {2026},
+      eprint = {2610.32223},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.32223}
+    }
+- title: 'IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints'
+  link: https://arxiv.org/abs/2610.32536
+  authors:
+  - Kyeongseon Kim
+  - Jiyeon Son
+  - Tae-Hyun Oh
+  institutions:
+  - KAIST
+  - POSTECH
+  date: '2026-10-23'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - benchmark
+  - GUI grounding
+  - visibility constraints
+  - interactive grounding
+  - IGG
+  tldr: |-
+    IGG benchmarks interactive GUI grounding under partial visibility, requiring agents to actively explore, scroll, and reveal non-visible controls rather than assuming all elements are on screen.
+  arxiv_id: '2610.32536'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.32536
+  bibtex: |-
+    @misc{kim2026igg,
+      title = {IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints},
+      author = {Kyeongseon Kim and Jiyeon Son and Tae-Hyun Oh},
+      year = {2026},
+      eprint = {2610.32536},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.32536}
+    }
+- title: Diagnosing Personalization Failures in Mobile GUI Agents
+  link: https://arxiv.org/abs/2610.30573
+  authors:
+  - Zhixin Lin
+  - Dongliang Xu
+  - Jungang Li
+  - Shidong Pan
+  - Jun Feng
+  - Yanbin Sun
+  - Jing Li
+  - Liang Liu
+  - Yue Yao
+  institutions:
+  - Shandong University
+  - VIVO AI Lab
+  - HKUST
+  - CAS
+  - Guangzhou University
+  - UTS
+  date: '2026-10-22'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - personalized agent
+  - mobile GUI
+  - failure diagnosis
+  - user preferences
+  tldr: |-
+    Analyzes how and when user preferences should alter execution in personalized mobile GUI agents, categorizing personalization failure modes and proposing structured preference mediation.
+  arxiv_id: '2610.30573'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.30573
+  bibtex: |-
+    @misc{lin2026diagnosing,
+      title = {Diagnosing Personalization Failures in Mobile GUI Agents},
+      author = {Zhixin Lin and Dongliang Xu and Jungang Li and Shidong Pan and Jun Feng and Yanbin Sun and Jing Li and Liang Liu and Yue Yao},
+      year = {2026},
+      eprint = {2610.30573},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.30573}
+    }
+- title: 'Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents'
+  link: https://arxiv.org/abs/2610.31107
+  authors:
+  - Yiqi Wang
+  - Zizhi Zeng
+  - Jiaqi Zhang
+  - Yiqun Duan
+  - Mingkai Zheng
+  - Taotao Cai
+  institutions:
+  - Independent Researcher
+  date: '2026-10-22'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - personalized agent
+  - active preference acquisition
+  - web agent
+  - clarification
+  tldr: |-
+    Studies active preference acquisition for web agents serving the same user across repeated tasks, formulating prospective personalization value to decide which missing preferences are worth asking about.
+  arxiv_id: '2610.31107'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.31107
+  bibtex: |-
+    @misc{wang2026learning,
+      title = {Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents},
+      author = {Yiqi Wang and Zizhi Zeng and Jiaqi Zhang and Yiqun Duan and Mingkai Zheng and Taotao Cai},
+      year = {2026},
+      eprint = {2610.31107},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.31107}
+    }
+- title: 'PointerBench: A Diagnostic Benchmark for Fine-Grained GUI Grounding'
+  link: https://arxiv.org/abs/2610.31274
+  authors:
+  - Valentino Sacco
+  - Saurabh Pandey
+  - Alexander Florian Jercher
+  - Maximilian Schilling
+  institutions:
+  - Sapienza University of Rome
+  - Warmwind AG
+  date: '2026-10-22'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - benchmark
+  - GUI grounding
+  - fine-grained grounding
+  - PointerBench
+  tldr: |-
+    PointerBench is a diagnostic benchmark of 1,500 pairs probing thin sub-element identification in spreadsheets, character-level text grounding, and complex controls across 100 professional desktop applications.
+  arxiv_id: '2610.31274'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.31274
+  bibtex: |-
+    @misc{sacco2026pointerbench,
+      title = {PointerBench: A Diagnostic Benchmark for Fine-Grained GUI Grounding},
+      author = {Valentino Sacco and Saurabh Pandey and Alexander Florian Jercher and Maximilian Schilling},
+      year = {2026},
+      eprint = {2610.31274},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.31274}
+    }
+- title: 'Reuse, Rewrite, or Reject: Evidence-Constrained Trace Reuse for Repeated Mobile GUI Control'
+  link: https://arxiv.org/abs/2610.31712
+  authors:
+  - Bingyu Bai
+  - Cheng Zhang
+  - Erhu Feng
+  institutions:
+  - SJTU
+  date: '2026-10-22'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - trace reuse
+  - mobile GUI
+  - execution efficiency
+  - state validation
+  tldr: |-
+    Presents an evidence-constrained trace reuse framework that validates past mobile GUI execution steps against current context, reusing valid transitions, rewriting invalidated ones, and rejecting infeasible steps.
+  arxiv_id: '2610.31712'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.31712
+  bibtex: |-
+    @misc{bai2026reuse,
+      title = {Reuse, Rewrite, or Reject: Evidence-Constrained Trace Reuse for Repeated Mobile GUI Control},
+      author = {Bingyu Bai and Cheng Zhang and Erhu Feng},
+      year = {2026},
+      eprint = {2610.31712},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.31712}
+    }
+- title: Subgoal-aware Memory Graph for GUI Agent
+  link: https://arxiv.org/abs/2610.31307
+  authors:
+  - Dezhao Luo
+  - Daniel Beechey
+  - Derek Yuen
+  - Weilin Luo
+  institutions:
+  - Huawei Noah's Ark Lab
+  date: '2026-10-22'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - memory graph
+  - subgoal decomposition
+  - GUI agent
+  - trajectory distillation
+  tldr: |-
+    Proposes a subgoal-aware memory graph that distills past trajectories into structured, reusable evidence at the subgoal level to guide mobile GUI agents through complex, long-horizon tasks.
+  arxiv_id: '2610.31307'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.31307
+  bibtex: |-
+    @misc{luo2026subgoalaware,
+      title = {Subgoal-aware Memory Graph for GUI Agent},
+      author = {Dezhao Luo and Daniel Beechey and Derek Yuen and Weilin Luo},
+      year = {2026},
+      eprint = {2610.31307},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.31307}
+    }
+- title: 'Trace2World: Reconstructing App Worlds from Real Interaction Traces for Scalable GUI Agent Training'
+  link: https://arxiv.org/abs/2610.30792
+  authors:
+  - Zezhou Wang
+  - Hanzhang Zhou
+  - Panrong Tong
+  - Quyu Kong
+  - Pengxiang Li
+  - Steven Hoi
+  - Zhuzhong Qian
+  - Yue Wang
+  institutions:
+  - NJU
+  - Alibaba
+  - Beijing Institute of Technology
+  date: '2026-10-22'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - world model
+  - environment reconstruction
+  - interaction traces
+  - GUI agent training
+  - Trace2World
+  tldr: |-
+    Trace2World reconstructs source-linked executable mock environments from real interaction traces for scalable GUI agent reinforcement learning without manual implementation.
+  arxiv_id: '2610.30792'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.30792
+  bibtex: |-
+    @misc{wang2026trace2world,
+      title = {Trace2World: Reconstructing App Worlds from Real Interaction Traces for Scalable GUI Agent Training},
+      author = {Zezhou Wang and Hanzhang Zhou and Panrong Tong and Quyu Kong and Pengxiang Li and Steven Hoi and Zhuzhong Qian and Yue Wang},
+      year = {2026},
+      eprint = {2610.30792},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.30792}
+    }
+- title: Who Verifies the Agent's Success Claim? Self-Report Leakage in GUI-Agent Completion Judging
+  link: https://arxiv.org/abs/2610.29609
+  authors:
+  - Yunfeng Zhu
+  - Shengcheng Yu
+  - Zihan Li
+  - Zhenyu Chen
+  institutions:
+  - NJU
+  - TUM
+  - Nanjing Normal University
+  date: '2026-10-21'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - evaluation
+  - completion judging
+  - self-report leakage
+  - GUI agent verification
+  tldr: |-
+    Investigates dangerous misreports where GUI agents falsely report success, identifying self-report leakage in completion judging and proposing independent verification to safeguard automation pipelines.
+  arxiv_id: '2610.29609'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.29609
+  bibtex: |-
+    @misc{zhu2026who,
+      title = {Who Verifies the Agent's Success Claim? Self-Report Leakage in GUI-Agent Completion Judging},
+      author = {Yunfeng Zhu and Shengcheng Yu and Zihan Li and Zhenyu Chen},
+      year = {2026},
+      eprint = {2610.29609},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.29609}
+    }
+- title: 'CUA-Recovery: Benchmarking Error Recovery in Long-Horizon Computer-Use Agents'
+  link: https://arxiv.org/abs/2610.27645
+  authors:
+  - Xu Hu
+  - Haoming Li
+  - Yuxiang Wang
+  - Jinxin Yang
+  - Kangshuo Li
+  - Licheng Wang
+  - Dingyi Kang
+  - Jiayu Song
+  - Tianhao Wang
+  - Zhanhua Hu
+  - Xu Yang
+  - Qiannan Li
+  - Bingzhe Li
+  - Feng Chen
+  institutions:
+  - UT Dallas
+  - University of Manchester
+  - Rice University
+  - UT Austin
+  - UC Davis
+  date: '2026-10-20'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - benchmark
+  - error recovery
+  - computer-use agents
+  - long-horizon tasks
+  - CUA-Recovery
+  tldr: |-
+    CUA-Recovery benchmarks error awareness and recovery across desktop workflows using 2,250 verified error states and 8.6K synthesized training trajectories, showing substantial recovery gains after fine-tuning.
+  arxiv_id: '2610.27645'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.27645
+    code: https://github.com/xu-hu-2002/CUA-Recovery
+  bibtex: |-
+    @misc{hu2026cuarecovery,
+      title = {CUA-Recovery: Benchmarking Error Recovery in Long-Horizon Computer-Use Agents},
+      author = {Xu Hu and Haoming Li and Yuxiang Wang and Jinxin Yang and Kangshuo Li and Licheng Wang and Dingyi Kang and Jiayu Song and Tianhao Wang and Zhanhua Hu and Xu Yang and Qiannan Li and Bingzhe Li and Feng Chen},
+      year = {2026},
+      eprint = {2610.27645},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.27645}
+    }
+- title: Evolving Agent Interfaces
+  link: https://arxiv.org/abs/2610.28601
+  authors:
+  - Saaket Agashe
+  - Yuzhe Yang
+  - Gonzalo Gonzalez-Pumariega
+  - Bhuvan Chandra Koduru
+  - Chih-Lun Li
+  - Jiachen Yang
+  - Ang Li
+  - Xin Eric Wang
+  institutions:
+  - UCSB
+  - Cornell
+  - CMU
+  - Simular
+  date: '2026-10-20'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - interface design
+  - evolving interfaces
+  - OSWorld
+  - Agent S4
+  - meta-agent
+  tldr: |-
+    Introduces Agent S4, an autonomous computer-use scientist that iteratively evolves agent interfaces and usage knowledge from experience, achieving state-of-the-art open-source performance (21.3%) on OSWorld V2.
+  arxiv_id: '2610.28601'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.28601
+    code: https://github.com/simular-ai/agent-s
+  bibtex: |-
+    @misc{agashe2026evolving,
+      title = {Evolving Agent Interfaces},
+      author = {Saaket Agashe and Yuzhe Yang and Gonzalo Gonzalez-Pumariega and Bhuvan Chandra Koduru and Chih-Lun Li and Jiachen Yang and Ang Li and Xin Eric Wang},
+      year = {2026},
+      eprint = {2610.28601},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.28601}
+    }
+- title: 'Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay'
+  link: https://arxiv.org/abs/2610.27954
+  authors:
+  - Byeonghun Bang
+  - Sangwoo Park
+  - Jinheon Baek
+  - Kangsan Kim
+  - Youngwan Lee
+  - Sung Ju Hwang
+  institutions:
+  - KAIST
+  - ETRI
+  - DeepAuto.ai
+  date: '2026-10-20'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - error recovery
+  - computer-use agents
+  - action replay
+  - ReTrace
+  tldr: |-
+    ReTrace evaluates computer-use agent recovery through goal-oriented action replay under controlled error injection, operationalizing transition-consistent recovery to analyze autonomous error mitigation.
+  arxiv_id: '2610.27954'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.27954
+  bibtex: |-
+    @misc{bang2026lost,
+      title = {Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay},
+      author = {Byeonghun Bang and Sangwoo Park and Jinheon Baek and Kangsan Kim and Youngwan Lee and Sung Ju Hwang},
+      year = {2026},
+      eprint = {2610.27954},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.27954}
+    }
 - title: 'Agent World Model in the Wild: Computer-Use Agent Environment Synthesis'
   link: https://arxiv.org/abs/2610.26828
   authors:
@@ -166,6 +1423,44 @@
       eprint = {2610.26203},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.26203}
+    }
+- title: 'LoWAgent: A Low-Resource Multilingual Benchmark for Web Agents'
+  link: https://arxiv.org/abs/2610.27205
+  authors:
+  - Ocean Monjur
+  - Daud Ahmad Nisar
+  - Shahriar Kabir Nahin
+  - Tadesse Destaw Belay
+  - Sushruti Mishra
+  - Israel Abebe Azime
+  - Anshuman Chhabra
+  institutions:
+  - University of South Florida
+  - Instituto Politécnico Nacional
+  - Saarland University
+  date: '2026-10-19'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - multilingual
+  - low-resource languages
+  - web agent
+  - LoWAgent
+  tldr: |-
+    LoWAgent evaluates web agents across English and four low-resource languages (Hindi, Bengali, Urdu, Amharic) across six localized websites with 3,000 task instances and interface disruptions.
+  arxiv_id: '2610.27205'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.27205
+  bibtex: |-
+    @misc{monjur2026lowagent,
+      title = {LoWAgent: A Low-Resource Multilingual Benchmark for Web Agents},
+      author = {Ocean Monjur and Daud Ahmad Nisar and Shahriar Kabir Nahin and Tadesse Destaw Belay and Sushruti Mishra and Israel Abebe Azime and Anshuman Chhabra},
+      year = {2026},
+      eprint = {2610.27205},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.27205}
     }
 - title: 'ScopeMem: Latent Memory That Learns Where to Revise Frozen GUI Agents'
   link: https://arxiv.org/abs/2610.26503
@@ -14855,6 +16150,51 @@
       url = {https://arxiv.org/abs/2602.09662}
     }
   bibtex_confirmed: false
+- title: 'Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense'
+  link: https://arxiv.org/abs/2602.09012
+  authors:
+  - Jiacheng Liu
+  - Yaxin Luo
+  - Jiacheng Cui
+  - Xinyi Shang
+  - Xiaohan Zhao
+  - Zhiqiang Shen
+  institutions:
+  - MBZUAI
+  - UCL
+  date: '2026-02-09'
+  publisher: ICML 2026
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - CAPTCHA
+  - human-agent comparison
+  - security
+  tldr: |-
+    Next-Gen CAPTCHAs introduces an interactive defense and benchmark to distinguish human users from web GUI agents by exploiting cognitive gaps across 27 CAPTCHA families with unbounded procedural generation.
+  arxiv_id: '2602.09012'
+  sources:
+    arxiv: https://arxiv.org/abs/2602.09012
+    publisher_page: https://proceedings.mlr.press/v306/liu26cr.html
+    homepage: https://jiachengliu12345.github.io/NextGen-CAPTCHAs_webpage/
+    code: https://github.com/MetaAgentX/NextGen-CAPTCHAs
+  bibtex: |-
+    @InProceedings{pmlr-v306-liu26cr,
+      title = {Next-Gen {CAPTCHA}s: Leveraging the Cognitive Gap for Scalable and Diverse {GUI}-Agent Defense},
+      author = {Liu, Jiacheng and Luo, Yaxin and Cui, Jiacheng and Shang, Xinyi and Zhao, Xiaohan and Shen, Zhiqiang},
+      booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+      pages = {77683--77700},
+      year = {2026},
+      editor = {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},
+      volume = {306},
+      series = {Proceedings of Machine Learning Research},
+      month = {06--11 Jul},
+      publisher = {PMLR},
+      pdf = {https://raw.githubusercontent.com/mlresearch/v306/main/assets/liu26cr/liu26cr.pdf},
+      url = {https://proceedings.mlr.press/v306/liu26cr.html}
+    }
+  bibtex_confirmed: true
 - title: 'When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents'
   link: https://arxiv.org/abs/2602.08995
   authors:

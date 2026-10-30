@@ -1,5 +1,124 @@
 # adjacent.yaml — non-canonical entries useful as supporting context.
 
+- title: 'AgentVQA: A Unified Benchmark for Agentic Visual Understanding'
+  link: https://arxiv.org/abs/2610.31494
+  authors:
+  - Ziyan Jiang
+  - Manoj K. Ramanathan
+  - Zheng Chen
+  - Yilun Du
+  - Soheil Feizi
+  institutions:
+  - UMD
+  - Princeton
+  date: '2026-10-22'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - benchmark
+  - visual QA
+  - UI understanding
+  - temporal tracking
+  - AgentVQA
+  tldr: |-
+    AgentVQA is a diagnostic visual benchmark probing visual understanding capabilities required by agents, including UI element localization, temporal motion tracking, and state change interpretation across 2,400 questions.
+  relation: Adjacent to GUI research (agentic visual QA benchmark isolating visual sub-capabilities across GUI and physical
+    tasks)
+  arxiv_id: '2610.31494'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.31494
+  bibtex: |-
+    @misc{jiang2026agentvqa,
+      title = {AgentVQA: A Unified Benchmark for Agentic Visual Understanding},
+      author = {Ziyan Jiang and Manoj K. Ramanathan and Zheng Chen and Yilun Du and Soheil Feizi},
+      year = {2026},
+      eprint = {2610.31494},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.31494}
+    }
+- title: 'Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use'
+  link: https://arxiv.org/abs/2610.30108
+  authors:
+  - Yanzhe Chen
+  - Ziyi Yang
+  - Jifeng Zhu
+  - Qiming Huang
+  - Ruihe An
+  - Peiyao Xu
+  - Hesen Yang
+  - Runda Liu
+  - Chang Gong
+  - Zhijun Cao
+  - Zechen Bai
+  - Wenzheng Zeng
+  - Yiqi Lin
+  - Guoqiang Liang
+  - Kevin Yuchen Ma
+  - Kevin Qinghong Lin
+  - Mike Zheng Shou
+  institutions:
+  - NUS
+  date: '2026-10-21'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - survey
+  - embodied agents
+  - computer-use agents
+  - robotics
+  - PAPAV
+  tldr: |-
+    Presents PAPAV, a capability-centric framework unifying multimodal computer-use agents and robotic systems across perception, anticipation, planning, action, and verification across 64 benchmarks.
+  relation: Adjacent to GUI research (survey and framework bridging computer-use agents with robotics)
+  arxiv_id: '2610.30108'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.30108
+    homepage: https://showlab.github.io/Awesome-Multimodal-Embodied-Agent
+  bibtex: |-
+    @misc{chen2026multimodal,
+      title = {Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use},
+      author = {Yanzhe Chen and Ziyi Yang and Jifeng Zhu and Qiming Huang and Ruihe An and Peiyao Xu and Hesen Yang and Runda Liu and Chang Gong and Zhijun Cao and Zechen Bai and Wenzheng Zeng and Yiqi Lin and Guoqiang Liang and Kevin Yuchen Ma and Kevin Qinghong Lin and Mike Zheng Shou},
+      year = {2026},
+      eprint = {2610.30108},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.30108}
+    }
+- title: Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model
+  link: https://arxiv.org/abs/2610.29139
+  authors:
+  - Jiongxiao Wang
+  - Han Ding
+  - Youzhi Luo
+  - Yawei Wang
+  - Yun Zhou
+  - Linbo Liu
+  - Panpan Xu
+  institutions:
+  - UW-Madison
+  - Amazon
+  date: '2026-10-21'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - world model
+  - pitfall anticipation
+  - black-box agent
+  - WebArena-Lite
+  tldr: |-
+    Introduces Pitfall Anticipation World Model (PAWM), which selectively intervenes to predict impending failures within a bounded future horizon, improving Claude Sonnet 4.5 performance on WebArena-Lite and ScienceWorld.
+  relation: Adjacent to GUI research (evaluates general world model on WebArena-Lite, not direct GUI policy)
+  arxiv_id: '2610.29139'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.29139
+  bibtex: |-
+    @misc{wang2026steering,
+      title = {Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model},
+      author = {Jiongxiao Wang and Han Ding and Youzhi Luo and Yawei Wang and Yun Zhou and Linbo Liu and Panpan Xu},
+      year = {2026},
+      eprint = {2610.29139},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.29139}
+    }
 - title: 'Seed1.8 Model Card: Towards Generalized Real-World Agency'
   link: https://arxiv.org/abs/2603.20633
   authors:
