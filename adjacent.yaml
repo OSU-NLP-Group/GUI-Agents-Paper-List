@@ -1,5 +1,277 @@
 # adjacent.yaml — non-canonical entries useful as supporting context.
 
+- title: 'FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions'
+  link: https://arxiv.org/abs/2611.04579
+  authors:
+  - Bo Zhang
+  - Pengbo Zhang
+  - Jiaxin Jiao
+  - Yue Liu
+  institutions:
+  - Alibaba Group
+  date: '2026-11-03'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - mobile agent
+  - agent harness
+  - composable plugins
+  - Android
+  - FreeForm Harness
+  tldr: |-
+    FreeForm Harness provides a mobile-native substrate for open, composable agent extensions on Android, enforcing architectural boundaries and supporting on-device commissioned authoring to fulfill everyday personalized requests.
+  relation: Adjacent to mobile GUI agent research (mobile-native harness and plugin composition substrate for Android agents)
+  arxiv_id: '2611.04579'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.04579
+  bibtex: |-
+    @misc{zhang2026freeform,
+      title = {FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions},
+      author = {Bo Zhang and Pengbo Zhang and Jiaxin Jiao and Yue Liu},
+      year = {2026},
+      eprint = {2611.04579},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.04579}
+    }
+- title: 'ViBench 2.0: A Benchmark for Long-Horizon Software Building'
+  link: https://arxiv.org/abs/2611.05620
+  authors:
+  - Daniel Furman
+  - Preeya Kirani
+  - Ibrahim Sheikh
+  - Zhen Li
+  - Peter Zhong
+  - Michele Catasta
+  institutions:
+  - Replit
+  date: '2026-11-03'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - software building
+  - benchmark
+  - browser agent testing
+  - long-horizon tasks
+  - ViBench
+  tldr: |-
+    ViBench 2.0 evaluates AI agents on building 17 full-stack web applications over 241 sequential feature requests, employing autonomous browser agents to execute 544 test plans and verify complete end-to-end functionality.
+  relation: Adjacent to GUI agent research (software building benchmark evaluated via autonomous browser agent test suites)
+  arxiv_id: '2611.05620'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.05620
+  bibtex: |-
+    @misc{furman2026vibench,
+      title = {ViBench 2.0: A Benchmark for Long-Horizon Software Building},
+      author = {Daniel Furman and Preeya Kirani and Ibrahim Sheikh and Zhen Li and Peter Zhong and Michele Catasta},
+      year = {2026},
+      eprint = {2611.05620},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.05620}
+    }
+- title: 'CoworkOS: Scaling Agent Coworkers for Real-world Automation'
+  link: https://arxiv.org/abs/2611.03178
+  authors:
+  - Jiajie Jin
+  - Guanting Dong
+  - Chengjun Pan
+  - Xin Deng
+  - Zhuohui Sheng
+  - Guoqiang Wang
+  - Tao Gui
+  - Yutao Zhu
+  - Yujia Chen
+  - Shihong Yi
+  - Binze Hu
+  - Zhixiong Yang
+  - Zhichao Sun
+  - Rui Wang
+  - Han Han
+  - Mingyu Ma
+  - Junhao Huang
+  - Xiaotao Wang
+  - Huicheng Jiang
+  - Yuyang Hu
+  - Xinyu Yang
+  - Wanghan Xu
+  - Yajie Yang
+  - Zhecan Wang
+  - Honglin Guo
+  - Xiaoyu Xing
+  - Xiaoqian Zhang
+  - Yulun Zhu
+  - Xiaoxi Li
+  - Jiahang Lin
+  - Shaofan Liu
+  - Shihan Dou
+  - Zhiheng Xi
+  - Qi Zhang
+  - Yu-Gang Jiang
+  - See-Kiong Ng
+  - Yang Zhang
+  - Tat-Seng Chua
+  - Ji-Rong Wen
+  - Zhicheng Dou
+  institutions:
+  - Renmin University of China
+  - Fudan
+  - NUS
+  date: '2026-11-02'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - cowork agents
+  - long-horizon automation
+  - shared workspace
+  - human-agent collaboration
+  - CoworkOS
+  tldr: |-
+    CoworkOS is a general-purpose harness for long-horizon cowork automation that decouples task planning from execution management, maintaining persistent workspaces across shared documents, CAD designs, and web environments.
+  relation: Adjacent to GUI agent research (general-purpose cowork agent harness coordinating long-horizon multi-application
+    automation)
+  arxiv_id: '2611.03178'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.03178
+    homepage: https://coworkos-ai.github.io
+    code: https://github.com/RUC-NLPIR/CoworkOS
+  bibtex: |-
+    @misc{jin2026coworkos,
+      title = {CoworkOS: Scaling Agent Coworkers for Real-world Automation},
+      author = {Jiajie Jin and Guanting Dong and Chengjun Pan and Xin Deng and Zhuohui Sheng and Guoqiang Wang and Tao Gui and Yutao Zhu and Yujia Chen and Shihong Yi and Binze Hu and Zhixiong Yang and Zhichao Sun and Rui Wang and Han Han and Mingyu Ma and Junhao Huang and Xiaotao Wang and Huicheng Jiang and Yuyang Hu and Xinyu Yang and Wanghan Xu and Yajie Yang and Zhecan Wang and Honglin Guo and Xiaoyu Xing and Xiaoqian Zhang and Yulun Zhu and Xiaoxi Li and Jiahang Lin and Shaofan Liu and Shihan Dou and Zhiheng Xi and Qi Zhang and Yu-Gang Jiang and See-Kiong Ng and Yang Zhang and Tat-Seng Chua and Ji-Rong Wen and Zhicheng Dou},
+      year = {2026},
+      eprint = {2611.03178},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.03178}
+    }
+- title: What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory
+  link: https://arxiv.org/abs/2611.03930
+  authors:
+  - Chih-Hsuan Yang
+  - Anjir Ahmed Chowdhury
+  - Feng Yan
+  - Rajeev Thakur
+  institutions:
+  - Argonne National Laboratory
+  date: '2026-11-02'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - agent memory
+  - task utility
+  - web agent memory
+  - LongMemEval
+  - evaluation
+  tldr: |-
+    Proposes a task-conditioned utility framework for long-term agent memory evaluated on web-agent interaction traces, measuring the resource costs and empirical utility retained by different memory compression and retrieval mechanisms.
+  relation: Adjacent to web agent research (measuring task-conditioned utility and compression efficiency of web-agent interaction
+    memory)
+  arxiv_id: '2611.03930'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.03930
+  bibtex: |-
+    @misc{yang2026what,
+      title = {What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory},
+      author = {Chih-Hsuan Yang and Anjir Ahmed Chowdhury and Feng Yan and Rajeev Thakur},
+      year = {2026},
+      eprint = {2611.03930},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.03930}
+    }
+- title: 'LADS: Lease-Aware Delivery Scheduling of Tool Results for Language Model Agents'
+  link: https://arxiv.org/abs/2611.00881
+  authors:
+  - Yuxuan Hou
+  - Linshan Jiang
+  institutions:
+  - Southern University of Science and Technology
+  date: '2026-10-31'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - serving infrastructure
+  - tool delivery scheduling
+  - web agents
+  - KV cache reuse
+  - LADS
+  tldr: |-
+    Presents Lease-Aware Delivery Scheduling (LADS) for serving LLM agents with bursty tool and browser returns, optimizing observation handoffs and KV cache lease protection to reduce complete-workflow latency by over 40%.
+  relation: Adjacent to web agent research (inference serving and tool delivery scheduling for interactive web agents)
+  arxiv_id: '2611.00881'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.00881
+  bibtex: |-
+    @misc{hou2026lads,
+      title = {LADS: Lease-Aware Delivery Scheduling of Tool Results for Language Model Agents},
+      author = {Yuxuan Hou and Linshan Jiang},
+      year = {2026},
+      eprint = {2611.00881},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.00881}
+    }
+- title: 'AgentShield: Fortifying Web Applications Against AI Agents and Agentic Browsers'
+  link: https://arxiv.org/abs/2610.41181
+  authors:
+  - Moiz Ali
+  - Nafis Karim
+  - Rownak Islam
+  - Jyotirmay Chauhan
+  - Dhruv Kuchhal
+  - Jason Polakis
+  institutions:
+  - University of Illinois Chicago
+  - Amazon
+  date: '2026-10-30'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - anti-bot defenses
+  - agentic browsers
+  - web application security
+  - AgentShield
+  tldr: |-
+    Empirically evaluates existing commercial anti-bot defenses against modern LLM-driven browser agents across diverse tasks, revealing widespread defensive blindspots and proposing server-side hardening techniques against autonomous web agents.
+  relation: Adjacent to web agent research (evaluates anti-bot defenses and countermeasures against autonomous browser agents)
+  arxiv_id: '2610.41181'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.41181
+  bibtex: |-
+    @misc{ali2026agentshield,
+      title = {AgentShield: Fortifying Web Applications Against AI Agents and Agentic Browsers},
+      author = {Moiz Ali and Nafis Karim and Rownak Islam and Jyotirmay Chauhan and Dhruv Kuchhal and Jason Polakis},
+      year = {2026},
+      eprint = {2610.41181},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.41181}
+    }
+- title: Cross-Interface Authorization for AI Computer-Use Agents
+  link: https://arxiv.org/abs/2610.41397
+  authors:
+  - Genliang Zhu
+  - Chu Wang
+  institutions:
+  - Accentrust
+  date: '2026-10-30'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - computer-use agents
+  - authorization protocol
+  - cross-interface security
+  - access control
+  tldr: |-
+    Develops a profile-bounded authorization protocol for computer-use agents operating across heterogeneous interfaces (GUI, CLI, APIs, MCP), ensuring interface-invariant policy decisions and preventing alternate-route bypass attacks.
+  relation: Adjacent to computer-use agent research (formal cross-interface authorization and policy enforcement for CUAs)
+  arxiv_id: '2610.41397'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.41397
+  bibtex: |-
+    @misc{zhu2026crossinterface,
+      title = {Cross-Interface Authorization for AI Computer-Use Agents},
+      author = {Genliang Zhu and Chu Wang},
+      year = {2026},
+      eprint = {2610.41397},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.41397}
+    }
 - title: 'AgentVQA: A Unified Benchmark for Agentic Visual Understanding'
   link: https://arxiv.org/abs/2610.31494
   authors:

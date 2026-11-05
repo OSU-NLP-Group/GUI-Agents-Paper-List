@@ -2,6 +2,803 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Can LLM Agents Learn to Test? Maintaining Scoped Experience as Testing Evidence for Mobile GUI Testing
+  link: https://arxiv.org/abs/2611.05873
+  authors:
+  - Zimu Liu
+  - Xiaoxi Guo
+  - Xiaolu Tang
+  - Liang Yu
+  institutions:
+  - Ant Group
+  date: '2026-11-04'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI testing
+  - experience reuse
+  - scoped experience
+  - Android GUI
+  - LLM agents
+  tldr: |-
+    Presents a scoped experience retention mechanism for mobile GUI testing agents, selectively caching valid locators and recovery routines while pruning context that does not generalize across app revisions to improve automated test coverage.
+  arxiv_id: '2611.05873'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.05873
+  bibtex: |-
+    @misc{liu2026can,
+      title = {Can LLM Agents Learn to Test? Maintaining Scoped Experience as Testing Evidence for Mobile GUI Testing},
+      author = {Zimu Liu and Xiaoxi Guo and Xiaolu Tang and Liang Yu},
+      year = {2026},
+      eprint = {2611.05873},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.05873}
+    }
+- title: 'MKD2World: A Typed Spatial MarkDown World Model For Web Agents'
+  link: https://arxiv.org/abs/2611.06544
+  authors:
+  - Zhihao Nan
+  - Sifan Zhou
+  - Yiming Cheng
+  - Jinkai Zheng
+  - Zheng Zhu
+  - Si Shi
+  - Ming Li
+  - Fei Yu
+  institutions:
+  - Guangming Laboratory
+  - Shenzhen University
+  - Southeast University
+  - Tsinghua
+  - Hangzhou Dianzi University
+  - CUHK-Shenzhen
+  date: '2026-11-04'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - world model
+  - spatial markdown
+  - foresight planning
+  - MKD2World
+  tldr: |-
+    MKD2World introduces Typed Spatial MarkDown as a structured world model representation for web agents, encoding layout topology and UI semantics to accurately predict post-action interface states for look-ahead agent planning.
+  arxiv_id: '2611.06544'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.06544
+    code: https://github.com/OmniAI-Lab-CUHKSZ/MKD2World
+  bibtex: |-
+    @misc{nan2026mkd2world,
+      title = {MKD2World: A Typed Spatial MarkDown World Model For Web Agents},
+      author = {Zhihao Nan and Sifan Zhou and Yiming Cheng and Jinkai Zheng and Zheng Zhu and Si Shi and Ming Li and Fei Yu},
+      year = {2026},
+      eprint = {2611.06544},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.06544}
+    }
+- title: Securing Web Agents with the Compile-Then-Execute Paradigm
+  link: https://arxiv.org/abs/2611.06039
+  authors:
+  - Annabella Chow
+  - Jinhao Zhu
+  - Sylvie Venuto
+  - Abdulaziz Alharbi
+  - Basel Alomair
+  - Raluca Popa
+  - David Wagner
+  - Julien Piet
+  institutions:
+  - UC Berkeley
+  - KACST
+  date: '2026-11-04'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - prompt injection defense
+  - compile-then-execute
+  - browser agent security
+  - Baya
+  tldr: |-
+    Introduces Baya, a compile-then-execute architecture that compiles high-level web agent workflows into static plans before browsing, isolating control flow from untrusted webpage observations to eliminate indirect prompt injection vulnerabilities.
+  arxiv_id: '2611.06039'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.06039
+  bibtex: |-
+    @misc{chow2026securing,
+      title = {Securing Web Agents with the Compile-Then-Execute Paradigm},
+      author = {Annabella Chow and Jinhao Zhu and Sylvie Venuto and Abdulaziz Alharbi and Basel Alomair and Raluca Popa and David Wagner and Julien Piet},
+      year = {2026},
+      eprint = {2611.06039},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.06039}
+    }
+- title: 'Visual Token Routing: Learning to keep tokens that matter'
+  link: https://arxiv.org/abs/2611.06854
+  authors:
+  - Pranjal Aggarwal
+  - Sean Welleck
+  institutions:
+  - CMU
+  date: '2026-11-04'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - visual token routing
+  - efficiency
+  - OSWorld
+  - CUA-World
+  - VTR
+  tldr: |-
+    Visual Token Routing (VTR) trains a lightweight router to dynamically select informative visual tokens from screenshots, matching full-resolution performance on OSWorld and CUA-World with 2.5-5.8x fewer tokens and 3.3x lower inference costs.
+  arxiv_id: '2611.06854'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.06854
+    homepage: https://pranjal2041.github.io/vtr
+  bibtex: |-
+    @misc{aggarwal2026visual,
+      title = {Visual Token Routing: Learning to keep tokens that matter},
+      author = {Pranjal Aggarwal and Sean Welleck},
+      year = {2026},
+      eprint = {2611.06854},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.06854}
+    }
+- title: 'JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks'
+  link: https://arxiv.org/abs/2611.05263
+  authors:
+  - Shanka Subhra Mondal
+  - Jiayun Wang
+  institutions:
+  - Accenture
+  date: '2026-11-03'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - hierarchical multi-agent
+  - reinforcement learning
+  - long-horizon tasks
+  - VisualWebArena
+  - JHiMA-WebRL
+  tldr: |-
+    JHiMA-WebRL coordinates high-level planning and low-level action execution through joint hierarchical multi-agent reinforcement learning, optimizing policy collaboration to substantially boost success rates on complex VisualWebArena workflows.
+  arxiv_id: '2611.05263'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.05263
+  bibtex: |-
+    @misc{mondal2026jhimawebrl,
+      title = {JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks},
+      author = {Shanka Subhra Mondal and Jiayun Wang},
+      year = {2026},
+      eprint = {2611.05263},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.05263}
+    }
+- title: 'ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud'
+  link: https://arxiv.org/abs/2611.04879
+  authors:
+  - Yutao Wu
+  - Xiao Liu
+  - Ming Wen
+  - Hanxun Huang
+  - Jun Wang
+  - Xingjun Ma
+  institutions:
+  - Deakin University
+  - Fudan
+  - The University of Melbourne
+  - Amazon
+  - Shanghai Innovation Institute
+  date: '2026-11-03'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - online fraud
+  - adversarial web
+  - safety benchmark
+  - ScamWorld
+  tldr: |-
+    ScamWorld is an interactive testbed reconstructing documented online fraud schemes (fake stores, investment scams), revealing that frontier web agents fall for deception in 11% to 35% of tasks by proceeding with unauthorized payments and credential entry.
+  arxiv_id: '2611.04879'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.04879
+    code: https://github.com/wuyoscar/scamworld-bench
+  bibtex: |-
+    @misc{wu2026scamworld,
+      title = {ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud},
+      author = {Yutao Wu and Xiao Liu and Ming Wen and Hanxun Huang and Jun Wang and Xingjun Ma},
+      year = {2026},
+      eprint = {2611.04879},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.04879}
+    }
+- title: 'CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements'
+  link: https://arxiv.org/abs/2611.03126
+  authors:
+  - Xinlei Yu
+  - Gen Li
+  - Ji Zhao
+  - Zhangquan Chen
+  - Congcong Wang
+  - Shuai Dong
+  - Zelin Peng
+  - Yuqi Xu
+  - Hongrui Wu
+  - Kaiwen Tuo
+  - Cheng Yang
+  - Kaituo Feng
+  - Yifan Wu
+  - Jiayi Zhang
+  - Dongming Wu
+  - Wenqi Shao
+  - Jiaqi Wang
+  - Xiangyu Yue
+  institutions:
+  - CUHK
+  - Tsinghua
+  - HKUST(GZ)
+  - JD
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - computer-use agents
+  - recursive self-improvement
+  - open-world scaling
+  - OSWorld
+  - CUA-Master
+  tldr: |-
+    CUA-Master scales computer-use agents through open-world recursive improvement, iteratively discovering novel software tasks, generating validated self-training demonstrations, and refining GUI grounding policies across diverse desktop workflows.
+  arxiv_id: '2611.03126'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.03126
+  bibtex: |-
+    @misc{yu2026cuamaster,
+      title = {CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements},
+      author = {Xinlei Yu and Gen Li and Ji Zhao and Zhangquan Chen and Congcong Wang and Shuai Dong and Zelin Peng and Yuqi Xu and Hongrui Wu and Kaiwen Tuo and Cheng Yang and Kaituo Feng and Yifan Wu and Jiayi Zhang and Dongming Wu and Wenqi Shao and Jiaqi Wang and Xiangyu Yue},
+      year = {2026},
+      eprint = {2611.03126},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.03126}
+    }
+- title: 'Coati: Host-Grounded Execution for Installable Mobile GUI Agents'
+  link: https://arxiv.org/abs/2611.02644
+  authors:
+  - Yudou Ying
+  - Pu Shi
+  - Hanlei Shi
+  - Yuhua Zheng
+  institutions:
+  - University of Chinese Academy of Sciences
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI agent
+  - on-device execution
+  - Android accessibility
+  - host grounding
+  - Coati
+  tldr: |-
+    Coati provides host-grounded execution for installable mobile GUI agents running directly on Android devices without requiring external host computers or ADB connections, enforcing strict security and interaction isolation.
+  arxiv_id: '2611.02644'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.02644
+  bibtex: |-
+    @misc{ying2026coati,
+      title = {Coati: Host-Grounded Execution for Installable Mobile GUI Agents},
+      author = {Yudou Ying and Pu Shi and Hanlei Shi and Yuhua Zheng},
+      year = {2026},
+      eprint = {2611.02644},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.02644}
+    }
+- title: Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials
+  link: https://arxiv.org/abs/2611.04073
+  authors:
+  - Anh Nguyen
+  - Tianyi Xu
+  - Phat Tran
+  - Harry Yu
+  - Huazheng Wang
+  - Stefan Lee
+  institutions:
+  - Oregon State University
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - world models
+  - tutorials
+  - look-ahead planning
+  - OSWorld
+  tldr: |-
+    Investigates the role of world models in computer-use agents, finding that look-ahead simulation provides marginal gains when agents are supplied with task tutorials, and that tutorial grounding alone drives the majority of performance improvements on OSWorld.
+  arxiv_id: '2611.04073'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.04073
+    code: https://github.com/realjoenguyen/RAGPJ-official
+  bibtex: |-
+    @misc{nguyen2026computeruse,
+      title = {Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials},
+      author = {Anh Nguyen and Tianyi Xu and Phat Tran and Harry Yu and Huazheng Wang and Stefan Lee},
+      year = {2026},
+      eprint = {2611.04073},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.04073}
+    }
+- title: 'From Local Skills to Long-Horizon Web Tasks: Progressive Skill Exploration for LLM Web Agents'
+  link: https://arxiv.org/abs/2611.03116
+  authors:
+  - Xueyang Feng
+  - Xiaohe Bo
+  - Xu Chen
+  - Quanyu Dai
+  - Feng Wen
+  institutions:
+  - Renmin University of China
+  - Huawei Technologies
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - skill exploration
+  - reinforcement learning
+  - long-horizon planning
+  - WebArena
+  tldr: |-
+    Proposes a progressive skill exploration framework that bootstraps web agents by acquiring localized atomic navigation skills before composing them into long-horizon trajectories, boosting task completion on WebArena and Mind2Web.
+  arxiv_id: '2611.03116'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.03116
+  bibtex: |-
+    @misc{feng2026from,
+      title = {From Local Skills to Long-Horizon Web Tasks: Progressive Skill Exploration for LLM Web Agents},
+      author = {Xueyang Feng and Xiaohe Bo and Xu Chen and Quanyu Dai and Feng Wen},
+      year = {2026},
+      eprint = {2611.03116},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.03116}
+    }
+- title: 'MAGAR: Multimodal Agents for GUI-Based 3D Mechanical Assembly and Minimal Rework'
+  link: https://arxiv.org/abs/2611.02472
+  authors:
+  - Jingxuan Wei
+  - Jiahao Fu
+  - Fuqiang Wang
+  - Xiaoming Wu
+  - Yuwen Liu
+  - Kaiwen Wei
+  - Ming Yang
+  - Junnan Zhu
+  institutions:
+  - University of Chinese Academy of Sciences
+  - Qilu University of Technology
+  - China University of Petroleum
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - GUI agent
+  - CAD automation
+  - 3D mechanical assembly
+  - minimal rework
+  - MAGAR
+  tldr: |-
+    MAGAR deploys multimodal GUI agents to operate complex 3D CAD modeling software for mechanical assembly, incorporating geometric constraint verification and backtrack planning to minimize rework during automated CAD modeling.
+  arxiv_id: '2611.02472'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.02472
+  bibtex: |-
+    @misc{wei2026magar,
+      title = {MAGAR: Multimodal Agents for GUI-Based 3D Mechanical Assembly and Minimal Rework},
+      author = {Jingxuan Wei and Jiahao Fu and Fuqiang Wang and Xiaoming Wu and Yuwen Liu and Kaiwen Wei and Ming Yang and Junnan Zhu},
+      year = {2026},
+      eprint = {2611.02472},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.02472}
+    }
+- title: 'ScienceCUA: Resource-to-Skill Construction and Execution-Guided Skill Evolution for Scientific Computer Use Agents'
+  link: https://arxiv.org/abs/2611.03238
+  authors:
+  - Daiqiang Li
+  - Jingyi Peng
+  - Rui Hu
+  - Jia Li
+  - Xuyang Liu
+  - Guanren Qiao
+  - Yujia Xiang
+  - Qiuzhuang Sun
+  - Zhiping Xu
+  - Mingrui Luo
+  institutions:
+  - DeepAutonomy Technology
+  - PKU
+  - Tsinghua
+  - PolyU
+  - Singapore Management University
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - scientific software
+  - skill evolution
+  - ScienceBoard
+  - ScienceCUA
+  tldr: |-
+    ScienceCUA transforms software documentation into executable operational skills and queryable references for scientific computer use agents, using execution feedback on ScienceBoard benchmarks to evolve skills and boost task success by up to 17.1%.
+  arxiv_id: '2611.03238'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.03238
+  bibtex: |-
+    @misc{li2026sciencecua,
+      title = {ScienceCUA: Resource-to-Skill Construction and Execution-Guided Skill Evolution for Scientific Computer Use Agents},
+      author = {Daiqiang Li and Jingyi Peng and Rui Hu and Jia Li and Xuyang Liu and Guanren Qiao and Yujia Xiang and Qiuzhuang Sun and Zhiping Xu and Mingrui Luo},
+      year = {2026},
+      eprint = {2611.03238},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.03238}
+    }
+- title: 'WebHarbor: Docking Real Websites for Evolving GUI Agent Environments'
+  link: https://arxiv.org/abs/2611.03634
+  authors:
+  - Zhaoyang Wang
+  - Qianhui Wu
+  - Boyu Gou
+  - Demi Wang
+  - Jiacheng Zhang
+  - Peichun Hua
+  - Qize Li
+  - Shi Qiu
+  - Yifan Jiang
+  - Yifan Zhang
+  - Zexu Jin
+  - Baolin Peng
+  - Bolin Shen
+  - Chetan Bansal
+  - Dehan Kong
+  - Deren Lei
+  - Dongshen Peng
+  - Fengqing Jiang
+  - Hao Cheng
+  - Haoqing Wang
+  - Jiaming Shan
+  - Jicheng Wang
+  - Jingguang Zhou
+  - Jixuan He
+  - Kaide Zeng
+  - Kangyu Zhu
+  - Lama Moukheiber
+  - Mufan Qiu
+  - Peng Xia
+  - Qihan Sun
+  - Qingwei Lin
+  - Qiushi Sun
+  - Ruichen Zhang
+  - Shuqing Luo
+  - Si Qin
+  - Sicheng Fan
+  - Tao Xiong
+  - Wenlin Yao
+  - Xinyu Zhang
+  - Xinyue Zeng
+  - Xuanrui Li
+  - Xuchao Zhang
+  - Yian Wang
+  - Yichao Liu
+  - Yiming Liang
+  - Yiyang Zhou
+  - Yizhu Jiao
+  - Yuetai Li
+  - Yurun Chen
+  - Yuxuan Zhang
+  - Zheyuan Yang
+  - Zhiyuan Yao
+  - Zhongyang Li
+  - Zihao Li
+  - Zili Wang
+  - Jianfeng Gao
+  - Huaxiu Yao
+  institutions:
+  - UNC
+  - MSR
+  - UIUC
+  - PKU
+  - Tsinghua
+  date: '2026-11-02'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - environment suite
+  - dockerized websites
+  - reinforcement learning
+  - WebHarbor
+  tldr: |-
+    WebHarbor provides 153 executable and dockerized website environments with 3,518 tasks covering complex post-authentication workflows, supporting deterministic evaluation and scalable reinforcement learning for multimodal GUI web agents.
+  arxiv_id: '2611.03634'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.03634
+    code: https://github.com/aiming-lab/WebHarbor
+  bibtex: |-
+    @misc{wang2026webharbor,
+      title = {WebHarbor: Docking Real Websites for Evolving GUI Agent Environments},
+      author = {Zhaoyang Wang and Qianhui Wu and Boyu Gou and Demi Wang and Jiacheng Zhang and Peichun Hua and Qize Li and Shi Qiu and Yifan Jiang and Yifan Zhang and Zexu Jin and Baolin Peng and Bolin Shen and Chetan Bansal and Dehan Kong and Deren Lei and Dongshen Peng and Fengqing Jiang and Hao Cheng and Haoqing Wang and Jiaming Shan and Jicheng Wang and Jingguang Zhou and Jixuan He and Kaide Zeng and Kangyu Zhu and Lama Moukheiber and Mufan Qiu and Peng Xia and Qihan Sun and Qingwei Lin and Qiushi Sun and Ruichen Zhang and Shuqing Luo and Si Qin and Sicheng Fan and Tao Xiong and Wenlin Yao and Xinyu Zhang and Xinyue Zeng and Xuanrui Li and Xuchao Zhang and Yian Wang and Yichao Liu and Yiming Liang and Yiyang Zhou and Yizhu Jiao and Yuetai Li and Yurun Chen and Yuxuan Zhang and Zheyuan Yang and Zhiyuan Yao and Zhongyang Li and Zihao Li and Zili Wang and Jianfeng Gao and Huaxiu Yao},
+      year = {2026},
+      eprint = {2611.03634},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.03634}
+    }
+- title: 'Interface Quilt: Modifying Applications with Computer Use Agents and Generative UI'
+  link: https://arxiv.org/abs/2611.01891
+  authors:
+  - Leping Qiu
+  - Jo Vermeulen
+  - Tim Zindulka
+  - George Fitzmaurice
+  - Fraser Anderson
+  institutions:
+  - Autodesk Research
+  date: '2026-11-01'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - generative UI
+  - application modification
+  - desktop automation
+  - Interface Quilt
+  tldr: |-
+    Interface Quilt pairs computer-use agents with generative UI to augment closed-source desktop applications without APIs, synthesizing custom overlays and automating underlying GUI operations directly through vision and action execution.
+  arxiv_id: '2611.01891'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.01891
+  bibtex: |-
+    @misc{qiu2026interface,
+      title = {Interface Quilt: Modifying Applications with Computer Use Agents and Generative UI},
+      author = {Leping Qiu and Jo Vermeulen and Tim Zindulka and George Fitzmaurice and Fraser Anderson},
+      year = {2026},
+      eprint = {2611.01891},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.01891}
+    }
+- title: 'NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale'
+  link: https://arxiv.org/abs/2611.02102
+  authors:
+  - Chaoyun Zhang
+  - Bingxuan Li
+  - Pinxue Guo
+  - Yangfan Gao
+  - Zikun Cai
+  - Tianci Xie
+  - Hui Li
+  - Yuqi Huang
+  - Yifei Cao
+  - Bo Mao
+  - Tian Tang
+  - Qichang Zheng
+  - Tongtong Liu
+  - Xiaoxing Wang
+  - Jinxiu Liu
+  - Lizhi Lin
+  - Zhou Shao
+  - Maosen Zhou
+  - Miao Zheng
+  - Shuo Zhang
+  - Yangji He
+  - Kepeng Lei
+  - Ning Zhao
+  - Wei Shen
+  - Zhenjiang Jin
+  - Xinyue Zhang
+  - Peng Sun
+  - Zhenhua Han
+  - Rui Zheng
+  - Hang Yan
+  institutions:
+  - Shanghai Qiji Zhifeng Co., Ltd.
+  date: '2026-11-01'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - experience flywheel
+  - recursive self-improvement
+  - OSWorld
+  - NorthCUA
+  tldr: |-
+    Presents NorthCUA, an integrated computer-use agent system featuring an Experience Flywheel and recursive self-improvement that curates verified execution trajectories at scale, achieving state-of-the-art performance across desktop automation benchmarks.
+  arxiv_id: '2611.02102'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.02102
+  bibtex: |-
+    @misc{zhang2026northcua,
+      title = {NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale},
+      author = {Chaoyun Zhang and Bingxuan Li and Pinxue Guo and Yangfan Gao and Zikun Cai and Tianci Xie and Hui Li and Yuqi Huang and Yifei Cao and Bo Mao and Tian Tang and Qichang Zheng and Tongtong Liu and Xiaoxing Wang and Jinxiu Liu and Lizhi Lin and Zhou Shao and Maosen Zhou and Miao Zheng and Shuo Zhang and Yangji He and Kepeng Lei and Ning Zhao and Wei Shen and Zhenjiang Jin and Xinyue Zhang and Peng Sun and Zhenhua Han and Rui Zheng and Hang Yan},
+      year = {2026},
+      eprint = {2611.02102},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.02102}
+    }
+- title: 'MAPLE: A Multimodal Mobile Agent with Playbook-Learned Experience'
+  link: https://arxiv.org/abs/2611.01351
+  authors:
+  - Jun Wang
+  - Aurora Wei
+  - Lucas Spangher
+  - Ming Zhang
+  - Eugene Ie
+  - Yiannis Kantaros
+  institutions:
+  - Google
+  - Washington University in St. Louis
+  date: '2026-10-31'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI agent
+  - playbooks
+  - experience retrieval
+  - Android
+  - MAPLE
+  tldr: |-
+    MAPLE equips multimodal mobile agents with structured operational playbooks extracted from past experience, enabling reliable task execution across diverse Android apps through dynamic guideline retrieval and self-correction.
+  arxiv_id: '2611.01351'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.01351
+  bibtex: |-
+    @misc{wang2026maple,
+      title = {MAPLE: A Multimodal Mobile Agent with Playbook-Learned Experience},
+      author = {Jun Wang and Aurora Wei and Lucas Spangher and Ming Zhang and Eugene Ie and Yiannis Kantaros},
+      year = {2026},
+      eprint = {2611.01351},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.01351}
+    }
+- title: 'ANGLER: Verifier-Grounded Benchmarking with an Adaptive Attacker for Web Agents'
+  link: https://arxiv.org/abs/2610.41272
+  authors:
+  - Yini Huang
+  - Aiwen LU
+  - Zhen Sun
+  - Yi Han
+  - Yuzhi Zhao
+  - Jiaheng Wei
+  institutions:
+  - HKUST(GZ)
+  - Huazhong University of Science and Technology
+  date: '2026-10-30'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - security benchmark
+  - red-teaming
+  - prompt injection
+  - REEF
+  - ANGLER
+  tldr: |-
+    Introduces REEF, an executable benchmark covering 9 verifier-grounded websites, and ANGLER, an adaptive near-miss guided lure evolution framework that stress-tests web agents against environmental and user-level prompt injection attacks.
+  arxiv_id: '2610.41272'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.41272
+  bibtex: |-
+    @misc{huang2026angler,
+      title = {ANGLER: Verifier-Grounded Benchmarking with an Adaptive Attacker for Web Agents},
+      author = {Yini Huang and Aiwen LU and Zhen Sun and Yi Han and Yuzhi Zhao and Jiaheng Wei},
+      year = {2026},
+      eprint = {2610.41272},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.41272}
+    }
+- title: 'Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents'
+  link: https://arxiv.org/abs/2610.41432
+  authors:
+  - Haoqing Wang
+  - Xiaoyi Zhang
+  - Sicheng Fan
+  - Zhexin Zhang
+  - Xinjie Zhang
+  - Jiahao Li
+  - Bin Li
+  - Yan Lu
+  institutions:
+  - MSR
+  - Fudan
+  - Tsinghua
+  date: '2026-10-30'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - hybrid interface
+  - accessibility tree
+  - GUI interaction
+  - OSWorld
+  - HCU
+  tldr: |-
+    Proposes Hybrid Computer Use (HCU), unifying programmatic code execution, semantic accessibility tree inspection, and visual GUI interaction into a coordinated interface, outperforming single-modality baselines on OSWorld 2.0.
+  arxiv_id: '2610.41432'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.41432
+  bibtex: |-
+    @misc{wang2026hybrid,
+      title = {Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents},
+      author = {Haoqing Wang and Xiaoyi Zhang and Sicheng Fan and Zhexin Zhang and Xinjie Zhang and Jiahao Li and Bin Li and Yan Lu},
+      year = {2026},
+      eprint = {2610.41432},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.41432}
+    }
+- title: 'MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions'
+  link: https://arxiv.org/abs/2611.00191
+  authors:
+  - Yizhou Liu
+  - Zhengxi Lu
+  - Fei Tang
+  - Yiwen Qiu
+  - Yong Du
+  - Tongbo Chen
+  - Bofan Chen
+  - Tao Jiang
+  - Wenhao Xu
+  - Yunfeng Shu
+  - Wenqi Zhang
+  - Weiming Lu
+  - Jun Xiao
+  - Yueting Zhuang
+  - Yongliang Shen
+  institutions:
+  - ZJU
+  - Ant Group
+  date: '2026-10-30'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - benchmark
+  - GUI agent
+  - long-horizon memory
+  - interaction history
+  - MemU-Bench
+  tldr: |-
+    MemU-Bench evaluates GUI agents on 118 vague, history-dependent tasks grounded in 29 long-horizon interaction streams, benchmarking how well agents recall and distill prior user interactions without relying on brute-force UI searches.
+  arxiv_id: '2611.00191'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.00191
+  bibtex: |-
+    @misc{liu2026memubench,
+      title = {MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions},
+      author = {Yizhou Liu and Zhengxi Lu and Fei Tang and Yiwen Qiu and Yong Du and Tongbo Chen and Bofan Chen and Tao Jiang and Wenhao Xu and Yunfeng Shu and Wenqi Zhang and Weiming Lu and Jun Xiao and Yueting Zhuang and Yongliang Shen},
+      year = {2026},
+      eprint = {2611.00191},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.00191}
+    }
 - title: 'AgentHeal: Evaluating Goal-Preserving Resource Recovery of Web Agents under Access Barriers'
   link: https://arxiv.org/abs/2610.39234
   authors:
@@ -37,6 +834,77 @@
       eprint = {2610.39234},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.39234}
+    }
+- title: 'DynaRev: Benchmarking Web Agents under Dynamic Goal Revision'
+  link: https://arxiv.org/abs/2610.40133
+  authors:
+  - Shiqi Zhang
+  - Guochen Zhou
+  - Zesheng Wei
+  - Hai Zhao
+  - Zhisong Zhang
+  institutions:
+  - CityU
+  - SJTU
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - benchmark
+  - web agent
+  - dynamic goal revision
+  - interactive web
+  - DynaRev
+  tldr: |-
+    DynaRev benchmarks web agents under dynamic goal revision across 181 tasks spanning multiple websites, evaluating how agents adapt intermediate progress and recover from invalidated actions when requirements change during execution.
+  arxiv_id: '2610.40133'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.40133
+    code: https://github.com/zsq259/DynaRev
+  bibtex: |-
+    @misc{zhang2026dynarev,
+      title = {DynaRev: Benchmarking Web Agents under Dynamic Goal Revision},
+      author = {Shiqi Zhang and Guochen Zhou and Zesheng Wei and Hai Zhao and Zhisong Zhang},
+      year = {2026},
+      eprint = {2610.40133},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.40133}
+    }
+- title: 'EnvOS: Auditing Computer-Use Agents When the World Moves On : Phenomenon-Based Task Construction, Certification,
+    and Evidence-Based Evaluation'
+  link: https://arxiv.org/abs/2610.40246
+  authors:
+  - Ankush Kadu
+  - Athira Gopal
+  - Niharika Singh
+  - Arpit Jain
+  - Aswanth Krishnan
+  institutions:
+  - QpiAI
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - benchmark
+  - auditing
+  - computer-use agents
+  - environment drift
+  - EnvOS
+  tldr: |-
+    EnvOS introduces a phenomenon-based auditing framework for computer-use agents, synthesizing certified environment mutations and evidence-based grading to evaluate agent resilience when software states, appointments, and policies change mid-task.
+  arxiv_id: '2610.40246'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.40246
+  bibtex: |-
+    @misc{kadu2026envos,
+      title = {EnvOS: Auditing Computer-Use Agents When the World Moves On : Phenomenon-Based Task Construction, Certification, and Evidence-Based Evaluation},
+      author = {Ankush Kadu and Athira Gopal and Niharika Singh and Arpit Jain and Aswanth Krishnan},
+      year = {2026},
+      eprint = {2610.40246},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.40246}
     }
 - title: 'InterA11y: Interactive Web Accessibility Error Detection with LLM Agents'
   link: https://arxiv.org/abs/2610.39488
@@ -74,6 +942,61 @@
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.39488}
     }
+- title: 'Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses'
+  link: https://arxiv.org/abs/2610.40747
+  authors:
+  - Xiaoyi Zhang
+  - Haoqing Wang
+  - Xinjie Zhang
+  - Xiang Ming
+  - Xing Wang
+  - Senqiao Yang
+  - Kaichen Zhang
+  - Zhaoyang Jia
+  - Andong Tan
+  - Xinjiang Wang
+  - Jinghao Guo
+  - Yifei Shen
+  - Xiao Li
+  - Peng Zhang
+  - Xun Guo
+  - Jiahao Li
+  - Shicheng Zheng
+  - Jinglu Wang
+  - Zongyu Guo
+  - Wenxuan Xie
+  - Bin Li
+  - Yan Lu
+  institutions:
+  - MSR
+  - Fudan
+  - Tsinghua
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agents
+  - hybrid computer use
+  - curriculum learning
+  - OSWorld
+  - Mage-VL-Cowork
+  tldr: |-
+    Mage-VL-Cowork presents an end-to-end training recipe for hybrid computer use, combining visual GUI interactions with code execution across midtraining, SFT, and RL to achieve 66.0% success on OSWorld-Verified with a compact 4B model.
+  arxiv_id: '2610.40747'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.40747
+    homepage: https://microsoft.github.io/Mage
+    code: https://github.com/microsoft/Mage
+  bibtex: |-
+    @misc{zhang2026magevlcowork,
+      title = {Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses},
+      author = {Xiaoyi Zhang and Haoqing Wang and Xinjie Zhang and Xiang Ming and Xing Wang and Senqiao Yang and Kaichen Zhang and Zhaoyang Jia and Andong Tan and Xinjiang Wang and Jinghao Guo and Yifei Shen and Xiao Li and Peng Zhang and Xun Guo and Jiahao Li and Shicheng Zheng and Jinglu Wang and Zongyu Guo and Wenxuan Xie and Bin Li and Yan Lu},
+      year = {2026},
+      eprint = {2610.40747},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.40747}
+    }
 - title: Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps
   link: https://arxiv.org/abs/2610.39264
   authors:
@@ -109,6 +1032,44 @@
       eprint = {2610.39264},
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2610.39264}
+    }
+- title: 'VeriCUA: Verification as Agentic Exploration for Computer-Using Agents'
+  link: https://arxiv.org/abs/2610.40578
+  authors:
+  - Qiushi Sun
+  - Da Yu
+  - Alexander Knop
+  - Amer Sinha
+  - Lingpeng Kong
+  - Ben Kao
+  - Ravi Kumar
+  - Pritish Kamath
+  institutions:
+  - Google
+  - HKU
+  date: '2026-10-29'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - computer-use agents
+  - task verification
+  - agentic exploration
+  - data curation
+  - VeriCUA
+  tldr: |-
+    VeriCUA frames task-completion verification as agentic exploration, deploying an autonomous verification agent that inspects runtime environment states and application side effects, dramatically improving verification precision over passive VLM judges.
+  arxiv_id: '2610.40578'
+  sources:
+    arxiv: https://arxiv.org/abs/2610.40578
+  bibtex: |-
+    @misc{sun2026vericua,
+      title = {VeriCUA: Verification as Agentic Exploration for Computer-Using Agents},
+      author = {Qiushi Sun and Da Yu and Alexander Knop and Amer Sinha and Lingpeng Kong and Ben Kao and Ravi Kumar and Pritish Kamath},
+      year = {2026},
+      eprint = {2610.40578},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2610.40578}
     }
 - title: What Does "Now" Mean to Your Computer-Use Agent? Stale Screenshots, Page Loads, and Which Check to Run Before a Click
   link: https://arxiv.org/abs/2610.39282
@@ -399,9 +1360,11 @@
 - title: 'Back to Basics: A Skill-Centric Approach to Generalist Web Agents'
   link: https://arxiv.org/abs/2610.35823
   authors:
-  - Md Shariful Islam
-  - Hasan Mahmud
-  - Md Rizwan Parvez
+  - Minh Pham-Dinh
+  - Md Farhan Ishmam
+  - Hernan Yupanqui
+  - Reaz Hassan Joarder
+  - Kenneth Marino
   institutions:
   - University of Utah
   - Islamic University of Technology
@@ -410,20 +1373,21 @@
   envs:
   - Web
   keywords:
-  - skill library
   - web agent
-  - WebArena
-  - WorkArena
-  - generalist agent
+  - benchmark
+  - skill-centric
+  - task decomposition
+  - MiniWeb
+  - MiniWebGen
   tldr: |-
-    Proposes a skill-centric modular architecture that decomposes web navigation into atomic visual and programmatic skills, achieving strong generalization across WebArena and WorkArena benchmarks.
+    Introduces MiniWeb, a 65-site benchmark that labels tasks by 37 interaction skills, and MiniWebGen, which generates verified skill-focused training data, then pairs a skill-trained 4B model with a task-decomposing planner to improve task success by 19.4 points on unseen sites and 9 to 20 points on WebArena-Lite, Online-Mind2Web, and WebVoyager.
   arxiv_id: '2610.35823'
   sources:
     arxiv: https://arxiv.org/abs/2610.35823
   bibtex: |-
-    @misc{islam2026back,
+    @misc{phamdinh2026back,
       title = {Back to Basics: A Skill-Centric Approach to Generalist Web Agents},
-      author = {Md Shariful Islam and Hasan Mahmud and Md Rizwan Parvez},
+      author = {Minh Pham-Dinh and Md Farhan Ishmam and Hernan Yupanqui and Reaz Hassan Joarder and Kenneth Marino},
       year = {2026},
       eprint = {2610.35823},
       archivePrefix = {arXiv},
@@ -20299,6 +21263,49 @@
       archivePrefix = {arXiv},
       url = {https://arxiv.org/abs/2511.00810}
     }
+- title: 'UICOMPASS: UI Map Guided Mobile Task Automation via Adaptive Action Generation'
+  link: https://aclanthology.org/2025.emnlp-main.1346/
+  authors:
+  - Yuanzhang Lin
+  - Zhe Zhang
+  - He Rui
+  - Qingao Dong
+  - Mingyi Zhou
+  - Jing Zhang
+  - Xiang Gao
+  - Hailong Sun
+  institutions:
+  - Beihang University
+  date: '2025-11-01'
+  publisher: EMNLP 2025
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI agent
+  - UI Map
+  - task automation
+  - adaptive action generation
+  - LLM
+  - Android
+  - DroidTask
+  - AndroidWorld
+  tldr: |-
+    UICompass automatically constructs a UI Map describing app interface topology and interaction logic from source code or APKs, using it to guide LLM planning and adaptively generate runtime actions, improving task success rates by 13-15% over baselines on DroidTask and AndroidWorld.
+  sources:
+    publisher_page: https://aclanthology.org/2025.emnlp-main.1346/
+    code: https://github.com/YuanzhangLin/UICompass
+  bibtex: |-
+    @inproceedings{lin-etal-2025-uicompass,
+      title = {{UICOMPASS}: {UI} Map Guided Mobile Task Automation via Adaptive Action Generation},
+      author = {Lin, Yuanzhang and Zhang, Zhe and Rui, He and Dong, Qingao and Zhou, Mingyi and Zhang, Jing and Gao, Xiang and Sun, Hailong},
+      booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+      year = {2025},
+      publisher = {Association for Computational Linguistics},
+      pages = {26486--26506},
+      doi = {10.18653/v1/2025.emnlp-main.1346},
+      url = {https://aclanthology.org/2025.emnlp-main.1346/}
+    }
+  bibtex_confirmed: true
 - title: 'WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation'
   link: https://arxiv.org/abs/2510.22732
   authors:
