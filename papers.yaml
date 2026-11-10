@@ -2,6 +2,122 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: 'Harness Matters: Measuring and Dissecting Security Resilience in Web Agents'
+  link: https://arxiv.org/abs/2611.11971
+  authors:
+  - Xinyi Wu
+  - Jiagui Chen
+  - JiaYi Dong
+  - Geng Hong
+  - Xudong Pan
+  - Jiarun Dai
+  - Mingxuan Liu
+  - Min Yang
+  institutions:
+  - Fudan
+  - Shanghai Innovation Institute
+  - Zhongguancun Laboratory
+  date: '2026-11-09'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - agent harness
+  - security resilience
+  - prompt injection
+  - WebTrap Farm
+  tldr: |-
+    Introduces WebTrap Farm to evaluate web-agent security resilience across user prompt, prompt injection, and deceptive web design threats, showing that security failures are jointly shaped by both the model and the execution harness.
+  arxiv_id: '2611.11971'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.11971
+    code: https://github.com/Agrfeblve/WebTrapFarm
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wu2026harness,
+      title = {Harness Matters: Measuring and Dissecting Security Resilience in Web Agents},
+      author = {Xinyi Wu and Jiagui Chen and JiaYi Dong and Geng Hong and Xudong Pan and Jiarun Dai and Mingxuan Liu and Min Yang},
+      year = {2026},
+      eprint = {2611.11971},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.11971}
+    }
+- title: Computer-Use Agents Are Embodied Generalists
+  link: https://arxiv.org/abs/2611.09847
+  authors:
+  - Pranjal Aggarwal
+  - Sean Welleck
+  institutions:
+  - CMU
+  date: '2026-11-06'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agent
+  - embodied agent
+  - visual grounding
+  - software interaction
+  - generalist agent
+  tldr: |-
+    Formulates embodied tasks as software interactions operated via screen captures and mouse/keyboard actions, demonstrating that a single generalist computer-use agent without competition-specific tuning wins multiple prizes across ECCV workshop competitions.
+  arxiv_id: '2611.09847'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.09847
+    homepage: https://pranjal2041.github.io/cua-embodied
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{aggarwal2026computeruse,
+      title = {Computer-Use Agents Are Embodied Generalists},
+      author = {Pranjal Aggarwal and Sean Welleck},
+      year = {2026},
+      eprint = {2611.09847},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.09847}
+    }
+- title: 'BiGrounder: Bidirectional Training Unlocks the Potential of GUI Grounding'
+  link: https://arxiv.org/abs/2611.07765
+  authors:
+  - Dengyao Shi
+  - Tianyu Fu
+  - Fei Hu
+  - Anyang Su
+  - Hanning Wang
+  - Shuo Wang
+  - Minghui Wu
+  - Chenxu Zhao
+  - Zhen Lei
+  institutions:
+  - CASIA
+  - UCAS
+  - Mininglamp Technology
+  date: '2026-11-05'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - bidirectional training
+  - reinforcement learning
+  - coordinate prediction
+  - self-reinforcement
+  tldr: |-
+    Proposes a bidirectional training paradigm for GUI grounding that trains the model to both ground instructions and generate descriptions from coordinates, using on-policy sampling and a cycle-consistency gate to continuously self-reinforce localization accuracy across linguistic variations.
+  arxiv_id: '2611.07765'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.07765
+    code: https://github.com/Spell-shi/BiGrounder
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{shi2026bigrounder,
+      title = {BiGrounder: Bidirectional Training Unlocks the Potential of GUI Grounding},
+      author = {Dengyao Shi and Tianyu Fu and Fei Hu and Anyang Su and Hanning Wang and Shuo Wang and Minghui Wu and Chenxu Zhao and Zhen Lei},
+      year = {2026},
+      eprint = {2611.07765},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.07765}
+    }
 - title: Can LLM Agents Learn to Test? Maintaining Scoped Experience as Testing Evidence for Mobile GUI Testing
   link: https://arxiv.org/abs/2611.05873
   authors:
@@ -10855,6 +10971,42 @@
       url = {https://arxiv.org/abs/2607.22798}
     }
   bibtex_confirmed: false
+- title: 'Broken Gates: Re-evaluating Web Bot Defenses in the Age of LLM Agents'
+  link: https://arxiv.org/abs/2607.18659
+  authors:
+  - Behzad Ousat
+  - Nikita Turkmen
+  - Lalchandra Rampersaud
+  - Dillan Bailey
+  - Amin Kharraz
+  institutions:
+  - Florida International University
+  date: '2026-07-21'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - bot defense
+  - CAPTCHA
+  - Cloudflare Turnstile
+  - reCaptcha
+  - browser automation
+  tldr: |-
+    Investigates how browser agents and solver services interact with modern risk-based web bot defenses, showing that established browser and session states allow LLM browser agents to bypass Cloudflare Turnstile and reCaptcha v2/v3 without model retraining.
+  arxiv_id: '2607.18659'
+  sources:
+    arxiv: https://arxiv.org/abs/2607.18659
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{ousat2026broken,
+      title = {Broken Gates: Re-evaluating Web Bot Defenses in the Age of LLM Agents},
+      author = {Behzad Ousat and Nikita Turkmen and Lalchandra Rampersaud and Dillan Bailey and Amin Kharraz},
+      year = {2026},
+      eprint = {2607.18659},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2607.18659}
+    }
 - title: 'SEE: Structure-aware Exploring and Exploiting for Long-horizon GUI Agent Trajectory Synthesis'
   link: https://arxiv.org/abs/2607.18046
   authors:
@@ -11405,6 +11557,50 @@
       url = {https://arxiv.org/abs/2606.04701}
     }
   bibtex_confirmed: false
+- title: 'MIRAGE: Mobile Agents with Implicit Reasoning and Generative World Models'
+  link: https://arxiv.org/abs/2606.04627
+  authors:
+  - Zhichao Yang
+  - Yuanze Hu
+  - Haojie Hao
+  - Longkun Hao
+  - Dongshuo Huang
+  - Hongyu Lin
+  - Gen Li
+  - Lanqing Hong
+  - Yihang Lou
+  - Yan Bai
+  institutions:
+  - Beihang University
+  - Northwestern Polytechnical University
+  - ISCAS
+  - NUS
+  - PKU
+  date: '2026-06-03'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - mobile agent
+  - latent reasoning
+  - generative world model
+  - AndroidWorld
+  - AndroidControl
+  tldr: |-
+    Transfers explicit chains-of-thought into continuous latent reasoning states coupled with a generative world-model objective predicting future screenshots, matching explicit CoT performance on AndroidWorld and AndroidControl with 3-5x lower decoded token costs.
+  arxiv_id: '2606.04627'
+  sources:
+    arxiv: https://arxiv.org/abs/2606.04627
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{yang2026mirage,
+      title = {MIRAGE: Mobile Agents with Implicit Reasoning and Generative World Models},
+      author = {Zhichao Yang and Yuanze Hu and Haojie Hao and Longkun Hao and Dongshuo Huang and Hongyu Lin and Gen Li and Lanqing Hong and Yihang Lou and Yan Bai},
+      year = {2026},
+      eprint = {2606.04627},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2606.04627}
+    }
 - title: Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval
   link: https://arxiv.org/abs/2606.04391
   authors:
@@ -12151,6 +12347,50 @@
       url = {https://arxiv.org/abs/2605.00551}
     }
   bibtex_confirmed: false
+- title: 'Reinforcement Learning in GUI Agents: A Survey Toward Digital Inhabitants'
+  link: https://arxiv.org/abs/2604.27955
+  authors:
+  - Junan Hu
+  - Jian Liu
+  - Jingxiang Lai
+  - Jiarui Hu
+  - Yiwei Sheng
+  - Shuang Chen
+  - Jian Li
+  - Dazhao Du
+  - Song Guo
+  institutions:
+  - Shandong University
+  - HKUST
+  - HKU
+  - SJTU
+  - Tencent
+  date: '2026-04-30'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent
+  - reinforcement learning
+  - survey
+  - world model
+  - digital inhabitants
+  tldr: |-
+    Presents a comprehensive survey on reinforcement learning for GUI agents, categorizing methods into offline, online, and hybrid RL, analyzing reward engineering and world models, and charting a roadmap toward digital inhabitants.
+  arxiv_id: '2604.27955'
+  sources:
+    arxiv: https://arxiv.org/abs/2604.27955
+    code: https://github.com/Steve2457/Awesome-RL-GUI-Agents
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{hu2026reinforcement,
+      title = {Reinforcement Learning in GUI Agents: A Survey Toward Digital Inhabitants},
+      author = {Junan Hu and Jian Liu and Jingxiang Lai and Jiarui Hu and Yiwei Sheng and Shuang Chen and Jian Li and Dazhao Du and Song Guo},
+      year = {2026},
+      eprint = {2604.27955},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2604.27955}
+    }
 - title: 'WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments'
   link: https://arxiv.org/abs/2604.27776
   authors:

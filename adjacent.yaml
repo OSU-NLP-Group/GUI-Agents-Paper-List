@@ -1,5 +1,258 @@
 # adjacent.yaml — non-canonical entries useful as supporting context.
 
+- title: System Optimizations for Cost-Efficient Agent Harnesses
+  link: https://arxiv.org/abs/2611.12122
+  authors:
+  - Jongseok Park
+  - Jiaxiang Yu
+  - Eric Zhou
+  - Tony Hong
+  - Sunga Kim
+  - Yusuf Afifi
+  - Ian Wong
+  - Ion Stoica
+  - Alvin Cheung
+  institutions:
+  - UC Berkeley
+  date: '2026-11-09'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - agent harness
+  - system optimization
+  - cost efficiency
+  - token reduction
+  - Agency
+  tldr: |-
+    Designs Agency, a harness interposition layer providing unified abstractions for cost and token optimizations across existing harnesses (such as Claude Code and Codex), reducing execution costs by up to 35% without accuracy loss.
+  relation: Adjacent to agent harness and GUI/tool agent execution runtime research (Agency platform for cost and token optimizations
+    across off-the-shelf agent harnesses)
+  arxiv_id: '2611.12122'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.12122
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{park2026system,
+      title = {System Optimizations for Cost-Efficient Agent Harnesses},
+      author = {Jongseok Park and Jiaxiang Yu and Eric Zhou and Tony Hong and Sunga Kim and Yusuf Afifi and Ian Wong and Ion Stoica and Alvin Cheung},
+      year = {2026},
+      eprint = {2611.12122},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.12122}
+    }
+- title: 'ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping'
+  link: https://arxiv.org/abs/2611.11306
+  authors:
+  - Joseph Marvin Imperial
+  - Daniel Slate
+  - Noam Kolt
+  institutions:
+  - University of Bath
+  - University of Notre Dame
+  - Hebrew University of Jerusalem
+  date: '2026-11-08'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - web agent
+  - website scraping
+  - legal compliance
+  - Terms of Service
+  - robots.txt
+  tldr: |-
+    Introduces ScrapeBench to assess AI agent compliance with website terms of service and robots.txt directives across 1,626 sites that prohibit scraping and 269 sites that allow it, finding widespread non-compliance or erratic over-refusal.
+  relation: Adjacent to web agent research (evaluating legal compliance of AI agents with website scraping policies, Terms
+    of Service, and robots.txt directives)
+  arxiv_id: '2611.11306'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.11306
+    code: https://github.com/imperialite/scrapebench
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{imperial2026scrapebench,
+      title = {ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping},
+      author = {Joseph Marvin Imperial and Daniel Slate and Noam Kolt},
+      year = {2026},
+      eprint = {2611.11306},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.11306}
+    }
+- title: 'Agents of Chaos: A Systematization of Knowledge (SoK) on Malicious Attacks on Agentic AI Systems'
+  link: https://arxiv.org/abs/2611.10843
+  authors:
+  - Thanh M. Truong-Le
+  - Amber Bennoui
+  - Hoang-Ly Nguyen
+  - Gia-Thang Ho
+  - Thai-Minh Truong
+  - Duc-Ly Vu
+  institutions:
+  - University of Information Technology
+  - Jiffy Labs
+  - Eastern International University
+  - Ho Chi Minh City University of Technology
+  date: '2026-11-07'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - agent security
+  - malicious attacks
+  - systematization of knowledge
+  - SoK
+  - MCP security
+  tldr: |-
+    Presents a systematic review and taxonomy of 284 atomic attacks and 452 safeguards targeting agentic AI systems across tools, MCP, action layers, and prompt-injection vectors, identifying distinct activation patterns and defense coverage gaps.
+  relation: Adjacent to agent security and browser/computer-use safety research (systematic review and taxonomy of malicious
+    attacks and safeguards targeting agentic AI systems)
+  arxiv_id: '2611.10843'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.10843
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{truongle2026agents,
+      title = {Agents of Chaos: A Systematization of Knowledge (SoK) on Malicious Attacks on Agentic AI Systems},
+      author = {Thanh M. Truong-Le and Amber Bennoui and Hoang-Ly Nguyen and Gia-Thang Ho and Thai-Minh Truong and Duc-Ly Vu},
+      year = {2026},
+      eprint = {2611.10843},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.10843}
+    }
+- title: 'WordEval: Evaluating Word-Native Operation Fidelity in Document Editing'
+  link: https://arxiv.org/abs/2611.10475
+  authors:
+  - Jinyoung Park
+  - Yupan Huang
+  - Shimin Zhang
+  - Jiayu Ding
+  - Yilin Jia
+  - Yuzhong Zhao
+  - Tengchao Lv
+  - Wenshan Wu
+  - Shaohan Huang
+  - Nan Yang
+  - Xiangyang Zhou
+  - Dongdong Zhang
+  - Li Dong
+  - Lei Cui
+  - Sun Mao
+  - Xun Wang
+  - Tao Ge
+  - Huitian Jiao
+  - Si-Qing Chen
+  - Changick Kim
+  - Furu Wei
+  institutions:
+  - KAIST
+  - Microsoft
+  - XJTU
+  date: '2026-11-07'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - document agent
+  - Microsoft Word
+  - operation fidelity
+  - benchmark
+  - COM automation
+  tldr: |-
+    WordEval benchmarks document agents on 642 cases across 15 Microsoft Word feature areas via COM automation, measuring operation fidelity and object-property state changes on atomic and compositional editing commands.
+  relation: Adjacent to desktop GUI and office automation agent research (benchmark evaluating operation fidelity of agents
+    on Microsoft Word object models via COM automation)
+  arxiv_id: '2611.10475'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.10475
+    homepage: https://aka.ms/word-eval
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{park2026wordeval,
+      title = {WordEval: Evaluating Word-Native Operation Fidelity in Document Editing},
+      author = {Jinyoung Park and Yupan Huang and Shimin Zhang and Jiayu Ding and Yilin Jia and Yuzhong Zhao and Tengchao Lv and Wenshan Wu and Shaohan Huang and Nan Yang and Xiangyang Zhou and Dongdong Zhang and Li Dong and Lei Cui and Sun Mao and Xun Wang and Tao Ge and Huitian Jiao and Si-Qing Chen and Changick Kim and Furu Wei},
+      year = {2026},
+      eprint = {2611.10475},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.10475}
+    }
+- title: How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill
+    Use
+  link: https://arxiv.org/abs/2611.10022
+  authors:
+  - Jiayi Ni
+  - Zac Wang
+  - Alex Zhang
+  - Zheng Liu
+  - Roopa Prabhu
+  institutions:
+  - PKU
+  date: '2026-11-05'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - skill specialization
+  - agent harness
+  - token efficiency
+  - SkillCache
+  - execution compilation
+  tldr: |-
+    Introduces SkillCache, a one-trace skill specialization method that compiles recurring natural-language skill invocations into parameterized executable capsules, cutting token usage by 74-81% on SkillsBench under Claude Code.
+  relation: Adjacent to GUI and tool agent execution research (SkillCache compiles procedural skills into parameterized execution
+    capsules for repeated agent invocations)
+  arxiv_id: '2611.10022'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.10022
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{ni2026how,
+      title = {How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill Use},
+      author = {Jiayi Ni and Zac Wang and Alex Zhang and Zheng Liu and Roopa Prabhu},
+      year = {2026},
+      eprint = {2611.10022},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.10022}
+    }
+- title: 'HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents'
+  link: https://arxiv.org/abs/2611.06254
+  authors:
+  - Zhi Hong
+  - Qianlong Wang
+  - Hongchen Wei
+  - Aidan Wu
+  - Daohong Ying
+  - Mingze Kong
+  - Bei Liu
+  institutions:
+  - SCUT
+  - Fudan
+  - Wuhan University
+  - Cornell
+  - UCSD
+  - CUHK-Shenzhen
+  - MSRA
+  date: '2026-11-04'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - agent harness
+  - harness optimization
+  - MCTS
+  - automated search
+  - HarnessFlow
+  tldr: |-
+    Presents HarnessFlow, an MCTS-guided refinement framework that automates the exploration and optimization of executable agent harnesses under fixed models and environments, improving average scores by 10.89% across six benchmarks.
+  relation: Adjacent to agent harness and tool/web interaction research (MCTS-guided framework for automated optimization
+    of executable agent harnesses across coding and web tasks)
+  arxiv_id: '2611.06254'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.06254
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{hong2026harnessflow,
+      title = {HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents},
+      author = {Zhi Hong and Qianlong Wang and Hongchen Wei and Aidan Wu and Daohong Ying and Mingze Kong and Bei Liu},
+      year = {2026},
+      eprint = {2611.06254},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.06254}
+    }
 - title: 'FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions'
   link: https://arxiv.org/abs/2611.04579
   authors:
