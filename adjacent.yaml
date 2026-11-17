@@ -1,5 +1,83 @@
 # adjacent.yaml — non-canonical entries useful as supporting context.
 
+- title: 'StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval'
+  link: https://arxiv.org/abs/2611.18516
+  authors:
+  - Dayoon Ko
+  - Yichuan Wang
+  - Soyeong Jeong
+  - Joseph E. Gonzalez
+  - Gunhee Kim
+  - Sewon Min
+  institutions:
+  - SNU
+  - UC Berkeley
+  - UW
+  date: '2026-11-13'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - screenshot retrieval
+  - screen history
+  - pixel indexing
+  - spatial pruning
+  - KV reuse
+  tldr: |-
+    Introduces StreamEmbed, an incremental visual embedding system that exploits pixel redundancy across streaming screenshots to achieve real-time screen history indexing for human users and computer-use agents.
+  relation: Adjacent because it focuses on real-time screen history embedding and screenshot indexing systems rather than
+    interactive agent control.
+  arxiv_id: '2611.18516'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.18516
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{ko2026streamembed,
+      title = {StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval},
+      author = {Dayoon Ko and Yichuan Wang and Soyeong Jeong and Joseph E. Gonzalez and Gunhee Kim and Sewon Min},
+      year = {2026},
+      eprint = {2611.18516},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.18516}
+    }
+- title: 'LiveWorkspace: Externalizing Visual Understanding as Persistent Shared State for Screenshot-to-Code Agents'
+  link: https://arxiv.org/abs/2611.12112
+  authors:
+  - Shijun Xiao
+  - Zonghui Yang
+  - Xinrong Chen
+  - Hao Liu
+  - Wensheng Zhang
+  - Yongqiang Tang
+  institutions:
+  - Nankai University
+  - CAS
+  - PKU
+  - Guangzhou University
+  date: '2026-11-09'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - screenshot-to-code
+  - visual understanding
+  - coding agent
+  - shared state
+  - visual harness
+  tldr: |-
+    Proposes LiveWorkspace, a visual coding harness that externalizes visual understanding as persistent shared state to help screenshot-to-code agents maintain visual hierarchy across code generation and revision.
+  relation: Adjacent because it targets screenshot-to-code generation rather than interactive GUI agent control.
+  arxiv_id: '2611.12112'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.12112
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{xiao2026liveworkspace,
+      title = {LiveWorkspace: Externalizing Visual Understanding as Persistent Shared State for Screenshot-to-Code Agents},
+      author = {Shijun Xiao and Zonghui Yang and Xinrong Chen and Hao Liu and Wensheng Zhang and Yongqiang Tang},
+      year = {2026},
+      eprint = {2611.12112},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.12112}
+    }
 - title: System Optimizations for Cost-Efficient Agent Harnesses
   link: https://arxiv.org/abs/2611.12122
   authors:

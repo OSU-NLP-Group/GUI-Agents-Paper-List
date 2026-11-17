@@ -2,6 +2,290 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination
+  link: https://arxiv.org/abs/2611.18514
+  authors:
+  - Mohamed Aghzal
+  - Mor Geva
+  - Gregory J. Stein
+  - Ziyu Yao
+  institutions:
+  - George Mason University
+  - Tel Aviv University
+  date: '2026-11-13'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - mechanistic interpretability
+  - web element hallucination
+  - linear probe
+  - agent failure analysis
+  tldr: |-
+    Investigates web agents hallucinating unavailable DOM/UI elements on live websites using mechanistic interpretability, showing linear probes can predict hallucinations prior to generation while highlighting limitations in circuit discovery for agents.
+  arxiv_id: '2611.18514'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.18514
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{aghzal2026can,
+      title = {Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination},
+      author = {Mohamed Aghzal and Mor Geva and Gregory J. Stein and Ziyu Yao},
+      year = {2026},
+      eprint = {2611.18514},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.18514}
+    }
+- title: 'WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents'
+  link: https://arxiv.org/abs/2611.17955
+  authors:
+  - Imene Kerboua
+  - Fatemeh Pesaran Zadeh
+  - Xing Han Lù
+  - Weijian Qi
+  - Alexander Miller
+  - Junyi Song
+  - Yunjia Tian
+  - Dongjin Kang
+  - Seyeon Choi
+  - Marzia Nouri
+  - Ewen Gueguen
+  - Matteo Boglioni
+  - Fengyuan Liu
+  - Zeyi Liao
+  - Mengqi Yuan
+  - Yue Li
+  - Alexandre Lacoste
+  - Alexandre Drouin
+  - Spandana Gella
+  - Huan Sun
+  - Gunhee Kim
+  - Siva Reddy
+  institutions:
+  - McGill University
+  - Mila
+  - OSU
+  - HKU
+  - SNU
+  - INSA Lyon
+  - ServiceNow
+  - Université Laval
+  - Esker
+  date: '2026-11-13'
+  publisher: NeurIPS 2026
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - multimodal benchmark
+  - reproducible benchmark
+  - WebArena-Pro
+  - stateful workflow
+  tldr: |-
+    Introduces WebArena-Pro, an expanded benchmark for web agents covering heterogeneous enterprise and consumer web applications with multimodal inputs and outputs across realistic, stateful browser workflows.
+  arxiv_id: '2611.17955'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.17955
+    homepage: https://webarena-pro.github.io
+    code: https://github.com/McGill-NLP/webarena-pro
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{kerboua2026webarenapro,
+      title = {WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents},
+      author = {Imene Kerboua and Fatemeh Pesaran Zadeh and Xing Han Lù and Weijian Qi and Alexander Miller and Junyi Song and Yunjia Tian and Dongjin Kang and Seyeon Choi and Marzia Nouri and Ewen Gueguen and Matteo Boglioni and Fengyuan Liu and Zeyi Liao and Mengqi Yuan and Yue Li and Alexandre Lacoste and Alexandre Drouin and Spandana Gella and Huan Sun and Gunhee Kim and Siva Reddy},
+      year = {2026},
+      booktitle = {NeurIPS 2026},
+      eprint = {2611.17955},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.17955}
+    }
+- title: 'MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection'
+  link: https://arxiv.org/abs/2611.16693
+  authors:
+  - Yingbin Jin
+  - Ji'an Wang
+  - HaoYang Chai
+  - Hanjun Luo
+  - Li Hu
+  - Xinfeng Li
+  - Huadi Zheng
+  - PeiZhao Hu
+  - Qingqing Ye
+  - Haibo Hu
+  institutions:
+  - PolyU
+  - ZJU
+  - Huawei
+  date: '2026-11-12'
+  publisher: NDSS 2027
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI agent
+  - prompt injection
+  - security evaluation
+  - environmental injection attack
+  - trajectory-aware
+  tldr: |-
+    Presents MobileProbe, an adaptive security evaluation framework that tests mobile GUI agents against environmental prompt injection attacks by dynamically discovering vulnerable decision points along the agent's execution trajectory.
+  arxiv_id: '2611.16693'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.16693
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{jin2026mobileprobe,
+      title = {MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection},
+      author = {Yingbin Jin and Ji'an Wang and HaoYang Chai and Hanjun Luo and Li Hu and Xinfeng Li and Huadi Zheng and PeiZhao Hu and Qingqing Ye and Haibo Hu},
+      year = {2026},
+      booktitle = {NDSS 2027},
+      eprint = {2611.16693},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.16693}
+    }
+- title: Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents
+  link: https://arxiv.org/abs/2611.16744
+  authors:
+  - Yiheng Zhao
+  - Runze Ji
+  - Chenyu Yi
+  - Yi Yu
+  - Bingquan Shen
+  - Alex Kot
+  - Xudong Jiang
+  institutions:
+  - NTU
+  - DSO National Laboratories
+  date: '2026-11-12'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - visual prompt injection
+  - scale-induced semantic shift
+  - VLM security
+  - multi-resolution
+  tldr: |-
+    Identifies scale-induced semantic shifts where image resizing changes visual prompt injection interpretability, showing that web agents can inadvertently execute hidden instructions when processing scaled web screenshots.
+  arxiv_id: '2611.16744'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.16744
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhao2026scaleinduced,
+      title = {Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents},
+      author = {Yiheng Zhao and Runze Ji and Chenyu Yi and Yi Yu and Bingquan Shen and Alex Kot and Xudong Jiang},
+      year = {2026},
+      eprint = {2611.16744},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.16744}
+    }
+- title: 'MemCredit: From Relevance to Utility for Decision-Time Memory in Long-Horizon Web Agents'
+  link: https://arxiv.org/abs/2611.15600
+  authors:
+  - Quanjiang Guo
+  - Sijie Wang
+  - Qianyang Zhu
+  - Ben Zhang
+  - Jinchuan Zhang
+  - Ke Yan
+  - Zhao Kang
+  institutions:
+  - UESTC
+  - NTU
+  date: '2026-11-11'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - long-horizon decision making
+  - decision-time memory
+  - utility-based retrieval
+  - memory management
+  tldr: |-
+    Proposes MemCredit, a memory framework for long-horizon web agents that prioritizes past interaction traces by action utility rather than semantic similarity to guide decision-making during web navigation.
+  arxiv_id: '2611.15600'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.15600
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{guo2026memcredit,
+      title = {MemCredit: From Relevance to Utility for Decision-Time Memory in Long-Horizon Web Agents},
+      author = {Quanjiang Guo and Sijie Wang and Qianyang Zhu and Ben Zhang and Jinchuan Zhang and Ke Yan and Zhao Kang},
+      year = {2026},
+      eprint = {2611.15600},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.15600}
+    }
+- title: 'Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents'
+  link: https://arxiv.org/abs/2611.16107
+  authors:
+  - Obada Kraishan
+  - Kulsawasd Jitkajornwanich
+  institutions:
+  - Texas Tech University
+  date: '2026-11-11'
+  publisher: AISSA 2026
+  envs:
+  - Mobile
+  keywords:
+  - computer-use agent
+  - accessibility tree
+  - screen reader
+  - GUI corpora
+  - accessibility debt
+  tldr: |-
+    Quantifies missing content descriptions and accessibility debt across foundational mobile GUI corpora (Rico and AndroidControl), analyzing how unlabelled UI elements propagate into computer-use agent training and decision failures.
+  arxiv_id: '2611.16107'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.16107
+    code: https://github.com/obadaKraishan/accessibility-debt-agents
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{kraishan2026trained,
+      title = {Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents},
+      author = {Obada Kraishan and Kulsawasd Jitkajornwanich},
+      year = {2026},
+      booktitle = {AISSA 2026},
+      eprint = {2611.16107},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.16107}
+    }
+- title: 'GroundCascade: Selective Second Opinions for GUI Grounding'
+  link: https://arxiv.org/abs/2611.13177
+  authors:
+  - Adrian Phoulady
+  - Hady Ahmady Phoulady
+  institutions:
+  - University of Connecticut
+  - Embry-Riddle Aeronautical University
+  date: '2026-11-09'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - selective second opinion
+  - training-free controller
+  - multi-view agreement
+  - coordinate prediction
+  tldr: |-
+    Introduces GroundCascade, a training-free controller for GUI grounding that compares full-screen and zoomed-in predictions to decide when to invoke a complementary model for difficult or ambiguous UI targets.
+  arxiv_id: '2611.13177'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.13177
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{phoulady2026groundcascade,
+      title = {GroundCascade: Selective Second Opinions for GUI Grounding},
+      author = {Adrian Phoulady and Hady Ahmady Phoulady},
+      year = {2026},
+      eprint = {2611.13177},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.13177}
+    }
 - title: 'Harness Matters: Measuring and Dissecting Security Resilience in Web Agents'
   link: https://arxiv.org/abs/2611.11971
   authors:
