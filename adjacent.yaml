@@ -1,5 +1,50 @@
 # adjacent.yaml — non-canonical entries useful as supporting context.
 
+- title: 'FigmaEval: A Benchmark for Evaluating AI Agents in Professional UI Design'
+  link: https://arxiv.org/abs/2611.32321
+  authors:
+  - Xinyue Huang
+  - Yongyong Gao
+  - Zhengyuan Pan
+  - Zheng Wei
+  - Xinya Liu
+  - Duanyi Yan
+  - Zhiyu Hang
+  - Zheng Ma
+  - Lewei Lu
+  institutions:
+  - East China University of Science and Technology
+  - University of Edinburgh
+  - SenseTime
+  - Sun Yat-sen University
+  - Southern University of Science and Technology
+  - Tsinghua
+  date: '2026-11-24'
+  publisher: arXiv
+  envs: []
+  keywords:
+  - UI design
+  - Figma
+  - agent evaluation
+  - benchmark
+  - multimodal generation
+  tldr: |-
+    Presents FigmaEval, a benchmark evaluating multimodal agents on professional UI design creation across multi-turn design revisions, component layout accuracy, and visual fidelity in Figma.
+  relation: Adjacent because it evaluates AI agents generating and editing UI designs in Figma rather than autonomous GUI
+    agent interaction with applications.
+  arxiv_id: '2611.32321'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.32321
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{huang2026figmaeval,
+      title = {FigmaEval: A Benchmark for Evaluating AI Agents in Professional UI Design},
+      author = {Xinyue Huang and Yongyong Gao and Zhengyuan Pan and Zheng Wei and Xinya Liu and Duanyi Yan and Zhiyu Hang and Zheng Ma and Lewei Lu},
+      year = {2026},
+      eprint = {2611.32321},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.32321}
+    }
 - title: 'StreamEmbed: Real-Time Indexing from Pixels for Screenshot Retrieval'
   link: https://arxiv.org/abs/2611.18516
   authors:

@@ -2,6 +2,792 @@
 # Edit this file to add or correct papers. `bibtex` is auto-generated;
 # set `bibtex_confirmed: true` after verifying against the official source.
 
+- title: Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion
+  link: https://arxiv.org/abs/2611.31962
+  authors:
+  - Parsa Nilforushan
+  - Gemmin Sugiura
+  - Kourosh Hashemi
+  - Peiman Zhiani
+  - Mohammad A. Tayebi
+  institutions:
+  - Simon Fraser University
+  date: '2026-11-24'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - bot defense
+  - evasion
+  - stress-testing
+  - anti-bot detection
+  tldr: |-
+    Stress-tests website anti-bot defenses against autonomous web agents using coordinated evasion strategies, evaluating whether modern web agents can bypass behavioral and browser fingerprinting detectors.
+  arxiv_id: '2611.31962'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.31962
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{nilforushan2026are,
+      title = {Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion},
+      author = {Parsa Nilforushan and Gemmin Sugiura and Kourosh Hashemi and Peiman Zhiani and Mohammad A. Tayebi},
+      year = {2026},
+      eprint = {2611.31962},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.31962}
+    }
+- title: 'GUI-PRISM: Efficient Action Decoding for GUI Agents'
+  link: https://arxiv.org/abs/2611.32097
+  authors:
+  - Enqi Liu
+  - Zhi Gao
+  - Liu Liu
+  - Lifeng Fan
+  - Liyuan Pan
+  institutions:
+  - Beijing Institute for General Artificial Intelligence
+  - Beijing Institute of Technology
+  date: '2026-11-24'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent
+  - action decoding
+  - inference latency
+  - efficient decoding
+  - action space
+  tldr: |-
+    Presents GUI-PRISM, an efficient action decoding mechanism for GUI agents that decouples action types from coordinate prediction to reduce token generation overhead and latency.
+  arxiv_id: '2611.32097'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.32097
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{liu2026guiprism,
+      title = {GUI-PRISM: Efficient Action Decoding for GUI Agents},
+      author = {Enqi Liu and Zhi Gao and Liu Liu and Lifeng Fan and Liyuan Pan},
+      year = {2026},
+      eprint = {2611.32097},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.32097}
+    }
+- title: 'GUI-WEdit and GUI-SkillEvo: Gradient-Free Adaptation of Small GUI Agents'
+  link: https://arxiv.org/abs/2611.32332
+  authors:
+  - Haixia Bi
+  - Yingtian Chen
+  - Sihan Yang
+  - Zuzheng Kuang
+  - Yuzhen Tong
+  - Kai Fu
+  - Zhengyong Wan
+  institutions:
+  - XJTU
+  - Ninetech
+  date: '2026-11-24'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - small GUI agent
+  - gradient-free adaptation
+  - OSWorld
+  - procedural skill evolution
+  - weight editing
+  tldr: |-
+    Introduces GUI-WEdit-4B and GUI-SkillEvo-2B, two gradient-free adaptation methods for small GUI agents on OSWorld that use trajectory feedback for closed-form weight updates and procedural skill refinement.
+  arxiv_id: '2611.32332'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.32332
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{bi2026guiwedit,
+      title = {GUI-WEdit and GUI-SkillEvo: Gradient-Free Adaptation of Small GUI Agents},
+      author = {Haixia Bi and Yingtian Chen and Sihan Yang and Zuzheng Kuang and Yuzhen Tong and Kai Fu and Zhengyong Wan},
+      year = {2026},
+      eprint = {2611.32332},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.32332}
+    }
+- title: 'RISE: Reasoning with Implicit State Embeddings for GUI Agents'
+  link: https://arxiv.org/abs/2611.32102
+  authors:
+  - Enqi Liu
+  - Zhi Gao
+  - Liu Liu
+  - Lifeng Fan
+  - Liyuan Pan
+  institutions:
+  - Beijing Institute for General Artificial Intelligence
+  - Beijing Institute of Technology
+  date: '2026-11-24'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent
+  - implicit state embedding
+  - action reasoning
+  - latent state
+  - policy learning
+  tldr: |-
+    Proposes RISE, enabling GUI agents to reason through implicit continuous state embeddings rather than verbose natural language tokens, improving action prediction and execution efficiency.
+  arxiv_id: '2611.32102'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.32102
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{liu2026rise,
+      title = {RISE: Reasoning with Implicit State Embeddings for GUI Agents},
+      author = {Enqi Liu and Zhi Gao and Liu Liu and Lifeng Fan and Liyuan Pan},
+      year = {2026},
+      eprint = {2611.32102},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.32102}
+    }
+- title: 'Your VLM Knows What to Inspect: Semantic Probe-Guided Adaptive Focusing for GUI Grounding'
+  link: https://arxiv.org/abs/2611.31909
+  authors:
+  - Ruixiao Shi
+  - Fu Feng
+  - Yucheng Xie
+  - Jing Wang
+  - Xin Geng
+  institutions:
+  - Southeast University
+  date: '2026-11-24'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - adaptive focusing
+  - semantic probe
+  - visual detail
+  - coordinate localization
+  tldr: |-
+    Introduces a semantic probe-guided adaptive focusing technique for GUI grounding that dynamically selects informative sub-regions to balance fine-grained visual details with global UI context.
+  arxiv_id: '2611.31909'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.31909
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{shi2026your,
+      title = {Your VLM Knows What to Inspect: Semantic Probe-Guided Adaptive Focusing for GUI Grounding},
+      author = {Ruixiao Shi and Fu Feng and Yucheng Xie and Jing Wang and Xin Geng},
+      year = {2026},
+      eprint = {2611.31909},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.31909}
+    }
+- title: 'Conartist: Adaptive Agentic Red-Teaming of Computer-Using Agents against Multi-Step Prompt Injection'
+  link: https://arxiv.org/abs/2611.29977
+  authors:
+  - Jiaqi Rong
+  - Yunchen Lu
+  - Lihai Nie
+  - Yan Jia
+  - Tong Li
+  - Zheli Liu
+  institutions:
+  - Nankai University
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Web
+  keywords:
+  - computer-use agent
+  - prompt injection
+  - red-teaming
+  - adaptive attack
+  - safety evaluation
+  tldr: |-
+    Proposes Conartist, an adaptive multi-step red-teaming framework that constructs staged visual and text prompt injections targeting computer-using agents operating in desktop and browser environments.
+  arxiv_id: '2611.29977'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.29977
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{rong2026conartist,
+      title = {Conartist: Adaptive Agentic Red-Teaming of Computer-Using Agents against Multi-Step Prompt Injection},
+      author = {Jiaqi Rong and Yunchen Lu and Lihai Nie and Yan Jia and Tong Li and Zheli Liu},
+      year = {2026},
+      eprint = {2611.29977},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.29977}
+    }
+- title: 'GUI-Q: Task-Sensitive Granularity and Relation-Preserving Quantization for GUI Agents'
+  link: https://arxiv.org/abs/2611.30170
+  authors:
+  - Tianqi Li
+  - Yang Wang
+  - Xin He
+  - Le Zhang
+  - Yun Liu
+  institutions:
+  - Nankai University
+  - Beijing University of Chemical Technology
+  - Tianjin University of Technology
+  - UESTC
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent
+  - quantization
+  - task-sensitive granularity
+  - relation preservation
+  - edge deployment
+  tldr: |-
+    Presents GUI-Q, a post-training quantization method tailored for GUI agents that preserves fine spatial relations and layout hierarchies during low-bit compression.
+  arxiv_id: '2611.30170'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.30170
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{li2026guiq,
+      title = {GUI-Q: Task-Sensitive Granularity and Relation-Preserving Quantization for GUI Agents},
+      author = {Tianqi Li and Yang Wang and Xin He and Le Zhang and Yun Liu},
+      year = {2026},
+      eprint = {2611.30170},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.30170}
+    }
+- title: 'MedUIGym: Evaluating and Training GUI Agents for Clinical Workflows'
+  link: https://arxiv.org/abs/2611.30983
+  authors:
+  - Yitong Qiao
+  - Lei Liu
+  - Yue Shen
+  - Jian Wang
+  - Jinjie Gu
+  - Zhixuan Chu
+  institutions:
+  - Ant Group
+  - ZJU
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Web
+  keywords:
+  - clinical GUI agent
+  - MedUIGym
+  - electronic health records
+  - clinical workflow
+  - benchmark
+  tldr: |-
+    Introduces MedUIGym, an interactive environment and benchmark for training and evaluating vision-language GUI agents on complex electronic health record (EHR) navigation and clinical workflows.
+  arxiv_id: '2611.30983'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.30983
+    code: https://github.com/yitong-qiao/MedUIGym
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{qiao2026meduigym,
+      title = {MedUIGym: Evaluating and Training GUI Agents for Clinical Workflows},
+      author = {Yitong Qiao and Lei Liu and Yue Shen and Jian Wang and Jinjie Gu and Zhixuan Chu},
+      year = {2026},
+      eprint = {2611.30983},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.30983}
+    }
+- title: 'MobileGrail: Learning Compact Guardrails for On-Device deployable Mobile GUI Agent Safety'
+  link: https://arxiv.org/abs/2611.29847
+  authors:
+  - Zhiyu Zhang
+  - Yuankai Li
+  - Muhao Chen
+  institutions:
+  - UC Davis
+  - CodeDroid
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI agent
+  - on-device guardrail
+  - agent safety
+  - MobileGrail
+  - action verification
+  tldr: |-
+    Introduces MobileGrail, an on-device compact safety guardrail for mobile GUI agents that tracks recurring task states to intercept unsafe actions with low latency and without cloud data transmission.
+  arxiv_id: '2611.29847'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.29847
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{zhang2026mobilegrail,
+      title = {MobileGrail: Learning Compact Guardrails for On-Device deployable Mobile GUI Agent Safety},
+      author = {Zhiyu Zhang and Yuankai Li and Muhao Chen},
+      year = {2026},
+      eprint = {2611.29847},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.29847}
+    }
+- title: 'One Step, Four Clocks: How GUI Agents Fall Out of Step'
+  link: https://arxiv.org/abs/2611.31522
+  authors:
+  - Zhanwen Chen
+  - Tianchun Wang
+  institutions:
+  - JHU
+  - Hadron
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent
+  - deliberation latency
+  - interface dynamics
+  - temporal misalignment
+  - execution failure
+  tldr: |-
+    Deconstructs the temporal dynamics of GUI agent execution across four distinct clocks (perception, deliberation, dispatch, and system response), explaining how UI changes invalidate actions before execution.
+  arxiv_id: '2611.31522'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.31522
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{chen2026one,
+      title = {One Step, Four Clocks: How GUI Agents Fall Out of Step},
+      author = {Zhanwen Chen and Tianchun Wang},
+      year = {2026},
+      eprint = {2611.31522},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.31522}
+    }
+- title: 'PixelOne: From Options to Pixels in a Single Forward for GUI Grounding'
+  link: https://arxiv.org/abs/2611.30235
+  authors:
+  - Kanghui Tian
+  - Shuai Dong
+  - Yuhan Zhu
+  - Congcong Wang
+  - Ji Zhao
+  - Tianxiang Jiang
+  - Zhixiong Zhang
+  - Shengyuan Ding
+  - Yi Wang
+  - Jiaqi Wang
+  - Yu Qiao
+  institutions:
+  - Fudan
+  - JD.com
+  - NJU
+  - Shanghai AI Laboratory
+  - Shanghai Innovation Institute
+  - SJTU
+  - USTC
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - single forward pass
+  - pixel-level prediction
+  - coordinate localization
+  - fast grounding
+  tldr: |-
+    Proposes PixelOne, a unified model that predicts precise click coordinates directly in a single forward pass without multi-stage proposal refinement or iterative zoom-ins.
+  arxiv_id: '2611.30235'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.30235
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{tian2026pixelone,
+      title = {PixelOne: From Options to Pixels in a Single Forward for GUI Grounding},
+      author = {Kanghui Tian and Shuai Dong and Yuhan Zhu and Congcong Wang and Ji Zhao and Tianxiang Jiang and Zhixiong Zhang and Shengyuan Ding and Yi Wang and Jiaqi Wang and Yu Qiao},
+      year = {2026},
+      eprint = {2611.30235},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.30235}
+    }
+- title: 'Same Executions, Different Gaps: Judgment Rules in Web-Agent Evaluation'
+  link: https://arxiv.org/abs/2611.30190
+  authors:
+  - Zelong Wang
+  - Weiyue Li
+  - Fei Xue
+  - Junru Zhu
+  institutions:
+  - Harvard
+  - UC San Diego
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - Web
+  keywords:
+  - web agent
+  - evaluation methodology
+  - judgment rules
+  - benchmark reliability
+  - success rate
+  tldr: |-
+    Investigates how slight variations in judgment rules and outcome evaluators on web agent benchmarks distort reported success rates and model rankings across identical execution trajectories.
+  arxiv_id: '2611.30190'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.30190
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026same,
+      title = {Same Executions, Different Gaps: Judgment Rules in Web-Agent Evaluation},
+      author = {Zelong Wang and Weiyue Li and Fei Xue and Junru Zhu},
+      year = {2026},
+      eprint = {2611.30190},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.30190}
+    }
+- title: Self-Evolving Evaluation Environments for Computer-Use Agents
+  link: https://arxiv.org/abs/2611.30962
+  authors:
+  - Wenhao Wang
+  - Panrong Tong
+  - Quyu Kong
+  - Pengxiang Li
+  - Haowen Yang
+  - chenglin Cai
+  - Siheng Chen
+  - Yue Wang
+  institutions:
+  - Alibaba Group
+  - SJTU
+  - ZJU
+  date: '2026-11-23'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agent
+  - self-evolving environment
+  - dynamic benchmark
+  - automated evaluation
+  - difficulty scaling
+  tldr: |-
+    Develops a self-evolving evaluation framework for computer-use agents that programmatically generates diverse and dynamically scalable desktop tasks to prevent benchmark saturation.
+  arxiv_id: '2611.30962'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.30962
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026selfevolving,
+      title = {Self-Evolving Evaluation Environments for Computer-Use Agents},
+      author = {Wenhao Wang and Panrong Tong and Quyu Kong and Pengxiang Li and Haowen Yang and chenglin Cai and Siheng Chen and Yue Wang},
+      year = {2026},
+      eprint = {2611.30962},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.30962}
+    }
+- title: 'Don''t Sleep, Keep Watch: Proactive Perception for Computer-Use Agents'
+  link: https://arxiv.org/abs/2611.28947
+  authors:
+  - Jiaqi Su
+  - Jie-Jing Shao
+  - Yichen Liu
+  - Long-Kai Huang
+  - Haiyan Yin
+  institutions:
+  - NUS
+  - A*STAR
+  - SenseTime
+  - Hong Kong Baptist University
+  date: '2026-11-21'
+  publisher: arXiv
+  envs:
+  - Desktop
+  - Web
+  - Mobile
+  keywords:
+  - computer-use agent
+  - proactive perception
+  - NightWatch
+  - streaming monitoring
+  - perception-action gap
+  tldr: |-
+    Presents NightWatch, a proactive perception framework for computer-use agents coupling a lightweight streaming watcher with a VLM to bridge the perception-action gap caused by inference latency on dynamic screens.
+  arxiv_id: '2611.28947'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.28947
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{su2026dont,
+      title = {Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents},
+      author = {Jiaqi Su and Jie-Jing Shao and Yichen Liu and Long-Kai Huang and Haiyan Yin},
+      year = {2026},
+      eprint = {2611.28947},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.28947}
+    }
+- title: 'MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control'
+  link: https://arxiv.org/abs/2611.25526
+  authors:
+  - Minsuk Jang
+  - Hee-Seon Kim
+  - Hui-Cheol Yu
+  - Changick Kim
+  institutions:
+  - KAIST
+  date: '2026-11-19'
+  publisher: EMNLP 2026
+  envs:
+  - Mobile
+  keywords:
+  - mobile agent
+  - trustworthy execution
+  - execution layer
+  - smartphone control
+  - safety enforcement
+  tldr: |-
+    Proposes MATE, an execution-layer architecture for mobile phone control agents that enforces permission boundaries and prevents irreversible actions while maintaining execution efficiency.
+  arxiv_id: '2611.25526'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.25526
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{jang2026mate,
+      title = {MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control},
+      author = {Minsuk Jang and Hee-Seon Kim and Hui-Cheol Yu and Changick Kim},
+      year = {2026},
+      booktitle = {EMNLP 2026},
+      eprint = {2611.25526},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.25526}
+    }
+- title: 'SheetAlign: Grounded Interaction and Stage-Isolated Learning for Spreadsheet Agents'
+  link: https://arxiv.org/abs/2611.26069
+  authors:
+  - Yuxiang Wang
+  - Junhao Gan
+  - Jianzhong Qi
+  institutions:
+  - The University of Melbourne
+  date: '2026-11-19'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - spreadsheet agent
+  - grounded interaction
+  - stage-isolated learning
+  - GUI software
+  - local deployment
+  tldr: |-
+    Develops SheetAlign, an interaction and learning framework for local spreadsheet agents that aligns multi-modal spreadsheet state representations with stage-isolated operation policies.
+  arxiv_id: '2611.26069'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.26069
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026sheetalign,
+      title = {SheetAlign: Grounded Interaction and Stage-Isolated Learning for Spreadsheet Agents},
+      author = {Yuxiang Wang and Junhao Gan and Jianzhong Qi},
+      year = {2026},
+      eprint = {2611.26069},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.26069}
+    }
+- title: How Complete Must an Environment Be to Train a Capable GUI Agent?
+  link: https://arxiv.org/abs/2611.23946
+  authors:
+  - Jingxing Wang
+  - Teng Wang
+  - Xingyu Lou
+  - Zihan Guo
+  - Jun Wang
+  - Weiwen Liu
+  - Weinan Zhang
+  - Jianghao Lin
+  institutions:
+  - SJTU
+  - OPPO Research Institute
+  - Shanghai Innovation Institute
+  date: '2026-11-18'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent training
+  - environment fidelity
+  - Mobilegym-lite
+  - training efficiency
+  - environment completeness
+  tldr: |-
+    Systematically studies the trade-offs in GUI environment fidelity and completeness, showing that partially simulated environments with core action-effect feedback can train agents as capable as full environments.
+  arxiv_id: '2611.23946'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.23946
+    code: https://github.com/Hydr0pon1c/Mobilegym-lite
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{wang2026how,
+      title = {How Complete Must an Environment Be to Train a Capable GUI Agent?},
+      author = {Jingxing Wang and Teng Wang and Xingyu Lou and Zihan Guo and Jun Wang and Weiwen Liu and Weinan Zhang and Jianghao Lin},
+      year = {2026},
+      eprint = {2611.23946},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.23946}
+    }
+- title: 'IDEA: Intent-Dominance Evidence Audit for Inference-Time Backdoor Detection in GUI Agents'
+  link: https://arxiv.org/abs/2611.24102
+  authors:
+  - Zhizhuo Kou
+  - Sizai Hou
+  - Jian Yang
+  - Ge Sun
+  - Junyu Luo
+  - Wenkai Zhang
+  - Sirui Han
+  - Yike Guo
+  institutions:
+  - HKUST
+  - PKU
+  - Huawei Noah's Ark Lab
+  date: '2026-11-18'
+  publisher: arXiv
+  envs:
+  - General GUI
+  keywords:
+  - GUI agent
+  - backdoor detection
+  - inference-time audit
+  - trigger localization
+  - agent security
+  tldr: |-
+    Presents IDEA, an inference-time detection method for backdoored GUI agents that detects backdoor activation per step by auditing intent-evidence dominance inversions caused by visual triggers.
+  arxiv_id: '2611.24102'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.24102
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{kou2026idea,
+      title = {IDEA: Intent-Dominance Evidence Audit for Inference-Time Backdoor Detection in GUI Agents},
+      author = {Zhizhuo Kou and Sizai Hou and Jian Yang and Ge Sun and Junyu Luo and Wenkai Zhang and Sirui Han and Yike Guo},
+      year = {2026},
+      eprint = {2611.24102},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.24102}
+    }
+- title: 'MobileWeave: Program-First Synthesis of Dependency-Linked Tasks for Training Mobile GUI Agents'
+  link: https://arxiv.org/abs/2611.23860
+  authors:
+  - Ziyi He
+  - Xian Wu
+  - Qiyuan Chen
+  - Haitao Li
+  - Cehao Yang
+  - Yinghao Zhu
+  - Xichen Zhang
+  - Xiao Chen
+  - Yushi Feng
+  - Lequan Yu
+  institutions:
+  - HKU
+  - LIGHTSPEED
+  - HKUST
+  - PolyU
+  date: '2026-11-18'
+  publisher: arXiv
+  envs:
+  - Mobile
+  keywords:
+  - mobile GUI agent
+  - task synthesis
+  - program-first synthesis
+  - cross-app workflow
+  - dependency-linked
+  tldr: |-
+    Introduces MobileWeave, a program-first synthesis pipeline that generates dependency-linked tasks as executable programs across mobile apps to teach agents how to compose multi-goal workflows.
+  arxiv_id: '2611.23860'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.23860
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{he2026mobileweave,
+      title = {MobileWeave: Program-First Synthesis of Dependency-Linked Tasks for Training Mobile GUI Agents},
+      author = {Ziyi He and Xian Wu and Qiyuan Chen and Haitao Li and Cehao Yang and Yinghao Zhu and Xichen Zhang and Xiao Chen and Yushi Feng and Lequan Yu},
+      year = {2026},
+      eprint = {2611.23860},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.23860}
+    }
+- title: 'ScaleDiag: Diagnosing the Limits of Test-Time Scaling in GUI Grounding'
+  link: https://arxiv.org/abs/2611.25297
+  authors:
+  - Chen Liu
+  - Zhen Fang
+  - Xin Yu
+  - Dadong Wang
+  - Ling Chen
+  institutions:
+  - Adelaide University
+  - CSIRO
+  - University of Technology Sydney
+  date: '2026-11-18'
+  publisher: ICDM 2026
+  envs:
+  - General GUI
+  keywords:
+  - GUI grounding
+  - test-time scaling
+  - ScaleDiag
+  - visual scaling
+  - error diagnosis
+  tldr: |-
+    Analyzes the performance limits of visual and instruction test-time scaling strategies in GUI grounding, proposing diagnostic metrics to identify when additional scaling leads to negative localization transfer.
+  arxiv_id: '2611.25297'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.25297
+    code: https://github.com/YenanLiu/ScaleDiag
+  bibtex_confirmed: false
+  bibtex: |-
+    @inproceedings{liu2026scalediag,
+      title = {ScaleDiag: Diagnosing the Limits of Test-Time Scaling in GUI Grounding},
+      author = {Chen Liu and Zhen Fang and Xin Yu and Dadong Wang and Ling Chen},
+      year = {2026},
+      booktitle = {ICDM 2026},
+      eprint = {2611.25297},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.25297}
+    }
+- title: 'CANDID: Candidate-Driven Intervention for Disciplined Execution in Local Computer-Use Agents'
+  link: https://arxiv.org/abs/2611.24977
+  authors:
+  - Woongkyu Lee
+  - Jungwook Choi
+  institutions:
+  - Hanyang University
+  date: '2026-11-17'
+  publisher: arXiv
+  envs:
+  - Desktop
+  keywords:
+  - computer-use agent
+  - execution intervention
+  - local CUA
+  - candidate filtering
+  - action discipline
+  tldr: |-
+    Introduces CANDID, an execution-control framework for local computer-use agents that prunes invalid action candidates to suppress looping and uncalibrated clicks in resource-constrained desktop settings.
+  arxiv_id: '2611.24977'
+  sources:
+    arxiv: https://arxiv.org/abs/2611.24977
+  bibtex_confirmed: false
+  bibtex: |-
+    @misc{lee2026candid,
+      title = {CANDID: Candidate-Driven Intervention for Disciplined Execution in Local Computer-Use Agents},
+      author = {Woongkyu Lee and Jungwook Choi},
+      year = {2026},
+      eprint = {2611.24977},
+      archivePrefix = {arXiv},
+      url = {https://arxiv.org/abs/2611.24977}
+    }
 - title: Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination
   link: https://arxiv.org/abs/2611.18514
   authors:
